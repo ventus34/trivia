@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Generator Baz Pytań - Trivia</title>
+    <script>
+        (function () {
+            const theme = localStorage.getItem('trivia_theme') || 'oled';
+            if (theme !== 'light') { document.documentElement.className = theme; }
+        })();
+    </script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+
+    <header class="bg-slate-900 border-b border-slate-800 py-4 px-6 flex justify-between items-center flex-shrink-0">
+        <div class="flex items-center gap-3">
+            <span class="text-2xl">⚙️</span>
+            <h1 class="text-xl font-bold text-white">Trivia Database Generator</h1>
+        </div>
+        <div class="flex items-center gap-4">
+            <div class="inline-flex rounded-md shadow-sm">
+                <button id="lang-pl" class="lang-btn px-3 py-1.5 text-xs font-medium text-gray-400 bg-slate-850 border border-slate-700 rounded-l-md hover:bg-slate-800">Polski</button>
+                <button id="lang-en" class="lang-btn -ml-px px-3 py-1.5 text-xs font-medium text-gray-400 bg-slate-850 border border-slate-700 rounded-r-md hover:bg-slate-800">English</button>
+            </div>
+            <a href="index.html"
+                class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm px-4 py-2 rounded-lg transition-colors flex items-center gap-1.5 shadow">
+                <span>⬅️</span> <span data-lang-key="gen_back_to_game">Powrót do Gry</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4 md:p-6 max-w-7xl flex flex-col gap-6 overflow-y-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+            <div class="lg:col-span-1 space-y-6">
+                <div id="setup-screen"
+                    class="p-6 rounded-2xl shadow-xl w-full h-auto flex flex-col bg-slate-900 border border-slate-800">
+                    <h2 class="text-xl font-bold mb-4 text-white flex items-center gap-2" data-lang-key="gen_llm_config_title">🔑 Konfiguracja LLM</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <label for="gen-provider" data-lang-key="gen_ai_provider" class="block text-xs font-medium text-gray-400">Dostawca
+                                AI:</label>
+                            <select id="gen-provider"
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                                <option value="openrouter" selected>OpenRouter</option>
+                                <option value="openai">OpenAI</option>
+                                <option value="lm_studio">LM Studio</option>
+                                <option value="ollama">Ollama</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="gen-api-key" data-lang-key="gen_api_key" class="block text-xs font-medium text-gray-400">Klucz API:</label>
+                            <input type="password" autocomplete="new-password" id="gen-api-key" placeholder="sk-..."
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <div class="bg-slate-950 p-3 rounded-lg border border-slate-800 space-y-3">
+                            <div class="flex justify-between items-center">
+                                <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider" data-lang-key="gen_ai_models">Modele
+                                    AI</label>
+                                <button id="gen-fetch-models" data-lang-key="gen_refresh_list"
+                                    class="bg-indigo-600 hover:bg-indigo-700 text-white text-[10px] px-2.5 py-1.5 rounded transition-colors shadow-sm">Odśwież
+                                    listę</button>
+                            </div>
+ 
+                            <div>
+                                <label for="gen-model-select-bp" data-lang-key="gen_model_bp_label" class="block text-[10px] text-gray-500 mb-1">🧠 Model
+                                    dla Blueprintów (Wysoka logika):</label>
+                                <select id="gen-model-select-bp"
+                                    class="block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                                    <option value="google/gemini-2.5-flash" selected>google/gemini-2.5-flash</option>
+                                </select>
+                            </div>
+ 
+                            <div>
+                                <label for="gen-model-select-q" data-lang-key="gen_model_q_label" class="block text-[10px] text-gray-500 mb-1">⚡ Model dla
+                                    Pytań (Szybkość/Wydajność):</label>
+                                <select id="gen-model-select-q"
+                                    class="block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                                    <option value="google/gemini-2.5-flash" selected>google/gemini-2.5-flash</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="gen-api-url" data-lang-key="gen_custom_url" class="block text-xs font-medium text-gray-400">Custom URL
+                                (opcjonalnie):</label>
+                            <input type="text" id="gen-api-url" placeholder="np. http://localhost:1234/v1"
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                        </div>
+                    </div>
+                </div>
+                <div id="setup-screen"
+                    class="p-6 rounded-2xl shadow-xl w-full h-auto flex flex-col bg-slate-900 border border-slate-800">
+                    <h2 class="text-xl font-bold mb-4 text-white flex items-center gap-2" data-lang-key="gen_config_title">📦 Konfiguracja Generatora
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <label for="db-lang" data-lang-key="gen_q_lang" class="block text-xs font-medium text-gray-400">Język pytań:</label>
+                            <select id="db-lang"
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                                <option value="pl" selected data-lang-key="gen_lang_pl">Polski (PL)</option>
+                                <option value="en" data-lang-key="gen_lang_en">English (EN)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="questions-per-category" data-lang-key="gen_q_per_category" class="block text-xs font-medium text-gray-400">Liczba
+                                pytań na kategorię:</label>
+                            <input type="number" id="questions-per-category" min="1" max="200" value="5"
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <div class="flex justify-between items-center mb-1">
+                                <label for="batch-size" data-lang-key="gen_batch_size_label" class="block text-xs font-medium text-gray-400">⚡ Pytań w jednym prompcie (batch):</label>
+                                <span id="batch-size-value" class="text-xs font-bold text-indigo-400 bg-indigo-900/40 px-2 py-0.5 rounded-full">1</span>
+                            </div>
+                            <input type="range" id="batch-size" min="1" max="20" value="1"
+                                class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-indigo-500">
+                            <div class="flex justify-between text-[10px] text-gray-650 mt-1 px-0.5">
+                                <span data-lang-key="gen_batch_slow">1 (wolno, precyzyjnie)</span>
+                                <span data-lang-key="gen_batch_fast">20 (szybko, batch)</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="gen-difficulty" data-lang-key="gen_default_difficulty" class="block text-xs font-medium text-gray-400">Domyślny Poziom
+                                Trudności:</label>
+                            <select id="gen-difficulty"
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                                <option value="basic" data-lang-key="gen_diff_basic">Podstawowy / Basic</option>
+                                <option value="intermediate" selected data-lang-key="gen_diff_intermediate">Średniozaawansowany / Intermediate</option>
+                                <option value="expert" data-lang-key="gen_diff_expert">Ekspercki / Expert</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="gen-theme" data-lang-key="gen_theme_label" class="block text-xs font-medium text-gray-400">Motyw przewodni pytań
+                                (opcjonalnie):</label>
+                            <input type="text" id="gen-theme" data-lang-key="gen_theme_placeholder" placeholder="np. Popkultura lat 90..."
+                                class="mt-1 block w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                        </div>
+ 
+                        <div class="pt-2 border-t border-slate-800 space-y-2">
+                            <label class="block text-xs font-medium text-gray-400 mb-1.5 font-semibold" data-lang-key="gen_workspace_label">Workspace
+                                (Import pytań):</label>
+                            <button id="open-cat-dir-btn" type="button" data-lang-key="gen_open_dir_btn"
+                                class="w-full bg-emerald-600/20 hover:bg-emerald-600/40 text-emerald-300 font-semibold text-xs py-2.5 px-3 rounded-md border border-emerald-700/40 transition-colors flex items-center justify-center gap-1.5 shadow">
+                                📂 Otwórz katalog bazy (.json)
+                            </button>
+                            <div id="cat-dir-list" class="hidden space-y-1 max-h-56 overflow-y-auto pr-0.5"></div>
+                            <button id="import-cat-btn" type="button" data-lang-key="gen_load_file_btn"
+                                class="w-full bg-slate-800 hover:bg-slate-700 text-gray-400 hover:text-gray-200 font-medium text-xs py-2 px-3 rounded-md border border-slate-700 transition-colors flex items-center justify-center gap-1.5">
+                                📄 Wczytaj pojedynczy plik
+                            </button>
+                            <input type="file" id="import-cat-file" accept=".json" class="hidden">
+                        </div>
+                    </div>
+                </div>                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 space-y-6">
+
+                   <div id="setup-screen"
+                    class="p-6 rounded-2xl shadow-xl w-full h-auto flex flex-col bg-slate-900 border border-slate-800">
+                    <div class="flex items-center mb-4">
+                        <h2 class="text-xl font-bold text-white flex items-center gap-2" data-lang-key="gen_cats_and_gen_title">🏷️ Kategorie i Generowanie
+                        </h2>
+                    </div>
+ 
+                    <div class="space-y-4 mb-6" id="categories-inputs-list"></div>
+ 
+                    <div class="flex justify-between items-center gap-4 mb-6 pt-2 border-t border-slate-800/40">
+                        <button id="add-cat-btn" type="button" data-lang-key="gen_add_cat_btn"
+                            class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs px-3.5 py-2 rounded-lg transition-colors flex items-center gap-1 shadow">
+                            ➕ Dodaj Kategorię do wygenerowania
+                        </button>
+                        <button id="clear-cats-btn" type="button" data-lang-key="gen_clear_cats_btn"
+                            class="bg-slate-800 hover:bg-slate-700 border border-slate-750 text-gray-300 font-semibold text-xs px-3.5 py-2 rounded-lg transition-colors flex items-center gap-1 shadow">
+                            🗑️ Wyczyść formularz
+                        </button>
+                    </div>
+ 
+                    <div class="flex gap-4">
+                        <button id="start-gen-btn" data-lang-key="gen_start_btn"
+                            class="flex-grow py-3 px-6 rounded-md shadow-md text-lg font-bold text-white bg-green-600 hover:bg-green-700 transition-colors flex items-center justify-center gap-2">
+                            🚀 Rozpocznij Generowanie
+                        </button>
+                        <button id="stop-gen-btn" data-lang-key="gen_stop_btn"
+                            class="hidden flex-grow py-3 px-6 rounded-md shadow-md text-lg font-bold text-white bg-red-600 hover:bg-red-700 transition-colors"
+                            disabled>
+                            Stop
+                        </button>
+                    </div>
+                </div>
+                                   <div id="progress-panel"
+                    class="hidden p-6 rounded-2xl shadow-xl bg-slate-900 border border-slate-800 flex flex-col gap-4">
+                    <div class="flex justify-between items-center text-white">
+                        <h3 class="font-bold text-lg" data-lang-key="gen_progress_title">⏳ Postęp Generowania</h3>
+                        <span id="progress-percentage" class="text-sm font-bold text-indigo-400">0%</span>
+                    </div>
+                    <div class="w-full bg-slate-800 rounded-full h-3 overflow-hidden">
+                        <div id="progress-bar" class="bg-indigo-500 h-full w-0 transition-all duration-300"></div>
+                    </div>
+                    <div class="flex justify-between text-xs text-gray-400">
+                        <span id="progress-counts" data-lang-key="gen_progress_counts">Wygenerowano: 0 pytań</span>
+                        <span id="current-task-status" data-lang-key="gen_status_waiting">Oczekiwanie...</span>
+                    </div>
+                    <div class="bg-slate-950 p-4 rounded-lg h-36 overflow-y-auto font-mono text-xs text-green-400 border border-slate-800 space-y-1"
+                        id="gen-logs"></div>
+                </div>
+                <div id="review-panel"
+                    class="hidden p-6 rounded-2xl shadow-xl bg-slate-900 border border-slate-800 flex flex-col gap-4">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                        <h3 class="font-bold text-lg text-white"><span data-lang-key="gen_review_title">📝 Baza Pytań</span> (<span id="total-gen-count">0</span>)
+                        </h3>
+                        <div class="flex gap-2 flex-wrap">
+                            <button id="save-all-dir-btn" data-lang-key="gen_save_all_btn"
+                                class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-2 rounded-lg shadow transition-colors flex items-center gap-2">
+                                💾 Zapisz wszystko na dysk
+                            </button>
+                            <button id="export-all-btn" data-lang-key="gen_export_all_btn"
+                                class="bg-slate-700 hover:bg-slate-600 text-white font-bold px-4 py-2 rounded-lg shadow transition-colors flex items-center gap-2">
+                                📥 Pobierz ZIP / Pliki
+                            </button>
+                            <button id="check-spoilers-btn" data-lang-key="gen_check_spoilers_btn"
+                                class="bg-amber-600/20 hover:bg-amber-600/40 text-amber-300 font-bold px-4 py-2 rounded-lg shadow border border-amber-700/40 transition-colors flex items-center gap-2">
+                                ⚠️ Sprawdź Spoilery
+                            </button>
+                        </div>
+                    </div>
+ 
+                    <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                        <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2" data-lang-key="gen_download_cats_subtitle">Pobierz lub zapisz
+                            kategorie:</h4>
+                        <div id="category-downloads-grid" class="grid grid-cols-2 md:grid-cols-3 gap-3"></div>
+                    </div>
+ 
+                    <div class="flex flex-col sm:flex-row gap-3 bg-slate-800 p-3 rounded-lg border border-slate-700">
+                        <input type="text" id="search-q" data-lang-key="gen_search_placeholder" placeholder="Szukaj w pytaniach i odpowiedziach..."
+                            class="flex-grow px-3 py-2 bg-slate-900 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                        <select id="filter-cat"
+                            class="px-3 py-2 bg-slate-900 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                            <option value="ALL" data-lang-key="gen_filter_all_cats">Wszystkie kategorie</option>
+                        </select>
+                        <select id="filter-lang"
+                            class="px-3 py-2 bg-slate-900 border border-slate-700 rounded-md text-sm text-white focus:outline-none focus:border-indigo-500">
+                            <option value="ALL" data-lang-key="gen_filter_all_langs">Wszystkie języki</option>
+                            <option value="pl" data-lang-key="gen_filter_lang_pl">Polski (PL)</option>
+                            <option value="en" data-lang-key="gen_filter_lang_en">English (EN)</option>
+                        </select>
+                        <button id="add-manual-q-btn" data-lang-key="gen_new_q_btn"
+                            class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-sm font-semibold transition-colors flex items-center gap-1 shadow-md">
+                            ➕ Nowe pytanie
+                        </button>
+                    </div>                       <div class="overflow-x-auto border border-slate-800 rounded-lg max-h-[600px] overflow-y-auto">
+                        <table class="min-w-full divide-y divide-slate-800 text-sm text-left text-gray-300">
+                            <thead class="bg-slate-950 text-gray-400 uppercase text-xs sticky top-0 z-10">
+                                <tr>
+                                    <th class="px-4 py-3" data-lang-key="gen_table_th_category">Kategoria</th>
+                                    <th class="px-4 py-3" data-lang-key="gen_table_th_question">Pytanie</th>
+                                    <th class="px-4 py-3" data-lang-key="gen_table_th_answer">Poprawna Odpowiedź</th>
+                                    <th class="px-4 py-3 text-center w-24" data-lang-key="gen_table_th_actions">Akcje</th>
+                                    <th class="px-4 py-3 w-8"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="questions-table-body" class="divide-y divide-slate-800">
+                            </tbody>
+                        </table>
+                    </div>                      </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div id="q-modal"
+        class="fixed inset-0 z-50 bg-black/80 flex items-center justify-center hidden opacity-0 transition-opacity duration-200 p-4">
+        <div class="bg-slate-900 border border-slate-700 rounded-xl shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col overflow-hidden transform scale-95 transition-transform duration-200"
+            id="q-modal-content">
+            <div class="px-6 py-4 border-b border-slate-800 flex justify-between items-center bg-slate-950">
+                <h3 class="text-lg font-bold text-white" id="q-modal-title" data-lang-key="gen_modal_edit_title">Edytuj pytanie</h3>
+                <button id="close-modal-btn"
+                    class="text-gray-400 hover:text-white transition-colors text-xl leading-none">&times;</button>
+            </div>
+
+            <div class="p-6 overflow-y-auto space-y-4 text-sm flex-grow">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1" data-lang-key="gen_modal_category">Kategoria</label>
+                        <input type="text" id="modal-cat"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1" data-lang-key="gen_modal_subcategory">Tag / Podkategoria
+                            (opcjonalne)</label>
+                        <input type="text" id="modal-subcat"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1" data-lang-key="gen_modal_language">Język</label>
+                        <select id="modal-lang"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                            <option value="pl" data-lang-key="gen_lang_pl">Polski (PL)</option>
+                            <option value="en" data-lang-key="gen_lang_en">English (EN)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-gray-400 mb-1" data-lang-key="gen_modal_q_text">Treść Pytania</label>
+                    <textarea id="modal-q" rows="2"
+                        class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none"></textarea>
+                </div>
+
+                <div class="bg-slate-950 p-4 rounded-lg border border-slate-800 space-y-3">
+                    <label class="block text-xs font-semibold text-gray-400 uppercase tracking-wider" data-lang-key="gen_modal_options_title">Opcje
+                        odpowiedzi</label>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <input type="text" id="modal-opt-1" placeholder="Opcja A"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                        <input type="text" id="modal-opt-2" placeholder="Opcja B"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                        <input type="text" id="modal-opt-3" placeholder="Opcja C"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                        <input type="text" id="modal-opt-4" placeholder="Opcja D"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1 mt-2" data-lang-key="gen_modal_correct_hint">Wskaż poprawną (musi być
+                            identyczna jak jedna z opcji wyżej!)</label>
+                        <select id="modal-ans"
+                            class="w-full px-3 py-2 bg-emerald-900/30 border border-emerald-700/50 rounded-md text-emerald-300 font-semibold focus:border-emerald-500 outline-none">
+                            <option value="1">Opcja A</option>
+                            <option value="2">Opcja B</option>
+                            <option value="3">Opcja C</option>
+                            <option value="4">Opcja D</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1" data-lang-key="gen_modal_explanation_correct">Wyjaśnienie (poprawna)</label>
+                        <textarea id="modal-exp-c" rows="2"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none text-xs"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1" data-lang-key="gen_modal_explanation_incorrect">Wyjaśnienie (błędne
+                            dystraktory)</label>
+                        <textarea id="modal-exp-i" rows="2"
+                            class="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-md text-white focus:border-indigo-500 outline-none text-xs"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-6 py-4 border-t border-slate-800 bg-slate-950 flex justify-end gap-3">
+                <button id="cancel-modal-btn" data-lang-key="gen_modal_cancel"
+                    class="px-4 py-2 rounded-md bg-slate-800 hover:bg-slate-700 text-gray-300 transition-colors text-sm font-semibold">Anuluj</button>
+                <button id="save-modal-btn" data-lang-key="gen_modal_save"
+                    class="px-5 py-2 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white transition-colors text-sm font-semibold shadow-lg">Zapisz</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="spoiler-modal"
+        class="fixed inset-0 z-50 bg-black/80 flex items-center justify-center hidden opacity-0 transition-opacity duration-200 p-4">
+        <div class="bg-slate-900 border border-slate-700 rounded-xl shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col overflow-hidden transform scale-95 transition-transform duration-200"
+            id="spoiler-modal-content">
+            <div class="px-6 py-4 border-b border-slate-800 flex justify-between items-center bg-slate-950">
+                <div class="flex items-center gap-2">
+                    <span class="text-xl">⚠️</span>
+                    <h3 class="text-lg font-bold text-white" data-lang-key="gen_spoiler_title">Wykryte Spoilery w Pytaniach</h3>
+                </div>
+                <button id="close-spoiler-modal-btn"
+                    class="text-gray-400 hover:text-white transition-colors text-xl leading-none">&times;</button>
+            </div>
+ 
+            <div class="p-6 overflow-y-auto space-y-4 text-sm flex-grow">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 bg-slate-950 p-4 rounded-lg border border-slate-800">
+                    <p class="text-gray-400 text-xs flex-grow" data-lang-key="gen_spoiler_desc">
+                        Narzędzie wykrywa pytania, w których treść pytania zawiera poprawną odpowiedź (lub jej odmienioną formę/część). Możesz poprawić je ręcznie w tabeli lub automatycznie za pomocą AI.
+                    </p>
+                    <div class="flex items-center gap-3 shrink-0">
+                        <select id="spoiler-lang-filter"
+                            class="px-3 py-2 bg-slate-900 border border-slate-700 rounded-md text-xs text-white focus:outline-none focus:border-indigo-500">
+                            <option value="ALL" selected data-lang-key="gen_spoiler_all_langs">Wszystkie języki</option>
+                            <option value="pl" data-lang-key="gen_filter_lang_pl">Polski (PL)</option>
+                            <option value="en" data-lang-key="gen_filter_lang_en">English (EN)</option>
+                        </select>
+                        <button id="autofix-all-spoilers-btn" data-lang-key="gen_spoiler_autofix_btn"
+                            class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md text-xs font-bold transition-colors flex items-center gap-1.5 shadow-md shrink-0">
+                            🤖 Popraw wyświetlone przez AI
+                        </button>
+                    </div>
+                </div>
+ 
+                <div class="overflow-x-auto border border-slate-800 rounded-lg max-h-[50vh] overflow-y-auto">
+                    <table class="min-w-full divide-y divide-slate-800 text-sm text-left text-gray-300">
+                        <thead class="bg-slate-950 text-gray-400 uppercase text-xs sticky top-0 z-10">
+                            <tr>
+                                <th class="px-4 py-3" data-lang-key="gen_spoiler_th_original">Pytanie (Oryginał)</th>
+                                <th class="px-4 py-3 w-40" data-lang-key="gen_spoiler_th_answer">Odpowiedź</th>
+                                <th class="px-4 py-3 w-40" data-lang-key="gen_spoiler_th_match">Dopasowanie</th>
+                                <th class="px-4 py-3" data-lang-key="gen_spoiler_th_new_text">Nowa Treść Pytania</th>
+                                <th class="px-4 py-3 text-center w-36" data-lang-key="gen_spoiler_th_actions">Akcje</th>
+                            </tr>
+                        </thead>
+                        <tbody id="spoilers-table-body" class="divide-y divide-slate-800">
+                            <!-- JS rows here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+ 
+            <div class="px-6 py-4 border-t border-slate-800 bg-slate-950 flex justify-between gap-3">
+                <div class="text-xs text-gray-500 self-center" id="spoiler-status-msg" data-lang-key="gen_spoiler_status_msg">
+                    Wykryto <span id="spoiler-count" class="font-bold text-amber-500">0</span> podejrzanych pytań.
+                </div>
+                <div class="flex gap-3">
+                    <button id="save-all-spoilers-btn"
+                        class="px-5 py-2 rounded-md bg-emerald-600 hover:bg-emerald-700 text-white transition-colors text-sm font-semibold shadow-lg">
+                        💾 <span data-lang-key="gen_spoiler_save_btn">Zapisz wszystkie</span>
+                    </button>
+                    <button id="close-spoiler-modal-bottom-btn" data-lang-key="gen_spoiler_close_btn"
+                        class="px-5 py-2 rounded-md bg-slate-800 hover:bg-slate-700 text-gray-300 transition-colors text-sm font-semibold">Zamknij</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gen-notification"
+        class="fixed top-5 right-5 bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-xl z-50 transform translate-y-[-100px] opacity-0 transition-all duration-300">
+        <span id="gen-notification-text">Powiadomienie</span>
+    </div>
+
+    <script src="js/generator.js" type="module"></script>
+</body>
+
+</html>

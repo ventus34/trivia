@@ -1,0 +1,40 @@
+import js from '@eslint/js';
+
+export default [
+  js.configs.recommended,
+  {
+    files: ['js/**/*.js'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: {
+        window: 'readonly',
+        document: 'readonly',
+        navigator: 'readonly',
+        localStorage: 'readonly',
+        confirm: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
+        URL: 'readonly',
+        FileReader: 'readonly',
+        console: 'readonly',
+        fetch: 'readonly',
+        Event: 'readonly',
+        CustomEvent: 'readonly',
+        Blob: 'readonly',
+        ResizeObserver: 'readonly',
+        performance: 'readonly',
+        requestAnimationFrame: 'readonly',
+        AbortController: 'readonly',
+        URLSearchParams: 'readonly',
+        initSqlJs: 'readonly',
+        d3: 'readonly',
+        Chart: 'readonly',
+        container: 'readonly'
+      }
+    },
+    rules: {
+      'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }]
+    }
+  }
+];
