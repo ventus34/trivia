@@ -1522,6 +1522,8 @@ function renderSpoilersTable() {
                 <div class="space-y-2 py-1">
                     <textarea class="w-full px-2 py-1 bg-slate-950 border border-slate-800 text-gray-500 rounded outline-none text-xs" rows="2" readonly disabled>${item.newQuestionText}</textarea>
                     <input type="text" class="w-full px-2 py-1 bg-slate-950 border border-slate-800 text-gray-500 rounded outline-none text-xs" readonly disabled value="${item.newAnswerText}">
+                    <textarea class="w-full px-2 py-1 bg-slate-950 border border-slate-800 text-gray-500 rounded outline-none text-xs" rows="2" readonly disabled>${item.explanationCorrect || ''}</textarea>
+                    <textarea class="w-full px-2 py-1 bg-slate-950 border border-slate-800 text-gray-500 rounded outline-none text-xs" rows="2" readonly disabled>${item.explanationIncorrect || ''}</textarea>
                 </div>
             `;
     } else {
@@ -1541,6 +1543,14 @@ function renderSpoilersTable() {
                     <div>
                         <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${currentLanguage === 'pl' ? 'Nowa Odpowiedź' : 'New Answer'}:</label>
                         <input type="text" class="new-ans-input w-full px-2 py-1 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none text-xs" data-index="${index}" value="${item.newAnswerText}">
+                    </div>
+                    <div>
+                        <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${translations.gen_modal_explanation_correct[currentLanguage]}:</label>
+                        <textarea class="new-exp-c-textarea w-full px-2 py-1 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none text-xs" rows="2" data-index="${index}">${item.explanationCorrect || ''}</textarea>
+                    </div>
+                    <div>
+                        <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${translations.gen_modal_explanation_incorrect[currentLanguage]}:</label>
+                        <textarea class="new-exp-i-textarea w-full px-2 py-1 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none text-xs" rows="2" data-index="${index}">${item.explanationIncorrect || ''}</textarea>
                     </div>
                 </div>
             `;
@@ -1578,6 +1588,20 @@ function renderSpoilersTable() {
       });
     }
 
+    const expCTxt = tr.querySelector('.new-exp-c-textarea');
+    if (expCTxt) {
+      expCTxt.addEventListener('input', (e) => {
+        item.explanationCorrect = e.target.value;
+      });
+    }
+
+    const expITxt = tr.querySelector('.new-exp-i-textarea');
+    if (expITxt) {
+      expITxt.addEventListener('input', (e) => {
+        item.explanationIncorrect = e.target.value;
+      });
+    }
+
     const aiBtn = tr.querySelector('.ai-fix-btn');
     if (aiBtn) aiBtn.addEventListener('click', () => rewriteSpoilerSingle(index));
 
@@ -1589,10 +1613,8 @@ function renderSpoilersTable() {
           generatedQuestions[mainIdx].question = item.newQuestionText;
           generatedQuestions[mainIdx].answer = item.newAnswerText;
           generatedQuestions[mainIdx].options = [...item.newOptions];
-          if (item.explanationCorrect)
-            generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect;
-          if (item.explanationIncorrect)
-            generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect;
+          generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect || '';
+          generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect || '';
         }
         activeSpoilers.splice(index, 1);
         showNotification(translations.gen_spoilers_saved_single[currentLanguage]);
@@ -1641,7 +1663,9 @@ async function rewriteSpoilerSingle(index, skipRender = false) {
       .replace('{subcategory}', item.questionObj.subcategory || '')
       .replace('{question}', item.questionObj.question)
       .replace('{answer}', item.questionObj.answer)
-      .replace('{options}', JSON.stringify(item.questionObj.options));
+      .replace('{options}', JSON.stringify(item.questionObj.options))
+      .replace('{explanation_correct}', item.questionObj.explanation_correct || '')
+      .replace('{explanation_incorrect}', item.questionObj.explanation_incorrect || '');
 
     const res = await callLLM(provider, model, system, prompt);
     if (res && res.question) {
@@ -1740,6 +1764,8 @@ async function rewriteAllSpoilers() {
             question: qObj.question,
             answer: qObj.answer,
             options: qObj.options,
+            explanation_correct: qObj.explanation_correct || '',
+            explanation_incorrect: qObj.explanation_incorrect || '',
           };
         });
 
@@ -1808,10 +1834,8 @@ function saveAllSpoilersChanges() {
       generatedQuestions[mainIdx].question = item.newQuestionText;
       generatedQuestions[mainIdx].answer = item.newAnswerText;
       generatedQuestions[mainIdx].options = [...item.newOptions];
-      if (item.explanationCorrect)
-        generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect;
-      if (item.explanationIncorrect)
-        generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect;
+      generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect || '';
+      generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect || '';
       countSaved++;
     }
   });

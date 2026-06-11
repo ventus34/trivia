@@ -57,6 +57,8 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
   UI.explanationText.innerHTML = '';
   UI.verificationButtons.classList.remove('hidden');
   UI.postVerificationButtons.classList.add('hidden');
+  UI.closePopupBtn.classList.remove('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
+  UI.closePopupBtn.classList.add('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-800');
   UI.answerPopupTitle.textContent = translations.answer_evaluation[gameState.currentLanguage];
 
   const answersMatch = playerAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();

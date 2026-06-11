@@ -458,6 +458,14 @@ export async function handleManualVerification(isCorrect) {
   UI.verificationButtons.classList.add('hidden');
   UI.postVerificationButtons.classList.remove('hidden');
 
+  if (isCorrect) {
+    UI.closePopupBtn.classList.remove('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-850');
+    UI.closePopupBtn.classList.add('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
+  } else {
+    UI.closePopupBtn.classList.remove('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
+    UI.closePopupBtn.classList.add('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-800');
+  }
+
   renderExplanation({
     questionData: gameState.currentQuestionData,
     lang: gameState.currentLanguage,
