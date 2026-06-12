@@ -8,7 +8,7 @@ import { UI } from './dom.js';
 import { translations } from './config.js';
 import { gameState } from './state.js';
 import { notify } from './error-bus.js';
-import { setLanguage, registerUIHandlers } from './ui.js';
+import { setLanguage, registerUIHandlers, goToWizardStep } from './ui.js';
 import { loadGameState, restoreGameState } from './persistence.js';
 import { askQuestion, handleSquareClick, checkWinCondition, nextTurn } from './game-flow.js';
 import { handleSuggestAlternatives } from './game-api.js';
@@ -92,6 +92,7 @@ export async function initializeApp(apiAdapter) {
     restoreGameState(savedGame);
   } else {
     setLanguage(localStorage.getItem('trivia_lang') || 'pl');
+    goToWizardStep(1);
   }
 
   setupStateSubscriptions();

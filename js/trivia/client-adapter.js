@@ -56,24 +56,8 @@ const clientAdapter = {
       }
     }
 
-    if (!gameState.selectedCategoryIds || gameState.selectedCategoryIds.length < 6) {
-      try {
-        const listRes = await fetch('databases/list.json');
-        if (listRes.ok) {
-          const listData = await listRes.json();
-          gameState.allCategories = listData;
-          const lang = gameState.currentLanguage || 'pl';
-          const langMatch = listData.filter((c) => c.language === lang);
-          const candidates = langMatch.length >= 6 ? langMatch : listData;
-          gameState.selectedCategoryIds = candidates.slice(0, 6).map((c) => c.id);
-        }
-      } catch (err) {
-        console.error('Failed to load list.json in loadDatabase:', err);
-      }
-    }
-
-    if (!gameState.selectedCategoryIds || gameState.selectedCategoryIds.length === 0) {
-      console.warn('No categories selected to load.');
+    if (!gameState.selectedCategoryIds || gameState.selectedCategoryIds.length !== 6) {
+      console.warn('Need exactly 6 categories selected to load database.');
       return;
     }
 

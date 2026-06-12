@@ -26,6 +26,9 @@ export {
   renderCategorySelectionGrid,
   applyCategorySelectionPreset,
   applyRandomCategorySelection,
+  currentWizardStep,
+  goToWizardStep,
+  validateStep3NextButton,
 } from './ui-setup.js';
 
 export { registerUIHandlers };

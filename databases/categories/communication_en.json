@@ -1,0 +1,1512 @@
+{
+  "id": "communication_en",
+  "name": "Communication",
+  "language": "en",
+  "description": "Questions covering: Early Systems, Telephony, Broadcast, Computing, Telegraphy, Signals...",
+  "created_at": "2026-06-12T16:42:52.164Z",
+  "last_verified_at": "2026-06-12T16:41:48.751Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 100,
+  "questions": [
+    {
+      "subcategory": "Early Systems",
+      "question": "Which individual is credited with the invention of the optical telegraph in the late 18th century?",
+      "options": [
+        "Claude Chappe",
+        "Samuel Morse",
+        "Alexander Graham Bell",
+        "Charles Wheatstone"
+      ],
+      "answer": "Claude Chappe",
+      "explanation_correct": "Claude Chappe established the first practical semaphore telegraph network in France.",
+      "explanation_incorrect": "The other individuals are associated with electrical telegraphy or telephony rather than optical signaling networks.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Early Systems",
+      "question": "Which items were commonly utilized to manipulate smoke patterns for signaling purposes in historical contexts?",
+      "options": [
+        "Large blankets",
+        "Mirror sets",
+        "Metal buckets",
+        "Wooden shutter boards"
+      ],
+      "answer": "Large blankets",
+      "explanation_correct": "Large blankets were frequently used to cover and uncover fires to create discrete puffs of smoke.",
+      "explanation_incorrect": "Mirrors and shutters are components of visual telegraph systems, whereas buckets lack the surface area to effectively regulate gas release.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Telephony",
+      "question": "Who is recognized for building the first acoustic telephone in 1667, which transmitted sound through a taut wire?",
+      "options": [
+        "Robert Hooke",
+        "Antonio Meucci",
+        "Elisha Gray",
+        "Alexander Graham Bell"
+      ],
+      "answer": "Robert Hooke",
+      "explanation_correct": "Robert Hooke demonstrated the propagation of sound through a tensioned wire, predating electrical telephones.",
+      "explanation_incorrect": "The others are 19th-century inventors primarily focused on electrical voice transmission technologies.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Telephony",
+      "question": "Who was the first person to receive a human voice transmitted via the telephone in 1876?",
+      "options": [
+        "Thomas Watson",
+        "Alexander Graham Bell",
+        "Elisha Gray",
+        "Antonio Meucci"
+      ],
+      "answer": "Thomas Watson",
+      "explanation_correct": "Thomas Watson was the assistant listening on the receiving end when the first intelligible sentence was transmitted.",
+      "explanation_incorrect": "Alexander Graham Bell was the speaker, while the others were separate inventors competing in the field.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Broadcast",
+      "question": "Which inventor successfully demonstrated long-distance radiotelegraphy, earning him a Nobel Prize?",
+      "options": [
+        "Guglielmo Marconi",
+        "Nikola Tesla",
+        "Heinrich Hertz",
+        "Reginald Fessenden"
+      ],
+      "answer": "Guglielmo Marconi",
+      "explanation_correct": "Guglielmo Marconi is widely recognized for his successful implementation of radio as a wireless telegraphy system.",
+      "explanation_incorrect": "Tesla, Hertz, and Fessenden provided foundational scientific principles, but they did not lead the commercialization of radiotelegraphy in the same capacity.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Computing",
+      "question": "Which computer scientist is credited with developing Hypertext Transfer Protocol (HTTP) and creating the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Vint Cerf",
+        "Marc Andreessen",
+        "Robert Kahn"
+      ],
+      "answer": "Tim Berners-Lee",
+      "explanation_correct": "Tim Berners-Lee invented the World Wide Web while working at CERN in 1989.",
+      "explanation_incorrect": "Cerf and Kahn developed the TCP/IP stack, while Andreessen created the Mosaic browser.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Computing",
+      "question": "What is the global character encoding standard that assigns a unique number to every character across diverse writing systems?",
+      "options": [
+        "Unicode",
+        "ASCII",
+        "ISO-8859",
+        "UTF-16"
+      ],
+      "answer": "Unicode",
+      "explanation_correct": "Unicode provides a consistent way to represent text in most of the world's writing systems.",
+      "explanation_incorrect": "ASCII is limited to English-based character sets, and ISO-8859 is an older, fragmented regional standard series.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Computing",
+      "question": "Which standard protocol is primarily utilized for sending email messages across the internet?",
+      "options": [
+        "SMTP",
+        "IMAP",
+        "POP3",
+        "HTTP"
+      ],
+      "answer": "SMTP",
+      "explanation_correct": "Simple Mail Transfer Protocol (SMTP) acts as the standard for message transmission from sender to server.",
+      "explanation_incorrect": "IMAP and POP3 are protocols specifically designed for the retrieval of mail rather than sending.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Computing",
+      "question": "Which protocol is designed for retrieving email messages while maintaining synchronization across multiple devices?",
+      "options": [
+        "IMAP",
+        "SMTP",
+        "POP3",
+        "SNMP"
+      ],
+      "answer": "IMAP",
+      "explanation_correct": "Internet Message Access Protocol allows users to manage email on a server without necessarily downloading it to a local machine.",
+      "explanation_incorrect": "SMTP is for outgoing mail, while POP3 typically downloads and deletes messages from the server, hindering synchronization.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Telegraphy",
+      "question": "What signaling system uses a standardized sequence of short and long pulses to transmit information?",
+      "options": [
+        "Morse Code",
+        "Baudot Code",
+        "ASCII",
+        "Binary Code"
+      ],
+      "answer": "Morse Code",
+      "explanation_correct": "Morse Code represents letters and numbers through the duration of key presses known as dots and dashes.",
+      "explanation_incorrect": "Baudot is a fixed-length character code, while binary and ASCII are digital computer representations.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signals",
+      "question": "What is the industry standard name for short-range wireless frequency-hopping technology?",
+      "options": [
+        "Bluetooth",
+        "Wi-Fi",
+        "ZigBee",
+        "NFC"
+      ],
+      "answer": "Bluetooth",
+      "explanation_correct": "Bluetooth was named to symbolize the unification of distinct device communication standards.",
+      "explanation_incorrect": "Wi-Fi, ZigBee, and NFC are competing wireless communication protocols meant for different ranges or application types.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signals",
+      "question": "Which historical figure served as the namesake for a widely used wireless personal area network technology?",
+      "options": [
+        "Harald Gormsson",
+        "Leif Erikson",
+        "Ragnar Lodbrok",
+        "Cnut the Great"
+      ],
+      "answer": "Harald Gormsson",
+      "explanation_correct": "Harald Gormsson, known as 'Bluetooth,' was a Scandinavian king noted for unifying disparate tribes.",
+      "explanation_incorrect": "Other figures are famous Norsemen but do not share the connection to the wireless technology name.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Linguistics",
+      "question": "What branch of linguistics is focused on the analysis of meaning within expressions, sentences, or documents?",
+      "options": [
+        "Semantics",
+        "Syntax",
+        "Pragmatics",
+        "Morphology"
+      ],
+      "answer": "Semantics",
+      "explanation_correct": "Semantics investigates how meaning is constructed and understood through words and relations.",
+      "explanation_incorrect": "Syntax concerns sentence structure, whereas pragmatics and morphology address context and internal word composition, respectively.",
+      "last_verified_at": "2026-06-12T16:41:18.988Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Linguistics",
+      "question": "Which subfield of linguistics is primarily concerned with the physical production and perception of speech sounds?",
+      "options": [
+        "Phonetics",
+        "Phonology",
+        "Semantics",
+        "Syntax"
+      ],
+      "answer": "Phonetics",
+      "explanation_correct": "Phonetics studies the acoustic and physiological properties of human speech sounds.",
+      "explanation_incorrect": "Phonology examines sound patterns within a language, while semantics and syntax are abstract systems of meaning and structure.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Linguistics",
+      "question": "What is the name of the auxiliary constructed language designed by L. L. Zamenhof to promote universal understanding?",
+      "options": [
+        "Esperanto",
+        "Volapük",
+        "Ido",
+        "Interlingua"
+      ],
+      "answer": "Esperanto",
+      "explanation_correct": "Esperanto was published in 1887 with the intent of facilitating cross-cultural communication.",
+      "explanation_incorrect": "While others are planned languages, Esperanto is the most successful and well-known one developed in that era.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Writing Systems",
+      "question": "What is the term for the pictographic writing style used by ancient Egyptians for monumental inscriptions?",
+      "options": [
+        "Hieroglyphs",
+        "Cuneiform",
+        "Linear B",
+        "Demotic"
+      ],
+      "answer": "Hieroglyphs",
+      "explanation_correct": "Hieroglyphs represent a formal writing system used by Egyptians consisting of logographic and alphabetic elements.",
+      "explanation_incorrect": "Cuneiform is a distinct Mesopotamian script, whereas Linear B and Demotic are different historical writing styles.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Writing Systems",
+      "question": "Which ancient writing method is characterized by the use of wedge-shaped marks impressed into clay?",
+      "options": [
+        "Cuneiform",
+        "Hieroglyphs",
+        "Hieratic",
+        "Phoenician"
+      ],
+      "answer": "Cuneiform",
+      "explanation_correct": "Cuneiform was developed in Mesopotamia and used by civilizations such as the Sumerians.",
+      "explanation_incorrect": "Hieroglyphs and Hieratic are linked to Egyptian systems, while Phoenician is an early alphabetic script.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Media",
+      "question": "Which international news agency, founded in London in 1851, provides text and video reporting globally?",
+      "options": [
+        "Reuters",
+        "Associated Press",
+        "Agence France-Presse",
+        "Bloomberg"
+      ],
+      "answer": "Reuters",
+      "explanation_correct": "Reuters is a British-headquartered news organization known for its comprehensive international coverage.",
+      "explanation_incorrect": "AP, AFP, and Bloomberg are major news agencies, but they originated in the US, France, and the US respectively.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Media",
+      "question": "What is the acronym for Japan's sole public broadcaster, which operates numerous domestic and global television services?",
+      "options": [
+        "NHK",
+        "JNN",
+        "NTV",
+        "TV Asahi"
+      ],
+      "answer": "NHK",
+      "explanation_correct": "Nippon Hoso Kyokai (NHK) is Japan's public broadcasting organization.",
+      "explanation_incorrect": "The others are Japanese commercial broadcast corporations rather than specifically state-funded public media.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mobile",
+      "question": "Which mobile operating system was acquired and further developed by Google for touch-screen devices?",
+      "options": [
+        "Android",
+        "iOS",
+        "Windows Phone",
+        "Symbian"
+      ],
+      "answer": "Android",
+      "explanation_correct": "Google purchased the original company behind Android and transformed it into a dominant mobile platform.",
+      "explanation_incorrect": "iOS is owned by Apple, and the others represent discontinued mobile platforms by different companies.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sign Language",
+      "question": "Which sign language is primarily utilized by the deaf community in the United States?",
+      "options": [
+        "BSL",
+        "ASL",
+        "JSL",
+        "ISL"
+      ],
+      "answer": "ASL",
+      "explanation_correct": "ASL is the predominant sign language used by deaf individuals in the United States and Canada.",
+      "explanation_incorrect": "BSL, JSL, and ISL refer to British, Japanese, and international sign languages respectively, which are distinct systems.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sign Language",
+      "question": "What is the name of the reading and writing system used by visually impaired individuals consisting of raised dot patterns?",
+      "options": [
+        "Morse",
+        "Braille",
+        "Moon",
+        "Tadoma"
+      ],
+      "answer": "Braille",
+      "explanation_correct": "Braille allows for tactile reading and writing of information by people who are blind or experience low vision.",
+      "explanation_incorrect": "Morse uses signals, while Moon and Tadoma are alternative communication systems not based on standard raised dot cells.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Broadcasting",
+      "question": "Which public service broadcaster serves as the national broadcaster of the United Kingdom?",
+      "options": [
+        "CNN",
+        "BBC",
+        "CBC",
+        "ABC"
+      ],
+      "answer": "BBC",
+      "explanation_correct": "The British Broadcasting Corporation is the world's oldest national broadcaster.",
+      "explanation_incorrect": "CNN, CBC, and ABC refer to cable or national networks based in the US, Canada, or Australia.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Broadcasting",
+      "question": "Which American commercial broadcast network was established as the first major radio network in the United States?",
+      "options": [
+        "CBS",
+        "NBC",
+        "ABC",
+        "PBS"
+      ],
+      "answer": "NBC",
+      "explanation_correct": "The National Broadcasting Company began official operations in 1926 as the first major radio network.",
+      "explanation_incorrect": "CBS, ABC, and PBS were founded later or served different mandates in the American broadcasting market.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optical",
+      "question": "Which transmission technology utilizes light pulses directed through glass or plastic threads to carry digital data?",
+      "options": [
+        "Copper wiring",
+        "Satellite microwave",
+        "Fiber optics",
+        "Infrared sensors"
+      ],
+      "answer": "Fiber optics",
+      "explanation_correct": "Fiber optics enables high-speed data transmission by sending pulses of light through a physical cable.",
+      "explanation_incorrect": "Copper wiring, microwaves, and infrared are alternative transmission methods that do not rely on light-conducting glass fibers.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optical",
+      "question": "Who is credited with the invention of the photophone, an early device capable of transmitting sound via light beams?",
+      "options": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "Guglielmo Marconi"
+      ],
+      "answer": "Alexander Graham Bell",
+      "explanation_correct": "Alexander Graham Bell patented the photophone in 1880, demonstrating wireless voice communication using light.",
+      "explanation_incorrect": "Edison, Tesla, and Marconi contributed to electricity, radio, and power distribution, not photonic voice transmission.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Networking",
+      "question": "What is the acronym for a network that connects computers within a limited, specific physical area like a home or building?",
+      "options": [
+        "WAN",
+        "MAN",
+        "LAN",
+        "PAN"
+      ],
+      "answer": "LAN",
+      "explanation_correct": "A Local Area Network (LAN) covers a restricted area, providing high-speed connections for local devices.",
+      "explanation_incorrect": "WAN, MAN, and PAN refer to wider geographical distributions or personal device proximity, not local area setups.",
+      "last_verified_at": "2026-06-12T16:41:18.989Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Networking",
+      "question": "What specific hardware device directs and forwards data packets between different computer networks?",
+      "options": [
+        "Switch",
+        "Router",
+        "Modem",
+        "Hub"
+      ],
+      "answer": "Router",
+      "explanation_correct": "A router acts as a traffic director, determining the most efficient path for data to travel between networks.",
+      "explanation_incorrect": "Switches, modems, and hubs operate at different OSI layers or serve distinct functions like modulation or broadcast.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Journalism",
+      "question": "Which prestigious award is recognized as the highest honor for contributions to American newspaper, magazine, online journalism, and literature?",
+      "options": [
+        "Peabody Award",
+        "Pulitzer Prize",
+        "Edward R. Murrow Award",
+        "George Polk Award"
+      ],
+      "answer": "Pulitzer Prize",
+      "explanation_correct": "The Pulitzer Prize is administered by Columbia University and recognizes excellence in journalistic achievements.",
+      "explanation_incorrect": "The other awards, while significant in media, do not match the overarching national prestige and scope of the Pulitzer.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Journalism",
+      "question": "Which form of journalism relies upon sensationalism and crude exaggeration rather than legitimate, well-researched reporting?",
+      "options": [
+        "Gonzo journalism",
+        "Yellow journalism",
+        "Investigative journalism",
+        "Tabloid journalism"
+      ],
+      "answer": "Yellow journalism",
+      "explanation_correct": "Yellow journalism characterizes the competitive, sensationalist style popularized in the late 19th century press.",
+      "explanation_incorrect": "Gonzo and investigative journalism involve specific stylistic or depth requirements, while 'tabloid' is a format rather than the specific historic stylistic label.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Information Theory",
+      "question": "Who is famously considered the primary originator of information theory for his foundational paper on communication systems?",
+      "options": [
+        "Alan Turing",
+        "John von Neumann",
+        "Claude Shannon",
+        "Norbert Wiener"
+      ],
+      "answer": "Claude Shannon",
+      "explanation_correct": "Claude Shannon's 1948 paper established the mathematical foundations for digital communication.",
+      "explanation_incorrect": "Turing, von Neumann, and Wiener made significant contributions to computing or cybernetics, but not the specific field of information theory.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Information Theory",
+      "question": "What is the smallest unit of digital information, representing a single binary value of either zero or one?",
+      "options": [
+        "Byte",
+        "Nibble",
+        "Bit",
+        "Word"
+      ],
+      "answer": "Bit",
+      "explanation_correct": "The 'bit' is the fundamental unit of information in binary arithmetic and digital storage.",
+      "explanation_incorrect": "Bytes, nibbles, and words are aggregations of multiple bits representing larger data structures.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Satellites",
+      "question": "What type of satellite orbit maintains a constant position relative to a specific point on the Earth's surface?",
+      "options": [
+        "Polar",
+        "Geostationary",
+        "Low Earth",
+        "Elliptical"
+      ],
+      "answer": "Geostationary",
+      "explanation_correct": "Geostationary satellites orbit at the same speed as the Earth's rotation, remaining fixed in the sky from ground observation.",
+      "explanation_incorrect": "Polar, Low Earth, and Elliptical orbits involve relative motion across the sky from the perspective of an observer on Earth.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Satellites",
+      "question": "What was the name of the first artificial satellite launched into outer space in 1957?",
+      "options": [
+        "Explorer 1",
+        "Vanguard",
+        "Sputnik",
+        "Telstar"
+      ],
+      "answer": "Sputnik",
+      "explanation_correct": "Sputnik 1 marked the beginning of the Space Age by successfully orbiting the Earth.",
+      "explanation_incorrect": "Explorer, Vanguard, and Telstar were subsequent missions that occurred after the initial success of the Soviet program.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Social Media",
+      "question": "Which major social media platform was originally launched under the defunct podcasting company name Odeo?",
+      "options": [
+        "Facebook",
+        "Twitter",
+        "Instagram",
+        "Pinterest"
+      ],
+      "answer": "Twitter",
+      "explanation_correct": "The creators of Twitter developed the platform after their prior venture, Odeo, pivoted due to competition.",
+      "explanation_incorrect": "Facebook, Instagram, and Pinterest had independent founding stories unrelated to the Odeo brand.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Social Media",
+      "question": "Which social networking site is primarily used for professional branding and business contact development?",
+      "options": [
+        "LinkedIn",
+        "Reddit",
+        "Tumblr",
+        "Snapchat"
+      ],
+      "answer": "LinkedIn",
+      "explanation_correct": "LinkedIn is tailored specifically for professional profiles, employment searching, and career networking.",
+      "explanation_incorrect": "Reddit, Tumblr, and Snapchat are entertainment, content sharing, or lifestyle platforms not focused on professional career history.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Social Media",
+      "question": "Which social media application is best known for its feature of sharing photos and messages that disappear shortly after viewing?",
+      "options": [
+        "Discord",
+        "Snapchat",
+        "Telegram",
+        "WhatsApp"
+      ],
+      "answer": "Snapchat",
+      "explanation_correct": "Snapchat introduced the paradigm of ephemeral content that automatically deletes after being accessed.",
+      "explanation_incorrect": "Discord, Telegram, and WhatsApp prioritize persistent communication logs and group history over ephemerality.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Telephony",
+      "question": "Who invented the automatic telephone exchange, which replaced the need for human switchboard operators to connect calls?",
+      "options": [
+        "Alexander Graham Bell",
+        "Thomas Watson",
+        "Almon Strowger",
+        "Elisha Gray"
+      ],
+      "answer": "Almon Strowger",
+      "explanation_correct": "Strowger invention enabled electromechanical automated dialing rather than manual human assistance.",
+      "explanation_incorrect": "Bell, Watson, and Gray were foundational to telephone voice technology but not the automation of central exchange switching.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Telephony",
+      "question": "What signal technology is commonly known as the standard system for producing the tones heard when dialing a phone pad?",
+      "options": [
+        "Pulse-width",
+        "Dual-tone",
+        "Frequency-hopping",
+        "Analog-sideband"
+      ],
+      "answer": "Dual-tone",
+      "explanation_correct": "DTMF (Dual-Tone Multi-Frequency) sends distinct frequencies for each button press on a telephone interface.",
+      "explanation_incorrect": "The other options represent modulation or frequency technologies that do not define standard phone keypad signaling.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Rhetoric",
+      "question": "In Aristotelian rhetoric, which mode of persuasion relies on the perceived character and ethical credibility of the speaker?",
+      "options": [
+        "Pathos",
+        "Logos",
+        "Ethos",
+        "Kairos"
+      ],
+      "answer": "Ethos",
+      "explanation_correct": "Ethos focuses on establishing trustworthiness and moral authority to gain the audience's confidence.",
+      "explanation_incorrect": "Pathos appeals to emotion, logos appeals to logic, and Kairos refers to the psychological timing of the persuasion.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Theory",
+      "question": "Which theorist coined the concept of the 'Global Village'?",
+      "options": [
+        "Marshall McLuhan",
+        "Harold Innis",
+        "Walter Ong",
+        "Neil Postman"
+      ],
+      "answer": "Marshall McLuhan",
+      "explanation_correct": "Marshall McLuhan popularized the term in his 1962 book 'The Gutenberg Galaxy'.",
+      "explanation_incorrect": "These communication theorists focused on media ecology but did not originate the 'Global Village' concept.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pneumatic",
+      "question": "What is the name of the system that uses forced-air or vacuum pressure to move objects through pipelines?",
+      "options": [
+        "Pneumatic post",
+        "Hydraulic lift",
+        "Conveyor belt",
+        "Vacuum tube lift"
+      ],
+      "answer": "Pneumatic post",
+      "explanation_correct": "Pneumatic post systems utilize air pressure to transport containers through networks of tubes.",
+      "explanation_incorrect": "These are alternative transport methods that do not rely on air pressure within sealed pneumatic tubes.",
+      "last_verified_at": "2026-06-12T16:41:18.990Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Propaganda",
+      "question": "Which term describes information, especially of a biased or misleading nature, used to promote a particular political cause or point of view?",
+      "options": [
+        "Propaganda",
+        "Journalism",
+        "Editorial",
+        "Advertorial"
+      ],
+      "answer": "Propaganda",
+      "explanation_correct": "Propaganda is characterized by its intent to influence collective attitudes or behaviors toward a specific cause.",
+      "explanation_incorrect": "Journalism, editorials, and advertorials function under different professional standards or commercial contexts.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Internet History",
+      "question": "Which early web browser is widely considered the first to feature a graphical user interface (GUI) and display images inline with text?",
+      "options": [
+        "Mosaic",
+        "Netscape",
+        "Internet Explorer",
+        "Opera"
+      ],
+      "answer": "Mosaic",
+      "explanation_correct": "Released in 1993, Mosaic popularized the World Wide Web by integrating images into the browser interface.",
+      "explanation_incorrect": "These browsers appeared later and built upon the innovations established by Mosaic.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Internet History",
+      "question": "What is the common term used for unsolicited, bulk electronic messages?",
+      "options": [
+        "Spam",
+        "Cookies",
+        "Phishing",
+        "Spoofing"
+      ],
+      "answer": "Spam",
+      "explanation_correct": "Spam refers to the widespread distribution of unsolicited bulk messages via email.",
+      "explanation_incorrect": "Cookies, phishing, and spoofing are technical mechanisms or attacks, not terms for the messages themselves.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Broadcasting",
+      "question": "Which term, in a networking context, refers to a communication method where data is sent from a single sender to a single specific receiver?",
+      "options": [
+        "Unicast",
+        "Multicast",
+        "Broadcast",
+        "Anycast"
+      ],
+      "answer": "Unicast",
+      "explanation_correct": "Unicast is a one-to-one transmission method from a single sender to a single specific receiver.",
+      "explanation_incorrect": "Broadcast, multicast, and anycast allow for one-to-many or specific group communication, differing from the one-to-one definition of unicast.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Advertising",
+      "question": "What is the term for a short, memorable phrase used in advertising to identify a product or brand?",
+      "options": [
+        "Slogan",
+        "Logo",
+        "Manifesto",
+        "Tagline"
+      ],
+      "answer": "Slogan",
+      "explanation_correct": "A slogan is a concise expression used to build brand recognition.",
+      "explanation_incorrect": "A logo is a graphic symbol, a tagline is a supporting phrase, and a manifesto is a substantial text document.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Advertising",
+      "question": "What term describes the publicity gained through promotional efforts other than paid media advertising, such as social media shares or organic news coverage?",
+      "options": [
+        "Earned media",
+        "Owned media",
+        "Paid media",
+        "Shared media"
+      ],
+      "answer": "Earned media",
+      "explanation_correct": "Earned media represents the organic exposure a brand receives through third-party endorsements or news coverage.",
+      "explanation_incorrect": "Paid and owned media involve control or financial arrangements by the brand, unlike earned media.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Navigation",
+      "question": "What is the acronym for the satellite-based radio navigation system that provides location and time information?",
+      "options": [
+        "GPS",
+        "GIS",
+        "GSM",
+        "GPRS"
+      ],
+      "answer": "GPS",
+      "explanation_correct": "GPS stands for Global Positioning System, a network of satellites used for navigation.",
+      "explanation_incorrect": "GIS, GSM, and GPRS denote geographic information systems and cellular communication standards, not navigation systems.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Speech",
+      "question": "What is the specific name for the irrational fear of public speaking?",
+      "options": [
+        "Glossophobia",
+        "Agoraphobia",
+        "Claustrophobia",
+        "Xenophobia"
+      ],
+      "answer": "Glossophobia",
+      "explanation_correct": "Glossophobia is the clinical term for the avoidance or fear of speaking in front of an audience.",
+      "explanation_incorrect": "The other terms represent fears of open spaces, enclosed spaces, or strangers/foreigners.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Speech",
+      "question": "What term refers to the art of effective or expressive speech, emphasizing diction and vocal style?",
+      "options": [
+        "Elocution",
+        "Dialectic",
+        "Linguistics",
+        "Rhetoric"
+      ],
+      "answer": "Elocution",
+      "explanation_correct": "Elocution is specifically concerned with the skill of clear and expressive speech delivery.",
+      "explanation_incorrect": "Dialectic, linguistics, and rhetoric refer to logic, the scientific study of language, and the art of persuasion, respectively.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Security",
+      "question": "What process converts information or data into a code to prevent unauthorized access?",
+      "options": [
+        "Encryption",
+        "Hashing",
+        "Compression",
+        "Authentication"
+      ],
+      "answer": "Encryption",
+      "explanation_correct": "Encryption uses algorithms to make data unreadable without a decryption key.",
+      "explanation_incorrect": "Hashing, compression, and authentication perform different roles, such as integrity checking or data reduction.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Security",
+      "question": "What is the process of confirming the identity of a user or system typically before providing access to a network or service?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Auditing",
+        "Administration"
+      ],
+      "answer": "Authentication",
+      "explanation_correct": "Authentication establishes proof of identity, usually through credentials like passwords.",
+      "explanation_incorrect": "Authorization is granting permissions, while auditing and administration are management-level processes.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Publishing",
+      "question": "What is the unique numeric commercial book identifier, typically consisting of 13 digits, used to catalog published works?",
+      "options": [
+        "ISBN",
+        "ISSN",
+        "ASIN",
+        "DOI"
+      ],
+      "answer": "ISBN",
+      "explanation_correct": "The International Standard Book Number (ISBN) is specifically used for the identification of books.",
+      "explanation_incorrect": "The others serve different sectors, such as periodicals (ISSN) or digital academic links (DOI).",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Publishing",
+      "question": "Which professional is responsible for reviewing and revising a manuscript to improve accuracy, clarity, and consistency before publication?",
+      "options": [
+        "Copy editor",
+        "Proofreader",
+        "Acquisition editor",
+        "Managing editor"
+      ],
+      "answer": "Copy editor",
+      "explanation_correct": "A copy editor specializes in the fine-tuning of language, style, and grammar within a text.",
+      "explanation_incorrect": "Proofreaders focus on final typographic errors, while acquisition and managing editors handle broader project or organizational scope.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Media",
+      "question": "What is the name for a digital audio file series that a user can download or stream over the internet?",
+      "options": [
+        "Podcast",
+        "Webcast",
+        "Broadcast",
+        "Narrowcast"
+      ],
+      "answer": "Podcast",
+      "explanation_correct": "A podcast is a collection of audio files distributed via RSS for subscription and playback.",
+      "explanation_incorrect": "Webcast involves live video, while broadcast and narrowcast reflect traditional or alternative distribution models for radio and television.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Media",
+      "question": "What type of website allows multiple users to contribute, edit, and modify content through a web browser?",
+      "options": [
+        "Wiki",
+        "Blog",
+        "Forum",
+        "Portal"
+      ],
+      "answer": "Wiki",
+      "explanation_correct": "A wiki is a collaborative website structure specifically designed to be edited by its audience.",
+      "explanation_incorrect": "Blogs, forums, and portals typically have restricted editing access or different primary functional purposes.",
+      "last_verified_at": "2026-06-12T16:41:18.991Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Interpersonal",
+      "question": "Which communication technique involves a listener reflecting back their understanding of a message to ensure accuracy?",
+      "options": [
+        "Active listening",
+        "Passive listening",
+        "Critical listening",
+        "Appreciative listening"
+      ],
+      "answer": "Active listening",
+      "explanation_correct": "Active listening focuses on paraphrasing and confirming content to display full understanding.",
+      "explanation_incorrect": "Passive, critical, and appreciative listening lack the verbal feedback loop defining the active process.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Interpersonal",
+      "question": "What is the term for the study of how touch is used in communication?",
+      "options": [
+        "Haptics",
+        "Proxemics",
+        "Kinesics",
+        "Chronemics"
+      ],
+      "answer": "Haptics",
+      "explanation_correct": "Haptics is the field within nonverbal communication that focuses on touch behavior.",
+      "explanation_incorrect": "Proxemics relates to distance, kinesics to body movement, and chronemics to time perception.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Maritime",
+      "question": "What was the initial distress signal used in maritime telegraphy before it was replaced by SOS?",
+      "options": [
+        "CQD",
+        "MAYDAY",
+        "PAN-PAN",
+        "SECURITE"
+      ],
+      "answer": "CQD",
+      "explanation_correct": "CQD was the maritime distress signal used in Morse code during the early 20th century.",
+      "explanation_incorrect": "Mayday, pan-pan, and securite are voice-based distress signals, not telegraphic codes.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Rhetoric",
+      "question": "Which term in Aristotle's rhetoric refers to the persuasion of an audience through emotional appeal?",
+      "options": [
+        "Pathos",
+        "Ethos",
+        "Logos",
+        "Kairos"
+      ],
+      "answer": "Pathos",
+      "explanation_correct": "Pathos is the rhetorical strategy used to persuade by appealing to the audience's emotions.",
+      "explanation_incorrect": "Ethos refers to ethical appeal, Logos to logical appeal, and Kairos to the timing of an argument.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Rhetoric",
+      "question": "Which of Aristotle's three pillars of persuasion relies specifically on logical structure and reasoning?",
+      "options": [
+        "Pathos",
+        "Ethos",
+        "Logos",
+        "Mythos"
+      ],
+      "answer": "Logos",
+      "explanation_correct": "Logos refers to the appeal to reason, logic, and factual evidence.",
+      "explanation_incorrect": "Ethos, Pathos, and Mythos are different modes of persuasion based on character, emotion, and storytelling respectively.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mass Comm",
+      "question": "Which Canadian media theorist is famous for the assertion that 'the medium is the message'?",
+      "options": [
+        "Neil Postman",
+        "Marshall McLuhan",
+        "Walter Ong",
+        "Harold Innis"
+      ],
+      "answer": "Marshall McLuhan",
+      "explanation_correct": "Marshall McLuhan coined this phrase in the 1960s to emphasize how the medium itself changes our perception.",
+      "explanation_incorrect": "The other individuals are media theorists but did not coin this specific governing phrase of media ecology.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mass Comm",
+      "question": "Which sociological theory of the 1940s suggests that media influence on the public is filtered through opinion leaders?",
+      "options": [
+        "Agenda setting",
+        "Two-step flow",
+        "Spiral of silence",
+        "Uses and gratifications"
+      ],
+      "answer": "Two-step flow",
+      "explanation_correct": "The two-step flow theory proposes that media effects are indirect and mediated by influential individuals.",
+      "explanation_incorrect": "Agenda setting, spiral of silence, and uses and gratifications describe different mechanisms of mass communication.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Video",
+      "question": "What is the common abbreviation for the proprietary interface standard used for transmitting uncompressed high-definition video and audio data?",
+      "options": [
+        "VGA",
+        "HDMI",
+        "DVI",
+        "DisplayPort"
+      ],
+      "answer": "HDMI",
+      "explanation_correct": "HDMI is the standard connector for modern high-definition transmission between digital devices.",
+      "explanation_incorrect": "VGA, DVI, and DisplayPort are alternative display interface standards but do not share this specific acronym.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Video",
+      "question": "What was the brand name of the first commercial video conferencing device introduced by Bell Labs in the 1960s?",
+      "options": [
+        "VideoPhone",
+        "Picturephone",
+        "TeleVis",
+        "VisionCall"
+      ],
+      "answer": "Picturephone",
+      "explanation_correct": "The Picturephone was AT&T's pioneering attempt at providing a commercial video telephony service.",
+      "explanation_incorrect": "The other options are logical-sounding names that do not correspond to the actual historical product released by Bell Labs.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Symbols",
+      "question": "What is the official name of the '@' symbol as designated by the Unicode standard?",
+      "options": [
+        "Commercial At",
+        "Asperand",
+        "Ampersat",
+        "A-tail"
+      ],
+      "answer": "Commercial At",
+      "explanation_correct": "Unicode officially identifies the character U+0040 as 'Commercial At'.",
+      "explanation_incorrect": "Asperand and Ampersat are informal or proposed names that are not recognized by standards organizations.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Symbols",
+      "question": "What is the technical name for the '#' symbol frequently utilized in modern social media tagging?",
+      "options": [
+        "Octothorpe",
+        "Asterisk",
+        "Tilde",
+        "Obelus"
+      ],
+      "answer": "Octothorpe",
+      "explanation_correct": "Octothorpe is the formal nomenclature for the character commonly referred to as the hashtag or number sign.",
+      "explanation_incorrect": "Asterisk, tilde, and obelus are unique marks used for different punctuation and technical functions.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Typography",
+      "question": "What category of typeface is characterized by the absence of small decorative strokes at the ends of character stems?",
+      "options": [
+        "Serif",
+        "Sans serif",
+        "Blackletter",
+        "Script"
+      ],
+      "answer": "Sans serif",
+      "explanation_correct": "Sans serif fonts are defined by the lack of 'serifs' or feet at the ends of letters.",
+      "explanation_incorrect": "Serif, Blackletter, and Script all contain specific decorative structural elements not found in the sans serif category.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Typography",
+      "question": "What is the name of the professional craft and study concerned with the artistic arrangement of type to make text legible and appealing?",
+      "options": [
+        "Calligraphy",
+        "Typography",
+        "Graphology",
+        "Logography"
+      ],
+      "answer": "Typography",
+      "explanation_correct": "Typography refers to the comprehensive discipline of arranging and designing typefaces.",
+      "explanation_incorrect": "Calligraphy pertains to handwriting styles, graphology to handwriting analysis, and logography to systems of word-based writing.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hardware",
+      "question": "Which communication hardware component is responsible for modulating digital signals into analog and demodulating analog back into digital?",
+      "options": [
+        "Router",
+        "Modem",
+        "Switch",
+        "Gateway"
+      ],
+      "answer": "Modem",
+      "explanation_correct": "The term modem is a portmanteau derived from its core function of modulator-demodulator.",
+      "explanation_incorrect": "Routers, switches, and gateways manage network traffic and connectivity but do not perform signal modulation.",
+      "last_verified_at": "2026-06-12T16:41:18.992Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hardware",
+      "question": "What is the formal name of the widely used standard network interface for connecting devices in a wired local area network?",
+      "options": [
+        "Fiber optic",
+        "Bluetooth",
+        "Ethernet",
+        "FireWire"
+      ],
+      "answer": "Ethernet",
+      "explanation_correct": "Ethernet is the fundamental technology standard for wired local area networks.",
+      "explanation_incorrect": "Bluetooth is wireless, and FireWire and fiber optic represent different connection protocols or transmission mediums.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Public Relations",
+      "question": "Who is historically recognized as the 'father of public relations' for his early use of psychological theories in media campaigns?",
+      "options": [
+        "Ivy Lee",
+        "Edward Bernays",
+        "Carl Byoir",
+        "Arthur Page"
+      ],
+      "answer": "Edward Bernays",
+      "explanation_correct": "Edward Bernays pioneered the field by applying principles of psychology and sociology to PR.",
+      "explanation_incorrect": "Ivy Lee is also a founder, but Bernays is specifically titled as the father due to his psychological approach.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Public Relations",
+      "question": "What document serves as an official written notice provided to the news media to announce a newsworthy event or development?",
+      "options": [
+        "White paper",
+        "Broadside",
+        "Press release",
+        "Manifesto"
+      ],
+      "answer": "Press release",
+      "explanation_correct": "A press release is the standard format for disseminating news to journalists.",
+      "explanation_incorrect": "White papers, broadsides, and manifestos serve different strategic communication purposes in business and politics.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Aviation Communication",
+      "question": "What is the international radio distress signal used by aircraft and ships to indicate an immediate threat to life?",
+      "options": [
+        "Securite",
+        "Pan-pan",
+        "Mayday",
+        "All-stop"
+      ],
+      "answer": "Mayday",
+      "explanation_correct": "Mayday indicates a state of extreme distress and immediate danger.",
+      "explanation_incorrect": "Pan-pan is for urgent situations that are not yet life-threatening, while Securite is for safety navigation warnings.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Aviation Communication",
+      "question": "In international aviation, which urgency signal indicates an alert condition that is less severe than a major distress call?",
+      "options": [
+        "Mayday",
+        "Pan-pan",
+        "Securite",
+        "Emergency"
+      ],
+      "answer": "Pan-pan",
+      "explanation_correct": "Pan-pan is the standard radio call for an urgent situation that does not require immediate assistance.",
+      "explanation_incorrect": "Mayday is for life-threatening distress, and Securite is for important but non-urgent safety information.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Aviation Communication",
+      "question": "What is the NATO phonetic alphabet codeword designating the first letter of the alphabet?",
+      "options": [
+        "Apple",
+        "Alpha",
+        "Archer",
+        "Anchor"
+      ],
+      "answer": "Alpha",
+      "explanation_correct": "Alpha is the standardized term used in aviation to denote the letter A.",
+      "explanation_incorrect": "Apple, Archer, and Anchor are common nouns but are not part of the internationally recognized NATO phonetic alphabet.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Military",
+      "question": "What historical military signaling system utilizes hand-held flags to communicate messages at a distance?",
+      "options": [
+        "Telegraphy",
+        "Semaphore",
+        "Helio-signaling",
+        "Morse code"
+      ],
+      "answer": "Semaphore",
+      "explanation_correct": "Semaphore is a visual signaling system that uses flag positions to represent letters.",
+      "explanation_incorrect": "Telegraphy, helio-signaling, and Morse code utilize electrical or light pulses rather than flag positions.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Military",
+      "question": "What term describes the specialized groups of personnel who provided secure communications using indigenous languages during major 20th-century conflicts?",
+      "options": [
+        "Code breakers",
+        "Code talkers",
+        "Radio operators",
+        "Intelligence agents"
+      ],
+      "answer": "Code talkers",
+      "explanation_correct": "Code talkers were soldiers used in the World Wars to communicate via untranslatable native languages.",
+      "explanation_incorrect": "Code breakers are analysts who decipher messages, while radio operators and intelligence agents have different functional roles.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Theory",
+      "question": "Which term refers to the non-verbal elements of communication, such as pitch, volume, and intonation, that can change the meaning of words?",
+      "options": [
+        "Paralanguage",
+        "Aphasia",
+        "Kinesics",
+        "Proxemics"
+      ],
+      "answer": "Paralanguage",
+      "explanation_correct": "Paralanguage involves the vocal but non-verbal components of speech that convey emotion or intent.",
+      "explanation_incorrect": "Aphasia is a medical speech disorder, while kinesics and proxemics refer to body movement and physical distance.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mobile",
+      "question": "Which company produced the first handheld cellular telephone?",
+      "options": [
+        "Motorola",
+        "Nokia",
+        "Ericsson",
+        "Siemens"
+      ],
+      "answer": "Motorola",
+      "explanation_correct": "Martin Cooper, an engineer at Motorola, led the team that created the first handheld mobile phone in 1973.",
+      "explanation_incorrect": "Nokia, Ericsson, and Siemens were major players in early mobile telecommunications but did not develop the initial handheld prototype.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mobile",
+      "question": "What is the acronym for the service used to exchange short text messages between mobile devices?",
+      "options": [
+        "SMS",
+        "MMS",
+        "EMS",
+        "PSTN"
+      ],
+      "answer": "SMS",
+      "explanation_correct": "SMS stands for Short Message Service, allowing for the transmission of text messages.",
+      "explanation_incorrect": "MMS involves multimedia, EMS focused on enhanced features, and PSTN refers to the public switched telephone network.",
+      "last_verified_at": "2026-06-12T16:41:18.993Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Printing",
+      "question": "Who is credited with inventing the European mechanical printing press?",
+      "options": [
+        "Johannes Gutenberg",
+        "William Caxton",
+        "Aldus Manutius",
+        "Nicolas Jenson"
+      ],
+      "answer": "Johannes Gutenberg",
+      "explanation_correct": "Johannes Gutenberg introduced the mechanical movable-type printing press to Europe in the mid-15th century.",
+      "explanation_incorrect": "Caxton, Manutius, and Jenson were influential printers and publishers who furthered the technology after its invention.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Printing",
+      "question": "Which printing technique relies on the chemical repulsion between oil and water on a flat surface?",
+      "options": [
+        "Lithography",
+        "Gravure",
+        "Flexography",
+        "Screen printing"
+      ],
+      "answer": "Lithography",
+      "explanation_correct": "Lithography is based on the principle that ink and water do not mix, typically using stone or metal plates.",
+      "explanation_incorrect": "Gravure uses recessed cells, flexography uses flexible relief plates, and screen printing uses a porous mesh.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Internet",
+      "question": "Which protocol system resolves human-readable domain names into numerical IP addresses?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "DNS",
+      "explanation_correct": "DNS, the Domain Name System, acts as the phonebook for the internet to map names to addresses.",
+      "explanation_incorrect": "DHCP assigns IP addresses, FTP transfers files, and SMTP handles email transmission.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Internet",
+      "question": "What was the first computer network to officially adopt the TCP/IP protocol suite?",
+      "options": [
+        "ARPANET",
+        "ALOHANET",
+        "CYCLADES",
+        "NPL network"
+      ],
+      "answer": "ARPANET",
+      "explanation_correct": "ARPANET finished its transition to the TCP/IP protocol suite on January 1, 1983.",
+      "explanation_incorrect": "ALOHANET, CYCLADES, and the NPL network were early experimental networks that predate the universal adoption of TCP/IP.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Space Communication",
+      "question": "Which government agency operates the Deep Space Network for interplanetary communication?",
+      "options": [
+        "NASA",
+        "ESA",
+        "JAXA",
+        "Roscosmos"
+      ],
+      "answer": "NASA",
+      "explanation_correct": "The Deep Space Network is an international array of giant radio antennas managed by NASA's Jet Propulsion Laboratory.",
+      "explanation_incorrect": "While other agencies manage satellite networks, the specific Deep Space Network infrastructure belongs to NASA.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Space Communication",
+      "question": "What was the name of the first active communications satellite launched into orbit?",
+      "options": [
+        "Telstar",
+        "Sputnik",
+        "Syncom",
+        "Courier 1B"
+      ],
+      "answer": "Telstar",
+      "explanation_correct": "Telstar was launched in 1962 and successfully relayed the first live transatlantic television signal.",
+      "explanation_incorrect": "Sputnik was a non-communication satellite; Syncom was the first geostationary satellite; Courier 1B was an early store-and-forward satellite.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Non-Verbal",
+      "question": "What is the study of human movement and body gestures in communication referred to as?",
+      "options": [
+        "Kinesics",
+        "Haptics",
+        "Chronemics",
+        "Paralanguage"
+      ],
+      "answer": "Kinesics",
+      "explanation_correct": "Kinesics is the academic term for the interpretation of body language, facial expressions, and physical movement.",
+      "explanation_incorrect": "Haptics relates to touch, chronemics to time perception, and paralanguage to vocal sounds that are not words.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Non-Verbal",
+      "question": "What term describes the study of how people use space and distance when communicating?",
+      "options": [
+        "Proxemics",
+        "Kinesics",
+        "Oculesics",
+        "Chronemics"
+      ],
+      "answer": "Proxemics",
+      "explanation_correct": "Proxemics concerns the study of proximity and the personal space boundaries people maintain during interaction.",
+      "explanation_incorrect": "Kinesics relates to motion, oculesics relates to eye behavior, and chronemics relates to time usage.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Animal Communication",
+      "question": "What specific movement pattern do honeybees use to communicate the location of food sources to others?",
+      "options": [
+        "Waggle dance",
+        "Buzz run",
+        "Pheromone spiral",
+        "Wing pulsate"
+      ],
+      "answer": "Waggle dance",
+      "explanation_correct": "The waggle dance is a distinct figure-eight movement used by bees to share direction and distance information.",
+      "explanation_incorrect": "The other terms are not standard scientific descriptions for the specific recruitment behavior observed in honeybees.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Animal Communication",
+      "question": "Which sensory communication method do aquatic mammals use to navigate and locate prey underwater?",
+      "options": [
+        "Biosonar",
+        "Electrolocation",
+        "Magnetoreception",
+        "Chemoreception"
+      ],
+      "answer": "Biosonar",
+      "explanation_correct": "Biosonar, also known as echolocation, involves emitting sounds that reflect off objects to perceive the environment.",
+      "explanation_incorrect": "Electrolocation involves electric fields, magnetoreception involves magnetic sensation, and chemoreception involves chemical signaling.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Cryptography",
+      "question": "Which encryption device was famously used by the German military during the Second World War?",
+      "options": [
+        "Enigma",
+        "Lorenz",
+        "TypeX",
+        "SIGABA"
+      ],
+      "answer": "Enigma",
+      "explanation_correct": "The Enigma machine used a system of rotating rotors to scramble messages and was widely used by the German military.",
+      "explanation_incorrect": "Lorenz was another cipher system, while TypeX and SIGABA were British and American encryption machines respectively.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Cryptography",
+      "question": "Which widely used public key algorithm is named after its three inventors?",
+      "options": [
+        "RSA",
+        "ECC",
+        "DSA",
+        "Diffie-Hellman"
+      ],
+      "answer": "RSA",
+      "explanation_correct": "RSA is an asymmetric algorithm named after Ron Rivest, Adi Shamir, and Leonard Adleman.",
+      "explanation_incorrect": "ECC and DSA are encryption types, and Diffie-Hellman is a key exchange protocol, none of which utilize the three-inventor naming convention.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Visual Communication",
+      "question": "What is a graphic symbol that represents a concept or entire word called?",
+      "options": [
+        "Ideogram",
+        "Phonogram",
+        "Logogram",
+        "Pictogram"
+      ],
+      "answer": "Ideogram",
+      "explanation_correct": "An ideogram is a character or symbol that represents an idea or concept rather than specific sounds.",
+      "explanation_incorrect": "Phonograms represent sounds, logograms represent words, and pictograms are literal depictions of physical objects.",
+      "last_verified_at": "2026-06-12T16:41:18.994Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Visual Communication",
+      "question": "What standardized digital pictographs are used in electronic communication to convey concepts or emotions?",
+      "options": [
+        "Emoji",
+        "Emoticon",
+        "Avatar",
+        "Clip art"
+      ],
+      "answer": "Emoji",
+      "explanation_correct": "Emojis are standardized characters from the Unicode set that represent images or icons.",
+      "explanation_incorrect": "Emoticons are created using keyboard characters, while avatars represent users and clip art refers to pre-made images.",
+      "last_verified_at": "2026-06-12T16:41:48.751Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Radio",
+      "question": "What process is used to alter a wave to encode information onto a carrier signal?",
+      "options": [
+        "Modulation",
+        "Demodulation",
+        "Multiplexing",
+        "Amplification"
+      ],
+      "answer": "Modulation",
+      "explanation_correct": "Modulation involves varying properties of a wave, such as frequency or amplitude, to transmit information.",
+      "explanation_incorrect": "Demodulation is the reverse process, multiplexing combines multiple signals, and amplification increases signal strength.",
+      "last_verified_at": "2026-06-12T16:41:18.995Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Radio",
+      "question": "Which inventor is credited with the development of Frequency Modulation (FM) radio?",
+      "options": [
+        "Edwin Armstrong",
+        "Nikola Tesla",
+        "Guglielmo Marconi",
+        "Lee de Forest"
+      ],
+      "answer": "Edwin Armstrong",
+      "explanation_correct": "Edwin Armstrong patented the wide-band frequency modulation system that drastically improved audio quality.",
+      "explanation_incorrect": "Marconi is famous for the first radio systems, while Tesla and de Forest were earlier radio pioneers who did not create FM.",
+      "last_verified_at": "2026-06-12T16:41:18.995Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Postal Service",
+      "question": "What was the name of the relay-based postal system established by the ancient Persian Empire?",
+      "options": [
+        "Angarium",
+        "Cursus publicus",
+        "Pony Express",
+        "Tabellarius"
+      ],
+      "answer": "Angarium",
+      "explanation_correct": "The Angarium was a sophisticated network of couriers and relay stations used by the Persian Empire for official state communication.",
+      "explanation_incorrect": "Cursus publicus was Roman, the Pony Express was 19th-century American, and Tabellarius was a term for a Roman courier.",
+      "last_verified_at": "2026-06-12T16:41:18.995Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Postal Service",
+      "question": "What was the name of the world's first adhesive postage stamp issued in 1840?",
+      "options": [
+        "Penny Black",
+        "Inverted Jenny",
+        "Treskilling Yellow",
+        "Blue Mauritius"
+      ],
+      "answer": "Penny Black",
+      "explanation_correct": "The Penny Black was the first official adhesive stamp used in a public postal system, originating in the United Kingdom.",
+      "explanation_incorrect": "Inverted Jenny, Treskilling Yellow, and Blue Mauritius are famous rare stamps, but they were not the first adhesive issue.",
+      "last_verified_at": "2026-06-12T16:41:18.995Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}

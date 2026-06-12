@@ -754,9 +754,12 @@ export function setupEventListeners() {
   UI.playAgainBtn.addEventListener('click', () => {
     UI.winnerScreen.classList.add('hidden');
     UI.setupScreen.classList.remove('hidden');
-    if (UI.generatorLinkBtn) UI.generatorLinkBtn.classList.remove('hidden');
+    if (UI.generatorLinkBtn) UI.generatorLinkBtn.classList.add('hidden');
     const oldSvg = UI.boardWrapper.querySelector('.board-connections');
     if (oldSvg) oldSvg.remove();
+    import('./ui.js').then((ui) => {
+      ui.goToWizardStep(1);
+    });
   });
 
   document.addEventListener('click', (e) => {
@@ -766,6 +769,64 @@ export function setupEventListeners() {
       }
     });
   });
+
+  // --- Wizard Navigation Event Listeners ---
+  const backBtn = document.getElementById('wizard-back-btn');
+  const nextBtn = document.getElementById('wizard-next-btn');
+
+  if (backBtn) {
+    backBtn.addEventListener('click', () => {
+      import('./ui.js').then((ui) => {
+        ui.goToWizardStep(ui.currentWizardStep - 1);
+      });
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      import('./ui.js').then((ui) => {
+        ui.goToWizardStep(ui.currentWizardStep + 1);
+      });
+    });
+  }
+
+  // --- Step 2 Player Count Incrementor / Decrementor ---
+  const decBtn = document.getElementById('player-count-dec-btn');
+  const incBtn = document.getElementById('player-count-inc-btn');
+  const countInput = document.getElementById('player-count');
+
+  if (decBtn && incBtn && countInput) {
+    decBtn.addEventListener('click', () => {
+      let val = parseInt(countInput.value) || 2;
+      if (val > 1) {
+        countInput.value = val - 1;
+        countInput.dispatchEvent(new Event('input'));
+      }
+    });
+    incBtn.addEventListener('click', () => {
+      let val = parseInt(countInput.value) || 2;
+      if (val < 10) {
+        countInput.value = val + 1;
+        countInput.dispatchEvent(new Event('input'));
+      }
+    });
+  }
+
+  // --- Step 3 Wizard Random Select Button ---
+  const randomSelect6WizardBtn = document.getElementById('btn-random-select-6-wizard');
+  if (randomSelect6WizardBtn) {
+    randomSelect6WizardBtn.addEventListener('click', () => {
+      import('./ui.js').then((ui) => ui.applyRandomCategorySelection());
+    });
+  }
+
+  // --- Step 1 Save Game File Upload Trigger ---
+  const wizardUploadBtn = document.getElementById('wizard-upload-state-btn');
+  if (wizardUploadBtn && UI.uploadStateInput) {
+    wizardUploadBtn.addEventListener('click', () => {
+      UI.uploadStateInput.click();
+    });
+  }
 
   setupGameMenu();
 }

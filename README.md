@@ -33,8 +33,7 @@ The **Trivia** board game is an interactive, fully client-side (serverless) quiz
 ## 📁 Project Structure
 
 - `/databases` – Directory containing question databases.
-  - `general_pl.json` – Default Polish question database (Wiedza Ogólna).
-  - `general_en.json` – Default English question database (General Knowledge).
+  - `/categories` – Subdirectory containing standard category database files (e.g. `general_pl.json`, `general_en.json`, `popkultura_pl.json`).
   - `list.json` – Automatically generated index of available databases.
 - `/js/trivia` – Main game modules:
   - `main.js` – Game entry point and initialization.
@@ -125,8 +124,7 @@ Gra planszowa **Trivia** to interaktywna, w pełni kliencka (bezserwerowa) gra q
 ## 📁 Struktura Projektu
 
 - `/databases` – Katalog na bazy pytań.
-  - `general_pl.json` – Domyślna polska baza pytań (Wiedza Ogólna).
-  - `general_en.json` – Domyślna angielska baza pytań (General Knowledge).
+  - `/categories` – Podkatalog zawierający pliki baz danych poszczególnych kategorii (np. `general_pl.json`, `general_en.json`, `popkultura_pl.json`).
   - `list.json` – Indeks dostępnych baz pytań generowany automatycznie.
 - `/js/trivia` – Moduł główny gry:
   - `main.js` – Punkt wejścia i inicjalizacja gry.

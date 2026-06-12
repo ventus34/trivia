@@ -287,12 +287,8 @@ export async function loadAllCategories() {
         );
       }
 
-      // Fill up to 6 if empty or partial
-      if (!gameState.selectedCategoryIds || gameState.selectedCategoryIds.length < 6) {
-        const lang = gameState.currentLanguage || 'pl';
-        const langMatch = gameState.allCategories.filter((c) => c.language === lang);
-        const candidates = langMatch.length >= 6 ? langMatch : gameState.allCategories;
-        gameState.selectedCategoryIds = candidates.slice(0, 6).map((c) => c.id);
+      if (!gameState.selectedCategoryIds) {
+        gameState.selectedCategoryIds = [];
       }
 
       renderSelectedCategoriesPreview();
@@ -352,6 +348,7 @@ export function renderSelectedCategoriesPreview() {
     return cat ? cat.name : '';
   });
   updateCategoryInputs(selectedCats);
+  validateStep3NextButton();
 }
 
 /**
@@ -572,12 +569,10 @@ export function applyCategorySelectionPreset(presetName) {
  */
 export function applyRandomCategorySelection() {
   const activeTab = document.querySelector('#category-selection-modal button.active');
-  const lang =
-    activeTab && activeTab.id === 'cat-filter-pl'
-      ? 'pl'
-      : activeTab && activeTab.id === 'cat-filter-en'
-        ? 'en'
-        : 'all';
+  let lang = gameState.currentLanguage || 'pl';
+  if (UI.categorySelectionModal && !UI.categorySelectionModal.classList.contains('hidden') && activeTab) {
+    lang = activeTab.id === 'cat-filter-pl' ? 'pl' : activeTab.id === 'cat-filter-en' ? 'en' : 'all';
+  }
 
   const pool = gameState.allCategories.filter((c) => lang === 'all' || c.language === lang);
   if (pool.length < 6) {
@@ -595,8 +590,138 @@ export function applyRandomCategorySelection() {
   }
 
   const shuffled = [...pool].sort(() => 0.5 - Math.random());
-  gameState.tempSelectedCategoryIds = shuffled.slice(0, 6).map((c) => c.id);
+  const selectedIds = shuffled.slice(0, 6).map((c) => c.id);
 
-  const query = UI.categorySearch.value;
-  renderCategorySelectionGrid(query, lang);
+  if (UI.categorySelectionModal && !UI.categorySelectionModal.classList.contains('hidden')) {
+    gameState.tempSelectedCategoryIds = selectedIds;
+    const query = UI.categorySearch.value;
+    renderCategorySelectionGrid(query, lang);
+  } else {
+    gameState.selectedCategoryIds = selectedIds;
+    localStorage.setItem(
+      'trivia_selected_category_ids',
+      JSON.stringify(gameState.selectedCategoryIds)
+    );
+    renderSelectedCategoriesPreview();
+
+    import('./services/api-service.js').then(({ getApiAdapter }) => {
+      const apiAdapter = getApiAdapter();
+      if (apiAdapter && gameState.playMode === 'database') {
+        apiAdapter.loadDatabase('categories');
+      }
+    });
+  }
+}
+
+export let currentWizardStep = 1;
+
+/**
+ * Navigates to a specific setup wizard step.
+ * @param {number} step - The step index (1-4).
+ */
+export function goToWizardStep(step) {
+  if (step < 1 || step > 4) return;
+  currentWizardStep = step;
+
+  // 1. Hide all step contents and show the active one
+  document.querySelectorAll('.wizard-step-content').forEach((el, index) => {
+    if (index + 1 === step) {
+      el.classList.remove('hidden');
+    } else {
+      el.classList.add('hidden');
+    }
+  });
+
+  // 2. Update step indicators
+  document.querySelectorAll('.step-indicator').forEach((el) => {
+    const s = parseInt(el.dataset.step);
+    const circle = el.querySelector('div');
+    const label = el.querySelector('span');
+    if (!circle || !label) return;
+
+    if (s < step) {
+      // Completed step
+      circle.className = 'w-8 h-8 rounded-full bg-green-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
+      circle.innerHTML = '✓';
+      label.className = 'text-xs font-semibold text-green-650 dark:text-green-400';
+    } else if (s === step) {
+      // Active step
+      circle.className = 'w-8 h-8 rounded-full bg-indigo-650 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
+      circle.innerHTML = s;
+      label.className = 'text-xs font-bold text-indigo-650 dark:text-indigo-400';
+    } else {
+      // Future step
+      circle.className = 'w-8 h-8 rounded-full bg-gray-250 text-gray-500 dark:bg-gray-800 dark:text-gray-400 flex items-center justify-center font-semibold text-sm transition-colors duration-300';
+      circle.innerHTML = s;
+      label.className = 'text-xs font-medium text-gray-500 dark:text-gray-400';
+    }
+  });
+
+  // 3. Update progress fill bar
+  const fillWidth = ((step - 1) / 3) * 100;
+  const progressFill = document.getElementById('wizard-progress-fill');
+  if (progressFill) {
+    progressFill.style.width = `${fillWidth}%`;
+  }
+
+  // 4. Update navigation buttons
+  const backBtn = document.getElementById('wizard-back-btn');
+  const nextBtn = document.getElementById('wizard-next-btn');
+  const startBtn = document.getElementById('start-game-btn');
+
+  if (step === 1) {
+    if (backBtn) backBtn.classList.add('invisible');
+  } else {
+    if (backBtn) backBtn.classList.remove('invisible');
+  }
+
+  if (step === 4) {
+    if (nextBtn) nextBtn.classList.add('hidden');
+    if (startBtn) startBtn.classList.remove('hidden');
+  } else {
+    if (nextBtn) nextBtn.classList.remove('hidden');
+    if (startBtn) startBtn.classList.add('hidden');
+  }
+
+  // 5. Validation specific to step 3
+  if (step === 3) {
+    validateStep3NextButton();
+  } else {
+    if (nextBtn) {
+      nextBtn.removeAttribute('disabled');
+      nextBtn.style.opacity = '1';
+      nextBtn.style.cursor = 'pointer';
+    }
+  }
+}
+
+/**
+ * Validates step 3 (Categories) and disables/enables the next button.
+ */
+export function validateStep3NextButton() {
+  const count = gameState.selectedCategoryIds ? gameState.selectedCategoryIds.length : 0;
+  
+  // Update step 3 count badge in real-time
+  const countBadge = document.getElementById('wizard-category-count');
+  if (countBadge) {
+    countBadge.textContent = `${count} / 6`;
+    if (count === 6) {
+      countBadge.className = 'text-xs font-bold text-green-600 dark:text-green-455 bg-green-50 dark:bg-green-950/40 px-2 py-0.5 rounded-md';
+    } else {
+      countBadge.className = 'text-xs font-bold text-indigo-650 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40 px-2 py-0.5 rounded-md';
+    }
+  }
+
+  const nextBtn = document.getElementById('wizard-next-btn');
+  if (nextBtn) {
+    if (count === 6) {
+      nextBtn.removeAttribute('disabled');
+      nextBtn.style.opacity = '1';
+      nextBtn.style.cursor = 'pointer';
+    } else {
+      nextBtn.setAttribute('disabled', 'true');
+      nextBtn.style.opacity = '0.5';
+      nextBtn.style.cursor = 'not-allowed';
+    }
+  }
 }

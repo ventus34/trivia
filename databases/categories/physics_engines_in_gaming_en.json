@@ -1,0 +1,1512 @@
+{
+  "id": "physics_engines_in_gaming_en",
+  "name": "Physics Engines in Gaming",
+  "language": "en",
+  "description": "Questions covering: Software Engines, Simulation Concepts, Hardware Integration, Vehicle Physics...",
+  "created_at": "2026-06-12T16:42:49.759Z",
+  "last_verified_at": "2026-06-12T16:36:36.195Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 100,
+  "questions": [
+    {
+      "subcategory": "Software Engines",
+      "question": "Which proprietary middleware developed by NVIDIA is widely integrated into major game development platforms?",
+      "options": [
+        "PhysX",
+        "Havok",
+        "Bullet",
+        "Chaos"
+      ],
+      "answer": "PhysX",
+      "explanation_correct": "PhysX is a globally recognized physics engine acquired and maintained by NVIDIA.",
+      "explanation_incorrect": "Havok, Bullet, and Chaos are competing middleware solutions with different ownership and development origins.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which software engine became famous for powering the realistic physics interactions found in Half-Life 2?",
+      "options": [
+        "PhysX",
+        "Havok",
+        "Bullet",
+        "Newton Game Dynamics"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Havok is the primary physics engine that powered the Source engine used in Half-Life 2.",
+      "explanation_incorrect": "PhysX, Bullet, and Newton are distinct engines that were not the original drivers for the Source engine physics.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which open-source physics library is prominently used within the Blender 3D suite and the game Grand Theft Auto IV?",
+      "options": [
+        "PhysX",
+        "Havok",
+        "Bullet",
+        "CryPhysics"
+      ],
+      "answer": "Bullet",
+      "explanation_correct": "Bullet is a professional-grade open-source physics engine widely adopted in both animation and gaming.",
+      "explanation_incorrect": "PhysX and Havok are proprietary, and CryPhysics is specific to the CryEngine environment.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which title is recognized for its advanced real-time soft-body physics simulation of vehicles?",
+      "options": [
+        "BeamNG.drive",
+        "Half-Life 2",
+        "Grand Theft Auto IV",
+        "Crysis"
+      ],
+      "answer": "BeamNG.drive",
+      "explanation_correct": "BeamNG.drive uses a soft-body physics model to simulate realistic vehicle deformation.",
+      "explanation_incorrect": "The other titles rely on hard-coded collision models rather than real-time soft-body physics for vehicle damage.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which physics engine is known for its deterministic solver and focus on providing a high degree of stability for complex mechanical simulations?",
+      "options": [
+        "Newton Game Dynamics",
+        "PhysX",
+        "Havok",
+        "Chaos"
+      ],
+      "answer": "Newton Game Dynamics",
+      "explanation_correct": "Newton Game Dynamics is an integrated real-time library for physics simulation that prioritizes solver stability and determinism.",
+      "explanation_incorrect": "PhysX, Havok, and Chaos are primarily focused on high-performance gaming features like destruction and particles.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "What is the primary physics middleware integrated by default into the Unity 3D engine?",
+      "options": [
+        "NVIDIA PhysX",
+        "Havok",
+        "Bullet",
+        "CryPhysics"
+      ],
+      "answer": "NVIDIA PhysX",
+      "explanation_correct": "NVIDIA PhysX serves as the default high-performance physics subsystem within Unity.",
+      "explanation_incorrect": "Havok and Bullet are third-party libraries not native to the standard Unity install, and CryPhysics is vendor-locked.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which proprietary physics simulation system is specific to the CryEngine used in the Crysis series?",
+      "options": [
+        "CryPhysics",
+        "PhysX",
+        "Havok",
+        "Chaos"
+      ],
+      "answer": "CryPhysics",
+      "explanation_correct": "CryPhysics is the custom internal physics solution developed exclusively for the CryEngine architecture.",
+      "explanation_incorrect": "PhysX, Havok, and Chaos represent alternative solutions developed by separate entities like NVIDIA or Epic Games.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which physics engine was developed as the successor for advanced destruction systems in Unreal Engine 4 and 5?",
+      "options": [
+        "Chaos",
+        "Havok",
+        "PhysX",
+        "Bullet"
+      ],
+      "answer": "Chaos",
+      "explanation_correct": "Chaos is Epic Games' custom-built physics engine designed for modern destruction and simulation in Unreal Engine.",
+      "explanation_incorrect": "Havok, PhysX, and Bullet are external or older alternative frameworks within the Unreal workflow.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which proprietary physics system was developed in-house by Valve to manage physical behavior in their modern titles?",
+      "options": [
+        "Rubikon",
+        "Havok",
+        "PhysX",
+        "Chaos"
+      ],
+      "answer": "Rubikon",
+      "explanation_correct": "Rubikon is an internal physics engine created by Valve to replace older middleware components.",
+      "explanation_incorrect": "Havok, PhysX, and Chaos are standalone engines produced by outside developers or rival game studios.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which prominent physics middleware company was acquired by Microsoft in 2015 to bolster its development tools?",
+      "options": [
+        "Havok",
+        "PhysX",
+        "Bullet",
+        "Newton Game Dynamics"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Microsoft formally acquired Havok from Intel in 2015 to integrate its physics technology into its software ecosystem.",
+      "explanation_incorrect": "PhysX is owned by NVIDIA, while Bullet and Newton are independent open-source projects.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What common term refers to the treatment of a simulation entity as a non-deformable solid with unchanging mass?",
+      "options": [
+        "Rigid body",
+        "Soft body",
+        "Bounding box",
+        "Hinge joint"
+      ],
+      "answer": "Rigid body",
+      "explanation_correct": "Rigid body physics assumes that an object maintains its shape and density regardless of force applied.",
+      "explanation_incorrect": "Soft body refers to deformation, while bounding boxes and joints represent collision detection and connectivity, not material properties.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which simulation technique is specialized for materials that change shape under stress, such as fabric or rubber?",
+      "options": [
+        "Soft body",
+        "Rigid body",
+        "Inverse Kinematics",
+        "Fixed joint"
+      ],
+      "answer": "Soft body",
+      "explanation_correct": "Soft body physics involves calculating the deformation of object shapes in response to forces.",
+      "explanation_incorrect": "Rigid bodies do not deform, while joints and kinematics pertain to assembly connections and movement paths.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the collective term for the geometric calculations performed each frame to determine if two virtual objects overlap?",
+      "options": [
+        "Collision detection",
+        "Inverse Kinematics",
+        "Verlet integration",
+        "Skeletal motion"
+      ],
+      "answer": "Collision detection",
+      "explanation_correct": "Collision detection iterates through object representations to find intersections and triggers logic accordingly.",
+      "explanation_incorrect": "Kinematics and integration deal with motion pathways and numerical solving, not spatial intersection testing.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which simulation method calculates fluid motion by dividing the volume into discrete moving particles?",
+      "options": [
+        "SPH",
+        "Rigid body",
+        "Fixed joint",
+        "Ragdoll"
+      ],
+      "answer": "SPH",
+      "explanation_correct": "SPH, or Smoothed Particle Hydrodynamics, is a meshless Lagrangian method used to simulate fluid behavior.",
+      "explanation_incorrect": "Rigid bodies, fixed joints, and ragdolls are techniques for solid structures and bones, not fluid mass.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which type of physical constraint restricts movement exclusively to a single rotational axis?",
+      "options": [
+        "Hinge joint",
+        "Fixed joint",
+        "Bounding box",
+        "Ragdoll"
+      ],
+      "answer": "Hinge joint",
+      "explanation_correct": "A hinge joint acts exactly like a door hinge, permitting only one-dimensional angular rotation.",
+      "explanation_incorrect": "Fixed joints lock motion, while bounding boxes determine collision, and ragdolls involve complex multi-joint systems.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which mechanism automatically replaces pre-authored animations with physics-simulated limb movement upon a character's death?",
+      "options": [
+        "Ragdoll",
+        "Inverse Kinematics",
+        "Hinge joint",
+        "Fixed joint"
+      ],
+      "answer": "Ragdoll",
+      "explanation_correct": "Ragdoll physics uses a system of simulated bones to make character corpses collapse realistically under gravity.",
+      "explanation_incorrect": "Inverse kinematics is for procedural animation, while hinge and fixed joints are simple connection types.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which type of constraint ensures that two physics objects remain in an immutable relative position to one another?",
+      "options": [
+        "Fixed joint",
+        "Hinge joint",
+        "Ragdoll",
+        "Bounding box"
+      ],
+      "answer": "Fixed joint",
+      "explanation_correct": "A fixed joint cements two objects together so they behave as a single entity.",
+      "explanation_incorrect": "Hinge joints permit motion, and ragdolls/bounding boxes are for simulation movement or detection rather than static anchoring.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What simplified geometric shape is typically used to perform the fast, initial stage of collision detection?",
+      "options": [
+        "Bounding box",
+        "Hinge joint",
+        "Fixed joint",
+        "Soft body"
+      ],
+      "answer": "Bounding box",
+      "explanation_correct": "Bounding boxes are simple primitives used for phase-one collision checking to exclude objects that cannot possibly touch.",
+      "explanation_incorrect": "Joints manage object connections, and soft bodies deal with deformation, not early-phase spatial optimization.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which numerical integration method is widely favored in game physics for maintaining stability in constraint-based systems?",
+      "options": [
+        "Verlet integration",
+        "Inverse Kinematics",
+        "SPH",
+        "Collision detection"
+      ],
+      "answer": "Verlet integration",
+      "explanation_correct": "Verlet integration is popular for its high stability and ability to resolve constraints efficiently.",
+      "explanation_incorrect": "Kinematics, SPH, and collision detection represent different categories (motion logic, fluid dynamics, and spatial checking).",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which mathematical system computes bone orientation by working backward from a target global position?",
+      "options": [
+        "Inverse Kinematics",
+        "Verlet integration",
+        "SPH",
+        "Ragdoll"
+      ],
+      "answer": "Inverse Kinematics",
+      "explanation_correct": "Inverse Kinematics determines the joint angles required to position an 'end effector' at a specific point in space.",
+      "explanation_incorrect": "Verlet integration and SPH are numerical solving methods, while ragdolls describe a full animation state, not the inverse positioning system itself.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hardware Integration",
+      "question": "What is the acronym for a dedicated hardware component specifically designed to calculate physics simulations?",
+      "options": [
+        "PPU",
+        "SPU",
+        "FPU",
+        "APU"
+      ],
+      "answer": "PPU",
+      "explanation_correct": "PPU stands for Physics Processing Unit, a specialized processor designed to handle complex physics calculations.",
+      "explanation_incorrect": "SPU, FPU, and APU are generic acronyms for different types of computational processors not specifically dedicated solely to physics simulation.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hardware Integration",
+      "question": "Which company originally developed and marketed the first dedicated PPU for the consumer market?",
+      "options": [
+        "Ageia",
+        "NVIDIA",
+        "Havok",
+        "PhysX"
+      ],
+      "answer": "Ageia",
+      "explanation_correct": "Ageia released the first PPU known as PhysX in 2006 before being acquired by NVIDIA.",
+      "explanation_incorrect": "NVIDIA is a GPU manufacturer that later purchased Ageia, while Havok and PhysX are software middleware.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hardware Integration",
+      "question": "Which processing component is traditionally responsible for the core logic and physics calculations in a standard computer architecture?",
+      "options": [
+        "CPU",
+        "GPU",
+        "DSP",
+        "NPU"
+      ],
+      "answer": "CPU",
+      "explanation_correct": "The CPU (Central Processing Unit) acts as the primary brain of the computer, handling general-purpose physics and game logic.",
+      "explanation_incorrect": "GPUs, DSPs, and NPUs are specialized for graphics, signal processing, or neural tasks, rather than general-purpose game physics integration.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hardware Integration",
+      "question": "Which modern hardware component utilizes massive parallel processing to handle complex physics simulations in contemporary games?",
+      "options": [
+        "GPU",
+        "CPU",
+        "RAM",
+        "ROM"
+      ],
+      "answer": "GPU",
+      "explanation_correct": "Modern GPUs have become the standard for offloading heavy physics tasks due to their high core count and parallel architecture.",
+      "explanation_incorrect": "CPUs handle logic, while RAM and ROM are memory storage components, not computational processing units.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the name of the resistive force that acts against the relative motion of two surfaces in contact?",
+      "options": [
+        "Friction",
+        "Tension",
+        "Buoyancy",
+        "Adhesion"
+      ],
+      "answer": "Friction",
+      "explanation_correct": "Friction is the physical interaction that slows down or prevents movement between two contacting surfaces.",
+      "explanation_incorrect": "Tension and buoyancy are other physical forces, but they relate to strings/ropes or fluid displacement rather than surface movement.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the term for the visual symptom occurring when physics objects vibrate or shake uncontrollably due to calculation errors?",
+      "options": [
+        "Jitter",
+        "Aliasing",
+        "Culling",
+        "Latency"
+      ],
+      "answer": "Jitter",
+      "explanation_correct": "Jitter results from rapid oscillations in a physics body between valid and invalid equilibrium states.",
+      "explanation_incorrect": "Aliasing pertains to graphics resolution, culling relates to rendering visibility, and latency refers to network or input delay.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What specific physics error occurs when a fast-moving object passes through another object between two simulation frames?",
+      "options": [
+        "Tunneling",
+        "Dither",
+        "Aliasing",
+        "Culling"
+      ],
+      "answer": "Tunneling",
+      "explanation_correct": "Tunneling occurs because physics engines check for collisions at discrete time steps, missing objects that moved past each other in the interval.",
+      "explanation_incorrect": "Aliasing and dithering are signal processing terms, while culling refers to the removal of non-visible objects from the rendering pipeline.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the specific constraint used in physics engines to prevent two distinct objects from occupying the same space?",
+      "options": [
+        "Non-penetration",
+        "Inertia",
+        "Elasticity",
+        "Damping"
+      ],
+      "answer": "Non-penetration",
+      "explanation_correct": "Non-penetration constraints force the physics solver to move objects apart if they start to overlap during a time step.",
+      "explanation_incorrect": "Inertia, elasticity, and damping define how objects react to force or motion, not how they interact with object boundaries.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vehicle Physics",
+      "question": "Which aerodynamic force creates downward pressure on an object to increase grip on a surface while in motion?",
+      "options": [
+        "Downforce",
+        "Lift",
+        "Thrust",
+        "Torque"
+      ],
+      "answer": "Downforce",
+      "explanation_correct": "Downforce is the aerodynamic effect used to push a vehicle towards the road, improving mechanical grip.",
+      "explanation_incorrect": "Lift is the opposite of downforce, thrust is forward acceleration, and torque relates to rotational force.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Fluid Dynamics",
+      "question": "What is the practice of simulating the movement and containment of liquids within a game environment known as?",
+      "options": [
+        "Fluid simulation",
+        "Particle nesting",
+        "Ray marching",
+        "Vertex morphing"
+      ],
+      "answer": "Fluid simulation",
+      "explanation_correct": "Fluid simulation calculates the interactions of liquids using Navier-Stokes or particle-based approximations.",
+      "explanation_incorrect": "Particle nesting, ray marching, and vertex morphing refer to visual rendering techniques rather than physics-driven fluid behavior.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Environmental Physics",
+      "question": "What system is used in modern games to enable objects to break into smaller fragments upon impact?",
+      "options": [
+        "Destruction",
+        "Fractal generation",
+        "Tessellation",
+        "Morphing"
+      ],
+      "answer": "Destruction",
+      "explanation_correct": "Destruction systems allow static geometry to be replaced by dynamic, broken meshes when specific impact thresholds are met.",
+      "explanation_incorrect": "Fractal generation, tessellation, and morphing are geometry manipulation techniques that do not deal with physical breakage.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Environmental Physics",
+      "question": "What physics-based interaction causes vegetation to react realistically to the movement of a player passing through it?",
+      "options": [
+        "Bending",
+        "Warping",
+        "Refraction",
+        "Elastic stress"
+      ],
+      "answer": "Bending",
+      "explanation_correct": "Bending involves procedural displacement of foliage meshes triggered by interactions with entities.",
+      "explanation_incorrect": "Warping, refraction, and elastic stress do not describe the specific interaction of physical movement against vegetation.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "What is the name of the internal physics module used within the open-source Godot Engine?",
+      "options": [
+        "GodotPhysics",
+        "Bullet",
+        "PhysX",
+        "Havok"
+      ],
+      "answer": "GodotPhysics",
+      "explanation_correct": "GodotPhysics is the native, engine-specific physics solver developed for the Godot platform.",
+      "explanation_incorrect": "Bullet, PhysX, and Havok are external physics middleware libraries that may be used by engines but are not named GodotPhysics.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which geometric shape is traditionally used as the most efficient bounding volume for collision detection?",
+      "options": [
+        "Sphere",
+        "Pyramid",
+        "Cylinder",
+        "Torus"
+      ],
+      "answer": "Sphere",
+      "explanation_correct": "A sphere is the most computationally inexpensive shape for collision detection tasks.",
+      "explanation_incorrect": "Pyramids, cylinders, and tori are computationally more costly due to higher vertex and edge analysis.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What mathematical representation of orientation is preferred in gaming physics to avoid gimbal lock?",
+      "options": [
+        "Quaternion",
+        "Euler angle",
+        "Matrix",
+        "Vector"
+      ],
+      "answer": "Quaternion",
+      "explanation_correct": "Quaternions represent rotations without the gimbal lock issues associated with Euler angles.",
+      "explanation_incorrect": "Euler angles, matrices, and vectors have different limitations and are less suited for interpolating rotations in physics.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What state does a physics engine assign to an object that has ceased motion to conserve computational resources?",
+      "options": [
+        "Sleeping",
+        "Static",
+        "Disabled",
+        "Buffered"
+      ],
+      "answer": "Sleeping",
+      "explanation_correct": "Sleeping is the deactivation state where objects are excluded from physics calculations until acted upon.",
+      "explanation_incorrect": "Static, disabled, and buffered indicate different states that do not match the standard engine terminology for energy-saving inactivity.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the theoretical point where the entire mass of an object is considered to be concentrated?",
+      "options": [
+        "Center of mass",
+        "Pivot point",
+        "Origin",
+        "Anchor"
+      ],
+      "answer": "Center of mass",
+      "explanation_correct": "The center of mass is the point where the weight of the object is evenly distributed in all directions.",
+      "explanation_incorrect": "Pivot points, origins, and anchors relate to positioning coordinate systems rather than the center of mass calculation.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What property describes an object's resistance to a change in its rotational motion?",
+      "options": [
+        "Moment of inertia",
+        "Angular velocity",
+        "Centrifugal force",
+        "Torque"
+      ],
+      "answer": "Moment of inertia",
+      "explanation_correct": "The moment of inertia quantifies how difficult it is to change the rotational speed of an object around an axis.",
+      "explanation_incorrect": "Angular velocity, centrifugal force, and torque denote motion descriptions or applied forces rather than resistance to rotation.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What technique uses an invisible line cast through 3D space to detect intersections with colliding objects?",
+      "options": [
+        "Raycasting",
+        "Pathfinding",
+        "Sampling",
+        "Occlusion"
+      ],
+      "answer": "Raycasting",
+      "explanation_correct": "Raycasting projects a mathematical ray to determine if it hits a physics object, commonly used for line-of-sight checks.",
+      "explanation_incorrect": "Pathfinding, sampling, and occlusion identify different algorithmic techniques not used for detecting geometric intersections via projection.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Aerodynamics",
+      "question": "What is the force that opposes the motion of an object as it passes through a fluid medium?",
+      "options": [
+        "Drag",
+        "Lift",
+        "Traction",
+        "Gravity"
+      ],
+      "answer": "Drag",
+      "explanation_correct": "Drag is the component of fluid resistance that acts opposite to the direction of travel.",
+      "explanation_incorrect": "Lift, traction, and gravity represent forces that act in different directions or contexts, such as vertical lift or road friction.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vehicle Physics",
+      "question": "What component in a vehicle's drivetrain allows the outer wheels to rotate faster than the inner wheels during a turn?",
+      "options": [
+        "Differential",
+        "Transmission",
+        "Driveshaft",
+        "Axle"
+      ],
+      "answer": "Differential",
+      "explanation_correct": "The differential allows wheels on the same axle to rotate at different speeds.",
+      "explanation_incorrect": "Transmission, driveshaft, and axles are drivetrain components but do not perform this specific speed-balancing function.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the specific term for the coordinate where the collision engine registers an intersection between two objects?",
+      "options": [
+        "Contact point",
+        "Origin point",
+        "Pivot point",
+        "Vertex"
+      ],
+      "answer": "Contact point",
+      "explanation_correct": "A contact point is the distinct location where colliding surfaces meet during a physics frame.",
+      "explanation_incorrect": "Pivot points, origins, and vertices are geometric properties used for positioning or modeling but not specifically defined as collision intersection data.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "In physics simulation, what is the name of the vector that points perpendicular to a collision surface?",
+      "options": [
+        "Normal",
+        "Tangent",
+        "Velocity",
+        "Basis"
+      ],
+      "answer": "Normal",
+      "explanation_correct": "The normal vector defines the orientation of a surface relative to a contact site.",
+      "explanation_incorrect": "Tangents, velocity vectors, and basis vectors describe movement or coordinate space rather than surface orientation.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Collision Detection",
+      "question": "Which type of bounding volume is strictly aligned with the world coordinate axes to simplify collision checks?",
+      "options": [
+        "AABB",
+        "OBB",
+        "Sphere",
+        "Convex Hull"
+      ],
+      "answer": "AABB",
+      "explanation_correct": "An Axis-Aligned Bounding Box (AABB) cannot be rotated, making it computationally efficient for broad-phase detection.",
+      "explanation_incorrect": "OBB can rotate, and spheres and hulls are different geometric shapes used for collision bounds.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Collision Detection",
+      "question": "What type of bounding box structure remains fixed to the local origin of an object regardless of rotation?",
+      "options": [
+        "OBB",
+        "AABB",
+        "Capsule",
+        "Mesh"
+      ],
+      "answer": "OBB",
+      "explanation_correct": "An Oriented Bounding Box (OBB) maintains its local orientation when an object is rotated.",
+      "explanation_incorrect": "AABB is constrained by world axes, and capsules and meshes are distinct geometric collision primitive types.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Gravity",
+      "question": "What form of gravity exerts a force directed towards a central point rather than a uniform direction?",
+      "options": [
+        "Radial gravity",
+        "Linear gravity",
+        "Planar gravity",
+        "Local gravity"
+      ],
+      "answer": "Radial gravity",
+      "explanation_correct": "Radial gravity is defined by a central source, pulling objects towards that specific point.",
+      "explanation_incorrect": "Linear, planar, and local gravity descriptors refer to uniform fields rather than point-based centers.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What term describes a physics body that follows defined movement paths without being influenced by external forces or collisions?",
+      "options": [
+        "Kinematic",
+        "Dynamic",
+        "Static",
+        "Rigid"
+      ],
+      "answer": "Kinematic",
+      "explanation_correct": "Kinematic objects move according to scripts or animation but do not react to physics forces like gravity or impacts.",
+      "explanation_incorrect": "Dynamic bodies react to forces, while static bodies are fixed in place; rigid is a broad type applicable to both.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optimization",
+      "question": "Which optimization technique segments the environment into a grid system to efficiently query potential object collisions?",
+      "options": [
+        "Spatial hashing",
+        "Frustum culling",
+        "Level of detail",
+        "Quadtree"
+      ],
+      "answer": "Spatial hashing",
+      "explanation_correct": "Spatial hashing maps objects to a grid based on their coordinates to limit collision checks to local cells.",
+      "explanation_incorrect": "Frustum culling concerns rendering, while Level of Detail relates to mesh complexity; Quadtrees are hierarchical, not primarily grid-based hashing.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which prominent physics engine was famously adapted for use on the Nintendo Switch for various high-performance titles?",
+      "options": [
+        "Havok",
+        "Bullet",
+        "Newton",
+        "Chipmunk"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Havok is widely utilized and ported specifically to optimize physics calculations on Nintendo hardware.",
+      "explanation_incorrect": "Bullet, Newton, and Chipmunk are physics solvers, but Havok is the specific engine noted for widespread Switch-specific optimizations.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "In a physics engine, what physical quantity represents the measure of a force's tendency to cause an object to rotate?",
+      "options": [
+        "Torque",
+        "Momentum",
+        "Friction",
+        "Impulse"
+      ],
+      "answer": "Torque",
+      "explanation_correct": "Torque is defined as the force applied at a distance from an axis of rotation.",
+      "explanation_incorrect": "Momentum, friction, and impulse describe linear motion or surface interactions rather than rotational tendencies.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Soft Body",
+      "question": "Which parameter measures the stiffness of a material when simulating deformations in soft-body physics?",
+      "options": [
+        "Young's modulus",
+        "Poisson's ratio",
+        "Damping coefficient",
+        "Restitution"
+      ],
+      "answer": "Young's modulus",
+      "explanation_correct": "Young's modulus defines the relationship between stress and strain, measuring how much a material resists deformation.",
+      "explanation_incorrect": "Poisson's ratio and damping refer to volume changes and energy loss, while restitution defines bounce.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the technical term for a single collision object composed of several smaller, distinct geometries?",
+      "options": [
+        "Compound shape",
+        "Primitive collider",
+        "Static mesh collider",
+        "Convex hull"
+      ],
+      "answer": "Compound shape",
+      "explanation_correct": "A compound shape aggregates multiple individual geometries into a single parent entity for rigid body simulation.",
+      "explanation_incorrect": "Primitive, mesh, and hull refer to single-type geometric collision volumes rather than aggregated systems.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "What was the name of the proprietary physics solver developed for the Roblox platform to handle complex constraint sets?",
+      "options": [
+        "PGS",
+        "PhysX",
+        "Havok",
+        "Bullet"
+      ],
+      "answer": "PGS",
+      "explanation_correct": "The PGS (Projected Gauss-Seidel) solver was the custom engine used by Roblox for its physics simulation.",
+      "explanation_incorrect": "PhysX, Havok, and Bullet are external engines, not the proprietary Roblox solver.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which physics engine was traditionally integrated into the Amazon Lumberyard engine for advanced body dynamics?",
+      "options": [
+        "PhysX",
+        "Newton",
+        "Bullet",
+        "ODE"
+      ],
+      "answer": "PhysX",
+      "explanation_correct": "PhysX was the standard middleware used within Lumberyard for physical world simulation.",
+      "explanation_incorrect": "Newton, Bullet, and ODE are alternative solvers not historically standard for Lumberyard.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vehicle Physics",
+      "question": "In automotive simulation, what term denotes the total vertical range of motion for a wheel system?",
+      "options": [
+        "Travel",
+        "Camber",
+        "Toe",
+        "Caster"
+      ],
+      "answer": "Travel",
+      "explanation_correct": "Travel describes the upper and lower limits of the wheel's vertical suspension movement.",
+      "explanation_incorrect": "Camber, toe, and caster are suspension geometry alignment settings, not vertical motion measurements.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the general term in physics engines for the mathematical technique used to calculate the next state of an object?",
+      "options": [
+        "Integration",
+        "Rasterization",
+        "Interpolation",
+        "Sampling"
+      ],
+      "answer": "Integration",
+      "explanation_correct": "Numerical integration computes position and velocity changes over discrete time steps.",
+      "explanation_incorrect": "Rasterization is a rendering term, while interpolation and sampling are general data processing techniques.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "What was the name of the destructible environment technology featured prominently in the 'Red Faction' series?",
+      "options": [
+        "Geo-Mod",
+        "Destructo-Engine",
+        "Fracture-Net",
+        "Phys-Destroy"
+      ],
+      "answer": "Geo-Mod",
+      "explanation_correct": "Geo-Mod allowed for the real-time modification of building geometry through destruction in Red Faction.",
+      "explanation_incorrect": "The other terms are generic identifiers that do not correspond to the real proprietary system name.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Visuals",
+      "question": "What is the common term used for non-colliding physics items such as small dust clouds or debris animations?",
+      "options": [
+        "Particle effects",
+        "Dynamic meshes",
+        "Rigid bodies",
+        "Collision primitives"
+      ],
+      "answer": "Particle effects",
+      "explanation_correct": "Particle effects simulate visual phenomena that do not impact gameplay collision logic.",
+      "explanation_incorrect": "Dynamic meshes, rigid bodies, and primitives are core physics components that possess collision volume.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optimization",
+      "question": "What optimization method excludes objects from the physics simulation if they are outside a specific field of view?",
+      "options": [
+        "Culling",
+        "Instancing",
+        "Caching",
+        "Batching"
+      ],
+      "answer": "Culling",
+      "explanation_correct": "Culling identifies and removes objects from the active processing queue when invisible to the player.",
+      "explanation_incorrect": "Instancing and batching are GPU optimizations, while caching stores data for faster access.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the term for a small padding added to collision geometry to ensure that objects do not get stuck within each other?",
+      "options": [
+        "Collision skin",
+        "Boundary shell",
+        "Contact offset",
+        "Buffer zone"
+      ],
+      "answer": "Collision skin",
+      "explanation_correct": "The collision skin provides a thin tolerance layer to manage precision and prevent penetration issues.",
+      "explanation_incorrect": "The other terms are plausible but do not refer to the specific physics engine concept for collision contact boundaries.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vehicle Physics",
+      "question": "Which specific suspension component is primarily responsible for resisting compression to absorb energy?",
+      "options": [
+        "Spring",
+        "Damper",
+        "Strut",
+        "Bushings"
+      ],
+      "answer": "Spring",
+      "explanation_correct": "The spring stores elastic potential energy while resisting compression from the vehicle's mass.",
+      "explanation_incorrect": "Dampers, struts, and bushings serve other functions such as motion control or vibration isolation rather than primary load resistance.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vehicle Physics",
+      "question": "What is the industry term for the property describing the mismatch between wheel rotation speed and actual ground speed?",
+      "options": [
+        "Slip",
+        "Camber",
+        "Toe",
+        "Caster"
+      ],
+      "answer": "Slip",
+      "explanation_correct": "Slip represents the loss of traction occurring when the wheel's rotational velocity differs from its linear velocity.",
+      "explanation_incorrect": "Camber, toe, and caster are geometric wheel alignment settings rather than a measurement of traction loss.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the common mathematical framework used to formulate and resolve non-penetration contact constraints in a physics engine?",
+      "options": [
+        "LCP (Linear Complementarity Problem)",
+        "FFT (Fast Fourier Transform)",
+        "A* Algorithm",
+        "Monte Carlo Method"
+      ],
+      "answer": "LCP (Linear Complementarity Problem)",
+      "explanation_correct": "The Linear Complementarity Problem (LCP) is the standard formulation for solving contact forces and constraints in rigid body dynamics.",
+      "explanation_incorrect": "FFT is for signal processing, A* is for pathfinding, and Monte Carlo is a statistical sampling method.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which software engine was originally employed to manage the structural chaos features within the Just Cause series?",
+      "options": [
+        "Havok",
+        "PhysX",
+        "Bullet",
+        "Box2D"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Havok was the underlying physics technology used to compute the sophisticated destruction in the Just Cause franchise.",
+      "explanation_incorrect": "The others are alternative physics frameworks not primarily responsible for the specific structural breakdown patterns identified in the series.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What physical quantity is defined as the magnitude of force applied perpendicularly over a specific surface area?",
+      "options": [
+        "Pressure",
+        "Stress",
+        "Tension",
+        "Torque"
+      ],
+      "answer": "Pressure",
+      "explanation_correct": "Pressure is the result of force acting on a surface area.",
+      "explanation_incorrect": "Stress, tension, and torque relate to internal forces or rotational mechanics rather than perpendicular area-based distribution.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What physics parameter represents the measurement of how fast a body is spinning around an axis?",
+      "options": [
+        "Angular velocity",
+        "Moment of inertia",
+        "Angular momentum",
+        "Centripetal acceleration"
+      ],
+      "answer": "Angular velocity",
+      "explanation_correct": "Angular velocity describes the rate at which an object rotates in three-dimensional space.",
+      "explanation_incorrect": "Moment of inertia is a measure of resistance to rotation, while momentum and acceleration are distinct mechanical concepts.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Collision Detection",
+      "question": "Which collision algorithm is widely used to determine the minimum distance between two convex geometric shapes?",
+      "options": [
+        "GJK",
+        "SAPA",
+        "SAT",
+        "OBB"
+      ],
+      "answer": "GJK",
+      "explanation_correct": "The Gilbert-Johnson-Keerthi (GJK) algorithm is an efficient method for finding the distance between convex primitives.",
+      "explanation_incorrect": "SAT is for collision intersection, and OBB is a bounding volume type, not an algorithm for distance calculation.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optimization",
+      "question": "What hierarchy structure uses a tree of nested volumes to optimize physics broad-phase performance?",
+      "options": [
+        "BVH",
+        "AABB",
+        "SAP",
+        "KD-Tree"
+      ],
+      "answer": "BVH",
+      "explanation_correct": "A Bounding Volume Hierarchy organizes space into recursive containers to quickly discard objects during intersection tests.",
+      "explanation_incorrect": "AABB is a simple shape, while SAP and KD-Tree are alternative spatial partitioning approaches.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the term for a large force applied over a negligibly short timeframe to alter the velocity of a body?",
+      "options": [
+        "Impulse",
+        "Constant force",
+        "Torque",
+        "Drag"
+      ],
+      "answer": "Impulse",
+      "explanation_correct": "Impulse is effectively the change in momentum caused by a high force applied instantaneously, often used for collisions.",
+      "explanation_incorrect": "Constant forces, torque, and drag act continuously or differently to influence movement over sustained intervals.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which force type remains uniform regardless of an object's position or the simulation time elapsed?",
+      "options": [
+        "Constant force",
+        "Impulse force",
+        "Frictional force",
+        "Hookean force"
+      ],
+      "answer": "Constant force",
+      "explanation_correct": "A constant force maintains a steady magnitude and vector throughout the simulation.",
+      "explanation_incorrect": "Impulse, friction, and Hookean forces rely on external triggers, surface properties, or displacement, respectively.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which specific physics middleware was officially bundled as a component of the DirectX multimedia framework?",
+      "options": [
+        "DirectPhysics",
+        "PhysX",
+        "Havok",
+        "Bullet"
+      ],
+      "answer": "DirectPhysics",
+      "explanation_correct": "DirectPhysics was the experimental extension intended to bring physics calculations under the DirectX umbrella.",
+      "explanation_incorrect": "PhysX, Havok, and Bullet are independent third-party middlewares, not integrated components of the DirectX API stack.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Environmental Physics",
+      "question": "What is the name of the specific PhysX module designed for fracturing meshes realistically?",
+      "options": [
+        "Blast",
+        "Apex",
+        "Flow",
+        "Particles"
+      ],
+      "answer": "Blast",
+      "explanation_correct": "NVIDIA Blast provides tools for breaking destructible assets into smaller, physics-enabled pieces.",
+      "explanation_incorrect": "Apex, Flow, and Particles handle different areas such as high-level entity logic, fluids, and small-scale visual effects.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which system allows engine developers to define which objects interact physically based on their category?",
+      "options": [
+        "Collision layers",
+        "Spatial partitioning",
+        "Bitmasks",
+        "Tagging"
+      ],
+      "answer": "Collision layers",
+      "explanation_correct": "Collision layers use matrix mapping to dictate if one physical object should react to another.",
+      "explanation_incorrect": "Spatial partitioning, bitmasks, and tagging are organizational tools but do not define physical collision logic in the middleware sense.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Ragdoll",
+      "question": "What is the specialized system that blends skeletal animation with dynamic ragdoll physics?",
+      "options": [
+        "Active ragdoll",
+        "Kinematic blending",
+        "Procedural animation",
+        "Interpolation"
+      ],
+      "answer": "Active ragdoll",
+      "explanation_correct": "Active ragdolls attempt to restore a pose using physics motors to ensure the character reacts dynamically while maintaining form.",
+      "explanation_incorrect": "The others are either rendering techniques or animation blending methods without the physics-driven feedback loop.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Soft Body",
+      "question": "What term describes the artificial, bouncy secondary motion applied to soft materials like gelatinous assets?",
+      "options": [
+        "Jiggle physics",
+        "Spring-mass damping",
+        "Deformation blending",
+        "Vertex wobbling"
+      ],
+      "answer": "Jiggle physics",
+      "explanation_correct": "Jiggle physics refers to local mesh oscillations designed to mimic soft tissue movement.",
+      "explanation_incorrect": "These represent other technical methods or specific calculations rather than the informal industry descriptor for wobbling objects.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Fluid Dynamics",
+      "question": "Which grid-based method is characterized by tracking fluid behavior across a stationary coordinate system?",
+      "options": [
+        "Eulerian",
+        "Lagrangian",
+        "Smoothed Particle Hydrodynamics",
+        "Vortex methods"
+      ],
+      "answer": "Eulerian",
+      "explanation_correct": "Eulerian fluid simulations analyze flow through fixed grid cells rather than tracking volume particles.",
+      "explanation_incorrect": "Lagrangian, SPH, and vortex methods focus on moving points or particle tracking instead of stationary grids.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Fluid Dynamics",
+      "question": "Which liquid simulation method tracks the movement of individual points through space?",
+      "options": [
+        "Lagrangian",
+        "Eulerian",
+        "Grid-based simulation",
+        "Finite volume technique"
+      ],
+      "answer": "Lagrangian",
+      "explanation_correct": "Lagrangian simulations represent the fluid as a set of moving particles that carry their properties with them.",
+      "explanation_incorrect": "Eulerian, grid-based, and finite volume techniques are strictly tied to stationary analysis points.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "What is the primary physics library utilized natively by the Frostbite engine for its simulation needs?",
+      "options": [
+        "Havok",
+        "PhysX",
+        "Bullet",
+        "Newton"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "The Frostbite engine integrates Havok as its core physics middleware for environmental interaction.",
+      "explanation_incorrect": "PhysX, Bullet, and Newton are alternate engines that do not serve as the native foundation for Frostbite projects.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the standardized, fixed duration used to increment a physics world's simulation?",
+      "options": [
+        "Time step",
+        "Frame rate",
+        "Latency",
+        "Refresh rate"
+      ],
+      "answer": "Time step",
+      "explanation_correct": "The time step is the set frequency at which the physics engine recalculates movement to ensure stability.",
+      "explanation_incorrect": "Frame rate, latency, and refresh rate relate to display performance or network synchronization rather than simulation intervals.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What refers to the mechanical effect of slowing down the progression of physical events in a software environment?",
+      "options": [
+        "Time dilation",
+        "Interpolator slowing",
+        "Frame capping",
+        "Motion blur"
+      ],
+      "answer": "Time dilation",
+      "explanation_correct": "Time dilation scales the delta time passed to the simulation, allowing physical motion to appear slowed.",
+      "explanation_incorrect": "Interpolator, capping, and blur are visual rendering techniques that do not technically regulate the underlying simulation clock.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the term for the physical parameter that simulates energy loss over time to prevent perpetual motion?",
+      "options": [
+        "Friction",
+        "Inertia",
+        "Gravity",
+        "Damping"
+      ],
+      "answer": "Damping",
+      "explanation_correct": "Damping reduces the amplitude of oscillations over time to simulate resistance.",
+      "explanation_incorrect": "Friction, inertia, and gravity are forces or properties, but do not specifically govern oscillations to simulate energy decay.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which game engine was originally used to develop Garry's Mod?",
+      "options": [
+        "Unreal",
+        "Unity",
+        "CryEngine",
+        "Source"
+      ],
+      "answer": "Source",
+      "explanation_correct": "Garry's Mod was originally built using Valve's Source engine.",
+      "explanation_incorrect": "Unreal, Unity, and CryEngine are alternative engines not used for the original iteration of Garry's Mod.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which simplified geometry is commonly used as a proxy for complex mesh collision detection?",
+      "options": [
+        "Bounding sphere",
+        "Axis-aligned box",
+        "Convex hull",
+        "Capsule"
+      ],
+      "answer": "Convex hull",
+      "explanation_correct": "A convex hull creates a simplified polygon wrap that approximates a mesh without deep concavities.",
+      "explanation_incorrect": "Spheres, boxes, and capsules are primitives, but they do not conform to the specific profile of a complex mesh like a hull.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Collision Detection",
+      "question": "What hierarchical data structure is frequently used in broad-phase collision detection for spatial partitioning?",
+      "options": [
+        "Binary tree",
+        "Linked list",
+        "Array",
+        "Octree"
+      ],
+      "answer": "Octree",
+      "explanation_correct": "An octree partitions 3D space by recursively subdividing voxels into eight octants.",
+      "explanation_incorrect": "Linked lists, arrays, and general binary trees lack the spatial awareness required for effective 3D broad-phase checking.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Collision Detection",
+      "question": "What algorithm utilizes projection onto normal vectors to determine if two convex shapes are colliding?",
+      "options": [
+        "GJK",
+        "EPA",
+        "SAT",
+        "MPR"
+      ],
+      "answer": "SAT",
+      "explanation_correct": "The Separating Axis Theorem (SAT) detects collisions by testing if there exists an axis where shapes do not overlap.",
+      "explanation_incorrect": "GJK, EPA, and MPR are alternative collision detection algorithms based on different mathematical principles.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Soft Body",
+      "question": "Which specific simulation system is most commonly implemented to handle the behavior of hair or fabric?",
+      "options": [
+        "Rigid body",
+        "Fluid dynamics",
+        "Particle system",
+        "Cloth"
+      ],
+      "answer": "Cloth",
+      "explanation_correct": "Cloth simulation mimics the physical properties of flexible, deforming meshes or surfaces.",
+      "explanation_incorrect": "Rigid body, fluid, and general particle systems do not simulate the specific structural constraints of woven fabric.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the term for a simulation where identical inputs will consistently produce identical outputs?",
+      "options": [
+        "Heuristic",
+        "Stochastic",
+        "Deterministic",
+        "Asynchronous"
+      ],
+      "answer": "Deterministic",
+      "explanation_correct": "A deterministic simulation ensures that the logic state follows a fixed path based purely on initial conditions.",
+      "explanation_incorrect": "Heuristic, stochastic, and asynchronous processes involve estimation, randomness, or time-drift that break consistency.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Constraint Types",
+      "question": "Which type of joint is designed to allow movement along a single translational axis while restricting rotation?",
+      "options": [
+        "Ball and socket joint",
+        "Hinge joint",
+        "Prismatic joint",
+        "Fixed joint"
+      ],
+      "answer": "Prismatic joint",
+      "explanation_correct": "A prismatic joint permits sliding along a line but prevents rotation about or perpendicular to that line.",
+      "explanation_incorrect": "Ball and socket, hinge, and fixed joints permit different degrees of rotational freedom rather than pure sliding.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which physics engine was primarily utilized to provide the complex physical interactions in LittleBigPlanet?",
+      "options": [
+        "PhysX",
+        "Havok",
+        "Bullet",
+        "Newton"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "LittleBigPlanet relied heavily on the proprietary Havok engine for its physics-based world interactions.",
+      "explanation_incorrect": "PhysX, Bullet, and Newton are valid engines but were not the primary drivers for this specific title.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "Which physical property defines the ratio of relative speeds before and after an impact, essentially determining bounciness?",
+      "options": [
+        "Friction",
+        "Density",
+        "Restitution",
+        "Viscosity"
+      ],
+      "answer": "Restitution",
+      "explanation_correct": "Coefficient of restitution quantifies the kinetic energy conservation during an impact event.",
+      "explanation_incorrect": "Friction, density, and viscosity describe surface resistance, mass distribution, and flow resistance, respectively.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Soft Body",
+      "question": "What simulation framework represents an object as a set of points connected by linkages to model deformation?",
+      "options": [
+        "Finite element method",
+        "Mass-spring system",
+        "Smoothed particle hydrodynamics",
+        "Voxel grid"
+      ],
+      "answer": "Mass-spring system",
+      "explanation_correct": "Mass-spring systems use point masses connected by springs to simulate stretch and deformation.",
+      "explanation_incorrect": "Finite element methods, SPH, and voxel grids use different mathematical approaches for volume or solid simulation.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optimization",
+      "question": "What is the initial stage of collision detection that quickly filters out object pairs that are too far apart to intersect?",
+      "options": [
+        "Narrow phase",
+        "Constraint solving",
+        "Broad phase",
+        "Integration"
+      ],
+      "answer": "Broad phase",
+      "explanation_correct": "Broad phase optimization removes non-colliding object pairs using simple tests before more complex checks occur.",
+      "explanation_incorrect": "Narrow phase, constraint solving, and integration occur after potential collisions have been identified.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optimization",
+      "question": "What is the final stage of collision detection where the specific intersection points and contact manifolds are computed?",
+      "options": [
+        "Broad phase",
+        "Narrow phase",
+        "Mid phase",
+        "Quantization"
+      ],
+      "answer": "Narrow phase",
+      "explanation_correct": "Narrow phase uses high-precision calculations to solve for exact contact points only for potentially colliding shapes.",
+      "explanation_incorrect": "Broad phase, mid phase, and quantization are either preliminary stages or data compression techniques.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What force acts vertically upon an object submerged in or resting on a fluid surface?",
+      "options": [
+        "Drag",
+        "Buoyancy",
+        "Lift",
+        "Thrust"
+      ],
+      "answer": "Buoyancy",
+      "explanation_correct": "Buoyancy is the upward force exerted by a fluid that opposes the weight of an immersed object.",
+      "explanation_incorrect": "Drag, lift, and thrust are fluid-related forces, but they describe resistance and propulsion rather than floatation.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which 2D physics engine gained widespread popularity for its role in the mechanics of the original Angry Birds?",
+      "options": [
+        "Box2D",
+        "Chipmunk",
+        "Matter.js",
+        "P2.js"
+      ],
+      "answer": "Box2D",
+      "explanation_correct": "Box2D is the industry-standard engine that powered the rigid-body mechanics found in the original Angry Birds.",
+      "explanation_incorrect": "Chipmunk, Matter.js, and P2.js provide similar functionality but were not the engines of this title.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which 2D physics library, originally written in C, is known for its 'Sover' system and performance efficiency in mobile games and platformers?",
+      "options": [
+        "Chipmunk",
+        "Bullet",
+        "Havok",
+        "Jolt"
+      ],
+      "answer": "Chipmunk",
+      "explanation_correct": "Chipmunk is a popular open-source 2D physics engine written in C, prized for its portability and lightweight footprint.",
+      "explanation_incorrect": "Bullet and Havok are primarily 3D engines, while Jolt is a high-performance 3D engine used in titles like Horizon Forbidden West.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Environmental Physics",
+      "question": "What is the term for the environmental destruction system implemented in the Battlefield series?",
+      "options": [
+        "Destructo",
+        "Havok Flex",
+        "Levolution",
+        "Fracture"
+      ],
+      "answer": "Levolution",
+      "explanation_correct": "Levolution refers to the dynamic, large-scale environmental changes and destruction events in the Battlefield titles.",
+      "explanation_incorrect": "Destructo, Havok Flex, and Fracture are unrelated terms or generic descriptors for destruction systems.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Software Engines",
+      "question": "Which physics engine was acquired by Intel in 2007 and then later sold to Microsoft in 2015?",
+      "options": [
+        "Havok",
+        "PhysX",
+        "Bullet",
+        "Euphoria"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Havok has a unique corporate history, being owned by Intel for nearly a decade before its acquisition by Microsoft.",
+      "explanation_incorrect": "PhysX is owned by NVIDIA, Bullet is an open-source project, and Euphoria is a procedural animation engine by NaturalMotion.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What is the name for a spatial volume defined in a game engine that initiates logic when an object enters it?",
+      "options": [
+        "Physics zone",
+        "Trigger volume",
+        "Collision area",
+        "Boundary zone"
+      ],
+      "answer": "Trigger volume",
+      "explanation_correct": "Trigger volumes are non-rendered regions that send signals when an object intersects them.",
+      "explanation_incorrect": "Physics, collision, and boundary zones describe other aspects of geometry that do not strictly define the 'trigger' function.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation Concepts",
+      "question": "What physical quantity describes both the rate of motion and the orientation of an object in a coordinate system?",
+      "options": [
+        "Acceleration",
+        "Speed",
+        "Velocity",
+        "Momentum"
+      ],
+      "answer": "Velocity",
+      "explanation_correct": "Velocity is a vector quantity that specifies both magnitude (speed) and direction.",
+      "explanation_incorrect": "Acceleration, speed, and momentum relate to change in velocity, rate of motion, and mass-velocity, respectively.",
+      "last_verified_at": "2026-06-12T16:35:33.390Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}

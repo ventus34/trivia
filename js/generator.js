@@ -2360,11 +2360,24 @@ async function startFullVerification() {
   activeVerifications = [];
   activeVerifyingModel = model;
 
+  // Group questions by language to avoid language confusion
+  const groupsByLang = {};
+  questionsToVerify.forEach((q) => {
+    const lang = q.language || 'pl';
+    if (!groupsByLang[lang]) {
+      groupsByLang[lang] = [];
+    }
+    groupsByLang[lang].push(q);
+  });
+
   // Batch size: up to 100 questions (as approved by the user)
   const batchSize = 100;
   const batches = [];
-  for (let i = 0; i < questionsToVerify.length; i += batchSize) {
-    batches.push(questionsToVerify.slice(i, i + batchSize));
+  for (const lang of Object.keys(groupsByLang)) {
+    const list = groupsByLang[lang];
+    for (let i = 0; i < list.length; i += batchSize) {
+      batches.push(list.slice(i, i + batchSize));
+    }
   }
 
   try {
@@ -2382,15 +2395,17 @@ async function startFullVerification() {
         explanation_incorrect: q.explanation_incorrect || '',
       }));
 
-      // Determine language context for prompt
-      const promptLang = selectedLang === 'en' ? 'en' : 'pl';
+      // Determine language context for prompt based on batch language
+      const batchLang = batch[0].language || 'pl';
+      const promptLang = batchLang === 'en' ? 'en' : 'pl';
       const promptData = promptsConfig.verify_questions[promptLang];
       const langName = promptLang === 'pl' ? 'Polski / Polish' : 'Angielski / English';
 
-      const system = (promptData.persona + '\n' + promptData.static_instructions.join('\n')).replace(
-        /{language}/g,
-        langName
-      );
+      const system = (
+        promptData.persona +
+        '\n' +
+        promptData.static_instructions.join('\n')
+      ).replace(/{language}/g, langName);
       const prompt = promptData.task_template
         .replace(/{language}/g, langName)
         .replace('{questions_json}', JSON.stringify(simpleBatch, null, 2));
@@ -2432,8 +2447,10 @@ async function startFullVerification() {
                 sug.suggested.options && Array.isArray(sug.suggested.options)
                   ? sug.suggested.options
                   : [...origQ.options],
-              explanationCorrect: sug.suggested.explanation_correct || origQ.explanation_correct || '',
-              explanationIncorrect: sug.suggested.explanation_incorrect || origQ.explanation_incorrect || '',
+              explanationCorrect:
+                sug.suggested.explanation_correct || origQ.explanation_correct || '',
+              explanationIncorrect:
+                sug.suggested.explanation_incorrect || origQ.explanation_incorrect || '',
             });
           }
         });
@@ -2457,7 +2474,8 @@ function renderVerificationList() {
   const selectedCat = UI.verifyCatFilter ? UI.verifyCatFilter.value : 'ALL';
 
   const displayed = activeVerifications.filter((item) => {
-    const langMatch = selectedLang === 'ALL' || (item.questionObj.language || 'pl') === selectedLang;
+    const langMatch =
+      selectedLang === 'ALL' || (item.questionObj.language || 'pl') === selectedLang;
     const catMatch = selectedCat === 'ALL' || item.questionObj.category === selectedCat;
     return langMatch && catMatch;
   });
@@ -2491,8 +2509,10 @@ function renderVerificationList() {
         <div class="flex flex-col items-center justify-center py-16 text-center">
           <span class="text-3xl mb-2">🎉</span>
           <p class="text-gray-400 text-sm font-semibold">${
-            unverifiedOnly 
-              ? (currentLanguage === 'pl' ? 'Wszystkie pytania zostały zweryfikowane! Pula wyczerpana.' : 'All questions have been verified! Pool exhausted.')
+            unverifiedOnly
+              ? currentLanguage === 'pl'
+                ? 'Wszystkie pytania zostały zweryfikowane! Pula wyczerpana.'
+                : 'All questions have been verified! Pool exhausted.'
               : translations.gen_verify_none[currentLanguage]
           }</p>
         </div>
@@ -2502,7 +2522,10 @@ function renderVerificationList() {
 
     UI.verifyList.classList.remove('hidden');
     UI.saveAllVerifyBtn.classList.add('hidden');
-    UI.verifyStatusMsg.textContent = translations.gen_verify_status_msg[currentLanguage].replace('{count}', 0);
+    UI.verifyStatusMsg.textContent = translations.gen_verify_status_msg[currentLanguage].replace(
+      '{count}',
+      0
+    );
     return;
   }
 
@@ -2517,20 +2540,24 @@ function renderVerificationList() {
   displayed.forEach((item) => {
     const index = activeVerifications.indexOf(item);
     const card = document.createElement('div');
-    card.className = 'bg-slate-950 bg-opacity-40 border border-slate-800 rounded-xl p-5 space-y-4 text-xs';
+    card.className =
+      'bg-slate-950 bg-opacity-40 border border-slate-800 rounded-xl p-5 space-y-4 text-xs';
 
     // Confidence badge styling
     let badgeColor = 'bg-gray-800 text-gray-400';
     let badgeText = translations.gen_verify_confidence_medium[currentLanguage];
     const conf = (item.confidence || 'medium').toLowerCase();
     if (conf === 'high') {
-      badgeColor = 'bg-emerald-950 bg-opacity-40 text-emerald-400 border border-emerald-800 border-opacity-40';
+      badgeColor =
+        'bg-emerald-950 bg-opacity-40 text-emerald-400 border border-emerald-800 border-opacity-40';
       badgeText = translations.gen_verify_confidence_high[currentLanguage];
     } else if (conf === 'medium') {
-      badgeColor = 'bg-amber-950 bg-opacity-40 text-amber-400 border border-amber-800 border-opacity-40';
+      badgeColor =
+        'bg-amber-950 bg-opacity-40 text-amber-400 border border-amber-800 border-opacity-40';
       badgeText = translations.gen_verify_confidence_medium[currentLanguage];
     } else if (conf === 'low') {
-      badgeColor = 'bg-rose-950 bg-opacity-40 text-rose-400 border border-rose-850 border-opacity-40';
+      badgeColor =
+        'bg-rose-950 bg-opacity-40 text-rose-400 border border-rose-850 border-opacity-40';
       badgeText = translations.gen_verify_confidence_low[currentLanguage];
     }
 
@@ -2648,8 +2675,8 @@ function renderVerificationList() {
               translations.gen_modal_q_text[currentLanguage]
             }:</label>
             <textarea class="verify-q-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
-      item.newQuestionText
-    }</textarea>
+              item.newQuestionText
+            }</textarea>
           </div>
           <div>
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
@@ -2684,16 +2711,16 @@ function renderVerificationList() {
               translations.gen_modal_explanation_correct[currentLanguage]
             }:</label>
             <textarea class="verify-exp-c-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
-      item.explanationCorrect || ''
-    }</textarea>
+              item.explanationCorrect || ''
+            }</textarea>
           </div>
           <div>
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_explanation_incorrect[currentLanguage]
             }:</label>
             <textarea class="verify-exp-i-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
-      item.explanationIncorrect || ''
-    }</textarea>
+              item.explanationIncorrect || ''
+            }</textarea>
           </div>
         </div>
       </div>
@@ -2773,7 +2800,11 @@ function renderVerificationList() {
         verifiedInCurrentSession.add(item.questionObj.id);
       }
       activeVerifications.splice(index, 1);
-      showNotification(currentLanguage === 'pl' ? 'Odrzucono sugestię poprawki.' : 'Rejected correction suggestion.');
+      showNotification(
+        currentLanguage === 'pl'
+          ? 'Odrzucono sugestię poprawki.'
+          : 'Rejected correction suggestion.'
+      );
       renderVerificationList();
       updateTable();
       if (openedDirHandle) {

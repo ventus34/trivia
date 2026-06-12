@@ -1,0 +1,1512 @@
+{
+  "id": "artificial_intelligence_in_gaming_en",
+  "name": "Artificial Intelligence in Gaming",
+  "language": "en",
+  "description": "Questions covering: NPC Behavior, Pathfinding, Classic Games, Strategic Games, Board Games...",
+  "created_at": "2026-06-12T16:42:50.570Z",
+  "last_verified_at": "2026-06-12T16:39:22.984Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 100,
+  "questions": [
+    {
+      "subcategory": "NPC Behavior",
+      "question": "Which design pattern is traditionally used for NPC decision-making by transitioning between defined logic states?",
+      "options": [
+        "Finite State Machine",
+        "Decorator Pattern",
+        "Observer Pattern",
+        "Strategy Pattern"
+      ],
+      "answer": "Finite State Machine",
+      "explanation_correct": "A Finite State Machine allows an entity to exist in exactly one of several possible states at any given time.",
+      "explanation_incorrect": "Decorator, Observer, and Strategy are standard software design patterns that do not inherently manage state transition logic for NPCs.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "NPC Behavior",
+      "question": "Which hierarchical logic system is widely used in modern gaming to manage complex agent behaviors through branching nodes?",
+      "options": [
+        "Behavior Trees",
+        "Influence Maps",
+        "Blackboard Systems",
+        "Decision Matrices"
+      ],
+      "answer": "Behavior Trees",
+      "explanation_correct": "Behavior Trees are a hierarchical model used to control decision-making processes in game AI.",
+      "explanation_incorrect": "Influence maps, blackboards, and decision matrices serve different purposes like spatial data management or information sharing, not branching behavior logic.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "Which heuristic pathfinding algorithm is most frequently utilized in game development to find the shortest path between two points?",
+      "options": [
+        "A* Search",
+        "Breadth-First Search",
+        "Depth-First Search",
+        "Uniform Cost Search"
+      ],
+      "answer": "A* Search",
+      "explanation_correct": "A* uses a heuristic function to efficiently estimate the cost to the goal, making it highly optimized for real-time applications.",
+      "explanation_incorrect": "Breadth-First, Depth-First, and Uniform Cost searches are foundational algorithms that lack the heuristic efficiency of A* for complex game maps.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Classic Games",
+      "question": "What was the name of the IBM computer that famously defeated world chess champion Garry Kasparov in 1997?",
+      "options": [
+        "Deep Blue",
+        "Watson",
+        "Blue Gene",
+        "Deep Fritz"
+      ],
+      "answer": "Deep Blue",
+      "explanation_correct": "Deep Blue was the specialized system built by IBM specifically to challenge and defeat the human chess champion.",
+      "explanation_incorrect": "Watson and Blue Gene are other IBM initiatives, while Deep Fritz is a separate chess engine software not associated with the historic 1997 match.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Strategic Games",
+      "question": "Which Google DeepMind program became the first to defeat a professional human player at the game of Go?",
+      "options": [
+        "AlphaGo",
+        "AlphaZero",
+        "MuZero",
+        "AlphaStar"
+      ],
+      "answer": "AlphaGo",
+      "explanation_correct": "AlphaGo utilized neural networks and tree search to master the board game Go.",
+      "explanation_incorrect": "While AlphaZero, MuZero, and AlphaStar are sophisticated DeepMind projects, they were applied to different game domains like chess or real-time strategy.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Board Games",
+      "question": "Which traditional Japanese strategy game serves as a core challenge for many specialized artificial intelligence research projects?",
+      "options": [
+        "Shogi",
+        "Go",
+        "Chess",
+        "Renju"
+      ],
+      "answer": "Shogi",
+      "explanation_correct": "Shogi is a Japanese strategy game that presents unique complexity for AI due to recursive piece capture mechanics.",
+      "explanation_incorrect": "Go, Chess, and Renju are common board game AI targets but are distinct in their rules and cultural origin from the Japanese game specified.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "What is the primary algorithm used for calculating the shortest path on a weighted graph with non-negative edge weights?",
+      "options": [
+        "Dijkstra's algorithm",
+        "Bellman-Ford",
+        "Floyd-Warshall",
+        "Johnson's algorithm"
+      ],
+      "answer": "Dijkstra's algorithm",
+      "explanation_correct": "Dijkstra's algorithm is the standard method for finding the shortest path from a single source node to all other nodes in a weighted graph.",
+      "explanation_incorrect": "Bellman-Ford, Floyd-Warshall, and Johnson’s are alternative graph algorithms used for different specific edge weight constraints or all-pairs scenarios.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Decision Making",
+      "question": "Which dynamic planning system allowed the NPCs in the game F.E.A.R. to exhibit emergent combat behavior?",
+      "options": [
+        "GOAP",
+        "Utility AI",
+        "HTN Planning",
+        "Scripted Sequences"
+      ],
+      "answer": "GOAP",
+      "explanation_correct": "GOAP architecture was popularized by F.E.A.R. to give AI the autonomy to determine sequences of actions to satisfy a goal.",
+      "explanation_incorrect": "Utility AI, HTN, and scripted sequences represent different architectural approaches that were not the defining innovation for the F.E.A.R. AI.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Decision Making",
+      "question": "What does the AI acronym GOAP stand for, as popularized by the game F.E.A.R.?",
+      "options": [
+        "Goal-Oriented Action Planning",
+        "General Objective Agent Programming",
+        "Global Object Analysis Protocol",
+        "Graphic Optimized AI Pathfinding"
+      ],
+      "answer": "Goal-Oriented Action Planning",
+      "explanation_correct": "GOAP is a system that allows agents to dynamically plan a sequence of actions to reach a specific goal.",
+      "explanation_incorrect": "These options use related terminology but do not correctly define the GOAP architecture acronym.",
+      "last_verified_at": "2026-06-12T16:38:22.636Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Decision Making",
+      "question": "Which architecture employs mathematical functions to weight and score various actions based on current situational inputs?",
+      "options": [
+        "Utility AI",
+        "Finite State Machine",
+        "Rule-based System",
+        "Fuzzy Logic"
+      ],
+      "answer": "Utility AI",
+      "explanation_correct": "Utility AI calculates a numerical score for each potential action based on game world factors.",
+      "explanation_incorrect": "FSM, rule-based systems, and fuzzy logic utilize different methodologies—typically conditional branches—rather than a scoring utility function.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "NPC Design",
+      "question": "What is the term for the invisible geometry generated to define walkable surfaces for non-player characters?",
+      "options": [
+        "Navigation Mesh",
+        "Collision Primitive",
+        "Raycast Boundary",
+        "AABB Volume"
+      ],
+      "answer": "Navigation Mesh",
+      "explanation_correct": "A navigation mesh is a set of polygons that defines the areas in a 3D environment where an agent can walk.",
+      "explanation_incorrect": "Collision primitives, raycasts, and AABB volumes are used for physics and visibility tests, not for defining walkable pathfinding areas.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "NPC Design",
+      "question": "What is the industry-standard abbreviated term for a polygonal mesh used to map the walkable area for game AI?",
+      "options": [
+        "NavMesh",
+        "PathMap",
+        "WalkPoly",
+        "GridGeo"
+      ],
+      "answer": "NavMesh",
+      "explanation_correct": "NavMesh is the widely accepted shorthand for the navigation mesh used in game engines like Unity and Unreal.",
+      "explanation_incorrect": "PathMap, WalkPoly, and GridGeo are descriptive but do not represent common industry terminology for the underlying AI movement structure.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Alien: Isolation",
+      "question": "What specific two-part AI architecture was utilized to simulate the predatory behavior of the creature in Alien: Isolation?",
+      "options": [
+        "Dual-brain AI",
+        "Hierarchical State System",
+        "Blackboard-Controller",
+        "Manager-Agent Logic"
+      ],
+      "answer": "Dual-brain AI",
+      "explanation_correct": "Alien: Isolation utilized a dual-brain system where one AI knew the player's location and another executed the physical behavior.",
+      "explanation_incorrect": "The other listed terms describe generic or alternative architecture styles not specific to the implementation in this game.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "First-Person Shooters",
+      "question": "What was the name of the central AI manager in the Halo series tasked with coordinating squad encounters and combat pacing?",
+      "options": [
+        "The Director",
+        "Bungie Mind",
+        "Combat Logic Controller",
+        "Encounter Manager"
+      ],
+      "answer": "The Director",
+      "explanation_correct": "The Director in the Halo series manages the overall intensity and behavior of AI squads during engagements.",
+      "explanation_incorrect": "Bungie Mind, Combat Logic Controller, and Encounter Manager are plausible descriptions but are not the official terminology used by the game developers.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Left 4 Dead",
+      "question": "Which dynamic pacing system manages zombie spawn rates and item drops in the Left 4 Dead series?",
+      "options": [
+        "AI Director",
+        "Game Master",
+        "Pacing Logic",
+        "Difficulty Controller"
+      ],
+      "answer": "AI Director",
+      "explanation_correct": "The AI Director continuously monitors the players' performance and adjusts the game flow accordingly.",
+      "explanation_incorrect": "Game Master, Pacing Logic, and Difficulty Controller are concepts related to other games or generic industry terms, not the specific name of that system.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Machine Learning",
+      "question": "Which machine learning technique was utilized by OpenAI Five to train agents to master complex cooperative gameplay?",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Genetic Algorithms"
+      ],
+      "answer": "Reinforcement Learning",
+      "explanation_correct": "Reinforcement learning involves agents learning to act by receiving rewards and penalties for their choices during trial and error.",
+      "explanation_incorrect": "Supervised learning, unsupervised learning, and genetic algorithms are distinct fields that do not fit the trial-and-reward model required for mastering Dota 2.",
+      "last_verified_at": "2026-06-12T16:37:25.849Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OpenAI",
+      "question": "Which strategic team-based game was used as the proving ground for the OpenAI Five research project?",
+      "options": [
+        "Dota 2",
+        "League of Legends",
+        "StarCraft II",
+        "Overwatch"
+      ],
+      "answer": "Dota 2",
+      "explanation_correct": "OpenAI Five was specifically designed to learn the complex mechanics and teamwork required in Dota 2.",
+      "explanation_incorrect": "League of Legends, StarCraft II, and Overwatch represent competitive esports, but were not the environment for the OpenAI Five project success.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "DeepMind",
+      "question": "Which real-time strategy game was officially mastered by DeepMind’s AlphaStar intelligence?",
+      "options": [
+        "StarCraft II",
+        "Age of Empires",
+        "Command & Conquer",
+        "Warcraft III"
+      ],
+      "answer": "StarCraft II",
+      "explanation_correct": "AlphaStar achieved Grandmaster level rating in StarCraft II through deep reinforcement learning.",
+      "explanation_incorrect": "Age of Empires, Command & Conquer, and Warcraft III are prominent RTS games but were not the primary focus of AlphaStar development.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Search Algorithms",
+      "question": "Which fundamental search algorithm aims to maximize the minimum gain while assuming an opponent plays optimally?",
+      "options": [
+        "Minimax",
+        "MCTS",
+        "Expectimax",
+        "Beam Search"
+      ],
+      "answer": "Minimax",
+      "explanation_correct": "Minimax is a decision rule used in two-player games to minimize the possible loss for a worst-case scenario.",
+      "explanation_incorrect": "MCTS, Expectimax, and Beam Search are probabilistic or alternative search techniques that function differently than the core minimax theorem.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Search Algorithms",
+      "question": "What optimization technique is used to improve the efficiency of Minimax by discarding branches that do not affect the final decision?",
+      "options": [
+        "Alpha-beta pruning",
+        "Iterative deepening",
+        "Transposition tables",
+        "Heuristic pruning"
+      ],
+      "answer": "Alpha-beta pruning",
+      "explanation_correct": "Alpha-beta pruning discards branches of the search tree that will not be chosen given optimal play from both sides.",
+      "explanation_incorrect": "Iterative deepening and transposition tables are optimization strategies, but they do not specifically serve the pruning purpose defined in the query.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Checkers",
+      "question": "Which software was the first to solve the game of Checkers at a grandmaster level?",
+      "options": [
+        "Chinook",
+        "Deep Blue",
+        "AlphaZero",
+        "Stockfish"
+      ],
+      "answer": "Chinook",
+      "explanation_correct": "Chinook was developed by Jonathan Schaeffer and was the first program to achieve a perfect record in a board game.",
+      "explanation_incorrect": "The other options are either chess-focused engines or modern general-purpose game AIs.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pac-Man",
+      "question": "What is the official character designation for the red ghost in the original Pac-Man?",
+      "options": [
+        "Shadow",
+        "Speedy",
+        "Bashful",
+        "Pokey"
+      ],
+      "answer": "Shadow",
+      "explanation_correct": "Blinky, the red ghost, is referred to as 'Shadow' because he aggressively chases the player directly.",
+      "explanation_incorrect": "These alternative names correspond to the defined behavioral patterns of the other three ghost characters.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pac-Man",
+      "question": "What is the official character designation for the pink ghost in the original Pac-Man?",
+      "options": [
+        "Shadow",
+        "Speedy",
+        "Bashful",
+        "Pokey"
+      ],
+      "answer": "Speedy",
+      "explanation_correct": "Pinky, the pink ghost, is officially known as 'Speedy' due to its tendency to ambush the player.",
+      "explanation_incorrect": "These other labels describe the distinct AI behaviors programmed for the red, blue, and orange ghosts.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pac-Man",
+      "question": "Which personality designation is given to Inky, the blue ghost, in the original arcade version of Pac-Man?",
+      "options": [
+        "Bashful",
+        "Shadow",
+        "Speedy",
+        "Pokey"
+      ],
+      "answer": "Bashful",
+      "explanation_correct": "Inky's behavior is tied to both Pac-Man and Blinky's positions, earning him the designation 'Bashful'.",
+      "explanation_incorrect": "Shadow, Speedy, and Pokey refer to the behaviors of the red, pink, and orange ghosts respectively.",
+      "last_verified_at": "2026-06-12T16:38:22.636Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pac-Man",
+      "question": "What is the official character designation for the orange ghost in the original Pac-Man?",
+      "options": [
+        "Shadow",
+        "Speedy",
+        "Bashful",
+        "Pokey"
+      ],
+      "answer": "Pokey",
+      "explanation_correct": "Clyde, the orange ghost, is named 'Pokey' because its behavior oscillates between following the player and retreating.",
+      "explanation_incorrect": "These options correlate to the specific programming logic for the primary red, pink, and blue entities.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Procedural Content",
+      "question": "Which algorithm is most commonly utilized to generate natural infinite terrain height maps?",
+      "options": [
+        "Perlin Noise",
+        "Simplex Noise",
+        "Voronoi Diagrams",
+        "Bézier Curves"
+      ],
+      "answer": "Perlin Noise",
+      "explanation_correct": "Perlin Noise is a gradient noise function used to create coherent, natural-looking textures and landscapes.",
+      "explanation_incorrect": "The other methods focus on shape manipulation, Voronoi partitioning, or mathematical curves rather than terrain elevation.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Procedural Content",
+      "question": "Which mathematical framework is frequently employed to generate organic-looking cavern systems in games?",
+      "options": [
+        "Cellular Automata",
+        "Fractal Trees",
+        "L-Systems",
+        "Genetic Algorithms"
+      ],
+      "answer": "Cellular Automata",
+      "explanation_correct": "Cellular automata, such as Conway's Game of Life, are used to iteratively fill and carve cave structures based on neighbor density.",
+      "explanation_incorrect": "L-systems and fractals are primarily focused on plant growth or self-similar geometry, not void-filling cave structures.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Procedural Content",
+      "question": "Which constraint-satisfaction technique is widely used for procedural pattern and texture generation?",
+      "options": [
+        "Wave Function Collapse",
+        "Dijkstra's Algorithm",
+        "A* Search",
+        "Minimax"
+      ],
+      "answer": "Wave Function Collapse",
+      "explanation_correct": "Wave Function Collapse is an algorithm inspired by quantum mechanics used to create patterns that satisfy local adjacency constraints.",
+      "explanation_incorrect": "Dijkstra and A* are pathfinding algorithms, while Minimax is used for combinatorial game trees.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Fighting Games",
+      "question": "What term is often used for fighting game AI that tries to emulate a specific user's playstyle?",
+      "options": [
+        "Ghost AI",
+        "Fuzzy Logic",
+        "Bayesian Bot",
+        "Heuristic Agent"
+      ],
+      "answer": "Ghost AI",
+      "explanation_correct": "Ghost AI functions by recording and learning from a human player's specific tactical inputs and patterns.",
+      "explanation_incorrect": "The other terms represent broad decision-making frameworks that do not inherently imply player-style imitation.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Killer Instinct",
+      "question": "What is the branding of the cloud-based AI technology used in Killer Instinct to model player behavior?",
+      "options": [
+        "Shadow Lab",
+        "Neural Net",
+        "Auto-Trainer",
+        "Behavior Engine"
+      ],
+      "answer": "Shadow Lab",
+      "explanation_correct": "Shadow Lab is the specific feature in Killer Instinct that captures human input to build a deep learning Shadow model.",
+      "explanation_incorrect": "The other options are generic industry terms for AI technologies rather than product-specific trademarks.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Creatures (1996)",
+      "question": "Which term describes the artificial biological programming used in the 1996 creature-sim game, Creatures?",
+      "options": [
+        "Digital DNA",
+        "Genetic Scripting",
+        "Neural Mapping",
+        "Bio-Logic"
+      ],
+      "answer": "Digital DNA",
+      "explanation_correct": "Creatures utilized a Digital DNA system that defined the biological traits and learning capabilities of the Alines.",
+      "explanation_incorrect": "These terms sound technically valid but were not the core terminology used for the game's simulation system.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Neural Networks",
+      "question": "What type of optimization strategy uses biological processes like mutation and selection to train AI?",
+      "options": [
+        "Evolutionary Algorithms",
+        "Backpropagation",
+        "Deep Reinforcement",
+        "Supervised Learning"
+      ],
+      "answer": "Evolutionary Algorithms",
+      "explanation_correct": "Evolutionary algorithms apply heuristics modeled after natural selection to evolve solutions over multiple iterations.",
+      "explanation_incorrect": "Backpropagation and reinforcement learning follow different mathematical approaches centered on error correction rather than biological selection.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "NPC Senses",
+      "question": "What specific geometry is most often used to simulate an AI's field of detection in 3D gaming?",
+      "options": [
+        "Vision Cone",
+        "Raycast Fan",
+        "Proximity Bounding",
+        "Sphere Projection"
+      ],
+      "answer": "Vision Cone",
+      "explanation_correct": "The vision cone represents the volumetric detection area within which an NPC senses the player.",
+      "explanation_incorrect": "The other terms describe alternate detection math or geometric primitives not typically used for simulating sight.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "What technique allows an AI to maintain pathfinding while avoiding moving obstacles in its direct route?",
+      "options": [
+        "Dynamic Obstacle Avoidance",
+        "Static Grid Correction",
+        "Path Smoothing",
+        "Node Re-weighting"
+      ],
+      "answer": "Dynamic Obstacle Avoidance",
+      "explanation_correct": "This technique updates the actor's trajectory in real-time to circumvent unpredicted moving entities on a pre-planned path.",
+      "explanation_incorrect": "These other terms represent general navigation concepts or static map adjustments that do not explicitly solve movement conflicts.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "Which coordination model is used to simulate the movement of a group of NPCs behaving as a single unit?",
+      "options": [
+        "Flocking",
+        "Waypoint Chaining",
+        "Swarm Coordination",
+        "Leader-Follower Rigs"
+      ],
+      "answer": "Flocking",
+      "explanation_correct": "Flocking is a behavioral model that allows individual entities to move in groups without colliding while following simple rules.",
+      "explanation_incorrect": "These options are either non-standard or overly simplistic implementations that don't capture emergent group behavior.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Flocking",
+      "question": "Who is the researcher primarily credited with developing the 'Boids' flocking simulation algorithm?",
+      "options": [
+        "Craig Reynolds",
+        "John Conway",
+        "Alan Turing",
+        "Claude Shannon"
+      ],
+      "answer": "Craig Reynolds",
+      "explanation_correct": "Craig Reynolds introduced the Boids software in 1986 to simulate the graceful movement of flocks and schools.",
+      "explanation_incorrect": "These other figures are historical computing pioneers who contributed to other fields of discrete math and logic.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "The Sims",
+      "question": "What system enables items to advertise their utility to NPCs, dictating their interactions in The Sims?",
+      "options": [
+        "Smart Objects",
+        "Interaction Nodes",
+        "Utility Markers",
+        "Social Scripts"
+      ],
+      "answer": "Smart Objects",
+      "explanation_correct": "Smart Objects contain logic and data that inform Sims about how they can be used and what benefits they provide.",
+      "explanation_incorrect": "The other labels are inaccurate technical descriptions of the architecture used in the simulation's object system.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "The Sims",
+      "question": "What is the name of the internal system that dictates NPC motivation and urgency in The Sims?",
+      "options": [
+        "Advertising",
+        "Trait Mapping",
+        "Need Prioritization",
+        "Autonomy Weighting"
+      ],
+      "answer": "Advertising",
+      "explanation_correct": "In The Sims, objects 'advertise' their ability to satisfy needs, and the AI chooses based on the highest utility score.",
+      "explanation_incorrect": "These terms refer to player character building or game balancing rather than the specific AI interaction subsystem.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Black & White",
+      "question": "Which learning method allowed the creature in Black & White to associate actions with player-delivered consequences?",
+      "options": [
+        "Decision Reinforcement",
+        "Associative Triggering",
+        "Outcome Mapping",
+        "Heuristic Adjustment"
+      ],
+      "answer": "Decision Reinforcement",
+      "explanation_correct": "Decision Reinforcement allows the Creature's AI to learn specific behaviors based on positive or negative player interventions.",
+      "explanation_incorrect": "These terms sound plausible but do not reflect the specific technical name of the game's reward-based AI system.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Black & White",
+      "question": "What specific type of neural structure was the Creature in Black & White's learning model based upon?",
+      "options": [
+        "Perceptron",
+        "Recursive Net",
+        "Hopfield Net",
+        "Convolutional Layer"
+      ],
+      "answer": "Perceptron",
+      "explanation_correct": "The game employed a Perceptron-based system to map creature inputs to behavioral outputs via weights.",
+      "explanation_incorrect": "Modern deep learning architectures like CNNs or recurrent networks are much more advanced than the system used in that era.",
+      "last_verified_at": "2026-06-12T16:37:25.850Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Poker",
+      "question": "Which specific AI program gained prominence in 2017 for defeating professional poker players in heads-up No-Limit Texas Hold'em?",
+      "options": [
+        "Libratus",
+        "DeepStack",
+        "Claudico",
+        "Pokibot"
+      ],
+      "answer": "Libratus",
+      "explanation_correct": "Libratus was developed by researchers at Carnegie Mellon University and convincingly defeated four top-tier poker professionals.",
+      "explanation_incorrect": "DeepStack is another notable poker AI but Libratus is the specific agent recognized for the 2017 Brains vs. AI challenge victory.",
+      "last_verified_at": "2026-06-12T16:38:33.347Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Poker",
+      "question": "What is the name of the Carnegie Mellon University AI architecture designed specifically to play six-player No-Limit Texas Hold'em at a superhuman level?",
+      "options": [
+        "Pluribus",
+        "Libratus",
+        "DeepStack",
+        "BabyTartanian"
+      ],
+      "answer": "Pluribus",
+      "explanation_correct": "Pluribus was the first AI to defeat professionals in multiplayer poker games.",
+      "explanation_incorrect": "Libratus was engineered for heads-up, two-player matches, whereas Pluribus introduced techniques for multi-agent game dynamics.",
+      "last_verified_at": "2026-06-12T16:38:33.347Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AlphaZero",
+      "question": "Which training technique serves as the core mechanism for AlphaZero to achieve superhuman performance without relying on human-provided game data?",
+      "options": [
+        "Self-play",
+        "Supervised learning",
+        "Evolutionary algorithms",
+        "Imitation learning"
+      ],
+      "answer": "Self-play",
+      "explanation_correct": "AlphaZero learns by playing against itself million of times, constantly refining its strategy based on the results.",
+      "explanation_incorrect": "Supervised learning relies on human grandmaster databases, whereas AlphaZero starts from random knowledge and purely self-improves.",
+      "last_verified_at": "2026-06-12T16:38:33.347Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AI Psychology",
+      "question": "Which model is frequently cited for identifying and categorizing the emotional responses of non-player characters in AI research?",
+      "options": [
+        "OCC Model",
+        "FSM Model",
+        "BDI Model",
+        "Utility Theory"
+      ],
+      "answer": "OCC Model",
+      "explanation_correct": "Named after Ortony, Clore, and Collins, the OCC model provides a formal framework to represent emotional appraisal in artificial agents.",
+      "explanation_incorrect": "BDI (Belief-Desire-Intention) is a framework for reasoning rather than specifically mapping emotional states.",
+      "last_verified_at": "2026-06-12T16:38:33.347Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "What common pathfinding technique is used to simplify a raw navigation mesh path into a smoother, more efficient trajectory for game entities?",
+      "options": [
+        "String Pulling",
+        "A* Smoothing",
+        "Steering Pathing",
+        "Waypoint Optimization"
+      ],
+      "answer": "String Pulling",
+      "explanation_correct": "String pulling creates the shortest path between nodes by checking for line-of-sight obstructions along a computed path.",
+      "explanation_incorrect": "While steering involves velocity adjustment, string pulling is the specific geometric technique for shortening paths from nav-meshes.",
+      "last_verified_at": "2026-06-12T16:38:33.347Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Symmetry",
+      "question": "What mechanism utilizes a hash table to store evaluations of explored board positions to avoid redundant calculations in game tree searches?",
+      "options": [
+        "Transposition Tables",
+        "Bitboards",
+        "Heuristic Caches",
+        "Search Memoizers"
+      ],
+      "answer": "Transposition Tables",
+      "explanation_correct": "Transposition tables store results of previous searches for specific board positions to avoid re-evaluating the same state via different move orders.",
+      "explanation_incorrect": "Bitboards are data structures for board representation, while transposition tables specifically address the efficiency of the search process.",
+      "last_verified_at": "2026-06-12T16:39:22.984Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "Which basic algorithm is often used by grid-based AI to determine connected navigable areas or define map boundaries?",
+      "options": [
+        "Flood Fill",
+        "Dijkstra's",
+        "Breadth-First Search",
+        "Ray Casting"
+      ],
+      "answer": "Flood Fill",
+      "explanation_correct": "Flood fill algorithms are standard for identifying all nodes connected to a starting point within a grid.",
+      "explanation_incorrect": "Dijkstra's finds the shortest distance, while flood fill is primarily for determining membership within an area.",
+      "last_verified_at": "2026-06-12T16:38:33.347Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Strategy AI",
+      "question": "What abstraction technique stores information regarding the tactical control a unit or faction exerts over different areas of a game map?",
+      "options": [
+        "Influence Maps",
+        "Heat Maps",
+        "Navigation Meshes",
+        "Voronoi Diagrams"
+      ],
+      "answer": "Influence Maps",
+      "explanation_correct": "Influence maps represent the strategic power or presence of units across the game world to guide AI decision-making.",
+      "explanation_incorrect": "Heat maps typically visualize frequency of movement, whereas influence maps are predictive tools for tactical control.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Strategy AI",
+      "question": "In strategy gaming, what term is used to describe the incomplete information mechanic that blocks an AI agent's knowledge of the map?",
+      "options": [
+        "Fog of War",
+        "Line of Sight",
+        "Visual Occlusion",
+        "Hidden Map States"
+      ],
+      "answer": "Fog of War",
+      "explanation_correct": "The Fog of War limits AI vision to detected or explored areas, forcing the AI to deal with uncertainty.",
+      "explanation_incorrect": "Visual occlusion is usually a local rendering effect, while Fog of War is the overarching strategic mechanic for information denial.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Reinforcement Learning",
+      "question": "In reinforcement learning, what is the mathematical formula that calculates the feedback to an agent based on its actions?",
+      "options": [
+        "Reward Function",
+        "Policy Gradient",
+        "Loss Function",
+        "Value Heuristic"
+      ],
+      "answer": "Reward Function",
+      "explanation_correct": "The reward function maps the state-action pair to a scalar value that guides the agent toward optimal behavior.",
+      "explanation_incorrect": "A loss function measures the discrepancy between predicted and actual output, not the direct feedback from the environment.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Voice AI",
+      "question": "Which 1999 virtual pet simulation for the Sega Dreamcast was notable for using speech recognition and complex, persistent AI personality?",
+      "options": [
+        "Seaman",
+        "Tamagotchi",
+        "Nintendogs",
+        "Creatures"
+      ],
+      "answer": "Seaman",
+      "explanation_correct": "Seaman was famously bizarre for its voice-interactive AI and required player conversation to keep the creature alive.",
+      "explanation_incorrect": "Tamagotchi relied on button inputs rather than conversational AI, and Nintendogs came to later platforms.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Conversation",
+      "question": "What 1966 computer program used pattern matching to participate in conversational interactions simulating a psychotherapist?",
+      "options": [
+        "ELIZA",
+        "PARRY",
+        "SHRDLU",
+        "ALICE"
+      ],
+      "answer": "ELIZA",
+      "explanation_correct": "Created by Joseph Weizenbaum, ELIZA is a historical foundation for conversational AI using simple script-based responses.",
+      "explanation_incorrect": "PARRY was a later experiment simulating a person with paranoia, while SHRDLU focused on block-world manipulation.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Conversation",
+      "question": "Which chatbot was specifically recognized for winning the annual Loebner Prize multiple times using a unique knowledge base?",
+      "options": [
+        "Mitsuku",
+        "Eugene Goostman",
+        "Jabberwacky",
+        "Cleverbot"
+      ],
+      "answer": "Mitsuku",
+      "explanation_correct": "Mitsuku (now known as Kuki) won the Loebner prize several times due to its high level of conversational fluency.",
+      "explanation_incorrect": "Eugene Goostman and Cleverbot rely on different architectures and did not win the Loebner Prize with the same consistency.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Procedural content",
+      "question": "What text-based AI platform provides a platform for users to engage in dynamic, procedurally generated roleplaying adventures?",
+      "options": [
+        "AI Dungeon",
+        "TextAdventureAI",
+        "RolePlayBot",
+        "InteractiveFictionAI"
+      ],
+      "answer": "AI Dungeon",
+      "explanation_correct": "AI Dungeon uses large language models to facilitate open-ended fantasy roleplaying experiences.",
+      "explanation_incorrect": "The other options are generic placeholders that do not refer to the well-known software product.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AI Dungeon",
+      "question": "Which large language model originally powered the narrative generation in the game AI Dungeon?",
+      "options": [
+        "GPT-3",
+        "BERT",
+        "T5",
+        "BLOOM"
+      ],
+      "answer": "GPT-3",
+      "explanation_correct": "AI Dungeon utilized OpenAI's GPT-3 to create expansive and context-aware narrative responses.",
+      "explanation_incorrect": "BERT is an encoder-style model unsuitable for text generation, while T5 and BLOOM were not the initial primary engine.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Thief: The Dark Project",
+      "question": "In the original Thief: The Dark Project, which AI sensory system was revolutionary for enabling guards to track players based on material-specific noise?",
+      "options": [
+        "Sound Propagation",
+        "Acoustic Vectoring",
+        "Ambient Audition",
+        "Noise Mapping"
+      ],
+      "answer": "Sound Propagation",
+      "explanation_correct": "Thief famously modeled different floor surfaces that generated distinct noise frequencies that the AI could 'hear'.",
+      "explanation_incorrect": "These options relate to general sound, but Sound Propagation is the technical term for how the game simulated the travel of these noises.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Metal Gear Solid",
+      "question": "In the Metal Gear Solid franchise, what system allows guards to coordinate and alert peers when they detect suspicious activity?",
+      "options": [
+        "Radio Communication",
+        "Patrol Signaling",
+        "Alert Protocol",
+        "Direct Telemetry"
+      ],
+      "answer": "Radio Communication",
+      "explanation_correct": "Guards use radio communication to call in reinforcements or signal the base after identifying a potential intruder.",
+      "explanation_incorrect": "While 'Alert Protocol' is part of the game sequence, it is initiated by the radio system which triggers the gameplay state changes.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Machine Learning",
+      "question": "What training methodology employs two neural networks competing against one another to refine the performance of the involved agents?",
+      "options": [
+        "Adversarial Training",
+        "Competitive Synthesis",
+        "Co-Evolutionary Modeling",
+        "Opponent Iteration"
+      ],
+      "answer": "Adversarial Training",
+      "explanation_correct": "Adversarial training involves agents learning through competition, common in GANs and competitive game AI training.",
+      "explanation_incorrect": "Co-evolutionary modeling is related but distinct, while Adversarial Training is the standard term for the winner-take-all feedback loop.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "StarCraft II",
+      "question": "What numeric metric is frequently used in StarCraft II to measure the raw input speed and technical efficiency of both elite players and AI bots?",
+      "options": [
+        "APM",
+        "FPS",
+        "CPS",
+        "IPS"
+      ],
+      "answer": "APM",
+      "explanation_correct": "APM stands for the quantity of user commands per minute and serves as a classic benchmark for RTS execution speed.",
+      "explanation_incorrect": "FPS measures graphical smoothness, whereas APM is specifically a measure of the agent's interaction intensity.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AI Terms",
+      "question": "What is the full expansion of the metric APM when referring to AI input capacity in real-time strategy gaming?",
+      "options": [
+        "Actions Per Minute",
+        "Attacks Per Minute",
+        "Activities Per Minute",
+        "Agents Per Minute"
+      ],
+      "answer": "Actions Per Minute",
+      "explanation_correct": "In RTS gaming contexts, APM consistently refers to the rate at which an agent issues commands to the game engine.",
+      "explanation_incorrect": "Attacks per minute is a subset of total actions, but APM is the broader term covering all inputs like production and movement.",
+      "last_verified_at": "2026-06-12T16:38:33.348Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Chess AI",
+      "question": "What is the primary communication protocol used for connecting chess engines to graphical user interfaces?",
+      "options": [
+        "UCI",
+        "XBoard",
+        "ChessBase",
+        "PGN"
+      ],
+      "answer": "UCI",
+      "explanation_correct": "The Universal Chess Interface (UCI) is the standard open communication protocol between a chess engine and a GUI.",
+      "explanation_incorrect": "XBoard is an older legacy protocol, while PGN is a file format for recording games, and ChessBase is a commercial software suite.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Chess AI",
+      "question": "Which engine is currently considered the strongest open-source AI program used for professional chess analysis?",
+      "options": [
+        "Stockfish",
+        "Komodo",
+        "Houdini",
+        "Fritz"
+      ],
+      "answer": "Stockfish",
+      "explanation_correct": "Stockfish consistently dominates independent engine rankings as the premier open-source chess program.",
+      "explanation_incorrect": "Komodo and Houdini are historically strong proprietary engines, while Fritz is a commercial GUI that can run various engines.",
+      "last_verified_at": "2026-06-12T16:39:22.984Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Neural Networks",
+      "question": "What is the training method called when an AI agent learns a policy by observing and mimicking human gameplay demonstrations?",
+      "options": [
+        "Imitation Learning",
+        "Reinforcement Learning",
+        "Unsupervised Learning",
+        "Genetic Programming"
+      ],
+      "answer": "Imitation Learning",
+      "explanation_correct": "Imitation learning involves an AI model training directly on datasets of expert human performance.",
+      "explanation_incorrect": "Reinforcement learning relies on rewards, unsupervised learning finds hidden patterns, and genetic programming evolves code through mutation.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Physics AI",
+      "question": "Which procedural method allows game characters to collapse realistically upon receiving physics-based damage?",
+      "options": [
+        "Ragdoll Physics",
+        "Inverse Kinematics",
+        "Keyframing",
+        "Motion Matching"
+      ],
+      "answer": "Ragdoll Physics",
+      "explanation_correct": "Ragdoll physics simulates a body using connected limb joints that react to environmental forces and gravity.",
+      "explanation_incorrect": "Inverse Kinematics is for limb positioning, keyframing is traditional animation, and motion matching retrieves clips based on current trajectory.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "Which algorithm is utilized in grid-based pathfinding to explore all neighbor nodes layer by layer, guaranteeing the shortest path in unweighted graphs?",
+      "options": [
+        "Breadth-First Search",
+        "Depth-First Search",
+        "Dijkstra's Algorithm",
+        "A*"
+      ],
+      "answer": "Breadth-First Search",
+      "explanation_correct": "Breadth-First Search examines nodes in expanding waves of increasing distance from the starting point.",
+      "explanation_incorrect": "Depth-First Search explores paths completely, while Dijkstra and A* are optimized for weighted, cost-based paths.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Crysis",
+      "question": "What specific tactical system did Crysis employ to manage the coordinated group behavior and communication of enemy squads?",
+      "options": [
+        "Signal Map",
+        "Influence Map",
+        "Blackboard System",
+        "Goal-Oriented Action Planning"
+      ],
+      "answer": "Signal Map",
+      "explanation_correct": "The Signal Map allowed NPCs to broadcast local state changes and tactical interests to nearby units.",
+      "explanation_incorrect": "Influence maps calculate spatial dominance, blackboard systems are global memory repositories, and GOAP is a planning architecture.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Watch Dogs: Legion",
+      "question": "What is the title of the background system in Watch Dogs: Legion that manages the procedural generation and daily schedules of every citizen?",
+      "options": [
+        "Census",
+        "Populator",
+        "LifeEngine",
+        "CitizenNet"
+      ],
+      "answer": "Census",
+      "explanation_correct": "The Census system tracks metadata, relationships, and routines for every individual NPC in the simulation.",
+      "explanation_incorrect": "Populator, LifeEngine, and CitizenNet are generic terms not used for the specific backend NPC tracking system of this game.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "The Last of Us",
+      "question": "What system enables AI partners in The Last of Us to mimic human-like positioning and spatial behavior during stealth sequences?",
+      "options": [
+        "Buddy AI",
+        "Companion Manager",
+        "Follower Logic",
+        "Sidekick Protocol"
+      ],
+      "answer": "Buddy AI",
+      "explanation_correct": "Buddy AI is designed to calculate optimal paths that stay out of the player's way while maintaining visual presence.",
+      "explanation_incorrect": "The other options are logical descriptions, not the formal internal technical name for the coordinate-based stealth system.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Left 4 Dead",
+      "question": "Which specific metric does the Director AI in Left 4 Dead calculate to modulate the frequency and difficulty of upcoming enemy spawns?",
+      "options": [
+        "Intensity",
+        "Stress-Level",
+        "Engagement-Score",
+        "Difficulty-Curve"
+      ],
+      "answer": "Intensity",
+      "explanation_correct": "Intensity is the dynamic variable tracked by the Director to determine when to trigger waves or provide resources.",
+      "explanation_incorrect": "Stress-level and engagement-score reflect user experience, while difficulty-curve is a general game design concept.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Simulation",
+      "question": "In Dwarf Fortress, what primary internal state engine drives unit behavior by managing requirements like hunger, rest, and social interaction?",
+      "options": [
+        "Needs",
+        "Desires",
+        "Urges",
+        "Instincts"
+      ],
+      "answer": "Needs",
+      "explanation_correct": "The 'Needs' system tracks a character's physical and psychological deficits to prioritize daily AI task scheduling.",
+      "explanation_incorrect": "Desires, Urges, and Instincts are human terminology that overlaps concepts but do not match the specific game code implementation.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Navigation Mesh",
+      "question": "What is the term for the computational process of analyzing geometry to generate a navigable surface for AI characters?",
+      "options": [
+        "Baking",
+        "Voxeling",
+        "Tessellation",
+        "Rasterization"
+      ],
+      "answer": "Baking",
+      "explanation_correct": "Baking describes the act of pre-calculating the static NavMesh geometry so runtime pathfinding is light on performance.",
+      "explanation_incorrect": "Voxeling is a volumetric measurement, tessellation is for detail, and rasterization is for screen pixels.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Unreal Engine",
+      "question": "Which visual tool in Unreal Engine allows developers to design complex AI decision hierarchies without writing raw code?",
+      "options": [
+        "Behavior Tree Editor",
+        "State Machine Graph",
+        "Visual Scripting Hub",
+        "AI Logic Painter"
+      ],
+      "answer": "Behavior Tree Editor",
+      "explanation_correct": "The Behavior Tree Editor is the primary visual interface for orchestrating logic flows in Unreal Engine.",
+      "explanation_incorrect": "State machines are a different architecture, while the other terms are not industry-standard names for the tool.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "F.E.A.R.",
+      "question": "How did F.E.A.R.'s AI communicate its intentions to the player, giving the impression of complex tactical planning?",
+      "options": [
+        "Contextual Dialog",
+        "Tactical Barks",
+        "Intent Tags",
+        "Combat Chatter"
+      ],
+      "answer": "Contextual Dialog",
+      "explanation_correct": "Contextual Dialog allows enemies to describe their maneuvers, such as flanking or reloading, to the player dynamically.",
+      "explanation_incorrect": "Combat chatter and tactical barks are common industry jargon, but not the specific terminology for F.E.A.R.'s system.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pathfinding",
+      "question": "Before navigation meshes became standard, what method was primarily used to define a network of discrete points for AI pathfinding?",
+      "options": [
+        "Waypoints",
+        "Path Markers",
+        "Beacon Nodes",
+        "Vector Points"
+      ],
+      "answer": "Waypoints",
+      "explanation_correct": "Waypoint systems use a graph of manually placed nodes that AI characters can traverse to navigate a level.",
+      "explanation_incorrect": "While these terms sound plausible, 'Waypoints' (or 'Waypoints Graphs') is the standard technical terminology used in legacy game engines.",
+      "last_verified_at": "2026-06-12T16:39:22.984Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Chess AI",
+      "question": "What search technique is used by strong engines at the end of tactical variations to ensure the evaluation is stable and not captured by temporary blunders?",
+      "options": [
+        "Quiescence Search",
+        "Horizon Logic",
+        "Stability Assessment",
+        "Variation Pruning"
+      ],
+      "answer": "Quiescence Search",
+      "explanation_correct": "Quiescence search continues searching captures and checks until a 'quiet' position is reached to evaluate reliably.",
+      "explanation_incorrect": "Horizon and stability are goals of the search, while variation pruning is a general method, not the specific terminal solution.",
+      "last_verified_at": "2026-06-12T16:38:33.349Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AlphaGo",
+      "question": "In the AlphaGo architecture, which component outputs the probability distribution of potential next moves?",
+      "options": [
+        "Policy Network",
+        "Move Selector",
+        "Action Probabilities",
+        "Strategy Tensor"
+      ],
+      "answer": "Policy Network",
+      "explanation_correct": "The policy network behaves as the actor, predicting which move a professional player would most likely choose.",
+      "explanation_incorrect": "A value network predicts game outcomes, while the other terms do not define the neural network architecture.",
+      "last_verified_at": "2026-06-12T16:38:33.350Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AlphaGo",
+      "question": "Which AlphaGo network component is utilized to determine the winning percentage of a board position during the search process?",
+      "options": [
+        "Value Network",
+        "Win-Predictor",
+        "State Evaluator",
+        "Outcome Estimator"
+      ],
+      "answer": "Value Network",
+      "explanation_correct": "The value network serves as an approximation of the game's final result from the current position.",
+      "explanation_incorrect": "The other terms represent legitimate functions but are not the formal names given to the AlphaGo layers.",
+      "last_verified_at": "2026-06-12T16:38:33.350Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Procedural Design",
+      "question": "Which mathematical formal grammar is commonly used in procedural generation to simulate the complex, recursive branching patterns of vegetation?",
+      "options": [
+        "L-Systems",
+        "Fractal Grammars",
+        "Growth Maps",
+        "Node Trees"
+      ],
+      "answer": "L-Systems",
+      "explanation_correct": "Lindenmayer systems (L-Systems) use string rewriting to define recursive plant growing patterns.",
+      "explanation_incorrect": "Fractal Grammars are theoretical applications, while growth maps and node trees are implementation-specific concepts.",
+      "last_verified_at": "2026-06-12T16:38:33.350Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AI Strategy",
+      "question": "What geometry-based representation helps an AI identify height cover, exposure, and sniper lanes in a 3D environment?",
+      "options": [
+        "Tactical Mesh",
+        "Strategic Map",
+        "Vantage Points",
+        "Cover Grid"
+      ],
+      "answer": "Tactical Mesh",
+      "explanation_correct": "The tactical mesh assigns metadata to level surfaces, allowing AI to query for specific positional advantages.",
+      "explanation_incorrect": "Strategic maps and cover grids describe high-level data, while Vantage Points refer to singular locations.",
+      "last_verified_at": "2026-06-12T16:38:33.350Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Machine Learning",
+      "question": "Which generalist machine learning agent developed by DeepMind is capable of learning games from scratch without using search trees as a component?",
+      "options": [
+        "MuZero",
+        "AlphaZero",
+        "Deep-Planner",
+        "Agent-Z"
+      ],
+      "answer": "MuZero",
+      "explanation_correct": "MuZero learns by internally building a model of the environment's dynamics, effectively playing without needing the rules provided.",
+      "explanation_incorrect": "AlphaZero utilizes Monte Carlo Tree Search, and the other names are fictional or unrelated to specialized models.",
+      "last_verified_at": "2026-06-12T16:38:33.350Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Machine Learning",
+      "question": "Which open-source toolkit provided by Unity allows developers to integrate machine learning models into their gaming environments?",
+      "options": [
+        "ML-Agents",
+        "Sentis",
+        "Barracuda",
+        "Compute"
+      ],
+      "answer": "ML-Agents",
+      "explanation_correct": "Unity ML-Agents is a toolkit that enables Unity scenes to serve as environments for training intelligent agents.",
+      "explanation_incorrect": "Sentis and Barracuda are runtime inference engines, while Compute refers to general GPU-based calculations.",
+      "last_verified_at": "2026-06-12T16:38:41.980Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Heuristics",
+      "question": "Which distance metric calculates movement on a grid where only vertical and horizontal steps are permitted?",
+      "options": [
+        "Manhattan Distance",
+        "Chebyshev Distance",
+        "Minkowski Distance",
+        "Hamming Distance"
+      ],
+      "answer": "Manhattan Distance",
+      "explanation_correct": "Manhattan Distance is the sum of the absolute differences of the coordinates, ideal for grid-based pathfinding.",
+      "explanation_incorrect": "These are alternative mathematical distance metrics that calculate space difference differently, such as diagonal or multi-dimensional paths.",
+      "last_verified_at": "2026-06-12T16:38:41.980Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Heuristics",
+      "question": "When measuring the straight-line distance between two points in a 2D plane for AI pathing, which heuristic is typically employed?",
+      "options": [
+        "Euclidean Distance",
+        "Manhattan Distance",
+        "Haversine Distance",
+        "Cosine Similarity"
+      ],
+      "answer": "Euclidean Distance",
+      "explanation_correct": "Euclidean Distance utilizes the Pythagorean theorem to determine the direct 'as-the-crow-flies' path.",
+      "explanation_incorrect": "These options are used for measuring specific types of grid movement, curved surfaces, or vector similarities respectively.",
+      "last_verified_at": "2026-06-12T16:38:41.980Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Monte Carlo",
+      "question": "Which algorithm is commonly used in game AI to navigate high branching factor environments (like Go) via statistical sampling?",
+      "options": [
+        "Monte Carlo Tree Search",
+        "Alpha-Beta Pruning",
+        "Breadth-First Search",
+        "Iterative Deepening"
+      ],
+      "answer": "Monte Carlo Tree Search",
+      "explanation_correct": "Monte Carlo Tree Search (MCTS) uses random simulations to evaluate the potential of moves, making it ideal for games with vast search spaces.",
+      "explanation_incorrect": "Alpha-Beta Pruning is a Minimax optimization, while BFS and Iterative Deepening are exhaustive searches unsuitable for high branching factors.",
+      "last_verified_at": "2026-06-12T16:39:22.984Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "No Man's Sky",
+      "question": "What primary method drives the creation of the vast, varied celestial bodies and environments in No Man's Sky?",
+      "options": [
+        "Procedural Generation",
+        "Manual Asset Placement",
+        "Cloud Rendering",
+        "Ray Tracing"
+      ],
+      "answer": "Procedural Generation",
+      "explanation_correct": "Procedural generation uses algorithmic rules and mathematical seeds to create expansive game worlds without manual design for every asset.",
+      "explanation_incorrect": "The other methods relate to graphics rendering or traditional environment design rather than automated content creation.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Spelunky",
+      "question": "What specific generative technique does Spelunky use to maintain structural logic while refreshing the layout for every run?",
+      "options": [
+        "Template-based shuffling",
+        "Perlin noise",
+        "L-Systems",
+        "Cellular automata"
+      ],
+      "answer": "Template-based shuffling",
+      "explanation_correct": "Spelunky divides levels into a grid of 'tiles' or 'rooms' that are shuffled and connected in a valid path.",
+      "explanation_incorrect": "These are competing procedural generation methods typically used for terrain or organic shapes rather than structured level tiling.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Elite",
+      "question": "Which mathematical technique was famously used in the original 1984 Elite game to fit an entire universe of star systems into 22 kilobytes of memory?",
+      "options": [
+        "Pseudo-random number seeds",
+        "L-Systems",
+        "Wave Function Collapse",
+        "Voronoi Diagrams"
+      ],
+      "answer": "Pseudo-random number seeds",
+      "explanation_correct": "Elite used a fixed seed and a sequence of pseudo-random numbers to generate planet names and positions consistently across all play sessions.",
+      "explanation_incorrect": "L-Systems and Wave Function Collapse are modern procedural techniques, while Voronoi diagrams are used for partitioning space, not generating data from seeds.",
+      "last_verified_at": "2026-06-12T16:39:22.984Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Forza Motorsport",
+      "question": "What is the name of the cloud-based system that uses machine learning to simulate player behavior in Forza Motorsport?",
+      "options": [
+        "Drivatar",
+        "Autopilot",
+        "Neural-Driver",
+        "Ghost-Sync"
+      ],
+      "answer": "Drivatar",
+      "explanation_correct": "Drivatar is a system that observes how individual players race and uploads that behavioral model to the cloud to mimic them in other games.",
+      "explanation_incorrect": "These are generic terms for AI driver systems or cloud syncing, not the proprietary branding used in Forza.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Middle-earth: Shadow of Mordor",
+      "question": "Which feature in Middle-earth: Shadow of Mordor manages unique enemy leaders who remember encounters with the player?",
+      "options": [
+        "Nemesis System",
+        "Vendetta Engine",
+        "AI Hierarchy",
+        "Warlord Tracker"
+      ],
+      "answer": "Nemesis System",
+      "explanation_correct": "The Nemesis System tracks individual Uruk enemies, creating personal rivalries based on interactions and combat outcomes.",
+      "explanation_incorrect": "These are plausible sounding alternatives that do not correspond to the specific branded game mechanic.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Splinter Cell",
+      "question": "In the Splinter Cell series, which UI component is primarily used to convey how visible the player is to AI enemies based on lighting?",
+      "options": [
+        "Light Meter",
+        "Visibility HUD",
+        "Stealth Gauge",
+        "Shadow Indicator"
+      ],
+      "answer": "Light Meter",
+      "explanation_correct": "The Light Meter (or Light Gem) indicates the player's level of concealment within shadows to help them avoid AI detection.",
+      "explanation_incorrect": "While 'Stealth Gauge' is a generic term, 'Light Meter' is the specific name of the mechanic introduced in the original Splinter Cell.",
+      "last_verified_at": "2026-06-12T16:39:22.984Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Stealth Games",
+      "question": "In stealth game AI, which state occurs when a guard notices a minor disturbance but is not yet fully engaged in pursuing the player?",
+      "options": [
+        "Suspicion",
+        "Alert",
+        "Search",
+        "Combat"
+      ],
+      "answer": "Suspicion",
+      "explanation_correct": "Suspicion represents the intermediary state where an NPC is alerted to a noise or anomaly without confirming the player's identity.",
+      "explanation_incorrect": "Alert, Search, and Combat represent heightened states of hostility or full detection of the player character.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AI Terms",
+      "question": "What is the three-letter acronym for an AI feature that adjusts a game's level of difficulty in real-time based on the player's skill?",
+      "options": [
+        "DDA",
+        "ADI",
+        "ARD",
+        "DIF"
+      ],
+      "answer": "DDA",
+      "explanation_correct": "DDA stands for Dynamic Difficulty Adjustment, which is used to prevent player frustration or boredom.",
+      "explanation_incorrect": "ADI, ARD, and DIF are unrelated acronyms that do not represent standard industry terms for adaptive difficulty.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AI Terms",
+      "question": "What is the full name for the term DDA, which refers to automated systems that modify game challenge parameters?",
+      "options": [
+        "Dynamic Difficulty Adjustment",
+        "Distributed Data Association",
+        "Decentralized Difficulty Allocation",
+        "Direct Data Automation"
+      ],
+      "answer": "Dynamic Difficulty Adjustment",
+      "explanation_correct": "Dynamic Difficulty Adjustment is the standard term for real-time game tuning based on player performance.",
+      "explanation_incorrect": "These are distractor options designed to mimic technical terminology while being factually inaccurate.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Civilization",
+      "question": "Which famous AI quirk involved a specific political leader in Civilization becoming unexpectedly aggressive when switching to democracy?",
+      "options": [
+        "Nuclear Gandhi",
+        "Atomic Washington",
+        "Aggressive Lincoln",
+        "Imperial Caesar"
+      ],
+      "answer": "Nuclear Gandhi",
+      "explanation_correct": "Nuclear Gandhi refers to the long-standing bug where Gandhi's aggression stats would wrap around to an extreme value.",
+      "explanation_incorrect": "The other options reference historical figures in Civilization but are not associated with the specific famous programming bug.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Civilization",
+      "question": "What underlying programming limitation caused the aggressive AI behavior in early Civilization games?",
+      "options": [
+        "Integer overflow",
+        "Floating point error",
+        "Pointer corruption",
+        "Stack overflow"
+      ],
+      "answer": "Integer overflow",
+      "explanation_correct": "Integer overflow occurred because subtracting from an already low aggression value caused the number to wrap to the maximum unsigned value.",
+      "explanation_incorrect": "These are common programming errors, but they were not the specific cause of the behavior in this context.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Graphics AI",
+      "question": "Which Nvidia technology uses AI-driven deep learning to render games at a lower resolution and upscale the output?",
+      "options": [
+        "DLSS",
+        "NIS",
+        "G-Sync",
+        "Reflex"
+      ],
+      "answer": "DLSS",
+      "explanation_correct": "DLSS uses neural networks to reconstruct high-resolution images from lower input resolutions.",
+      "explanation_incorrect": "NIS is a spatial scaler, G-Sync handles monitor refresh rates, and Reflex manages input latency, not image upscaling.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Graphics AI",
+      "question": "What does the abbreviation DLSS stand for in the context of graphics rendering?",
+      "options": [
+        "Deep Learning Super Sampling",
+        "Dynamic Latency Scaling System",
+        "Direct Light Shadow Synthesis",
+        "Digital Level Streaming Service"
+      ],
+      "answer": "Deep Learning Super Sampling",
+      "explanation_correct": "Deep Learning Super Sampling is the branded name for Nvidia's proprietary image enhancement technology.",
+      "explanation_incorrect": "These are plausible but incorrect expansions of the acronym that do not map to the technology.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Graphics AI",
+      "question": "What is the name of the open-source upscaling technology developed by AMD as a competitor to hardware-locked solutions?",
+      "options": [
+        "FSR",
+        "RSR",
+        "VSR",
+        "XSR"
+      ],
+      "answer": "FSR",
+      "explanation_correct": "FSR stands for FidelityFX Super Resolution, which is AMD's platform-agnostic upscaling solution.",
+      "explanation_incorrect": "RSR is a driver-based scaler, while VSR and XSR are not standard industry terms for modern super-resolution upscalers.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Graphics AI",
+      "question": "Which upscaling technology utilizes AI-enhanced XMX cores within modern Intel Arc graphics cards?",
+      "options": [
+        "XeSS",
+        "ArcSU",
+        "IntelUpscale",
+        "X-Res"
+      ],
+      "answer": "XeSS",
+      "explanation_correct": "XeSS, or Xe Super Sampling, is Intel's AI-enhanced upscaling technology designed for their GPU architecture.",
+      "explanation_incorrect": "These are fabricated terms that do not correlate with Intel's actual graphics technology stack.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Neural Networks",
+      "question": "Which type of neural network is specifically structured to handle sequential data, such as timing-based AI inputs in a game?",
+      "options": [
+        "Recurrent Neural Network",
+        "Convolutional Neural Network",
+        "Generative Adversarial Network",
+        "Radial Basis Function Network"
+      ],
+      "answer": "Recurrent Neural Network",
+      "explanation_correct": "Recurrent Neural Networks (RNNs) possess loops that allow information to persist, making them suitable for time-series data.",
+      "explanation_incorrect": "CNNs are primarily for spatial data (images), and GANs are for data creation, not sequential modeling.",
+      "last_verified_at": "2026-06-12T16:38:41.981Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}

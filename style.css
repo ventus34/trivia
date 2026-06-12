@@ -2002,19 +2002,34 @@ html.oled #llm-evaluation-text {
 
 .move-category-label {
     position: absolute;
-    transform: translateX(-50%);
-    background-color: rgba(15, 23, 42, 0.97);
+    transform: translate(-50%, -50%);
+    background-color: rgba(15, 23, 42, 0.95);
     color: white;
-    padding: 5px 14px;
-    border-radius: 8px;
-    font-size: calc(16px * var(--move-desc-scale, 1));
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: calc(11px * var(--move-desc-scale, 1));
     font-weight: 700;
-    white-space: nowrap;
+    white-space: normal;
+    text-align: center;
+    max-width: 110px;
     z-index: 50;
     pointer-events: none;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.55);
-    border: 1.5px solid rgba(255,255,255,0.25);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
     letter-spacing: 0.01em;
+    line-height: 1.2;
+    animation: labelFadeIn 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes labelFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
 }
 
 /* ============================================= */
@@ -2165,4 +2180,100 @@ html.oled #category-selection-modal #category-selection-counter {
     background-color: rgba(99, 102, 241, 0.15);
     color: #a5b4fc;
     border-color: rgba(99, 102, 241, 0.35);
+}
+
+/* --- Setup Wizard Custom Styles --- */
+
+/* Wizard Step transitions */
+.wizard-step-content {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Language card styling */
+.lang-btn {
+    border-color: #e5e7eb;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lang-btn:hover {
+    border-color: #818cf8;
+    background-color: rgba(99, 102, 241, 0.04);
+    transform: translateY(-2px);
+}
+
+.lang-btn.active {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+    color: white !important;
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3), 0 4px 6px -4px rgba(79, 70, 229, 0.3);
+}
+
+/* Step indicator progress bar styling */
+#wizard-progress-bar {
+    transition: all 0.3s ease;
+}
+
+#wizard-progress-fill {
+    transition: width 0.3s ease;
+}
+
+/* Accordion transition for advanced section */
+.advanced-accordion-trigger {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Dark and OLED overrides for wizard elements */
+html.dark .lang-btn, html.oled .lang-btn {
+    border-color: #374151;
+    background-color: #1f2937;
+}
+
+html.dark .lang-btn:hover, html.oled .lang-btn:hover {
+    border-color: #6366f1;
+    background-color: rgba(99, 102, 241, 0.08);
+}
+
+html.dark .lang-btn.active, html.oled .lang-btn.active {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+    color: white !important;
+}
+
+html.dark #setup-screen, html.oled #setup-screen {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+}
+
+html.dark #info-box, html.oled #info-box {
+    background-color: #1f2937;
+    border-color: #374151;
+}
+
+/* Inputs and interactive elements in wizard */
+html.dark #setup-screen input[type="text"],
+html.oled #setup-screen input[type="text"],
+html.dark #setup-screen textarea,
+html.oled #setup-screen textarea {
+    background-color: #1f2937;
+    border-color: #374151;
+    color: white;
+}
+
+html.dark #setup-screen input[type="text"]::placeholder,
+html.oled #setup-screen input[type="text"]::placeholder,
+html.dark #setup-screen textarea::placeholder,
+html.oled #setup-screen textarea::placeholder {
+    color: #9ca3af;
 }

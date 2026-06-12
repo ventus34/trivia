@@ -1,0 +1,1512 @@
+{
+  "id": "streaming_algorithms_digital_audio_en",
+  "name": "Streaming Algorithms & Digital Audio",
+  "language": "en",
+  "description": "Questions covering: Audio Interfaces, Sound Recording, Data Storage, Internet Protocols...",
+  "created_at": "2026-06-12T16:42:49.639Z",
+  "last_verified_at": "2026-06-12T16:36:36.195Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 100,
+  "questions": [
+    {
+      "subcategory": "Audio Interfaces",
+      "question": "Which industry standard for connecting electronic musical instruments was originally co-developed by manufacturers like Roland and Sequential Circuits in the early 1980s?",
+      "options": [
+        "XLR",
+        "MIDI",
+        "USB-C",
+        "AES/EBU"
+      ],
+      "answer": "MIDI",
+      "explanation_correct": "MIDI (Musical Instrument Digital Interface) allows electronic instruments and computers to communicate. It was standardized by the MIDI Manufacturers Association.",
+      "explanation_incorrect": "These options include balanced audio connectors (XLR), general data ports (USB-C), or professional digital audio transfer protocols (AES/EBU).",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sound Recording",
+      "question": "What microphone recording technique is designed to replicate the human auditory system by capturing spatial depth?",
+      "options": [
+        "XY",
+        "ORTF",
+        "Binaural",
+        "Mid-Side"
+      ],
+      "answer": "Binaural",
+      "explanation_correct": "Binaural recording uses two microphones placed to mimic human ears to provide a 3D stereo effect.",
+      "explanation_incorrect": "These are traditional stereo pair techniques that do not attempt to replicate the physical anatomy of the human head.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Storage",
+      "question": "Which digital medium, first released in 1982, established the early standard for consumer optical disc audio?",
+      "options": [
+        "Blu-ray",
+        "Compact Disc",
+        "DVD-Audio",
+        "MiniDisc"
+      ],
+      "answer": "Compact Disc",
+      "explanation_correct": "The Compact Disc (CD) was the first major consumer format to use Pulse Code Modulation for audio storage.",
+      "explanation_incorrect": "These alternative formats were introduced later and utilize higher storage capacities or different encoding standards.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Internet Protocols",
+      "question": "Which network control protocol is commonly utilized for managing streaming media servers and VOD requests?",
+      "options": [
+        "RTSP",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "RTSP",
+      "explanation_correct": "RTSP (Real Time Streaming Protocol) acts as a network control protocol for entertainment and communications systems.",
+      "explanation_incorrect": "These protocols are intended for general file transfer, mail delivery, or web page retrieval rather than streaming stream state control.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Dynamic Range",
+      "question": "Which audio processor reduces the dynamic range of a signal by attenuating it once it exceeds a threshold, typically using a ratio lower than 10:1?",
+      "options": [
+        "Expander",
+        "Limiter",
+        "Compressor",
+        "Gate"
+      ],
+      "answer": "Compressor",
+      "explanation_correct": "A compressor reduces the volume of loud sounds to narrow the dynamic range. Ratios above 10:1 or 20:1 are generally classified as limiting.",
+      "explanation_incorrect": "Limiters have much higher ratios to stop peaks entirely, while expanders and gates increase dynamic range by lowering quiet signals.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Restoration",
+      "question": "What process is used to reduce or eliminate unwanted constant spectral elements like tape hiss from audio recordings?",
+      "options": [
+        "Equalization",
+        "De-noising",
+        "Normalization",
+        "Dithering"
+      ],
+      "answer": "De-noising",
+      "explanation_correct": "De-noising algorithms identify and remove stationary background noise floor profiles from audio files.",
+      "explanation_incorrect": "These processes manipulate tone, amplitude, or bit representation without specifically targeting background noise floor reduction.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Network Efficiency",
+      "question": "Which network delivery method transmits a single stream to a group of destination computers simultaneously?",
+      "options": [
+        "Unicast",
+        "Multicast",
+        "Broadcast",
+        "Anycast"
+      ],
+      "answer": "Multicast",
+      "explanation_correct": "Multicast optimizes bandwidth by sending data once to a specific group of subscribers.",
+      "explanation_incorrect": "These other methods either address single hosts, every host on a subnet, or the closest host.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Signal Processing",
+      "question": "Which type of digital filter is characterized by a response that settles to zero in a finite number of sampling intervals?",
+      "options": [
+        "IIR filter",
+        "FIR filter",
+        "Butterworth filter",
+        "Chebyshev filter"
+      ],
+      "answer": "FIR filter",
+      "explanation_correct": "FIR stands for Finite Impulse Response, meaning the system response is explicitly finite in time.",
+      "explanation_incorrect": "These are infinite impulse response filters where the feedback loop theoretically continues forever.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which lossy audio codec remains the primary standard for streaming video platforms such as YouTube?",
+      "options": [
+        "MP3",
+        "FLAC",
+        "AAC",
+        "Ogg Vorbis"
+      ],
+      "answer": "AAC",
+      "explanation_correct": "Advanced Audio Coding (AAC) is the industry standard for high-efficiency audio delivery in video containers.",
+      "explanation_incorrect": "MP3 is older and less efficient, while FLAC is a lossless format and Ogg Vorbis is less widely supported in commercial video platforms.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Fidelity",
+      "question": "What is the common term for the ratio of the desired audio signal power level to the unintended interference power level?",
+      "options": [
+        "Dynamic Range",
+        "Signal-to-Noise Ratio",
+        "Total Harmonic Distortion",
+        "Sample Rate"
+      ],
+      "answer": "Signal-to-Noise Ratio",
+      "explanation_correct": "Signal-to-Noise Ratio, or SNR, describes the purity of an audio signal against the noise floor.",
+      "explanation_incorrect": "These terms refer to distortion metrics, bit depth, or frequency limits rather than the signal interference ratio.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Formats",
+      "question": "What physical high-definition audio format was co-developed by Sony and Philips to offer DSD audio?",
+      "options": [
+        "Super Audio CD",
+        "DVD-Audio",
+        "HDCD",
+        "Blu-ray Audio"
+      ],
+      "answer": "Super Audio CD",
+      "explanation_correct": "The Super Audio CD (SACD) utilizes Direct Stream Digital (DSD) to provide higher fidelity than a standard red book CD.",
+      "explanation_incorrect": "These other formats are either based on PCM encoding or represent different generations of optical storage technology.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Content Consumption",
+      "question": "What term describes the continuous transmission of audio data allowing playback before the entire file is downloaded?",
+      "options": [
+        "Buffering",
+        "Caching",
+        "Streaming",
+        "Downloading"
+      ],
+      "answer": "Streaming",
+      "explanation_correct": "Streaming delivers multimedia to a user's device as a continuous data flow.",
+      "explanation_incorrect": "These terms describe the intermediate storage or the full retrieval process rather than the continuous delivery method.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Reduction",
+      "question": "What category of data algorithms permanently removes non-audible frequency information to reduce file size?",
+      "options": [
+        "Lossless compression",
+        "Lossy compression",
+        "Bitstreaming",
+        "Encoding"
+      ],
+      "answer": "Lossy compression",
+      "explanation_correct": "Lossy compression intelligently discards audio data that is physically or psychoacoustically impossible to hear.",
+      "explanation_incorrect": "Lossless compression retains all data, while the other terms refer to general protocols or data formatting.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Metrics",
+      "question": "Which metric measures the total amount of time it takes to send a data packet from client to server and receive an acknowledgment?",
+      "options": [
+        "Latency",
+        "Jitter",
+        "Round Trip Time",
+        "Throughput"
+      ],
+      "answer": "Round Trip Time",
+      "explanation_correct": "RTT measures the complete transit time for a packet travel cycle in a network connection.",
+      "explanation_incorrect": "These are related network variables but do not specifically measure the full client-server transit verification cycle.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Sampling",
+      "question": "What parameter determines the range of amplitude resolution assigned to each individual digital audio sample?",
+      "options": [
+        "Sample Rate",
+        "Bit depth",
+        "Frequency response",
+        "Baud rate"
+      ],
+      "answer": "Bit depth",
+      "explanation_correct": "Bit depth defines the precision and dynamic range of each sample taken during the digitization process.",
+      "explanation_incorrect": "These metrics concern the temporal resolution or frequency range rather than the amplitude precision per sample.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Providers",
+      "question": "Which popular streaming platform is recognized for employing a proprietary recommendation engine known for its 'Discover Weekly' feature?",
+      "options": [
+        "Tidal",
+        "Pandora",
+        "Spotify",
+        "Apple Music"
+      ],
+      "answer": "Spotify",
+      "explanation_correct": "Spotify leverages machine learning algorithms to analyze listener habits for its 'Discover Weekly' playlists.",
+      "explanation_incorrect": "These other services use different approaches to curation, and they are not the original creators of the 'Discover Weekly' specific algorithm.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Architecture",
+      "question": "What is the primary sound server platform utilized for managing audio streams on most desktop Linux distributions?",
+      "options": [
+        "DirectSound",
+        "ASIO",
+        "PulseAudio",
+        "CoreAudio"
+      ],
+      "answer": "PulseAudio",
+      "explanation_correct": "PulseAudio is the standard sound server for Linux systems, bridging the gap between applications and hardware drivers.",
+      "explanation_incorrect": "These are proprietary or low-latency interfaces specific to Windows or macOS environments.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mixing Algorithms",
+      "question": "What is the fundamental digital process of mathematically aggregating multiple audio tracks into a single stream?",
+      "options": [
+        "Normalization",
+        "Summing",
+        "Dithering",
+        "Quantization"
+      ],
+      "answer": "Summing",
+      "explanation_correct": "Summing is the process of adding the numerical values of multiple audio samples to create a combined signal.",
+      "explanation_incorrect": "These terms refer to gain adjustment, bit-rounding, or the digital translation process, not the combining of tracks.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which codec is frequently utilized to facilitate high-quality audio transmission over Bluetooth wireless connections?",
+      "options": [
+        "SBC",
+        "aptX",
+        "WAV",
+        "AC3"
+      ],
+      "answer": "aptX",
+      "explanation_correct": "aptX is a proprietary compression algorithm specifically designed to provide CD-like quality over Bluetooth.",
+      "explanation_incorrect": "SBC is a baseline mandatory format, while WAV is uncompressed and AC3 is for multichannel cinema sound.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Effects",
+      "question": "What digital effect simulates the sound reflection characteristics of a physical space?",
+      "options": [
+        "Chorus",
+        "Reverb",
+        "Delay",
+        "Flanger"
+      ],
+      "answer": "Reverb",
+      "explanation_correct": "Reverb simulates the persistent, complex reflections of audio within an enclosed room or space.",
+      "explanation_incorrect": "These other effects create time-based repetitions or frequency modulations rather than spatial room reflection patterns.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Processing",
+      "question": "Which audio processor component attenuates frequencies above a defined threshold while allowing lower frequencies to pass?",
+      "options": [
+        "Low-pass filter",
+        "High-pass filter",
+        "Band-pass filter",
+        "Notch filter"
+      ],
+      "answer": "Low-pass filter",
+      "explanation_correct": "A low-pass filter allows signals with a frequency lower than the cutoff frequency to pass through while reducing the amplitude of higher ones.",
+      "explanation_incorrect": "High-pass, band-pass, and notch filters perform different operations on the frequency spectrum, such as cutting lows or isolating specific regions.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Logic",
+      "question": "What is the standard method used to convert analog signals into digital data by sampling pulse amplitudes?",
+      "options": [
+        "Pulse-Code Modulation",
+        "Pulse-Width Modulation",
+        "Phase-Shift Keying",
+        "Frequency-Shift Keying"
+      ],
+      "answer": "Pulse-Code Modulation",
+      "explanation_correct": "Pulse-Code Modulation (PCM) represents sampled analog signals as a sequence of binary values.",
+      "explanation_incorrect": "Other options describe different techniques for modulation, switching, or signal representation in electrical engineering.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Standards",
+      "question": "Which professional digital audio interface standard was developed to transmit two channels of audio over a single twisted-pair cable?",
+      "options": [
+        "AES3",
+        "S/PDIF",
+        "ADAT",
+        "MADI"
+      ],
+      "answer": "AES3",
+      "explanation_correct": "AES3 is the widely recognized professional standard developed by the Audio Engineering Society for serial digital audio transmission.",
+      "explanation_incorrect": "S/PDIF is a consumer variant, while ADAT and MADI are multichannel formats for entirely different connector requirements.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Rates",
+      "question": "What is considered the baseline SI-derived unit for measuring data throughput speed in digital streaming?",
+      "options": [
+        "bits per second",
+        "bytes per second",
+        "hertz",
+        "baud rate"
+      ],
+      "answer": "bits per second",
+      "explanation_correct": "Bits per second (bps) is the standard international unit used to measure the rate of digital information transfer.",
+      "explanation_incorrect": "Bytes per second measure data volume, hertz measures frequency, and baud rate refers to symbol rate rather than raw data throughput.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Rights Management",
+      "question": "Which proprietary Digital Rights Management (DRM) solution is widely utilized by major streaming platforms for browser-based content protection?",
+      "options": [
+        "Widevine",
+        "FairPlay",
+        "PlayReady",
+        "Adobe Access"
+      ],
+      "answer": "Widevine",
+      "explanation_correct": "Widevine is the primary DRM technology used by Google's Chrome browser and many streaming services to manage content access.",
+      "explanation_incorrect": "FairPlay is Apple-specific, PlayReady is Microsoft-centric, and Adobe Access is largely a legacy or niche solution.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Lossless Compression",
+      "question": "What is the name of the lossless audio compression format developed and utilized primarily within the Apple ecosystem?",
+      "options": [
+        "ALAC",
+        "FLAC",
+        "APE",
+        "WavPack"
+      ],
+      "answer": "ALAC",
+      "explanation_correct": "Apple Lossless Audio Codec (ALAC) is a proprietary lossless format developed by Apple for efficient storage without data loss.",
+      "explanation_incorrect": "FLAC, APE, and WavPack are also lossless codecs but operate under different technical specifications and ownership structures.",
+      "last_verified_at": "2026-06-12T16:35:25.106Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Aliasing",
+      "question": "What term describes the phenomenon where frequencies higher than half the sampling rate are misinterpreted as lower frequencies during digital conversion?",
+      "options": [
+        "Aliasing",
+        "Jitter",
+        "Ghosting",
+        "Quantization"
+      ],
+      "answer": "Aliasing",
+      "explanation_correct": "Aliasing occurs during digital sampling when signal frequencies overlap or exceed the Nyquist limit.",
+      "explanation_incorrect": "Jitter relates to timing errors, quantization describes rounding errors, and ghosting is typically a visual artifact.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Metadata",
+      "question": "Which specific metadata standard is employed to embed artist, album, and track information within the frame of an MP3 file?",
+      "options": [
+        "ID3 tags",
+        "EXIF",
+        "IPTC",
+        "XMP"
+      ],
+      "answer": "ID3 tags",
+      "explanation_correct": "ID3 tags are a metadata container format used for storage of song-related information within digital audio files.",
+      "explanation_incorrect": "EXIF, IPTC, and XMP are standards primarily used for image metadata rather than audio files.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Architectures",
+      "question": "In the context of video streaming, what is the architectural model where the client initiates requests to retrieve individual segments from a server?",
+      "options": [
+        "Pull-based",
+        "Push-based",
+        "Broadcast",
+        "Multicast"
+      ],
+      "answer": "Pull-based",
+      "explanation_correct": "Pull-based models, common in HLS and DASH, involve the client requesting media segments sequentially.",
+      "explanation_incorrect": "Push-based, broadcast, and multicast architectures generally involve the server initiating the transmission of data to the client.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Error Correction",
+      "question": "What error correction coding scheme was standard on Compact Discs to recover missing data due to surface damage?",
+      "options": [
+        "Reed-Solomon",
+        "Hamming code",
+        "Turbo code",
+        "LDPC"
+      ],
+      "answer": "Reed-Solomon",
+      "explanation_correct": "Reed-Solomon codes were chosen for CDs due to their efficiency in correcting burst errors caused by physical debris on the disc.",
+      "explanation_incorrect": "While Hamming, Turbo, and LDPC are error-correcting codes, they serve different primary use cases in telecommunications and data storage.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Features",
+      "question": "Which immersive technology creates the illusion of sound originating from specific coordinates around a listener?",
+      "options": [
+        "Spatial audio",
+        "Binaural recording",
+        "Surround sound",
+        "Mono conversion"
+      ],
+      "answer": "Spatial audio",
+      "explanation_correct": "Spatial audio uses object-based metadata to place sound sources in a 3D field regardless of the speaker configuration.",
+      "explanation_incorrect": "Binaural is a recording technique, surround sound refers to channel layouts, and mono conversion destroys positional data.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Codec Performance",
+      "question": "In digital audio systems, what term identifies the time interval between the entry of a signal and its subsequent output?",
+      "options": [
+        "Latency",
+        "Throughput",
+        "Jitter",
+        "Buffer size"
+      ],
+      "answer": "Latency",
+      "explanation_correct": "Latency measures the delay inherent in signal processing, which is critical for real-time applications.",
+      "explanation_incorrect": "Throughput measures capacity, jitter relates to timing consistency, and buffer size is a setting, not a measured delay metric.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Containers",
+      "question": "Which open-source, patent-free multimedia container format is maintained by the Xiph.Org Foundation?",
+      "options": [
+        "Ogg",
+        "Matroska",
+        "WebM",
+        "MP4"
+      ],
+      "answer": "Ogg",
+      "explanation_correct": "The Ogg container is a free format developed by the Xiph.Org Foundation to manage media streams effectively.",
+      "explanation_incorrect": "Matroska and WebM are other container formats, while MP4 is an ISO standard format, each with different development histories.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Integrity",
+      "question": "What is the technical term for the unwanted variation or oscillation in the timing of clock pulses in digital data transmission?",
+      "options": [
+        "Jitter",
+        "Drift",
+        "Latency",
+        "Skew"
+      ],
+      "answer": "Jitter",
+      "explanation_correct": "Jitter represents the short-term deviation from the ideal timing of a digital signal's clock pulses.",
+      "explanation_incorrect": "Drift is a long-term deviation, latency is a delay, and skew refers to signal timing differences between parallel lines.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Networking",
+      "question": "Which transport layer protocol is frequently preferred for live streaming because it prioritizes data delivery speed over transmission reliability?",
+      "options": [
+        "UDP",
+        "TCP",
+        "SCTP",
+        "HTTP"
+      ],
+      "answer": "UDP",
+      "explanation_correct": "User Datagram Protocol (UDP) is favored for real-time streams as it does not require retransmission of lost packets.",
+      "explanation_incorrect": "TCP, SCTP, and HTTP all involve overhead for error checking and delivery order, increasing total streaming latency.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Compression Artifacts",
+      "question": "What is the term for a specific compression artifact where faint sounds appear immediately before a sharp attack transient?",
+      "options": [
+        "Pre-echo",
+        "Quantization noise",
+        "Aliasing",
+        "Filtering"
+      ],
+      "answer": "Pre-echo",
+      "explanation_correct": "Pre-echo occurs when quantization noise is smeared backward in time due to block-based processing in psychoacoustic codecs.",
+      "explanation_incorrect": "Quantization noise, aliasing, and filtering are general terms and do not specifically describe this temporal artifact.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Workstations",
+      "question": "What acronym refers to software applications designed specifically for recording, editing, and producing digital audio?",
+      "options": [
+        "DAW",
+        "NLE",
+        "IDE",
+        "VST"
+      ],
+      "answer": "DAW",
+      "explanation_correct": "A Digital Audio Workstation (DAW) is the standard software environment for professional audio production and mixing.",
+      "explanation_incorrect": "NLEs are for video, IDEs are for programming, and VSTs are plugins, not complete production environments.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Mastering",
+      "question": "What digital process increases the gain of an entire audio file so that the highest peak reaches a specific level, typically 0 dBFS?",
+      "options": [
+        "Normalization",
+        "Dithering",
+        "Quantization",
+        "Resampling"
+      ],
+      "answer": "Normalization",
+      "explanation_correct": "Peak normalization searches for the highest level in the audio and scales the entire signal uniformly to hit a target peak level.",
+      "explanation_incorrect": "Dithering adds low-level noise to mask rounding errors, quantization is the bit-depth assignment, and resampling changes the sample rate.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Tech",
+      "question": "What technique involves re-encoding a digital stream from one bitrate or format to another to ensure wider device compatibility?",
+      "options": [
+        "Transcoding",
+        "Multiplexing",
+        "Encapsulation",
+        "Encoding"
+      ],
+      "answer": "Transcoding",
+      "explanation_correct": "Transcoding is the direct digital-to-digital conversion of one encoding to another, commonly used in adaptive streaming.",
+      "explanation_incorrect": "Multiplexing and encapsulation refer to combining data streams, while encoding is the initial compression process.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Psychoacoustics",
+      "question": "Which psychoacoustic concept defines the smallest change in a signal that a human ear can reliably perceive?",
+      "options": [
+        "Just Noticeable Difference",
+        "Absolute Threshold",
+        "Critical Band",
+        "Masking Effect"
+      ],
+      "answer": "Just Noticeable Difference",
+      "explanation_correct": "The Just Noticeable Difference (JND) identifies the threshold at which a change in intensity or frequency becomes perceptible.",
+      "explanation_incorrect": "Absolute threshold, critical bands, and masking are other psychoacoustic phenomena distinct from the measurement of perceptual thresholds.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Psychoacoustics",
+      "question": "Which term describes the subjective human perception of the fundamental frequency of sound?",
+      "options": [
+        "Pitch",
+        "Timbre",
+        "Amplitude",
+        "Resonance"
+      ],
+      "answer": "Pitch",
+      "explanation_correct": "Pitch is the psychological correlate of frequency. It allows listeners to categorize sounds along a high-to-low scale.",
+      "explanation_incorrect": "Timbre describes the tone quality, amplitude relates to loudness, and resonance is a physical amplification phenomenon.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Processing",
+      "question": "What is the name for the signal processing technique used to alter the duration of an audio signal without affecting its frequency content?",
+      "options": [
+        "Time stretching",
+        "Pitch shifting",
+        "Normalization",
+        "Quantization"
+      ],
+      "answer": "Time stretching",
+      "explanation_correct": "Time stretching modifies the playback duration independently of the pitch.",
+      "explanation_incorrect": "Pitch shifting changes frequency, normalization adjusts peak amplitude, and quantization occurs during analog-to-digital conversion.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which audio codec was developed by the Xiph.Org Foundation as a free, open-source replacement for proprietary formats?",
+      "options": [
+        "Vorbis",
+        "AAC",
+        "MP3",
+        "ATRAC"
+      ],
+      "answer": "Vorbis",
+      "explanation_correct": "Vorbis is a lossy audio compression format released by Xiph.Org as a patent-free alternative.",
+      "explanation_incorrect": "AAC, MP3, and ATRAC are proprietary or patent-encumbered formats developed by other organizations.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Internet Audio",
+      "question": "What server software is widely utilized to relay streaming media, such as internet radio, through the SHOUTcast or Ogg protocols?",
+      "options": [
+        "Icecast",
+        "Apache",
+        "Nginx",
+        "MySQL"
+      ],
+      "answer": "Icecast",
+      "explanation_correct": "Icecast is specifically designed for streaming audio and media in real-time to multiple clients.",
+      "explanation_incorrect": "Apache and Nginx are web servers for static/dynamic content, and MySQL is a database management system.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Voice Technology",
+      "question": "Which technology enables the delivery of voice communications and multimedia sessions over Internet Protocol networks?",
+      "options": [
+        "VoIP",
+        "DSL",
+        "ATM",
+        "PSTN"
+      ],
+      "answer": "VoIP",
+      "explanation_correct": "Voice over IP (VoIP) converts analog audio into digital packets for transmission over packet-switched network infrastructures.",
+      "explanation_incorrect": "DSL refers to broadband access, ATM is a network technology, and PSTN is the traditional circuit-switched telephone network.",
+      "last_verified_at": "2026-06-12T16:35:25.107Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Engineering",
+      "question": "What visual representation displays the frequency spectrum of a signal as it varies over the course of time?",
+      "options": [
+        "Spectrogram",
+        "Oscilloscope",
+        "Vectorscope",
+        "Lissajous curve"
+      ],
+      "answer": "Spectrogram",
+      "explanation_correct": "A spectrogram visually maps signal intensity across frequency and time coordinates.",
+      "explanation_incorrect": "Oscilloscopes show voltage over time, vectorscopes map phase relationships, and Lissajous curves visualize signal phase differences.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Surround Sound",
+      "question": "Which current audio technology utilizes an object-based approach to provide a three-dimensional surround sound experience?",
+      "options": [
+        "Dolby Atmos",
+        "DTS:X",
+        "Stereo",
+        "Quadraphonic"
+      ],
+      "answer": "Dolby Atmos",
+      "explanation_correct": "Dolby Atmos treats sound elements as individual objects in a 3D space rather than channel-based signals.",
+      "explanation_incorrect": "Stereo and Quadraphonic are channel-based systems, and DTS:X is a competitor that uses different proprietary metadata handling.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Radio",
+      "question": "What is the primary technical standard used throughout Europe for digital radio broadcasting?",
+      "options": [
+        "DAB",
+        "HD Radio",
+        "SiriusXM",
+        "AM"
+      ],
+      "answer": "DAB",
+      "explanation_correct": "Digital Audio Broadcasting (DAB) is the established standard for digital radio transmissions in European markets.",
+      "explanation_incorrect": "HD Radio is used primarily in North America, AM is an analog broadcast mode, and SiriusXM is a proprietary satellite service.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Standards",
+      "question": "Which proprietary audio coder format was developed by Microsoft for use within the Windows Media framework?",
+      "options": [
+        "WMA",
+        "ALAC",
+        "FLAC",
+        "OGG"
+      ],
+      "answer": "WMA",
+      "explanation_correct": "Windows Media Audio (WMA) is a series of codecs developed by Microsoft.",
+      "explanation_incorrect": "ALAC and FLAC are lossless formats, and OGG is an open-source container format.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Network Quality",
+      "question": "What phenomenon occurs when one or more digital data packets fail to reach their intended destination during a network stream?",
+      "options": [
+        "Packet loss",
+        "Latency",
+        "Jitter",
+        "Throughput"
+      ],
+      "answer": "Packet loss",
+      "explanation_correct": "Packet loss refers to data units that are dropped or fail to arrive, potentially causing playback stuttering.",
+      "explanation_incorrect": "Latency measures delay, jitter is the variation in delay, and throughput relates to total data transfer capacity.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Filtering",
+      "question": "Which type of electronic signal processing circuit allows frequencies within a specific range to pass, while rejecting frequencies outside that range?",
+      "options": [
+        "Band-pass filter",
+        "Low-pass filter",
+        "High-pass filter",
+        "Notch filter"
+      ],
+      "answer": "Band-pass filter",
+      "explanation_correct": "A band-pass filter isolates a specific frequency band by blocking both lower and higher signals.",
+      "explanation_incorrect": "Low-pass and high-pass filters only block one end of the spectrum, while notch filters remove a narrow frequency band.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Playback",
+      "question": "What feature allows for a smooth transition where the volume of one audio track fades out while another simultaneously fades in?",
+      "options": [
+        "Crossfade",
+        "Normalization",
+        "Clipping",
+        "Compression"
+      ],
+      "answer": "Crossfade",
+      "explanation_correct": "Crossfading is an editing technique to eliminate silence or abrupt gaps between consecutive audio files during playback.",
+      "explanation_incorrect": "Normalization alters overall gain, clipping is digital distortion, and compression reduces dynamic range.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Security",
+      "question": "Which protocol is the standard for transmitting encrypted data safely across computer networks for media streaming?",
+      "options": [
+        "HTTPS",
+        "HTTP",
+        "FTP",
+        "Telnet"
+      ],
+      "answer": "HTTPS",
+      "explanation_correct": "HTTPS uses TLS/SSL encryption to ensure secure data transfer over the internet.",
+      "explanation_incorrect": "HTTP is unencrypted, FTP is for file transfers, and Telnet is an insecure remote login protocol.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Voice Assistants",
+      "question": "What process involves the automatic transformation of written character input into synthesized audible speech output?",
+      "options": [
+        "TTS synthesis",
+        "ASR processing",
+        "OCR scanning",
+        "PCM encoding"
+      ],
+      "answer": "TTS synthesis",
+      "explanation_correct": "Text-to-Speech (TTS) utilizes linguistic analysis and signal processing to convert text into artificial human speech.",
+      "explanation_incorrect": "ASR (Automatic Speech Recognition) is the reverse process, OCR converts images to text, and PCM is an audio storage format.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Structures",
+      "question": "What specific data structure is frequently used as a buffer to handle continuous, real-time flows of streaming audio data?",
+      "options": [
+        "Circular buffer",
+        "Stack",
+        "Linked list",
+        "Binary tree"
+      ],
+      "answer": "Circular buffer",
+      "explanation_correct": "A circular buffer provides a fixed-size memory space that overwrites the oldest data as new packets arrive, crucial for streaming.",
+      "explanation_incorrect": "Stacks, linked lists, and binary trees are primarily used for search or organizational logic rather than continuous cyclic stream management.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Hardware",
+      "question": "Which professional digital multi-channel audio connection protocol was originally developed by Alesis for studio equipment?",
+      "options": [
+        "ADAT",
+        "AES3",
+        "USB",
+        "SPDIF"
+      ],
+      "answer": "ADAT",
+      "explanation_correct": "ADAT Lightpipe is an industry-standard interface that transmits eight channels of audio over a single optical cable.",
+      "explanation_incorrect": "AES3 and SPDIF are stereo standards, and USB is a general-purpose data bus.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Metering",
+      "question": "What is the standard unit of measurement used in modern digital audio to quantify perceived loudness rather than raw peak signal amplitude?",
+      "options": [
+        "LUFS",
+        "dBFS",
+        "SPL",
+        "RMS"
+      ],
+      "answer": "LUFS",
+      "explanation_correct": "Loudness Units relative to Full Scale (LUFS) account for human auditory perception of loudness across frequency bands.",
+      "explanation_incorrect": "dBFS measures bit depth capacity, SPL measures acoustic pressure, and RMS measures mathematical signal power.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Podcast Distribution",
+      "question": "Which XML-based format is universally used to syndicate and distribute updated podcast episodes to listeners?",
+      "options": [
+        "RSS",
+        "JSON",
+        "HTML",
+        "YAML"
+      ],
+      "answer": "RSS",
+      "explanation_correct": "RSS (Really Simple Syndication) allows podcasters to provide an index of files that media players automatically parse for new content.",
+      "explanation_incorrect": "JSON, HTML, and YAML are data serialization or markup formats not typically used for feed syndication standards.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Synthesis",
+      "question": "What category of audio synthesis creates sounds by mathematically modeling the physical properties of musical instruments?",
+      "options": [
+        "Physical modeling",
+        "Subtractive synthesis",
+        "Granular synthesis",
+        "Additive synthesis"
+      ],
+      "answer": "Physical modeling",
+      "explanation_correct": "Physical modeling simulates the real-world physics of an instrument, such as vibrating strings or air columns.",
+      "explanation_incorrect": "Subtractive, additive, and granular synthesis manipulate wave components rather than mimicking physical mechanics.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Phase",
+      "question": "What audio phenomenon occurs when the peak of one sound wave coincides with the trough of another, resulting in signal cancellation?",
+      "options": [
+        "Phase interference",
+        "Harmonic distortion",
+        "Aliasing",
+        "Quantization error"
+      ],
+      "answer": "Phase interference",
+      "explanation_correct": "Phase interference or cancellation occurs when two mirrored waveforms interact destructively.",
+      "explanation_incorrect": "Harmonic distortion adds frequency artifacts, aliasing is a sampling error, and quantization error occurs in binary conversion.",
+      "last_verified_at": "2026-06-12T16:35:25.108Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which audio codec was specifically designed for efficient speech compression in voice applications?",
+      "options": [
+        "Speex",
+        "FLAC",
+        "MP3",
+        "AAC"
+      ],
+      "answer": "Speex",
+      "explanation_correct": "Speex is an open-source audio compression format specifically optimized for human speech.",
+      "explanation_incorrect": "FLAC, MP3, and AAC are general-purpose codecs designed primarily for music or broad-spectrum audio rather than speech optimization.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Audio",
+      "question": "What is the standard bit depth utilized for recording and playback of commercial audio compact discs?",
+      "options": [
+        "Eight bits",
+        "Twelve bits",
+        "Sixteen bits",
+        "Twenty-four bits"
+      ],
+      "answer": "Sixteen bits",
+      "explanation_correct": "Red Book standard audio CDs utilize a 16-bit depth per sample at a 44.1 kHz sampling rate.",
+      "explanation_incorrect": "Other bit depths like 8-bit, 12-bit, or 24-bit are used in different technical contexts or high-resolution formats, not the CD standard.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Encoding",
+      "question": "Which encoding approach adjusts the data rate dynamically depending on the complexity of the signal segment?",
+      "options": [
+        "Constant Bitrate",
+        "Variable Bitrate",
+        "Lossless Compression",
+        "Uncompressed"
+      ],
+      "answer": "Variable Bitrate",
+      "explanation_correct": "Variable Bitrate (VBR) allocates more data to complex segments and less to simpler ones to maintain consistent quality.",
+      "explanation_incorrect": "Constant Bitrate (CBR) keeps the data rate steady, while lossless and uncompressed formats do not function by varying bitrates based on complexity.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Web Audio",
+      "question": "What JavaScript standard interface allows developers to process and synthesize audio within a browser?",
+      "options": [
+        "Web Audio API",
+        "Canvas API",
+        "WebGL API",
+        "Gamepad API"
+      ],
+      "answer": "Web Audio API",
+      "explanation_correct": "The Web Audio API provides a powerful and versatile system for controlling audio on the web.",
+      "explanation_incorrect": "Canvas, WebGL, and Gamepad are APIs designed for graphics and input rather than audio processing.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Latency",
+      "question": "Which industry-standard driver architecture is used on Windows platforms to achieve low-latency audio performance?",
+      "options": [
+        "ASIO",
+        "DirectSound",
+        "MME",
+        "WDM"
+      ],
+      "answer": "ASIO",
+      "explanation_correct": "ASIO (Audio Stream Input/Output) bypasses standard system drivers to facilitate low-latency communication between software and hardware.",
+      "explanation_incorrect": "DirectSound, MME, and WDM are standard Windows audio drivers that generally introduce more latency than ASIO.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Stream Management",
+      "question": "In a live streaming architecture, which component is responsible for retrieving and delivering the source stream content?",
+      "options": [
+        "Origin server",
+        "Client cache",
+        "Proxy server",
+        "Load balancer"
+      ],
+      "answer": "Origin server",
+      "explanation_correct": "An origin server is the primary source where the original media files or live streams are located for distribution.",
+      "explanation_incorrect": "Proxy servers, client caches, and load balancers are intermediate distribution or storage nodes rather than the source of the content.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which proprietary lossy audio codec was developed by Sony for use in MiniDisc players?",
+      "options": [
+        "ATRAC",
+        "Ogg Vorbis",
+        "WMA",
+        "Opus"
+      ],
+      "answer": "ATRAC",
+      "explanation_correct": "ATRAC (Adaptive TRansform Acoustic Coding) is a family of proprietary audio compression algorithms developed by Sony.",
+      "explanation_incorrect": "Ogg Vorbis, WMA, and Opus are alternative codecs developed by different entities and were not the primary format for early MiniDisc hardware.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Modulation",
+      "question": "What digital signal conversion process uses a high-frequency bitstream to represent pulse code modulation data?",
+      "options": [
+        "Delta-sigma modulation",
+        "Pulse width modulation",
+        "Frequency modulation",
+        "Phase modulation"
+      ],
+      "answer": "Delta-sigma modulation",
+      "explanation_correct": "Delta-sigma modulation is used in ADCs and DACs to convert signals into higher bit-depth data using oversampling.",
+      "explanation_incorrect": "PWM, FM, and PM are different modulation techniques used in power electronics and signal transmission for purposes other than PCM conversion.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Music Metadata",
+      "question": "Which international standard acts as a unique identifier for tracks or musical recordings?",
+      "options": [
+        "ISRC",
+        "ISBN",
+        "ISSN",
+        "DOI"
+      ],
+      "answer": "ISRC",
+      "explanation_correct": "ISRC (International Standard Recording Code) is the global identification system for sound recordings.",
+      "explanation_incorrect": "ISBN and ISSN are for books/serials, and DOI is for digital objects, not specific sound recordings.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Signal Processing",
+      "question": "What type of filter is characterized by having feedback, resulting in a theoretically infinite impulse response?",
+      "options": [
+        "IIR filter",
+        "FIR filter",
+        "Comb filter",
+        "Low-pass filter"
+      ],
+      "answer": "IIR filter",
+      "explanation_correct": "An IIR (Infinite Impulse Response) filter utilizes feedback, causes the impulse response to continue indefinitely.",
+      "explanation_incorrect": "An FIR filter is finite by definition; comb and low-pass filters describe filter types or shapes rather than feedback-based impulse characteristics.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Tech",
+      "question": "Which technology enables real-time peer-to-peer communication through web browsers without requiring plugins?",
+      "options": [
+        "WebRTC",
+        "Flash",
+        "Silverlight",
+        "Java Applet"
+      ],
+      "answer": "WebRTC",
+      "explanation_correct": "WebRTC provides browsers and mobile applications with real-time communication capabilities via simple APIs.",
+      "explanation_incorrect": "Flash, Silverlight, and Java Applets are legacy technologies that often required external browser plugins to function.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Formats",
+      "question": "Which audio container format was primarily developed by Apple for Mac-based digital audio storage?",
+      "options": [
+        "AIFF",
+        "WAV",
+        "OGG",
+        "FLAC"
+      ],
+      "answer": "AIFF",
+      "explanation_correct": "AIFF (Audio Interchange File Format) is an uncompressed audio file format developed by Apple.",
+      "explanation_incorrect": "WAV is Microsoft-based, while OGG and FLAC are open-source formats not developed by Apple.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Measurement",
+      "question": "What logarithmic unit is universally used to measure the intensity or power level of audio signals?",
+      "options": [
+        "Decibel",
+        "Hertz",
+        "Volt",
+        "Pascal"
+      ],
+      "answer": "Decibel",
+      "explanation_correct": "The decibel (dB) is a dimensionless unit used to compare the ratio of two values in audio intensity.",
+      "explanation_incorrect": "Hertz measures frequency, Volts measure electrical potential, and Pascals measure pressure, none of which quantify logarithmic sound intensity.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Networking",
+      "question": "What networking protocol allows for the transport of high-quality digital audio over standard Ethernet infrastructure?",
+      "options": [
+        "Dante",
+        "MIDI",
+        "USB",
+        "FireWire"
+      ],
+      "answer": "Dante",
+      "explanation_correct": "Dante is a proprietary technical solution that transmits uncompressed multi-channel audio via standard IP networks.",
+      "explanation_incorrect": "MIDI is a control protocol; USB and FireWire are peripheral data buses, not network audio protocols for Ethernet.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Dynamic Range",
+      "question": "What audio processor device is used as a final stage to establish an absolute output ceiling and prevent signal distortion?",
+      "options": [
+        "Limiter",
+        "Expander",
+        "Equalizer",
+        "Noise Gate"
+      ],
+      "answer": "Limiter",
+      "explanation_correct": "A limiter is a specialized compressor with a very high ratio that prevents audio peaks from exceeding a set threshold.",
+      "explanation_incorrect": "Expanders and gates affect the low end or quiet sections, while equalizers modify frequency content rather than preventing clipping.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Design",
+      "question": "What is the process of conveying data or information by converting it into non-speech sound?",
+      "options": [
+        "Sonification",
+        "Digitization",
+        "Sampling",
+        "Normalization"
+      ],
+      "answer": "Sonification",
+      "explanation_correct": "Sonification is the use of non-speech audio to convey information or perceptualize data.",
+      "explanation_incorrect": "Digitization, sampling, and normalization relate to recording and processing methods rather than data-to-sound translation.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Playback",
+      "question": "Which streaming method dynamically adjusts bitrate during playback to match current network conditions?",
+      "options": [
+        "Adaptive streaming",
+        "Progressive download",
+        "Unicast streaming",
+        "Multicast streaming"
+      ],
+      "answer": "Adaptive streaming",
+      "explanation_correct": "Adaptive streaming changes the quality of the stream on the fly to prevent buffering based on bandwidth changes.",
+      "explanation_incorrect": "Progressive, unicast, and multicast are delivery modes that do not inherently scale quality based on real-time network health.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Resolution",
+      "question": "What is the industry term often used to describe digital audio formats exceeding the quality of standard CD resolution?",
+      "options": [
+        "Hi-Res Audio",
+        "Lo-Fi",
+        "Mono",
+        "Voice-grade"
+      ],
+      "answer": "Hi-Res Audio",
+      "explanation_correct": "Hi-Res Audio refers to files with higher sampling rates or bit depths than the 16-bit/44.1 kHz standard.",
+      "explanation_incorrect": "Lo-Fi, mono, and voice-grade are all terms that imply lower or simplified audio standards, not higher resolution.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Audio",
+      "question": "Which format represents raw digital audio data with no compression applied to the sample stream?",
+      "options": [
+        "LPCM",
+        "AAC",
+        "MP3",
+        "Vorbis"
+      ],
+      "answer": "LPCM",
+      "explanation_correct": "LPCM (Linear Pulse Code Modulation) is the standard method for encoding uncompressed digital audio.",
+      "explanation_incorrect": "AAC, MP3, and Vorbis are all lossy, compressed audio codecs, not raw uncompressed data streams.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Speech Analysis",
+      "question": "Which mathematical technique models the human vocal tract to efficiently represent speech as digital parameters?",
+      "options": [
+        "Linear Predictive Coding",
+        "Fourier Transform",
+        "Wavelet Transform",
+        "Pulse Code Modulation"
+      ],
+      "answer": "Linear Predictive Coding",
+      "explanation_correct": "Linear Predictive Coding (LPC) estimates parameters of a linear system to model the production of human speech.",
+      "explanation_incorrect": "Fourier and wavelets are mathematical transformations, and PCM is an encoding method, but none specifically model the vocal tract like LPC.",
+      "last_verified_at": "2026-06-12T16:35:33.388Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Data Compression",
+      "question": "Which lossless audio codec was developed by the Xiph.Org Foundation?",
+      "options": [
+        "FLAC",
+        "ALAC",
+        "WAV",
+        "AIFF"
+      ],
+      "answer": "FLAC",
+      "explanation_correct": "FLAC, or Free Lossless Audio Codec, is an open-source format developed by the Xiph.Org Foundation.",
+      "explanation_incorrect": "ALAC was developed by Apple; WAV and AIFF are uncompressed container formats rather than lossless codecs.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Protocols",
+      "question": "Which protocol is primarily designed for the real-time transport of audio and video over IP networks?",
+      "options": [
+        "RTP",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "RTP",
+      "explanation_correct": "The Real-time Transport Protocol (RTP) is the standard for delivering audio and video data in real time.",
+      "explanation_incorrect": "HTTP is for web resource fetching, FTP is for file transfers, and SMTP is for email.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Signal Processing",
+      "question": "What is the process of adding low-level noise to a digital audio file to reduce quantization distortion when decreasing bit depth?",
+      "options": [
+        "Dithering",
+        "Normalizing",
+        "Compressing",
+        "Limiting"
+      ],
+      "answer": "Dithering",
+      "explanation_correct": "Dithering adds randomized electronic noise which prevents harmonic distortion caused by rounding errors during quantization.",
+      "explanation_incorrect": "Normalizing, compressing, and limiting are dynamic range manipulation processes, not related to quantization reduction.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Encoding",
+      "question": "Which specific audio encoding family encompasses the technical specification for MP3?",
+      "options": [
+        "MPEG-1 Audio Layer III",
+        "AAC-LC",
+        "HE-AAC",
+        "AC-3"
+      ],
+      "answer": "MPEG-1 Audio Layer III",
+      "explanation_correct": "MP3 is a common shorthand for MPEG-1 Audio Layer III, a standard developed by the Moving Picture Experts Group.",
+      "explanation_incorrect": "AAC, HE-AAC, and AC-3 are different encoding specifications developed by other groups or later iterations.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Infrastructure",
+      "question": "What kind of distributed server system is used to deliver content globally to users based on their geographic location?",
+      "options": [
+        "Content Delivery Network",
+        "Virtual Private Network",
+        "Network Attached Storage",
+        "Local Area Network"
+      ],
+      "answer": "Content Delivery Network",
+      "explanation_correct": "A Content Delivery Network (CDN) uses geographically distributed servers to reduce latency for end users.",
+      "explanation_incorrect": "VPN, NAS, and LAN refer to networking and storage architectures, not global content distribution strategies.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Waveform Analysis",
+      "question": "What is the primary mathematical algorithm used to compute the frequency components of a discrete time-domain signal?",
+      "options": [
+        "Fast Fourier Transform",
+        "Discrete Cosine Transform",
+        "Wavelet Transform",
+        "Laplace Transform"
+      ],
+      "answer": "Fast Fourier Transform",
+      "explanation_correct": "The Fast Fourier Transform (FFT) efficiently computes the discrete Fourier transform of a sequence to analyze frequency content.",
+      "explanation_incorrect": "While other transforms exist, the FFT is the industry standard for time-to-frequency conversion in audio software.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Adaptive Bitrate Streaming",
+      "question": "Which open standard did the MPEG committee develop to facilitate adaptive bitrate streaming over HTTP?",
+      "options": [
+        "MPEG-DASH",
+        "HLS",
+        "RTMP",
+        "RTSP"
+      ],
+      "answer": "MPEG-DASH",
+      "explanation_correct": "MPEG-DASH is the international standard for Dynamic Adaptive Streaming over HTTP.",
+      "explanation_incorrect": "HLS is an Apple proprietary standard, while RTMP and RTSP are streaming-specific protocols rather than HTTP-based adaptive ones.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which open-source audio codec, standardized by the IETF, is optimized for high-quality, low-latency communication over the internet?",
+      "options": [
+        "Opus",
+        "Speex",
+        "Vorbis",
+        "MP3"
+      ],
+      "answer": "Opus",
+      "explanation_correct": "Opus is a highly versatile, low-latency audio codec developed by the Xiph.Org Foundation and standardized by the IETF.",
+      "explanation_incorrect": "Speex and Vorbis are predecessor codecs from Xiph, while MP3 is a classic lossy format not designed for low-latency communication.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sampling Theory",
+      "question": "According to sampling theory, what is the minimum sampling rate required to avoid aliasing for a given bandwidth?",
+      "options": [
+        "Nyquist rate",
+        "Bit depth",
+        "Sample volume",
+        "Clock drift"
+      ],
+      "answer": "Nyquist rate",
+      "explanation_correct": "The Nyquist rate is defined as twice the bandwidth of the signal being sampled.",
+      "explanation_incorrect": "The other terms relate to hardware properties or data representation precision rather than sampling limits.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Interface",
+      "question": "Which consumer-grade digital audio interface protocol is commonly used to transmit data over coaxial or TOSLINK optical cables?",
+      "options": [
+        "S/PDIF",
+        "AES/EBU",
+        "I2C",
+        "GPIO"
+      ],
+      "answer": "S/PDIF",
+      "explanation_correct": "S/PDIF (Sony/Philips Digital Interface) is the standard for consumer digital audio transmission via optical or RCA cables.",
+      "explanation_incorrect": "AES/EBU is the professional balanced equivalent, while I2C and GPIO are internal hardware communication protocols.",
+      "last_verified_at": "2026-06-12T16:36:36.195Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Digital Distribution",
+      "question": "Which proprietary protocol is used by Apple devices for wireless streaming of audio and video?",
+      "options": [
+        "AirPlay",
+        "Miracast",
+        "Chromecast",
+        "DLNA"
+      ],
+      "answer": "AirPlay",
+      "explanation_correct": "AirPlay is Apple's trademarked suite of protocols for streaming video and audio between devices.",
+      "explanation_incorrect": "Miracast, Chromecast, and DLNA are technologies from other developers for media streaming.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Streaming Protocols",
+      "question": "Which protocol, originally developed by Adobe, was the standard for streaming media from servers to Flash players?",
+      "options": [
+        "RTMP",
+        "HLS",
+        "DASH",
+        "RTP"
+      ],
+      "answer": "RTMP",
+      "explanation_correct": "The Real-Time Messaging Protocol (RTMP) was designed for high-performance transmission of data and video for Adobe systems.",
+      "explanation_incorrect": "HLS and DASH are HTTP-based, and RTP is a generic transport protocol rather than a media-server standard.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Psychoacoustics",
+      "question": "In psychoacoustics, what is the term for when a louder sound prevents the human ear from perceiving a quieter, simultaneous sound?",
+      "options": [
+        "Auditory masking",
+        "Phase cancellation",
+        "Comb filtering",
+        "Spatial aliasing"
+      ],
+      "answer": "Auditory masking",
+      "explanation_correct": "Auditory masking describes the phenomenon where one sound partially or completely obscures another.",
+      "explanation_incorrect": "The other phenomena are interference or spatial effects, not related to the psychology of hearing.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Codecs",
+      "question": "Which lossy audio codec remains widely prevalent in traditional telecommunications due to its simplicity and low processing overhead?",
+      "options": [
+        "G.711",
+        "HE-AAC",
+        "Opus",
+        "MP3"
+      ],
+      "answer": "G.711",
+      "explanation_correct": "G.711 is a narrow-band audio codec used extensively in legacy telephony systems.",
+      "explanation_incorrect": "The other formats are modern high-quality codecs; G.711 is notable for its simplicity in digital telephony.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Container Formats",
+      "question": "Which container format is the standard for uncompressed audio on the Windows platform?",
+      "options": [
+        "WAV",
+        "MP3",
+        "AAC",
+        "FLAC"
+      ],
+      "answer": "WAV",
+      "explanation_correct": "WAV (Waveform Audio File Format) is the primary container for uncompressed, pulse-code modulated audio in Windows.",
+      "explanation_incorrect": "MP3, AAC, and FLAC are compressed audio formats, not the uncompressed standard for Windows core audio.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Quantization",
+      "question": "What is the common term for the distortion introduced by the process of mapping continuous values to discrete levels?",
+      "options": [
+        "Quantization noise",
+        "White noise",
+        "Pink noise",
+        "Flicker noise"
+      ],
+      "answer": "Quantization noise",
+      "explanation_correct": "Quantization noise is an unavoidable model of the rounding error occurring during analog-to-digital conversion.",
+      "explanation_incorrect": "The other types of noise are physical or statistical noise models unrelated to digital conversion truncation.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Network Buffering",
+      "question": "What network component is used to store incoming data packets to compensate for variations in arrival times during streaming?",
+      "options": [
+        "Jitter buffer",
+        "Packet header",
+        "Codec latency",
+        "System clock"
+      ],
+      "answer": "Jitter buffer",
+      "explanation_correct": "A jitter buffer temporarily stores packets to smooth out delivery variations, ensuring smooth audio playback.",
+      "explanation_incorrect": "Headers, latency, and clocks are elements of timing and data tracking, not the buffering mechanism itself.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Adaptive Bitrate Streaming",
+      "question": "Which HTTP-based streaming protocol did Apple develop as a successor to their direct-stream methods?",
+      "options": [
+        "HLS",
+        "MPEG-DASH",
+        "RTMP",
+        "RTSP"
+      ],
+      "answer": "HLS",
+      "explanation_correct": "HTTP Live Streaming (HLS) is Apple's proprietary yet widely adopted adaptive streaming protocol.",
+      "explanation_incorrect": "MPEG-DASH is an industry-standard alternative; RTMP and RTSP are not standard HTTP-based delivery protocols.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Hardware",
+      "question": "What hardware component is responsible for reconstructing an analog signal from a sequence of digital bits?",
+      "options": [
+        "Digital-to-Analog Converter",
+        "Analog-to-Digital Converter",
+        "Frequency Modulator",
+        "Signal Processor"
+      ],
+      "answer": "Digital-to-Analog Converter",
+      "explanation_correct": "A Digital-to-Analog Converter (DAC) is essential for converting binary code into voltage signals for playback.",
+      "explanation_incorrect": "The other devices are either for recording or modifying signal properties, not for playback output.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Audio Synthesis",
+      "question": "What sound synthesis technique involves varying the frequency of an oscillator using a modulator signal?",
+      "options": [
+        "FM synthesis",
+        "Additive synthesis",
+        "Subtractive synthesis",
+        "Granular synthesis"
+      ],
+      "answer": "FM synthesis",
+      "explanation_correct": "Frequency Modulation (FM) synthesis changes the timbre of a signal by modulating one wave using another frequency.",
+      "explanation_incorrect": "Additive, subtractive, and granular are different synthesis methods using summation, filtering, or grain manipulation.",
+      "last_verified_at": "2026-06-12T16:35:33.389Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}

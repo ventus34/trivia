@@ -1,0 +1,1497 @@
+{
+  "id": "the_evolution_of_game_engines_en",
+  "name": "The Evolution of Game Engines",
+  "language": "en",
+  "description": "Questions covering: Quake Engine, Unreal Engine, Unity Engine, Doom Engine, CryEngine...",
+  "created_at": "2026-06-12T16:42:51.988Z",
+  "last_verified_at": "2026-06-12T16:41:48.750Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 99,
+  "questions": [
+    {
+      "subcategory": "Quake Engine",
+      "question": "Which software engineer served as the lead programmer and primary architect of the Quake engine?",
+      "options": [
+        "John Carmack",
+        "Tim Sweeney",
+        "John Romero",
+        "Adrian Carmack"
+      ],
+      "answer": "John Carmack",
+      "explanation_correct": "John Carmack was the lead programmer who revolutionized real-time 3D graphics with the Quake engine.",
+      "explanation_incorrect": "Tim Sweeney founded Epic Games, while John and Adrian Romero/Carmack were core id Software members but focused on different roles.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Unreal Engine",
+      "question": "What 1998 first-person shooter served as the title for the initial release of the Unreal Engine?",
+      "options": [
+        "Unreal",
+        "Duke Nukem",
+        "Quake",
+        "Half-Life"
+      ],
+      "answer": "Unreal",
+      "explanation_correct": "The engine was branded after the game Unreal, which showcased its early capabilities.",
+      "explanation_incorrect": "Titles like Quake and Half-Life were powered by competing engines like id Tech and GoldSrc respectively.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Unity Engine",
+      "question": "Which operating system was the original platform exclusive for the inaugural release of the Unity engine?",
+      "options": [
+        "Mac OS X",
+        "Windows XP",
+        "Linux",
+        "BeOS"
+      ],
+      "answer": "Mac OS X",
+      "explanation_correct": "Unity was first developed and launched specifically for the Apple Mac OS X platform in 2005.",
+      "explanation_incorrect": "Windows, Linux, and BeOS were not the primary focus of the initial proprietary engine release.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Doom Engine",
+      "question": "Which mathematical technique did the Doom engine use to render 3D environments efficiently on hardware of its time?",
+      "options": [
+        "Binary Space Partitioning",
+        "Ray Tracing",
+        "Voxel Mapping",
+        "Global Illumination"
+      ],
+      "answer": "Binary Space Partitioning",
+      "explanation_correct": "Binary Space Partitioning, or BSP, was the standard method used to organize and render levels in early id Software games.",
+      "explanation_incorrect": "Ray tracing and Global Illumination were not feasible on hardware from the early 1990s.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CryEngine",
+      "question": "Which 2004 video game is recognized for being the inaugural title to utilize the CryEngine?",
+      "options": [
+        "Far Cry",
+        "Crysis",
+        "Painkiller",
+        "DOOM 3"
+      ],
+      "answer": "Far Cry",
+      "explanation_correct": "Far Cry was the foundational game that introduced the public to the graphical capabilities of CryEngine.",
+      "explanation_incorrect": "Crysis followed later, whereas Painkiller and DOOM 3 used entirely different proprietary engine frameworks.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Source Engine",
+      "question": "The Source engine notably incorporated physics simulation middleware from which external company?",
+      "options": [
+        "Havok",
+        "PhysX",
+        "Bullet",
+        "Newton"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Valve integrated the Havok physics engine into Source to handle interaction and ragdoll animations.",
+      "explanation_incorrect": "PhysX and Bullet were middleware solutions used by other engines or later versions not initially central to Source.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Frostbite",
+      "question": "Which development studio is responsible for the creation and maintenance of the Frostbite engine?",
+      "options": [
+        "DICE",
+        "BioWare",
+        "Criterion",
+        "Respawn"
+      ],
+      "answer": "DICE",
+      "explanation_correct": "Frostbite was developed by DICE, a division of Electronic Arts, primarily for the Battlefield franchise.",
+      "explanation_incorrect": "BioWare and Criterion are sister studios that later adopted the engine, but they are not its originators.",
+      "last_verified_at": "2026-06-12T16:41:03.628Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "RE Engine",
+      "question": "According to Capcom, what is the official meaning of the 'RE' prefix in the name of their proprietary 'RE Engine'?",
+      "options": [
+        "Reach for the Moon",
+        "Resident Engine",
+        "Revolution Engine",
+        "Real-time Entity"
+      ],
+      "answer": "Reach for the Moon",
+      "explanation_correct": "Capcom stated that 'RE' stands for 'Reach for the Moon', which is also represented by the moon in the engine's logo.",
+      "explanation_incorrect": "While many gamers assumed it stood for 'Resident Evil' because of its debut in RE7, Capcom clarified it is an internal aspirational slogan.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "GoldSrc",
+      "question": "The GoldSrc engine, used to power the original Half-Life, was a heavily modified version of which earlier engine?",
+      "options": [
+        "Quake Engine",
+        "Build Engine",
+        "Unreal Engine",
+        "id Tech 2"
+      ],
+      "answer": "Quake Engine",
+      "explanation_correct": "GoldSrc was derived from the Quake engine code, which Valve heavily modified to create their specific gameplay requirements.",
+      "explanation_incorrect": "Build was Ken Silverman's engine, while Unreal and id Tech 2 were separate technological paths.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Unreal Engine 5",
+      "question": "What is the name of Unreal Engine 5's virtualized geometry technology that allows for massive polygon counts?",
+      "options": [
+        "Nanite",
+        "Lumi",
+        "Voxel",
+        "Strata"
+      ],
+      "answer": "Nanite",
+      "explanation_correct": "Nanite is the virtualized geometry system that enables cinematic levels of detail in real-time.",
+      "explanation_incorrect": "Lumen is for light, while other terms are either generic or related to different graphics concepts.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Unreal Engine 5",
+      "question": "In Unreal Engine 5, what is the name of the dynamic global illumination and reflections system?",
+      "options": [
+        "Lumen",
+        "Raygen",
+        "Photon",
+        "Reflect"
+      ],
+      "answer": "Lumen",
+      "explanation_correct": "Lumen is a fully dynamic global illumination system designed for Unreal Engine 5.",
+      "explanation_incorrect": "The other options are related to lighting terminology but are not specific features within the UE5 software stack.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Godot",
+      "question": "What is the name of the primary proprietary scripting language used within the Godot Engine?",
+      "options": [
+        "GDScript",
+        "Lua",
+        "Squirrel",
+        "AngelScript"
+      ],
+      "answer": "GDScript",
+      "explanation_correct": "GDScript is a high-level, dynamically typed programming language created specifically for Godot.",
+      "explanation_incorrect": "Lua, Squirrel, and AngelScript are popular embedded languages but are not the native syntax of Godot.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "id Tech 6",
+      "question": "What specific rendering technique involving large, singular texture files was a staple of the id Tech 6 engine?",
+      "options": [
+        "MegaTexture",
+        "Sparse Texturing",
+        "Virtual Texturing",
+        "Texture Atlasing"
+      ],
+      "answer": "MegaTexture",
+      "explanation_correct": "MegaTexture allowed for incredibly large, continuous landscape textures by streaming them efficiently.",
+      "explanation_incorrect": "While related to virtual texturing, MegaTexture was the proprietary term marketed by id Software specifically.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Build Engine",
+      "question": "Who is the primary individual responsible for the creation of the Build engine?",
+      "options": [
+        "Ken Silverman",
+        "Tim Sweeney",
+        "John Carmack",
+        "Ed Rotberg"
+      ],
+      "answer": "Ken Silverman",
+      "explanation_correct": "Ken Silverman wrote the Build engine, which powered classic 90s shooters like Duke Nukem 3D.",
+      "explanation_incorrect": "Sweeney and Carmack pioneered different engines, and Rotberg was a programmer at Atari.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "RAGE",
+      "question": "Which video game publisher is the parent corporation that owns the proprietary Rockstar Advanced Game Engine (RAGE)?",
+      "options": [
+        "Take-Two Interactive",
+        "Electronic Arts",
+        "Activision Blizzard",
+        "Ziff Davis"
+      ],
+      "answer": "Take-Two Interactive",
+      "explanation_correct": "Take-Two Interactive is the parent company of Rockstar Games, the studio that developed RAGE.",
+      "explanation_incorrect": "Electronic Arts and Activision are competing publishers with their own engines (Frostbite and IW engine).",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Game Maker",
+      "question": "Who was the initial creator of the Game Maker software?",
+      "options": [
+        "Mark Overmars",
+        "YoYo Games",
+        "Sandy Spangler",
+        "Eric Uribe"
+      ],
+      "answer": "Mark Overmars",
+      "explanation_correct": "Mark Overmars created the original Game Maker in the late 1990s as a tool for teaching programming.",
+      "explanation_incorrect": "YoYo Games later acquired and commercialized the engine, but they were not the original individual creator.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "RPG Maker",
+      "question": "Which company originally published the early iterations of the RPG Maker software?",
+      "options": [
+        "ASCII",
+        "Enterbrain",
+        "Kadokawa",
+        "Degica"
+      ],
+      "answer": "ASCII",
+      "explanation_correct": "The RPG Maker series was first published by the Japanese company ASCII Corporation.",
+      "explanation_incorrect": "Enterbrain and Kadokawa were later owners, and Degica handled only subsequent western distribution.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Creation Engine",
+      "question": "Which video game studio developed the 'Creation Engine', famously used for titles like Skyrim and Fallout 4?",
+      "options": [
+        "Bethesda Game Studios",
+        "Obsidian Entertainment",
+        "BioWare",
+        "Arkane Studios"
+      ],
+      "answer": "Bethesda Game Studios",
+      "explanation_correct": "Bethesda Game Studios created the Creation Engine as a successor to Gambryo to power their open-world RPGs.",
+      "explanation_incorrect": "Obsidian and Arkane have used Bethesda-published tech but did not develop the Creation Engine.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Anvil",
+      "question": "The Anvil engine is perhaps most widely recognized for serving as the foundation of which long-running franchise?",
+      "options": [
+        "Assassin's Creed",
+        "Far Cry",
+        "Splinter Cell",
+        "Watch Dogs"
+      ],
+      "answer": "Assassin's Creed",
+      "explanation_correct": "Anvil was built specifically to handle the ambitious open-world mechanics of the first Assassin's Creed game.",
+      "explanation_incorrect": "While other Ubisoft titles use Anvil now, Assassin's Creed popularized it upon debut.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Decima",
+      "question": "Which Dutch studio collaborated with Sony to implement and evolve the Decima engine?",
+      "options": [
+        "Guerrilla Games",
+        "Santa Monica Studio",
+        "Naughty Dog",
+        "Media Molecule"
+      ],
+      "answer": "Guerrilla Games",
+      "explanation_correct": "Guerrilla Games created the Decima engine for Killzone Shadow Fall and later, Horizon Zero Dawn.",
+      "explanation_incorrect": "The other internal Sony studios adopted or contributed to the tech later, but Guerrilla is the primary developer.",
+      "last_verified_at": "2026-06-12T16:41:03.629Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nitrous Engine",
+      "question": "Which real-time strategy title was developed using the Nitrous Engine?",
+      "options": [
+        "Ashes of Singularity",
+        "Supreme Commander",
+        "StarCraft II",
+        "Total War"
+      ],
+      "answer": "Ashes of Singularity",
+      "explanation_correct": "Ashes of the Singularity is a notable strategy game built on the Nitrous Engine. It features high-unit counts enabled by the engine's multi-core processing architecture.",
+      "explanation_incorrect": "Other titles use different technology stacks like the proprietary engine for StarCraft II or the Warscape engine for Total War.",
+      "last_verified_at": "2026-06-12T16:41:11.836Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "HeroEngine",
+      "question": "Which MMORPG is explicitly recognized as being developed using the HeroEngine?",
+      "options": [
+        "Star Wars: The Old Republic",
+        "World of Warcraft",
+        "Final Fantasy XIV",
+        "Elder Scrolls Online"
+      ],
+      "answer": "Star Wars: The Old Republic",
+      "explanation_correct": "Star Wars: The Old Republic utilized the HeroEngine to facilitate its large-scale world design and social systems.",
+      "explanation_incorrect": "Other titles rely on proprietary engines built specifically for their respective studios.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Unigen",
+      "question": "What is the primary industrial application for the Unigen engine outside of video games?",
+      "options": [
+        "Benchmarks",
+        "Architecture",
+        "Education",
+        "Film Production"
+      ],
+      "answer": "Benchmarks",
+      "explanation_correct": "Unigen is industry-standard for graphics benchmarking software like Heaven and Superposition.",
+      "explanation_incorrect": "While architectural tools exist in other engines like Unreal, Unigen focuses strictly on hardware testing and synthetic performance metrics.",
+      "last_verified_at": "2026-06-12T16:41:11.836Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Leadwerks",
+      "question": "On which digital distribution platform was the Leadwerks engine primarily made available for purchase?",
+      "options": [
+        "Steam",
+        "GOG",
+        "Epic Games Store",
+        "Itch.io"
+      ],
+      "answer": "Steam",
+      "explanation_correct": "Leadwerks was a prominent engine sold directly through the Steam storefront for indie developers.",
+      "explanation_incorrect": "While indie tools exist on Itch.io, Leadwerks' primary visibility for general developers came through the Steam ecosystem.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Construct",
+      "question": "Which company serves as the developer for the no-code game editor Construct?",
+      "options": [
+        "Scirra",
+        "Clickteam",
+        "YoYo Games",
+        "Construct Group"
+      ],
+      "answer": "Scirra",
+      "explanation_correct": "Scirra is the company behind the creation and maintenance of the Construct visual scripting engine.",
+      "explanation_incorrect": "Clickteam and YoYo Games produce competing visual scripting tools like Fusion and GameMaker.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "PhyreEngine",
+      "question": "What is the nature of the PhyreEngine's distribution model for PlayStation developers?",
+      "options": [
+        "Royalty-Free Proprietary",
+        "Open Source",
+        "Freemium",
+        "Subscription-based"
+      ],
+      "answer": "Royalty-Free Proprietary",
+      "explanation_correct": "PhyreEngine is a proprietary graphics engine provided by Sony for free (royalty-free) to licensed developers targeting PlayStation platforms.",
+      "explanation_incorrect": "While free to use for licensed developers, the source code is not open to the public, and it is not a subscription or freemium service.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "AppGameKit",
+      "question": "Which studio is responsible for the development of AppGameKit?",
+      "options": [
+        "The Game Creators",
+        "Blitz Research",
+        "IndieDevs",
+        "DarkBasic Creators"
+      ],
+      "answer": "The Game Creators",
+      "explanation_correct": "The Game Creators developed AppGameKit as a cross-platform solution for developers using BASIC-style syntax.",
+      "explanation_incorrect": "Blitz Research and DarkBasic represent older paradigms or specific alternatives that do not own this engine.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Xray Engine",
+      "question": "The Xray Engine is most commonly associated with which post-apocalyptic game series?",
+      "options": [
+        "S.T.A.L.K.E.R.",
+        "Fallout",
+        "Metro",
+        "Wasteland"
+      ],
+      "answer": "S.T.A.L.K.E.R.",
+      "explanation_correct": "The Xray Engine was developed specifically by GSC Game World for the S.T.A.L.K.E.R. franchise.",
+      "explanation_incorrect": "Metro uses the 4A Engine, and Fallout employs engines licensed through Bethesda or proprietary tools.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Evo",
+      "question": "Which game engine is frequently cited as being used for the development of Gran Turismo?",
+      "options": [
+        "PhyreEngine",
+        "Frostbite",
+        "Unreal Engine",
+        "Unity"
+      ],
+      "answer": "PhyreEngine",
+      "explanation_correct": "Polyphony Digital incorporated components of the PhyreEngine to facilitate the technical visuals within the Gran Turismo series.",
+      "explanation_incorrect": "Frostbite and Unreal are common in other massive franchises but were not the primary historical choice for this specific racing series.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Solar2D",
+      "question": "What was the previous name of the game engine now known as Solar2D?",
+      "options": [
+        "Corona SDK",
+        "LÖVE",
+        "Moai",
+        "Gideros"
+      ],
+      "answer": "Corona SDK",
+      "explanation_correct": "Solar2D was rebranded and updated from what was formerly called the Corona SDK.",
+      "explanation_incorrect": "The others have always maintained their specific independent nomenclature without being former titles for Solar2D.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Cocos2d",
+      "question": "Which platform was the original primary focus for the Cocos2d engine?",
+      "options": [
+        "iOS",
+        "Android",
+        "Web",
+        "Windows Mobile"
+      ],
+      "answer": "iOS",
+      "explanation_correct": "Cocos2d started as a framework specifically tailored for objective-C and Apple iOS development.",
+      "explanation_incorrect": "While it later expanded to Android, its architectural roots are firmly planted in the Apple ecosystem.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "PICO-8",
+      "question": "To which category of engine does PICO-8 fundamentally belong?",
+      "options": [
+        "Fantasy Console",
+        "Vector Engine",
+        "State Engine",
+        "Terminal Engine"
+      ],
+      "answer": "Fantasy Console",
+      "explanation_correct": "PICO-8 is designed to emulate the limitations and constraints of a dedicated retro game machine.",
+      "explanation_incorrect": "It does not provide hardware in the physical sense and acts as a sandbox for creation rather than a purely functional state engine.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "TIC-80",
+      "question": "How is the TIC-80 environment officially classified by its creators?",
+      "options": [
+        "Fantasy Computer",
+        "Logic Engine",
+        "Scripting Platform",
+        "System Sandbox"
+      ],
+      "answer": "Fantasy Computer",
+      "explanation_correct": "TIC-80 includes a built-in code editor, sprite editor, and emulator, leading it to be branded as a fantasy computer.",
+      "explanation_incorrect": "Other terms like scripting platform or sandbox describe components of the tool rather than its design purpose as a comprehensive machine simulation.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "FNA",
+      "question": "FNA serves as an open-source re-implementation of which framework?",
+      "options": [
+        "XNA",
+        "DirectX",
+        "SDL",
+        "Mono"
+      ],
+      "answer": "XNA",
+      "explanation_correct": "FNA was created to allow developers to port games built on Microsoft's retired XNA framework to modern platforms.",
+      "explanation_incorrect": "DirectX is a low-level graphics API, and SDL is a library, whereas XNA was the high-level framework FNA specifically targets.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "MonoGame",
+      "question": "MonoGame is recognized as a direct open-source evolution of which framework?",
+      "options": [
+        "XNA",
+        "OpenGL",
+        "Managed DirectX",
+        "Silverlight"
+      ],
+      "answer": "XNA",
+      "explanation_correct": "MonoGame was built to replicate the XNA API to keep game projects alive after official support ended.",
+      "explanation_incorrect": "The others are either graphics APIs or abandoned Microsoft web technologies irrelevant to the framework's architecture.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "XNA",
+      "question": "Which company was the original developer and publisher of the XNA framework?",
+      "options": [
+        "Microsoft",
+        "Oracle",
+        "Sun Microsystems",
+        "Valve"
+      ],
+      "answer": "Microsoft",
+      "explanation_correct": "Microsoft introduced XNA to help developers create games that could run on both Windows and Xbox 360.",
+      "explanation_incorrect": "Oracle and Sun focused on JAVA, while Valve focuses on distribution and proprietary engine development like Source.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Irrlicht",
+      "question": "Under which license type is the Irrlicht game engine released?",
+      "options": [
+        "Zlib",
+        "GPL",
+        "MIT",
+        "Apache"
+      ],
+      "answer": "Zlib",
+      "explanation_correct": "The Irrlicht engine is provided under the Zlib license, which is permissive for both commercial and non-commercial works.",
+      "explanation_incorrect": "GPL, MIT, and Apache are valid licenses but represent different legal requirements and constraints than the one used by Irrlicht.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Blender Game Engine",
+      "question": "The Blender Game Engine was integrated into which major 3D software suite?",
+      "options": [
+        "Blender",
+        "Maya",
+        "3ds Max",
+        "Cinema 4D"
+      ],
+      "answer": "Blender",
+      "explanation_correct": "The engine was a core feature of the Blender software package before it was deprecated in version 2.8.",
+      "explanation_incorrect": "Maya, 3ds Max, and Cinema 4D are separate professional software suites that do not contain the deprecated Blender engine.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "A-Frame",
+      "question": "A-Frame is an engine framework based on which web standard?",
+      "options": [
+        "WebVR",
+        "WebGL",
+        "WebAssembly",
+        "WebRTC"
+      ],
+      "answer": "WebVR",
+      "explanation_correct": "A-Frame allows for the creation of 3D and VR experiences in the browser using the WebVR and subsequently WebXR standard.",
+      "explanation_incorrect": "While it utilizes WebGL for rendering, the engine framework is specifically architected around the WebVR standard.",
+      "last_verified_at": "2026-06-12T16:41:11.837Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Fox Engine",
+      "question": "Which individual served as the director and creative lead during the development of the Fox Engine?",
+      "options": [
+        "Hideo Kojima",
+        "Ken Levine",
+        "Todd Howard",
+        "Sid Meier"
+      ],
+      "answer": "Hideo Kojima",
+      "explanation_correct": "Hideo Kojima spearheaded the creation of the Fox Engine for Konami to streamline multi-platform development.",
+      "explanation_incorrect": "Ken Levine, Todd Howard, and Sid Meier are directors known for BioShock, The Elder Scrolls, and Civilization respectively, but they did not create the Fox Engine.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Lazarus",
+      "question": "Which engine was utilized by id Software for their titles immediately preceding the release of Quake?",
+      "options": [
+        "Doom Engine",
+        "Build Engine",
+        "Quake Engine",
+        "id Tech 2"
+      ],
+      "answer": "Doom Engine",
+      "explanation_correct": "The Doom Engine, also known as id Tech 1, powered major id Software hits like Doom and Doom II before the transition to fully 3D engines.",
+      "explanation_incorrect": "Build Engine was used for Duke Nukem 3D, while Quake Engine and id Tech 2 were later iterations or used for the transition to true 3D.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Euphoria",
+      "question": "What is the primary simulation focus of the Euphoria engine used in titles like Grand Theft Auto IV?",
+      "options": [
+        "Dynamic Animation",
+        "Procedural Texturing",
+        "Global Illumination",
+        "Network Synchronization"
+      ],
+      "answer": "Dynamic Animation",
+      "explanation_correct": "Euphoria specializes in active anatomical simulation to generate procedural, physics-based character reactions.",
+      "explanation_incorrect": "Procedural texturing, lighting, and networking are handled by different engine subsystems.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "ScummVM",
+      "question": "ScummVM is an interpreter designed to run legacy games created using which specific engine?",
+      "options": [
+        "SCUMM",
+        "Agi",
+        "Sierra",
+        "TADS"
+      ],
+      "answer": "SCUMM",
+      "explanation_correct": "ScummVM stands for 'Script Creation Utility for Maniac Mansion Virtual Machine', designed for the SCUMM engine.",
+      "explanation_incorrect": "AGI and Sierra refer to different narrative toolsets, while TADS is a text-adventure programming language.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "SCUMM",
+      "question": "Which game production company was responsible for the creation of the SCUMM scripting language?",
+      "options": [
+        "LucasArts",
+        "Sierra On-Line",
+        "Infocom",
+        "Bullfrog"
+      ],
+      "answer": "LucasArts",
+      "explanation_correct": "LucasArts (then Lucasfilm Games) created SCUMM to facilitate the development of their adventure titles.",
+      "explanation_incorrect": "Sierra On-Line used their own AGI/SCI systems, Infocom focused on text adventures, and Bullfrog produced strategy games.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sierra Online",
+      "question": "What is the name of the classic adventure game engine used by Sierra On-Line during the 1980s?",
+      "options": [
+        "Adventure Game Interpreter",
+        "Sierra Adventure Engine",
+        "Quest Engine",
+        "Narrative Utility"
+      ],
+      "answer": "Adventure Game Interpreter",
+      "explanation_correct": "The Adventure Game Interpreter (AGI) powered early Sierra titles like King's Quest.",
+      "explanation_incorrect": "The other options are generic or descriptive terms that were not the official technical name of the engine.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "SAGE",
+      "question": "The SAGE engine was primarily developed to support the gameplay mechanics of which strategy series?",
+      "options": [
+        "Command and Conquer",
+        "Age of Empires",
+        "StarCraft",
+        "Total War"
+      ],
+      "answer": "Command and Conquer",
+      "explanation_correct": "SAGE (Strategy Action Game Engine) was used extensively for the Command and Conquer series under EA.",
+      "explanation_incorrect": "Age of Empires, StarCraft, and Total War utilize proprietary engines distinct from the Westwood-developed SAGE.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Titan",
+      "question": "Which developer created the Titan engine to power Halo Wars?",
+      "options": [
+        "Ensemble Studios",
+        "Bungie",
+        "343 Industries",
+        "Relic Entertainment"
+      ],
+      "answer": "Ensemble Studios",
+      "explanation_correct": "Ensemble Studios developed the Titan engine specifically to translate the Halo universe into a real-time strategy format.",
+      "explanation_incorrect": "Bungie and 343 Industries focus on FPS titles, while Relic creates W40k titles using the Essence Engine.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Dunia Engine",
+      "question": "The Dunia Engine, utilized in the Far Cry series, is technically a branch of which established engine?",
+      "options": [
+        "CryEngine",
+        "Unreal Engine",
+        "Frostbite",
+        "id Tech"
+      ],
+      "answer": "CryEngine",
+      "explanation_correct": "The Dunia Engine originally branched from the first-generation CryEngine code used in the original Far Cry.",
+      "explanation_incorrect": "Far Cry was originally built on technology that shared lineage with CryEngine, not the other listed professional engines.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Aurora Engine",
+      "question": "Which developer is responsible for the creation and maintenance of the Aurora Engine?",
+      "options": [
+        "BioWare",
+        "Obsidian Entertainment",
+        "Black Isle Studios",
+        "CD Projekt Red"
+      ],
+      "answer": "BioWare",
+      "explanation_correct": "BioWare developed the Aurora Engine for Neverwinter Nights to support 3D environments and scripted RPG elements.",
+      "explanation_incorrect": "While others have used or modified the engine, BioWare is its original architect.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Infinity Engine",
+      "question": "The Infinity Engine is famously recognized for powering which pioneering CRPG series?",
+      "options": [
+        "Baldur's Gate",
+        "Fallout",
+        "Wasteland",
+        "Ultima"
+      ],
+      "answer": "Baldur's Gate",
+      "explanation_correct": "The Infinity Engine was constructed by BioWare specifically to facilitate isometric party-based RPGs starting with Baldur's Gate.",
+      "explanation_incorrect": "Fallout used a different isometric engine, while Ultima and Wasteland predate the Infinity Engine's specific design architecture.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "EGO Engine",
+      "question": "Which developer is known for using the EGO Engine to power their specialized racing portfolio?",
+      "options": [
+        "Codemasters",
+        "Turn 10 Studios",
+        "Polyphony Digital",
+        "Kunos Simulazioni"
+      ],
+      "answer": "Codemasters",
+      "explanation_correct": "Codemasters developed the EGO Engine to succeed the older Neon engine for their racing sims and rally games.",
+      "explanation_incorrect": "The other studios use custom proprietary technology like ForzaTech or their own dedicated simulation engines.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Refractor Engine",
+      "question": "What was the very first title to utilize the Refractor Engine?",
+      "options": [
+        "Codename Eagle",
+        "Battlefield 1942",
+        "Battlefield 2",
+        "Battlefield Vietnam"
+      ],
+      "answer": "Codename Eagle",
+      "explanation_correct": "Refractor Engine was first used in the 1999 title Codename Eagle before refining into the Battlefield series engine.",
+      "explanation_incorrect": "The various Battlefield installments followed the debut of the engine in Codename Eagle.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vision Engine",
+      "question": "The Vision Engine, used for various AAA titles, was eventually acquired by which middleware corporation?",
+      "options": [
+        "Havok",
+        "Unity Technologies",
+        "Epic Games",
+        "Crytek"
+      ],
+      "answer": "Havok",
+      "explanation_correct": "Havok acquired the Trinigy Vision Engine in 2011 to integrate it with their physics ecosystem.",
+      "explanation_incorrect": "Unity and Epic are competitors with their own proprietary engines, and Crytek develops CryEngine.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Lumberyard",
+      "question": "Lumberyard was a high-performance game engine originally backed by which major cloud provider?",
+      "options": [
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "answer": "Amazon",
+      "explanation_correct": "Amazon developed Lumberyard, drawing upon CryEngine sources, to deeply integrate with AWS cloud infrastructure.",
+      "explanation_incorrect": "Google, Microsoft, and IBM handle cloud computing but did not own the Lumberyard engine.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "O3DE",
+      "question": "What is the new open-source name for the engine formerly known as Lumberyard?",
+      "options": [
+        "Open 3D Engine",
+        "Freeway Engine",
+        "Amazon Engine",
+        "Core Engine"
+      ],
+      "answer": "Open 3D Engine",
+      "explanation_correct": "O3DE stands for 'Open 3D Engine', which is the successor and open-source project that replaced Lumberyard.",
+      "explanation_incorrect": "The other terms are generic descriptors and do not represent the official rebranded name status.",
+      "last_verified_at": "2026-06-12T16:41:11.838Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Torque",
+      "question": "The Torque engine became widely accessible after gaining fame through its use in which project?",
+      "options": [
+        "Tribes 2",
+        "Quake III Arena",
+        "Half-Life 2",
+        "Unreal Tournament"
+      ],
+      "answer": "Tribes 2",
+      "explanation_correct": "Torque began as the engine for Tribes 2, created by Dynamix and later licensed to the indie community.",
+      "explanation_incorrect": "Quake, Half-Life, and Unreal utilized completely different proprietary tech stacks.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Gamebryo",
+      "question": "By what previous name was the middleware engine Gamebryo known before its major market rebranding?",
+      "options": [
+        "NetImmerse",
+        "MorphEngine",
+        "WorldBuild",
+        "GameKit"
+      ],
+      "answer": "NetImmerse",
+      "explanation_correct": "Gamebryo was originally developed under the name NetImmerse by Numerical Design Limited.",
+      "explanation_incorrect": "The other options are not related to the history of the Gamebryo engine's development lineage.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LithTech",
+      "question": "Which studio was responsible for the initial development and evolution of the LithTech engine?",
+      "options": [
+        "Monolith Productions",
+        "Valve Corporation",
+        "Id software",
+        "Raven Software"
+      ],
+      "answer": "Monolith Productions",
+      "explanation_correct": "Monolith Productions created LithTech to power their interactive shooters like Blood II and Shogo.",
+      "explanation_incorrect": "The other studios used Source, id Tech, or Quake engines, respectively.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Jade Engine",
+      "question": "The Jade Engine was developed to drive the unique artistic vision of which acclaimed game?",
+      "options": [
+        "Beyond Good Evil",
+        "Prince of Persia",
+        "Rayman",
+        "Assassin's Creed"
+      ],
+      "answer": "Beyond Good Evil",
+      "explanation_correct": "The Jade Engine was specifically built by Ubisoft Montpellier for the development of Beyond Good & Evil.",
+      "explanation_incorrect": "While many titles use Ubisoft tech, the Jade Engine is specifically tied to the specific needs of the Beyond Good & Evil project.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Snowdrop",
+      "question": "Which game developer is the primary creator and maintainer of the Snowdrop engine?",
+      "options": [
+        "Massive Entertainment",
+        "Ubisoft Montreal",
+        "DICE",
+        "Crytek"
+      ],
+      "answer": "Massive Entertainment",
+      "explanation_correct": "Snowdrop was developed by Massive Entertainment specifically for high-fidelity games like The Division.",
+      "explanation_incorrect": "Ubisoft Montreal, DICE, and Crytek are all major development studios but are not the primary developers of the Snowdrop engine.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Northlight",
+      "question": "Which independent development studio owns and maintains the proprietary Northlight engine?",
+      "options": [
+        "Remedy Entertainment",
+        "BioWare",
+        "Obsidian Entertainment",
+        "Arkane Studios"
+      ],
+      "answer": "Remedy Entertainment",
+      "explanation_correct": "Northlight was built in-house at Remedy Entertainment to power their cinematic action games.",
+      "explanation_incorrect": "The other listed studios use engines like Frostbite, Unreal, or their own proprietary tech, but Northlight belongs to Remedy.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Slipspace Engine",
+      "question": "The Slipspace Engine was custom-built by 343 Industries to power which long-running video game franchise?",
+      "options": [
+        "Halo",
+        "Gears of War",
+        "Forza",
+        "Fable"
+      ],
+      "answer": "Halo",
+      "explanation_correct": "The Slipspace Engine was designed specifically to advance the technical capabilities of the Halo series.",
+      "explanation_incorrect": "Gears of War typically uses Unreal Engine, while Forza and Fable utilize their own specific engine iterations.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Panta Rhei",
+      "question": "Which modern technology replaced Capcom's older MT Framework as their primary engine for newer titles?",
+      "options": [
+        "RE Engine",
+        "Fox Engine",
+        "Frostbite",
+        "CryEngine"
+      ],
+      "answer": "RE Engine",
+      "explanation_correct": "Capcom transitioned from the legacy MT Framework to the versatile RE Engine for their modern game releases.",
+      "explanation_incorrect": "Fox Engine belonged to Konami, while Frostbite and CryEngine are externally developed frameworks.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "MT Framework",
+      "question": "Which Japanese publisher is the sole owner and developer of the MT Framework engine?",
+      "options": [
+        "Capcom",
+        "Square Enix",
+        "Bandai Namco",
+        "Sega"
+      ],
+      "answer": "Capcom",
+      "explanation_correct": "MT Framework was the cornerstone engine used by Capcom for multiple generations of their software starting in the mid-2000s.",
+      "explanation_incorrect": "Square Enix, Bandai Namco, and Sega utilize their own distinct engine architectures or external middleware.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Chrome Engine",
+      "question": "Which Polish studio develops and maintains the Chrome Engine?",
+      "options": [
+        "Techland",
+        "CD Projekt Red",
+        "The Farm 51",
+        "People Can Fly"
+      ],
+      "answer": "Techland",
+      "explanation_correct": "The Chrome Engine was developed by Techland to power their early titles and later evolved for open-world projects.",
+      "explanation_incorrect": "CD Projekt Red uses REDengine, whereas The Farm 51 and People Can Fly utilize other industry-standard engines.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Serious Engine",
+      "question": "Which development team is responsible for the creation and evolution of the Serious Engine?",
+      "options": [
+        "Croteam",
+        "Flying Wild Hog",
+        "People Can Fly",
+        "Remedy Entertainment"
+      ],
+      "answer": "Croteam",
+      "explanation_correct": "The Serious Engine was crafted by Croteam to handle the massive enemy counts required for their shooter series.",
+      "explanation_incorrect": "The other studios mentioned are known for different proprietary technologies or engine preferences.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Crystals Engine",
+      "question": "Which major gaming studio is known for utilizing the Crystals Engine?",
+      "options": [
+        "Crystal Dynamics",
+        "Naughty Dog",
+        "Santa Monica Studio",
+        "Insomniac Games"
+      ],
+      "answer": "Crystal Dynamics",
+      "explanation_correct": "The studio named Crystal Dynamics developed their own engine technology suite to handle their character-driven action games.",
+      "explanation_incorrect": "The other studios belong to Sony Interactive Entertainment and utilize different internal engines.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Avalanche Engine",
+      "question": "The Avalanche Engine serves as the core technical foundation for which open-world action franchise?",
+      "options": [
+        "Just Cause",
+        "Far Cry",
+        "Grand Theft Auto",
+        "Saints Row"
+      ],
+      "answer": "Just Cause",
+      "explanation_correct": "The Avalanche Engine was built to support the massive physics-based chaos seen in the Just Cause series.",
+      "explanation_incorrect": "The other series listed use entirely different engines such as Dunia, RAGE, or proprietary tech.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "GeoMod",
+      "question": "What is the primary signature mechanic that the GeoMod engine introduced to gaming?",
+      "options": [
+        "Destructible Environments",
+        "Procedural Character Creation",
+        "Dynamic Weather Systems",
+        "Global Illumination"
+      ],
+      "answer": "Destructible Environments",
+      "explanation_correct": "GeoMod technology allows for real-time terrain and architecture deformation within the game world.",
+      "explanation_incorrect": "While many engines have weather or lighting, GeoMod's core innovation and namesake is the architectural destruction feature.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "GeoMod",
+      "question": "The GeoMod engine is most famously associated with which science-fiction franchise?",
+      "options": [
+        "Red Faction",
+        "Dead Space",
+        "Mass Effect",
+        "Half-Life"
+      ],
+      "answer": "Red Faction",
+      "explanation_correct": "Red Faction utilized the GeoMod engine early on to allow players to tunnel through or destroy game environments.",
+      "explanation_incorrect": "The other franchises rely on static maps or different physics systems that do not feature GeoMod technology.",
+      "last_verified_at": "2026-06-12T16:41:11.839Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "PhyreEngine",
+      "question": "Which technology giant provided the PhyreEngine to developers for use on their hardware?",
+      "options": [
+        "Sony",
+        "Microsoft",
+        "Nintendo",
+        "Nvidia"
+      ],
+      "answer": "Sony",
+      "explanation_correct": "PhyreEngine was an internal engine provided by Sony as a royalty-free development tool for their console ecosystem.",
+      "explanation_incorrect": "Microsoft, Nintendo, and Nvidia do not provide an internal engine under the specific name PhyreEngine.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Dark Engine",
+      "question": "The Dark Engine was the technological basis for which classic stealth franchise released by Looking Glass Studios?",
+      "options": [
+        "Thief",
+        "Splinter Cell",
+        "Hitman",
+        "Metal Gear Solid"
+      ],
+      "answer": "Thief",
+      "explanation_correct": "The Dark Engine was specifically designed to handle the light-and-shadow mechanics essential to the Thief gameplay experience.",
+      "explanation_incorrect": "Splinter Cell uses Unreal, Hitman uses Glacier, and Metal Gear uses Fox or other engines.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "RenderWare",
+      "question": "Which studio was the original parent company and primary developer of the RenderWare engine?",
+      "options": [
+        "Criterion Games",
+        "Ubisoft",
+        "EA DICE",
+        "Raven Software"
+      ],
+      "answer": "Criterion Games",
+      "explanation_correct": "RenderWare was created by Criterion Games and became a ubiquitous middleware solution during the 2000s.",
+      "explanation_incorrect": "Ubisoft, DICE, and Raven were users of RenderWare, but Criterion Games initially developed it.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "RenderWare",
+      "question": "Which major gaming corporation acquired RenderWare and eventually discontinued its third-party support?",
+      "options": [
+        "Electronic Arts",
+        "Activision",
+        "Take-Two Interactive",
+        "THQ"
+      ],
+      "answer": "Electronic Arts",
+      "explanation_correct": "Electronic Arts acquired the engine's parent company in 2004, eventually pulling it from the third-party licensing market.",
+      "explanation_incorrect": "Activision, Take-Two, and THQ did not participate in the acquisition of the RenderWare engine.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Prism3D",
+      "question": "The Prism3D engine is most notably optimized for which specific simulation genre?",
+      "options": [
+        "Truck Simulation",
+        "Flight Simulation",
+        "Train Simulation",
+        "Racing Simulation"
+      ],
+      "answer": "Truck Simulation",
+      "explanation_correct": "Prism3D is the legacy foundation of SCS Software, the creators of the Euro Truck Simulator and American Truck Simulator franchises.",
+      "explanation_incorrect": "Flight and train simulators use different specific engines, and while racing shares a vehicle focus, it is not the focus of Prism3D.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Saber3D",
+      "question": "What is the lead development studio responsible for building and maintaining the Saber3D engine?",
+      "options": [
+        "Saber Interactive",
+        "Valve Corporation",
+        "Epic Games",
+        "Unity Technologies"
+      ],
+      "answer": "Saber Interactive",
+      "explanation_correct": "Saber3D is the custom in-house engine used by Saber Interactive for their various third-person action titles.",
+      "explanation_incorrect": "Valve, Epic, and Unity license their own distinct engines, while Saber Interactive maintains their own unique branch.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Clausewitz Engine",
+      "question": "Which game developer is renowned for utilizing their proprietary Clausewitz Engine to power complex strategy titles?",
+      "options": [
+        "Paradox Interactive",
+        "Creative Assembly",
+        "Firaxis Games",
+        "BioWare"
+      ],
+      "answer": "Paradox Interactive",
+      "explanation_correct": "Paradox Interactive developed the Clausewitz Engine to handle the distinct, data-heavy requirements of grand strategy gameplay.",
+      "explanation_incorrect": "The other studios listed are rivals in the strategy space but use their own proprietary engine solutions like Warscape or others.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Hedgehog Engine",
+      "question": "The Hedgehog Engine was developed to provide high-quality visual lighting and physics for which iconic character franchise?",
+      "options": [
+        "Sonic the Hedgehog",
+        "Super Mario",
+        "Crash Bandicoot",
+        "Mega Man"
+      ],
+      "answer": "Sonic the Hedgehog",
+      "explanation_correct": "The Hedgehog Engine was designed by Sonic Team to handle the high speeds and complex lighting of Sonic the Hedgehog titles.",
+      "explanation_incorrect": "The other characters listed operate on different development technologies provided by their respective parent companies.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Diesel Engine",
+      "question": "The Diesel Engine is famously associated with the development of which cooperative heist game series?",
+      "options": [
+        "Payday",
+        "Grand Theft Auto",
+        "Tom Clancy's Rainbow Six",
+        "Battlefield"
+      ],
+      "answer": "Payday",
+      "explanation_correct": "The Diesel Engine powered the Payday series, known for its focus on multi-stage cooperative heist mechanics.",
+      "explanation_incorrect": "Grand Theft Auto uses RAGE, Rainbow Six uses Anvil/Snowdrop, and Battlefield utilizes the Frostbite engine.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Babylon.js",
+      "question": "Which programming language serves as the primary language for development in Babylon.js?",
+      "options": [
+        "C++",
+        "C#",
+        "TypeScript",
+        "Python"
+      ],
+      "answer": "TypeScript",
+      "explanation_correct": "Babylon.js is built entirely using TypeScript, providing strong typing and excellent tooling support.",
+      "explanation_incorrect": "C++ and C# are common in desktop and console engines like Unreal or Unity, while Python is typically used for scripting rather than core engine architecture.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "PlayCanvas",
+      "question": "What is the primary target runtime environment for applications built with PlayCanvas?",
+      "options": [
+        "Native Desktop",
+        "Web Browser",
+        "Console Hardware",
+        "Mobile App Sandbox"
+      ],
+      "answer": "Web Browser",
+      "explanation_correct": "PlayCanvas is a platform-agnostic, browser-based engine that utilizes WebGL and WebGPU.",
+      "explanation_incorrect": "While it can be wrapped for other platforms, development and runtime execution are fundamentally tethered to web standards.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Defold",
+      "question": "Which major mobile game publisher is the current owner of the Defold game engine?",
+      "options": [
+        "Supercell",
+        "Zynga",
+        "King",
+        "Ubisoft"
+      ],
+      "answer": "King",
+      "explanation_correct": "Defold was acquired by the mobile game company King, known for titles like Candy Crush.",
+      "explanation_incorrect": "Other listed companies are major mobile publishers but do not own or maintain the internal Defold engine technology.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LÖVE",
+      "question": "What scripting language is utilized to define game logic within the LÖVE framework?",
+      "options": [
+        "Ruby",
+        "Python",
+        "Lua",
+        "JavaScript"
+      ],
+      "answer": "Lua",
+      "explanation_correct": "LÖVE is a framework designed specifically to allow game development using the Lua scripting language.",
+      "explanation_incorrect": "JavaScript and Python are used in other frameworks, but are not the primary scripting language for LÖVE.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Ren'Py",
+      "question": "Ren'Py is designed primarily to facilitate the development of what specific game genre?",
+      "options": [
+        "First-Person Shooter",
+        "Platformer",
+        "Visual Novel",
+        "Real-Time Strategy"
+      ],
+      "answer": "Visual Novel",
+      "explanation_correct": "Ren'Py is a specialized engine optimized for narrative-heavy interactive fiction and visual novels.",
+      "explanation_incorrect": "The engine lacks the native 3D movement or pathfinding components typically required for genres like RTS or shooters.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Adventure Game Studio",
+      "question": "Adventure Game Studio was originally created to focus on which specific classic genre?",
+      "options": [
+        "Point and Click",
+        "Bullet Hell",
+        "Roguelike",
+        "Stealth Action"
+      ],
+      "answer": "Point and Click",
+      "explanation_correct": "Adventure Game Studio was designed to emulate the traditional point-and-click interface popularized by Sierra and LucasArts.",
+      "explanation_incorrect": "These alternatives rely on different input schemes and rendering loops not prioritized by simple adventure-focused logic.",
+      "last_verified_at": "2026-06-12T16:41:11.840Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kex Engine",
+      "question": "Which development studio is famous for utilizing the Kex Engine to build modern remasters?",
+      "options": [
+        "Bluepoint Games",
+        "Nightdive Studios",
+        "Aspyr Media",
+        "Dotemu"
+      ],
+      "answer": "Nightdive Studios",
+      "explanation_correct": "The Kex Engine was developed by Nightdive Studios specifically to modernize classic retro titles for current hardware.",
+      "explanation_incorrect": "While other companies also work on remasters, they typically utilize different proprietary or engine-porting techniques.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "MUGEN",
+      "question": "MUGEN is a flexible engine primarily utilized for developing which specific game genre?",
+      "options": [
+        "Fighting",
+        "Racing",
+        "Golf",
+        "Tower Defense"
+      ],
+      "answer": "Fighting",
+      "explanation_correct": "MUGEN is a 2D engine created to allow users to build and customize their own fighting games.",
+      "explanation_incorrect": "The engine's architecture is restricted to 2D sprites and frame-based hit detection, which is non-ideal for non-combat genres.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "VoxelSpace",
+      "question": "Which 1993 game title was the first to pioneer the use of the VoxelSpace engine?",
+      "options": [
+        "Doom",
+        "Comanche",
+        "Duke Nukem 3D",
+        "Quake"
+      ],
+      "answer": "Comanche",
+      "explanation_correct": "Comanche: Maximum Overkill was the debut title featuring Novalogic's VoxelSpace engine technology.",
+      "explanation_incorrect": "Other titles like Doom or Duke Nukem utilized raycasting or early BSP-based engines rather than voxel terrain rendering.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "GoldSrc",
+      "question": "What is the most famous third-party modification originally created using the GoldSrc engine?",
+      "options": [
+        "Dota 2",
+        "Counter-Strike",
+        "Portal",
+        "Team Fortress"
+      ],
+      "answer": "Counter-Strike",
+      "explanation_correct": "Counter-Strike began as a popular mod for Half-Life, which was built on the GoldSrc engine.",
+      "explanation_incorrect": "Dota 2 and Portal run on the later Source engine, and the original Team Fortress was a Quake mod ported before Source era popularity.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Telltale Tool",
+      "question": "The proprietary engine known as the 'Telltale Tool' was exclusively built for the development of narrative games by which studio?",
+      "options": [
+        "Quantic Dream",
+        "Telltale Games",
+        "Supermassive Games",
+        "Dontnod Entertainment"
+      ],
+      "answer": "Telltale Games",
+      "explanation_correct": "The Telltale Tool was the internal engine built by Telltale Games to power their episodic interactive drama titles.",
+      "explanation_incorrect": "These other studios provide narrative games but use different licensed or third-party engines like Unreal or custom internal tech.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Insomniac Engine",
+      "question": "The Insomniac Engine is currently utilized by which specific console brand's internal studios?",
+      "options": [
+        "Xbox",
+        "Nintendo",
+        "PlayStation",
+        "Switch"
+      ],
+      "answer": "PlayStation",
+      "explanation_correct": "Insomniac Games is part of PlayStation Studios, and their engine is highly optimized for current PlayStation hardware architecture.",
+      "explanation_incorrect": "Xbox and Nintendo do not leverage the Insomniac engine for their internal development.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Dagor Engine",
+      "question": "The Dagor Engine is internally developed by which major game studio?",
+      "options": [
+        "Gaijin Entertainment",
+        "Crytek",
+        "Focus Home",
+        "Paradox Interactive"
+      ],
+      "answer": "Gaijin Entertainment",
+      "explanation_correct": "Gaijin Entertainment created and maintains the Dagor Engine, which powers titles such as War Thunder.",
+      "explanation_incorrect": "These other companies have their own separate internal or licensed engines for their respective development operations.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Enfusion",
+      "question": "Which military simulation-focused game developer created the Enfusion engine?",
+      "options": [
+        "Bohemia Interactive",
+        "Ubisoft Montreal",
+        "DICE",
+        "Activision Blizzard"
+      ],
+      "answer": "Bohemia Interactive",
+      "explanation_correct": "Enfusion is an engine crafted by Bohemia Interactive to handle the scale and simulation complexity of titles like Arma Reforger.",
+      "explanation_incorrect": "These competitors utilize different proprietary engines such as Frostbite or Snowdrop which operate on different design paradigms.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Storm Engine",
+      "question": "The Storm Engine is best known for powering which classical pirate-themed game series?",
+      "options": [
+        "Sea Dogs",
+        "Skull and Bones",
+        "Assassin's Creed",
+        "Sid Meier's Pirates"
+      ],
+      "answer": "Sea Dogs",
+      "explanation_correct": "The Storm Engine gained notoriety for powering the long-running Sea Dogs series of pirate role-playing games.",
+      "explanation_incorrect": "Skull and Bones and Assassin's Creed utilize Ubisoft's internal engines, and Sid Meier's Pirates uses a different rendering library.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vindictus Engine",
+      "question": "The engine used for the online action game Vindictus was a significant modification of which existing infrastructure?",
+      "options": [
+        "Unreal Engine 3",
+        "Source Engine",
+        "id Tech 5",
+        "CryEngine 3"
+      ],
+      "answer": "Source Engine",
+      "explanation_correct": "Vindictus utilizes a heavily altered version of the Source engine to achieve its specific physical interactions and visual style.",
+      "explanation_incorrect": "The others are distinct architectural foundations used for entirely different classes of games and are not the base for Vindictus.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Reflex Engine",
+      "question": "Which modern fast-paced arena shooter utilizes the Reflex Engine?",
+      "options": [
+        "Reflex Arena",
+        "Quake Champions",
+        "Diabotical",
+        "Overwatch"
+      ],
+      "answer": "Reflex Arena",
+      "explanation_correct": "Reflex Engine was developed specifically to support the input-precise gameplay mechanics of Reflex Arena.",
+      "explanation_incorrect": "The other titles rely on engines such as id Tech or proprietary solutions configured for different hero-based or classic movement paradigms.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Asura",
+      "question": "Which game studio is the primary developer utilizing the Asura engine for major titles?",
+      "options": [
+        "Rebellion Developments",
+        "Creative Assembly",
+        "Obsidian Entertainment",
+        "Arkane Studios"
+      ],
+      "answer": "Rebellion Developments",
+      "explanation_correct": "The Asura engine was developed by Rebellion Developments for their internal projects like the Sniper Elite franchise.",
+      "explanation_incorrect": "These other studios employ different engines like Decima, Unreal, or internal tech like the Void engine.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Prism",
+      "question": "In the context of Paradox Interactive strategy game tech, which engine is the direct predecessor to the Clausewitz engine?",
+      "options": [
+        "Europa Engine",
+        "RenderWare",
+        "Unity",
+        "Frostbite"
+      ],
+      "answer": "Europa Engine",
+      "explanation_correct": "The Europa Engine was used in titles like Europa Universalis II and Hearts of Iron before being replaced by the Clausewitz engine.",
+      "explanation_incorrect": "RenderWare, Unity, and Frostbite are unrelated third-party engines not in the lineage of Paradox's internal engine development.",
+      "last_verified_at": "2026-06-12T16:41:48.750Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Vision",
+      "question": "The Vision Engine typically utilizes which third-party physics engine for its simulation integration?",
+      "options": [
+        "Bullet Physics",
+        "Havok Physics",
+        "PhysX",
+        "Newton Game Dynamics"
+      ],
+      "answer": "Havok Physics",
+      "explanation_correct": "The Vision Engine was designed with deep integration for Havok to handle complex rigid-body dynamics.",
+      "explanation_incorrect": "While other engines support various libraries, Havok is the standard integrated middleware for the Vision framework.",
+      "last_verified_at": "2026-06-12T16:41:11.841Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}

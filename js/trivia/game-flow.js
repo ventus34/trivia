@@ -287,8 +287,25 @@ export async function rollDice() {
             const label = document.createElement('span');
             label.className = 'move-category-label';
             label.textContent = categoryName;
-            label.style.left = `${square.pos.x}%`;
-            label.style.top = `calc(${square.pos.y}% + 4.5%)`;
+
+            const dx = square.pos.x - 50;
+            const dy = square.pos.y - 50;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            let labelX = square.pos.x;
+            let labelY = square.pos.y;
+
+            if (dist > 0) {
+              const ux = dx / dist;
+              const uy = dy / dist;
+              labelX += ux * 6.5;
+              labelY += uy * 6.5;
+            } else {
+              labelY += 6.5;
+            }
+
+            label.style.left = `${labelX}%`;
+            label.style.top = `${labelY}%`;
             UI.boardElement.appendChild(label);
           }
         }

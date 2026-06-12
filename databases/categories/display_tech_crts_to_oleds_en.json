@@ -1,0 +1,1512 @@
+{
+  "id": "display_tech_crts_to_oleds_en",
+  "name": "Display Tech: CRTs to OLEDs",
+  "language": "en",
+  "description": "Questions covering: LCD Types, Quantum Dot, Mini-LED, Micro-LED, OLED Variants, OLED Physics...",
+  "created_at": "2026-06-12T16:42:50.930Z",
+  "last_verified_at": "2026-06-12T16:39:22.985Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 100,
+  "questions": [
+    {
+      "subcategory": "LCD Types",
+      "question": "Which LCD pixel structure is primarily recognized for providing superior color reproduction and wide viewing angles?",
+      "options": [
+        "In-Plane Switching",
+        "Twisted Nematic",
+        "Vertical Alignment",
+        "Advanced Super View"
+      ],
+      "answer": "In-Plane Switching",
+      "explanation_correct": "In-plane switching (IPS) aligns liquid crystals parallel to the display plane, preventing color shift at wider angles.",
+      "explanation_incorrect": "TN and VA are alternative LCD structures that offer different trade-offs in response time and contrast rather than viewing angles.",
+      "last_verified_at": "2026-06-12T16:39:22.985Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Types",
+      "question": "Which LCD panel technology is well-regarded for its high inherent contrast ratio, despite being susceptible to 'ghosting' effects during fast motion?",
+      "options": [
+        "in-plane switching",
+        "vertical alignment",
+        "twisted nematic",
+        "advanced fringe field switching"
+      ],
+      "answer": "vertical alignment",
+      "explanation_correct": "Vertical alignment (VA) panels keep liquid crystals perpendicular to the glass when inactive, allowing better light blocking for deeper blacks.",
+      "explanation_incorrect": "IPS and TN panels utilize different crystal orientations that prioritize color accuracy or response times respectively.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Types",
+      "question": "Which liquid crystal display technology historically offered the fastest refresh rate capabilities but suffered from the most restricted viewing angles?",
+      "options": [
+        "in-plane switching",
+        "vertical alignment",
+        "twisted nematic",
+        "advanced super view"
+      ],
+      "answer": "twisted nematic",
+      "explanation_correct": "Twisted nematic (TN) panels historically favored high-speed pixel response at the cost of narrow viewing angles and lower color quality.",
+      "explanation_incorrect": "IPS and VA are known for their vastly superior color reproduction and wider viewing angles compared to TN panels.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Quantum Dot",
+      "question": "What is the term for the microscopic semiconductor particles that emit specific light wavelengths when stimulated by a backlight?",
+      "options": [
+        "liquid crystals",
+        "organic diodes",
+        "nanoscopic prisms",
+        "quantum dots"
+      ],
+      "answer": "quantum dots",
+      "explanation_correct": "Quantum dots are nanocrystals that enhance color gamut and light efficiency by converting wavelength in display backlighting.",
+      "explanation_incorrect": "Liquid crystals and organic diodes are entirely different display mechanisms, while nanoscopic prisms are not industry-standard nomenclature for this technology.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Quantum Dot",
+      "question": "Which trademarked term does Samsung utilize to market its high-end LCD panels that incorporate a quantum dot film layer?",
+      "options": [
+        "OLED",
+        "QLED",
+        "ULED",
+        "NanoCell"
+      ],
+      "answer": "QLED",
+      "explanation_correct": "QLED represents the brand marketed by Samsung for displays using a quantum dot enhancement layer on an LCD stack.",
+      "explanation_incorrect": "OLED is an emissive technology, while ULED and NanoCell are branding terms used by other manufacturers like Hisense and LG.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mini-LED",
+      "question": "What display technique uses a multi-zone backlight to selectively darken sections of the screen to achieve deeper black levels?",
+      "options": [
+        "global dimming",
+        "local dimming",
+        "frame modulation",
+        "dynamic contrast adjustment"
+      ],
+      "answer": "local dimming",
+      "explanation_correct": "Local dimming allows LED backlights to be dimmed in specific areas independently to increase the perceived contrast ratio.",
+      "explanation_incorrect": "Global dimming adjusts the entire screen, whereas frame modulation and dynamic contrast are software-level image processing techniques.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Micro-LED",
+      "question": "What emissive display technology consists of inorganic semiconductor pixels that, unlike OLED, do not suffer from image retention or degradation over long periods?",
+      "options": [
+        "MicroLED",
+        "mini-LED",
+        "AMOLED",
+        "plasma"
+      ],
+      "answer": "MicroLED",
+      "explanation_correct": "MicroLED is a self-emissive display technology utilizing microscopically small inorganic light-emitting diodes.",
+      "explanation_incorrect": "Mini-LED is an LCD backlight improvement, and AMOLED is an organic, not inorganic, emissive technology.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Variants",
+      "question": "Which specific variant of OLED uses a thin-film transistor backplane to control each pixel individually for higher resolution and speed?",
+      "options": [
+        "PMOLED",
+        "AMOLED",
+        "POLED",
+        "WOLED"
+      ],
+      "answer": "AMOLED",
+      "explanation_correct": "AMOLED stands for Active-Matrix Organic Light-Emitting Diode, utilizing an active backplane for precise control.",
+      "explanation_incorrect": "PMOLED uses a passive matrix for simpler, lower-resolution circuitry, while WOLED refers to the color filter architecture.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Variants",
+      "question": "Which display technology relies on a simple row and column grid to power pixels, making it unsuitable for high-resolution screens?",
+      "options": [
+        "AMOLED",
+        "PMOLED",
+        "TFT-LCD",
+        "QD-OLED"
+      ],
+      "answer": "PMOLED",
+      "explanation_correct": "PMOLED uses passive matrix addressing, which is limited by power efficiency and speed as screen size and resolution increase.",
+      "explanation_incorrect": "AMOLED, TFT-LCD, and QD-OLED all utilize active transistor backplanes for per-pixel control.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Physics",
+      "question": "Within an organic light-emitting diode structure, which layer is responsible for the actual generation of light when charge carriers meet?",
+      "options": [
+        "conductive layer",
+        "emissive layer",
+        "substrate layer",
+        "encapsulation layer"
+      ],
+      "answer": "emissive layer",
+      "explanation_correct": "The emissive layer is where holes and electrons recombine, releasing energy in the form of light photons.",
+      "explanation_incorrect": "The conductive layer facilitates charge transport, and the substrate provides mechanical support rather than light production.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Physics",
+      "question": "In the architecture of an OLED pixel, which specific layer is responsible for transporting positive charge carriers from the anode?",
+      "options": [
+        "emissive layer",
+        "conductive layer",
+        "insulating layer",
+        "refractive layer"
+      ],
+      "answer": "conductive layer",
+      "explanation_correct": "The conductive layer, often referred to as a hole-transport layer, is designed to move positive charges toward the emissive layer.",
+      "explanation_incorrect": "The emissive layer produces light, while the other listed layers do not perform material transport functions.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "E-Ink",
+      "question": "Which display technology utilizes tiny, charged pigment particles moving within a fluid to create images in e-readers?",
+      "options": [
+        "electrophoretic",
+        "photonic",
+        "chromatic",
+        "emissive"
+      ],
+      "answer": "electrophoretic",
+      "explanation_correct": "Electrophoretic displays rely on the motion of dispersed charged particles in an electric field to create text and images.",
+      "explanation_incorrect": "Photonic, chromatic, and emissive are general optic or physical terms, not the specific name for e-ink technology.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "E-Ink",
+      "question": "What is the term for the characteristic of a display that allows it to maintain an image without the continuous application of power?",
+      "options": [
+        "persistence",
+        "bistability",
+        "latency",
+        "retentivity"
+      ],
+      "answer": "bistability",
+      "explanation_correct": "Bistability in display tech defines the state where an image remains stable once an electric charge has set the pixel state, saving power.",
+      "explanation_incorrect": "Persistence and retentivity usually refer to image artifacts or quality, while latency refers to response speeds.",
+      "last_verified_at": "2026-06-12T16:38:52.802Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Artifacts",
+      "question": "What is the phenomenon where a static image remains permanently visible on a screen due to uneven degradation of the subpixels?",
+      "options": [
+        "ghosting",
+        "pixelation",
+        "burn-in",
+        "tearing"
+      ],
+      "answer": "burn-in",
+      "explanation_correct": "Burn-in is the result of differential aging of pixels, most commonly occurring in self-emissive display technologies.",
+      "explanation_incorrect": "Ghosting and tearing are transient synchronization artifacts, whereas pixelation describes resolution limitations.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Artifacts",
+      "question": "What visual artifact occurs when the video source sends frames at a rate that is not synchronized with the monitor's refresh cycle?",
+      "options": [
+        "screen tearing",
+        "light bleeding",
+        "dead pixels",
+        "motion blur"
+      ],
+      "answer": "screen tearing",
+      "explanation_correct": "Screen tearing happens when the display shows parts of multiple frames simultaneously because the buffer update is not aligned with the monitor interval.",
+      "explanation_incorrect": "Light bleeding, dead pixels, and motion blur are hardware physical defects or limitations unrelated to sync timing.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Color Science",
+      "question": "What quantitative metric defines the total range of distinct colors that a monitor or television is capable of accurately reproducing?",
+      "options": [
+        "color gamut",
+        "bit depth",
+        "chromatic aberration",
+        "dynamic range"
+      ],
+      "answer": "color gamut",
+      "explanation_correct": "Color gamut specifies the boundaries of the color space a display device can represent, typically expressed by standard benchmarks like sRGB or DCI-P3.",
+      "explanation_incorrect": "Bit depth refers to color precision/shades, chromatic aberration is a lens defect, and dynamic range relates to light intensity limits.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "What is the primary industry-standard interface used today for transmitting high-bandwidth, uncompressed digital video and audio to consumer displays?",
+      "options": [
+        "DVI",
+        "VGA",
+        "HDMI",
+        "S-Video"
+      ],
+      "answer": "HDMI",
+      "explanation_correct": "HDMI is the prevailing universal standard for audiovisual connections between source devices and televisions.",
+      "explanation_incorrect": "DVI and VGA are legacy standards, and S-Video is an antiquated analog connection format.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "Which interface was specifically designed for modern computer monitors to provide high-resolution connectivity and advanced features like multi-monitor daisy-chaining?",
+      "options": [
+        "HDMI",
+        "DisplayPort",
+        "VGA",
+        "Component"
+      ],
+      "answer": "DisplayPort",
+      "explanation_correct": "DisplayPort is a digital interface predominantly used in computer graphics cards and high-performance monitors.",
+      "explanation_incorrect": "HDMI is primarily consumer-centered; VGA and Component are older analog standards.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "Which legacy 15-pin analog connector was the de facto standard for PC monitors before the widespread adoption of digital interfaces?",
+      "options": [
+        "VGA",
+        "HDMI",
+        "DVI",
+        "DisplayPort"
+      ],
+      "answer": "VGA",
+      "explanation_correct": "The Video Graphics Array (VGA) connector is the classic analog standard recognized by its distinctive blue 15-pin D-sub port.",
+      "explanation_incorrect": "HDMI, DVI, and DisplayPort are all digital technologies that succeeded the analog VGA standard.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "Which digital video interface served as the direct high-bandwidth successor to analog connections, primarily lacking audio data support in its original form?",
+      "options": [
+        "HDMI",
+        "VGA",
+        "DVI",
+        "DisplayPort"
+      ],
+      "answer": "DVI",
+      "explanation_correct": "Digital Visual Interface (DVI) was the immediate bridge between analog VGA and modern ports like HDMI, focusing strictly on video signaling.",
+      "explanation_incorrect": "HDMI and DisplayPort include multi-channel audio, while VGA is purely analog.",
+      "last_verified_at": "2026-06-12T16:38:52.803Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Resolution",
+      "question": "What is the common marketing name for the display resolution of 3840x2160?",
+      "options": [
+        "Ultra HD",
+        "Wide XGA",
+        "Quad VGA",
+        "Super Video Graphics Array"
+      ],
+      "answer": "Ultra HD",
+      "explanation_correct": "3840x2160 is standardized as Ultra High Definition (UHD).",
+      "explanation_incorrect": "The other options refer to legacy or specific computer monitor resolutions.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Resolution",
+      "question": "What common term describes displays with a resolution of 1920x1080?",
+      "options": [
+        "Full HD",
+        "Wide Extended Graphics Array",
+        "High Definition",
+        "Ultra Extended Graphics Array"
+      ],
+      "answer": "Full HD",
+      "explanation_correct": "Full HD defines a resolution of exactly 1920 by 1080 pixels.",
+      "explanation_incorrect": "The other terms represent different aspect ratios or lower pixel counts.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Components",
+      "question": "Which specific component in an LCD panel is responsible for steering the orientation of liquid crystals?",
+      "options": [
+        "alignment layer",
+        "polarizer film",
+        "color filter",
+        "diffuser plate"
+      ],
+      "answer": "alignment layer",
+      "explanation_correct": "The alignment layer uses micro-grooves to set the initial orientation of the liquid crystals.",
+      "explanation_incorrect": "Polarizers and diffusers manage light waves, while color filters create hues.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Color Calibration",
+      "question": "What is the standard unit used to measure the brightness intensity of display panels?",
+      "options": [
+        "nits",
+        "lumens",
+        "candelas",
+        "lux"
+      ],
+      "answer": "nits",
+      "explanation_correct": "A nit is defined as one candela per square meter, the standard measure for display luminance.",
+      "explanation_incorrect": "Lumens and lux measure total light output or illumination on a surface, not display luminance.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Luminous Tech",
+      "question": "Which vintage luminous technology relies on a cold-cathode discharge within a sealed glass gas-filled bulb?",
+      "options": [
+        "nixie tube",
+        "vacuum fluorescent display",
+        "cathode ray tube",
+        "neon lamp"
+      ],
+      "answer": "nixie tube",
+      "explanation_correct": "Nixie tubes use cold-cathode discharge to display digits by ionizing gas.",
+      "explanation_incorrect": "VFDs, CRTs, and neon lamps operate on different principles of light emission.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Manufacturing",
+      "question": "Which material is predominantly used to create the transparent electrodes required for modern liquid crystal displays?",
+      "options": [
+        "indium tin oxide",
+        "conductive polymer",
+        "amorphous silicon",
+        "polycrystalline silicon"
+      ],
+      "answer": "indium tin oxide",
+      "explanation_correct": "Indium tin oxide is uniquely both conductive and transparent, making it ideal for electrodes.",
+      "explanation_incorrect": "Silicon variants are used for transistors, and polymers are rarely used for main electrodes.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Variations",
+      "question": "Which type of OLED display utilizes white light emitters combined with a color filter array?",
+      "options": [
+        "WOLED",
+        "pHOLED",
+        "SOLED",
+        "TOLED"
+      ],
+      "answer": "WOLED",
+      "explanation_correct": "WOLED stands for White OLED, using white subpixels under color filters to produce the full spectrum.",
+      "explanation_incorrect": "The other acronyms refer to phosphorescent, stacked, or transparent OLED variations.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Variations",
+      "question": "Which OLED technology incorporates a blue emitter layer combined with quantum dot converters for color production?",
+      "options": [
+        "QD-OLED",
+        "AMOLED",
+        "POLED",
+        "FOLED"
+      ],
+      "answer": "QD-OLED",
+      "explanation_correct": "QD-OLED uses quantum dot layers to convert blue light into specific red and green primaries.",
+      "explanation_incorrect": "AMOLED and POLED describe driving circuitry or base plastics, not the conversion layer.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Backlighting",
+      "question": "What is the descriptor for an LCD backlight configuration where light sources are positioned specifically along the panel borders?",
+      "options": [
+        "edge-lit",
+        "direct-lit",
+        "full array",
+        "matrix-lit"
+      ],
+      "answer": "edge-lit",
+      "explanation_correct": "Edge-lit displays use side-mounted LEDs reflected across the panel by specialized light guides.",
+      "explanation_incorrect": "Direct-lit and full-array arrangements involve placing LEDs behind the entire screen area.",
+      "last_verified_at": "2026-06-12T16:38:52.804Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Backlighting",
+      "question": "What describes an LCD backlight architecture that places LEDs behind the entirety of the display panel?",
+      "options": [
+        "direct-lit",
+        "edge-lit",
+        "side-mounted",
+        "perimeter-lit"
+      ],
+      "answer": "direct-lit",
+      "explanation_correct": "Direct-lit panels use an array of light sources placed directly behind the LCD crystal matrix.",
+      "explanation_incorrect": "Edge-lit and perimeter-lit configurations place light sources only at the screen frame.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Backlighting",
+      "question": "Which advanced backlighting method provides individual dimming control for many specific sectors behind a screen?",
+      "options": [
+        "full array",
+        "lateral grid",
+        "peripheral array",
+        "global dimming"
+      ],
+      "answer": "full array",
+      "explanation_correct": "Full array local dimming divides the backlight into zones for contrast enhancement.",
+      "explanation_incorrect": "Lateral and peripheral descriptions refer to edge-lighting methods.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Screen Finish",
+      "question": "What display surface finish is used to reduce reflections by scattering incident light with a rough texture?",
+      "options": [
+        "matte",
+        "glossy",
+        "metallic",
+        "translucent"
+      ],
+      "answer": "matte",
+      "explanation_correct": "Matte finishes utilize a micro-textured surface to diffuse incoming light beams.",
+      "explanation_incorrect": "Glossy surfaces reflect light directionally, while metallic is generally an aesthetic finish.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Screen Finish",
+      "question": "Which screen finish is preferred for its high clarity and ability to preserve native color vibrancy?",
+      "options": [
+        "glossy",
+        "matte",
+        "frosted",
+        "satin"
+      ],
+      "answer": "glossy",
+      "explanation_correct": "Glossy screens lack the diffusion layer of matte screens, offering clearer imagery.",
+      "explanation_incorrect": "Matte, frosted, and satin are finishes that scatter light and reduce image sharpness.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sub-pixel Layout",
+      "question": "What is the name of the proprietary sub-pixel arrangement developed by Samsung that alternates pixel sizes?",
+      "options": [
+        "PenTile",
+        "Delta Drive",
+        "Diamond Pixel",
+        "Hex Matrix"
+      ],
+      "answer": "PenTile",
+      "explanation_correct": "PenTile uses a specific red, green, and blue sub-pixel pattern to achieve higher apparent resolution.",
+      "explanation_incorrect": "The other terms are distinct or purely descriptive, not identifying this specific layout technology.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "What is the term for the smaller, miniaturized interface standard used for HDMI output on small devices?",
+      "options": [
+        "Micro HDMI",
+        "Mini HDMI",
+        "Slim HDMI",
+        "Compact HDMI"
+      ],
+      "answer": "Micro HDMI",
+      "explanation_correct": "Micro HDMI (Type D) is the most compact version of the standard connector interface.",
+      "explanation_incorrect": "Mini HDMI is a distinct, larger standard (Type C) used for different portable devices.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Legacy",
+      "question": "Which Sony branding represented their specific line of high-end, aperture-grille flat-screen cathode ray tubes?",
+      "options": [
+        "FD Trinitron",
+        "Black Matrix",
+        "Shadow Mask",
+        "Super Flat"
+      ],
+      "answer": "FD Trinitron",
+      "explanation_correct": "FD Trinitron stands for Flat Display Trinitron, Sony's premiere flat-screen CRT technology.",
+      "explanation_incorrect": "Shadow mask and black matrix are generic CRT techniques, not specific Sony series names.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optical Illusion",
+      "question": "What is the perceptual phenomenon where a viewer becomes aware of the empty space between pixels on a display?",
+      "options": [
+        "screen door effect",
+        "pixelation error",
+        "grid artifact",
+        "raster haze"
+      ],
+      "answer": "screen door effect",
+      "explanation_correct": "The screen door effect occurs when the physical gap between pixels is visible to the naked eye.",
+      "explanation_incorrect": "Pixelation and raster artifacts refer to image data quality rather than the physical structure.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "3D Tech",
+      "question": "Which 3D display method requires electronic synchronization between the screen and motorized spectacles?",
+      "options": [
+        "active 3D",
+        "passive 3D",
+        "anaglyph 3D",
+        "autostereoscopic"
+      ],
+      "answer": "active 3D",
+      "explanation_correct": "Active 3D uses shutter glasses that alternately block each eye in sync with the screen's refresh rate.",
+      "explanation_incorrect": "Passive 3D is filter-based, while autostereoscopic requires no glasses at all.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "3D Tech",
+      "question": "What 3D display technology utilizes polarized filters in both the screen and inexpensive eyewear?",
+      "options": [
+        "passive 3D",
+        "active 3D",
+        "shutter 3D",
+        "flicker-based 3D"
+      ],
+      "answer": "passive 3D",
+      "explanation_correct": "Passive 3D uses circular or linear polarization to separate images for each eye.",
+      "explanation_incorrect": "Active and shutter 3D refer to the same electronic glass-switching display method.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "3D Tech",
+      "question": "What term defines 3D display technology that creates depth perception without the need for additional eyewear?",
+      "options": [
+        "autostereoscopic",
+        "stereoscopic",
+        "binaural",
+        "holographic"
+      ],
+      "answer": "autostereoscopic",
+      "explanation_correct": "Autostereoscopic displays use lenticular lenses or parallax barriers to show different images per eye.",
+      "explanation_incorrect": "Stereoscopic requires glasses, while binaural and holographic describe sound or distinct light-field imagery.",
+      "last_verified_at": "2026-06-12T16:38:52.805Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Manufacturing",
+      "question": "In thin-film transistor display manufacturing, what is the technical name for the substrate-mounted circuitry layer that controls individual subpixels?",
+      "options": [
+        "backplane",
+        "frontplane",
+        "polarizer",
+        "color filter"
+      ],
+      "answer": "backplane",
+      "explanation_correct": "The backplane contains the TFT circuitry responsible for switching the state of individual pixels.",
+      "explanation_incorrect": "Frontplane, polarizers, and color filters refer to external optical stack layers rather than the pixel-controlling circuitry layer.",
+      "last_verified_at": "2026-06-12T16:39:01.719Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Physics",
+      "question": "Which component in an edge-lit LCD module is responsible for distributing light from the LED source evenly across the entire surface of the panel?",
+      "options": [
+        "light guide plate",
+        "diffuser sheet",
+        "polarizer film",
+        "prism sheet"
+      ],
+      "answer": "light guide plate",
+      "explanation_correct": "The light guide plate (LGP) uses internal reflection to distribute light from edge LEDs across the display area.",
+      "explanation_incorrect": "The diffuser hides the patterns of the LGP; prism sheets concentrate light towards the viewer, and polarizers filter light waves.",
+      "last_verified_at": "2026-06-12T16:39:22.985Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Tech",
+      "question": "What is the name of the electromagnetic assembly mounted on the neck of a cathode ray tube used to steer the electron beam?",
+      "options": [
+        "deflection yoke",
+        "electron gun",
+        "shadow mask",
+        "focus anode"
+      ],
+      "answer": "deflection yoke",
+      "explanation_correct": "The deflection yoke creates the magnetic fields required to precisely direct the electron beam across the phosphor screen.",
+      "explanation_incorrect": "The electron gun emits electrons, the shadow mask determines pixel placement, and the focus anode concentrates the beam intensity.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Tech",
+      "question": "What is the specialized lead-heavy section of a CRT envelope that provides radiation shielding for the cathode ray tube?",
+      "options": [
+        "funnel glass",
+        "faceplate glass",
+        "neck tube",
+        "implosion band"
+      ],
+      "answer": "funnel glass",
+      "explanation_correct": "Funnel glass is heavily doped with lead to prevent X-ray emission caused by high-voltage electron bombardment.",
+      "explanation_incorrect": "The faceplate is for structural and viewing purposes; the neck and band are mechanical components unrelated to X-ray shielding.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Maintenance",
+      "question": "Which maintenance process involves applying an external magnetic field to neutralize accidental magnetization in a CRT monitor?",
+      "options": [
+        "degaussing",
+        "recalibration",
+        "beam alignment",
+        "convergence adjustment"
+      ],
+      "answer": "degaussing",
+      "explanation_correct": "Degaussing uses a fluctuating magnetic field to eliminate stray magnetism that causes color distortion.",
+      "explanation_incorrect": "Recalibration, alignment, and convergence address software or physical adjustments rather than magnetic interference.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Projection Tech",
+      "question": "Which display technology developed by Texas Instruments utilizes light modulation via a matrix of tiny mirrors?",
+      "options": [
+        "DLP",
+        "LCoS",
+        "3LCD",
+        "SXRD"
+      ],
+      "answer": "DLP",
+      "explanation_correct": "Digital Light Processing (DLP) uses a Digital Micromirror Device (DMD) to tilt millions of mirrors to create an image.",
+      "explanation_incorrect": "LCoS, 3LCD, and SXRD use liquid crystal layers to modulate light, even if some of them are reflective in nature.",
+      "last_verified_at": "2026-06-12T16:39:22.985Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Projection Tech",
+      "question": "What is the individual, electronically switchable component within a Digital Micromirror Device (DMD) chip that reflects light?",
+      "options": [
+        "micromirror",
+        "pixel transistor",
+        "liquid crystal cell",
+        "phosphor dot"
+      ],
+      "answer": "micromirror",
+      "explanation_correct": "A DMD chip contains millions of microscopic mirrors that tilt on hinges to reflect light on or off.",
+      "explanation_incorrect": "Transistors, liquid crystal cells, and phosphor dots provide alternate pixel-level illumination methods in different display types.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Feature Technology",
+      "question": "What term defines the mathematical ratio between the luminance of the brightest white and the darkest black a display can produce?",
+      "options": [
+        "contrast ratio",
+        "dynamic range",
+        "gamma correction",
+        "brightness index"
+      ],
+      "answer": "contrast ratio",
+      "explanation_correct": "Contrast ratio is the fundamental measure of a display's range of luminance levels.",
+      "explanation_incorrect": "Dynamic range refers to the breadth of color/light depth, while gamma and brightness reflect different luminance settings.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "HDR",
+      "question": "Which common open-standard format specifies a minimum metadata requirement for 10-bit high dynamic range content?",
+      "options": [
+        "HDR10",
+        "HDR10+",
+        "HLG",
+        "DisplayHDR"
+      ],
+      "answer": "HDR10",
+      "explanation_correct": "HDR10 is the baseline, widespread open standard for HDR content delivery.",
+      "explanation_incorrect": "HDR10+ and Dolby Vision utilize dynamic metadata, while HLG is specifically designed for broadcast television.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "HDR",
+      "question": "Which high-end HDR standard is proprietary and utilizes dynamic metadata to optimize picture quality on a frame-by-frame basis?",
+      "options": [
+        "Dolby Vision",
+        "HDR10",
+        "DisplayHDR",
+        "HLG"
+      ],
+      "answer": "Dolby Vision",
+      "explanation_correct": "Dolby Vision is a licensed technology known for its implementation of dynamic metadata.",
+      "explanation_incorrect": "HDR10 is a static standard, while HLG and DisplayHDR lack the proprietary dynamic metadata processing of Dolby Vision.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Layout",
+      "question": "What is the technical term for the proportional relationship between the width and height of a display?",
+      "options": [
+        "aspect ratio",
+        "resolution scaling",
+        "viewport dimension",
+        "frame geometry"
+      ],
+      "answer": "aspect ratio",
+      "explanation_correct": "Aspect ratio represents the geometric proportion of the screen surface.",
+      "explanation_incorrect": "Resolution, viewport, and geometry relate to density or placement, not the formal width-to-height ratio.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Pixel Density",
+      "question": "What is the name for the unit of screen resolution density that calculates the number of physical pixels within a one-inch span?",
+      "options": [
+        "pixels per inch",
+        "dots per inch",
+        "lines per inch",
+        "pixels per degree"
+      ],
+      "answer": "pixels per inch",
+      "explanation_correct": "PPI is the standard metric for measuring the visual sharpness of a computer display.",
+      "explanation_incorrect": "DPI and LPI are often used for print media, and pixels per degree is used for immersive virtual reality headsets.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Historical Tech",
+      "question": "Which early flat-panel display technology, often used in laptops before active-matrix, used a grid of electrodes to address pixels?",
+      "options": [
+        "passive matrix",
+        "active matrix",
+        "field emission",
+        "vacuum fluorescent"
+      ],
+      "answer": "passive matrix",
+      "explanation_correct": "Passive matrix displays used rows and columns of electrodes to charge pixels sequentially, often resulting in lower response times.",
+      "explanation_incorrect": "Active matrix, field emission, and VFD are distinct technologies that functioned differently than simple pixel-grid electrode addressing.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Historical Tech",
+      "question": "Which technology, often found in early consumer electronics, uses a low-voltage vacuum discharge to illuminate segments rather than cold-cathode technology?",
+      "options": [
+        "VFD",
+        "CRT",
+        "OLED",
+        "LED"
+      ],
+      "answer": "VFD",
+      "explanation_correct": "VFD stands for Vacuum Fluorescent Display, commonly seen in classic VCR clocks and audio gear.",
+      "explanation_incorrect": "CRTs, OLEDs, and LEDs rely on different physics, such as electron beams or semiconductor junctions, to produce light.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Touchscreens",
+      "question": "Which type of touchscreen senses location by detecting changes in the electrical field generated by the user's finger?",
+      "options": [
+        "capacitive",
+        "resistive",
+        "infrared",
+        "surface acoustic wave"
+      ],
+      "answer": "capacitive",
+      "explanation_correct": "Capacitive screens utilize the conductive properties of the human body to alter an electrostatic field.",
+      "explanation_incorrect": "Resistive screens rely on pressure, while infrared and acoustic wave systems use light/sound interruption.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Touchscreens",
+      "question": "Which touchscreen technology works by using two flexible layers that make physical contact when pressed?",
+      "options": [
+        "resistive",
+        "capacitive",
+        "projected capacitive",
+        "optical"
+      ],
+      "answer": "resistive",
+      "explanation_correct": "Resistive touchscreens require physical pressure to force two conductive sheets to meet at a specific point.",
+      "explanation_incorrect": "Capacitive, projected capacitive, and optical systems detect contact or proximity without requiring mechanical pressure.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Materials",
+      "question": "In the development of blue OLED emitters, what organic hydrocarbon compound is frequently used as a host material due to its stable structure?",
+      "options": [
+        "anthracene",
+        "benzene",
+        "toluene",
+        "naphthalene"
+      ],
+      "answer": "anthracene",
+      "explanation_correct": "Anthracene-derived compounds are industry-standard hosts for high-efficiency blue dopants in OLEDs.",
+      "explanation_incorrect": "Benzene, toluene, and naphthalene are simple hydrocarbons that lack the stability and properties required for OLED host usage.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Physics",
+      "question": "What is the physical process by which an OLED material emits light when current is passed through it?",
+      "options": [
+        "electroluminescence",
+        "incandescence",
+        "photoluminescence",
+        "triboluminescence"
+      ],
+      "answer": "electroluminescence",
+      "explanation_correct": "Electroluminescence is the conversion of electrical energy into light by an insulating material subject to current.",
+      "explanation_incorrect": "Incandescence relies on heat, photoluminescence on light absorption, and triboluminescence on mechanical friction.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Advanced Features",
+      "question": "Which proprietary variable refresh rate technology, developed by NVIDIA, requires a special hardware module inside the display?",
+      "options": [
+        "G-Sync",
+        "FreeSync",
+        "Adaptive-Sync",
+        "FastSync"
+      ],
+      "answer": "G-Sync",
+      "explanation_correct": "G-Sync utilizes a proprietary NVIDIA hardware module to manage the display's refresh rate.",
+      "explanation_incorrect": "FreeSync and Adaptive-Sync are based on VESA standards that do not require proprietary internal dedicated hardware modules.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Advanced Features",
+      "question": "Which standard-compliant variable refresh rate technology, developed by AMD, functions over the DisplayPort and HDMI protocols?",
+      "options": [
+        "FreeSync",
+        "G-Sync",
+        "FastSync",
+        "DirectSync"
+      ],
+      "answer": "FreeSync",
+      "explanation_correct": "FreeSync is an open-standard implementation of Adaptive-Sync that works without needing custom proprietary hardware.",
+      "explanation_incorrect": "G-Sync typically requires proprietary modules, while FastSync and DirectSync do not describe the industry-wide base standard for refresh rate management.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Physics",
+      "question": "Which optical phenomenon does a liquid crystal display manipulate to control light passage through its layers?",
+      "options": [
+        "polarization",
+        "diffraction",
+        "refraction",
+        "interference"
+      ],
+      "answer": "polarization",
+      "explanation_correct": "Liquid crystal displays use polarizers to filter light orientation, allowing the crystals to block or pass light based on applied voltage.",
+      "explanation_incorrect": "Diffraction, refraction, and interference are other optical properties that are not the primary mechanism for regulating transparency in a pixel-based layer.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Structure",
+      "question": "What specialized manufacturing technique is applied to organic light-emitting diode displays to prevent degradation from exposure to moisture and oxygen?",
+      "options": [
+        "thin film encapsulation",
+        "vacuum deposition",
+        "sputtering",
+        "chemical vapor cleaning"
+      ],
+      "answer": "thin film encapsulation",
+      "explanation_correct": "Thin film encapsulation creates a multi-layer protective barrier that is essential for long-term stability in OLED materials.",
+      "explanation_incorrect": "While vacuum deposition and sputtering are processes used to apply materials, they are not the protective outcome itself.",
+      "last_verified_at": "2026-06-12T16:39:01.720Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Measurement",
+      "question": "What is the standard unit of measurement used to quantify the difference between a displayed color and its reference target?",
+      "options": [
+        "Delta E",
+        "Gamma level",
+        "Nit output",
+        "Kelvin shift"
+      ],
+      "answer": "Delta E",
+      "explanation_correct": "Delta E indicates the perceived difference between two colors; a lower value represents higher accuracy compared to a reference color.",
+      "explanation_incorrect": "Gamma, Nits, and Kelvin describe brightness, luminance, and color temperature rather than specific color accuracy discrepancy.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Standards",
+      "question": "Which color space is broadly adopted as the standard for digital cinema color gamut?",
+      "options": [
+        "DCI-P3",
+        "Adobe RGB",
+        "Rec. 709",
+        "Rec. 2020"
+      ],
+      "answer": "DCI-P3",
+      "explanation_correct": "DCI-P3 is the standard color space developed by the Digital Cinema Initiatives for movie theater projections.",
+      "explanation_incorrect": "Rec. 709 is for HD television, Adobe RGB is for professional photography, and Rec. 2020 is for future UHD standards.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Standards",
+      "question": "What is the industry-standard color space designed for digital images transmitted over the web?",
+      "options": [
+        "sRGB",
+        "Adobe RGB",
+        "NTSC",
+        "PAL"
+      ],
+      "answer": "sRGB",
+      "explanation_correct": "sRGB is widely used as the default color space for the majority of web browsers and computer monitors.",
+      "explanation_incorrect": "Adobe RGB is for print preparation, while NTSC and PAL are historical analog broadcast standards.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Flexible Displays",
+      "question": "What clear, heat-resistant plastic material serves as the flexible substrate for modern foldable display panels?",
+      "options": [
+        "polyimide",
+        "polyethylene",
+        "polystyrene",
+        "polycarbonate"
+      ],
+      "answer": "polyimide",
+      "explanation_correct": "Polyimide is used because it combines physical flexibility with the high thermal stability needed for circuitry fabrication.",
+      "explanation_incorrect": "The other polymers lack the specific combination of mechanical longevity and thermal resistance required for display manufacturing.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Flexible Displays",
+      "question": "What designation describes a display panel capable of being coiled into a compact tube shape while continuing to function?",
+      "options": [
+        "rollable",
+        "foldable",
+        "curved",
+        "flexible"
+      ],
+      "answer": "rollable",
+      "explanation_correct": "Rollable displays feature an architecture that allows the rigid components to be stowed cylindrically.",
+      "explanation_incorrect": "Foldable, curved, and flexible are broader terms that do not necessarily imply the capacity for tight cylindrical coiling.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Historical Formats",
+      "question": "Which numerical display structure was commonly used in primitive digital timekeeping devices due to its efficient use of seven distinct light-emitting bar elements?",
+      "options": [
+        "seven-segment",
+        "dot-matrix",
+        "nixie-tube",
+        "vacuum-fluorescent"
+      ],
+      "answer": "seven-segment",
+      "explanation_correct": "Seven-segment displays represent digits by lighting specific combinations of seven parallel segments.",
+      "explanation_incorrect": "Nixie tubes use gas discharge and dot-matrix uses a grid, representing fundamentally different display strategies.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Component",
+      "question": "What electronic component acts as the interface responsible for converting raw digital signal data into voltage levels for individual panel pixels?",
+      "options": [
+        "display driver",
+        "graphics processing unit",
+        "scaler",
+        "inverter"
+      ],
+      "answer": "display driver",
+      "explanation_correct": "The display driver is the gatekeeper that addresses each pixel row/column to project the signal onto the screen.",
+      "explanation_incorrect": "The GPU processes the frames, the scaler adjusts resolution, and the inverter powers backlights; none manage the pixel voltages directly.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Processing",
+      "question": "What signal transmission method effectively doubles the perceived frame rate by scanning only odd or even lines in successive fields?",
+      "options": [
+        "interlacing",
+        "flicker fusion",
+        "oversampling",
+        "frame interpolation"
+      ],
+      "answer": "interlacing",
+      "explanation_correct": "Interlacing sends half a frame at a time to minimize the bandwidth required for television signals.",
+      "explanation_incorrect": "Flicker fusion is a biological limit, while oversampling and interpolation are digital compute processes.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Signal Processing",
+      "question": "Which method of image representation draws every line of a single frame sequentially rather than in alternating fields?",
+      "options": [
+        "progressive scan",
+        "interlacing",
+        "frame buffering",
+        "bit-mapping"
+      ],
+      "answer": "progressive scan",
+      "explanation_correct": "Progressive scan draws the full display frame in a single sweep, providing higher temporal resolution for non-moving images.",
+      "explanation_incorrect": "Interlacing scans alternating fields, while buffering and bit-mapping refer to digital memory management techniques.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Projection Tech",
+      "question": "Which reflective projection technology uses a liquid crystal layer atop a CMOS backplane to modulate reflected light?",
+      "options": [
+        "LCoS",
+        "LCD",
+        "DLP",
+        "CRT"
+      ],
+      "answer": "LCoS",
+      "explanation_correct": "Liquid crystal on silicon (LCoS) combines the liquid crystal light shuttering with a high-reflectivity mirror surface.",
+      "explanation_incorrect": "DLP uses mirrors (DMD), LCD uses transmissive shutters, and CRT uses phosphors, all distinct from the LCoS reflection method.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optics",
+      "question": "What is the fundamental unit of an image array that serves as the smallest controllable light-emitting control point on a display?",
+      "options": [
+        "pixel",
+        "voxel",
+        "sub-pixel",
+        "dot"
+      ],
+      "answer": "pixel",
+      "explanation_correct": "A pixel, or picture element, is the smallest addressable area on a display screen.",
+      "explanation_incorrect": "Sub-pixels are components of pixels, voxels refer to 3D volume, and dot is a print terminology unit.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Optics",
+      "question": "What are the individual red, green, and blue monochromatic components within a single structural unit of a screen called?",
+      "options": [
+        "sub-pixels",
+        "elements",
+        "phosphors",
+        "apertures"
+      ],
+      "answer": "sub-pixels",
+      "explanation_correct": "Sub-pixels are the discrete monochromatic units combined to create the full-color pixel.",
+      "explanation_incorrect": "Elements, phosphors, and apertures have other electronic meanings and are not defined as the color component of a pixel.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Quantum Dot",
+      "question": "Which specific wavelength of light is primarily utilized to energize the particles in a quantum dot display to achieve full color reproduction?",
+      "options": [
+        "blue LED",
+        "red laser",
+        "ultraviolet lamp",
+        "high-frequency xenon"
+      ],
+      "answer": "blue LED",
+      "explanation_correct": "Quantum dots absorb high-energy blue photons and re-emit them as lower-energy light corresponding to red or green wavelengths.",
+      "explanation_incorrect": "Red lasers and UV light do not excite the dots effectively within the architecture of modern quantum dot displays.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Components",
+      "question": "What conductive substance was historically painted inside the glass bulb of a cathode ray tube to create a high-voltage anode connection?",
+      "options": [
+        "aquadag",
+        "tin oxide",
+        "graphite wax",
+        "bismuth coating"
+      ],
+      "answer": "aquadag",
+      "explanation_correct": "Aquadag, consisting largely of graphite, provided the conductive surface needed to accelerate electron beams.",
+      "explanation_incorrect": "Tin oxide and other materials are too conductive or lack the necessary physical properties for the internal CRT electron flow.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Plasma Displays",
+      "question": "Which major engineering drawback significantly contributed to the decline of plasma display technology in the consumer market?",
+      "options": [
+        "power consumption",
+        "refresh rate",
+        "color gamut",
+        "viewing angle"
+      ],
+      "answer": "power consumption",
+      "explanation_correct": "Plasma displays required significant energy to sustain the glowing gas discharge, leading to poor energy efficiency.",
+      "explanation_incorrect": "Plasma displays were actually known for excellent color reproduction, refresh rates, and wide viewing angles.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Lifespan",
+      "question": "Which of the primary additive color components is known for having the fastest degradation rate in OLED display panels?",
+      "options": [
+        "blue",
+        "red",
+        "green",
+        "white"
+      ],
+      "answer": "blue",
+      "explanation_correct": "Blue organic emitters are inherently less stable and possess shorter lifespans compared to red and green OLED materials.",
+      "explanation_incorrect": "Red and green materials are chemically more stable and typically last longer than blue sub-pixels.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Chemistry",
+      "question": "What specific phase of matter, characterized by molecules that flow like liquid but maintain crystalline structural orientation, is utilized in LCD displays?",
+      "options": [
+        "nematic",
+        "smectic",
+        "cholesteric",
+        "discotic"
+      ],
+      "answer": "nematic",
+      "explanation_correct": "The twisted nematic phase is the most common state used in displays because it allows for efficient rotation of light polarization.",
+      "explanation_incorrect": "Smectic, cholesteric, and discotic phases have different molecular geometries not ideal for switching light in standard displays.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "Which serial interface standard is commonly utilized for high-speed connectivity specifically between a graphics module and an internal notebook screen?",
+      "options": [
+        "eDP",
+        "HDMI",
+        "DisplayPort",
+        "MIPI"
+      ],
+      "answer": "eDP",
+      "explanation_correct": "Embedded DisplayPort (eDP) is the standard connection for the internal interface of laptop monitors.",
+      "explanation_incorrect": "HDMI is for external consumer displays, standard DisplayPort is for external connections, and MIPI is typically for mobile sensors.",
+      "last_verified_at": "2026-06-12T16:39:01.721Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Components",
+      "question": "Which component in a cathode ray tube serves as the primary source of electron emission?",
+      "options": [
+        "heated cathode",
+        "fluorescent grid",
+        "deflection yoke",
+        "vacuum tube"
+      ],
+      "answer": "heated cathode",
+      "explanation_correct": "Thermionic emission occurs when a cathode is heated, causing it to release electrons into the vacuum.",
+      "explanation_incorrect": "The other components are involved in steering, focusing, or containing the beam rather than emitting the initial electrons.",
+      "last_verified_at": "2026-06-12T16:39:01.723Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Components",
+      "question": "What is the high-voltage interior surface of a CRT called, which is coated in phosphors and attracts the electron beam?",
+      "options": [
+        "the screen",
+        "the deflection plate",
+        "the electron lens",
+        "the focus coil"
+      ],
+      "answer": "the screen",
+      "explanation_correct": "The screen (or faceplate) is coated with phosphors that glow when struck by high-energy electrons from the cathode.",
+      "explanation_incorrect": "Deflection plates or coils are used to steer the beam; the electron lens is used for focusing.",
+      "last_verified_at": "2026-06-12T16:39:22.985Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Optics",
+      "question": "Which specific metal structure is positioned behind the phosphor screen to ensure electrons hit the correct color phosphors?",
+      "options": [
+        "shadow mask",
+        "magnetic ring",
+        "vacuum filter",
+        "deflection plate"
+      ],
+      "answer": "shadow mask",
+      "explanation_correct": "A shadow mask acts as a physical filter to ensure accuracy in color sub-pixel alignment for CRT displays.",
+      "explanation_incorrect": "These options are either general electromagnetic components or optical terms unrelated to color beam alignment.",
+      "last_verified_at": "2026-06-12T16:39:01.723Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Optics",
+      "question": "Which alternative alignment technology was developed by Sony to replace the traditional shadow mask?",
+      "options": [
+        "aperture grille",
+        "magnetic aperture",
+        "focus mirror",
+        "plasma barrier"
+      ],
+      "answer": "aperture grille",
+      "explanation_correct": "The aperture grille uses a series of vertical wires to focus electron beams onto phosphor stripes.",
+      "explanation_incorrect": "These other terms describe unrelated display architectures or non-existent alignment methods.",
+      "last_verified_at": "2026-06-12T16:39:01.723Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Physics",
+      "question": "Which principle is primarily utilized to steer the electron beam to precise coordinates on a CRT screen?",
+      "options": [
+        "magnetic deflection",
+        "gas ionization",
+        "photodiode sensing",
+        "thermal expansion"
+      ],
+      "answer": "magnetic deflection",
+      "explanation_correct": "Adjusting the current through electromagnetic coils allows the beam to be steered across the screen face.",
+      "explanation_incorrect": "These other options involve physical properties not used for beam steering in vacuum tubes.",
+      "last_verified_at": "2026-06-12T16:39:01.723Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "CRT Components",
+      "question": "What assembly is responsible for both generating and focusing the electron beam in a CRT?",
+      "options": [
+        "electron gun",
+        "phosphor array",
+        "anode grid",
+        "deflection unit"
+      ],
+      "answer": "electron gun",
+      "explanation_correct": "The electron gun assembly contains the cathode, control grid, and focusing anodes.",
+      "explanation_incorrect": "These represent other parts of the tube structure involved in light emission or beam positioning.",
+      "last_verified_at": "2026-06-12T16:39:01.723Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Fundamentals",
+      "question": "What material state is leveraged in LCDs to modulate how light passes through the screen?",
+      "options": [
+        "liquid crystal",
+        "plasma state",
+        "superconductor",
+        "polymer resin"
+      ],
+      "answer": "liquid crystal",
+      "explanation_correct": "Liquid crystals switch between states to change the polarization phase of light.",
+      "explanation_incorrect": "These are either energy states or industrial materials not used for digital light modulation in this fashion.",
+      "last_verified_at": "2026-06-12T16:39:01.723Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Components",
+      "question": "What technology enables independent addressability of pixels in modern LCDs?",
+      "options": [
+        "active matrix",
+        "passive scan",
+        "plasma relay",
+        "analog flow"
+      ],
+      "answer": "active matrix",
+      "explanation_correct": "Active matrix technology uses a transistor at every pixel to maintain exact voltage states.",
+      "explanation_incorrect": "The alternatives are outdated or unrelated configurations that do not provide pixel-per-pixel control.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Components",
+      "question": "What is the standard type of switching transistor technology used to drive LCD pixels?",
+      "options": [
+        "thin film transistor",
+        "bipolar junction",
+        "vacuum relay",
+        "magnetic diode"
+      ],
+      "answer": "thin film transistor",
+      "explanation_correct": "TFTs are transparent switches deposited onto glass substrates to control local liquid crystal states.",
+      "explanation_incorrect": "Bipolar and vacuum technologies are either too bulky or electronically incompatible with flat panel substrates.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Physics",
+      "question": "Which optical component is required in an LCD to ensure only specific orientations of light waves reach the viewer?",
+      "options": [
+        "polarizer",
+        "diffraction grating",
+        "refractive lens",
+        "interference filter"
+      ],
+      "answer": "polarizer",
+      "explanation_correct": "Polarizers act as the final optical shutter by blocking light that has not been correctly rotated by the crystal layer.",
+      "explanation_incorrect": "These optical components filter wavelength or trajectory rather than modulating light wave oscillation orientation.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Backlighting",
+      "question": "Before LEDs, what was the primary high-voltage gas-filled lamp used for backlighting LCDs?",
+      "options": [
+        "cold cathode fluorescent",
+        "incandescent filament",
+        "halogen pulse",
+        "mercury vapor arc"
+      ],
+      "answer": "cold cathode fluorescent",
+      "explanation_correct": "CCFLs were the industry standard for backlight sources before the wide adoption of LEDs.",
+      "explanation_incorrect": "Incandescent and halogen lights produce too much heat for slim screen designs, and simple mercury arcs are not the primary backlight source.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "LCD Backlighting",
+      "question": "What modern semiconductor device has replaced gas-filled tubes as the standard backlight source?",
+      "options": [
+        "light emitting diode",
+        "laser filament",
+        "glow discharge tube",
+        "field emitter array"
+      ],
+      "answer": "light emitting diode",
+      "explanation_correct": "LEDs provide higher efficiency, better color gamut, and slim form factors compared to traditional tubes.",
+      "explanation_incorrect": "These components are either high-intensity light sources for specialized use or experimental alternatives not utilized as common backlights.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Fundamentals",
+      "question": "What fundamental characteristic defines OLED display pixels that requires no independent backlight?",
+      "options": [
+        "emissive",
+        "transmissive",
+        "refractive",
+        "reflective"
+      ],
+      "answer": "emissive",
+      "explanation_correct": "OLEDs are emissive because each diode produces its own light when an electric current is applied.",
+      "explanation_incorrect": "These refer to the way light passes through or reflects off surfaces, which is contrary to how self-lighting diodes function.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Materials",
+      "question": "OLED displays derive their name from the specific material used to construct the diodes; what is this base material?",
+      "options": [
+        "organic polymers",
+        "silicon wafers",
+        "metal salts",
+        "ceramic compounds"
+      ],
+      "answer": "organic polymers",
+      "explanation_correct": "Organic polymers or small organic molecules are the base materials that emit light in OLED structures.",
+      "explanation_incorrect": "Silicon, salts, and ceramics are inorganic substrates that do not possess the required electroluminescent properities for this application.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "OLED Physics",
+      "question": "What visual characteristic is achieved by OLEDs when individual pixels are completely turned off?",
+      "options": [
+        "true black",
+        "neutral grey",
+        "high contrast",
+        "deep saturation"
+      ],
+      "answer": "true black",
+      "explanation_correct": "Because OLED pixels can be switched off entirely, they produce infinite contrast ratios by reaching perfect darkness.",
+      "explanation_incorrect": "These other terms describe visual attributes, but only 'true black' defines the capability of having zero light emission.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Plasma Displays",
+      "question": "What specific gases are typically excited within a plasma display cell?",
+      "options": [
+        "xenon and neon",
+        "argon and oxygen",
+        "helium and nitrogen",
+        "krypton and hydrogen"
+      ],
+      "answer": "xenon and neon",
+      "explanation_correct": "A mixture of inert gases, primarily neon and xenon, is used to produce the ultraviolet light in a plasma display cell.",
+      "explanation_incorrect": "The other gas combinations lack the specific ionization properties required to excite the phosphor coating for visible light emission.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Plasma Displays",
+      "question": "Inside a plasma display, what is the state of the gas contained within the individual cells?",
+      "options": [
+        "ionized gas",
+        "compressed solid",
+        "liquefied gas",
+        "thermal liquid"
+      ],
+      "answer": "ionized gas",
+      "explanation_correct": "Applying a high voltage creates plasma, which is an ionized gas state within each pixel cell.",
+      "explanation_incorrect": "These states are physically impossible or incorrect for the electrical discharge mechanism required in plasma technology.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Performance",
+      "question": "What term describes the frequency with which a display updates its image content?",
+      "options": [
+        "refresh rate",
+        "response time",
+        "sampling clock",
+        "frame delay"
+      ],
+      "answer": "refresh rate",
+      "explanation_correct": "Refresh rate refers to the number of times per second an image is drawn on the screen.",
+      "explanation_incorrect": "These terms refer to the speed of signal processing or pixel transition rather than the frequency of panel updates.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Display Performance",
+      "question": "What metric measures the delay required for a pixel to shift from one color intensity to another?",
+      "options": [
+        "response time",
+        "scan rate",
+        "pixel pitch",
+        "sync lag"
+      ],
+      "answer": "response time",
+      "explanation_correct": "Response time is the duration in milliseconds it takes for a pixel to change its state.",
+      "explanation_incorrect": "These options relate to display resolution or signal processing overhead rather than physical pixel switching speeds.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sub-pixel Structure",
+      "question": "Which standard primary color model is used to define sub-pixels in the vast majority of modern displays?",
+      "options": [
+        "RGB",
+        "CMYK",
+        "HSV",
+        "LAB"
+      ],
+      "answer": "RGB",
+      "explanation_correct": "Red, Green, and Blue sub-pixels are combined in varying intensities to produce a full color gamut.",
+      "explanation_incorrect": "These models describe print color or mathematical representations that are not applied directly to electronic physical sub-pixel displays.",
+      "last_verified_at": "2026-06-12T16:39:01.724Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}
