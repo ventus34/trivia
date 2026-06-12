@@ -13,6 +13,9 @@ let abortGenController = null;
 let isGenerating = false;
 let currentEditId = null; // Przechowuje ID obecnie edytowanego pytania w Modalu
 let activeSpoilers = []; // Obecnie wykryte spoilery
+let activeVerifications = []; // Obecnie sugerowane poprawki weryfikacyjne
+let activeVerifyingModel = null; // Model, którym przeprowadzono ostatnią udaną weryfikację
+let verifiedInCurrentSession = new Set(); // ID pytań zweryfikowanych w bieżącej sesji modalu
 let currentLanguage = localStorage.getItem('trivia_lang') || 'pl';
 
 function updateApiKeyUI(prov) {
@@ -77,7 +80,7 @@ const PROVIDERS = {
   openrouter: {
     url: 'https://openrouter.ai/api/v1',
     needsKey: true,
-    defaultModel: 'google/gemini-2.5-flash',
+    defaultModel: 'google/gemini-3-flash-preview',
   },
   openai: { url: 'https://api.openai.com/v1', needsKey: true, defaultModel: 'gpt-4o-mini' },
   lm_studio: { url: 'http://localhost:1234/v1', needsKey: false, defaultModel: '' },
@@ -124,6 +127,10 @@ const UI = {
   batchSize: document.getElementById('batch-size'),
   batchSizeValue: document.getElementById('batch-size-value'),
 
+  // Concurrency slider
+  concurrencyLimit: document.getElementById('concurrency-limit'),
+  concurrencyValue: document.getElementById('concurrency-value'),
+
   // Toolbar
   searchInput: document.getElementById('search-q'),
   filterCat: document.getElementById('filter-cat'),
@@ -162,6 +169,37 @@ const UI = {
   spoilerStatusMsg: document.getElementById('spoiler-status-msg'),
   saveAllSpoilersBtn: document.getElementById('save-all-spoilers-btn'),
   spoilerLangFilter: document.getElementById('spoiler-lang-filter'),
+
+  // Category suggestion tool references
+  suggestCatsBtn: document.getElementById('suggest-cats-btn'),
+  suggestCatsModal: document.getElementById('suggest-cats-modal'),
+  suggestCatsModalContent: document.getElementById('suggest-cats-modal-content'),
+  closeSuggestCatsModalBtn: document.getElementById('close-suggest-cats-modal-btn'),
+  closeSuggestCatsModalBottomBtn: document.getElementById('close-suggest-cats-modal-bottom-btn'),
+  addSelectedCatsBtn: document.getElementById('add-selected-cats-btn'),
+  suggestCatsLoading: document.getElementById('suggest-cats-loading'),
+  suggestCatsList: document.getElementById('suggest-cats-list'),
+  toggleLoadedCatsBtn: document.getElementById('toggle-loaded-cats-btn'),
+  toggleLoadedCatsIcon: document.getElementById('toggle-loaded-cats-icon'),
+  loadedCatsCount: document.getElementById('loaded-cats-count'),
+  loadedCatsPreviewList: document.getElementById('loaded-cats-preview-list'),
+
+  // Verification tool references
+  checkVerifyBtn: document.getElementById('check-verify-btn'),
+  verifyModal: document.getElementById('verify-modal'),
+  verifyModalContent: document.getElementById('verify-modal-content'),
+  closeVerifyModalBtn: document.getElementById('close-verify-modal-btn'),
+  closeVerifyModalBottomBtn: document.getElementById('close-verify-modal-bottom-btn'),
+  runVerifyBtn: document.getElementById('run-verify-btn'),
+  verifyList: document.getElementById('verify-list'),
+  verifyStatusMsg: document.getElementById('verify-status-msg'),
+  saveAllVerifyBtn: document.getElementById('save-all-verify-btn'),
+  verifyLangFilter: document.getElementById('verify-lang-filter'),
+  verifyCatFilter: document.getElementById('verify-cat-filter'),
+  verifyUnverifiedOnly: document.getElementById('verify-unverified-only'),
+  verifyForceReverify: document.getElementById('verify-force-reverify'),
+  nextBatchVerifyBtn: document.getElementById('next-batch-verify-btn'),
+  verifyLoading: document.getElementById('verify-loading'),
 };
 
 // --- Directory browser for existing category JSONs ---
@@ -260,6 +298,8 @@ async function loadAllFromDirectory() {
             answer: q.answer,
             explanation_correct: q.explanation_correct || '',
             explanation_incorrect: q.explanation_incorrect || '',
+            last_verified_at: q.last_verified_at || data.last_verified_at || null,
+            verifying_model: q.verifying_model || data.verifying_model || null,
           }));
           generatedQuestions.push(...imported);
           countLoaded++;
@@ -361,6 +401,8 @@ async function handleImportCategory(file) {
         answer: q.answer,
         explanation_correct: q.explanation_correct || '',
         explanation_incorrect: q.explanation_incorrect || '',
+        last_verified_at: q.last_verified_at || data.last_verified_at || null,
+        verifying_model: q.verifying_model || data.verifying_model || null,
       }));
 
       // Dołączamy, nie nadpisujemy
@@ -379,6 +421,203 @@ async function handleImportCategory(file) {
     }
   };
   reader.readAsText(file);
+}
+
+// --- AI Category Suggestions ---
+async function getExistingCategoryNames() {
+  const categories = new Set();
+
+  // 1. Current inputs
+  getActiveCategories().forEach((c) => {
+    if (c.name.trim()) categories.add(c.name.trim());
+  });
+
+  // 2. Already generated/imported questions
+  generatedQuestions.forEach((q) => {
+    if (q.category && q.category.trim()) categories.add(q.category.trim());
+  });
+
+  // 3. Fetch from databases/list.json
+  try {
+    const res = await fetch('databases/list.json');
+    if (res.ok) {
+      const dbList = await res.json();
+      const targetLang = UI.dbLang.value;
+      dbList.forEach((db) => {
+        if (db.language === targetLang && db.name) {
+          categories.add(db.name.trim());
+        }
+      });
+    }
+  } catch (e) {
+    logConsole('Błąd pobierania list.json: ' + e.message);
+  }
+
+  return Array.from(categories);
+}
+
+function openSuggestCatsModal() {
+  UI.suggestCatsModal.classList.remove('hidden');
+  setTimeout(() => {
+    UI.suggestCatsModal.classList.remove('opacity-0');
+    UI.suggestCatsModalContent.classList.remove('scale-95');
+  }, 10);
+  fetchCategorySuggestions();
+}
+
+function closeSuggestCatsModal() {
+  UI.suggestCatsModal.classList.add('opacity-0');
+  UI.suggestCatsModalContent.classList.add('scale-95');
+  setTimeout(() => UI.suggestCatsModal.classList.add('hidden'), 200);
+}
+
+async function fetchCategorySuggestions() {
+  const provider = UI.provider.value;
+  const modelBp = UI.modelSelectBp.value;
+  const key = UI.apiKey.value.trim();
+  const config = PROVIDERS[provider];
+
+  if (config.needsKey && !key) {
+    showNotification(translations.gen_api_key_required[currentLanguage], true);
+    closeSuggestCatsModal();
+    return;
+  }
+
+  UI.suggestCatsLoading.classList.remove('hidden');
+  UI.suggestCatsList.classList.add('hidden');
+  UI.addSelectedCatsBtn.disabled = true;
+
+  try {
+    const existing = await getExistingCategoryNames();
+    const lang = UI.dbLang.value;
+
+    // Update loaded categories preview in the modal
+    if (UI.loadedCatsCount) UI.loadedCatsCount.textContent = existing.length;
+    if (UI.loadedCatsPreviewList) {
+      UI.loadedCatsPreviewList.innerHTML = '';
+      if (existing.length === 0) {
+        const span = document.createElement('span');
+        span.className = 'text-xs text-gray-500 italic py-1 w-full';
+        span.textContent =
+          currentLanguage === 'pl' ? 'Brak załadowanych kategorii.' : 'No loaded categories.';
+        UI.loadedCatsPreviewList.appendChild(span);
+      } else {
+        existing.forEach((cat) => {
+          const badge = document.createElement('span');
+          badge.className =
+            'bg-slate-800 border border-slate-700/60 text-gray-300 text-[10px] font-medium px-2 py-0.5 rounded-md';
+          badge.textContent = cat;
+          UI.loadedCatsPreviewList.appendChild(badge);
+        });
+      }
+      // Ensure list is hidden and rotation reset when loading new suggestions
+      UI.loadedCatsPreviewList.classList.add('hidden');
+      if (UI.toggleLoadedCatsIcon) {
+        UI.toggleLoadedCatsIcon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    const fallbackPrompts = {
+      pl: {
+        system: 'Jesteś ekspertem projektowania teleturniejów i baz wiedzy.',
+        instruction:
+          'Zadaniem jest zasugerowanie dokładnie 18 nowych, unikalnych, różnorodnych i ciekawych kategorii dla pytań quizowych w oparciu o listę już istniejących kategorii, opcjonalny motyw przewodni i wybrany język.\nDla każdej kategorii stwórz krótką nazwę (max 3-4 słowa) oraz krótki opis (temat/motyw przewodni, max 10-12 słów).\nZadbaj o wysokie zróżnicowanie propozycji:\n- Część z nich (ok. połowa) powinna być powiązana lub komplementarna do już istniejących kategorii (uzupełniając je lub rozwijając ich motywy).\n- Druga część powinna iść w zupełnie nowych, niezagospodarowanych kierunkach i dziedzinach wiedzy (kreatywne, niespodziewane i oryginalne tematy).\nSugestie muszą pasować do wybranego języka i nie mogą się powtarzać semantycznie.\n\nFORMAT JSON (zwróć wyłącznie ten obiekt):\n{\n  "categories": [\n    {\n      "name": "Nazwa nowej kategorii",\n      "description": "Krótki opis / motyw przewodni"\n    }\n  ]\n}',
+        task_template:
+          'Istniejące kategorie: {existing_categories}\nMotyw przewodni: {theme}\nJęzyk docelowy: {language}',
+      },
+      en: {
+        system: 'You are an expert in quiz design and knowledge databases.',
+        instruction:
+          'Your task is to suggest exactly 18 new, unique, diverse, and interesting trivia categories based on the list of existing categories, an optional theme, and the target language.\nFor each category, provide a short name (max 3-4 words) and a brief description (theme/focus, max 10-12 words).\nEnsure high diversity among the suggestions:\n- About half of the suggestions should be related or complementary to the existing categories (extending or supplementing them).\n- The other half should explore completely new, untapped directions and domains of knowledge (creative, unexpected, and original topics).\nSuggestions must be appropriate for the target language and not overlap semantically.\n\nJSON FORMAT (return strictly this object):\n{\n  "categories": [\n    {\n      "name": "New Category Name",\n      "description": "Brief description / theme"\n    }\n  ]\n}',
+        task_template:
+          'Existing categories: {existing_categories}\nTheme: {theme}\nTarget language: {language}',
+      },
+    };
+
+    const promptData =
+      promptsConfig?.suggest_categories?.[lang] || fallbackPrompts[lang] || fallbackPrompts['en'];
+    const system =
+      promptData.system +
+      '\n' +
+      (Array.isArray(promptData.instruction)
+        ? promptData.instruction.join('\n')
+        : promptData.instruction);
+    const theme = UI.theme.value.trim() || (lang === 'pl' ? 'brak' : 'none');
+    const prompt = promptData.task_template
+      .replace(
+        '{existing_categories}',
+        existing.length > 0
+          ? existing.join(', ')
+          : lang === 'pl'
+            ? 'brak (zacznij od zera)'
+            : 'none (start from scratch)'
+      )
+      .replace('{theme}', theme)
+      .replace('{language}', lang);
+
+    const res = await callLLM(provider, modelBp, system, prompt);
+    if (!res || !Array.isArray(res.categories)) {
+      throw new Error('Invalid format from AI');
+    }
+
+    UI.suggestCatsList.innerHTML = '';
+    res.categories.forEach((cat, index) => {
+      const id = `suggest-cat-${index}`;
+      const div = document.createElement('div');
+      div.className =
+        'flex items-start gap-3 bg-slate-950 p-3 rounded-lg border border-slate-800 hover:border-slate-700 transition-colors';
+      div.innerHTML = `
+        <input type="checkbox" id="${id}" data-name="${encodeURIComponent(cat.name)}" data-desc="${encodeURIComponent(cat.description || '')}" checked class="mt-1 h-4 w-4 rounded border-slate-700 bg-slate-800 text-indigo-650 focus:ring-indigo-500">
+        <label for="${id}" class="flex-grow cursor-pointer select-none">
+          <span class="block text-sm font-bold text-white">${cat.name}</span>
+          <span class="block text-xs text-gray-400 mt-0.5">${cat.description || ''}</span>
+        </label>
+      `;
+      UI.suggestCatsList.appendChild(div);
+    });
+
+    UI.suggestCatsLoading.classList.add('hidden');
+    UI.suggestCatsList.classList.remove('hidden');
+    UI.addSelectedCatsBtn.disabled = false;
+  } catch (err) {
+    logConsole('Błąd sugerowania kategorii: ' + err.message);
+    showNotification(translations.gen_suggest_fetch_error[currentLanguage], true);
+    closeSuggestCatsModal();
+  }
+}
+
+function addSelectedSuggestedCategories() {
+  const emptyRows = [];
+  UI.categoriesList.querySelectorAll('.category-input-row').forEach((row) => {
+    const nameInput = row.querySelector('.category-name-input');
+    if (nameInput && !nameInput.value.trim()) {
+      emptyRows.push(row);
+    }
+  });
+
+  let addedCount = 0;
+  UI.suggestCatsList.querySelectorAll('input[type="checkbox"]:checked').forEach((cb) => {
+    const name = decodeURIComponent(cb.dataset.name);
+    const desc = decodeURIComponent(cb.dataset.desc);
+
+    if (emptyRows.length > 0) {
+      const rowToOverwrite = emptyRows.shift();
+      const nameInput = rowToOverwrite.querySelector('.category-name-input');
+      const descInput = rowToOverwrite.querySelector('.category-desc-input');
+      if (nameInput) nameInput.value = name;
+      if (descInput) descInput.value = desc;
+    } else {
+      addCategoryRow(name, desc);
+    }
+    addedCount++;
+  });
+
+  if (addedCount > 0) {
+    showNotification(
+      translations.gen_suggest_added_notification[currentLanguage].replace('{count}', addedCount)
+    );
+  }
+  closeSuggestCatsModal();
 }
 
 // --- Init ---
@@ -424,6 +663,11 @@ async function initialize() {
     UI.batchSizeValue.textContent = UI.batchSize.value;
   });
 
+  // Concurrency slider live display
+  UI.concurrencyLimit.addEventListener('input', () => {
+    UI.concurrencyValue.textContent = UI.concurrencyLimit.value;
+  });
+
   UI.openCatDirBtn.addEventListener('click', () => openCategoriesDirectory());
   UI.importCatBtn.addEventListener('click', () => UI.importCatFile.click());
   UI.importCatFile.addEventListener('change', (e) => {
@@ -464,6 +708,30 @@ async function initialize() {
   UI.autofixAllSpoilersBtn.addEventListener('click', rewriteAllSpoilers);
   UI.saveAllSpoilersBtn.addEventListener('click', saveAllSpoilersChanges);
   UI.spoilerLangFilter.addEventListener('change', renderSpoilersTable);
+
+  // Verification Listeners
+  UI.checkVerifyBtn.addEventListener('click', openVerifyModal);
+  UI.closeVerifyModalBtn.addEventListener('click', closeVerifyModal);
+  UI.closeVerifyModalBottomBtn.addEventListener('click', closeVerifyModal);
+  UI.runVerifyBtn.addEventListener('click', startFullVerification);
+  UI.saveAllVerifyBtn.addEventListener('click', saveAllVerifications);
+  UI.verifyLangFilter.addEventListener('change', renderVerificationList);
+  UI.verifyCatFilter.addEventListener('change', renderVerificationList);
+  UI.nextBatchVerifyBtn.addEventListener('click', startFullVerification);
+
+  // Category Suggestion Listeners
+  UI.suggestCatsBtn.addEventListener('click', openSuggestCatsModal);
+  UI.closeSuggestCatsModalBtn.addEventListener('click', closeSuggestCatsModal);
+  UI.closeSuggestCatsModalBottomBtn.addEventListener('click', closeSuggestCatsModal);
+  UI.addSelectedCatsBtn.addEventListener('click', addSelectedSuggestedCategories);
+  if (UI.toggleLoadedCatsBtn) {
+    UI.toggleLoadedCatsBtn.addEventListener('click', () => {
+      const isHidden = UI.loadedCatsPreviewList.classList.toggle('hidden');
+      if (UI.toggleLoadedCatsIcon) {
+        UI.toggleLoadedCatsIcon.style.transform = isHidden ? 'rotate(0deg)' : 'rotate(180deg)';
+      }
+    });
+  }
 
   updateModelDropdown(savedProvider);
 
@@ -546,7 +814,7 @@ async function fetchModels() {
 
 function updateModelDropdown(provider) {
   const config = PROVIDERS[provider];
-  const def = config.defaultModel || 'google/gemini-2.5-flash';
+  const def = config.defaultModel || 'google/gemini-3-flash-preview';
   UI.modelSelectBp.innerHTML = `<option value="${def}">${def}</option>`;
   UI.modelSelectQ.innerHTML = `<option value="${def}">${def}</option>`;
 }
@@ -585,6 +853,23 @@ async function callLLM(provider, model, system, prompt, signal) {
   return healAndParseJSON(data.choices[0].message.content.trim());
 }
 
+async function runWithConcurrency(limit, items, taskFn) {
+  const results = [];
+  const executing = new Set();
+  for (const item of items) {
+    if (abortGenController.signal.aborted) break;
+    const p = Promise.resolve().then(() => taskFn(item));
+    results.push(p);
+    executing.add(p);
+    const clean = () => executing.delete(p);
+    p.then(clean, clean);
+    if (executing.size >= limit) {
+      await Promise.race(executing);
+    }
+  }
+  return Promise.all(results);
+}
+
 // --- Generator z systemem Chunking ---
 async function startGeneration() {
   if (isGenerating) return;
@@ -603,6 +888,7 @@ async function startGeneration() {
 
   const countPerCat = parseInt(UI.qPerCategory.value) || 5;
   const batchSize = Math.max(1, parseInt(UI.batchSize.value) || 1);
+  const concurrencyLimit = Math.max(1, parseInt(UI.concurrencyLimit.value) || 4);
   const lang = UI.dbLang.value,
     diff = UI.difficulty.value,
     theme = UI.theme.value.trim();
@@ -616,23 +902,31 @@ async function startGeneration() {
   UI.logs.innerHTML = '';
 
   let totalGeneratedCount = 0;
-  const totalQuestionsTarget = activeCategories.length * countPerCat;
+  const totalQuestionsTarget = activeCategories.length * countPerCat * (lang === 'both' ? 2 : 1);
 
   try {
-    for (let c = 0; c < activeCategories.length; c++) {
-      const category = activeCategories[c];
-      if (abortGenController.signal.aborted) break;
+    const categoryBlueprints = [];
 
+    // Phase 1: Generate blueprints for all categories concurrently
+    logConsole(
+      currentLanguage === 'pl'
+        ? `Rozpoczynanie generowania tematów (współbieżność: ${concurrencyLimit})...`
+        : `Starting blueprint generation (concurrency: ${concurrencyLimit})...`
+    );
+
+    await runWithConcurrency(concurrencyLimit, activeCategories, async (category) => {
+      if (abortGenController.signal.aborted) return;
       logConsole(
-        `${currentLanguage === 'pl' ? 'Generowanie tematów (Chunking) dla:' : 'Generating blueprints (Chunking) for:'} "${category.name}"...`
+        `${currentLanguage === 'pl' ? 'Generowanie tematów dla:' : 'Generating blueprints for:'} "${category.name}"...`
       );
       UI.taskStatus.textContent = `${currentLanguage === 'pl' ? 'Analiza dla' : 'Analysis for'} "${category.name}"...`;
 
       let allBlueprints = [];
       let remaining = countPerCat;
-      const MAX_CHUNK = 15;
+      const MAX_CHUNK = 200;
       const usedTargets = [];
-      const bpPromptData = promptsConfig.generate_blueprints[lang];
+      const bpLang = lang === 'both' ? 'pl' : lang;
+      const bpPromptData = promptsConfig.generate_blueprints[bpLang];
 
       while (remaining > 0 && !abortGenController.signal.aborted) {
         const chunk = Math.min(remaining, MAX_CHUNK);
@@ -659,43 +953,115 @@ async function startGeneration() {
           res.topics.forEach((t) => usedTargets.push(t.target_answer));
           remaining -= res.topics.length;
         } catch (err) {
+          logConsole(
+            `${currentLanguage === 'pl' ? 'Błąd pobierania tematów dla' : 'Error fetching blueprints for'} "${category.name}": ${err.message}`
+          );
           break;
         }
       }
 
-      allBlueprints = allBlueprints.slice(0, countPerCat);
+      categoryBlueprints.push({
+        category,
+        blueprints: allBlueprints.slice(0, countPerCat),
+      });
+    });
 
-      // --- Batch vs single-question generation ---
+    if (abortGenController.signal.aborted) return;
+
+    // Phase 2: Flatten all question generation tasks
+    const tasks = [];
+    categoryBlueprints.forEach(({ category, blueprints }) => {
       if (batchSize <= 1) {
-        // Tryb single (oryginalny)
-        const qPromptData = promptsConfig.generate_question_from_blueprint[lang];
-        const qSystem = qPromptData.persona + '\n' + qPromptData.static_instructions.join('\n');
+        blueprints.forEach((blueprint, qIdx) => {
+          tasks.push({
+            type: 'single',
+            category,
+            blueprint,
+            qIdx,
+            total: blueprints.length,
+          });
+        });
+      } else {
+        for (let bStart = 0; bStart < blueprints.length; bStart += batchSize) {
+          const chunk = blueprints.slice(bStart, bStart + batchSize);
+          tasks.push({
+            type: 'batch',
+            category,
+            chunk,
+            batchNum: Math.floor(bStart / batchSize) + 1,
+            totalBatches: Math.ceil(blueprints.length / batchSize),
+          });
+        }
+      }
+    });
 
-        for (let qIdx = 0; qIdx < allBlueprints.length; qIdx++) {
-          if (abortGenController.signal.aborted) break;
-          const blueprint = allBlueprints[qIdx];
-          UI.taskStatus.textContent = `${currentLanguage === 'pl' ? 'Pytanie' : 'Question'} ${qIdx + 1}/${allBlueprints.length} ${currentLanguage === 'pl' ? 'dla' : 'for'} "${category.name}"`;
+    // Phase 3: Run all question tasks concurrently
+    logConsole(
+      currentLanguage === 'pl'
+        ? `Rozpoczynanie generowania pytań (współbieżność: ${concurrencyLimit})...`
+        : `Starting question generation (concurrency: ${concurrencyLimit})...`
+    );
 
-          const qPrompt = qPromptData.task_template
-            .replace('{category}', category.name)
-            .replace('{subcategory}', blueprint.subcategory || 'Ogólne')
-            .replace('{modifier}', blueprint.modifier || 'Fakt')
-            .replace('{target_answer}', blueprint.target_answer || 'ciekawostka')
-            .replace('{knowledge_level}', diff);
+    const qPromptData = promptsConfig.generate_question_from_blueprint[lang];
+    const qSystem = qPromptData
+      ? qPromptData.persona + '\n' + qPromptData.static_instructions.join('\n')
+      : '';
 
-          try {
-            const qData = await callLLM(
-              provider,
-              modelQ,
-              qSystem,
-              qPrompt,
-              abortGenController.signal
-            );
+    const batchPromptData = promptsConfig.generate_questions_batch[lang];
+    const batchSystem = batchPromptData
+      ? batchPromptData.persona + '\n' + batchPromptData.static_instructions.join('\n')
+      : '';
+
+    await runWithConcurrency(concurrencyLimit, tasks, async (task) => {
+      if (abortGenController.signal.aborted) return;
+
+      if (task.type === 'single') {
+        const qPrompt = qPromptData.task_template
+          .replace('{category}', task.category.name)
+          .replace('{subcategory}', task.blueprint.subcategory || 'Ogólne')
+          .replace('{modifier}', task.blueprint.modifier || 'Fakt')
+          .replace('{target_answer}', task.blueprint.target_answer || 'ciekawostka')
+          .replace('{knowledge_level}', diff);
+
+        try {
+          const qData = await callLLM(
+            provider,
+            modelQ,
+            qSystem,
+            qPrompt,
+            abortGenController.signal
+          );
+
+          if (lang === 'both') {
+            generatedQuestions.push({
+              id: `pl-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+              language: 'pl',
+              category: task.category.name,
+              subcategory: task.blueprint.subcategory || '',
+              question: qData.question_pl,
+              options: qData.options_pl.slice(0, 4),
+              answer: qData.answer_pl,
+              explanation_correct: qData.explanation_correct_pl || '',
+              explanation_incorrect: qData.explanation_incorrect_pl || '',
+            });
+            generatedQuestions.push({
+              id: `en-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+              language: 'en',
+              category: task.category.name,
+              subcategory: task.blueprint.subcategory || '',
+              question: qData.question_en,
+              options: qData.options_en.slice(0, 4),
+              answer: qData.answer_en,
+              explanation_correct: qData.explanation_correct_en || '',
+              explanation_incorrect: qData.explanation_incorrect_en || '',
+            });
+            totalGeneratedCount += 2;
+          } else {
             generatedQuestions.push({
               id: Date.now() + '-' + Math.random().toString(36).substring(2, 6),
               language: lang,
-              category: category.name,
-              subcategory: blueprint.subcategory || '',
+              category: task.category.name,
+              subcategory: task.blueprint.subcategory || '',
               question: qData.question,
               options: qData.options.slice(0, 4),
               answer: qData.answer,
@@ -703,75 +1069,75 @@ async function startGeneration() {
               explanation_incorrect: qData.explanation_incorrect || '',
             });
             totalGeneratedCount++;
-          } catch (err) {
-            logConsole(
-              currentLanguage === 'pl'
-                ? 'Pominięto 1 pytanie (błąd parsowania JSON z modelu).'
-                : 'Skipped 1 question (model JSON parsing error).'
-            );
           }
-
-          const pct = Math.round((totalGeneratedCount / totalQuestionsTarget) * 100);
-          UI.progressBar.style.width = `${pct}%`;
-          UI.progressPct.textContent = `${pct}%`;
-          UI.progressCounts.textContent = translations.gen_progress_counts[currentLanguage].replace(
-            '{count}',
-            totalGeneratedCount
+          logConsole(
+            currentLanguage === 'pl'
+              ? `Wygenerowano pytanie dla: "${task.category.name}"`
+              : `Generated question for: "${task.category.name}"`
           );
-          updateTable();
-          await delay(300);
+        } catch (err) {
+          logConsole(
+            currentLanguage === 'pl'
+              ? `Błąd generowania pytania dla "${task.category.name}": ${err.message}`
+              : `Error generating question for "${task.category.name}": ${err.message}`
+          );
         }
       } else {
-        // Tryb BATCH — grupujemy blueprinty i generujemy N pytań w jednym prompcie
-        const batchPromptData = promptsConfig.generate_questions_batch[lang];
-        const batchSystem =
-          batchPromptData.persona + '\n' + batchPromptData.static_instructions.join('\n');
+        const blueprintsJson = JSON.stringify(task.chunk, null, 2);
+        const batchPrompt = batchPromptData.task_template
+          .replace('{category}', task.category.name)
+          .replace('{knowledge_level}', diff)
+          .replace('{blueprints_json}', blueprintsJson);
 
-        for (let bStart = 0; bStart < allBlueprints.length; bStart += batchSize) {
-          if (abortGenController.signal.aborted) break;
-          const chunk = allBlueprints.slice(bStart, bStart + batchSize);
-          const batchNum = Math.floor(bStart / batchSize) + 1;
-          const totalBatches = Math.ceil(allBlueprints.length / batchSize);
-          UI.taskStatus.textContent = `Batch ${batchNum}/${totalBatches} (${chunk.length} ${currentLanguage === 'pl' ? 'pyt.' : 'qs'}) ${currentLanguage === 'pl' ? 'dla' : 'for'} "${category.name}"`;
-          logConsole(
-            `Batch ${batchNum}/${totalBatches}: ${currentLanguage === 'pl' ? 'generowanie' : 'generating'} ${chunk.length} ${currentLanguage === 'pl' ? 'pytań dla' : 'questions for'} "${category.name}"...`
+        try {
+          const batchResult = await callLLM(
+            provider,
+            modelQ,
+            batchSystem,
+            batchPrompt,
+            abortGenController.signal
           );
+          const questions = Array.isArray(batchResult?.questions) ? batchResult.questions : [];
 
-          const blueprintsJson = JSON.stringify(chunk, null, 2);
-          const batchPrompt = batchPromptData.task_template
-            .replace('{category}', category.name)
-            .replace('{knowledge_level}', diff)
-            .replace('{blueprints_json}', blueprintsJson);
+          for (let qi = 0; qi < questions.length; qi++) {
+            const qData = questions[qi];
+            const blueprint = task.chunk[qi] || task.chunk[0];
 
-          try {
-            const batchResult = await callLLM(
-              provider,
-              modelQ,
-              batchSystem,
-              batchPrompt,
-              abortGenController.signal
-            );
-            const questions = Array.isArray(batchResult?.questions) ? batchResult.questions : [];
-
-            if (questions.length === 0) {
-              logConsole(
-                `Batch ${batchNum}: ${currentLanguage === 'pl' ? 'brak pytań w odpowiedzi — pomijam.' : 'no questions in response — skipping.'}`
-              );
-            }
-
-            for (let qi = 0; qi < questions.length; qi++) {
-              const qData = questions[qi];
-              const blueprint = chunk[qi] || chunk[0];
+            if (lang === 'both') {
+              if (!qData?.question_pl || !qData?.answer_pl || !Array.isArray(qData?.options_pl)) {
+                continue;
+              }
+              generatedQuestions.push({
+                id: `pl-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+                language: 'pl',
+                category: task.category.name,
+                subcategory: qData.subcategory_pl || blueprint?.subcategory || '',
+                question: qData.question_pl,
+                options: qData.options_pl.slice(0, 4),
+                answer: qData.answer_pl,
+                explanation_correct: qData.explanation_correct_pl || '',
+                explanation_incorrect: qData.explanation_incorrect_pl || '',
+              });
+              generatedQuestions.push({
+                id: `en-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+                language: 'en',
+                category: task.category.name,
+                subcategory: qData.subcategory_en || blueprint?.subcategory || '',
+                question: qData.question_en,
+                options: qData.options_en.slice(0, 4),
+                answer: qData.answer_en,
+                explanation_correct: qData.explanation_correct_en || '',
+                explanation_incorrect: qData.explanation_incorrect_en || '',
+              });
+              totalGeneratedCount += 2;
+            } else {
               if (!qData?.question || !qData?.answer || !Array.isArray(qData?.options)) {
-                logConsole(
-                  `Batch ${batchNum}[${qi}]: ${currentLanguage === 'pl' ? 'nieprawidłowa struktura pytania — pomijam.' : 'invalid question structure — skipping.'}`
-                );
                 continue;
               }
               generatedQuestions.push({
                 id: Date.now() + '-' + Math.random().toString(36).substring(2, 6),
                 language: lang,
-                category: category.name,
+                category: task.category.name,
                 subcategory: qData.subcategory || blueprint?.subcategory || '',
                 question: qData.question,
                 options: qData.options.slice(0, 4),
@@ -781,24 +1147,33 @@ async function startGeneration() {
               });
               totalGeneratedCount++;
             }
-          } catch (err) {
-            logConsole(
-              `Batch ${batchNum}: ${currentLanguage === 'pl' ? 'błąd' : 'error'} (${err.message}) — ${currentLanguage === 'pl' ? 'pomijam cały batch.' : 'skipping whole batch.'}`
-            );
           }
-
-          const pct = Math.round((totalGeneratedCount / totalQuestionsTarget) * 100);
-          UI.progressBar.style.width = `${pct}%`;
-          UI.progressPct.textContent = `${pct}%`;
-          UI.progressCounts.textContent = translations.gen_progress_counts[currentLanguage].replace(
-            '{count}',
-            totalGeneratedCount
+          logConsole(
+            `Batch ${task.batchNum} dla "${task.category.name}": ${currentLanguage === 'pl' ? 'zakończono' : 'finished'}`
           );
-          updateTable();
-          await delay(300);
+        } catch (err) {
+          logConsole(
+            `Batch ${task.batchNum}: ${currentLanguage === 'pl' ? 'błąd' : 'error'} (${err.message}) — pomijam.`
+          );
         }
       }
-    }
+
+      // Update UI Progress dynamically
+      const pct = Math.round((totalGeneratedCount / totalQuestionsTarget) * 100);
+      UI.progressBar.style.width = `${pct}%`;
+      UI.progressPct.textContent = `${pct}%`;
+      UI.progressCounts.textContent = translations.gen_progress_counts[currentLanguage].replace(
+        '{count}',
+        totalGeneratedCount
+      );
+      UI.taskStatus.textContent =
+        currentLanguage === 'pl'
+          ? `Generowanie... (${totalGeneratedCount}/${totalQuestionsTarget})`
+          : `Generating... (${totalGeneratedCount}/${totalQuestionsTarget})`;
+      updateTable();
+      await delay(100);
+    });
+
     showNotification(
       abortGenController.signal.aborted
         ? translations.gen_stopped[currentLanguage]
@@ -1036,6 +1411,15 @@ function buildCategoryObj(catName, lang = null) {
 
   const catLang = activeLang !== 'ALL' ? activeLang : catQs[0].language || UI.dbLang.value || 'pl';
 
+  const latestVerifiedAt = catQs.reduce((latest, q) => {
+    if (!q.last_verified_at) return latest;
+    if (!latest) return q.last_verified_at;
+    return q.last_verified_at > latest ? q.last_verified_at : latest;
+  }, null);
+
+  const latestQ = catQs.find((q) => q.last_verified_at === latestVerifiedAt);
+  const verifyingModel = latestQ ? latestQ.verifying_model : null;
+
   return {
     id: slugify(catName) + '_' + catLang,
     name: catName,
@@ -1043,6 +1427,8 @@ function buildCategoryObj(catName, lang = null) {
     description:
       currentLanguage === 'pl' ? 'Baza wyeksportowana z edytora' : 'Database exported from editor',
     created_at: new Date().toISOString(),
+    last_verified_at: latestVerifiedAt,
+    verifying_model: verifyingModel,
     question_count: catQs.length,
     questions: catQs.map((q) => ({
       subcategory: q.subcategory,
@@ -1051,6 +1437,8 @@ function buildCategoryObj(catName, lang = null) {
       answer: q.answer,
       explanation_correct: q.explanation_correct,
       explanation_incorrect: q.explanation_incorrect,
+      last_verified_at: q.last_verified_at || null,
+      verifying_model: q.verifying_model || null,
     })),
   };
 }
@@ -1847,6 +2235,595 @@ function saveAllSpoilersChanges() {
   renderSpoilersTable();
   updateTable();
   closeSpoilerModal();
+}
+
+// --- Kompleksowa Weryfikacja Pytań AI ---
+function openVerifyModal() {
+  activeVerifications = [];
+  verifiedInCurrentSession = new Set();
+  UI.verifyList.innerHTML = '';
+  UI.verifyList.classList.add('hidden');
+  UI.verifyLoading.classList.add('hidden');
+  UI.runVerifyBtn.classList.remove('hidden');
+  UI.saveAllVerifyBtn.classList.add('hidden');
+  UI.nextBatchVerifyBtn.classList.add('hidden');
+  UI.verifyStatusMsg.textContent = '';
+
+  if (UI.verifyForceReverify) {
+    UI.verifyForceReverify.checked = false;
+  }
+
+  // Sync language filter from the main table filter
+  const mainFilterLang = UI.filterLang ? UI.filterLang.value : 'ALL';
+  if (UI.verifyLangFilter) {
+    UI.verifyLangFilter.value = mainFilterLang;
+  }
+
+  // Populate category filter dropdown
+  const uniqueCats = [...new Set(generatedQuestions.map((q) => q.category))].sort();
+  if (UI.verifyCatFilter) {
+    const currentVal = UI.verifyCatFilter.value || 'ALL';
+    UI.verifyCatFilter.innerHTML = `<option value="ALL">${translations.gen_filter_all_cats[currentLanguage]}</option>`;
+    uniqueCats.forEach((c) => {
+      const opt = document.createElement('option');
+      opt.value = c;
+      opt.textContent = c;
+      if (c === currentVal) opt.selected = true;
+      UI.verifyCatFilter.appendChild(opt);
+    });
+    // Set to match current main category filter if possible
+    const mainFilterCat = UI.filterCat ? UI.filterCat.value : 'ALL';
+    if (uniqueCats.includes(mainFilterCat)) {
+      UI.verifyCatFilter.value = mainFilterCat;
+    }
+  }
+
+  UI.verifyModal.classList.remove('hidden');
+  setTimeout(() => {
+    UI.verifyModal.classList.remove('opacity-0');
+    UI.verifyModalContent.classList.remove('scale-95');
+  }, 10);
+}
+
+function closeVerifyModal() {
+  UI.verifyModal.classList.add('opacity-0');
+  UI.verifyModalContent.classList.add('scale-95');
+  setTimeout(() => UI.verifyModal.classList.add('hidden'), 200);
+}
+
+async function startFullVerification() {
+  const provider = UI.provider.value;
+  const model = UI.modelSelectQ.value;
+  const config = PROVIDERS[provider];
+  const key = UI.apiKey.value.trim();
+
+  if (config.needsKey && !key) {
+    return showNotification(translations.gen_api_key_required[currentLanguage], true);
+  }
+
+  const selectedLang = UI.verifyLangFilter ? UI.verifyLangFilter.value : 'ALL';
+  const selectedCat = UI.verifyCatFilter ? UI.verifyCatFilter.value : 'ALL';
+  const unverifiedOnly = UI.verifyUnverifiedOnly ? UI.verifyUnverifiedOnly.checked : false;
+  const forceReverify = UI.verifyForceReverify ? UI.verifyForceReverify.checked : false;
+
+  if (forceReverify) {
+    const affectedCats = new Set();
+    generatedQuestions.forEach((q) => {
+      const langMatch = selectedLang === 'ALL' || (q.language || 'pl') === selectedLang;
+      const catMatch = selectedCat === 'ALL' || q.category === selectedCat;
+      const alreadyProcessed = verifiedInCurrentSession.has(q.id);
+      if (langMatch && catMatch && q.last_verified_at && !alreadyProcessed) {
+        delete q.last_verified_at;
+        delete q.verifying_model;
+        affectedCats.add(q.category);
+      }
+    });
+    if (openedDirHandle) {
+      for (const cat of affectedCats) {
+        await saveCategoryToDirectory(cat, openedDirHandle);
+      }
+    }
+  }
+
+  let questionsToVerify = generatedQuestions;
+
+  // Filter by language
+  if (selectedLang !== 'ALL') {
+    questionsToVerify = questionsToVerify.filter((q) => (q.language || 'pl') === selectedLang);
+  }
+  // Filter by category
+  if (selectedCat !== 'ALL') {
+    questionsToVerify = questionsToVerify.filter((q) => q.category === selectedCat);
+  }
+  // Filter by unverified status if in serial mode
+  if (unverifiedOnly) {
+    questionsToVerify = questionsToVerify.filter((q) => !q.last_verified_at);
+  }
+
+  if (questionsToVerify.length === 0) {
+    return showNotification(translations.gen_verify_no_questions[currentLanguage], true);
+  }
+
+  // Slice to first 500 questions for serial batching
+  if (unverifiedOnly) {
+    questionsToVerify = questionsToVerify.slice(0, 500);
+  }
+
+  UI.verifyLoading.classList.remove('hidden');
+  UI.verifyList.classList.add('hidden');
+  UI.runVerifyBtn.bgClass = ''; // clear references
+  UI.runVerifyBtn.classList.add('hidden');
+  UI.saveAllVerifyBtn.classList.add('hidden');
+  UI.nextBatchVerifyBtn.classList.add('hidden');
+  UI.verifyStatusMsg.textContent = '';
+
+  activeVerifications = [];
+  activeVerifyingModel = model;
+
+  // Batch size: up to 100 questions (as approved by the user)
+  const batchSize = 100;
+  const batches = [];
+  for (let i = 0; i < questionsToVerify.length; i += batchSize) {
+    batches.push(questionsToVerify.slice(i, i + batchSize));
+  }
+
+  try {
+    for (let b = 0; b < batches.length; b++) {
+      const batch = batches[b];
+      const simpleBatch = batch.map((q) => ({
+        id: q.id,
+        category: q.category,
+        subcategory: q.subcategory || '',
+        language: q.language || 'pl',
+        question: q.question,
+        options: q.options,
+        answer: q.answer,
+        explanation_correct: q.explanation_correct || '',
+        explanation_incorrect: q.explanation_incorrect || '',
+      }));
+
+      // Determine language context for prompt
+      const promptLang = selectedLang === 'en' ? 'en' : 'pl';
+      const promptData = promptsConfig.verify_questions[promptLang];
+      const langName = promptLang === 'pl' ? 'Polski / Polish' : 'Angielski / English';
+
+      const system = (promptData.persona + '\n' + promptData.static_instructions.join('\n')).replace(
+        /{language}/g,
+        langName
+      );
+      const prompt = promptData.task_template
+        .replace(/{language}/g, langName)
+        .replace('{questions_json}', JSON.stringify(simpleBatch, null, 2));
+
+      const res = await callLLM(provider, model, system, prompt);
+
+      // Map questions that passed verification as-is (no corrections requested)
+      const affectedCats = new Set();
+      batch.forEach((q) => {
+        const hasSug = res && res.suggestions && res.suggestions.some((sug) => sug.id === q.id);
+        if (!hasSug) {
+          const mainIdx = generatedQuestions.findIndex((x) => x.id === q.id);
+          if (mainIdx !== -1) {
+            generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
+            generatedQuestions[mainIdx].verifying_model = model;
+            verifiedInCurrentSession.add(q.id);
+            affectedCats.add(q.category);
+          }
+        }
+      });
+
+      if (openedDirHandle) {
+        for (const cat of affectedCats) {
+          await saveCategoryToDirectory(cat, openedDirHandle);
+        }
+      }
+
+      if (res && res.suggestions && Array.isArray(res.suggestions)) {
+        res.suggestions.forEach((sug) => {
+          const origQ = batch.find((q) => q.id === sug.id);
+          if (origQ && sug.suggested) {
+            activeVerifications.push({
+              questionObj: origQ,
+              confidence: sug.confidence || 'medium',
+              issues: sug.issues || ['Wymaga poprawy / Needs correction'],
+              newQuestionText: sug.suggested.question || origQ.question,
+              newAnswerText: sug.suggested.answer || origQ.answer,
+              newOptions:
+                sug.suggested.options && Array.isArray(sug.suggested.options)
+                  ? sug.suggested.options
+                  : [...origQ.options],
+              explanationCorrect: sug.suggested.explanation_correct || origQ.explanation_correct || '',
+              explanationIncorrect: sug.suggested.explanation_incorrect || origQ.explanation_incorrect || '',
+            });
+          }
+        });
+      }
+    }
+
+    renderVerificationList();
+  } catch (err) {
+    showNotification(
+      translations.gen_verify_analysis_error[currentLanguage].replace('{error}', err.message),
+      true
+    );
+    UI.runVerifyBtn.classList.remove('hidden');
+  } finally {
+    UI.verifyLoading.classList.add('hidden');
+  }
+}
+
+function renderVerificationList() {
+  const selectedLang = UI.verifyLangFilter ? UI.verifyLangFilter.value : 'ALL';
+  const selectedCat = UI.verifyCatFilter ? UI.verifyCatFilter.value : 'ALL';
+
+  const displayed = activeVerifications.filter((item) => {
+    const langMatch = selectedLang === 'ALL' || (item.questionObj.language || 'pl') === selectedLang;
+    const catMatch = selectedCat === 'ALL' || item.questionObj.category === selectedCat;
+    return langMatch && catMatch;
+  });
+
+  UI.verifyList.innerHTML = '';
+
+  if (displayed.length === 0) {
+    const unverifiedOnly = UI.verifyUnverifiedOnly ? UI.verifyUnverifiedOnly.checked : false;
+    let remainingCount = 0;
+    if (unverifiedOnly) {
+      remainingCount = generatedQuestions.filter((q) => {
+        const langMatch = selectedLang === 'ALL' || (q.language || 'pl') === selectedLang;
+        const catMatch = selectedCat === 'ALL' || q.category === selectedCat;
+        const isUnverified = !q.last_verified_at;
+        return langMatch && catMatch && isUnverified;
+      }).length;
+    }
+
+    if (unverifiedOnly && remainingCount > 0) {
+      UI.verifyList.innerHTML = `
+        <div class="flex flex-col items-center justify-center py-16 text-center">
+          <span class="text-3xl mb-2">⏭️</span>
+          <p class="text-gray-400 text-sm font-semibold mb-2">${translations.gen_verify_unverified_pool_status[currentLanguage].replace('{count}', remainingCount)}</p>
+          <p class="text-gray-500 text-xs">${currentLanguage === 'pl' ? 'Wszystkie pytania z poprzedniej partii zostały przetworzone. Kliknij przycisk poniżej, aby weryfikować kolejne 500 pytań.' : 'All questions from the previous batch have been processed. Click the button below to verify the next 500 questions.'}</p>
+        </div>
+      `;
+      UI.nextBatchVerifyBtn.innerHTML = `⏭️ ${translations.gen_verify_next_batch_btn[currentLanguage].replace('{count}', remainingCount)}`;
+      UI.nextBatchVerifyBtn.classList.remove('hidden');
+    } else {
+      UI.verifyList.innerHTML = `
+        <div class="flex flex-col items-center justify-center py-16 text-center">
+          <span class="text-3xl mb-2">🎉</span>
+          <p class="text-gray-400 text-sm font-semibold">${
+            unverifiedOnly 
+              ? (currentLanguage === 'pl' ? 'Wszystkie pytania zostały zweryfikowane! Pula wyczerpana.' : 'All questions have been verified! Pool exhausted.')
+              : translations.gen_verify_none[currentLanguage]
+          }</p>
+        </div>
+      `;
+      UI.nextBatchVerifyBtn.classList.add('hidden');
+    }
+
+    UI.verifyList.classList.remove('hidden');
+    UI.saveAllVerifyBtn.classList.add('hidden');
+    UI.verifyStatusMsg.textContent = translations.gen_verify_status_msg[currentLanguage].replace('{count}', 0);
+    return;
+  }
+
+  UI.nextBatchVerifyBtn.classList.add('hidden');
+  UI.saveAllVerifyBtn.classList.remove('hidden');
+  UI.verifyList.classList.remove('hidden');
+  UI.verifyStatusMsg.textContent = translations.gen_verify_status_msg[currentLanguage].replace(
+    '{count}',
+    displayed.length
+  );
+
+  displayed.forEach((item) => {
+    const index = activeVerifications.indexOf(item);
+    const card = document.createElement('div');
+    card.className = 'bg-slate-950 bg-opacity-40 border border-slate-800 rounded-xl p-5 space-y-4 text-xs';
+
+    // Confidence badge styling
+    let badgeColor = 'bg-gray-800 text-gray-400';
+    let badgeText = translations.gen_verify_confidence_medium[currentLanguage];
+    const conf = (item.confidence || 'medium').toLowerCase();
+    if (conf === 'high') {
+      badgeColor = 'bg-emerald-950 bg-opacity-40 text-emerald-400 border border-emerald-800 border-opacity-40';
+      badgeText = translations.gen_verify_confidence_high[currentLanguage];
+    } else if (conf === 'medium') {
+      badgeColor = 'bg-amber-950 bg-opacity-40 text-amber-400 border border-amber-800 border-opacity-40';
+      badgeText = translations.gen_verify_confidence_medium[currentLanguage];
+    } else if (conf === 'low') {
+      badgeColor = 'bg-rose-950 bg-opacity-40 text-rose-400 border border-rose-850 border-opacity-40';
+      badgeText = translations.gen_verify_confidence_low[currentLanguage];
+    }
+
+    // Verification metadata HTML badge
+    let verificationMetaHtml = '';
+    if (item.questionObj.last_verified_at) {
+      const dateStr = new Date(item.questionObj.last_verified_at).toLocaleString(
+        currentLanguage === 'pl' ? 'pl-PL' : 'en-US'
+      );
+      verificationMetaHtml = `
+        <span class="flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] bg-slate-800 text-gray-300 border border-slate-700">
+          <span>🛡️</span> <strong>${translations.gen_verify_last_verified[currentLanguage]}:</strong> ${dateStr} (${item.questionObj.verifying_model || 'AI'})
+        </span>
+      `;
+    } else {
+      verificationMetaHtml = `
+        <span class="flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] bg-slate-800 text-gray-500 border border-slate-700 border-dashed">
+          <span>🛡️</span> <em>${translations.gen_verify_not_verified[currentLanguage]}</em>
+        </span>
+      `;
+    }
+
+    card.innerHTML = `
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pb-3 border-b border-slate-800">
+        <div class="flex items-center gap-2 flex-wrap text-white">
+          <span class="bg-indigo-950 bg-opacity-50 text-indigo-300 font-semibold px-2 py-0.5 rounded uppercase tracking-wider text-[10px]">${item.questionObj.category}</span>
+          ${
+            item.questionObj.subcategory
+              ? `<span class="bg-slate-800 text-gray-400 px-2 py-0.5 rounded text-[10px]">${item.questionObj.subcategory}</span>`
+              : ''
+          }
+          <span class="bg-slate-800 text-indigo-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">${
+            item.questionObj.language || 'pl'
+          }</span>
+          <span class="flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] ${badgeColor}">
+            <span>🎯</span> <strong>${translations.gen_verify_confidence[currentLanguage]}:</strong> ${badgeText}
+          </span>
+          ${verificationMetaHtml}
+        </div>
+        <div class="flex gap-2">
+          <button class="accept-verify-btn bg-emerald-700 hover:bg-emerald-600 text-white px-3 py-1.5 rounded font-semibold transition-colors flex items-center gap-1" data-index="${index}">
+            ✔️ ${translations.gen_verify_accept_btn[currentLanguage]}
+          </button>
+          <button class="reject-verify-btn bg-slate-800 hover:bg-slate-700 text-gray-400 hover:text-white px-3 py-1.5 rounded transition-colors" data-index="${index}">
+            🗑️ ${translations.gen_verify_reject_btn[currentLanguage]}
+          </button>
+        </div>
+      </div>
+
+      <div class="bg-amber-950 bg-opacity-20 border border-amber-800 border-opacity-40 text-amber-300 p-3 rounded-lg flex flex-col gap-1">
+        <span class="font-bold text-[10px] uppercase tracking-wider text-amber-400">⚠️ ${
+          translations.gen_verify_th_issues[currentLanguage]
+        }:</span>
+        <ul class="list-disc list-inside space-y-0.5 pl-1">
+          ${item.issues.map((issue) => `<li>${issue}</li>`).join('')}
+        </ul>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Original -->
+        <div class="space-y-3 bg-slate-900 bg-opacity-30 p-4 rounded-lg border border-slate-850">
+          <span class="block font-bold text-gray-500 uppercase tracking-wider text-[10px]">${
+            translations.gen_verify_th_original[currentLanguage]
+          }</span>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_q_text[currentLanguage]
+            }:</label>
+            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${
+              item.questionObj.question
+            }</div>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_options_title[currentLanguage]
+            }:</label>
+            <div class="grid grid-cols-2 gap-2">
+              ${item.questionObj.options
+                .map((opt) => {
+                  const isCorrect = opt === item.questionObj.answer;
+                  return `<div class="px-2.5 py-1.5 rounded border ${
+                    isCorrect
+                      ? 'bg-emerald-950 bg-opacity-20 border-emerald-800 border-opacity-40 text-emerald-400 font-semibold'
+                      : 'bg-slate-950 bg-opacity-45 border-slate-900 border-opacity-60 text-gray-400'
+                  } break-words">${opt}</div>`;
+                })
+                .join('')}
+            </div>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_explanation_correct[currentLanguage]
+            }:</label>
+            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${
+              item.questionObj.explanation_correct || ''
+            }</div>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_explanation_incorrect[currentLanguage]
+            }:</label>
+            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${
+              item.questionObj.explanation_incorrect || ''
+            }</div>
+          </div>
+        </div>
+
+        <!-- Suggested -->
+        <div class="space-y-3 bg-indigo-950 bg-opacity-10 p-4 rounded-lg border border-indigo-950 border-opacity-40">
+          <span class="block font-bold text-indigo-400 uppercase tracking-wider text-[10px]">${
+            translations.gen_verify_th_suggested[currentLanguage]
+          }</span>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_q_text[currentLanguage]
+            }:</label>
+            <textarea class="verify-q-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
+      item.newQuestionText
+    }</textarea>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_options_title[currentLanguage]
+            }:</label>
+            <div class="grid grid-cols-2 gap-2">
+              ${item.newOptions
+                .map(
+                  (opt, optIdx) => `
+                <input type="text" class="verify-opt-input w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" data-index="${index}" data-opt-idx="${optIdx}" value="${opt}">
+              `
+                )
+                .join('')}
+            </div>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_correct_hint[currentLanguage]
+            }:</label>
+            <select class="verify-ans-select w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" data-index="${index}">
+              ${item.newOptions
+                .map(
+                  (opt) => `
+                <option value="${opt}" ${opt === item.newAnswerText ? 'selected' : ''}>${opt}</option>
+              `
+                )
+                .join('')}
+            </select>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_explanation_correct[currentLanguage]
+            }:</label>
+            <textarea class="verify-exp-c-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
+      item.explanationCorrect || ''
+    }</textarea>
+          </div>
+          <div>
+            <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
+              translations.gen_modal_explanation_incorrect[currentLanguage]
+            }:</label>
+            <textarea class="verify-exp-i-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
+      item.explanationIncorrect || ''
+    }</textarea>
+          </div>
+        </div>
+      </div>
+    `;
+
+    // Connect reactive inputs
+    const qTextarea = card.querySelector('.verify-q-textarea');
+    qTextarea.addEventListener('input', (e) => {
+      item.newQuestionText = e.target.value;
+    });
+
+    const expCTextarea = card.querySelector('.verify-exp-c-textarea');
+    expCTextarea.addEventListener('input', (e) => {
+      item.explanationCorrect = e.target.value;
+    });
+
+    const expITextarea = card.querySelector('.verify-exp-i-textarea');
+    expITextarea.addEventListener('input', (e) => {
+      item.explanationIncorrect = e.target.value;
+    });
+
+    const optInputs = card.querySelectorAll('.verify-opt-input');
+    const ansSelect = card.querySelector('.verify-ans-select');
+
+    optInputs.forEach((input) => {
+      input.addEventListener('input', (e) => {
+        const optIdx = parseInt(e.target.dataset.optIdx);
+        const oldVal = item.newOptions[optIdx];
+        const newVal = e.target.value.trim();
+        item.newOptions[optIdx] = newVal;
+
+        // Sync options with selector dropdown
+        const selectOptions = ansSelect.querySelectorAll('option');
+        if (selectOptions[optIdx]) {
+          selectOptions[optIdx].value = newVal;
+          selectOptions[optIdx].textContent = newVal;
+        }
+
+        // If the correct answer matches the old value, update it
+        if (item.newAnswerText === oldVal) {
+          item.newAnswerText = newVal;
+        }
+      });
+    });
+
+    ansSelect.addEventListener('change', (e) => {
+      item.newAnswerText = e.target.value;
+    });
+
+    // Accept/Reject buttons
+    card.querySelector('.accept-verify-btn').addEventListener('click', async () => {
+      const mainIdx = generatedQuestions.findIndex((x) => x.id === item.questionObj.id);
+      if (mainIdx !== -1) {
+        generatedQuestions[mainIdx].question = item.newQuestionText;
+        generatedQuestions[mainIdx].answer = item.newAnswerText;
+        generatedQuestions[mainIdx].options = [...item.newOptions];
+        generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect;
+        generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect;
+        generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
+        generatedQuestions[mainIdx].verifying_model = activeVerifyingModel || 'AI';
+        verifiedInCurrentSession.add(item.questionObj.id);
+      }
+      activeVerifications.splice(index, 1);
+      showNotification(translations.gen_verify_saved_single[currentLanguage]);
+      renderVerificationList();
+      updateTable();
+      if (openedDirHandle) {
+        await saveCategoryToDirectory(item.questionObj.category, openedDirHandle);
+      }
+    });
+
+    card.querySelector('.reject-verify-btn').addEventListener('click', async () => {
+      const mainIdx = generatedQuestions.findIndex((x) => x.id === item.questionObj.id);
+      if (mainIdx !== -1) {
+        generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
+        generatedQuestions[mainIdx].verifying_model = activeVerifyingModel || 'AI';
+        verifiedInCurrentSession.add(item.questionObj.id);
+      }
+      activeVerifications.splice(index, 1);
+      showNotification(currentLanguage === 'pl' ? 'Odrzucono sugestię poprawki.' : 'Rejected correction suggestion.');
+      renderVerificationList();
+      updateTable();
+      if (openedDirHandle) {
+        await saveCategoryToDirectory(item.questionObj.category, openedDirHandle);
+      }
+    });
+
+    UI.verifyList.appendChild(card);
+  });
+}
+
+function saveAllVerifications() {
+  if (activeVerifications.length === 0) return;
+
+  const affectedCats = new Set();
+  let countSaved = 0;
+  activeVerifications.forEach((item) => {
+    const mainIdx = generatedQuestions.findIndex((x) => x.id === item.questionObj.id);
+    if (mainIdx !== -1) {
+      generatedQuestions[mainIdx].question = item.newQuestionText;
+      generatedQuestions[mainIdx].answer = item.newAnswerText;
+      generatedQuestions[mainIdx].options = [...item.newOptions];
+      generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect;
+      generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect;
+      generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
+      generatedQuestions[mainIdx].verifying_model = activeVerifyingModel || 'AI';
+      verifiedInCurrentSession.add(item.questionObj.id);
+      affectedCats.add(item.questionObj.category);
+      countSaved++;
+    }
+  });
+
+  activeVerifications = [];
+  showNotification(
+    translations.gen_verify_saved_all[currentLanguage].replace('{count}', countSaved)
+  );
+  updateTable();
+
+  if (openedDirHandle) {
+    affectedCats.forEach((cat) => {
+      saveCategoryToDirectory(cat, openedDirHandle);
+    });
+  }
+
+  const unverifiedOnly = UI.verifyUnverifiedOnly ? UI.verifyUnverifiedOnly.checked : false;
+  if (unverifiedOnly) {
+    renderVerificationList();
+  } else {
+    closeVerifyModal();
+  }
 }
 
 window.addEventListener('DOMContentLoaded', initialize);

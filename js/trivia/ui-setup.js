@@ -482,11 +482,27 @@ export function updateSelectionCounter() {
   if (UI.btnApplyCategorySelection) {
     UI.btnApplyCategorySelection.disabled = count !== 6;
     if (count === 6) {
-      UI.btnApplyCategorySelection.classList.remove('bg-indigo-600', 'hover:bg-indigo-700', 'active:bg-indigo-850');
-      UI.btnApplyCategorySelection.classList.add('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
+      UI.btnApplyCategorySelection.classList.remove(
+        'bg-indigo-600',
+        'hover:bg-indigo-700',
+        'active:bg-indigo-850'
+      );
+      UI.btnApplyCategorySelection.classList.add(
+        'bg-green-600',
+        'hover:bg-green-700',
+        'active:bg-green-800'
+      );
     } else {
-      UI.btnApplyCategorySelection.classList.remove('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
-      UI.btnApplyCategorySelection.classList.add('bg-indigo-600', 'hover:bg-indigo-700', 'active:bg-indigo-850');
+      UI.btnApplyCategorySelection.classList.remove(
+        'bg-green-600',
+        'hover:bg-green-700',
+        'active:bg-green-800'
+      );
+      UI.btnApplyCategorySelection.classList.add(
+        'bg-indigo-600',
+        'hover:bg-indigo-700',
+        'active:bg-indigo-850'
+      );
     }
   }
 }

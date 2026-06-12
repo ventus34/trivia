@@ -2,35 +2,41 @@
   "id": "applied_science_and_everyday_tech_en",
   "name": "Applied Science and Everyday Tech",
   "language": "en",
-  "description": "A set of questions about the scientific principles behind everyday objects: from GPS and touchscreens, through microwave and induction cooking, to materials science and kitchen biochemistry.",
-  "created_at": "2026-06-11T17:50:00.000Z",
+  "description": "Questions covering: Everyday Technology, Household Physics, Materials Science, Kitchen Science...",
+  "created_at": "2026-06-12T14:49:08.082Z",
+  "last_verified_at": "2026-06-12T14:32:02.753Z",
+  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Everyday Technology",
-      "question": "Which mathematical method (measuring signal travel time from at least four satellites) is used to determine a receiver's position in GPS?",
+      "question": "Which mathematical method, using signal travel time from at least four satellites, is used to determine a receiver's position in GPS?",
       "options": [
         "Trilateration",
         "Triangulation",
         "Multilateration",
         "Linear interpolation"
       ],
-      "answer": "Trilateration",
-      "explanation_correct": "GPS receivers calculate their precise position using trilateration, which determines absolute distance from multiple satellites based on signal travel times.",
-      "explanation_incorrect": "Triangulation relies on measuring angles, multilateration uses time-difference of arrival, and linear interpolation is a data-fitting method."
+      "answer": "Multilateration",
+      "explanation_correct": "GPS determines position by measuring the time it takes signals to arrive from multiple satellites and solving for the receiver's location. In the strict technical sense, this is multilateration.",
+      "explanation_incorrect": "Triangulation uses angles, trilateration uses distances in a geometric sense, and linear interpolation is unrelated to satellite positioning.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which semiconductor element (most commonly paired as gallium arsenide) serves as the basis for light-emitting diodes (LEDs)?",
+      "question": "Which gallium-based semiconductor compound serves as a basis for light-emitting diodes (LEDs)?",
       "options": [
-        "Gallium",
+        "Gallium nitride",
         "Silicon",
         "Germanium",
         "Indium"
       ],
-      "answer": "Gallium",
-      "explanation_correct": "Gallium-based compounds (like gallium arsenide or gallium nitride) possess direct bandgaps, allowing efficient photon emission when electrical current passes through.",
-      "explanation_incorrect": "Silicon and germanium are indirect bandgap semiconductors that cannot emit light efficiently, and indium acts as a dopant rather than the main substrate."
+      "answer": "Gallium nitride",
+      "explanation_correct": "Gallium nitride (GaN) is a direct bandgap semiconductor widely used in LEDs because it emits light efficiently when current flows through it.",
+      "explanation_incorrect": "Silicon and germanium are not efficient light emitters for LEDs, and indium is typically part of compound semiconductors rather than the sole base material.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -43,7 +49,9 @@
       ],
       "answer": "Capacitive",
       "explanation_correct": "Capacitive touchscreens sense changes in electrostatic fields caused by the conductive nature of human skin, enabling multi-touch gestures.",
-      "explanation_incorrect": "Resistive screens rely on physical pressure bending layers, infrared screens map broken light beams, and SAW screens detect absorption of ultrasonic waves."
+      "explanation_incorrect": "Resistive screens rely on physical pressure bending layers, infrared screens map broken light beams, and SAW screens detect absorption of ultrasonic waves.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Household Physics",
@@ -56,7 +64,9 @@
       ],
       "answer": "Water (H2O)",
       "explanation_correct": "Water molecules are polar dipoles that align themselves with the alternating electromagnetic field, rotating rapidly and transferring kinetic energy as heat.",
-      "explanation_incorrect": "Fats, starch, and proteins absorb microwave energy far less effectively due to their lower molecular polarity."
+      "explanation_incorrect": "Fats, starch, and proteins absorb microwave energy far less effectively due to their lower molecular polarity.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
@@ -69,7 +79,9 @@
       ],
       "answer": "Fluorine",
       "explanation_correct": "The carbon-fluorine bond is one of the strongest in organic chemistry, wrapping the polymer chain in an unreactive, low-energy fluorine envelope.",
-      "explanation_incorrect": "Chlorine is key in PVC, silicon in silicates/silicones, and oxygen in polyesters, none of which achieve Teflon's low friction."
+      "explanation_incorrect": "Chlorine is key in PVC, silicon in silicates/silicones, and oxygen in polyesters, none of which achieve Teflon's low friction.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Household Physics",
@@ -82,7 +94,9 @@
       ],
       "answer": "Faraday's law of electromagnetic induction",
       "explanation_correct": "An induction stove uses a copper coil to create an oscillating magnetic field, inducing eddy currents in the cookware's base which release heat via resistive dissipation.",
-      "explanation_incorrect": "The Joule-Thomson effect covers gas expansion, the Seebeck effect creates thermoelectricity, and the Hall effect measures transverse voltage."
+      "explanation_incorrect": "The Joule-Thomson effect covers gas expansion, the Seebeck effect creates thermoelectricity, and the Hall effect measures transverse voltage.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -95,7 +109,9 @@
       ],
       "answer": "Sodium azide",
       "explanation_correct": "Electric triggers heat sodium azide (NaN3) to over 300 degrees Celsius, triggering an explosive decay that yields nitrogen gas to inflate the bag.",
-      "explanation_incorrect": "Gunpowder and nitroglycerin produce dangerous shockwaves or toxic smoke, and sodium carbonate is a non-explosive cleaning salt."
+      "explanation_incorrect": "Gunpowder and nitroglycerin produce dangerous shockwaves or toxic smoke, and sodium carbonate is a non-explosive cleaning salt.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -108,7 +124,9 @@
       ],
       "answer": "Finder patterns (Position detection)",
       "explanation_correct": "Finder patterns consist of concentric black-white-black squares that let cameras detect the QR code's boundaries and rotation.",
-      "explanation_incorrect": "Alignment patterns correct perspective distortion, data modules are the small bits encoding actual text, and the quiet zone is the blank border."
+      "explanation_incorrect": "Alignment patterns correct perspective distortion, data modules are the small bits encoding actual text, and the quiet zone is the blank border.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
@@ -121,7 +139,9 @@
       ],
       "answer": "Liquid crystal",
       "explanation_correct": "Liquid crystals maintain structural orientation like solids but flow like liquids, twisting light paths under electric fields to control pixels.",
-      "explanation_incorrect": "Plasma emits light directly, Bose-Einstein condensate requires near-absolute zero, and amorphous solids do not align dynamically under electrical voltages."
+      "explanation_incorrect": "Plasma emits light directly, Bose-Einstein condensate requires near-absolute zero, and amorphous solids do not align dynamically under electrical voltages.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
@@ -134,7 +154,9 @@
       ],
       "answer": "High electrical field concentration on sharp points ionizes the air, causing corona discharge",
       "explanation_correct": "Microwaves induce electric currents in metal; sharp tips concentrate the charge, creating an electric field strong enough to ionize air and form sparks.",
-      "explanation_incorrect": "Magnetron damage from reflections is a separate thermal issue, forks do not melt instantly, and mechanical resonance is not the source of the electric arcs."
+      "explanation_incorrect": "Magnetron damage from reflections is a separate thermal issue, forks do not melt instantly, and mechanical resonance is not the source of the electric arcs.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -147,7 +169,9 @@
       ],
       "answer": "Hamburger bun shape (flat bottom, rounded top)",
       "explanation_correct": "While surface tension pulls small drops into spheres, larger falling drops develop flat or indented bottoms due to aerodynamic drag.",
-      "explanation_incorrect": "Perfect spheres only exist in tiny droplets, elongation is prevented by upward pressure, and flat disks disintegrate immediately."
+      "explanation_incorrect": "Perfect spheres only exist in tiny droplets, elongation is prevented by upward pressure, and flat disks disintegrate immediately.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -160,7 +184,9 @@
       ],
       "answer": "Destructive interference",
       "explanation_correct": "ANC systems measure external ambient noise and output a secondary wave shifted by 180 degrees (anti-phase), cancelling the pressure waves.",
-      "explanation_incorrect": "Beats occur from slightly offset frequencies, diffraction bends waves around edges, and refraction changes wave direction at boundary lines."
+      "explanation_incorrect": "Beats occur from slightly offset frequencies, diffraction bends waves around edges, and refraction changes wave direction at boundary lines.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -173,7 +199,9 @@
       ],
       "answer": "Regenerative braking",
       "explanation_correct": "Regenerative braking reverses the electric motor's function, converting kinetic energy into electrical energy stored back in the battery pack.",
-      "explanation_incorrect": "Resistive braking dissipates energy as waste heat, eddy current brakes generate heat in steel discs, and back-EMF is a physical limit rather than a recovery design."
+      "explanation_incorrect": "Resistive braking dissipates energy as waste heat, eddy current brakes generate heat in steel discs, and back-EMF is a physical limit rather than a recovery design.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
@@ -186,7 +214,9 @@
       ],
       "answer": "Graphite (Graphene structure)",
       "explanation_correct": "Carbon fibers contain micro-crystallites of graphite arranged in ribbon-like layers parallel to the fiber axis, utilizing covalent carbon bonds.",
-      "explanation_incorrect": "Diamond features isotropic 3D tetrahedrons, lonsdaleite is a hexagonal diamond allotrope, and fullerenes are spherical cages."
+      "explanation_incorrect": "Diamond features isotropic 3D tetrahedrons, lonsdaleite is a hexagonal diamond allotrope, and fullerenes are spherical cages.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
@@ -199,7 +229,9 @@
       ],
       "answer": "Carbon dioxide (CO2)",
       "explanation_correct": "Yeast metabolizes sugars into ethanol and carbon dioxide; the trapped CO2 gas expands during proofing and baking, leaving air pockets.",
-      "explanation_incorrect": "Oxygen is depleted early on, ethanol is a volatile liquid that evaporates during baking, and methane is a product of anaerobic decay."
+      "explanation_incorrect": "Oxygen is depleted early on, ethanol is a volatile liquid that evaporates during baking, and methane is a product of anaerobic decay.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -212,7 +244,9 @@
       ],
       "answer": "Refraction and internal reflection",
       "explanation_correct": "Water drops act as tiny prisms where sunlight is refracted upon entry, reflected off the back inner wall, and refracted again upon exiting.",
-      "explanation_incorrect": "Diffraction causes optical coronas, polarization does not split colors, and interference creates bright/dark fringes rather than refractive rainbows."
+      "explanation_incorrect": "Diffraction causes optical coronas, polarization does not split colors, and interference creates bright/dark fringes rather than refractive rainbows.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -225,7 +259,9 @@
       ],
       "answer": "Total internal reflection",
       "explanation_correct": "Total internal reflection occurs when light hits the core-cladding boundary at an angle greater than the critical angle, bouncing along the core.",
-      "explanation_incorrect": "Rayleigh scattering causes signal attenuation, standard refraction leaks light, and polarization does not trap photons."
+      "explanation_incorrect": "Rayleigh scattering causes signal attenuation, standard refraction leaks light, and polarization does not trap photons.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
@@ -238,7 +274,9 @@
       ],
       "answer": "Inverse piezoelectric effect",
       "explanation_correct": "In piezoelectric printheads, electric pulses cause a piezoceramic plate to deflect, generating pressure to squeeze ink out.",
-      "explanation_incorrect": "Thermoelectricity relates to thermal gradients, photoelectric effect releases electrons from light, and magnetostriction deforms metals under magnetic fields."
+      "explanation_incorrect": "Thermoelectricity relates to thermal gradients, photoelectric effect releases electrons from light, and magnetostriction deforms metals under magnetic fields.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
@@ -251,7 +289,9 @@
       ],
       "answer": "Air (or nitrogen gas)",
       "explanation_correct": "Aerogels are open-celled mesoporous solids where air occupies over 95% of the volume, trapping gas molecules to stop convective heat transfer.",
-      "explanation_incorrect": "Creating a vacuum inside micro-pores is physically impossible at ambient scale, and noble gases like argon are not standard cell fillers."
+      "explanation_incorrect": "Creating a vacuum inside micro-pores is physically impossible at ambient scale, and noble gases like argon are not standard cell fillers.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
@@ -264,24 +304,28 @@
       ],
       "answer": "Syn-propanethial-S-oxide",
       "explanation_correct": "Syn-propanethial-S-oxide is a volatile gas that triggers sensory fibers in the cornea, prompting the tear glands to dilute the irritation.",
-      "explanation_incorrect": "Diallyl disulfide is a garlic aroma, allicin is an antimicrobial organosulfur in garlic, and hydrogen sulfide is a toxic gas with a rotten egg smell."
+      "explanation_incorrect": "Diallyl disulfide is a garlic aroma, allicin is an antimicrobial organosulfur in garlic, and hydrogen sulfide is a toxic gas with a rotten egg smell.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Why do we see a lightning flash almost instantly during a storm, but hear the thunder delayed by several seconds?",
+      "question": "Why do we see lightning almost instantly during a thunderstorm, but hear the thunder several seconds later?",
       "options": [
-        "The speed of light (300,000 km/s) is vastly higher than the speed of sound in air (340 m/s)",
-        "Sound waves are reflected by clouds, delaying their arrival",
-        "The electrical discharge emits light first, creating sound only as it dissipates",
-        "The human ear processes auditory signals slower than visual signals"
+        "The speed of light is significantly higher than the speed of sound in air",
+        "Sound waves are reflected by clouds, causing a delay",
+        "Electrical discharge emits light first and sound is generated later",
+        "The human brain processes auditory stimuli slower than visual ones"
       ],
-      "answer": "The speed of light (300,000 km/s) is vastly higher than the speed of sound in air (340 m/s)",
-      "explanation_correct": "Light travels at 300,000 kilometers per second, making its travel time negligible, whereas sound travels at a modest 343 meters per second.",
-      "explanation_incorrect": "Echo effects do not slow down the primary wave front, discharge events are simultaneous, and sensory delay difference is negligible."
+      "answer": "The speed of light is significantly higher than the speed of sound in air",
+      "explanation_correct": "Light reaches us nearly instantly because it travels at approx. 300,000 km/s, whereas sound travels at only approx. 340 m/s.",
+      "explanation_incorrect": "Reflections do not cause the primary delay, both phenomena happen simultaneously, and sensory processing differences are negligible compared to the physical travel time.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which short-range wireless communication technology (utilizing magnetic induction of loop antennas) enables contactless card and phone payments?",
+      "question": "Which short-range wireless communication technology, using magnetic induction between coils, enables contactless payments via cards and phones?",
       "options": [
         "NFC (Near Field Communication)",
         "Bluetooth",
@@ -289,12 +333,14 @@
         "Infrared (IrDA)"
       ],
       "answer": "NFC (Near Field Communication)",
-      "explanation_correct": "NFC operates via electromagnetic induction between two loop antennas, powering passive RFID microchips inside payment cards.",
-      "explanation_incorrect": "Bluetooth and Wi-Fi use active transmitter circuits at 2.4 GHz, and infrared requires direct line-of-sight optical paths."
+      "explanation_correct": "NFC operates at a very short range (typically under 10 cm) and uses electromagnetic coupling to securely transmit data.",
+      "explanation_incorrect": "Bluetooth and Wi-Fi are designed for longer ranges, and infrared requires direct line-of-sight.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which three platinum-group precious metals are most commonly used as catalysts in automotive catalytic converters?",
+      "question": "Which three platinum-group metals are most commonly used as catalysts in automotive catalytic converters?",
       "options": [
         "Platinum, palladium, and rhodium",
         "Gold, silver, and copper",
@@ -302,8 +348,10 @@
         "Nickel, cobalt, and titanium"
       ],
       "answer": "Platinum, palladium, and rhodium",
-      "explanation_correct": "Platinum and palladium catalyze oxidation reactions, while rhodium acts as a reduction catalyst to break down toxic nitrogen oxides.",
-      "explanation_incorrect": "Gold and copper do not perform oxidation well, iridium and ruthenium are less stable under heat, and nickel/cobalt rust too quickly."
+      "explanation_correct": "These metals are used to catalyze the reduction of nitrogen oxides and the oxidation of carbon monoxide and unburnt hydrocarbons.",
+      "explanation_incorrect": "Gold and copper are rarely used due to cost or inactivity in these specific reduction/oxidation cycles, and the others are not industry standards.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
@@ -316,24 +364,28 @@
       ],
       "answer": "sp2",
       "explanation_correct": "Graphene carbon atoms are sp2-hybridized, leaving one free p-orbital electron per atom to form delocalized pi-bands that conduct electricity.",
-      "explanation_incorrect": "sp3 hybridization defines diamond's tetrahedral structure, sp defines triple-bond carbon lines, and dsp2 applies to coordination complexes."
+      "explanation_incorrect": "sp3 hybridization defines diamond's tetrahedral structure, sp defines triple-bond carbon lines, and dsp2 applies to coordination complexes.",
+      "last_verified_at": "2026-06-12T14:29:31.063Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which acidic ingredient (such as cream of tartar) is added to baking soda to create baking powder, allowing it to work without sour ingredients in the dough?",
+      "question": "What dry acidic ingredient is added to baking soda to create a baking powder that reacts without the presence of acids in the dough?",
       "options": [
-        "Acid salts (like cream of tartar or monocalcium phosphate)",
+        "Cream of tartar (potassium bitartrate)",
         "Citric acid",
         "Acetic acid",
         "Sodium chloride"
       ],
-      "answer": "Acid salts (like cream of tartar or monocalcium phosphate)",
-      "explanation_correct": "Baking powder is a complete leavening agent containing both bicarbonate and a dry acid salt that react upon hydration.",
-      "explanation_incorrect": "Citric and acetic acids react too rapidly in presence of ambient moisture, and sodium chloride is neutral table salt."
+      "answer": "Cream of tartar (potassium bitartrate)",
+      "explanation_correct": "Cream of tartar is a dry acidic salt that reacts with sodium bicarbonate when moistened to produce CO2 gas.",
+      "explanation_incorrect": "Citric or acetic acids are typically added as liquids, and table salt has no leavening properties.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Which scholar and statesman invented the lightning rod in the 18th century, based on his experiments with atmospheric electricity?",
+      "question": "Which scientist and statesman invented the lightning rod in the 18th century based on his experiments with atmospheric electricity?",
       "options": [
         "Benjamin Franklin",
         "Michael Faraday",
@@ -341,38 +393,44 @@
         "Thomas Edison"
       ],
       "answer": "Benjamin Franklin",
-      "explanation_correct": "Benjamin Franklin designed the lightning rod to discharge storm clouds quietly or guide lightning strikes safely into the soil.",
-      "explanation_incorrect": "Faraday researched induction and shielding cages, Volta built the chemical battery, and Edison worked on early incandescent lighting."
+      "explanation_correct": "Franklin famously proved lightning was electricity and designed the lightning rod to safely conduct the charge to the ground.",
+      "explanation_incorrect": "Faraday is known for electromagnetic induction, Volta for the battery, and Edison for the lightbulb.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which electronic component (light sensor) in a barcode scanner registers the intensity of reflected laser light, converting it into electrical signals?",
+      "question": "Which electronic component acts as a light sensor to record the intensity of reflected laser light in a barcode scanner?",
       "options": [
         "Photodiode",
         "Photoresistor",
         "Light-emitting diode (LED)",
-        "Optocoupler"
+        "Opto-isolator"
       ],
       "answer": "Photodiode",
-      "explanation_correct": "Photodiodes respond rapidly to fluctuating light levels, detecting the pattern of high reflections (white spaces) and low reflections (black bars).",
-      "explanation_incorrect": "Photoresistors have high response latency, LEDs emit photons rather than absorbing them for current generation, and optocouplers isolate internal circuits."
+      "explanation_correct": "Photodiodes have high response speeds, allowing them to detect reflected laser pulses accurately as the scanner sweeps across the bars.",
+      "explanation_incorrect": "Photoresistors are too slow, LEDs emit light rather than detect it, and opto-isolators are used for circuit isolation.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Why does the metal mesh on the window of a microwave oven block microwaves while remaining transparent to visible light?",
+      "question": "Why does the metal mesh on a microwave oven window block microwaves while allowing visible light to pass through?",
       "options": [
-        "The mesh holes are much smaller than the microwave wavelength (12 cm) but much larger than visible light wavelengths",
-        "The mesh is coated with a chemical absorber specific to radio bands",
+        "The mesh holes are much smaller than the microwave wavelength but much larger than the visible light wavelength",
+        "The mesh is coated with a special substance that absorbs radio waves",
         "The mesh acts as a high-density polarizing filter",
-        "Thin metals naturally permit visible light waves to pass at oblique angles"
+        "Thin metal naturally allows visible light to pass through at an angle"
       ],
-      "answer": "The mesh holes are much smaller than the microwave wavelength (12 cm) but much larger than visible light wavelengths",
-      "explanation_correct": "The metal mesh behaves as a solid conductor for waves longer than the mesh aperture size, trapping the 12 cm microwaves while letting tiny visible light waves (400-700 nm) slip through.",
-      "explanation_incorrect": "No chemical absorption is involved, polarization is unrelated to wave size rejection, and bulk metals are entirely opaque to visible light."
+      "answer": "The mesh holes are much smaller than the microwave wavelength but much larger than the visible light wavelength",
+      "explanation_correct": "Electromagnetic waves cannot easily traverse holes significantly smaller than their wavelengths, effectively Faraday-caging the microwaves inside.",
+      "explanation_incorrect": "Visible light has a wavelength of hundreds of nanometers, well below the size of mesh holes, allowing it to pass uninhibited.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which radioactive isotope (a synthetic actinide emitting alpha particles) ionizes air inside the measurement chamber of household smoke detectors?",
+      "question": "Which radioactive isotope, an alpha-emitting actinide, ionizes the air in the sensor chamber of household smoke detectors?",
       "options": [
         "Americium-241",
         "Radium-226",
@@ -380,8 +438,10 @@
         "Plutonium-239"
       ],
       "answer": "Americium-241",
-      "explanation_correct": "Americium-241 ionizes oxygen and nitrogen in the air gap, creating a small electric current that drops when smoke particles enter and bind the ions.",
-      "explanation_incorrect": "Radium-226 is toxic due to high gamma yields, uranium decay rate is too low for ionization, and plutonium is military-grade nuclear fuel."
+      "explanation_correct": "Americium-241 produces a steady stream of alpha particles; smoke particles entering the chamber disrupt this stream, triggering the alarm.",
+      "explanation_incorrect": "The other isotopes listed are either not used for this application or lack the necessary half-life and radiation safety profile.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
@@ -393,12 +453,14 @@
         "Aluminum and magnesium"
       ],
       "answer": "Nickel and titanium",
-      "explanation_correct": "Nitinol is an intermetallic compound of nickel and titanium that undergoes a reversible martensitic phase transformation upon heating.",
-      "explanation_incorrect": "Copper and zinc make brass, iron and chromium yield stainless steel, and aluminum/magnesium form duralumin structural alloys."
+      "explanation_correct": "The name Nitinol is derived from (Ni)ckel (Ti)tanium (N)aval (O)rdnance (L)aboratory where it was discovered.",
+      "explanation_incorrect": "Copper and zinc form brass, iron and chromium are the basis of stainless steel, and aluminum and magnesium form lightweight aerospace alloys.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which egg white protein (constituting over 50% of its composition) denatures and coagulates first during cooking or frying?",
+      "question": "Which protein makes up the largest portion of egg white and is the primary protein to denature during cooking?",
       "options": [
         "Ovalbumin",
         "Conalbumin",
@@ -406,12 +468,14 @@
         "Lysozyme"
       ],
       "answer": "Ovalbumin",
-      "explanation_correct": "Ovalbumin represents the bulk of egg white protein, unfolding its amino acid chains and cross-linking to solidify the egg structure.",
-      "explanation_incorrect": "Conalbumin and ovomucin bind metal ions and stabilize foams, while lysozyme is an enzyme that destroys bacterial cell walls."
+      "explanation_correct": "Ovalbumin comprises over 50% of the proteins in egg white and undergoes rapid denaturation when exposed to heat.",
+      "explanation_incorrect": "Conalbumin is less abundant, Ovomucin provides structural thickness, and Lysozyme is a minor antimicrobial enzyme.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Which optical phenomenon (scattering light off particles smaller than its wavelength) causes the red color of the sky at sunrise and sunset?",
+      "question": "Which optical phenomenon, scattering light proportional to the inverse fourth power of the wavelength, causes the red colors of the sky at sunrise and sunset?",
       "options": [
         "Rayleigh scattering",
         "Mie scattering",
@@ -419,64 +483,74 @@
         "Refraction"
       ],
       "answer": "Rayleigh scattering",
-      "explanation_correct": "Rayleigh scattering affects shorter wavelengths most; at low solar angles, blue light is completely scattered away, leaving red wavelengths to reach the eye.",
-      "explanation_incorrect": "Mie scattering acts on larger particles like dust and clouds, Tyndall applies to colloidal suspensions, and refraction splits colors but does not scatter them."
+      "explanation_correct": "Shorter wavelengths (blue) are scattered away more efficiently by the atmosphere, leaving primarily longer wavelengths (red) to reach the observer at sunset.",
+      "explanation_incorrect": "Mie scattering involves larger particles, Tyndall effect applies to colloidal suspensions, and refraction does not selectively split colors by wavelength.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the name of the semiconductor-coated drum in a laser printer where the laser beam draws an electrostatic latent image?",
+      "question": "What is the name of the photosensitive drum in a laser printer upon which the laser beam forms an electrostatic latent image?",
       "options": [
-        "Photoreceptor drum (OPC)",
+        "Organic Photoconductor (OPC) drum",
         "Fuser assembly",
         "Transfer roller",
         "Magnetic drum"
       ],
-      "answer": "Photoreceptor drum (OPC)",
-      "explanation_correct": "The OPC drum is pre-charged; the laser light discharges specific points, creating a charge pattern that attracts the toner dust.",
-      "explanation_incorrect": "The fuser melts the toner powder onto paper fibers, the transfer roller pulls toner from drum to page, and magnetic drums are historical memory units."
+      "answer": "Organic Photoconductor (OPC) drum",
+      "explanation_correct": "The OPC drum is charged and subsequently discharged by the laser in specific patterns, which then attract toner particles.",
+      "explanation_incorrect": "The fuser heats the toner, the transfer roller pushes it to the page, and the magnetic drum is an obsolete term for this context.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Into which characteristic shape (resembling a tuning fork) is the quartz crystal in a watch cut to oscillate at 32,768 Hz?",
+      "question": "What characteristic tuning fork shape is quartz crystal carved into in a watch to oscillate at exactly 32,768 Hz?",
       "options": [
         "Tuning fork",
-        "Flat disk",
+        "Flat disc",
         "Perfect cube",
         "Double pyramid"
       ],
       "answer": "Tuning fork",
-      "explanation_correct": "The miniature quartz crystal is cut as a tuning fork to vibrate at exactly 32.768 kHz, which is easily divided into one-second intervals by binary counters.",
-      "explanation_incorrect": "Flat disks and cubes vibrate in modes unsuitable for low-power wristwatch circuits, and double pyramids are raw mineral growth habits."
+      "explanation_correct": "The tuning fork geometry provides a stable, low-power frequency resonance of 32,768 Hz, which is easily divisible into one-second intervals.",
+      "explanation_incorrect": "The other shapes do not facilitate the stable, high-Q resonance required for precision quartz timekeeping.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "Which type of intermolecular bond (linking parallel polymer chains) accounts for Kevlar's high tensile strength?",
+      "question": "What type of intermolecular interaction between polymer chains is largely responsible for the high tensile strength of Kevlar?",
       "options": [
-        "Hydrogen bonds",
+        "Hydrogen bonding",
         "Disulfide bonds",
         "Van der Waals forces",
         "Ionic bonds"
       ],
-      "answer": "Hydrogen bonds",
-      "explanation_correct": "Kevlar molecules align in parallel sheets connected by strong hydrogen bonds, which distribute mechanical stress along the polymer fibers.",
-      "explanation_incorrect": "Disulfide bridges stabilize cross-linked proteins like keratin, van der Waals interactions are weak attraction forces, and ionic bonds belong to mineral salts."
+      "answer": "Hydrogen bonding",
+      "explanation_correct": "Kevlar chains are held together in tight, rigid arrays by strong hydrogen bonds between the amide groups.",
+      "explanation_incorrect": "Disulfide bonds occur in proteins, Van der Waals forces are relatively weak, and ionic bonds are not the structural reinforcement mechanism for Kevlar.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Why does food in a pressure cooker cook significantly faster than in a regular pot?",
+      "question": "Why does food cook much faster in a pressure cooker than in a standard pot?",
       "options": [
-        "High pressure raises the boiling point of water (above 100 degrees Celsius)",
-        "The pressure physically crushes the cell walls of the food",
-        "Steam molecules pass through food pores, breaking down fibers",
-        "The sealed lid acts as a thermal mirror reflecting infrared rays"
+        "Increased pressure raises the boiling point of water above 100°C",
+        "Pressure physically crushes the cell walls of the food",
+        "Steam passes through pores of food and tears apart fibers",
+        "The sealed lid acts as a thermal mirror reflecting infrared radiation"
       ],
-      "answer": "High pressure raises the boiling point of water (above 100 degrees Celsius)",
-      "explanation_correct": "Increasing the internal pressure shifts the phase transition boundary, allowing liquid water to reach temperatures around 120°C without boiling away.",
-      "explanation_incorrect": "Operating pressure (about 2 atmospheres) is too low to crush cellular tissue, and infrared reflection is not a function of air pressure."
+      "answer": "Increased pressure raises the boiling point of water above 100°C",
+      "explanation_correct": "By keeping steam contained, pressure cooker creates higher temperatures, which fundamentally speeds up chemical denaturing and softening of food.",
+      "explanation_incorrect": "Pressure cooking relies on thermodynamic shift, not mechanical crushing or infrared reflection.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "To how many Kelvins (approximately five times hotter than the surface of the Sun) is the air channel heated during a lightning strike?",
+      "question": "What is the approximate temperature reached by the air channel during a lightning strike?",
       "options": [
         "Approximately 30,000 K",
         "Approximately 6,000 K",
@@ -484,25 +558,29 @@
         "Approximately 1,000 K"
       ],
       "answer": "Approximately 30,000 K",
-      "explanation_correct": "The electrical resistance of the air channel generates extreme thermal dissipation, spiking temperatures to roughly 30,000 Kelvin in microseconds.",
-      "explanation_incorrect": "6,000 K is the Sun's surface temperature, 100,000 K is achieved in high-energy plasma focus physics, and 1,000 K is a standard wood campfire."
+      "explanation_correct": "The extreme current density in a lightning channel heats the air to temperatures roughly five times hotter than the surface of the Sun.",
+      "explanation_incorrect": "6,000 K is the surface temperature of the Sun, and the other values are either incorrect laboratory limits or far too low.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which silicon components (collecting electrical charge when exposed to light) make up a digital camera's CCD sensor matrix?",
+      "question": "Which semiconductor elements collect electrical charge under light exposure to form the CCD sensor matrix?",
       "options": [
-        "MOS capacitors (Metal-Oxide-Semiconductor)",
+        "Metal-Oxide-Semiconductor (MOS) capacitors",
         "Resistors",
         "Bipolar transistors",
         "Vacuum tubes"
       ],
-      "answer": "MOS capacitors (Metal-Oxide-Semiconductor)",
-      "explanation_correct": "CCD sensors use an array of MOS capacitors to store photo-generated charges, which are later shifted row-by-row to a reading amplifier.",
-      "explanation_incorrect": "Resistors dissipate energy as heat, bipolar transistors lack charge storage wells, and vacuum tubes are pre-solid-state technology."
+      "answer": "Metal-Oxide-Semiconductor (MOS) capacitors",
+      "explanation_correct": "CCD sensors use a series of MOS capacitors as pixels to accumulate photon-generated charge before transferring row by row.",
+      "explanation_incorrect": "Resistors convert energy to heat, transistors provide amplification or logic, and vacuum tubes are legacy technology.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "In which radio frequency band (partially shared with microwave ovens and Wi-Fi) does Bluetooth technology operate?",
+      "question": "In which radio frequency band does Bluetooth operate, shared partially with microwaves and Wi-Fi?",
       "options": [
         "2.4 GHz (ISM band)",
         "5 GHz",
@@ -510,25 +588,29 @@
         "433 MHz"
       ],
       "answer": "2.4 GHz (ISM band)",
-      "explanation_correct": "Bluetooth operates in the 2.4 GHz ISM band, dividing the spectrum into channels and hopping between them to reduce interference from other devices.",
-      "explanation_incorrect": "5 GHz is reserved for high-speed Wi-Fi, while 868 MHz and 433 MHz are low-power sub-GHz bands for smart home sensors."
+      "explanation_correct": "The 2.4 GHz Industrial, Scientific, and Medical (ISM) band is an unlicensed spectrum worldwide used by many consumer devices.",
+      "explanation_incorrect": "5 GHz is primarily for newer high-speed Wi-Fi, while 433/868 MHz are for low-data rate industrial or home automation sensors.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "From which organic substance derived from carrots (cholesteryl benzoate) did Friedrich Reinitzer isolate the first liquid crystals in 1888?",
+      "question": "From which cholesterol derivative did Friedrich Reinitzer isolate the first liquid crystal in 1888?",
       "options": [
-        "Cholesterol derivatives (Cholesteryl benzoate)",
+        "Cholesteryl benzoate",
         "Beta-carotene",
         "Lutein",
         "Lycopene"
       ],
-      "answer": "Cholesterol derivatives (Cholesteryl benzoate)",
-      "explanation_correct": "Reinitzer observed that cholesteryl benzoate, a cholesterol ester, melts into a cloudy fluid before clearing at a higher temperature, displaying liquid-crystal behavior.",
-      "explanation_incorrect": "Beta-carotene and lutein are carotenoid pigments, and lycopene is a tomato antioxidant, none of which exhibit mesophase transitions."
+      "answer": "Cholesteryl benzoate",
+      "explanation_correct": "Reinitzer observed that cholesteryl benzoate melted into a cloudy liquid state before becoming a clear liquid, identifying the liquid crystalline phase.",
+      "explanation_incorrect": "Beta-carotene, lutein, and lycopene are carotenoid pigments unrelated to liquid crystal discovery history.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which two types of chemical compounds in food react with each other in the Maillard reaction, producing the brown crust and rich aroma of roasted meat or baked bread?",
+      "question": "Which two types of compounds in food react in the Maillard reaction, creating aromas and a brown crust when baking bread?",
       "options": [
         "Reducing sugars and amino acids",
         "Fats and water",
@@ -536,12 +618,14 @@
         "Proteins and enzymes"
       ],
       "answer": "Reducing sugars and amino acids",
-      "explanation_correct": "The Maillard reaction is a non-enzymatic browning process where reducing sugars bond with amino acids at high temperatures, creating complex flavor molecules.",
-      "explanation_incorrect": "Fat-water reactions are hydrolytic breakdowns, acid-starch reactions yield simple syrups, and enzymes denature (deactivate) before Maillard temperatures are reached."
+      "explanation_correct": "The Maillard reaction is a complex chemical process where reducing sugars combined with amino acids undergo browning under heat.",
+      "explanation_incorrect": "Fats and starch do not produce the Maillard effect, and enzymes are destroyed by the heat required for the reaction.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "What is the characteristic earthy scent that accompanies rain falling on dry soil, caused by the organic compound geosmin and plant oils?",
+      "question": "What is the term for the characteristic earthy scent accompanying rain falling on dry soil, largely caused by geosmin?",
       "options": [
         "Petrichor",
         "Ozone",
@@ -549,38 +633,44 @@
         "Humus"
       ],
       "answer": "Petrichor",
-      "explanation_correct": "Petrichor is released when raindrops land on porous surfaces, trapping air bubbles that shoot upward as aerosols, carrying soil scents.",
-      "explanation_incorrect": "Ozone is formed by high-voltage lightning dissociation, geosmin is the single compound responsible for the smell, and humus is organic soil matter."
+      "explanation_correct": "Petrichor comes from the Greek 'petra' (stone) and 'ichor' (the fluid that flows in the veins of the gods).",
+      "explanation_incorrect": "Ozone is the scent of air after a lightning strike, while geosmin is actually the specific compound causing the petrichor smell.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which plastic polymer (melted by the fuser assembly under heat and pressure) serves as the primary binder in laser printer toner powder?",
+      "question": "Which polymer is the main binder of toner powder in laser printers, melting in the fuser unit using heat and pressure?",
       "options": [
-        "Polyester / styrene-acrylic copolymer",
+        "Polyester / styrene-acrylate copolymer",
         "Polyethylene",
         "Teflon",
         "Polycarbonate"
       ],
-      "answer": "Polyester / styrene-acrylic copolymer",
-      "explanation_correct": "Toner particles consist of color pigments embedded in styrene-acrylic or polyester resins that melt at low temperatures to bond with paper fibers.",
-      "explanation_incorrect": "Polyethylene exhibits broad melting characteristics, Teflon's melting point is too high for office printers, and polycarbonate requires industrial heat levels."
+      "answer": "Polyester / styrene-acrylate copolymer",
+      "explanation_correct": "These plastic resins are selected because they transition from solid to liquid at temperatures reachable by affordable heater elements (fusers).",
+      "explanation_incorrect": "Polyethylene is used for packaging, Teflon for non-stick surfaces, and polycarbonate for plastics needing toughness.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which electronic component (binary counter divider) halves the frequency of the quartz resonator at each step to output exactly one pulse per second?",
+      "question": "Which electronic component chain divides quartz oscillations to derive exactly one pulse per second?",
       "options": [
-        "Frequency divider (T flip-flop chain)",
+        "Frequency divider (flip-flop chain)",
         "Variable capacitor",
         "8-bit microprocessor",
         "Operational amplifier"
       ],
-      "answer": "Frequency divider (T flip-flop chain)",
-      "explanation_correct": "A series of 15 electronic flip-flops sequentially divides the 32,768 Hz signal by two (2^15), resulting in a perfect 1 Hz output to drive the hands or display.",
-      "explanation_incorrect": "Capacitors calibrate oscillation rate, microprocessors consume too much battery power for simple counters, and amplifiers boost voltage without frequency division."
+      "answer": "Frequency divider (flip-flop chain)",
+      "explanation_correct": "A series of digital flip-flops can divide a 32,768 Hz signal by 2 repeatedly until it reaches 1 Hz.",
+      "explanation_incorrect": "A capacitor performs tuning, a processor is overkill, and an amplifier does not change frequency.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "What is the name of the phenomenon where a superconductor expels all magnetic fields from its interior during its transition phase, enabling magnetic levitation?",
+      "question": "What is the phenomenon where a superconductor expels all magnetic flux from its interior, potentially enabling magnetic levitation?",
       "options": [
         "Meissner effect",
         "Josephson effect",
@@ -588,12 +678,14 @@
         "Barkhausen effect"
       ],
       "answer": "Meissner effect",
-      "explanation_correct": "The Meissner effect describes the exclusion of magnetic flux from a superconductor's bulk, creating a repulsive force that locks magnets in place.",
-      "explanation_incorrect": "The Josephson effect involves Cooper pair tunneling, the skin effect restricts AC currents to wire surfaces, and the Barkhausen effect represents domain wall jumps."
+      "explanation_correct": "The Meissner effect describes the magnetic field expulsion, which is the defining characteristic of a perfect superconductor.",
+      "explanation_incorrect": "The Josephson effect involves tunneling, skin effect involves AC current density, and Barkhausen effect involves iron domain flipping.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which heme protein (responsible for oxygen storage in muscle tissue) gives raw red meat its color and turns into gray metmyoglobin when cooked?",
+      "question": "Which heme protein is responsible for oxygen storage in muscle and provides the red pigment for raw red meat?",
       "options": [
         "Myoglobin",
         "Hemoglobin",
@@ -601,25 +693,29 @@
         "Actin"
       ],
       "answer": "Myoglobin",
-      "explanation_correct": "Myoglobin is the primary pigment of meat; cooking denatures its globin core and oxidizes the iron atom, producing a brownish-gray compound.",
-      "explanation_incorrect": "Hemoglobin transports oxygen in blood vessels (mostly drained during processing), collagen forms tough connective tissue, and actin makes up muscle filaments."
+      "explanation_correct": "Myoglobin stores oxygen within muscle cells; during cooking, it oxidizes to metmyoglobin, changing color from red to grey.",
+      "explanation_incorrect": "Hemoglobin transports oxygen in blood circulation, collagen provides structural tissue, and actin is a contractile machinery component.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Why are the colors of a secondary (outer, fainter) rainbow reversed compared to the primary rainbow?",
+      "question": "Why are the color patterns of the faint secondary rainbow reversed compared to the primary rainbow?",
       "options": [
-        "Light undergoes two internal reflections inside the water droplets instead of one",
-        "The secondary rainbow is formed by ice crystals instead of liquid water drops",
+        "Light undergoes two internal reflections in the water droplet instead of one",
+        "Secondary rainbows are formed by ice crystals instead of liquid droplets",
         "Light refracts at a different critical angle due to temperature",
-        "The secondary rainbow is an optical shadow of the main arc"
+        "The secondary rainbow is an optical shadow of the main arch"
       ],
-      "answer": "Light undergoes two internal reflections inside the water droplets instead of one",
-      "explanation_correct": "A secondary rainbow is produced by two internal reflections inside water droplets, which inverts the exit angle order of the split wavelengths.",
-      "explanation_incorrect": "Ice crystals produce halos, critical angles are constant for liquid water, and shadows do not project spectral light paths."
+      "answer": "Light undergoes two internal reflections in the water droplet instead of one",
+      "explanation_correct": "The extra internal reflection in the secondary rainbow inverts the order of colors as they exit the droplet.",
+      "explanation_incorrect": "Ice crystals create halos, and environmental physical constants remain fixed at the scale of rain drops.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the readout method of a CCD sensor, where charges from pixel rows are shifted step-by-step into a single register?",
+      "question": "What is the readout method of a CCD sensor where charges from pixel rows are shifted step-by-step into a single register?",
       "options": [
         "Charge transfer (via shift registers)",
         "Direct matrix addressing",
@@ -627,25 +723,29 @@
         "Random pixel sampling"
       ],
       "answer": "Charge transfer (via shift registers)",
-      "explanation_correct": "In a CCD, charges are shifted along rows and columns using timed voltage phases, mimicking a bucket brigade line to reach a single analog-to-digital converter.",
-      "explanation_incorrect": "Direct addressing is the hallmark of CMOS sensors, laser scanning reads optical media, and random sampling is not used for camera exposures."
+      "explanation_correct": "The movement of accumulated charges across shift registers is the defining architectural feature of Charge-Coupled Devices.",
+      "explanation_incorrect": "Direct addressing is standard for CMOS, while laser and random sampling are not applicable to standard image capture.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the basic method of noise reduction in headphones that relies strictly on physically sealing the ear from the environment?",
+      "question": "What is the basic method of noise reduction in headphones that relies solely on physically isolating the ear from the environment?",
       "options": [
         "Passive noise isolation",
         "Active noise cancellation",
-        "Eddy-current acoustic damping",
+        "Acoustic damping via eddy currents",
         "Resonant isolation"
       ],
       "answer": "Passive noise isolation",
-      "explanation_correct": "Passive noise isolation acts as a physical barrier (like earplugs), absorbing high-frequency sound waves through foam and rubber seals.",
-      "explanation_incorrect": "Active cancellation uses processing circuits, eddy currents apply to electromagnetic fields, and resonant isolation is used in structural engineering."
+      "explanation_correct": "Passive isolation relies on materials, shape, and physical seals to block incoming sound waves effectively.",
+      "explanation_incorrect": "Active cancellation requires power for electronics, and the other terms are physically misapplied to earphone design.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "Which American chemist invented aerogels in 1931 as a result of a bet about replacing the liquid in jelly with gas without damaging the structure?",
+      "question": "Which American chemist invented aerogels in 1931 after winning a bet that he could remove liquid from a gel without ruining its structure?",
       "options": [
         "Samuel Kistler",
         "Charles Goodyear",
@@ -653,25 +753,29 @@
         "Stephanie Kwolek"
       ],
       "answer": "Samuel Kistler",
-      "explanation_correct": "Samuel Kistler won the bet by using supercritical drying to bypass the liquid-gas interface, leaving the solid silica frame intact.",
-      "explanation_incorrect": "Goodyear vulcanized rubber, Baekeland invented Bakelite, and Kwolek developed Kevlar."
+      "explanation_correct": "Kistler developed supercritical drying, which allows liquid to escape without surface tension collapsing the porous gel network.",
+      "explanation_incorrect": "Kwolek invented Kevlar; Baekeland, Bakelite; Goodyear, vulcanized rubber.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which two phenomena of Einstein's relativity (time dilation) must be corrected in GPS satellite clocks to maintain positioning accuracy?",
+      "question": "Which two relativity effects must be accounted for in GPS satellite clocks to maintain positioning accuracy?",
       "options": [
-        "Kinetic time dilation (speed) and gravitational time dilation (altitude)",
+        "Relativistic time dilation due to velocity and gravity",
         "Lorentz contraction and cosmological redshift",
-        "Doppler shift and stellar aberration",
+        "Doppler effect and stellar aberration",
         "Larmor precession and Shapiro delay"
       ],
-      "answer": "Kinetic time dilation (speed) and gravitational time dilation (altitude)",
-      "explanation_correct": "Satelite clocks tick faster due to weaker gravity at altitude (+45 microseconds/day) and slower due to orbital speed (-7 microseconds/day), requiring a net correction of 38 microseconds.",
-      "explanation_incorrect": "Lorentz contraction shrinks lengths, Doppler shifts wave frequencies, and Shapiro delay measures signal slowdown near massive bodies (negligible for GPS orbits)."
+      "answer": "Relativistic time dilation due to velocity and gravity",
+      "explanation_correct": "GPS satellites experience both kinematic time dilation (due to orbital speed) and gravitational time dilation (due to less mass nearby than at Earth's surface).",
+      "explanation_incorrect": "The other phenomena do not represent the cumulative time-sync errors that GNSS systems must mathematically correct.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which Japanese engineer (2014 Nobel laureate) developed the highly efficient blue LED using gallium nitride, enabling white LED light and modern displays?",
+      "question": "Which Japanese engineer, alongside Isamu Akasaki and Hiroshi Amano, received the 2014 Nobel Prize for developing the efficient blue LED based on gallium nitride?",
       "options": [
         "Shuji Nakamura",
         "Isamu Akasaki",
@@ -679,51 +783,59 @@
         "Leo Esaki"
       ],
       "answer": "Shuji Nakamura",
-      "explanation_correct": "Shuji Nakamura successfully synthesized high-quality gallium nitride crystals in the early 1990s, resolving the long-standing hurdle of blue LED emission.",
-      "explanation_incorrect": "Akasaki and Amano developed alternate GaN methods, and Leo Esaki won his 1973 Nobel for pioneering tunnel diodes."
+      "explanation_correct": "Nakamura was recognized for his massive industrial contribution to blue GaAs-nitride LED fabrication.",
+      "explanation_incorrect": "Esaki received his prize much earlier for tunnel diodes; the other two shared the 2014 award for the same material developments.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which chemical process (exchanging smaller sodium ions for larger potassium ions in a salt bath) strengthens Gorilla Glass for smartphones?",
+      "question": "What chemical process, involving replacing smaller sodium ions with larger potassium ions, strengthens Gorilla Glass used in smartphones?",
       "options": [
         "Ion exchange",
         "Anodizing",
-        "Electroplating",
+        "Galvanization",
         "Thermal tempering"
       ],
       "answer": "Ion exchange",
-      "explanation_correct": "Ion exchange bath replaces surface sodium with larger potassium ions, creating a deep compressive stress layer that resists scratches and drop damage.",
-      "explanation_incorrect": "Anodizing grows oxide layers on aluminum, electroplating deposits metal coatings, and thermal tempering uses rapid air cooling which is unsuited for ultra-thin sheets."
+      "explanation_correct": "The larger potassium ions are 'crowded' into the smaller sodium sites, creating a surface layer of internal compression that resists shattering.",
+      "explanation_incorrect": "Anodizing is for light metals, galvanization involves zinc metal dip, and thermal tempering (standard glass) does not work well for ultra-thin smart glass.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the standard frequency of electromagnetic waves (microwaves) generated by a household magnetron to heat food?",
+      "question": "What is the standard radio frequency produced by a magnetron in a household microwave oven to heat food?",
       "options": [
-        "2.45 GHz band",
-        "5.8 GHz band",
-        "915 MHz band",
-        "10.6 GHz band"
+        "2.45 GHz",
+        "5.8 GHz",
+        "915 MHz",
+        "10.6 GHz"
       ],
-      "answer": "2.45 GHz band",
-      "explanation_correct": "The 2.45 GHz frequency balances penetration depth and absorption efficiency, preventing the waves from being fully absorbed at the food's outer surface.",
-      "explanation_incorrect": "915 MHz is restricted to heavy industrial processing, 5.8 GHz has poor food penetration depth, and 10.6 GHz is used in radar communication."
+      "answer": "2.45 GHz",
+      "explanation_correct": "The 2.45 GHz band is chosen because it effectively couples with water molecules without being entirely absorbed at the surface only.",
+      "explanation_incorrect": "The other frequencies are either reserved for different industrial/telecom standards or are inefficient for penetrating household meal-sized portions.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "What is the full chemical polymer name of Teflon (abbreviated as PTFE)?",
+      "question": "What is the full chemical name of Teflon, abbreviated as PTFE?",
       "options": [
-        "Polytetrafluoroethylene (PTFE)",
+        "Polytetrafluoroethylene",
         "Polyvinyl chloride",
         "Polyethylene terephthalate",
         "Thermoplastic polyurethane"
       ],
-      "answer": "Polytetrafluoroethylene (PTFE)",
-      "explanation_correct": "PTFE is a fluoropolymer synthesized by free-radical polymerization of tetrafluoroethylene, forming long chains of carbon saturated with fluorine.",
-      "explanation_incorrect": "Polyvinyl chloride is PVC, polyethylene terephthalate is PET plastic, and polyurethane is used in foams and rubbers."
+      "answer": "Polytetrafluoroethylene",
+      "explanation_correct": "PTFE is composed of long chains of carbon atoms fully fluorinated, which makes it extremely inert and slippery.",
+      "explanation_incorrect": "Polyvinyl chloride (PVC), Polyethylene terephthalate (PET), and Polyurethane are entirely different industrial polymers.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Household Physics",
-      "question": "Which physical property of the cookware's base (showing strong interaction with magnets) is required for it to work on an induction stove?",
+      "question": "Which material property of the cookware bottom is required for it to work on an induction stove?",
       "options": [
         "Ferromagnetism",
         "Diamagnetism",
@@ -731,12 +843,14 @@
         "Superconductivity"
       ],
       "answer": "Ferromagnetism",
-      "explanation_correct": "The pan bottom must contain a ferromagnetic layer (like cast iron or magnetic stainless steel) to concentrate magnetic flux and undergo magnetic hysteresis heating.",
-      "explanation_incorrect": "Copper and aluminum are diamagnetic/paramagnetic; they do not couple well with the stove's magnetic field and fail to heat up."
+      "explanation_correct": "The cookware base must interact with magnetic fields, requiring ferrous metals like cast iron or specific stainless steels to produce eddy currents.",
+      "explanation_incorrect": "Induction does not work with non-ferrous, non-conductive, or high-resistance materials like copper or standard aluminum.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which chemical compound (often potassium nitrate KNO3) is included in airbags to neutralize the highly reactive metallic sodium produced during azide decomposition?",
+      "question": "What mixture is added to airbag inflators to neutralize the reactive metallic sodium produced during azide decomposition?",
       "options": [
         "Potassium nitrate and silica (KNO3 and SiO2)",
         "Sodium sulfate",
@@ -744,12 +858,14 @@
         "Potassium chloride"
       ],
       "answer": "Potassium nitrate and silica (KNO3 and SiO2)",
-      "explanation_correct": "KNO3 oxidizes toxic sodium metal, producing potassium and sodium oxides, which then react with silicate sand (SiO2) to form harmless alkaline glass.",
-      "explanation_incorrect": "Sulfates, hydroxides, and chlorides do not react quickly enough with molten sodium to form stable silicate glasses during the milliseconds of deployment."
+      "explanation_correct": "The secondary additives react with the unstable Na to produce safe, solid alkaline glass, protecting occupants from toxic sodium caustic residue.",
+      "explanation_incorrect": "The other substances do not provide the rapid-fire chemical neutralizing capability required for life-safety systems.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which error correction algorithm (also used in CD-ROMs) allows a QR code to be scanned successfully even if up to 30% of its surface is damaged?",
+      "question": "Which error correction algorithm, used in CD-ROMs, allows a QR code to be readable even if up to 30% of its surface is damaged?",
       "options": [
         "Reed-Solomon error correction",
         "Hamming codes",
@@ -757,168 +873,194 @@
         "Huffman coding"
       ],
       "answer": "Reed-Solomon error correction",
-      "explanation_correct": "Reed-Solomon codes introduce mathematical redundancy, enabling receivers to calculate missing or corrupted data blocks from the remaining geometric pixels.",
-      "explanation_incorrect": "Hamming codes target single-bit errors in telecommunications, CRC32 only flags errors without reconstruction, and Huffman is a lossless compression scheme."
+      "explanation_correct": "Reed-Solomon adds mathematical redundancy that allows for the reconstruction of missing segments through polynomial interpolation.",
+      "explanation_incorrect": "CRC32 is for detection, Hamming codes for simple bit-flipping, and Huffman is for lossless information compression.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "What is the name of the most common liquid crystal phase (used in LCD displays) where molecules are oriented parallel to one another but their centers are distributed randomly?",
+      "question": "What is the common liquid crystal phase used in LCDs where molecules are aligned parallel but their positions are random?",
       "options": [
         "Nematic phase",
         "Smectic phase",
         "Cholesteric phase",
-        "Discotics"
+        "Discotic phase"
       ],
       "answer": "Nematic phase",
-      "explanation_correct": "Nematic liquid crystals have high orientational order but zero positional order, making them highly responsive to minor electrical field adjustments.",
-      "explanation_incorrect": "Smectics possess layered positional order, cholesterics form helically twisted layers, and discotics feature disc-shaped columns."
+      "explanation_correct": "Nematic crystals exhibit directional order but lack positional order, which makes them highly responsive to mild electric fields.",
+      "explanation_incorrect": "The other phases possess structural order (positional or helical/layered), which impedes the light-switching speed required for fast displays.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "What is the physical parameter defining the depth at which microwave power drops to about 37% of its surface value, explaining why thick food remains cold inside?",
+      "question": "Which property defines the depth where microwave power drops to roughly 37% of the surface value, explaining why thick food stays cold inside?",
       "options": [
-        "Penetration depth (or skin depth)",
-        "Thermal diffusion coefficient",
+        "Penetration depth (skin depth)",
+        "Thermal diffusivity",
         "Dielectric permittivity",
         "Cutoff wavelength"
       ],
-      "answer": "Penetration depth (or skin depth)",
-      "explanation_correct": "Penetration depth dictates that microwave heating is localized near the surface of high-moisture foods, relying on slow conduction to heat the core.",
-      "explanation_incorrect": "Thermal diffusion governs standard temperature dispersion, permittivity alters wave speed, and cutoff wavelength belongs to hollow waveguide mechanics."
+      "answer": "Penetration depth (skin depth)",
+      "explanation_correct": "The penetration depth is essentially the distance at which most of the microwave energy has been absorbed by the medium (food).",
+      "explanation_incorrect": "Thermal diffusivity is about slow heat spread; the other values are related to electromagnetics but do not represent internal heat decay depth.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "What is the polarization state of rainbow light relative to the arc of the rainbow, caused by reflections close to Brewster's angle?",
+      "question": "What is the polarization state of rainbow light relative to the rainbow arc, resulting from reflections near the Brewster angle?",
       "options": [
-        "Highly linearly polarized, tangential to the arc",
-        "Right-hand circularly polarized",
+        "Strongly linearly polarized, tangential to the arc",
+        "Right-circularly polarized",
         "Completely unpolarized",
         "Vertically elliptically polarized"
       ],
-      "answer": "Highly linearly polarized, tangential to the arc",
-      "explanation_correct": "Rainbow light is highly polarized tangential to the arc because the reflection inside the droplets occurs close to the Brewster angle of water.",
-      "explanation_incorrect": "Circular and elliptical states require specific phase retardations, and unpolarized is incorrect since polarized sunglasses can completely extinguish the rainbow."
+      "answer": "Strongly linearly polarized, tangential to the arc",
+      "explanation_correct": "Refraction and reflection processes at the water surface significantly enhance the polarization components, creating the tangential alignment observed.",
+      "explanation_incorrect": "Light in rainbows is rarely unpolarized and requires specific geometric and refractive conditions for the observed linear alignment.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which Active Noise Cancellation (ANC) system places the microphone inside the ear cup near the ear canal to correct errors dynamically?",
+      "question": "Which Active Noise Cancellation (ANC) system places a microphone inside the ear cup to dynamically adjust the signal?",
       "options": [
         "Feedback ANC",
         "Feedforward ANC",
         "Hybrid ANC",
-        "Passive adaptive ANC"
+        "Passive ANC"
       ],
       "answer": "Feedback ANC",
-      "explanation_correct": "Feedback ANC monitors the sound field inside the ear cup, adapting to what the wearer actually hears to cancel low-frequency leaks.",
-      "explanation_incorrect": "Feedforward ANC positions the mic outside the cup, Hybrid systems combine both internal and external mics, and passive systems lack power electronics."
+      "explanation_correct": "Feedback systems capture noise already behind the isolation barrier, allowing for real-time error correction of the cancellation sound.",
+      "explanation_incorrect": "Feedforward uses microphones on the outside; hybrid combines both styles; passive ANC is just manual sound-blocking padding.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which type of electric motor (utilizing neodymium magnets in the rotor) dominates modern high-performance electric vehicles?",
+      "question": "Which motor type using rare-earth permanent magnets dominates in high-performance electric vehicles today?",
       "options": [
         "Permanent Magnet Synchronous Motor (PMSM)",
         "Asynchronous induction motor",
         "Brushed DC motor",
-        "Synchronous reluctance motor"
+        "Synchronic reluctance motor"
       ],
       "answer": "Permanent Magnet Synchronous Motor (PMSM)",
-      "explanation_correct": "PMSM designs offer class-leading efficiency and compact size, lock-stepping the rotor's rotation with the stator's rotating magnetic field.",
-      "explanation_incorrect": "Induction motors are cheaper and omit rare-earth magnets (used on secondary axles), brushed DC motors suffer brush wear, and reluctance motors yield lower torque."
+      "explanation_correct": "PMSMs offer the highest torque-to-weight ratio and efficiency, essential for long-range, high-acceleration electric automotive applications.",
+      "explanation_incorrect": "Induction motors are cheaper but less efficient/compact; brushed motors have high maintenance and wear.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "Using which simple office item did Andre Geim and Konstantin Novoselov isolate graphene for the first time in 2004?",
+      "question": "Which simple office supply did Andre Geim and Konstantin Novoselov use to first isolate graphene in 2004?",
       "options": [
-        "Adhesive tape (Scotch tape)",
+        "Scotch tape (adhesive tape)",
         "Graphite pencil and eraser",
         "Glue stick and sandpaper",
         "Razor blade and magnifying glass"
       ],
-      "answer": "Adhesive tape (Scotch tape)",
-      "explanation_correct": "The Scotch tape method (mechanical exfoliation) peeled layers off graphite flakes until single atomic carbon sheets remained.",
-      "explanation_incorrect": "Pencils, erasers, and glue sticks were not the tools used to achieve controlled molecular cleavage of graphite."
+      "answer": "Scotch tape (adhesive tape)",
+      "explanation_correct": "By applying and peeling tape repeatedly from graphite, they mechanically cleaved the material to the single-atom layer level.",
+      "explanation_incorrect": "Graphite pencil leads or sanders do not achieve consistent monolayer graphite through mechanical splitting.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Why are modern baking powders referred to as 'double-acting'?",
+      "question": "Why are modern baking powders called 'double-acting'?",
       "options": [
-        "They release gas twice: once when mixed with liquid, and again when exposed to oven heat",
-        "They contain twice the sodium bicarbonate concentration",
-        "They rise equally well in wheat and gluten-free flours",
-        "They absorb unwanted baking odors while raising the dough"
+        "They release gas twice: once upon mixing and again when heated in the oven",
+        "They contain twice the standard amount of sodium bicarbonate",
+        "They leaven both wheat and gluten-free flour equally well",
+        "They neutralize unpleasant odors while baking"
       ],
-      "answer": "They release gas twice: once when mixed with liquid, and again when exposed to oven heat",
-      "explanation_correct": "Double-acting baking powders use two different acid salts: one reacts upon wet mixing, while the other activates only when heated.",
-      "explanation_incorrect": "Soda concentration is standard, flour type compatibility is physical, and odor control is not a feature of chemical raising."
+      "answer": "They release gas twice: once upon mixing and again when heated in the oven",
+      "explanation_correct": "Double-acting powder uses two different dry acids—one reacts at room temperature and the second only under heat.",
+      "explanation_incorrect": "The quantity, dough type, and odor absorption are not the basis for the leavening mechanism of double-action.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Which type of lightning discharge (cloud-to-ground or intra-cloud) is statistically most common during storms?",
+      "question": "Which type of lightning discharge is statistically the most common during a thunderstorm?",
       "options": [
-        "Intra-cloud / cloud-to-cloud (IC)",
+        "Intracloud (IC)",
         "Cloud-to-ground (CG)",
         "Cloud-to-air",
-        "Bolt from the blue"
+        "Ball lightning"
       ],
-      "answer": "Intra-cloud / cloud-to-cloud (IC)",
-      "explanation_correct": "Intra-cloud lightning represents roughly 80% of all discharges, as electrical pathways easily form between positive and negative layers within storm cells.",
-      "explanation_incorrect": "Cloud-to-ground strikes are more hazardous but less common, and air discharges or bolts from the blue are rare events."
+      "answer": "Intracloud (IC)",
+      "explanation_correct": "Roughly 75% to 80% of all lightning strikes occur between regions within the same cloud or between different clouds.",
+      "explanation_incorrect": "Cloud-to-ground strikes are the best known but are far less common, while ball lightning is an extremely rare phenomenon.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "On how many distinct orbital planes (inclined at 55 degrees to the equator) is the GPS satellite constellation arranged?",
+      "question": "On how many orbital planes, inclined at 55 degrees, is the GPS satellite constellation distributed?",
       "options": [
-        "Six (6)",
-        "Four (4)",
+        "Six",
+        "Four",
         "Twelve",
         "Three"
       ],
-      "answer": "Six (6)",
-      "explanation_correct": "The GPS space segment organizes its satellites into 6 orbital planes to maximize global coverage, ensuring visibility of multiple satellites anywhere on Earth.",
-      "explanation_incorrect": "Four, twelve, and three do not match the orbital geometry designed to optimize line-of-sight signal overlap."
+      "answer": "Six",
+      "explanation_correct": "The constellation is arranged in six orbital planes to ensure that a minimum of four satellites is visible from any point on Earth.",
+      "explanation_incorrect": "Other numbers do not align with the standard global positioning system geometry/coverage requirements.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the term for the efficiency of an LED, defined as the ratio of total optical output power to consumed electrical power?",
+      "question": "What is the LED efficiency defined as the ratio of total radiant optical power to input electrical power?",
       "options": [
         "Wall-plug efficiency (WPE)",
         "Internal quantum efficiency",
-        "Relative luminance",
+        "Relative brightness",
         "Power factor"
       ],
       "answer": "Wall-plug efficiency (WPE)",
-      "explanation_correct": "Wall-plug efficiency measures the absolute conversion of electrical power into optical power, reflecting energy losses inside the diode.",
-      "explanation_incorrect": "Internal quantum efficiency ignores optical extraction loss, relative luminance is a perceptual metric, and the power factor is an AC circuit parameter."
+      "explanation_correct": "WPE measures the actual 'wall-to-light' conversion efficiency of the component.",
+      "explanation_incorrect": "Internal quantum efficiency ignores optical extraction losses; relative brightness is a human-conception metric.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which type of acoustic wave (propagating along the glass surface) is absorbed by a finger touch in SAW touchscreens?",
+      "question": "Which acoustic wave traveling across the glass surface is damped by a finger touch in SAW touchscreens?",
       "options": [
-        "Rayleigh surface waves",
+        "Rayleigh waves",
         "Love waves",
-        "P-waves (longitudinal)",
-        "S-waves (shear)"
+        "P-waves",
+        "S-waves"
       ],
-      "answer": "Rayleigh surface waves",
-      "explanation_correct": "SAW touchscreens utilize high-frequency acoustic Rayleigh waves; a soft touch absorbs energy from the wave, creating a signal drop detected by receivers.",
-      "explanation_incorrect": "Love waves require specific substrate interfaces, and P or S waves are bulk waves traveling deep inside the medium rather than along its surface boundary."
+      "answer": "Rayleigh waves",
+      "explanation_correct": "SAW (Surface Acoustic Wave) technology detects touch by observing the absorption of energy from high-frequency Rayleigh waves.",
+      "explanation_incorrect": "Love waves require specialized layers, and P and S waves are bulk waves that penetrate the material rather than tracking the surface.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Why must the food platter rotate in most microwave ovens during operation?",
+      "question": "Why must the turntable in most microwave ovens rotate?",
       "options": [
-        "Electromagnetic waves form standing waves inside the chamber, creating hot and cold spots at nodes and antinodes",
-        "Rotation assists in uniform water evaporation from the surface",
-        "Centrifugal force distributes melted fat evenly through the food",
-        "The rotation motor drives a cooling fan for the magnetron magnets"
+        "The compartment forms standing waves, causing uneven hot and cold spots",
+        "Rotation helps evenly evaporate surface moisture",
+        "Centrifugal force distributes melted fat within the food mass",
+        "The rotating motor also drives the cooling fan"
       ],
-      "answer": "Electromagnetic waves form standing waves inside the chamber, creating hot and cold spots at nodes and antinodes",
-      "explanation_correct": "Reflected microwaves establish interference patterns with fixed hot and cold spots; rotation ensures all parts of the food pass through high-energy areas.",
-      "explanation_incorrect": "Evaporation is driven by temperature, centrifugal force is negligible at low speeds, and magnetron fans operate independently of the glass platter."
+      "answer": "The compartment forms standing waves, causing uneven hot and cold spots",
+      "explanation_correct": "Rotating keeps the food moving through the interference patterns of waves, preventing hot and cold zones (nodes and antinodes).",
+      "explanation_incorrect": "Centrifugal forces in a microwave are negligible, and cooling fans are independent of interior turntable motion.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "What is the maximum constant speed a falling raindrop achieves when gravity is balanced by aerodynamic drag?",
+      "question": "What is the maximum constant speed reached by a falling raindrop when gravity is balanced by aerodynamic drag?",
       "options": [
         "Terminal velocity",
         "Critical velocity",
@@ -926,12 +1068,14 @@
         "Laminar velocity"
       ],
       "answer": "Terminal velocity",
-      "explanation_correct": "Terminal velocity is reached when drag matches gravitational pull, keeping the falling object at a stable, non-accelerating velocity.",
-      "explanation_incorrect": "Critical velocity marks turbulent flow transitions, drift velocity tracks electrical charge movement, and laminar velocity describes smooth fluid streams."
+      "explanation_correct": "At terminal velocity, the air resistance force equals the gravity force, resulting in zero acceleration.",
+      "explanation_incorrect": "Critical velocity is about turbulence thresholds; drift and laminar refer to charge movement and flow characteristics respectively.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the term for the time required by headphone processors to analyze ambient noise and generate the anti-phase cancellation wave?",
+      "question": "What is the term for the time needed by processors in headphones to analyze noise and generate a counter-phase canceling signal?",
       "options": [
         "Processing latency",
         "Rise time",
@@ -939,25 +1083,29 @@
         "Sampling period"
       ],
       "answer": "Processing latency",
-      "explanation_correct": "Processing latency in ANC systems must remain below tens of microseconds; otherwise, the anti-noise wave drifts out of phase and fails to cancel sound.",
-      "explanation_incorrect": "Rise time defines analog circuit response, decoherence applies to quantum states, and the sampling period is the static clock interval of digital converters."
+      "explanation_correct": "Latency defines the lag between sensing the sound and the output pulse; if too high, noise cancellation will be out of phase with the actual noise.",
+      "explanation_incorrect": "Rise time describes signal speed, decoherence is a quantum phenomenon, and the sampling period is just one beat of data capture.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which carbon allotrope (often synthetic) is used to construct the anode in typical electric vehicle lithium-ion batteries?",
+      "question": "Which carbon allotrope serves as the anode in typical lithium-ion batteries of electric cars?",
       "options": [
         "Graphite",
         "Diamond",
-        "Carbon black",
-        "Activated carbon"
+        "Conductive carbon black",
+        "Activated charcoal"
       ],
       "answer": "Graphite",
-      "explanation_correct": "Graphite anodes allow lithium ions to insert themselves between carbon sheets (intercalation) during the charging cycle.",
-      "explanation_incorrect": "Diamond is an electrical insulator, carbon black is a conductive additive, and activated carbon lacks the regular layers needed for stable lithium intercalation."
+      "explanation_correct": "The layered sheets of graphite allow Li-ions to insert themselves (intercalation), ensuring energy storage stability.",
+      "explanation_incorrect": "Diamond structure prevents ion migration; charcoal is too chemically disorganized for effective lithium cycling.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "Which synthetic polymer (abbreviated as PAN) serves as the primary raw precursor for producing over 90% of the world's carbon fiber?",
+      "question": "Which synthetic polymer, abbreviated as PAN, is the main raw material for producing over 90% of global carbon fiber?",
       "options": [
         "Polyacrylonitrile (PAN)",
         "Polystyrene",
@@ -965,77 +1113,89 @@
         "Polypropylene"
       ],
       "answer": "Polyacrylonitrile (PAN)",
-      "explanation_correct": "PAN precursor fibers undergo stabilization, carbonization under nitrogen gas, and graphitization to align carbon ring structures along the fiber axis.",
-      "explanation_incorrect": "Polystyrene decomposes into volatile monomers, polyurethane releases toxic cyanates, and polypropylene yields low-strength amorphous carbon soot."
+      "explanation_correct": "PAN fibers are oxidized and carbonized at high temperatures to create the high-strength molecular strands of carbon fiber.",
+      "explanation_incorrect": "The other polymers listed do not have the molecular backbone required to convert into carbon fiber structure effectively.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "To what approximate temperature must sucrose be heated to trigger caramelization, the thermal breakdown of sugars without amino acids?",
+      "question": "To what approximate temperature must sucrose be heated to start caramelization, the thermal decomposition of sugars without amino acids?",
       "options": [
-        "Approximately 160 degrees Celsius",
-        "Approximately 100 degrees Celsius",
-        "Approximately 250 degrees Celsius",
-        "Approximately 80 degrees Celsius"
+        "Approximately 160°C",
+        "Approximately 100°C",
+        "Approximately 250°C",
+        "Approximately 80°C"
       ],
-      "answer": "Approximately 160 degrees Celsius",
-      "explanation_correct": "Caramelization of sucrose begins around 160°C, involving thermal degradation, water loss, and polymerization into characteristic volatile compounds.",
-      "explanation_incorrect": "100°C is water boiling point, 80°C is pasteurization heat, and 250°C carbonizes sugar into black carbon charcoal."
+      "answer": "Approximately 160°C",
+      "explanation_correct": "Caramelization begins around 160°C, involving complex pyrolysis to produce rich, browned, and flavorful products.",
+      "explanation_incorrect": "100°C is water boiling point; 80°C lacks thermal energy for bond breaking; 250°C results in immediate charring.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Which cloud-to-ground lightning strikes (positive or negative) are statistically rarer but carry much higher currents, making them primary triggers for forest fires?",
+      "question": "Which cloud-to-ground lightning discharge, positive or negative, is statistically rarer but carries a significantly higher charge and is more frequently associated with starting forest fires?",
       "options": [
-        "Positive cloud-to-ground strikes (+CG)",
-        "Negative cloud-to-ground strikes (-CG)",
-        "Intra-cloud discharges",
+        "Positive cloud-to-ground lightning (+CG)",
+        "Negative cloud-to-ground lightning (-CG)",
+        "Intracloud lightning",
         "Ball lightning"
       ],
-      "answer": "Positive cloud-to-ground strikes (+CG)",
-      "explanation_correct": "Positive lightning originates in the high ice-crystal anvil of the cloud, traveling longer distances to generate currents up to 300,000 amperes.",
-      "explanation_incorrect": "Negative strikes represent the 95% majority of ground hits, intra-cloud events remain aloft, and ball lightning is a rare, low-energy plasma anomaly."
+      "answer": "Positive cloud-to-ground lightning (+CG)",
+      "explanation_correct": "Positive cloud-to-ground lightning occurs less frequently than negative, but it often carries a higher charge and current, making it particularly capable of igniting forest fires.",
+      "explanation_incorrect": "Negative cloud-to-ground lightning is the most common, intracloud lightning does not reach the ground, and ball lightning is a rare, distinct phenomenon.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Why does a GPS receiver require signals from at least four satellites instead of three to compute a 3D position (latitude, longitude, and altitude)?",
+      "question": "Why does a GPS receiver require signals from at least four satellites, rather than three, to calculate a 3D position (latitude, longitude, and altitude)?",
       "options": [
-        "The fourth satellite synchronizes the receiver's clock (correcting quartz clock bias)",
-        "The fourth satellite measures atmospheric pressure at the user's location",
-        "Satellites transmit in pairs to cancel ionospheric delays",
-        "Three satellites only suffice at night due to solar radiation effects"
+        "The fourth satellite allows for the calculation of the receiver's clock error",
+        "The fourth satellite measures the atmospheric pressure at the user's location",
+        "Satellites transmit signals in pairs to cancel out ionospheric delays",
+        "Three satellites are only sufficient at night due to solar radiation"
       ],
-      "answer": "The fourth satellite synchronizes the receiver's clock (correcting quartz clock bias)",
-      "explanation_correct": "GPS receivers lack atomic clocks; the fourth satellite measurement solves for the time bias variable alongside latitude, longitude, and altitude.",
-      "explanation_incorrect": "Pressure is unrelated, satellites transmit independent signals, and day/night shifts change signal delays but do not solve clock sync issues."
+      "answer": "The fourth satellite allows for the calculation of the receiver's clock error",
+      "explanation_correct": "Because a standard GPS receiver lacks an atomic clock, the fourth satellite signal provides the additional equation needed to solve for the time offset.",
+      "explanation_incorrect": "Atmospheric pressure is not measured by the satellite, signals are not transmitted in pairs, and the diurnal cycle does not affect the necessity of the fourth satellite for time synchronization.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which luminescent substance (phosphor coating) is applied to a blue LED chip to convert part of its light into yellow, producing white light?",
+      "question": "Which luminescent substance, applied as a phosphor to a blue LED chip, converts part of the light to yellow, thereby creating white light?",
       "options": [
-        "Cerium-doped Yttrium Aluminum Garnet (Ce:YAG)",
+        "Cerium-doped yttrium aluminum garnet (Ce:YAG)",
         "Fluorescein",
         "Zinc sulfide",
         "Titanium dioxide"
       ],
-      "answer": "Cerium-doped Yttrium Aluminum Garnet (Ce:YAG)",
-      "explanation_correct": "Ce:YAG phosphor absorbs blue photons and re-emits them in a broad yellow spectrum, combining with the blue light to simulate white light.",
-      "explanation_incorrect": "Fluorescein decomposes under high heat, zinc sulfide is phosphorescent (glow-in-the-dark), and titanium dioxide is a reflective white paint pigment."
+      "answer": "Cerium-doped yttrium aluminum garnet (Ce:YAG)",
+      "explanation_correct": "The Ce:YAG phosphor absorbs a portion of the blue light and emits a broad yellow spectrum; the mixing of blue and yellow light creates the perception of white.",
+      "explanation_incorrect": "Fluorescein is not used in LEDs, zinc sulfide is a traditional radio-luminescent pigment, and titanium dioxide is an opaque white pigment.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which metal oxide (indium tin oxide, abbreviated as ITO) forms the transparent conductive layer on capacitive touchscreen glass?",
+      "question": "What metal oxide conductive material, abbreviated as ITO, forms the transparent conductive layer on the glass of capacitive touchscreens?",
       "options": [
         "Indium tin oxide (ITO)",
         "Titanium dioxide",
-        "Aluminum-doped zinc oxide",
+        "Zinc-doped aluminum oxide",
         "Silicon dioxide"
       ],
       "answer": "Indium tin oxide (ITO)",
-      "explanation_correct": "Indium tin oxide (ITO) is a degenerate semiconductor that offers both electrical conductivity and high optical transparency in the visible spectrum.",
-      "explanation_incorrect": "Titanium dioxide is opaque white, zinc oxide is a less common ITO alternative, and silicon dioxide is glass which acts as an electrical insulator."
+      "explanation_correct": "Indium tin oxide is a transparent semiconductor that conducts electricity while allowing visible light to pass through, which is ideal for touchscreens.",
+      "explanation_incorrect": "Titanium dioxide is opaque, zinc-doped aluminum oxide is not the standard, and silicon dioxide is an electrical insulator.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the name of the core component of a magnetron (a metal block with cavity resonators) where circulating electrons generate electromagnetic waves?",
+      "question": "What is the name of the main part of a magnetron, a metal block containing resonant cavities, where electrons orbit and generate electromagnetic waves?",
       "options": [
         "Anode block (cavity anode)",
         "Oxide cathode",
@@ -1043,38 +1203,44 @@
         "Loop antenna"
       ],
       "answer": "Anode block (cavity anode)",
-      "explanation_correct": "The copper anode block contains cylindrical cavities that act as resonant circuits, excited by electrons moving past them in a magnetostatic field.",
-      "explanation_incorrect": "The cathode emits electrons, the filament heats the source, and loop antennas extract the generated wave field into the oven cavity waveguide."
+      "explanation_correct": "The anode block contains resonance cavities that are excited by the motion of electrons within a magnetic field, resulting in the generation of microwave energy.",
+      "explanation_incorrect": "The cathode emits the electrons, the filament heats the cathode, and the loop antenna is only for output coupling.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "At what approximate maximum diameter does a falling raindrop become aerodynamically unstable and break apart into smaller droplets?",
+      "question": "At approximately what maximum diameter does a falling raindrop become aerodynamically unstable and break apart under the strain of air resistance?",
       "options": [
-        "Approximately 6 mm",
-        "Approximately 2 mm",
-        "Approximately 15 mm",
-        "Approximately 1 mm"
+        "About 6 mm",
+        "About 2 mm",
+        "About 15 mm",
+        "About 1 mm"
       ],
-      "answer": "Approximately 6 mm",
-      "explanation_correct": "As raindrops exceed 6 mm in diameter, aerodynamic drag overcomes surface tension, blowing the droplet into a thin bag shape that bursts.",
-      "explanation_incorrect": "2 mm drops are stable, 1 mm is light rain, and 15 mm is aerodynamically impossible under standard atmospheric pressures."
+      "answer": "About 6 mm",
+      "explanation_correct": "As a drop reaches roughly 6 mm in diameter, air resistance overcomes surface tension, causing the droplet to deform and shatter into smaller pieces.",
+      "explanation_incorrect": "Droplets of 1-2 mm are typically stable, while 15 mm is far beyond the size a single drop can maintain in the atmosphere.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Why did early ANC systems in the 1980s and 1990s rely on analog electronics instead of digital signal processors (DSP)?",
+      "question": "Why did early Active Noise Control (ANC) systems of the 1980s and 90s rely on analog electronics instead of Digital Signal Processors (DSP)?",
       "options": [
-        "Analog filters do not introduce digital converter delays (ADC/DAC latency)",
-        "Digital processing was banned in aviation communication systems",
-        "Analog circuits consumed more power, which boosted signal gain",
-        "Acoustic sound waves cannot be represented in binary format"
+        "Analog circuits do not introduce latency caused by ADC/DAC conversion",
+        "Digital signal processing was prohibited in aviation communication",
+        "Analog circuits consumed more power to increase signal gain",
+        "Acoustic waves cannot be stored in digital format"
       ],
-      "answer": "Analog filters do not introduce digital converter delays (ADC/DAC latency)",
-      "explanation_correct": "Analog circuits process signals at speed-of-light electron flows, bypassing the sampling and conversion latency of early microprocessors.",
-      "explanation_incorrect": "Aviation adopted digital flight decks early, power consumption does not scale sound fidelity, and digital audio has existed since the 1970s."
+      "answer": "Analog circuits do not introduce latency caused by ADC/DAC conversion",
+      "explanation_correct": "To cancel out high-frequency noise, the system must react instantly. Analog systems avoid the conversion time delay inherent in early digital systems.",
+      "explanation_incorrect": "Aviation allowed digital processing; energy consumption didn't solve the timing issue, and acoustic waves are easily converted to digital data.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which rare-earth metal (lanthanide group element) is alloyed with neodymium magnets to increase their resistance to demagnetization at motor operating temperatures?",
+      "question": "Which rare-earth element from the lanthanide group is added to neodymium magnets to increase their resistance to demagnetization at higher operating temperatures?",
       "options": [
         "Dysprosium",
         "Lanthanum",
@@ -1082,25 +1248,29 @@
         "Erbium"
       ],
       "answer": "Dysprosium",
-      "explanation_correct": "Dysprosium is added to high-performance neodymium-iron-boron magnets to improve thermal stability and prevent demagnetization under heavy load.",
-      "explanation_incorrect": "Lanthanum and cerium do not increase magnet coercivity, and erbium is utilized in fiber-optic amplifier doping."
+      "explanation_correct": "Dysprosium is added to Neodymium-Iron-Boron (NdFeB) magnets to significantly enhance their coercivity and thermal stability, vital for motors.",
+      "explanation_incorrect": "Lanthanum and cerium do not increase coercivity to the same effective degree, and erbium is primarily used in fiber optics.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "In which gas atmosphere (oxygen-free) is the carbonization of polymer fibers conducted to expel hydrogen and nitrogen without burning the carbon?",
+      "question": "In which type of atmosphere is polymer fiber carbonization conducted to remove hydrogen and nitrogen without burning the carbon?",
       "options": [
-        "Nitrogen atmosphere (or argon)",
-        "Vacuum",
-        "Carbon dioxide atmosphere",
-        "Oxygen atmosphere"
+        "An inert gas atmosphere, such as nitrogen or argon",
+        "A vacuum",
+        "A carbon dioxide atmosphere",
+        "An oxygen atmosphere"
       ],
-      "answer": "Nitrogen atmosphere (or argon)",
-      "explanation_correct": "Carbonization requires an inert gas cover like nitrogen to prevent oxidation of the carbon backbone at processing temperatures exceeding 1000°C.",
-      "explanation_incorrect": "Maintaining a continuous vacuum line is cost-prohibitive, carbon dioxide oxidizes hot carbon via the Boudouard reaction, and oxygen would burn the fibers to ash."
+      "answer": "An inert gas atmosphere, such as nitrogen or argon",
+      "explanation_correct": "Carbonization requires an inert atmosphere to prevent the oxygen from burning the fibers at extremely high temperatures.",
+      "explanation_incorrect": "A vacuum is technically possible but harder to scale, CO2 can react with hot carbon, and oxygen would immediately ignite the substance.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "What is the physical-chemical process (swelling and disruption of starch granules in hot water) that thickens sauces and puddings?",
+      "question": "What physicochemical process, involving the swelling and bursting of starch granules in hot water, thickens sauces and puddings?",
       "options": [
         "Starch gelatinization",
         "Coagulation",
@@ -1108,103 +1278,119 @@
         "Denaturation"
       ],
       "answer": "Starch gelatinization",
-      "explanation_correct": "Gelatinization occurs when heat breaks intermolecular bonds in starch granules, allowing water molecules to hydrogen-bond with amylose and amylopectin.",
-      "explanation_incorrect": "Coagulation and denaturation apply to proteins, and caramelization is the breakdown of dry sugars."
+      "explanation_correct": "Gelatinization occurs when heat forces water into starch granules, disrupting their internal structure and creating a viscous, thickened gel.",
+      "explanation_incorrect": "Coagulation and denaturation are protein processes, while caramelization is the heat-induced breakdown of sugars.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "How many kilometers away is a lightning strike if exactly three seconds elapse between seeing the flash and hearing the thunder?",
+      "question": "How far away is a lightning strike if there is a 3-second delay between the flash and the sound of thunder?",
       "options": [
-        "Approximately one kilometer",
-        "Approximately three kilometers",
-        "Approximately 300 meters",
-        "Approximately ten kilometers"
+        "About 1 kilometer",
+        "About 3 kilometers",
+        "About 300 meters",
+        "About 10 kilometers"
       ],
-      "answer": "Approximately one kilometer",
-      "explanation_correct": "Since sound travels at roughly 340 meters per second, multiplying three seconds yields about 1020 meters, or one kilometer.",
-      "explanation_incorrect": "Three kilometers requires a 9-second delay, 300 meters is reached in 1 second, and ten kilometers takes roughly 30 seconds to travel."
+      "answer": "About 1 kilometer",
+      "explanation_correct": "Since the speed of sound is roughly 340 m/s, it takes about 3 seconds for it to cover 1 kilometer.",
+      "explanation_incorrect": "3 seconds is not enough for 3 kilometers; 300 meters is roughly 1 second, and 10 kilometers would be about 30 seconds.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which chemical element from the alkali metal group (cesium or rubidium) serves as the primary frequency standard in GPS satellite atomic clocks?",
+      "question": "Which alkali metal elements are used as frequency standards in the atomic clocks on board GPS satellites?",
       "options": [
-        "Cesium / Rubidium",
+        "Cesium and rubidium",
         "Sodium",
         "Lithium",
         "Potassium"
       ],
-      "answer": "Cesium / Rubidium",
-      "explanation_correct": "GPS satellites carry rubidium and cesium atomic clocks that transition electrons between hyperfine energy levels to define time intervals.",
-      "explanation_incorrect": "Sodium, lithium, and potassium hyperfine transitions are less stable or harder to measure with high-frequency microwave resonators."
+      "answer": "Cesium and rubidium",
+      "explanation_correct": "GPS satellites carry rubidium and cesium atomic clocks to ensure extreme timing precision.",
+      "explanation_incorrect": "Sodium, lithium, and potassium are not used in modern space-borne atomic frequency standards.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which semiconductor nanocrystals (quantum dots) are applied to LEDs in modern television screens to produce highly saturated red and green colors?",
+      "question": "Which semiconductor nanocrystals are used in modern LED television screens to achieve highly saturated red and green colors?",
       "options": [
         "Quantum dots",
         "Organic phosphors",
         "Phthalocyanine dyes",
-        "Silicon microcrystals"
+        "Silicon nanocrystals"
       ],
       "answer": "Quantum dots",
-      "explanation_correct": "Quantum dots are nanometer-sized semiconductor crystals that emit specific wavelengths of light depending on their particle diameter.",
-      "explanation_incorrect": "Organic compounds degrade rapidly under bright excitation, dyes absorb light instead of converting it, and silicon lacks direct bandgap light output."
+      "explanation_correct": "Quantum dots are nanometer-scale crystals that emit light at very precise wavelengths depending on their size, allowing for vivid color reproduction.",
+      "explanation_incorrect": "Organic dyes degrade faster, and silicon does not have an efficient bandgap for light emission.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "What is the chemical type of glass (aluminosilicate) used as the substrate for Gorilla Glass, differing from common soda-lime window glass?",
+      "question": "What type of glass is used as the base for Gorilla Glass, which differs from standard soda-lime glass due to its strength?",
       "options": [
         "Aluminosilicate glass",
         "Soda-lime glass",
         "Borosilicate glass",
-        "Fused quartz"
+        "Fused silica"
       ],
       "answer": "Aluminosilicate glass",
-      "explanation_correct": "Aluminosilicate glass contains aluminum oxide alongside silica, which creates a robust structural network that accommodates large potassium ions.",
-      "explanation_incorrect": "Soda-lime glass structurally breaks during ion exchange, borosilicate resists thermal expansion, and quartz lacks the lattice sites for alkali diffusion."
+      "explanation_correct": "Aluminosilicate glass contains aluminum oxide, which provides a more robust network for chemical strengthening processes like ion exchange.",
+      "explanation_incorrect": "Soda-lime glass is standard window glass; borosilicate is for low thermal expansion, and fused silica is pure and difficult to manufacture.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the name of the rotating metal blades (mode stirrer) used in flatbed microwave ovens to scatter microwaves in random directions?",
+      "question": "What are the rotating metal blades inside a microwave oven called, which help distribute waves in different directions?",
       "options": [
-        "Mode stirrer (wave stirrer)",
+        "Mode stirrer",
         "Secondary magnetron",
         "Waveguide",
-        "Wave choke"
+        "Waveguide attenuator"
       ],
-      "answer": "Mode stirrer (wave stirrer)",
-      "explanation_correct": "A mode stirrer rotates inside the waveguide opening, continuously deflecting the standing wave patterns to prevent hot and cold spots.",
-      "explanation_incorrect": "Magnetrons generate waves, waveguides are hollow metal feed lines, and wave chokes are perimeter channels that prevent microwave leakage."
+      "answer": "Mode stirrer",
+      "explanation_correct": "A mode stirrer rotates to reflect microwaves into different orientations, preventing localized hot or cold spots in the food.",
+      "explanation_incorrect": "The magnetron produces the microwaves, the waveguide directs them, and an attenuator reduces the energy, rather than scattering it.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "What shape do very small raindrops (less than 1 mm in diameter) have as they fall, due to the dominance of surface tension?",
+      "question": "What shape do very small raindrops (diameter under 1 mm) take when surface tension dominates their structure?",
       "options": [
         "Almost perfect spheres",
         "Hamburger bun shape",
-        "Flat disks",
-        "Teardrop shapes with pointed tops"
+        "Flat discs",
+        "Teardrops with point"
       ],
       "answer": "Almost perfect spheres",
-      "explanation_correct": "Surface tension dominates at small volumes, pulling micro-droplets into spherical shapes that experience minimal aerodynamic deformation.",
-      "explanation_incorrect": "Bun shapes only apply to larger drops, flat disks split immediately, and pointed tears are merely illustration conventions."
+      "explanation_correct": "Surface tension pulls the water into the form with the least surface area; for tiny drops, this is an almost perfect sphere.",
+      "explanation_incorrect": "Larger drops deform into a 'bun' shape due to air resistance; teardrops are a popular artistic misconception.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which ANC configuration uses two microphones (one outside and one inside the ear cup), combining the benefits of feedforward and feedback designs?",
+      "question": "Which ANC configuration uses two microphones—one external and one internal—to combine the benefits of feedforward and feedback designs?",
       "options": [
         "Hybrid ANC",
         "Adaptive ANC",
         "Differential ANC",
-        "Symmetrical ANC"
+        "Symmetric ANC"
       ],
       "answer": "Hybrid ANC",
-      "explanation_correct": "Hybrid ANC integrates external and internal microphones, suppressing noise across a broader spectrum with fewer acoustic artifacts.",
-      "explanation_incorrect": "Adaptive ANC is a software routine, while differential and symmetrical describe electrical transmission standards."
+      "explanation_correct": "Hybrid ANC uses feedback and feedforward microphones, allowing it to cancel noise across a broader frequency spectrum more effectively.",
+      "explanation_incorrect": "Adaptive ANC refers to the processing algorithm, and the other terms are not industry-standard configurations.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which chemical compound (LFP) replaces expensive cobalt in the cathodes of modern, safer, and longer-lasting electric vehicle batteries?",
+      "question": "What cathode material, denoted as LFP, is replacing cobalt in safer and more durable batteries for electric vehicles?",
       "options": [
         "Lithium iron phosphate (LiFePO4)",
         "Manganese oxide",
@@ -1212,25 +1398,29 @@
         "Lithium titanate"
       ],
       "answer": "Lithium iron phosphate (LiFePO4)",
-      "explanation_correct": "LFP batteries utilize olivine crystal structures that resist oxygen release at high heats, preventing thermal runaway and lowering raw material costs.",
-      "explanation_incorrect": "Manganese oxide fits alkaline disposables, nickel sulfide is a raw ore, and lithium titanate (LTO) replaces anodes rather than cathodes."
+      "explanation_correct": "LFP batteries possess an olivine structure that is thermally stable and eliminates the need for expensive, toxic cobalt.",
+      "explanation_incorrect": "The other options listed do not describe the standard LFP (LiFePO4) chemistry used in EV batteries.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "Within what approximate temperature range is the carbonization phase of fibers conducted to remove organic non-carbon atoms?",
+      "question": "At what approximate temperature range is polymer fiber carbonization conducted to remove non-carbon atoms?",
       "options": [
-        "1000 to 1500 degrees Celsius",
-        "100 to 300 degrees Celsius",
-        "3000 to 4000 degrees Celsius",
-        "500 to 700 degrees Celsius"
+        "1000–1500°C",
+        "100–300°C",
+        "3000–4000°C",
+        "500–700°C"
       ],
-      "answer": "1000 to 1500 degrees Celsius",
-      "explanation_correct": "Carbonization thermal treatment between 1000 and 1500°C pyrolyzes the polymer backbone, leaving aligned carbon rings.",
-      "explanation_incorrect": "100-300°C is initial oxidation stabilization, 3000-4000°C volatilizes carbon bonds, and 500-700°C yields low-purity charcoal carbon."
+      "answer": "1000–1500°C",
+      "explanation_correct": "Carbonization occurs at 1000–1500°C to break down polymer chains and leave a carbon-only structure.",
+      "explanation_incorrect": "100-300°C is the stabilization stage, while 3000°C+ is often used for subsequent graphitization, not initial carbonization.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which linear glucose polymer in starch (amylose or amylopectin) is responsible for forming a stable 3D gel once cooked starch cools down?",
+      "question": "Which linear glucose polymer in starch is primarily responsible for forming a stable gel upon cooling?",
       "options": [
         "Amylose",
         "Amylopectin",
@@ -1238,73 +1428,85 @@
         "Cellulose"
       ],
       "answer": "Amylose",
-      "explanation_correct": "Amylose consists of straight-chain polymers that readily recrystallize (retrograde) upon cooling, trapping water to form strong gel networks.",
-      "explanation_incorrect": "Amylopectin is branched and forms highly viscous non-gelling pastes, glycogen is animal sugar storage, and cellulose is insoluble fiber."
+      "explanation_correct": "Amylose consists of straight chains that reassociate after cooling (retrogradation), creating a firm, water-trapping gel network.",
+      "explanation_incorrect": "Amylopectin is branched and prevents gel structure, glycogen is for animals, and cellulose is structural fiber.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "How much time does it take for a sound wave to travel a distance of one kilometer in air at room temperature?",
+      "question": "How long does it take for a sound wave to travel one kilometer in the air at room temperature?",
       "options": [
-        "Approximately 3 seconds",
-        "Approximately 1 second",
-        "Approximately 10 seconds",
-        "Approximately 30 seconds"
+        "About 3 seconds",
+        "About 1 second",
+        "About 10 seconds",
+        "About 30 seconds"
       ],
-      "answer": "Approximately 3 seconds",
-      "explanation_correct": "Sound travels at roughly 343 meters per second; dividing 1,000 meters by 343 yields approximately 2.91 seconds.",
-      "explanation_incorrect": "1 second matches a 340-meter distance, 10 seconds spans 3.4 km, and 30 seconds covers over 10 km."
+      "answer": "About 3 seconds",
+      "explanation_correct": "Sound travels at approximately 343 m/s, so moving 1,000 meters takes just under 3 seconds.",
+      "explanation_incorrect": "1 second covers around 340 meters, while 10 and 30 seconds clearly represent significantly larger distances.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "At what approximate altitude (in kilometers) above Earth's surface do the GPS constellation satellites orbit?",
+      "question": "At approximately what altitude above the Earth's surface do GPS constellation satellites orbit?",
       "options": [
-        "Approximately 20,200 km",
-        "Approximately 36,000 km",
-        "Approximately 400 km",
-        "Approximately 2,000 km"
+        "About 20,200 km",
+        "About 36,000 km",
+        "About 400 km",
+        "About 2,000 km"
       ],
-      "answer": "Approximately 20,200 km",
-      "explanation_correct": "GPS satellites operate in Medium Earth Orbit at 20,200 km, positioning them at a orbital period of exactly 12 sidereal hours.",
-      "explanation_incorrect": "36,000 km is geostationary orbit, 400 km is the International Space Station's altitude, and 2,000 km is the boundary of Low Earth Orbit."
+      "answer": "About 20,200 km",
+      "explanation_correct": "GPS satellites are in medium Earth orbit (MEO) at roughly 20,200 km to ensure global navigation coverage.",
+      "explanation_incorrect": "36,000 km is for geostationary orbit, 400 km for the ISS, and 2,000 km is too low for reliable GPS coverage.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the name of the display type (OLED) where the light-emitting layer is made of organic carbon compounds, eliminating the need for a backlight?",
+      "question": "What is the display technology called where the light-emitting layer is constructed from organic carbon compounds, eliminating the need for a backlight?",
       "options": [
         "OLED (Organic Light-Emitting Diode)",
         "QLED",
-        "Active AMOLED",
+        "AMOLED",
         "Mini-LED"
       ],
       "answer": "OLED (Organic Light-Emitting Diode)",
-      "explanation_correct": "OLED displays use organic thin films that emit light directly under current, providing infinite contrast ratios by shutting down individual pixels.",
-      "explanation_incorrect": "QLED relies on liquid crystal panels and quantum dot filters, Mini-LED is a backlight density upgrade for LCDs, and AMOLED is a sub-type of OLED using active matrix backplanes."
+      "explanation_correct": "OLED creates light directly from organic layers, enabling perfect black levels and high contrast.",
+      "explanation_incorrect": "QLED and Mini-LED rely on backlit LCD matrices, and AMOLED is specifically a type of OLED.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Materials Science",
-      "question": "Which primary mineral raw material (silicon dioxide SiO2, or quartz sand) forms the glass-making base for aluminosilicate sheets?",
+      "question": "What basic mineral raw material, specifically silica (SiO2) or quartz sand, is the base for producing aluminosilicate glass?",
       "options": [
-        "Quartz sand (Silicon dioxide / SiO2)",
-        "Alumina (Aluminum oxide)",
-        "Soda ash (Sodium carbonate)",
+        "Quartz sand (silicon dioxide / SiO2)",
+        "Alumina (aluminum oxide)",
+        "Soda ash (sodium carbonate)",
         "Dolomite"
       ],
-      "answer": "Quartz sand (Silicon dioxide / SiO2)",
-      "explanation_correct": "Silicon dioxide is the primary network former in glassmaking, forming the random 3D network of covalent silicon-oxygen bonds.",
-      "explanation_incorrect": "Alumina is a network modifier, soda ash reduces melting temperatures, and dolomite increases durability against weathering."
+      "answer": "Quartz sand (silicon dioxide / SiO2)",
+      "explanation_correct": "Silicon dioxide is the primary glass-forming network for all commercial silica-based glasses.",
+      "explanation_incorrect": "Soda and alumina act as fluxing and stabilizing agents, not as the primary glass-network former.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Why does the magnetron in a microwave oven require two permanent ring magnets around the anode block?",
+      "question": "Why does a microwave oven magnetron require two ring-shaped magnets around the anode block?",
       "options": [
-        "The magnetic field bends electron paths into circular orbits around the cathode, causing resonance",
-        "The magnets cool the anode cavities using magnetic induction",
+        "The magnetic field curves the electron paths to stimulate resonance in the cavities",
+        "The magnets cool the anode cavities through magnetic induction",
         "The magnets filter electrical noise from the power grid",
-        "The magnets prevent microwave leaks into the room"
+        "The magnets prevent microwave radiation leakage into the room"
       ],
-      "answer": "The magnetic field bends electron paths into circular orbits around the cathode, causing resonance",
-      "explanation_correct": "The magnetic field exerts a Lorentz force perpendicular to electron movement, curving their trajectories into tight spirals to excite the anode cavities.",
-      "explanation_incorrect": "Magnets do not provide thermal cooling, do not filter alternating current inputs, and play no role in shielding leakage waves."
+      "answer": "The magnetic field curves the electron paths to stimulate resonance in the cavities",
+      "explanation_correct": "A strong magnetic field forces electrons into a spiral path, allowing them to interact and excite the resonant cavities.",
+      "explanation_incorrect": "The magnets do not cool the system; cooling is typically handled by passive air vents or fans.",
+      "last_verified_at": "2026-06-12T14:32:02.753Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     }
   ]
 }

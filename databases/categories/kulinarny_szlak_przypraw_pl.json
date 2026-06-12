@@ -1,0 +1,1512 @@
+{
+  "id": "kulinarny_szlak_przypraw_pl",
+  "name": "Kulinarny Szlak Przypraw",
+  "language": "pl",
+  "description": "Pytania z zakresu: Zioła cytrusowe, Sosy fermentowane, Bulwy pikantne, Przyprawy żywiczne...",
+  "created_at": "2026-06-12T15:15:29.148Z",
+  "last_verified_at": "2026-06-12T15:15:28.512Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 100,
+  "questions": [
+    {
+      "subcategory": "Zioła cytrusowe",
+      "question": "Które zioło jest powszechnie stosowane w kuchni tajskiej?",
+      "options": [
+        "Trawa cytrynowa",
+        "Bazylia",
+        "Koper",
+        "Kolendra"
+      ],
+      "answer": "Trawa cytrynowa",
+      "explanation_correct": "Trawa cytrynowa (lemongrass) to zioło o cytrusowym aromacie, kluczowy składnik wielu dań tajskich, jak tom yum czy zielone curry.",
+      "explanation_incorrect": "Bazylia, koper i kolendra to popularne zioła, ale nie charakteryzują się dominującym cytrusowym smakiem charakterystycznym dla trawy cytrynowej.",
+      "last_verified_at": "2026-06-12T15:14:16.636Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy fermentowane",
+      "question": "Która przyprawa w płynie powstaje z fermentacji soi i pszenicy?",
+      "options": [
+        "Sos sojowy",
+        "Ocet ryżowy",
+        "Olej sezamowy",
+        "Sos rybny"
+      ],
+      "answer": "Sos sojowy",
+      "explanation_correct": "Tradycyjny sos sojowy wytwarzany jest przez fermentację ziaren soi z pszenicą, solą i drożdżami, dając ciemny, słony płyn.",
+      "explanation_incorrect": "Ocet ryżowy powstaje z fermentacji ryżu, olej sezamowy jest tłoczony z nasion, a sos rybny z ryb i soli.",
+      "last_verified_at": "2026-06-12T15:14:16.636Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Bulwy pikantne",
+      "question": "Z jakiej bulwy najczęściej przyrządza się pastę wasabi?",
+      "options": [
+        "Chrzan japoński",
+        "Imbir",
+        "Kurkuma",
+        "Rzodkiew"
+      ],
+      "answer": "Chrzan japoński",
+      "explanation_correct": "Prawdziwy wasabi pochodzi z twardego chrzanu japońskiego (Wasabia japonica), który po starciu daje ostry, zielony smak.",
+      "explanation_incorrect": "Imbir, kurkuma i rzodkiew mają zupełnie inny profil smakowy i nie są używane jako baza do wasabi.",
+      "last_verified_at": "2026-06-12T15:14:16.636Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy żywiczne",
+      "question": "Która żywica z korzeni olbrzymiego kopru ma intensywny, czosnkowy zapach?",
+      "options": [
+        "Asafetyda",
+        "Mirra",
+        "Kadzidło",
+        "Żywica sosnowa"
+      ],
+      "answer": "Asafetyda",
+      "explanation_correct": "Asafetyda (hing) to suszona żywica z korzenia Ferula assa-foetida, używana w kuchni indyjskiej do wzmocnienia smaku potraw.",
+      "explanation_incorrect": "Mirra i kadzidło to żywice o słodkim, balsamicznym zapachu, a żywica sosnowa nie jest używana jako przyprawa.",
+      "last_verified_at": "2026-06-12T15:14:16.636Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła włoskie",
+      "question": "Które zioło jest kluczowym składnikiem włoskiego sosu salsa verde?",
+      "options": [
+        "Natka pietruszki",
+        "Bazylia",
+        "Oregano",
+        "Szałwia"
+      ],
+      "answer": "Natka pietruszki",
+      "explanation_correct": "Salsa verde to włoski sos na bazie natki pietruszki, kaparów, anchois i octu, podawany do mięs i ryb.",
+      "explanation_incorrect": "Bazylia, oregano i szałwia są używane w innych włoskich sosach, ale nie stanowią bazy dla tradycyjnej salsa verde.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona aromatyczne",
+      "question": "Które nasiona są wewnętrzną, aromatyczną częścią owocu muszkatołowca?",
+      "options": [
+        "Gałka muszkatołowa",
+        "Kardamon",
+        "Anyż",
+        "Kminek"
+      ],
+      "answer": "Gałka muszkatołowa",
+      "explanation_correct": "Gałka muszkatołowa to pestka owocu muszkatołowca (Myristica fragrans), suszona i używana jako przyprawa o słodko-korzennym smaku.",
+      "explanation_incorrect": "Kardamon, anyż i kminek pochodzą z innych roślin i mają odmienne profile smakowe.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Osłonka nasienna",
+      "question": "Która przyprawa jest zewnętrzną osłonką gałki muszkatołowej?",
+      "options": [
+        "Kwiat muszkatołowy",
+        "Cynamon",
+        "Goździki",
+        "Imbir"
+      ],
+      "answer": "Kwiat muszkatołowy",
+      "explanation_correct": "Kwiat muszkatołowy (macis) to suszona osłonka (arillus) otaczająca nasiono gałki muszkatołowej, ma delikatniejszy aromat.",
+      "explanation_incorrect": "Cynamon to kora, goździki to pąki kwiatowe, a imbir to kłącze, nie mają związku z gałką muszkatołową.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Papryki słodkie",
+      "question": "Która przyprawa jest głównym składnikiem tradycyjnego węgierskiego gulaszu?",
+      "options": [
+        "Papryka mielona",
+        "Czosnek",
+        "Pieprz",
+        "Cebula"
+      ],
+      "answer": "Papryka mielona",
+      "explanation_correct": "Węgierski gulasz (gulyás) opiera się na dużej ilości słodkiej, mielonej papryki, która nadaje mu charakterystyczny kolor i smak.",
+      "explanation_incorrect": "Czosnek, pieprz i cebula są dodatkami, ale to papryka jest kluczową przyprawą definiującą danie.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła leśne",
+      "question": "Z liści którego drzewa pozyskuje się liście laurowe?",
+      "options": [
+        "Drzewa laurowego",
+        "Drzewa oliwnego",
+        "Drzewa eukaliptusowego",
+        "Drzewa cytrynowego"
+      ],
+      "answer": "Drzewa laurowego",
+      "explanation_correct": "Liście laurowe pochodzą z wiecznie zielonego drzewa laurowego (Laurus nobilis) i są używane jako aromatyczna przyprawa do zup i mięs.",
+      "explanation_incorrect": "Liście drzewa oliwnego, eukaliptusowego czy cytrynowego nie mają zastosowania jako przyprawa laurowa.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia chińska",
+      "question": "Który pieprz pochodzący z Chin ma cytrusowy aromat i powoduje drętwienie ust?",
+      "options": [
+        "Pieprz syczuański",
+        "Pieprz czarny",
+        "Pieprz biały",
+        "Pieprz zielony"
+      ],
+      "answer": "Pieprz syczuański",
+      "explanation_correct": "Pieprz syczuański (Sichuan pepper) to suszone osłonki nasion z rodzaju Zanthoxylum, które wywołują uczucie drętwienia i mają cytrusową nutę.",
+      "explanation_incorrect": "Pieprz czarny, biały i zielony pochodzą z tej samej winorośli (Piper nigrum) i nie dają efektu drętwienia.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona kminkowe",
+      "question": "Która przyprawa jest powszechnie nazywana kminem rzymskim?",
+      "options": [
+        "Kumin",
+        "Kminek",
+        "Kolendra",
+        "Anyż"
+      ],
+      "answer": "Kumin",
+      "explanation_correct": "Kumin (kmin rzymski, Cuminum cyminum) to przyprawa o ziemistym, lekko ostrym smaku, szeroko stosowana w kuchni meksykańskiej i indyjskiej.",
+      "explanation_incorrect": "Kminek to inna roślina (Carum carvi), a kolendra i anyż mają słodsze, bardziej cytrusowe nuty.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła orzeźwiające",
+      "question": "Która roślina jest naturalnym źródłem mentolu?",
+      "options": [
+        "Mięta",
+        "Bazylia",
+        "Szałwia",
+        "Tymianek"
+      ],
+      "answer": "Mięta",
+      "explanation_correct": "Mięta (Mentha) zawiera mentol, który odpowiada za jej orzeźwiający i chłodzący smak, często używany w napojach i deserach.",
+      "explanation_incorrect": "Bazylia, szałwia i tymianek nie zawierają mentolu, mają inne olejki eteryczne.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia indyjska",
+      "question": "Które strączki nasienne mają intensywny aromat eukaliptusa i są używane w kuchni indyjskiej?",
+      "options": [
+        "Kardamon",
+        "Anyż",
+        "Kminek",
+        "Koper"
+      ],
+      "answer": "Kardamon",
+      "explanation_correct": "Kardamon (Elettaria cardamomum) to strączki o silnym, kamforowo-eukaliptusowym aromacie, kluczowy składnik chai i garam masali.",
+      "explanation_incorrect": "Anyż ma lukrecjowy aromat, kminek jest ziemisty, a koper anyżkowy, ale nie eukaliptusowy.",
+      "last_verified_at": "2026-06-12T15:14:16.637Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła do mięs",
+      "question": "Które zioło o igiełkowatych liściach i leśnym zapachu jest często używane do przyprawiania mięs?",
+      "options": [
+        "Rozmaryn",
+        "Tymianek",
+        "Oregano",
+        "Majeranek"
+      ],
+      "answer": "Rozmaryn",
+      "explanation_correct": "Rozmaryn (Rosmarinus officinalis) ma igiełkowate liście i silny, żywiczny aromat, idealny do pieczonych mięs i ziemniaków.",
+      "explanation_incorrect": "Tymianek, oregano i majeranek mają drobniejsze liście i bardziej ziołowy, mniej żywiczny aromat.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia tajska",
+      "question": "Które liście limonki o intensywnym aromacie są powszechnie używane w kuchni tajskiej?",
+      "options": [
+        "Liście kaffiru",
+        "Liście curry",
+        "Liście bazylii tajskiej",
+        "Liście kolendry"
+      ],
+      "answer": "Liście kaffiru",
+      "explanation_correct": "Liście kaffiru (Citrus hystrix) mają charakterystyczny cytrusowy aromat, używane w tajskich curry i zupach do wzmocnienia smaku.",
+      "explanation_incorrect": "Liście curry pochodzą z drzewa Murraya koenigii, a tajska bazylia i kolendra mają inne profile smakowe.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mieszanki indyjskie",
+      "question": "Która indyjska mieszanka przypraw oznacza dosłownie 'gorąca mieszanka'?",
+      "options": [
+        "Garam masala",
+        "Curry",
+        "Tandoori masala",
+        "Chaat masala"
+      ],
+      "answer": "Garam masala",
+      "explanation_correct": "Garam masala to mieszanka zmielonych przypraw (kardamon, cynamon, goździki, kminek), której nazwa w hindi oznacza 'gorącą mieszankę' ze względu na rozgrzewające właściwości.",
+      "explanation_incorrect": "Curry to zazwyczaj mieszanka z kurkumą, tandoori masala jest dla tandoora, a chaat masala jest kwaśno-ostra, nie wszystkie określane jako 'gorące' w ten sposób.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy do ryb",
+      "question": "Które zioło o smaku zbliżonym do anyżu jest często używane do przyprawiania ryb?",
+      "options": [
+        "Koper włoski",
+        "Estragon",
+        "Kminek",
+        "Majeranek"
+      ],
+      "answer": "Koper włoski",
+      "explanation_correct": "Koper włoski (Foeniculum vulgare) ma nasiona o słodko-anyżkowym smaku, idealne do ryb, sosów i potraw z oliwą.",
+      "explanation_incorrect": "Estragon ma smak anyżkowo-cytrusowy, ale nie jest typowo używany do ryb jak koper włoski; kminek i majeranek mają inne nuty.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła octowe",
+      "question": "Które zioło, znane również jako 'smoczyca', jest popularne w kuchni francuskiej?",
+      "options": [
+        "Estragon",
+        "Bazylia",
+        "Mięta",
+        "Rukola"
+      ],
+      "answer": "Estragon",
+      "explanation_correct": "Estragon (Artemisia dracunculus), zwany 'smoczycą', ma anyżkowy smak, używany do octów, sosów (béarnaise) i sałatek.",
+      "explanation_incorrect": "Bazylia, mięta i rukola nie są nazywane 'smoczycą', choć każda ma własne, wyraziste smaki.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy angielskie",
+      "question": "Który angielski sos na bazie anchois, tamaryndowca i octu jest używany jako przyprawa?",
+      "options": [
+        "Sos Worcestershire",
+        "Sos HP",
+        "Keczup",
+        "Musztarda"
+      ],
+      "answer": "Sos Worcestershire",
+      "explanation_correct": "Sos Worcestershire to fermentowany sos z anchois, tamaryndowca, octu i przypraw, który dodaje umami do potraw.",
+      "explanation_incorrect": "Sos HP jest na bazie pomidorów i octu, keczup to pomidory, a musztarda z nasion gorczycy, wszystkie pozbawione anchois i tamaryndowca.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona czarne",
+      "question": "Która czarna przyprawa to nasiona czarnuszki siewnej?",
+      "options": [
+        "Czarnuszka",
+        "Czarny sezam",
+        "Mak",
+        "Pieprz czarny"
+      ],
+      "answer": "Czarnuszka",
+      "explanation_correct": "Czarnuszka (Nigella sativa) to małe czarne nasiona o ostrym, lekko cebulowym smaku, używane w wypiekach i kuchni indyjskiej.",
+      "explanation_incorrect": "Czarny sezam ma łagodniejszy smak, mak jest słodki, a pieprz czarny to jagody, nie nasiona czarnuszki.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sole smakowe",
+      "question": "Która sól powstaje przez wędzenie nad dymem drzewnym?",
+      "options": [
+        "Sól wędzona",
+        "Sól czosnkowa",
+        "Sól himalajska",
+        "Sól morska"
+      ],
+      "answer": "Sól wędzona",
+      "explanation_correct": "Sól wędzona to sól morska lub kamienna poddana procesowi wędzenia nad dymem drzewnym, co nadaje jej charakterystyczny aromat.",
+      "explanation_incorrect": "Pozostałe sole nie są poddawane wędzeniu – sól czosnkowa zawiera suszony czosnek, himalajska ma różowy kolor, morska pochodzi z odparowania wody morskiej.",
+      "last_verified_at": "2026-06-12T15:14:16.638Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła francuskie",
+      "question": "Które zioło o drobnych listkach jest obowiązkowym składnikiem francuskiego bouquet garni?",
+      "options": [
+        "Tymianek",
+        "Majeranek",
+        "Oregano",
+        "Bazylia"
+      ],
+      "answer": "Tymianek",
+      "explanation_correct": "Tymianek jest jednym z klasycznych składników bouquet garni, charakteryzuje się drobnymi listkami i intensywnym aromatem.",
+      "explanation_incorrect": "Majeranek i oregano są podobne, ale rzadziej używane w tradycyjnym bouquet garni; bazylia jest bardziej aromatyczna i stosowana świeża.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia gruzińska",
+      "question": "Jaka gruzińska mieszanka ziół pochodzi z regionu Kaukazu?",
+      "options": [
+        "Chmeli-suneli",
+        "Zatar",
+        "Garam masala",
+        "Curry"
+      ],
+      "answer": "Chmeli-suneli",
+      "explanation_correct": "Chmeli-suneli to gruzińska mieszanka ziół, często zawierająca kolendrę, koper, bazylię i inne, typowa dla kuchni kaukaskiej.",
+      "explanation_incorrect": "Zatar jest bliskowschodni, garam masala indyjska, curry to ogólna nazwa mieszanek indyjskich.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Ostre papryki",
+      "question": "Która ostra przyprawa w proszku bierze swoją nazwę od miasta Cayenne w Gujanie Francuskiej?",
+      "options": [
+        "Pieprz kajeński",
+        "Chilli ancho",
+        "Pimenton",
+        "Harissa"
+      ],
+      "answer": "Pieprz kajeński",
+      "explanation_correct": "Pieprz kajeński to sproszkowana odmiana papryki Capsicum annuum, nazwana na cześć stolicy Gujany Francuskiej.",
+      "explanation_incorrect": "Ancho to suszona papryka poblano, Pimenton to wędzona papryka hiszpańska, a Harissa to pasta tunezyjska.",
+      "last_verified_at": "2026-06-12T15:15:28.510Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła ogrodowe",
+      "question": "Które zioło ogrodowe ma liście o charakterystycznym mydlanym posmaku?",
+      "options": [
+        "Kolendra",
+        "Pietruszka",
+        "Koper",
+        "Bazylia"
+      ],
+      "answer": "Kolendra",
+      "explanation_correct": "Liście kolendry (Coriandrum sativum) mają dla niektórych osób mydlany posmak ze względu na zawarte aldehydy.",
+      "explanation_incorrect": "Pietruszka, koper i bazylia nie mają takiego posmaku – są bardziej świeże i ziołowe.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Produkty pszczele",
+      "question": "Jaki naturalny słodzik jest produkowany przez pszczoły z nektaru?",
+      "options": [
+        "Miód",
+        "Syrop klonowy",
+        "Cukier brązowy",
+        "Stewia"
+      ],
+      "answer": "Miód",
+      "explanation_correct": "Miód jest naturalnym słodzikiem wytwarzanym przez pszczoły z nektaru kwiatów, zawiera enzymy i antyoksydanty.",
+      "explanation_incorrect": "Syrop klonowy pochodzi z soku drzew, cukier brązowy to rafinowany cukier, stewia to roślina słodząca.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Korzenie pikantne",
+      "question": "Który świeży korzeń pochodzi z rośliny Zingiber officinale?",
+      "options": [
+        "Imbir",
+        "Kurkuma",
+        "Galangal",
+        "Chrzan"
+      ],
+      "answer": "Imbir",
+      "explanation_correct": "Imbir (Zingiber officinale) to korzeń używany świeży lub suszony, o ostrym smaku i aromacie.",
+      "explanation_incorrect": "Kurkuma, galangal i chrzan to inne korzenie – kurkuma jest żółta, galangal podobny do imbiru, chrzan ostry.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy do dziczyzny",
+      "question": "Które suszone owoce ziela angielskiego są używane do przyprawiania dziczyzny?",
+      "options": [
+        "Piment",
+        "Gałka muszkatołowa",
+        "Goździki",
+        "Cynamon"
+      ],
+      "answer": "Piment",
+      "explanation_correct": "Piment (allspice) to suszone owoce drzewa Pimenta dioica, o aromacie goździków, cynamonu i gałki muszkatołowej, idealny do dziczyzny.",
+      "explanation_incorrect": "Gałka muszkatołowa, goździki i cynamon to pojedyncze przyprawy, nie owoce ziela angielskiego.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła do herbaty",
+      "question": "Która werbena o zapachu cytryny jest używana do herbat?",
+      "options": [
+        "Lippia trójlistna",
+        "Melisa",
+        "Mięta pieprzowa",
+        "Rumianek"
+      ],
+      "answer": "Lippia trójlistna",
+      "explanation_correct": "Lippia trójlistna (Aloysia citrodora) to werbena cytrynowa, popularna w herbatach i naparach o cytrynowym aromacie.",
+      "explanation_incorrect": "Melisa ma cytrynowy zapach, ale nie jest werbeną; mięta i rumianek mają inne aromaty.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona żółte",
+      "question": "Które żółte nasiona są głównym składnikiem musztardy?",
+      "options": [
+        "Gorczyca",
+        "Sezam",
+        "Mak",
+        "Siemię lniane"
+      ],
+      "answer": "Gorczyca",
+      "explanation_correct": "Gorczyca (Sinapis alba, Brassica nigra) to nasiona używane do produkcji musztardy, nadające jej ostrość.",
+      "explanation_incorrect": "Sezam, mak i siemię lniane nie są używane do musztardy – mają inne zastosowania.",
+      "last_verified_at": "2026-06-12T15:14:16.639Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia japońska",
+      "question": "Jaka sproszkowana zielona herbata pochodzi z Japonii?",
+      "options": [
+        "Matcha",
+        "Sencha",
+        "Genmaicha",
+        "Hojicha"
+      ],
+      "answer": "Matcha",
+      "explanation_correct": "Matcha to drobno zmielona zielona herbata w proszku, używana w ceremonii herbacianej i deserach.",
+      "explanation_incorrect": "Sencha to herbata liściasta, genmaicha z ryżem, hojicha prażona – nie są sproszkowane.",
+      "last_verified_at": "2026-06-12T15:14:16.640Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy rybne",
+      "question": "Jak nazywał się starożytny rzymski sos wytwarzany ze sfermentowanych wnętrzności ryb, będący podstawową przyprawą w antycznej kuchni?",
+      "options": [
+        "Garum",
+        "Archestratos",
+        "Liquamen",
+        "Moretum"
+      ],
+      "answer": "Garum",
+      "explanation_correct": "Garum było luksusowym towarem produkowanym w procesie długotrwałej fermentacji ryb z solą na słońcu.",
+      "explanation_incorrect": "Moretum to rodzaj rzymskiego pesto, a Liquamen to termin często używany zamiennie z garum lub jako jego odmiana.",
+      "last_verified_at": "2026-06-12T15:15:28.510Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła lecznicze",
+      "question": "Które z wymienionych ziół jest najbardziej znane z działania rozkurczowego i ułatwiającego trawienie po ciężkostrawnym posiłku?",
+      "options": [
+        "Mięta pieprzowa",
+        "Szałwia lekarska",
+        "Lubczyk",
+        "Estragon"
+      ],
+      "answer": "Mięta pieprzowa",
+      "explanation_correct": "Mięta pieprzowa zawiera mentol i flawonoidy, które działają rozkurczowo na mięśnie gładkie przewodu pokarmowego.",
+      "explanation_incorrect": "Szałwia stosowana jest głównie przeciwzapalnie na śluzówki, a lubczyk i estragon to głównie zioła przyprawowe.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia jordańska",
+      "question": "Jaka bliskowschodnia mieszanka przypraw składa się z sumaku, sezamu oraz ziół, tradycyjnie spożywana z chlebem i oliwą?",
+      "options": [
+        "Za'atar",
+        "Dukkah",
+        "Sumak",
+        "Ras el hanout"
+      ],
+      "answer": "Za'atar",
+      "explanation_correct": "Za'atar to nazwa zarówno konkretnej rośliny (lebiodki), jak i gotowej mieszanki przypraw z sezamem i sumakiem.",
+      "explanation_incorrect": "Dukkah zawiera orzechy, Sumak to pojedyncza przyprawa, a Ras el hanout to złożona mieszanka korzenna z Maroka.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kwiaty jadalne",
+      "question": "Które jadalne pąki pochodzą z krzewu Capparis spinosa?",
+      "options": [
+        "Kapary",
+        "Karczochy",
+        "Róża",
+        "Lawenda"
+      ],
+      "answer": "Kapary",
+      "explanation_correct": "Kapary to marynowane pąki krzewu Capparis spinosa, używane jako dodatek do potraw.",
+      "explanation_incorrect": "Karczochy to kwiatostany ostu, róża i lawenda to płatki kwiatów.",
+      "last_verified_at": "2026-06-12T15:14:16.640Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona błękitne",
+      "question": "Które błękitne nasiona pochodzą z rośliny Papaver somniferum?",
+      "options": [
+        "Mak",
+        "Len",
+        "Chia",
+        "Konopie"
+      ],
+      "answer": "Mak",
+      "explanation_correct": "Mak (Papaver somniferum) ma drobne nasiona o niebieskawym odcieniu, używane w pieczywie i potrawach.",
+      "explanation_incorrect": "Len, chia i konopie mają inne kolory – len brązowy, chia szaro-biała, konopie zielone.",
+      "last_verified_at": "2026-06-12T15:14:16.640Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Owoce cytrusowe",
+      "question": "Jaka suszona skórka pomarańczy pochodzi z Curacao?",
+      "options": [
+        "Laraha",
+        "Kandyzowana pomarańcza",
+        "Pomarańcza gorzka",
+        "Sułtanki"
+      ],
+      "answer": "Laraha",
+      "explanation_correct": "Laraha to suszona skórka gorzkiej pomarańczy z Curacao, używana do likierów i przypraw.",
+      "explanation_incorrect": "Kandyzowana pomarańcza jest słodzona, pomarańcza gorzka to owoc, sułtanki to rodzynki.",
+      "last_verified_at": "2026-06-12T15:14:16.640Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy octowe",
+      "question": "Jaki gęsty sos octowy pochodzi z włoskiej Modeny?",
+      "options": [
+        "Ocet balsamiczny",
+        "Ocet winny",
+        "Ocet jabłkowy",
+        "Ocet sherry"
+      ],
+      "answer": "Ocet balsamiczny",
+      "explanation_correct": "Ocet balsamiczny to gęsty, ciemny ocet produkowany w Modenie z zagęszczonego moszczu winogronowego.",
+      "explanation_incorrect": "Ocet winny, jabłkowy i sherry są bardziej płynne i nie mają tak słodkiego smaku.",
+      "last_verified_at": "2026-06-12T15:14:16.640Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Bulwy aromatyczne",
+      "question": "Która bulwa o zapachu anyżku jest popularnym składnikiem sałatek w kuchni śródziemnomorskiej?",
+      "options": [
+        "Koper włoski (Fenkuł)",
+        "Seler naciowy",
+        "Rzepa",
+        "Kalarepa"
+      ],
+      "answer": "Koper włoski (Fenkuł)",
+      "explanation_correct": "Koper włoski, zwany fenkułem, słynie z wyraźnego anyżowego aromatu i chrupiącej struktury idealnej do sałatek.",
+      "explanation_incorrect": "Seler naciowy ma smak słony, rzepa jest ostra, a kalarepa ma smak zbliżony do głąba kapusty; żadne nie pachnie anyżem.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia etiopska",
+      "question": "Jaka ostra mieszanka przypraw z chili i imbirem jest używana w kuchni etiopskiej?",
+      "options": [
+        "Berbere",
+        "Ras el hanout",
+        "Tikka masala",
+        "Cajun"
+      ],
+      "answer": "Berbere",
+      "explanation_correct": "Berbere to etiopska mieszanka ostra z chili, imbirem i innymi przyprawami, używana do potraw takich jak doro wat.",
+      "explanation_incorrect": "Ras el hanout to marokańska, tikka masala indyjska, cajun kreolska – różnią się składem i regionem.",
+      "last_verified_at": "2026-06-12T15:14:34.156Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kłącza azjatyckie",
+      "question": "Która roślina dostarcza żółtego barwnika używanego w kuchni azjatyckiej?",
+      "options": [
+        "Kurkuma",
+        "Imbir",
+        "Galangal",
+        "Kozłek lekarski"
+      ],
+      "answer": "Kurkuma",
+      "explanation_correct": "Kurkuma, znana również jako szafran indyjski, zawiera kurkuminę – naturalny barwnik nadający potrawom intensywnie żółty kolor.",
+      "explanation_incorrect": "Imbir, galangal i kozłek lekarski to kłącza, ale nie są źródłem żółtego barwnika; imbir i galangal są używane głównie ze względu na smak, a kozłek lekarski w ziołolecznictwie.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy korzenne",
+      "question": "Jakie nierozwinięte pąki kwiatowe są używane jako przyprawa korzenna?",
+      "options": [
+        "Goździki",
+        "Kardamon",
+        "Gałka muszkatołowa",
+        "Pieprz czarny"
+      ],
+      "answer": "Goździki",
+      "explanation_correct": "Goździki to suszone nierozwinięte pąki kwiatowe drzewa goździkowego (Syzygium aromaticum), cenione za intensywny aromat.",
+      "explanation_incorrect": "Kardamon to nasiona, gałka muszkatołowa to ziarno, a pieprz czarny to owoce – żaden z nich nie jest pąkiem kwiatowym.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia indyjska",
+      "question": "Jaki związek chemiczny odpowiada za ostry smak czarnego pieprzu?",
+      "options": [
+        "Piperyna",
+        "Kapsaicyna",
+        "Gingerol",
+        "Allicyna"
+      ],
+      "answer": "Piperyna",
+      "explanation_correct": "Piperyna to alkaloid występujący w owocach pieprzu czarnego, który stymuluje receptory bólu na języku, dając charakterystyczne uczucie ostrości.",
+      "explanation_incorrect": "Kapsaicyna odpowiada za ostrość papryki chili, gingerol za świeży imbir, a allicyna za ostrość czosnku.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy luksusowe",
+      "question": "Która przyprawa, pozyskiwana z krokusa, jest najdroższa na świecie?",
+      "options": [
+        "Szafran",
+        "Wanilia",
+        "Kardamon",
+        "Gałka muszkatołowa"
+      ],
+      "answer": "Szafran",
+      "explanation_correct": "Szafran to wysuszone znamiona słupków krokusa uprawnego (Crocus sativus), wymagające ręcznego zbioru, co czyni go najdroższą przyprawą świata.",
+      "explanation_incorrect": "Wanilia, kardamon i gałka muszkatołowa również są drogie, ale żadna nie osiąga ceny szafranu; wanilia jest drugą najdroższą po szafranie.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sól kulinarna",
+      "question": "Jaką różową odmianą soli wydobywa się w kopalni Khewra w Pakistanie?",
+      "options": [
+        "Sól himalajska",
+        "Sól hawajska",
+        "Sól morska",
+        "Sól kamienna szara"
+      ],
+      "answer": "Sól himalajska",
+      "explanation_correct": "Sól himalajska wydobywana jest w Pakistanie i posiada różową barwę dzięki zawartości tlenku żelaza.",
+      "explanation_incorrect": "Sól hawajska bywa czarna lub czerwona, morska jest biała, a zwykła kamienna zazwyczaj szara lub przezroczysta.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia śródziemnomorska",
+      "question": "Które zioło jest głównym składnikiem sosu pesto?",
+      "options": [
+        "Bazylia",
+        "Oregano",
+        "Tymianek",
+        "Rozmaryn"
+      ],
+      "answer": "Bazylia",
+      "explanation_correct": "Bazylia, szczególnie odmiana genueńska, jest podstawą tradycyjnego pesto, nadając mu świeży, lekko pieprzowy aromat.",
+      "explanation_incorrect": "Oregano, tymianek i rozmaryn używane są w kuchni śródziemnomorskiej, ale nie tworzą bazy dla klasycznego sosu pesto.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy kory",
+      "question": "Z wysuszonej kory którego drzewa pochodzi najszlachetniejsza odmiana cynamonu?",
+      "options": [
+        "Cynamonowiec cejloński",
+        "Cynamonowiec kamforowy",
+        "Wiąz czerwony",
+        "Dąb korkowy"
+      ],
+      "answer": "Cynamonowiec cejloński",
+      "explanation_correct": "Cynamon cejloński uzyskuje się z kory Cinnamomum verum, która jest cieńsza i bardziej aromatyczna niż popularna kasja.",
+      "explanation_incorrect": "Cynamonowiec kamforowy służy do produkcji kamfory, a wiąz i dąb korkowy nie dostarczają przypraw korzennych.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia meksykańska",
+      "question": "Jak nazywa się suszona i wędzona papryka jalapeño?",
+      "options": [
+        "Chipotle",
+        "Ancho",
+        "Pasilla",
+        "Chili cayenne"
+      ],
+      "answer": "Chipotle",
+      "explanation_correct": "Chipotle to dojrzała papryka jalapeño poddana suszeniu i wędzeniu, co nadaje jej charakterystyczny dymny smak.",
+      "explanation_incorrect": "Ancho to suszona papryka poblano, pasilla to suszona chili negro, a cayenne – ostro zmielona papryka; żadna z nich nie jest wędzona.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Owoce storczyka",
+      "question": "Jaka laska aromatycznej rośliny pnącej jest powszechnie stosowana w deserach?",
+      "options": [
+        "Wanilia",
+        "Cynamon",
+        "Goździk",
+        "Kardamon"
+      ],
+      "answer": "Wanilia",
+      "explanation_correct": "Wanilia to strąki (laski) pnącego storczyka Vanilla planifolia, które po fermentacji nabierają słodkiego, intensywnego aromatu.",
+      "explanation_incorrect": "Cynamon to kora, goździk to pąk, a kardamon to nasiona – żaden z nich nie pochodzi z pnącej rośliny storczyka.",
+      "last_verified_at": "2026-06-12T15:14:34.157Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Mieszanki owocowe",
+      "question": "Jaka japońska mieszanka przypraw zawiera siedem składników?",
+      "options": [
+        "Shichimi togarashi",
+        "Garam masala",
+        "Baharat",
+        "Pięć przypraw chińskich"
+      ],
+      "answer": "Shichimi togarashi",
+      "explanation_correct": "Shichimi togarashi to japońska mieszanka przypraw, która tradycyjnie składa się z siedmiu składników, m.in. chili, skórki pomarańczowej i sezamu.",
+      "explanation_incorrect": "Garam masala to mieszanka indyjska, baharat bliskowschodnia, a pięć przypraw chińskich – jak nazwa wskazuje – ma pięć składników.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła prowansalskie",
+      "question": "Które zioło prowansalskie nadaje potrawom mydlany zapach?",
+      "options": [
+        "Lawenda",
+        "Tymianek",
+        "Rozmaryn",
+        "Estragon"
+      ],
+      "answer": "Lawenda",
+      "explanation_correct": "Lawenda zawiera linalol i octan linalilu, które nadają jej charakterystyczny, mydlany aromat, często używany w mieszankach ziół prowansalskich.",
+      "explanation_incorrect": "Tymianek, rozmaryn i estragon mają bardziej ziołowe, żywiczne lub anyżowe nuty, nie zaś mydlane.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia polska",
+      "question": "Owoce jakiego krzewu są używane do marynat i produkcji ginu?",
+      "options": [
+        "Jałowiec",
+        "Kminek",
+        "Kolendra",
+        "Anyż"
+      ],
+      "answer": "Jałowiec",
+      "explanation_correct": "Jagody jałowca to szyszkojagody krzewu jałowca pospolitego, używane jako przyprawa do marynat, bigosu oraz jako składnik aromatyzujący gin.",
+      "explanation_incorrect": "Kminek, kolendra i anyż to nasiona roślin zielnych, nie owoce krzewu; nie są też typowym składnikiem ginu.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Strączkowe przyprawy",
+      "question": "Jak nazywa się kwaśna pasta uzyskiwana z owoców indyjskiego drzewa, kluczowa w kuchni azjatyckiej?",
+      "options": [
+        "Tamaryndowiec",
+        "Mango",
+        "Papaja",
+        "Durian"
+      ],
+      "answer": "Tamaryndowiec",
+      "explanation_correct": "Tamaryndowiec indyjski dostarcza strąków, z których miąższu powstaje kwaśna pasta używana m.in. w zupie Pad Thai.",
+      "explanation_incorrect": "Mango i papaja są owocami słodkimi, a durian słynie z intensywnego, kontrowersyjnego zapachu, a nie kwaśnej pasty.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła gorzkie",
+      "question": "Jaki składnik jest głównym źródłem goryczki w absyncie?",
+      "options": [
+        "Piołun",
+        "Kolendra",
+        "Melisa",
+        "Anyż"
+      ],
+      "answer": "Piołun",
+      "explanation_correct": "Piołun (Artemisia absinthium) zawiera tujon i inne gorycze, które nadają absyntowi charakterystyczny gorzki smak.",
+      "explanation_incorrect": "Kolendra, melisa i anyż nie mają gorzkiego smaku – kolendra jest cytrusowa, melisa cytrynowa, anyż słodki.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy anyżowe",
+      "question": "Która gwiazdkowata przyprawa pochodzi z Chin?",
+      "options": [
+        "Anyż gwiaździsty",
+        "Kardamon",
+        "Anyż",
+        "Kminek"
+      ],
+      "answer": "Anyż gwiaździsty",
+      "explanation_correct": "Anyż gwiaździsty to owoc Illicium verum, drzewa pochodzącego z Chin, o charakterystycznym kształcie gwiazdki i smaku podobnym do anyżu.",
+      "explanation_incorrect": "Kardamon, anyż (właściwy) i kminek nie mają gwiazdkowatego kształtu – kardamon to strąk, anyż i kminek to nasiona.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona oleiste",
+      "question": "Z jakich nasion wytwarza się pastę tahini?",
+      "options": [
+        "Sezam",
+        "Mak",
+        "Słonecznik",
+        "Len"
+      ],
+      "answer": "Sezam",
+      "explanation_correct": "Tahini to pasta z prażonych i mielonych nasion sezamu (Sesamum indicum), używana w kuchniach Bliskiego Wschodu i basenu Morza Śródziemnego.",
+      "explanation_incorrect": "Mak, słonecznik i len również są nasionami oleistymi, ale nie są podstawą do produkcji tahini – mak służy do makowca, słonecznik i len do innych past.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia bliskowschodnia",
+      "question": "Jaka purpurowa, kwaśna przyprawa pochodzi z jagód krzewu?",
+      "options": [
+        "Sumak",
+        "Kwaśnica",
+        "Berberys",
+        "Żurawina"
+      ],
+      "answer": "Sumak",
+      "explanation_correct": "Sumak to przyprawa z suszonych i zmielonych jagód krzewu Rhus coriaria, o purpurowym kolorze i kwaśnym, cytrynowym smaku.",
+      "explanation_incorrect": "Kwaśnica to roślina wodna, berberys jest cierpki, a żurawina kwaśna, ale żadna nie jest typową przyprawą w kuchni bliskowschodniej.",
+      "last_verified_at": "2026-06-12T15:14:34.158Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła śródziemnomorskie",
+      "question": "Dziki majeranek używany do pizzy to:",
+      "options": [
+        "Oregano",
+        "Majeranek",
+        "Tymianek",
+        "Bazylia"
+      ],
+      "answer": "Oregano",
+      "explanation_correct": "Oregano to dzika odmiana majeranku (Origanum vulgare), o intensywnym aromacie często używanym w kuchni włoskiej, zwłaszcza do pizzy.",
+      "explanation_incorrect": "Majeranek ogrodowy jest delikatniejszy, tymianek ma nuty ziemiste, a bazylia jest świeża – żaden nie jest określany jako dziki majeranek.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy cebulowe",
+      "question": "Suszone i mielone ząbki którego warzywa tworzą popularną przyprawę?",
+      "options": [
+        "Czosnek",
+        "Cebula",
+        "Por",
+        "Szczypiorek"
+      ],
+      "answer": "Czosnek",
+      "explanation_correct": "Czosnek to Allium sativum; jego ząbki po wysuszeniu i zmieleniu dają czosnek granulowany lub proszek, powszechnie stosowany jako przyprawa.",
+      "explanation_incorrect": "Cebula, por i szczypiorek to inne warzywa z rodzaju Allium, ale ich części jadalne to cebule, liście lub łodygi, nie ząbki.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia marokańska",
+      "question": "Jaka złożona mieszanka przypraw jest nazywana 'szczytem sklepu' w Maroku?",
+      "options": [
+        "Ras el hanout",
+        "Harissa",
+        "Berkane",
+        "Chermoula"
+      ],
+      "answer": "Ras el hanout",
+      "explanation_correct": "Ras el hanout oznacza 'szczyt sklepu' – to złożona mieszanka nawet kilkudziesięciu przypraw, używana w kuchni maghrebskiej.",
+      "explanation_incorrect": "Harissa to pasta chili, berkane nie jest znaną mieszanką, a chermoula to marynata na bazie ziół i czosnku – żadna nie nosi nazwy 'szczyt sklepu'.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy do piernika",
+      "question": "Która przyprawa, będąca składnikiem curry, to mielone nasiona rośliny strączkowej o smaku kojarzonym z lubczykiem lub orzechami?",
+      "options": [
+        "Kozieradka",
+        "Kminek",
+        "Gorczyca",
+        "Sezam"
+      ],
+      "answer": "Kozieradka",
+      "explanation_correct": "Nasiona kozieradki po uprażeniu i zmieleniu wydzielają aromat przypominający syrop klonowy lub lubczyk.",
+      "explanation_incorrect": "Kminek i gorczyca nie należą do rodziny strączkowych, a sezam nie ma tak silnej goryczki charakterystycznej dla kozieradki.",
+      "last_verified_at": "2026-06-12T15:15:28.511Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Oleje smakowe",
+      "question": "Który olej otrzymywany jest z owoców drzewa Olea europaea?",
+      "options": [
+        "Olej rzepakowy",
+        "Oliwa z oliwek",
+        "Olej słonecznikowy",
+        "Olej kokosowy"
+      ],
+      "answer": "Oliwa z oliwek",
+      "explanation_correct": "Oliwa z oliwek jest naturalnym tłuszczem pozyskiwanym przez tłoczenie owoców oliwki europejskiej (Olea europaea).",
+      "explanation_incorrect": "Olej rzepakowy pochodzi z rzepaku, słonecznikowy z nasion słonecznika, a kokosowy z miąższu orzecha kokosowego – żaden nie jest związany z drzewem oliwnym.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Owoce egzotyczne",
+      "question": "Która przyprawa to osłonki owoców krzewu z rodzaju Zanthoxylum, znana z cytrusowego aromatu i powodowania mrowienia na języku?",
+      "options": [
+        "Pieprz syczuański",
+        "Pieprz czarny",
+        "Pieprz różowy",
+        "Pieprz biały"
+      ],
+      "answer": "Pieprz syczuański",
+      "explanation_correct": "Pieprz syczuański nie jest prawdziwym pieprzem, lecz owocem krzewu, który zawiera związki wywołujące drętwienie i mrowienie ust.",
+      "explanation_incorrect": "Pieprz czarny, biały i różowy mają inny charakter; różowy to jagoda krzewu schinusowego, ale nie ma smaku cytrusowego.",
+      "last_verified_at": "2026-06-12T15:15:28.512Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła do drobiu",
+      "question": "Które zioło do drobiu to majeranek ogrodowy?",
+      "options": [
+        "Majeranek",
+        "Tymianek",
+        "Oregano",
+        "Rozmaryn"
+      ],
+      "answer": "Majeranek",
+      "explanation_correct": "Majeranek ogrodowy (Origanum majorana) to popularne zioło używane do przyprawiania drobiu, o delikatnym, słodkawym aromacie.",
+      "explanation_incorrect": "Tymianek, oregano i rozmaryn to inne zioła, ale żaden z nich nie jest majerankiem ogrodowym.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia tex-mex",
+      "question": "Które nasiona achiote barwiące na czerwono są używane w kuchni tex-mex?",
+      "options": [
+        "Annato",
+        "Papryka w proszku",
+        "Kurkuma",
+        "Szafran"
+      ],
+      "answer": "Annato",
+      "explanation_correct": "Annato (Bixa orellana) to nasiona, których czerwony barwnik jest powszechnie stosowany w kuchni tex-mex do nadawania potrawom intensywnego koloru.",
+      "explanation_incorrect": "Papryka w proszku, kurkuma i szafran również barwią, ale pochodzą z innych roślin – żaden nie jest nasionem achiote.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sól wulkaniczna",
+      "question": "Która sól wulkaniczna o zapachu jajecznym to czarna sól?",
+      "options": [
+        "Kala namak",
+        "Sól himalajska",
+        "Sól morska",
+        "Sól czosnkowa"
+      ],
+      "answer": "Kala namak",
+      "explanation_correct": "Kala namak to czarna sól wulkaniczna z Indii, która dzięki zawartości siarkowodoru ma charakterystyczny zapach gotowanych jaj.",
+      "explanation_incorrect": "Sól himalajska różowa, morska i czosnkowa nie mają siarkowego zapachu – są to inne rodzaje soli.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Owoce suszone",
+      "question": "Która przyprawa z wysuszonych winogron to suszone owoce?",
+      "options": [
+        "Rodzynki",
+        "Daktyle",
+        "Suszone śliwki",
+        "Morele"
+      ],
+      "answer": "Rodzynki",
+      "explanation_correct": "Rodzynki to suszone winogrona, używane jako przyprawa w słodkich i pikantnych potrawach.",
+      "explanation_incorrect": "Daktyle, suszone śliwki i morele pochodzą z innych owoców – żaden nie jest suszonym winogronem.",
+      "last_verified_at": "2026-06-12T15:14:34.159Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła cebulowe",
+      "question": "Które zioło cebulowe o płaskich liściach i wyraźnym aromacie czosnku jest popularne w kuchni azjatyckiej?",
+      "options": [
+        "Szczypiorek czosnkowy",
+        "Dymka",
+        "Szalotka",
+        "Cebula perłowa"
+      ],
+      "answer": "Szczypiorek czosnkowy",
+      "explanation_correct": "Szczypiorek czosnkowy (Allium tuberosum) różni się od zwykłego płaskimi liśćmi i białymi kwiatami oraz czosnkowym posmakiem.",
+      "explanation_incorrect": "Dymka i szalotka to rodzaje cebul, nie mają tak specyficznego charakteru liści używanych jako zioło o smaku czosnku.",
+      "last_verified_at": "2026-06-12T15:15:28.512Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia hiszpańska",
+      "question": "Która wędzona mielona papryka jest używana w kuchni hiszpańskiej?",
+      "options": [
+        "Pimenton",
+        "Papryka słodka",
+        "Cayenne",
+        "Papryka ostra"
+      ],
+      "answer": "Pimenton",
+      "explanation_correct": "Pimenton to hiszpańska wędzona papryka (z regionu La Vera), która nadaje potrawom dymny aromat.",
+      "explanation_incorrect": "Papryka słodka cayenne to tylko część pimentonu, ale cayenne to ostry proszek chili, a papryka ostra jest nieprecyzyjnie określona.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Wyciągi roślinne",
+      "question": "Który naturalny ekstrakt z kory drzewa mydlanego to wyciąg roślinny?",
+      "options": [
+        "Saponina",
+        "Tanina",
+        "Wanilia",
+        "Mentol"
+      ],
+      "answer": "Saponina",
+      "explanation_correct": "Saponina to naturalny związek powierzchniowo czynny pozyskiwany z kory drzewa mydlanego (Quillaja saponaria).",
+      "explanation_incorrect": "Tanina pochodzi z dębu i kory innych drzew, wanilia z orchidei, a mentol z mięty – żaden nie jest ekstraktem z drzewa mydlanego.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Grzyby aromatyczne",
+      "question": "Która przyprawa z podziemnych bulw grzybów to aromatyczne grzyby?",
+      "options": [
+        "Trufle",
+        "Pieczarki",
+        "Borowiki",
+        "Kurki"
+      ],
+      "answer": "Trufle",
+      "explanation_correct": "Trufle to podziemne grzyby z rodzaju Tuber, cenione za intensywny aromat i używane jako przyprawa.",
+      "explanation_incorrect": "Pieczarki, borowiki i kurki rosną na powierzchni – żaden nie ma bulw podziemnych.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia brytyjska",
+      "question": "Która mieszanka przypraw 'Mixed spice' używana jest w kuchni brytyjskiej?",
+      "options": [
+        "Przyprawa korzenna",
+        "Garam masala",
+        "Curry",
+        "Pieprz cytrynowy"
+      ],
+      "answer": "Przyprawa korzenna",
+      "explanation_correct": "Mixed spice to brytyjska mieszanka słodkich przypraw korzennych (cynamon, goździki, gałka muszkatołowa, imbir), używana w ciastach i deserach.",
+      "explanation_incorrect": "Garam masala to indyjska mieszanka, curry to złożona mieszanka curry, a pieprz cytrynowy to inna kompozycja – żadna z nich nie jest brytyjską przyprawą korzenną.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła afrykańskie",
+      "question": "Które zioło afrykańskie pochodzi z liści krzewu czerwonokrzewu?",
+      "options": [
+        "Rooibos",
+        "Hibiskus",
+        "Buchu",
+        "Kanna"
+      ],
+      "answer": "Rooibos",
+      "explanation_correct": "Rooibos (Aspalathus linearis) to afrykański krzew, którego liście po fermentacji dają czerwonawy napar o słodkim smaku.",
+      "explanation_incorrect": "Hibiskus pochodzi z kwiatów hibiskusa, buchu z liści Agathosma, a kanna z Sceletium – żaden nie jest czerwonokrzewem.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy pomidorowe",
+      "question": "Jaka koreańska, sfermentowana pasta o gęstej konsystencji jest wytwarzana z chili, kleistego ryżu i soi?",
+      "options": [
+        "Gochujang",
+        "Miso",
+        "Wasabi",
+        "Tahini"
+      ],
+      "answer": "Gochujang",
+      "explanation_correct": "Gochujang to kluczowy składnik koreański, który dojrzewa tradycyjnie w glinianych naczyniach, uzyskując słodko-pikantny smak.",
+      "explanation_incorrect": "Miso jest japońską pastą sojową, wasabi to chrzan, a tahini to pasta z sezamu.",
+      "last_verified_at": "2026-06-12T15:15:28.512Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Substancje słodzące",
+      "question": "Która substancja słodząca to gęsty sok z pni klonu?",
+      "options": [
+        "Syrop klonowy",
+        "Miód",
+        "Syrop agawy",
+        "Syrop kukurydziany"
+      ],
+      "answer": "Syrop klonowy",
+      "explanation_correct": "Syrop klonowy jest gęstym sokiem pozyskiwanym przez nacięcie pni klonu cukrowego (Acer saccharum).",
+      "explanation_incorrect": "Miód pochodzi z nektaru kwiatów, syrop agawy z agawy, a syrop kukurydziany z kukurydzy – żaden nie pochodzi z pnia klonu.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Przyprawy do napojów",
+      "question": "Która przyprawa do napojów to kora chinowca do toniku?",
+      "options": [
+        "Chinina",
+        "Kofeina",
+        "Teina",
+        "Gencjana"
+      ],
+      "answer": "Chinina",
+      "explanation_correct": "Chinina to alkaloid pozyskiwany z kory chinowca (Cinchona), używany do produkcji toniku.",
+      "explanation_incorrect": "Kofeina i teina to związki pobudzające (w kawie i herbacie), a gencjana to korzeń goryczki – żaden nie pochodzi z kory chinowca.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła dzikie",
+      "question": "Które zioło dzikie to liście czosnku rosnącego w lesie?",
+      "options": [
+        "Czosnek niedźwiedzi",
+        "Czosnek pospolity",
+        "Por",
+        "Szczypiorek"
+      ],
+      "answer": "Czosnek niedźwiedzi",
+      "explanation_correct": "Czosnek niedźwiedzi (Allium ursinum) to dzika roślina leśna o liściach czosnkowego smaku, wykorzystywana jako zioło.",
+      "explanation_incorrect": "Czosnek pospolity to roślina uprawna, por i szczypiorek również są uprawne – żaden nie rośnie dziko w lesie.",
+      "last_verified_at": "2026-06-12T15:14:34.160Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia kreolska",
+      "question": "Która ostra odmiana papryki w proszku jest niezbędnym składnikiem mieszanek typu Cajun?",
+      "options": [
+        "Pieprz cayenne",
+        "Papryka wędzona",
+        "Słodka papryka",
+        "Oregano"
+      ],
+      "answer": "Pieprz cayenne",
+      "explanation_correct": "Pieprz cayenne (kajeński) nadaje charakterystyczną ostrość daniom kuchni Luizjany i mieszankom Cajun.",
+      "explanation_incorrect": "Papryka wędzona jest domeną kuchni hiszpańskiej, a oregano i słodka papryka nie odpowiadają za główny profil ostrości Cajun.",
+      "last_verified_at": "2026-06-12T15:15:28.512Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona do pieczywa",
+      "question": "Które nasiona do pieczywa to nasiona Carum carvi?",
+      "options": [
+        "Kminek",
+        "Koper włoski",
+        "Anyż",
+        "Kolendra"
+      ],
+      "answer": "Kminek",
+      "explanation_correct": "Kminek zwyczajny (Carum carvi) to nasiona używane do pieczywa, o charakterystycznym anyżkowo-korzennym smaku.",
+      "explanation_incorrect": "Koper włoski (Foeniculum vulgare) to inna roślina, podobnie anyż (Pimpinella anisum) i kolendra (Coriandrum sativum) – żaden nie należy do gatunku Carum.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Składniki umami",
+      "question": "Który składnik umami to suszone płatki tuńczyka bonito?",
+      "options": [
+        "Katsuobushi",
+        "Dashi",
+        "Miso",
+        "Sushi"
+      ],
+      "answer": "Katsuobushi",
+      "explanation_correct": "Katsuobushi to suszone, wędzone płatki tuńczyka bonito, bogate w umami, używane w kuchni japońskiej.",
+      "explanation_incorrect": "Dashi to bulion z katsuobushi, miso to pasta sojowa, a sushi to potrawa – żaden nie jest suszonymi płatkami bonito.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła cytrynowe",
+      "question": "Które zioło cytrynowe jest cenione za działanie uspokajające i jest często uprawiane w ogrodach?",
+      "options": [
+        "Melisa",
+        "Trawa cytrynowa",
+        "Mięta cytrynowa",
+        "Bazylia cytrynowa"
+      ],
+      "answer": "Melisa",
+      "explanation_correct": "Melisa lekarska (Melissa officinalis) ma właściwości uspokajające i jest używana w naparach oraz herbatach.",
+      "explanation_incorrect": "Pozostałe zioła, takie jak trawa cytrynowa, mięta cytrynowa i bazylia cytrynowa, są używane głównie w kuchni, a nie ze względu na działanie uspokajające.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia Tunezyjska",
+      "question": "Która ostra pasta z chili i czosnkiem jest podstawowym składnikiem kuchni tunesyjskiej?",
+      "options": [
+        "Harissa",
+        "Chermoula",
+        "Skhug",
+        "Ajika"
+      ],
+      "answer": "Harissa",
+      "explanation_correct": "Harissa to tradycyjna tunezyjska pasta z papryczek chili, czosnku, oliwy i przypraw, często używana jako dodatek do dań.",
+      "explanation_incorrect": "Chermoula pochodzi z Maroka, skhug z Jemenu, a ajika z Kaukazu – nie są to produkty tunezyjskie.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy owocowe",
+      "question": "Który rodzaj konfitury z gorzkich pomarańczy jest tradycyjnie spożywany na śniadanie?",
+      "options": [
+        "Marmolada",
+        "Dżem",
+        "Powidła",
+        "Konfitura"
+      ],
+      "answer": "Marmolada",
+      "explanation_correct": "Marmolada to konfitura z gorzkich pomarańczy, popularna w kuchni brytyjskiej jako dodatek do tostów.",
+      "explanation_incorrect": "Dżem jest z innych owoców, powidła są z suszonych śliwek, a konfitura to ogólne określenie, więc te nie są specyficznie z gorzkich pomarańczy.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Bulwy korzeniowe",
+      "question": "Który pikantny korzeń jest używany do przygotowania tarty chrzanowej?",
+      "options": [
+        "Chrzan",
+        "Imbir",
+        "Wasabi",
+        "Rzodkiew"
+      ],
+      "answer": "Chrzan",
+      "explanation_correct": "Chrzan (Armoracia rusticana) ma ostry smak i jest tradycyjnie używany do wyrobu tarty chrzanowej.",
+      "explanation_incorrect": "Imbir i wasabi mają odmienny ostry smak, a rzodkiew jest łagodniejsza i nie jest używana do tarty chrzanowej.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła do zup",
+      "question": "Które zioło o liściach przypominających seler naciowy jest używane jako przyprawa do zup?",
+      "options": [
+        "Lubczyk",
+        "Pietruszka",
+        "Koper",
+        "Majeranek"
+      ],
+      "answer": "Lubczyk",
+      "explanation_correct": "Lubczyk (Levisticum officinale) ma intensywny aromat selera i jest dodawany do zup, bulionów i sosów.",
+      "explanation_incorrect": "Pietruszka, koper i majeranek są używane w kuchni, ale nie mają specyficznego aromatu selera charakterystycznego dla lubczyku.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia amerykańska",
+      "question": "Który produkt nadaje potrawom wędzony smak bez użycia dymu?",
+      "options": [
+        "Dym wędzarniczy",
+        "Sos BBQ",
+        "Ketchup",
+        "Musztarda"
+      ],
+      "answer": "Dym wędzarniczy",
+      "explanation_correct": "Dym wędzarniczy to skondensowany dym w płynie, stosowany do aromatyzowania mięs i warzyw podczas grillowania.",
+      "explanation_incorrect": "Sos BBQ, ketchup i musztarda nie zawierają naturalnego dymu i nie nadają potrawom wędzonego smaku.",
+      "last_verified_at": "2026-06-12T15:14:34.161Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Suszone owoce",
+      "question": "Który suszony owoc z gatunku Garcinia nadaje curry dymny i kwaśny smak?",
+      "options": [
+        "Kodampuli",
+        "Tamarynd",
+        "Kokum",
+        "Amchur"
+      ],
+      "answer": "Kodampuli",
+      "explanation_correct": "Kodampuli (Garcinia cambogia) to suszony owoc o charakterystycznym dymno-kwaśnym smaku, używany w kuchni indyjskiej.",
+      "explanation_incorrect": "Tamarynd jest słodko-kwaśny, kokum kwaskowaty, a amchur to suszone mango – żaden nie ma dymnego posmaku.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona gorzkie",
+      "question": "Które nasiona są surowcem do produkcji czekolady?",
+      "options": [
+        "Kakao",
+        "Kawa",
+        "Gorzkie migdały",
+        "Pestki moreli"
+      ],
+      "answer": "Kakao",
+      "explanation_correct": "Nasiona kakaowca po fermentacji, suszeniu i paleniu są przetwarzane na kakao, podstawę czekolady.",
+      "explanation_incorrect": "Kawa to nasiona kawowca, gorzkie migdały i pestki moreli zawierają cyjanek i nie są używane do produkcji czekolady.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła do sałatek",
+      "question": "Który gatunek rzeżuchy jest najczęściej uprawiany jako roślina doniczkowa do sałatek?",
+      "options": [
+        "Rzeżucha",
+        "Rokietta",
+        "Szczypiorek",
+        "Natka pietruszki"
+      ],
+      "answer": "Rzeżucha",
+      "explanation_correct": "Rzeżucha ogrodowa (Lepidium sativum) jest łatwa w uprawie i często używana jako dodatek do sałatek i kanapek.",
+      "explanation_incorrect": "Rokietta, szczypiorek i natka pietruszki to inne zioła, ale nie są tak powszechnie uprawiane jako rzeżucha w doniczkach.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia rosyjska",
+      "question": "Który napój powstały z fermentacji chleba jest tradycyjnie spożywany w Rosji?",
+      "options": [
+        "Kwas chlebowy",
+        "Mors",
+        "Kompot",
+        "Kefir"
+      ],
+      "answer": "Kwas chlebowy",
+      "explanation_correct": "Kwas chlebowy to fermentowany napój z chleba żytniego, popularny w Rosji i innych krajach słowiańskich.",
+      "explanation_incorrect": "Mors to napój owocowy, kompot to gotowane owoce, a kefir jest z mleka – żaden nie pochodzi z fermentacji chleba.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Składniki curry",
+      "question": "Które liście drzewa Murraya koenigii są niezbędne w kuchni indyjskiej do aromatyzowania curry?",
+      "options": [
+        "Liście curry",
+        "Liście laurowe",
+        "Liście kolendry",
+        "Liście kaffiru"
+      ],
+      "answer": "Liście curry",
+      "explanation_correct": "Liście curry pochodzą z drzewa Murraya koenigii, nadają potrawom charakterystyczny, aromatyczny smak.",
+      "explanation_incorrect": "Liście laurowe, kolendry i kaffiru są używane w kuchni, ale nie są specyficznym składnikiem curry w Indiach.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sosy orzechowe",
+      "question": "Która pasta z orzeszków ziemnych jest popularna w kuchni amerykańskiej?",
+      "options": [
+        "Masło orzechowe",
+        "Masło migdałowe",
+        "Masło nerkowca",
+        "Masło sezamowe"
+      ],
+      "answer": "Masło orzechowe",
+      "explanation_correct": "Masło orzechowe to zmielone orzeszki ziemne, powszechnie spożywane z dżemem lub jako dodatek do wypieków.",
+      "explanation_incorrect": "Masło migdałowe, nerkowca i sezamowe są produkowane z innych orzechów i nie są tak popularne w kuchni amerykańskiej.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona traw",
+      "question": "Który rodzaj pieprzu to niedojrzałe zielone ziarna w zalewie?",
+      "options": [
+        "Pieprz zielony",
+        "Pieprz czarny",
+        "Pieprz biały",
+        "Pieprz czerwony"
+      ],
+      "answer": "Pieprz zielony",
+      "explanation_correct": "Zielony pieprz to niedojrzałe owoce pieprzu czarnego, konserwowane w zalewie solankowej lub occie.",
+      "explanation_incorrect": "Czarny pieprz to suszone niedojrzałe owoce, biały to dojrzałe pozbawione łupiny, czerwony to dojrzałe suszone – żaden nie jest w zalewie.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła uprawne",
+      "question": "Która roślina cebulowa, znana jako 'siedmiolatka', jest wieloletnią alternatywą dla szczypiorku?",
+      "options": [
+        "Cebula siedmiolatka",
+        "Czosnek pospolity",
+        "Czosnek niedźwiedzi",
+        "Por"
+      ],
+      "answer": "Cebula siedmiolatka",
+      "explanation_correct": "Cebula siedmiolatka (Allium fistulosum) tworzy gęste kępy liści o łagodniejszym smaku niż tradycyjna cebula.",
+      "explanation_incorrect": "Czosnek i por mają zupełnie inny system wzrostu i profil smakowy; siedmiolatka jest uprawiana głównie dla szczypioru.",
+      "last_verified_at": "2026-06-12T15:15:28.512Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia francuska",
+      "question": "Która francuska mieszanka przypraw składa się z czterech składników: pieprzu, goździków, gałki muszkatołowej i cynamonu?",
+      "options": [
+        "Cztery przyprawy",
+        "Fines herbes",
+        "Herbes de Provence",
+        "Garam masala"
+      ],
+      "answer": "Cztery przyprawy",
+      "explanation_correct": "Quatre épices (cztery przyprawy) to klasyczna francuska mieszanka używana do wędlin i kiełbas.",
+      "explanation_incorrect": "Fines herbes i Herbes de Provence to mieszanki ziół, a garam masala to przyprawa indyjska – nie zawierają tych samych składników.",
+      "last_verified_at": "2026-06-12T15:14:34.162Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Sole morskie",
+      "question": "Która delikatna sól morska w płatkach jest zbierana ręcznie z powierzchni solnisk?",
+      "options": [
+        "Fleur de sel",
+        "Sól morska",
+        "Sól himalajska",
+        "Sól kuchenna"
+      ],
+      "answer": "Fleur de sel",
+      "explanation_correct": "Fleur de sel to ręcznie zbierane kryształy soli z powierzchni solnisk, cenione za delikatną teksturę i smak.",
+      "explanation_incorrect": "Sól morska jest zwykle zbierana mechanicznie, sól himalajska z kopalni, a kuchenna jest przetworzona – żadna nie jest zbierana ręcznie jak fleur de sel.",
+      "last_verified_at": "2026-06-12T15:14:34.163Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Bulwy południowe",
+      "question": "Która skrobia z maranty trzcinowej jest używana jako zagęstnik w kuchni?",
+      "options": [
+        "Arrowroot",
+        "Skrobia kukurydziana",
+        "Mąka ziemniaczana",
+        "Tapioka"
+      ],
+      "answer": "Arrowroot",
+      "explanation_correct": "Arrowroot to skrobia z maranty trzcinowej, bezglutenowy zagęstnik stosowany w deserach i sosach.",
+      "explanation_incorrect": "Skrobia kukurydziana pochodzi z kukurydzy, ziemniaczana z ziemniaków, a tapioka z manioku – żadna nie pochodzi z maranty.",
+      "last_verified_at": "2026-06-12T15:14:34.163Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Zioła do herbaty",
+      "question": "Który napar z suszonych płatków hibiskusa jest popularny w Afryce Północnej?",
+      "options": [
+        "Karkade",
+        "Rumianek",
+        "Mięta",
+        "Pokrzywa"
+      ],
+      "answer": "Karkade",
+      "explanation_correct": "Karkade to napar z hibiskusa (Hibiscus sabdariffa) o czerwonawym kolorze i kwaśnym smaku, popularny w Egipcie i Sudanie.",
+      "explanation_incorrect": "Rumianek, mięta i pokrzywa to inne ziołowe herbaty, ale nie pochodzą z płatków hibiskusa.",
+      "last_verified_at": "2026-06-12T15:14:34.163Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Kuchnia wietnamska",
+      "question": "Który sos z sfermentowanych krewetek jest używany w kuchni wietnamskiej jako dip?",
+      "options": [
+        "Mam tom",
+        "Nuoc mam",
+        "Sos ostrygowy",
+        "Sos hoisin"
+      ],
+      "answer": "Mam tom",
+      "explanation_correct": "Mam tom to fermentowany sos krewetkowy o intensywnym, słonym smaku, używany jako dip do potraw.",
+      "explanation_incorrect": "Nuoc mam to sos rybny, ostrygowy z ostryg, a hoisin to chiński słodki sos – żaden nie jest z fermentowanych krewetek.",
+      "last_verified_at": "2026-06-12T15:14:34.163Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    },
+    {
+      "subcategory": "Nasiona roślin wodnych",
+      "question": "Które nasiona z lotosu są często używane w kuchni azjatyckiej?",
+      "options": [
+        "Lotos",
+        "Ryż",
+        "Orzech wodny",
+        "Dziki ryż"
+      ],
+      "answer": "Lotos",
+      "explanation_correct": "Nasiona lotosu (Nelumbo nucifera) są jadalne, używane w zupach, deserach i jako przekąska w kuchni azjatyckiej.",
+      "explanation_incorrect": "Ryż to ziarno trawy, orzech wodny to bulwa, a dziki ryż to nasiona dzikiej trawy – żaden nie pochodzi z lotosu.",
+      "last_verified_at": "2026-06-12T15:14:34.163Z",
+      "verifying_model": "google/gemini-3-flash-preview"
+    }
+  ]
+}

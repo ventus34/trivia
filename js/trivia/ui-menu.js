@@ -39,19 +39,43 @@ export function setupGameMenu() {
 
 function initScalingControls() {
   const configs = [
-    { key: 'trivia_scale_dice', cssVar: '--dice-scale', slider: UI.scaleDiceSlider, label: UI.scaleDiceVal, defaultVal: 1.0 },
-    { key: 'trivia_scale_board', cssVar: '--board-scale', slider: UI.scaleBoardSlider, label: UI.scaleBoardVal, defaultVal: 1.0 },
-    { key: 'trivia_scale_descriptions', cssVar: '--move-desc-scale', slider: UI.scaleDescriptionsSlider, label: UI.scaleDescriptionsVal, defaultVal: 1.0 },
-    { key: 'trivia_scale_question', cssVar: '--question-scale', slider: UI.scaleQuestionSlider, label: UI.scaleQuestionVal, defaultVal: 1.0 }
+    {
+      key: 'trivia_scale_dice',
+      cssVar: '--dice-scale',
+      slider: UI.scaleDiceSlider,
+      label: UI.scaleDiceVal,
+      defaultVal: 1.0,
+    },
+    {
+      key: 'trivia_scale_board',
+      cssVar: '--board-scale',
+      slider: UI.scaleBoardSlider,
+      label: UI.scaleBoardVal,
+      defaultVal: 1.0,
+    },
+    {
+      key: 'trivia_scale_descriptions',
+      cssVar: '--move-desc-scale',
+      slider: UI.scaleDescriptionsSlider,
+      label: UI.scaleDescriptionsVal,
+      defaultVal: 1.0,
+    },
+    {
+      key: 'trivia_scale_question',
+      cssVar: '--question-scale',
+      slider: UI.scaleQuestionSlider,
+      label: UI.scaleQuestionVal,
+      defaultVal: 1.0,
+    },
   ];
 
-  configs.forEach(cfg => {
+  configs.forEach((cfg) => {
     if (!cfg.slider) return;
 
     // Load value
     const savedVal = localStorage.getItem(cfg.key);
     const val = savedVal !== null ? parseFloat(savedVal) : cfg.defaultVal;
-    
+
     // Apply initial value
     cfg.slider.value = val;
     if (cfg.label) cfg.label.textContent = `${val.toFixed(2)}x`;

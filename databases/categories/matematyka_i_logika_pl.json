@@ -2,801 +2,1496 @@
   "id": "matematyka_i_logika_pl",
   "name": "Matematyka i Logika",
   "language": "pl",
-  "description": "Zestaw pytań o sławne twierdzenia, wielkich matematyków, algebrę, geometrię, paradoksy logiczne i historię królowej nauk.",
-  "created_at": "2026-06-11T17:23:00.000Z",
-  "question_count": 100,
+  "description": "Pytania z zakresu: Sławne twierdzenia, Wielcy matematycy, Paradoksy logiczne, Algebra i analiza...",
+  "created_at": "2026-06-12T15:22:03.971Z",
+  "last_verified_at": "2026-06-12T15:22:03.257Z",
+  "verifying_model": "google/gemini-3-flash-preview",
+  "question_count": 99,
   "questions": [
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które starożytne twierdzenie mówi, że w trójkącie prostokątnym suma kwadratów długości przyprostokątnych jest równa kwadratowi długości przeciwprostokątnej?",
-      "options": ["Twierdzenie Pitagorasa", "Twierdzenie Talesa", "Twierdzenie Eulera", "Twierdzenie cosinusów"],
+      "options": [
+        "Twierdzenie Pitagorasa",
+        "Twierdzenie Talesa",
+        "Twierdzenie Eulera",
+        "Twierdzenie cosinusów"
+      ],
       "answer": "Twierdzenie Pitagorasa",
       "explanation_correct": "Twierdzenie Pitagorasa (a^2 + b^2 = c^2) to jedno z najważniejszych i najbardziej znanych twierdzeń w geometrii euklidesowej.",
-      "explanation_incorrect": "Twierdzenie Talesa dotyczy proporcji odcinków, twierdzenie Eulera wielościanów, a twierdzenie cosinusów to uogólnienie Pitagorasa dla dowolnych trójkątów."
+      "explanation_incorrect": "Twierdzenie Talesa dotyczy proporcji odcinków, twierdzenie Eulera wielościanów, a twierdzenie cosinusów to uogólnienie Pitagorasa dla dowolnych trójkątów.",
+      "last_verified_at": "2026-06-12T15:20:49.814Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który starożytny grecki matematyk z Aleksandrii napisał dzieło 'Elementy', będące przez wieki podstawowym podręcznikiem do geometrii?",
-      "options": ["Euklides", "Pitagoras", "Archimedes", "Eratostenes"],
+      "options": [
+        "Euklides",
+        "Pitagoras",
+        "Archimedes",
+        "Eratostenes"
+      ],
       "answer": "Euklides",
       "explanation_correct": "Euklides sformułował pięć postulatów geometrii płaskiej, tworząc fundamenty tzw. geometrii euklidesowej.",
-      "explanation_incorrect": "Pitagoras założył szkołę pitagorejską, Archimedes badał hydrostatykę i dźwignie, a Eratostenes obliczył obwód Ziemi."
+      "explanation_incorrect": "Pitagoras założył szkołę pitagorejską, Archimedes badał hydrostatykę i dźwignie, a Eratostenes obliczył obwód Ziemi.",
+      "last_verified_at": "2026-06-12T15:20:49.814Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się klasyczny paradoks logiczny sformułowany przez starożytnego filozofa Epimenidesa, mówiący: 'Wszyscy Kreteńczycy są kłamcami'?",
-      "options": ["Paradoks kłamcy", "Paradoks Zenona z Elei", "Paradoks fryzjera", "Paradoks Russella"],
+      "options": [
+        "Paradoks kłamcy",
+        "Paradoks Zenona z Elei",
+        "Paradoks fryzjera",
+        "Paradoks Russella"
+      ],
       "answer": "Paradoks kłamcy",
       "explanation_correct": "Paradoks kłamcy powstaje, gdy zdanie odnosi się do samego siebie, orzekając o swojej własnej nieprawdzie (jeśli kłamie, to mówi prawdę).",
-      "explanation_incorrect": "Zenon opisał paradoks Achillesa i żółwia, paradoks fryzjera (lub Russella) dotyczy teorii zbiorów."
+      "explanation_incorrect": "Zenon opisał paradoks Achillesa i żółwia, paradoks fryzjera (lub Russella) dotyczy teorii zbiorów.",
+      "last_verified_at": "2026-06-12T15:20:49.814Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się liczba niewymierna określająca stosunek obwodu koła do jego średnicy, oznaczana grecką literą?",
-      "options": ["Liczba Pi (π)", "Liczba Eulera (e)", "Złota liczba (φ)", "Stała Plancka (h)"],
+      "options": [
+        "Liczba Pi (π)",
+        "Liczba Eulera (e)",
+        "Złota liczba (φ)",
+        "Stała Plancka (h)"
+      ],
       "answer": "Liczba Pi (π)",
       "explanation_correct": "Liczba Pi wynosi w przybliżeniu 3,14159 i występuje w wielu wzorach fizycznych i matematycznych.",
-      "explanation_incorrect": "Liczba Eulera e (~2,718) to podstawa logarytmu naturalnego, złota liczba φ (~1,618) określa złoty podział, a stała Plancka to stała fizyczna."
+      "explanation_incorrect": "Liczba Eulera e (~2,718) to podstawa logarytmu naturalnego, złota liczba φ (~1,618) określa złoty podział, a stała Plancka to stała fizyczna.",
+      "last_verified_at": "2026-06-12T15:20:49.814Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się wielościan foremny posiadający 6 kwadratowych ścian, 12 krawędzi i 8 wierzchołków?",
-      "options": ["Sześcian (heksaedr)", "Czworościan (tetraedr)", "Ośmiościan (oktaedr)", "Dwunastościan (dodekaedr)"],
+      "options": [
+        "Sześcian (heksaedr)",
+        "Czworościan (tetraedr)",
+        "Ośmiościan (oktaedr)",
+        "Dwunastościan (dodekaedr)"
+      ],
       "answer": "Sześcian (heksaedr)",
       "explanation_correct": "Sześcian to jeden z pięciu wielościanów foremnych (brył platońskich).",
-      "explanation_incorrect": "Czworościan ma 4 ściany trójkątne, ośmiościan 8 ścian trójkątnych, a dwunastościan 12 ścian pięciokątnych."
+      "explanation_incorrect": "Czworościan ma 4 ściany trójkątne, ośmiościan 8 ścian trójkątnych, a dwunastościan 12 ścian pięciokątnych.",
+      "last_verified_at": "2026-06-12T15:20:49.814Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który XVII-wieczny francuski matematyk sformułował słynne 'Wielkie Twierdzenie', które zostało udowodnione dopiero w 1994 roku przez Andrew Wilesa?",
-      "options": ["Pierre de Fermat", "Blaise Pascal", "René Descartes", "Marin Mersenne"],
+      "options": [
+        "Pierre de Fermat",
+        "Blaise Pascal",
+        "René Descartes",
+        "Marin Mersenne"
+      ],
       "answer": "Pierre de Fermat",
       "explanation_correct": "Wielkie Twierdzenie Fermata mówi, że równanie x^n + y^n = z^n nie ma rozwiązań w liczbach całkowitych dodatnich dla n > 2.",
-      "explanation_incorrect": "Pascal badał prawdopodobieństwo i ciśnienie, Descartes stworzył układ współrzędnych, a Mersenne badał liczby pierwsze."
+      "explanation_incorrect": "Pascal badał prawdopodobieństwo i ciśnienie, Descartes stworzył układ współrzędnych, a Mersenne badał liczby pierwsze.",
+      "last_verified_at": "2026-06-12T15:20:49.814Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się ciąg liczb, w którym każdy kolejny wyraz (oprócz dwóch pierwszych) jest sumą dwóch poprzednich wyrazów (np. 1, 1, 2, 3, 5, 8...)?",
-      "options": ["Ciąg Fibonacciego", "Ciąg arytmetyczny", "Ciąg geometryczny", "Ciąg Taylora"],
+      "options": [
+        "Ciąg Fibonacciego",
+        "Ciąg arytmetyczny",
+        "Ciąg geometryczny",
+        "Ciąg Taylora"
+      ],
       "answer": "Ciąg Fibonacciego",
       "explanation_correct": "Stosunki kolejnych wyrazów ciągu Fibonacciego dążą do złotej liczby (złotego podziału), co występuje powszechnie w naturze.",
-      "explanation_incorrect": "Ciąg arytmetyczny rośnie o stałą różnicę, geometryczny o stały iloraz, a ciąg Taylora służy do przybliżania funkcji."
+      "explanation_incorrect": "Ciąg arytmetyczny rośnie o stałą różnicę, geometryczny o stały iloraz, a ciąg Taylora służy do przybliżania funkcji.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się dział geometrii, który nie opiera się na piątym postulacie Euklidesa, opisując przestrzenie zakrzywione (np. eliptyczną lub hiperboliczną)?",
-      "options": ["Geometria nieeuklidesowa", "Geometria analityczna", "Topologia", "Geometria rzutowa"],
+      "options": [
+        "Geometria nieeuklidesowa",
+        "Geometria analityczna",
+        "Topologia",
+        "Geometria rzutowa"
+      ],
       "answer": "Geometria nieeuklidesowa",
       "explanation_correct": "Geometrię nieeuklidesową rozwinęli w XIX wieku m.in. Janos Bolyai, Nikołaj Łobaczewski i Bernhard Riemann.",
-      "explanation_incorrect": "Geometria analityczna łączy geometrię z algebrą przy użyciu współrzędnych, topologia bada własności niezmienne przy deformacjach, a rzutowa bada rzuty geometryczne."
+      "explanation_incorrect": "Geometria analityczna łączy geometrię z algebrą przy użyciu współrzędnych, topologia bada własności niezmienne przy deformacjach, a rzutowa bada rzuty geometryczne.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Który starożytny filozof z Elei sformułował paradoks o Achillesie i żółwiu, starając się udowodnić, że ruch jest niemożliwy?",
-      "options": ["Zenon z Elei", "Parmenides", "Heraklit", "Sokrates"],
+      "options": [
+        "Zenon z Elei",
+        "Parmenides",
+        "Heraklit",
+        "Sokrates"
+      ],
       "answer": "Zenon z Elei",
       "explanation_correct": "Zenon twierdził, że szybki Achilles nigdy nie dogoni żółwia, ponieważ za każdym razem musi najpierw dotrzeć do punktu, z którego żółw właśnie wyruszył.",
-      "explanation_incorrect": "Parmenides był jego nauczycielem, Heraklit twierdził, że wszystko płynie, a Sokrates to klasyczny filozof ateński."
+      "explanation_incorrect": "Parmenides był jego nauczycielem, Heraklit twierdził, że wszystko płynie, a Sokrates to klasyczny filozof ateński.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który niemiecki matematyk, fizyk i astronom z przełomu XVIII i XIX wieku jest nazywany 'księciem matematyków' (Princeps mathematicorum)?",
-      "options": ["Carl Friedrich Gauss", "Leonhard Euler", "Gottfried Wilhelm Leibniz", "David Hilbert"],
+      "options": [
+        "Carl Friedrich Gauss",
+        "Leonhard Euler",
+        "Gottfried Wilhelm Leibniz",
+        "David Hilbert"
+      ],
       "answer": "Carl Friedrich Gauss",
       "explanation_correct": "Gauss wniósł ogromny wkład w teorię liczb, statystykę (rozkład normalny Gausa), analizę matematyczną i elektromagnetyzm.",
-      "explanation_incorrect": "Euler był genialnym matematykiem szwajcarskim, Leibniz współtworzył rachunek różniczkowy, a Hilbert sformułował listę 23 problemów matematycznych."
+      "explanation_incorrect": "Euler był genialnym matematykiem szwajcarskim, Leibniz współtworzył rachunek różniczkowy, a Hilbert sformułował listę 23 problemów matematycznych.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się dział matematyki badający własności operacji i struktur takich jak grupy, pierścienie czy ciała?",
-      "options": ["Algebra abstrakcyjna", "Teoria liczb", "Analiza matematyczna", "Kombinatoryka"],
+      "options": [
+        "Algebra abstrakcyjna",
+        "Teoria liczb",
+        "Analiza matematyczna",
+        "Kombinatoryka"
+      ],
       "answer": "Algebra abstrakcyjna",
       "explanation_correct": "Algebra abstrakcyjna uogólnia tradycyjne działania arytmetyczne na dowolne zbiory obiektów spełniających określone aksjomaty.",
-      "explanation_incorrect": "Teoria liczb bada własności liczb całkowitych, analiza matematyczna bada granice i pochodne, a kombinatoryka zajmuje się zliczaniem układów."
+      "explanation_incorrect": "Teoria liczb bada własności liczb całkowitych, analiza matematyczna bada granice i pochodne, a kombinatoryka zajmuje się zliczaniem układów.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie matematyczne sformułowane w 1931 roku przez Kurta Gödla wstrząsnęło podstawami matematyki, dowodząc istnienia zdań prawdziwych, których nie da się udowodnić w ramach danego systemu aksjomatycznego?",
-      "options": ["Twierdzenie o niezupełności", "Twierdzenie o zwartości", "Twierdzenie o wolnej woli", "Twierdzenie o punktach stałych"],
+      "options": [
+        "Twierdzenie o niezupełności",
+        "Twierdzenie o zwartości",
+        "Twierdzenie o wolnej woli",
+        "Twierdzenie o punktach stałych"
+      ],
       "answer": "Twierdzenie o niezupełności",
       "explanation_correct": "Twierdzenia Gödla o niezupełności wykazały, że żaden niesprzeczny system aksjomatów wystarczający do opisu arytmetyki nie może być jednocześnie zupełny.",
-      "explanation_incorrect": "Pozostałe opcje to inne twierdzenia logiczne lub matematyczne niezwiązane z tym przełomem aksjomatycznym."
+      "explanation_incorrect": "Pozostałe opcje to inne twierdzenia logiczne lub matematyczne niezwiązane z tym przełomem aksjomatycznym.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się dwuwymiarowa figura geometryczna, której wszystkie punkty na obwodzie są równo oddalone od jednego punktu centralnego?",
-      "options": ["Okrąg", "Koło", "Elipsa", "Parabola"],
+      "options": [
+        "Okrąg",
+        "Koło",
+        "Elipsa",
+        "Parabola"
+      ],
       "answer": "Okrąg",
       "explanation_correct": "Okrąg to linia krzywa stanowiąca brzeg koła. Odległość od środka to promień (r).",
-      "explanation_incorrect": "Koło to okrąg wraz z jego wnętrzem, elipsa to spłaszczony okrąg o dwóch ogniskach, a parabola to krzywa stożkowa otwarta."
+      "explanation_incorrect": "Koło to okrąg wraz z jego wnętrzem, elipsa to spłaszczony okrąg o dwóch ogniskach, a parabola to krzywa stożkowa otwarta.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który szwajcarski matematyk z XVIII wieku, mimo utraty wzroku pod koniec życia, był jednym z najbardziej płodnych uczonych w historii, wprowadzając symbole takie jak 'i' dla jednostki urojonej oraz 'f(x)' dla funkcji?",
-      "options": ["Leonhard Euler", "Jacob Bernoulli", "Daniel Bernoulli", "Johann Bernoulli"],
+      "options": [
+        "Leonhard Euler",
+        "Jacob Bernoulli",
+        "Daniel Bernoulli",
+        "Johann Bernoulli"
+      ],
       "answer": "Leonhard Euler",
       "explanation_correct": "Euler spędził większość życia w Petersburgu i Berlinie. Napisał setki prac, które ukształtowały współczesną notację matematyczną.",
-      "explanation_incorrect": "Rodzina Bernoullich to inni wybitni szwajcarscy matematycy, z którymi Euler współpracował i uczył się od nich."
+      "explanation_incorrect": "Rodzina Bernoullich to inni wybitni szwajcarscy matematycy, z którymi Euler współpracował i uczył się od nich.",
+      "last_verified_at": "2026-06-12T15:20:49.815Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się zdanie logiczne, które jest zawsze prawdziwe, niezależnie od wartości logicznych wchodzących w jego skład zdań prostych?",
-      "options": ["Tautologia", "Kontrprzykład", "Aksjomat", "Teza"],
+      "options": [
+        "Tautologia",
+        "Kontrprzykład",
+        "Aksjomat",
+        "Teza"
+      ],
       "answer": "Tautologia",
       "explanation_correct": "Przykładem tautologii w klasycznym rachunku zdań jest prawo wyłączonego środka: p lub nie-p (p ∨ ~p).",
-      "explanation_incorrect": "Kontrprzykład obala twierdzenie, aksjomat to założenie przyjmowane bez dowodu, a teza to twierdzenie wymagające dowodu."
+      "explanation_incorrect": "Kontrprzykład obala twierdzenie, aksjomat to założenie przyjmowane bez dowodu, a teza to twierdzenie wymagające dowodu.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywają się liczby posiadające część rzeczywistą oraz urojoną, wprowadzane za pomocą jednostki urojonej 'i' (gdzie i^2 = -1)?",
-      "options": ["Liczby zespolone", "Liczby rzeczywiste", "Liczby kwaterniony", "Liczby niewymierne"],
+      "options": [
+        "Liczby zespolone",
+        "Liczby rzeczywiste",
+        "Liczby kwaterniony",
+        "Liczby niewymierne"
+      ],
       "answer": "Liczby zespolone",
       "explanation_correct": "Liczby zespolone (C) zapisuje się w postaci a + bi, gdzie a i b to liczby rzeczywiste.",
-      "explanation_incorrect": "Liczby rzeczywiste nie mają części urojonej, kwaterniony to rozszerzenie liczb zespolonych o cztery wymiary, a niewymierne nie dają się zapisać jako ułamek zwykły."
+      "explanation_incorrect": "Liczby rzeczywiste nie mają części urojonej, kwaterniony to rozszerzenie liczb zespolonych o cztery wymiary, a niewymierne nie dają się zapisać jako ułamek zwykły.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Która bryła geometryczna powstaje przez obrót trójkąta prostokątnego wokół jednej z przyprostokątnych?",
-      "options": ["Stożek", "Walec", "Kula", "Torus"],
+      "options": [
+        "Stożek",
+        "Walec",
+        "Kula",
+        "Torus"
+      ],
       "answer": "Stożek",
       "explanation_correct": "Obrót trójkąta prostokątnego wokół przyprostokątnej tworzy stożek obrotowy o okrągłej podstawie.",
-      "explanation_incorrect": "Walec powstaje z obrotu prostokąta, kula z obrotu półkola, a torus z obrotu okręgu wokół osi leżącej poza nim."
+      "explanation_incorrect": "Walec powstaje z obrotu prostokąta, kula z obrotu półkola, a torus z obrotu okręgu wokół osi leżącej poza nim.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który brytyjski matematyk i kryptolog złamał kod niemieckiej maszyny szyfrującej Enigma podczas II wojny światowej i zaprojektował teoretyczny model nowoczesnego komputera?",
-      "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Ada Lovelace"],
+      "options": [
+        "Alan Turing",
+        "Charles Babbage",
+        "John von Neumann",
+        "Ada Lovelace"
+      ],
       "answer": "Alan Turing",
       "explanation_correct": "Turing stworzył maszynę Turinga – abstrakcyjny model obliczeniowy, który zdefiniował pojęcie algorytmu.",
-      "explanation_incorrect": "Babbage zaprojektował maszynę analityczną w XIX wieku, von Neumann opisał architekturę współczesnych komputerów, a Lovelace była pierwszą programistką."
+      "explanation_incorrect": "Babbage zaprojektował maszynę analityczną w XIX wieku, von Neumann opisał architekturę współczesnych komputerów, a Lovelace była pierwszą programistką.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się operacja logiczna (spójnik), która jest prawdziwa wtedy i tylko wtedy, gdy oba zdania składowe mają tę samą wartość logiczną?",
-      "options": ["Równoważność", "Implikacja", "Koniunkcja", "Alternatywa"],
+      "options": [
+        "Równoważność",
+        "Implikacja",
+        "Koniunkcja",
+        "Alternatywa"
+      ],
       "answer": "Równoważność",
       "explanation_correct": "Równoważność zdań p i q (p ⇔ q) zachodzi, gdy oba są prawdziwe lub oba są fałszywe.",
-      "explanation_incorrect": "Implikacja to warunek 'jeśli... to...', koniunkcja to spójnik 'i', a alternatywa to 'lub'."
+      "explanation_incorrect": "Implikacja to warunek 'jeśli... to...', koniunkcja to spójnik 'i', a alternatywa to 'lub'.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się dział matematyki zajmujący się badaniem granic, pochodnych, całek oraz szeregów nieskończonych?",
-      "options": ["Analiza matematyczna (rachunek różniczkowy i całkowy)", "Algebra liniowa", "Geometria analityczna", "Statystyka"],
+      "options": [
+        "Analiza matematyczna (rachunek różniczkowy i całkowy)",
+        "Algebra liniowa",
+        "Geometria analityczna",
+        "Statystyka"
+      ],
       "answer": "Analiza matematyczna (rachunek różniczkowy i całkowy)",
       "explanation_correct": "Podstawy analizy matematycznej niezależnie od siebie stworzyli w XVII wieku Isaac Newton oraz Gottfried Wilhelm Leibniz.",
-      "explanation_incorrect": "Algebra liniowa bada wektory i macierze, geometria analityczna stosuje współrzędne, a statystyka zajmuje się analizą danych."
+      "explanation_incorrect": "Algebra liniowa bada wektory i macierze, geometria analityczna stosuje współrzędne, a statystyka zajmuje się analizą danych.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się odcinek łączący dwa wierzchołki wielokąta, który nie leży na żadnym z jego boków?",
-      "options": ["Przekątna", "Średnica", "Cięciwa", "Wysokość"],
+      "options": [
+        "Przekątna",
+        "Średnica",
+        "Cięciwa",
+        "Wysokość"
+      ],
       "answer": "Przekątna",
       "explanation_correct": "Liczbę przekątnych w n-kącie wyznacza się ze wzoru n(n-3)/2.",
-      "explanation_incorrect": "Średnica i cięciwa dotyczą okręgu, a wysokość to odcinek prostopadły do podstawy łączący ją z wierzchołkiem."
+      "explanation_incorrect": "Średnica i cięciwa dotyczą okręgu, a wysokość to odcinek prostopadły do podstawy łączący ją z wierzchołkiem.",
+      "last_verified_at": "2026-06-12T15:20:49.816Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Która XIX-wieczna angielska matematyczka, córka poety Lorda Byrona, napisała pierwszy w historii algorytm przeznaczony dla maszyny analitycznej Babbage'a, stając się pierwszą programistką?",
-      "options": ["Ada Lovelace", "Mary Somerville", "Florence Nightingale", "Emmy Noether"],
+      "options": [
+        "Ada Lovelace",
+        "Mary Somerville",
+        "Florence Nightingale",
+        "Emmy Noether"
+      ],
       "answer": "Ada Lovelace",
       "explanation_correct": "Lovelace opisała sposób obliczania liczb Bernoulliego za pomocą mechanicznej maszyny Babbage'a.",
-      "explanation_incorrect": "Somerville tłumaczyła Laplace'a, Nightingale to pionierka pielęgniarstwa i statystyki, a Noether to wybitna algebraiczka XX wieku."
+      "explanation_incorrect": "Somerville tłumaczyła Laplace'a, Nightingale to pionierka pielęgniarstwa i statystyki, a Noether to wybitna algebraiczka XX wieku.",
+      "last_verified_at": "2026-06-12T15:20:49.817Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się wnioskowanie logiczne, w którym ze zdań ogólnych (przesłanek) wyprowadza się zdanie szczegółowe (wniosek)?",
-      "options": ["Dedykacja (dedukcja)", "Indukcja", "Abdukcja", "Ekstrapolacja"],
-      "answer": "Dedykacja (dedukcja)",
-      "explanation_correct": "Dedukcja to metoda wnioskowania niezawodnego: jeśli przesłanki są prawdziwe, wniosek również musi być prawdziwy.",
-      "explanation_incorrect": "Indukcja uogólnia obserwacje szczegółowe, abdukcja szuka najlepszego wyjaśnienia, a ekstrapolacja prognozuje dane poza zakresem pomiarowym."
+      "options": [
+        "Dedukcja",
+        "Indukcja",
+        "Abdukcja",
+        "Ekstrapolacja"
+      ],
+      "answer": "Dedukcja",
+      "explanation_correct": "Dedukcja to proces rozumowania, w którym wniosek wynika z przesłanek w sposób konieczny na mocy reguł logiki.",
+      "explanation_incorrect": "Indukcja polega na wyciąganiu ogólnych wniosków z faktów szczegółowych, a abdukcja to wnioskowanie o najbardziej prawdopodobnym wyjaśnieniu.",
+      "last_verified_at": "2026-06-12T15:22:03.256Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie mówi, że dla każdego trójkąta na płaszczyźnie, stosunek długości boku do sinusa kąta leżącego naprzeciw tego boku jest stały i równy średnicy okręgu opisanego?",
-      "options": ["Twierdzenie sinusów (twierdzenie Snelliusa)", "Twierdzenie cosinusów", "Twierdzenie Talesa", "Twierdzenie Cevy"],
+      "options": [
+        "Twierdzenie sinusów (twierdzenie Snelliusa)",
+        "Twierdzenie cosinusów",
+        "Twierdzenie Talesa",
+        "Twierdzenie Cevy"
+      ],
       "answer": "Twierdzenie sinusów (twierdzenie Snelliusa)",
       "explanation_correct": "Twierdzenie sinusów (a/sinA = b/sinB = c/sinC = 2R) służy do rozwiązywania trójkątów ukośnokątnych.",
-      "explanation_incorrect": "Twierdzenie cosinusów to uogólniony Pitagorasa, Talesa dotyczy kątów i proporcji, a Cevy współliniowości prostych w trójkącie."
+      "explanation_incorrect": "Twierdzenie cosinusów to uogólniony Pitagorasa, Talesa dotyczy kątów i proporcji, a Cevy współliniowości prostych w trójkącie.",
+      "last_verified_at": "2026-06-12T15:20:49.817Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się prostokątna tabela zawierająca liczby lub zmienne, na której definiuje się działania takie jak dodawanie, mnożenie oraz wyznaczanie wyznacznika?",
-      "options": ["Macierz", "Wektor", "Tensor", "Układ równań"],
+      "options": [
+        "Macierz",
+        "Wektor",
+        "Tensor",
+        "Układ równań"
+      ],
       "answer": "Macierz",
       "explanation_correct": "Macierze są kluczowym narzędziem algebry liniowej, stosowanym powszechnie w grafice 3D, fizyce i informatyce.",
-      "explanation_incorrect": "Wektor to macierz jednowymiarowa, tensor to uogólnienie macierzy na więcej wymiarów, a układ równań to zbiór powiązanych zależności."
+      "explanation_incorrect": "Wektor to macierz jednowymiarowa, tensor to uogólnienie macierzy na więcej wymiarów, a układ równań to zbiór powiązanych zależności.",
+      "last_verified_at": "2026-06-12T15:20:49.817Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Ile wynosi suma kątów wewnętrznych w dowolnym płaskim czworokącie wypukłym?",
-      "options": ["360 stopni", "180 stopni", "540 stopni", "720 stopni"],
+      "options": [
+        "360 stopni",
+        "180 stopni",
+        "540 stopni",
+        "720 stopni"
+      ],
       "answer": "360 stopni",
       "explanation_correct": "Sumę kątów w n-kącie wyznacza wzór (n-2)*180 stopni; dla czworokąta (n=4) wynosi ona 360 stopni.",
-      "explanation_incorrect": "180 stopni to suma w trójkącie, 540 w pięciokącie, a 720 w sześciokącie."
+      "explanation_incorrect": "180 stopni to suma w trójkącie, 540 w pięciokącie, a 720 w sześciokącie.",
+      "last_verified_at": "2026-06-12T15:20:49.817Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który polski matematyk, jeden z czołowych przedstawicieli lwowskiej szkoły matematycznej, jest autorem przełomowego dzieła 'Teoria operacji liniowych' i twórcą nowoczesnej analizy funkcjonalnej?",
-      "options": ["Stefan Banach", "Hugo Steinhaus", "Stanisław Ulam", "Wacław Sierpiński"],
+      "options": [
+        "Stefan Banach",
+        "Hugo Steinhaus",
+        "Stanisław Ulam",
+        "Wacław Sierpiński"
+      ],
       "answer": "Stefan Banach",
       "explanation_correct": "Banach zdefiniował tzw. przestrzeń Banacha i kierował zespołem lwowskich matematyków spotykających się w Kawiarni Szkockiej.",
-      "explanation_incorrect": "Steinhaus był jego mentorem, Ulam współtworzył bombę wodorową, a Sierpiński badał teorię mnogości i fraktale."
+      "explanation_incorrect": "Steinhaus był jego mentorem, Ulam współtworzył bombę wodorową, a Sierpiński badał teorię mnogości i fraktale.",
+      "last_verified_at": "2026-06-12T15:20:49.817Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks sformułowany przez Bertranda Russella w teorii zbiorów, dotyczący 'zbioru wszystkich zbiorów, które nie są swoimi własnymi elementami'?",
-      "options": ["Paradoks Russella (paradoks fryzjera)", "Paradoks Zenona", "Paradoks Omnipotencji", "Paradoks statku Tezeusza"],
+      "options": [
+        "Paradoks Russella (paradoks fryzjera)",
+        "Paradoks Zenona",
+        "Paradoks Omnipotencji",
+        "Paradoks statku Tezeusza"
+      ],
       "answer": "Paradoks Russella (paradoks fryzjera)",
       "explanation_correct": "Paradoks Russella ujawnił sprzeczność w intuicyjnej teorii zbiorów Cantora, co wymusiło aksjomatyzację teorii mnogości.",
-      "explanation_incorrect": "Paradoks Zenona dotyczy ruchu, omnipotencji boskich możliwości, a statek Tezeusza to paradoks tożsamości fizycznej."
+      "explanation_incorrect": "Paradoks Zenona dotyczy ruchu, omnipotencji boskich możliwości, a statek Tezeusza to paradoks tożsamości fizycznej.",
+      "last_verified_at": "2026-06-12T15:20:49.817Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się punkt, w którym funkcja matematyczna osiąga wartość zero (jej wykres przecina oś OX)?",
-      "options": ["Miejsce zerowe", "Ekstremum lokalne", "Punkt przegięcia", "Asymptota"],
+      "options": [
+        "Miejsce zerowe",
+        "Ekstremum lokalne",
+        "Punkt przegięcia",
+        "Asymptota"
+      ],
       "answer": "Miejsce zerowe",
       "explanation_correct": "Miejsce zerowe (pierwiastek równania) wyznacza się rozwiązując równanie f(x) = 0.",
-      "explanation_incorrect": "Ekstremum to minimum lub maksimum, punkt przegięcia zmienia wypukłość wykresu, a asymptota to prosta, do której wykres dąży w nieskończoności."
+      "explanation_incorrect": "Ekstremum to minimum lub maksimum, punkt przegięcia zmienia wypukłość wykresu, a asymptota to prosta, do której wykres dąży w nieskończoności.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się reguła wnioskowania logicznego o schemacie: 'jeśli p implikuje q, i p jest prawdziwe, to q jest prawdziwe'?",
-      "options": ["Modus ponens", "Modus tollens", "Dylemat konstruktywny", "Reductio ad absurdum"],
+      "options": [
+        "Modus ponens",
+        "Modus tollens",
+        "Dylemat konstruktywny",
+        "Reductio ad absurdum"
+      ],
       "answer": "Modus ponens",
       "explanation_correct": "Modus ponens (reguła odrywania) to jedna z podstawowych reguł klasycznego rachunku zdań.",
-      "explanation_incorrect": "Modus tollens ma schemat: 'jeśli p to q, i nie-q, to nie-p'. Reductio ad absurdum to dowód niewprost."
+      "explanation_incorrect": "Modus tollens ma schemat: 'jeśli p to q, i nie-q, to nie-p'. Reductio ad absurdum to dowód niewprost.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się linia prosta, która ma dokładnie jeden punkt wspólny z okręgiem i jest prostopadła do promienia łączącego ten punkt ze środkiem?",
-      "options": ["Styczna", "Sieczna", "Cięciwa", "Asymptota"],
+      "options": [
+        "Styczna",
+        "Sieczna",
+        "Cięciwa",
+        "Asymptota"
+      ],
       "answer": "Styczna",
       "explanation_correct": "Styczna do okręgu leży w całości na zewnątrz okręgu (oprócz punktu styczności).",
-      "explanation_incorrect": "Sieczna przecina okrąg w dwóch punktach, cięciwa to odcinek łączący te punkty, a asymptota dotyczy wykresów funkcji."
+      "explanation_incorrect": "Sieczna przecina okrąg w dwóch punktach, cięciwa to odcinek łączący te punkty, a asymptota dotyczy wykresów funkcji.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który hinduski matematyk samouk z przełomu XIX i XX wieku, mimo braku formalnego wykształcenia, sformułował tysiące genialnych tożsamości matematycznych i współpracował z G.H. Hardym w Cambridge?",
-      "options": ["Srinivasa Ramanujan", "Satyendra Nath Bose", "Harish-Chandra", "Prasanta Chandra Mahalanobis"],
+      "options": [
+        "Srinivasa Ramanujan",
+        "Satyendra Nath Bose",
+        "Harish-Chandra",
+        "Prasanta Chandra Mahalanobis"
+      ],
       "answer": "Srinivasa Ramanujan",
       "explanation_correct": "Ramanujan twierdził, że jego wzory objawiała mu w snach bogini Namagiri. Badania jego spuścizny trwają do dziś.",
-      "explanation_incorrect": "Bose to fizyk (statystyka Bosego-Einsteina), Harish-Chandra badał algebrę Liego, a Mahalanobis to wybitny statystyk."
+      "explanation_incorrect": "Bose to fizyk (statystyka Bosego-Einsteina), Harish-Chandra badał algebrę Liego, a Mahalanobis to wybitny statystyk.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się system algebry logicznej, w którym zmienne mogą przyjmować tylko dwie wartości: prawda (1) lub fałsz (0), stanowiący podstawę działania układów cyfrowych?",
-      "options": ["Algebra Boole'a", "Algebra liniowa", "Teoria krat", "Algebra Heytinga"],
+      "options": [
+        "Algebra Boole'a",
+        "Algebra liniowa",
+        "Teoria krat",
+        "Algebra Heytinga"
+      ],
       "answer": "Algebra Boole'a",
       "explanation_correct": "Algebrę Boole'a opisał George Boole w połowie XIX wieku. Definiuje ona operacje AND, OR i NOT.",
-      "explanation_incorrect": "Algebra liniowa bada wektory, kraty to struktury porządkowe, a algebra Heytinga jest podstawą logiki intuicjonistycznej."
+      "explanation_incorrect": "Algebra liniowa bada wektory, kraty to struktury porządkowe, a algebra Heytinga jest podstawą logiki intuicjonistycznej.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie geometrii mówi, że jeśli ramiona kąta przetniemy dwiema prostymi równoległymi, to stosunki długości odpowiednich odcinków wyznaczonych przez te proste są równe?",
-      "options": ["Twierdzenie Talesa", "Twierdzenie Pitagorasa", "Twierdzenie Eulera", "Twierdzenie Menelaosa"],
+      "options": [
+        "Twierdzenie Talesa",
+        "Twierdzenie Pitagorasa",
+        "Twierdzenie Eulera",
+        "Twierdzenie Menelaosa"
+      ],
       "answer": "Twierdzenie Talesa",
       "explanation_correct": "Twierdzenie Talesa z Miletu leży u podstaw pomiaru wysokości obiektów za pomocą ich cieni.",
-      "explanation_incorrect": "Pitagoras dotyczy trójkątów prostokątnych, Euler wielościanów, a Menelaos przecinania boku trójkąta prostą."
+      "explanation_incorrect": "Pitagoras dotyczy trójkątów prostokątnych, Euler wielościanów, a Menelaos przecinania boku trójkąta prostą.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się matematyczna miara szansy na zajście zdarzenia losowego, przyjmująca wartości z przedziału od 0 (zdarzenie niemożliwe) do 1 (zdarzenie pewne)?",
-      "options": ["Prawdopodobieństwo", "Wariancja", "Korelacja", "Dystrybuanta"],
+      "options": [
+        "Prawdopodobieństwo",
+        "Wariancja",
+        "Korelacja",
+        "Dystrybuanta"
+      ],
       "answer": "Prawdopodobieństwo",
       "explanation_correct": "Aksjomatyczną definicję prawdopodobieństwa sformułował w 1933 roku Andriej Kołmogorow.",
-      "explanation_incorrect": "Wariancja mierzy rozrzut danych, korelacja współzależność, a dystrybuanta opisuje rozkład zmiennej."
+      "explanation_incorrect": "Wariancja mierzy rozrzut danych, korelacja współzależność, a dystrybuanta opisuje rozkład zmiennej.",
+      "last_verified_at": "2026-06-12T15:20:49.818Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się krzywa będąca zbiorem wszystkich punktów płaszczyzny, dla których suma odległości od dwóch ustalonych punktów (ognisk) jest stała?",
-      "options": ["Elipsa", "Parabola", "Hiperbola", "Okrąg"],
+      "options": [
+        "Elipsa",
+        "Parabola",
+        "Hiperbola",
+        "Okrąg"
+      ],
       "answer": "Elipsa",
       "explanation_correct": "Elipsa to krzywa zamknięta stożkowa. Zgodnie z I prawem Keplera, planety krążą wokół Słońca po orbitach eliptycznych.",
-      "explanation_incorrect": "Parabola to krzywa otwarta o jednym ognisku, hiperbola ma stałą różnicę odległości, a okrąg to elipsa o pokrywających się ogniskach."
+      "explanation_incorrect": "Parabola to krzywa otwarta o jednym ognisku, hiperbola ma stałą różnicę odległości, a okrąg to elipsa o pokrywających się ogniskach.",
+      "last_verified_at": "2026-06-12T15:20:49.819Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który polski matematyk i kryptolog z Uniwersytetu Poznańskiego jako pierwszy matematycznie złamał szyfr niemieckiej maszyny Enigma w 1932 roku?",
-      "options": ["Marian Rejewski", "Jerzy Różycki", "Henryk Zygalski", "Józef Piłsudski"],
+      "options": [
+        "Marian Rejewski",
+        "Jerzy Różycki",
+        "Henryk Zygalski",
+        "Józef Piłsudski"
+      ],
       "answer": "Marian Rejewski",
       "explanation_correct": "Rejewski wraz z Różyckim i Zygalskim opracowali metody i urządzenia (np. bombę kryptologiczną) umożliwiające odczytywanie depesz Enigmy.",
-      "explanation_incorrect": "Różycki i Zygalski byli jego najbliższymi współpracownikami w zespole, a Piłsudski to marszałek i polityk."
+      "explanation_incorrect": "Różycki i Zygalski byli jego najbliższymi współpracownikami w zespole, a Piłsudski to marszałek i polityk.",
+      "last_verified_at": "2026-06-12T15:20:49.819Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks, w którym pyta się, czy statek, w którym z biegiem lat wymieniono stopniowo każdą deskę i każdy element na nowy, pozostaje wciąż tym samym statkiem?",
-      "options": ["Paradoks statku Tezeusza", "Paradoks sterty (Sorites)", "Paradoks Zenona", "Paradoks kłamcy"],
+      "options": [
+        "Paradoks statku Tezeusza",
+        "Paradoks sterty (Sorites)",
+        "Paradoks Zenona",
+        "Paradoks kłamcy"
+      ],
       "answer": "Paradoks statku Tezeusza",
       "explanation_correct": "Paradoks statku Tezeusza dotyczy filozoficznej kwestii tożsamości obiektów w czasie.",
-      "explanation_incorrect": "Paradoks sterty dotyczy nieostrości pojęć (ile ziaren tworzy stertę), Zenona ruchu, a kłamcy prawdy zdania."
+      "explanation_incorrect": "Paradoks sterty dotyczy nieostrości pojęć (ile ziaren tworzy stertę), Zenona ruchu, a kłamcy prawdy zdania.",
+      "last_verified_at": "2026-06-12T15:20:49.819Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się pojęcie określające granicę ilorazu różnicowego przy przyroście zmiennej dążącym do zera, opisujące tempo zmian funkcji?",
-      "options": ["Pochodna funkcji", "Całka oznaczona", "Gradient", "Różniczka"],
+      "options": [
+        "Pochodna funkcji",
+        "Całka oznaczona",
+        "Gradient",
+        "Różniczka"
+      ],
       "answer": "Pochodna funkcji",
       "explanation_correct": "Pochodna funkcji f'(x) pozwala wyznaczać kierunek stycznej do wykresu oraz ekstrema lokalne funkcji.",
-      "explanation_incorrect": "Całka oznaczona to pole pod wykresem, gradient to wektor najszybszego wzrostu, a różniczka to przybliżony przyrost wartości."
+      "explanation_incorrect": "Całka oznaczona to pole pod wykresem, gradient to wektor najszybszego wzrostu, a różniczka to przybliżony przyrost wartości.",
+      "last_verified_at": "2026-06-12T15:21:02.771Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się wnioskowanie, w którym na podstawie skończonej liczby obserwacji szczegółowych wyprowadza się wniosek ogólny, niemające jednak charakteru niezawodnego?",
-      "options": ["Indukcja enumeracyjna", "Dedukcja", "Abdukcja", "Sylogizm"],
+      "options": [
+        "Indukcja enumeracyjna",
+        "Dedukcja",
+        "Abdukcja",
+        "Sylogizm"
+      ],
       "answer": "Indukcja enumeracyjna",
       "explanation_correct": "Indukcja nie gwarantuje prawdziwości wniosku (np. obserwując białe łabędzie indukcyjnie twierdzimy, że wszystkie łabędzie są białe, co obala czarny łabędź).",
-      "explanation_incorrect": "Dedukcja gwarantuje wniosek, abdukcja szuka wyjaśnień, a sylogizm to klasyczna figura dedukcyjna Arystotelesa."
+      "explanation_incorrect": "Dedukcja gwarantuje wniosek, abdukcja szuka wyjaśnień, a sylogizm to klasyczna figura dedukcyjna Arystotelesa.",
+      "last_verified_at": "2026-06-12T15:21:02.771Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się najdłuższy bok w trójkącie prostokątnym, leżący naprzeciwko kąta prostego?",
-      "options": ["Przeciwprostokątna", "Przyprostokątna", "Środkowa", "Wysokość"],
+      "options": [
+        "Przeciwprostokątna",
+        "Przyprostokątna",
+        "Środkowa",
+        "Wysokość"
+      ],
       "answer": "Przeciwprostokątna",
       "explanation_correct": "Przeciwprostokątna (hipotenuza) w twierdzeniu Pitagorasa odpowiada za długość boku c.",
-      "explanation_incorrect": "Przyprostokątne leżą przy kącie prostym, środkowa łączy wierzchołek ze środkiem boku, a wysokość opada prostopadle."
+      "explanation_incorrect": "Przyprostokątne leżą przy kącie prostym, środkowa łączy wierzchołek ze środkiem boku, a wysokość opada prostopadle.",
+      "last_verified_at": "2026-06-12T15:21:02.772Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który francuski matematyk, fizyk i filozof skonstruował w 1642 roku jedną z pierwszych mechanicznych maszyn liczących (Pascalinę) i sformułował prawo dotyczące ciśnienia płynów?",
-      "options": ["Blaise Pascal", "René Descartes", "Pierre de Fermat", "Gottfried Wilhelm Leibniz"],
+      "options": [
+        "Blaise Pascal",
+        "René Descartes",
+        "Pierre de Fermat",
+        "Gottfried Wilhelm Leibniz"
+      ],
       "answer": "Blaise Pascal",
       "explanation_correct": "Pascal wraz z Fermatem stworzył również matematyczne podwaliny pod teorię prawdopodobieństwa.",
-      "explanation_incorrect": "Descartes stworzył układ współrzędnych, Fermat opisał teorię liczb, a Leibniz maszynę liczącą liczącą mnożenie i rachunek różniczkowy."
+      "explanation_incorrect": "Descartes stworzył układ współrzędnych, Fermat opisał teorię liczb, a Leibniz maszynę liczącą liczącą mnożenie i rachunek różniczkowy.",
+      "last_verified_at": "2026-06-12T15:21:02.772Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak w logice formalnej nazywa się fałsz wartościowy (zdanie logiczne), które jest zawsze fałszywe, niezależnie od wartości zdań składowych?",
-      "options": ["Kontradykcja (sprzeczność)", "Tautologia", "Aksjomat", "Implikacja"],
+      "options": [
+        "Kontradykcja (sprzeczność)",
+        "Tautologia",
+        "Aksjomat",
+        "Implikacja"
+      ],
       "answer": "Kontradykcja (sprzeczność)",
       "explanation_correct": "Przykładem kontradykcji jest zdanie: 'p i nie-p' (p ∧ ~p).",
-      "explanation_incorrect": "Tautologia jest zawsze prawdziwa, aksjomat to założenie podstawowe, a implikacja to spójnik warunkowy."
+      "explanation_incorrect": "Tautologia jest zawsze prawdziwa, aksjomat to założenie podstawowe, a implikacja to spójnik warunkowy.",
+      "last_verified_at": "2026-06-12T15:21:02.772Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie algebry mówi, że każdy wielomian jednej zmiennej o współczynnikach zespolonych stopnia n > 0 ma dokładnie n pierwiastków zespolonych (licząc z krotnościami)?",
-      "options": ["Zasadnicze twierdzenie algebry", "Twierdzenie Bézouta", "Twierdzenie Kroneckera-Capelliego", "Twierdzenie Viète'a"],
+      "options": [
+        "Zasadnicze twierdzenie algebry",
+        "Twierdzenie Bézouta",
+        "Twierdzenie Kroneckera-Capelliego",
+        "Twierdzenie Viète'a"
+      ],
       "answer": "Zasadnicze twierdzenie algebry",
       "explanation_correct": "Pierwszy rygorystyczny dowód zasadniczego twierdzenia algebry opublikował Carl Friedrich Gauss w 1799 roku.",
-      "explanation_incorrect": "Twierdzenie Bézouta mówi o dzieleniu wielomianu przez dwumian, Kroneckera-Capelliego o rozwiązalności układów równań, a wzory Viète'a łączą współczynniki z pierwiastkami."
+      "explanation_incorrect": "Twierdzenie Bézouta mówi o dzieleniu wielomianu przez dwumian, Kroneckera-Capelliego o rozwiązalności układów równań, a wzory Viète'a łączą współczynniki z pierwiastkami.",
+      "last_verified_at": "2026-06-12T15:21:02.772Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się operacja przyporządkowania każdemu zdarzeniu elementarnemu liczby, opisująca wynik doświadczenia losowego (np. liczba oczek przy rzucie kostką)?",
-      "options": ["Zmienna losowa", "Rozkład prawdopodobieństwa", "Dystrybuanta", "Gęstość prawdopodobieństwa"],
+      "options": [
+        "Zmienna losowa",
+        "Rozkład prawdopodobieństwa",
+        "Dystrybuanta",
+        "Gęstość prawdopodobieństwa"
+      ],
       "answer": "Zmienna losowa",
       "explanation_correct": "Zmienna losowa może być dyskretna (skokowa) lub ciągła.",
-      "explanation_incorrect": "Rozkład i gęstość opisują szanse przyjmowania wartości, a dystrybuanta to prawdopodobieństwo nieprzekroczenia wartości."
+      "explanation_incorrect": "Rozkład i gęstość opisują szanse przyjmowania wartości, a dystrybuanta to prawdopodobieństwo nieprzekroczenia wartości.",
+      "last_verified_at": "2026-06-12T15:21:02.772Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Która krzywa stożkowa powstaje, gdy płaszczyzna przecinająca stożek jest równoległa do jego tworzącej?",
-      "options": ["Parabola", "Elipsa", "Hiperbola", "Okrąg"],
+      "options": [
+        "Parabola",
+        "Elipsa",
+        "Hiperbola",
+        "Okrąg"
+      ],
       "answer": "Parabola",
       "explanation_correct": "Parabola to zbiór punktów równooddalonych od kierownicy i ogniska paraboli.",
-      "explanation_incorrect": "Elipsa powstaje pod kątem do osi stożka, hiperbola przecina obie części stożka podwójnego, a okrąg prostopadle do osi."
+      "explanation_incorrect": "Elipsa powstaje pod kątem do osi stożka, hiperbola przecina obie części stożka podwójnego, a okrąg prostopadle do osi.",
+      "last_verified_at": "2026-06-12T15:21:02.772Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który niemiecki matematyk w 1900 roku sformułował słynną listę 23 otwartych problemów matematycznych, wyznaczając kierunek rozwoju tej nauki na cały XX wiek?",
-      "options": ["David Hilbert", "Georg Cantor", "Richard Dedekind", "Felix Klein"],
+      "options": [
+        "David Hilbert",
+        "Georg Cantor",
+        "Richard Dedekind",
+        "Felix Klein"
+      ],
       "answer": "David Hilbert",
       "explanation_correct": "Większość problemów Hilberta została już rozwiązana, a niektóre (jak hipoteza Riemanna) wciąż czekają na dowód.",
-      "explanation_incorrect": "Cantor stworzył teorię mnogości, Dedekind przekroje liczb rzeczywistych, a Klein jest znany z butelki Kleina."
+      "explanation_incorrect": "Cantor stworzył teorię mnogości, Dedekind przekroje liczb rzeczywistych, a Klein jest znany z butelki Kleina.",
+      "last_verified_at": "2026-06-12T15:21:02.773Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks, w którym pyta się: 'Czy Bóg może stworzyć kamień tak ciężki, że sam nie zdoła go podnieść'?",
-      "options": ["Paradoks omnipotencji (paradoks kamienia)", "Paradoks Russella", "Paradoks Grandfathera", "Paradoks Epimenidesa"],
+      "options": [
+        "Paradoks omnipotencji (paradoks kamienia)",
+        "Paradoks Russella",
+        "Paradoks Grandfathera",
+        "Paradoks Epimenidesa"
+      ],
       "answer": "Paradoks omnipotencji (paradoks kamienia)",
       "explanation_correct": "Paradoks ten bada logiczną spójność pojęcia wszechmocy i jest klasycznym wyzwaniem teologii filozoficznej.",
-      "explanation_incorrect": "Russell badał zbiory, dziadek (grandfather) podróże w czasie, a Epimenides kłamstwo."
+      "explanation_incorrect": "Russell badał zbiory, dziadek (grandfather) podróże w czasie, a Epimenides kłamstwo.",
+      "last_verified_at": "2026-06-12T15:21:02.773Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
-      "question": "Jak nazywa się odwrotność operacji potęgowania, określająca do jakiej potęgi należy podnieść podstawę, aby otrzymać daną liczbę?",
-      "options": ["Logarytm", "Pierwiastek", "Pochodna", "Różniczka"],
+      "question": "Jak nazywa się operacja matematyczna służąca do wyznaczania wykładnika potęgi, do której należy podnieść podstawę, aby otrzymać daną liczbę?",
+      "options": [
+        "Logarytm",
+        "Pierwiastek",
+        "Pochodna",
+        "Różniczka"
+      ],
       "answer": "Logarytm",
-      "explanation_correct": "Koncepcję logarytmów wprowadził na początku XVII wieku John Napier w celu uproszczenia skomplikowanych obliczeń astronomicznych.",
-      "explanation_incorrect": "Pierwiastek to operacja odwracająca potęgowanie o stałym wykładniku, pochodna to szybkość zmian, a różniczka to liniowy przyrost."
+      "explanation_correct": "Logarytmowanie pozwala obliczyć wykładnik x w równaniu a^x = b.",
+      "explanation_incorrect": "Pierwiastkowanie wyznacza podstawę potęgi, a nie jej wykładnik.",
+      "last_verified_at": "2026-06-12T15:22:03.256Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
-      "question": "Jak nazywa się tradycyjne wnioskowanie dedukcyjne składające się z dwóch przesłanek i wniosku (np. 'Wszyscy ludzie są śmiertelni, Sokrates jest człowiekiem, więc Sokrates jest śmiertelny')?",
-      "options": ["Sylogizm", "Tautologia", "Implikacja", "Dychotomia"],
-      "answer": "Sylogizm",
-      "explanation_correct": "Teorię sylogizmów sformułował Arystoteles, tworząc fundamenty logiki formalnej.",
-      "explanation_incorrect": "Tautologia to zdanie zawsze prawdziwe, implikacja to warunek, a dychotomia to podział na dwie wykluczające się części."
+      "question": "W logice formalnej, jak nazywa się zasada, według której z dwóch zdań sprzecznych przynajmniej jedno musi być prawdziwe?",
+      "options": [
+        "Zasada wyłączonego środka",
+        "Zasada sprzeczności",
+        "Zasada tożsamości",
+        "Zasada racji dostatecznej"
+      ],
+      "answer": "Zasada wyłączonego środka",
+      "explanation_correct": "Zasada wyłączonego środka (tertium non datur) stwierdza, że dla dowolnego zdania albo ono samo jest prawdziwe, albo jego negacja.",
+      "explanation_incorrect": "Zasada sprzeczności mówi, że dwa zdania sprzeczne nie mogą być naraz prawdziwe, a tożsamości, że każdy przedmiot jest identyczny z samym sobą.",
+      "last_verified_at": "2026-06-12T15:22:03.257Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się najdłuższa cięciwa przechodząca przez środek okręgu, będąca dwukrotnością promienia?",
-      "options": ["Średnica", "Styczna", "Sieczna", "Apotema"],
+      "options": [
+        "Średnica",
+        "Styczna",
+        "Sieczna",
+        "Apotema"
+      ],
       "answer": "Średnica",
       "explanation_correct": "Średnica (d) dzieli koło na dwie równe symetryczne części o polu równym połowie pola koła.",
-      "explanation_incorrect": "Styczna i sieczna to proste przecinające lub stykające okrąg, a apotema to promień okręgu wpisanego w wielokąt foremny."
+      "explanation_incorrect": "Styczna i sieczna to proste przecinające lub stykające okrąg, a apotema to promień okręgu wpisanego w wielokąt foremny.",
+      "last_verified_at": "2026-06-12T15:21:02.773Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który XVII-wieczny niemiecki polihistor niezależnie od Newtona opracował rachunek różniczkowy i całkowy, wprowadzając powszechnie stosowaną dzisiaj notację z symbolem całki (∫) oraz pochodnej (dy/dx)?",
-      "options": ["Gottfried Wilhelm Leibniz", "Johannes Kepler", "René Descartes", "Jacob Bernoulli"],
+      "options": [
+        "Gottfried Wilhelm Leibniz",
+        "Johannes Kepler",
+        "René Descartes",
+        "Jacob Bernoulli"
+      ],
       "answer": "Gottfried Wilhelm Leibniz",
       "explanation_correct": "Notacja Leibniza okazała się znacznie wygodniejsza i bardziej intuicyjna niż notacja kropkowa Newtona.",
-      "explanation_incorrect": "Kepler opisał ruch planet, Descartes stworzył geometrię analityczną, a Bernoulli rozwijał analizę matematyczną."
+      "explanation_incorrect": "Kepler opisał ruch planet, Descartes stworzył geometrię analityczną, a Bernoulli rozwijał analizę matematyczną.",
+      "last_verified_at": "2026-06-12T15:21:02.773Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się dział matematyki zajmujący się badaniem własności liczb, w szczególności liczb pierwszych i podzielności liczb całkowitych?",
-      "options": ["Teoria liczb (arytmetyka wyższa)", "Algebra abstrakcyjna", "Kombinatoryka", "Topologia"],
+      "options": [
+        "Teoria liczb (arytmetyka wyższa)",
+        "Algebra abstrakcyjna",
+        "Kombinatoryka",
+        "Topologia"
+      ],
       "answer": "Teoria liczb (arytmetyka wyższa)",
       "explanation_correct": "Teoria liczb to jeden z najstarszych działów matematyki, którego podstawy stworzyli starożytni greccy matematycy i Pierre de Fermat.",
-      "explanation_incorrect": "Algebra abstrakcyjna bada struktury ogólne, kombinatoryka zlicza układy, a topologia bada ciągłe deformacje."
+      "explanation_incorrect": "Algebra abstrakcyjna bada struktury ogólne, kombinatoryka zlicza układy, a topologia bada ciągłe deformacje.",
+      "last_verified_at": "2026-06-12T15:21:02.773Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Jak nazywa się twierdzenie, które mówi, że w dowolnym trójkącie stosunek długości boku do sinusa kąta naprzeciwległego jest stały?",
-      "options": ["Twierdzenie sinusów", "Twierdzenie cosinusów", "Twierdzenie Talesa", "Twierdzenie Pitagorasa"],
+      "options": [
+        "Twierdzenie sinusów",
+        "Twierdzenie cosinusów",
+        "Twierdzenie Talesa",
+        "Twierdzenie Pitagorasa"
+      ],
       "answer": "Twierdzenie sinusów",
       "explanation_correct": "Twierdzenie sinusów (a/sinA = b/sinB = 2R) pozwala na łatwe obliczenie promienia okręgu opisanego na trójkącie.",
-      "explanation_incorrect": "Twierdzenie cosinusów uogólnia twierdzenie Pitagorasa, Talesa dotyczy proporcji na ramionach kąta, a Pitagorasa trójkątów prostokątnych."
+      "explanation_incorrect": "Twierdzenie cosinusów uogólnia twierdzenie Pitagorasa, Talesa dotyczy proporcji na ramionach kąta, a Pitagorasa trójkątów prostokątnych.",
+      "last_verified_at": "2026-06-12T15:21:02.773Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się rozkład prawdopodobieństwa o charakterystycznym kształcie dzwonu (krzywa Gaussa), opisujący wiele zjawisk naturalnych i społecznych?",
-      "options": ["Rozkład normalny", "Rozkład Poissona", "Rozkład jednostajny", "Rozkład dwumianowy"],
+      "options": [
+        "Rozkład normalny",
+        "Rozkład Poissona",
+        "Rozkład jednostajny",
+        "Rozkład dwumianowy"
+      ],
       "answer": "Rozkład normalny",
       "explanation_correct": "Rozkład normalny N(μ, σ^2) jest w pełni scharakteryzowany przez średnią i odchylenie standardowe.",
-      "explanation_incorrect": "Poissona opisuje rzadkie zdarzenia, jednostajny ma stałe szanse w przedziale, a dwumianowy dotyczy serii prób Bernoulliego."
+      "explanation_incorrect": "Poissona opisuje rzadkie zdarzenia, jednostajny ma stałe szanse w przedziale, a dwumianowy dotyczy serii prób Bernoulliego.",
+      "last_verified_at": "2026-06-12T15:21:02.774Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się wielokąt, który ma dokładnie 8 boków i 8 kątów wewnętrznych?",
-      "options": ["Ośmiokąt (oktagon)", "Sześciokąt (heksagon)", "Dziesięciokąt (dekagon)", "Dwunastokąt (dodekagon)"],
+      "options": [
+        "Ośmiokąt (oktagon)",
+        "Sześciokąt (heksagon)",
+        "Dziesięciokąt (dekagon)",
+        "Dwunastokąt (dodekagon)"
+      ],
       "answer": "Ośmiokąt (oktagon)",
       "explanation_correct": "Suma kątów wewnętrznych w ośmiokącie wynosi (8-2)*180 = 1080 stopni.",
-      "explanation_incorrect": "Sześciokąt ma 6 boków, dziesięciokąt 10 boków, a dwunastokąt 12 boków."
+      "explanation_incorrect": "Sześciokąt ma 6 boków, dziesięciokąt 10 boków, a dwunastokąt 12 boków.",
+      "last_verified_at": "2026-06-12T15:21:02.774Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który polski matematyk, wybitny przedstawiciel warszawskiej szkoły matematycznej, wniósł ogromny wkład w teorię mnogości i topologię oraz założył czasopismo 'Fundamenta Mathematicae'?",
-      "options": ["Wacław Sierpiński", "Stefan Banach", "Stanisław Ulam", "Karol Borsuk"],
+      "options": [
+        "Wacław Sierpiński",
+        "Stefan Banach",
+        "Stanisław Ulam",
+        "Karol Borsuk"
+      ],
       "answer": "Wacław Sierpiński",
       "explanation_correct": "Sierpiński opisał trójkąt Sierpińskiego oraz dywan Sierpińskiego – klasyczne obiekty teorii fraktali.",
-      "explanation_incorrect": "Banach stworzył analizę funkcjonalną we Lwowie, Ulam pracował w USA przy projekcie Manhattan, a Borsuk badał topologię geometryczną."
+      "explanation_incorrect": "Banach stworzył analizę funkcjonalną we Lwowie, Ulam pracował w USA przy projekcie Manhattan, a Borsuk badał topologię geometryczną.",
+      "last_verified_at": "2026-06-12T15:21:02.774Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks Zenona z Elei mówiący, że wystrzelona z łuku strzała w każdym ułamku sekundy spoczywa w jednym punkcie przestrzeni, więc ruch jest tylko iluzją?",
-      "options": ["Paradoks strzały", "Paradoks dychotomii", "Paradoks Achillesa", "Paradoks stadionu"],
+      "options": [
+        "Paradoks strzały",
+        "Paradoks dychotomii",
+        "Paradoks Achillesa",
+        "Paradoks stadionu"
+      ],
       "answer": "Paradoks strzały",
       "explanation_correct": "Paradoks strzały dowodził bezruchu poprzez analizę czasu jako zbioru izolowanych punktów 'teraz'.",
-      "explanation_incorrect": "Dychotomia dzieli drogę na nieskończone połówki, Achilles goni żółwia, a stadion dotyczy ruchu ciał o różnych prędkościach względem siebie."
+      "explanation_incorrect": "Dychotomia dzieli drogę na nieskończone połówki, Achilles goni żółwia, a stadion dotyczy ruchu ciał o różnych prędkościach względem siebie.",
+      "last_verified_at": "2026-06-12T15:21:02.774Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się operacja odwrotna do różniczkowania, polegająca na wyznaczaniu funkcji pierwotnej lub pola powierzchni pod wykresem funkcji?",
-      "options": ["Całkowanie", "Różniczkowanie", "Logarytmowanie", "Potęgowanie"],
+      "options": [
+        "Całkowanie",
+        "Różniczkowanie",
+        "Logarytmowanie",
+        "Potęgowanie"
+      ],
       "answer": "Całkowanie",
       "explanation_correct": "Całkowanie dzieli się na oznaczone (pole pod wykresem) oraz nieoznaczone (wyznaczanie funkcji pierwotnej).",
-      "explanation_incorrect": "Różniczkowanie wyznacza pochodną, logarytmowanie to operacja odwrotna do potęgowania, a potęgowanie mnoży wielokrotnie."
+      "explanation_incorrect": "Różniczkowanie wyznacza pochodną, logarytmowanie to operacja odwrotna do potęgowania, a potęgowanie mnoży wielokrotnie.",
+      "last_verified_at": "2026-06-12T15:21:02.774Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się klasyczna figura retoryczna i logiczna składająca się z trzech zdań: przesłanki większej, przesłanki mniejszej oraz wniosku?",
-      "options": ["Sylogizm", "Tautologia", "Aksjomat", "Teza"],
+      "options": [
+        "Sylogizm",
+        "Tautologia",
+        "Aksjomat",
+        "Teza"
+      ],
       "answer": "Sylogizm",
       "explanation_correct": "Sylogizm (np. 'Każdy kot ma ogon. To zwierzę to kot. Zatem to zwierzę ma ogon') to podstawowy schemat dedukcji.",
-      "explanation_incorrect": "Tautologia jest zawsze prawdziwa, aksjomat to założenie wyjściowe, a teza to stwierdzenie dowodzone."
+      "explanation_incorrect": "Tautologia jest zawsze prawdziwa, aksjomat to założenie wyjściowe, a teza to stwierdzenie dowodzone.",
+      "last_verified_at": "2026-06-12T15:21:02.774Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się odcinek łączący wierzchołek trójkąta ze środkiem przeciwległego boku?",
-      "options": ["Środkowa", "Wysokość", "Symetralna", "Dwusieczna"],
+      "options": [
+        "Środkowa",
+        "Wysokość",
+        "Symetralna",
+        "Dwusieczna"
+      ],
       "answer": "Środkowa",
       "explanation_correct": "Trzy środkowe w trójkącie przecinają się w jednym punkcie – barycentrum (środku ciężkości trójkąta).",
-      "explanation_incorrect": "Wysokość opada pod kątem prostym, symetralna to prosta prostopadła dzieląca bok na pół, a dwusieczna dzieli kąt na pół."
+      "explanation_incorrect": "Wysokość opada pod kątem prostym, symetralna to prosta prostopadła dzieląca bok na pół, a dwusieczna dzieli kąt na pół.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który francuski filozof i matematyk z XVII wieku stworzył geometrię analityczną, wprowadzając układ współrzędnych i kartezjański system pojęciowy?",
-      "options": ["René Descartes (Kartezjusz)", "Blaise Pascal", "Pierre de Fermat", "Jean le Rond d'Alembert"],
+      "options": [
+        "René Descartes (Kartezjusz)",
+        "Blaise Pascal",
+        "Pierre de Fermat",
+        "Jean le Rond d'Alembert"
+      ],
       "answer": "René Descartes (Kartezjusz)",
       "explanation_correct": "Kartezjusz połączył algebrę z geometrią, umożliwiając opis figur geometrycznych za pomocą równań.",
-      "explanation_incorrect": "Pascal badał ciśnienie i prawdopodobieństwo, Fermat opisał teorię liczb, a d'Alembert to encyklopedysta i fizyk."
+      "explanation_incorrect": "Pascal badał ciśnienie i prawdopodobieństwo, Fermat opisał teorię liczb, a d'Alembert to encyklopedysta i fizyk.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się liczba, która nie daje się zapisać w postaci ułamka zwykłego dwóch liczb całkowitych (np. pierwiastek z 2 lub liczba Pi)?",
-      "options": ["Liczba niewymierna", "Liczba urojona", "Liczba pierwsza", "Liczba naturalna"],
+      "options": [
+        "Liczba niewymierna",
+        "Liczba urojona",
+        "Liczba pierwsza",
+        "Liczba naturalna"
+      ],
       "answer": "Liczba niewymierna",
       "explanation_correct": "Rozwinięcie dziesiętne liczby niewymiernej jest nieskończone i nieokresowe.",
-      "explanation_incorrect": "Liczba urojona zawiera jednostkę i, pierwsza ma tylko dwa dzielniki, a naturalna służy do liczenia obiektów."
+      "explanation_incorrect": "Liczba urojona zawiera jednostkę i, pierwsza ma tylko dwa dzielniki, a naturalna służy do liczenia obiektów.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie geometrii mówi, że jeśli połączymy środki boków dowolnego czworokąta, to powstały czworokąt jest równoległobokiem?",
-      "options": ["Twierdzenie Varignona", "Twierdzenie Ptolemeusza", "Twierdzenie Eulera", "Twierdzenie sinusów"],
+      "options": [
+        "Twierdzenie Varignona",
+        "Twierdzenie Ptolemeusza",
+        "Twierdzenie Eulera",
+        "Twierdzenie sinusów"
+      ],
       "answer": "Twierdzenie Varignona",
       "explanation_correct": "Twierdzenie to sformułował Pierre Varignon w 1731 roku i zachodzi ono dla każdego czworokąta płaskiego.",
-      "explanation_incorrect": "Ptolemeusz dotyczy czworokątów wpisanych w okrąg, Euler wierzchołków wielościanów, a sinusów proporcji kątów."
+      "explanation_incorrect": "Ptolemeusz dotyczy czworokątów wpisanych w okrąg, Euler wierzchołków wielościanów, a sinusów proporcji kątów.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się podstawowe pojęcie kombinatoryki oznaczające uporządkowany zbiór n różnych elementów, którego liczba wynosi n! (n silnia)?",
-      "options": ["Permutacja", "Kombinacja", "Wariacja z powtórzeniami", "Zbiór potęgowy"],
+      "options": [
+        "Permutacja",
+        "Kombinacja",
+        "Wariacja z powtórzeniami",
+        "Zbiór potęgowy"
+      ],
       "answer": "Permutacja",
       "explanation_correct": "Permutacja opisuje liczbę sposobów na jakie można ustawić w kolejności n elementów (np. 3 elementy dają 3! = 6 ustawień).",
-      "explanation_incorrect": "Kombinacja nie uwzględnia kolejności elementów, wariacja to wybór k elementów z n, a zbiór potęgowy to zbiór wszystkich podzbiorów."
+      "explanation_incorrect": "Kombinacja nie uwzględnia kolejności elementów, wariacja to wybór k elementów z n, a zbiór potęgowy to zbiór wszystkich podzbiorów.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się kąt płaski o mierze równej dokładnie 180 stopniom?",
-      "options": ["Kąt półpełny", "Kąt pełny", "Kąt prosty", "Kąt ostry"],
+      "options": [
+        "Kąt półpełny",
+        "Kąt pełny",
+        "Kąt prosty",
+        "Kąt ostry"
+      ],
       "answer": "Kąt półpełny",
       "explanation_correct": "Kąt półpełny (180 stopni / pi radianów) odpowiada linii prostej z zaznaczonym na niej punktem wierzchołkowym.",
-      "explanation_incorrect": "Kąt pełny ma 360 stopni, prosty 90 stopni, a ostry mniej niż 90 stopni."
+      "explanation_incorrect": "Kąt pełny ma 360 stopni, prosty 90 stopni, a ostry mniej niż 90 stopni.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który polski matematyk, wybitny przedstawiciel lwowskiej szkoły matematycznej, współtworzył metodę Monte Carlo oraz odegrał kluczową rolę w pracach nad amerykańską bombą wodorową (projekt Teller-Ulam)?",
-      "options": ["Stanisław Ulam", "Stefan Banach", "Hugo Steinhaus", "Marian Rejewski"],
+      "options": [
+        "Stanisław Ulam",
+        "Stefan Banach",
+        "Hugo Steinhaus",
+        "Marian Rejewski"
+      ],
       "answer": "Stanisław Ulam",
       "explanation_correct": "Ulam zaproponował matematyczny schemat implozji radiacyjnej ładunku termojądrowego, kluczowy dla sukcesu projektu w USA.",
-      "explanation_incorrect": "Banach i Steinhaus pracowali we Lwowie nad czystą analizą matematyczną, a Rejewski łamał Enigmę w Polsce."
+      "explanation_incorrect": "Banach i Steinhaus pracowali we Lwowie nad czystą analizą matematyczną, a Rejewski łamał Enigmę w Polsce.",
+      "last_verified_at": "2026-06-12T15:21:02.775Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks, w którym pyta się: 'Czy fryzjer, który goli w miasteczku tylko tych mężczyzn, którzy sami się nie golą, goli samego siebie?'",
-      "options": ["Paradoks fryzjera (paradoks Russella)", "Paradoks Zenona", "Paradoks kłamcy", "Paradoks omnipotencji"],
+      "options": [
+        "Paradoks fryzjera (paradoks Russella)",
+        "Paradoks Zenona",
+        "Paradoks kłamcy",
+        "Paradoks omnipotencji"
+      ],
       "answer": "Paradoks fryzjera (paradoks Russella)",
       "explanation_correct": "Paradoks fryzjera to popularne sformułowanie paradoksu Russella w teorii zbiorów pokazujące granice logicznej spójności klasycznych definicji.",
-      "explanation_incorrect": "Pozostałe paradoksy dotyczą innych pojęć (ruchu, prawdy zdań, omnipotencji)."
+      "explanation_incorrect": "Pozostałe paradoksy dotyczą innych pojęć (ruchu, prawdy zdań, omnipotencji).",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się operacja matematyczna polegająca na wyznaczaniu iloczynu kolejnych liczb naturalnych od 1 do n, oznaczana wykrzyknikiem (n!)?",
-      "options": ["Silnia", "Potęga", "Logarytm", "Suma całkowa"],
+      "options": [
+        "Silnia",
+        "Potęga",
+        "Logarytm",
+        "Suma całkowa"
+      ],
       "answer": "Silnia",
       "explanation_correct": "Silnia (np. 5! = 1 * 2 * 3 * 4 * 5 = 120) rośnie niezwykle szybko, szybciej niż funkcje wykładnicze.",
-      "explanation_incorrect": "Potęga mnoży tę samą liczbę wielokrotnie, logarytm to operacja odwrotna do potęgowania, a suma całkowa służy do definicji całki."
+      "explanation_incorrect": "Potęga mnoży tę samą liczbę wielokrotnie, logarytm to operacja odwrotna do potęgowania, a suma całkowa służy do definicji całki.",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się operacja logiczna (spójnik), która jest prawdziwa wtedy i tylko wtedy, gdy dokładnie jedno ze zdań składowych jest prawdziwe?",
-      "options": ["Alternatywa wykluczająca (XOR)", "Koniunkcja", "Alternatywa zwykła", "Implikacja"],
+      "options": [
+        "Alternatywa wykluczająca (XOR)",
+        "Koniunkcja",
+        "Alternatywa zwykła",
+        "Implikacja"
+      ],
       "answer": "Alternatywa wykluczająca (XOR)",
       "explanation_correct": "Alternatywa wykluczająca (albo, XOR) zwraca prawdę tylko wtedy, gdy zdania składowe różnią się wartością logiczną.",
-      "explanation_incorrect": "Koniunkcja wymaga prawdziwości obu zdań, alternatywa zwykła dopuszcza prawdziwość obu, a implikacja jest fałszywa tylko gdy z prawdy wynika fałsz."
+      "explanation_incorrect": "Koniunkcja wymaga prawdziwości obu zdań, alternatywa zwykła dopuszcza prawdziwość obu, a implikacja jest fałszywa tylko gdy z prawdy wynika fałsz.",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Ile wynosi suma kątów wewnętrznych w dowolnym trójkącie na płaszczyźnie euklidesowej?",
-      "options": ["180 stopni", "90 stopni", "360 stopni", "270 stopni"],
+      "options": [
+        "180 stopni",
+        "90 stopni",
+        "360 stopni",
+        "270 stopni"
+      ],
       "answer": "180 stopni",
       "explanation_correct": "Suma kątów wewnętrznych trójkąta na płaszczyźnie zawsze wynosi dokładnie 180 stopni (lub pi radianów).",
-      "explanation_incorrect": "90 stopni to kąt prosty, 360 stopni to suma kątów w czworokącie, a 270 stopni to trzy czwarte kąta pełnego."
+      "explanation_incorrect": "90 stopni to kąt prosty, 360 stopni to suma kątów w czworokącie, a 270 stopni to trzy czwarte kąta pełnego.",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który XIX-wieczny niemiecki matematyk stworzył podstawy teorii funkcji zespolonych oraz sformułował słynną hipotezę dotyczącą zer nietrywialnych funkcji dzeta?",
-      "options": ["Bernhard Riemann", "Karl Weierstrass", "Richard Dedekind", "Felix Klein"],
+      "options": [
+        "Bernhard Riemann",
+        "Karl Weierstrass",
+        "Richard Dedekind",
+        "Felix Klein"
+      ],
       "answer": "Bernhard Riemann",
       "explanation_correct": "Hipoteza Riemanna to jeden z najsłynniejszych otwartych problemów matematycznych, wart milion dolarów w ramach Nagród Tysiąclecia.",
-      "explanation_incorrect": "Weierstrass rozwinął formalną analizę i definicję granicy, Dedekind badał liczby rzeczywiste, a Klein opisał butelkę Kleina."
+      "explanation_incorrect": "Weierstrass rozwinął formalną analizę i definicję granicy, Dedekind badał liczby rzeczywiste, a Klein opisał butelkę Kleina.",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które słynne twierdzenie matematyczne, udowodnione w 1976 roku przy użyciu komputerów, mówi, że każdą mapę na płaszczyźnie można pokolorować czterema kolorami tak, by sąsiadujące kraje miały różne barwy?",
-      "options": ["Twierdzenie o czterech barwach", "Twierdzenie o pięciu barwach", "Twierdzenie Jordana", "Twierdzenie Eulera o grafach"],
+      "options": [
+        "Twierdzenie o czterech barwach",
+        "Twierdzenie o pięciu barwach",
+        "Twierdzenie Jordana",
+        "Twierdzenie Eulera o grafach"
+      ],
       "answer": "Twierdzenie o czterech barwach",
       "explanation_correct": "Twierdzenie o czterech barwach było pierwszym wielkim twierdzeniem matematycznym udowodnionym za pomocą komputera.",
-      "explanation_incorrect": "Twierdzenie o pięciu barwach jest łatwiejsze do udowodnienia klasycznie, twierdzenie Jordana dotyczy krzywych zamkniętych, a Euler badał mosty królewieckie."
+      "explanation_incorrect": "Twierdzenie o pięciu barwach jest łatwiejsze do udowodnienia klasycznie, twierdzenie Jordana dotyczy krzywych zamkniętych, a Euler badał mosty królewieckie.",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się ciąg liczbowy, w którym stosunek dowolnego wyrazu (oprócz pierwszego) do wyrazu go poprzedzającego jest stały?",
-      "options": ["Ciąg geometryczny", "Ciąg arytmetyczny", "Ciąg harmoniczny", "Ciąg Fibonacciego"],
+      "options": [
+        "Ciąg geometryczny",
+        "Ciąg arytmetyczny",
+        "Ciąg harmoniczny",
+        "Ciąg Fibonacciego"
+      ],
       "answer": "Ciąg geometryczny",
       "explanation_correct": "Stały stosunek wyrazów w ciągu geometrycznym nazywa się ilorazem ciągu i oznacza się go zazwyczaj literą q.",
-      "explanation_incorrect": "Ciąg arytmetyczny ma stałą różnicę wyrazów, harmoniczny to ciąg odwrotności ciągu arytmetycznego, a ciąg Fibonacciego powstaje przez sumowanie dwóch poprzednich wyrazów."
+      "explanation_incorrect": "Ciąg arytmetyczny ma stałą różnicę wyrazów, harmoniczny to ciąg odwrotności ciągu arytmetycznego, a ciąg Fibonacciego powstaje przez sumowanie dwóch poprzednich wyrazów.",
+      "last_verified_at": "2026-06-12T15:21:02.776Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się doświadczenie losowe składające się z serii niezależnych powtórzeń tego samego doświadczenia o dwóch możliwych wynikach (sukces lub porażka)?",
-      "options": ["Schemat Bernoulliego (próby Bernoulliego)", "Proces Poissona", "Łańcuch Markowa", "Błądzenie losowe"],
+      "options": [
+        "Schemat Bernoulliego (próby Bernoulliego)",
+        "Proces Poissona",
+        "Łańcuch Markowa",
+        "Błądzenie losowe"
+      ],
       "answer": "Schemat Bernoulliego (próby Bernoulliego)",
       "explanation_correct": "Prawdopodobieństwo uzyskania k sukcesów w n próbach Bernoulliego opisuje rozkład dwumianowy.",
-      "explanation_incorrect": "Proces Poissona modeluje zdarzenia w czasie ciągłym, łańcuch Markowa to proces z pamięcią ograniczoną do poprzedniego stanu, a błądzenie losowe to ciąg kroków w przypadkowych kierunkach."
+      "explanation_incorrect": "Proces Poissona modeluje zdarzenia w czasie ciągłym, łańcuch Markowa to proces z pamięcią ograniczoną do poprzedniego stanu, a błądzenie losowe to ciąg kroków w przypadkowych kierunkach.",
+      "last_verified_at": "2026-06-12T15:21:02.777Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks probabilistyczny oparty na teleturnieju 'Let's Make a Deal', w którym gracz wybiera jedne z trzech drzwi, pod którymi ukryta jest nagroda?",
-      "options": ["Paradoks Monty Halla", "Paradoks luksusowy", "Paradoks hazardzisty", "Paradoks petersburski"],
+      "options": [
+        "Paradoks Monty Halla",
+        "Paradoks luksusowy",
+        "Paradoks hazardzisty",
+        "Paradoks petersburski"
+      ],
       "answer": "Paradoks Monty Halla",
       "explanation_correct": "W paradoksie Monty Halla zmiana pierwotnego wyboru po ujawnieniu przez prowadzącego pustych drzwi zwiększa szansę na wygraną do 2/3.",
-      "explanation_incorrect": "Paradoks hazardzisty to błąd myślowy dotyczący zdarzeń niezależnych, petersburski dotyczy nieskończonej wartości oczekiwanej gry, a luksusowy nie istnieje."
+      "explanation_incorrect": "Paradoks hazardzisty to błąd myślowy dotyczący zdarzeń niezależnych, petersburski dotyczy nieskończonej wartości oczekiwanej gry, a luksusowy nie istnieje.",
+      "last_verified_at": "2026-06-12T15:21:02.777Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Ktory wzór pozwala obliczyć pole powierzchni dowolnego trójkąta na podstawie długości jego trzech boków, bez konieczności znajomości wysokości?",
-      "options": ["Wzór Herona", "Wzór Picka", "Twierdzenie Pitagorasa", "Wzór Brahmagupty"],
+      "options": [
+        "Wzór Herona",
+        "Wzór Picka",
+        "Twierdzenie Pitagorasa",
+        "Wzór Brahmagupty"
+      ],
       "answer": "Wzór Herona",
       "explanation_correct": "Wzór Herona wykorzystuje połowę obwodu trójkąta (p) oraz długości boków: S = sqrt(p(p-a)(p-b)(p-c)).",
-      "explanation_incorrect": "Wzór Picka dotyczy wielokątów na siatce punktowej, twierdzenie Pitagorasa trójkątów prostokątnych, a wzór Brahmagupty czworokątów wpisanych w okrąg."
+      "explanation_incorrect": "Wzór Picka dotyczy wielokątów na siatce punktowej, twierdzenie Pitagorasa trójkątów prostokątnych, a wzór Brahmagupty czworokątów wpisanych w okrąg.",
+      "last_verified_at": "2026-06-12T15:21:02.777Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który francuski matematyk i fizyk z przełomu XVIII i XIX wieku rozwinął metodę przedstawiania funkcji okresowych w postaci nieskończonych szeregów trygonometrycznych?",
-      "options": ["Joseph Fourier", "Pierre-Simon de Laplace", "Adrien-Marie Legendre", "Joseph Louis Lagrange"],
+      "options": [
+        "Joseph Fourier",
+        "Pierre-Simon de Laplace",
+        "Adrien-Marie Legendre",
+        "Joseph Louis Lagrange"
+      ],
       "answer": "Joseph Fourier",
       "explanation_correct": "Szeregi Fouriera i transformacja Fouriera są podstawą współczesnego przetwarzania sygnałów, kompresji obrazu oraz fizyki matematycznej.",
-      "explanation_incorrect": "Laplace badał prawdopodobieństwo i mechanikę nieba, Legendre funkcje eliptyczne, a Lagrange mechanikę analityczną."
+      "explanation_incorrect": "Laplace badał prawdopodobieństwo i mechanikę nieba, Legendre funkcje eliptyczne, a Lagrange mechanikę analityczną.",
+      "last_verified_at": "2026-06-12T15:21:02.777Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się funkcja matematyczna postaci f(x) = a^x, gdzie podstawa 'a' jest dodatnia i różna od jedności, charakteryzująca się gwałtownym wzrostem?",
-      "options": ["Funkcja wykładnicza", "Funkcja potęgowa", "Funkcja logarytmiczna", "Funkcja liniowa"],
+      "options": [
+        "Funkcja wykładnicza",
+        "Funkcja potęgowa",
+        "Funkcja logarytmiczna",
+        "Funkcja liniowa"
+      ],
       "answer": "Funkcja wykładnicza",
       "explanation_correct": "Funkcja wykładnicza rośnie szybciej niż jakakolwiek funkcja wielomianowa, modelując np. wzrost populacji bakterii czy procent składany.",
-      "explanation_incorrect": "Funkcja potęgowa ma zmienną w podstawie, logarytmiczna to jej odwrotność, a liniowa ma stałe tempo wzrostu."
+      "explanation_incorrect": "Funkcja potęgowa ma zmienną w podstawie, logarytmiczna to jej odwrotność, a liniowa ma stałe tempo wzrostu.",
+      "last_verified_at": "2026-06-12T15:21:02.777Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak w logice matematycznej nazywają się dwa fundamentalne prawa określające reguły negacji koniunkcji oraz negacji alternatywy?",
-      "options": ["Prawa de Morgana", "Prawa przechodniości", "Prawa rozdzielności", "Prawa eliminacji"],
+      "options": [
+        "Prawa de Morgana",
+        "Prawa przechodniości",
+        "Prawa rozdzielności",
+        "Prawa eliminacji"
+      ],
       "answer": "Prawa de Morgana",
       "explanation_correct": "Prawa de Morgana mówią, że negacja koniunkcji jest równoważna alternatywie negacji, a negacja alternatywy jest równoważna koniunkcji negacji.",
-      "explanation_incorrect": "Prawa przechodniości dotyczą relacji, rozdzielności działań algebraicznych, a eliminacji upraszczania wnioskowań."
+      "explanation_incorrect": "Prawa przechodniości dotyczą relacji, rozdzielności działań algebraicznych, a eliminacji upraszczania wnioskowań.",
+      "last_verified_at": "2026-06-12T15:21:02.777Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Który starożytny uczony jako pierwszy przeprowadził dowód nie wprost na to, że zbiór liczb pierwszych jest nieskończony?",
-      "options": ["Euklides", "Pitagoras", "Tales", "Archimedes"],
+      "options": [
+        "Euklides",
+        "Pitagoras",
+        "Tales",
+        "Archimedes"
+      ],
       "answer": "Euklides",
       "explanation_correct": "Dowód Euklidesa zakłada skończoność liczb pierwszych, a następnie konstruuje liczbę pierwszą spoza tego zbioru poprzez pomnożenie wszystkich i dodanie jedynki.",
-      "explanation_incorrect": "Pitagoras badał harmonię liczb, Tales geometrię trójkątów, a Archimedes przybliżenie liczby Pi."
+      "explanation_incorrect": "Pitagoras badał harmonię liczb, Tales geometrię trójkątów, a Archimedes przybliżenie liczby Pi.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się dyskretny rozkład prawdopodobieństwa wyrażający szansę na zajście określonej liczby zdarzeń w ustalonym przedziale czasu lub przestrzeni, jeśli zdarzenia te zachodzą niezależnie?",
-      "options": ["Rozkład Poissona", "Rozkład normalny", "Rozkład Bernoulliego", "Rozkład wykładniczy"],
+      "options": [
+        "Rozkład Poissona",
+        "Rozkład normalny",
+        "Rozkład Bernoulliego",
+        "Rozkład wykładniczy"
+      ],
       "answer": "Rozkład Poissona",
       "explanation_correct": "Rozkład Poissona modeluje np. liczbę klientów wchodzących do sklepu w ciągu godziny czy liczbę awarii maszyn.",
-      "explanation_incorrect": "Rozkład normalny jest ciągły, Bernoulliego dotyczy pojedynczej próby o dwóch wynikach, a wykładniczy modeluje czas do zajścia zdarzenia."
+      "explanation_incorrect": "Rozkład normalny jest ciągły, Bernoulliego dotyczy pojedynczej próby o dwóch wynikach, a wykładniczy modeluje czas do zajścia zdarzenia.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się jednostronna powierzchnia o charakterze nieorientowalnym, powstała przez skręcenie paska o 180 stopni i sklejenie jego końców?",
-      "options": ["Wstęga Möbiusa", "Butelka Kleina", "Torus", "Hiperboloida"],
+      "options": [
+        "Wstęga Möbiusa",
+        "Butelka Kleina",
+        "Torus",
+        "Hiperboloida"
+      ],
       "answer": "Wstęga Möbiusa",
       "explanation_correct": "Wstęga Möbiusa ma tylko jedną stronę i jedną krawędź. Jej trójwymiarowym odpowiednikiem bez krawędzi jest butelka Kleina.",
-      "explanation_incorrect": "Butelka Kleina nie ma krawędzi i wymaga 4 wymiarów do bezkolizyjnego zanurzenia, torus to powierzchnia dętki, a hiperboloida to powierzchnia drugiego stopnia."
+      "explanation_incorrect": "Butelka Kleina nie ma krawędzi i wymaga 4 wymiarów do bezkolizyjnego zanurzenia, torus to powierzchnia dętki, a hiperboloida to powierzchnia drugiego stopnia.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Która niemiecka matematyczka z przełomu XIX i XX wieku dokonała przełomowych odkryć w algebrze abstrakcyjnej oraz sformułowała twierdzenie łączące symetrie fizyczne z zasadami zachowania?",
-      "options": ["Emmy Noether", "Ada Lovelace", "Sophie Germain", "Maria Gaetana Agnesi"],
+      "options": [
+        "Emmy Noether",
+        "Ada Lovelace",
+        "Sophie Germain",
+        "Maria Gaetana Agnesi"
+      ],
       "answer": "Emmy Noether",
       "explanation_correct": "Twierdzenie Noether wiąże np. symetrię przesunięcia w czasie z zasadą zachowania energii, będąc filarem współczesnej fizyki teoretycznej.",
-      "explanation_incorrect": "Ada Lovelace to pierwsza programistka, Sophie Germain badała teorię liczb i sprężystość, a Agnesi napisała podręcznik do analizy."
+      "explanation_incorrect": "Ada Lovelace to pierwsza programistka, Sophie Germain badała teorię liczb i sprężystość, a Agnesi napisała podręcznik do analizy.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się przyporządkowana każdej macierzy kwadratowej liczba, która informuje m.in. o tym, czy układ równań liniowych ma jednoznaczne rozwiązanie lub czy macierz jest odwracalna?",
-      "options": ["Wyznacznik macierzy (det)", "Ślad macierzy", "Rząd macierzy", "Wektor własny"],
+      "options": [
+        "Wyznacznik macierzy (det)",
+        "Ślad macierzy",
+        "Rząd macierzy",
+        "Wektor własny"
+      ],
       "answer": "Wyznacznik macierzy (det)",
       "explanation_correct": "Jeśli wyznacznik macierzy kwadratowej jest różny od zera, macierz posiada macierz odwrotną i jest nieosobliwa.",
-      "explanation_incorrect": "Ślad macierzy to suma elementów na głównej przekątnej, rząd macierzy to liczba liniowo niezależnych wierszy, a wektor własny nie zmienia kierunku przy przekształceniu."
+      "explanation_incorrect": "Ślad macierzy to suma elementów na głównej przekątnej, rząd macierzy to liczba liniowo niezależnych wierszy, a wektor własny nie zmienia kierunku przy przekształceniu.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się błąd poznawczy polegający na błędnym przekonaniu, że przeszłe, niezależne zdarzenia losowe (np. wyniki rzutu monetą) wpływają na prawdopodobieństwo kolejnego zdarzenia?",
-      "options": ["Paradoks hazardzisty (błąd hazardzisty)", "Paradoks Monty Halla", "Paradoks petersburski", "Efekt potwierdzenia"],
+      "options": [
+        "Paradoks hazardzisty (błąd hazardzisty)",
+        "Paradoks Monty Halla",
+        "Paradoks petersburski",
+        "Efekt potwierdzenia"
+      ],
       "answer": "Paradoks hazardzisty (błąd hazardzisty)",
       "explanation_correct": "Rzuty monetą są niezależne, zatem wyrzucenie orła dziesięć razy z rzędu nie zwiększa szansy na reszkę w kolejnym rzucie.",
-      "explanation_incorrect": "Paradoks Monty Halla dotyczy zmiany decyzji w teleturnieju, petersburski to paradoks decyzji przy nieskończonej wygranej, a efekt potwierdzenia to błąd selekcji informacji."
+      "explanation_incorrect": "Paradoks Monty Halla dotyczy zmiany decyzji w teleturnieju, petersburski to paradoks decyzji przy nieskończonej wygranej, a efekt potwierdzenia to błąd selekcji informacji.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się wielościan foremny posiadający 12 pięciokątnych ścian, 30 krawędzi i 20 wierzchołków?",
-      "options": ["Dwunastościan foremny (dodekaedr)", "Dwudziestościan foremny (ikosaedr)", "Ośmiościan foremny (oktaedr)", "Sześcian (heksaedr)"],
+      "options": [
+        "Dwunastościan foremny (dodekaedr)",
+        "Dwudziestościan foremny (ikosaedr)",
+        "Ośmiościan foremny (oktaedr)",
+        "Sześcian (heksaedr)"
+      ],
       "answer": "Dwunastościan foremny (dodekaedr)",
       "explanation_correct": "Dodekaedr to jedna z pięciu brył platońskich. Jego ścianami są foremne pięciokąty.",
-      "explanation_incorrect": "Ikosaedr ma 20 ścian trójkątnych, oktaedr 8 ścian trójkątnych, a sześcian 6 ścian kwadratowych."
+      "explanation_incorrect": "Ikosaedr ma 20 ścian trójkątnych, oktaedr 8 ścian trójkątnych, a sześcian 6 ścian kwadratowych.",
+      "last_verified_at": "2026-06-12T15:21:02.778Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie probabilistyczne pozwala na aktualizację prawdopodobieństwa hipotezy na podstawie nowych dowodów lub danych, stanowiąc fundament wnioskowania statystycznego?",
-      "options": ["Twierdzenie Bayesa", "Centralne twierdzenie graniczne", "Prawo wielkich liczb", "Twierdzenie o prawdopodobieństwie całkowitym"],
+      "options": [
+        "Twierdzenie Bayesa",
+        "Centralne twierdzenie graniczne",
+        "Prawo wielkich liczb",
+        "Twierdzenie o prawdopodobieństwie całkowitym"
+      ],
       "answer": "Twierdzenie Bayesa",
       "explanation_correct": "Twierdzenie Bayesa określa prawdopodobieństwo warunkowe i jest podstawą statystyki bayesowskiej oraz algorytmów uczenia maszynowego.",
-      "explanation_incorrect": "Centralne twierdzenie graniczne mówi o zbieżności sum zmiennych do rozkładu normalnego, a prawo wielkich liczb o stabilizacji częstości zdarzeń."
+      "explanation_incorrect": "Centralne twierdzenie graniczne mówi o zbieżności sum zmiennych do rozkładu normalnego, a prawo wielkich liczb o stabilizacji częstości zdarzeń.",
+      "last_verified_at": "2026-06-12T15:21:02.779Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się zdanie warunkowe postaci 'jeśli p to q', które jest fałszywe tylko wtedy, gdy poprzednik 'p' jest prawdziwy, a następnik 'q' jest fałszywy?",
-      "options": ["Implikacja materialna", "Równoważność", "Koniunkcja", "Alternatywa"],
+      "options": [
+        "Implikacja materialna",
+        "Równoważność",
+        "Koniunkcja",
+        "Alternatywa"
+      ],
       "answer": "Implikacja materialna",
       "explanation_correct": "W implikacji materialnej z fałszu może wynikać cokolwiek (zarówno prawda, jak i fałsz), co logicznie pozostaje zdaniem prawdziwym.",
-      "explanation_incorrect": "Równoważność wymaga zgodności obu zdań, koniunkcja prawdziwości obu, a alternatywa co najmniej jednego."
+      "explanation_incorrect": "Równoważność wymaga zgodności obu zdań, koniunkcja prawdziwości obu, a alternatywa co najmniej jednego.",
+      "last_verified_at": "2026-06-12T15:21:02.779Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który XIX-wieczny niemiecki matematyk stworzył nowoczesną teorię mnogości, zdefiniował liczby kardynalne i wykazał, że istnieją różne stopnie nieskończoności?",
-      "options": ["Georg Cantor", "Richard Dedekind", "Karl Weierstrass", "Gottlob Frege"],
+      "options": [
+        "Georg Cantor",
+        "Richard Dedekind",
+        "Karl Weierstrass",
+        "Gottlob Frege"
+      ],
       "answer": "Georg Cantor",
       "explanation_correct": "Cantor udowodnił, że zbiór liczb rzeczywistych jest 'większy' (ma większą moc) niż zbiór liczb naturalnych.",
-      "explanation_incorrect": "Dedekind formalizował liczby rzeczywiste, Weierstrass analizę, a Frege logikę matematyczną."
+      "explanation_incorrect": "Dedekind formalizował liczby rzeczywiste, Weierstrass analizę, a Frege logikę matematyczną.",
+      "last_verified_at": "2026-06-12T15:21:02.779Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się liczba niewymierna będąca podstawą logarytmu naturalnego, wynosząca w przybliżeniu 2,718 i oznaczana na cześć szwajcarskiego matematyka?",
-      "options": ["Liczba Eulera (e)", "Liczba Pi (π)", "Złota liczba (φ)", "Stała Feigenbauma"],
+      "options": [
+        "Liczba Eulera (e)",
+        "Liczba Pi (π)",
+        "Złota liczba (φ)",
+        "Stała Feigenbauma"
+      ],
       "answer": "Liczba Eulera (e)",
       "explanation_correct": "Liczba e (stała Nepiera) pojawia się w definicji granic ciągów opisujących np. procent składany o ciągłym kapitalizowaniu.",
-      "explanation_incorrect": "Pi to stosunek obwodu koła do średnicy, złota liczba φ opisuje złoty podział, a stała Feigenbauma dotyczy teorii chaosu."
+      "explanation_incorrect": "Pi to stosunek obwodu koła do średnicy, złota liczba φ opisuje złoty podział, a stała Feigenbauma dotyczy teorii chaosu.",
+      "last_verified_at": "2026-06-12T15:21:02.779Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Które twierdzenie trygonometryczne jest uogólnieniem twierdzenia Pitagorasa dla dowolnych trójkątów, wiążąc długości trzech boków z cosinusem kąta między nimi?",
-      "options": ["Twierdzenie cosinusów (twierdzenie Carnota)", "Twierdzenie sinusów", "Twierdzenie Talesa", "Twierdzenie Cevy"],
+      "options": [
+        "Twierdzenie cosinusów (twierdzenie Carnota)",
+        "Twierdzenie sinusów",
+        "Twierdzenie Talesa",
+        "Twierdzenie Cevy"
+      ],
       "answer": "Twierdzenie cosinusów (twierdzenie Carnota)",
       "explanation_correct": "Twierdzenie cosinusów zapisuje się jako c^2 = a^2 + b^2 - 2ab*cos(C). Dla kąta prostego cos(90) = 0 i otrzymujemy twierdzenie Pitagorasa.",
-      "explanation_incorrect": "Twierdzenie sinusów opisuje stosunek boku do sinusa kąta naprzeciw ległego, Talesa rzuty równoległe, a Cevy przecinanie linii w trójkącie."
+      "explanation_incorrect": "Twierdzenie sinusów opisuje stosunek boku do sinusa kąta naprzeciw ległego, Talesa rzuty równoległe, a Cevy przecinanie linii w trójkącie.",
+      "last_verified_at": "2026-06-12T15:21:02.779Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się współczynnik we wzorze dwumianowym Newtona określający liczbę sposobów wyboru k-elementowego podzbioru z n-elementowego zbioru, bez uwzględniania kolejności?",
-      "options": ["Symbol Newtona (kombinacja bez powtórzeń)", "Permutacja", "Wariacja z powtórzeniami", "Wariacja bez powtórzeń"],
+      "options": [
+        "Symbol Newtona (kombinacja bez powtórzeń)",
+        "Permutacja",
+        "Wariacja z powtórzeniami",
+        "Wariacja bez powtórzeń"
+      ],
       "answer": "Symbol Newtona (kombinacja bez powtórzeń)",
       "explanation_correct": "Symbol Newtona oznacza się jako n nad k i wyraża wzorem n! / (k!(n-k)!).",
-      "explanation_incorrect": "Permutacja porządkuje n elementów, wariacje wybierają elementy z uwzględnieniem ich kolejności."
+      "explanation_incorrect": "Permutacja porządkuje n elementów, wariacje wybierają elementy z uwzględnieniem ich kolejności.",
+      "last_verified_at": "2026-06-12T15:21:02.779Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sławne twierdzenia",
       "question": "Które twierdzenie analizy matematycznej mówi, że jeśli funkcja jest ciągła na przedziale domkniętym, to przyjmuje w tym przedziale swoje wartości ekstremalne (maksimum i minimum)?",
-      "options": ["Twierdzenie Weierstrassa", "Twierdzenie Rolle'a", "Twierdzenie Darboux", "Twierdzenie Lagrange'a"],
+      "options": [
+        "Twierdzenie Weierstrassa",
+        "Twierdzenie Rolle'a",
+        "Twierdzenie Darboux",
+        "Twierdzenie Lagrange'a"
+      ],
       "answer": "Twierdzenie Weierstrassa",
       "explanation_correct": "Twierdzenie Weierstrassa o kresach ma kluczowe znaczenie w problemach optymalizacyjnych analizy matematycznej.",
-      "explanation_incorrect": "Twierdzenie Rolle'a mówi o zerowaniu pochodnej, Darboux o przyjmowaniu wartości pośrednich, a Lagrange'a o wartości średniej."
+      "explanation_incorrect": "Twierdzenie Rolle'a mówi o zerowaniu pochodnej, Darboux o przyjmowaniu wartości pośrednich, a Lagrange'a o wartości średniej.",
+      "last_verified_at": "2026-06-12T15:21:02.780Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paradoksy logiczne",
       "question": "Jak nazywa się paradoks sformułowany przez Carla Hempla mający pokazać intuicyjną sprzeczność w procesie indukcji, opierający się na obserwacji zielonych jabłek jako dowodu na to, że wszystkie kruki są czarne?",
-      "options": ["Paradoks czarnego kruka (paradoks Hempla)", "Paradoks Newcomba", "Paradoks krokodyla", "Paradoks sterty"],
+      "options": [
+        "Paradoks czarnego kruka (paradoks Hempla)",
+        "Paradoks Newcomba",
+        "Paradoks krokodyla",
+        "Paradoks sterty"
+      ],
       "answer": "Paradoks czarnego kruka (paradoks Hempla)",
       "explanation_correct": "Hempel wykazał, że logicznie równoważne zdanie 'Wszystko co nie jest czarne, nie jest krukiem' jest potwierdzane przez każdy nieczarny obiekt niebędący krukiem (np. zielone jabłko).",
-      "explanation_incorrect": "Paradoks Newcomba dotyczy teorii decyzji i wolnej woli, krokodyla to klasyczny dylemat logiczny, a sterty to paradoks nieostrości pojęć."
+      "explanation_incorrect": "Paradoks Newcomba dotyczy teorii decyzji i wolnej woli, krokodyla to klasyczny dylemat logiczny, a sterty to paradoks nieostrości pojęć.",
+      "last_verified_at": "2026-06-12T15:21:02.780Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Algebra i analiza",
       "question": "Jak nazywa się macierz kwadratowa, która na głównej przekątnej ma same jedynki, a we wszystkich pozostałych polach zera, pełniąc rolę jedynki w mnożeniu macierzy?",
-      "options": ["Macierz jednostkowa", "Macierz zerowa", "Macierz diagonalna", "Macierz symetryczna"],
+      "options": [
+        "Macierz jednostkowa",
+        "Macierz zerowa",
+        "Macierz diagonalna",
+        "Macierz symetryczna"
+      ],
       "answer": "Macierz jednostkowa",
       "explanation_correct": "Mnożenie dowolnej macierzy A przez macierz jednostkową I o odpowiednich wymiarach daje w wyniku macierz A (AI = IA = A).",
-      "explanation_incorrect": "Macierz zerowa zawiera same zera, diagonalna ma niezerowe wartości tylko na przekątnej (niekoniecznie jedynki), a symetryczna jest równa swojej macierzy transponowanej."
+      "explanation_incorrect": "Macierz zerowa zawiera same zera, diagonalna ma niezerowe wartości tylko na przekątnej (niekoniecznie jedynki), a symetryczna jest równa swojej macierzy transponowanej.",
+      "last_verified_at": "2026-06-12T15:21:02.780Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wielcy matematycy",
       "question": "Który węgiersko-amerykański matematyk i polihistor rozwinął podstawy teorii gier, opisał architekturę współczesnych komputerów i sformułował aksjomaty mechaniki kwantowej?",
-      "options": ["John von Neumann", "Alan Turing", "John Nash", "Claude Shannon"],
+      "options": [
+        "John von Neumann",
+        "Alan Turing",
+        "John Nash",
+        "Claude Shannon"
+      ],
       "answer": "John von Neumann",
       "explanation_correct": "Architektura von Neumanna (procesor, jednostka sterująca, pamięć, wejście/wyjście) stanowi fundament niemal wszystkich dzisiejszych komputerów.",
-      "explanation_incorrect": "Turing stworzył model teoretyczny obliczeń, Nash badał teorię gier (równowaga Nasha), a Shannon stworzył teorię informacji."
+      "explanation_incorrect": "Turing stworzył model teoretyczny obliczeń, Nash badał teorię gier (równowaga Nasha), a Shannon stworzył teorię informacji.",
+      "last_verified_at": "2026-06-12T15:21:02.780Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geometria",
       "question": "Jak nazywa się trójkątny układ liczb naturalnych, w którym każdy element (oprócz skrajnych) jest sumą dwóch leżących bezpośrednio nad nim, reprezentujący współczynniki dwumianowe?",
-      "options": ["Trójkąt Pascala", "Trójkąt Sierpińskiego", "Dywan Sierpińskiego", "Wachlarz Eulera"],
+      "options": [
+        "Trójkąt Pascala",
+        "Trójkąt Sierpińskiego",
+        "Dywan Sierpińskiego",
+        "Wachlarz Eulera"
+      ],
       "answer": "Trójkąt Pascala",
       "explanation_correct": "Kolejne wiersze trójkąta Pascala odpowiadają współczynnikom rozwinięcia dwumianu (a+b)^n.",
-      "explanation_incorrect": "Trójkąt Sierpińskiego to fraktal geometryczny powstały przez usuwanie środkowych trójkątów, dywan to jego kwadratowy odpowiednik, a wachlarz Eulera nie istnieje."
+      "explanation_incorrect": "Trójkąt Sierpińskiego to fraktal geometryczny powstały przez usuwanie środkowych trójkątów, dywan to jego kwadratowy odpowiednik, a wachlarz Eulera nie istnieje.",
+      "last_verified_at": "2026-06-12T15:21:02.780Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logika",
       "question": "Jak nazywa się klasyczne prawo logiczne mówiące, że z fałszywości zaprzeczenia jakiegoś zdania wynika prawdziwość samego zdania (negacja podwójna)?",
-      "options": ["Prawo podwójnego przeczenia", "Prawo wyłączonego środka", "Prawo sprzeczności", "Prawo transpozycji"],
+      "options": [
+        "Prawo podwójnego przeczenia",
+        "Prawo wyłączonego środka",
+        "Prawo sprzeczności",
+        "Prawo transpozycji"
+      ],
       "answer": "Prawo podwójnego przeczenia",
       "explanation_correct": "Prawo podwójnego przeczenia (~ ~ p ⇔ p) jest kluczowe w dowodach nie wprost.",
-      "explanation_incorrect": "Prawo wyłączonego środka mówi, że zdanie jest prawdziwe lub fałszywe, sprzeczności że nie może być jednocześnie prawdziwe i fałszywe, a transpozycji odwraca implikację z negacjami."
+      "explanation_incorrect": "Prawo wyłączonego środka mówi, że zdanie jest prawdziwe lub fałszywe, sprzeczności że nie może być jednocześnie prawdziwe i fałszywe, a transpozycji odwraca implikację z negacjami.",
+      "last_verified_at": "2026-06-12T15:21:02.780Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     }
   ]
 }

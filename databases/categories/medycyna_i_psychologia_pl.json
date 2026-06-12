@@ -2,13 +2,15 @@
   "id": "medycyna_i_psychologia_pl",
   "name": "Medycyna i Psychologia",
   "language": "pl",
-  "description": "Pytania z zakresu: Farmakologia historyczna, Psychologia poznawcza, Anatomia oka, Psychopatologia, Neurologia. Sprawdź swoją wiedzę w tej kategorii.",
-  "created_at": "2026-06-10T23:07:55.108Z",
+  "description": "Pytania z zakresu: Farmakologia historyczna, Psychologia poznawcza, Anatomia oka, Psychopatologia...",
+  "created_at": "2026-06-12T15:23:40.663Z",
+  "last_verified_at": "2026-06-12T15:23:39.833Z",
+  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Farmakologia historyczna",
-      "question": "Która substancja chemiczna jest syntetycznym odpowiednikiem salicyliny pozyskiwanej historycznie z kory wierzby?",
+      "question": "Która substancja chemiczna jest syntetycznym odpowiednikiem salicyny pozyskiwanej historycznie z kory wierzby?",
       "options": [
         "kwas acetylosalicylowy",
         "ibuprofen",
@@ -16,8 +18,10 @@
         "naproksen"
       ],
       "answer": "kwas acetylosalicylowy",
-      "explanation_correct": "Kwas acetylosalicylowy, znany jako aspiryna, został zsyntetyzowany jako trwalsza forma salicyliny występującej w korze wierzbowej.",
-      "explanation_incorrect": "Pozostałe leki należą do grupy niesteroidowych leków przeciwzapalnych lub przeciwbólowych, ale mają inną strukturę chemiczną i pochodzenie."
+      "explanation_correct": "Kwas acetylosalicylowy, znany jako aspiryna, powstał jako bezpieczniejsza dla żołądka pochodna salicyny.",
+      "explanation_incorrect": "Pozostałe leki to inne NLPZ lub analgetyki o odmiennej genezie chemicznej.",
+      "last_verified_at": "2026-06-12T15:22:03.260Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -30,20 +34,24 @@
       ],
       "answer": "Efekt Mandeli",
       "explanation_correct": "Efekt Mandeli to termin opisujący zbiorową konfabulację, nazwany tak po powszechnym przekonaniu, że Nelson Mandela zmarł w więzieniu w latach 80.",
-      "explanation_incorrect": "Pozostałe opcje odnoszą się do błędów poznawczych związanych z interpretacją informacji lub oceną innych osób, a nie do fałszywych wspomnień."
+      "explanation_incorrect": "Pozostałe opcje odnoszą się do błędów poznawczych związanych z interpretacją informacji lub oceną innych osób, a nie do fałszywych wspomnień.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia oka",
-      "question": "Która z wymienionych struktur jest bezpośrednio odpowiedzialna za odbiór bodźców świetlnych w gałce ocznej?",
+      "question": "Jak nazywa się wada wzroku polegająca na utracie elastyczności soczewki wraz z wiekiem, utrudniająca widzenie z bliska?",
       "options": [
-        "twardówka",
-        "soczewka",
-        "siatkówka",
-        "rogówka"
+        "krótkowzroczność",
+        "dalekowzroczność",
+        "presbiopia",
+        "astygmatyzm"
       ],
-      "answer": "siatkówka",
-      "explanation_correct": "Siatkówka zawiera światłoczułe receptory – pręciki i czopki – które zamieniają światło na sygnały nerwowe.",
-      "explanation_incorrect": "Twardówka chroni oko, soczewka skupia światło, a rogówka jest zewnętrzną warstwą ochronną i łamiącą promienie."
+      "answer": "presbiopia",
+      "explanation_correct": "Presbiopia (starczowzroczność) wynika z naturalnego procesu starzenia się soczewki oka.",
+      "explanation_incorrect": "Krótkowzroczność i dalekowzroczność to wady wynikające z kształtu gałki ocznej, a astygmatyzm z nierówności rogówki.",
+      "last_verified_at": "2026-06-12T15:22:03.260Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychopatologia",
@@ -56,7 +64,9 @@
       ],
       "answer": "agorafobia",
       "explanation_correct": "Agorafobia to zaburzenie lękowe objawiające się obawą przed miejscami publicznymi i otwartymi przestrzeniami.",
-      "explanation_incorrect": "Arachnofobia to lęk przed pająkami, klaustrofobia przed zamknięciem, a akrofobia przed wysokością."
+      "explanation_incorrect": "Arachnofobia to lęk przed pająkami, klaustrofobia przed zamknięciem, a akrofobia przed wysokością.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurologia",
@@ -69,7 +79,9 @@
       ],
       "answer": "dopamina",
       "explanation_correct": "Dopamina jest głównym mediatorem w układzie mezolimbicznym, motywującym organizm do powtarzania czynności dających satysfakcję.",
-      "explanation_incorrect": "Serotonina reguluje głównie nastrój, acetylocholina pamięć, a GABA jest głównym hamulcem układu nerwowego."
+      "explanation_incorrect": "Serotonina reguluje głównie nastrój, acetylocholina pamięć, a GABA jest głównym hamulcem układu nerwowego.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kardiologia",
@@ -82,7 +94,9 @@
       ],
       "answer": "węzeł zatokowy",
       "explanation_correct": "Węzeł zatokowy (zatokowo-przedsionkowy) generuje impulsy elektryczne wyznaczające rytm pracy serca u zdrowego człowieka.",
-      "explanation_incorrect": "Pozostałe struktury przewodzą impulsy elektryczne w dalszych etapach cyklu pracy serca."
+      "explanation_incorrect": "Pozostałe struktury przewodzą impulsy elektryczne w dalszych etapach cyklu pracy serca.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
@@ -95,7 +109,9 @@
       ],
       "answer": "Philip Zimbardo",
       "explanation_correct": "Philip Zimbardo badał wpływ ról społecznych na zachowanie jednostki w symulowanych warunkach więziennych.",
-      "explanation_incorrect": "Milgram badał posłuszeństwo wobec autorytetu, Asch konformizm, a Bandura uczenie się społeczne."
+      "explanation_incorrect": "Milgram badał posłuszeństwo wobec autorytetu, Asch konformizm, a Bandura uczenie się społeczne.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endokrynologia",
@@ -108,7 +124,9 @@
       ],
       "answer": "melatonina",
       "explanation_correct": "Melatonina jest produkowana w ciemności i informuje organizm o konieczności przejścia w stan snu.",
-      "explanation_incorrect": "Kortyzol to hormon stresu, oksytocyna odpowiada za więzi społeczne, a adrenalina mobilizuje organizm do walki lub ucieczki."
+      "explanation_incorrect": "Kortyzol to hormon stresu, oksytocyna odpowiada za więzi społeczne, a adrenalina mobilizuje organizm do walki lub ucieczki.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia analityczna",
@@ -121,7 +139,9 @@
       ],
       "answer": "Carl Gustav Jung",
       "explanation_correct": "Jung sformułował teorię, że ludzie dzielą wspólny magazyn doświadczeń i symboli przekazywanych z pokolenia na pokolenie.",
-      "explanation_incorrect": "Freud skupiał się na nieświadomości indywidualnej, Adler na kompleksie niższości, a Erikson na rozwoju psychospołecznym."
+      "explanation_incorrect": "Freud skupiał się na nieświadomości indywidualnej, Adler na kompleksie niższości, a Erikson na rozwoju psychospołecznym.",
+      "last_verified_at": "2026-06-12T15:21:45.917Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gatunki bakterii",
@@ -134,7 +154,9 @@
       ],
       "answer": "Helicobacter pylori",
       "explanation_correct": "Helicobacter pylori potrafi przetrwać w kwaśnym środowisku żołądka, prowadząc do uszkodzeń jego błony śluzowej.",
-      "explanation_incorrect": "Pozostałe bakterie wywołują zakażenia układu pokarmowego, zatrucia lub infekcje skóry i tkanek miękkich."
+      "explanation_incorrect": "Pozostałe bakterie wywołują zakażenia układu pokarmowego, zatrucia lub infekcje skóry i tkanek miękkich.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurochirurgia",
@@ -147,7 +169,9 @@
       ],
       "answer": "lobotomia",
       "explanation_correct": "Lobotomia była stosowana w połowie XX wieku w leczeniu zaburzeń psychicznych, lecz wywoływała nieodwracalne zmiany w osobowości.",
-      "explanation_incorrect": "Trepanacja to otwarcie czaszki, hemisferektomia to usunięcie półkuli mózgu, a kraniotomia to zabiegowe otwarcie puszki mózgowej."
+      "explanation_incorrect": "Trepanacja to otwarcie czaszki, hemisferektomia to usunięcie półkuli mózgu, a kraniotomia to zabiegowe otwarcie puszki mózgowej.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Hematologia",
@@ -160,7 +184,9 @@
       ],
       "answer": "hemoglobina",
       "explanation_correct": "Hemoglobina zawiera żelazo, które wiąże tlen w płucach i uwalnia go w tkankach organizmu.",
-      "explanation_incorrect": "Albumina utrzymuje ciśnienie onkotyczne, fibrynogen bierze udział w krzepnięciu, a mioglobina magazynuje tlen w mięśniach."
+      "explanation_incorrect": "Albumina utrzymuje ciśnienie onkotyczne, fibrynogen bierze udział w krzepnięciu, a mioglobina magazynuje tlen w mięśniach.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia rozwojowa",
@@ -173,7 +199,9 @@
       ],
       "answer": "Jean Piaget",
       "explanation_correct": "Jean Piaget stworzył przełomową teorię tłumaczącą, jak dzieci konstruują model poznawczy świata wraz z wiekiem.",
-      "explanation_incorrect": "Vygotsky badał wpływ kultury i języka, Kohlberg rozwój moralny, a Skinner warunkowanie instrumentalne."
+      "explanation_incorrect": "Vygotsky badał wpływ kultury i języka, Kohlberg rozwój moralny, a Skinner warunkowanie instrumentalne.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Laryngologia",
@@ -186,7 +214,9 @@
       ],
       "answer": "młoteczek",
       "explanation_correct": "Młoteczek przekazuje drgania z błony bębenkowej na kowadełko, będąc pierwszym elementem łańcucha kosteczek.",
-      "explanation_incorrect": "Kowadełko i strzemiączko to kolejne elementy łańcucha, a ślimak to część ucha wewnętrznego wypełniona płynem."
+      "explanation_incorrect": "Kowadełko i strzemiączko to kolejne elementy łańcucha, a ślimak to część ucha wewnętrznego wypełniona płynem.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychoterapia",
@@ -199,7 +229,9 @@
       ],
       "answer": "Carl Rogers",
       "explanation_correct": "Carl Rogers zakładał, że akceptacja, empatia i autentyczność terapeuty są kluczowe dla rozwoju pacjenta.",
-      "explanation_incorrect": "Frankl stworzył logoterapię, Perls terapię Gestalt, a Yalom jest przedstawicielem psychoterapii egzystencjalnej."
+      "explanation_incorrect": "Frankl stworzył logoterapię, Perls terapię Gestalt, a Yalom jest przedstawicielem psychoterapii egzystencjalnej.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kardiologia",
@@ -212,7 +244,9 @@
       ],
       "answer": "aorta",
       "explanation_correct": "Aorta, zwana tętnicą główną, dostarcza krew utlenowaną do wszystkich narządów i tkanek ciała.",
-      "explanation_incorrect": "Tętnica płucna prowadzi krew do płuc, szyjna do głowy, a żyła główna odprowadza krew do serca."
+      "explanation_incorrect": "Tętnica płucna prowadzi krew do płuc, szyjna do głowy, a żyła główna odprowadza krew do serca.",
+      "last_verified_at": "2026-06-12T15:21:45.918Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -225,7 +259,9 @@
       ],
       "answer": "projekcja",
       "explanation_correct": "Projekcja pozwala chronić samoocenę poprzez 'zrzucanie' własnych wad lub lęków na inne osoby.",
-      "explanation_incorrect": "Racjonalizacja to logiczne tłumaczenie błędów, sublimacja to zamiana popędów na cele społeczne, a wyparcie to usuwanie myśli ze świadomości."
+      "explanation_incorrect": "Racjonalizacja to logiczne tłumaczenie błędów, sublimacja to zamiana popędów na cele społeczne, a wyparcie to usuwanie myśli ze świadomości.",
+      "last_verified_at": "2026-06-12T15:21:45.919Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurologia",
@@ -238,7 +274,9 @@
       ],
       "answer": "synapsa",
       "explanation_correct": "Synapsa umożliwia przekazanie sygnału elektrycznego lub chemicznego pomiędzy komórkami nerwowymi.",
-      "explanation_incorrect": "Osłonka mielinowa izoluje akson, a węzły Ranviera przyspieszają przewodzenie impulsu."
+      "explanation_incorrect": "Osłonka mielinowa izoluje akson, a węzły Ranviera przyspieszają przewodzenie impulsu.",
+      "last_verified_at": "2026-06-12T15:21:45.919Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Farmakologia",
@@ -251,7 +289,9 @@
       ],
       "answer": "antybiotyki",
       "explanation_correct": "Antybiotyki działają wybiórczo na struktury komórkowe bakterii, nie uszkadzając komórek gospodarza.",
-      "explanation_incorrect": "Analgetyki uśmierzają ból, antydepresanty leczą zaburzenia nastroju, a diuretyki zwiększają wydzielanie moczu."
+      "explanation_incorrect": "Analgetyki uśmierzają ból, antydepresanty leczą zaburzenia nastroju, a diuretyki zwiększają wydzielanie moczu.",
+      "last_verified_at": "2026-06-12T15:21:45.919Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia behawioralna",
@@ -264,7 +304,9 @@
       ],
       "answer": "Iwan Pawłow",
       "explanation_correct": "Pawłow zauważył, że psy zaczynają wydzielać ślinę na dźwięk sygnału skojarzonego z podaniem pokarmu.",
-      "explanation_incorrect": "Mendelejew był chemikiem, Łuria neuropsychologiem, a Wygotski psychologiem rozwojowym."
+      "explanation_incorrect": "Mendelejew był chemikiem, Łuria neuropsychologiem, a Wygotski psychologiem rozwojowym.",
+      "last_verified_at": "2026-06-12T15:21:45.919Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia",
@@ -277,7 +319,9 @@
       ],
       "answer": "kość udowa",
       "explanation_correct": "Kość udowa jest najdłuższą i najmocniejszą kością w ludzkim ciele. Stanowi ona rusztowanie dla uda i kończy się w stawie kolanowym.",
-      "explanation_incorrect": "Kość piszczelowa i ramienna są znacznie krótsze, a miednica jest strukturą płaską i złożoną."
+      "explanation_incorrect": "Kość piszczelowa i ramienna są znacznie krótsze, a miednica jest strukturą płaską i złożoną.",
+      "last_verified_at": "2026-06-12T15:21:45.919Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychiatria",
@@ -290,7 +334,9 @@
       ],
       "answer": "choroba afektywna dwubiegunowa",
       "explanation_correct": "Choroba afektywna dwubiegunowa charakteryzuje się występowaniem epizodów manii lub hipomanii oraz epizodów depresji. Leczenie opiera się głównie na stabilizatorach nastroju.",
-      "explanation_incorrect": "Schizofrenia dotyczy głównie rozszczepienia funkcji psychicznych, a fobia społeczna odnosi się do lęku przed oceną innych."
+      "explanation_incorrect": "Schizofrenia dotyczy głównie rozszczepienia funkcji psychicznych, a fobia społeczna odnosi się do lęku przed oceną innych.",
+      "last_verified_at": "2026-06-12T15:21:45.919Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endokrynologia",
@@ -303,7 +349,9 @@
       ],
       "answer": "kortyzol",
       "explanation_correct": "Kortyzol reguluje metabolizm glukozy i mobilizuje organizm w sytuacjach stresowych. Jest hormonem steroidowym syntetyzowanym z cholesterolu.",
-      "explanation_incorrect": "Insulina obniża poziom cukru, prolaktyna odpowiada za laktację, a oksytocyna jest hormonem więzi społecznym."
+      "explanation_incorrect": "Insulina obniża poziom cukru, prolaktyna odpowiada za laktację, a oksytocyna jest hormonem więzi społecznym.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
@@ -316,7 +364,9 @@
       ],
       "answer": "rozproszenie odpowiedzialności",
       "explanation_correct": "Zjawisko to jest kluczowym elementem tzw. efektu widza.",
-      "explanation_incorrect": "Konformizm to uleganie wpływom grupy, a efekt aureoli dotyczy rzutowania jednej cechy na całą ocenę osoby."
+      "explanation_incorrect": "Konformizm to uleganie wpływom grupy, a efekt aureoli dotyczy rzutowania jednej cechy na całą ocenę osoby.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gastroenterologia",
@@ -329,7 +379,9 @@
       ],
       "answer": "wątroba",
       "explanation_correct": "Wątroba jest największym gruczołem i waży zazwyczaj od 1,5 do 2 kilogramów. Pełni kluczowe funkcje detoksykacyjne i metaboliczne.",
-      "explanation_incorrect": "Trzustka i tarczyca są znacznie mniejszymi gruczołami wydzielania wewnętrznego."
+      "explanation_incorrect": "Trzustka i tarczyca są znacznie mniejszymi gruczołami wydzielania wewnętrznego.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia kliniczna",
@@ -342,7 +394,9 @@
       ],
       "answer": "Sigmund Freud",
       "explanation_correct": "Sigmund Freud stworzył fundamenty psychoanalizy, kładąc nacisk na rolę nieświadomości i popędów. Wprowadził pojęcia id, ego i superego.",
-      "explanation_incorrect": "Jung i Adler byli uczniami Freuda, którzy stworzyli własne nurty, a Skinner był czołowym behawiorystą."
+      "explanation_incorrect": "Jung i Adler byli uczniami Freuda, którzy stworzyli własne nurty, a Skinner był czołowym behawiorystą.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia oka",
@@ -355,7 +409,9 @@
       ],
       "answer": "rogówka",
       "explanation_correct": "Rogówka stanowi najbardziej zewnętrzną soczewkę oka, skupiającą światło. Nie posiada naczyń krwionośnych, ale jest silnie unerwiona.",
-      "explanation_incorrect": "Twardówka to biała część zewnętrzna, soczewka znajduje się wewnątrz oka, a siatkówka odbiera bodźce świetlne."
+      "explanation_incorrect": "Twardówka to biała część zewnętrzna, soczewka znajduje się wewnątrz oka, a siatkówka odbiera bodźce świetlne.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neuropsychologia",
@@ -368,7 +424,9 @@
       ],
       "answer": "hipokamp",
       "explanation_correct": "Hipokamp jest częścią układu limbicznego odpowiedzialną za przenoszenie informacji z pamięci krótkotrwałej do długotrwałej. Jego uszkodzenie uniemożliwia zapamiętywanie nowych faktów.",
-      "explanation_incorrect": "Móżdżek odpowiada za ruch, a ciało migdałowate głównie za emocje, takie jak strach."
+      "explanation_incorrect": "Móżdżek odpowiada za ruch, a ciało migdałowate głównie za emocje, takie jak strach.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Immunologia",
@@ -381,7 +439,9 @@
       ],
       "answer": "leukocyty",
       "explanation_correct": "Leukocyty dzielą się m.in. na granulocyty i agranulocyty, zwalczając patogeny. Ich wzrost często wskazuje na trwający stan zapalny.",
-      "explanation_incorrect": "Erytrocyty transportują tlen, trombocyty krzepną krew, a osteocyty to komórki kostne."
+      "explanation_incorrect": "Erytrocyty transportują tlen, trombocyty krzepną krew, a osteocyty to komórki kostne.",
+      "last_verified_at": "2026-06-12T15:21:45.920Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia osobowości",
@@ -394,7 +454,9 @@
       ],
       "answer": "test Rorschacha",
       "explanation_correct": "Test Rorschacha to jedna z najpopularniejszych metod projekcyjnych stosowanych w diagnostice klinicznej. Badany rzutuje na plamy swoje nieświadome lęki i cechy osobowości.",
-      "explanation_incorrect": "Test Ravena bada inteligencję, a MMPI to kwestionariusz osobowości oparty na pytaniach zamkniętych."
+      "explanation_incorrect": "Test Ravena bada inteligencję, a MMPI to kwestionariusz osobowości oparty na pytaniach zamkniętych.",
+      "last_verified_at": "2026-06-12T15:21:45.921Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neuroanatomia",
@@ -407,7 +469,9 @@
       ],
       "answer": "ciało modzelowate",
       "explanation_correct": "Ciało modzelowate (spoidło wielkie) umożliwia szybką wymianę informacji między półkulami. Składa się z setek milionów aksonów.",
-      "explanation_incorrect": "Rdzeń przedłużony kontroluje funkcje życiowe, a wzgórze filtruje sygnały sensoryczne."
+      "explanation_incorrect": "Rdzeń przedłużony kontroluje funkcje życiowe, a wzgórze filtruje sygnały sensoryczne.",
+      "last_verified_at": "2026-06-12T15:21:45.921Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -420,7 +484,9 @@
       ],
       "answer": "efekt Dunninga-Krugera",
       "explanation_correct": "Efekt Dunninga-Krugera pokazuje, że brak wiedzy często wiąże się z brakiem zdolności do oceny własnych ograniczeń. Zjawisko to zanika wraz ze wzrostem rzeczywistych kompetencji.",
-      "explanation_incorrect": "Efekt potwierdzenia to szukanie informacji zgodnych z własną tezą, a efekt halo to ocenianie kogoś przez pryzmat jednej cechy."
+      "explanation_incorrect": "Efekt potwierdzenia to szukanie informacji zgodnych z własną tezą, a efekt halo to ocenianie kogoś przez pryzmat jednej cechy.",
+      "last_verified_at": "2026-06-12T15:21:45.921Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endokrynologia",
@@ -433,7 +499,9 @@
       ],
       "answer": "tyroksyna",
       "explanation_correct": "Tyroksyna (T4) reguluje tempo przemiany materii w całym organizmie. W tkankach obwodowych ulega konwersji do aktywniejszej trijodotyroniny.",
-      "explanation_incorrect": "Kalcytonina reguluje poziom wapnia, a parathormon jest hormonem przytarczyc."
+      "explanation_incorrect": "Kalcytonina reguluje poziom wapnia, a parathormon jest hormonem przytarczyc.",
+      "last_verified_at": "2026-06-12T15:21:45.921Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
@@ -446,7 +514,9 @@
       ],
       "answer": "Stanley Milgram",
       "explanation_correct": "Stanley Milgram badał posłuszeństwo wobec autorytetu, każąc uczestnikom razić prądem „ucznia”. Badanie to ujawniło mroczną stronę ludzkiej natury w strukturze hierarchicznej.",
-      "explanation_incorrect": "Zimbardo przeprowadził eksperyment więzienny, a Asch badał konformizm w ocenie długości linii."
+      "explanation_incorrect": "Zimbardo przeprowadził eksperyment więzienny, a Asch badał konformizm w ocenie długości linii.",
+      "last_verified_at": "2026-06-12T15:21:45.921Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Farmakologia",
@@ -459,7 +529,9 @@
       ],
       "answer": "mak lekarski",
       "explanation_correct": "Mak lekarski (Papaver somniferum) zawiera alkaloidy fenantrenowe, w tym morfinę i kodeinę. Otrzymywane z niego opium służy do produkcji silnych leków przeciwbólowych.",
-      "explanation_incorrect": "Mak polny nie zawiera morfiny, a naparstnica dostarcza glikozydów nasercowych."
+      "explanation_incorrect": "Mak polny nie zawiera morfiny, a naparstnica dostarcza glikozydów nasercowych.",
+      "last_verified_at": "2026-06-12T15:21:45.921Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia układu kostnego",
@@ -472,7 +544,9 @@
       ],
       "answer": "strzemiączko",
       "explanation_correct": "Strzemiączko ma zaledwie ok. 3 mm długości i waży kilka miligramów. Przekazuje ono drgania dźwiękowe z kowadełka do ucha wewnętrznego.",
-      "explanation_incorrect": "Młoteczek i kowadełko są nieco większymi kosteczkami słuchowymi."
+      "explanation_incorrect": "Młoteczek i kowadełko są nieco większymi kosteczkami słuchowymi.",
+      "last_verified_at": "2026-06-12T15:21:45.922Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Immunologia",
@@ -485,7 +559,9 @@
       ],
       "answer": "przeciwciała",
       "explanation_correct": "Przeciwciała, czyli immunoglobuliny, wiążą się z bakteriami i wirusami, oznaczając je do zniszczenia. Każde przeciwciało jest specyficzne dla konkretnego patogenu.",
-      "explanation_incorrect": "Enzymy katalizują reakcje chemiczne, a cytokiny służą do komunikacji między komórkami odpornościowymi."
+      "explanation_incorrect": "Enzymy katalizują reakcje chemiczne, a cytokiny służą do komunikacji między komórkami odpornościowymi.",
+      "last_verified_at": "2026-06-12T15:21:45.922Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychopatologia",
@@ -498,7 +574,9 @@
       ],
       "answer": "klaustrofobia",
       "explanation_correct": "Klaustrofobia może powodować napady paniki np. w windach lub tunelach. Jest to jedna z najczęściej diagnozowanych fobii specyficznych.",
-      "explanation_incorrect": "Agorafobia to lęk przed otwartą przestrzenią, a akrofobia to lęk wysokości."
+      "explanation_incorrect": "Agorafobia to lęk przed otwartą przestrzenią, a akrofobia to lęk wysokości.",
+      "last_verified_at": "2026-06-12T15:21:45.922Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fizjologia układu trawiennego",
@@ -511,7 +589,9 @@
       ],
       "answer": "żółć",
       "explanation_correct": "Żółć rozbija tłuszcze na mniejsze krople, ułatwiając pracę enzymom trawiennym.",
-      "explanation_incorrect": "Lipaza rozkłada tłuszcze chemicznie, pepsyna trawi białka w żołądku, a insulina reguluje poziom cukru."
+      "explanation_incorrect": "Lipaza rozkłada tłuszcze chemicznie, pepsyna trawi białka w żołądku, a insulina reguluje poziom cukru.",
+      "last_verified_at": "2026-06-12T15:21:45.922Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia humanistyczna",
@@ -524,20 +604,24 @@
       ],
       "answer": "Abraham Maslow",
       "explanation_correct": "Abraham Maslow wierzył, że człowiek dąży do samorealizacji po zaspokojeniu potrzeb niższego rzędu. Jego hierarchia potrzeb stała się fundamentem psychologii humanistycznej.",
-      "explanation_incorrect": "Rogers skupiał się na terapii skoncentrowanej na osobie, a Frankl na poszukiwaniu sensu życia (logoterapia)."
+      "explanation_incorrect": "Rogers skupiał się na terapii skoncentrowanej na osobie, a Frankl na poszukiwaniu sensu życia (logoterapia).",
+      "last_verified_at": "2026-06-12T15:22:31.547Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kardiologia",
-      "question": "Które naczynie jest główny dostarczycielem krwi do mózgowia?",
+      "question": "Które naczynia krwionośne są głównymi dostarczycielami krwi do mózgowia?",
       "options": [
-        "tętnica szyjna",
-        "tętnica udowa",
-        "tętnica ramienna",
-        "tętnica nerkowa"
+        "tętnice szyjne",
+        "tętnice udowe",
+        "tętnice ramienne",
+        "tętnice nerkowe"
       ],
-      "answer": "tętnica szyjna",
-      "explanation_correct": "Tętnica szyjna wspólna dzieli się na zewnętrzną i wewnętrzną, przy czym ta druga zaopatruje mózgowie.",
-      "explanation_incorrect": "Pozostałe tętnice zaopatrują kończyny (udowa, ramienna) lub narządy wewnętrzne jamy brzusznej (nerkowa)."
+      "answer": "tętnice szyjne",
+      "explanation_correct": "Tętnice szyjne wewnętrzne, wraz z tętnicami kręgowymi, tworzą układ dostarczający krew do mózgu.",
+      "explanation_incorrect": "Pozostałe wymienione tętnice zaopatrują kończyny dolne (udowe), górne (ramienne) lub nerki (nerkowe).",
+      "last_verified_at": "2026-06-12T15:23:39.832Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia behawioralna",
@@ -550,7 +634,9 @@
       ],
       "answer": "skrzynka Skinnera",
       "explanation_correct": "Urządzenie to służyło do badania warunkowania sprawczego (instrumentalnego).",
-      "explanation_incorrect": "Thorndike używał skrzynek problemowych, a Pawłow kojarzony jest z warunkowaniem klasycznym i ślinieniem psów."
+      "explanation_incorrect": "Thorndike używał skrzynek problemowych, a Pawłow kojarzony jest z warunkowaniem klasycznym i ślinieniem psów.",
+      "last_verified_at": "2026-06-12T15:22:31.547Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pulmonologia",
@@ -563,20 +649,24 @@
       ],
       "answer": "pęcherzyki płucne",
       "explanation_correct": "Pęcherzyki płucne są otoczone siecią naczyń włosowatych, co umożliwia dyfuzję gazów.",
-      "explanation_incorrect": "Oskrzela i tchawica to drogi doprowadzające powietrze, a krtań odpowiada za wydawanie głosu."
+      "explanation_incorrect": "Oskrzela i tchawica to drogi doprowadzające powietrze, a krtań odpowiada za wydawanie głosu.",
+      "last_verified_at": "2026-06-12T15:22:31.548Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurobiologia",
       "question": "Jak nazywa się lipidowa struktura izolująca aksony komórek nerwowych?",
       "options": [
         "bariera krew-mózg",
-        "pochwa mielinowa",
+        "osłonka mielinowa",
         "synapsa chemiczna",
         "opona twarda"
       ],
-      "answer": "pochwa mielinowa",
-      "explanation_correct": "Pochwa mielinowa przyspiesza przewodzenie impulsów nerwowych dzięki izolacji elektrycznej.",
-      "explanation_incorrect": "Synapsa to połączenie komórek, opona twarda chroni mózg, a bariera selekcjonuje substancje przenikające do układu nerwowego."
+      "answer": "ososłonka mielinowa",
+      "explanation_correct": "Osłonka mielinowa działa jak izolator elektryczny, co znacznie przyspiesza prędkość przewodzenia impulsów nerwowych.",
+      "explanation_incorrect": "Synapsa to miejsce komunikacji, opona twarda to ochrona mechaniczna, a bariera selekcjonuje transport cząsteczek.",
+      "last_verified_at": "2026-06-12T15:23:39.832Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia rozwojowa",
@@ -589,7 +679,9 @@
       ],
       "answer": "Mary Ainsworth",
       "explanation_correct": "Mary Ainsworth wyodrębniła klasyfikację stylów przywiązania u dzieci na podstawie ich reakcji na rozłąkę z opiekunem.",
-      "explanation_incorrect": "Pozostałe kobiety były wybitnymi psychoanalityczkami, ale skupiały się na innych aspektach rozwoju psychicznego."
+      "explanation_incorrect": "Pozostałe kobiety były wybitnymi psychoanalityczkami, ale skupiały się na innych aspektach rozwoju psychicznego.",
+      "last_verified_at": "2026-06-12T15:22:31.548Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia oka",
@@ -602,7 +694,9 @@
       ],
       "answer": "tęczówka",
       "explanation_correct": "Tęczówka zawiera barwnik i dzięki mięśniom zmienia wielkość źrenicy.",
-      "explanation_incorrect": "Siatkówka odbiera światło, rogówka je załamuje, a twardówka stanowi zewnętrzną ochronę gałki ocznej."
+      "explanation_incorrect": "Siatkówka odbiera światło, rogówka je załamuje, a twardówka stanowi zewnętrzną ochronę gałki ocznej.",
+      "last_verified_at": "2026-06-12T15:22:31.548Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia behawioralna",
@@ -615,7 +709,9 @@
       ],
       "answer": "John Watson",
       "explanation_correct": "John Watson w 1913 roku opublikował manifest behawiorystyczny, odrzucając introspekcję na rzecz badania zachowania.",
-      "explanation_incorrect": "Freud i Jung to przedstawiciele psychoanalizy, a Maslow to twórca psychologii humanistycznej."
+      "explanation_incorrect": "Freud i Jung to przedstawiciele psychoanalizy, a Maslow to twórca psychologii humanistycznej.",
+      "last_verified_at": "2026-06-12T15:22:31.548Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Leki przeciwbólowe",
@@ -628,7 +724,9 @@
       ],
       "answer": "paracetamol",
       "explanation_correct": "Paracetamol ma działanie przeciwbólowe i przeciwgorączkowe, nie wykazując działania przeciwzapalnego.",
-      "explanation_incorrect": "Ibuprofen i kwas acetylosalicylowy (aspiryna) należą do grupy niesteroidowych leków przeciwzapalnych (NLPZ)."
+      "explanation_incorrect": "Ibuprofen i kwas acetylosalicylowy (aspiryna) należą do grupy niesteroidowych leków przeciwzapalnych (NLPZ).",
+      "last_verified_at": "2026-06-12T15:22:31.548Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
@@ -641,20 +739,24 @@
       ],
       "answer": "konformizm",
       "explanation_correct": "Konformizm polega na dostosowaniu własnych opinii i zachowań do norm obowiązujących w grupie.",
-      "explanation_incorrect": "Facylitacja dotyczy poprawy wykonania zadań w obecności innych, a atrybucja to wyjaśnianie przyczyn zachowań."
+      "explanation_incorrect": "Facylitacja dotyczy poprawy wykonania zadań w obecności innych, a atrybucja to wyjaśnianie przyczyn zachowań.",
+      "last_verified_at": "2026-06-12T15:22:31.548Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurologia",
-      "question": "Który element układu nerwowego jest uznawany za najdłuższy pojedynczy nerw w organizmie człowieka?",
+      "question": "Który z wymienionych nerwów jest najdłuższym nerwem czaszkowym w organizmie człowieka?",
       "options": [
         "nerw błędny",
         "nerw wzrokowy",
-        "nerw kulszowy",
-        "nerw promieniowy"
+        "nerw trójdzielny",
+        "nerw kulszowy"
       ],
-      "answer": "nerw kulszowy",
-      "explanation_correct": "Nerw kulszowy biegnie od dolnej części kręgosłupa aż do stopy.",
-      "explanation_incorrect": "Nerw błędny jest najdłuższym nerwem czaszkowym, ale ustępuje kulszowemu pod względem całkowitej długości w ciele."
+      "answer": "nerw błędny",
+      "explanation_correct": "Nerw błędny (X) wychodzi z czaszki i dociera aż do jamy brzusznej, będąc najdłuższym z nerwów czaszkowych.",
+      "explanation_incorrect": "Nerw kulszowy nie jest nerwem czaszkowym. Nerw wzrokowy i trójdzielny są znacznie krótsze.",
+      "last_verified_at": "2026-06-12T15:23:39.833Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychiatria",
@@ -667,7 +769,9 @@
       ],
       "answer": "arachnofobia",
       "explanation_correct": "Arachnofobia pochodzi od greckiego słowa 'arachne' oznaczającego pająka.",
-      "explanation_incorrect": "Klaustrofobia to lęk przed zamkniętą przestrzenią, akrofobia przed wysokością, a hydrofobia przed wodą."
+      "explanation_incorrect": "Klaustrofobia to lęk przed zamkniętą przestrzenią, akrofobia przed wysokością, a hydrofobia przed wodą.",
+      "last_verified_at": "2026-06-12T15:22:31.549Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia układu oddechowego",
@@ -680,7 +784,9 @@
       ],
       "answer": "przepona",
       "explanation_correct": "Skurcz przepony powoduje zwiększenie objętości klatki piersiowej i wdech.",
-      "explanation_incorrect": "Mięśnie międzyżebrowe wspomagają oddychanie, ale to przepona jest głównym tłokiem napędzającym ten proces."
+      "explanation_incorrect": "Mięśnie międzyżebrowe wspomagają oddychanie, ale to przepona jest głównym tłokiem napędzającym ten proces.",
+      "last_verified_at": "2026-06-12T15:22:31.549Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -693,7 +799,9 @@
       ],
       "answer": "Leon Festinger",
       "explanation_correct": "Festinger opisał, jak ludzie dążą do redukcji dyskomfortu wynikającego z posiadania sprzecznych przekonań.",
-      "explanation_incorrect": "Milgram i Zimbardo badali posłuszeństwo i role społeczne, a Asch skupiał się na konformizmie."
+      "explanation_incorrect": "Milgram i Zimbardo badali posłuszeństwo i role społeczne, a Asch skupiał się na konformizmie.",
+      "last_verified_at": "2026-06-12T15:22:31.549Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kardiologia",
@@ -706,7 +814,9 @@
       ],
       "answer": "defibrylator",
       "explanation_correct": "Defibrylator dostarcza kontrolowaną dawkę energii elektrycznej, aby zdepolaryzować serce i przywrócić jego rytm.",
-      "explanation_incorrect": "Rozrusznik na stałe wspomaga rytm serca, a elektrokardiograf (EKG) służy jedynie do zapisu czynności elektrycznej."
+      "explanation_incorrect": "Rozrusznik na stałe wspomaga rytm serca, a elektrokardiograf (EKG) służy jedynie do zapisu czynności elektrycznej.",
+      "last_verified_at": "2026-06-12T15:22:31.549Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endokrynologia",
@@ -719,7 +829,9 @@
       ],
       "answer": "adrenalina",
       "explanation_correct": "Adrenalina (epinefryna) przygotowuje organizm do gwałtownego wysiłku fizycznego.",
-      "explanation_incorrect": "Insulina reguluje cukier, melatonina sen, a estrogeny to żeńskie hormony płciowe."
+      "explanation_incorrect": "Insulina reguluje cukier, melatonina sen, a estrogeny to żeńskie hormony płciowe.",
+      "last_verified_at": "2026-06-12T15:22:31.549Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia rozwojowa",
@@ -732,7 +844,9 @@
       ],
       "answer": "Erik Erikson",
       "explanation_correct": "Erikson uważał, że na każdym etapie życia człowiek musi rozwiązać konflikt, np. tożsamość vs niepewność.",
-      "explanation_incorrect": "Piaget badał rozwój poznawczy, Kohlberg moralny, a Vygotsky społeczny wpływ na naukę."
+      "explanation_incorrect": "Piaget badał rozwój poznawczy, Kohlberg moralny, a Vygotsky społeczny wpływ na naukę.",
+      "last_verified_at": "2026-06-12T15:22:31.549Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Hematologia",
@@ -745,7 +859,9 @@
       ],
       "answer": "trombocyty",
       "explanation_correct": "Trombocyty (płytki krwi) gromadzą się w miejscu uszkodzenia naczynia, tworząc czop.",
-      "explanation_incorrect": "Erytrocyty to krwinki czerwone (transport tlenu), a leukocyty i limfocyty to komórki układu odpornościowego."
+      "explanation_incorrect": "Erytrocyty to krwinki czerwone (transport tlenu), a leukocyty i limfocyty to komórki układu odpornościowego.",
+      "last_verified_at": "2026-06-12T15:22:31.550Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Farmakognozja",
@@ -758,7 +874,9 @@
       ],
       "answer": "naparstnica purpurowa",
       "explanation_correct": "Liście naparstnicy zawierają glikozydy nasercowe wzmacniające siłę skurczu mięśnia sercowego.",
-      "explanation_incorrect": "Z maku pozyskuje się opiaty, z wilczej jagody atropinę, a dziurawiec działa przeciwdepresyjnie."
+      "explanation_incorrect": "Z maku pozyskuje się opiaty, z wilczej jagody atropinę, a dziurawiec działa przeciwdepresyjnie.",
+      "last_verified_at": "2026-06-12T15:22:31.550Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia osobowości",
@@ -771,7 +889,9 @@
       ],
       "answer": "Wielka Piątka",
       "explanation_correct": "Model obejmuje: otwartość, sumienność, ekstrawersję, ugodowość i neurotyczność.",
-      "explanation_incorrect": "Ciemna triada opisuje cechy antyspołeczne, a typologia Junga stała się podstawą testu MBTI."
+      "explanation_incorrect": "Ciemna triada opisuje cechy antyspołeczne, a typologia Junga stała się podstawą testu MBTI.",
+      "last_verified_at": "2026-06-12T15:22:31.550Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia układu pokarmowego",
@@ -784,7 +904,9 @@
       ],
       "answer": "pęcherzyk żółciowy",
       "explanation_correct": "Pęcherzyk żółciowy uwalnia żółć po spożyciu posiłku zawierającego tłuszcze.",
-      "explanation_incorrect": "Trzustka produkuje enzymy trawienne i hormony, a dwunastnica to pierwszy odcinek jelita cienkiego."
+      "explanation_incorrect": "Trzustka produkuje enzymy trawienne i hormony, a dwunastnica to pierwszy odcinek jelita cienkiego.",
+      "last_verified_at": "2026-06-12T15:22:31.550Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neuroanatomia",
@@ -797,7 +919,9 @@
       ],
       "answer": "móżdżek",
       "explanation_correct": "Móżdżek otrzymuje informacje z układu przedsionkowego oraz receptorów czucia głębokiego, co pozwala mu na precyzyjne sterowanie ruchem.",
-      "explanation_incorrect": "Hipokamp odpowiada za pamięć, most łączy korę z móżdżkiem, a wzgórze jest stacją przekaźnikową dla bodźców zmysłowych."
+      "explanation_incorrect": "Hipokamp odpowiada za pamięć, most łączy korę z móżdżkiem, a wzgórze jest stacją przekaźnikową dla bodźców zmysłowych.",
+      "last_verified_at": "2026-06-12T15:22:31.550Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -810,7 +934,9 @@
       ],
       "answer": "efekt czubka języka",
       "explanation_correct": "Efekt czubka języka (TOT - tip of the tongue) to błąd wydobywania informacji z pamięci długotrwałej przy zachowaniu dostępu do wiedzy semantycznej.",
-      "explanation_incorrect": "Afazja to trwałe zaburzenie mowy, torowanie dotyczy gotowości poznawczej, a amnezja to utrata wspomnień."
+      "explanation_incorrect": "Afazja to trwałe zaburzenie mowy, torowanie dotyczy gotowości poznawczej, a amnezja to utrata wspomnień.",
+      "last_verified_at": "2026-06-12T15:22:31.550Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kardiologia",
@@ -823,20 +949,24 @@
       ],
       "answer": "lewa komora",
       "explanation_correct": "Lewa komora musi wygenerować wysokie ciśnienie, aby pokonać opór w całym krążeniu dużym, co wymusza silną rozbudowę jej mięśniówki.",
-      "explanation_incorrect": "Prawa komora tłoczy krew tylko do płuc pod niskim ciśnieniem, a przedsionki mają cienkie ściany, gdyż pełnią głównie funkcję zbiorników."
+      "explanation_incorrect": "Prawa komora tłoczy krew tylko do płuc pod niskim ciśnieniem, a przedsionki mają cienkie ściany, gdyż pełnią głównie funkcję zbiorników.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
-      "question": "Jak nazywa się mechanizm obronny polegający na przypisywaniu własnych sukcesów czynnikom wewnętrznym, a porażek czynnikom sytuacyjnym?",
+      "question": "Jak nazywa się mechanizm obronny polegający na przypisywaniu własnych sukcesów czynnikom wewnętrznym, a porażek sytuacyjnym?",
       "options": [
-        "atrybucja egotyczna",
         "podstawowy błąd atrybucji",
+        "autowaloryzacyjny błąd atrybucji",
         "efekt aureoli",
         "projekcja"
       ],
-      "answer": "atrybucja egotyczna",
-      "explanation_correct": "Atrybucja egotyczna służy ochronie lub podwyższeniu samooceny jednostki poprzez selektywne wyjaśnianie wyników swoich działań.",
-      "explanation_incorrect": "Podstawowy błąd atrybucji dotyczy oceniania innych osób, a efekt aureoli to rzutowanie jednej cechy na całą osobowość."
+      "answer": "autowaloryzacyjny błąd atrybucji",
+      "explanation_correct": "Błąd ten (ang. self-serving bias) pozwala na zachowanie pozytywnej samooceny poprzez branie odpowiedzialności tylko za sukcesy.",
+      "explanation_incorrect": "Podstawowy błąd atrybucji dotyczy oceniania innych, a projekcja to przypisywanie innym własnych negatywnych cech.",
+      "last_verified_at": "2026-06-12T15:23:39.833Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia układu kostnego",
@@ -849,7 +979,9 @@
       ],
       "answer": "atlas",
       "explanation_correct": "Atlas, czyli kręg szczytowy, podtrzymuje czaszkę i nie posiada trzonu, co odróżnia go od pozostałych kręgów.",
-      "explanation_incorrect": "Obrotnik to drugi krąg (C2), kręg wystający to C7, a kość krzyżowa znajduje się w dolnej części kręgosłupa."
+      "explanation_incorrect": "Obrotnik to drugi krąg (C2), kręg wystający to C7, a kość krzyżowa znajduje się w dolnej części kręgosłupa.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Farmakologia roślinna",
@@ -862,7 +994,9 @@
       ],
       "answer": "salicyna",
       "explanation_correct": "Salicyna to prekursor kwasu salicylowego, który był bazą do zsyntetyzowania aspiryny.",
-      "explanation_incorrect": "Atropinę pozyskuje się z wilczej jagody, morfinę z maku, a chininę z kory drzewa chinowego."
+      "explanation_incorrect": "Atropinę pozyskuje się z wilczej jagody, morfinę z maku, a chininę z kory drzewa chinowego.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychopatologia",
@@ -875,7 +1009,9 @@
       ],
       "answer": "echolalia",
       "explanation_correct": "Echolalia często występuje w spektrum autyzmu, schizofrenii lub zespole Tourette'a jako automatyczne powielanie zasłyszanych dźwięków.",
-      "explanation_incorrect": "Echopraksja to powtarzanie ruchów, logorea to potok słów, a mutyzm to brak kontaktu słownego."
+      "explanation_incorrect": "Echopraksja to powtarzanie ruchów, logorea to potok słów, a mutyzm to brak kontaktu słownego.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endokrynologia",
@@ -888,7 +1024,9 @@
       ],
       "answer": "insulina",
       "explanation_correct": "Insulina jest kluczowym hormonem anabolicznym odpowiedzialnym za obniżanie poziomu glukozy we krwi.",
-      "explanation_incorrect": "Glukagon jest produkowany przez komórki alfa i podnosi poziom cukru, a somatostatyna hamuje wydzielanie innych hormonów."
+      "explanation_incorrect": "Glukagon jest produkowany przez komórki alfa i podnosi poziom cukru, a somatostatyna hamuje wydzielanie innych hormonów.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia rozwojowa",
@@ -901,7 +1039,9 @@
       ],
       "answer": "przywiązanie",
       "explanation_correct": "Teoria przywiązania zakłada, że poczucie bezpieczeństwa dziecka zależy od dostępności i reaktywności opiekuna.",
-      "explanation_incorrect": "Socjalizacja to proces uczenia się norm społecznych, a identyfikacja to upodabnianie się do kogoś pod względem cech."
+      "explanation_incorrect": "Socjalizacja to proces uczenia się norm społecznych, a identyfikacja to upodabnianie się do kogoś pod względem cech.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gastroenterologia",
@@ -914,7 +1054,9 @@
       ],
       "answer": "ptyalina",
       "explanation_correct": "Ptyalina, znana również jako amylaza ślinowa, rozbija wiązania glikozydowe w polisacharydach.",
-      "explanation_incorrect": "Pepsyna trawi białka w żołądku, lipaza tłuszcze, a trypsyna to enzym trzustkowy działający w jelicie cienkim."
+      "explanation_incorrect": "Pepsyna trawi białka w żołądku, lipaza tłuszcze, a trypsyna to enzym trzustkowy działający w jelicie cienkim.",
+      "last_verified_at": "2026-06-12T15:22:31.551Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychatria",
@@ -927,7 +1069,9 @@
       ],
       "answer": "dystymia",
       "explanation_correct": "Dystymia to uporczywe obniżenie nastroju, które nie spełnia kryteriów epizodu ciężkiej depresji pod względem natężenia objawów.",
-      "explanation_incorrect": "Cyklotymia dotyczy wahań nastroju, anhedonia to brak odczuwania przyjemności, a mania to stan nadmiernie podwyższonego nastroju."
+      "explanation_incorrect": "Cyklotymia dotyczy wahań nastroju, anhedonia to brak odczuwania przyjemności, a mania to stan nadmiernie podwyższonego nastroju.",
+      "last_verified_at": "2026-06-12T15:22:31.552Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Okulistyka",
@@ -940,7 +1084,9 @@
       ],
       "answer": "plamka żółta",
       "explanation_correct": "W centrum plamki żółtej znajduje się dołek środkowy, który jest miejscem o najwyższej rozdzielczości widzenia.",
-      "explanation_incorrect": "Tarcza nerwu wzrokowego to tzw. plamka ślepa pozbawiona fotoreceptorów, a naczyniówka to warstwa odżywcza oka."
+      "explanation_incorrect": "Tarcza nerwu wzrokowego to tzw. plamka ślepa pozbawiona fotoreceptorów, a naczyniówka to warstwa odżywcza oka.",
+      "last_verified_at": "2026-06-12T15:22:31.552Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neuropsychologia",
@@ -953,20 +1099,24 @@
       ],
       "answer": "ośrodek Wernickego",
       "explanation_correct": "Ośrodek Wernickego znajduje się zazwyczaj w lewym płacie skroniowym i odpowiada za dekodowanie znaczenia wyrazów.",
-      "explanation_incorrect": "Ośrodek Broca odpowiada za generowanie mowy (artykulację), a zakręt zaśrodkowy za czucie somatyczne."
+      "explanation_incorrect": "Ośrodek Broca odpowiada za generowanie mowy (artykulację), a zakręt zaśrodkowy za czucie somatyczne.",
+      "last_verified_at": "2026-06-12T15:22:31.552Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Hematologia",
-      "question": "Jak nazywa się płynna część krwi, stanowiąca około 55% jej objętości, po oddzieleniu elementów morfotycznych?",
+      "question": "Jak nazywa się współczynnik określający objętościowy udział elementów morfotycznych (głównie krwinek czerwonych) w całej objętości krwi?",
       "options": [
-        "surowica",
-        "chłonka",
-        "osocze",
-        "hemoglobina"
+        "hematokryt",
+        "hemoglobina",
+        "leukocytoza",
+        "osad (OB)"
       ],
-      "answer": "osocze",
-      "explanation_correct": "Osocze składa się głównie z wody, białek (takich jak albuminy i fibrynogen) oraz elektrolitów.",
-      "explanation_incorrect": "Surowica to osocze pozbawione czynników krzepnięcia, chłonka to płyn tkankowy, a hemoglobina to barwnik w erytrocytach."
+      "answer": "hematokryt",
+      "explanation_correct": "Hematokryt informuje o stosunku objętości krwinek do objętości pełnej krwi, co jest kluczowe w diagnozie np. anemii.",
+      "explanation_incorrect": "Hemoglobina to białko transportujące tlen, a leukocytoza to stan podwyższonej liczby krwinek białych.",
+      "last_verified_at": "2026-06-12T15:23:39.833Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia kliniczna",
@@ -979,7 +1129,9 @@
       ],
       "answer": "socjofobia",
       "explanation_correct": "Socjofobia, czyli lęk społeczny, wiąże się z unikaniem sytuacji, w których jednostka może poczuć się obserwowana lub upokorzona.",
-      "explanation_incorrect": "Agorafobia to lęk przed otwartą przestrzenią, a lęk uogólniony to stały niepokój niezwiązany z konkretną sytuacją."
+      "explanation_incorrect": "Agorafobia to lęk przed otwartą przestrzenią, a lęk uogólniony to stały niepokój niezwiązany z konkretną sytuacją.",
+      "last_verified_at": "2026-06-12T15:22:31.552Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kardiologia",
@@ -992,7 +1144,9 @@
       ],
       "answer": "zastawka mitralna",
       "explanation_correct": "Zastawka mitralna, zwana też dwudzielną, zapobiega cofaniu się utlenowanej krwi do lewego przedsionka podczas skurczu komory.",
-      "explanation_incorrect": "Zastawka trójdzielna znajduje się w prawej części serca, a zastawki aortalna i płucna to zastawki półksiężycowate u wyjścia z komór."
+      "explanation_incorrect": "Zastawka trójdzielna znajduje się w prawej części serca, a zastawki aortalna i płucna to zastawki półksiężycowate u wyjścia z komór.",
+      "last_verified_at": "2026-06-12T15:22:31.552Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -1005,7 +1159,9 @@
       ],
       "answer": "torowanie",
       "explanation_correct": "Torowanie (priming) to rodzaj pamięci niejawnej, gdzie bodziec poprzedzający wpływa na szybkość reakcji na bodziec następczy.",
-      "explanation_incorrect": "Habituacja to wygasanie reakcji na znany bodziec, a interferencja to zakłócanie procesu zapamiętywania."
+      "explanation_incorrect": "Habituacja to wygasanie reakcji na znany bodziec, a interferencja to zakłócanie procesu zapamiętywania.",
+      "last_verified_at": "2026-06-12T15:22:31.552Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurologia",
@@ -1018,7 +1174,9 @@
       ],
       "answer": "GABA",
       "explanation_correct": "GABA obniża pobudliwość neuronów poprzez otwieranie kanałów chlorkowych, co przeciwdziała nadmiernej stymulacji układu nerwowego.",
-      "explanation_incorrect": "Glutaminian jest głównym przekaźnikiem pobudzającym, a dopamina i serotonina to aminy biogenne o złożonych funkcjach regulacyjnych."
+      "explanation_incorrect": "Glutaminian jest głównym przekaźnikiem pobudzającym, a dopamina i serotonina to aminy biogenne o złożonych funkcjach regulacyjnych.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gastroenterologia",
@@ -1031,7 +1189,9 @@
       ],
       "answer": "pepsyna",
       "explanation_correct": "Pepsyna powstaje z nieaktywnego pepsynogenu pod wpływem kwasu solnego i rozcina białka na krótsze łańcuchy polipeptydowe.",
-      "explanation_incorrect": "Amylaza trawi cukry, sacharaza rozkłada sacharozę, a renina (u niemowląt) ścina białko mleka."
+      "explanation_incorrect": "Amylaza trawi cukry, sacharaza rozkłada sacharozę, a renina (u niemowląt) ścina białko mleka.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychopatologia",
@@ -1044,7 +1204,9 @@
       ],
       "answer": "trichotillomania",
       "explanation_correct": "Trichotillomania często prowadzi do widocznych ubytków owłosienia i jest sposobem na rozładowanie silnego napięcia emocjonalnego.",
-      "explanation_incorrect": "Dermatillomania dotyczy skubania skóry, kleptomania to kradzieże, a piromania to przymus podpalania."
+      "explanation_incorrect": "Dermatillomania dotyczy skubania skóry, kleptomania to kradzieże, a piromania to przymus podpalania.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endokrynologia",
@@ -1057,7 +1219,9 @@
       ],
       "answer": "przytarczyce",
       "explanation_correct": "Przytarczyce to małe gruczoly wydzielania wewnętrznego położone zwykle na tylnej powierzchni tarczycy, produkujące parathormon (PTH).",
-      "explanation_incorrect": "Tarczyca produkuje kalcytoninę, nadnercza m.in. kortyzol, a grasica tymozynę."
+      "explanation_incorrect": "Tarczyca produkuje kalcytoninę, nadnercza m.in. kortyzol, a grasica tymozynę.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
@@ -1070,7 +1234,9 @@
       ],
       "answer": "Kurt Lewin",
       "explanation_correct": "Kurt Lewin wprowadził teorię pola do nauk społecznych, podkreślając wagę interakcji między jednostką a środowiskiem (B = f(P, E)).",
-      "explanation_incorrect": "Skinner skupiał się na behawioryzmie, Freud na psychoanalizie, a Jung na psychologii analitycznej."
+      "explanation_incorrect": "Skinner skupiał się na behawioryzmie, Freud na psychoanalizie, a Jung na psychologii analitycznej.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia",
@@ -1083,7 +1249,9 @@
       ],
       "answer": "nerw błędny",
       "explanation_correct": "Nerw błędny (X nerw czaszkowy) biegnie od pnia mózgu aż do jamy brzusznej, unerwiając m.in. serce i układ pokarmowy.",
-      "explanation_incorrect": "Nerw trójdzielny unerwia głównie twarz, a nerw twarzowy mięśnie mimiczne."
+      "explanation_incorrect": "Nerw trójdzielny unerwia głównie twarz, a nerw twarzowy mięśnie mimiczne.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychiatria",
@@ -1096,7 +1264,9 @@
       ],
       "answer": "hipochondria",
       "explanation_correct": "Hipochondria to lęk o własny stan zdrowia oparty na błędnej interpretacji drobnych objawów fizjologicznych.",
-      "explanation_incorrect": "Dysmorfofobia dotyczy rzekomych defektów wyglądu, a anhedonia to brak zdolności odczuwania przyjemności."
+      "explanation_incorrect": "Dysmorfofobia dotyczy rzekomych defektów wyglądu, a anhedonia to brak zdolności odczuwania przyjemności.",
+      "last_verified_at": "2026-06-12T15:22:31.553Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Farmakognozja",
@@ -1109,7 +1279,9 @@
       ],
       "answer": "pokrzyk wilcza jagoda",
       "explanation_correct": "Atropina jest otrzymywana z liści i korzeni Atropa belladonna, czyli pokrzyku wilczej jagody.",
-      "explanation_incorrect": "Naparstnica zawiera glikozydy nasercowe, a piołun tujon."
+      "explanation_incorrect": "Naparstnica zawiera glikozydy nasercowe, a piołun tujon.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia rozwojowa",
@@ -1122,7 +1294,9 @@
       ],
       "answer": "eksperyment z lalką Bobo",
       "explanation_correct": "Eksperyment z lalką Bobo dowiódł, że dzieci uczą się zachowań agresywnych poprzez obserwację modeli dorosłych.",
-      "explanation_incorrect": "Eksperyment więzienny badał role społeczne Zimbardo, a badanie Milgrama dotyczyło posłuszeństwa."
+      "explanation_incorrect": "Eksperyment więzienny badał role społeczne Zimbardo, a badanie Milgrama dotyczyło posłuszeństwa.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Hematologia",
@@ -1135,7 +1309,9 @@
       ],
       "answer": "fibrynogen",
       "explanation_correct": "Fibrynogen pod wpływem trombiny przekształca się w fibrynę, która tworzy rusztowanie skrzepu.",
-      "explanation_incorrect": "Albuminy odpowiadają za ciśnienie onkotyczne, a hemoglobina za transport tlenu."
+      "explanation_incorrect": "Albuminy odpowiadają za ciśnienie onkotyczne, a hemoglobina za transport tlenu.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia kliniczna",
@@ -1148,7 +1324,9 @@
       ],
       "answer": "fuga dysocjacyjna",
       "explanation_correct": "Fuga dysocjacyjna to rzadkie zaburzenie, w którym chory podejmuje nagłą podróż i przybiera nową tożsamość.",
-      "explanation_incorrect": "Amnezja następcza to brak możliwości zapamiętywania nowych faktów po urazie."
+      "explanation_incorrect": "Amnezja następcza to brak możliwości zapamiętywania nowych faktów po urazie.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Genetyka",
@@ -1161,7 +1339,9 @@
       ],
       "answer": "gen",
       "explanation_correct": "Gen jest materialnym nośnikiem informacji genetycznej określającym konkretną cechę organizmu.",
-      "explanation_incorrect": "Chromosom zawiera wiele genów, a nukleotyd jest budulcem DNA."
+      "explanation_incorrect": "Chromosom zawiera wiele genów, a nukleotyd jest budulcem DNA.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anestezjologia",
@@ -1174,7 +1354,9 @@
       ],
       "answer": "podtlenek azotu",
       "explanation_correct": "Podtlenek azotu (N2O) ma właściwości odurzające i przeciwbólowe, powszechnie stosowane m.in. w stomatologii.",
-      "explanation_incorrect": "Tlenek węgla jest trujący, a dwutlenek siarki ma silne właściwości drażniące."
+      "explanation_incorrect": "Tlenek węgla jest trujący, a dwutlenek siarki ma silne właściwości drażniące.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neuroanatomia",
@@ -1187,7 +1369,9 @@
       ],
       "answer": "ciało migdałowate",
       "explanation_correct": "Ciało migdałowate odpowiada za szybką reakcję emocjonalną i pamięć emocjonalną związaną ze strachem.",
-      "explanation_incorrect": "Hipokamp odpowiada głównie za pamięć deklaratywną, a wzgórze to stacja przekaźnikowa bodźców zmysłowych."
+      "explanation_incorrect": "Hipokamp odpowiada głównie za pamięć deklaratywną, a wzgórze to stacja przekaźnikowa bodźców zmysłowych.",
+      "last_verified_at": "2026-06-12T15:22:31.554Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia poznawcza",
@@ -1200,7 +1384,9 @@
       ],
       "answer": "konfabulacja",
       "explanation_correct": "Konfabulacja polega na podawaniu zmyślonych faktów w celu uzupełnienia braków w pamięci u osób chorych (np. zespół Korsakowa).",
-      "explanation_incorrect": "Projekcja to mechanizm obronny, a iluzja to błędna interpretacja realnie istniejącego bodźca."
+      "explanation_incorrect": "Projekcja to mechanizm obronny, a iluzja to błędna interpretacja realnie istniejącego bodźca.",
+      "last_verified_at": "2026-06-12T15:22:31.555Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Farmakologia",
@@ -1213,7 +1399,9 @@
       ],
       "answer": "opium",
       "explanation_correct": "Opium zawiera około 10% morfiny, która jest głównym alkaloidem fenantrenowym tej substancji.",
-      "explanation_incorrect": "Haszysz pochodzi z konopi, a kokaina z liści koki."
+      "explanation_incorrect": "Haszysz pochodzi z konopi, a kokaina z liści koki.",
+      "last_verified_at": "2026-06-12T15:22:31.555Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia układu kostnego",
@@ -1226,7 +1414,9 @@
       ],
       "answer": "kość łódeczkowata",
       "explanation_correct": "Kość łódeczkowata znajduje się po stronie kciuka i częstym objawem jej złamania jest ból w tzw. tabakierce anatomicznej.",
-      "explanation_incorrect": "Kość grochowata jest najmniejsza, a haczykowata posiada charakterystyczny wyrostek (haczyk)."
+      "explanation_incorrect": "Kość grochowata jest najmniejsza, a haczykowata posiada charakterystyczny wyrostek (haczyk).",
+      "last_verified_at": "2026-06-12T15:22:31.555Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia kliniczna",
@@ -1239,7 +1429,9 @@
       ],
       "answer": "Aaron Beck",
       "explanation_correct": "Aaron Beck opracował terapię poznawczą (CT), identyfikując automatyczne negatywne myśli u pacjentów z depresją.",
-      "explanation_incorrect": "Ellis stworzył terapię racjonalno-emotywną, a Rogers terapię skoncentrowaną na kliencie."
+      "explanation_incorrect": "Ellis stworzył terapię racjonalno-emotywną, a Rogers terapię skoncentrowaną na kliencie.",
+      "last_verified_at": "2026-06-12T15:22:31.555Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Hematologia",
@@ -1252,7 +1444,9 @@
       ],
       "answer": "mioglobina",
       "explanation_correct": "Mioglobina ma wyższe powinowactwo do tlenu niż hemoglobina, co pozwala na gromadzenie zapasów tlenu w tkance mięśniowej.",
-      "explanation_incorrect": "Hemoglobina transportuje tlen we krwi, a bilirubina jest produktem rozpadu hemu."
+      "explanation_incorrect": "Hemoglobina transportuje tlen we krwi, a bilirubina jest produktem rozpadu hemu.",
+      "last_verified_at": "2026-06-12T15:22:31.555Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fizjologia trawienia",
@@ -1265,7 +1459,9 @@
       ],
       "answer": "lipaza",
       "explanation_correct": "Lipaza trzustkowa jest głównym enzymem trawiącym tłuszcze w świetle jelita cienkiego.",
-      "explanation_incorrect": "Amylaza trawienie skrobię, a pepsyna i trypsyna trawią białka."
+      "explanation_incorrect": "Amylaza trawienie skrobię, a pepsyna i trypsyna trawią białka.",
+      "last_verified_at": "2026-06-12T15:22:31.555Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia społeczna",
@@ -1278,7 +1474,9 @@
       ],
       "answer": "etnocentryzm",
       "explanation_correct": "Etnocentryzm prowadzi do faworyzowania wartości własnej grupy społecznej przy jednoczesnym odrzucaniu odmienności innych grup.",
-      "explanation_incorrect": "Asymilacja to przystosowanie do innej kultury, a altruizm to bezinteresowna pomoc."
+      "explanation_incorrect": "Asymilacja to przystosowanie do innej kultury, a altruizm to bezinteresowna pomoc.",
+      "last_verified_at": "2026-06-12T15:22:31.556Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurologia",
@@ -1291,20 +1489,24 @@
       ],
       "answer": "ośrodek Broca",
       "explanation_correct": "Ośrodek Broca znajduje się w płacie czołowym i odpowiada za ekspresję mowy; jego uszkodzenie powoduje afazję motoryczną.",
-      "explanation_incorrect": "Ośrodek Wernickego odpowiada za rozumienie mowy, a kora wzrokowa za przetwarzanie obrazu."
+      "explanation_incorrect": "Ośrodek Wernickego odpowiada za rozumienie mowy, a kora wzrokowa za przetwarzanie obrazu.",
+      "last_verified_at": "2026-06-12T15:22:31.556Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Psychologia rozwojowa",
       "question": "W psychologii rozwojowej Jeana Piageta, jak określa się tendencję dzieci do przypisywania cech istot żywych przedmiotom nieożywionym?",
       "options": [
         "egocentryzm",
-        "rewer sibilność",
+        "rewersybilność",
         "animizm dziecięcy",
         "akomodacja"
       ],
       "answer": "animizm dziecięcy",
-      "explanation_correct": "Animizm występuje w stadium przedoperacyjnym, kiedy dziecko wierzy, że np. słońce świeci, bo chce mu być ciepło.",
-      "explanation_incorrect": "Egocentryzm to niezdolność do przyjęcia cudzej perspektywy, a akomodacja to zmiana schematów poznawczych."
+      "explanation_correct": "Animizm to przypisywanie duszy i intencji przedmiotom, charakterystyczne dla stadium przedoperacyjnego wg Piageta.",
+      "explanation_incorrect": "Rewersybilność to zdolność do odwracania operacji myślowych, a akomodacja to dostosowanie schematów do nowych danych.",
+      "last_verified_at": "2026-06-12T15:23:39.833Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     }
   ]
 }

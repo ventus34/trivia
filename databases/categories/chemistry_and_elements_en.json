@@ -2,937 +2,1751 @@
   "id": "chemistry_and_elements_en",
   "name": "Chemistry and Elements",
   "language": "en",
-  "description": "Questions in the fields of: Periodic table, Chemical reactions, Organic chemistry, Famous chemists, and properties of elements.",
-  "created_at": "2026-06-11T17:22:00.000Z",
-  "question_count": 100,
+  "description": "Questions covering: Periodic Table, Properties of Elements, Chemical Reactions, Organic Chemistry...",
+  "created_at": "2026-06-12T14:49:12.198Z",
+  "last_verified_at": "2026-06-12T14:35:52.145Z",
+  "verifying_model": "google/gemini-3.1-flash-lite",
+  "question_count": 116,
   "questions": [
     {
       "subcategory": "Periodic Table",
       "question": "Which chemical element has the lowest atomic mass and is the most abundant element in the universe?",
-      "options": ["Hydrogen", "Helium", "Lithium", "Oxygen"],
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Lithium",
+        "Oxygen"
+      ],
       "answer": "Hydrogen",
       "explanation_correct": "Hydrogen (H) has atomic number 1 and constitutes approximately 75% of the elemental mass of the universe.",
-      "explanation_incorrect": "Helium is the second-lightest element, lithium is the lightest metal, and oxygen is a key element of the Earth's crust."
+      "explanation_incorrect": "Helium is the second-lightest element, lithium is the lightest metal, and oxygen is a key element of the Earth's crust.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which Russian chemist published the first recognizable periodic table in 1869, predicting the properties of undiscovered elements?",
-      "options": ["Dmitri Mendeleev", "Mikhail Lomonosov", "Aleksandr Butlerov", "Nikolay Semyonov"],
+      "options": [
+        "Dmitri Mendeleev",
+        "Mikhail Lomonosov",
+        "Aleksandr Butlerov",
+        "Nikolay Semyonov"
+      ],
       "answer": "Dmitri Mendeleev",
       "explanation_correct": "Mendeleev organized elements by atomic mass and noticed the periodic recurrence of their chemical properties.",
-      "explanation_incorrect": "Lomonosov described the conservation of mass, Butlerov studied organic structures, and Semyonov won a Nobel Prize for chemical chain reactions."
+      "explanation_incorrect": "Lomonosov described the conservation of mass, Butlerov studied organic structures, and Semyonov won a Nobel Prize for chemical chain reactions.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which noble metal, symbolized by Au, is the most malleable and ductile metal known to humans?",
-      "options": ["Gold", "Silver", "Platinum", "Copper"],
+      "options": [
+        "Gold",
+        "Silver",
+        "Platinum",
+        "Copper"
+      ],
       "answer": "Gold",
       "explanation_correct": "Gold (from Latin Aurum) can be beaten into extremely thin sheets only a few atoms thick.",
-      "explanation_incorrect": "Silver is the best conductor of electricity, platinum has high melting points, and copper is widely used in electrical wiring."
+      "explanation_incorrect": "Silver is the best conductor of electricity, platinum has high melting points, and copper is widely used in electrical wiring.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the term for a chemical reaction in which a substance combines with oxygen, releasing light and heat?",
-      "options": ["Combustion", "Reduction", "Electrolysis", "Polymerization"],
+      "options": [
+        "Combustion",
+        "Reduction",
+        "Electrolysis",
+        "Polymerization"
+      ],
       "answer": "Combustion",
       "explanation_correct": "Combustion is a high-temperature exothermic redox chemical reaction between a fuel and an oxidant.",
-      "explanation_incorrect": "Reduction is the gain of electrons, electrolysis is driven by electric current, and polymerization links monomers."
+      "explanation_incorrect": "Reduction is the gain of electrons, electrolysis is driven by electric current, and polymerization links monomers.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which element forms the basis of organic chemistry, providing the backbone for all known forms of life?",
-      "options": ["Carbon", "Silicon", "Nitrogen", "Phosphorus"],
+      "options": [
+        "Carbon",
+        "Silicon",
+        "Nitrogen",
+        "Phosphorus"
+      ],
       "answer": "Carbon",
       "explanation_correct": "Carbon (C) has the unique ability to form stable covalent bonds with other carbon atoms in chains and rings.",
-      "explanation_incorrect": "Silicon has similar properties but forms weaker bonds, nitrogen builds proteins, and phosphorus builds nucleic acids."
+      "explanation_incorrect": "Silicon has similar properties but forms weaker bonds, nitrogen builds proteins, and phosphorus builds nucleic acids.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which Polish-French scientist is the only person to win a Nobel Prize in two different scientific fields (Physics and Chemistry)?",
-      "options": ["Marie Curie", "Irène Joliot-Curie", "Dorothy Hodgkin", "Rosalind Franklin"],
+      "options": [
+        "Marie Curie",
+        "Irène Joliot-Curie",
+        "Dorothy Hodgkin",
+        "Rosalind Franklin"
+      ],
       "answer": "Marie Curie",
       "explanation_correct": "Marie Curie won the 1903 Nobel Prize in Physics for radioactivity research, and the 1911 Nobel Prize in Chemistry for discovering radium and polonium.",
-      "explanation_incorrect": "Irène was her daughter (Chemistry Nobelist), Dorothy Hodgkin studied protein structures, and Rosalind Franklin captured DNA images."
+      "explanation_incorrect": "Irène was her daughter (Chemistry Nobelist), Dorothy Hodgkin studied protein structures, and Rosalind Franklin captured DNA images.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "What is the collective name for the elements in Group 18 of the periodic table, known for their extreme chemical stability?",
-      "options": ["Noble gases", "Halogens", "Alkali metals", "Rare-earth metals"],
+      "options": [
+        "Noble gases",
+        "Halogens",
+        "Alkali metals",
+        "Rare-earth metals"
+      ],
       "answer": "Noble gases",
       "explanation_correct": "Noble gases (helium, neon, argon, krypton, xenon, radon) have a complete valence electron shell.",
-      "explanation_incorrect": "Halogens are highly reactive nonmetals, alkali metals are reactive Group 1 metals, and rare-earth metals are lanthanides and actinides."
+      "explanation_incorrect": "Halogens are highly reactive nonmetals, alkali metals are reactive Group 1 metals, and rare-earth metals are lanthanides and actinides.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which metal is the only metallic element that is liquid at standard room temperature?",
-      "options": ["Mercury", "Gallium", "Cesium", "Bromine"],
+      "options": [
+        "Mercury",
+        "Gallium",
+        "Cesium",
+        "Bromine"
+      ],
       "answer": "Mercury",
       "explanation_correct": "Mercury (Hg) has a melting point of -39 degrees Celsius, leaving it liquid at room temperature.",
-      "explanation_incorrect": "Gallium and cesium melt just above room temperature (approx. 30 degrees C), and bromine is a liquid nonmetal."
+      "explanation_incorrect": "Gallium and cesium melt just above room temperature (approx. 30 degrees C), and bromine is a liquid nonmetal.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is a substance called that increases the rate of a chemical reaction by lowering its activation energy, without being consumed?",
-      "options": ["Catalyst", "Inhibitor", "Reactant", "Solvent"],
+      "options": [
+        "Catalyst",
+        "Inhibitor",
+        "Reactant",
+        "Solvent"
+      ],
       "answer": "Catalyst",
       "explanation_correct": "Catalysts form temporary bonds with reactants, facilitating the reaction path and regenerating at the end.",
-      "explanation_incorrect": "An inhibitor slows down a reaction, a reactant participates in the reaction, and a solvent is the medium."
+      "explanation_incorrect": "An inhibitor slows down a reaction, a reactant participates in the reaction, and a solvent is the medium.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "What is the simplest saturated hydrocarbon (alkane), which is the primary component of natural gas?",
-      "options": ["Methane", "Ethane", "Propane", "Butane"],
+      "options": [
+        "Methane",
+        "Ethane",
+        "Propane",
+        "Butane"
+      ],
       "answer": "Methane",
       "explanation_correct": "Methane (CH4) is a colorless, odorless gas that is also a potent greenhouse gas.",
-      "explanation_incorrect": "Ethane (C2H6), propane (C3H8), and butane (C4H10) are larger alkanes in the homologous series."
+      "explanation_incorrect": "Ethane (C2H6), propane (C3H8), and butane (C4H10) are larger alkanes in the homologous series.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which element with atomic number 6 is found in allotropic forms such as diamond and graphite?",
-      "options": ["Carbon", "Silicon", "Germanium", "Tin"],
+      "options": [
+        "Carbon",
+        "Silicon",
+        "Germanium",
+        "Tin"
+      ],
       "answer": "Carbon",
       "explanation_correct": "Carbon also occurs in forms like graphene, fullerenes, and carbon nanotubes.",
-      "explanation_incorrect": "Silicon and germanium are metalloid semiconductors, and tin is a metal."
+      "explanation_incorrect": "Silicon and germanium are metalloid semiconductors, and tin is a metal.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which gas makes up approximately 78% of dry Earth's atmosphere by volume?",
-      "options": ["Nitrogen", "Oxygen", "Argon", "Carbon dioxide"],
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Argon",
+        "Carbon dioxide"
+      ],
       "answer": "Nitrogen",
       "explanation_correct": "Diatomic nitrogen (N2) is a relatively inert gas that dominates Earth's atmosphere.",
-      "explanation_incorrect": "Oxygen makes up about 21%, argon is under 1%, and carbon dioxide is roughly 0.04%."
+      "explanation_incorrect": "Oxygen makes up about 21%, argon is under 1%, and carbon dioxide is roughly 0.04%.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What scale measures the acidity or alkalinity of aqueous solutions based on hydrogen ion concentration?",
-      "options": ["pH scale", "Pauling scale", "Mohs scale", "Kelvin scale"],
+      "options": [
+        "pH scale",
+        "Pauling scale",
+        "Mohs scale",
+        "Kelvin scale"
+      ],
       "answer": "pH scale",
       "explanation_correct": "The pH scale ranges from 0 (highly acidic) to 14 (highly basic), with 7 being neutral.",
-      "explanation_incorrect": "Pauling described electronegativity, Mohs measures mineral hardness, and Kelvin measures absolute temperature."
+      "explanation_incorrect": "Pauling described electronegativity, Mohs measures mineral hardness, and Kelvin measures absolute temperature.",
+      "last_verified_at": "2026-06-12T14:33:01.096Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which French chemist established the law of conservation of mass and compiled the first modern list of elements before being executed during the French Revolution?",
-      "options": ["Antoine Lavoisier", "Joseph Priestley", "Louis Pasteur", "Claude Berthollet"],
+      "options": [
+        "Antoine Lavoisier",
+        "Joseph Priestley",
+        "Louis Pasteur",
+        "Claude Berthollet"
+      ],
       "answer": "Antoine Lavoisier",
       "explanation_correct": "Lavoisier disproved the phlogiston theory and demonstrated the role of oxygen in combustion and respiration.",
-      "explanation_incorrect": "Priestley co-discovered oxygen, Pasteur studied stereochemistry and microbes, and Berthollet worked on chemical equilibrium."
+      "explanation_incorrect": "Priestley co-discovered oxygen, Pasteur studied stereochemistry and microbes, and Berthollet worked on chemical equilibrium.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which laboratory method separates liquid mixtures based on differences in their boiling points?",
-      "options": ["Distillation", "Filtration", "Chromatography", "Crystallization"],
+      "options": [
+        "Distillation",
+        "Filtration",
+        "Chromatography",
+        "Crystallization"
+      ],
       "answer": "Distillation",
       "explanation_correct": "Distillation involves heating a liquid to create vapor, which is then condensed back into liquid in a separate container.",
-      "explanation_incorrect": "Filtration separates solids from liquids, chromatography separates by affinity, and crystallization precipitates solids from solution."
+      "explanation_incorrect": "Filtration separates solids from liquids, chromatography separates by affinity, and crystallization precipitates solids from solution.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which alcohol, represented by the formula C2H5OH, is the intoxicating ingredient in alcoholic beverages and a common biofuel?",
-      "options": ["Ethanol", "Methanol", "Propanol", "Glycerol"],
+      "options": [
+        "Ethanol",
+        "Methanol",
+        "Propanol",
+        "Glycerol"
+      ],
       "answer": "Ethanol",
       "explanation_correct": "Ethanol (ethyl alcohol) is produced by yeasts through the fermentation of sugars.",
-      "explanation_incorrect": "Methanol is highly toxic methyl alcohol, propanol is a disinfectant, and glycerol is a triol (sweet, non-toxic)."
+      "explanation_incorrect": "Methanol is highly toxic methyl alcohol, propanol is a disinfectant, and glycerol is a triol (sweet, non-toxic).",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which yellow nonmetal, symbolized by S, burns with a blue flame and produces a suffocating, pungent odor?",
-      "options": ["Sulfur", "Phosphorus", "Chlorine", "Selenium"],
+      "options": [
+        "Sulfur",
+        "Phosphorus",
+        "Chlorine",
+        "Selenium"
+      ],
       "answer": "Sulfur",
       "explanation_correct": "Sulfur (S) occurs naturally in volcanic regions and is vital for producing sulfuric acid and vulcanizing rubber.",
-      "explanation_incorrect": "Phosphorus exists in red/white forms, chlorine is a greenish gas, and selenium has photo-conductive properties."
+      "explanation_incorrect": "Phosphorus exists in red/white forms, chlorine is a greenish gas, and selenium has photo-conductive properties.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "Which chemical bond involves the sharing of electron pairs between nonmetal atoms?",
-      "options": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"],
+      "options": [
+        "Covalent bond",
+        "Ionic bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ],
       "answer": "Covalent bond",
       "explanation_correct": "Covalent bonds can be polar or nonpolar, depending on the electronegativity difference between the atoms.",
-      "explanation_incorrect": "Ionic bonds involve electrostatic attraction between ions, metallic bonds feature free-floating electrons, and hydrogen bonds are intermolecular forces."
+      "explanation_incorrect": "Ionic bonds involve electrostatic attraction between ions, metallic bonds feature free-floating electrons, and hydrogen bonds are intermolecular forces.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which highly reactive alkali metal, symbolized by Na, reacts violently with water to release hydrogen gas?",
-      "options": ["Sodium", "Potassium", "Calcium", "Magnesium"],
+      "options": [
+        "Sodium",
+        "Potassium",
+        "Calcium",
+        "Magnesium"
+      ],
       "answer": "Sodium",
       "explanation_correct": "Sodium (from Latin Natrium) is soft and must be stored under mineral oil to prevent reaction with atmospheric moisture.",
-      "explanation_incorrect": "Potassium reacts even more violently, calcium reacts slowly, and magnesium requires hot water."
+      "explanation_incorrect": "Potassium reacts even more violently, calcium reacts slowly, and magnesium requires hot water.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which pH indicator is colorless in acidic solutions but turns a bright magenta/pink in basic solutions?",
-      "options": ["Phenolphthalein", "Methyl orange", "Litmus", "Methyl red"],
+      "options": [
+        "Phenolphthalein",
+        "Methyl orange",
+        "Litmus",
+        "Methyl red"
+      ],
       "answer": "Phenolphthalein",
       "explanation_correct": "Phenolphthalein shifts color from colorless to magenta in the pH range of 8.2 to 10.0.",
-      "explanation_incorrect": "Methyl orange turns red in acid and yellow in base, and litmus turns red in acid and blue in base."
+      "explanation_incorrect": "Methyl orange turns red in acid and yellow in base, and litmus turns red in acid and blue in base.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "What is the name for large molecules composed of repeating subunits called monomers, which form the basis of plastics?",
-      "options": ["Polymers", "Esters", "Proteins", "Carbohydrates"],
+      "options": [
+        "Polymers",
+        "Esters",
+        "Proteins",
+        "Carbohydrates"
+      ],
       "answer": "Polymers",
       "explanation_correct": "Polymers can be synthetic (like polyethylene or nylon) or natural (like cellulose, starch, and DNA).",
-      "explanation_incorrect": "Esters are reaction products of acids and alcohols, proteins are a specific type of natural polymer, and carbohydrates are sugars."
+      "explanation_incorrect": "Esters are reaction products of acids and alcohols, proteins are a specific type of natural polymer, and carbohydrates are sugars.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which halogen, symbolized by Cl, is a toxic, pale green gas used widely to sanitize drinking water and swimming pools?",
-      "options": ["Chlorine", "Fluorine", "Bromine", "Iodine"],
+      "options": [
+        "Chlorine",
+        "Fluorine",
+        "Bromine",
+        "Iodine"
+      ],
       "answer": "Chlorine",
       "explanation_correct": "Chlorine (Cl) has strong oxidizing properties and was used as a chemical weapon in World War I.",
-      "explanation_incorrect": "Fluorine is even more reactive and dangerous, bromine is a reddish liquid, and iodine is a dark solid."
+      "explanation_incorrect": "Fluorine is even more reactive and dangerous, bromine is a reddish liquid, and iodine is a dark solid.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which Swedish chemist invented dynamite and used his fortune to fund the Nobel Prizes in science, literature, and peace?",
-      "options": ["Alfred Nobel", "Jöns Jacob Berzelius", "Carl Wilhelm Scheele", "Svante Arrhenius"],
+      "options": [
+        "Alfred Nobel",
+        "Jöns Jacob Berzelius",
+        "Carl Wilhelm Scheele",
+        "Svante Arrhenius"
+      ],
       "answer": "Alfred Nobel",
       "explanation_correct": "Nobel patented dynamite in 1867, mixing volatile nitroglycerin with diatomaceous earth to make it safe to handle.",
-      "explanation_incorrect": "Berzelius introduced letter symbols for elements, Scheele discovered oxygen and chlorine, and Arrhenius described ionic dissociation."
+      "explanation_incorrect": "Berzelius introduced letter symbols for elements, Scheele discovered oxygen and chlorine, and Arrhenius described ionic dissociation.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is a chemical reaction between an acid and a base that produces a salt and water?",
-      "options": ["Neutralization", "Hydrolysis", "Dissociation", "Esterification"],
+      "options": [
+        "Neutralization",
+        "Hydrolysis",
+        "Dissociation",
+        "Esterification"
+      ],
       "answer": "Neutralization",
       "explanation_correct": "Neutralization involves H+ ions combining with OH- ions to form neutral H2O molecules.",
-      "explanation_incorrect": "Hydrolysis is the breakdown of salts by water, dissociation is the splitting into ions, and esterification synthesizes esters."
+      "explanation_incorrect": "Hydrolysis is the breakdown of salts by water, dissociation is the splitting into ions, and esterification synthesizes esters.",
+      "last_verified_at": "2026-06-12T14:34:31.996Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which transition metal, symbolized by Fe, is the primary component of steel and the most widely used metal in human history?",
-      "options": ["Iron", "Copper", "Zinc", "Aluminum"],
+      "options": [
+        "Iron",
+        "Copper",
+        "Zinc",
+        "Aluminum"
+      ],
       "answer": "Iron",
       "explanation_correct": "Iron (from Latin Ferrum) makes up much of Earth's core and is the key oxygen-carrying atom in hemoglobin.",
-      "explanation_incorrect": "Copper led the Bronze Age, zinc is used for galvanizing, and aluminum is a lightweight post-transition metal."
+      "explanation_incorrect": "Copper led the Bronze Age, zinc is used for galvanizing, and aluminum is a lightweight post-transition metal.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which organic compounds, known for their pleasant fruity odors, are formed by reacting carboxylic acids with alcohols?",
-      "options": ["Esters", "Ethers", "Aldehydes", "Ketones"],
+      "options": [
+        "Esters",
+        "Ethers",
+        "Aldehydes",
+        "Ketones"
+      ],
       "answer": "Esters",
       "explanation_correct": "Esterification occurs in the presence of an acid catalyst, yielding esters that give scent to fruits and perfumes.",
-      "explanation_incorrect": "Ethers have R-O-R bonds, aldehydes contain a -CHO group, and ketones contain a >C=O group."
+      "explanation_incorrect": "Ethers have R-O-R bonds, aldehydes contain a -CHO group, and ketones contain a >C=O group.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which alkaline earth metal, symbolized by Mg, burns with an intense white flame and is a core component of chlorophyll?",
-      "options": ["Magnesium", "Calcium", "Beryllium", "Barium"],
+      "options": [
+        "Magnesium",
+        "Calcium",
+        "Beryllium",
+        "Barium"
+      ],
       "answer": "Magnesium",
       "explanation_correct": "Magnesium (Mg) was historically used in flash powders for early photography due to its bright white combustion.",
-      "explanation_incorrect": "Calcium builds bones, beryllium is lightweight but highly toxic, and barium is used as a medical contrast agent."
+      "explanation_incorrect": "Calcium builds bones, beryllium is lightweight but highly toxic, and barium is used as a medical contrast agent.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which conical glassware with a flat bottom is designed for swirling liquids without spilling, commonly used in titrations?",
-      "options": ["Erlenmeyer flask", "Beaker", "Graduated cylinder", "Test tube"],
+      "options": [
+        "Erlenmeyer flask",
+        "Beaker",
+        "Graduated cylinder",
+        "Test tube"
+      ],
       "answer": "Erlenmeyer flask",
       "explanation_correct": "Designed by Emil Erlenmeyer in 1860, its sloped sides and narrow neck make it ideal for mixing and boiling.",
-      "explanation_incorrect": "A beaker is wide with a spout, a graduated cylinder is for volume measuring, and a test tube is for small-scale testing."
+      "explanation_incorrect": "A beaker is wide with a spout, a graduated cylinder is for volume measuring, and a test tube is for small-scale testing.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which dense transition metal, symbolized by W, has the highest melting point of all metals (over 3400 °C)?",
-      "options": ["Tungsten", "Titanium", "Platinum", "Chromium"],
+      "options": [
+        "Tungsten",
+        "Titanium",
+        "Platinum",
+        "Chromium"
+      ],
       "answer": "Tungsten",
       "explanation_correct": "Tungsten (from Swedish, meaning heavy stone, and historically called Wolfram) was widely used for incandescent light bulb filaments.",
-      "explanation_incorrect": "Titanium is light and strong, platinum is corrosion-resistant, and chromium is hard and shiny."
+      "explanation_incorrect": "Titanium is light and strong, platinum is corrosion-resistant, and chromium is hard and shiny.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the process in which electrolyte molecules split into ions when dissolved in water?",
-      "options": ["Electrolytic dissociation", "Hydration", "Solvolysis", "Electrolysis"],
+      "options": [
+        "Electrolytic dissociation",
+        "Hydration",
+        "Solvolysis",
+        "Electrolysis"
+      ],
       "answer": "Electrolytic dissociation",
       "explanation_correct": "Svante Arrhenius developed the theory of electrolytic dissociation, earning the 1903 Nobel Prize in Chemistry.",
-      "explanation_incorrect": "Hydration is the clustering of water molecules around ions, solvolysis is reaction with solvent, and electrolysis is electrical decomposition."
+      "explanation_incorrect": "Hydration is the clustering of water molecules around ions, solvolysis is reaction with solvent, and electrolysis is electrical decomposition.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which carboxylic acid, represented by the formula CH3COOH, gives vinegar its sour taste and pungent smell?",
-      "options": ["Acetic acid", "Formic acid", "Butyric acid", "Citric acid"],
+      "options": [
+        "Acetic acid",
+        "Formic acid",
+        "Butyric acid",
+        "Citric acid"
+      ],
       "answer": "Acetic acid",
       "explanation_correct": "Acetic acid (ethanoic acid) is produced by acetic acid bacteria fermenting ethanol.",
-      "explanation_incorrect": "Formic acid (HCOOH) is the simplest acid (ant venom), butyric acid smells like rancid butter, and citric acid is a tricarboxylic acid."
+      "explanation_incorrect": "Formic acid (HCOOH) is the simplest acid (ant venom), butyric acid smells like rancid butter, and citric acid is a tricarboxylic acid.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which noble gas is the second most abundant element in the universe but is extremely rare on Earth?",
-      "options": ["Helium", "Neon", "Argon", "Krypton"],
+      "options": [
+        "Helium",
+        "Neon",
+        "Argon",
+        "Krypton"
+      ],
       "answer": "Helium",
       "explanation_correct": "Helium (He) is produced by stellar nuclear fusion and is light enough to escape Earth's gravity into space.",
-      "explanation_incorrect": "Neon, argon, and krypton are heavier and retained by Earth's gravity; argon makes up about 0.9% of air."
+      "explanation_incorrect": "Neon, argon, and krypton are heavier and retained by Earth's gravity; argon makes up about 0.9% of air.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which element, symbolized by P, exists as a toxic white form that self-ignites in air, and a stable red form used in safety match strikers?",
-      "options": ["Phosphorus", "Sulfur", "Arsenic", "Silicon"],
+      "options": [
+        "Phosphorus",
+        "Sulfur",
+        "Arsenic",
+        "Silicon"
+      ],
       "answer": "Phosphorus",
       "explanation_correct": "White phosphorus consists of P4 tetrahedra and is highly reactive, whereas red phosphorus is polymeric and safer to handle.",
-      "explanation_incorrect": "Sulfur and arsenic are other nonmetals/metalloids, and silicon is used in electronics."
+      "explanation_incorrect": "Sulfur and arsenic are other nonmetals/metalloids, and silicon is used in electronics.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which 19th-century Swedish chemist introduced the modern system of using letter symbols for chemical elements and discovered silicon and selenium?",
-      "options": ["Jöns Jacob Berzelius", "Carl Wilhelm Scheele", "Alfred Nobel", "Svante Arrhenius"],
+      "options": [
+        "Jöns Jacob Berzelius",
+        "Carl Wilhelm Scheele",
+        "Alfred Nobel",
+        "Svante Arrhenius"
+      ],
       "answer": "Jöns Jacob Berzelius",
       "explanation_correct": "Berzelius also determined atomic weights and coined terms like catalysis, polymer, and allotropy.",
-      "explanation_incorrect": "Scheele discovered oxygen, Nobel invented dynamite, and Arrhenius worked on acids/bases."
+      "explanation_incorrect": "Scheele discovered oxygen, Nobel invented dynamite, and Arrhenius worked on acids/bases.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which quantitative laboratory method determines the concentration of an unknown solution by slowly adding a solution of known concentration?",
-      "options": ["Titration", "Filtration", "Extraction", "Decantation"],
+      "options": [
+        "Titration",
+        "Filtration",
+        "Extraction",
+        "Decantation"
+      ],
       "answer": "Titration",
       "explanation_correct": "Titration uses a burette to deliver titrant to an analyte until the equivalence point is reached, usually marked by an indicator.",
-      "explanation_incorrect": "Filtration separates solids, extraction transfers solutes between phases, and decantation pours off liquid from settled solid."
+      "explanation_incorrect": "Filtration separates solids, extraction transfers solutes between phases, and decantation pours off liquid from settled solid.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which industrial process thermally breaks down heavy petroleum fractions without oxygen to produce gasoline?",
-      "options": ["Cracking", "Reforming", "Pyrolysis", "Polymerization"],
+      "options": [
+        "Cracking",
+        "Reforming",
+        "Pyrolysis",
+        "Polymerization"
+      ],
       "answer": "Cracking",
       "explanation_correct": "Cracking breaks carbon-carbon bonds in long-chain hydrocarbons to yield lighter, more volatile fractions.",
-      "explanation_incorrect": "Reforming rearranges hydrocarbons to improve octane ratings, pyrolysis is general thermal decomposition, and polymerization builds chains."
+      "explanation_incorrect": "Reforming rearranges hydrocarbons to improve octane ratings, pyrolysis is general thermal decomposition, and polymerization builds chains.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
-      "question": "Which transition metal, symbolized by Cu, has a distinct reddish color, conducts electricity exceptionally well, and forms alloys like brass and bronze?",
-      "options": ["Copper", "Zinc", "Brass", "Bronze"],
+      "question": "Which transition metal, symbolized by Cu, has a distinct reddish color, conducts electricity exceptionally well, and is a key component of coins and electrical wiring?",
+      "options": [
+        "Copper",
+        "Zinc",
+        "Nickel",
+        "Titanium"
+      ],
       "answer": "Copper",
-      "explanation_correct": "Copper (Cuprum) was one of the first metals worked by humans, initiating the Chalcolithic (Copper) Age.",
-      "explanation_incorrect": "Zinc is silver-colored, and brass and bronze are alloys of copper rather than pure elements."
+      "explanation_correct": "Copper (Cuprum) is known for its high thermal and electrical conductivity and distinct appearance.",
+      "explanation_incorrect": "Zinc is silver-colored, nickel is a magnetic transition metal, and titanium is lightweight and corrosion-resistant.",
+      "last_verified_at": "2026-06-12T14:35:52.145Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the typical oxidation state of oxygen in most of its chemical compounds, such as water or carbon dioxide?",
-      "options": ["-2", "-1", "0", "+2"],
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "+2"
+      ],
       "answer": "-2",
       "explanation_correct": "Oxygen exhibits an oxidation state of -2 in almost all its compounds, with exceptions like peroxides (-1) and fluorides (+2).",
-      "explanation_incorrect": "-1 applies to peroxides, 0 to elemental O2, and +2 to oxygen difluoride (OF2)."
+      "explanation_incorrect": "-1 applies to peroxides, 0 to elemental O2, and +2 to oxygen difluoride (OF2).",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which heavy, toxic, and highly malleable metal, symbolized by Pb, was widely used in ancient Rome for plumbing and pipes?",
-      "options": ["Lead", "Tin", "Copper", "Iron"],
+      "options": [
+        "Lead",
+        "Tin",
+        "Copper",
+        "Iron"
+      ],
       "answer": "Lead",
       "explanation_correct": "Lead (Plumbum) has a low melting point and is highly corrosion-resistant, but its toxicity led to chronic lead poisoning.",
-      "explanation_incorrect": "Tin was used in bronze, while copper and iron were far harder to form into pipes at the time."
+      "explanation_incorrect": "Tin was used in bronze, while copper and iron were far harder to form into pipes at the time.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "What is a paper strip impregnated with a mixture of indicators called, used to quickly determine the approximate pH of a solution?",
-      "options": ["Universal indicator paper", "Litmus paper", "Cobalt chloride paper", "Semipermeable membrane"],
+      "options": [
+        "Universal indicator paper",
+        "Litmus paper",
+        "Cobalt chloride paper",
+        "Semipermeable membrane"
+      ],
       "answer": "Universal indicator paper",
       "explanation_correct": "Universal paper changes color across the entire pH spectrum (red in acid, green/blue in base).",
-      "explanation_incorrect": "Litmus paper only indicates acidic vs. basic (red/blue), cobalt paper tests for water, and membranes are for osmosis."
+      "explanation_incorrect": "Litmus paper only indicates acidic vs. basic (red/blue), cobalt paper tests for water, and membranes are for osmosis.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which reaction links glucose monomers together while releasing water to form starch or cellulose?",
-      "options": ["Condensation polymerization", "Addition polymerization", "Fermentation", "Esterification"],
+      "options": [
+        "Condensation polymerization",
+        "Addition polymerization",
+        "Fermentation",
+        "Esterification"
+      ],
       "answer": "Condensation polymerization",
       "explanation_correct": "Condensation polymerization (or polycondensation) links monomers with the loss of a small molecule, usually water.",
-      "explanation_incorrect": "Addition polymerization yields no byproducts, fermentation breaks down sugars, and esterification makes esters."
+      "explanation_incorrect": "Addition polymerization yields no byproducts, fermentation breaks down sugars, and esterification makes esters.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which highly reactive halogen, symbolized by F, is the most powerful oxidizing agent and reacts violently with almost all substances, including glass?",
-      "options": ["Fluorine", "Chlorine", "Bromine", "Oxygen"],
+      "options": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Oxygen"
+      ],
       "answer": "Fluorine",
       "explanation_correct": "Fluorine (F) is the most electronegative element in the periodic table, forming incredibly strong bonds.",
-      "explanation_incorrect": "Chlorine and bromine are weaker oxidizers, and oxygen is less electronegative than fluorine."
+      "explanation_incorrect": "Chlorine and bromine are weaker oxidizers, and oxygen is less electronegative than fluorine.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which Polish chemist developed the Czochralski method in 1916 for growing single crystals of semiconductors, a cornerstone of modern electronics?",
-      "options": ["Jan Czochralski", "Ignacy Mościcki", "Karol Olszewski", "Zygmunt Wróblewski"],
+      "options": [
+        "Jan Czochralski",
+        "Ignacy Mościcki",
+        "Karol Olszewski",
+        "Zygmunt Wróblewski"
+      ],
       "answer": "Jan Czochralski",
       "explanation_correct": "The Czochralski process pulls a seed crystal slowly from a melt and is used to produce over 90% of the world's silicon crystals.",
-      "explanation_incorrect": "Mościcki synthesized nitric acid, and Olszewski and Wróblewski liquefied oxygen and nitrogen."
+      "explanation_incorrect": "Mościcki synthesized nitric acid, and Olszewski and Wróblewski liquefied oxygen and nitrogen.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the process of oxidation and reduction occurring at electrodes when an electric current is passed through an electrolyte?",
-      "options": ["Electrolysis", "Galvanization", "Hydrolysis", "Solvolysis"],
+      "options": [
+        "Electrolysis",
+        "Galvanization",
+        "Hydrolysis",
+        "Solvolysis"
+      ],
       "answer": "Electrolysis",
       "explanation_correct": "Electrolysis drives non-spontaneous chemical reactions to isolate pure elements (e.g. aluminum, chlorine) from compounds.",
-      "explanation_incorrect": "Galvanization electroplates metals, hydrolysis is reaction with water, and solvolysis is reaction with solvent."
+      "explanation_incorrect": "Galvanization electroplates metals, hydrolysis is reaction with water, and solvolysis is reaction with solvent.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which lightweight transition metal, symbolized by Al, is highly corrosion-resistant due to a thin protective oxide layer forming on its surface?",
-      "options": ["Aluminum", "Magnesium", "Titanium", "Iron"],
+      "options": [
+        "Aluminum",
+        "Magnesium",
+        "Titanium",
+        "Iron"
+      ],
       "answer": "Aluminum",
       "explanation_correct": "Aluminum undergoes passivation, forming a tight oxide layer (Al2O3) that blocks further corrosion.",
-      "explanation_incorrect": "Magnesium corrodes more readily, titanium also passivates but is a heavier transition metal, and iron rusts destructively."
+      "explanation_incorrect": "Magnesium corrodes more readily, titanium also passivates but is a heavier transition metal, and iron rusts destructively.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which aromatic hydrocarbon, symbolized by C6H6, has a hexagonal ring structure with delocalized pi electrons, first proposed by Friedrich Kekulé?",
-      "options": ["Benzene", "Toluene", "Naphthalene", "Phenol"],
+      "options": [
+        "Benzene",
+        "Toluene",
+        "Naphthalene",
+        "Phenol"
+      ],
       "answer": "Benzene",
       "explanation_correct": "Benzene is the simplest aromatic hydrocarbon, exhibiting unique stability due to resonance.",
-      "explanation_incorrect": "Toluene has a methyl group, naphthalene has two rings, and phenol contains an -OH group."
+      "explanation_incorrect": "Toluene has a methyl group, naphthalene has two rings, and phenol contains an -OH group.",
+      "last_verified_at": "2026-06-12T14:34:31.997Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which alkali metal, symbolized by K, is a key intracellular cation vital for maintaining cell membrane potential and nerve impulses?",
-      "options": ["Potassium", "Sodium", "Calcium", "Magnesium"],
+      "options": [
+        "Potassium",
+        "Sodium",
+        "Calcium",
+        "Magnesium"
+      ],
       "answer": "Potassium",
       "explanation_correct": "Potassium (Kalium) works alongside sodium in the sodium-potassium pump to regulate cell potentials.",
-      "explanation_incorrect": "Sodium (Na) is primarily extracellular. Calcium and magnesium are Group 2 alkaline earth metals."
+      "explanation_incorrect": "Sodium (Na) is primarily extracellular. Calcium and magnesium are Group 2 alkaline earth metals.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which laboratory tool, consisting of a narrow tube, is used to measure and transfer precise small volumes of liquid?",
-      "options": ["Pipette", "Burette", "Test tube", "Inoculating loop"],
+      "options": [
+        "Pipette",
+        "Burette",
+        "Test tube",
+        "Inoculating loop"
+      ],
       "answer": "Pipette",
       "explanation_correct": "Pipettes can be volumetric, graduated, or electronic/piston-driven micropipettes.",
-      "explanation_incorrect": "A burette is for titrations, a test tube is for reactions, and an inoculating loop is for microbiology."
+      "explanation_incorrect": "A burette is for titrations, a test tube is for reactions, and an inoculating loop is for microbiology.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which diatomic gas, symbolized by O2, is essential for respiration in most organisms and supports combustion?",
-      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
       "answer": "Oxygen",
       "explanation_correct": "Oxygen (O) constitutes about 21% of Earth's atmosphere and is a highly reactive nonmetal.",
-      "explanation_incorrect": "Nitrogen is relatively inert, carbon dioxide is a combustion product, and hydrogen is highly explosive."
+      "explanation_incorrect": "Nitrogen is relatively inert, carbon dioxide is a combustion product, and hydrogen is highly explosive.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is a chemical reaction called that absorbs heat energy from its surroundings, having a positive change in enthalpy?",
-      "options": ["Endothermic reaction", "Exothermic reaction", "Spontaneous reaction", "Chain reaction"],
+      "options": [
+        "Endothermic reaction",
+        "Exothermic reaction",
+        "Spontaneous reaction",
+        "Chain reaction"
+      ],
       "answer": "Endothermic reaction",
       "explanation_correct": "Endothermic reactions (like photosynthesis or thermal decomposition of calcium carbonate) absorb ambient heat.",
-      "explanation_incorrect": "Exothermic reactions release heat, spontaneous reactions occur without external drive, and chain reactions sustain themselves."
+      "explanation_incorrect": "Exothermic reactions release heat, spontaneous reactions occur without external drive, and chain reactions sustain themselves.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which functional group, represented by the formula -COOH, defines carboxylic acids?",
-      "options": ["Carboxyl group", "Carbonyl group", "Hydroxyl group", "Amino group"],
+      "options": [
+        "Carboxyl group",
+        "Carbonyl group",
+        "Hydroxyl group",
+        "Amino group"
+      ],
       "answer": "Carboxyl group",
       "explanation_correct": "The carboxyl group consists of a carbonyl carbon (>C=O) bonded to a hydroxyl group (-OH).",
-      "explanation_incorrect": "Carbonyl groups are found in ketones and aldehydes, hydroxyl in alcohols, and amino in amines."
+      "explanation_incorrect": "Carbonyl groups are found in ketones and aldehydes, hydroxyl in alcohols, and amino in amines.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which lanthanide element, symbolized by Nd, is a key component in the strongest permanent magnets used in modern electronics?",
-      "options": ["Neodymium", "Samarium", "Gadolinium", "Lanthanum"],
+      "options": [
+        "Neodymium",
+        "Samarium",
+        "Gadolinium",
+        "Lanthanum"
+      ],
       "answer": "Neodymium",
       "explanation_correct": "Neodymium magnets (NdFeB) are sintered magnets with exceptionally high magnetic energy density.",
-      "explanation_incorrect": "Samarium forms samarium-cobalt magnets (better heat resistance but weaker), while gadolinium and lanthanum have other uses."
+      "explanation_incorrect": "Samarium forms samarium-cobalt magnets (better heat resistance but weaker), while gadolinium and lanthanum have other uses.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which halogen, symbolized by I, is a dark purple solid that easily sublimates into violet vapor when heated, and is used as an antiseptic?",
-      "options": ["Iodine", "Bromine", "Astatine", "Fluorine"],
+      "options": [
+        "Iodine",
+        "Bromine",
+        "Astatine",
+        "Fluorine"
+      ],
       "answer": "Iodine",
       "explanation_correct": "Iodine (I) is an essential trace element required by the thyroid gland to produce hormones.",
-      "explanation_incorrect": "Bromine is a liquid, fluorine is a gas, and astatine is a highly radioactive solid."
+      "explanation_incorrect": "Bromine is a liquid, fluorine is a gas, and astatine is a highly radioactive solid.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which Polish scientists first liquefied oxygen and nitrogen from air in 1883 at the Jagiellonian University?",
-      "options": ["Olszewski and Wróblewski", "Czochralski and Świętosławski", "Śniadecki and Mościcki", "Wróblewski and Curie"],
+      "options": [
+        "Olszewski and Wróblewski",
+        "Czochralski and Świętosławski",
+        "Śniadecki and Mościcki",
+        "Wróblewski and Curie"
+      ],
       "answer": "Olszewski and Wróblewski",
       "explanation_correct": "Karol Olszewski and Zygmunt Wróblewski liquefied nitrogen and oxygen using a cascade method, a major cryogenic breakthrough.",
-      "explanation_incorrect": "Czochralski worked on crystals, Świętosławski on calorimetry, Śniadecki on ruthenium, and Mościcki on nitric acid synthesis."
+      "explanation_incorrect": "Czochralski worked on crystals, Świętosławski on calorimetry, Śniadecki on ruthenium, and Mościcki on nitric acid synthesis.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "What is the process of removing water from a chemical compound or solution using highly hygroscopic agents (like P2O5 or H2SO4) called?",
-      "options": ["Dehydration", "Hydrolysis", "Solvation", "Extraction"],
+      "options": [
+        "Dehydration",
+        "Hydrolysis",
+        "Solvation",
+        "Extraction"
+      ],
       "answer": "Dehydration",
       "explanation_correct": "Dehydration removes water or H and O atoms in a 2:1 ratio from molecules, such as dehydrating sugars with acid.",
-      "explanation_incorrect": "Hydrolysis breaks molecules using water, solvation stabilizes ions with solvent, and extraction separates solutes."
+      "explanation_incorrect": "Hydrolysis breaks molecules using water, solvation stabilizes ions with solvent, and extraction separates solutes.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "What are optical isomers called that are non-superimposable mirror images of each other (like left and right hands)?",
-      "options": ["Enantiomers", "Diastereomers", "Anomers", "Tautomers"],
+      "options": [
+        "Enantiomers",
+        "Diastereomers",
+        "Anomers",
+        "Tautomers"
+      ],
       "answer": "Enantiomers",
       "explanation_correct": "Enantiomers rotate plane-polarized light in opposite directions and can have vastly different biological effects (e.g. thalidomide).",
-      "explanation_incorrect": "Diastereomers are non-mirror image stereoisomers, anomers differ at the hemiacetal carbon, and tautomers are constitutional isomers in equilibrium."
+      "explanation_incorrect": "Diastereomers are non-mirror image stereoisomers, anomers differ at the hemiacetal carbon, and tautomers are constitutional isomers in equilibrium.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which noble gas, symbolized by Rn, is radioactive, can accumulate in basements, and is a leading cause of lung cancer?",
-      "options": ["Radon", "Xenon", "Radium", "Polonium"],
+      "options": [
+        "Radon",
+        "Xenon",
+        "Radium",
+        "Polonium"
+      ],
       "answer": "Radon",
       "explanation_correct": "Radon gas (Rn) is produced by the radioactive decay of uranium in soils, seeping into buildings through cracks.",
-      "explanation_incorrect": "Xenon is stable, and radium and polonium are radioactive solids rather than noble gases."
+      "explanation_incorrect": "Xenon is stable, and radium and polonium are radioactive solids rather than noble gases.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "Which chemical law states that the total enthalpy change of a reaction is constant regardless of the number of steps taken?",
-      "options": ["Hess's Law", "Le Chatelier's Principle", "Avogadro's Law", "Law of conservation of energy"],
+      "options": [
+        "Hess's Law",
+        "Le Chatelier's Principle",
+        "Avogadro's Law",
+        "Law of conservation of energy"
+      ],
       "answer": "Hess's Law",
       "explanation_correct": "Hess's Law allows chemists to calculate reaction enthalpies that are difficult to measure directly.",
-      "explanation_incorrect": "Le Chatelier's Principle predicts equilibrium shifts, Avogadro's Law relates gas volume to moles, and conservation of energy is a general physics law."
+      "explanation_incorrect": "Le Chatelier's Principle predicts equilibrium shifts, Avogadro's Law relates gas volume to moles, and conservation of energy is a general physics law.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which alkaline earth metal, symbolized by Ca, is the primary mineral constituent of bones, teeth, and geological limestone?",
-      "options": ["Calcium", "Magnesium", "Barium", "Strontium"],
+      "options": [
+        "Calcium",
+        "Magnesium",
+        "Barium",
+        "Strontium"
+      ],
       "answer": "Calcium",
       "explanation_correct": "Calcium (Ca) is the primary component of calcium phosphate (hydroxyapatite) forming bone matrices.",
-      "explanation_incorrect": "Magnesium is present in bones in smaller amounts. Barium and strontium are heavier alkaline earth metals."
+      "explanation_incorrect": "Magnesium is present in bones in smaller amounts. Barium and strontium are heavier alkaline earth metals.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which calibrated spherical laboratory glassware with a long neck is used to prepare solutions of highly precise concentrations?",
-      "options": ["Volumetric flask", "Round-bottom flask", "Erlenmeyer flask", "Graduated cylinder"],
+      "options": [
+        "Volumetric flask",
+        "Round-bottom flask",
+        "Erlenmeyer flask",
+        "Graduated cylinder"
+      ],
       "answer": "Volumetric flask",
       "explanation_correct": "Volumetric flasks are calibrated to contain a precise volume at a specific temperature (usually 20 °C).",
-      "explanation_incorrect": "Round-bottom flasks are for boiling/synthesis, Erlenmeyers are for titrations, and graduated cylinders are for rough measurements."
+      "explanation_incorrect": "Round-bottom flasks are for boiling/synthesis, Erlenmeyers are for titrations, and graduated cylinders are for rough measurements.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "What is the reaction called when water is added to an unsaturated carbon bond (e.g. adding water to ethylene to produce ethanol)?",
-      "options": ["Hydration", "Hydrogenation", "Dehydration", "Hydrolysis"],
+      "options": [
+        "Hydration",
+        "Hydrogenation",
+        "Dehydration",
+        "Hydrolysis"
+      ],
       "answer": "Hydration",
       "explanation_correct": "Acid-catalyzed hydration of ethylene is a primary industrial method for synthesizing ethanol.",
-      "explanation_incorrect": "Hydrogenation adds H2, dehydration removes water, and hydrolysis breaks a bond using water."
+      "explanation_incorrect": "Hydrogenation adds H2, dehydration removes water, and hydrolysis breaks a bond using water.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which transition metal, symbolized by Hg, is a toxic liquid at room temperature, historically called quicksilver?",
-      "options": ["Mercury", "Silver", "Lead", "Cadmium"],
+      "options": [
+        "Mercury",
+        "Silver",
+        "Lead",
+        "Cadmium"
+      ],
       "answer": "Mercury",
       "explanation_correct": "Mercury (Hg) was widely used in thermometers, barometers, and dental amalgams.",
-      "explanation_incorrect": "Silver, lead, and cadmium are solid transition/post-transition metals at room temperature."
+      "explanation_incorrect": "Silver, lead, and cadmium are solid transition/post-transition metals at room temperature.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which English scientist formulated the modern atomic theory of matter in 1803 and described color blindness?",
-      "options": ["John Dalton", "Humphry Davy", "Michael Faraday", "J.J. Thomson"],
+      "options": [
+        "John Dalton",
+        "Humphry Davy",
+        "Michael Faraday",
+        "J.J. Thomson"
+      ],
       "answer": "John Dalton",
       "explanation_correct": "Dalton postulated that elements consist of indivisible atoms of specific weights and described his own red-green color blindness.",
-      "explanation_incorrect": "Davy isolated alkali metals, Faraday described electromagnetism/electrolysis, and Thomson discovered the electron."
+      "explanation_incorrect": "Davy isolated alkali metals, Faraday described electromagnetism/electrolysis, and Thomson discovered the electron.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
-      "question": "What is the term for the gradual destructive chemical reaction of metals with environmental oxygen and moisture?",
-      "options": ["Corrosion", "Passivation", "Oxidation", "Electrolysis"],
+      "question": "What is the term for the process in which a metal surface is attacked and degraded by chemical or electrochemical reactions with environmental substances such as moisture or oxygen?",
+      "options": [
+        "Corrosion",
+        "Passivation",
+        "Electroplating",
+        "Vapor deposition"
+      ],
       "answer": "Corrosion",
-      "explanation_correct": "Corrosion (like rusting of iron) forms hydrated iron oxides, degrading structural integrity.",
-      "explanation_incorrect": "Passivation forms a protective layer, oxidation is the loss of electrons, and electrolysis uses electricity to drive reactions."
+      "explanation_correct": "Corrosion is the destructive deterioration of a metal surface by electrochemical reactions with its environment. Rusting of iron is a common example of corrosion.",
+      "explanation_incorrect": "Passivation forms a protective layer to stop degradation, electroplating is an intentional coating process, and vapor deposition applies thin films.",
+      "last_verified_at": "2026-06-12T14:35:52.145Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which gas, symbolized by N2O, is used as an anesthetic in dentistry and is commonly known as laughing gas?",
-      "options": ["Nitrous oxide", "Nitric oxide", "Nitrogen dioxide", "Ammonia"],
+      "options": [
+        "Nitrous oxide",
+        "Nitric oxide",
+        "Nitrogen dioxide",
+        "Ammonia"
+      ],
       "answer": "Nitrous oxide",
       "explanation_correct": "Nitrous oxide (dinitrogen monoxide) acts as an inhalant anesthetic, inducing euphoria and mild pain relief.",
-      "explanation_incorrect": "Nitric oxide (NO) is a vasodilator, nitrogen dioxide (NO2) is a toxic brown gas, and ammonia (NH3) is pungent."
+      "explanation_incorrect": "Nitric oxide (NO) is a vasodilator, nitrogen dioxide (NO2) is a toxic brown gas, and ammonia (NH3) is pungent.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which synthetic polymer, abbreviated as PVC, is widely used to manufacture pipes, cable insulation, and vinyl flooring?",
-      "options": ["Polyvinyl chloride", "Polyethylene", "Polypropylene", "Polystyrene"],
+      "options": [
+        "Polyvinyl chloride",
+        "Polyethylene",
+        "Polypropylene",
+        "Polystyrene"
+      ],
       "answer": "Polyvinyl chloride",
       "explanation_correct": "PVC is produced by polymerization of vinyl chloride monomers, yielding a versatile, rigid, or flexible plastic.",
-      "explanation_incorrect": "Polyethylene is used for bags, polypropylene for caps/packaging, and polystyrene for styrofoam."
+      "explanation_incorrect": "Polyethylene is used for bags, polypropylene for caps/packaging, and polystyrene for styrofoam.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which metalloid element, symbolized by Si, is a semiconductor widely used as the substrate for computer processors?",
-      "options": ["Silicon", "Germanium", "Carbon", "Arsenic"],
+      "options": [
+        "Silicon",
+        "Germanium",
+        "Carbon",
+        "Arsenic"
+      ],
       "answer": "Silicon",
       "explanation_correct": "Silicon (Si) is the second most abundant element in Earth's crust (after oxygen), occurring mostly as silica (quartz).",
-      "explanation_incorrect": "Germanium is a rarer semiconductor, carbon is the life element, and arsenic is a toxic metalloid."
+      "explanation_incorrect": "Germanium is a rarer semiconductor, carbon is the life element, and arsenic is a toxic metalloid.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which laboratory vessel is a porcelain bowl with a pestle used to grind solid chemicals into fine powders?",
-      "options": ["Mortar and pestle", "Crucible", "Crystallizing dish", "Evaporating dish"],
+      "options": [
+        "Mortar and pestle",
+        "Crucible",
+        "Crystallizing dish",
+        "Evaporating dish"
+      ],
       "answer": "Mortar and pestle",
       "explanation_correct": "Grinding substances increases their surface area, accelerating rates of dissolution or reaction.",
-      "explanation_incorrect": "A crucible is for high-temperature heating, a crystallizing dish is for crystals, and an evaporating dish is for concentrating liquids."
+      "explanation_incorrect": "A crucible is for high-temperature heating, a crystallizing dish is for crystals, and an evaporating dish is for concentrating liquids.",
+      "last_verified_at": "2026-06-12T14:34:31.998Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which gas has the lowest boiling point of all substances (-269 °C) and is used to cool superconducting magnets in MRI machines?",
-      "options": ["Helium", "Hydrogen", "Nitrogen", "Argon"],
+      "options": [
+        "Helium",
+        "Hydrogen",
+        "Nitrogen",
+        "Argon"
+      ],
       "answer": "Helium",
       "explanation_correct": "Liquid helium cools superconducting electromagnets close to absolute zero, maintaining zero resistance.",
-      "explanation_incorrect": "Liquid hydrogen boils at -253 °C (highly explosive), liquid nitrogen at -196 °C, and argon at -186 °C."
+      "explanation_incorrect": "Liquid hydrogen boils at -253 °C (highly explosive), liquid nitrogen at -196 °C, and argon at -186 °C.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the process in which an atom, molecule, or ion loses electrons, increasing its oxidation state?",
-      "options": ["Oxidation", "Reduction", "Electrolysis", "Decomposition"],
+      "options": [
+        "Oxidation",
+        "Reduction",
+        "Electrolysis",
+        "Decomposition"
+      ],
       "answer": "Oxidation",
       "explanation_correct": "Oxidation always occurs in tandem with reduction (redox), where another species gains those electrons.",
-      "explanation_incorrect": "Reduction is electron gain, electrolysis is electrically driven redox, and decomposition is molecular splitting."
+      "explanation_incorrect": "Reduction is electron gain, electrolysis is electrically driven redox, and decomposition is molecular splitting.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which simplest monohydric alcohol, symbolized by CH3OH, is highly toxic and causes blindness and death if ingested?",
-      "options": ["Methanol", "Ethanol", "Ethylene glycol", "Glycerol"],
+      "options": [
+        "Methanol",
+        "Ethanol",
+        "Ethylene glycol",
+        "Glycerol"
+      ],
       "answer": "Methanol",
       "explanation_correct": "Methanol (methyl alcohol) looks and smells identical to ethanol, leading to accidental poisonings from bootleg alcohol.",
-      "explanation_incorrect": "Ethanol is drinking alcohol, ethylene glycol is toxic antifreeze (a diol), and glycerol is non-toxic."
+      "explanation_incorrect": "Ethanol is drinking alcohol, ethylene glycol is toxic antifreeze (a diol), and glycerol is non-toxic.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which rare-earth metal, symbolized by Nd, is alloyed with iron and boron to create the strongest permanent magnets?",
-      "options": ["Neodymium", "Samarium", "Gadolinium", "Lanthanum"],
+      "options": [
+        "Neodymium",
+        "Samarium",
+        "Gadolinium",
+        "Lanthanum"
+      ],
       "answer": "Neodymium",
       "explanation_correct": "Neodymium magnets are characterized by exceptionally high magnetic saturation and coercivity.",
-      "explanation_incorrect": "Samarium forms samarium-cobalt magnets, gadolinium is a contrast agent, and lanthanum is used in lenses."
+      "explanation_incorrect": "Samarium forms samarium-cobalt magnets, gadolinium is a contrast agent, and lanthanum is used in lenses.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which halogen, symbolized by I, is a dark purple solid with a metallic luster that readily sublimates into violet gas?",
-      "options": ["Iodine", "Bromine", "Chlorine", "Fluorine"],
+      "options": [
+        "Iodine",
+        "Bromine",
+        "Chlorine",
+        "Fluorine"
+      ],
       "answer": "Iodine",
       "explanation_correct": "Heating iodine crystals causes them to bypass the liquid state, forming dense violet fumes that deposit back on cool surfaces.",
-      "explanation_incorrect": "Bromine is a red liquid, chlorine a green gas, and fluorine a yellow gas."
+      "explanation_incorrect": "Bromine is a red liquid, chlorine a green gas, and fluorine a yellow gas.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which chemist formulated the principle of chemical equilibrium in 1884, describing how systems adjust to stress?",
-      "options": ["Henri Le Chatelier", "Antoine Lavoisier", "Svante Arrhenius", "Fritz Haber"],
+      "options": [
+        "Henri Le Chatelier",
+        "Antoine Lavoisier",
+        "Svante Arrhenius",
+        "Fritz Haber"
+      ],
       "answer": "Henri Le Chatelier",
       "explanation_correct": "Le Chatelier's Principle states that if a system at equilibrium is disturbed, the equilibrium shifts to counteract the disturbance.",
-      "explanation_incorrect": "Lavoisier studied combustion, Arrhenius studied dissociation, and Haber synthesized ammonia."
+      "explanation_incorrect": "Lavoisier studied combustion, Arrhenius studied dissociation, and Haber synthesized ammonia.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which laboratory process separates a liquid from a settled solid by carefully pouring off the liquid layer?",
-      "options": ["Decantation", "Filtration", "Centrifugation", "Sedimentation"],
+      "options": [
+        "Decantation",
+        "Filtration",
+        "Centrifugation",
+        "Sedimentation"
+      ],
       "answer": "Decantation",
       "explanation_correct": "Decantation is a rapid separation method, often used before final filtration.",
-      "explanation_incorrect": "Filtration uses a porous barrier, centrifugation uses spinning force, and sedimentation is gravity settling."
+      "explanation_incorrect": "Filtration uses a porous barrier, centrifugation uses spinning force, and sedimentation is gravity settling.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which natural polymers are composed of amino acids linked together by peptide bonds?",
-      "options": ["Proteins", "Carbohydrates", "Nucleic acids", "Fats"],
+      "options": [
+        "Proteins",
+        "Starch",
+        "Cellulose",
+        "Glycogen"
+      ],
       "answer": "Proteins",
-      "explanation_correct": "Proteins serve structural, enzymatic, and transport roles in all living cells.",
-      "explanation_incorrect": "Carbohydrates are sugars, nucleic acids build DNA/RNA, and fats are esters of glycerol."
+      "explanation_correct": "Proteins are biopolymers made of long chains of amino acids connected by peptide bonds, essential for cellular structure and function.",
+      "explanation_incorrect": "Starch, cellulose, and glycogen are polysaccharides (polymers of glucose), not proteins.",
+      "last_verified_at": "2026-06-12T14:35:52.145Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which noble gas, symbolized by Ar, is the most common noble gas in Earth's atmosphere, making up about 0.93%?",
-      "options": ["Argon", "Helium", "Neon", "Xenon"],
+      "options": [
+        "Argon",
+        "Helium",
+        "Neon",
+        "Xenon"
+      ],
       "answer": "Argon",
       "explanation_correct": "Argon is produced in Earth's crust primarily by the radioactive decay of potassium-40.",
-      "explanation_incorrect": "Helium and neon are far rarer in the atmosphere, and xenon exists in trace amounts."
+      "explanation_incorrect": "Helium and neon are far rarer in the atmosphere, and xenon exists in trace amounts.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "Which chemical concept describes the ability of an atom in a molecule to attract shared electrons to itself?",
-      "options": ["Electronegativity", "Electron affinity", "Ionization energy", "Oxidation state"],
+      "options": [
+        "Electronegativity",
+        "Electron affinity",
+        "Ionization energy",
+        "Oxidation state"
+      ],
       "answer": "Electronegativity",
       "explanation_correct": "Electronegativity is measured on the Pauling scale, where fluorine has the highest value (4.0) and francium the lowest (0.7).",
-      "explanation_incorrect": "Electron affinity is energy released when gaining an electron, ionization energy is energy required to remove one, and oxidation state is formal charge."
+      "explanation_incorrect": "Electron affinity is energy released when gaining an electron, ionization energy is energy required to remove one, and oxidation state is formal charge.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which element, symbolized by Au, is highly unreactive and dissolves only in aqua regia?",
-      "options": ["Gold", "Silver", "Platinum", "Copper"],
+      "options": [
+        "Gold",
+        "Silver",
+        "Platinum",
+        "Copper"
+      ],
       "answer": "Gold",
       "explanation_correct": "Aqua regia is a 3:1 mixture of concentrated hydrochloric and nitric acids, which dissolves gold.",
-      "explanation_incorrect": "Silver dissolves in nitric acid alone, platinum dissolves in aqua regia (but is Group 10), and copper reacts with oxidizing acids."
+      "explanation_incorrect": "Silver dissolves in nitric acid alone, platinum dissolves in aqua regia (but is Group 10), and copper reacts with oxidizing acids.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which cylindrical glassware with a spout is used for mixing, stirring, and heating liquids in a laboratory?",
-      "options": ["Beaker", "Erlenmeyer flask", "Test tube", "Crystallizing dish"],
+      "options": [
+        "Beaker",
+        "Erlenmeyer flask",
+        "Test tube",
+        "Crystallizing dish"
+      ],
       "answer": "Beaker",
       "explanation_correct": "Beakers are made of borosilicate glass to withstand thermal shocks and are standard vessels in chemistry labs.",
-      "explanation_incorrect": "Erlenmeyers are conical for titration, test tubes are for small-scale tests, and crystallizing dishes are flat for evaporation."
+      "explanation_incorrect": "Erlenmeyers are conical for titration, test tubes are for small-scale tests, and crystallizing dishes are flat for evaporation.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which process converts liquid vegetable oils containing double bonds into solid fats (like margarine) by adding hydrogen?",
-      "options": ["Hydrogenation / hardening", "Esterification", "Hydration", "Saponification"],
+      "options": [
+        "Hydrogenation / hardening",
+        "Esterification",
+        "Hydration",
+        "Saponification"
+      ],
       "answer": "Hydrogenation / hardening",
       "explanation_correct": "Catalytic hydrogenation adds hydrogen to double bonds in unsaturated fatty acids, converting them to saturated forms.",
-      "explanation_incorrect": "Esterification makes fats, hydration adds water, and saponification is base hydrolysis yielding soap."
+      "explanation_incorrect": "Esterification makes fats, hydration adds water, and saponification is base hydrolysis yielding soap.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which transition metal, symbolized by Ti, is as strong as steel but 45% lighter, making it highly valued in aerospace and implants?",
-      "options": ["Titanium", "Tungsten", "Chromium", "Nickel"],
+      "options": [
+        "Titanium",
+        "Tungsten",
+        "Chromium",
+        "Nickel"
+      ],
       "answer": "Titanium",
       "explanation_correct": "Titanium (Ti) is highly corrosion-resistant and bio-compatible, allowing bone tissue to grow directly onto implants.",
-      "explanation_incorrect": "Tungsten is heavy and hard to shape, chromium is for plating, and nickel frequently triggers metal allergies."
+      "explanation_incorrect": "Tungsten is heavy and hard to shape, chromium is for plating, and nickel frequently triggers metal allergies.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which German chemist developed the industrial synthesis of ammonia from nitrogen and hydrogen, earning a 1918 Nobel Prize?",
-      "options": ["Fritz Haber", "Carl Bosch", "Otto Hahn", "Wilhelm Ostwald"],
+      "options": [
+        "Fritz Haber",
+        "Carl Bosch",
+        "Otto Hahn",
+        "Wilhelm Ostwald"
+      ],
       "answer": "Fritz Haber",
       "explanation_correct": "The Haber-Bosch process enabled mass production of chemical fertilizers, but Haber also led chemical weapon deployment in WWI.",
-      "explanation_incorrect": "Bosch scaled the process industrially, Hahn discovered nuclear fission, and Ostwald studied catalysis."
+      "explanation_incorrect": "Bosch scaled the process industrially, Hahn discovered nuclear fission, and Ostwald studied catalysis.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the state of a chemical system when the rate of the forward reaction equals the rate of the reverse reaction?",
-      "options": ["Chemical equilibrium", "Saturation", "Stationary state", "Equivalence point"],
+      "options": [
+        "Chemical equilibrium",
+        "Saturation",
+        "Stationary state",
+        "Equivalence point"
+      ],
       "answer": "Chemical equilibrium",
       "explanation_correct": "At chemical equilibrium, the concentrations of reactants and products remain constant over time in a dynamic balance.",
-      "explanation_incorrect": "Saturation limits solubility, stationary state is a kinetics term, and equivalence point is the titration end."
+      "explanation_incorrect": "Saturation limits solubility, stationary state is a kinetics term, and equivalence point is the titration end.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which triatomic allotrope of oxygen, symbolized by O3, forms a stratospheric layer that protects Earth from harmful UV radiation?",
-      "options": ["Ozone", "Singlet oxygen", "Carbon monoxide", "Hydrogen peroxide"],
+      "options": [
+        "Ozone",
+        "Singlet oxygen",
+        "Carbon monoxide",
+        "Hydrogen peroxide"
+      ],
       "answer": "Ozone",
       "explanation_correct": "Ozone has a pungent odor and is a strong oxidizer; the ozone layer blocks solar ultraviolet rays.",
-      "explanation_incorrect": "Singlet oxygen is an excited state of O2, carbon monoxide is CO, and hydrogen peroxide is H2O2."
+      "explanation_incorrect": "Singlet oxygen is an excited state of O2, carbon monoxide is CO, and hydrogen peroxide is H2O2.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which organic compounds contain a hydroxyl group (-OH) bonded to a saturated carbon atom?",
-      "options": ["Alcohols", "Carboxylic acids", "Esters", "Aldehydes"],
+      "options": [
+        "Alcohols",
+        "Carboxylic acids",
+        "Esters",
+        "Aldehydes"
+      ],
       "answer": "Alcohols",
       "explanation_correct": "Alcohols can be monohydric (like methanol, ethanol) or polyhydric (like ethylene glycol, glycerol).",
-      "explanation_incorrect": "Carboxylic acids contain -COOH, esters contain -COOR, and aldehydes contain -CHO."
+      "explanation_incorrect": "Carboxylic acids contain -COOH, esters contain -COOR, and aldehydes contain -CHO.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which halogen element has the symbol Cl and atomic number 17?",
-      "options": ["Chlorine", "Fluorine", "Bromine", "Iodine"],
+      "options": [
+        "Chlorine",
+        "Fluorine",
+        "Bromine",
+        "Iodine"
+      ],
       "answer": "Chlorine",
       "explanation_correct": "Chlorine is a halogen, occurring as a greenish gas Cl2 under standard conditions.",
-      "explanation_incorrect": "Fluorine is 9, bromine is 35, and iodine is 53."
+      "explanation_incorrect": "Fluorine is 9, bromine is 35, and iodine is 53.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which process separates solid particles from a liquid suspension using centrifugal force in a spinning device?",
-      "options": ["Centrifugation", "Sedimentation", "Filtration", "Decantation"],
+      "options": [
+        "Centrifugation",
+        "Sedimentation",
+        "Filtration",
+        "Decantation"
+      ],
       "answer": "Centrifugation",
       "explanation_correct": "Centrifugation spinning drives denser components to the bottom of tubes, separating them rapidly (e.g. separating blood cells).",
-      "explanation_incorrect": "Sedimentation is gravity settling, filtration uses a physical barrier, and decantation pours off liquid."
+      "explanation_incorrect": "Sedimentation is gravity settling, filtration uses a physical barrier, and decantation pours off liquid.",
+      "last_verified_at": "2026-06-12T14:34:31.999Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which noble gas, symbolized by Ne, glows with an intense orange-red light when electrical current passes through it?",
-      "options": ["Neon", "Argon", "Helium", "Xenon"],
+      "options": [
+        "Neon",
+        "Argon",
+        "Helium",
+        "Xenon"
+      ],
       "answer": "Neon",
       "explanation_correct": "Neon gas discharge tubes emit bright red-orange light, widely used in neon signs.",
-      "explanation_incorrect": "Argon glows violet-blue, helium glows pinkish-yellow, and xenon emits bright white-blue light."
+      "explanation_incorrect": "Argon glows violet-blue, helium glows pinkish-yellow, and xenon emits bright white-blue light.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the chemical breakdown of a compound due to reaction with water, where water molecules are also split?",
-      "options": ["Hydrolysis", "Hydration", "Solvation", "Electrolysis"],
+      "options": [
+        "Hydrolysis",
+        "Hydration",
+        "Solvation",
+        "Electrolysis"
+      ],
       "answer": "Hydrolysis",
       "explanation_correct": "Hydrolysis occurs when salts of weak acids/bases, esters, or proteins react with water and split.",
-      "explanation_incorrect": "Hydration adds water without splitting, solvation is interaction with solvent, and electrolysis is driven by electricity."
+      "explanation_incorrect": "Hydration adds water without splitting, solvation is interaction with solvent, and electrolysis is driven by electricity.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which unsaturated hydrocarbon, represented by the formula C2H4, contains one double bond and acts as a plant hormone promoting fruit ripening?",
-      "options": ["Ethylene / ethene", "Acetylene / ethyne", "Ethane", "Propene"],
+      "options": [
+        "Ethylene / ethene",
+        "Acetylene / ethyne",
+        "Ethane",
+        "Propene"
+      ],
       "answer": "Ethylene / ethene",
       "explanation_correct": "Ethylene is the simplest alkene, a flammable gas that triggers ripening in fruits and is the precursor to polyethylene.",
-      "explanation_incorrect": "Acetylene has a triple bond, ethane is a saturated alkane, and propene is a three-carbon alkene."
+      "explanation_incorrect": "Acetylene has a triple bond, ethane is a saturated alkane, and propene is a three-carbon alkene.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which Group 15 element, symbolized by N, is a primary nutrient in fertilizers and a fundamental component of amino acids?",
-      "options": ["Nitrogen", "Phosphorus", "Potassium", "Carbon"],
+      "options": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Carbon"
+      ],
       "answer": "Nitrogen",
       "explanation_correct": "Nitrogen (N) is an essential element for life, forming amino groups in proteins and bases in nucleic acids.",
-      "explanation_incorrect": "Phosphorus and potassium are also fertilizer components, but nitrogen is Group 15 and builds amine groups."
+      "explanation_incorrect": "Phosphorus and potassium are also fertilizer components, but nitrogen is Group 15 and builds amine groups.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which laboratory vessel made of highly heat-resistant material (like porcelain or platinum) is used for melting or heating solids at high temperatures?",
-      "options": ["Crucible", "Evaporating dish", "Crystallizer", "Beaker"],
+      "options": [
+        "Crucible",
+        "Evaporating dish",
+        "Crystallizer",
+        "Beaker"
+      ],
       "answer": "Crucible",
       "explanation_correct": "Crucibles are heated directly over burners or in muffle furnaces to ash organic samples or melt metals.",
-      "explanation_incorrect": "Evaporating dishes are for concentrating, crystallizers are for growing crystals, and beakers cannot withstand direct high-temp flames."
+      "explanation_incorrect": "Evaporating dishes are for concentrating, crystallizers are for growing crystals, and beakers cannot withstand direct high-temp flames.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which semi-noble metal, symbolized by Cu with atomic number 29, develops a greenish protective patina when exposed to moist air?",
-      "options": ["Copper", "Zinc", "Brass", "Bronze"],
+      "options": [
+        "Copper",
+        "Zinc",
+        "Brass",
+        "Bronze"
+      ],
       "answer": "Copper",
       "explanation_correct": "Green patina is basic copper carbonate, which protects the copper underneath from further corrosion.",
-      "explanation_incorrect": "Zinc forms dull gray oxide, and brass and bronze are copper alloys, not pure elements."
+      "explanation_incorrect": "Zinc forms dull gray oxide, and brass and bronze are copper alloys, not pure elements.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the process in which an atom, molecule, or ion gains electrons, reducing its oxidation state?",
-      "options": ["Reduction", "Oxidation", "Dissociation", "Hydration"],
+      "options": [
+        "Reduction",
+        "Oxidation",
+        "Dissociation",
+        "Hydration"
+      ],
       "answer": "Reduction",
       "explanation_correct": "Reduction (gain of electrons) occurs at the cathode during electrolytic processes.",
-      "explanation_incorrect": "Oxidation is electron loss, dissociation is splitting into ions, and hydration is adding water."
+      "explanation_incorrect": "Oxidation is electron loss, dissociation is splitting into ions, and hydration is adding water.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which class of organic compounds has the general formula R-CHO, featuring a carbonyl group bonded to a hydrogen atom?",
-      "options": ["Aldehydes", "Ketones", "Carboxylic acids", "Esters"],
+      "options": [
+        "Aldehydes",
+        "Ketones",
+        "Carboxylic acids",
+        "Esters"
+      ],
       "answer": "Aldehydes",
       "explanation_correct": "The simplest aldehyde is formaldehyde (methanal), whose 40% water solution is formalin.",
-      "explanation_incorrect": "Ketones contain R-CO-R, carboxylic acids have -COOH, and esters have -COOR."
+      "explanation_incorrect": "Ketones contain R-CO-R, carboxylic acids have -COOH, and esters have -COOR.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which element, symbolized by U, is the heaviest naturally occurring element in Earth's crust and the primary fuel for nuclear reactors?",
-      "options": ["Uranium", "Plutonium", "Thorium", "Radium"],
+      "options": [
+        "Uranium",
+        "Plutonium",
+        "Thorium",
+        "Radium"
+      ],
       "answer": "Uranium",
       "explanation_correct": "Uranium (atomic number 92) occurs mainly as U-238, with fissionable U-235 being enriched for fuel.",
-      "explanation_incorrect": "Plutonium is synthetic, thorium is atomic number 90, and radium is a decay product."
+      "explanation_incorrect": "Plutonium is synthetic, thorium is atomic number 90, and radium is a decay product.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which highly flammable diatomic gas, symbolized by H2, yields only clean water when burned, making it a key green fuel candidate?",
-      "options": ["Hydrogen", "Methane", "Helium", "Carbon monoxide"],
+      "options": [
+        "Hydrogen",
+        "Methane",
+        "Helium",
+        "Carbon monoxide"
+      ],
       "answer": "Hydrogen",
       "explanation_correct": "Hydrogen combustion (2H2 + O2 -> 2H2O) is highly exothermic, producing only water vapor as a byproduct.",
-      "explanation_incorrect": "Methane and carbon monoxide produce carbon dioxide when burned, and helium is non-flammable."
+      "explanation_incorrect": "Methane and carbon monoxide produce carbon dioxide when burned, and helium is non-flammable.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which German chemist synthesized urea from ammonium cyanate in 1828, disproving the theory of vitalism?",
-      "options": ["Friedrich Wöhler", "Justus von Liebig", "Friedrich August Kekulé", "Hermann Kolbe"],
+      "options": [
+        "Friedrich Wöhler",
+        "Justus von Liebig",
+        "Friedrich August Kekulé",
+        "Hermann Kolbe"
+      ],
       "answer": "Friedrich Wöhler",
       "explanation_correct": "Wöhler's synthesis of urea proved that organic substances do not require a 'vital force' (vis vitalis) and could be synthesized in labs.",
-      "explanation_incorrect": "Liebig popularized fertilizer, Kekulé described benzene, and Kolbe synthesized salicylic acid."
+      "explanation_incorrect": "Liebig popularized fertilizer, Kekulé described benzene, and Kolbe synthesized salicylic acid.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What are chemical reactions called that can proceed in both directions, establishing dynamic equilibrium?",
-      "options": ["Reversible reactions", "Irreversible reactions", "Chain reactions", "Coupled reactions"],
+      "options": [
+        "Reversible reactions",
+        "Irreversible reactions",
+        "Chain reactions",
+        "Coupled reactions"
+      ],
       "answer": "Reversible reactions",
       "explanation_correct": "Reversible reactions are denoted in equations by double arrows (⇌) showing both forward and backward paths.",
-      "explanation_incorrect": "Irreversible reactions proceed to completion (e.g. combustion), and chain reactions propagate themselves."
+      "explanation_incorrect": "Irreversible reactions proceed to completion (e.g. combustion), and chain reactions propagate themselves.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which laboratory tool is a rubber bulb or automated device used to safely draw liquids into volumetric pipettes?",
-      "options": ["Pipette bulb / filler", "Filter paper", "Inoculating loop", "Dropper"],
+      "options": [
+        "Pipette bulb / filler",
+        "Filter paper",
+        "Inoculating loop",
+        "Dropper"
+      ],
       "answer": "Pipette bulb / filler",
       "explanation_correct": "Pipette fillers use pressure valves to safely suction and release liquids, avoiding mouth pipetting.",
-      "explanation_incorrect": "Filter paper separates solids, loops are for microbes, and droppers transfer drops roughly."
+      "explanation_incorrect": "Filter paper separates solids, loops are for microbes, and droppers transfer drops roughly.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "What is the thermal decomposition of coal in the absence of air at around 1000 °C called, yielding coke as a major product?",
-      "options": ["Destructive distillation / pyrolysis", "Cracking", "Reforming", "Coal fermentation"],
+      "options": [
+        "Destructive distillation / pyrolysis",
+        "Cracking",
+        "Reforming",
+        "Coal fermentation"
+      ],
       "answer": "Destructive distillation / pyrolysis",
       "explanation_correct": "Pyrolysis of coal yields coke, coal tar, coal gas, and ammoniacal liquor.",
-      "explanation_incorrect": "Cracking and reforming are for oil fractions, and fermentation is biological."
+      "explanation_incorrect": "Cracking and reforming are for oil fractions, and fermentation is biological.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which element, symbolized by Ag, is the best conductor of electricity and heat of all known chemical elements?",
-      "options": ["Silver", "Copper", "Gold", "Aluminum"],
+      "options": [
+        "Silver",
+        "Copper",
+        "Gold",
+        "Aluminum"
+      ],
       "answer": "Silver",
       "explanation_correct": "Silver (Argentum) has the highest electrical conductivity, but its price and tendency to tarnish limit widespread cabling use.",
-      "explanation_incorrect": "Copper is second best but far cheaper, gold does not tarnish and is for contacts, and aluminum is lightweight."
+      "explanation_incorrect": "Copper is second best but far cheaper, gold does not tarnish and is for contacts, and aluminum is lightweight.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "Which solution maintains a nearly constant pH when small amounts of strong acid or base are added, typically consisting of a weak acid and its conjugate base?",
-      "options": ["Buffer solution", "Saturated solution", "Standard solution", "Colloidal solution"],
+      "options": [
+        "Buffer solution",
+        "Saturated solution",
+        "Standard solution",
+        "Colloidal solution"
+      ],
       "answer": "Buffer solution",
       "explanation_correct": "Buffers (like the bicarbonate buffer in blood) stabilize pH levels crucial for biological and chemical systems.",
-      "explanation_incorrect": "Saturated solutions hold maximum solute, standard solutions have precise known concentrations, and colloids are mixtures."
+      "explanation_incorrect": "Saturated solutions hold maximum solute, standard solutions have precise known concentrations, and colloids are mixtures.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which halogen, symbolized by Br, is the only nonmetal element that is liquid at standard room temperature?",
-      "options": ["Bromine", "Fluorine", "Chlorine", "Iodine"],
+      "options": [
+        "Bromine",
+        "Fluorine",
+        "Chlorine",
+        "Iodine"
+      ],
       "answer": "Bromine",
       "explanation_correct": "Bromine (Br) is a dense, reddish-brown, evaporating liquid at room temperature that emits highly toxic fumes.",
-      "explanation_incorrect": "Fluorine and chlorine are gases, iodine is a solid, and astatine is a radioactive solid."
+      "explanation_incorrect": "Fluorine and chlorine are gases, iodine is a solid, and astatine is a radioactive solid.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which colorless, odorless, and highly toxic gas, symbolized by CO, is commonly called carbon monoxide?",
-      "options": ["Carbon monoxide", "Carbon dioxide", "Methane", "Ozone"],
+      "options": [
+        "Carbon monoxide",
+        "Carbon dioxide",
+        "Methane",
+        "Ozone"
+      ],
       "answer": "Carbon monoxide",
       "explanation_correct": "Carbon monoxide (CO) binds to hemoglobin with an affinity 200 times higher than oxygen, causing tissue hypoxia.",
-      "explanation_incorrect": "Carbon dioxide (CO2) lacks acute toxicity, methane is a hydrocarbon, and ozone is pungent."
+      "explanation_incorrect": "Carbon dioxide (CO2) lacks acute toxicity, methane is a hydrocarbon, and ozone is pungent.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Famous Chemists",
       "question": "Which Italian scientist proposed in 1811 that equal volumes of gases under identical conditions contain an equal number of molecules?",
-      "options": ["Amedeo Avogadro", "Alessandro Volta", "Joseph Gay-Lussac", "Robert Boyle"],
+      "options": [
+        "Amedeo Avogadro",
+        "Alessandro Volta",
+        "Joseph Gay-Lussac",
+        "Robert Boyle"
+      ],
       "answer": "Amedeo Avogadro",
       "explanation_correct": "Avogadro's hypothesis became Avogadro's Law; Avogadro's constant is approximately 6.022 * 10^23 particles per mole.",
-      "explanation_incorrect": "Volta invented the battery, Gay-Lussac studied gases and temperature, and Boyle defined elements."
+      "explanation_incorrect": "Volta invented the battery, Gay-Lussac studied gases and temperature, and Boyle defined elements.",
+      "last_verified_at": "2026-06-12T14:34:32.000Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Laboratory Methods",
       "question": "Which glass tube with a stopcock at the bottom is used to deliver measured volumes of liquid in titrations?",
-      "options": ["Burette", "Pipette", "Graduated cylinder", "Separatory funnel"],
+      "options": [
+        "Burette",
+        "Pipette",
+        "Graduated cylinder",
+        "Separatory funnel"
+      ],
       "answer": "Burette",
       "explanation_correct": "Burettes are calibrated to allow volume readings down to hundredths of a milliliter.",
-      "explanation_incorrect": "Pipettes transfer fixed amounts, graduated cylinders measure roughly, and separatory funnels divide phases."
+      "explanation_incorrect": "Pipettes transfer fixed amounts, graduated cylinders measure roughly, and separatory funnels divide phases.",
+      "last_verified_at": "2026-06-12T14:34:32.001Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which simple sugar, represented by the formula C6H12O6, is the primary source of energy for human cells and a product of photosynthesis?",
-      "options": ["Glucose", "Fructose", "Sucrose", "Starch"],
+      "options": [
+        "Glucose",
+        "Fructose",
+        "Sucrose",
+        "Starch"
+      ],
       "answer": "Glucose",
       "explanation_correct": "Glucose is an aldohexose that circulates in blood, with its levels regulated by insulin.",
-      "explanation_incorrect": "Fructose is fruit sugar (ketohexose), sucrose is table disaccharide, and starch is a plant storage polysaccharide."
+      "explanation_incorrect": "Fructose is fruit sugar (ketohexose), sucrose is table disaccharide, and starch is a plant storage polysaccharide.",
+      "last_verified_at": "2026-06-12T14:34:32.001Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which element, symbolized by N, is used in liquid form (-196 °C) for cryopreservation of biological samples?",
-      "options": ["Nitrogen", "Oxygen", "Helium", "Argon"],
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Helium",
+        "Argon"
+      ],
       "answer": "Nitrogen",
       "explanation_correct": "Liquid nitrogen (LN2) is cheap, relatively safe, and widely used to freeze cells and tissue samples rapidly.",
-      "explanation_incorrect": "Liquid oxygen is dangerous, liquid helium is expensive, and liquid argon has a higher boiling point."
+      "explanation_incorrect": "Liquid oxygen is dangerous, liquid helium is expensive, and liquid argon has a higher boiling point.",
+      "last_verified_at": "2026-06-12T14:34:32.001Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "Which reaction involves a single reactant breaking down into two or more products (e.g. thermal decomposition of limestone)?",
-      "options": ["Decomposition", "Synthesis", "Single displacement", "Condensation"],
+      "options": [
+        "Decomposition",
+        "Synthesis",
+        "Single displacement",
+        "Condensation"
+      ],
       "answer": "Decomposition",
       "explanation_correct": "Decomposition (or analysis) breaks a compound into simpler substances (e.g. CaCO3 -> CaO + CO2).",
-      "explanation_incorrect": "Synthesis combines reactants, displacement swaps atoms, and condensation links molecules with the loss of a small one."
+      "explanation_incorrect": "Synthesis combines reactants, displacement swaps atoms, and condensation links molecules with the loss of a small one.",
+      "last_verified_at": "2026-06-12T14:34:32.001Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which esters of glycerol and long-chain fatty acids serve as the primary energy storage molecules in animals?",
-      "options": ["Fats / triglycerides", "Waxes", "Phospholipids", "Soaps"],
+      "options": [
+        "Fats / triglycerides",
+        "Waxes",
+        "Phospholipids",
+        "Soaps"
+      ],
       "answer": "Fats / triglycerides",
       "explanation_correct": "Fats (triglycerides) can be saturated (mostly solid animal fats) or unsaturated (mostly liquid vegetable oils).",
-      "explanation_incorrect": "Waxes are esters of long-chain monohydric alcohols, phospholipids build membranes, and soaps are salts of fatty acids."
+      "explanation_incorrect": "Waxes are esters of long-chain monohydric alcohols, phospholipids build membranes, and soaps are salts of fatty acids.",
+      "last_verified_at": "2026-06-12T14:34:32.001Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Periodic Table",
       "question": "Which element, symbolized by C, has the ability to undergo sp, sp2, and sp3 hybridization, determining the geometry of organic molecules?",
-      "options": ["Carbon", "Silicon", "Nitrogen", "Oxygen"],
+      "options": [
+        "Carbon",
+        "Silicon",
+        "Nitrogen",
+        "Oxygen"
+      ],
       "answer": "Carbon",
       "explanation_correct": "Carbon hybridization gives tetrahedral (sp3), trigonal planar (sp2), or linear (sp) spatial geometries.",
-      "explanation_incorrect": "Silicon hybridizes similarly but doesn't form stable double/triple bonds, and nitrogen/oxygen have different atomic numbers."
+      "explanation_incorrect": "Silicon hybridizes similarly but doesn't form stable double/triple bonds, and nitrogen/oxygen have different atomic numbers.",
+      "last_verified_at": "2026-06-12T14:34:32.001Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Properties of Elements",
       "question": "Which noble metal, symbolized by Pt, exhibits outstanding catalytic properties and is widely used in automotive catalytic converters?",
-      "options": ["Platinum", "Gold", "Silver", "Palladium"],
+      "options": [
+        "Platinum",
+        "Gold",
+        "Silver",
+        "Palladium"
+      ],
       "answer": "Platinum",
       "explanation_correct": "Platinum (Pt) alongside palladium and rhodium catalyzes the reduction of nitrogen oxides and the oxidation of carbon monoxide in exhaust gases.",
-      "explanation_incorrect": "Gold and silver are poor exhaust catalysts, and palladium is used but platinum remains the primary standard."
+      "explanation_incorrect": "Gold and silver are poor exhaust catalysts, and palladium is used but platinum remains the primary standard.",
+      "last_verified_at": "2026-06-12T14:34:35.799Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Chemical Reactions",
       "question": "What is the polymerization reaction called in which monomers link together without producing any byproducts?",
-      "options": ["Addition polymerization", "Condensation polymerization", "Cracking", "Catalysis"],
+      "options": [
+        "Addition polymerization",
+        "Condensation polymerization",
+        "Cracking",
+        "Catalysis"
+      ],
       "answer": "Addition polymerization",
       "explanation_correct": "Addition polymerization (e.g. producing polyethylene from ethylene) occurs by opening double bonds in monomer units.",
-      "explanation_incorrect": "Condensation polymerization releases a byproduct (usually water), cracking breaks chains, and catalysis accelerates reactions."
+      "explanation_incorrect": "Condensation polymerization releases a byproduct (usually water), cracking breaks chains, and catalysis accelerates reactions.",
+      "last_verified_at": "2026-06-12T14:34:35.799Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Organic Chemistry",
       "question": "Which carboxylic acid, represented by the formula HCOOH, is the simplest carboxylic acid and is found in ant venom and stinging nettles?",
-      "options": ["Formic acid", "Acetic acid", "Oxalic acid", "Lactic acid"],
+      "options": [
+        "Formic acid",
+        "Acetic acid",
+        "Oxalic acid",
+        "Lactic acid"
+      ],
       "answer": "Formic acid",
       "explanation_correct": "Formic acid (methanoic acid) causes stinging pain and has reducing properties due to its aldehyde-like hydrogen.",
-      "explanation_incorrect": "Acetic acid is ethanoic, oxalic is a dicarboxylic acid, and lactic acid contains a hydroxyl group."
+      "explanation_incorrect": "Acetic acid is ethanoic, oxalic is a dicarboxylic acid, and lactic acid contains a hydroxyl group.",
+      "last_verified_at": "2026-06-12T14:34:35.799Z",
+      "verifying_model": "google/gemini-3.1-flash-lite"
     }
   ]
 }

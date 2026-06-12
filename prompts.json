@@ -104,6 +104,38 @@
         "}}"
       ],
       "task_template": "Category: \"{category}\"\nBLUEPRINT:\n- Subcategory: {subcategory}\n- Type: {modifier}\n- Target Answer: {target_answer}\n\nDifficulty: {knowledge_level}"
+    },
+    "both": {
+      "persona": "Ekspert teleturniejowy. Tworzysz pytania wymagające precyzyjnej wiedzy w języku polskim i angielskim.",
+      "static_instructions": [
+        "ZADANIE: Stwórz pytanie w dwóch językach (polskim i angielskim) na podstawie dostarczonego SZKICU.",
+        "",
+        "RYGORYSTYCZNE ZASADY TREŚCI:",
+        "1. PRECYZJA: Pytanie musi być jednoznacznym zdaniem pytającym.",
+        "2. BRAK SPOILERA: Pytanie NIE MOŻE zawierać słów sugerujących odpowiedź.",
+        "3. HOMOGENICZNOŚĆ OPCJI: Dystraktory muszą należeć do tej samej kategorii semantycznej co poprawna odpowiedź.",
+        "4. POPRAWNA ODPOWIEDŹ: Odpowiedź w danym języku musi być odpowiednikiem 'Target Answer' ze szkicu.",
+        "",
+        "WYMAGANIA TECHNICZNE (JSON):",
+        "1. Zwróć czysty JSON bez Markdown.",
+        "2. Klucze 'answer_pl' i 'answer_en' muszą być odpowiednio kopiami elementów z tablic 'options_pl' i 'options_en'.",
+        "3. Escape'uj cudzysłowy wewnątrz tekstów.",
+        "",
+        "FORMAT ODPOWIEDZI (zwróć wyłącznie ten obiekt JSON):",
+        "{{",
+        "  \"question_pl\": \"Treść pytania po polsku?\",",
+        "  \"question_en\": \"Question text in English?\",",
+        "  \"options_pl\": [\"Opcja A\", \"Opcja B\", \"Opcja C\", \"Opcja D\"],",
+        "  \"options_en\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],",
+        "  \"answer_pl\": \"Poprawna po polsku\",",
+        "  \"answer_en\": \"Correct in English\",",
+        "  \"explanation_correct_pl\": \"Wyjaśnienie po polsku (max 2 zdania).\",",
+        "  \"explanation_correct_en\": \"Explanation in English (max 2 sentences).\",",
+        "  \"explanation_incorrect_pl\": \"Dlaczego inne są błędne po polsku.\",",
+        "  \"explanation_incorrect_en\": \"Why others are wrong in English.\"",
+        "}}"
+      ],
+      "task_template": "Kategoria: \"{category}\"\nSZKIC:\n- Podkategoria: {subcategory}\n- Typ pytania: {modifier}\n- Odpowiedź docelowa: {target_answer}\n\nPoziom trudności: {knowledge_level}"
     }
   },
   "generate_questions_batch": {
@@ -170,6 +202,44 @@
         "}"
       ],
       "task_template": "Category: \"{category}\"\nDifficulty: {knowledge_level}\n\nBLUEPRINTS (generate one question per entry):\n{blueprints_json}"
+    },
+    "both": {
+      "persona": "Ekspert teleturniejowy. Tworzysz pytania wymagające precyzyjnej wiedzy w języku polskim i angielskim.",
+      "static_instructions": [
+        "ZADANIE: Na podstawie tablicy SZKICÓW wygeneruj dokładnie tyle samo pytań w wersji polskiej i angielskiej.",
+        "",
+        "RYGORYSTYCZNE ZASADY TREŚCI:",
+        "1. PRECYZJA: Każde pytanie musi być jednoznacznym zdaniem pytającym.",
+        "2. BRAK SPOILERA: Pytanie NIE MOŻE zawierać słów sugerujących odpowiedź.",
+        "3. HOMOGENICZNOŚĆ OPCJI: Dystraktory muszą należeć do tej samej kategorii semantycznej co poprawna odpowiedź.",
+        "4. POPRAWNA ODPOWIEDŹ: Odpowiedź w danym języku musi być odpowiednikiem 'Target Answer' ze szkicu.",
+        "5. KOLEJNOŚĆ: Pytania w tablicy 'questions' muszą odpowiadać kolejności szkiców.",
+        "",
+        "WYMAGANIA TECHNICZNE:",
+        "1. Zwróć czysty JSON bez Markdown.",
+        "2. Klucze 'answer_pl' i 'answer_en' muszą być odpowiednio kopiami elementów z tablic 'options_pl' i 'options_en'.",
+        "",
+        "FORMAT ODPOWIEDZI (zwróć wyłącznie ten obiekt JSON):",
+        "{",
+        "  \"questions\": [",
+        "    {",
+        "      \"question_pl\": \"Treść pytania po polsku?\",",
+        "      \"question_en\": \"Question text in English?\",",
+        "      \"options_pl\": [\"Opcja A\", \"Opcja B\", \"Opcja C\", \"Opcja D\"],",
+        "      \"options_en\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],",
+        "      \"answer_pl\": \"Poprawna po polsku\",",
+        "      \"answer_en\": \"Correct in English\",",
+        "      \"subcategory_pl\": \"Podkategoria po polsku\",",
+        "      \"subcategory_en\": \"Subcategory in English\",",
+        "      \"explanation_correct_pl\": \"Wyjaśnienie po polsku (max 2 zdania).\",",
+        "      \"explanation_correct_en\": \"Explanation in English (max 2 sentences).\",",
+        "      \"explanation_incorrect_pl\": \"Dlaczego inne są błędne po polsku.\",",
+        "      \"explanation_incorrect_en\": \"Why others are wrong in English.\"",
+        "    }",
+        "  ]",
+        "}"
+      ],
+      "task_template": "Kategoria: \"{category}\"\nPoziom trudności: {knowledge_level}\n\nSZKICE (wygeneruj po jednym pytaniu PL+EN dla każdego):\n{blueprints_json}"
     }
   },
   "rewrite_question_with_spoiler": {
@@ -272,6 +342,136 @@
         "  ]"
       ],
       "task_template": "Target Language: {language}\nCategory: \"{category}\"\nQuestions to fix (remove spoilers):\n{questions_json}"
+    }
+  },
+  "suggest_categories": {
+    "pl": {
+      "system": "Jesteś ekspertem projektowania teleturniejów i baz wiedzy.",
+      "instruction": [
+        "Zadaniem jest zasugerowanie dokładnie 18 nowych, unikalnych, różnorodnych i ciekawych kategorii dla pytań quizowych w oparciu o listę już istniejących kategorii, opcjonalny motyw przewodni i wybrany język.",
+        "Dla każdej kategorii stwórz krótką nazwę (max 3-4 słowa) oraz krótki opis (temat/motyw przewodni, max 10-12 słów).",
+        "Zadbaj o wysokie zróżnicowanie propozycji:",
+        "- Część z nich (ok. połowa) powinna być powiązana lub komplementarna do już istniejących kategorii (uzupełniając je lub rozwijając ich motywy).",
+        "- Druga część powinna iść w zupełnie nowych, niezagospodarowanych kierunkach i dziedzinach wiedzy (kreatywne, niespodziewane i oryginalne tematy).",
+        "Sugestie muszą pasować do wybranego języka i nie mogą się powtarzać semantycznie.",
+        "",
+        "FORMAT JSON (zwróć wyłącznie ten obiekt):",
+        "{",
+        "  \"categories\": [",
+        "    {",
+        "      \"name\": \"Nazwa nowej kategorii\",",
+        "      \"description\": \"Krótki opis / motyw przewodni\"",
+        "    }",
+        "  ]",
+        "}"
+      ],
+      "task_template": "Istniejące kategorie: {existing_categories}\nMotyw przewodni: {theme}\nJęzyk docelowy: {language}"
+    },
+    "en": {
+      "system": "You are an expert in quiz design and knowledge databases.",
+      "instruction": [
+        "Your task is to suggest exactly 18 new, unique, diverse, and interesting trivia categories based on the list of existing categories, an optional theme, and the target language.",
+        "For each category, provide a short name (max 3-4 words) and a brief description (theme/focus, max 10-12 words).",
+        "Ensure high diversity among the suggestions:",
+        "- About half of the suggestions should be related or complementary to the existing categories (extending or supplementing them).",
+        "- The other half should explore completely new, untapped directions and domains of knowledge (creative, unexpected, and original topics).",
+        "Suggestions must be appropriate for the target language and not overlap semantically.",
+        "",
+        "JSON FORMAT (return strictly this object):",
+        "{",
+        "  \"categories\": [",
+        "    {",
+        "      \"name\": \"New Category Name\",",
+        "      \"description\": \"Brief description / theme\"",
+        "    }",
+        "  ]",
+        "}"
+      ],
+      "task_template": "Existing categories: {existing_categories}\nTheme: {theme}\nTarget language: {language}"
+    }
+  },
+  "verify_questions": {
+    "pl": {
+      "persona": "Ekspert weryfikacji, korekty i oceny jakości quizów trivia.",
+      "static_instructions": [
+        "ZADANIE: Dokonaj kompletnej i szczegółowej weryfikacji podanej listy pytań quizowych.",
+        "Przeanalizuj każde pytanie pod kątem następujących kryteriów:",
+        "1. DUPLIKATY: Czy pytanie (lub bardzo podobne) nie powtarza się w przesłanej liście.",
+        "2. SENS PYTANIA: Czy pytanie jest jasne, logiczne, jednoznaczne i poprawne językowo oraz merytorycznie.",
+        "3. SENS ODPOWIEDZI: Czy poprawna odpowiedź jest bezsprzecznie prawdziwa i pasuje do pytania.",
+        "4. DYSTRAKTORY: Czy pozostałe 3 błędne opcje mają sens, czy nie są zbyt oczywiste, głupie lub czy nie ma wśród nich drugiej poprawnej odpowiedzi.",
+        "5. WYJAŚNIENIA: Czy wyjaśnienia (correct i incorrect) są zgodne z prawdą, jasne i logiczne.",
+        "",
+        "Dla każdego pytania, w którym wykryjesz JAKIEKOLWIEK uchybienia w powyższych kryteriach, zaproponuj poprawki.",
+        "Jeśli pytanie jest w porządku i nie wymaga zmian, NIE umieszczaj go w wyniku.",
+        "",
+        "Dla każdej propozycji podaj również poziom pewności (confidence) określający Twoje przekonanie o konieczności i poprawności tej zmiany (wartości: \"high\", \"medium\", \"low\").",
+        "",
+        "WYMAGANIA TECHNICZNE:",
+        "1. Zwróć czysty JSON bez Markdown.",
+        "2. Zwróć wyłącznie te pytania, które wymagają poprawek.",
+        "3. W kluczu 'suggested.answer' musi być kopia jednego z elementów tablicy 'suggested.options'.",
+        "",
+        "FORMAT ODPOWIEDZI:",
+        "{",
+        "  \"suggestions\": [",
+        "    {",
+        "      \"id\": \"id_pytania_z_wejscia\",",
+        "      \"confidence\": \"high\",",
+        "      \"issues\": [\"Krótki opis problemu np. Dystraktor X jest zbyt oczywisty / Pytanie jest duplikatem pytania Y\"],",
+        "      \"suggested\": {",
+        "        \"question\": \"Sugerowana nowa treść pytania (jeśli bez zmian, skopiuj oryginalne)\",",
+        "        \"options\": [\"Opcja A\", \"Opcja B\", \"Opcja C\", \"Opcja D\"],",
+        "        \"answer\": \"Poprawna odpowiedź (musi być w options)\",",
+        "        \"explanation_correct\": \"Sugerowane nowe wyjaśnienie poprawnej (max 2 zdania)\",",
+        "        \"explanation_incorrect\": \"Sugerowane nowe wyjaśnienie błędnych (max 2 zdania)\"",
+        "      }",
+        "    }",
+        "  ]",
+        "}"
+      ],
+      "task_template": "Język pytań: {language}\nLista pytań do weryfikacji:\n{questions_json}"
+    },
+    "en": {
+      "persona": "Trivia quality control, verification, and proofreading expert.",
+      "static_instructions": [
+        "TASK: Perform a complete and detailed verification of the provided list of quiz questions.",
+        "Analyze each question against the following criteria:",
+        "1. DUPLICATES: Check if the question (or a very similar one) is repeated in the list.",
+        "2. QUESTION SENSE: Check if the question is clear, logical, unambiguous, and grammatically and factually correct.",
+        "3. ANSWER SENSE: Check if the correct answer is indisputably true and fits the question.",
+        "4. DISTRACTORS: Check if the other 3 wrong options make sense, are not too obvious/trivial, and ensure there is no second correct answer among them.",
+        "5. EXPLANATIONS: Check if the explanations (correct and incorrect) are accurate, clear, and logical.",
+        "",
+        "For each question where you detect ANY issues, propose corrections.",
+        "If a question is completely fine and requires no changes, DO NOT include it in the response.",
+        "",
+        "For each suggestion, also provide a confidence level (\"high\", \"medium\", \"low\") indicating how sure you are that this change is necessary and correct.",
+        "",
+        "TECHNICAL REQUIREMENTS:",
+        "1. Return pure JSON without Markdown.",
+        "2. Return only the questions that require changes.",
+        "3. The 'suggested.answer' key must be a copy of one element from the 'suggested.options' array.",
+        "",
+        "RESPONSE FORMAT:",
+        "{",
+        "  \"suggestions\": [",
+        "    {",
+        "      \"id\": \"question_id_from_input\",",
+        "      \"confidence\": \"high\",",
+        "      \"issues\": [\"Short description of the issue, e.g. Distractor X is too obvious / Duplicate of question Y\"],",
+        "      \"suggested\": {",
+        "        \"question\": \"Suggested new question text (if unchanged, copy the original)\",",
+        "        \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],",
+        "        \"answer\": \"Correct answer (must be in options)\",",
+        "        \"explanation_correct\": \"Suggested explanation for correct (max 2 sentences)\",",
+        "        \"explanation_incorrect\": \"Suggested explanation for incorrect (max 2 sentences)\"",
+        "      }",
+        "    }",
+        "  ]",
+        "}"
+      ],
+      "task_template": "Language of questions: {language}\nList of questions to verify:\n{questions_json}"
     }
   }
 }

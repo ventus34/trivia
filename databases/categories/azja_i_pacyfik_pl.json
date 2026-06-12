@@ -2,22 +2,26 @@
   "id": "azja_i_pacyfik_pl",
   "name": "Azja i Pacyfik",
   "language": "pl",
-  "description": "Pytania z zakresu: Geografia wysp, Religie Japonii, Hydrologia Azji, Kulinaria Wietnamu, Fauna Australii. Sprawdź swoją wiedzę w tej kategorii.",
-  "created_at": "2026-06-10T23:07:54.518Z",
+  "description": "Pytania z zakresu: Geografia wysp, Religie Japonii, Hydrologia Azji, Kulinaria Wietnamu...",
+  "created_at": "2026-06-12T14:59:15.456Z",
+  "last_verified_at": "2026-06-12T14:59:14.502Z",
+  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Geografia wysp",
-      "question": "Które z wymienionych państw wyspiarskich na Pacyfiku uznaje się za najmniejsze pod względem powierzchni?",
+      "question": "Które z wymienionych państw wyspiarskich na Pacyfiku ma najmniejszą powierzchnię lądową?",
       "options": [
-        "Tuvalu",
         "Nauru",
+        "Tuvalu",
         "Palau",
         "Kiribati"
       ],
       "answer": "Nauru",
-      "explanation_correct": "Nauru ma powierzchnię zaledwie 21,3 km², co czyni je najmniejszą republiką na świecie i najmniejszym państwem wyspiarskim Pacyfiku.",
-      "explanation_incorrect": "Tuvalu i Palau są większe od Nauru, natomiast Kiribati składa się z wielu atoli o łącznej powierzchni znacznie przewyższającej Nauru."
+      "explanation_correct": "Nauru ma powierzchnię około 21,3 km², co czyni je najmniejszą republiką świata i najmniejszym państwem wyspiarskim Pacyfiku pod względem powierzchni lądowej.",
+      "explanation_incorrect": "Tuvalu i Palau są większe od Nauru, a Kiribati składa się z wielu atoli o łącznej powierzchni znacznie większej niż Nauru.",
+      "last_verified_at": "2026-06-12T14:56:42.676Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Japonii",
@@ -30,20 +34,24 @@
       ],
       "answer": "Shinto",
       "explanation_correct": "Shinto to tradycyjna religia Japonii wywodząca się z wierzeń animistycznych i mitologii japońskiej.",
-      "explanation_incorrect": "Buddyzm Zen przybył do Japonii z Chin, podobnie jak konfucjanizm i taoizm, które wpłynęły na kulturę, ale nie są rdzennymi religiami."
+      "explanation_incorrect": "Buddyzm Zen przybył do Japonii z Chin, podobnie jak konfucjanizm i taoizm, które wpłynęły na kulturę, ale nie są rdzennymi religiami.",
+      "last_verified_at": "2026-06-12T14:56:42.676Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Hydrologia Azji",
-      "question": "Który zbiornik wodny położony w azjatyckiej części Rosji jest najgłębszym jeziorem na świecie?",
+      "question": "Która pustynia w Azji Środkowej leży na terytorium Chin i Mongolii, będąc jedną z największych na świecie?",
       "options": [
-        "Jezioro Kaspijskie",
-        "Bajkał",
-        "Jezioro Aralskie",
-        "Ladona"
+        "Gobi",
+        "Kara-kum",
+        "Kyzył-kum",
+        "Takla Makan"
       ],
-      "answer": "Bajkał",
-      "explanation_correct": "Bajkał osiąga głębokość 1642 metrów, co czyni go najgłębszym jeziorem na Ziemi.",
-      "explanation_incorrect": "Morze Kaspijskie jest największym jeziorem świata pod względem powierzchni, ale jest znacznie płytsze niż Bajkał."
+      "answer": "Gobi",
+      "explanation_correct": "Gobi to największa pustynia Azji, znana z surowego klimatu i bogatych znalezisk paleontologicznych.",
+      "explanation_incorrect": "Kara-kum i Kyzył-kum leżą bardziej na zachód, a Takla Makan w całości w Chinach.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kulinaria Wietnamu",
@@ -56,7 +64,9 @@
       ],
       "answer": "Pho",
       "explanation_correct": "Pho to narodowe danie Wietnamu, podawane najczęściej z wołowiną lub kurczakiem.",
-      "explanation_incorrect": "Ramen pochodzi z Japonii, Laksa z Malezji, a Tom Yum jest klasyczną zupą kuchni tajskiej."
+      "explanation_incorrect": "Ramen pochodzi z Japonii, Laksa z Malezji, a Tom Yum jest klasyczną zupą kuchni tajskiej.",
+      "last_verified_at": "2026-06-12T14:56:42.676Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fauna Australii",
@@ -69,7 +79,9 @@
       ],
       "answer": "Diabeł tasmański",
       "explanation_correct": "Diabeł tasmański jest największym żyjącym mięsożernym torbaczem, występującym naturalnie wyłącznie na Tasmanii.",
-      "explanation_incorrect": "Wombat i koala są roślinożercami, a numbat żywi się termitami i występuje w Australii Zachodniej."
+      "explanation_incorrect": "Wombat i koala są roślinożercami, a numbat żywi się termitami i występuje w Australii Zachodniej.",
+      "last_verified_at": "2026-06-12T14:56:42.676Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia Tybetu",
@@ -82,7 +94,9 @@
       ],
       "answer": "Dalajlama",
       "explanation_correct": "Dalajlama jest uznawany za inkarnację bodhisattwy Awalokiteśwary oraz przywódcę tybetańskiego buddyzmu.",
-      "explanation_incorrect": "Panczenlama jest drugą pozycją w hierarchii, a Karmapa i Rinpocze to inne tytuły wysokich rangą nauczycieli buddyjskich."
+      "explanation_incorrect": "Panczenlama jest drugą pozycją w hierarchii, a Karmapa i Rinpocze to inne tytuły wysokich rangą nauczycieli buddyjskich.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Architektura Kambodży",
@@ -95,7 +109,9 @@
       ],
       "answer": "Angkor Wat",
       "explanation_correct": "Angkor Wat został zbudowany w XII wieku jako świątynia hinduistyczna, a później przekształcony w buddyjską.",
-      "explanation_incorrect": "Pozostałe opcje to również świątynie w kompleksie Angkor, ale żadna z nich nie dorównuje wielkością Angkor Wat."
+      "explanation_incorrect": "Pozostałe opcje to również świątynie w kompleksie Angkor, ale żadna z nich nie dorównuje wielkością Angkor Wat.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geopolityka",
@@ -108,7 +124,9 @@
       ],
       "answer": "Strefa zdemilitaryzowana",
       "explanation_correct": "Strefa zdemilitaryzowana (DMZ) przebiega wzdłuż 38. równoleżnika i ma około 4 km szerokości.",
-      "explanation_incorrect": "Żelazna Kurtyna to pojęcie historyczne z Europy, a Mur Koreański to potoczne, nieoficjalne określenie umocnień."
+      "explanation_incorrect": "Żelazna Kurtyna to pojęcie historyczne z Europy, a Mur Koreański to potoczne, nieoficjalne określenie umocnień.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki",
@@ -121,7 +139,9 @@
       ],
       "answer": "Tajlandia",
       "explanation_correct": "Muay Thai to narodowy sport Tajlandii, charakteryzujący się użyciem uderzeń pięściami, łokciami, kolanami i goleniami.",
-      "explanation_incorrect": "Wietnam ma Vovinam, a Kambodża Bokator, które są innymi odmianami sztuk walki."
+      "explanation_incorrect": "Wietnam ma Vovinam, a Kambodża Bokator, które są innymi odmianami sztuk walki.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Astronomia i Pacyfik",
@@ -134,7 +154,9 @@
       ],
       "answer": "Krzyż Południa",
       "explanation_correct": "Krzyż Południa to najmniejszy gwiazdozbiór nieba, pełniący ważną rolę nawigacyjną na półkuli południowej.",
-      "explanation_incorrect": "Wielka Niedźwiedzica i Kasjopeja to gwiazdozbiory nieba północnego, a Pas Oriona jest częścią konstelacji Oriona."
+      "explanation_incorrect": "Wielka Niedźwiedzica i Kasjopeja to gwiazdozbiory nieba północnego, a Pas Oriona jest częścią konstelacji Oriona.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Muzyka Indonezji",
@@ -147,20 +169,24 @@
       ],
       "answer": "Gamelan",
       "explanation_correct": "Gamelan to tradycyjny zespół muzyczny z Jawy i Bali, kluczowy dla tamtejszych ceremonii i teatru.",
-      "explanation_incorrect": "Angklung to instrument bambusowy, Kulintang pochodzi z Filipin, a Koto to japońska cytra."
+      "explanation_incorrect": "Angklung to instrument bambusowy, Kulintang pochodzi z Filipin, a Koto to japońska cytra.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Góry Azji",
-      "question": "Który szczyt górski jest najwyższym i zarazem czynnym wulkanem w Japonii?",
+      "question": "Który szczyt górski jest najwyższym wulkanem w Japonii i uchodzi za potencjalnie aktywny?",
       "options": [
+        "Fudżi",
         "Aso",
         "Ontake",
-        "Fudżi",
         "Sakurajima"
       ],
       "answer": "Fudżi",
-      "explanation_correct": "Fudżi wznosi się na wysokość 3776 m n.p.m. i jest uznawany za jeden z trzech świętych szczytów Japonii.",
-      "explanation_incorrect": "Aso i Sakurajima to bardzo aktywne wulkany, ale są znacznie niższe od szczytu Fudżi."
+      "explanation_correct": "Fudżi wznosi się na 3776 m n.p.m. i jest najwyższym wulkanem Japonii. Ostatnia jego erupcja miała miejsce w 1707 roku, dlatego jest uznawany za potencjalnie aktywny.",
+      "explanation_incorrect": "Aso i Sakurajima to bardzo aktywne wulkany, ale są niższe od Fudżi, a Ontake również nie jest najwyższym szczytem kraju.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Botanika regionu",
@@ -173,7 +199,9 @@
       ],
       "answer": "Bambus",
       "explanation_correct": "Pandy wielkie są wyspecjalizowane w jedzeniu bambusa, spożywając do 38 kilogramów pędów dziennie.",
-      "explanation_incorrect": "Eukaliptus jest głównym pokarmem koali, a nie pandy."
+      "explanation_incorrect": "Eukaliptus jest głównym pokarmem koali, a nie pandy.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Systemy pisma",
@@ -186,7 +214,9 @@
       ],
       "answer": "Hangul",
       "explanation_correct": "Hangul został zaprojektowany tak, aby był łatwy do nauki i precyzyjnie oddawał dźwięki języka koreańskiego.",
-      "explanation_incorrect": "Kanji i Katakana to elementy japońskiego systemu pisma, a Hanko to osobista pieczęć."
+      "explanation_incorrect": "Kanji i Katakana to elementy japońskiego systemu pisma, a Hanko to osobista pieczęć.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Etnologia Oceanii",
@@ -199,20 +229,24 @@
       ],
       "answer": "Haka",
       "explanation_correct": "Haka to tradycyjny taniec Maorysów, który łączy w sobie uderzenia w ciało, miny i okrzyki.",
-      "explanation_incorrect": "Hula pochodzi z Hawajów, Siva Tau z Samoa, a Cibi z wysp Fidżi."
+      "explanation_incorrect": "Hula pochodzi z Hawajów, Siva Tau z Samoa, a Cibi z wysp Fidżi.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia fizyczna",
-      "question": "Która jednostka morfologiczna dna oceanicznego jest uznawana za najgłębsze miejsce na Ziemi?",
+      "question": "Jak nazywa się największy archipelag świata, składający się z ponad 17 tysięcy wysp, stanowiący terytorium Indonezji?",
       "options": [
-        "Rów Sundajski",
-        "Rów Kermadec",
-        "Rów Mariański",
-        "Rów Tonga"
+        "Archipelag Malajski",
+        "Polinezja",
+        "Filipiny",
+        "Wyspy Japońskie"
       ],
-      "answer": "Rów Mariański",
-      "explanation_correct": "Rów Mariański osiąga głębokość około 11 000 metrów pod poziomem morza w Głębi Challengera.",
-      "explanation_incorrect": "Pozostałe rowy również znajdują się w Pacyfiku i Oceanie Indyjskim, ale są o kilka kilometrów płytsze."
+      "answer": "Archipelag Malajski",
+      "explanation_correct": "Archipelag Malajski to największe skupisko wysp na Ziemi, leżące między Azją a Australią.",
+      "explanation_incorrect": "Filipiny to oddzielny, mniejszy archipelag, a Polinezja to region oceaniczny, nie państwo.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kulinaria japońskie",
@@ -225,33 +259,39 @@
       ],
       "answer": "Wasabi",
       "explanation_correct": "Prawdziwe wasabi powstaje z tartego kłącza rośliny Wasabia japonica i ma silny, krótkotrwały aromat.",
-      "explanation_incorrect": "Gari to imbir marynowany, nori to wodorosty, a mirin to słodkie wino ryżowe do gotowania."
+      "explanation_incorrect": "Gari to imbir marynowany, nori to wodorosty, a mirin to słodkie wino ryżowe do gotowania.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki",
-      "question": "Z którego kraju wywodzi się Taekwondo – współczesna sztuka walki będąca dyscypliną olimpijską?",
+      "question": "Jak nazywa się japońska sztuka układania kwiatów, która kładzie nacisk na harmonię, rytm i kolorystykę?",
       "options": [
-        "Chiny",
-        "Japonia",
-        "Korea Południowa",
-        "Tajwan"
+        "Ikebana",
+        "Bonsai",
+        "Origami",
+        "Ukiyo-e"
       ],
-      "answer": "Korea Południowa",
-      "explanation_correct": "Taekwondo to narodowy sport Korei, rozwijany intensywnie od lat 40. XX wieku na bazie dawnych koreańskich sztuk walki.",
-      "explanation_incorrect": "Chiny są ojczyzną Wushu i Kung-fu, natomiast Japonia to kraj pochodzenia Karate i Judo."
+      "answer": "Ikebana",
+      "explanation_correct": "Ikebana to tradycyjna sztuka kompozycji kwiatowych, traktowana w Japonii jako ścieżka rozwoju duchowego.",
+      "explanation_incorrect": "Bonsai to sztuka miniaturyzacji drzew, a Origami to składanie papieru.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Architektura współczesna",
-      "question": "Jak nazywa się ukończony w 2010 roku wieżowiec w Dubaju, będący obecnie najwyższą budowlą wzniesioną przez człowieka?",
+      "question": "Które miasto-państwo w Azji Południowo-Wschodniej słynie z luksusowego hotelu Marina Bay Sands i ogrodu Gardens by the Bay?",
       "options": [
-        "Taipei 101",
-        "Burdż al-Arab",
-        "Burdż Chalifa",
-        "Shanghai Tower"
+        "Hongkong",
+        "Makau",
+        "Singapur",
+        "Brunei"
       ],
-      "answer": "Burdż Chalifa",
-      "explanation_correct": "Burdż Chalifa mierzy 828 metrów wysokości i posiada 163 piętra użytkowe.",
-      "explanation_incorrect": "Taipei 101 i Shanghai Tower to również rekordowo wysokie budynki, ale są znacznie niższe niż Burdż Chalifa."
+      "answer": "Singapur",
+      "explanation_correct": "Singapur to nowoczesne miasto-państwo, które jest jednym z najważniejszych centrów finansowych świata.",
+      "explanation_incorrect": "Hongkong i Makau to Regiony Administracyjne Chin, a Brunei to sułtanat na Borneo.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Ekosystemy morskie",
@@ -264,37 +304,43 @@
       ],
       "answer": "Wielka Rafa Koralowa",
       "explanation_correct": "Wielka Rafa Koralowa składa się z ponad 2900 pojedynczych raf i jest widoczna z kosmosu.",
-      "explanation_incorrect": "Rafa Ningaloo również znajduje się w Australii, ale na zachodnim wybrzeżu, natomiast Rafa Belize leży na Oceanie Atlantyckim."
+      "explanation_incorrect": "Rafa Ningaloo również znajduje się w Australii, ale na zachodnim wybrzeżu, natomiast Rafa Belize leży na Oceanie Atlantyckim.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gatunki zagrożone",
-      "question": "Jak nazywa się największa współcześnie żyjąca jaszczurka, występująca na kilku wyspach Indonezji?",
+      "question": "Jak nazywa się unikalny ssak żyjący w Chinach, który żywi się niemal wyłącznie bambusem?",
       "options": [
-        "Waran z Komodo",
-        "Waran nilowy",
-        "Iguana zielona",
-        "Agama kołnierzasta"
+        "Panda wielka",
+        "Panda mała",
+        "Tapir malajski",
+        "Złota małpa"
       ],
-      "answer": "Waran z Komodo",
-      "explanation_correct": "Waran z Komodo osiąga do 3 metrów długości i jest endemicznym gatunkiem indonezyjskim. Jest znany ze swojej siły i jadowitego ukąszenia.",
-      "explanation_incorrect": "Waran nilowy żyje w Afryce, Iguana w Amerykach, a Agama kołnierzasta głównie w Australii."
+      "answer": "Panda wielka",
+      "explanation_correct": "Panda wielka jest ikoną ochrony przyrody i symbolem Chin, żyjącym w lasach bambusowych wysokich gór.",
+      "explanation_incorrect": "Panda mała (czerwona) to inny gatunek, a Tapir malajski zamieszkuje Azję Południowo-Wschodnią.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia",
       "question": "Która grupa stanowiła elitarną kastę wojowników w feudalnej Japonii?",
       "options": [
         "Samuraje",
-        "Ninidża",
+        "Ninja",
         "Roninowie",
         "Siogunowie"
       ],
       "answer": "Samuraje",
-      "explanation_correct": "Samuraje byli japońskimi wojownikami kierującymi się kodeksem bushido. Służyli swoim panom feodalnym (daimyo).",
-      "explanation_incorrect": "Ninidża byli skrytobójcami, roninowie to samuraje bez pana, a siogun był tytułem najwyższego dowódcy wojskowego."
+      "explanation_correct": "Samuraje byli japońskimi wojownikami kierującymi się kodeksem bushidō. Służyli swoim panom feudalnym, daimyo.",
+      "explanation_incorrect": "Ninja byli wyszkolonymi agentami i szpiegami, roninowie to samuraje bez pana, a siogun był tytułem najwyższego dowódcy wojskowego.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Azji",
-      "question": "Który odłam buddyzmu dominuje w Chinach, Japonii oraz Korei?",
+      "question": "Który odłam buddyzmu jest dominujący w Azji Wschodniej, w tym w Chinach, Japonii i Korei?",
       "options": [
         "Mahajana",
         "Therawada",
@@ -302,8 +348,10 @@
         "Zen"
       ],
       "answer": "Mahajana",
-      "explanation_correct": "Mahajana, czyli 'Wielki Wóz', kładzie nacisk na ideał bodhisattwy i jest najliczniejszym odłamem w Azji Wschodniej. Charakteryzuje się dużym zróżnicowaniem szkół i praktyk.",
-      "explanation_incorrect": "Therawada dominuje w Azji Południowo-Wschodniej, Zen jest specyficzną szkołą wewnątrz Mahajany, a Wadźrajana dominuje w Tybecie."
+      "explanation_correct": "Mahajana, czyli „Wielki Wóz”, jest najliczniejszym nurtem buddyzmu w Azji Wschodniej. Obejmuje wiele szkół, w tym zen.",
+      "explanation_incorrect": "Therawada dominuje w Azji Południowo-Wschodniej, Wadźrajana jest szczególnie silna w Tybecie, a Zen jest jedną z tradycji w obrębie Mahajany.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geopolityka",
@@ -316,7 +364,9 @@
       ],
       "answer": "Hongkong",
       "explanation_correct": "Hongkong został przekazany Chinom przez Wielką Brytanię w 1997 roku na zasadzie 'jeden kraj, dwa systemy'. Posiada własną walutę i system prawny.",
-      "explanation_incorrect": "Szanghaj, Guangzhou i Shenzhen to duże miasta chińskie, ale podlegają bezpośrednio standardowej administracji państwowej."
+      "explanation_incorrect": "Szanghaj, Guangzhou i Shenzhen to duże miasta chińskie, ale podlegają bezpośrednio standardowej administracji państwowej.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Odzież tradycyjna",
@@ -329,37 +379,43 @@
       ],
       "answer": "Kimono",
       "explanation_correct": "Kimono to narodowy strój Japonii, którego nazwa dosłownie oznacza 'rzecz do noszenia'. Wykonuje się je często z jedwabiu i nosi na specjalne okazje.",
-      "explanation_incorrect": "Yukata to letnia wersja kimono, Hanbok pochodzi z Korei, a Cheongsam z Chin."
+      "explanation_incorrect": "Yukata to letnia wersja kimono, Hanbok pochodzi z Korei, a Cheongsam z Chin.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Botanika",
       "question": "Która roślina jest powszechnie uznawana za narodowy symbol Japonii, kojarzony z odrodzeniem i ulotnością życia?",
       "options": [
-        "Wiśnia",
+        "Sakura",
         "Chryzantema",
         "Lotos",
         "Bambus"
       ],
-      "answer": "Wiśnia",
-      "explanation_correct": "Sakura, czyli kwitnąca wiśnia, jest kulturowym symbolem Japonii celebrowanym podczas święta Hanami. Odzwierciedla ona buddyjską koncepcję nietrwałości.",
-      "explanation_incorrect": "Chryzantema jest symbolem cesarza, lotos kojarzy się z buddyzmem indyjskim, a bambus jest ważny gospodarczo w całych Chinach."
+      "answer": "Sakura",
+      "explanation_correct": "Sakura, czyli kwitnąca wiśnia, jest kulturowym symbolem Japonii celebrowanym podczas Hanami. Odzwierciedla ona ideę nietrwałości i piękna przemijania.",
+      "explanation_incorrect": "Chryzantema jest symbolem cesarza, lotos kojarzy się głównie z buddyzmem, a bambus jest ważny gospodarczo w wielu krajach Azji.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fauna Australii",
-      "question": "Który endemiczny ssak z rzędu stekowców posiada rogowy dziób przypominający kaczy oraz jadowite ostrogi u samców?",
+      "question": "Który endemiczny ssak z rzędu stekowców posiada rogowy dziób przypominający kaczy i jadowite ostrogi u samców?",
       "options": [
         "Dziobak",
         "Kolczatka",
         "Wombat",
-        "Kretoworek"
+        "Diabeł tasmański"
       ],
       "answer": "Dziobak",
-      "explanation_correct": "Dziobak australijski to jeden z nielicznych ssaków składających jaja.",
-      "explanation_incorrect": "Kolczatka również składa jaja, ale nie ma dzioba ani błon pławnych. Wombat i kretoworek to torbacze."
+      "explanation_correct": "Dziobak australijski jest jednym z nielicznych ssaków składających jaja. Samce mają jadowite ostrogi na tylnych kończynach.",
+      "explanation_incorrect": "Kolczatka także składa jaja, ale nie ma dzioba ani błon pławnych, wombat i diabeł tasmański to torbacze.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Szczyty górskie",
-      "question": "Jak oznacza się najwyższy szczyt pasma górskiego Karakorum, będący drugim co do wysokości szczytem Ziemi?",
+      "question": "Jak nazywa się najwyższy szczyt pasma Karakorum i drugi co do wysokości szczyt Ziemi?",
       "options": [
         "K2",
         "Lhotse",
@@ -367,8 +423,10 @@
         "Nanga Parbat"
       ],
       "answer": "K2",
-      "explanation_correct": "K2 wznosi się na wysokość 8611 m n.p.m. i uchodzi za jeden z najtrudniejszych do zdobycia ośmiotysięczników. Znajduje się na granicy Pakistanu i Chin.",
-      "explanation_incorrect": "Lhotse, Makalu i Nanga Parbat to również ośmiotysięczniki, ale są niższe od K2."
+      "explanation_correct": "K2 wznosi się na 8611 m n.p.m. i znajduje się na granicy Pakistanu i Chin. Jest jednym z najtrudniejszych do zdobycia ośmiotysięczników.",
+      "explanation_incorrect": "Lhotse, Makalu i Nanga Parbat są również ośmiotysięcznikami, ale są niższe od K2.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Literatura i filozofia",
@@ -381,7 +439,9 @@
       ],
       "answer": "Yin i yang",
       "explanation_correct": "Yin i yang symbolizują dualizm świata, gdzie światło uzupełnia mrok, a męskość żeńskość. Są kluczowym elementem taoizmu.",
-      "explanation_incorrect": "Wuxing to teoria pięciu przemian, Dao to droga lub zasada, a Qi to energia życiowa."
+      "explanation_incorrect": "Wuxing to teoria pięciu przemian, Dao to droga lub zasada, a Qi to energia życiowa.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gospodarka",
@@ -394,11 +454,13 @@
       ],
       "answer": "Jen",
       "explanation_correct": "Jen (JPY) jest oficjalną walutą Japonii i jedną z najważniejszych walut rezerwowych świata. Został wprowadzony w 1871 roku.",
-      "explanation_incorrect": "Won funkcjonuje w Korei, Baht w Tajlandii, a Ringgit w Malezji."
+      "explanation_incorrect": "Won funkcjonuje w Korei, Baht w Tajlandii, a Ringgit w Malezji.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kulinaria japońskie",
-      "question": "Jak nazywa się tradycyjna japońska gęsta pasta przygotowywana ze sfermentowanych ziaren soi?",
+      "question": "Jak nazywa się tradycyjna japońska gęsta pasta powstająca ze sfermentowanej soi?",
       "options": [
         "Miso",
         "Tofu",
@@ -406,12 +468,14 @@
         "Wasabi"
       ],
       "answer": "Miso",
-      "explanation_correct": "Miso jest podstawą wielu japońskich dań, w tym popularnej zupy o tej samej nazwie. Proces fermentacji odbywa się z udziałem drożdży i pleśni koji.",
-      "explanation_incorrect": "Tofu to twarożek sojowy, Natto to fermentowana soja o ciągnącej konsystencji, a Wasabi to chrzan japoński."
+      "explanation_correct": "Miso to pasta fermentowana z ziaren soi, zwykle z dodatkiem ryżu lub jęczmienia i kultury koji. Jest podstawą wielu japońskich potraw, w tym zupy miso.",
+      "explanation_incorrect": "Tofu to twarożek sojowy, natto to fermentowana soja o charakterystycznej kleistej konsystencji, a wasabi to ostra przyprawa z kłącza rośliny Wasabia japonica.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Indonezji",
-      "question": "Która wyspa Archipelagu Malajskiego posiada największą liczbę ludności, przekraczającą 140 milionów mieszkańców?",
+      "question": "Która wyspa Archipelagu Malajskiego ma największą liczbę ludności i jest najbardziej zaludnioną wyspą świata?",
       "options": [
         "Jawa",
         "Sumatra",
@@ -419,8 +483,10 @@
         "Celebes"
       ],
       "answer": "Jawa",
-      "explanation_correct": "Jawa jest najbardziej zaludnioną wyspą świata i centrum politycznym Indonezji. Znajduje się na niej stolica kraju, Dżakarta (przed przeniesieniem do Nusantara).",
-      "explanation_incorrect": "Sumatra i Borneo są większe obszarowo, ale mają znacznie mniejsze zagęszczenie ludności niż Jawa."
+      "explanation_correct": "Jawa jest najbardziej zaludnioną wyspą świata i centrum polityczno-gospodarczym Indonezji. Znajduje się na niej Dżakarta, choć stolica ma zostać przeniesiona do Nusantary.",
+      "explanation_incorrect": "Sumatra i Borneo są większe obszarowo, ale mają znacznie mniejszą gęstość zaludnienia niż Jawa.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki",
@@ -433,7 +499,9 @@
       ],
       "answer": "Sumo",
       "explanation_correct": "Sumo to starożytny sport wywodzący się z rytuałów shintoistycznych. Zawodnicy (rikishi) starają się zmusić rywala do dotknięcia ziemi inną częścią ciała niż stopy.",
-      "explanation_incorrect": "Judo i Karate to sztuki walki skupione na rzutach i uderzeniach, a Kendo to szermierka bambusowymi mieczami."
+      "explanation_incorrect": "Judo i Karate to sztuki walki skupione na rzutach i uderzeniach, a Kendo to szermierka bambusowymi mieczami.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Indii",
@@ -446,7 +514,9 @@
       ],
       "answer": "Wedy",
       "explanation_correct": "Wedy powstały między 1500 a 500 rokiem p.n.e. i są spisane w sanskrycie. Wyróżnia się cztery główne zbiory: Rygweda, Samaweda, Jadźurweda i Atharwaweda.",
-      "explanation_incorrect": "Upaniszady to teksty filozoficzne, a Purany i Agamy są późniejszymi pismami mitologicznymi i rytualnymi."
+      "explanation_incorrect": "Upaniszady to teksty filozoficzne, a Purany i Agamy są późniejszymi pismami mitologicznymi i rytualnymi.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia Tybetu",
@@ -459,20 +529,24 @@
       ],
       "answer": "Pałac Potala",
       "explanation_correct": "Pałac Potala znajduje się na wzgórzu Marpo Ri w Lhasie i liczy ponad 1000 pomieszczeń.",
-      "explanation_incorrect": "Norbulingka była rezydencją letnią, a Jokhang i Sera to odpowiednio najważniejsza świątynia i klasztor."
+      "explanation_incorrect": "Norbulingka była rezydencją letnią, a Jokhang i Sera to odpowiednio najważniejsza świątynia i klasztor.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zoologia Australii",
-      "question": "Który australijski torbacz spędza większość życia na drzewach, żywiąc się wyłącznie liśćmi wybranych gatunków eukaliptusa?",
+      "question": "Który australijski torbacz spędza większość życia na drzewach i żywi się głównie liśćmi wybranych gatunków eukaliptusa?",
       "options": [
         "Koala",
-        "Kangurowiec",
-        "Opos",
+        "Wombat",
+        "Diabeł tasmański",
         "Lotopałanka"
       ],
       "answer": "Koala",
-      "explanation_correct": "Koala nie jest niedźwiedziem, lecz torbaczem o bardzo wolnym metabolizmie. Śpi do 20 godzin na dobę, aby zaoszczędzić energię zużywaną na trawienie toksycznych liści.",
-      "explanation_incorrect": "Kangurowiec i opos to również torbacze, ale mają inne preferencje żywieniowe. Lotopałanka potrafi szybować między drzewami."
+      "explanation_correct": "Koala jest nadrzewnym torbaczem endemicznym dla Australii, wyspecjalizowanym w jedzeniu liści eukaliptusa. Ma bardzo wolny metabolizm i śpi przez większą część doby.",
+      "explanation_incorrect": "Wombat i diabeł tasmański żyją na ziemi i mają zupełnie inną dietę. Lotopałanka potrafi szybować między drzewami, ale nie żywi się wyłącznie liśćmi eukaliptusa.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Filipin",
@@ -485,7 +559,9 @@
       ],
       "answer": "Manila",
       "explanation_correct": "Manila położona jest na wyspie Luzon nad Zatoką Manilską. Wraz z przyległymi miastami tworzy jeden z najbardziej zaludnionych obszarów metropolitalnych świata.",
-      "explanation_incorrect": "Quezon City jest największym miastem kraju, a Cebu i Davao to ważne regionalne centra południa."
+      "explanation_incorrect": "Quezon City jest największym miastem kraju, a Cebu i Davao to ważne regionalne centra południa.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gospodarka Chin",
@@ -498,7 +574,9 @@
       ],
       "answer": "Juan",
       "explanation_correct": "Juan (CNY) jest podstawową jednostką waluty renminbi w Chińskiej Republice Ludowej. Jest emitowany przez Ludowy Bank Chin.",
-      "explanation_incorrect": "Dong jest walutą Wietnamu, Tugrik Mongolii, a Pataca Makau."
+      "explanation_incorrect": "Dong jest walutą Wietnamu, Tugrik Mongolii, a Pataca Makau.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Architektura Indii",
@@ -511,7 +589,9 @@
       ],
       "answer": "Tadź Mahal",
       "explanation_correct": "Tadź Mahal w Agrze uznawany jest za najpiękniejszy przykład architektury mogolskiej. Budowla została wzniesiona z białego marmuru inkrustowanego drogimi kamieniami.",
-      "explanation_incorrect": "Czerwony Fort był pałacem w Delhi, Hawa Mahal to 'Pałac Wiatrów' w Dżajpurze, a grobowiec Humajuna był inspiracją dla Tadź Mahal."
+      "explanation_incorrect": "Czerwony Fort był pałacem w Delhi, Hawa Mahal to 'Pałac Wiatrów' w Dżajpurze, a grobowiec Humajuna był inspiracją dla Tadź Mahal.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia Mongolii",
@@ -524,7 +604,9 @@
       ],
       "answer": "Czyngis-chan",
       "explanation_correct": "Czyngis-chan (urodzony jako Temudżyn) stworzył największe pod względem terytorium państwo w historii świata. Wprowadził kodeks prawny Jassa i zreformował armię.",
-      "explanation_incorrect": "Kubilaj-chan był jego wnukiem i założycielem dynastii Yuan, Tamerlan próbował odnowić imperium, a Batu-chan założył Złotą Ordę."
+      "explanation_incorrect": "Kubilaj-chan był jego wnukiem i założycielem dynastii Yuan, Tamerlan próbował odnowić imperium, a Batu-chan założył Złotą Ordę.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Etnologia Nowej Zelandii",
@@ -537,7 +619,9 @@
       ],
       "answer": "Maorysi",
       "explanation_correct": "Maorysi przybyli do Nowej Zelandii w kilku falach między 1250 a 1300 rokiem n.e. z polinezyjskiej Hawaiki.",
-      "explanation_incorrect": "Aborigeni to rdzenna ludność Australii, natomiast Samoańczycy i Hawajczycy zamieszkują inne rejony Polinezji."
+      "explanation_incorrect": "Aborigeni to rdzenna ludność Australii, natomiast Samoańczycy i Hawajczycy zamieszkują inne rejony Polinezji.",
+      "last_verified_at": "2026-06-12T14:56:42.677Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia fizyczna",
@@ -550,7 +634,9 @@
       ],
       "answer": "Mount Everest",
       "explanation_correct": "Mount Everest (Czomolungma) wznosi się na wysokość 8848 m n.p.m. na granicy Nepalu i Chin.",
-      "explanation_incorrect": "K2 jest drugim co do wysokości szczytem świata i leży w Karakorum, a Kangciendzonga i Lhotse zajmują odpowiednio trzecie i czwarte miejsce."
+      "explanation_incorrect": "K2 jest drugim co do wysokości szczytem świata i leży w Karakorum, a Kangciendzonga i Lhotse zajmują odpowiednio trzecie i czwarte miejsce.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Botanika Azji",
@@ -563,7 +649,9 @@
       ],
       "answer": "Lotos",
       "explanation_correct": "Lotos wyrasta z błota, pozostając nieskazitelnie czystym, co symbolizuje dążenie duszy do stanu buddy.",
-      "explanation_incorrect": "Chryzantema to symbol cesarski Japonii, wiśnia (sakura) kojarzy się z przemijaniem, a bambus z elastycznością i trwałością."
+      "explanation_incorrect": "Chryzantema to symbol cesarski Japonii, wiśnia (sakura) kojarzy się z przemijaniem, a bambus z elastycznością i trwałością.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gry planszowe",
@@ -576,7 +664,9 @@
       ],
       "answer": "Go",
       "explanation_correct": "Go (Weiqi) powstało ponad 2500 lat temu w Chinach i charakteryzuje się ogromną liczbą możliwych kombinacji ruchów.",
-      "explanation_incorrect": "Mahjong to gra wykorzystująca płytki (podobna do remika), a Shogi to japoński wariant szachów."
+      "explanation_incorrect": "Mahjong to gra wykorzystująca płytki (podobna do remika), a Shogi to japoński wariant szachów.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Literatura Azji",
@@ -588,12 +678,14 @@
         "Ghazal"
       ],
       "answer": "Haiku",
-      "explanation_correct": "Haiku tradycyjnie zawiera odniesienie do pory roku i koncentruje się na ulotnej chwili.",
-      "explanation_incorrect": "Tanka to dłuższa forma (31 sylab), a Ghazal jest formą poetycką wywodzącą się z literatury perskiej i arabskiej."
+      "explanation_correct": "Haiku to krótka japońska forma poetycka zbudowana z 17 sylab w układzie 5-7-5. Często zawiera odniesienie do pory roku i uchwycenie ulotnej chwili.",
+      "explanation_incorrect": "Tanka jest dłuższa i liczy 31 sylab, a renga to forma poezji łączonej. Ghazal wywodzi się z tradycji persko-arabskiej.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kultura i tradycja Japonii",
-      "question": "Jak określa się tradycyjną japońską formę teatru marionetkowego, w której lalki są prowadzone przez trzech operatorów równocześnie?",
+      "question": "Jak określa się tradycyjną japońską formę teatru lalkowego, w której jedną lalką steruje równocześnie trzech widocznych operatorów?",
       "options": [
         "Kabuki",
         "Nō",
@@ -601,21 +693,25 @@
         "Butoh"
       ],
       "answer": "Bunraku",
-      "explanation_correct": "Bunraku łączy recytację, muzykę graną na shamisenie oraz precyzyjne sterowanie lalkami.",
-      "explanation_incorrect": "Kabuki i Nō to teatry z aktorami ludzkimi, natomiast Butoh jest nowoczesną formą ekspresji tanecznej."
+      "explanation_correct": "Bunraku to tradycyjny japoński teatr lalkowy, w którym jedną lalką steruje zwykle trzech animatorów. Spektakl łączy recytację, muzykę shamisen i precyzyjny ruch lalek.",
+      "explanation_incorrect": "Kabuki i Nō to teatry z aktorami ludzkimi, a Butoh jest nowoczesną formą tańca ekspresyjnego. Żadna z tych form nie wykorzystuje klasycznego układu trzech operatorów lalki.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Australii",
-      "question": "Jak brzmi pierwotna nazwa świętej skały Aborygenów, znanej również w literaturze geograficznej jako Ayers Rock?",
+      "question": "Jak brzmi rdzenna nazwa świętej skały Aborygenów, znanej również jako Ayers Rock?",
       "options": [
         "Góra Kościuszki",
-        "Uluṟu",
+        "Uluru",
         "Mount Augustus",
         "Pine Gap"
       ],
-      "answer": "Uluṟu",
-      "explanation_correct": "Uluṟu to ogromna formacja skalna, która jest symbolem australijskiego Outbacku.",
-      "explanation_incorrect": "Góra Kościuszki to najwyższy szczyt kontynentu, a Mount Augustus to największy monolit (monoklina) świata."
+      "answer": "Uluru",
+      "explanation_correct": "Uluru to monumentalna formacja skalna w centrum Australii i święte miejsce dla ludu Anangu. Nazwa Ayers Rock jest historycznym, kolonialnym określeniem tego obiektu.",
+      "explanation_incorrect": "Góra Kościuszki jest najwyższym szczytem Australii, a Mount Augustus to inna duża formacja skalna. Pine Gap nie jest obiektem geograficznym, lecz znanym ośrodkiem wojskowo-wywiadowczym.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Architektura współczesna",
@@ -628,11 +724,13 @@
       ],
       "answer": "Opera w Sydney",
       "explanation_correct": "Budynek zaprojektowany przez Jørna Utzona słynie z dachu przypominającego żagle statku.",
-      "explanation_incorrect": "Harbour Bridge to stalowy most łukowy obok Opery, a Sydney Tower to najwyższa wolnostojąca wieża w mieście."
+      "explanation_incorrect": "Harbour Bridge to stalowy most łukowy obok Opery, a Sydney Tower to najwyższa wolnostojąca wieża w mieście.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Bliskiego Wschodu",
-      "question": "Które bezodpływowe jezioro położone w depresji między Izraelem, Jordanią a Palestyną jest znane z ekstremalnego zasolenia?",
+      "question": "Który zbiornik wodny położony w depresji między Izraelem, Jordanią a Palestyną jest znany z bardzo wysokiego zasolenia?",
       "options": [
         "Morze Kaspijskie",
         "Jezioro Galilejskie",
@@ -640,8 +738,10 @@
         "Jezioro Wann"
       ],
       "answer": "Morze Martwe",
-      "explanation_correct": "Zasolenie Morza Martwego wynosi około 34%, co sprawia, że woda jest niemal niezdatna do życia dla organizmów wyższych.",
-      "explanation_incorrect": "Jezioro Galilejskie jest słodkowodne, a Morze Kaspijskie, choć słone, ma znacznie niższe stężenie soli niż Morze Martwe."
+      "explanation_correct": "Morze Martwe to silnie słone, bezodpływowe jezioro śródlądowe położone w najniżej położonym punkcie lądowym Ziemi. Duże zasolenie sprawia, że w wodzie trudno żyje większości organizmów.",
+      "explanation_incorrect": "Jezioro Galilejskie jest słodkowodne, a Morze Kaspijskie ma znacznie niższe zasolenie niż Morze Martwe. Jezioro Wann nie leży w tym regionie i nie ma tak skrajnych właściwości.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia koreańska",
@@ -654,7 +754,9 @@
       ],
       "answer": "Kimchi",
       "explanation_correct": "Kimchi jest podstawą diety w Korei, a proces fermentacji zapewnia mu specyficzny, ostry smak.",
-      "explanation_incorrect": "Bibimbap to danie z ryżu z warzywami, a Bulgogi to grillowana, marynowana wołowina."
+      "explanation_incorrect": "Bibimbap to danie z ryżu z warzywami, a Bulgogi to grillowana, marynowana wołowina.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Azji",
@@ -667,7 +769,9 @@
       ],
       "answer": "Ganges",
       "explanation_correct": "Hindusi wierzą, że kąpiel w Gangesie oczyszcza z grzechów i pozwala na lżejszą reinkarnację.",
-      "explanation_incorrect": "Indus był kolebką starożytnej cywilizacji, ale Ganges odgrywa centralną rolę religijną we współczesnym hinduizmie."
+      "explanation_incorrect": "Indus był kolebką starożytnej cywilizacji, ale Ganges odgrywa centralną rolę religijną we współczesnym hinduizmie.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki",
@@ -680,7 +784,9 @@
       ],
       "answer": "Taekwondo",
       "explanation_correct": "Taekwondo kładzie duży nacisk na techniki kopnięć i jest narodowym sportem Korei Południowej.",
-      "explanation_incorrect": "Judo i Karate wywodzą się z Japonii, a Kung-fu jest ogólnym określeniem chińskich sztuk walki."
+      "explanation_incorrect": "Judo i Karate wywodzą się z Japonii, a Kung-fu jest ogólnym określeniem chińskich sztuk walki.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia współczesna",
@@ -693,20 +799,24 @@
       ],
       "answer": "Mao Zedong",
       "explanation_correct": "Mao Zedong sprawował władzę w Chinach do swojej śmierci w 1976 roku, inicjując m.in. Wielki Skok Naprzód.",
-      "explanation_incorrect": "Sun Yat-sen był ojcem republiki przedkomunistycznej, a Chiang Kai-shek był liderem Kuomintangu pokonanym przez Mao."
+      "explanation_incorrect": "Sun Yat-sen był ojcem republiki przedkomunistycznej, a Chiang Kai-shek był liderem Kuomintangu pokonanym przez Mao.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Infrastruktura obronna",
-      "question": "Jak nazywa się system obronny zbudowany z połączonych murów i wież, rozciągający się wzdłuż północnych granic dawnych Chin?",
+      "question": "Półwysep Arabski to największy półwysep świata. Jakie państwo zajmuje jego największą część?",
       "options": [
-        "Linia Maginota",
-        "Wielki Mur Chiński",
-        "Mur Hadriana",
-        "Linia Zygfryda"
+        "Oman",
+        "Jemen",
+        "Arabia Saudyjska",
+        "Zjednoczone Emiraty Arabskie"
       ],
-      "answer": "Wielki Mur Chiński",
-      "explanation_correct": "Wielki Mur budowany był przez stulecia, głównie w celu ochrony przed koczowniczymi plemionami z północy.",
-      "explanation_incorrect": "Mur Hadriana znajduje się w Wielkiej Brytanii, a Linia Maginota i Zygfryda to fortyfikacje z czasów II wojny światowej w Europie."
+      "answer": "Arabia Saudyjska",
+      "explanation_correct": "Arabia Saudyjska zajmuje ok. 80% powierzchni Półwyspu Arabskiego.",
+      "explanation_incorrect": "Oman, Jemen i ZEA to znacznie mniejsze kraje położone na obrzeżach półwyspu.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia wyspowa",
@@ -719,7 +829,9 @@
       ],
       "answer": "Luzon",
       "explanation_correct": "Luzon stanowi centrum polityczne i gospodarcze Filipin, będąc czwartą pod względem liczby ludności wyspą świata.",
-      "explanation_incorrect": "Mindanao to druga co do wielkości wyspa na południu, Cebu leży w regionie Visayas, a Palawan słynie z naturalnych rezerwatów."
+      "explanation_incorrect": "Mindanao to druga co do wielkości wyspa na południu, Cebu leży w regionie Visayas, a Palawan słynie z naturalnych rezerwatów.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kultura kulinarna Japonii",
@@ -732,7 +844,9 @@
       ],
       "answer": "Sashimi",
       "explanation_correct": "Sashimi różni się od sushi tym, że serwowane jest bez zaprawionego octem ryżu, często jedynie z wasabi i sosem sojowym.",
-      "explanation_incorrect": "Sushi musi zawierać ryż, Tempura to danie smażone w cieście, a Ramen to japońska zupa z kluskami."
+      "explanation_incorrect": "Sushi musi zawierać ryż, Tempura to danie smażone w cieście, a Ramen to japońska zupa z kluskami.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Azji",
@@ -745,7 +859,9 @@
       ],
       "answer": "Ganeśa",
       "explanation_correct": "Ganeśa jest jednym z najpopularniejszych bóstw w Indiach, synem Siwy i Parwati.",
-      "explanation_incorrect": "Siwa, Wisznua i Brahma tworzą trójcę (Trimurti), ale żadne z nich nie posiada głowy zwierzęcia."
+      "explanation_incorrect": "Siwa, Wisznua i Brahma tworzą trójcę (Trimurti), ale żadne z nich nie posiada głowy zwierzęcia.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gospodarka",
@@ -758,7 +874,9 @@
       ],
       "answer": "Rupia indyjska",
       "explanation_correct": "Rupia indyjska dzieli się na 100 pajsów i jest emitowana przez Bank Rezerw Indii.",
-      "explanation_incorrect": "Jen jest walutą Japonii, Bat obowiązuje w Tajlandii, a Taka w Bangladeszu."
+      "explanation_incorrect": "Jen jest walutą Japonii, Bat obowiązuje w Tajlandii, a Taka w Bangladeszu.",
+      "last_verified_at": "2026-06-12T14:56:42.678Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Polityka Malezji",
@@ -771,7 +889,9 @@
       ],
       "answer": "Putrajaya",
       "explanation_correct": "Putrajaya została wybudowana od podstaw pod koniec XX wieku, aby odciążyć zatłoczoną stolicę - Kuala Lumpur.",
-      "explanation_incorrect": "George Town i Kuching to stolice stanowe, a Kuala Lumpur pozostaje oficjalną stolicą konstytucyjną i siedzibą króla."
+      "explanation_incorrect": "George Town i Kuching to stolice stanowe, a Kuala Lumpur pozostaje oficjalną stolicą konstytucyjną i siedzibą króla.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Azji Środkowej",
@@ -784,11 +904,13 @@
       ],
       "answer": "Jezioro Aralskie",
       "explanation_correct": "Gwałtowne kurczenie się Jeziora Aralskiego jest uznawane za jedną z największych katastrof ekologicznych w historii.",
-      "explanation_incorrect": "Bajkał jest najgłębszym jeziorem świata i ma się dobrze, natomiast Balchasz oraz Issyk-kul zachowały większość swojej powierzchni."
+      "explanation_incorrect": "Bajkał jest najgłębszym jeziorem świata i ma się dobrze, natomiast Balchasz oraz Issyk-kul zachowały większość swojej powierzchni.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Australii",
-      "question": "Która rzeka jest najdłuższą rzeką w Australii?",
+      "question": "Która rzeka, płynąca przez cały rok, uznawana jest za najdłuższą rzekę Australii?",
       "options": [
         "Darling",
         "Murray",
@@ -796,8 +918,10 @@
         "Murrumbidgee"
       ],
       "answer": "Murray",
-      "explanation_correct": "Murray ma długość 2508 kilometrów i tworzy wraz z dopływem Darling największy system rzeczny kontynentu.",
-      "explanation_incorrect": "Darling jest głównym dopływem Murray, a Lachlan i Murrumbidgee to mniejsze rzeki tego samego dorzecza."
+      "explanation_correct": "Murray ma długość 2508 kilometrów i jest najdłuższą rzeką Australii o stałym przepływie wody.",
+      "explanation_incorrect": "Darling jest okresowo dłuższą rzeką, ale często wysycha, natomiast Lachlan i Murrumbidgee to jej dopływy.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kultura Japonii",
@@ -810,7 +934,9 @@
       ],
       "answer": "Ikebana",
       "explanation_correct": "Ikebana kładzie nacisk na linię, rytm i barwę, dążąc do harmonii między niebem, ziemią i człowiekiem.",
-      "explanation_incorrect": "Bonsai to sztuka miniaturowych drzewek, origami to składanie papieru, a kintsugi to naprawianie ceramiki złotem."
+      "explanation_incorrect": "Bonsai to sztuka miniaturowych drzewek, origami to składanie papieru, a kintsugi to naprawianie ceramiki złotem.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki",
@@ -823,7 +949,9 @@
       ],
       "answer": "Indonezja",
       "explanation_correct": "Pencak Silat to ogólne określenie dla bogatych tradycji walki wręcz i z bronią kultywowanych na archipelagu indonezyjskim.",
-      "explanation_incorrect": "Wietnam posiada Vovinam, Tajlandia Muai Thai, a Filipiny sztukę Arnis/Eskrima."
+      "explanation_incorrect": "Wietnam posiada Vovinam, Tajlandia Muai Thai, a Filipiny sztukę Arnis/Eskrima.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia Singapuru",
@@ -836,7 +964,9 @@
       ],
       "answer": "Merlion",
       "explanation_correct": "Merlion nawiązuje do nazwy 'Miasto Lwa' oraz rybackich korzeni osady znanej dawniej jako Temasek.",
-      "explanation_incorrect": "Garuda jest symbolem Indonezji i Tajlandii, Naga to mityczny wąż, a Singa był historycznym lwem z legend."
+      "explanation_incorrect": "Garuda jest symbolem Indonezji i Tajlandii, Naga to mityczny wąż, a Singa był historycznym lwem z legend.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przyroda Tasmanii",
@@ -844,12 +974,14 @@
       "options": [
         "Diabeł tasmański",
         "Wilk workowaty",
-        "Niełaz plamisty",
+        "Kuskus plamisty",
         "Mrówkożer workowaty"
       ],
       "answer": "Wilk workowaty",
-      "explanation_correct": "Ostatni znany przedstawiciel gatunku Thylacinus cynocephalus padł w niewoli w 1936 roku.",
-      "explanation_incorrect": "Diabeł tasmański i niełaz wciąż żyją na wolności, a mrówkożer występuje w zachodniej części kontynentalnej Australii."
+      "explanation_correct": "Wilk workowaty, czyli thylacine, był największym drapieżnym torbaczem Tasmanii. Ostatni znany osobnik zmarł w niewoli w 1936 roku.",
+      "explanation_incorrect": "Diabeł tasmański nadal występuje w naturze, a kuskus plamisty i mrówkożer workowaty nie odpowiadają opisowi wymarłego drapieżnika z Tasmanii.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gastronomia Wietnamu",
@@ -862,7 +994,9 @@
       ],
       "answer": "Banh mi",
       "explanation_correct": "Banh mi to produkt fuzji kuchni kolonialnej francuskiej i lokalnej wietnamskiej.",
-      "explanation_incorrect": "Pho to zupa z makaronem ryżowym, Goi cuon to sajgonki niesmażone, a Bun cha to grillowana wieprzowina."
+      "explanation_incorrect": "Pho to zupa z makaronem ryżowym, Goi cuon to sajgonki niesmażone, a Bun cha to grillowana wieprzowina.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Azji",
@@ -874,8 +1008,10 @@
         "Sutra"
       ],
       "answer": "Mudra",
-      "explanation_correct": "Mudry są wykorzystywane w ikonografii religijnej, jogdze oraz tradycyjnym tańcu indyjskim.",
-      "explanation_incorrect": "Mantra to święta sylaba lub dźwięk, mandala to diagram geometryczny, a sutra to tekst religijny."
+      "explanation_correct": "Mudra to rytualny gest dłoni używany w ikonografii i praktykach duchowych Indii, mający znaczenie symboliczne.",
+      "explanation_incorrect": "Mantra to dźwięk, sutra to tekst, a mandala to diagram geometryczny. Tylko mudra odnosi się do gestu rąk.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Kazachstanu",
@@ -888,7 +1024,9 @@
       ],
       "answer": "Ałmaty",
       "explanation_correct": "Ałmaty pozostają największym miastem i centrum kulturalno-finansowym kraju, mimo przeniesienia stolicy na północ.",
-      "explanation_incorrect": "Astana to obecna stolica, a Szymkent i Karaganda to inne duże miasta przemysłowe i administracyjne."
+      "explanation_incorrect": "Astana to obecna stolica, a Szymkent i Karaganda to inne duże miasta przemysłowe i administracyjne.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Oceania",
@@ -901,7 +1039,9 @@
       ],
       "answer": "Tuvalu",
       "explanation_correct": "Tuvalu to czwarte najmniejsze państwo świata, składające się z dziewięciu nisko położonych atoli i wysp.",
-      "explanation_incorrect": "Stolica Kiribati to South Tarawa, Vanuatu to Port Vila, a Nauru nie posiada oficjalnego miasta-stolicy."
+      "explanation_incorrect": "Stolica Kiribati to South Tarawa, Vanuatu to Port Vila, a Nauru nie posiada oficjalnego miasta-stolicy.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Literatura Japonii",
@@ -914,7 +1054,9 @@
       ],
       "answer": "Murasaki Shikibu",
       "explanation_correct": "Autorka była damą dworu w okresie Heian, a jej dzieło szczegółowo opisuje życie arystokracji japońskiej.",
-      "explanation_incorrect": "Sei Shonagon napisała 'Zapiski spod poduszki', a pozostałe postacie to znamienite poetki tamtego okresu."
+      "explanation_incorrect": "Sei Shonagon napisała 'Zapiski spod poduszki', a pozostałe postacie to znamienite poetki tamtego okresu.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fizyka/Astronomia",
@@ -927,7 +1069,9 @@
       ],
       "answer": "Chandrasekhara Venkata Raman",
       "explanation_correct": "Zjawisko to, nazywane efektem Ramana, potwierdziło kwantową naturę światła.",
-      "explanation_incorrect": "Bose współpracował z Einsteinem przy statystyce, a Chandrasekhar otrzymał Nobla znacznie później za ewolucję gwiazd."
+      "explanation_incorrect": "Bose współpracował z Einsteinem przy statystyce, a Chandrasekhar otrzymał Nobla znacznie później za ewolucję gwiazd.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Filipin",
@@ -940,7 +1084,9 @@
       ],
       "answer": "Bohol",
       "explanation_correct": "Czekoladowe Wzgórza na Bohol swoją nazwę zawdzięczają trawie, która w porze suchej przybiera brązowy kolor.",
-      "explanation_incorrect": "Luzon i Mindanao to największe wyspy Filipin, a Palawan słynie z podziemnej rzeki."
+      "explanation_incorrect": "Luzon i Mindanao to największe wyspy Filipin, a Palawan słynie z podziemnej rzeki.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Architektura Kambodży",
@@ -953,7 +1099,9 @@
       ],
       "answer": "Bayon",
       "explanation_correct": "Bayon była centralną świątynią państwową króla Dżajawarmana VII i reprezentuje barokowy styl sztuki khmerskiej.",
-      "explanation_incorrect": "Angkor Wat to największa budowla sakralna świata, a Ta Prohm słynie z drzew wrastających w mury."
+      "explanation_incorrect": "Angkor Wat to największa budowla sakralna świata, a Ta Prohm słynie z drzew wrastających w mury.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Klimatologia",
@@ -966,11 +1114,13 @@
       ],
       "answer": "Monsun",
       "explanation_correct": "Monsuny wynikają z różnic w nagrzewaniu się lądu i oceanu, odgrywając kluczową rolę w rolnictwie Azji.",
-      "explanation_incorrect": "Tajfun i cyklon to burze tropikalne, a tsunami to niszczycielska fala oceaniczna wywołana trzęsieniem ziemi."
+      "explanation_incorrect": "Tajfun i cyklon to burze tropikalne, a tsunami to niszczycielska fala oceaniczna wywołana trzęsieniem ziemi.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zoologia Chin",
-      "question": "Który gatunek wysokogórskiego byka, udomowionego w Tybecie, charakteryzuje się bardzo długą sierścią i odpornością na ekstremalne zimno?",
+      "question": "Który gatunek wysokogórskiego bydła został udomowiony w Tybecie i charakteryzuje się długą sierścią oraz odpornością na ekstremalne zimno?",
       "options": [
         "Jak tybetański",
         "Gaur",
@@ -978,8 +1128,10 @@
         "Wół piżmowy"
       ],
       "answer": "Jak tybetański",
-      "explanation_correct": "Jaki są kluczowe dla lokalnych społeczności jako zwierzęta juczne oraz źródło mleka i wełny.",
-      "explanation_incorrect": "Gaur to największy dziki wół żyjący w dżunglach, a wół piżmowy występuje w Arktyce, nie w Azji."
+      "explanation_correct": "Jak tybetański jest udomowionym gatunkiem używanym jako zwierzę juczne, a także źródło mleka, mięsa i wełny. Jest doskonale przystosowany do życia na dużych wysokościach.",
+      "explanation_incorrect": "Gaur i banteng to dzikie gatunki bydła z tropików Azji. Wół piżmowy żyje w arktycznej tundrze, a nie w Tybecie.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Nowej Zelandii",
@@ -991,12 +1143,14 @@
         "Cieśnina Torresa"
       ],
       "answer": "Cieśnina Cooka",
-      "explanation_correct": "Cieśnina ta łączy Morze Tasmana z Oceanem Spokojnym i uznawana jest za jeden z najbardziej niebezpiecznych wód na świecie.",
-      "explanation_incorrect": "Cieśnina Bass oddziela Australię od Tasmanii, a Cieśnina Torresa Australię od Nowej Gwinei."
+      "explanation_correct": "Cieśnina Cooka oddziela Wyspę Północną od Wyspy Południowej i łączy Morze Tasmana z Oceanem Spokojnym. Jest znana z trudnych warunków żeglugi.",
+      "explanation_incorrect": "Cieśnina Bass oddziela Australię od Tasmanii, a Cieśnina Torresa Australię od Nowej Gwinei. Cieśnina Magellana leży na południu Ameryki Południowej.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Systemy pisma Azji",
-      "question": "Który z japońskich systemów pisma służy głównie do zapisu partykuł, końcówek fleksyjnych oraz słów, dla których brak znaków kanji?",
+      "question": "Który z japońskich systemów pisma służy głównie do zapisu partykuł, końcówek fleksyjnych oraz rodzimych słów bez użycia kanji?",
       "options": [
         "Katakana",
         "Hiragana",
@@ -1004,12 +1158,14 @@
         "Hanja"
       ],
       "answer": "Hiragana",
-      "explanation_correct": "Hiragana składa się z 46 podstawowych znaków fonetycznych i jest pierwszym pismem uczonym w japońskich szkołach.",
-      "explanation_incorrect": "Katakana służy do zapisu zapożyczeń, Romaji to alfabet łaciński, a Hanja to koreańska nazwa znaków chińskich."
+      "explanation_correct": "Hiragana to fonetyczny sylabariusz używany m.in. do zapisu partykuł i końcówek fleksyjnych oraz rodzimych słów. Wraz z kanji i katakaną tworzy podstawowy zapis języka japońskiego.",
+      "explanation_incorrect": "Katakana służy głównie do zapisu zapożyczeń i nazw obcych, romaji to zapis łaciński, a hanja to koreańska nazwa znaków chińskich. Żadne z nich nie pełni tej samej roli co hiragana.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kulinaria Azji Południowo-Wschodniej",
-      "question": "Które danie, uważane za potrawę narodową Malezji, składa się z ryżu gotowanego w mleczku kokosowym, podawanego z sambalem i anchovis?",
+      "question": "Które danie uważane jest za potrawę narodową Malezji i składa się z ryżu gotowanego w mleczku kokosowym, podawanego z sambalem i anchois?",
       "options": [
         "Laksa",
         "Nasi goreng",
@@ -1017,21 +1173,25 @@
         "Satay"
       ],
       "answer": "Nasi lemak",
-      "explanation_correct": "Tradycyjnie serwowane jest na śniadanie w liściu bananowca, z dodatkiem jajka i orzeszków ziemnych.",
-      "explanation_incorrect": "Laksa to zupa z makaronem, Nasi goreng to ryż smażony, a Satay to grillowane szaszłyki z sosem orzechowym."
+      "explanation_correct": "Nasi lemak to tradycyjne malezyjskie danie z ryżu gotowanego w mleczku kokosowym, zwykle podawane z sambalem, anchois, jajkiem i orzeszkami ziemnymi. Często serwuje się je na śniadanie w liściu bananowca.",
+      "explanation_incorrect": "Laksa to pikantna zupa z makaronem, nasi goreng to ryż smażony, a satay to grillowane szaszłyki. Żadne z nich nie odpowiada dokładnie opisowi nasi lemak.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fauna Australii",
-      "question": "Jak nazywa się nadrzewny torbacz zamieszkujący Australię i Nową Gwineę, będący jedynym przedstawicielem swojej rodziny o chwytnym ogonie?",
+      "question": "Jak nazywa się powolny, nadrzewny torbacz o dużych oczach i chwytnym ogonie, występujący na północy Australii i na Nowej Gwinei?",
       "options": [
         "Koala",
         "Kuskus plamisty",
         "Wombat",
-        "Pałanka wędrowna"
+        "Diabeł tasmański"
       ],
       "answer": "Kuskus plamisty",
-      "explanation_correct": "Kuskusy to powolne zwierzęta o gęstym futrze, prowadzące głównie nocny tryb życia.",
-      "explanation_incorrect": "Koale i wombaty nie mają chwytnych ogonów, a pałanka wędrowna należy do innej rodziny torbaczy."
+      "explanation_correct": "Kuskusy to nadrzewne torbacze z rodziny pałankowatych, wyróżniające się powolnymi ruchami i gęstym futrem.",
+      "explanation_incorrect": "Koale nie mają ogonów, wombaty żyją w norach, a diabeł tasmański jest drapieżnikiem naziemnym.",
+      "last_verified_at": "2026-06-12T14:59:14.502Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kultura i ubiór Filipin",
@@ -1044,7 +1204,9 @@
       ],
       "answer": "Barong Tagalog",
       "explanation_correct": "Jest to formalny strój narodowy Filipin, noszony bez krawata i wypuszczony na spodnie podczas uroczystości.",
-      "explanation_incorrect": "Batik to technika barwienia tkanin (głównie Indonezja), sarong i longyi to rodzaje owijanych spódnic."
+      "explanation_incorrect": "Batik to technika barwienia tkanin (głównie Indonezja), sarong i longyi to rodzaje owijanych spódnic.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia współczesna Chin",
@@ -1057,7 +1219,9 @@
       ],
       "answer": "Deng Xiaoping",
       "explanation_correct": "Deng Xiaoping uznawany jest za architekta chińskich reform rynkowych, które doprowadziły do dynamicznego wzrostu gospodarczego kraju.",
-      "explanation_incorrect": "Mao Zedong był twórcą ChRL, a Jiang Zemin i Hu Jintao kontynuowali reformy w późniejszych dekadach."
+      "explanation_incorrect": "Mao Zedong był twórcą ChRL, a Jiang Zemin i Hu Jintao kontynuowali reformy w późniejszych dekadach.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Indii",
@@ -1070,7 +1234,9 @@
       ],
       "answer": "Rigweda",
       "explanation_correct": "Rigweda to zbiór ponad tysiąca hymnów do bóstw, datowany na okres między 1500 a 1000 rokiem p.n.e.",
-      "explanation_incorrect": "Upanyśady to teksty filozoficzne, a Bhagawadgita i Ramajana to poematy epickie powstałe znacznie później."
+      "explanation_incorrect": "Upanyśady to teksty filozoficzne, a Bhagawadgita i Ramajana to poematy epickie powstałe znacznie później.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki Azji Wschodniej",
@@ -1083,7 +1249,9 @@
       ],
       "answer": "Kendo",
       "explanation_correct": "Kendo wywodzi się z tradycyjnej szermierki samurajskiej i kładzie duży nacisk na dyscyplinę oraz rozwój duchowy.",
-      "explanation_incorrect": "Aikido opiera się na dźwigniach, Iaido na szybkim dobywaniu miecza metalowego, a Kyudo to łucznictwo."
+      "explanation_incorrect": "Aikido opiera się na dźwigniach, Iaido na szybkim dobywaniu miecza metalowego, a Kyudo to łucznictwo.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia polityczna Oceanii",
@@ -1096,7 +1264,9 @@
       ],
       "answer": "Port Moresby",
       "explanation_correct": "Port Moresby leży nad Zatoką Papuaską i jest największym ośrodkiem miejskim państwa.",
-      "explanation_incorrect": "Suva jest stolicą Fidżi, Honiara Wysp Salomona, a Apia to stolica Samoa."
+      "explanation_incorrect": "Suva jest stolicą Fidżi, Honiara Wysp Salomona, a Apia to stolica Samoa.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Filozofia Dalekiego Wschodu",
@@ -1109,7 +1279,9 @@
       ],
       "answer": "Tao",
       "explanation_correct": "Tao (Droga) to fundamentalne pojęcie taoizmu, oznaczające pierwotną jedność i naturalny porządek rzeczy.",
-      "explanation_incorrect": "Ren oznacza humanitaryzm, Qi to energia życiowa, a Li odnosi się do etykiety i rytuału w konfucjanizmie."
+      "explanation_incorrect": "Ren oznacza humanitaryzm, Qi to energia życiowa, a Li odnosi się do etykiety i rytuału w konfucjanizmie.",
+      "last_verified_at": "2026-06-12T14:56:52.520Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zabytki Sri Lanki",
@@ -1122,7 +1294,9 @@
       ],
       "answer": "Sigirija",
       "explanation_correct": "Sigirija, znana jako 'Lwia Skała', została zbudowana w V wieku przez króla Kaśjapę i słynie z fresków oraz systemów wodnych.",
-      "explanation_incorrect": "Pozostałe opcje to inne historyczne stolice Sri Lanki, ale żadna nie znajduje się na szczycie tak charakterystycznej formy skalnej."
+      "explanation_incorrect": "Pozostałe opcje to inne historyczne stolice Sri Lanki, ale żadna nie znajduje się na szczycie tak charakterystycznej formy skalnej.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Tradycje Tybetu",
@@ -1134,8 +1308,10 @@
         "Zendo"
       ],
       "answer": "Mandala",
-      "explanation_correct": "Mandala symbolizuje wszechświat, a jej niszczenie po ukończeniu pracy przypomina o nietrwałości życia.",
-      "explanation_incorrect": "Thangka to malowany zwój, stupa to obiekt sakralny, a zendo to sala do medytacji zen."
+      "explanation_correct": "Mandala, także w formie piaskowej, jest symboliczным przedstawieniem wszechświata używanym w medytacji. Po ukończeniu bywa rytualnie niszczona, by podkreślić nietrwałość.",
+      "explanation_incorrect": "Thangka to malowany zwój, stupa to sakralna budowla, a zendo to sala do medytacji zen. Żadne z nich nie oznacza takiego geometrycznego diagramu.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Dramat japoński",
@@ -1148,7 +1324,9 @@
       ],
       "answer": "Teatr No",
       "explanation_correct": "Teatr No jest jedną z najstarszych form sztuki scenicznej na świecie, przeznaczoną dawniej dla arystokracji.",
-      "explanation_incorrect": "Kabuki to teatr popularny z bogatą scenografią, a Bunraku to tradycyjny teatr lalkowy."
+      "explanation_incorrect": "Kabuki to teatr popularny z bogatą scenografią, a Bunraku to tradycyjny teatr lalkowy.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Etnologia Polinezji",
@@ -1161,7 +1339,9 @@
       ],
       "answer": "Moai",
       "explanation_correct": "Moai zostały wykute przez dawnych mieszkańców Wyspy Wielkanocnej między 1250 a 1500 rokiem n.e.",
-      "explanation_incorrect": "Tiki to ogólna nazwa rzeźb polinezyjskich, Marae to miejsce kultu, a Ahu to platformy, na których stoją posągi."
+      "explanation_incorrect": "Tiki to ogólna nazwa rzeźb polinezyjskich, Marae to miejsce kultu, a Ahu to platformy, na których stoją posągi.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia rzek Azji",
@@ -1174,7 +1354,9 @@
       ],
       "answer": "Jangcy",
       "explanation_correct": "Jangcy mierzy około 6300 km i płynie od Wyżyny Tybetańskiej aż po Morze Wschodniochińskie.",
-      "explanation_incorrect": "Huang He (Żółta Rzeka) jest krótsza, Mekong przepływa przez wiele krajów, a Ganges płynie głównie w Indiach."
+      "explanation_incorrect": "Huang He (Żółta Rzeka) jest krótsza, Mekong przepływa przez wiele krajów, a Ganges płynie głównie w Indiach.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Fizyczna",
@@ -1187,11 +1369,13 @@
       ],
       "answer": "Wyżyna Tybetańska",
       "explanation_correct": "Wyżyna Tybetańska leży na średniej wysokości ponad 4500 m n.p.m. i zajmuje powierzchnię około 2,5 mln km².",
-      "explanation_incorrect": "Wyżyny Irańska i Mongolska są znacznie niższe, a Dekan znajduje się w tropikalnej części Indii."
+      "explanation_incorrect": "Wyżyny Irańska i Mongolska są znacznie niższe, a Dekan znajduje się w tropikalnej części Indii.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kultura i Kuchnia Japonii",
-      "question": "Jaka jest polska nazwa gatunku rośliny, z której korzenia sporządza się zieloną pastę podawaną z sushi?",
+      "question": "Jaka jest polska nazwa rośliny, z której kłącza sporządza się zieloną pastę podawaną z sushi?",
       "options": [
         "Gorczyca biała",
         "Imbir lekarski",
@@ -1199,8 +1383,10 @@
         "Chrzan pospolity"
       ],
       "answer": "Eutrema japońska",
-      "explanation_correct": "Eutrema japońska (Wasabia japonica) to roślina z rodziny kapustowatych, której kłącze ma charakterystyczny, ostry smak.",
-      "explanation_incorrect": "Imbir podaje się do sushi marynowany, a chrzan pospolity jest często używany tylko jako tańszy substytut wasabi."
+      "explanation_correct": "Eutrema japońska, znana też jako wasabi, należy do rodziny kapustowatych. Jej kłącze ma ostry smak i jest używane do przygotowania pasty serwowanej z sushi.",
+      "explanation_incorrect": "Imbir podaje się do sushi najczęściej w postaci marynowanej, a chrzan pospolity bywa substytutem wasabi. Gorczyca biała nie jest rośliną, z której tradycyjnie przygotowuje się wasabi.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia Średniowieczna",
@@ -1213,7 +1399,9 @@
       ],
       "answer": "Dynastia Ming",
       "explanation_correct": "Zakazane Miasto w Pekinie powstało z polecenia cesarza Yongle z dynastii Ming na początku XV wieku.",
-      "explanation_incorrect": "Dynastie Han, Tang i Song panowały wcześniej i miały swoje stolice głównie w innych miastach, np. w Xi'an."
+      "explanation_incorrect": "Dynastie Han, Tang i Song panowały wcześniej i miały swoje stolice głównie w innych miastach, np. w Xi'an.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Biologia / Oceania",
@@ -1226,7 +1414,9 @@
       ],
       "answer": "Kiwi",
       "explanation_correct": "Kiwi to endemiczny ptak prowadzący nocny tryb życia, od którego pochodzi też potoczne określenie mieszkańców Nowej Zelandii.",
-      "explanation_incorrect": "Emu żyje w Australii, Kaka to papuga, a Takahe jest rzadkim ptakiem z rodziny chruścieli."
+      "explanation_incorrect": "Emu żyje w Australii, Kaka to papuga, a Takahe jest rzadkim ptakiem z rodziny chruścieli.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Religie Wschodu",
@@ -1239,11 +1429,13 @@
       ],
       "answer": "Nirwana",
       "explanation_correct": "Nirwana oznacza stan doskonałego spokoju i wyzwolenia od wszelkich pragnień oraz uwarunkowań.",
-      "explanation_incorrect": "Satori to nagłe oświecenie w zen, Dharma to nauka Buddy, a Karma to prawo przyczyny i skutku."
+      "explanation_incorrect": "Satori to nagłe oświecenie w zen, Dharma to nauka Buddy, a Karma to prawo przyczyny i skutku.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geopolityka Azji",
-      "question": "W którym mieście znajduje się oficjalna siedziba cesarza, rządu oraz parlamentu Japonii?",
+      "question": "W którym mieście znajduje się siedziba cesarza Japonii, rządu oraz parlamentu?",
       "options": [
         "Kioto",
         "Osaka",
@@ -1251,12 +1443,14 @@
         "Tokio"
       ],
       "answer": "Tokio",
-      "explanation_correct": "Tokio stało się stolicą Japonii w 1868 roku po przeniesieniu dworu cesarskiego z Kioto.",
-      "explanation_incorrect": "Kioto było dawną stolicą historyczną, natomiast Osaka i Jokohama są ważnymi ośrodkami gospodarczymi."
+      "explanation_correct": "Tokio jest politycznym centrum Japonii i siedzibą najważniejszych instytucji państwowych. To tam znajduje się cesarski pałac oraz parlament.",
+      "explanation_incorrect": "Kioto było dawną stolicą historyczną, a Osaka i Jokohama są ważnymi ośrodkami gospodarczymi. Nie pełnią funkcji centrum administracyjnego państwa.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuki walki",
-      "question": "Która nowoczesna japońska sztuka walki, skupiająca się na rzutach i chwytach, zadebiutowała na Igrzyskach Olimpijskich w 1964 roku?",
+      "question": "Która nowoczesna japońska sztuka walki, skupiająca się na rzutach i chwytach, zadebiutowała na igrzyskach olimpijskich w 1964 roku?",
       "options": [
         "Karate",
         "Judo",
@@ -1264,8 +1458,10 @@
         "Sumo"
       ],
       "answer": "Judo",
-      "explanation_correct": "Judo zostało stworzone przez Jigoro Kano pod koniec XIX wieku jako system wychowania fizycznego i samoobrony.",
-      "explanation_incorrect": "Karate stało się dyscypliną olimpijską dopiero w 2021 roku, Taekwondo pochodzi z Korei, a Sumo nie jest sportem olimpijskim."
+      "explanation_correct": "Judo zostało stworzone przez Jigoro Kano pod koniec XIX wieku jako system samoobrony i wychowania fizycznego. Od 1964 roku jest dyscypliną olimpijską.",
+      "explanation_incorrect": "Karate wywodzi się z Okinawy i w programie olimpijskim pojawiło się później niż judo. Taekwondo pochodzi z Korei, a sumo nie jest sportem olimpijskim.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Filozofia Chińska",
@@ -1278,20 +1474,24 @@
       ],
       "answer": "Laozi",
       "explanation_correct": "Laozi (Stary Mistrz) żył według tradycji w VI wieku p.n.e. i jest uznawany za założyciela taoizmu.",
-      "explanation_incorrect": "Konfucjusz i Mencjusz to filozofowie konfucjańscy, a Zhuangzi był późniejszym myślicielem taoistycznym."
+      "explanation_incorrect": "Konfucjusz i Mencjusz to filozofowie konfucjańscy, a Zhuangzi był późniejszym myślicielem taoistycznym.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia Indii",
-      "question": "Która metropolia jest uznawana za finansową i handlową stolicę Indii oraz główne centrum przemysłu filmowego?",
+      "question": "Która metropolia jest uznawana za finansową i handlową stolicę Indii oraz główne centrum przemysłu filmowego Bollywood?",
       "options": [
         "Nowe Delhi",
         "Kalkuta",
         "Mumbaj",
-        "Madras"
+        "Chennai"
       ],
       "answer": "Mumbaj",
-      "explanation_correct": "Mumbaj (dawniej Bombaj) jest najludniejszym miastem Indii i siedzibą wytwórni Bollywood.",
-      "explanation_incorrect": "Nowe Delhi to stolica administracyjna, Kalkuta to centrum kulturalne wschodu, a Madras (Chennai) leży na południu."
+      "explanation_correct": "Mumbaj jest najludniejszym miastem Indii i najważniejszym centrum finansowym kraju. To także serce indyjskiego przemysłu filmowego Bollywood.",
+      "explanation_incorrect": "Nowe Delhi jest stolicą administracyjną, Kalkuta pełni ważną rolę regionalną, a Chennai jest dużym ośrodkiem na południu Indii. Żadne z nich nie łączy w takim stopniu finansów i Bollywood.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Botanika Tropikalna",
@@ -1303,8 +1503,10 @@
         "Figowiec"
       ],
       "answer": "Palma kokosowa",
-      "explanation_correct": "Kopra to wysuszony miąższ orzecha kokosowego, z którego tłoczy się olej kokosowy.",
-      "explanation_incorrect": "Banany i trzcina cukrowa to inne rośliny uprawne, ale nie mają związku z produkcją kopry."
+      "explanation_correct": "Kopra to wysuszony miąższ orzecha kokosowego pozyskiwany z palmy kokosowej. Służy głównie do produkcji oleju kokosowego.",
+      "explanation_incorrect": "Banany, trzcina cukrowa i figowiec nie są źródłem kopry. Kopra jest związana wyłącznie z orzechem kokosowym.",
+      "last_verified_at": "2026-06-12T14:56:52.521Z",
+      "verifying_model": "google/gemini-3-flash-preview"
     }
   ]
 }

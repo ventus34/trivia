@@ -685,6 +685,7 @@ export const translations = {
   gen_q_lang: { pl: 'Język pytań:', en: 'Question language:' },
   gen_lang_pl: { pl: 'Polski (PL)', en: 'Polish (PL)' },
   gen_lang_en: { pl: 'English (EN)', en: 'English (EN)' },
+  gen_lang_both: { pl: 'Oba języki (PL + EN)', en: 'Both languages (PL + EN)' },
   gen_q_per_category: { pl: 'Liczba pytań na kategorię:', en: 'Questions per category:' },
   gen_batch_size_label: {
     pl: '⚡ Pytań w jednym prompcie (batch):',
@@ -847,6 +848,83 @@ export const translations = {
     pl: 'Wystąpił błąd podczas masowego przepisywania.',
     en: 'An error occurred during bulk rewriting.',
   },
+  gen_suggest_cats_btn: { pl: '💡 Sugeruj kategorie (AI)', en: '💡 Suggest categories (AI)' },
+  gen_suggest_modal_title: { pl: '💡 Sugerowane Kategorie', en: '💡 Suggested Categories' },
+  gen_suggest_modal_desc: {
+    pl: 'Na podstawie już istniejących kategorii i wybranego języka, AI wygenerowało następujące propozycje. Wybierz te, które chcesz dodać do listy:',
+    en: 'Based on existing categories and the selected language, AI generated the following proposals. Select those you want to add to the list:',
+  },
+  gen_suggest_loading: { pl: 'Generowanie propozycji...', en: 'Generating proposals...' },
+  gen_suggest_close_btn: { pl: 'Zamknij', en: 'Close' },
+  gen_suggest_add_btn: { pl: '➕ Dodaj wybrane', en: '➕ Add selected' },
+  gen_suggest_fetch_error: {
+    pl: 'Błąd podczas generowania propozycji kategorii.',
+    en: 'Error generating category proposals.',
+  },
+  gen_suggest_added_notification: {
+    pl: 'Dodano {count} nowych kategorii.',
+    en: 'Added {count} new categories.',
+  },
+  gen_suggest_loaded_cats_title: {
+    pl: 'Załadowane kategorie (baza dla AI)',
+    en: 'Loaded categories (AI base)',
+  },
+  gen_concurrency_label: {
+    pl: '🔄 Współbieżność (równoległe zapytania):',
+    en: '🔄 Concurrency (parallel requests):',
+  },
+  gen_concurrency_low: {
+    pl: '1 (sekwencyjnie)',
+    en: '1 (sequentially)',
+  },
+  gen_concurrency_high: {
+    pl: '10 (maks. współbieżność)',
+    en: '10 (max concurrency)',
+  },
+  gen_check_verify_btn: { pl: '🔍 Kompleksowa Weryfikacja AI', en: '🔍 Full AI Verification' },
+  gen_verify_title: { pl: 'Kompleksowa Weryfikacja Pytań AI', en: 'Full AI Question Verification' },
+  gen_verify_desc: {
+    pl: 'Narzędzie analizuje wybrane pytania pod kątem duplikatów, logiczności pytań i odpowiedzi, jakości dystraktorów oraz wyjaśnień. AI wskaże problemy i zaproponuje poprawki, które możesz zatwierdzić.',
+    en: 'This tool analyzes the selected questions for duplicates, logic of questions/answers, distractor quality, and explanations. AI will detect issues and suggest fixes for you to approve.',
+  },
+  gen_verify_all_langs: { pl: 'Wszystkie języki', en: 'All languages' },
+  gen_verify_run_btn: { pl: '🤖 Uruchom analizę AI', en: '🤖 Run AI Analysis' },
+  gen_verify_loading: {
+    pl: 'Analizowanie pytań przez AI (może potrwać kilkanaście sekund)...',
+    en: 'AI is analyzing questions (may take several seconds)...',
+  },
+  gen_verify_none: {
+    pl: 'Brak sugestii zmian. Wszystkie pytania przeszły weryfikację pomyślnie!',
+    en: 'No change suggestions. All questions passed verification successfully!',
+  },
+  gen_verify_status_msg: {
+    pl: 'Wykryto {count} pytań z sugerowanymi zmianami.',
+    en: 'Detected {count} questions with suggested changes.',
+  },
+  gen_verify_save_btn: { pl: 'Zatwierdź wszystkie wybrane', en: 'Accept all selected' },
+  gen_verify_close_btn: { pl: 'Zamknij', en: 'Close' },
+  gen_verify_th_original: { pl: 'ORYGINAŁ', en: 'ORIGINAL' },
+  gen_verify_th_suggested: { pl: 'SUGEROWANE ZMIANY (EDYTOWALNE)', en: 'SUGEROWANE ZMIANY (EDITABLE)' },
+  gen_verify_th_issues: { pl: 'Wykryte Problemy', en: 'Detected Issues' },
+  gen_verify_accept_btn: { pl: 'Zatwierdź', en: 'Accept' },
+  gen_verify_reject_btn: { pl: 'Odrzuć', en: 'Reject' },
+  gen_verify_saved_single: { pl: 'Zatwierdzono poprawki dla pytania.', en: 'Approved corrections for the question.' },
+  gen_verify_saved_all: { pl: 'Zatwierdzono {count} poprawek.', en: 'Approved {count} corrections.' },
+  gen_verify_no_questions: {
+    pl: 'Brak pytań do zweryfikowania! Wygeneruj lub załaduj pytania najpierw.',
+    en: 'No questions to verify! Generate or load questions first.',
+  },
+  gen_verify_analysis_error: { pl: 'Błąd weryfikacji przez AI: {error}', en: 'AI verification error: {error}' },
+  gen_verify_confidence: { pl: 'Pewność zmiany', en: 'Confidence' },
+  gen_verify_confidence_high: { pl: 'Wysoka', en: 'High' },
+  gen_verify_confidence_medium: { pl: 'Średnia', en: 'Medium' },
+  gen_verify_confidence_low: { pl: 'Niska', en: 'Low' },
+  gen_verify_last_verified: { pl: 'Ost. weryfikacja', en: 'Last verified' },
+  gen_verify_not_verified: { pl: 'Brak wcześniejszej weryfikacji', en: 'Not yet verified' },
+  gen_verify_unverified_only: { pl: 'Tylko niezweryfikowane (seria)', en: 'Only unverified (serial)' },
+  gen_verify_force_reverify: { pl: 'Wymuś ponowną weryfikację', en: 'Force re-verification' },
+  gen_verify_next_batch_btn: { pl: '⏭️ Weryfikuj kolejne 500 ({count} pozostało)', en: '⏭️ Verify next 500 ({count} left)' },
+  gen_verify_unverified_pool_status: { pl: 'Pozostało niezweryfikowanych pytań: {count}', en: 'Unverified questions left: {count}' },
 };
 
 // Make CATEGORY_PRESETS globally available for live-quiz-common.js
