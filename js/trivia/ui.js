@@ -26,6 +26,8 @@ export {
   renderCategorySelectionGrid,
   applyCategorySelectionPreset,
   applyRandomCategorySelection,
+  clearCategorySelection,
+  clearAllCategories,
   currentWizardStep,
   goToWizardStep,
   validateStep3NextButton,

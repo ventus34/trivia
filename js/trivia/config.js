@@ -609,6 +609,7 @@ export const translations = {
   preset_pop_pl: { pl: 'Popkultura PL', en: 'Popculture PL' },
   preset_classic_en: { pl: 'Classic EN', en: 'Classic EN' },
   btn_random_select_6: { pl: 'Losuj 6 kategorii', en: 'Select 6 random' },
+  btn_clear_categories: { pl: 'Odznacz wszystkie', en: 'Deselect all' },
   btn_cancel: { pl: 'Anuluj', en: 'Cancel' },
   btn_apply: { pl: 'Zatwierdź Wybór', en: 'Confirm Selection' },
   tab_offline: { pl: '📦 Wybierz Bazę Pytań', en: '📦 Choose Question Base' },
@@ -667,22 +668,40 @@ export const translations = {
 
   // Wizard translations
   welcome_title: { pl: 'Witaj w grze Trivia!', en: 'Welcome to Trivia!' },
-  welcome_desc: { pl: 'Klasyczna gra planszowa z pytaniami w nowej odsłonie. Skonfiguruj rozgrywkę w kilku prostych krokach.', en: 'A classic trivia board game reinvented. Set up your gameplay in a few simple steps.' },
+  welcome_desc: {
+    pl: 'Klasyczna gra planszowa z pytaniami w nowej odsłonie. Skonfiguruj rozgrywkę w kilku prostych krokach.',
+    en: 'A classic trivia board game reinvented. Set up your gameplay in a few simple steps.',
+  },
   continue_game_title: { pl: 'Masz już zapisaną grę?', en: 'Have a saved game?' },
   players_step_title: { pl: 'Dodaj graczy', en: 'Add players' },
-  players_step_desc: { pl: 'Podaj imiona graczy i wybierz dla nich emoji. Możesz dodać od 1 do 10 graczy.', en: 'Enter players\' names and select their emojis. You can add from 1 to 10 players.' },
+  players_step_desc: {
+    pl: 'Podaj imiona graczy i wybierz dla nich emoji. Możesz dodać od 1 do 10 graczy.',
+    en: "Enter players' names and select their emojis. You can add from 1 to 10 players.",
+  },
   categories_step_title: { pl: 'Wybierz kategorie', en: 'Select categories' },
-  categories_step_desc: { pl: 'Wybierz dokładnie 6 kategorii pytań, które pojawią się na planszy.', en: 'Select exactly 6 question categories that will appear on the board.' },
+  categories_step_desc: {
+    pl: 'Wybierz dokładnie 6 kategorii pytań, które pojawią się na planszy.',
+    en: 'Select exactly 6 question categories that will appear on the board.',
+  },
   rules_step_title: { pl: 'Wyjaśnienie zasad', en: 'Game rules' },
-  rules_step_desc: { pl: 'Zapoznaj się z podstawowymi zasadami przed wejściem na planszę.', en: 'Familiarize yourself with the basic rules before entering the board.' },
+  rules_step_desc: {
+    pl: 'Zapoznaj się z podstawowymi zasadami przed wejściem na planszę.',
+    en: 'Familiarize yourself with the basic rules before entering the board.',
+  },
   step_lang: { pl: 'Język', en: 'Language' },
   step_players: { pl: 'Gracze', en: 'Players' },
   step_categories: { pl: 'Kategorie', en: 'Categories' },
   step_rules: { pl: 'Zasady', en: 'Rules' },
   wizard_back_btn: { pl: 'Wstecz', en: 'Back' },
   wizard_next_btn: { pl: 'Dalej', en: 'Next' },
-  advanced_title: { pl: 'Zaawansowane (własna baza pytań)', en: 'Advanced (custom question database)' },
-  advanced_desc: { pl: 'Załaduj plik JSON lub wklej tekst bazy pytań, aby zagrać z własnymi pytaniami.', en: 'Load a JSON file or paste question database text to play with your own questions.' },
+  advanced_title: {
+    pl: 'Zaawansowane (własna baza pytań)',
+    en: 'Advanced (custom question database)',
+  },
+  advanced_desc: {
+    pl: 'Załaduj plik JSON lub wklej tekst bazy pytań, aby zagrać z własnymi pytaniami.',
+    en: 'Load a JSON file or paste question database text to play with your own questions.',
+  },
   selected_categories_header: { pl: 'Wybrane kategorie', en: 'Selected categories' },
 
   // Generator translations
@@ -924,27 +943,48 @@ export const translations = {
   gen_verify_save_btn: { pl: 'Zatwierdź wszystkie wybrane', en: 'Accept all selected' },
   gen_verify_close_btn: { pl: 'Zamknij', en: 'Close' },
   gen_verify_th_original: { pl: 'ORYGINAŁ', en: 'ORIGINAL' },
-  gen_verify_th_suggested: { pl: 'SUGEROWANE ZMIANY (EDYTOWALNE)', en: 'SUGEROWANE ZMIANY (EDITABLE)' },
+  gen_verify_th_suggested: {
+    pl: 'SUGEROWANE ZMIANY (EDYTOWALNE)',
+    en: 'SUGEROWANE ZMIANY (EDITABLE)',
+  },
   gen_verify_th_issues: { pl: 'Wykryte Problemy', en: 'Detected Issues' },
   gen_verify_accept_btn: { pl: 'Zatwierdź', en: 'Accept' },
   gen_verify_reject_btn: { pl: 'Odrzuć', en: 'Reject' },
-  gen_verify_saved_single: { pl: 'Zatwierdzono poprawki dla pytania.', en: 'Approved corrections for the question.' },
-  gen_verify_saved_all: { pl: 'Zatwierdzono {count} poprawek.', en: 'Approved {count} corrections.' },
+  gen_verify_saved_single: {
+    pl: 'Zatwierdzono poprawki dla pytania.',
+    en: 'Approved corrections for the question.',
+  },
+  gen_verify_saved_all: {
+    pl: 'Zatwierdzono {count} poprawek.',
+    en: 'Approved {count} corrections.',
+  },
   gen_verify_no_questions: {
     pl: 'Brak pytań do zweryfikowania! Wygeneruj lub załaduj pytania najpierw.',
     en: 'No questions to verify! Generate or load questions first.',
   },
-  gen_verify_analysis_error: { pl: 'Błąd weryfikacji przez AI: {error}', en: 'AI verification error: {error}' },
+  gen_verify_analysis_error: {
+    pl: 'Błąd weryfikacji przez AI: {error}',
+    en: 'AI verification error: {error}',
+  },
   gen_verify_confidence: { pl: 'Pewność zmiany', en: 'Confidence' },
   gen_verify_confidence_high: { pl: 'Wysoka', en: 'High' },
   gen_verify_confidence_medium: { pl: 'Średnia', en: 'Medium' },
   gen_verify_confidence_low: { pl: 'Niska', en: 'Low' },
   gen_verify_last_verified: { pl: 'Ost. weryfikacja', en: 'Last verified' },
   gen_verify_not_verified: { pl: 'Brak wcześniejszej weryfikacji', en: 'Not yet verified' },
-  gen_verify_unverified_only: { pl: 'Tylko niezweryfikowane (seria)', en: 'Only unverified (serial)' },
+  gen_verify_unverified_only: {
+    pl: 'Tylko niezweryfikowane (seria)',
+    en: 'Only unverified (serial)',
+  },
   gen_verify_force_reverify: { pl: 'Wymuś ponowną weryfikację', en: 'Force re-verification' },
-  gen_verify_next_batch_btn: { pl: '⏭️ Weryfikuj kolejne 500 ({count} pozostało)', en: '⏭️ Verify next 500 ({count} left)' },
-  gen_verify_unverified_pool_status: { pl: 'Pozostało niezweryfikowanych pytań: {count}', en: 'Unverified questions left: {count}' },
+  gen_verify_next_batch_btn: {
+    pl: '⏭️ Weryfikuj kolejne 500 ({count} pozostało)',
+    en: '⏭️ Verify next 500 ({count} left)',
+  },
+  gen_verify_unverified_pool_status: {
+    pl: 'Pozostało niezweryfikowanych pytań: {count}',
+    en: 'Unverified questions left: {count}',
+  },
 };
 
 // Make CATEGORY_PRESETS globally available for live-quiz-common.js

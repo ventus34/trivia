@@ -570,8 +570,13 @@ export function applyCategorySelectionPreset(presetName) {
 export function applyRandomCategorySelection() {
   const activeTab = document.querySelector('#category-selection-modal button.active');
   let lang = gameState.currentLanguage || 'pl';
-  if (UI.categorySelectionModal && !UI.categorySelectionModal.classList.contains('hidden') && activeTab) {
-    lang = activeTab.id === 'cat-filter-pl' ? 'pl' : activeTab.id === 'cat-filter-en' ? 'en' : 'all';
+  if (
+    UI.categorySelectionModal &&
+    !UI.categorySelectionModal.classList.contains('hidden') &&
+    activeTab
+  ) {
+    lang =
+      activeTab.id === 'cat-filter-pl' ? 'pl' : activeTab.id === 'cat-filter-en' ? 'en' : 'all';
   }
 
   const pool = gameState.allCategories.filter((c) => lang === 'all' || c.language === lang);
@@ -641,17 +646,20 @@ export function goToWizardStep(step) {
 
     if (s < step) {
       // Completed step
-      circle.className = 'w-8 h-8 rounded-full bg-green-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
+      circle.className =
+        'w-8 h-8 rounded-full bg-green-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
       circle.innerHTML = '✓';
       label.className = 'text-xs font-semibold text-green-650 dark:text-green-400';
     } else if (s === step) {
       // Active step
-      circle.className = 'w-8 h-8 rounded-full bg-indigo-650 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
+      circle.className =
+        'w-8 h-8 rounded-full bg-indigo-650 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
       circle.innerHTML = s;
       label.className = 'text-xs font-bold text-indigo-650 dark:text-indigo-400';
     } else {
       // Future step
-      circle.className = 'w-8 h-8 rounded-full bg-gray-250 text-gray-500 dark:bg-gray-800 dark:text-gray-400 flex items-center justify-center font-semibold text-sm transition-colors duration-300';
+      circle.className =
+        'w-8 h-8 rounded-full bg-gray-250 text-gray-500 dark:bg-gray-800 dark:text-gray-400 flex items-center justify-center font-semibold text-sm transition-colors duration-300';
       circle.innerHTML = s;
       label.className = 'text-xs font-medium text-gray-500 dark:text-gray-400';
     }
@@ -700,15 +708,17 @@ export function goToWizardStep(step) {
  */
 export function validateStep3NextButton() {
   const count = gameState.selectedCategoryIds ? gameState.selectedCategoryIds.length : 0;
-  
+
   // Update step 3 count badge in real-time
   const countBadge = document.getElementById('wizard-category-count');
   if (countBadge) {
     countBadge.textContent = `${count} / 6`;
     if (count === 6) {
-      countBadge.className = 'text-xs font-bold text-green-600 dark:text-green-455 bg-green-50 dark:bg-green-950/40 px-2 py-0.5 rounded-md';
+      countBadge.className =
+        'text-xs font-bold text-green-600 dark:text-green-455 bg-green-50 dark:bg-green-950/40 px-2 py-0.5 rounded-md';
     } else {
-      countBadge.className = 'text-xs font-bold text-indigo-650 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40 px-2 py-0.5 rounded-md';
+      countBadge.className =
+        'text-xs font-bold text-indigo-650 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40 px-2 py-0.5 rounded-md';
     }
   }
 
@@ -724,4 +734,40 @@ export function validateStep3NextButton() {
       nextBtn.style.cursor = 'not-allowed';
     }
   }
+}
+
+/**
+ * Clears the temporary selection inside the categories modal.
+ */
+export function clearCategorySelection() {
+  gameState.tempSelectedCategoryIds = [];
+  const query = UI.categorySearch ? UI.categorySearch.value : '';
+  const activeTab = document.querySelector('#category-selection-modal button.active');
+  const lang =
+    activeTab && activeTab.id === 'cat-filter-pl'
+      ? 'pl'
+      : activeTab && activeTab.id === 'cat-filter-en'
+        ? 'en'
+        : 'all';
+  renderCategorySelectionGrid(query, lang);
+}
+
+/**
+ * Clears the applied category selection and updates the wizard preview.
+ */
+export function clearAllCategories() {
+  gameState.selectedCategoryIds = [];
+  gameState.tempSelectedCategoryIds = [];
+  localStorage.setItem(
+    'trivia_selected_category_ids',
+    JSON.stringify(gameState.selectedCategoryIds)
+  );
+  renderSelectedCategoriesPreview();
+
+  import('./services/api-service.js').then(({ getApiAdapter }) => {
+    const apiAdapter = getApiAdapter();
+    if (apiAdapter && gameState.playMode === 'database') {
+      apiAdapter.loadDatabase('categories');
+    }
+  });
 }

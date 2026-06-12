@@ -713,6 +713,12 @@ export function setupEventListeners() {
     });
   }
 
+  if (UI.btnClearCategories) {
+    UI.btnClearCategories.addEventListener('click', () => {
+      import('./ui.js').then((ui) => ui.clearCategorySelection());
+    });
+  }
+
   if (UI.btnApplyCategorySelection) {
     UI.btnApplyCategorySelection.addEventListener('click', () => {
       gameState.selectedCategoryIds = [...(gameState.tempSelectedCategoryIds || [])];
@@ -817,6 +823,13 @@ export function setupEventListeners() {
   if (randomSelect6WizardBtn) {
     randomSelect6WizardBtn.addEventListener('click', () => {
       import('./ui.js').then((ui) => ui.applyRandomCategorySelection());
+    });
+  }
+
+  // --- Step 3 Wizard Clear Button ---
+  if (UI.btnClearCategoriesWizard) {
+    UI.btnClearCategoriesWizard.addEventListener('click', () => {
+      import('./ui.js').then((ui) => ui.clearAllCategories());
     });
   }
 

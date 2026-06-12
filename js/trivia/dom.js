@@ -134,6 +134,8 @@ export const UI = {
   btnPresetClassicEn: document.getElementById('btn-preset-classic-en'),
   categorySelectionGrid: document.getElementById('category-selection-grid'),
   btnRandomSelect6: document.getElementById('btn-random-select-6'),
+  btnClearCategories: document.getElementById('btn-clear-categories'),
+  btnClearCategoriesWizard: document.getElementById('btn-clear-categories-wizard'),
   btnCancelCategorySelection: document.getElementById('btn-cancel-category-selection'),
   btnApplyCategorySelection: document.getElementById('btn-apply-category-selection'),
   scaleDiceSlider: document.getElementById('scale-dice-slider'),
