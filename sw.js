@@ -39,20 +39,59 @@ const PRECACHE_ASSETS = [
   './databases/categories/general_en.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  
+
   // CDN scripts & styles
   'https://cdn.tailwindcss.com',
   'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
-  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
+  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
 ];
 
-// Install Event - cache all app shell assets
+// Install Event - cache all app shell assets and dynamically precache all question databases
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => {
+    caches
+      .open(CACHE_NAME)
+      .then(async (cache) => {
         console.log('[Service Worker] Precaching app shell...');
-        return cache.addAll(PRECACHE_ASSETS);
+        await cache.addAll(PRECACHE_ASSETS);
+
+        // Dynamically fetch databases/list.json and cache all database categories for offline play
+        try {
+          console.log('[Service Worker] Fetching databases/list.json for dynamic precaching...');
+          const listResponse = await fetch('./databases/list.json');
+          if (listResponse.ok) {
+            const list = await listResponse.json();
+            const categoryUrls = list.map((item) => './' + item.path);
+            console.log(
+              `[Service Worker] Found ${categoryUrls.length} database categories to precache.`
+            );
+
+            // Cache them in batches of 15 to avoid network/socket congestion
+            const batchSize = 15;
+            for (let i = 0; i < categoryUrls.length; i += batchSize) {
+              const batch = categoryUrls.slice(i, i + batchSize);
+              await Promise.all(
+                batch.map(async (url) => {
+                  try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                      await cache.put(url, response);
+                    } else {
+                      console.warn(
+                        `[Service Worker] Failed to cache category: ${url} (status ${response.status})`
+                      );
+                    }
+                  } catch (err) {
+                    console.error(`[Service Worker] Error caching category ${url}:`, err);
+                  }
+                })
+              );
+            }
+            console.log('[Service Worker] Finished dynamic database precaching.');
+          }
+        } catch (err) {
+          console.error('[Service Worker] Failed to load database list for dynamic caching:', err);
+        }
       })
       .then(() => self.skipWaiting())
   );
@@ -61,16 +100,19 @@ self.addEventListener('install', (event) => {
 // Activate Event - clean up old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('[Service Worker] Deleting old cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    }).then(() => self.clients.claim())
+    caches
+      .keys()
+      .then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cacheName) => {
+            if (cacheName !== CACHE_NAME) {
+              console.log('[Service Worker] Deleting old cache:', cacheName);
+              return caches.delete(cacheName);
+            }
+          })
+        );
+      })
+      .then(() => self.clients.claim())
   );
 });
 
@@ -94,14 +136,19 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       caches.open(CACHE_NAME).then((cache) => {
         return cache.match(event.request).then((cachedResponse) => {
-          const fetchPromise = fetch(event.request).then((networkResponse) => {
-            if (networkResponse.status === 200) {
-              cache.put(event.request, networkResponse.clone());
-            }
-            return networkResponse;
-          }).catch((err) => {
-            console.log('[Service Worker] Failed to fetch category from network, serving cached:', err);
-          });
+          const fetchPromise = fetch(event.request)
+            .then((networkResponse) => {
+              if (networkResponse.status === 200) {
+                cache.put(event.request, networkResponse.clone());
+              }
+              return networkResponse;
+            })
+            .catch((err) => {
+              console.log(
+                '[Service Worker] Failed to fetch category from network, serving cached:',
+                err
+              );
+            });
           return cachedResponse || fetchPromise;
         });
       })
