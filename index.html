@@ -50,10 +50,10 @@
 <div id="notification-container" class="fixed top-5 right-5 z-[100] space-y-2"></div>
 
 <!<!-- ================= SETUP SCREEN ================= -->
-<div id="setup-screen" class="w-full max-w-xl p-6 bg-white dark:bg-gray-900 rounded-3xl shadow-2xl flex flex-col transition-all duration-300 min-h-[550px] max-h-[95vh] lg:max-h-[85vh]">
+<div id="setup-screen" class="w-full max-w-3xl p-8 bg-white dark:bg-gray-900 rounded-3xl shadow-2xl flex flex-col transition-all duration-300 min-h-[600px] max-h-[95vh] lg:max-h-[85vh]">
     <!-- Step Indicators -->
     <div class="flex-shrink-0 mb-6">
-        <div class="flex items-center justify-between max-w-md mx-auto relative px-4">
+        <div class="flex items-center justify-between max-w-xl mx-auto relative px-4">
             <!-- Step 1 Indicator -->
             <div class="step-indicator active flex flex-col items-center gap-1.5" data-step="1">
                 <div class="w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md">1</div>
@@ -87,7 +87,7 @@
             </div>
 
             <!-- Language Cards -->
-            <div class="grid grid-cols-2 gap-4 max-w-sm mx-auto py-2">
+            <div class="grid grid-cols-2 gap-4 max-w-md mx-auto py-2">
                 <button id="lang-pl" class="lang-btn flex flex-col items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-800 rounded-2xl bg-white dark:bg-gray-800 hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 hover:border-indigo-300 dark:hover:border-indigo-800 transition-all duration-300 text-center gap-3">
                     <span class="text-4xl">🇵🇱</span>
                     <span class="font-bold text-gray-900 dark:text-white">Polski</span>
@@ -99,7 +99,7 @@
             </div>
 
             <!-- Continuation Section -->
-            <div class="border-t border-gray-100 dark:border-gray-800 pt-6 space-y-3 max-w-sm mx-auto">
+            <div class="border-t border-gray-100 dark:border-gray-800 pt-6 space-y-3 max-w-md mx-auto">
                 <h3 class="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider text-center" data-lang-key="continue_game_title">Masz już zapisaną grę?</h3>
                 <div class="flex flex-col gap-2">
                     <!-- Load Last Game (handled by existing main.js logic to show/hide and bind click) -->
@@ -121,7 +121,7 @@
                 <p class="text-sm text-gray-500 dark:text-gray-400" data-lang-key="players_step_desc">Podaj imiona graczy i wybierz dla nich emoji. Możesz dodać od 1 do 10 graczy.</p>
             </div>
 
-            <div class="max-w-md mx-auto space-y-4">
+            <div class="max-w-xl mx-auto space-y-4">
                 <div class="flex items-center justify-between bg-gray-50 dark:bg-gray-800/50 p-4 rounded-2xl border border-gray-100 dark:border-gray-800">
                     <label for="player-count" data-lang-key="player_count_label" class="text-sm font-semibold text-gray-700 dark:text-gray-300">Liczba:</label>
                     <div class="flex items-center gap-3">
@@ -145,7 +145,7 @@
             </div>
 
             <div class="space-y-5">
-                <div class="flex flex-col gap-3 max-w-md mx-auto w-full">
+                <div class="flex flex-col gap-3 max-w-xl mx-auto w-full">
                     <button type="button" id="open-category-selector-btn" class="w-full flex items-center justify-center gap-2.5 py-3 px-5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm">
                         <span>🏷️</span> <span data-lang-key="choose_6_categories_btn">Wybierz 6 Kategorii do Gry</span>
                     </button>
@@ -206,7 +206,7 @@
             </div>
 
             <!-- Rules Content -->
-            <div class="bg-gray-50 dark:bg-gray-800/50 p-5 rounded-2xl border border-gray-100 dark:border-gray-800 text-left text-sm space-y-4 max-w-lg mx-auto" id="info-box">
+            <div class="bg-gray-50 dark:bg-gray-800/50 p-5 rounded-2xl border border-gray-100 dark:border-gray-800 text-left text-sm space-y-4 max-w-xl mx-auto" id="info-box">
                 <div data-lang-key="infobox_rules_desc" class="text-gray-700 dark:text-gray-300">
                     <ul class="list-disc list-inside space-y-2">
                         <li><b>Cel gry:</b> Jako pierwszy zdobyć 6 kolorowych kółek (cząstek) – po jednym z każdej kategorii.</li>
