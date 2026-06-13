@@ -567,7 +567,7 @@ async function fetchCategorySuggestions() {
       div.className =
         'flex items-start gap-3 bg-slate-950 p-3 rounded-lg border border-slate-800 hover:border-slate-700 transition-colors';
       div.innerHTML = `
-        <input type="checkbox" id="${id}" data-name="${encodeURIComponent(cat.name)}" data-desc="${encodeURIComponent(cat.description || '')}" checked class="mt-1 h-4 w-4 rounded border-slate-700 bg-slate-800 text-indigo-650 focus:ring-indigo-500">
+        <input type="checkbox" id="${id}" data-name="${encodeURIComponent(cat.name)}" data-desc="${encodeURIComponent(cat.description || '')}" checked class="mt-1 h-4 w-4 rounded border-slate-700 bg-slate-800 text-indigo-600 focus:ring-indigo-500">
         <label for="${id}" class="flex-grow cursor-pointer select-none">
           <span class="block text-sm font-bold text-white">${cat.name}</span>
           <span class="block text-xs text-gray-400 mt-0.5">${cat.description || ''}</span>

@@ -634,8 +634,8 @@ export const translations = {
   },
   db_text_paste_btn: { pl: 'Wczytaj wklejony tekst', en: 'Load pasted text' },
   offline_help_text: {
-    pl: 'Pytania będą wczytywane lokalnie z wybranej bazy. Możesz też stworzyć bazę pytań za pomocą <a href="generator.html" class="text-indigo-650 font-bold hover:underline">Generatora Pytań (AI)</a>.',
-    en: 'Questions will be loaded locally from the selected database. You can also create a question database using the <a href="generator.html" class="text-indigo-650 font-bold hover:underline">Question Generator (AI)</a>.',
+    pl: 'Pytania będą wczytywane lokalnie z wybranej bazy. Możesz też stworzyć bazę pytań za pomocą <a href="generator.html" class="text-indigo-600 font-bold hover:underline">Generatora Pytań (AI)</a>.',
+    en: 'Questions will be loaded locally from the selected database. You can also create a question database using the <a href="generator.html" class="text-indigo-600 font-bold hover:underline">Question Generator (AI)</a>.',
   },
   prompt_q_per_category_label: {
     pl: 'Liczba pytań na kategorię:',

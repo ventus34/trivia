@@ -54,10 +54,6 @@
     <!-- Step Indicators -->
     <div class="flex-shrink-0 mb-6">
         <div class="flex items-center justify-between max-w-md mx-auto relative px-4">
-            <!-- Line behind the steps -->
-            <div class="absolute left-4 right-4 top-1/2 -translate-y-1/2 h-0.5 bg-gray-250 dark:bg-gray-750 -z-10" id="wizard-progress-bar"></div>
-            <div class="absolute left-4 top-1/2 -translate-y-1/2 h-0.5 bg-indigo-650 transition-all duration-300 -z-10" id="wizard-progress-fill" style="width: 0%;"></div>
-
             <!-- Step 1 Indicator -->
             <div class="step-indicator active flex flex-col items-center gap-1.5" data-step="1">
                 <div class="w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md">1</div>
@@ -87,7 +83,7 @@
         <div id="wizard-step-1" class="wizard-step-content space-y-6">
             <div class="text-center space-y-2">
                 <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white" data-lang-key="welcome_title">Witaj w grze Trivia!</h1>
-                <p class="text-sm text-gray-500 dark:text-gray-450" data-lang-key="welcome_desc">Klasyczna gra planszowa z pytaniami w nowej odsłonie. Skonfiguruj rozgrywkę w kilku prostych krokach.</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400" data-lang-key="welcome_desc">Klasyczna gra planszowa z pytaniami w nowej odsłonie. Skonfiguruj rozgrywkę w kilku prostych krokach.</p>
             </div>
 
             <!-- Language Cards -->
@@ -107,7 +103,7 @@
                 <h3 class="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider text-center" data-lang-key="continue_game_title">Masz już zapisaną grę?</h3>
                 <div class="flex flex-col gap-2">
                     <!-- Load Last Game (handled by existing main.js logic to show/hide and bind click) -->
-                    <button id="load-game-btn" data-lang-key="load_game_btn" class="hidden w-full py-2.5 px-4 rounded-xl border border-indigo-600 dark:border-indigo-400 text-indigo-650 dark:text-indigo-400 bg-transparent hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 font-bold transition-all text-sm flex items-center justify-center gap-2">
+                    <button id="load-game-btn" data-lang-key="load_game_btn" class="hidden w-full py-2.5 px-4 rounded-xl border border-indigo-600 dark:border-indigo-400 text-indigo-600 dark:text-indigo-400 bg-transparent hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 font-bold transition-all text-sm flex items-center justify-center gap-2">
                         <span>🔄</span> <span>Wczytaj Ostatnią Grę</span>
                     </button>
                     <!-- Load from file button, which clicks the hidden file input -->
@@ -122,7 +118,7 @@
         <div id="wizard-step-2" class="wizard-step-content hidden space-y-6">
             <div class="text-center space-y-2">
                 <h2 class="text-2xl font-bold text-gray-900 dark:text-white" data-lang-key="players_step_title">Dodaj graczy</h2>
-                <p class="text-sm text-gray-500 dark:text-gray-450" data-lang-key="players_step_desc">Podaj imiona graczy i wybierz dla nich emoji. Możesz dodać od 1 do 10 graczy.</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400" data-lang-key="players_step_desc">Podaj imiona graczy i wybierz dla nich emoji. Możesz dodać od 1 do 10 graczy.</p>
             </div>
 
             <div class="max-w-md mx-auto space-y-4">
@@ -145,7 +141,7 @@
         <div id="wizard-step-3" class="wizard-step-content hidden space-y-6">
             <div class="text-center space-y-2">
                 <h2 class="text-2xl font-bold text-gray-900 dark:text-white" data-lang-key="categories_step_title">Wybierz kategorie</h2>
-                <p class="text-sm text-gray-500 dark:text-gray-450" data-lang-key="categories_step_desc">Wybierz dokładnie 6 kategorii pytań, które pojawią się na planszy.</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400" data-lang-key="categories_step_desc">Wybierz dokładnie 6 kategorii pytań, które pojawią się na planszy.</p>
             </div>
 
             <div class="space-y-5">
@@ -153,10 +149,10 @@
                     <button type="button" id="open-category-selector-btn" class="w-full flex items-center justify-center gap-2.5 py-3 px-5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm">
                         <span>🏷️</span> <span data-lang-key="choose_6_categories_btn">Wybierz 6 Kategorii do Gry</span>
                     </button>
-                    <button type="button" id="btn-random-select-6-wizard" class="w-full flex items-center justify-center gap-2.5 py-3 px-5 rounded-xl border border-gray-300 dark:border-gray-750 text-gray-750 dark:text-gray-300 bg-transparent hover:bg-gray-50 dark:hover:bg-gray-850 font-bold transition-all shadow-sm text-sm">
+                    <button type="button" id="btn-random-select-6-wizard" class="w-full flex items-center justify-center gap-2.5 py-3 px-5 rounded-xl border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 font-bold transition-all shadow-sm text-sm">
                         <span>🎲</span> <span data-lang-key="btn_random_select_6">Losuj 6 kategorii</span>
                     </button>
-                    <button type="button" id="btn-clear-categories-wizard" class="w-full flex items-center justify-center gap-2.5 py-3 px-5 rounded-xl border border-red-300 dark:border-red-900/50 text-red-650 dark:text-red-400 bg-transparent hover:bg-red-50 dark:hover:bg-red-950/20 font-bold transition-all shadow-sm text-sm">
+                    <button type="button" id="btn-clear-categories-wizard" class="w-full flex items-center justify-center gap-2.5 py-3 px-5 rounded-xl border border-red-300 dark:border-red-900/50 text-red-650 dark:text-red-400 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/50 font-bold transition-all shadow-sm text-sm">
                         <span>🧹</span> <span data-lang-key="btn_clear_categories">Odznacz wszystkie</span>
                     </button>
                 </div>
@@ -183,17 +179,17 @@
                         <p class="text-[11px] text-gray-400 dark:text-gray-500" data-lang-key="advanced_desc">Załaduj plik JSON lub wklej tekst bazy pytań, aby zagrać z własnymi pytaniami.</p>
                         <div>
                             <label for="db-file-upload" data-lang-key="db_file_upload_label" class="block text-[11px] font-semibold text-gray-500 dark:text-gray-400">Wgraj plik bazy pytań (.json):</label>
-                            <input type="file" id="db-file-upload" accept=".json" class="mt-1 block w-full px-2 py-1.5 bg-white dark:bg-gray-855 border border-gray-300 dark:border-gray-750 rounded-md text-xs">
+                            <input type="file" id="db-file-upload" accept=".json" class="mt-1 block w-full px-2 py-1.5 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md text-xs">
                         </div>
                         <div class="relative flex py-1 items-center">
-                            <div class="flex-grow border-t border-gray-200 dark:border-gray-850"></div>
+                            <div class="flex-grow border-t border-gray-200 dark:border-gray-800"></div>
                             <span class="flex-shrink mx-3 text-gray-400 dark:text-gray-600 text-[10px] font-semibold uppercase">lub</span>
-                            <div class="flex-grow border-t border-gray-200 dark:border-gray-850"></div>
+                            <div class="flex-grow border-t border-gray-200 dark:border-gray-800"></div>
                         </div>
                         <div>
                             <label for="db-text-paste" data-lang-key="db_text_paste_label" class="block text-[11px] font-semibold text-gray-500 dark:text-gray-400">Wklej tekst bazy pytań (JSON):</label>
-                            <textarea id="db-text-paste" data-lang-key="db_text_paste_placeholder" rows="3" placeholder="Wklej obiekt JSON bazy pytań..." class="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-855 border border-gray-300 dark:border-gray-750 rounded-md text-xs font-mono"></textarea>
-                            <button type="button" id="db-text-paste-btn" data-lang-key="db_text_paste_btn" class="mt-2 w-full py-2 px-3 border border-transparent rounded-md shadow-sm text-xs font-medium text-white bg-indigo-650 hover:bg-indigo-700 transition-colors themed-button">
+                            <textarea id="db-text-paste" data-lang-key="db_text_paste_placeholder" rows="3" placeholder="Wklej obiekt JSON bazy pytań..." class="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-md text-xs font-mono"></textarea>
+                            <button type="button" id="db-text-paste-btn" data-lang-key="db_text_paste_btn" class="mt-2 w-full py-2 px-3 border border-transparent rounded-md shadow-sm text-xs font-medium text-white bg-indigo-600 hover:bg-indigo-700 transition-colors themed-button">
                                 Wczytaj wklejony tekst
                             </button>
                         </div>
@@ -206,7 +202,7 @@
         <div id="wizard-step-4" class="wizard-step-content hidden space-y-6">
             <div class="text-center space-y-2">
                 <h2 class="text-2xl font-bold text-gray-900 dark:text-white" data-lang-key="infobox_rules_title">📜 Zasady Gry</h2>
-                <p class="text-sm text-gray-500 dark:text-gray-455" data-lang-key="rules_step_desc">Zapoznaj się z podstawowymi zasadami przed rozpoczęciem gry.</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400" data-lang-key="rules_step_desc">Zapoznaj się z podstawowymi zasadami przed rozpoczęciem gry.</p>
             </div>
 
             <!-- Rules Content -->
@@ -226,11 +222,11 @@
 
     <!-- Wizard Footer / Navigation Buttons -->
     <div class="flex-shrink-0 mt-6 pt-4 border-t border-gray-150 dark:border-gray-800 flex justify-between items-center">
-        <button id="wizard-back-btn" class="invisible px-5 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 text-gray-750 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all text-sm flex items-center gap-1.5">
+        <button id="wizard-back-btn" class="invisible px-5 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all text-sm flex items-center gap-1.5">
             <span>◀</span> <span data-lang-key="wizard_back_btn">Wstecz</span>
         </button>
         
-        <button id="wizard-next-btn" class="px-6 py-2.5 rounded-xl text-white bg-indigo-650 hover:bg-indigo-700 active:bg-indigo-800 font-bold transition-all shadow-md text-sm flex items-center gap-1.5">
+        <button id="wizard-next-btn" class="px-6 py-2.5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm flex items-center gap-1.5">
             <span data-lang-key="wizard_next_btn">Dalej</span> <span>➔</span>
         </button>
         
@@ -380,7 +376,7 @@
             
             <!-- Selection Status & Quick Presets -->
             <div class="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto justify-between md:justify-end">
-                <span id="category-selection-counter" class="text-sm font-bold text-indigo-650 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-100 whitespace-nowrap">
+                <span id="category-selection-counter" class="text-sm font-bold text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-100 whitespace-nowrap">
                     Wybrano: 0 / 6
                 </span>
 
@@ -397,15 +393,15 @@
         <!-- Footer -->
         <div class="flex-shrink-0 p-4 border-t border-gray-200 flex justify-between items-center bg-white">
             <div class="flex gap-2">
-                <button id="btn-random-select-6" class="px-3 py-2 border border-gray-300 hover:bg-gray-50 rounded-lg text-sm font-medium transition-colors text-gray-750 flex items-center gap-1.5">
+                <button id="btn-random-select-6" class="px-3 py-2 border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm font-medium transition-colors text-gray-700 dark:text-gray-200 flex items-center gap-1.5">
                     <span>🎲</span> <span data-lang-key="btn_random_select_6">Losuj 6 kategorii</span>
                 </button>
-                <button id="btn-clear-categories" class="px-3 py-2 border border-red-200 hover:bg-red-50 text-red-650 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5">
+                <button id="btn-clear-categories" class="px-3 py-2 border border-red-200 dark:border-red-900/40 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/50 text-red-650 dark:text-red-400 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5">
                     <span>🧹</span> <span data-lang-key="btn_clear_categories">Odznacz wszystkie</span>
                 </button>
             </div>
             <div class="flex gap-3">
-                <button id="btn-cancel-category-selection" class="px-4 py-2 border border-gray-300 hover:bg-gray-50 rounded-lg text-sm font-medium transition-colors text-gray-750" data-lang-key="btn_cancel">
+                <button id="btn-cancel-category-selection" class="px-4 py-2 border border-gray-300 hover:bg-gray-50 rounded-lg text-sm font-medium transition-colors text-gray-700" data-lang-key="btn_cancel">
                     Anuluj
                 </button>
                 <button id="btn-apply-category-selection" class="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-850 text-white rounded-lg text-sm font-bold transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed" disabled data-lang-key="btn_apply">
@@ -543,7 +539,7 @@
             <div>
                 <div class="flex justify-between items-center mb-1">
                     <span data-lang-key="scale_dice">Kostka</span>
-                    <span id="scale-dice-val" class="font-semibold text-indigo-650 dark:text-indigo-400">1.0x</span>
+                    <span id="scale-dice-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
                 </div>
                 <input type="range" id="scale-dice-slider" min="0.5" max="2.0" step="0.1" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
             </div>
@@ -551,7 +547,7 @@
             <div>
                 <div class="flex justify-between items-center mb-1">
                     <span data-lang-key="scale_board">Plansza</span>
-                    <span id="scale-board-val" class="font-semibold text-indigo-650 dark:text-indigo-400">1.0x</span>
+                    <span id="scale-board-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
                 </div>
                 <input type="range" id="scale-board-slider" min="0.5" max="1.5" step="0.05" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
             </div>
@@ -559,7 +555,7 @@
             <div>
                 <div class="flex justify-between items-center mb-1">
                     <span data-lang-key="scale_descriptions">Opisy pod polami</span>
-                    <span id="scale-descriptions-val" class="font-semibold text-indigo-650 dark:text-indigo-400">1.0x</span>
+                    <span id="scale-descriptions-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
                 </div>
                 <input type="range" id="scale-descriptions-slider" min="0.5" max="2.0" step="0.1" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
             </div>
@@ -567,7 +563,7 @@
             <div>
                 <div class="flex justify-between items-center mb-1">
                     <span data-lang-key="scale_question">Karta pytania</span>
-                    <span id="scale-question-val" class="font-semibold text-indigo-650 dark:text-indigo-400">1.0x</span>
+                    <span id="scale-question-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
                 </div>
                 <input type="range" id="scale-question-slider" min="0.5" max="1.5" step="0.05" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
             </div>

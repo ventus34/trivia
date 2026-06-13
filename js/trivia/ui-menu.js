@@ -51,7 +51,7 @@ function initScalingControls() {
       cssVar: '--board-scale',
       slider: UI.scaleBoardSlider,
       label: UI.scaleBoardVal,
-      defaultVal: 1.0,
+      defaultVal: window.innerWidth >= 1024 ? 1.2 : 1.0,
     },
     {
       key: 'trivia_scale_descriptions',

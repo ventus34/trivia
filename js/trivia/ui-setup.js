@@ -338,7 +338,7 @@ export function renderSelectedCategoriesPreview() {
     const langFlag = cat.language === 'pl' ? '🇵🇱' : '🇬🇧';
     badge.innerHTML = `
             <span class="text-[10px]">${langFlag}</span>
-            <span class="truncate text-gray-800 dark:text-gray-200">${cat.name}</span>
+            <span class="text-gray-800 dark:text-gray-200">${cat.name}</span>
         `;
     UI.selectedCategoriesPreview.appendChild(badge);
   });
@@ -649,17 +649,17 @@ export function goToWizardStep(step) {
       circle.className =
         'w-8 h-8 rounded-full bg-green-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
       circle.innerHTML = '✓';
-      label.className = 'text-xs font-semibold text-green-650 dark:text-green-400';
+      label.className = 'text-xs font-semibold text-green-600 dark:text-green-400';
     } else if (s === step) {
       // Active step
       circle.className =
-        'w-8 h-8 rounded-full bg-indigo-650 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md';
+        'w-8 h-8 rounded-full bg-indigo-600 text-white flex items-center justify-center font-semibold text-sm transition-colors duration-300 shadow-md ring-2 ring-indigo-400 dark:ring-indigo-500 ring-offset-2 dark:ring-offset-gray-900';
       circle.innerHTML = s;
-      label.className = 'text-xs font-bold text-indigo-650 dark:text-indigo-400';
+      label.className = 'text-xs font-bold text-indigo-600 dark:text-indigo-400';
     } else {
       // Future step
       circle.className =
-        'w-8 h-8 rounded-full bg-gray-250 text-gray-500 dark:bg-gray-800 dark:text-gray-400 flex items-center justify-center font-semibold text-sm transition-colors duration-300';
+        'w-8 h-8 rounded-full bg-gray-200 text-gray-500 dark:bg-gray-800 dark:text-gray-400 flex items-center justify-center font-semibold text-sm transition-colors duration-300';
       circle.innerHTML = s;
       label.className = 'text-xs font-medium text-gray-500 dark:text-gray-400';
     }
@@ -718,7 +718,7 @@ export function validateStep3NextButton() {
         'text-xs font-bold text-green-600 dark:text-green-455 bg-green-50 dark:bg-green-950/40 px-2 py-0.5 rounded-md';
     } else {
       countBadge.className =
-        'text-xs font-bold text-indigo-650 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40 px-2 py-0.5 rounded-md';
+        'text-xs font-bold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/40 px-2 py-0.5 rounded-md';
     }
   }
 
