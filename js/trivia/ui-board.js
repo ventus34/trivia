@@ -74,10 +74,83 @@ export function renderCategoryLegend() {
   UI.categoryLegend.innerHTML = '';
   gameState.categories.forEach((cat, i) => {
     const legendItem = document.createElement('div');
-    legendItem.className = 'flex items-center gap-2';
+    legendItem.className = 'flex items-center gap-2 category-legend-item';
     legendItem.id = `legend-cat-${i}`;
     legendItem.innerHTML = `<div class="w-4 h-4 rounded-full" style="background-color: ${CONFIG.CATEGORY_COLORS[i]}"></div><span>${cat}</span>`;
     UI.categoryLegend.appendChild(legendItem);
+  });
+}
+
+function hexToRgba(hex, alpha) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+/**
+ * Highlights categories in the legend that correspond to the destination squares,
+ * and dims the rest.
+ * @param {string[]} destinationIds - Array of square IDs the player can move to.
+ */
+export function highlightAvailableCategories(destinationIds) {
+  const availableIndices = new Set();
+  let hasHub = false;
+
+  destinationIds.forEach((id) => {
+    const square = gameState.board.find((s) => s.id === parseInt(id));
+    if (square) {
+      if (square.type === CONFIG.SQUARE_TYPES.HUB) {
+        hasHub = true;
+      } else if (square.categoryIndex !== null && square.categoryIndex !== undefined) {
+        availableIndices.add(square.categoryIndex);
+      }
+    }
+  });
+
+  const allIndices = [0, 1, 2, 3, 4, 5];
+  const activeSet = hasHub ? new Set(allIndices) : availableIndices;
+
+  if (activeSet.size === 0) {
+    resetCategoryLegendHighlights();
+    return;
+  }
+
+  allIndices.forEach((i) => {
+    const el = document.getElementById(`legend-cat-${i}`);
+    if (el) {
+      if (activeSet.has(i)) {
+        el.classList.remove('dimmed');
+        el.classList.add('active-highlight');
+
+        const color = CONFIG.CATEGORY_COLORS[i];
+        el.style.setProperty('--legend-highlight-color', color);
+        el.style.setProperty('--legend-highlight-glow', hexToRgba(color, 0.35));
+        el.style.setProperty('--legend-highlight-bg', hexToRgba(color, 0.12));
+      } else {
+        el.classList.remove('active-highlight');
+        el.classList.add('dimmed');
+        el.style.removeProperty('--legend-highlight-color');
+        el.style.removeProperty('--legend-highlight-glow');
+        el.style.removeProperty('--legend-highlight-bg');
+      }
+    }
+  });
+}
+
+/**
+ * Resets the category legend items to their normal state (no highlights, no dimming).
+ */
+export function resetCategoryLegendHighlights() {
+  const allIndices = [0, 1, 2, 3, 4, 5];
+  allIndices.forEach((i) => {
+    const el = document.getElementById(`legend-cat-${i}`);
+    if (el) {
+      el.classList.remove('dimmed', 'active-highlight');
+      el.style.removeProperty('--legend-highlight-color');
+      el.style.removeProperty('--legend-highlight-glow');
+      el.style.removeProperty('--legend-highlight-bg');
+    }
   });
 }
 

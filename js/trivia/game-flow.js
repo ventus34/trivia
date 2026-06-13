@@ -8,7 +8,7 @@ import { gameState, setState } from './state.js';
 import { UI } from './dom.js';
 import { createBoardLayout, findPossibleMoves } from './board.js';
 import { promptCategoryChoice, hideModal, showVerificationPopup, showModal } from './ui.js';
-import { renderBoard, animateDiceRoll, animatePawnMovement } from './ui-board.js';
+import { renderBoard, animateDiceRoll, animatePawnMovement, highlightAvailableCategories, resetCategoryLegendHighlights } from './ui-board.js';
 import { renderExplanation } from './explanations.js';
 import { saveGameState, loadGameState, restoreGameState } from './persistence.js';
 import { notify } from './error-bus.js';
@@ -236,6 +236,13 @@ export async function askQuestion(forcedCategoryIndex = null) {
   }
 }
 
+function hexToRgba(hex, alpha) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
 /**
  * Handles the dice roll action, calculates possible moves, and highlights them.
  */
@@ -271,46 +278,27 @@ export async function rollDice() {
       if (el) {
         el.classList.add('highlighted-move');
 
+        // Set category color CSS variables for board glow
         const square = gameState.board.find((s) => s.id === parseInt(id));
         if (square) {
-          let categoryName = '';
+          let color = '#10b981'; // default emerald for roll again
           if (square.type === CONFIG.SQUARE_TYPES.HUB) {
-            categoryName =
-              gameState.currentLanguage === 'pl' ? 'Wybierz kategorię' : 'Choose category';
-          } else if (square.type === CONFIG.SQUARE_TYPES.ROLL_AGAIN) {
-            categoryName = translations.roll_again[gameState.currentLanguage];
+            color = '#ffffff'; // white for hub
           } else if (square.categoryIndex !== null && square.categoryIndex !== undefined) {
-            categoryName = gameState.categories[square.categoryIndex];
+            color = CONFIG.CATEGORY_COLORS[square.categoryIndex];
           }
 
-          if (categoryName) {
-            const label = document.createElement('span');
-            label.className = 'move-category-label';
-            label.textContent = categoryName;
-
-            const dx = square.pos.x - 50;
-            const dy = square.pos.y - 50;
-            const dist = Math.sqrt(dx * dx + dy * dy);
-
-            let labelX = square.pos.x;
-            let labelY = square.pos.y;
-
-            if (dist > 0) {
-              const ux = dx / dist;
-              const uy = dy / dist;
-              labelX += ux * 6.5;
-              labelY += uy * 6.5;
-            } else {
-              labelY += 6.5;
-            }
-
-            label.style.left = `${labelX}%`;
-            label.style.top = `${labelY}%`;
-            UI.boardElement.appendChild(label);
-          }
+          el.style.setProperty('--highlight-color', color);
+          el.style.setProperty('--highlight-glow-outer', hexToRgba(color, 0.45));
+          el.style.setProperty('--highlight-glow-inner', hexToRgba(color, 0.4));
+          el.style.setProperty('--highlight-glow-outer-pulse', hexToRgba(color, 0.6));
+          el.style.setProperty('--highlight-glow-inner-pulse', hexToRgba(color, 0.8));
         }
       }
     });
+
+    // Highlight available categories in the legend below the board
+    highlightAvailableCategories(destinationIds);
   } else {
     nextTurn();
   }
@@ -328,8 +316,16 @@ export async function handleSquareClick(squareId) {
 
   document
     .querySelectorAll('.highlighted-move')
-    .forEach((el) => el.classList.remove('highlighted-move'));
+    .forEach((el) => {
+      el.classList.remove('highlighted-move');
+      el.style.removeProperty('--highlight-color');
+      el.style.removeProperty('--highlight-glow-outer');
+      el.style.removeProperty('--highlight-glow-inner');
+      el.style.removeProperty('--highlight-glow-outer-pulse');
+      el.style.removeProperty('--highlight-glow-inner-pulse');
+    });
   document.querySelectorAll('.move-category-label').forEach((label) => label.remove());
+  resetCategoryLegendHighlights();
   setState({ isAwaitingMove: false }, 'state:move');
   UI.gameMessageDiv.textContent = '';
 

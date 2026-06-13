@@ -530,18 +530,20 @@ export const translations = {
   infobox_rules_desc: {
     pl: `
             <ul class="list-disc list-inside space-y-1 mt-1 mb-2 text-slate-600">
-                <li><b>Cel gry:</b> Jako pierwszy zdobyć 6 kolorowych kółek – po jednym z każdej kategorii.</li>
-                <li><b>Tura gracza:</b> Rzuć kostką, przesuń pionek i odpowiedz na pytanie z kategorii pola, na którym staniesz.</li>
-                <li><b>Zdobywanie kółek:</b> Poprawna odpowiedź na "polu głównym" (duże pole na końcu ramienia) nagradzana jest kółkiem w kolorze tego pola.</li>
-                <li><b>Pola specjalne:</b> Pole centralne ("piasta") pozwala wybrać dowolną kategorię, a pola "Rzuć ponownie" dają dodatkowy ruch.</li>
+                <li><b>Cel gry:</b> Jako pierwszy zdobyć 6 kolorowych kółek (cząstek) – po jednym z każdej kategorii.</li>
+                <li><b>Tura gracza:</b> Rzuć kostką, przesuń pionek o wyrzuconą liczbę oczek i odpowiedz na pytanie z kategorii pola, na którym staniesz. Poprawna odpowiedź pozwala rzucać dalej.</li>
+                <li><b>Zdobywanie kółek:</b> Poprawna odpowiedź na "polu głównym / HQ" (duże pole na końcu ramienia) nagradzana jest kółkiem w kolorze tego pola.</li>
+                <li><b>Białe pola ("Rzuć ponownie"):</b> Wszystkie białe/szare pola na zewnętrznym pierścieniu (poza polem centralnym) to pola specjalne – stanięcie na nich natychmiast daje dodatkowy rzut kostką.</li>
+                <li><b>Pole centralne ("Piasta"):</b> Pozwala wybrać dowolną kategorię pytania, na które chcesz odpowiedzieć.</li>
             </ul>
         `,
     en: `
             <ul class="list-disc list-inside space-y-1 mt-1 mb-2 text-slate-600">
-                <li><b>Objective:</b> Be the first to collect a colored disc from each of the six categories.</li>
-                <li><b>Gameplay:</b> Roll the die, move your pawn, and answer the question for the category you land on.</li>
-                <li><b>Earning Discs:</b> Correctly answer a question on a category "HQ" (Headquarters) to earn that category's disc.</li>
-                <li><b>Special Squares:</b> The central "Hub" lets you choose any category, while "Roll Again" squares grant an extra turn.</li>
+                <li><b>Objective:</b> Be the first to collect a colored disc (wedge) from each of the six categories.</li>
+                <li><b>Gameplay:</b> Roll the die, move your pawn, and answer the question for the category you land on. A correct answer lets you keep rolling.</li>
+                <li><b>Earning Discs:</b> Correctly answer a question on a category "HQ" (large round space at the end of the spoke) to earn that category's disc.</li>
+                <li><b>White Squares ("Roll Again"):</b> All white/light-gray squares on the outer ring (excluding the center hub) are special spaces – landing on them immediately grants an extra roll.</li>
+                <li><b>Central Square ("Hub"):</b> Landing on the center space allows you to choose any category you want to answer.</li>
             </ul>
         `,
   },
@@ -685,8 +687,8 @@ export const translations = {
   },
   rules_step_title: { pl: 'Wyjaśnienie zasad', en: 'Game rules' },
   rules_step_desc: {
-    pl: 'Zapoznaj się z podstawowymi zasadami przed wejściem na planszę.',
-    en: 'Familiarize yourself with the basic rules before entering the board.',
+    pl: 'Zapoznaj się z podstawowymi zasadami przed rozpoczęciem gry.',
+    en: 'Familiarize yourself with the basic rules before starting the game.',
   },
   step_lang: { pl: 'Język', en: 'Language' },
   step_players: { pl: 'Gracze', en: 'Players' },
