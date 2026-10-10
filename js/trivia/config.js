@@ -446,7 +446,16 @@ export const translations = {
   },
   players_label: { pl: 'Gracze', en: 'Players' },
   player_count_label: { pl: 'Liczba:', en: 'Count:' },
+  player_count_decrease: { pl: 'Zmniejsz liczbę graczy', en: 'Decrease player count' },
+  player_count_increase: { pl: 'Zwiększ liczbę graczy', en: 'Increase player count' },
   player_name_placeholder: { pl: 'Imię Gracza {i}', en: "Player {i}'s Name" },
+  player_name_aria_label: { pl: 'Imię gracza {i}', en: 'Player {i} name' },
+  player_avatar_button: { pl: 'Wybierz emoji gracza {i}', en: 'Choose player {i} emoji' },
+  player_avatar_options: { pl: 'Emoji gracza {i}', en: 'Player {i} emoji options' },
+  player_avatar_option: {
+    pl: 'Ustaw {emoji} jako avatar gracza {i}',
+    en: "Set {emoji} as player {i}'s avatar",
+  },
   start_game_btn: { pl: 'Rozpocznij grę', en: 'Start game' },
   load_game_btn: { pl: 'Wczytaj ostatnią grę', en: 'Load last game' },
   min_categories_alert: {

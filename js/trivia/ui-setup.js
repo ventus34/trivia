@@ -3,10 +3,9 @@
  * Setup screen helpers (language, categories, players, presets).
  */
 
-import { CONFIG, translations, CATEGORY_PRESETS } from './config.js';
+import { CONFIG, translations } from './config.js';
 import { gameState, setState } from './state.js';
 import { UI } from './dom.js';
-import { uiHandlers } from './ui-handlers.js';
 import { notify } from './error-bus.js';
 
 /**
@@ -230,30 +229,62 @@ export function updatePlayerNameInputs() {
       '{i}',
       i + 1
     );
+    nameInput.setAttribute(
+      'aria-label',
+      translations.player_name_aria_label[gameState.currentLanguage].replace('{i}', i + 1)
+    );
 
     const emojiPickerDiv = document.createElement('div');
     emojiPickerDiv.className = 'emoji-picker';
     const emojiButton = document.createElement('button');
+    emojiButton.type = 'button';
     emojiButton.className = 'emoji-button';
     emojiButton.textContent = CONFIG.EMOJI_OPTIONS[i % CONFIG.EMOJI_OPTIONS.length];
     const emojiPanel = document.createElement('div');
     emojiPanel.className = 'emoji-panel';
+    emojiPanel.id = `player-${i + 1}-emoji-options`;
+    emojiPanel.setAttribute('role', 'group');
+    emojiPanel.setAttribute(
+      'aria-label',
+      translations.player_avatar_options[gameState.currentLanguage].replace('{i}', i + 1)
+    );
+    emojiButton.setAttribute('aria-haspopup', 'true');
+    emojiButton.setAttribute('aria-expanded', 'false');
+    emojiButton.setAttribute('aria-controls', emojiPanel.id);
+    emojiButton.setAttribute(
+      'aria-label',
+      translations.player_avatar_button[gameState.currentLanguage].replace('{i}', i + 1)
+    );
 
     CONFIG.EMOJI_OPTIONS.forEach((emoji) => {
-      const option = document.createElement('span');
+      const option = document.createElement('button');
+      option.type = 'button';
       option.className = 'emoji-option';
       option.textContent = emoji;
-      option.onclick = () => {
+      option.setAttribute(
+        'aria-label',
+        translations.player_avatar_option[gameState.currentLanguage]
+          .replace('{emoji}', emoji)
+          .replace('{i}', i + 1)
+      );
+      option.setAttribute('aria-pressed', String(emoji === emojiButton.textContent));
+      option.addEventListener('click', () => {
         emojiButton.textContent = emoji;
+        emojiPanel.querySelectorAll('.emoji-option').forEach((candidate) => {
+          candidate.setAttribute('aria-pressed', String(candidate === option));
+        });
         emojiPanel.classList.remove('active');
-      };
+        emojiButton.setAttribute('aria-expanded', 'false');
+        emojiButton.focus();
+      });
       emojiPanel.appendChild(option);
     });
 
-    emojiButton.onclick = (e) => {
+    emojiButton.addEventListener('click', (e) => {
       e.preventDefault();
-      emojiPanel.classList.toggle('active');
-    };
+      const isOpen = emojiPanel.classList.toggle('active');
+      emojiButton.setAttribute('aria-expanded', String(isOpen));
+    });
 
     emojiPickerDiv.appendChild(emojiButton);
     emojiPickerDiv.appendChild(emojiPanel);

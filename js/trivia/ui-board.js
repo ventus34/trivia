@@ -8,10 +8,54 @@ import { gameState } from './state.js';
 import { UI } from './dom.js';
 import { uiHandlers } from './ui-handlers.js';
 
+let boardInteractionObserver;
+
+function squareLabel(square) {
+  const isEnglish = gameState.currentLanguage === 'en';
+  const category =
+    square.categoryIndex !== null && square.categoryIndex !== undefined
+      ? gameState.categories[square.categoryIndex]
+      : '';
+  const typeLabels = isEnglish
+    ? {
+        [CONFIG.SQUARE_TYPES.HQ]: 'headquarters',
+        [CONFIG.SQUARE_TYPES.HUB]: 'central hub',
+        [CONFIG.SQUARE_TYPES.ROLL_AGAIN]: 'roll again square',
+      }
+    : {
+        [CONFIG.SQUARE_TYPES.HQ]: 'pole główne',
+        [CONFIG.SQUARE_TYPES.HUB]: 'centrum planszy',
+        [CONFIG.SQUARE_TYPES.ROLL_AGAIN]: 'pole rzuć ponownie',
+      };
+  const squareType = typeLabels[square.type] || '';
+  const details = [category, squareType].filter(Boolean).join(', ');
+  const selected = gameState.isAwaitingMove && document.getElementById(`square-${square.id}`)?.classList.contains('highlighted-move');
+
+  if (isEnglish) {
+    return `Square ${square.id}${details ? `, ${details}` : ''}. ${selected ? 'Available move.' : 'Roll the die to show available moves.'}`;
+  }
+  return `Pole ${square.id}${details ? `, ${details}` : ''}. ${selected ? 'Możliwy ruch.' : 'Rzuć kostką, aby zobaczyć możliwe ruchy.'}`;
+}
+
+function syncBoardSquareControls() {
+  gameState.board?.forEach((square) => {
+    const squareEl = document.getElementById(`square-${square.id}`);
+    if (!squareEl) return;
+
+    const isAvailable =
+      gameState.isAwaitingMove && squareEl.classList.contains('highlighted-move');
+    squareEl.tabIndex = isAvailable ? 0 : -1;
+    squareEl.setAttribute('aria-disabled', String(!isAvailable));
+    squareEl.setAttribute('aria-label', squareLabel(square));
+    squareEl.toggleAttribute('data-controller-focus', isAvailable);
+  });
+}
+
 /**
  * Renders the game board squares and their connections as an SVG overlay.
  */
 export function renderBoard() {
+  boardInteractionObserver?.disconnect();
   UI.boardElement.innerHTML = '';
   const svgNS = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(svgNS, 'svg');
@@ -21,9 +65,14 @@ export function renderBoard() {
   const drawnConnections = new Set();
 
   gameState.board.forEach((square) => {
-    const squareEl = document.createElement('div');
+    const squareEl = document.createElement('button');
+    squareEl.type = 'button';
     squareEl.className = 'board-square';
     squareEl.id = `square-${square.id}`;
+    squareEl.tabIndex = -1;
+    squareEl.setAttribute('aria-disabled', 'true');
+    squareEl.setAttribute('aria-label', squareLabel(square));
+    squareEl.setAttribute('data-board-square', '');
     squareEl.style.left = `calc(${square.pos.x}% - 3%)`;
     squareEl.style.top = `calc(${square.pos.y}% - 3%)`;
 
@@ -36,7 +85,7 @@ export function renderBoard() {
       squareEl.style.borderRadius = '50%';
     }
     if (square.type === CONFIG.SQUARE_TYPES.ROLL_AGAIN) {
-      squareEl.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><path d="M16 8h.01"></path><path d="M12 12h.01"></path><path d="M8 16h.01"></path></svg>`;
+      squareEl.innerHTML = `<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><path d="M16 8h.01"></path><path d="M12 12h.01"></path><path d="M8 16h.01"></path></svg>`;
     }
     if (square.type === CONFIG.SQUARE_TYPES.HUB) {
       squareEl.style.transform = 'scale(1.2)';
@@ -65,6 +114,17 @@ export function renderBoard() {
       }
     });
   });
+
+  syncBoardSquareControls();
+  const MutationObserverConstructor = window.MutationObserver;
+  if (MutationObserverConstructor) {
+    boardInteractionObserver = new MutationObserverConstructor(syncBoardSquareControls);
+    boardInteractionObserver.observe(UI.boardElement, {
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['class'],
+    });
+  }
 }
 
 /**
@@ -76,7 +136,13 @@ export function renderCategoryLegend() {
     const legendItem = document.createElement('div');
     legendItem.className = 'flex items-center gap-2 category-legend-item';
     legendItem.id = `legend-cat-${i}`;
-    legendItem.innerHTML = `<div class="w-4 h-4 rounded-full" style="background-color: ${CONFIG.CATEGORY_COLORS[i]}"></div><span>${cat}</span>`;
+    const swatch = document.createElement('span');
+    swatch.className = 'w-4 h-4 rounded-full';
+    swatch.style.backgroundColor = CONFIG.CATEGORY_COLORS[i];
+    swatch.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span');
+    label.textContent = cat;
+    legendItem.append(swatch, label);
     UI.categoryLegend.appendChild(legendItem);
   });
 }
@@ -157,20 +223,75 @@ export function resetCategoryLegendHighlights() {
 /**
  * Renders player tokens on their current board positions.
  */
+function getTokenStackOffsets(count) {
+  if (count === 1) return [{ x: 0, y: 0 }];
+  if (count === 2) return [{ x: -1.6, y: 0 }, { x: 1.6, y: 0 }];
+  if (count === 3) {
+    return [
+      { x: 0, y: -1.5 },
+      { x: -1.35, y: 1 },
+      { x: 1.35, y: 1 },
+    ];
+  }
+  if (count === 4) {
+    return [
+      { x: -1.25, y: -1.25 },
+      { x: 1.25, y: -1.25 },
+      { x: -1.25, y: 1.25 },
+      { x: 1.25, y: 1.25 },
+    ];
+  }
+
+  const columns = Math.min(4, Math.ceil(Math.sqrt(count * 1.2)));
+  const rows = Math.ceil(count / columns);
+  const columnStep = count <= 6 ? 2.5 : 2.15;
+  const rowStep = count <= 6 ? 2.5 : 2.2;
+
+  return Array.from({ length: count }, (_, index) => {
+    const row = Math.floor(index / columns);
+    const rowStart = row * columns;
+    const itemsInRow = Math.min(columns, count - rowStart);
+    const column = index - rowStart;
+    return {
+      x: (column - (itemsInRow - 1) / 2) * columnStep,
+      y: (row - (rows - 1) / 2) * rowStep,
+    };
+  });
+}
+
+function applyPlayerTokenLayout(playerPositions) {
+  const tokensBySquare = new Map();
+  playerPositions.forEach((squareId, playerIndex) => {
+    const square = gameState.board.find((item) => item.id === squareId);
+    if (!square || !document.getElementById(`token-${playerIndex}`)) return;
+
+    if (!tokensBySquare.has(squareId)) tokensBySquare.set(squareId, []);
+    tokensBySquare.get(squareId).push(playerIndex);
+  });
+
+  tokensBySquare.forEach((playerIndexes, squareId) => {
+    const square = gameState.board.find((item) => item.id === squareId);
+    const offsets = getTokenStackOffsets(playerIndexes.length);
+    playerIndexes.forEach((playerIndex, stackIndex) => {
+      const tokenEl = document.getElementById(`token-${playerIndex}`);
+      const offset = offsets[stackIndex];
+      tokenEl.style.left = `${square.pos.x - 1.75 + offset.x}%`;
+      tokenEl.style.top = `${square.pos.y - 1.75 + offset.y}%`;
+    });
+  });
+}
+
 export function renderPlayerTokens() {
   document.querySelectorAll('.player-token').forEach((token) => token.remove());
   gameState.players.forEach((player, playerIndex) => {
-    const square = gameState.board.find((s) => s.id === player.position);
-    if (!square) return;
-
     const tokenEl = document.createElement('div');
     tokenEl.className = 'player-token';
     tokenEl.id = `token-${playerIndex}`;
-    tokenEl.style.left = `calc(${square.pos.x}% - 1.75%)`;
-    tokenEl.style.top = `calc(${square.pos.y}% - 1.75%)`;
+    tokenEl.setAttribute('aria-hidden', 'true');
     tokenEl.textContent = player.emoji;
     UI.boardElement.appendChild(tokenEl);
   });
+  applyPlayerTokenLayout(gameState.players.map((player) => player.position));
 }
 
 /**
@@ -192,21 +313,56 @@ export function updateUI() {
   if (!currentPlayer) {
     return;
   }
+  const isEnglish = gameState.currentLanguage === 'en';
+  UI.boardElement.setAttribute(
+    'aria-label',
+    isEnglish ? 'Trivia board. Choose a highlighted square after rolling.' : 'Plansza Trivia. Po rzucie wybierz podświetlone pole.'
+  );
+  UI.diceElement.setAttribute(
+    'aria-label',
+    isEnglish ? 'Roll the die to move your token' : 'Rzuć kostką, aby przesunąć pionek'
+  );
   UI.currentPlayerEmojiSpan.textContent = currentPlayer.emoji;
   UI.currentPlayerNameDiv.textContent = currentPlayer.name;
   UI.currentPlayerNameDiv.style.color = currentPlayer.color;
+  syncBoardSquareControls();
+  UI.playerScoresContainer.setAttribute('role', 'list');
+  UI.playerScoresContainer.setAttribute(
+    'aria-label',
+    isEnglish ? 'Player scores and collected categories' : 'Wyniki graczy i zdobyte kategorie'
+  );
   UI.playerScoresContainer.innerHTML = '';
 
   gameState.players.forEach((player) => {
     const scoreDiv = document.createElement('div');
     scoreDiv.className = 'p-2 rounded-lg flex items-center justify-between';
+    scoreDiv.setAttribute('role', 'listitem');
     scoreDiv.style.border = `1px solid ${player.color}`;
-    let wedgesHTML = '';
+    const earnedCategories = gameState.categories.filter((_, index) => player.wedges.includes(index));
+    const isEnglish = gameState.currentLanguage === 'en';
+    const missingCategories = gameState.categories.filter((_, index) => !player.wedges.includes(index));
+    const progressLabel = isEnglish
+      ? `${player.name}: ${earnedCategories.length} of ${gameState.categories.length} category wedges. Earned: ${earnedCategories.join(', ') || 'none'}. Still needed: ${missingCategories.join(', ') || 'none'}.`
+      : `${player.name}: ${earnedCategories.length} z ${gameState.categories.length} kategorii. Zdobyte: ${earnedCategories.join(', ') || 'brak'}. Do zdobycia: ${missingCategories.join(', ') || 'brak'}.`;
+    scoreDiv.setAttribute('aria-label', progressLabel);
+
+    const playerLabel = document.createElement('p');
+    playerLabel.className = 'font-semibold';
+    playerLabel.style.color = player.color;
+    playerLabel.textContent = `${player.emoji} ${player.name}`;
+    playerLabel.setAttribute('aria-hidden', 'true');
+
+    const wedgeList = document.createElement('div');
+    wedgeList.setAttribute('aria-hidden', 'true');
     gameState.categories.forEach((cat, i) => {
       const hasWedge = player.wedges.includes(i);
-      wedgesHTML += `<span class="category-wedge" style="background-color: ${hasWedge ? CONFIG.CATEGORY_COLORS[i] : '#e5e7eb'};" title="${cat}"></span>`;
+      const wedge = document.createElement('span');
+      wedge.className = 'category-wedge';
+      wedge.style.backgroundColor = hasWedge ? CONFIG.CATEGORY_COLORS[i] : '#e5e7eb';
+      wedge.title = cat;
+      wedgeList.appendChild(wedge);
     });
-    scoreDiv.innerHTML = `<p class="font-semibold" style="color: ${player.color};">${player.emoji} ${player.name}</p><div>${wedgesHTML}</div>`;
+    scoreDiv.append(playerLabel, wedgeList);
     UI.playerScoresContainer.appendChild(scoreDiv);
   });
 
@@ -302,12 +458,11 @@ function easeOutCubic(t) {
  */
 export async function animatePawnMovement(path) {
   const playerIndex = gameState.currentPlayerIndex;
-  const tokenEl = document.getElementById(`token-${playerIndex}`);
+  const playerPositions = gameState.players.map((player) => player.position);
 
   for (const squareId of path) {
-    const newSquare = gameState.board.find((s) => s.id === squareId);
-    tokenEl.style.left = `calc(${newSquare.pos.x}% - 1.75%)`;
-    tokenEl.style.top = `calc(${newSquare.pos.y}% - 1.75%)`;
+    playerPositions[playerIndex] = squareId;
+    applyPlayerTokenLayout(playerPositions);
     await new Promise((resolve) => setTimeout(resolve, CONFIG.ANIMATION_DELAY_MS));
   }
 }

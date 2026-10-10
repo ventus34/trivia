@@ -533,6 +533,7 @@ export function setupEventListeners() {
     setLanguage('pl');
     if (
       gameState.playMode === 'database' &&
+      UI.dbPresetSelect &&
       UI.dbPresetSelect.value === 'databases/general_en.json'
     ) {
       UI.dbPresetSelect.value = 'databases/general_pl.json';
@@ -543,6 +544,7 @@ export function setupEventListeners() {
     setLanguage('en');
     if (
       gameState.playMode === 'database' &&
+      UI.dbPresetSelect &&
       UI.dbPresetSelect.value === 'databases/general_pl.json'
     ) {
       UI.dbPresetSelect.value = 'databases/general_en.json';

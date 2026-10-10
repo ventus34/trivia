@@ -33,6 +33,11 @@ The **Trivia** board game is an interactive, fully client-side (serverless) quiz
    - Comprehensive caching strategy via Service Worker (`sw.js`) precaching the entire app shell, CDN resources (Tailwind, JSZip, Google Fonts), and default question databases.
    - Runtime cache with a _Stale-While-Revalidate_ strategy for dynamic categories, enabling offline gameplay for previously played categories while automatically updating when online.
 
+7. **Responsive Play and Accessible Controls**:
+   - The setup wizard, board, player scores, die, and category legend adapt to phone portrait/landscape, desktop, and TV-sized screens without device-specific configuration.
+   - Use Arrow keys or WASD to move focus, Enter/Space to activate, and Escape to close a dialog or return. Standard gamepads use the D-pad or left stick, A to activate, B to go back, and Start to open or close the game menu.
+   - Gamepad input uses the browser Gamepad API. Browsers require a secure context: use `localhost` for local play and HTTPS when hosting on another device.
+
 ---
 
 ## 📁 Project Structure
@@ -62,15 +67,15 @@ The **Trivia** board game is an interactive, fully client-side (serverless) quiz
 Install development dependencies (ESLint, Prettier, Vitest):
 
 ```bash
-npm install
+npm ci
 ```
 
 ### Running Locally
 
-The easiest way to run the game is using a local static server, for example, `http-server`:
+Run the game from a local static server. Python is available on most development machines:
 
 ```bash
-npx http-server -p 8220
+python3 -m http.server 8220
 ```
 
 The game will be available at: `http://127.0.0.1:8220`.
@@ -173,15 +178,15 @@ Gra planszowa **Trivia** to interaktywna, w pełni kliencka (bezserwerowa) gra q
 Instalacja zależności deweloperskich (ESLint, Prettier, Vitest):
 
 ```bash
-npm install
+npm ci
 ```
 
 ### Uruchomienie lokalne
 
-Najprostszym sposobem na uruchomienie gry jest postawienie lokalnego serwera statycznego, np. `http-server`:
+Uruchom grę przez lokalny serwer statyczny. Python jest dostępny na większości komputerów deweloperskich:
 
 ```bash
-npx http-server -p 8220
+python3 -m http.server 8220
 ```
 
 Gra będzie dostępna pod adresem: `http://127.0.0.1:8220`.
@@ -217,3 +222,10 @@ Sprawdzanie błędów statycznych w kodzie (ESLint):
 ```bash
 npm run lint
 ```
+
+### Sterowanie i ekrany
+
+- Strona dopasowuje układ do telefonu w pionie i poziomie, komputera oraz dużego ekranu TV; nie wymaga ręcznego wyboru urządzenia.
+- Strzałki lub WASD przenoszą fokus, Enter/Spacja aktywują element, a Escape zamyka okno lub cofa.
+- Standardowy kontroler używa krzyżaka lub lewej gałki, A do aktywacji, B do cofania oraz Start do otwierania i zamykania menu gry.
+- Obsługa kontrolera korzysta z Gamepad API przeglądarki. API wymaga bezpiecznego kontekstu: lokalnie używaj `localhost`, a na innym urządzeniu hostuj aplikację przez HTTPS.

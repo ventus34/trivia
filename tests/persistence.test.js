@@ -109,7 +109,7 @@ describe('Persistence Service', () => {
         const mockSaved = {
             gameId: 'game-456',
             players: [{ name: 'Player 2', position: 5 }],
-            categories: ['Kat1']
+            categories: ['Kat1', 'Kat2', 'Kat3', 'Kat4', 'Kat5', 'Kat6']
         };
         global.localStorage.getItem = vi.fn((key) => {
             if (key === 'savedQuizGame') {
@@ -121,5 +121,20 @@ describe('Persistence Service', () => {
         const loaded = loadGameState();
         expect(loaded).not.toBeNull();
         expect(loaded.gameId).toBe('game-456');
+    });
+
+    it('ignores saved games that cannot fit the six-category board', () => {
+        global.localStorage.getItem = vi.fn((key) => {
+            if (key === 'savedQuizGame') {
+                return JSON.stringify({
+                    gameId: 'broken-game',
+                    players: [{ name: 'Player 1', position: 5 }],
+                    categories: ['Only one category']
+                });
+            }
+            return null;
+        });
+
+        expect(loadGameState()).toBeNull();
     });
 });

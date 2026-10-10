@@ -4,11 +4,17 @@
  */
 
 import { CONFIG, translations } from './config.js';
-import { gameState, setState } from './state.js';
+import { gameState, setState, notifyState } from './state.js';
 import { UI } from './dom.js';
 import { createBoardLayout, findPossibleMoves } from './board.js';
 import { promptCategoryChoice, hideModal, showVerificationPopup, showModal } from './ui.js';
-import { renderBoard, animateDiceRoll, animatePawnMovement, highlightAvailableCategories, resetCategoryLegendHighlights } from './ui-board.js';
+import {
+  renderBoard,
+  animateDiceRoll,
+  animatePawnMovement,
+  highlightAvailableCategories,
+  resetCategoryLegendHighlights,
+} from './ui-board.js';
 import { renderExplanation } from './explanations.js';
 import { saveGameState, loadGameState, restoreGameState } from './persistence.js';
 import { notify } from './error-bus.js';
@@ -16,6 +22,36 @@ import { getApiAdapter } from './services/api-service.js';
 
 function generateGameId() {
   return 'game-' + Date.now() + '-' + Math.random().toString(36).substring(2, 9);
+}
+
+function readCategoryTopicHistory() {
+  try {
+    const history = JSON.parse(localStorage.getItem('globalQuizHistory') || '{}');
+    return history && typeof history === 'object' && !Array.isArray(history) ? history : {};
+  } catch (error) {
+    console.warn('Ignoring invalid saved topic history.', error);
+    return {};
+  }
+}
+
+export function validateGameSetup(playerCount, categories) {
+  if (
+    !Number.isInteger(playerCount) ||
+    playerCount < 1 ||
+    playerCount > CONFIG.PLAYER_COLORS.length
+  ) {
+    return 'player-count';
+  }
+
+  if (
+    !Array.isArray(categories) ||
+    categories.length !== 6 ||
+    categories.some((category) => typeof category !== 'string' || !category.trim())
+  ) {
+    return 'categories';
+  }
+
+  return null;
 }
 
 /**
@@ -78,21 +114,35 @@ export function initializeGame() {
     return;
   }
 
-  const playerCount = parseInt(UI.playerCountInput.value);
+  const playerCount = Number(UI.playerCountInput.value);
   const playerInputs = document.querySelectorAll('#player-names-container > .player-entry');
-  const playerNames = Array.from(playerInputs).map(
-    (div) =>
-      div.querySelector('.player-name-input').value ||
-      div.querySelector('.player-name-input').placeholder
-  );
+  const playerNames = Array.from(playerInputs).map((div) => {
+    const input = div.querySelector('.player-name-input');
+    return input?.value?.trim() || input?.placeholder || '';
+  });
   const playerEmojis = Array.from(playerInputs).map(
-    (div) => div.querySelector('.emoji-button').textContent
+    (div) => div.querySelector('.emoji-button')?.textContent || ''
   );
   const categories = Array.from(
     document.querySelectorAll('#categories-container .category-input')
   ).map((input) => input.value.trim());
 
-  if (categories.some((c) => c === '')) {
+  const setupError = validateGameSetup(playerCount, categories);
+  if (setupError === 'player-count') {
+    notify(
+      {
+        title: translations.setup_error_title[gameState.currentLanguage],
+        body:
+          gameState.currentLanguage === 'pl'
+            ? `Liczba graczy musi wynosić od 1 do ${CONFIG.PLAYER_COLORS.length}.`
+            : `Player count must be between 1 and ${CONFIG.PLAYER_COLORS.length}.`,
+      },
+      'error'
+    );
+    return;
+  }
+
+  if (setupError === 'categories') {
     notify(
       {
         title: translations.setup_error_title[gameState.currentLanguage],
@@ -119,7 +169,7 @@ export function initializeGame() {
       gameMode: UI.gameModeSelect.value,
       knowledgeLevel: UI.knowledgeLevelSelect.value,
       currentQuestionData: null,
-      categoryTopicHistory: JSON.parse(localStorage.getItem('globalQuizHistory')) || {},
+      categoryTopicHistory: readCategoryTopicHistory(),
       possiblePaths: {},
     },
     'state:init'
@@ -135,8 +185,10 @@ export function initializeGame() {
   const players = [];
   for (let i = 0; i < playerCount; i++) {
     players.push({
-      name: playerNames[i],
-      emoji: playerEmojis[i],
+      name:
+        playerNames[i] ||
+        (gameState.currentLanguage === 'en' ? `Player ${i + 1}` : `Gracz ${i + 1}`),
+      emoji: playerEmojis[i] || CONFIG.EMOJI_OPTIONS[i % CONFIG.EMOJI_OPTIONS.length],
       position: 0,
       color: CONFIG.PLAYER_COLORS[i],
       wedges: [],
@@ -146,6 +198,9 @@ export function initializeGame() {
 
   createBoardLayout();
   renderBoard();
+  // createBoardLayout emits while the board DOM is still empty. Notify again
+  // after rendering so subscribers create tokens on their initial positions.
+  notifyState('state:init-complete');
   UI.diceResultDiv.classList.add('hint-pulsate');
   UI.setupScreen.classList.add('hidden');
   UI.gameScreen.classList.remove('hidden');
@@ -161,12 +216,21 @@ export function initializeGame() {
  * @param {number|null} [forcedCategoryIndex=null] - The index of a category to use.
  */
 export async function askQuestion(forcedCategoryIndex = null) {
-  setState({ currentForcedCategoryIndex: forcedCategoryIndex }, 'state:question');
+  setState(
+    { currentForcedCategoryIndex: forcedCategoryIndex, currentQuestionData: null },
+    'state:question'
+  );
   const player = gameState.players[gameState.currentPlayerIndex];
-  const square = gameState.board.find((s) => s.id === player.position);
-  const categoryIndex = forcedCategoryIndex !== null ? forcedCategoryIndex : square.categoryIndex;
+  const square = player && gameState.board.find((s) => s.id === player.position);
+  const categoryIndex = forcedCategoryIndex !== null ? forcedCategoryIndex : square?.categoryIndex;
+  if (UI.answerInput) UI.answerInput.value = '';
 
-  if (categoryIndex === null || categoryIndex === undefined) {
+  if (
+    !square ||
+    !Number.isInteger(categoryIndex) ||
+    categoryIndex < 0 ||
+    categoryIndex >= gameState.categories.length
+  ) {
     console.error('Invalid category index on the current square:', square);
     nextTurn();
     return;
@@ -189,17 +253,26 @@ export async function askQuestion(forcedCategoryIndex = null) {
   try {
     const api = getApiAdapter();
     const data = await api.generateQuestion(category);
+    if (!data || typeof data.question !== 'string' || !data.question.trim()) {
+      throw new Error(translations.question_generation_error[gameState.currentLanguage]);
+    }
+    if (typeof data.answer !== 'string' || !data.answer.trim()) {
+      throw new Error(translations.question_generation_error[gameState.currentLanguage]);
+    }
     setState({ currentQuestionData: data }, 'state:question');
     UI.questionTextP.textContent = data.question;
 
     if (gameState.gameMode === 'mcq') {
+      if (!Array.isArray(data.options) || data.options.length < 2) {
+        throw new Error(translations.question_generation_error[gameState.currentLanguage]);
+      }
       UI.answerSection.classList.add('hidden');
       UI.mcqOptionsContainer.classList.remove('hidden');
       data.options.forEach((option) => {
         const button = document.createElement('button');
         button.className =
           'w-full p-3 text-center bg-gray-100 hover:bg-indigo-100 rounded-lg transition-colors flex justify-center items-center';
-        button.innerHTML = `<span>${option}</span>`;
+        button.textContent = option;
         button.onclick = () => handleMcqAnswer(option);
         UI.mcqOptionsContainer.appendChild(button);
       });
@@ -224,15 +297,12 @@ export async function askQuestion(forcedCategoryIndex = null) {
       'error'
     );
 
+    setState({ currentQuestionData: null }, 'state:question');
     UI.llmLoader.classList.add('hidden');
-    UI.questionTextP.textContent =
-      translations.question_generation_error[gameState.currentLanguage];
-    UI.questionContent.classList.remove('hidden');
-    setTimeout(() => {
-      hideModal();
-      UI.diceElement.disabled = false;
-      UI.gameMessageDiv.textContent = translations.roll_error_message[gameState.currentLanguage];
-    }, 10000);
+    UI.questionContent.classList.add('hidden');
+    hideModal();
+    UI.diceElement.disabled = false;
+    UI.gameMessageDiv.textContent = translations.roll_error_message[gameState.currentLanguage];
   }
 }
 
@@ -249,6 +319,7 @@ function hexToRgba(hex, alpha) {
 export async function rollDice() {
   UI.diceResultDiv.classList.remove('hint-pulsate');
   if (UI.diceElement.disabled || gameState.isAwaitingMove) return;
+  if (!gameState.players?.length || !gameState.board?.length) return;
 
   UI.diceElement.disabled = true;
   UI.gameMessageDiv.textContent = '';
@@ -314,16 +385,14 @@ export async function handleSquareClick(squareId) {
   const path = gameState.possiblePaths[squareId];
   if (!path) return;
 
-  document
-    .querySelectorAll('.highlighted-move')
-    .forEach((el) => {
-      el.classList.remove('highlighted-move');
-      el.style.removeProperty('--highlight-color');
-      el.style.removeProperty('--highlight-glow-outer');
-      el.style.removeProperty('--highlight-glow-inner');
-      el.style.removeProperty('--highlight-glow-outer-pulse');
-      el.style.removeProperty('--highlight-glow-inner-pulse');
-    });
+  document.querySelectorAll('.highlighted-move').forEach((el) => {
+    el.classList.remove('highlighted-move');
+    el.style.removeProperty('--highlight-color');
+    el.style.removeProperty('--highlight-glow-outer');
+    el.style.removeProperty('--highlight-glow-inner');
+    el.style.removeProperty('--highlight-glow-outer-pulse');
+    el.style.removeProperty('--highlight-glow-inner-pulse');
+  });
   document.querySelectorAll('.move-category-label').forEach((label) => label.remove());
   resetCategoryLegendHighlights();
   setState({ isAwaitingMove: false }, 'state:move');
@@ -355,6 +424,7 @@ export async function handleSquareClick(squareId) {
  * Proceeds to the next player's turn.
  */
 export function nextTurn() {
+  if (!gameState.players?.length) return;
   const nextIndex = (gameState.currentPlayerIndex + 1) % gameState.players.length;
   setState({ currentPlayerIndex: nextIndex });
 
@@ -460,7 +530,11 @@ export async function handleManualVerification(isCorrect) {
     }
 
     setState({ categoryTopicHistory }, 'state:history');
-    localStorage.setItem('globalQuizHistory', JSON.stringify(categoryTopicHistory));
+    try {
+      localStorage.setItem('globalQuizHistory', JSON.stringify(categoryTopicHistory));
+    } catch (error) {
+      console.warn('Could not save topic history.', error);
+    }
   }
 
   setState(

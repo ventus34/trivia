@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint \"js/**/*.js\"",
-    "format": "prettier --write \"js/**/*.js\" \"templates/**/*.html\" \"css/**/*.css\"",
+    "format": "prettier --write \"js/**/*.js\" \"*.html\" \"*.css\"",
     "test": "vitest run",
     "scan-db": "node scan-databases.js"
   },

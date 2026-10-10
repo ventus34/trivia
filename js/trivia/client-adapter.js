@@ -9,6 +9,28 @@ import { gameState, setState } from './state.js';
 import { translations } from './config.js';
 import { notify } from './error-bus.js';
 
+function readJsonSetting(key, fallback, validate) {
+  try {
+    const storedValue = localStorage.getItem(key);
+    if (storedValue === null) return fallback;
+
+    const value = JSON.parse(storedValue);
+    return validate(value) ? value : fallback;
+  } catch (error) {
+    console.warn(`Ignoring invalid saved setting "${key}".`, error);
+    return fallback;
+  }
+}
+
+function readStringSetting(key, fallback) {
+  try {
+    return localStorage.getItem(key) || fallback;
+  } catch (error) {
+    console.warn(`Could not read saved setting "${key}".`, error);
+    return fallback;
+  }
+}
+
 const clientAdapter = {
   isConfigured() {
     return gameState.loadedDatabase !== null;
@@ -16,13 +38,17 @@ const clientAdapter = {
 
   loadSettings() {
     const savedPlayMode = 'database';
-    const savedDbUrl = localStorage.getItem('trivia_db_url') || 'categories';
+    const savedDbUrl = readStringSetting('trivia_db_url', 'categories');
 
     setState(
       {
         playMode: savedPlayMode,
         databaseUrl: savedDbUrl,
-        askedQuestions: JSON.parse(localStorage.getItem('trivia_asked_questions') || '[]'),
+        askedQuestions: readJsonSetting(
+          'trivia_asked_questions',
+          [],
+          (value) => Array.isArray(value) && value.every((question) => typeof question === 'string')
+        ),
       },
       'state:load-playmode'
     );
@@ -50,10 +76,11 @@ const clientAdapter = {
     }
 
     if (!gameState.selectedCategoryIds || gameState.selectedCategoryIds.length === 0) {
-      const saved = localStorage.getItem('trivia_selected_category_ids');
-      if (saved) {
-        gameState.selectedCategoryIds = JSON.parse(saved);
-      }
+      gameState.selectedCategoryIds = readJsonSetting(
+        'trivia_selected_category_ids',
+        [],
+        (value) => Array.isArray(value) && value.every((id) => typeof id === 'string')
+      );
     }
 
     if (!gameState.selectedCategoryIds || gameState.selectedCategoryIds.length !== 6) {

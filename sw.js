@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trivia-board-game-v1';
+const CACHE_NAME = 'trivia-board-game-v2';
 
 // Assets to precache on service worker install
 const PRECACHE_ASSETS = [
@@ -17,6 +17,7 @@ const PRECACHE_ASSETS = [
   './js/trivia/explanations.js',
   './js/trivia/game-api.js',
   './js/trivia/game-flow.js',
+  './js/trivia/input-controls.js',
   './js/trivia/main.js',
   './js/trivia/persistence.js',
   './js/trivia/state.js',
@@ -53,7 +54,20 @@ self.addEventListener('install', (event) => {
       .open(CACHE_NAME)
       .then(async (cache) => {
         console.log('[Service Worker] Precaching app shell...');
-        await cache.addAll(PRECACHE_ASSETS);
+        const localAssets = PRECACHE_ASSETS.filter((asset) => !asset.startsWith('https://'));
+        const optionalRemoteAssets = PRECACHE_ASSETS.filter((asset) => asset.startsWith('https://'));
+        await cache.addAll(localAssets);
+
+        // Remote CDN availability should not prevent the local game shell from installing.
+        await Promise.allSettled(
+          optionalRemoteAssets.map(async (asset) => {
+            try {
+              await cache.add(asset);
+            } catch (err) {
+              console.warn(`[Service Worker] Optional remote asset was not cached: ${asset}`, err);
+            }
+          })
+        );
 
         // Dynamically fetch databases/list.json and cache all database categories for offline play
         try {

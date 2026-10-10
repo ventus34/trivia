@@ -138,12 +138,4 @@ export const UI = {
   btnClearCategoriesWizard: document.getElementById('btn-clear-categories-wizard'),
   btnCancelCategorySelection: document.getElementById('btn-cancel-category-selection'),
   btnApplyCategorySelection: document.getElementById('btn-apply-category-selection'),
-  scaleDiceSlider: document.getElementById('scale-dice-slider'),
-  scaleDiceVal: document.getElementById('scale-dice-val'),
-  scaleBoardSlider: document.getElementById('scale-board-slider'),
-  scaleBoardVal: document.getElementById('scale-board-val'),
-  scaleDescriptionsSlider: document.getElementById('scale-descriptions-slider'),
-  scaleDescriptionsVal: document.getElementById('scale-descriptions-val'),
-  scaleQuestionSlider: document.getElementById('scale-question-slider'),
-  scaleQuestionVal: document.getElementById('scale-question-val'),
 };

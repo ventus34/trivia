@@ -15,6 +15,7 @@ import { handleSuggestAlternatives } from './game-api.js';
 import { setupEventListeners } from './ui-events.js';
 import { setupStateSubscriptions } from './ui-state.js';
 import { setApiAdapter, getApiAdapter } from './services/api-service.js';
+import { setupInputControls } from './input-controls.js';
 
 /**
  * Global fetch wrapper for handling network errors gracefully.
@@ -98,4 +99,5 @@ export async function initializeApp(apiAdapter) {
   setupStateSubscriptions();
 
   setupEventListeners();
+  setupInputControls();
 }

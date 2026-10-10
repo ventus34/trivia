@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
     <!-- PWA configuration -->
     <link rel="manifest" href="manifest.json">
@@ -47,10 +47,10 @@
 </head>
 <body class="bg-gray-100 text-gray-800 flex items-center justify-center min-h-screen">
 
-<div id="notification-container" class="fixed top-5 right-5 z-[100] space-y-2"></div>
+<div id="notification-container" class="fixed top-5 right-5 z-[100] space-y-2" role="status" aria-live="polite" aria-relevant="additions text"></div>
 
-<!<!-- ================= SETUP SCREEN ================= -->
-<div id="setup-screen" class="w-full max-w-3xl p-8 bg-white dark:bg-gray-900 rounded-3xl shadow-2xl flex flex-col transition-all duration-300 min-h-[600px] max-h-[95vh] lg:max-h-[85vh]">
+<!-- ================= SETUP SCREEN ================= -->
+<main id="setup-screen" class="w-full max-w-3xl p-8 bg-white dark:bg-gray-900 rounded-3xl shadow-2xl flex flex-col transition-all duration-300 min-h-[600px] max-h-[95vh] lg:max-h-[85vh]">
     <!-- Step Indicators -->
     <div class="flex-shrink-0 mb-6">
         <div class="flex items-center justify-between max-w-xl mx-auto relative px-4">
@@ -88,12 +88,12 @@
 
             <!-- Language Cards -->
             <div class="grid grid-cols-2 gap-4 max-w-md mx-auto py-2">
-                <button id="lang-pl" class="lang-btn flex flex-col items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-800 rounded-2xl bg-white dark:bg-gray-800 hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 hover:border-indigo-300 dark:hover:border-indigo-800 transition-all duration-300 text-center gap-3">
-                    <span class="text-4xl">🇵🇱</span>
+                <button id="lang-pl" type="button" class="lang-btn flex flex-col items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-800 rounded-2xl bg-white dark:bg-gray-800 hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 hover:border-indigo-300 dark:hover:border-indigo-800 transition-all duration-300 text-center gap-3">
+                    <span class="text-4xl" aria-hidden="true">🇵🇱</span>
                     <span class="font-bold text-gray-900 dark:text-white">Polski</span>
                 </button>
-                <button id="lang-en" class="lang-btn flex flex-col items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-800 rounded-2xl bg-white dark:bg-gray-800 hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 hover:border-indigo-300 dark:hover:border-indigo-800 transition-all duration-300 text-center gap-3">
-                    <span class="text-4xl">🇬🇧</span>
+                <button id="lang-en" type="button" class="lang-btn flex flex-col items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-800 rounded-2xl bg-white dark:bg-gray-800 hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 hover:border-indigo-300 dark:hover:border-indigo-800 transition-all duration-300 text-center gap-3">
+                    <span class="text-4xl" aria-hidden="true">🇬🇧</span>
                     <span class="font-bold text-gray-900 dark:text-white">English</span>
                 </button>
             </div>
@@ -103,12 +103,12 @@
                 <h3 class="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider text-center" data-lang-key="continue_game_title">Masz już zapisaną grę?</h3>
                 <div class="flex flex-col gap-2">
                     <!-- Load Last Game (handled by existing main.js logic to show/hide and bind click) -->
-                    <button id="load-game-btn" data-lang-key="load_game_btn" class="hidden w-full py-2.5 px-4 rounded-xl border border-indigo-600 dark:border-indigo-400 text-indigo-600 dark:text-indigo-400 bg-transparent hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 font-bold transition-all text-sm flex items-center justify-center gap-2">
-                        <span>🔄</span> <span>Wczytaj Ostatnią Grę</span>
+                    <button id="load-game-btn" type="button" class="hidden w-full py-2.5 px-4 rounded-xl border border-indigo-600 dark:border-indigo-400 text-indigo-600 dark:text-indigo-400 bg-transparent hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 font-bold transition-all text-sm flex items-center justify-center gap-2">
+                        <span aria-hidden="true">🔄</span> <span data-lang-key="load_game_btn">Wczytaj Ostatnią Grę</span>
                     </button>
                     <!-- Load from file button, which clicks the hidden file input -->
-                    <button type="button" id="wizard-upload-state-btn" data-lang-key="upload_state_btn" class="w-full py-2.5 px-4 rounded-xl border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-transparent hover:bg-gray-50 dark:hover:bg-gray-800 font-bold transition-all text-sm flex items-center justify-center gap-2">
-                        <span>📁</span> <span>Wczytaj grę z pliku JSON</span>
+                    <button type="button" id="wizard-upload-state-btn" class="w-full py-2.5 px-4 rounded-xl border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 bg-transparent hover:bg-gray-50 dark:hover:bg-gray-800 font-bold transition-all text-sm flex items-center justify-center gap-2">
+                        <span aria-hidden="true">📁</span> <span data-lang-key="upload_state_btn">Wczytaj grę z pliku JSON</span>
                     </button>
                 </div>
             </div>
@@ -123,11 +123,11 @@
 
             <div class="max-w-xl mx-auto space-y-4">
                 <div class="flex items-center justify-between bg-gray-50 dark:bg-gray-800/50 p-4 rounded-2xl border border-gray-100 dark:border-gray-800">
-                    <label for="player-count" data-lang-key="player_count_label" class="text-sm font-semibold text-gray-700 dark:text-gray-300">Liczba:</label>
+                    <label id="player-count-label" for="player-count" data-lang-key="player_count_label" class="text-sm font-semibold text-gray-700 dark:text-gray-300">Liczba:</label>
                     <div class="flex items-center gap-3">
-                        <button type="button" id="player-count-dec-btn" class="w-8 h-8 rounded-full bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-650 flex items-center justify-center font-bold text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors shadow-sm">-</button>
-                        <input type="number" id="player-count" min="1" max="10" value="2" readonly class="w-10 text-center font-extrabold bg-transparent border-0 focus:ring-0 text-gray-950 dark:text-white p-0">
-                        <button type="button" id="player-count-inc-btn" class="w-8 h-8 rounded-full bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-650 flex items-center justify-center font-bold text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors shadow-sm">+</button>
+                        <button type="button" id="player-count-dec-btn" aria-labelledby="player-count-dec-label" data-title-lang-key="player_count_decrease" title="Zmniejsz liczbę graczy" class="w-8 h-8 rounded-full bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-650 flex items-center justify-center font-bold text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors shadow-sm">−<span id="player-count-dec-label" class="sr-only" data-lang-key="player_count_decrease">Zmniejsz liczbę graczy</span></button>
+                        <input type="number" inputmode="numeric" id="player-count" min="1" max="10" value="2" readonly aria-labelledby="player-count-label" aria-live="polite" class="w-10 text-center font-extrabold bg-transparent border-0 focus:ring-0 text-gray-950 dark:text-white p-0">
+                        <button type="button" id="player-count-inc-btn" aria-labelledby="player-count-inc-label" data-title-lang-key="player_count_increase" title="Zwiększ liczbę graczy" class="w-8 h-8 rounded-full bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-650 flex items-center justify-center font-bold text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors shadow-sm">+<span id="player-count-inc-label" class="sr-only" data-lang-key="player_count_increase">Zwiększ liczbę graczy</span></button>
                     </div>
                 </div>
 
@@ -171,7 +171,7 @@
 
                 <!-- Advanced Options Accordion -->
                 <div class="border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden mt-4">
-                    <button type="button" class="w-full flex justify-between items-center px-4 py-3 bg-gray-50 dark:bg-gray-800/50 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider advanced-accordion-trigger" onclick="const p = this.nextElementSibling; p.classList.toggle('hidden'); this.querySelector('.chevron').classList.toggle('rotate-180');">
+                    <button type="button" class="w-full flex justify-between items-center px-4 py-3 bg-gray-50 dark:bg-gray-800/50 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider advanced-accordion-trigger" aria-expanded="false" aria-controls="custom-db-upload-container" onclick="const p = this.nextElementSibling; const expanded = p.classList.toggle('hidden') === false; this.setAttribute('aria-expanded', String(expanded)); this.querySelector('.chevron').classList.toggle('rotate-180');">
                         <span data-lang-key="advanced_title">Zaawansowane (własna baza)</span>
                         <span class="chevron transition-transform duration-200">▼</span>
                     </button>
@@ -230,20 +230,20 @@
             <span data-lang-key="wizard_next_btn">Dalej</span> <span>➔</span>
         </button>
         
-        <button id="start-game-btn" data-lang-key="start_game_btn" class="hidden px-8 py-2.5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm flex items-center gap-1.5 themed-button">
+        <button id="start-game-btn" type="button" class="hidden px-8 py-2.5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm flex items-center gap-1.5 themed-button">
             <span data-lang-key="start_game_btn">Rozpocznij Grę</span> <span>🎮</span>
         </button>
     </div>
-</div>
+</main>
 
 <!-- ================= GAME SCREEN ================= -->
-<div id="game-screen" class="hidden w-full max-w-[1440px] mx-auto min-h-screen p-4 lg:p-6 flex flex-col gap-6">
+<main id="game-screen" class="hidden w-full max-w-[1440px] mx-auto min-h-screen p-4 lg:p-6 flex flex-col gap-6">
     <!-- Top Bar -->
-    <div id="game-top-bar" class="w-full bg-white rounded-2xl shadow-md p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div id="game-top-bar" class="w-full bg-white rounded-2xl shadow-md p-4 flex flex-col md:flex-row items-center justify-between gap-4">
         <!-- Left Side: Current Player -->
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3" aria-live="polite" aria-atomic="true">
             <span class="text-gray-500 font-medium" data-lang-key="player_turn">Tura Gracza</span>:
-            <span id="current-player-emoji" class="text-2xl"></span>
+            <span id="current-player-emoji" class="text-2xl" aria-hidden="true"></span>
             <span id="current-player-name" class="text-xl font-bold"></span>
         </div>
 
@@ -254,9 +254,10 @@
 
         <!-- Right Side: Options Menu & Message -->
         <div class="flex items-center gap-4">
-            <div id="game-message" class="text-sm font-medium text-red-600 h-6 flex items-center"></div>
-            <button id="open-game-menu-btn" title="Menu Gry" data-lang-key="game_menu_title" data-title-lang-key="game_menu_title" class="p-2 rounded-full hover:bg-gray-200 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <div id="game-message" class="text-sm font-medium text-red-600 h-6 flex items-center" role="status" aria-live="polite"></div>
+            <button type="button" id="open-game-menu-btn" title="Menu Gry" data-title-lang-key="game_menu_title" aria-labelledby="game-menu-button-label" aria-haspopup="dialog" aria-expanded="false" aria-controls="game-menu-panel" class="p-2 rounded-full hover:bg-gray-200 transition-colors">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                <span id="game-menu-button-label" class="sr-only" data-lang-key="game_menu_title">Menu Gry</span>
             </button>
         </div>
     </div>
@@ -264,40 +265,40 @@
     <!-- Main Board Area -->
     <div class="flex-grow flex items-center justify-center relative pb-12 w-full">
         <div class="board-wrapper">
-            <div id="board" class="board-container"></div>
+            <div id="board" class="board-container" role="group" aria-label="Plansza do gry"></div>
 
             <!-- Floating Dice Card in the Bottom-Right Corner of the Board Wrapper -->
             <div id="dice-result" class="absolute bottom-2 right-2 bg-white rounded-xl shadow-lg p-3 flex flex-col items-center gap-2 z-10 border border-gray-200">
-                <span data-lang-key="roll_dice_title" class="text-xs font-semibold text-gray-500 text-center">Rzuć kostką</span>
+                <span id="roll-dice-label" data-lang-key="roll_dice_title" role="status" aria-live="polite" aria-atomic="true" class="text-xs font-semibold text-gray-500 text-center">Rzuć kostką</span>
                 <div class="dice-container">
-                    <div id="dice" class="dice">
-                        <div class="face front" data-value="1">
+                    <button type="button" id="dice" class="dice" aria-labelledby="roll-dice-label" style="appearance: none; border: 0; padding: 0; background: transparent; color: inherit;">
+                        <span class="face front" data-value="1">
                             <span class="pip center"></span>
-                        </div>
-                        <div class="face back" data-value="6">
+                        </span>
+                        <span class="face back" data-value="6">
                             <span class="pip top-left"></span><span class="pip top-right"></span>
                             <span class="pip mid-left"></span><span class="pip mid-right"></span>
                             <span class="pip bot-left"></span><span class="pip bot-right"></span>
-                        </div>
-                        <div class="face right" data-value="4">
+                        </span>
+                        <span class="face right" data-value="4">
                             <span class="pip top-left"></span><span class="pip top-right"></span>
                             <span class="pip bot-left"></span><span class="pip bot-right"></span>
-                        </div>
-                        <div class="face left" data-value="3">
+                        </span>
+                        <span class="face left" data-value="3">
                             <span class="pip top-right"></span>
                             <span class="pip center"></span>
                             <span class="pip bot-left"></span>
-                        </div>
-                        <div class="face top" data-value="2">
+                        </span>
+                        <span class="face top" data-value="2">
                             <span class="pip top-right"></span>
                             <span class="pip bot-left"></span>
-                        </div>
-                        <div class="face bottom" data-value="5">
+                        </span>
+                        <span class="face bottom" data-value="5">
                             <span class="pip top-left"></span><span class="pip top-right"></span>
                             <span class="pip center"></span>
                             <span class="pip bot-left"></span><span class="pip bot-right"></span>
-                        </div>
-                    </div>
+                        </span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -305,19 +306,20 @@
 
     <!-- Hidden element to satisfy JS references for categoryLegend -->
     <div id="category-legend" class="hidden"></div>
-</div>
+</main>
 
 <!-- ================= MODALS & POPUPS ================= -->
 <!-- Question Modal -->
-<div id="question-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4">
+<div id="question-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="question-category" aria-describedby="question-text">
     <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-2xl space-y-6 transform transition-all scale-95 opacity-0" id="modal-content">
         <div class="flex justify-between items-center">
             <h3 id="question-category" class="font-bold"></h3>
-            <button id="regenerate-question-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" data-lang-key="regenerate_question_btn" title="Nowe pytanie" data-title-lang-key="regenerate_question_btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-9 9c-4.97 0-9-4.03-9-9s4.03-9 9-9"/><path d="M21 3v5h-5"/><path d="M3 12a9 9 0 0 1 9-9c1.61 0 3.11.42 4.47 1.17L21 3"/></svg>
+            <button type="button" id="regenerate-question-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" title="Nowe pytanie" data-title-lang-key="regenerate_question_btn" aria-labelledby="regenerate-question-label">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-9 9c-4.97 0-9-4.03-9-9s4.03-9 9-9"/><path d="M21 3v5h-5"/><path d="M3 12a9 9 0 0 1 9-9c1.61 0 3.11.42 4.47 1.17L21 3"/></svg>
+                <span id="regenerate-question-label" class="sr-only" data-lang-key="regenerate_question_btn">Nowe pytanie</span>
             </button>
         </div>
-        <div id="llm-loader" class="hidden flex flex-col items-center justify-center gap-4 py-8">
+        <div id="llm-loader" class="hidden flex flex-col items-center justify-center gap-4 py-8" role="status" aria-live="polite">
             <div class="flex space-x-2">
                 <div class="w-4 h-4 bg-indigo-600 rounded-full animate-bounce"></div>
                 <div class="w-4 h-4 bg-indigo-600 rounded-full animate-bounce" style="animation-delay: 0.2s;"></div>
@@ -327,38 +329,39 @@
         </div>
         <div id="question-content" class="hidden">
             <p id="question-text" class="text-lg text-center font-semibold mb-4"></p>
-            <div id="mcq-options-container" class="hidden grid grid-cols-1 md:grid-cols-2 gap-3 mt-4"></div>
+            <div id="mcq-options-container" class="hidden grid grid-cols-1 md:grid-cols-2 gap-3 mt-4" data-controller-initial-focus></div>
             <div id="answer-section" class="mt-4">
-                <input type="text" id="answer-input" data-lang-key="answer_placeholder" placeholder="Wpisz swoją odpowiedź..." class="w-full px-4 py-2 border border-gray-300 rounded-md">
-                <button id="submit-answer-btn" data-lang-key="submit_answer_btn" class="mt-4 w-full py-2 px-4 rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 transition-colors themed-button">Zatwierdź Odpowiedź</button>
+                <input type="text" id="answer-input" data-lang-key="answer_placeholder" data-controller-initial-focus autocomplete="off" autocapitalize="sentences" enterkeyhint="send" placeholder="Wpisz swoją odpowiedź..." class="w-full px-4 py-2 border border-gray-300 rounded-md">
+                <button type="button" id="submit-answer-btn" data-lang-key="submit_answer_btn" class="mt-4 w-full py-2 px-4 rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 transition-colors themed-button">Zatwierdź Odpowiedź</button>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Category Choice Modal -->
-<div id="category-choice-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4">
+<div id="category-choice-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="category-choice-title">
     <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-lg space-y-4">
-        <h3 data-lang-key="choose_category_title" class="text-2xl font-bold text-center">Wybierz kategorię</h3>
-        <div id="category-choice-buttons" class="grid grid-cols-2 gap-4"></div>
+        <h3 id="category-choice-title" data-lang-key="choose_category_title" class="text-2xl font-bold text-center">Wybierz kategorię</h3>
+        <div id="category-choice-buttons" class="grid grid-cols-2 gap-4" data-controller-initial-focus></div>
     </div>
 </div>
 
 <!-- Category Selection Modal (Setup screen) -->
-<div id="category-selection-modal" class="hidden fixed inset-0 bg-gray-900/80 backdrop-blur-md z-[100] flex items-center justify-center p-4">
+<div id="category-selection-modal" class="hidden fixed inset-0 bg-gray-900/80 backdrop-blur-md z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="category-selection-title" aria-describedby="category-selection-description">
     <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col transform transition-all border border-gray-200" id="cat-selection-modal-content">
         <!-- Modal Header -->
         <div class="flex-shrink-0 p-5 flex justify-between items-center border-b border-gray-200">
             <div>
-                <h3 class="text-2xl font-bold text-gray-900 flex items-center gap-2" data-lang-key="modal_choose_categories_title">
+                <h3 id="category-selection-title" class="text-2xl font-bold text-gray-900 flex items-center gap-2" data-lang-key="modal_choose_categories_title">
                     Wybierz 6 kategorii do gry
                 </h3>
-                <p class="text-sm text-gray-500 mt-1" data-lang-key="modal_choose_categories_desc">
+                <p id="category-selection-description" class="text-sm text-gray-500 mt-1" data-lang-key="modal_choose_categories_desc">
                     Wybierz dokładnie 6 kategorii, z których będą losowane pytania w trakcie rozgrywki.
                 </p>
             </div>
-            <button id="close-category-selection-btn" class="p-2 rounded-full hover:bg-gray-100 text-gray-500 transition-colors">
+            <button type="button" id="close-category-selection-btn" class="p-2 rounded-full hover:bg-gray-100 text-gray-500 transition-colors" aria-labelledby="close-category-selection-label">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span id="close-category-selection-label" class="sr-only" data-lang-key="btn_cancel">Anuluj</span>
             </button>
         </div>
 
@@ -366,7 +369,8 @@
         <div class="flex-shrink-0 p-4 bg-gray-50 border-b border-gray-200 flex flex-col md:flex-row gap-4 items-center justify-between">
             <!-- Search & Language Filter -->
             <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto flex-grow">
-                <input type="text" id="category-search" placeholder="Szukaj kategorii..." data-lang-key="category_search_placeholder" class="px-4 py-2 border border-gray-300 bg-white text-gray-900 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 flex-grow max-w-md">
+                <span id="category-search-label" class="sr-only" data-lang-key="category_search_placeholder">Szukaj kategorii...</span>
+                <input type="search" id="category-search" placeholder="Szukaj kategorii..." data-lang-key="category_search_placeholder" aria-labelledby="category-search-label" data-controller-initial-focus class="px-4 py-2 border border-gray-300 bg-white text-gray-900 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 flex-grow max-w-md">
                 <div class="flex rounded-lg shadow-sm border border-gray-300 overflow-hidden bg-white">
                     <button id="cat-filter-all" class="px-3 py-1.5 text-xs font-semibold bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors active" data-lang-key="filter_all">Wszystkie</button>
                     <button id="cat-filter-pl" class="px-3 py-1.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition-colors border-l border-r border-gray-200">🇵🇱 PL</button>
@@ -413,7 +417,7 @@
 </div>
 
 <!-- Answer Popup -->
-<div id="answer-popup" class="hidden fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-8 bg-white rounded-xl shadow-2xl z-50 max-w-md w-full text-center opacity-0 scale-90">
+<div id="answer-popup" class="hidden fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-8 bg-white rounded-xl shadow-2xl z-50 max-w-md w-full text-center opacity-0 scale-90" role="dialog" aria-modal="true" aria-labelledby="answer-popup-title">
     <div id="standard-popup-content">
         <h3 id="answer-popup-title" data-lang-key="answer_evaluation" class="text-2xl font-bold mb-4 text-gray-800"></h3>
         <div class="text-left space-y-5">
@@ -444,7 +448,7 @@
             </div>
             <span data-lang-key="generating_mutation" class="text-gray-600">Generuję nowe kategorie...</span>
         </div>
-        <div id="mutation-buttons" class="hidden grid grid-cols-1 gap-4"></div>
+        <div id="mutation-buttons" class="hidden grid grid-cols-1 gap-4" data-controller-initial-focus></div>
     </div>
 
     <div id="verification-buttons" class="mt-4 flex gap-4">
@@ -458,19 +462,20 @@
 </div>
 
 <!-- Winner Screen -->
-<div id="winner-screen" class="hidden flex-col items-center justify-center space-y-6 p-8 bg-white rounded-2xl shadow-xl">
-    <h1 data-lang-key="congratulations" class="text-4xl font-bold text-yellow-500">Gratulacje!</h1>
+<main id="winner-screen" class="hidden flex flex-col items-center justify-center space-y-6 p-8 bg-white rounded-2xl shadow-xl" aria-live="assertive" aria-labelledby="winner-screen-title">
+    <h1 id="winner-screen-title" data-lang-key="congratulations" class="text-4xl font-bold text-yellow-500">Gratulacje!</h1>
     <p class="text-2xl"><span data-lang-key="winner_is">Zwycięzcą jest</span> <span id="winner-name" class="font-bold"></span>!</p>
     <button id="play-again-btn" data-lang-key="play_again_btn" class="py-3 px-6 rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 transition-colors themed-button">Zagraj Ponownie</button>
-</div>
+</main>
 
 <!-- History Modal -->
-<div id="history-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4">
+<div id="history-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="history-modal-title">
     <div class="bg-white rounded-2xl shadow-2xl w-full max-w-4xl h-[90vh] flex flex-col">
         <div class="flex-shrink-0 p-4 flex justify-between items-center border-b">
             <h3 id="history-modal-title" data-lang-key="history_modal_title" class="text-xl font-bold">Historia Promptów</h3>
-            <button id="close-history-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors">
+            <button type="button" id="close-history-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" aria-labelledby="close-history-label">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span id="close-history-label" class="sr-only" data-lang-key="btn_cancel">Anuluj</span>
             </button>
         </div>
         <div id="history-content" class="flex-grow overflow-y-auto p-6 space-y-4">
@@ -479,21 +484,22 @@
 </div>
 
 <!-- Model Choice Modal -->
-<div id="model-choice-modal" class="hidden fixed inset-0 bg-gray-900 z-[60] p-4">
+<div id="model-choice-modal" class="hidden fixed inset-0 bg-gray-900 z-[60] p-4" role="dialog" aria-modal="true" aria-labelledby="model-choice-title" aria-describedby="model-choice-description">
     <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-lg space-y-4 text-center">
         <h3 id="model-choice-title" data-lang-key="rate_limit_title" class="text-2xl font-bold"></h3>
-        <p data-lang-key="rate_limit_desc" class="text-gray-600"></p>
+        <p id="model-choice-description" data-lang-key="rate_limit_desc" class="text-gray-600"></p>
         <button id="confirm-model-choice-btn" data-lang-key="confirm_choice_btn" class="mt-4 w-full py-2 px-4 rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 themed-button"></button>
     </div>
 </div>
 
 <!-- Suggestion Modal -->
-<div id="suggestion-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4">
+<div id="suggestion-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="suggestion-modal-title">
     <div class="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-md space-y-4">
         <div class="flex justify-between items-center">
             <h3 id="suggestion-modal-title" data-lang-key="suggestion_modal_title" class="text-xl font-bold">Sugestie</h3>
-            <button id="close-suggestion-modal-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors">
+            <button type="button" id="close-suggestion-modal-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" aria-labelledby="close-suggestion-label">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                <span id="close-suggestion-label" class="sr-only" data-lang-key="btn_cancel">Anuluj</span>
             </button>
         </div>
         <div id="suggestion-loader" class="hidden flex flex-col items-center justify-center gap-4 py-8">
@@ -504,81 +510,43 @@
             </div>
             <span class="text-gray-600" data-lang-key="suggestion_loader_text">Generuję sugestie...</span>
         </div>
-        <div id="suggestion-buttons" class="grid grid-cols-1 gap-3">
+        <div id="suggestion-buttons" class="grid grid-cols-1 gap-3" data-controller-initial-focus>
         </div>
     </div>
 </div>
 
 <!-- ================= GAME SIDE PANEL ================= -->
 <div id="game-menu-overlay" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40"></div>
-<div id="game-menu-panel" class="fixed top-0 right-0 bottom-0 w-64 bg-white shadow-xl z-50 p-4 transform translate-x-full flex flex-col gap-3 overflow-y-auto">
-    <h3 class="text-lg font-bold mb-2" data-lang-key="game_menu_title">Menu Gry</h3>
+<aside id="game-menu-panel" class="fixed top-0 right-0 bottom-0 w-64 bg-white shadow-xl z-50 p-4 transform translate-x-full flex flex-col gap-3 overflow-y-auto" role="dialog" aria-modal="true" aria-labelledby="game-menu-heading">
+    <h2 id="game-menu-heading" class="text-lg font-bold mb-2" data-lang-key="game_menu_title">Menu Gry</h2>
 
 
 
-    <label for="upload-state-input" id="upload-state-btn" class="w-full text-left p-2 rounded-md hover:bg-gray-100 transition-colors cursor-pointer flex items-center gap-2">
+    <button type="button" id="upload-state-btn" class="w-full text-left p-2 rounded-md hover:bg-gray-100 transition-colors cursor-pointer flex items-center gap-2" aria-controls="upload-state-input" onclick="document.getElementById('upload-state-input').click()">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
         <span data-lang-key="upload_state_btn">Wczytaj grę</span>
-    </label>
-    <input type="file" id="upload-state-input" class="hidden" accept=".json">
+    </button>
+    <input type="file" id="upload-state-input" class="hidden" accept=".json" aria-label="Wybierz plik zapisu gry">
 
-    <button id="download-state-btn" class="w-full text-left p-2 rounded-md hover:bg-gray-100 transition-colors flex items-center gap-2">
+    <button type="button" id="download-state-btn" class="w-full text-left p-2 rounded-md hover:bg-gray-100 transition-colors flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         <span data-lang-key="download_state_btn">Pobierz zapis</span>
     </button>
 
-    <button id="restart-game-btn" class="w-full text-left p-2 rounded-md text-red-600 hover:bg-red-50 transition-colors flex items-center gap-2">
+    <button type="button" id="restart-game-btn" class="w-full text-left p-2 rounded-md text-red-600 hover:bg-red-50 transition-colors flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
         <span data-lang-key="restart_game_btn">Zacznij od nowa</span>
     </button>
 
-    <div class="pt-4 border-t border-gray-200 space-y-3">
-        <h4 class="text-sm font-semibold text-gray-600 dark:text-gray-400" data-lang-key="scaling_title">Skalowanie UI</h4>
-        
-        <div class="space-y-3 text-xs text-gray-700 dark:text-gray-300">
-            <div>
-                <div class="flex justify-between items-center mb-1">
-                    <span data-lang-key="scale_dice">Kostka</span>
-                    <span id="scale-dice-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
-                </div>
-                <input type="range" id="scale-dice-slider" min="0.5" max="2.0" step="0.1" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
-            </div>
-
-            <div>
-                <div class="flex justify-between items-center mb-1">
-                    <span data-lang-key="scale_board">Plansza</span>
-                    <span id="scale-board-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
-                </div>
-                <input type="range" id="scale-board-slider" min="0.5" max="1.5" step="0.05" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
-            </div>
-
-            <div>
-                <div class="flex justify-between items-center mb-1">
-                    <span data-lang-key="scale_descriptions">Opisy pod polami</span>
-                    <span id="scale-descriptions-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
-                </div>
-                <input type="range" id="scale-descriptions-slider" min="0.5" max="2.0" step="0.1" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
-            </div>
-
-            <div>
-                <div class="flex justify-between items-center mb-1">
-                    <span data-lang-key="scale_question">Karta pytania</span>
-                    <span id="scale-question-val" class="font-semibold text-indigo-600 dark:text-indigo-400">1.0x</span>
-                </div>
-                <input type="range" id="scale-question-slider" min="0.5" max="1.5" step="0.05" value="1.0" class="game-scale-slider w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer">
-            </div>
-        </div>
-    </div>
-
     <div class="pt-4 border-t border-gray-200">
         <h4 class="text-sm font-semibold text-gray-600" data-lang-key="theme_title">Motyw</h4>
         <div id="theme-switcher" class="bg-gray-200 p-1 rounded-full flex gap-1 justify-center">
-            <label title="Jasny" data-title-lang-key="theme_light_label"><input type="radio" name="theme" value="light" class="theme-radio"><span>☀️</span></label>
-            <label title="Ciemny" data-title-lang-key="theme_dark_label"><input type="radio" name="theme" value="dark" class="theme-radio"><span>🌙</span></label>
-            <label title="OLED" data-title-lang-key="theme_oled_label"><input type="radio" name="theme" value="oled" class="theme-radio" checked><span>⚫</span></label>
+            <label title="Jasny" data-title-lang-key="theme_light_label"><input type="radio" name="theme" value="light" class="theme-radio" aria-labelledby="theme-light-label"><span aria-hidden="true">☀️</span><span id="theme-light-label" class="sr-only" data-lang-key="theme_light_label">Jasny</span></label>
+            <label title="Ciemny" data-title-lang-key="theme_dark_label"><input type="radio" name="theme" value="dark" class="theme-radio" aria-labelledby="theme-dark-label"><span aria-hidden="true">🌙</span><span id="theme-dark-label" class="sr-only" data-lang-key="theme_dark_label">Ciemny</span></label>
+            <label title="OLED" data-title-lang-key="theme_oled_label"><input type="radio" name="theme" value="oled" class="theme-radio" aria-labelledby="theme-oled-label" checked><span aria-hidden="true">⚫</span><span id="theme-oled-label" class="sr-only" data-lang-key="theme_oled_label">OLED</span></label>
         </div>
     </div>
-</div>
+</aside>
 
 <!-- Link to Generator page -->
 <a id="generator-link-btn" href="generator.html" class="fixed bottom-4 left-4 z-30 bg-slate-800 hover:bg-slate-700 text-white text-xs px-3 py-2 rounded-lg shadow-lg border border-slate-700 flex items-center gap-1.5 transition-all">
