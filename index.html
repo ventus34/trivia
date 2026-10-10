@@ -263,15 +263,16 @@
     </div>
 
     <!-- Main Board Area -->
-    <div class="flex-grow flex items-center justify-center relative pb-12 w-full">
+    <div id="game-stage" class="flex-grow flex items-center justify-center relative pb-12 w-full">
         <div class="board-wrapper">
             <div id="board" class="board-container" role="group" aria-label="Plansza do gry"></div>
-
-            <!-- Floating Dice Card in the Bottom-Right Corner of the Board Wrapper -->
-            <div id="dice-result" class="absolute bottom-2 right-2 bg-white rounded-xl shadow-lg p-3 flex flex-col items-center gap-2 z-10 border border-gray-200">
-                <span id="roll-dice-label" data-lang-key="roll_dice_title" role="status" aria-live="polite" aria-atomic="true" class="text-xs font-semibold text-gray-500 text-center">Rzuć kostką</span>
-                <div class="dice-container">
-                    <button type="button" id="dice" class="dice" aria-labelledby="roll-dice-label" style="appearance: none; border: 0; padding: 0; background: transparent; color: inherit;">
+        </div>
+        <!-- Kept beside the board so it can reflow below it on narrow screens. -->
+        <div id="dice-result" class="bg-white rounded-xl shadow-lg p-3 flex flex-col items-center gap-2 border border-gray-200">
+            <span id="roll-dice-label" data-lang-key="roll_dice_title" role="status" aria-live="polite" aria-atomic="true" class="text-xs font-semibold text-gray-500 text-center">Rzuć kostką</span>
+            <div class="dice-container">
+                <button type="button" id="dice" class="dice" aria-labelledby="roll-dice-label" style="appearance: none; border: 0; padding: 0; background: transparent; color: inherit;">
+                    <span class="dice-cube" aria-hidden="true" style="display: block; position: relative; width: 100%; height: 100%; transform-style: preserve-3d;">
                         <span class="face front" data-value="1">
                             <span class="pip center"></span>
                         </span>
@@ -298,8 +299,8 @@
                             <span class="pip center"></span>
                             <span class="pip bot-left"></span><span class="pip bot-right"></span>
                         </span>
-                    </button>
-                </div>
+                    </span>
+                </button>
             </div>
         </div>
     </div>

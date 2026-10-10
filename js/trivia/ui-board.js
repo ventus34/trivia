@@ -9,6 +9,7 @@ import { UI } from './dom.js';
 import { uiHandlers } from './ui-handlers.js';
 
 let boardInteractionObserver;
+let diceOrientation = { x: 0, y: 0 };
 
 function squareLabel(square) {
   const isEnglish = gameState.currentLanguage === 'en';
@@ -386,26 +387,42 @@ export async function animateDiceRoll(roll) {
 
   const dice = UI.diceElement;
   const target = rotations[roll];
+  if (!target) return;
+  const cube = dice.querySelector('.dice-cube') || dice;
 
   // Random spin direction
   const spinDirection = Math.random() > 0.5 ? 1 : -1;
 
   // Add extra full rotations (2-3 spins) to make it look like a real roll
   const extraSpins = 2 + Math.floor(Math.random() * 2);
-  const totalRotationY = target.y + spinDirection * extraSpins * 360;
-  const totalRotationX = target.x + spinDirection * extraSpins * 360;
-
-  // Starting position (current dice state from CSS)
-  const startX = -15;
-  const startY = 15;
+  const directionalDelta = (from, to) => {
+    const positiveDelta = ((to - from) % 360 + 360) % 360;
+    if (spinDirection > 0 || positiveDelta === 0) return positiveDelta;
+    return positiveDelta - 360;
+  };
+  const startX = diceOrientation.x;
+  const startY = diceOrientation.y;
+  const totalRotationX =
+    startX + spinDirection * extraSpins * 360 + directionalDelta(startX, target.x);
+  const totalRotationY =
+    startY + spinDirection * extraSpins * 360 + directionalDelta(startY, target.y);
 
   // Animation duration - smooth and readable
   const duration = 1200;
+  const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
   // Disable CSS transitions
-  dice.style.transition = 'none';
+  cube.style.transition = 'none';
+
+  if (reduceMotion) {
+    cube.style.transform = `rotateX(${target.x}deg) rotateY(${target.y}deg)`;
+    diceOrientation = target;
+    requestAnimationFrame(() => cube.style.removeProperty('transition'));
+    return;
+  }
 
   const startTime = performance.now();
+  const cubeSize = cube.getBoundingClientRect().width || 80;
 
   return new Promise((resolve) => {
     function animate(currentTime) {
@@ -424,9 +441,9 @@ export async function animateDiceRoll(roll) {
       const scale = 1 + 0.08 * scaleProgress * (1 - progress);
 
       // Subtle lift effect
-      const lift = -15 * scaleProgress * (1 - progress * 0.5);
+      const lift = -Math.min(12, cubeSize * 0.12) * scaleProgress * (1 - progress * 0.5);
 
-      dice.style.transform = `
+      cube.style.transform = `
                 translateY(${lift}px)
                 scale(${scale})
                 rotateX(${currentX}deg)
@@ -436,9 +453,10 @@ export async function animateDiceRoll(roll) {
       if (progress < 1) {
         requestAnimationFrame(animate);
       } else {
-        // Snap to final position
-        dice.style.transform = `rotateX(${target.x}deg) rotateY(${target.y}deg)`;
-        dice.style.transition = '';
+        // Land at the exact face orientation; the outer button keeps its presentation tilt.
+        cube.style.transform = `rotateX(${target.x}deg) rotateY(${target.y}deg)`;
+        cube.style.removeProperty('transition');
+        diceOrientation = target;
         resolve();
       }
     }

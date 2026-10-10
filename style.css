@@ -373,22 +373,9 @@ body:not(.live-quiz-app) #dice-result {
     box-shadow: 0 10px 25px rgba(2, 6, 23, 0.5) !important;
     backdrop-filter: blur(8px);
     color: #e5e7eb;
-    bottom: -3.5rem !important;
-    right: -3.5rem !important;
-    transform: scale(var(--dice-scale, 1)) !important;
-    transform-origin: bottom right;
-    width: 140px !important;
-    height: 140px !important;
-    box-sizing: border-box !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 0.25rem !important;
-    padding: 0.5rem !important;
 }
 
-body:not(.live-quiz-app) #dice-result span {
+body:not(.live-quiz-app) #roll-dice-label {
     font-size: 11px !important;
     line-height: 1.2 !important;
     text-align: center !important;
@@ -402,8 +389,6 @@ html:not(.dark):not(.oled) body:not(.live-quiz-app) #dice-result {
     border: 1px solid rgba(15, 23, 42, 0.08) !important;
     box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08) !important;
     color: #0f172a;
-    bottom: -3.5rem !important;
-    right: -3.5rem !important;
 }
 
 body:not(.live-quiz-app) #player-scores > div {
@@ -1782,8 +1767,14 @@ html.oled .game-scale-slider::-webkit-slider-runnable-track {
     }
   }
   
-  .hint-pulsate .dice {
-      animation: pulse 2s infinite;
+  .hint-pulsate .dice-container {
+      border-radius: 1rem;
+      animation: dice-prompt-pulse 2s infinite;
+  }
+
+  @keyframes dice-prompt-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
+      65% { box-shadow: 0 0 1rem 0.7rem rgba(56, 189, 248, 0.3); }
   }
 
 /* ============================================= */
@@ -2019,17 +2010,6 @@ html.oled #llm-evaluation-text {
 @media (max-width: 640px) {
     #setup-screen .grid-cols-1.sm\\:grid-cols-2 {
         grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
-    body:not(.live-quiz-app) #dice-result {
-        bottom: auto !important;
-        top: calc(100% + 10px) !important;
-        left: 50% !important;
-        right: auto !important;
-        transform: translate(-50%, 0) scale(0.75) !important;
-        transform-origin: top center !important;
     }
 }
 
@@ -2480,7 +2460,7 @@ body:not(.live-quiz-app) #game-screen {
 
 body:not(.live-quiz-app) #game-top-bar {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     flex: 0 0 auto;
     display: grid;
     grid-template-columns: minmax(10rem, 1fr) minmax(0, 2fr) auto;
@@ -2552,19 +2532,29 @@ body:not(.live-quiz-app) #open-game-menu-btn {
     flex: 0 0 auto;
 }
 
-body:not(.live-quiz-app) #game-screen > .flex-grow {
+body:not(.live-quiz-app) #game-screen > #game-stage {
+    --responsive-dice-size: clamp(3.25rem, 6.3vw, 4.5rem);
+    --responsive-dice-depth: clamp(1.625rem, 3.15vw, 2.25rem);
+    --responsive-dice-card-size: clamp(5rem, 10vw, 7.5rem);
     flex: 1 1 0%;
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.75rem, 2vw, 2rem);
     min-width: 0;
     min-height: 0;
-    padding-bottom: clamp(0.75rem, 2vh, 2rem);
+    padding: 0;
     overflow: visible;
     container-type: size;
 }
 
-body:not(.live-quiz-app) .board-wrapper {
+body:not(.live-quiz-app) #game-stage > .board-wrapper {
     box-sizing: border-box;
     flex: 0 1 auto;
-    width: min(100%, 100cqh, 86vw, calc(84svh * var(--board-scale, 1)));
+    width: min(100%, 89.2857cqh, 86vw, calc(84svh * var(--board-scale, 1)), calc(100cqw - var(--responsive-dice-card-size) - var(--responsive-dice-card-size) - 2rem));
     height: auto;
     max-width: min(100%, calc(90rem * var(--board-scale, 1)));
     max-height: none;
@@ -2572,6 +2562,85 @@ body:not(.live-quiz-app) .board-wrapper {
     margin: 0 auto;
     overflow: visible;
     container-type: inline-size;
+    z-index: 1;
+}
+
+body:not(.live-quiz-app) #game-stage > #dice-result {
+    position: absolute;
+    top: 50% !important;
+    right: max(0.5rem, env(safe-area-inset-right)) !important;
+    bottom: auto !important;
+    left: auto !important;
+    z-index: 4;
+    width: var(--responsive-dice-card-size) !important;
+    height: var(--responsive-dice-card-size) !important;
+    padding: 0.3rem !important;
+    gap: 0.15rem !important;
+    transform: translateY(-50%) !important;
+    transform-origin: center;
+    border-radius: 1.1rem;
+}
+
+body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
+    max-width: 100% !important;
+    font-size: clamp(0.55rem, 0.72vw, 0.7rem) !important;
+    line-height: 1.15 !important;
+}
+
+body:not(.live-quiz-app) #game-stage .dice-container {
+    position: relative;
+    width: var(--responsive-dice-size);
+    height: var(--responsive-dice-size);
+    perspective: 600px;
+    perspective-origin: 50% 50%;
+    flex: 0 0 auto;
+}
+
+body:not(.live-quiz-app) #game-stage .dice {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(-12deg) rotateY(12deg);
+    transform-style: preserve-3d;
+    transition: box-shadow 0.2s ease;
+    will-change: auto;
+}
+
+body:not(.live-quiz-app) #game-stage .dice-cube {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+body:not(.live-quiz-app) #game-stage .face {
+    width: 100%;
+    height: 100%;
+    padding: 12%;
+    border-width: 1px;
+    border-radius: 12%;
+}
+
+body:not(.live-quiz-app) #game-stage .face.front { transform: translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.back { transform: rotateY(180deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.right { transform: rotateY(90deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.left { transform: rotateY(-90deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.top { transform: rotateX(90deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.bottom { transform: rotateX(-90deg) translateZ(var(--responsive-dice-depth)); }
+
+body:not(.live-quiz-app) #game-stage .pip {
+    width: clamp(0.35rem, 19%, 0.7rem);
+    height: auto;
+    aspect-ratio: 1;
+}
+
+body:not(.live-quiz-app) #game-stage .dice:not(.dice-rolling):hover {
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.5), 0 0 1rem rgba(56, 189, 248, 0.2);
+}
+
+body:not(.live-quiz-app) #game-stage .dice:active:not(.dice-rolling) {
+    transform: rotateX(-12deg) rotateY(12deg) scale(0.96);
 }
 
 body:not(.live-quiz-app) #category-legend {
@@ -2623,57 +2692,6 @@ body:not(.live-quiz-app) .player-token {
 body:not(.live-quiz-app) .board-square svg {
     width: clamp(1rem, 3cqi, 2.5rem);
     height: clamp(1rem, 3cqi, 2.5rem);
-}
-
-body:not(.live-quiz-app) #dice-result {
-    --responsive-dice-size: clamp(3.25rem, 6.3vw, 4.5rem);
-    --responsive-dice-depth: clamp(1.625rem, 3.15vw, 2.25rem);
-    position: absolute;
-    top: auto !important;
-    left: auto !important;
-    right: clamp(-13rem, -12vw, -10rem) !important;
-    top: 50% !important;
-    bottom: auto !important;
-    width: clamp(5rem, 10vw, 7.5rem) !important;
-    height: clamp(5rem, 10vw, 7.5rem) !important;
-    padding: 0.3rem !important;
-    gap: 0.15rem !important;
-    transform: translateY(-50%) !important;
-    transform-origin: center;
-    border-radius: 1.1rem;
-}
-
-body:not(.live-quiz-app) #dice-result > span {
-    max-width: 100% !important;
-    font-size: clamp(0.55rem, 0.72vw, 0.7rem) !important;
-    line-height: 1.15 !important;
-}
-
-body:not(.live-quiz-app) .dice-container,
-body:not(.live-quiz-app) .dice {
-    width: var(--responsive-dice-size);
-    height: var(--responsive-dice-size);
-}
-
-body:not(.live-quiz-app) .face {
-    width: 100%;
-    height: 100%;
-    padding: 12%;
-    border-width: 1px;
-    border-radius: 12%;
-}
-
-body:not(.live-quiz-app) .face.front { transform: translateZ(var(--responsive-dice-depth)); }
-body:not(.live-quiz-app) .face.back { transform: rotateY(180deg) translateZ(var(--responsive-dice-depth)); }
-body:not(.live-quiz-app) .face.right { transform: rotateY(90deg) translateZ(var(--responsive-dice-depth)); }
-body:not(.live-quiz-app) .face.left { transform: rotateY(-90deg) translateZ(var(--responsive-dice-depth)); }
-body:not(.live-quiz-app) .face.top { transform: rotateX(90deg) translateZ(var(--responsive-dice-depth)); }
-body:not(.live-quiz-app) .face.bottom { transform: rotateX(-90deg) translateZ(var(--responsive-dice-depth)); }
-
-body:not(.live-quiz-app) .pip {
-    width: clamp(0.35rem, 19%, 0.7rem);
-    height: auto;
-    aspect-ratio: 1;
 }
 
 body:not(.live-quiz-app) #generator-link-btn {
@@ -2785,6 +2803,26 @@ body:not(.live-quiz-app) #cat-selection-modal-content {
     padding: 0;
 }
 
+body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child {
+    min-width: 0;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+}
+
+body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child > div {
+    min-width: 0;
+    max-width: 100%;
+    flex: 1 1 18rem;
+    flex-wrap: wrap;
+}
+
+body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child button {
+    min-width: 0;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
 body:not(.live-quiz-app) #category-selection-modal #category-search {
     min-height: 2.9rem;
 }
@@ -2851,7 +2889,7 @@ body:not(.live-quiz-app) .notification {
 
     body:not(.live-quiz-app) #game-top-bar {
         grid-template-columns: minmax(0, 1fr) auto;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto auto auto;
         min-height: 0;
         gap: 0.35rem 0.5rem;
         padding: 0.6rem 0.75rem;
@@ -2861,16 +2899,38 @@ body:not(.live-quiz-app) .notification {
     body:not(.live-quiz-app) #game-top-bar > :first-child {
         grid-column: 1;
         grid-row: 1;
+        flex-wrap: nowrap;
+        min-width: 0;
+        white-space: nowrap;
     }
 
     body:not(.live-quiz-app) #game-top-bar > :last-child {
+        display: contents;
+    }
+
+    body:not(.live-quiz-app) #game-message {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        max-width: 100%;
+        min-width: 0;
+        min-height: 1.1rem;
+    }
+
+    body:not(.live-quiz-app) #current-player-name {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    body:not(.live-quiz-app) #open-game-menu-btn {
         grid-column: 2;
         grid-row: 1;
     }
 
     body:not(.live-quiz-app) #player-scores {
         grid-column: 1 / -1;
-        grid-row: 2;
+        grid-row: 3;
         justify-content: flex-start;
         flex-wrap: nowrap;
         max-height: none;
@@ -2895,6 +2955,12 @@ body:not(.live-quiz-app) .notification {
         font-size: 0.75rem;
     }
 
+    body:not(.live-quiz-app) #game-screen > #game-stage {
+        flex-direction: column;
+        gap: clamp(0.45rem, 1.2vh, 0.8rem);
+        padding-block: 0.25rem;
+    }
+
     body:not(.live-quiz-app) #category-legend {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2910,24 +2976,33 @@ body:not(.live-quiz-app) .notification {
         font-size: 0.78rem;
     }
 
-    body:not(.live-quiz-app) .board-wrapper {
-        width: min(100%, 90vw, calc(78svh * var(--board-scale, 1)));
+    body:not(.live-quiz-app) #game-stage > .board-wrapper {
+        width: min(100%, 89.2857cqh, 90vw, calc(78svh * var(--board-scale, 1)));
     }
 
-    body:not(.live-quiz-app) #dice-result {
-        --responsive-dice-size: clamp(3.25rem, 11vw, 3.75rem);
-        --responsive-dice-depth: clamp(1.625rem, 5.5vw, 1.875rem);
-        width: clamp(4.4rem, 17vw, 5.8rem) !important;
-        height: clamp(4.4rem, 17vw, 5.8rem) !important;
+    body:not(.live-quiz-app) #game-stage > #dice-result {
+        --responsive-dice-size: clamp(3rem, 11vw, 3.75rem);
+        --responsive-dice-depth: clamp(1.5rem, 5.5vw, 1.875rem);
+        --responsive-dice-card-size: 12rem;
+        position: relative;
         top: auto !important;
-        right: 0.2rem !important;
-        bottom: 0.2rem !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        z-index: 2;
+        width: min(100%, 12rem) !important;
+        height: auto !important;
+        min-height: 3.75rem;
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 0.75rem !important;
+        padding: 0.35rem 0.75rem !important;
         transform: none !important;
         border-radius: 0.9rem;
     }
 
-    body:not(.live-quiz-app) #dice-result > span {
-        font-size: 0.55rem !important;
+    body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
+        font-size: 0.68rem !important;
     }
 
     body:not(.live-quiz-app) #generator-link-btn {
@@ -3009,13 +3084,6 @@ body:not(.live-quiz-app) .notification {
     }
 }
 
-@media (max-width: 480px) and (min-height: 800px) and (orientation: portrait) {
-    body:not(.live-quiz-app) #dice-result {
-        right: 0.2rem !important;
-        bottom: -5.5rem !important;
-    }
-}
-
 @media (max-width: 600px) and (orientation: portrait) {
     body:not(.live-quiz-app) #player-scores {
         display: grid;
@@ -3049,6 +3117,35 @@ body:not(.live-quiz-app) .notification {
     }
 }
 
+@media (max-width: 640px) {
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        align-items: stretch;
+        gap: 0.65rem;
+        padding: 0.75rem;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child > div {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.5rem;
+        min-width: 0;
+        width: 100%;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child button {
+        min-width: 0;
+        width: 100%;
+        min-height: 2.9rem;
+        padding: 0.55rem 0.45rem;
+        font-size: clamp(0.72rem, 3.2vw, 0.875rem);
+        line-height: 1.25;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+}
+
 @media (max-height: 500px) and (orientation: landscape) {
     body:not(.live-quiz-app) #game-screen {
         gap: 0.35rem;
@@ -3067,9 +3164,11 @@ body:not(.live-quiz-app) .notification {
         grid-column: auto;
         grid-row: auto;
         font-size: 0.82rem;
+        white-space: normal;
     }
 
     body:not(.live-quiz-app) #game-top-bar > :last-child {
+        display: flex;
         grid-column: auto;
         grid-row: auto;
     }
@@ -3101,8 +3200,9 @@ body:not(.live-quiz-app) .notification {
         height: 2.35rem;
     }
 
-    body:not(.live-quiz-app) #game-screen > .flex-grow {
-        padding-bottom: 0.2rem;
+    body:not(.live-quiz-app) #game-screen > #game-stage {
+        flex-direction: row;
+        padding: 0;
     }
 
     body:not(.live-quiz-app) #category-legend {
@@ -3127,20 +3227,23 @@ body:not(.live-quiz-app) .notification {
         overflow-wrap: anywhere;
     }
 
-    body:not(.live-quiz-app) .board-wrapper {
-        width: min(100%, 100cqh, 84vw, calc(76svh * var(--board-scale, 1)));
+    body:not(.live-quiz-app) #game-stage > .board-wrapper {
+        width: min(100%, 89.2857cqh, 84vw, calc(76svh * var(--board-scale, 1)), calc(100cqw - var(--responsive-dice-card-size) - var(--responsive-dice-card-size) - 1rem));
     }
 
-    body:not(.live-quiz-app) #dice-result {
+    body:not(.live-quiz-app) #game-stage > #dice-result {
         --responsive-dice-size: clamp(3.25rem, 7.5vh, 3.6rem);
         --responsive-dice-depth: clamp(1.625rem, 3.75vh, 1.8rem);
-        width: clamp(3.75rem, 13vh, 4.5rem) !important;
-        height: clamp(3.75rem, 13vh, 4.5rem) !important;
+        --responsive-dice-card-size: clamp(3.75rem, 13vh, 4.5rem);
+        position: absolute;
+        width: var(--responsive-dice-card-size) !important;
+        height: var(--responsive-dice-card-size) !important;
         padding: 0.1rem !important;
-        top: auto !important;
-        right: 0.1rem !important;
-        bottom: 0.1rem !important;
-        transform: none !important;
+        top: 50% !important;
+        right: max(0.25rem, env(safe-area-inset-right)) !important;
+        bottom: auto !important;
+        left: auto !important;
+        transform: translateY(-50%) !important;
     }
 
     body:not(.live-quiz-app) #category-legend {
@@ -3154,7 +3257,7 @@ body:not(.live-quiz-app) .notification {
         font-size: 0.7rem;
     }
 
-    body:not(.live-quiz-app) #dice-result > span {
+    body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
         display: none !important;
     }
 
@@ -3184,19 +3287,6 @@ body:not(.live-quiz-app) .notification {
 @media (min-width: 1500px) and (min-height: 850px) {
     body:not(.live-quiz-app) #game-top-bar {
         min-height: 5.25rem;
-    }
-
-    body:not(.live-quiz-app) #game-screen > .flex-grow {
-        padding-bottom: 2.25rem;
-    }
-
-    body:not(.live-quiz-app) #dice-result {
-        width: 8rem !important;
-        height: 8rem !important;
-    }
-
-    body:not(.live-quiz-app) #dice-result > span {
-        font-size: 0.78rem !important;
     }
 
     body:not(.live-quiz-app) #player-scores > div {
