@@ -2746,7 +2746,7 @@ body:not(.live-quiz-app) #question-modal #modal-content {
     transform: scale(var(--modal-scale-state, 1)) !important;
 }
 
-body:not(.live-quiz-app) #answer-popup {
+body:not(.live-quiz-app) #answer-popup:not(.hidden) {
     left: 50%;
     top: 50%;
     width: min(calc(100vw - 2rem), 40rem);
@@ -3811,4 +3811,670 @@ body:not(.live-quiz-app) .notification {
         outline-offset: 6px;
         box-shadow: 0 0 0 10px rgba(251, 191, 36, 0.35), 0 0 36px rgba(251, 191, 36, 0.45) !important;
     }
+}
+
+/* The reading dialogs reserve a stable viewport for one visible page and their controls. */
+body:not(.live-quiz-app) #question-modal {
+    box-sizing: border-box;
+    padding: max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-top))
+        max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-right))
+        max(clamp(0.5rem, 2vh, 1.5rem), env(safe-area-inset-bottom))
+        max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-left));
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #question-modal #modal-content,
+body:not(.live-quiz-app) #question-modal #modal-content.reading-dialog {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.75rem, 1.5vh, 2rem);
+    width: 100%;
+    max-width: none;
+    height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    max-height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    min-height: 0;
+    padding: clamp(0.75rem, 2vw, 3rem);
+    overflow: visible;
+    overscroll-behavior: auto;
+}
+
+body:not(.live-quiz-app) #question-modal #modal-content > .flex:first-child {
+    flex: 0 0 auto;
+    min-width: 0;
+    gap: clamp(0.5rem, 1vw, 1.5rem);
+}
+
+body:not(.live-quiz-app) #question-modal #regenerate-question-btn {
+    flex: 0 0 auto;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+}
+
+body:not(.live-quiz-app) #question-modal #question-content.reading-body:not(.hidden),
+body:not(.live-quiz-app) #answer-popup .reading-body:not(.hidden) {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #question-reading-pages,
+body:not(.live-quiz-app) #answer-reading-pages {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+}
+
+body:not(.live-quiz-app) .reading-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+    max-width: 100%;
+    overflow: visible;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) .reading-page[hidden],
+body:not(.live-quiz-app) .reading-pagination.hidden {
+    display: none !important;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label),
+body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+    width: min(100%, 82ch);
+    max-width: 82ch;
+    margin-inline: auto;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
+    white-space: pre-line;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    text-align: center;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+    font-size: clamp(1rem, 1.55vw, 1.5rem);
+    text-align: left;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    width: 100%;
+    min-width: 0;
+    min-height: 2.75rem;
+    padding: clamp(0.55rem, 1vw, 1rem) clamp(0.65rem, 1.2vw, 1.4rem);
+    font-size: clamp(1rem, 1.4vw, 1.4rem);
+    line-height: 1.35;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > #answer-section {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-width: 0;
+    margin-top: 0.5rem;
+}
+
+@supports selector(.reading-page:has(> button)) {
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button) {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        align-content: start;
+        gap: clamp(0.5rem, 1.2vw, 1.25rem);
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-fragment-label,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > #answer-section {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 900px) {
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(2)) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(3)):not(:has(> button:nth-of-type(4))) > button:nth-of-type(3) {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 2560px) {
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(2)):not(:has(> button:nth-of-type(3))) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(3)):not(:has(> button:nth-of-type(4))) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(4)) {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(3)):not(:has(> button:nth-of-type(4))) > button:nth-of-type(3) {
+        grid-column: auto;
+    }
+}
+
+body:not(.live-quiz-app) #question-content:not(.reading-body) {
+    flex: 1 1 0%;
+    min-height: 0;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #question-category {
+    min-width: 0;
+    font-size: clamp(1.25rem, 2.2vw, 2.5rem);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-modal #question-text {
+    width: min(100%, 78ch);
+    max-width: 78ch;
+    margin: 0 auto clamp(0.75rem, 2vh, 2rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    line-height: 1.45;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #mcq-options-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr));
+    align-content: start;
+    gap: clamp(0.5rem, 1.2vw, 1.25rem);
+    width: 100%;
+    margin-top: clamp(0.5rem, 1.5vh, 1.5rem);
+}
+
+body:not(.live-quiz-app) #mcq-options-container button,
+body:not(.live-quiz-app) #answer-section button,
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+body:not(.live-quiz-app) #verification-buttons button,
+body:not(.live-quiz-app) #post-verification-buttons button,
+body:not(.live-quiz-app) .reading-pagination button {
+    min-width: 0;
+    min-height: 2.75rem;
+    padding: clamp(0.55rem, 1vw, 1rem) clamp(0.65rem, 1.2vw, 1.4rem);
+    font-size: clamp(1rem, 1.4vw, 1.4rem);
+    line-height: 1.35;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #mcq-options-container button {
+    height: 100%;
+    text-align: center;
+}
+
+body:not(.live-quiz-app) #answer-section input {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    min-height: 2.75rem;
+    padding: 0.6rem 0.8rem;
+    font-size: clamp(1rem, 1.35vw, 1.4rem);
+}
+
+body:not(.live-quiz-app) #question-reading-pagination,
+body:not(.live-quiz-app) #answer-reading-pagination,
+body:not(.live-quiz-app) .reading-pagination {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    flex: 0 0 auto;
+    gap: clamp(0.5rem, 1vw, 1.25rem);
+    min-width: 0;
+    padding-top: clamp(0.5rem, 1vh, 1rem);
+}
+
+body:not(.live-quiz-app) .reading-pagination [data-reading-prev] {
+    justify-self: start;
+}
+
+body:not(.live-quiz-app) .reading-pagination [data-reading-next] {
+    justify-self: end;
+}
+
+body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+body:not(.live-quiz-app) .reading-page-status {
+    min-width: 0;
+    font-size: clamp(0.875rem, 1vw, 1.1rem);
+    line-height: 1.2;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) .reading-fragment-label,
+body:not(.live-quiz-app) .reading-section-label {
+    flex: 0 0 auto;
+    max-width: 100%;
+    margin: 0 0 0.35em;
+    font-size: clamp(0.875rem, 1vw, 1.1rem);
+    font-weight: 700;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #answer-popup:not(.hidden) {
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1vh, 1rem);
+    width: calc(100vw - 2 * max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-left), env(safe-area-inset-right)));
+    max-width: none;
+    height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    max-height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    padding: clamp(0.75rem, 2vw, 3rem);
+    overflow: visible;
+    transform: translate(-50%, -50%) scale(var(--popup-scale-state, 1)) !important;
+}
+
+body:not(.live-quiz-app) #answer-popup #standard-popup-content.reading-dialog:not(.hidden),
+body:not(.live-quiz-app) #answer-popup #standard-popup-content:not(.hidden) {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1vh, 1.25rem);
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    max-height: none;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #answer-popup #answer-reading-body {
+    flex: 1 1 0%;
+    min-width: 0;
+    min-height: 0;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #standard-popup-content > h3,
+body:not(.live-quiz-app) #answer-popup-title {
+    flex: 0 0 auto;
+    margin-bottom: 0.25rem;
+    font-size: clamp(1.4rem, 2.2vw, 2.25rem);
+    line-height: 1.15;
+}
+
+body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+    max-width: min(100%, 82ch);
+    margin-inline: auto;
+    font-size: clamp(1rem, 1.55vw, 1.5rem);
+    line-height: 1.5;
+    text-align: left;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
+    white-space: pre-line;
+}
+
+body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+    font-size: clamp(0.875rem, 1.1vw, 1.1rem);
+    line-height: 1.3;
+}
+
+body:not(.live-quiz-app) #verification-buttons:not(.hidden),
+body:not(.live-quiz-app) #post-verification-buttons:not(.hidden) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex: 0 0 auto;
+    gap: clamp(0.5rem, 1vw, 1rem);
+    min-width: 0;
+    margin-top: 0.25rem;
+}
+
+body:not(.live-quiz-app) #verification-buttons button,
+body:not(.live-quiz-app) #post-verification-buttons button {
+    width: 100%;
+}
+
+@media (min-width: 900px) and (min-height: 600px) {
+    body:not(.live-quiz-app) #question-modal #question-text {
+        font-size: clamp(1.75rem, 2vw, 2.5rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: clamp(1.75rem, 2vw, 2.5rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: clamp(1.5rem, 1.7vw, 2rem);
+    }
+
+    body:not(.live-quiz-app) #question-category {
+        font-size: clamp(1.75rem, 2.1vw, 2.75rem);
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button {
+        min-height: clamp(3.5rem, 6vh, 5rem);
+        padding: clamp(0.75rem, 1.2vw, 1.5rem);
+        font-size: clamp(1.5rem, 1.7vw, 2rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+    body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+        font-size: clamp(1.5rem, 1.7vw, 2rem);
+    }
+
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+        font-size: clamp(1rem, 1.2vw, 1.4rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: clamp(3.5rem, 5vh, 5rem);
+        padding-inline: clamp(1rem, 1.4vw, 2rem);
+        font-size: clamp(1.25rem, 1.4vw, 1.75rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+    body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+    body:not(.live-quiz-app) .reading-page-status {
+        font-size: clamp(1rem, 1vw, 1.35rem);
+    }
+
+    body:not(.live-quiz-app) .reading-fragment-label,
+    body:not(.live-quiz-app) .reading-section-label {
+        font-size: clamp(1rem, 1vw, 1.35rem);
+    }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+    body:not(.live-quiz-app) #question-modal #question-category,
+    body:not(.live-quiz-app) #answer-popup-title {
+        font-size: clamp(3.5rem, 2.1vw, 4.75rem);
+        line-height: 1.12;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text {
+        max-width: 78ch;
+        font-size: clamp(4.375rem, 2.1vw, 6.25rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        max-width: 78ch;
+        font-size: clamp(4.375rem, 2.1vw, 6.25rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+        max-width: min(100%, 82ch);
+        font-size: clamp(3.125rem, 1.6vw, 4rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button {
+        min-height: clamp(5rem, 6vh, 7rem);
+        padding: clamp(1rem, 1.25vw, 2rem);
+        font-size: clamp(2.75rem, 1.6vw, 3.5rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+    body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+        max-width: min(100%, 82ch);
+        font-size: clamp(3.125rem, 1.6vw, 4rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+        font-size: clamp(1.75rem, 1.1vw, 2.25rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-modal #modal-content,
+    body:not(.live-quiz-app) #answer-popup {
+        padding: clamp(2.5rem, 2vw, 5rem);
+        gap: clamp(1.5rem, 2vh, 3rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: clamp(5rem, 5vh, 6rem);
+        padding-inline: clamp(1.5rem, 1.5vw, 2.5rem);
+        font-size: clamp(1.75rem, 1.25vw, 2.25rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+    body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+    body:not(.live-quiz-app) .reading-page-status {
+        font-size: clamp(1.5rem, 1vw, 2rem);
+    }
+
+    body:not(.live-quiz-app) .reading-fragment-label,
+    body:not(.live-quiz-app) .reading-section-label {
+        font-size: clamp(1.5rem, 1vw, 2rem);
+    }
+}
+
+@media (max-width: 600px) {
+    body:not(.live-quiz-app) #question-modal {
+        padding: max(0.5rem, env(safe-area-inset-top)) max(0.5rem, env(safe-area-inset-right))
+            max(0.5rem, env(safe-area-inset-bottom)) max(0.5rem, env(safe-area-inset-left));
+    }
+
+    body:not(.live-quiz-app) #question-modal #modal-content,
+    body:not(.live-quiz-app) #answer-popup {
+        padding: 0.75rem;
+        gap: 0.5rem;
+        height: min(92dvh, calc(100dvh - max(0.5rem, env(safe-area-inset-top)) - max(0.5rem, env(safe-area-inset-bottom))));
+        max-height: min(92dvh, calc(100dvh - max(0.5rem, env(safe-area-inset-top)) - max(0.5rem, env(safe-area-inset-bottom))));
+        border-radius: 0.9rem;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text {
+        font-size: clamp(1rem, 4.5vw, 1.3rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: clamp(1rem, 4.5vw, 1.3rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: clamp(0.95rem, 3.8vw, 1.15rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-category,
+    body:not(.live-quiz-app) #answer-popup-title {
+        font-size: clamp(1rem, 5vw, 1.4rem);
+        line-height: 1.15;
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button,
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: 2.75rem;
+        padding: 0.5rem 0.65rem;
+        font-size: clamp(0.9rem, 3.8vw, 1.05rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+    body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+        font-size: clamp(0.95rem, 3.8vw, 1.15rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+        font-size: 0.85rem;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 0.35rem;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+    body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+    body:not(.live-quiz-app) .reading-page-status {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        font-size: 0.8rem;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-prev] {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: stretch;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-next] {
+        grid-column: 2;
+        grid-row: 2;
+        justify-self: stretch;
+    }
+}
+
+@media (max-height: 500px) and (min-width: 601px) {
+    body:not(.live-quiz-app) #question-modal #modal-content,
+    body:not(.live-quiz-app) #answer-popup {
+        height: 94dvh;
+        max-height: 94dvh;
+        padding-block: 0.5rem;
+        gap: 0.35rem;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text {
+        font-size: clamp(1rem, 2vw, 1.4rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: clamp(1rem, 2vw, 1.4rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-category,
+    body:not(.live-quiz-app) #answer-popup-title {
+        font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button,
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: 2.75rem;
+        padding-block: 0.35rem;
+        font-size: clamp(0.95rem, 1.8vw, 1.25rem);
+    }
+}
+
+/* Keep the canonical accessible question text clipped; only its page copy is visible. */
+body:not(.live-quiz-app) #question-modal #question-text.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Reading-card clones no longer carry their source IDs, so style their semantic color classes directly. */
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-gray-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-green-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-red-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-yellow-100 {
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-gray-100 {
+    background-color: #1e293b !important;
+    border-color: #475569;
+    color: #f1f5f9;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-green-100 {
+    background-color: #14532d !important;
+    border-color: #166534;
+    color: #dcfce7;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-red-100 {
+    background-color: #7f1d1d !important;
+    border-color: #991b1b;
+    color: #fee2e2;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-yellow-100 {
+    background-color: #713f12 !important;
+    border-color: #a16207;
+    color: #fef3c7;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-gray-100 {
+    background-color: #f1f5f9 !important;
+    border-color: #94a3b8;
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-green-100 {
+    background-color: #dcfce7 !important;
+    border-color: #166534;
+    color: #14532d;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-red-100 {
+    background-color: #fee2e2 !important;
+    border-color: #991b1b;
+    color: #7f1d1d;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-yellow-100 {
+    background-color: #fef3c7 !important;
+    border-color: #a16207;
+    color: #78350f;
 }

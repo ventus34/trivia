@@ -16,6 +16,11 @@ import {
   resetCategoryLegendHighlights,
 } from './ui-board.js';
 import { renderExplanation } from './explanations.js';
+import {
+  clearQuestionReadingCards,
+  refreshQuestionReadingCards,
+  setQuestionReadingItems,
+} from './reading-cards.js';
 import { saveGameState, loadGameState, restoreGameState } from './persistence.js';
 import { notify } from './error-bus.js';
 import { getApiAdapter } from './services/api-service.js';
@@ -32,6 +37,14 @@ function readCategoryTopicHistory() {
     console.warn('Ignoring invalid saved topic history.', error);
     return {};
   }
+}
+
+function makeReadingSectionLabel(key) {
+  const label = document.createElement('p');
+  label.className = 'reading-section-label';
+  label.dataset.langKey = key;
+  label.textContent = translations[key]?.[gameState.currentLanguage] || '';
+  return label;
 }
 
 export function validateGameSetup(playerCount, categories) {
@@ -248,6 +261,9 @@ export async function askQuestion(forcedCategoryIndex = null) {
   showModal(true);
   UI.llmLoader.classList.remove('hidden');
   UI.questionContent.classList.add('hidden');
+  // Restore any answer buttons moved into the previous reading deck before
+  // clearing their source container.
+  clearQuestionReadingCards();
   UI.mcqOptionsContainer.innerHTML = '';
 
   try {
@@ -262,27 +278,59 @@ export async function askQuestion(forcedCategoryIndex = null) {
     setState({ currentQuestionData: data }, 'state:question');
     UI.questionTextP.textContent = data.question;
 
+    const readingItems = [
+      {
+        kind: 'text',
+        node: UI.questionTextP,
+        template: UI.questionTextP,
+        text: data.question,
+        labelNode: makeReadingSectionLabel('reading_question_label'),
+        sectionKey: 'reading_question_label',
+      },
+    ];
+
     if (gameState.gameMode === 'mcq') {
       if (!Array.isArray(data.options) || data.options.length < 2) {
         throw new Error(translations.question_generation_error[gameState.currentLanguage]);
       }
       UI.answerSection.classList.add('hidden');
       UI.mcqOptionsContainer.classList.remove('hidden');
-      data.options.forEach((option) => {
+      data.options.forEach((option, index) => {
         const button = document.createElement('button');
         button.className =
           'w-full p-3 text-center bg-gray-100 hover:bg-indigo-100 rounded-lg transition-colors flex justify-center items-center';
         button.textContent = option;
         button.onclick = () => handleMcqAnswer(option);
         UI.mcqOptionsContainer.appendChild(button);
+        readingItems.push({
+          kind: 'action',
+          node: button,
+          text: option,
+          optionLabel: String.fromCharCode(65 + index),
+          labelNode: index === 0 ? makeReadingSectionLabel('reading_choices_label') : undefined,
+          sectionKey: 'reading_choices_label',
+        });
       });
     } else {
       UI.answerSection.classList.remove('hidden');
       UI.mcqOptionsContainer.classList.add('hidden');
-      UI.answerInput.focus();
+      readingItems.push({
+        kind: 'node',
+        node: UI.answerSection,
+        template: UI.answerSection,
+        text: UI.answerSection.textContent,
+        split: false,
+        labelNode: makeReadingSectionLabel('reading_answer_label'),
+        sectionKey: 'reading_answer_label',
+      });
     }
+    setQuestionReadingItems(readingItems);
     UI.questionContent.classList.remove('hidden');
     UI.llmLoader.classList.add('hidden');
+    await refreshQuestionReadingCards();
+    if (gameState.gameMode !== 'mcq') {
+      UI.answerInput.focus?.({ preventScroll: true });
+    }
 
     if (api && api.preloadQuestions) {
       console.log('Triggering question preload while player is thinking...');

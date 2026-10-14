@@ -7,6 +7,7 @@ import { CONFIG, translations } from './config.js';
 import { gameState, setState } from './state.js';
 import { UI } from './dom.js';
 import { renderExplanation } from './explanations.js';
+import { clearAnswerReadingCards, refreshAnswerReadingCards } from './reading-cards.js';
 import { uiHandlers } from './ui-handlers.js';
 import { saveGameState } from './persistence.js';
 import { notify } from './error-bus.js';
@@ -41,6 +42,7 @@ export function promptCategoryChoice() {
  * @param {string} correctAnswer - The correct answer from the question data.
  */
 export function showVerificationPopup(playerAnswer, correctAnswer) {
+  clearAnswerReadingCards();
   UI.playerAnswerText.textContent = playerAnswer;
   UI.correctAnswerText.textContent = correctAnswer;
   setState({ currentPlayerAnswer: playerAnswer }, 'state:verification');
@@ -93,6 +95,9 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
 
 export function showAnswerPopup() {
   UI.answerPopup.classList.remove('hidden');
+  // The deck is hidden until this point, so measure only after the popup is
+  // visible and its responsive dimensions have settled.
+  refreshAnswerReadingCards();
   setTimeout(() => {
     UI.answerPopup.classList.remove('opacity-0', 'scale-90');
   }, 10);

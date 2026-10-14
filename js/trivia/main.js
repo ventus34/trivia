@@ -16,6 +16,7 @@ import { setupEventListeners } from './ui-events.js';
 import { setupStateSubscriptions } from './ui-state.js';
 import { setApiAdapter, getApiAdapter } from './services/api-service.js';
 import { setupInputControls } from './input-controls.js';
+import { initReadingCards } from './reading-cards.js';
 
 /**
  * Global fetch wrapper for handling network errors gracefully.
@@ -51,6 +52,7 @@ export async function fetchWithErrorHandling(url, options) {
  */
 export async function initializeApp(apiAdapter) {
   setApiAdapter(apiAdapter);
+  initReadingCards({ language: () => gameState.currentLanguage });
 
   registerUIHandlers({
     handleSquareClick,

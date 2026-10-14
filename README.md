@@ -36,6 +36,7 @@ The **Trivia** board game is an interactive, fully client-side (serverless) quiz
 7. **Responsive Play and Accessible Controls**:
    - The setup wizard, board, player scores, die, and category legend adapt to phone portrait/landscape, desktop, and TV-sized screens without device-specific configuration.
    - Use Arrow keys or WASD to move focus, Enter/Space to activate, and Escape to close a dialog or return. Standard gamepads use the D-pad or left stick, A to activate, B to go back, and Start to open or close the game menu.
+   - Long questions, answers, and explanations paginate automatically. Previous/Next also work with keyboard or gamepad; very long answer choices continue across pages and remain selectable.
    - Gamepad input uses the browser Gamepad API. Browsers require a secure context: use `localhost` for local play and HTTPS when hosting on another device.
 
 ---
@@ -228,4 +229,5 @@ npm run lint
 - Strona dopasowuje układ do telefonu w pionie i poziomie, komputera oraz dużego ekranu TV; nie wymaga ręcznego wyboru urządzenia.
 - Strzałki lub WASD przenoszą fokus, Enter/Spacja aktywują element, a Escape zamyka okno lub cofa.
 - Standardowy kontroler używa krzyżaka lub lewej gałki, A do aktywacji, B do cofania oraz Start do otwierania i zamykania menu gry.
+- Długie pytania, odpowiedzi i wyjaśnienia dzielą się automatycznie na strony. Przyciski Poprzednia/Następna działają też z klawiatury i kontrolera; bardzo długą odpowiedź można wybrać z każdego fragmentu.
 - Obsługa kontrolera korzysta z Gamepad API przeglądarki. API wymaga bezpiecznego kontekstu: lokalnie używaj `localhost`, a na innym urządzeniu hostuj aplikację przez HTTPS.

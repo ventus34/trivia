@@ -395,6 +395,22 @@ export const CATEGORY_PRESETS = [
 
 // --- TRANSLATIONS ---
 export const translations = {
+  reading_page_status: { pl: 'Strona {page} z {total}', en: 'Page {page} of {total}' },
+  reading_previous_page: { pl: 'Poprzednia', en: 'Previous' },
+  reading_next_page: { pl: 'Następna', en: 'Next' },
+  reading_pagination_label: { pl: 'Nawigacja stron', en: 'Page navigation' },
+  reading_question_label: { pl: 'Pytanie', en: 'Question' },
+  reading_choices_label: { pl: 'Odpowiedzi', en: 'Answer choices' },
+  reading_answer_label: { pl: 'Odpowiedź', en: 'Answer' },
+  reading_explanation_label: { pl: 'Wyjaśnienie', en: 'Explanation' },
+  reading_option_fragment_start: {
+    pl: 'Odpowiedź {option} · część {page} z {total}',
+    en: 'Answer {option} · part {page} of {total}',
+  },
+  reading_option_fragment_continue: {
+    pl: 'Odpowiedź {option} · dalszy ciąg {page} z {total}',
+    en: 'Answer {option} · continued {page} of {total}',
+  },
   setup_title: { pl: 'Ustawienia', en: 'Settings' },
   api_error: { pl: 'Błąd API', en: 'API Error' },
   setup_error_title: { pl: 'Błąd konfiguracji', en: 'Setup Error' },
