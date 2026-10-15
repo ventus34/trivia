@@ -3879,6 +3879,8 @@ body:not(.live-quiz-app) .reading-page {
     max-width: 100%;
     overflow: visible;
     overflow-wrap: anywhere;
+    font-size: var(--reading-content-font-size, clamp(1rem, 6vh, 12rem));
+    line-height: 1.2;
 }
 
 body:not(.live-quiz-app) .reading-page[hidden],
@@ -3888,85 +3890,40 @@ body:not(.live-quiz-app) .reading-pagination.hidden {
 
 body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label),
 body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
-    width: min(100%, 82ch);
-    max-width: 82ch;
-    margin-inline: auto;
-    line-height: 1.45;
+    width: 100%;
+    max-width: 100%;
+    margin-inline: 0;
+    line-height: 1.2;
     overflow-wrap: anywhere;
     text-wrap: pretty;
     white-space: pre-line;
 }
 
 body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
-    font-size: clamp(1rem, 4vw, 1.5rem);
+    font-size: inherit;
     text-align: center;
 }
 
 body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
-    font-size: clamp(1rem, 1.55vw, 1.5rem);
+    font-size: inherit;
     text-align: left;
 }
 
 body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
     width: 100%;
     min-width: 0;
-    min-height: 2.75rem;
-    padding: clamp(0.55rem, 1vw, 1rem) clamp(0.65rem, 1.2vw, 1.4rem);
-    font-size: clamp(1rem, 1.4vw, 1.4rem);
-    line-height: 1.35;
+    min-height: max(2.75rem, 1.45em);
+    padding: 0.28em 0.7em;
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+    line-height: 1.18;
     white-space: normal;
     overflow-wrap: anywhere;
 }
 
 body:not(.live-quiz-app) #question-reading-pages .reading-page > #answer-section {
-    grid-column: 1 / -1;
     width: 100%;
     min-width: 0;
     margin-top: 0.5rem;
-}
-
-@supports selector(.reading-page:has(> button)) {
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button) {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
-        align-content: start;
-        gap: clamp(0.5rem, 1.2vw, 1.25rem);
-    }
-
-    body:not(.live-quiz-app) #question-reading-pages .reading-page > p,
-    body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
-    body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-fragment-label,
-    body:not(.live-quiz-app) #question-reading-pages .reading-page > #answer-section {
-        grid-column: 1 / -1;
-    }
-}
-
-@media (min-width: 900px) {
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(2)) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(3)):not(:has(> button:nth-of-type(4))) > button:nth-of-type(3) {
-        grid-column: 1 / -1;
-    }
-}
-
-@media (min-width: 2560px) {
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(2)):not(:has(> button:nth-of-type(3))) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(3)):not(:has(> button:nth-of-type(4))) {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(4)) {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-
-    body:not(.live-quiz-app) #question-reading-pages .reading-page:has(> button:nth-of-type(3)):not(:has(> button:nth-of-type(4))) > button:nth-of-type(3) {
-        grid-column: auto;
-    }
 }
 
 body:not(.live-quiz-app) #question-content:not(.reading-body) {
@@ -3994,7 +3951,7 @@ body:not(.live-quiz-app) #question-modal #question-text {
 
 body:not(.live-quiz-app) #mcq-options-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr));
+    grid-template-columns: minmax(0, 1fr);
     align-content: start;
     gap: clamp(0.5rem, 1.2vw, 1.25rem);
     width: 100%;
@@ -4003,7 +3960,16 @@ body:not(.live-quiz-app) #mcq-options-container {
 
 body:not(.live-quiz-app) #mcq-options-container button,
 body:not(.live-quiz-app) #answer-section button,
-body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    min-width: 0;
+    min-height: max(2.75rem, 1.45em);
+    padding: 0.28em 0.7em;
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+    line-height: 1.18;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
 body:not(.live-quiz-app) #verification-buttons button,
 body:not(.live-quiz-app) #post-verification-buttons button,
 body:not(.live-quiz-app) .reading-pagination button {
@@ -4026,8 +3992,8 @@ body:not(.live-quiz-app) #answer-section input {
     width: 100%;
     min-width: 0;
     min-height: 2.75rem;
-    padding: 0.6rem 0.8rem;
-    font-size: clamp(1rem, 1.35vw, 1.4rem);
+    padding: 0.28em 0.5em;
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
 }
 
 body:not(.live-quiz-app) #question-reading-pagination,
@@ -4065,7 +4031,7 @@ body:not(.live-quiz-app) .reading-section-label {
     flex: 0 0 auto;
     max-width: 100%;
     margin: 0 0 0.35em;
-    font-size: clamp(0.875rem, 1vw, 1.1rem);
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.4em);
     font-weight: 700;
     line-height: 1.25;
     overflow-wrap: anywhere;
@@ -4131,7 +4097,7 @@ body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
 
 body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
 body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
-    font-size: clamp(0.875rem, 1.1vw, 1.1rem);
+    font-size: max(1rem, 0.3em);
     line-height: 1.3;
 }
 
@@ -4157,12 +4123,13 @@ body:not(.live-quiz-app) #post-verification-buttons button {
     }
 
     body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
-        font-size: clamp(1.75rem, 2vw, 2.5rem);
-        line-height: 1.4;
+        font-size: inherit;
+        line-height: 1.2;
     }
 
     body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
-        font-size: clamp(1.5rem, 1.7vw, 2rem);
+        font-size: inherit;
+        line-height: 1.2;
     }
 
     body:not(.live-quiz-app) #question-category {
@@ -4171,7 +4138,13 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 
     body:not(.live-quiz-app) #mcq-options-container button,
     body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
-    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding: 0.28em 0.7em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+        line-height: 1.18;
+    }
+
     body:not(.live-quiz-app) #verification-buttons button,
     body:not(.live-quiz-app) #post-verification-buttons button {
         min-height: clamp(3.5rem, 6vh, 5rem);
@@ -4189,7 +4162,7 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 
     body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
     body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
-        font-size: clamp(1rem, 1.2vw, 1.4rem);
+        font-size: max(1rem, 0.3em);
     }
 
     body:not(.live-quiz-app) .reading-pagination button {
@@ -4204,10 +4177,6 @@ body:not(.live-quiz-app) #post-verification-buttons button {
         font-size: clamp(1rem, 1vw, 1.35rem);
     }
 
-    body:not(.live-quiz-app) .reading-fragment-label,
-    body:not(.live-quiz-app) .reading-section-label {
-        font-size: clamp(1rem, 1vw, 1.35rem);
-    }
 }
 
 @media (min-width: 2560px) and (min-height: 1440px) {
@@ -4224,20 +4193,26 @@ body:not(.live-quiz-app) #post-verification-buttons button {
     }
 
     body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
-        max-width: 78ch;
-        font-size: clamp(4.375rem, 2.1vw, 6.25rem);
-        line-height: 1.3;
+        max-width: 100%;
+        font-size: inherit;
+        line-height: 1.2;
     }
 
     body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
-        max-width: min(100%, 82ch);
-        font-size: clamp(3.125rem, 1.6vw, 4rem);
-        line-height: 1.4;
+        max-width: 100%;
+        font-size: inherit;
+        line-height: 1.2;
     }
 
     body:not(.live-quiz-app) #mcq-options-container button,
     body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
-    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding: 0.28em 0.7em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+        line-height: 1.18;
+    }
+
     body:not(.live-quiz-app) #verification-buttons button,
     body:not(.live-quiz-app) #post-verification-buttons button {
         min-height: clamp(5rem, 6vh, 7rem);
@@ -4257,7 +4232,7 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 
     body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
     body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
-        font-size: clamp(1.75rem, 1.1vw, 2.25rem);
+        font-size: max(1rem, 0.3em);
         line-height: 1.3;
     }
 
@@ -4279,13 +4254,13 @@ body:not(.live-quiz-app) #post-verification-buttons button {
         font-size: clamp(1.5rem, 1vw, 2rem);
     }
 
-    body:not(.live-quiz-app) .reading-fragment-label,
-    body:not(.live-quiz-app) .reading-section-label {
-        font-size: clamp(1.5rem, 1vw, 2rem);
-    }
 }
 
 @media (max-width: 600px) {
+    body:not(.live-quiz-app) .reading-page {
+        font-size: var(--reading-content-font-size, clamp(1rem, 2.8vh, 1.5rem));
+    }
+
     body:not(.live-quiz-app) #question-modal {
         padding: max(0.5rem, env(safe-area-inset-top)) max(0.5rem, env(safe-area-inset-right))
             max(0.5rem, env(safe-area-inset-bottom)) max(0.5rem, env(safe-area-inset-left));
@@ -4306,12 +4281,12 @@ body:not(.live-quiz-app) #post-verification-buttons button {
     }
 
     body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
-        font-size: clamp(1rem, 4.5vw, 1.3rem);
+        font-size: inherit;
         line-height: 1.4;
     }
 
     body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
-        font-size: clamp(0.95rem, 3.8vw, 1.15rem);
+        font-size: inherit;
         line-height: 1.4;
     }
 
@@ -4323,7 +4298,13 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 
     body:not(.live-quiz-app) #mcq-options-container button,
     body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
-    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding: 0.28em 0.7em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+        line-height: 1.18;
+    }
+
     body:not(.live-quiz-app) #verification-buttons button,
     body:not(.live-quiz-app) #post-verification-buttons button,
     body:not(.live-quiz-app) .reading-pagination button {
@@ -4343,7 +4324,7 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 
     body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
     body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
-        font-size: 0.85rem;
+        font-size: max(1rem, 0.3em);
     }
 
     body:not(.live-quiz-app) .reading-pagination {
@@ -4373,6 +4354,10 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 }
 
 @media (max-height: 500px) and (min-width: 601px) {
+    body:not(.live-quiz-app) .reading-page {
+        font-size: var(--reading-content-font-size, clamp(1rem, 3vh, 1.5rem));
+    }
+
     body:not(.live-quiz-app) #question-modal #modal-content,
     body:not(.live-quiz-app) #answer-popup {
         height: 94dvh;
@@ -4387,7 +4372,7 @@ body:not(.live-quiz-app) #post-verification-buttons button {
     }
 
     body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
-        font-size: clamp(1rem, 2vw, 1.4rem);
+        font-size: inherit;
         line-height: 1.3;
     }
 
@@ -4397,7 +4382,12 @@ body:not(.live-quiz-app) #post-verification-buttons button {
     }
 
     body:not(.live-quiz-app) #mcq-options-container button,
-    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding-block: 0.25em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+    }
+
     body:not(.live-quiz-app) #verification-buttons button,
     body:not(.live-quiz-app) #post-verification-buttons button,
     body:not(.live-quiz-app) .reading-pagination button {

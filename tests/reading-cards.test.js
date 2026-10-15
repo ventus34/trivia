@@ -1,5 +1,9 @@
 import { describe, expect, it, vi } from 'vitest';
-import { paginateReadingItems, splitTextToPages } from '../js/trivia/reading-cards.js';
+import {
+  maximizeFittingFontSize,
+  paginateReadingItems,
+  splitTextToPages,
+} from '../js/trivia/reading-cards.js';
 
 const countGraphemes = (text) =>
   Array.from(new Intl.Segmenter(undefined, { granularity: 'grapheme' }).segment(text)).length;
@@ -134,5 +138,77 @@ describe('reading-card pagination', () => {
     const pages = splitTextToPages(source, () => false);
     expect(pages.join('')).toBe(source);
     expect(pages).toEqual(['A', '👩🏽‍🚀', 'B']);
+  });
+
+  it('finds the largest fitting font size to within one pixel', () => {
+    const limit = 37.25;
+    const fits = (size) => size <= limit;
+    const size = maximizeFittingFontSize(16, 64, fits, 0.1);
+
+    expect(fits(size)).toBe(true);
+    expect(limit - size).toBeLessThanOrEqual(0.1);
+    expect(fits(size + 0.1)).toBe(false);
+  });
+
+  it('clamps to the configured floor and ceiling', () => {
+    expect(maximizeFittingFontSize(16, 64, () => true)).toBe(64);
+    expect(maximizeFittingFontSize(16, 64, () => false)).toBe(16);
+  });
+
+  it('preserves full multi-section source across paginated layouts and resize reflow', () => {
+    const items = [
+      {
+        section: 'question',
+        text: 'Select the best explanation. ' + 'A longer question with context. '.repeat(8),
+      },
+      { section: 'choices', text: 'A. One\nB. Two\nC. Three\nD. Four' },
+      { section: 'answer', text: 'The full answer remains available.' },
+      {
+        section: 'explanation',
+        text: 'First paragraph.\n\n' + 'Detailed explanation with Unicode 👩🏽‍🚀. '.repeat(24),
+      },
+    ];
+    const originalText = items.map((item) => item.text);
+
+    const layoutForViewport = (width, height) => {
+      const minFontSize = 16;
+      const maxFontSize = 64;
+      const fitsPageAt = (slots, fontSize) => {
+        const characters = slots.reduce((total, slot) => total + countGraphemes(slot.text), 0);
+        const charsPerLine = Math.max(1, width / (fontSize * 0.56));
+        const lines = Math.ceil(characters / charsPerLine);
+        return lines * fontSize * 1.35 <= height;
+      };
+      const pages = paginateReadingItems(items, (slots) => fitsPageAt(slots, minFontSize));
+      const fontSizes = pages.map((page) =>
+        maximizeFittingFontSize(minFontSize, maxFontSize, (size) => fitsPageAt(page, size))
+      );
+      return { pages, fontSizes, fitsPageAt };
+    };
+
+    const wide = layoutForViewport(760, 400);
+    const narrow = layoutForViewport(260, 300);
+
+    expect(narrow.pages.length).toBeGreaterThan(wide.pages.length);
+    expect(reconstructItems(wide.pages, items)).toEqual(originalText);
+    expect(reconstructItems(narrow.pages, items)).toEqual(originalText);
+    expect(items.map((item) => item.text)).toEqual(originalText);
+    wide.pages.forEach((page, index) => {
+      expect(wide.fitsPageAt(page, wide.fontSizes[index])).toBe(true);
+    });
+    narrow.pages.forEach((page, index) => {
+      expect(narrow.fitsPageAt(page, narrow.fontSizes[index])).toBe(true);
+    });
+  });
+
+  it('settles on the same page font after repeated unchanged resize/font refreshes', () => {
+    const fits = (fontSize) => fontSize <= 29.75;
+    const measuredSizes = Array.from({ length: 12 }, () =>
+      maximizeFittingFontSize(16, 64, fits, 0.1)
+    );
+
+    expect(new Set(measuredSizes).size).toBe(1);
+    expect(fits(measuredSizes[0])).toBe(true);
+    expect(fits(measuredSizes[0] + 0.1)).toBe(false);
   });
 });

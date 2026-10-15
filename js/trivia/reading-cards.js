@@ -187,6 +187,39 @@ export function paginateReadingItems(items, fitsPage) {
   return pages;
 }
 
+/**
+ * Find the largest font size whose rendered page fits its content box.
+ * `fits(sizePx)` synchronously measures that exact CSS-pixel candidate. If the
+ * floor does not fit, the floor is returned so the caller can paginate there.
+ */
+export function maximizeFittingFontSize(minFontSize, maxFontSize, fits, precision = 0.5) {
+  const min = Number(minFontSize);
+  const max = Number(maxFontSize);
+  const tolerance = Number(precision);
+  if (!Number.isFinite(min) || min <= 0) {
+    throw new TypeError('minFontSize must be a positive finite number');
+  }
+  if (!Number.isFinite(max) || max < min) {
+    throw new TypeError('maxFontSize must be finite and at least minFontSize');
+  }
+  if (typeof fits !== 'function') throw new TypeError('fits must be a function');
+  if (!Number.isFinite(tolerance) || tolerance <= 0) {
+    throw new TypeError('precision must be a positive finite number');
+  }
+
+  if (fits(max)) return max;
+  if (!fits(min)) return min;
+
+  let low = min;
+  let high = max;
+  while (high - low > tolerance) {
+    const middle = (low + high) / 2;
+    if (fits(middle)) low = middle;
+    else high = middle;
+  }
+  return low;
+}
+
 function cloneForMeasure(node, text, lang = 'pl', preserveId = false) {
   const clone = node?.cloneNode?.(true) || document.createElement('p');
   if (!preserveId) clone.removeAttribute?.('id');
@@ -227,6 +260,8 @@ export function createReadingCardDeck({
 
   let sourceItems = [];
   let pageData = [];
+  let pageFontSizes = [];
+  let minFontSize = 16;
   let activePage = 0;
   let pendingInitialFocus = false;
   let preferredSectionKey = null;
@@ -266,17 +301,7 @@ export function createReadingCardDeck({
   const appendSectionLabel = (parent, item) => {
     if (!item.labelNode) return;
     const label = cloneForMeasure(item.labelNode, undefined, translationsFor().lang);
-    const labelKey = item.labelNode.dataset?.langKey;
-    const canonicalLabel = item.labelNode.isConnected
-      ? item.labelNode
-      : labelKey
-        ? item.node?.parentElement?.querySelector(`[data-lang-key="${labelKey}"]`)
-        : null;
-    if (canonicalLabel?.isConnected && canonicalLabel.closest('#answer-reading-body')) {
-      const sourceStyle = win.getComputedStyle(canonicalLabel);
-      label.style.fontSize = sourceStyle.fontSize;
-      label.style.lineHeight = sourceStyle.lineHeight;
-    }
+    label.classList?.remove('text-sm');
     parent.appendChild(label);
   };
 
@@ -295,7 +320,18 @@ export function createReadingCardDeck({
     });
   };
 
-  const buildMeasurementPage = (slots) => {
+  const getFontBounds = () => {
+    const width = Math.max(1, body.clientWidth);
+    const height = Math.max(1, body.clientHeight);
+    const viewportWidth = win.innerWidth || width;
+    const min = viewportWidth >= 2560 ? 40 : viewportWidth >= 900 ? 20 : 16;
+    // The ceiling follows the available card geometry; the rendered DOM
+    // measurement determines the actual size for each page.
+    const max = Math.max(min, Math.min(width, height) * 0.8);
+    return { min, max };
+  };
+
+  const buildMeasurementPage = (slots, fontSize, floorFontSize = fontSize) => {
     const measurementRoot = doc.createElement('div');
     measurementRoot.id = pagesElement.id;
     measurementRoot.className = 'reading-pages';
@@ -318,8 +354,9 @@ export function createReadingCardDeck({
       'flex:1 1 auto',
       'min-height:0',
       'box-sizing:border-box',
-      `font:${win.getComputedStyle(body).font}`,
-      `line-height:${win.getComputedStyle(body).lineHeight}`,
+      `--reading-content-font-size:${fontSize}px`,
+      `--reading-content-min-font-size:${floorFontSize}px`,
+      `font-family:${win.getComputedStyle(body).fontFamily}`,
     ].join(';');
     slots.forEach(({ item, text, chunkIndex = 0, chunkCount = 1 }) => {
       appendSectionLabel(measurement, item);
@@ -342,7 +379,7 @@ export function createReadingCardDeck({
     });
     measurementRoot.appendChild(measurement);
     doc.body.appendChild(measurementRoot);
-    const fits = measurement.scrollHeight <= measurement.clientHeight + 1;
+    const fits = measurement.scrollHeight <= measurement.clientHeight;
     measurementRoot.remove();
     return fits;
   };
@@ -350,6 +387,12 @@ export function createReadingCardDeck({
   const renderPage = (index) => {
     const page = pagesElement.children[index];
     if (!page) return;
+
+    const pageFontSize = pageFontSizes[index] || minFontSize;
+    page.style.setProperty('--reading-content-font-size', `${pageFontSize}px`);
+    page.style.setProperty('--reading-content-min-font-size', `${minFontSize}px`);
+    page.dataset.readingFontSize = String(pageFontSize);
+    page.dataset.readingFontMin = String(minFontSize);
 
     const focusTarget = page.contains(doc.activeElement) ? doc.activeElement : null;
     pageData[index].forEach(({ item, text, chunkIndex, chunkCount }) => {
@@ -418,11 +461,25 @@ export function createReadingCardDeck({
     restoreActionNodes();
     pagesElement.replaceChildren();
 
-    const fitsPage = (slots) => buildMeasurementPage(slots);
-    pageData = paginateReadingItems(sourceItems, fitsPage);
+    const bounds = getFontBounds();
+    minFontSize = bounds.min;
+    const fitsAtFloor = (slots) => buildMeasurementPage(slots, minFontSize);
+    pageData = paginateReadingItems(sourceItems, fitsAtFloor);
+    pageFontSizes = pageData.map((slots) =>
+      maximizeFittingFontSize(
+        minFontSize,
+        bounds.max,
+        (fontSize) => buildMeasurementPage(slots, fontSize, minFontSize),
+        0.5
+      )
+    );
     pageData.forEach((slots, index) => {
       const page = doc.createElement('section');
       page.className = 'reading-page';
+      page.style.setProperty('--reading-content-font-size', `${pageFontSizes[index]}px`);
+      page.style.setProperty('--reading-content-min-font-size', `${minFontSize}px`);
+      page.dataset.readingFontSize = String(pageFontSizes[index]);
+      page.dataset.readingFontMin = String(minFontSize);
       page.setAttribute('role', 'group');
       page.hidden = index !== 0;
       pagesElement.appendChild(page);
@@ -512,6 +569,7 @@ export function createReadingCardDeck({
     restoreActionNodes();
     sourceItems = [];
     pageData = [];
+    pageFontSizes = [];
     activePage = 0;
     pendingInitialFocus = false;
     preferredSectionKey = null;
