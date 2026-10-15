@@ -387,6 +387,10 @@ export function createReadingCardDeck({
   const renderPage = (index) => {
     const page = pagesElement.children[index];
     if (!page) return;
+    const focusedPagerButton =
+      doc.activeElement === previousButton || doc.activeElement === nextButton
+        ? doc.activeElement
+        : null;
 
     const pageFontSize = pageFontSizes[index] || minFontSize;
     page.style.setProperty('--reading-content-font-size', `${pageFontSize}px`);
@@ -432,6 +436,10 @@ export function createReadingCardDeck({
     previousButton.setAttribute('aria-label', t.previous);
     nextButton.setAttribute('aria-label', t.next);
     pagination.classList.toggle('hidden', pageData.length <= 1);
+    if (focusedPagerButton?.disabled) {
+      const fallbackButton = focusedPagerButton === nextButton ? previousButton : nextButton;
+      fallbackButton.focus?.({ preventScroll: true });
+    }
     const pageControl = page.querySelector(
       'button:not(:disabled), input:not(:disabled), select:not(:disabled), textarea:not(:disabled)'
     );
