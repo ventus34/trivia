@@ -3881,6 +3881,19 @@ body:not(.live-quiz-app) .reading-page {
     overflow-wrap: anywhere;
     font-size: var(--reading-content-font-size, clamp(1rem, 6vh, 12rem));
     line-height: 1.2;
+    --reading-section-label-floor: max(1rem, var(--reading-content-min-font-size, 1rem));
+}
+
+@media (min-width: 900px) {
+    body:not(.live-quiz-app) .reading-page {
+        --reading-section-label-floor: max(1.5rem, var(--reading-content-min-font-size, 1rem));
+    }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+    body:not(.live-quiz-app) .reading-page {
+        --reading-section-label-floor: 56px;
+    }
 }
 
 body:not(.live-quiz-app) .reading-page[hidden],
@@ -3910,14 +3923,40 @@ body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not
 }
 
 body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    box-sizing: border-box;
     width: 100%;
     min-width: 0;
     min-height: max(2.75rem, 1.45em);
     padding: 0.28em 0.7em;
+    border: 1px solid #475569;
+    border-radius: 0.45em;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    box-shadow: 0 0.12em 0.35em rgb(2 6 23 / 18%);
     font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
     line-height: 1.18;
     white-space: normal;
     overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button:hover:not(:disabled) {
+    border-color: #818cf8;
+    background-color: #312e81;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    border-color: #cbd5e1;
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-reading-pages .reading-page > button:hover:not(:disabled) {
+    border-color: #818cf8;
+    background-color: #e0e7ff;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page {
+    gap: clamp(0.4rem, 0.35em, 1.5rem);
 }
 
 body:not(.live-quiz-app) #question-reading-pages .reading-page > #answer-section {
@@ -4031,10 +4070,22 @@ body:not(.live-quiz-app) .reading-section-label {
     flex: 0 0 auto;
     max-width: 100%;
     margin: 0 0 0.35em;
-    font-size: max(var(--reading-content-min-font-size, 1rem), 0.4em);
+    font-size: max(var(--reading-section-label-floor, var(--reading-content-min-font-size, 1rem)), 0.4em);
     font-weight: 700;
     line-height: 1.25;
     overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-fragment-label,
+body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page > .reading-section-label {
+    font-size: max(var(--reading-section-label-floor, var(--reading-content-min-font-size, 1rem)), 0.4em);
+    line-height: 1.15;
+    margin: 0;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page {
+    gap: clamp(0.4rem, 0.3em, 1.5rem);
 }
 
 body:not(.live-quiz-app) #answer-popup:not(.hidden) {
@@ -4181,7 +4232,7 @@ body:not(.live-quiz-app) #post-verification-buttons button {
 
 @media (min-width: 2560px) and (min-height: 1440px) {
     body:not(.live-quiz-app) #question-modal #question-category,
-    body:not(.live-quiz-app) #answer-popup-title {
+    body:not(.live-quiz-app) #answer-popup #standard-popup-content > h3 {
         font-size: clamp(3.5rem, 2.1vw, 4.75rem);
         line-height: 1.12;
     }
@@ -4467,4 +4518,81 @@ html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .readi
     background-color: #fef3c7 !important;
     border-color: #a16207;
     color: #78350f;
+}
+
+/* Semantic reading-card content survives source IDs being removed from clones. */
+body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page > .reading-section-label {
+    color: #cbd5e1;
+    font-weight: 700;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page > .reading-section-label {
+    color: #475569;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-correct,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-explanation,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-incorrect-explanation {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.24em 0.42em;
+    border: 1px solid transparent;
+    border-left-width: 0.2em;
+    border-radius: 0.45em;
+    box-shadow: 0 0.12em 0.35em rgb(2 6 23 / 12%);
+    font-size: inherit;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+    white-space: pre-line;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-red-100 {
+    background-color: #7f1d1d !important;
+    border-color: #991b1b;
+    border-left-color: #fb7185;
+    color: #fee2e2;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-green-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-correct {
+    background-color: #14532d !important;
+    border-color: #166534;
+    border-left-color: #4ade80;
+    color: #dcfce7;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-explanation,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-incorrect-explanation {
+    background-color: #1e293b !important;
+    border-color: #475569;
+    border-left-color: #60a5fa;
+    color: #e2e8f0;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-red-100 {
+    background-color: #fff1f2 !important;
+    border-color: #fecdd3;
+    border-left-color: #e11d48;
+    color: #881337;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-green-100,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-correct {
+    background-color: #dcfce7 !important;
+    border-color: #bbf7d0;
+    border-left-color: #16a34a;
+    color: #14532d;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-explanation,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-incorrect-explanation {
+    background-color: #f1f5f9 !important;
+    border-color: #cbd5e1;
+    border-left-color: #2563eb;
+    color: #0f172a;
 }

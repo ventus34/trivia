@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trivia-board-game-v4';
+const CACHE_NAME = 'trivia-board-game-v5';
 
 // Assets to precache on service worker install
 const PRECACHE_ASSETS = [

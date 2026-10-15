@@ -9,6 +9,13 @@
 
 import { translations } from './config.js';
 
+const readingAnswerClassBySourceId = {
+  'player-answer-text': 'reading-answer-player',
+  'correct-answer-text': 'reading-answer-correct',
+  'explanation-text': 'reading-answer-explanation',
+  'incorrect-explanation-text': 'reading-answer-incorrect-explanation',
+};
+
 const fallbackWords = (value) => value.match(/\s+|[^\s]+/gu) || [];
 
 function segmentText(value, granularity) {
@@ -222,6 +229,8 @@ export function maximizeFittingFontSize(minFontSize, maxFontSize, fits, precisio
 
 function cloneForMeasure(node, text, lang = 'pl', preserveId = false) {
   const clone = node?.cloneNode?.(true) || document.createElement('p');
+  const readingAnswerClass = readingAnswerClassBySourceId[node?.id];
+  if (readingAnswerClass) clone.classList?.add(readingAnswerClass);
   if (!preserveId) clone.removeAttribute?.('id');
   clone.removeAttribute?.('data-controller-initial-focus');
   clone.removeAttribute?.('hidden');
