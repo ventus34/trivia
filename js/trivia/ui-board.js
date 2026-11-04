@@ -10,6 +10,58 @@ import { uiHandlers } from './ui-handlers.js';
 
 let boardInteractionObserver;
 let diceOrientation = { x: 0, y: 0 };
+let scorePage = 0;
+let lastTurnIndex = null;
+
+function setupBoardSidebar() {
+  const stage = document.getElementById('game-stage');
+  if (!stage || document.getElementById('game-sidebar')) return;
+  const sidebar = document.createElement('aside');
+  sidebar.id = 'game-sidebar';
+  const scores = document.createElement('section');
+  scores.className = 'board-scores-section';
+  const nav = document.createElement('nav');
+  nav.id = 'score-pagination';
+  scores.append(UI.playerScoresContainer, nav);
+  UI.categoryLegend.classList.remove('hidden');
+  sidebar.append(UI.diceResultDiv, scores, UI.categoryLegend);
+  stage.appendChild(sidebar);
+}
+
+function renderScorePagination() {
+  const nav = document.getElementById('score-pagination');
+  if (!nav) return;
+  const total = Math.ceil(gameState.players.length / 4);
+  nav.innerHTML = '';
+  nav.hidden = total <= 1;
+  if (total <= 1) return;
+  const en = gameState.currentLanguage === 'en';
+  nav.setAttribute('aria-label', en ? 'Player pages' : 'Strony graczy');
+  const previous = document.createElement('button');
+  const next = document.createElement('button');
+  const status = document.createElement('span');
+  previous.type = next.type = 'button';
+  previous.textContent = '‹';
+  next.textContent = '›';
+  previous.setAttribute('aria-label', en ? 'Previous players' : 'Poprzedni gracze');
+  next.setAttribute('aria-label', en ? 'Next players' : 'Następni gracze');
+  previous.disabled = scorePage === 0;
+  next.disabled = scorePage >= total - 1;
+  status.textContent = `${scorePage + 1} / ${total}`;
+  status.setAttribute('aria-live', 'polite');
+  const changePage = (delta) => {
+    scorePage += delta;
+    renderScores();
+    const direction = delta < 0 ? 'first' : 'last';
+    const opposite = delta < 0 ? 'last' : 'first';
+    (document.querySelector(`#score-pagination button:${direction}-child:not(:disabled)`) ||
+      document.querySelector(`#score-pagination button:${opposite}-child:not(:disabled)`))?.focus();
+  };
+  previous.addEventListener('click', () => changePage(-1));
+  next.addEventListener('click', () => changePage(1));
+  nav.append(previous, status, next);
+}
+
 
 function squareLabel(square) {
   const isEnglish = gameState.currentLanguage === 'en';
@@ -276,6 +328,7 @@ function applyPlayerTokenLayout(playerPositions) {
     playerIndexes.forEach((playerIndex, stackIndex) => {
       const tokenEl = document.getElementById(`token-${playerIndex}`);
       const offset = offsets[stackIndex];
+      tokenEl.style.setProperty('--token-scale', playerIndexes.length > 6 ? '.52' : playerIndexes.length > 1 ? '.65' : '1');
       tokenEl.style.left = `${square.pos.x - 1.75 + offset.x}%`;
       tokenEl.style.top = `${square.pos.y - 1.75 + offset.y}%`;
     });
@@ -286,7 +339,7 @@ export function renderPlayerTokens() {
   document.querySelectorAll('.player-token').forEach((token) => token.remove());
   gameState.players.forEach((player, playerIndex) => {
     const tokenEl = document.createElement('div');
-    tokenEl.className = 'player-token';
+    tokenEl.className = `player-token${playerIndex === gameState.currentPlayerIndex ? ' is-current' : ''}`;
     tokenEl.id = `token-${playerIndex}`;
     tokenEl.setAttribute('aria-hidden', 'true');
     tokenEl.textContent = player.emoji;
@@ -308,6 +361,7 @@ export function updateUI() {
     return;
   }
 
+  setupBoardSidebar();
   renderCategoryLegend();
 
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
@@ -325,8 +379,19 @@ export function updateUI() {
   );
   UI.currentPlayerEmojiSpan.textContent = currentPlayer.emoji;
   UI.currentPlayerNameDiv.textContent = currentPlayer.name;
-  UI.currentPlayerNameDiv.style.color = currentPlayer.color;
+  UI.currentPlayerNameDiv.style.color = '';
   syncBoardSquareControls();
+  if (lastTurnIndex !== gameState.currentPlayerIndex) {
+    scorePage = Math.floor(gameState.currentPlayerIndex / 4);
+    lastTurnIndex = gameState.currentPlayerIndex;
+  }
+  scorePage = Math.min(scorePage, Math.floor((gameState.players.length - 1) / 4));
+  renderScores();
+  renderPlayerTokens();
+}
+
+function renderScores() {
+  const isEnglish = gameState.currentLanguage === 'en';
   UI.playerScoresContainer.setAttribute('role', 'list');
   UI.playerScoresContainer.setAttribute(
     'aria-label',
@@ -334,11 +399,13 @@ export function updateUI() {
   );
   UI.playerScoresContainer.innerHTML = '';
 
-  gameState.players.forEach((player) => {
+  gameState.players.slice(scorePage * 4, scorePage * 4 + 4).forEach((player, pageIndex) => {
+    const playerIndex = scorePage * 4 + pageIndex;
     const scoreDiv = document.createElement('div');
-    scoreDiv.className = 'p-2 rounded-lg flex items-center justify-between';
+    scoreDiv.className = 'player-score-card';
+    if (playerIndex === gameState.currentPlayerIndex) scoreDiv.className += ' is-active';
+    scoreDiv.style.setProperty?.('--player-color', player.color);
     scoreDiv.setAttribute('role', 'listitem');
-    scoreDiv.style.border = `1px solid ${player.color}`;
     const earnedCategories = gameState.categories.filter((_, index) => player.wedges.includes(index));
     const isEnglish = gameState.currentLanguage === 'en';
     const missingCategories = gameState.categories.filter((_, index) => !player.wedges.includes(index));
@@ -349,7 +416,6 @@ export function updateUI() {
 
     const playerLabel = document.createElement('p');
     playerLabel.className = 'font-semibold';
-    playerLabel.style.color = player.color;
     playerLabel.textContent = `${player.emoji} ${player.name}`;
     playerLabel.setAttribute('aria-hidden', 'true');
 
@@ -363,11 +429,17 @@ export function updateUI() {
       wedge.title = cat;
       wedgeList.appendChild(wedge);
     });
+    if (playerIndex === gameState.currentPlayerIndex) {
+      const badge = document.createElement('span');
+      badge.className = 'player-turn-badge';
+      badge.textContent = isEnglish ? 'Current turn' : 'Tura gracza';
+      playerLabel.append(' ', badge);
+    }
     scoreDiv.append(playerLabel, wedgeList);
     UI.playerScoresContainer.appendChild(scoreDiv);
   });
 
-  renderPlayerTokens();
+  renderScorePagination();
 }
 
 /*

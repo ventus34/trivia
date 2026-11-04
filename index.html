@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    
+
     <!-- PWA configuration -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#4f46e5">
     <meta name="mobile-web-app-capable" content="yes">
-    
+
     <!-- iOS / Apple Web App support -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Trivia">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
-    
+
     <!-- Service Worker registration -->
     <script>
         if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
@@ -35,10 +35,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="presentation-rework.css">
+    <link rel="stylesheet" href="board-rework.css">
+    <link rel="stylesheet" href="reading-rework.css">
+    <link rel="stylesheet" href="tv-rework.css">
     <title>Trivia Board Game</title>
     <script>
         (function() {
             const theme = localStorage.getItem('trivia_theme') || 'oled';
+            document.documentElement.dataset.displayMode = localStorage.getItem('trivia_display_mode') === 'tv' ? 'tv' : 'standard';
             if (theme !== 'light') {
                 document.documentElement.className = theme;
             }
@@ -86,6 +91,10 @@
                 <p class="text-sm text-gray-500 dark:text-gray-400" data-lang-key="welcome_desc">Klasyczna gra planszowa z pytaniami w nowej odsłonie. Skonfiguruj rozgrywkę w kilku prostych krokach.</p>
             </div>
 
+            <div class="display-controls flex flex-wrap justify-center gap-3" role="group" aria-label="Ustawienia obrazu" data-lang-key-aria-label="display_settings">
+                <label class="display-control"><input type="checkbox" data-display-tv> <span data-lang-key="display_tv">Tryb TV</span></label>
+                <button type="button" class="display-control" data-display-fullscreen data-lang-key="display_fullscreen">Pełny ekran</button>
+            </div>
             <!-- Language Cards -->
             <div class="grid grid-cols-2 gap-4 max-w-md mx-auto py-2">
                 <button id="lang-pl" type="button" class="lang-btn flex flex-col items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-800 rounded-2xl bg-white dark:bg-gray-800 hover:bg-indigo-50/50 dark:hover:bg-indigo-950/20 hover:border-indigo-300 dark:hover:border-indigo-800 transition-all duration-300 text-center gap-3">
@@ -225,11 +234,11 @@
         <button id="wizard-back-btn" class="invisible px-5 py-2.5 rounded-xl border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-semibold hover:bg-gray-50 dark:hover:bg-gray-800 transition-all text-sm flex items-center gap-1.5">
             <span>◀</span> <span data-lang-key="wizard_back_btn">Wstecz</span>
         </button>
-        
+
         <button id="wizard-next-btn" class="px-6 py-2.5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm flex items-center gap-1.5">
             <span data-lang-key="wizard_next_btn">Dalej</span> <span>➔</span>
         </button>
-        
+
         <button id="start-game-btn" type="button" class="hidden px-8 py-2.5 rounded-xl text-white bg-green-600 hover:bg-green-700 active:bg-green-800 font-bold transition-all shadow-md text-sm flex items-center gap-1.5 themed-button">
             <span data-lang-key="start_game_btn">Rozpocznij Grę</span> <span>🎮</span>
         </button>
@@ -313,8 +322,12 @@
 <!-- Question Modal -->
 <div id="question-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="question-category">
     <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-2xl space-y-6 transform transition-all scale-95 opacity-0 reading-dialog" id="modal-content">
-        <div class="flex justify-between items-center">
-            <h3 id="question-category" class="font-bold"></h3>
+        <div class="question-scene-header flex justify-between items-center">
+            <div class="question-scene-meta">
+                <span class="question-scene-kicker" data-lang-key="question_scene_kicker">RUNDA PYTAŃ</span>
+                <h3 id="question-category" class="font-bold"></h3>
+            </div>
+            <div id="question-player" class="question-player" aria-live="polite"></div>
             <button type="button" id="regenerate-question-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" title="Nowe pytanie" data-title-lang-key="regenerate_question_btn" aria-labelledby="regenerate-question-label">
                 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-9 9c-4.97 0-9-4.03-9-9s4.03-9 9-9"/><path d="M21 3v5h-5"/><path d="M3 12a9 9 0 0 1 9-9c1.61 0 3.11.42 4.47 1.17L21 3"/></svg>
                 <span id="regenerate-question-label" class="sr-only" data-lang-key="regenerate_question_btn">Nowe pytanie</span>
@@ -386,7 +399,7 @@
                     <button id="cat-filter-en" class="px-3 py-1.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition-colors">🇬🇧 EN</button>
                 </div>
             </div>
-            
+
             <!-- Selection Status & Quick Presets -->
             <div class="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto justify-between md:justify-end">
                 <span id="category-selection-counter" class="text-sm font-bold text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-100 whitespace-nowrap">
@@ -488,7 +501,7 @@
 <div id="history-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="history-modal-title">
     <div class="bg-white rounded-2xl shadow-2xl w-full max-w-4xl h-[90vh] flex flex-col">
         <div class="flex-shrink-0 p-4 flex justify-between items-center border-b">
-            <h3 id="history-modal-title" data-lang-key="history_modal_title" class="text-xl font-bold">Historia Promptów</h3>
+            <h3 id="history-modal-title" data-lang-key="history_modal_title" class="text-xl font-bold">Pytania w tej sesji</h3>
             <button type="button" id="close-history-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" aria-labelledby="close-history-label">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                 <span id="close-history-label" class="sr-only" data-lang-key="btn_cancel">Anuluj</span>
@@ -534,7 +547,7 @@
 <!-- ================= GAME SIDE PANEL ================= -->
 <div id="game-menu-overlay" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40"></div>
 <aside id="game-menu-panel" class="fixed top-0 right-0 bottom-0 w-64 bg-white shadow-xl z-50 p-4 transform translate-x-full flex flex-col gap-3 overflow-y-auto" role="dialog" aria-modal="true" aria-labelledby="game-menu-heading">
-    <h2 id="game-menu-heading" class="text-lg font-bold mb-2" data-lang-key="game_menu_title">Menu Gry</h2>
+    <div class="game-menu-header"><h2 id="game-menu-heading" data-lang-key="game_menu_title">Menu Gry</h2><button type="button" id="close-game-menu-btn" data-lang-key-aria-label="gen_spoiler_close_btn" aria-label="Zamknij">×</button></div>
 
 
 
@@ -554,6 +567,11 @@
         <span data-lang-key="restart_game_btn">Zacznij od nowa</span>
     </button>
 
+    <div class="display-controls display-controls-menu" role="group" aria-label="Ustawienia obrazu" data-lang-key-aria-label="display_settings">
+        <label class="display-control"><input type="checkbox" data-display-tv> <span data-lang-key="display_tv">Tryb TV</span></label>
+        <button type="button" class="display-control" data-display-fullscreen data-lang-key="display_fullscreen">Pełny ekran</button>
+    </div>
+    <button type="button" id="show-history-btn" data-lang-key="show_history_btn" class="w-full text-left p-2 rounded-md">Historia gry</button>
     <div class="pt-4 border-t border-gray-200">
         <h4 class="text-sm font-semibold text-gray-600" data-lang-key="theme_title">Motyw</h4>
         <div id="theme-switcher" class="bg-gray-200 p-1 rounded-full flex gap-1 justify-center">
@@ -587,11 +605,11 @@
     <select id="model-provider"><option value="custom" selected></option></select>
     <select id="model-select"><option value="trivia" selected></option></select>
     <div id="model-loader"></div>
-    
+
     <select id="explanation-provider"><option value="custom" selected></option></select>
     <select id="explanation-model-select"><option value="trivia" selected></option></select>
     <div id="explanation-model-loader"></div>
-    
+
     <select id="blueprint-provider"><option value="custom" selected></option></select>
     <select id="category-model-select"><option value="trivia" selected></option></select>
     <div id="category-model-loader"></div>
@@ -599,7 +617,7 @@
     <select id="game-menu-provider"><option value="custom" selected></option></select>
     <select id="game-menu-model-select"><option value="trivia" selected></option></select>
     <div id="game-menu-model-loader"></div>
-    
+
     <select id="game-menu-explanation-provider"><option value="custom" selected></option></select>
     <select id="game-menu-explanation-model-select"><option value="trivia" selected></option></select>
     <div id="game-menu-explanation-loader"></div>
@@ -607,7 +625,7 @@
     <select id="game-menu-blueprint-provider"><option value="custom" selected></option></select>
     <select id="game-menu-category-model-select"><option value="trivia" selected></option></select>
     <div id="game-menu-category-loader"></div>
-    
+
     <input type="checkbox" id="include-theme-toggle" checked>
     <input type="checkbox" id="mutate-categories-toggle">
 
@@ -616,7 +634,7 @@
     <select id="prompt-format-select"><option value="tct" selected></option></select>
     <button id="copy-prompt-btn" class="hidden"></button>
     <select id="category-preset-select"><option value="" selected></option></select>
-    <button id="show-history-btn" class="hidden"></button>
+
     <button id="tab-offline" class="hidden"></button>
     <button id="tab-prompt" class="hidden"></button>
     <button id="btn-preset-classic-pl" class="hidden"></button>
@@ -638,15 +656,15 @@
             const isEn = navigator.language && navigator.language.startsWith('en');
             const warningDiv = document.createElement('div');
             warningDiv.className = 'fixed inset-0 z-[200] bg-slate-900/95 text-white flex flex-col items-center justify-center p-6 text-center';
-            
+
             const title = isEn ? 'Local Launch (CORS Restriction)' : 'Uruchomienie lokalne (Blokada CORS)';
-            const desc = isEn ? 
-                'You opened the game directly from a file (<code>file://</code>). Browsers block modern JavaScript modules (ES Modules) when run locally from files due to security policies.' : 
+            const desc = isEn ?
+                'You opened the game directly from a file (<code>file://</code>). Browsers block modern JavaScript modules (ES Modules) when run locally from files due to security policies.' :
                 'Otworzyłeś grę bezpośrednio z pliku (<code>file://</code>). Przeglądarki blokują nowoczesne moduły JavaScript (ES Modules) przy uruchomieniu z dysku ze względów bezpieczeństwa.';
             const cmdLabel = isEn ? '# Run a local server:' : '# Uruchom serwer lokalny:';
             const openLabel = isEn ? '# Then open in your browser:' : '# Następnie otwórz adres:';
-            const footer = isEn ? 
-                'You can also deploy this project to GitHub Pages or any static web host, and it will work automatically.' : 
+            const footer = isEn ?
+                'You can also deploy this project to GitHub Pages or any static web host, and it will work automatically.' :
                 'Możesz też wdrożyć ten projekt na GitHub Pages lub dowolny hosting statyczny, a gra zadziała automatycznie.';
             const btn = isEn ? 'Ignore (game might not function)' : 'Ignoruj (gra może nie działać)';
 

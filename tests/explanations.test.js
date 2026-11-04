@@ -64,12 +64,9 @@ describe('explanation reading-card integration', () => {
           sectionKey: 'correct_answer_is',
           text: 'Canonical correct answer stays intact.',
         }),
-        expect.objectContaining({
-          sectionKey: 'explanation',
-          text: mocks.UI.explanationText.textContent,
-        }),
       ])
     );
+    expect(latestItems.some((item) => item.sectionKey === 'explanation')).toBe(false);
     expect(mocks.setAnswerReadingItems).toHaveBeenCalledTimes(2);
   });
 });

@@ -1,0 +1,215 @@
+/* Board scene: a generous central playing surface and a compact information rail. */
+body:not(.live-quiz-app) #game-screen {
+  max-width: none;
+  padding: clamp(14px, 2.3vw, 44px);
+  gap: clamp(10px, 1.5vh, 20px);
+}
+body:not(.live-quiz-app) #game-top-bar {
+  grid-template-areas: none;
+  grid-template-columns: minmax(0, 1fr) auto;
+  min-height: clamp(3.5rem, 7vh, 5.5rem);
+  padding: .65rem 1.25rem;
+  border: 1px solid #34455c;
+  border-radius: 1rem;
+}
+body:not(.live-quiz-app) #game-top-bar > :first-child,
+body:not(.live-quiz-app) #game-top-bar > :last-child { grid-area: auto; }
+body:not(.live-quiz-app) #game-top-bar > :last-child { display: flex; }
+body:not(.live-quiz-app) #current-player-name { color: inherit; font-size: clamp(1.2rem, 1.55vw, 2rem); }
+body:not(.live-quiz-app) #current-player-emoji { font-size: clamp(1.5rem, 2vw, 2.5rem); }
+body:not(.live-quiz-app) #game-screen > #game-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 33%);
+  align-items: stretch;
+  gap: clamp(16px, 2vw, 36px);
+  min-height: 0;
+  container-type: size;
+}
+body:not(.live-quiz-app) #game-stage > .board-wrapper {
+  /* Outer HQ fields extend beyond the coordinate box. */
+  width: min(86%, 80cqh);
+  height: auto;
+  max-width: none;
+  max-height: none;
+  aspect-ratio: 1;
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+}
+body:not(.live-quiz-app) #game-stage > .board-wrapper::before {
+  inset: -8%;
+  background: var(--trivia-panel);
+  border: 1px solid var(--trivia-border);
+}
+body:not(.live-quiz-app) #game-sidebar {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(.65rem, 1.4vh, 1rem);
+  padding: clamp(.8rem, 1.5vw, 1.5rem);
+  background: #101b2c;
+  border: 1px solid #34455c;
+  border-radius: 1.25rem;
+}
+body:not(.live-quiz-app) #game-sidebar #dice-result {
+  position: static;
+  display: flex;
+  width: 100%;
+  min-height: clamp(5.2rem, 13vh, 8rem);
+  height: auto;
+  flex: 0 0 auto;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: clamp(1rem, 1.8vw, 2rem);
+  padding: .8rem 1.2rem;
+  transform: none;
+  background: #1b2c45;
+  border: 1px solid #4b688a;
+  border-radius: .9rem;
+  box-shadow: none;
+}
+body:not(.live-quiz-app) #game-sidebar #roll-dice-label {
+  max-width: none;
+  color: #f5f8ff;
+  text-align: left;
+  font-size: clamp(1.1rem, 1.4vw, 1.7rem);
+  line-height: 1.2;
+}
+body:not(.live-quiz-app) #game-sidebar .dice-container {
+  width: var(--responsive-dice-size);
+  height: var(--responsive-dice-size);
+  flex: 0 0 auto;
+}
+body:not(.live-quiz-app) .board-scores-section { min-height: 0; flex: 0 0 auto; }
+body:not(.live-quiz-app) .board-scores-section::before,
+body:not(.live-quiz-app) #category-legend::before {
+  display: block;
+  margin: 0 0 .5rem;
+  color: #a7bad3;
+  font-size: clamp(.72rem, .85vw, 1rem);
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+body:not(.live-quiz-app) .board-scores-section::before { content: 'Gracze'; }
+body:not(.live-quiz-app) #category-legend::before { content: 'Kategorie'; grid-column: 1 / -1; margin-bottom: .1rem; }
+html[lang='en'] body:not(.live-quiz-app) .board-scores-section::before { content: 'Players'; }
+html[lang='en'] body:not(.live-quiz-app) #category-legend::before { content: 'Categories'; }
+body:not(.live-quiz-app) #player-scores { display: grid; grid-template-columns: 1fr; max-height: none; overflow: visible; gap: .4rem; }
+body:not(.live-quiz-app) #player-scores > .player-score-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+  min-width: 0;
+  min-height: clamp(2.9rem, 6vh, 4.25rem);
+  padding: .45rem .8rem !important;
+  border: 1px solid #35475f;
+  border-left: 4px solid var(--player-color);
+  border-radius: .65rem;
+  background: #1a293e;
+  color: #f1f5f9;
+  font-size: clamp(.9rem, 1.1vw, 1.35rem);
+}
+body:not(.live-quiz-app) #player-scores > .player-score-card.is-active {
+  outline: 2px solid var(--player-color);
+  outline-offset: -2px;
+  background: #263b56;
+}
+body:not(.live-quiz-app) .player-score-card p { min-width: 0; overflow-wrap: anywhere; color: inherit; line-height: 1.2; }
+body:not(.live-quiz-app) .player-score-card > div { flex: 0 0 auto; display: flex; gap: .2rem; }
+body:not(.live-quiz-app) .player-turn-badge { display: block; color: #c5d4e7; font-size: .7em; font-weight: 500; }
+body:not(.live-quiz-app) #score-pagination:not([hidden]) { display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: .35rem; }
+body:not(.live-quiz-app) #score-pagination { color: var(--trivia-text); font-weight: 650; }
+body:not(.live-quiz-app) #score-pagination button { min-width: 2.5rem; min-height: 2rem; border: 1px solid var(--trivia-border); border-radius: .5rem; background: var(--trivia-panel-soft); color: var(--trivia-text); }
+body:not(.live-quiz-app) #score-pagination button:disabled { opacity: .45; }
+body:not(.live-quiz-app) #category-legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  gap: .4rem;
+  width: 100%;
+  max-height: none;
+  overflow: visible;
+}
+body:not(.live-quiz-app) #category-legend > div {
+  min-height: clamp(2.8rem, 6vh, 4rem);
+  padding: .45rem .65rem;
+  background: #17263b;
+  border: 1px solid #30425a;
+  border-radius: .65rem;
+  color: #e0e8f2;
+  font-size: clamp(.85rem, 1vw, 1.2rem);
+  line-height: 1.2;
+}
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-sidebar { background: #eef3f9; border-color: #b8c8d9; }
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-sidebar #dice-result { background: #dbe8f6; border-color: #aac0d6; }
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-sidebar #roll-dice-label,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .board-scores-section::before,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #category-legend::before { color: #263c57; }
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #player-scores > .player-score-card,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #category-legend > div { background: #fff; color: #172238; border-color: #aab8c9; }
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .player-turn-badge { color: #43536a; }
+@media (min-width: 801px) and (min-height: 501px) {
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #game-screen {
+    padding: max(4vh, env(safe-area-inset-top)) max(4vw, env(safe-area-inset-right)) max(4vh, env(safe-area-inset-bottom)) max(4vw, env(safe-area-inset-left));
+  }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #game-stage {
+    --responsive-dice-size: calc(68 * var(--tv-unit));
+  }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #player-scores > .player-score-card,
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #category-legend > div,
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #game-sidebar #roll-dice-label {
+    font-size: calc(24 * var(--tv-unit));
+  }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #player-scores > .player-score-card,
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #category-legend > div {
+    min-height: calc(58 * var(--tv-unit));
+  }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) .board-scores-section::before,
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #category-legend::before { font-size: calc(18 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #current-player-name { font-size: calc(30 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #game-top-bar { font-size: calc(24 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) .category-wedge { width: calc(18 * var(--tv-unit)); height: calc(18 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) .player-score-card > div { gap: calc(3 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #score-pagination { font-size: calc(20 * var(--tv-unit)); gap: calc(12 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #score-pagination button { min-width: calc(40 * var(--tv-unit)); min-height: calc(32 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #open-game-menu-btn { width: calc(48 * var(--tv-unit)); height: calc(48 * var(--tv-unit)); }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #open-game-menu-btn svg { width: calc(24 * var(--tv-unit)); height: calc(24 * var(--tv-unit)); }
+}
+@media (max-width: 800px), (max-height: 500px) {
+  body:not(.live-quiz-app) #game-screen { height: auto; min-height: 100dvh; overflow: visible; }
+  body:not(.live-quiz-app) #game-screen > #game-stage {
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    container-type: normal;
+    overflow: visible;
+  }
+  body:not(.live-quiz-app) #game-stage > .board-wrapper { width: min(82%, 68vh); max-height: none; margin: 2rem auto; }
+  body:not(.live-quiz-app) #game-sidebar { width: 100%; flex: none; }
+  body:not(.live-quiz-app) #game-sidebar .board-scores-section { min-height: auto; flex: none; }
+  body:not(.live-quiz-app) #game-sidebar #player-scores {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    max-height: none;
+    overflow: visible;
+  }
+  body:not(.live-quiz-app) #game-sidebar .player-score-card p {
+    white-space: normal;
+    overflow: visible;
+    font-size: inherit;
+  }
+  body:not(.live-quiz-app) #game-sidebar #dice-result { display: flex; }
+}
+@media (min-width: 801px) and (min-height: 501px) and (max-height: 800px) {
+  body:not(.live-quiz-app) #game-sidebar { gap: .3rem; padding: .65rem; }
+  body:not(.live-quiz-app) #game-sidebar #dice-result { min-height: 3.5rem; padding: .4rem .75rem; }
+  body:not(.live-quiz-app) #player-scores { gap: .2rem; }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #player-scores > .player-score-card { min-height: 2.35rem; padding: .3rem .6rem !important; }
+  html[data-display-mode='tv'] body:not(.live-quiz-app) #category-legend > div { min-height: 2.35rem; padding: .3rem .5rem; }
+  body:not(.live-quiz-app) .board-scores-section::before { margin-bottom: .2rem; }
+  body:not(.live-quiz-app) #category-legend { gap: .2rem; }
+}

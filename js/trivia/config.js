@@ -395,6 +395,9 @@ export const CATEGORY_PRESETS = [
 
 // --- TRANSLATIONS ---
 export const translations = {
+  display_settings: { pl: 'Ustawienia obrazu', en: 'Display settings' },
+  display_tv: { pl: 'Tryb TV', en: 'TV mode' },
+  display_fullscreen: { pl: 'Pełny ekran', en: 'Full screen' },
   reading_page_status: { pl: 'Strona {page} z {total}', en: 'Page {page} of {total}' },
   reading_previous_page: { pl: 'Poprzednia', en: 'Previous' },
   reading_next_page: { pl: 'Następna', en: 'Next' },
@@ -487,6 +490,7 @@ export const translations = {
   },
   dice_roll_result: { pl: 'Wyrzucono: {roll}', en: 'You rolled: {roll}' },
   category_title: { pl: 'Kategoria: {category}', en: 'Category: {category}' },
+  question_scene_kicker: { pl: 'RUNDA PYTAŃ', en: 'QUESTION ROUND' },
   category_preset_label: { pl: 'Wybierz zestaw kategorii:', en: 'Choose a category set:' },
   category_preset_placeholder: { pl: 'Wybierz gotowy zestaw...', en: 'Select a preset...' },
   regenerate_question_btn: { pl: 'Nowe pytanie', en: 'New Question' },
@@ -573,7 +577,7 @@ export const translations = {
         `,
   },
   game_menu_title: { pl: 'Menu Gry', en: 'Game Menu' },
-  show_history_btn: { pl: 'Pokaż historię promptów', en: 'Show prompt history' },
+  show_history_btn: { pl: 'Historia gry', en: 'Game history' },
   generate_categories_error: {
     pl: 'Nie udało się wygenerować kategorii. Sprawdź ustawienia API i spróbuj ponownie.',
     en: 'Failed to generate categories. Check API settings and try again.',
@@ -591,7 +595,7 @@ export const translations = {
     pl: '"{old_cat}" zmienia się w "{new_cat}"!',
     en: '"{old_cat}" changes into "{new_cat}"!',
   },
-  history_modal_title: { pl: 'Historia Zapytań', en: 'Request History' },
+  history_modal_title: { pl: 'Pytania w tej sesji', en: 'Questions in this session' },
   history_prompt_title: { pl: 'Wysłane Zapytanie (do backendu)', en: 'Sent Request (to backend)' },
   history_response_title: { pl: 'Otrzymana Odpowiedź', en: 'Received Response' },
   history_empty: { pl: 'Historia jest jeszcze pusta.', en: 'History is empty.' },

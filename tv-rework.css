@@ -1,0 +1,22 @@
+/* Display preferences are shared by setup and the in-game menu. */
+.display-controls { margin: 1rem 0; }
+.display-controls-menu { display: grid; gap: .5rem; }
+.display-control {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .65rem;
+    min-height: 3rem;
+    padding: .65rem 1rem;
+    border: 1px solid var(--trivia-border);
+    border-radius: .75rem;
+    background: var(--trivia-panel);
+    color: var(--trivia-text);
+    cursor: pointer;
+    font-weight: 600;
+}
+.display-control:hover { background: var(--trivia-panel-soft); border-color: var(--trivia-accent); }
+.display-control[hidden] { display: none; }
+.display-control input { width: 1.2rem; height: 1.2rem; accent-color: #3b82f6; }
+.display-control:focus-visible, .display-control:focus-within { outline: 3px solid var(--trivia-focus); outline-offset: 3px; }
+html[data-display-mode="tv"] .display-control { font-size: clamp(1rem, 1.15vw, 1.4rem); min-height: 3.2rem; }

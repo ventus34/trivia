@@ -46,7 +46,7 @@ vi.mock('../js/trivia/config.js', () => ({
 }));
 vi.mock('../js/trivia/state.js', () => ({ gameState, setState: vi.fn() }));
 vi.mock('../js/trivia/dom.js', () => ({ UI }));
-vi.mock('../js/trivia/explanations.js', () => ({ renderExplanation: vi.fn() }));
+vi.mock('../js/trivia/explanations.js', () => ({ renderExplanation: vi.fn(), resetExplanationView: vi.fn() }));
 vi.mock('../js/trivia/reading-cards.js', () => ({
   clearAnswerReadingCards: vi.fn(),
   refreshAnswerReadingCards: vi.fn(),
@@ -60,10 +60,10 @@ vi.mock('../js/trivia/store.js', () => ({ emit: vi.fn() }));
 import { showVerificationPopup } from '../js/trivia/ui-modals.js';
 
 describe('answer verification colors', () => {
-  it('keeps the canonical answer green when the player answer is wrong', () => {
+  it('keeps the canonical answer green and the player answer neutral before manual review', () => {
     showVerificationPopup('player response', 'canonical answer');
 
-    expect(UI.playerAnswerText.classList.contains('bg-red-100')).toBe(true);
+    expect(UI.playerAnswerText.classList.contains('bg-gray-100')).toBe(true);
     expect(UI.correctAnswerText.classList.contains('bg-green-100')).toBe(true);
     expect(UI.correctAnswerText.classList.contains('bg-red-100')).toBe(false);
   });

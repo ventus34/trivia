@@ -36,7 +36,7 @@ globalThis.document = {
             })),
             appendChild: vi.fn(),
             innerHTML: '',
-            style: {},
+            style: { setProperty: vi.fn() },
             textContent: ''
         };
 
@@ -93,7 +93,7 @@ globalThis.document = {
     documentElement: { lang: 'pl' },
     createElement: vi.fn().mockImplementation(() => {
         const element = {
-            style: {},
+            style: { setProperty: vi.fn() },
             classList: { add: vi.fn(), remove: vi.fn(), contains: vi.fn().mockReturnValue(false) },
             appendChild: vi.fn(),
             append: vi.fn(),
@@ -151,7 +151,7 @@ describe('Game Flow - initializeGame', () => {
                 renderedPlayerTokens = UI.boardElement.appendChild.mock.calls
                     .slice(-2)
                     .map(([element]) => element)
-                    .filter((element) => element.className === 'player-token')
+                    .filter((element) => element.className.split(' ').includes('player-token'))
                     .map((element) => ({ left: element.style.left, top: element.style.top }));
             }
         });

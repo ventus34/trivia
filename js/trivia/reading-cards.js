@@ -333,10 +333,11 @@ export function createReadingCardDeck({
     const width = Math.max(1, body.clientWidth);
     const height = Math.max(1, body.clientHeight);
     const viewportWidth = win.innerWidth || width;
-    const min = viewportWidth >= 2560 ? 40 : viewportWidth >= 900 ? 20 : 16;
-    // The ceiling follows the available card geometry; the rendered DOM
-    // measurement determines the actual size for each page.
-    const max = Math.max(min, Math.min(width, height) * 0.8);
+    const tv = doc.documentElement.dataset.displayMode === 'tv';
+    const scale = Math.max(.65, Math.min(2, viewportWidth / 1920, (win.innerHeight || height) / 1080));
+    // Stable, role-based sizing: never enlarge short copy just to fill a page.
+    const min = tv ? 52 * scale : viewportWidth >= 900 ? 32 : 18;
+    const max = min;
     return { min, max };
   };
 
@@ -433,7 +434,7 @@ export function createReadingCardDeck({
     });
 
     const t = translationsFor();
-    const section = itemSection(pageData[index]?.[0]?.item || {});
+    const section = itemSection(pageData[index]?.[0]?.item || {}).replace(/\s*:\s*$/, '');
     page.setAttribute(
       'aria-label',
       `${section ? `${section}, ` : ''}${t.page(index + 1, pageData.length)}`

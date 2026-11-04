@@ -16,6 +16,7 @@ import {
   resetCategoryLegendHighlights,
 } from './ui-board.js';
 import { renderExplanation } from './explanations.js';
+import { recordQuestionHistory } from './ui-history.js';
 import {
   clearQuestionReadingCards,
   refreshQuestionReadingCards,
@@ -257,6 +258,12 @@ export async function askQuestion(forcedCategoryIndex = null) {
   ].replace('{category}', category);
   UI.questionCategoryH3.style.color = categoryColor;
   UI.modalContent.style.borderTopColor = categoryColor;
+  const questionPlayer = UI.modalContent.querySelector?.('#question-player');
+  if (questionPlayer) {
+    const turn = gameState.currentLanguage === 'en' ? 'Playing now' : 'Teraz odpowiada';
+    questionPlayer.textContent = `${turn} · ${player.emoji} ${player.name}`;
+    questionPlayer.style.setProperty('--question-player-color', player.color);
+  }
 
   showModal(true);
   UI.llmLoader.classList.remove('hidden');
@@ -276,6 +283,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
       throw new Error(translations.question_generation_error[gameState.currentLanguage]);
     }
     setState({ currentQuestionData: data }, 'state:question');
+    recordQuestionHistory(data, category);
     UI.questionTextP.textContent = data.question;
 
     const readingItems = [
@@ -284,7 +292,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
         node: UI.questionTextP,
         template: UI.questionTextP,
         text: data.question,
-        labelNode: makeReadingSectionLabel('reading_question_label'),
+        labelNode: undefined,
         sectionKey: 'reading_question_label',
       },
     ];
@@ -299,15 +307,15 @@ export async function askQuestion(forcedCategoryIndex = null) {
         const button = document.createElement('button');
         button.className =
           'w-full p-3 text-center bg-gray-100 hover:bg-indigo-100 rounded-lg transition-colors flex justify-center items-center';
-        button.textContent = option;
+        button.textContent = `${String.fromCharCode(65 + index)}. ${option}`;
         button.onclick = () => handleMcqAnswer(option);
         UI.mcqOptionsContainer.appendChild(button);
         readingItems.push({
           kind: 'action',
           node: button,
-          text: option,
+          text: `${String.fromCharCode(65 + index)}. ${option}`,
           optionLabel: String.fromCharCode(65 + index),
-          labelNode: index === 0 ? makeReadingSectionLabel('reading_choices_label') : undefined,
+          labelNode: undefined,
           sectionKey: 'reading_choices_label',
         });
       });

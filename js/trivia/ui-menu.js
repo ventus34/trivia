@@ -39,6 +39,7 @@ export function setupGameMenu() {
   closeMenu(false);
 
   if (openBtn) openBtn.addEventListener('click', openMenu);
+  panel?.querySelector('#close-game-menu-btn')?.addEventListener('click', () => closeMenu());
   if (overlay) overlay.addEventListener('click', closeMenu);
 
   if (UI.showHistoryBtn) {

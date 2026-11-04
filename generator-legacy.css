@@ -1,0 +1,4590 @@
+/* ============================================= */
+/* 1. DESIGN SYSTEM & CSS VARIABLES              */
+/* ============================================= */
+
+:root {
+    /* UI Scaling Factors */
+    --dice-scale: 1.0;
+    --board-scale: 1.0;
+    --move-desc-scale: 1.0;
+    --question-scale: 1.0;
+
+    /* Color System */
+    --color-primary: #4f46e5;
+    --color-primary-dark: #3730a3;
+    --color-secondary: #10b981;
+    --color-accent: #f59e0b;
+    --color-danger: #ef4444;
+    --color-warning: #fbbf24;
+    --color-info: #3b82f6;
+    --color-success: #10b981;
+
+    /* Background Colors */
+    --color-bg-primary: #111827;
+    --color-bg-secondary: #1f2937;
+    --color-bg-tertiary: #374151;
+    --color-bg-panel: #1f2937;
+    --color-bg-card: #374151;
+    --color-bg-input: #374151;
+
+    /* Text Colors */
+    --color-text-primary: #f9fafb;
+    --color-text-secondary: #d1d5db;
+    --color-text-tertiary: #9ca3af;
+    --color-text-dark: #111827;
+
+    /* Border Colors */
+    --color-border-primary: #4b5563;
+    --color-border-secondary: #6b7280;
+    --color-border-focus: #3b82f6;
+
+    /* Spacing System */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 3rem;
+
+    /* Border Radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+    --radius-xl: 1rem;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    /* Transitions */
+    --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-normal: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --board-scale: 1.2;
+    }
+}
+
+/* ============================================= */
+/* 9. TRIVIA REFRESH (SCOPED)                    */
+/* ============================================= */
+
+body:not(.live-quiz-app) {
+    background: radial-gradient(1200px 900px at 15% 5%, rgba(59, 130, 246, 0.12), transparent 55%),
+        radial-gradient(900px 700px at 85% 15%, rgba(16, 185, 129, 0.12), transparent 55%),
+        linear-gradient(180deg, #0b1220, #111827);
+    color: #e5e7eb;
+}
+
+body:not(.live-quiz-app) #setup-screen,
+body:not(.live-quiz-app) #game-controls,
+body:not(.live-quiz-app) #game-menu-panel {
+    background: rgba(17, 24, 39, 0.75);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 20px 50px rgba(2, 6, 23, 0.55);
+    backdrop-filter: blur(14px);
+}
+
+body:not(.live-quiz-app) #question-modal,
+body:not(.live-quiz-app) #history-modal,
+body:not(.live-quiz-app) #category-choice-modal,
+body:not(.live-quiz-app) #model-choice-modal,
+body:not(.live-quiz-app) #suggestion-modal {
+    background: rgba(2, 6, 23, 0.85) !important;
+    backdrop-filter: blur(6px);
+}
+
+body:not(.live-quiz-app) #modal-content,
+body:not(.live-quiz-app) #answer-popup,
+body:not(.live-quiz-app) #history-modal > div,
+body:not(.live-quiz-app) #category-choice-modal > div,
+body:not(.live-quiz-app) #model-choice-modal > div,
+body:not(.live-quiz-app) #suggestion-modal > div,
+body:not(.live-quiz-app) #winner-screen {
+    background: rgba(17, 24, 39, 0.95);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    box-shadow: 0 22px 60px rgba(2, 6, 23, 0.6);
+    color: #e5e7eb;
+}
+
+body:not(.live-quiz-app) #answer-popup-title,
+body:not(.live-quiz-app) #question-modal h3,
+body:not(.live-quiz-app) #history-modal-title {
+    color: #e5e7eb;
+}
+
+body:not(.live-quiz-app) #player-answer-text,
+body:not(.live-quiz-app) #correct-answer-text,
+body:not(.live-quiz-app) #incorrect-explanation-text,
+body:not(.live-quiz-app) #explanation-text,
+body:not(.live-quiz-app) #llm-evaluation-text {
+    background: rgba(30, 41, 59, 0.6) !important;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    color: #e5e7eb;
+}
+
+body:not(.live-quiz-app) #player-answer-text.bg-red-100,
+body:not(.live-quiz-app) #incorrect-explanation-text {
+    background: rgba(239, 68, 68, 0.25) !important;
+    border-color: rgba(239, 68, 68, 0.45);
+}
+
+body:not(.live-quiz-app) #player-answer-text.bg-green-100,
+body:not(.live-quiz-app) #correct-answer-text {
+    background: rgba(34, 197, 94, 0.22) !important;
+    border-color: rgba(34, 197, 94, 0.45);
+}
+
+body:not(.live-quiz-app) #correct-answer-text {
+    color: #bbf7d0;
+    border-color: rgba(34, 197, 94, 0.35);
+}
+
+body:not(.live-quiz-app) #explanation-text {
+    color: #fde68a;
+    border-color: rgba(245, 158, 11, 0.35);
+}
+
+body:not(.live-quiz-app) #incorrect-explanation-text {
+    color: #fecaca;
+    border-color: rgba(239, 68, 68, 0.35);
+}
+
+body:not(.live-quiz-app) #game-menu-overlay {
+    background: rgba(2, 6, 23, 0.65);
+    backdrop-filter: blur(2px);
+}
+
+body:not(.live-quiz-app) #setup-screen h1,
+body:not(.live-quiz-app) #setup-screen label,
+body:not(.live-quiz-app) #setup-screen .text-gray-700,
+body:not(.live-quiz-app) #setup-screen .text-gray-900 {
+    color: #e5e7eb !important;
+}
+
+html.dark body:not(.live-quiz-app) #setup-screen .bg-slate-100,
+html.oled body:not(.live-quiz-app) #setup-screen .bg-slate-100,
+html.dark body:not(.live-quiz-app) #setup-screen .bg-white,
+html.oled body:not(.live-quiz-app) #setup-screen .bg-white,
+html.dark body:not(.live-quiz-app) #game-controls.bg-white,
+html.oled body:not(.live-quiz-app) #game-controls.bg-white,
+html.dark body:not(.live-quiz-app) #game-controls .bg-gray-100,
+html.oled body:not(.live-quiz-app) #game-controls .bg-gray-100 {
+    background: rgba(30, 41, 59, 0.75) !important;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+body:not(.live-quiz-app) #setup-screen input,
+body:not(.live-quiz-app) #setup-screen select,
+body:not(.live-quiz-app) #setup-screen textarea {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    color: #e5e7eb;
+}
+
+body:not(.live-quiz-app) #setup-screen input:focus,
+body:not(.live-quiz-app) #setup-screen select:focus,
+body:not(.live-quiz-app) #setup-screen textarea:focus {
+    outline: none;
+    border-color: rgba(56, 189, 248, 0.7);
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+body:not(.live-quiz-app) .board-wrapper {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    box-sizing: border-box;
+    overflow: visible;
+    position: relative;
+    width: min(calc(80vh * var(--board-scale, 1)), calc(85vw * var(--board-scale, 1)));
+    height: min(calc(80vh * var(--board-scale, 1)), calc(85vw * var(--board-scale, 1)));
+    max-width: calc(820px * var(--board-scale, 1));
+    max-height: calc(820px * var(--board-scale, 1));
+}
+
+body:not(.live-quiz-app) .board-wrapper::before {
+    content: none;
+}
+
+body:not(.live-quiz-app) .board-wrapper > .board-container {
+    position: relative;
+    z-index: 1;
+}
+
+body:not(.live-quiz-app) .board-container {
+    position: relative;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body:not(.live-quiz-app) .board-wrapper::before {
+    content: '';
+    position: absolute;
+    inset: -6%;
+    border-radius: 50%;
+    background:
+        radial-gradient(120% 120% at 30% 20%, rgba(59, 130, 246, 0.25), transparent 60%),
+        radial-gradient(90% 90% at 70% 70%, rgba(16, 185, 129, 0.18), transparent 60%),
+        radial-gradient(120% 120% at 50% 50%, rgba(15, 23, 42, 0.85), transparent 72%);
+    box-shadow: 0 0 60px rgba(15, 23, 42, 0.6);
+    z-index: 0;
+    pointer-events: none;
+}
+
+body:not(.live-quiz-app) .board-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background:
+        radial-gradient(80% 80% at 50% 40%, rgba(255, 255, 255, 0.05), transparent 60%),
+        radial-gradient(120% 120% at 50% 50%, rgba(0, 0, 0, 0.3), transparent 70%);
+    mix-blend-mode: screen;
+    opacity: 0.7;
+    z-index: 1;
+    pointer-events: none;
+}
+
+body:not(.live-quiz-app) .board-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background-image:
+        radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 18px 18px, 36px 36px;
+    background-position: 0 0, 9px 9px;
+    opacity: 0.12;
+    z-index: 1;
+    pointer-events: none;
+}
+
+body:not(.live-quiz-app) .board-square {
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    border-radius: 10px;
+    box-shadow:
+        0 6px 14px rgba(2, 6, 23, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18),
+        inset 0 -8px 12px rgba(2, 6, 23, 0.25);
+    position: absolute;
+    overflow: hidden;
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+body:not(.live-quiz-app) .board-square::before {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.28), transparent 45%);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+body:not(.live-quiz-app) .board-square:hover {
+    transform: translateY(-2px);
+    border-color: rgba(56, 189, 248, 0.7);
+    box-shadow:
+        0 0 0 1px rgba(56, 189, 248, 0.2),
+        0 18px 34px rgba(2, 6, 23, 0.5),
+        0 0 16px rgba(56, 189, 248, 0.2);
+}
+
+body:not(.live-quiz-app) #category-legend {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+}
+
+body:not(.live-quiz-app) #category-legend > div {
+    padding: 0.35rem 0.5rem;
+    border-radius: 0.75rem;
+    background: rgba(2, 6, 23, 0.2);
+    border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.category-legend-item {
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.category-legend-item.dimmed {
+    opacity: 0.3;
+    filter: grayscale(0.5);
+}
+
+.category-legend-item.active-highlight {
+    opacity: 1;
+    font-weight: 700;
+    border-color: var(--legend-highlight-color) !important;
+    box-shadow: 0 0 10px var(--legend-highlight-glow);
+    background: var(--legend-highlight-bg) !important;
+}
+
+body:not(.live-quiz-app) .board-square.highlighted-move {
+    border-color: var(--highlight-color, #22c55e);
+    border-width: 3px;
+    box-shadow: 0 0 0 2px var(--highlight-glow-outer, rgba(34, 197, 94, 0.45)),
+                0 0 18px var(--highlight-glow-inner, rgba(34, 197, 94, 0.4));
+    animation: triviaPulse 1.4s ease-in-out infinite;
+    z-index: 20;
+}
+
+/* --- TRIVIA UI RESTRUCTURE (TOP BAR & FLOATING DICE) --- */
+
+body:not(.live-quiz-app) #game-top-bar {
+    position: relative;
+    z-index: 2;
+    background: rgba(17, 24, 39, 0.75) !important;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 10px 30px rgba(2, 6, 23, 0.4);
+    backdrop-filter: blur(14px);
+    color: #e5e7eb;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-top-bar {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    color: #0f172a;
+}
+
+body:not(.live-quiz-app) #dice-result {
+    background: rgba(17, 24, 39, 0.85) !important;
+    border: 1px solid rgba(148, 163, 184, 0.2) !important;
+    box-shadow: 0 10px 25px rgba(2, 6, 23, 0.5) !important;
+    backdrop-filter: blur(8px);
+    color: #e5e7eb;
+}
+
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #dice-result {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(15, 23, 42, 0.08) !important;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08) !important;
+    color: #0f172a;
+}
+
+body:not(.live-quiz-app) #player-scores > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem !important;
+    border-radius: 0.75rem !important;
+    background: rgba(30, 41, 59, 0.5) !important;
+    border: 1px solid rgba(148, 163, 184, 0.25) !important;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-fast);
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #player-scores > div {
+    background: rgba(241, 245, 249, 0.95) !important;
+    border: 1px solid rgba(15, 23, 42, 0.1) !important;
+}
+
+body:not(.live-quiz-app) .board-square::after {
+    opacity: 0;
+}
+
+body:not(.live-quiz-app) .player-token {
+    filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.45));
+    animation: triviaFloat 4s ease-in-out infinite;
+}
+
+body:not(.live-quiz-app) .dice {
+    transition: transform 0.3s ease;
+}
+
+body:not(.live-quiz-app) .face {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 30%, #e2e8f0 100%);
+    border: 2px solid rgba(148, 163, 184, 0.7);
+    border-radius: 10px;
+    box-shadow:
+        inset 0 2px 6px rgba(255, 255, 255, 0.9),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+body:not(.live-quiz-app) #dice-result {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+body:not(.live-quiz-app) #game-message {
+    color: #fca5a5;
+}
+
+/* Light theme overrides (non-live-quiz) */
+html:not(.dark):not(.oled) body:not(.live-quiz-app) {
+    background: radial-gradient(1200px 900px at 15% 5%, rgba(59, 130, 246, 0.12), transparent 55%),
+        radial-gradient(900px 700px at 85% 15%, rgba(16, 185, 129, 0.12), transparent 55%),
+        linear-gradient(180deg, #f8fafc, #e2e8f0);
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-controls,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-menu-panel {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    box-shadow: 0 16px 36px rgba(15, 23, 42, 0.1);
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-white,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-slate-100,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-gray-100,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-gray-200 {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-gray-700,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-gray-800,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .bg-gray-900 {
+    background-color: rgba(241, 245, 249, 0.9) !important;
+    border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .text-gray-400,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .text-gray-500,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .text-gray-600,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .text-gray-700,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .text-gray-800,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .text-gray-900 {
+    color: #0f172a !important;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #info-box,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-controls .bg-gray-100 {
+    background: rgba(241, 245, 249, 0.95) !important;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen h1,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen label,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen .text-gray-700,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen .text-gray-900 {
+    color: #0f172a !important;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen input,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen select,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #setup-screen textarea {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-modal,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #history-modal,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #category-choice-modal,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #model-choice-modal,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #suggestion-modal {
+    background: rgba(15, 23, 42, 0.4) !important;
+    backdrop-filter: blur(6px);
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #modal-content,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-popup,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #history-modal > div,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #category-choice-modal > div,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #model-choice-modal > div,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #suggestion-modal > div,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #winner-screen {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.16);
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .board-wrapper {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .board-container {
+    background: transparent;
+    box-shadow: none;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #category-legend > div {
+    background: rgba(248, 250, 252, 0.9);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .board-wrapper::before {
+    background:
+        radial-gradient(120% 120% at 30% 20%, rgba(59, 130, 246, 0.15), transparent 60%),
+        radial-gradient(90% 90% at 70% 70%, rgba(16, 185, 129, 0.12), transparent 60%),
+        radial-gradient(120% 120% at 50% 50%, rgba(255, 255, 255, 0.95), transparent 70%);
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.8);
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) .board-square {
+    background: rgba(248, 250, 252, 0.95);
+    border: 1px solid rgba(15, 23, 42, 0.18);
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #player-answer-text,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #correct-answer-text,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #incorrect-explanation-text,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #explanation-text,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #llm-evaluation-text {
+    background: rgba(241, 245, 249, 0.95) !important;
+    border: 1px solid rgba(15, 23, 42, 0.12);
+    color: #0f172a;
+}
+
+@keyframes triviaPulse {
+    0%, 100% {
+        transform: scale(1.15);
+        box-shadow: 0 0 0 2px var(--highlight-glow-outer, rgba(34, 197, 94, 0.45)),
+                    0 0 15px var(--highlight-glow-inner, rgba(34, 197, 94, 0.4));
+    }
+    50% {
+        transform: scale(1.28);
+        box-shadow: 0 0 0 4px var(--highlight-glow-outer-pulse, rgba(34, 197, 94, 0.6)),
+                    0 0 32px var(--highlight-glow-inner-pulse, rgba(34, 197, 94, 0.8));
+    }
+}
+
+@keyframes triviaFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body:not(.live-quiz-app) .board-square.highlighted-move,
+    body:not(.live-quiz-app) .player-token {
+        animation: none;
+    }
+}
+
+/* ============================================= */
+/* 8. LIVE QUIZ (SCOPED)                         */
+/* ============================================= */
+
+.live-quiz-app {
+    --lq-bg: #0b1020;
+    --lq-bg-2: #0f172a;
+    --lq-surface: rgba(31, 41, 55, 0.75);
+    --lq-surface-strong: rgba(17, 24, 39, 0.92);
+    --lq-border: rgba(148, 163, 184, 0.18);
+    --lq-text: #e5e7eb;
+    --lq-muted: #9ca3af;
+    --lq-accent: #38bdf8;
+    --lq-accent-2: #8b5cf6;
+    --lq-success: #22c55e;
+    --lq-warning: #f59e0b;
+    --lq-danger: #ef4444;
+    --lq-shadow: 0 18px 50px rgba(3, 7, 18, 0.6);
+    --lq-glow: 0 0 0 1px rgba(56, 189, 248, 0.12), 0 0 24px rgba(56, 189, 248, 0.25);
+    color: var(--lq-text);
+    background: radial-gradient(1200px 800px at 20% 0%, rgba(56, 189, 248, 0.12), transparent 60%),
+        radial-gradient(1000px 700px at 90% 20%, rgba(139, 92, 246, 0.15), transparent 55%),
+        linear-gradient(180deg, var(--lq-bg), var(--lq-bg-2));
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+.live-quiz-app .answer-option {
+    min-height: 60px;
+    font-size: 1.1rem;
+    background: rgba(30, 41, 59, 0.75);
+    border: 1px solid rgba(148, 163, 184, 0.2) !important;
+    border-radius: 1rem;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.5);
+    transition: border-color 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 180ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.live-quiz-app .answer-option:hover {
+    background: rgba(51, 65, 85, 0.85);
+    border-color: rgba(56, 189, 248, 0.7) !important;
+    transform: translateY(-2px);
+    box-shadow: var(--lq-glow);
+}
+
+.live-quiz-app .timer-display {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.live-quiz-app .question-text {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.live-quiz-host-setup,
+.live-quiz-lobby,
+.live-quiz-question,
+.live-quiz-results {
+    background: var(--lq-surface);
+    border-radius: 1.25rem;
+    border: 1px solid var(--lq-border);
+    box-shadow: var(--lq-shadow);
+    backdrop-filter: blur(12px);
+}
+
+.live-quiz-host-setup { padding: 2rem; gap: 1.5rem; display: flex; flex-direction: column; }
+.live-quiz-lobby { padding: 1.5rem; }
+.live-quiz-question { padding: 1.75rem; margin-bottom: 1.5rem; }
+.live-quiz-results { padding: 1.75rem; text-align: center; display: flex; flex-direction: column; gap: 1.5rem; }
+
+.live-quiz-app .game-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.live-quiz-app .game-controls button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.75rem;
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+    transition: transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 180ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.live-quiz-app .game-controls button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+}
+
+.live-quiz-app .game-controls button:active { transform: translateY(0); }
+
+.live-quiz-app .game-controls .btn-primary {
+    background: rgba(34, 197, 94, 0.18);
+    border-color: rgba(34, 197, 94, 0.35);
+}
+
+.live-quiz-app .game-controls .btn-primary:hover {
+    background: rgba(34, 197, 94, 0.28);
+    border-color: rgba(34, 197, 94, 0.5);
+}
+
+.live-quiz-app .game-controls .btn-secondary {
+    background: rgba(148, 163, 184, 0.12);
+    border-color: rgba(148, 163, 184, 0.28);
+}
+
+.live-quiz-app .game-controls .btn-secondary:hover {
+    background: rgba(148, 163, 184, 0.2);
+    border-color: rgba(148, 163, 184, 0.45);
+}
+
+.live-quiz-app .game-controls .btn-warning {
+    background: rgba(245, 158, 11, 0.2);
+    border-color: rgba(245, 158, 11, 0.4);
+}
+
+.live-quiz-app .game-controls .btn-warning:hover {
+    background: rgba(245, 158, 11, 0.3);
+    border-color: rgba(251, 191, 36, 0.55);
+}
+
+.live-quiz-app .game-controls .btn-info {
+    background: rgba(59, 130, 246, 0.18);
+    border-color: rgba(59, 130, 246, 0.4);
+}
+
+.live-quiz-app .game-controls .btn-info:hover {
+    background: rgba(59, 130, 246, 0.28);
+    border-color: rgba(96, 165, 250, 0.55);
+}
+
+.live-quiz-app .game-controls .btn-purple {
+    background: rgba(139, 92, 246, 0.18);
+    border-color: rgba(139, 92, 246, 0.4);
+}
+
+.live-quiz-app .game-controls .btn-purple:hover {
+    background: rgba(139, 92, 246, 0.28);
+    border-color: rgba(167, 139, 250, 0.55);
+}
+
+.live-quiz-app .timer-danger { color: var(--lq-danger); text-shadow: 0 0 10px rgba(239, 68, 68, 0.4); }
+.live-quiz-app .timer-warning { color: var(--lq-warning); text-shadow: 0 0 10px rgba(245, 158, 11, 0.35); }
+.live-quiz-app .timer-normal { color: white; text-shadow: 0 0 10px rgba(56, 189, 248, 0.2); }
+
+.live-quiz-app .fullscreen-overlay {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(1000px 800px at 10% 10%, rgba(56, 189, 248, 0.12), transparent 60%),
+        linear-gradient(180deg, #0b1020, #111827);
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+}
+
+.live-quiz-app .fullscreen-header,
+.live-quiz-app .fullscreen-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: var(--lq-surface-strong);
+    border-bottom: 1px solid var(--lq-border);
+    backdrop-filter: blur(10px);
+}
+
+.live-quiz-app .fullscreen-controls { border-bottom: 0; border-top: 1px solid var(--lq-border); }
+
+.live-quiz-app .fullscreen-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.live-quiz-app .players-list,
+.live-quiz-app .scoreboard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-height: 24rem;
+    overflow-y: auto;
+}
+
+.live-quiz-app .scoreboard { max-height: 20rem; }
+
+.live-quiz-app .player-item,
+.live-quiz-app .scoreboard-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background: rgba(30, 41, 59, 0.65);
+    border-radius: 0.75rem;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.live-quiz-app .scoreboard-item { padding: 0.5rem; border-radius: 0.6rem; }
+
+.live-quiz-app .player-avatar,
+.live-quiz-app .player-avatar-small {
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.live-quiz-app .player-avatar { width: 2rem; height: 2rem; box-shadow: 0 0 16px rgba(56, 189, 248, 0.5); }
+.live-quiz-app .player-avatar-small { width: 1.5rem; height: 1.5rem; font-size: 0.75rem; }
+
+.live-quiz-app .scoreboard-position { font-size: 0.875rem; font-weight: 600; color: var(--lq-muted); }
+
+.live-quiz-app .progress-container {
+    width: 100%;
+    background-color: rgba(51, 65, 85, 0.8);
+    border-radius: 9999px;
+    height: 0.75rem;
+}
+
+.live-quiz-app .progress-bar {
+    background: linear-gradient(90deg, #38bdf8, #8b5cf6);
+    height: 0.75rem;
+    border-radius: 9999px;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 18px rgba(56, 189, 248, 0.4);
+}
+
+.live-quiz-app .answer-options-grid,
+.live-quiz-app .answer-options-grid-host {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.live-quiz-app .answer-options-grid-host { gap: 1.5rem; }
+
+.live-quiz-app .answer-option-button,
+.live-quiz-app .answer-option-display {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: left;
+    background: rgba(30, 41, 59, 0.75);
+    border-radius: 1rem;
+    color: white;
+    border-width: 1px;
+    border-color: rgba(148, 163, 184, 0.2);
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.5);
+    transition: border-color 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 180ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.live-quiz-app .answer-option-button:hover,
+.live-quiz-app .answer-option-display:hover {
+    background: rgba(51, 65, 85, 0.85);
+    border-color: rgba(56, 189, 248, 0.7);
+    transform: translateY(-2px);
+    box-shadow: var(--lq-glow);
+}
+
+.live-quiz-app .correct-answer-highlight {
+    background: linear-gradient(135deg, #16a34a, #15803d) !important;
+    border-color: #22c55e !important;
+    box-shadow: 0 0 24px rgba(34, 197, 94, 0.5) !important;
+}
+
+.live-quiz-app .player-names { font-size: 0.875rem; }
+.live-quiz-app .player-names div { color: #7dd3fc; font-weight: 500; }
+
+.live-quiz-app .connection-status {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, #ef4444, #b91c1c);
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    z-index: 50;
+}
+
+.live-quiz-app .loading-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.live-quiz-app .loading-content {
+    background: var(--lq-surface-strong);
+    border-radius: 1.25rem;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid var(--lq-border);
+    box-shadow: var(--lq-shadow);
+}
+
+.live-quiz-app .room-info { display: flex; flex-direction: column; gap: 0.75rem; }
+.live-quiz-app .room-code-display { font-size: 1.5rem; font-family: monospace; font-weight: 700; color: #7dd3fc; text-shadow: 0 0 12px rgba(56, 189, 248, 0.35); }
+.live-quiz-app .game-id-display { font-size: 0.875rem; color: var(--lq-muted); font-family: monospace; }
+.live-quiz-app .player-count-display { color: white; font-weight: 600; }
+
+.live-quiz-app .category-badge {
+    font-size: 0.875rem;
+    color: #e2e8f0;
+    background: rgba(51, 65, 85, 0.8);
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.live-quiz-app .category-input {
+    padding: 0.5rem 1rem;
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    border-radius: 0.75rem;
+    color: white;
+}
+
+.live-quiz-app .category-input:focus {
+    outline: none;
+    border-color: rgba(56, 189, 248, 0.7);
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+}
+
+.live-quiz-app .question-results { display: none; margin-bottom: 1.5rem; }
+
+.live-quiz-app .results-content {
+    background: rgba(30, 41, 59, 0.75);
+    border-radius: 0.9rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.5);
+}
+
+.live-quiz-app .correct-answer { color: #bbf7d0; font-size: 1.125rem; }
+.live-quiz-app .correct-answer-label { font-size: 1.125rem; font-weight: 600; color: #86efac; margin-bottom: 0.5rem; }
+.live-quiz-app .explanation { color: #93c5fd; font-size: 1rem; line-height: 1.75; }
+.live-quiz-app .explanation-label { font-size: 1.125rem; font-weight: 600; color: #60a5fa; margin-bottom: 0.5rem; }
+
+.live-quiz-app .fullscreen-question-text {
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.75;
+    margin-bottom: 3rem;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.live-quiz-app .host-question-text {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+/* Player answer states */
+.live-quiz-app .answer-option:not(:disabled):active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease-in-out;
+}
+
+.live-quiz-app .answer-option.selected {
+    background-color: #2563eb !important;
+    border-color: #3b82f6 !important;
+}
+
+.live-quiz-app .answer-option.correct {
+    background-color: #15803d !important;
+    border-color: #22c55e !important;
+    animation: pulse 1s ease-in-out;
+}
+
+.live-quiz-app .answer-option.incorrect {
+    background-color: #7f1d1d !important;
+    border-color: #991b1b !important;
+}
+
+.live-quiz-app .answer-option.loading {
+    position: relative;
+    opacity: 0.7;
+}
+
+.live-quiz-app .answer-option.loading::after {
+    content: '';
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    border: 2px solid #ffffff;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* QR code layout fixes */
+.live-quiz-app .qr-code-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    max-width: 320px;
+    max-height: 320px;
+    min-width: 220px;
+    min-height: 220px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.25);
+}
+
+.live-quiz-app .qr-code-large {
+    max-width: 300px !important;
+    max-height: 300px !important;
+}
+
+.live-quiz-app .qr-code-inner,
+.live-quiz-app .qr-code-inner canvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 300px !important;
+    max-height: 300px !important;
+}
+
+.live-quiz-app #join-url {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.live-quiz-app #copy-join-url { flex: 0 0 auto; }
+
+@media (max-width: 768px) {
+    .live-quiz-app .qr-code-container {
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 280px;
+        max-height: 280px;
+    }
+    .live-quiz-app .qr-code-large,
+    .live-quiz-app .qr-code-inner,
+    .live-quiz-app .qr-code-inner canvas {
+        max-width: 260px !important;
+        max-height: 260px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .live-quiz-app .qr-code-container {
+        min-width: 170px;
+        min-height: 170px;
+        max-width: 240px;
+        max-height: 240px;
+    }
+    .live-quiz-app .qr-code-large,
+    .live-quiz-app .qr-code-inner,
+    .live-quiz-app .qr-code-inner canvas {
+        max-width: 220px !important;
+        max-height: 220px !important;
+    }
+}
+
+/* Live quiz explanations (override trivia modal colors) */
+.live-quiz-app #explanation,
+.live-quiz-app #question-results,
+.live-quiz-app #correct-answer,
+.live-quiz-app #your-answer {
+    background: rgba(30, 41, 59, 0.85) !important;
+    border: 1px solid var(--lq-border) !important;
+}
+
+.live-quiz-app #explanation-text,
+.live-quiz-app #question-explanation,
+.live-quiz-app #correct-answer-text,
+.live-quiz-app #answer-text {
+    background: transparent !important;
+    color: #dbeafe !important;
+    border: none !important;
+}
+
+.live-quiz-app #correct-answer-text,
+.live-quiz-app #correct-answer {
+    color: #bbf7d0 !important;
+}
+
+/* Tailwind utility overrides (live-quiz only) */
+.live-quiz-app .bg-gray-900 { background: linear-gradient(180deg, #0b1020, #111827) !important; }
+.live-quiz-app .bg-gray-800 {
+    background: var(--lq-surface) !important;
+    border: 1px solid var(--lq-border);
+    box-shadow: var(--lq-shadow);
+    backdrop-filter: blur(12px);
+}
+.live-quiz-app .bg-gray-700 {
+    background: rgba(30, 41, 59, 0.75) !important;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+}
+.live-quiz-app .bg-gray-600 {
+    background: rgba(51, 65, 85, 0.85) !important;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+}
+.live-quiz-app .bg-blue-900 {
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.9), rgba(30, 64, 175, 0.9)) !important;
+}
+.live-quiz-app .bg-green-900 {
+    background: linear-gradient(135deg, rgba(20, 83, 45, 0.9), rgba(21, 128, 61, 0.9)) !important;
+}
+.live-quiz-app .bg-yellow-600 { background: rgba(245, 158, 11, 0.22) !important; border: 1px solid rgba(245, 158, 11, 0.45) !important; }
+.live-quiz-app .bg-blue-600 { background: rgba(59, 130, 246, 0.2) !important; border: 1px solid rgba(59, 130, 246, 0.45) !important; }
+.live-quiz-app .bg-purple-600 { background: rgba(139, 92, 246, 0.2) !important; border: 1px solid rgba(139, 92, 246, 0.45) !important; }
+.live-quiz-app .bg-indigo-600 { background: rgba(99, 102, 241, 0.2) !important; border: 1px solid rgba(99, 102, 241, 0.45) !important; }
+.live-quiz-app .bg-green-600 { background: rgba(34, 197, 94, 0.2) !important; border: 1px solid rgba(34, 197, 94, 0.45) !important; }
+.live-quiz-app .bg-red-600 { background: rgba(239, 68, 68, 0.2) !important; border: 1px solid rgba(239, 68, 68, 0.45) !important; }
+
+.live-quiz-app .rounded-2xl { border-radius: 1.25rem !important; }
+.live-quiz-app .rounded-lg { border-radius: 0.9rem !important; }
+
+/* Dark theme overrides */
+html.dark {
+    --color-bg-primary: #111827;
+    --color-bg-secondary: #1f2937;
+    --color-bg-tertiary: #374151;
+    --color-bg-panel: #1f2937;
+    --color-bg-card: #374151;
+    --color-bg-input: #374151;
+    --color-text-primary: #f9fafb;
+    --color-text-secondary: #d1d5db;
+    --color-text-tertiary: #9ca3af;
+}
+
+/* ============================================= */
+/* 2. BASE & GENERAL STYLES                      */
+/* ============================================= */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+}
+
+/* ============================================= */
+/* 2. LAYOUT CONTAINERS                          */
+/* ============================================= */
+
+/* The main game screen container. */
+#game-screen {
+    height: auto;
+    min-height: 100dvh; /* Use dynamic viewport height to fill the screen on mobile devices. */
+}
+
+/* Wrapper for the game board to maintain a square aspect ratio. */
+.board-wrapper {
+    /* Uses vh units to scale with viewport height. */
+    width: calc(80vh * var(--board-scale, 1));
+    height: calc(80vh * var(--board-scale, 1));
+    /* Caps the size on larger screens. */
+    max-width: calc(800px * var(--board-scale, 1));
+    max-height: calc(800px * var(--board-scale, 1));
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+/* --- Game Menu Panel (Side Panel) --- */
+#game-menu-panel {
+    transition: transform 0.3s ease-in-out;
+}
+
+#game-menu-panel.visible {
+    transform: translateX(0);
+}
+
+#game-menu-overlay.visible {
+    display: block;
+}
+
+/* SVG container for drawing lines between board squares. */
+.board-connections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Positioned below the board squares. */
+}
+
+.board-connections line {
+    stroke: rgba(148, 163, 184, 0.35);
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: 0.7;
+    filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.2));
+}
+
+/* Main container for the board squares. */
+.board-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* ============================================= */
+/* 3. COMPONENT STYLES                           */
+/* ============================================= */
+
+/* --- Board & Player Elements --- */
+
+/* A single square on the game board. */
+.board-square {
+    position: absolute;
+    /* Sized relative to the parent .board-container. */
+    width: 6%;
+    height: 6%;
+    border: 2px solid #374151; /* gray-700 */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    z-index: 2; /* Positioned above the connection lines. */
+}
+
+/* Highlight for a square that represents a possible move. */
+.board-square.highlighted-move {
+    border-color: #10b981; /* emerald-500 */
+    border-width: 3px;
+    transform: scale(1.18);
+    box-shadow: 0 0 20px #10b981, 0 0 35px rgba(16, 185, 129, 0.4);
+    z-index: 20; /* Ensures highlighted square is on top of everything. */
+}
+
+/* The player's game piece/token. */
+.player-token {
+    position: absolute;
+    width: 3.5%;
+    height: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8vh;
+    line-height: 1;
+    /* Longer transition for smooth movement across the board. */
+    transition: all 0.5s ease-in-out;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    z-index: 5; /* Positioned above squares but below highlighted ones. */
+}
+
+/* Style for category input fields when they are textareas to allow for auto-sizing. */
+textarea.category-input {
+    resize: none; /* Disables the user's ability to manually resize the element. */
+    overflow-y: hidden; /* Hides the vertical scrollbar that can briefly appear during resizing. */
+    min-height: 42px; /* Ensures a minimum height similar to a standard input field. */
+    white-space: pre-wrap; /* Allows the browser to wrap text to the next line. */
+    word-wrap: break-word; /* Forces long words to break to prevent horizontal overflow. */
+}
+
+/* Style for the 'suggest alternatives' button positioned inside the category input area */
+.category-suggestion-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem;
+    font-size: 1.125rem; /* 18px */
+    line-height: 1;
+    color: #9ca3af; /* gray-400 */
+    background-color: transparent;
+    border-radius: 9999px;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.category-suggestion-btn:hover {
+    color: #4f46e5; /* indigo-600 */
+    transform: scale(1.1);
+}
+
+/* --- Player Panel & UI Elements --- */
+
+/* A "wedge" representing a collected category in the player's panel. */
+.category-wedge {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1px;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.category-wedge:hover {
+    transform: scale(1.2);
+}
+
+/* --- 3D Dice --- */
+
+/* Container to establish the 3D perspective for the dice. */
+.dice-container {
+    width: 80px;
+    height: 80px;
+    perspective: 600px;
+    perspective-origin: 50% 50%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+/* The dice itself, which holds the 3D faces. */
+.dice {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.25s ease-out;
+    will-change: transform;
+    /* Initial rotation to show 3D effect */
+    transform: rotateX(-15deg) rotateY(15deg);
+}
+
+/* Bounce effect for container */
+.dice-bounce {
+    animation: container-shake 0.15s ease-out;
+}
+
+@keyframes container-shake {
+    0%, 100% { transform: translateX(0) translateY(0); }
+    25% { transform: translateX(-2px) translateY(1px); }
+    50% { transform: translateX(2px) translateY(-1px); }
+    75% { transform: translateX(-1px) translateY(1px); }
+}
+
+/* A single face of the 3D dice. */
+.face {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 50%, #e8e8e8 100%);
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    box-shadow:
+        inset 0 2px 4px rgba(255, 255, 255, 0.8),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.15);
+    backface-visibility: hidden;
+    /* Grid layout for pips */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    gap: 2px;
+    box-sizing: border-box;
+}
+
+/* 3D transforms to position each face correctly in 3D space */
+/* Front face (1) - facing us */
+.face.front  { transform: translateZ(40px); }
+/* Back face (6) - behind */
+.face.back   { transform: rotateY(180deg) translateZ(40px); }
+/* Right face (4) */
+.face.right  { transform: rotateY(90deg) translateZ(40px); }
+/* Left face (3) */
+.face.left   { transform: rotateY(-90deg) translateZ(40px); }
+/* Top face (2) */
+.face.top    { transform: rotateX(90deg) translateZ(40px); }
+/* Bottom face (5) */
+.face.bottom { transform: rotateX(-90deg) translateZ(40px); }
+
+/* ===== Dice Pips (dots) ===== */
+.pip {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #4a4a4a, #1a1a1a);
+    box-shadow: inset 0 -2px 3px rgba(255, 255, 255, 0.2);
+    margin: auto;
+}
+
+/* Red pips for 1 and 6 - traditional dice colors */
+.face[data-value="1"] .pip,
+.face[data-value="6"] .pip {
+    background: radial-gradient(circle at 30% 30%, #ef4444, #b91c1c);
+}
+
+/* Pip positions using grid areas */
+.pip.top-left { grid-area: 1 / 1; }
+.pip.top-right { grid-area: 1 / 3; }
+.pip.mid-left { grid-area: 2 / 1; }
+.pip.center { grid-area: 2 / 2; }
+.pip.mid-right { grid-area: 2 / 3; }
+.pip.bot-left { grid-area: 3 / 1; }
+.pip.bot-right { grid-area: 3 / 3; }
+
+/* Hover effect when not rolling - subtle lift */
+.dice:not(.dice-rolling):hover {
+    transform: rotateX(-20deg) rotateY(20deg);
+}
+
+/* Click effect */
+.dice:active:not(.dice-rolling) {
+    transform: scale(0.95);
+}
+
+/* --- Modals & Popups (Question, Answer, History) --- */
+
+#modal-content, #answer-popup:not(.hidden) {
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#modal-content {
+    --modal-scale-state: 1;
+    transform: scale(calc(var(--modal-scale-state, 1) * var(--question-scale, 1))) !important;
+    transform-origin: center center;
+}
+
+#modal-content.scale-95 {
+    --modal-scale-state: 0.95;
+}
+
+#answer-popup {
+    --popup-scale-state: 1;
+    transform: translate(-50%, -50%) scale(calc(var(--popup-scale-state, 1) * var(--question-scale, 1))) !important;
+    transform-origin: center center;
+}
+
+#answer-popup.scale-90 {
+    --popup-scale-state: 0.90;
+}
+
+/* Range sliders styling for side menu scaling */
+.game-scale-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+.game-scale-slider::-webkit-slider-runnable-track {
+    background: #cbd5e1;
+    height: 0.375rem;
+    border-radius: 0.375rem;
+}
+html.dark .game-scale-slider::-webkit-slider-runnable-track,
+html.oled .game-scale-slider::-webkit-slider-runnable-track {
+    background: #475569;
+}
+.game-scale-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -3px;
+    background-color: #4f46e5;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+#player-answer-text,
+#correct-answer-text,
+#incorrect-explanation-text,
+#explanation-text {
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+/* Answer verification modal background colors */
+#player-answer-text.bg-green-100 {
+    background-color: #dcfce7;
+    border: 1px solid #166534;
+}
+
+#player-answer-text.bg-red-100 {
+    background-color: #fee2e2;
+    border: 1px solid #991b1b;
+}
+
+#answer-popup.opacity-0 {
+    pointer-events: none;
+}
+
+#question-content {
+    overflow-y: auto;
+    flex-shrink: 1;
+    min-height: 0;
+}
+
+#question-text {
+    font-size: clamp(1rem, 4vw, 1.25rem);
+    line-height: 1.6;
+}
+
+#mutation-buttons button span,
+#mutation-buttons button p {
+    color: #121212;
+}
+
+#standard-popup-content, #mutation-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    min-height: 0;
+}
+
+#mcq-options-container {
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+#mcq-options-container button {
+    font-size: clamp(1rem, 3.5vw, 1.125rem);
+    padding: clamp(0.75rem, 3vw, 1rem);
+    border: 1px solid #e5e7eb;
+    transition: all 0.2s ease-in-out;
+}
+
+#mcq-options-container button:hover {
+    border-color: #6366f1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#answer-popup {
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+#answer-popup .text-left p {
+    font-size: clamp(0.875rem, 3vw, 1rem);
+}
+
+#history-content pre {
+    max-height: 300px;
+}
+
+/* --- Controls & Inputs (Buttons, Sliders, Pickers) --- */
+
+.lang-btn.active {
+    background-color: #4f46e5;
+    color: white;
+}
+
+#temperature-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+#temperature-slider::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #60a5fa, #f87171);
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+#temperature-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -4px;
+    background-color: var(--thumb-color, #4f46e5);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Auto-advance slider styling */
+#auto-advance-slider,
+#fullscreen-auto-advance-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#auto-advance-slider::-webkit-slider-runnable-track,
+#fullscreen-auto-advance-slider::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #10b981, #3b82f6);
+    height: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#auto-advance-slider::-webkit-slider-thumb,
+#fullscreen-auto-advance-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -4px;
+    background-color: #3b82f6;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#auto-advance-slider::-moz-range-track,
+#fullscreen-auto-advance-slider::-moz-range-track {
+    background: linear-gradient(to right, #10b981, #3b82f6);
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#auto-advance-slider::-moz-range-thumb,
+#fullscreen-auto-advance-slider::-moz-range-thumb {
+    background-color: #3b82f6;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.emoji-picker {
+    position: relative;
+}
+.emoji-button {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    background-color: #f3f4f6;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.emoji-button:hover {
+    background-color: #e5e7eb;
+}
+.emoji-panel {
+    display: none;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    z-index: 20;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.25rem;
+    width: 300px;
+    max-height: 400px;
+    overflow-: auto;
+}
+
+.emoji-panel.active {
+    display: grid;
+}
+.emoji-option {
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+}
+.emoji-option:hover {
+    background-color: #f3f4f6;
+}
+
+/* --- Notifications --- */
+
+.notification {
+    max-width: 350px;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: start;
+    gap: 0.75rem;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+}
+.notification.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+.notification.error   { border-left: 4px solid #ef4444; }
+.notification.success { border-left: 4px solid #22c55e; }
+.notification.info    { border-left: 4px solid #3b82f6; }
+
+/* ============================================= */
+/* 4. STATE & HELPER CLASSES                     */
+/* ============================================= */
+
+#game-screen.hidden,
+#setup-screen.hidden {
+    display: none;
+}
+
+.is-loading {
+    animation: spin 1s linear infinite;
+    display: inline-block;
+}
+
+#question-modal,
+#history-modal,
+#category-choice-modal,
+#model-choice-modal,
+#suggestion-modal {
+    display: none;
+}
+
+#question-modal.visible,
+#history-modal.visible,
+#category-choice-modal.visible,
+#model-choice-modal.visible,
+#suggestion-modal.visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ============================================= */
+/* 5. ANIMATION KEYFRAMES                        */
+/* ============================================= */
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    70% {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  .hint-pulsate .dice-container {
+      border-radius: 1rem;
+      animation: dice-prompt-pulse 2s infinite;
+  }
+
+  @keyframes dice-prompt-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
+      65% { box-shadow: 0 0 1rem 0.7rem rgba(56, 189, 248, 0.3); }
+  }
+
+/* ============================================= */
+/* 6. THEMING                                    */
+/* ============================================= */
+
+#theme-switcher label {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    user-select: none;
+}
+.theme-radio {
+    display: none;
+}
+.theme-radio:checked + span {
+    background-color: transparent;
+    box-shadow: none;
+    transform: scale(1.25);
+    font-weight: bold;
+}
+
+html.dark,
+html.oled {
+    color-scheme: dark;
+}
+
+html.dark body,
+html.oled body {
+    color: rgb(229 231 235);
+}
+
+html.dark h1, html.oled h1,
+html.dark h2, html.oled h2,
+html.dark h3, html.oled h3,
+html.dark #question-text, html.oled #question-text,
+html.dark .player-name-input, html.oled .player-name-input,
+html.dark #player-count, html.oled #player-count,
+html.dark .text-sm.text-gray-900, html.oled .text-sm.text-gray-900,
+html.dark .font-bold.mb-3.flex.items-center.text-slate-800, html.oled .font-bold.mb-3.flex.items-center.text-slate-800,
+html.dark #game-menu-panel, html.oled #game-menu-panel {
+    color: rgb(229 231 235);
+}
+
+html.dark dl dt, html.oled dl dt {
+    color: rgb(226 232 240);
+}
+
+html.dark dl dd, html.oled dl dd,
+html.dark .text-gray-700, html.oled .text-gray-700,
+html.dark .text-slate-700, html.oled .text-slate-700,
+html.dark .text-gray-500, html.oled .text-gray-500,
+html.dark #game-mode-description, html.oled #game-mode-description,
+html.dark #knowledge-level-description, html.oled #knowledge-level-description {
+    color: rgb(156 163 175);
+}
+
+html.dark input, html.oled input,
+html.dark select, html.oled select {
+    background-color: rgb(75 85 99);
+    border-color: rgb(107 114 128);
+}
+
+html.dark ::placeholder, html.oled ::placeholder {
+    color: rgb(156 163 175);
+}
+
+html.dark input[type="checkbox"], html.oled input[type="checkbox"] {
+    accent-color: #6366f1;
+    border: 1px solid rgb(107 114 128);
+    border-radius: 4px;
+}
+
+html.dark .emoji-button, html.oled .emoji-button { background-color: rgb(55 65 81); }
+html.dark .emoji-button:hover, html.oled .emoji-button:hover { background-color: rgb(75 85 99); }
+
+html.dark .lang-btn, html.oled .lang-btn {
+    background-color: rgb(55 65 81);
+    color: rgb(229 231 235);
+    border-color: rgb(107 114 128);
+}
+html.dark .lang-btn.active, html.oled .lang-btn.active {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    color: white;
+}
+html.dark .lang-btn:hover:not(.active), html.oled .lang-btn:hover:not(.active) {
+    background-color: rgb(75 85 99);
+}
+
+html.dark #player-answer-text,
+html.oled #player-answer-text {
+    color: #FFFFFF;
+}
+html.dark #player-answer-text.bg-green-100,
+html.oled #player-answer-text.bg-green-100 {
+    background-color: #14532d;
+    color: #dcfce7;
+    border: 1px solid #166534;
+}
+
+html.dark #player-answer-text.bg-red-100,
+html.oled #player-answer-text.bg-red-100 {
+    background-color: #7f1d1d;
+    color: #fee2e2;
+    border: 1px solid #991b1b;
+}
+
+html.dark #correct-answer-text,
+html.oled #correct-answer-text {
+    background-color: #14532d;
+    color: #dcfce7;
+    border: 1px solid #166534;
+}
+html.dark #explanation-text,
+html.oled #explanation-text {
+    background-color: #7c2d12;
+    color: #fef9c3;
+    border: 1px solid #92400e;
+}
+html.dark #incorrect-explanation-text,
+html.oled #incorrect-explanation-text {
+    background-color: #7f1d1d;
+    color: #fee2e2;
+    border: 1px solid #991b1b;
+}
+
+html.dark [data-lang-key="infobox_rules_desc"] ul,
+html.oled [data-lang-key="infobox_rules_desc"] ul {
+    color: rgb(164 178 199);
+}
+
+html.dark body { background-color: rgb(31 41 55); }
+html.dark .bg-white { background-color: rgb(55 65 81); }
+html.dark #game-menu-panel { background-color: rgb(75 85 99); }
+html.dark .bg-gray-100 { background-color: rgb(75 85 99); }
+html.dark .bg-slate-100 { background-color: rgb(51 65 85); }
+html.dark #theme-switcher { background-color: rgb(55 65 81); }
+html.dark .board-connections line { stroke: #6b7280; }
+
+html.dark .board-square::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: inherit;
+    background-color: black;
+    opacity: 0.25;
+    transition: opacity 0.3s ease;
+}
+html.dark .board-square.highlighted-move::after { opacity: 0; }
+
+html.oled body,
+html.oled .bg-white,
+html.oled #game-menu-panel,
+html.oled .bg-gray-100,
+html.oled .bg-slate-100,
+html.oled #theme-switcher {
+    background-color: #000000;
+}
+
+html.oled .bg-white,
+html.oled #game-menu-panel,
+html.oled .bg-slate-100,
+html.oled #theme-switcher {
+    border: 1px solid #27272a;
+}
+
+html.oled .board-connections line { stroke: #4b5563; }
+
+html.oled .board-square::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: inherit;
+    background-color: black;
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+html.oled .board-square.highlighted-move::after { opacity: 0; }
+
+html.oled #current-player-name,
+html.oled #category-legend .w-4.h-4 {
+    filter: brightness(0.7);
+}
+html.oled #category-legend span {
+    color: rgb(156 163 175);
+}
+html.oled .themed-button {
+    filter: brightness(0.7);
+    transition: filter 0.2s ease-in-out;
+}
+html.oled .themed-button:hover {
+    filter: brightness(0.85);
+}
+
+html.dark #question-modal,
+html.dark #history-modal,
+html.dark #category-choice-modal,
+html.dark #model-choice-modal,
+html.oled #question-modal,
+html.oled #history-modal,
+html.oled #category-choice-modal,
+html.oled #model-choice-modal {
+    background-color: rgba(2, 0, 0, 0.75);
+}
+
+html.dark #llm-evaluation-text,
+html.oled #llm-evaluation-text {
+    background-color: #312e81; /* indigo-900 */
+    color: #e0e7ff; /* indigo-200 */
+    border: 1px solid #4338ca; /* indigo-700 */
+}
+
+/* ============================================= */
+/* 7. RESPONSIVE DESIGN                          */
+/* ============================================= */
+
+.board-wrapper {
+    width: min(75vh, 90vw);
+    height: min(75vh, 90vw);
+    max-width: 800px;
+    max-height: 800px;
+    margin: 1.5rem auto;
+    position: relative;
+    flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+    #setup-screen .grid-cols-1.sm\\:grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 600px) {
+    #question-modal .bg-white, #answer-popup {
+        max-width: 70vw;
+        max-height: 80vh;
+    }
+
+    #question-category {
+        font-size: clamp(1.5rem, 3vw, 2.25rem);
+    }
+    #question-modal #question-text, #answer-popup h3 {
+        font-size: 1.75rem;
+    }
+    #mcq-options-container {
+        position: relative;
+        z-index: 2;
+        gap: 1.5rem;
+    }
+    #mcq-options-container button,
+    #player-answer-text,
+    #correct-answer-text,
+    #incorrect-explanation-text,
+    #explanation-text {
+        font-size: 1.75rem;
+    }
+}
+
+.move-category-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: white;
+    padding: 5px 9px;
+    border-radius: 8px;
+    font-size: calc(11px * var(--move-desc-scale, 1));
+    font-weight: 700;
+    white-space: normal;
+    text-align: center;
+    max-width: 115px;
+    z-index: 50;
+    pointer-events: none;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    letter-spacing: 0.01em;
+    line-height: 1.25;
+    animation: labelFadeIn 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes labelFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* ============================================= */
+/* 8. CATEGORY SELECTOR & CARD STYLES            */
+/* ============================================= */
+
+.category-card {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+    border: 2px solid #e5e7eb;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category-card:hover {
+    transform: translateY(-2px);
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.category-card.selected {
+    border-color: #4f46e5;
+    background-color: #f5f3ff;
+}
+
+.category-card .check-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 24px;
+    height: 24px;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.category-card.selected .check-badge {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Dark Mode support for Category Selector */
+html.dark .category-card,
+html.oled .category-card {
+    background-color: #1f2937;
+    border-color: #374151;
+}
+
+html.dark .category-card:hover,
+html.oled .category-card:hover {
+    border-color: #4b5563;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+html.dark .category-card.selected,
+html.oled .category-card.selected {
+    border-color: #6366f1;
+    background-color: rgba(99, 102, 241, 0.1);
+}
+
+html.dark .category-card .check-badge,
+html.oled .category-card .check-badge {
+    background-color: #6366f1;
+    border-color: #1f2937;
+}
+
+html.dark #category-selection-modal #cat-selection-modal-content,
+html.oled #category-selection-modal #cat-selection-modal-content {
+    background-color: #111827;
+    border-color: #1f2937;
+}
+
+html.dark #category-selection-modal .bg-white,
+html.oled #category-selection-modal .bg-white {
+    background-color: #111827;
+}
+
+html.dark #category-selection-modal .bg-gray-50,
+html.oled #category-selection-modal .bg-gray-50 {
+    background-color: #1f2937;
+}
+
+html.dark #category-selection-modal .border-b,
+html.oled #category-selection-modal .border-b,
+html.dark #category-selection-modal .border-t,
+html.oled #category-selection-modal .border-t {
+    border-color: #1f2937;
+}
+
+html.dark #category-selection-modal input,
+html.oled #category-selection-modal input {
+    background-color: #1f2937;
+    border-color: #374151;
+    color: white;
+}
+
+html.dark #category-selection-modal button,
+html.oled #category-selection-modal button {
+    background-color: #1f2937;
+    border-color: #374151;
+    color: #d1d5db;
+}
+
+html.dark #category-selection-modal button.active,
+html.oled #category-selection-modal button.active {
+    background-color: #374151;
+    color: white;
+}
+
+html.dark #category-selection-modal button:hover,
+html.oled #category-selection-modal button:hover {
+    background-color: #374151;
+}
+
+html.dark #category-selection-modal #btn-apply-category-selection,
+html.oled #category-selection-modal #btn-apply-category-selection {
+    background-color: #4f46e5;
+    color: white;
+    border-color: transparent;
+}
+html.dark #category-selection-modal #btn-apply-category-selection:hover,
+html.oled #category-selection-modal #btn-apply-category-selection:hover {
+    background-color: #4338ca;
+}
+
+html.dark #category-selection-modal,
+html.oled #category-selection-modal {
+    background-color: rgba(2, 0, 0, 0.75);
+}
+
+html.dark #category-selection-modal #category-selection-counter,
+html.oled #category-selection-modal #category-selection-counter {
+    background-color: rgba(99, 102, 241, 0.15);
+    color: #a5b4fc;
+    border-color: rgba(99, 102, 241, 0.35);
+}
+
+/* --- Setup Wizard Custom Styles --- */
+
+/* Wizard Step transitions */
+.wizard-step-content {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Language card styling */
+.lang-btn {
+    border-color: #e5e7eb;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lang-btn:hover {
+    border-color: #818cf8;
+    background-color: rgba(99, 102, 241, 0.04);
+    transform: translateY(-2px);
+}
+
+.lang-btn.active {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+    color: white !important;
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3), 0 4px 6px -4px rgba(79, 70, 229, 0.3);
+}
+
+/* Step indicator progress bar styling */
+#wizard-progress-bar {
+    transition: all 0.3s ease;
+}
+
+#wizard-progress-fill {
+    transition: width 0.3s ease;
+}
+
+/* Accordion transition for advanced section */
+.advanced-accordion-trigger {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Dark and OLED overrides for wizard elements */
+html.dark .lang-btn, html.oled .lang-btn {
+    border-color: #374151;
+    background-color: #1f2937;
+}
+
+html.dark .lang-btn:hover, html.oled .lang-btn:hover {
+    border-color: #6366f1;
+    background-color: rgba(99, 102, 241, 0.08);
+}
+
+html.dark .lang-btn.active, html.oled .lang-btn.active {
+    background-color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+    color: white !important;
+}
+
+html.dark #setup-screen, html.oled #setup-screen {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+}
+
+html.dark #info-box, html.oled #info-box {
+    background-color: #1f2937;
+    border-color: #374151;
+}
+
+/* Inputs and interactive elements in wizard */
+html.dark #setup-screen input[type="text"],
+html.oled #setup-screen input[type="text"],
+html.dark #setup-screen textarea,
+html.oled #setup-screen textarea {
+    background-color: #1f2937;
+    border-color: #374151;
+    color: white;
+}
+
+html.dark #setup-screen input[type="text"]::placeholder,
+html.oled #setup-screen input[type="text"]::placeholder,
+html.dark #setup-screen textarea::placeholder,
+html.oled #setup-screen textarea::placeholder {
+    color: #9ca3af;
+}
+
+/* ============================================= */
+/* 10. RESPONSIVE GAME EXPERIENCE                */
+/* ============================================= */
+
+:root {
+    color-scheme: light;
+    --app-gutter: clamp(0.75rem, 2.2vw, 2rem);
+    --surface-radius: clamp(1rem, 2vw, 1.5rem);
+    --focus-ring: 0 0 0 3px rgba(56, 189, 248, 0.4);
+}
+
+html.dark,
+html.oled {
+    color-scheme: dark;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body:not(.live-quiz-app) {
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow-x: clip;
+    padding: max(env(safe-area-inset-top), 0px) max(env(safe-area-inset-right), 0px)
+        max(env(safe-area-inset-bottom), 0px) max(env(safe-area-inset-left), 0px);
+    background-attachment: fixed;
+    font-size: clamp(0.95rem, 0.5vw + 0.8rem, 1.08rem);
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body:not(.live-quiz-app) :where(button, input, select, textarea, a, [tabindex]):focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+}
+
+body:not(.live-quiz-app) [data-gamepad-focus="true"] {
+    z-index: 100;
+    outline: 4px solid #fbbf24 !important;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 7px rgba(251, 191, 36, 0.35), 0 0 24px rgba(251, 191, 36, 0.45) !important;
+}
+
+body:not(.live-quiz-app) :where(button, input, select, textarea) {
+    font-family: inherit;
+}
+
+body:not(.live-quiz-app) button,
+body:not(.live-quiz-app) input[type="button"],
+body:not(.live-quiz-app) input[type="submit"],
+body:not(.live-quiz-app) label[for="upload-state-input"] {
+    touch-action: manipulation;
+}
+
+/* Setup wizard: fit the viewport and keep its navigation in reach. */
+body:not(.live-quiz-app) #setup-screen {
+    box-sizing: border-box;
+    width: min(calc(100vw - var(--app-gutter) - var(--app-gutter)), 66rem);
+    max-width: 66rem;
+    min-height: 0;
+    max-height: calc(100dvh - max(env(safe-area-inset-top), 0px) - max(env(safe-area-inset-bottom), 0px) - var(--app-gutter) - var(--app-gutter));
+    padding: clamp(1rem, 3.5vw, 2.75rem);
+    border-radius: var(--surface-radius);
+    gap: clamp(0.5rem, 1.5vh, 1rem);
+    overflow: hidden;
+    overscroll-behavior: contain;
+}
+
+body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:first-child {
+    margin-bottom: clamp(0.25rem, 1vh, 0.75rem);
+}
+
+body:not(.live-quiz-app) #wizard-steps-container {
+    min-height: 0;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+}
+
+body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child {
+    margin-top: 0.5rem;
+    padding-top: clamp(0.75rem, 2vh, 1.25rem);
+    gap: 0.75rem;
+}
+
+body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child button {
+    min-height: 2.9rem;
+    justify-content: center;
+}
+
+body:not(.live-quiz-app) #setup-screen button,
+body:not(.live-quiz-app) #category-selection-modal button,
+body:not(.live-quiz-app) #game-menu-panel button {
+    transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+body:not(.live-quiz-app) #setup-screen button:active,
+body:not(.live-quiz-app) #category-selection-modal button:active,
+body:not(.live-quiz-app) #game-menu-panel button:active {
+    transform: translateY(1px);
+}
+
+body:not(.live-quiz-app) #setup-screen input:not([type="file"]),
+body:not(.live-quiz-app) #setup-screen select,
+body:not(.live-quiz-app) #setup-screen textarea,
+body:not(.live-quiz-app) #category-selection-modal input {
+    min-height: 2.75rem;
+    border-radius: 0.75rem;
+}
+
+body:not(.live-quiz-app) .lang-btn {
+    min-height: clamp(6rem, 15vh, 9rem);
+    border-radius: 1.25rem;
+}
+
+body:not(.live-quiz-app) .step-indicator {
+    min-width: 3.25rem;
+}
+
+body:not(.live-quiz-app) .step-indicator > div {
+    width: clamp(2rem, 4vw, 2.5rem);
+    height: clamp(2rem, 4vw, 2.5rem);
+}
+
+/* The game screen uses the available height so the full board is visible by default. */
+body:not(.live-quiz-app) #game-screen {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 2560px;
+    height: 100vh;
+    height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    min-height: 0;
+    padding: clamp(0.65rem, 1.7vw, 1.65rem);
+    gap: clamp(0.55rem, 1.5vh, 1.25rem);
+    overflow: hidden;
+}
+
+body:not(.live-quiz-app) #game-top-bar {
+    position: relative;
+    z-index: 3;
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: minmax(10rem, 1fr) minmax(0, 2fr) auto;
+    align-items: center;
+    gap: clamp(0.5rem, 1.4vw, 1.5rem);
+    min-height: 4.5rem;
+    padding: clamp(0.6rem, 1.4vw, 1rem) clamp(0.8rem, 1.8vw, 1.5rem);
+    border-radius: 1.25rem;
+}
+
+html.dark body:not(.live-quiz-app) #game-top-bar,
+html.oled body:not(.live-quiz-app) #game-top-bar {
+    background-color: rgba(11, 17, 31, 0.96) !important;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #game-top-bar {
+    background-color: rgba(255, 255, 255, 0.97) !important;
+}
+
+body:not(.live-quiz-app) #game-top-bar > :first-child {
+    min-width: 0;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.65rem;
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+}
+
+body:not(.live-quiz-app) #current-player-emoji {
+    font-size: clamp(1.35rem, 2.3vw, 2rem);
+}
+
+body:not(.live-quiz-app) #current-player-name {
+    font-size: clamp(1rem, 1.7vw, 1.5rem);
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #player-scores {
+    min-width: 0;
+    max-height: 4.5rem;
+    overflow: auto;
+    scrollbar-width: thin;
+    gap: 0.4rem;
+}
+
+body:not(.live-quiz-app) #player-scores > div {
+    min-height: 2.5rem;
+    padding: 0.35rem 0.65rem !important;
+    gap: 0.4rem;
+    font-size: clamp(0.75rem, 0.85vw, 0.95rem);
+}
+
+body:not(.live-quiz-app) #game-top-bar > :last-child {
+    min-width: 2.75rem;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+body:not(.live-quiz-app) #game-message {
+    height: auto;
+    max-width: 16rem;
+    line-height: 1.3;
+}
+
+body:not(.live-quiz-app) #open-game-menu-btn {
+    width: 2.9rem;
+    height: 2.9rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+body:not(.live-quiz-app) #game-screen > #game-stage {
+    --responsive-dice-size: clamp(3.25rem, 6.3vw, 4.5rem);
+    --responsive-dice-depth: clamp(1.625rem, 3.15vw, 2.25rem);
+    --responsive-dice-card-size: clamp(5rem, 10vw, 7.5rem);
+    flex: 1 1 0%;
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.75rem, 2vw, 2rem);
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: visible;
+    container-type: size;
+}
+
+body:not(.live-quiz-app) #game-stage > .board-wrapper {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    width: min(100%, 89.2857cqh, 86vw, calc(84svh * var(--board-scale, 1)), calc(100cqw - var(--responsive-dice-card-size) - var(--responsive-dice-card-size) - 2rem));
+    height: auto;
+    max-width: min(100%, calc(90rem * var(--board-scale, 1)));
+    max-height: none;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    overflow: visible;
+    container-type: inline-size;
+    z-index: 1;
+}
+
+body:not(.live-quiz-app) #game-stage > #dice-result {
+    position: absolute;
+    top: 50% !important;
+    right: max(0.5rem, env(safe-area-inset-right)) !important;
+    bottom: auto !important;
+    left: auto !important;
+    z-index: 4;
+    width: var(--responsive-dice-card-size) !important;
+    height: var(--responsive-dice-card-size) !important;
+    padding: 0.3rem !important;
+    gap: 0.15rem !important;
+    transform: translateY(-50%) !important;
+    transform-origin: center;
+    border-radius: 1.1rem;
+}
+
+body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
+    max-width: 100% !important;
+    font-size: clamp(0.55rem, 0.72vw, 0.7rem) !important;
+    line-height: 1.15 !important;
+}
+
+body:not(.live-quiz-app) #game-stage .dice-container {
+    position: relative;
+    width: var(--responsive-dice-size);
+    height: var(--responsive-dice-size);
+    perspective: 600px;
+    perspective-origin: 50% 50%;
+    flex: 0 0 auto;
+}
+
+body:not(.live-quiz-app) #game-stage .dice {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(-12deg) rotateY(12deg);
+    transform-style: preserve-3d;
+    transition: box-shadow 0.2s ease;
+    will-change: auto;
+}
+
+body:not(.live-quiz-app) #game-stage .dice-cube {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+body:not(.live-quiz-app) #game-stage .face {
+    width: 100%;
+    height: 100%;
+    padding: 12%;
+    border-width: 1px;
+    border-radius: 12%;
+}
+
+body:not(.live-quiz-app) #game-stage .face.front { transform: translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.back { transform: rotateY(180deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.right { transform: rotateY(90deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.left { transform: rotateY(-90deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.top { transform: rotateX(90deg) translateZ(var(--responsive-dice-depth)); }
+body:not(.live-quiz-app) #game-stage .face.bottom { transform: rotateX(-90deg) translateZ(var(--responsive-dice-depth)); }
+
+body:not(.live-quiz-app) #game-stage .pip {
+    width: clamp(0.5rem, 72%, 1rem);
+    height: auto;
+    aspect-ratio: 1;
+}
+
+body:not(.live-quiz-app) #game-stage .dice:not(.dice-rolling):hover {
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.5), 0 0 1rem rgba(56, 189, 248, 0.2);
+}
+
+body:not(.live-quiz-app) #game-stage .dice:active:not(.dice-rolling) {
+    transform: rotateX(-12deg) rotateY(12deg) scale(0.96);
+}
+
+body:not(.live-quiz-app) #category-legend {
+    flex: 0 0 auto;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: clamp(0.3rem, 0.65vw, 0.7rem);
+    width: 100%;
+    max-height: 6.5rem;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+
+body:not(.live-quiz-app) #category-legend > div {
+    min-width: 0;
+    min-height: 2.65rem;
+    padding: 0.4rem 0.55rem;
+    gap: 0.45rem;
+    font-size: clamp(0.68rem, 0.85vw, 0.95rem);
+    line-height: 1.25;
+}
+
+body:not(.live-quiz-app) #category-legend > div > div {
+    width: clamp(0.75rem, 1.1vw, 1.15rem);
+    height: clamp(0.75rem, 1.1vw, 1.15rem);
+    flex: 0 0 auto;
+}
+
+body:not(.live-quiz-app) #category-legend > div > span {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) .board-container {
+    width: 100%;
+    height: 100%;
+}
+
+body:not(.live-quiz-app) .board-square {
+    border-width: clamp(1px, 0.18cqi, 2px);
+    border-radius: clamp(4px, 1.1cqi, 11px);
+    font-size: clamp(0.48rem, 1.2cqi, 0.72rem);
+}
+
+body:not(.live-quiz-app) .player-token {
+    font-size: clamp(0.7rem, 3.5cqi, 3rem);
+}
+
+body:not(.live-quiz-app) .board-square svg {
+    width: clamp(1rem, 3cqi, 2.5rem);
+    height: clamp(1rem, 3cqi, 2.5rem);
+}
+
+body:not(.live-quiz-app) #generator-link-btn {
+    position: fixed;
+    min-height: 2.75rem;
+    padding: 0.6rem 0.8rem;
+    bottom: max(0.75rem, env(safe-area-inset-bottom)) !important;
+    left: max(0.75rem, env(safe-area-inset-left)) !important;
+    opacity: 0.72;
+}
+
+body:not(.live-quiz-app) #generator-link-btn:hover,
+body:not(.live-quiz-app) #generator-link-btn:focus-visible {
+    opacity: 1;
+}
+
+/* Readable, scrollable dialogs on touch devices and remote-control screens. */
+body:not(.live-quiz-app) :where(#question-modal, #history-modal, #category-choice-modal, #model-choice-modal, #suggestion-modal, #category-selection-modal) {
+    box-sizing: border-box;
+    padding: max(0.75rem, env(safe-area-inset-top)) max(0.75rem, env(safe-area-inset-right))
+        max(0.75rem, env(safe-area-inset-bottom)) max(0.75rem, env(safe-area-inset-left));
+    overscroll-behavior: contain;
+}
+
+body:not(.live-quiz-app) #modal-content,
+body:not(.live-quiz-app) #answer-popup,
+body:not(.live-quiz-app) #question-modal > div,
+body:not(.live-quiz-app) #history-modal > div,
+body:not(.live-quiz-app) #category-choice-modal > div,
+body:not(.live-quiz-app) #model-choice-modal > div,
+body:not(.live-quiz-app) #suggestion-modal > div,
+body:not(.live-quiz-app) #cat-selection-modal-content {
+    box-sizing: border-box;
+    width: min(100%, 58rem);
+    max-width: min(100%, 58rem);
+    max-height: calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom)));
+    padding: clamp(1rem, 3vw, 2rem);
+    border-radius: clamp(1rem, 2vw, 1.5rem);
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+body:not(.live-quiz-app) #question-modal > div,
+body:not(.live-quiz-app) #category-choice-modal > div,
+body:not(.live-quiz-app) #model-choice-modal > div,
+body:not(.live-quiz-app) #suggestion-modal > div {
+    margin: auto;
+}
+
+body:not(.live-quiz-app) #question-modal #modal-content {
+    width: min(100%, 58rem);
+    transform: scale(var(--modal-scale-state, 1)) !important;
+}
+
+body:not(.live-quiz-app) #answer-popup:not(.hidden) {
+    left: 50%;
+    top: 50%;
+    width: min(calc(100vw - 2rem), 40rem);
+    max-height: min(88dvh, 56rem);
+    transform: translate(-50%, -50%) scale(var(--popup-scale-state, 1)) !important;
+}
+
+body:not(.live-quiz-app) #question-category,
+body:not(.live-quiz-app) #question-modal h3,
+body:not(.live-quiz-app) #answer-popup h3 {
+    font-size: clamp(1.25rem, 2.2vw, 2rem);
+    line-height: 1.2;
+}
+
+body:not(.live-quiz-app) #question-text {
+    font-size: clamp(1.05rem, 2.1vw, 1.8rem);
+    line-height: 1.55;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #mcq-options-container button,
+body:not(.live-quiz-app) #answer-section button,
+body:not(.live-quiz-app) #verification-buttons button,
+body:not(.live-quiz-app) #post-verification-buttons button,
+body:not(.live-quiz-app) #category-choice-buttons button,
+body:not(.live-quiz-app) #suggestion-buttons button {
+    min-height: 3.25rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.9rem;
+    font-size: clamp(1rem, 1.4vw, 1.3rem);
+    line-height: 1.35;
+    white-space: normal;
+}
+
+body:not(.live-quiz-app) #answer-input {
+    min-height: 3.25rem;
+    font-size: 1.05rem;
+}
+
+body:not(.live-quiz-app) #history-modal > div {
+    height: min(90dvh, 64rem);
+    max-height: calc(100dvh - 2rem);
+}
+
+body:not(.live-quiz-app) #history-content {
+    min-height: 0;
+    scrollbar-width: thin;
+}
+
+body:not(.live-quiz-app) #cat-selection-modal-content {
+    width: min(100%, 86rem);
+    max-width: 86rem;
+    height: min(92dvh, 66rem);
+    padding: 0;
+}
+
+body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child {
+    min-width: 0;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+}
+
+body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child > div {
+    min-width: 0;
+    max-width: 100%;
+    flex: 1 1 18rem;
+    flex-wrap: wrap;
+}
+
+body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child button {
+    min-width: 0;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #category-selection-modal #category-search {
+    min-height: 2.9rem;
+}
+
+body:not(.live-quiz-app) #category-selection-modal button,
+body:not(.live-quiz-app) #category-selection-modal input,
+body:not(.live-quiz-app) #category-selection-modal .category-card {
+    min-height: 2.75rem;
+}
+
+body:not(.live-quiz-app) #game-menu-panel {
+    width: min(23rem, calc(100vw - env(safe-area-inset-left) - env(safe-area-inset-right))) !important;
+    padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    overscroll-behavior: contain;
+}
+
+body:not(.live-quiz-app) #game-menu-panel button,
+body:not(.live-quiz-app) #game-menu-panel label {
+    min-height: 2.85rem;
+}
+
+body:not(.live-quiz-app) #theme-switcher label {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+}
+
+body:not(.live-quiz-app) .game-scale-slider {
+    min-height: 2rem;
+}
+
+body:not(.live-quiz-app) #notification-container {
+    top: max(0.75rem, env(safe-area-inset-top)) !important;
+    right: max(0.75rem, env(safe-area-inset-right)) !important;
+    left: max(0.75rem, env(safe-area-inset-left)) !important;
+    width: auto;
+    max-width: min(28rem, calc(100vw - 1.5rem));
+    margin-left: auto;
+}
+
+body:not(.live-quiz-app) .notification {
+    width: 100%;
+    max-width: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    body:not(.live-quiz-app) #setup-screen button:hover,
+    body:not(.live-quiz-app) #category-selection-modal button:hover,
+    body:not(.live-quiz-app) #game-menu-panel button:hover {
+        filter: brightness(1.06);
+    }
+
+    body:not(.live-quiz-app) .board-square:hover {
+        transform: translateY(-2px) scale(1.035);
+    }
+}
+
+@media (max-width: 760px) {
+    body:not(.live-quiz-app) #game-screen {
+        padding: 0.55rem;
+        gap: 0.5rem;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar {
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-rows: auto auto auto;
+        min-height: 0;
+        gap: 0.35rem 0.5rem;
+        padding: 0.6rem 0.75rem;
+        border-radius: 1rem;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :first-child {
+        grid-column: 1;
+        grid-row: 1;
+        flex-wrap: nowrap;
+        min-width: 0;
+        white-space: nowrap;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :last-child {
+        display: contents;
+    }
+
+    body:not(.live-quiz-app) #game-message {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        max-width: 100%;
+        min-width: 0;
+        min-height: 1.1rem;
+    }
+
+    body:not(.live-quiz-app) #current-player-name {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    body:not(.live-quiz-app) #open-game-menu-btn {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    body:not(.live-quiz-app) #player-scores {
+        grid-column: 1 / -1;
+        grid-row: 3;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        max-height: none;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 0.15rem;
+        scrollbar-width: none;
+    }
+
+    body:not(.live-quiz-app) #player-scores::-webkit-scrollbar {
+        display: none;
+    }
+
+    body:not(.live-quiz-app) #player-scores > div {
+        flex: 0 0 auto;
+        min-height: 2.25rem;
+        padding: 0.25rem 0.5rem !important;
+    }
+
+    body:not(.live-quiz-app) #game-message {
+        max-width: min(42vw, 12rem);
+        font-size: 0.75rem;
+    }
+
+    body:not(.live-quiz-app) #game-screen > #game-stage {
+        flex-direction: column;
+        gap: clamp(0.45rem, 1.2vh, 0.8rem);
+        padding-block: 0.25rem;
+    }
+
+    body:not(.live-quiz-app) #category-legend {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.4rem;
+        max-height: none;
+        overflow: visible;
+        padding: 0;
+    }
+
+    body:not(.live-quiz-app) #category-legend > div {
+        min-height: 2.75rem;
+        padding: 0.4rem 0.5rem;
+        font-size: 0.78rem;
+    }
+
+    body:not(.live-quiz-app) #game-stage > .board-wrapper {
+        width: min(100%, 89.2857cqh, 90vw, calc(78svh * var(--board-scale, 1)));
+    }
+
+    body:not(.live-quiz-app) #game-stage > #dice-result {
+        --responsive-dice-size: clamp(3rem, 11vw, 3.75rem);
+        --responsive-dice-depth: clamp(1.5rem, 5.5vw, 1.875rem);
+        --responsive-dice-card-size: 12rem;
+        position: relative;
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        z-index: 2;
+        width: min(100%, 12rem) !important;
+        height: auto !important;
+        min-height: 3.75rem;
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 0.75rem !important;
+        padding: 0.35rem 0.75rem !important;
+        transform: none !important;
+        border-radius: 0.9rem;
+    }
+
+    body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
+        font-size: 0.68rem !important;
+    }
+
+    body:not(.live-quiz-app) #generator-link-btn {
+        opacity: 0.8;
+        min-width: 2.75rem;
+        width: 2.75rem;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    body:not(.live-quiz-app) #generator-link-btn > span + span {
+        display: none;
+    }
+
+    body:not(.live-quiz-app) #setup-screen {
+        width: calc(100vw - max(0.5rem, env(safe-area-inset-left)) - max(0.5rem, env(safe-area-inset-right)));
+        max-height: calc(100dvh - max(0.5rem, env(safe-area-inset-top)) - max(0.5rem, env(safe-area-inset-bottom)));
+        padding: clamp(0.85rem, 4vw, 1.25rem);
+        border-radius: 1.1rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child button {
+        min-height: 2.75rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen h1 {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #setup-screen h2 {
+        font-size: clamp(1.3rem, 5vw, 1.7rem);
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .lang-btn {
+        min-height: 5.5rem;
+        padding: 0.75rem;
+        gap: 0.35rem;
+        border-radius: 1rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .lang-btn > span:first-child {
+        font-size: 2rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .grid-cols-2 {
+        gap: 0.6rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child {
+        margin-top: 0.25rem;
+    }
+
+    body:not(.live-quiz-app) #answer-popup {
+        max-height: 90dvh;
+    }
+
+    body:not(.live-quiz-app) #verification-buttons,
+    body:not(.live-quiz-app) #post-verification-buttons {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child button {
+        font-size: 0.8rem;
+    }
+
+    body:not(.live-quiz-app) #wizard-steps-container {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    body:not(.live-quiz-app) .step-indicator > span {
+        font-size: 0.62rem;
+    }
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+    body:not(.live-quiz-app) #player-scores {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.3rem;
+        max-height: 5.5rem;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    body:not(.live-quiz-app) #player-scores > div {
+        min-width: 0;
+        min-height: 2.15rem;
+        gap: 0.2rem;
+        padding: 0.25rem 0.35rem !important;
+    }
+
+    body:not(.live-quiz-app) #player-scores > div > p {
+        min-width: 0;
+        flex: 1 1 auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 0.72rem;
+    }
+
+    body:not(.live-quiz-app) #player-scores .category-wedge {
+        width: 0.55rem;
+        height: 0.55rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        align-items: stretch;
+        gap: 0.65rem;
+        padding: 0.75rem;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child > div {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.5rem;
+        min-width: 0;
+        width: 100%;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child button {
+        min-width: 0;
+        width: 100%;
+        min-height: 2.9rem;
+        padding: 0.55rem 0.45rem;
+        font-size: clamp(0.72rem, 3.2vw, 0.875rem);
+        line-height: 1.25;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+    body:not(.live-quiz-app) #game-screen {
+        gap: 0.35rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.35rem;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1.7fr) auto;
+        min-height: 2.8rem;
+        padding: 0.35rem 0.6rem;
+        gap: 0.5rem;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :first-child {
+        grid-column: auto;
+        grid-row: auto;
+        font-size: 0.82rem;
+        white-space: normal;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :last-child {
+        display: flex;
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    body:not(.live-quiz-app) #player-scores {
+        grid-column: auto;
+        grid-row: auto;
+        flex-wrap: nowrap;
+        max-height: 2.5rem;
+        overflow-x: auto;
+    }
+
+    body:not(.live-quiz-app) #player-scores > div {
+        min-height: 2rem;
+        padding: 0.2rem 0.4rem !important;
+        font-size: 0.7rem;
+    }
+
+    body:not(.live-quiz-app) #current-player-emoji {
+        font-size: 1.1rem;
+    }
+
+    body:not(.live-quiz-app) #current-player-name {
+        font-size: 0.9rem;
+    }
+
+    body:not(.live-quiz-app) #open-game-menu-btn {
+        width: 2.35rem;
+        height: 2.35rem;
+    }
+
+    body:not(.live-quiz-app) #game-screen > #game-stage {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    body:not(.live-quiz-app) #category-legend {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.4rem;
+        max-height: none;
+        overflow: visible;
+        padding: 0;
+    }
+
+    body:not(.live-quiz-app) #category-legend > div {
+        width: auto;
+        min-height: 2.75rem;
+        padding: 0.4rem 0.5rem;
+        font-size: 0.78rem;
+    }
+
+    body:not(.live-quiz-app) #category-legend > div > span {
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+
+    body:not(.live-quiz-app) #game-stage > .board-wrapper {
+        width: min(100%, 89.2857cqh, 84vw, calc(76svh * var(--board-scale, 1)), calc(100cqw - var(--responsive-dice-card-size) - var(--responsive-dice-card-size) - 1rem));
+    }
+
+    body:not(.live-quiz-app) #game-stage > #dice-result {
+        --responsive-dice-size: clamp(3.25rem, 7.5vh, 3.6rem);
+        --responsive-dice-depth: clamp(1.625rem, 3.75vh, 1.8rem);
+        --responsive-dice-card-size: clamp(3.75rem, 13vh, 4.5rem);
+        position: absolute;
+        width: var(--responsive-dice-card-size) !important;
+        height: var(--responsive-dice-card-size) !important;
+        padding: 0.1rem !important;
+        top: 50% !important;
+        right: max(0.25rem, env(safe-area-inset-right)) !important;
+        bottom: auto !important;
+        left: auto !important;
+        transform: translateY(-50%) !important;
+    }
+
+    body:not(.live-quiz-app) #category-legend {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.3rem;
+    }
+
+    body:not(.live-quiz-app) #category-legend > div {
+        min-height: 2.35rem;
+        padding: 0.25rem 0.4rem;
+        font-size: 0.7rem;
+    }
+
+    body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
+        display: none !important;
+    }
+
+    body:not(.live-quiz-app) #setup-screen {
+        max-height: 86dvh;
+        padding: 0.65rem 1rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:first-child {
+        margin-bottom: 0;
+    }
+
+    body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child {
+        padding-top: 0.5rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .lang-btn {
+        min-height: 4.25rem;
+        flex-direction: row;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .wizard-step-content {
+        gap: 0.8rem;
+    }
+}
+
+@media (min-width: 1500px) and (min-height: 850px) {
+    body:not(.live-quiz-app) #game-top-bar {
+        min-height: 5.25rem;
+    }
+
+    body:not(.live-quiz-app) #player-scores > div {
+        min-height: 3.1rem;
+        padding: 0.5rem 0.9rem !important;
+        font-size: clamp(1rem, 1.25vw, 1.4rem);
+    }
+
+    body:not(.live-quiz-app) #game-menu-panel button,
+    body:not(.live-quiz-app) #game-menu-panel label {
+        min-height: 3.2rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body:not(.live-quiz-app) *,
+    body:not(.live-quiz-app) *::before,
+    body:not(.live-quiz-app) *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Living-room / 4K presentation: use the screen area and size controls for distance viewing. */
+@media (min-width: 2560px) and (min-height: 1440px) {
+    body:not(.live-quiz-app) {
+        font-size: clamp(1.5rem, 0.75vw, 1.9rem);
+    }
+
+    body:not(.live-quiz-app) #game-screen {
+        max-width: none;
+        padding: clamp(2.5rem, 2.5vw, 6rem);
+        gap: clamp(1.5rem, 1.5vh, 2.5rem);
+    }
+
+    body:not(.live-quiz-app) #game-top-bar {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-areas:
+            "current actions"
+            "scores scores";
+        gap: clamp(1.5rem, 1.5vw, 3.5rem);
+        min-height: 0;
+        padding: clamp(1.75rem, 2vw, 3rem) clamp(2rem, 2.5vw, 4rem);
+        border-radius: 2rem;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :first-child {
+        grid-area: current;
+        min-width: 0;
+        gap: 0.75rem 1rem;
+        font-size: clamp(2.25rem, 1.45vw, 3.25rem);
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :last-child {
+        grid-area: actions;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    body:not(.live-quiz-app) #current-player-emoji {
+        font-size: clamp(3.5rem, 2.7vw, 4.75rem);
+        line-height: 1;
+    }
+
+    body:not(.live-quiz-app) #current-player-name {
+        font-size: clamp(2.25rem, 1.45vw, 3.5rem);
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    body:not(.live-quiz-app) #player-scores {
+        grid-area: scores;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
+        width: 100%;
+        max-height: none;
+        overflow: visible;
+        gap: clamp(0.75rem, 0.8vw, 1.5rem);
+    }
+
+    body:not(.live-quiz-app) #player-scores > div {
+        min-width: 0;
+        min-height: clamp(4.5rem, 5vh, 6rem);
+        padding: 0.8rem 1.25rem !important;
+        gap: 0.75rem;
+        font-size: clamp(1.75rem, 1.25vw, 2.75rem);
+        border-radius: 1.25rem !important;
+        max-width: none;
+    }
+
+    body:not(.live-quiz-app) #player-scores > div > p {
+        min-width: 0;
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    body:not(.live-quiz-app) .category-wedge {
+        width: clamp(1.25rem, 1vw, 1.75rem);
+        height: clamp(1.25rem, 1vw, 1.75rem);
+        margin: 0.1rem;
+    }
+
+    body:not(.live-quiz-app) #game-top-bar > :last-child {
+        gap: clamp(0.75rem, 0.9vw, 1.5rem);
+    }
+
+    body:not(.live-quiz-app) #game-message {
+        max-width: 34rem;
+        font-size: clamp(1.5rem, 1.1vw, 2.25rem);
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #open-game-menu-btn {
+        width: clamp(5rem, 4.5vw, 6rem);
+        height: clamp(5rem, 4.5vw, 6rem);
+        border-radius: 50%;
+    }
+
+    body:not(.live-quiz-app) #open-game-menu-btn svg {
+        width: clamp(2.5rem, 2.3vw, 3.25rem);
+        height: clamp(2.5rem, 2.3vw, 3.25rem);
+    }
+
+    body:not(.live-quiz-app) #game-screen > #game-stage {
+        --tv-board-size: min(48dvh, 89.2857cqh, 68rem, 40vw);
+        --responsive-dice-size: clamp(7rem, 3.8vw, 9.5rem);
+        --responsive-dice-depth: clamp(3.5rem, 1.9vw, 4.75rem);
+        --responsive-dice-card-size: clamp(12rem, 7vw, 17rem);
+    }
+
+    body:not(.live-quiz-app) #game-stage > .board-wrapper {
+        width: var(--tv-board-size);
+        max-width: min(100%, var(--tv-board-size));
+    }
+
+    body:not(.live-quiz-app) .board-square {
+        border-width: 3px;
+        border-radius: clamp(0.75rem, 1.1cqi, 1.25rem);
+        font-size: clamp(1.25rem, 2cqi, 1.75rem);
+    }
+
+    body:not(.live-quiz-app) .board-square svg {
+        width: clamp(2.5rem, 3cqi, 3.25rem);
+        height: clamp(2.5rem, 3cqi, 3.25rem);
+    }
+
+    body:not(.live-quiz-app) .player-token {
+        font-size: clamp(2rem, 4cqi, 3rem);
+    }
+
+    body:not(.live-quiz-app) #game-stage > #dice-result {
+        right: calc(50% - var(--tv-board-size) / 2 - var(--responsive-dice-card-size) - clamp(1.5rem, 1.25vw, 3rem)) !important;
+        height: auto !important;
+        min-height: calc(var(--responsive-dice-size) + 10rem) !important;
+        padding: 1rem !important;
+        gap: 0.75rem !important;
+        border-radius: 1.75rem;
+    }
+
+    body:not(.live-quiz-app) #game-stage > #dice-result > #roll-dice-label {
+        font-size: clamp(1.5rem, 1.15vw, 2.75rem) !important;
+        line-height: 1.2 !important;
+    }
+
+    body:not(.live-quiz-app) #game-stage .pip {
+        width: clamp(1rem, 72%, 1.5rem);
+    }
+
+    body:not(.live-quiz-app) #category-legend {
+        gap: clamp(0.75rem, 0.9vw, 1.5rem);
+        max-height: none;
+        overflow: visible;
+    }
+
+    body:not(.live-quiz-app) #category-legend > div {
+        min-height: clamp(6.5rem, 7vh, 8rem);
+        padding: 1rem 1.4rem;
+        gap: 1rem;
+        border-radius: 1.25rem;
+        font-size: clamp(1.75rem, 1.15vw, 2.5rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #category-legend > div > span:first-child {
+        width: clamp(2.25rem, 1.35vw, 3rem) !important;
+        height: clamp(2.25rem, 1.35vw, 3rem) !important;
+        flex: 0 0 auto;
+    }
+
+    body:not(.live-quiz-app) #setup-screen {
+        width: min(82vw, 136rem);
+        max-width: 136rem;
+        max-height: 94dvh;
+        padding: clamp(3rem, 2.5vw, 5rem);
+        border-radius: 2.25rem;
+        gap: 2rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen h1 {
+        font-size: clamp(3.5rem, 2.4vw, 5rem);
+        line-height: 1.1;
+    }
+
+    body:not(.live-quiz-app) #setup-screen h2 {
+        font-size: clamp(2.75rem, 2vw, 4rem);
+        line-height: 1.15;
+    }
+
+    body:not(.live-quiz-app) #setup-screen h3 {
+        font-size: clamp(1.75rem, 1.3vw, 2.4rem);
+    }
+
+    body:not(.live-quiz-app) #setup-screen p,
+    body:not(.live-quiz-app) #setup-screen label,
+    body:not(.live-quiz-app) #setup-screen .text-xs,
+    body:not(.live-quiz-app) #setup-screen .text-sm,
+    body:not(.live-quiz-app) #setup-screen .text-base {
+        font-size: clamp(1.4rem, 1vw, 1.9rem);
+        line-height: 1.45;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .step-indicator > div {
+        width: clamp(4.5rem, 4vw, 5.5rem);
+        height: clamp(4.5rem, 4vw, 5.5rem);
+        font-size: 2rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .step-indicator > span {
+        font-size: clamp(1.25rem, 1vw, 1.75rem);
+    }
+
+    body:not(.live-quiz-app) #setup-screen .max-w-md,
+    body:not(.live-quiz-app) #setup-screen .max-w-xl,
+    body:not(.live-quiz-app) #setup-screen #info-box {
+        max-width: 78rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .lang-btn {
+        min-height: 11rem;
+        padding: 2rem;
+        gap: 1.25rem;
+        font-size: clamp(1.75rem, 1.3vw, 2.4rem);
+    }
+
+    body:not(.live-quiz-app) #setup-screen .lang-btn > span:first-child {
+        font-size: 4.5rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen button,
+    body:not(.live-quiz-app) #setup-screen input:not([type="file"]),
+    body:not(.live-quiz-app) #setup-screen select,
+    body:not(.live-quiz-app) #setup-screen textarea {
+        min-height: 4.75rem;
+        padding: 1rem 1.5rem;
+        font-size: clamp(1.4rem, 1vw, 1.9rem);
+    }
+
+    body:not(.live-quiz-app) #setup-screen #player-count-dec-btn,
+    body:not(.live-quiz-app) #setup-screen #player-count-inc-btn {
+        width: 4.5rem;
+        height: 4.5rem;
+        padding: 0.5rem;
+        font-size: 2.5rem;
+    }
+
+    body:not(.live-quiz-app) #setup-screen #player-count {
+        width: 4rem;
+        padding: 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    body:not(.live-quiz-app) #setup-screen .emoji-panel {
+        width: min(42rem, 90vw);
+        max-height: min(60dvh, 40rem);
+        gap: 0.5rem;
+        overflow-y: auto;
+    }
+
+    body:not(.live-quiz-app) #setup-screen button.emoji-option {
+        min-height: 4.5rem;
+        padding: 0.35rem;
+        font-size: clamp(2.25rem, 1.8vw, 3rem);
+        line-height: 1.1;
+    }
+
+    body:not(.live-quiz-app) #setup-screen > .flex-shrink-0:last-child button {
+        min-height: 5rem;
+        padding: 1rem 2.25rem;
+        font-size: clamp(1.5rem, 1.1vw, 2.1rem);
+    }
+
+    body:not(.live-quiz-app) #question-modal > div,
+    body:not(.live-quiz-app) #history-modal > div,
+    body:not(.live-quiz-app) #category-choice-modal > div,
+    body:not(.live-quiz-app) #model-choice-modal > div,
+    body:not(.live-quiz-app) #suggestion-modal > div {
+        width: min(82vw, 120rem);
+        max-width: min(82vw, 120rem);
+        max-height: 92dvh;
+        padding: clamp(3rem, 3vw, 5rem);
+        border-radius: 2.25rem;
+    }
+
+    body:not(.live-quiz-app) #question-modal #modal-content {
+        width: min(82vw, 120rem);
+        max-width: min(82vw, 120rem);
+        max-height: 92dvh;
+        gap: 2rem;
+    }
+
+    body:not(.live-quiz-app) #question-category,
+    body:not(.live-quiz-app) #question-modal h3,
+    body:not(.live-quiz-app) #answer-popup h3,
+    body:not(.live-quiz-app) #history-modal-title,
+    body:not(.live-quiz-app) #category-choice-title,
+    body:not(.live-quiz-app) #category-selection-title,
+    body:not(.live-quiz-app) #model-choice-title,
+    body:not(.live-quiz-app) #suggestion-modal-title {
+        font-size: clamp(2.75rem, 2.1vw, 4.25rem);
+        line-height: 1.15;
+    }
+
+    body:not(.live-quiz-app) #category-selection-description,
+    body:not(.live-quiz-app) #model-choice-description {
+        font-size: clamp(1.5rem, 1.1vw, 2.1rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text,
+    body:not(.live-quiz-app) #question-text,
+    body:not(.live-quiz-app) #answer-popup .text-left p,
+    body:not(.live-quiz-app) #history-content {
+        font-size: clamp(2.25rem, 1.55vw, 3.5rem);
+        line-height: 1.45;
+    }
+
+    body:not(.live-quiz-app) #history-content pre,
+    body:not(.live-quiz-app) #history-content code {
+        font-size: clamp(1.75rem, 1.15vw, 2.25rem);
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #answer-section button,
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button,
+    body:not(.live-quiz-app) #category-choice-buttons button,
+    body:not(.live-quiz-app) #mutation-buttons button,
+    body:not(.live-quiz-app) #suggestion-buttons button,
+    body:not(.live-quiz-app) #confirm-model-choice-btn {
+        min-height: 6rem;
+        padding: 1.25rem 2rem;
+        border-radius: 1.25rem;
+        font-size: clamp(1.75rem, 1.3vw, 2.5rem);
+        line-height: 1.35;
+    }
+
+    body:not(.live-quiz-app) #mutation-buttons button > span,
+    body:not(.live-quiz-app) #suggestion-buttons button > span {
+        font-size: clamp(2rem, 1.35vw, 2.5rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #mutation-buttons button > p,
+    body:not(.live-quiz-app) #suggestion-buttons button > p {
+        font-size: clamp(1.5rem, 1.05vw, 2rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-input,
+    body:not(.live-quiz-app) #category-selection-modal #category-search {
+        min-height: 5rem;
+        padding: 1rem 1.5rem;
+        font-size: clamp(1.75rem, 1.2vw, 2.4rem);
+    }
+
+    body:not(.live-quiz-app) #answer-popup {
+        width: min(78vw, 110rem);
+        max-width: min(78vw, 110rem);
+        max-height: 92dvh;
+        padding: clamp(3rem, 3vw, 5rem);
+    }
+
+    body:not(.live-quiz-app) #history-modal > div {
+        height: 90dvh;
+        max-height: 92dvh;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content {
+        width: min(90vw, 150rem);
+        max-width: min(90vw, 150rem);
+        height: 92dvh;
+    }
+
+    body:not(.live-quiz-app) #category-selection-modal #category-selection-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1.25rem;
+    }
+
+    body:not(.live-quiz-app) #category-selection-grid .category-card {
+        min-height: 15rem;
+        padding: 1.75rem;
+        border-radius: 1.25rem;
+    }
+
+    body:not(.live-quiz-app) #category-selection-grid h4 {
+        font-size: clamp(1.75rem, 1.15vw, 2.3rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #category-selection-grid p,
+    body:not(.live-quiz-app) #category-selection-grid .text-xs,
+    body:not(.live-quiz-app) #category-selection-grid [class~="text-[10px]"] {
+        font-size: clamp(1.4rem, 0.95vw, 2rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #category-selection-grid .text-sm {
+        font-size: clamp(1.4rem, 1vw, 1.9rem);
+    }
+
+    body:not(.live-quiz-app) #category-selection-grid .check-badge {
+        top: -1rem;
+        right: -1rem;
+        width: 3.25rem;
+        height: 3.25rem;
+        font-size: 1.75rem;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child {
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child > div {
+        gap: 1rem;
+    }
+
+    body:not(.live-quiz-app) #cat-selection-modal-content > div:last-child button {
+        min-height: 4.5rem;
+        padding: 0.9rem 1.5rem;
+        font-size: clamp(1.4rem, 1vw, 2rem);
+    }
+
+    body:not(.live-quiz-app) #category-selection-modal button,
+    body:not(.live-quiz-app) #category-selection-modal input {
+        min-height: 4.5rem;
+        font-size: clamp(1.4rem, 1vw, 2rem);
+    }
+
+    body:not(.live-quiz-app) #category-selection-modal #category-selection-counter {
+        font-size: clamp(1.4rem, 1vw, 1.9rem);
+    }
+
+    body:not(.live-quiz-app) #close-category-selection-btn {
+        width: 4.5rem;
+        height: 4.5rem;
+        padding: 0.75rem;
+    }
+
+    body:not(.live-quiz-app) #close-category-selection-btn svg,
+    body:not(.live-quiz-app) :where(#question-modal, #history-modal, #category-choice-modal, #model-choice-modal, #suggestion-modal) button svg {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    body:not(.live-quiz-app) #game-menu-panel {
+        width: min(38rem, 40vw) !important;
+        padding: 3rem;
+        gap: 1.25rem;
+    }
+
+    body:not(.live-quiz-app) #game-menu-heading {
+        font-size: 2.75rem;
+    }
+
+    body:not(.live-quiz-app) #game-menu-panel button,
+    body:not(.live-quiz-app) #game-menu-panel label {
+        min-height: 5rem;
+        padding: 1rem 1.25rem;
+        font-size: clamp(1.5rem, 1.1vw, 2.1rem);
+    }
+
+    body:not(.live-quiz-app) #game-menu-panel svg {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    body:not(.live-quiz-app) #game-menu-panel h4,
+    body:not(.live-quiz-app) #game-menu-panel .text-sm,
+    body:not(.live-quiz-app) #game-menu-panel .text-xs {
+        font-size: clamp(1.4rem, 1vw, 1.9rem);
+    }
+
+    body:not(.live-quiz-app) #generator-link-btn {
+        min-height: 4.5rem;
+        padding: 1rem 1.5rem;
+        gap: 0.75rem;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+    }
+
+    body:not(.live-quiz-app) #notification-container {
+        max-width: 44rem;
+    }
+
+    body:not(.live-quiz-app) .notification {
+        font-size: clamp(1.3rem, 0.9vw, 1.75rem);
+    }
+
+    body:not(.live-quiz-app) [data-gamepad-focus="true"] {
+        outline-width: 6px !important;
+        outline-offset: 6px;
+        box-shadow: 0 0 0 10px rgba(251, 191, 36, 0.35), 0 0 36px rgba(251, 191, 36, 0.45) !important;
+    }
+}
+
+/* The reading dialogs reserve a stable viewport for one visible page and their controls. */
+body:not(.live-quiz-app) #question-modal {
+    box-sizing: border-box;
+    padding: max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-top))
+        max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-right))
+        max(clamp(0.5rem, 2vh, 1.5rem), env(safe-area-inset-bottom))
+        max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-left));
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #question-modal #modal-content,
+body:not(.live-quiz-app) #question-modal #modal-content.reading-dialog {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.75rem, 1.5vh, 2rem);
+    width: 100%;
+    max-width: none;
+    height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    max-height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    min-height: 0;
+    padding: clamp(0.75rem, 2vw, 3rem);
+    overflow: visible;
+    overscroll-behavior: auto;
+}
+
+body:not(.live-quiz-app) #question-modal #modal-content > .flex:first-child {
+    flex: 0 0 auto;
+    min-width: 0;
+    gap: clamp(0.5rem, 1vw, 1.5rem);
+}
+
+body:not(.live-quiz-app) #question-modal #regenerate-question-btn {
+    flex: 0 0 auto;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+}
+
+body:not(.live-quiz-app) #question-modal #question-content.reading-body:not(.hidden),
+body:not(.live-quiz-app) #answer-popup .reading-body:not(.hidden) {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #question-reading-pages,
+body:not(.live-quiz-app) #answer-reading-pages {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+}
+
+body:not(.live-quiz-app) .reading-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
+    max-width: 100%;
+    overflow: visible;
+    overflow-wrap: anywhere;
+    font-size: var(--reading-content-font-size, clamp(1rem, 6vh, 12rem));
+    line-height: 1.2;
+    --reading-section-label-floor: max(1rem, var(--reading-content-min-font-size, 1rem));
+}
+
+@media (min-width: 900px) {
+    body:not(.live-quiz-app) .reading-page {
+        --reading-section-label-floor: max(1.5rem, var(--reading-content-min-font-size, 1rem));
+    }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+    body:not(.live-quiz-app) .reading-page {
+        --reading-section-label-floor: 56px;
+    }
+}
+
+body:not(.live-quiz-app) .reading-page[hidden],
+body:not(.live-quiz-app) .reading-pagination.hidden {
+    display: none !important;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label),
+body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: 0;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
+    white-space: pre-line;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+    font-size: inherit;
+    text-align: center;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+    font-size: inherit;
+    text-align: left;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    min-height: max(2.75rem, 1.45em);
+    padding: 0.28em 0.7em;
+    border: 1px solid #475569;
+    border-radius: 0.45em;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    box-shadow: 0 0.12em 0.35em rgb(2 6 23 / 18%);
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+    line-height: 1.18;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button:hover:not(:disabled) {
+    border-color: #818cf8;
+    background-color: #312e81;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    border-color: #cbd5e1;
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-reading-pages .reading-page > button:hover:not(:disabled) {
+    border-color: #818cf8;
+    background-color: #e0e7ff;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page {
+    gap: clamp(0.4rem, 0.35em, 1.5rem);
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > #answer-section {
+    width: 100%;
+    min-width: 0;
+    margin-top: 0.5rem;
+}
+
+body:not(.live-quiz-app) #question-content:not(.reading-body) {
+    flex: 1 1 0%;
+    min-height: 0;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #question-category {
+    min-width: 0;
+    font-size: clamp(1.25rem, 2.2vw, 2.5rem);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-modal #question-text {
+    width: min(100%, 78ch);
+    max-width: 78ch;
+    margin: 0 auto clamp(0.75rem, 2vh, 2rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    line-height: 1.45;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #mcq-options-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-content: start;
+    gap: clamp(0.5rem, 1.2vw, 1.25rem);
+    width: 100%;
+    margin-top: clamp(0.5rem, 1.5vh, 1.5rem);
+}
+
+body:not(.live-quiz-app) #mcq-options-container button,
+body:not(.live-quiz-app) #answer-section button,
+body:not(.live-quiz-app) #question-reading-pages .reading-page > button {
+    min-width: 0;
+    min-height: max(2.75rem, 1.45em);
+    padding: 0.28em 0.7em;
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+    line-height: 1.18;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #verification-buttons button,
+body:not(.live-quiz-app) #post-verification-buttons button,
+body:not(.live-quiz-app) .reading-pagination button {
+    min-width: 0;
+    min-height: 2.75rem;
+    padding: clamp(0.55rem, 1vw, 1rem) clamp(0.65rem, 1.2vw, 1.4rem);
+    font-size: clamp(1rem, 1.4vw, 1.4rem);
+    line-height: 1.35;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #mcq-options-container button {
+    height: 100%;
+    text-align: center;
+}
+
+body:not(.live-quiz-app) #answer-section input {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    min-height: 2.75rem;
+    padding: 0.28em 0.5em;
+    font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+}
+
+body:not(.live-quiz-app) #question-reading-pagination,
+body:not(.live-quiz-app) #answer-reading-pagination,
+body:not(.live-quiz-app) .reading-pagination {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    flex: 0 0 auto;
+    gap: clamp(0.5rem, 1vw, 1.25rem);
+    min-width: 0;
+    padding-top: clamp(0.5rem, 1vh, 1rem);
+}
+
+body:not(.live-quiz-app) .reading-pagination [data-reading-prev] {
+    justify-self: start;
+}
+
+body:not(.live-quiz-app) .reading-pagination [data-reading-next] {
+    justify-self: end;
+}
+
+body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+body:not(.live-quiz-app) .reading-page-status {
+    min-width: 0;
+    font-size: clamp(0.875rem, 1vw, 1.1rem);
+    line-height: 1.2;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) .reading-fragment-label,
+body:not(.live-quiz-app) .reading-section-label {
+    flex: 0 0 auto;
+    max-width: 100%;
+    margin: 0 0 0.35em;
+    font-size: max(var(--reading-section-label-floor, var(--reading-content-min-font-size, 1rem)), 0.4em);
+    font-weight: 700;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-fragment-label,
+body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page > .reading-section-label {
+    font-size: max(var(--reading-section-label-floor, var(--reading-content-min-font-size, 1rem)), 0.4em);
+    line-height: 1.15;
+    margin: 0;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page {
+    gap: clamp(0.4rem, 0.3em, 1.5rem);
+}
+
+body:not(.live-quiz-app) #answer-popup:not(.hidden) {
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1vh, 1rem);
+    width: calc(100vw - 2 * max(clamp(0.5rem, 3vw, 6rem), env(safe-area-inset-left), env(safe-area-inset-right)));
+    max-width: none;
+    height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    max-height: min(90dvh, calc(100dvh - max(0.75rem, env(safe-area-inset-top)) - max(0.75rem, env(safe-area-inset-bottom))));
+    padding: clamp(0.75rem, 2vw, 3rem);
+    overflow: visible;
+    transform: translate(-50%, -50%) scale(var(--popup-scale-state, 1)) !important;
+}
+
+body:not(.live-quiz-app) #answer-popup #standard-popup-content.reading-dialog:not(.hidden),
+body:not(.live-quiz-app) #answer-popup #standard-popup-content:not(.hidden) {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: clamp(0.5rem, 1vh, 1.25rem);
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    max-height: none;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #answer-popup #answer-reading-body {
+    flex: 1 1 0%;
+    min-width: 0;
+    min-height: 0;
+    overflow: visible;
+}
+
+body:not(.live-quiz-app) #standard-popup-content > h3,
+body:not(.live-quiz-app) #answer-popup-title {
+    flex: 0 0 auto;
+    margin-bottom: 0.25rem;
+    font-size: clamp(1.4rem, 2.2vw, 2.25rem);
+    line-height: 1.15;
+}
+
+body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+    max-width: min(100%, 82ch);
+    margin-inline: auto;
+    font-size: clamp(1rem, 1.55vw, 1.5rem);
+    line-height: 1.5;
+    text-align: left;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
+    white-space: pre-line;
+}
+
+body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+    font-size: max(1rem, 0.3em);
+    line-height: 1.3;
+}
+
+body:not(.live-quiz-app) #verification-buttons:not(.hidden),
+body:not(.live-quiz-app) #post-verification-buttons:not(.hidden) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    flex: 0 0 auto;
+    gap: clamp(0.5rem, 1vw, 1rem);
+    min-width: 0;
+    margin-top: 0.25rem;
+}
+
+body:not(.live-quiz-app) #verification-buttons button,
+body:not(.live-quiz-app) #post-verification-buttons button {
+    width: 100%;
+}
+
+@media (min-width: 900px) and (min-height: 600px) {
+    body:not(.live-quiz-app) #question-modal #question-text {
+        font-size: clamp(1.75rem, 2vw, 2.5rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: inherit;
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: inherit;
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #question-category {
+        font-size: clamp(1.75rem, 2.1vw, 2.75rem);
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding: 0.28em 0.7em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+        line-height: 1.18;
+    }
+
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button {
+        min-height: clamp(3.5rem, 6vh, 5rem);
+        padding: clamp(0.75rem, 1.2vw, 1.5rem);
+        font-size: clamp(1.5rem, 1.7vw, 2rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+    body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+        font-size: clamp(1.5rem, 1.7vw, 2rem);
+    }
+
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+        font-size: max(1rem, 0.3em);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: clamp(3.5rem, 5vh, 5rem);
+        padding-inline: clamp(1rem, 1.4vw, 2rem);
+        font-size: clamp(1.25rem, 1.4vw, 1.75rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+    body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+    body:not(.live-quiz-app) .reading-page-status {
+        font-size: clamp(1rem, 1vw, 1.35rem);
+    }
+
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+    body:not(.live-quiz-app) #question-modal #question-category,
+    body:not(.live-quiz-app) #answer-popup #standard-popup-content > h3 {
+        font-size: clamp(3.5rem, 2.1vw, 4.75rem);
+        line-height: 1.12;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text {
+        max-width: 78ch;
+        font-size: clamp(4.375rem, 2.1vw, 6.25rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        max-width: 100%;
+        font-size: inherit;
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+        max-width: 100%;
+        font-size: inherit;
+        line-height: 1.2;
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding: 0.28em 0.7em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+        line-height: 1.18;
+    }
+
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button {
+        min-height: clamp(5rem, 6vh, 7rem);
+        padding: clamp(1rem, 1.25vw, 2rem);
+        font-size: clamp(2.75rem, 1.6vw, 3.5rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+    body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+        max-width: min(100%, 82ch);
+        font-size: clamp(3.125rem, 1.6vw, 4rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+        font-size: max(1rem, 0.3em);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-modal #modal-content,
+    body:not(.live-quiz-app) #answer-popup {
+        padding: clamp(2.5rem, 2vw, 5rem);
+        gap: clamp(1.5rem, 2vh, 3rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: clamp(5rem, 5vh, 6rem);
+        padding-inline: clamp(1.5rem, 1.5vw, 2.5rem);
+        font-size: clamp(1.75rem, 1.25vw, 2.25rem);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+    body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+    body:not(.live-quiz-app) .reading-page-status {
+        font-size: clamp(1.5rem, 1vw, 2rem);
+    }
+
+}
+
+@media (max-width: 600px) {
+    body:not(.live-quiz-app) .reading-page {
+        font-size: var(--reading-content-font-size, clamp(1rem, 2.8vh, 1.5rem));
+    }
+
+    body:not(.live-quiz-app) #question-modal {
+        padding: max(0.5rem, env(safe-area-inset-top)) max(0.5rem, env(safe-area-inset-right))
+            max(0.5rem, env(safe-area-inset-bottom)) max(0.5rem, env(safe-area-inset-left));
+    }
+
+    body:not(.live-quiz-app) #question-modal #modal-content,
+    body:not(.live-quiz-app) #answer-popup {
+        padding: 0.75rem;
+        gap: 0.5rem;
+        height: min(92dvh, calc(100dvh - max(0.5rem, env(safe-area-inset-top)) - max(0.5rem, env(safe-area-inset-bottom))));
+        max-height: min(92dvh, calc(100dvh - max(0.5rem, env(safe-area-inset-top)) - max(0.5rem, env(safe-area-inset-bottom))));
+        border-radius: 0.9rem;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text {
+        font-size: clamp(1rem, 4.5vw, 1.3rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: inherit;
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-pages .reading-page p:not(.text-sm):not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: inherit;
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #question-category,
+    body:not(.live-quiz-app) #answer-popup-title {
+        font-size: clamp(1rem, 5vw, 1.4rem);
+        line-height: 1.15;
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding: 0.28em 0.7em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+        line-height: 1.18;
+    }
+
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button,
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: 2.75rem;
+        padding: 0.5rem 0.65rem;
+        font-size: clamp(0.9rem, 3.8vw, 1.05rem);
+        line-height: 1.25;
+    }
+
+    body:not(.live-quiz-app) #answer-reading-body #player-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #correct-answer-text,
+    body:not(.live-quiz-app) #answer-reading-body #explanation-text,
+    body:not(.live-quiz-app) #answer-reading-body #incorrect-explanation-text {
+        font-size: clamp(0.95rem, 3.8vw, 1.15rem);
+        line-height: 1.4;
+    }
+
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body .text-sm,
+    body:not(.live-quiz-app) #answer-popup #answer-reading-body label {
+        font-size: max(1rem, 0.3em);
+    }
+
+    body:not(.live-quiz-app) .reading-pagination {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 0.35rem;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-status],
+    body:not(.live-quiz-app) .reading-pagination [data-reading-page-status],
+    body:not(.live-quiz-app) .reading-page-status {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        font-size: 0.8rem;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-prev] {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: stretch;
+    }
+
+    body:not(.live-quiz-app) .reading-pagination [data-reading-next] {
+        grid-column: 2;
+        grid-row: 2;
+        justify-self: stretch;
+    }
+}
+
+@media (max-height: 500px) and (min-width: 601px) {
+    body:not(.live-quiz-app) .reading-page {
+        font-size: var(--reading-content-font-size, clamp(1rem, 3vh, 1.5rem));
+    }
+
+    body:not(.live-quiz-app) #question-modal #modal-content,
+    body:not(.live-quiz-app) #answer-popup {
+        height: 94dvh;
+        max-height: 94dvh;
+        padding-block: 0.5rem;
+        gap: 0.35rem;
+    }
+
+    body:not(.live-quiz-app) #question-modal #question-text {
+        font-size: clamp(1rem, 2vw, 1.4rem);
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-reading-pages .reading-page > p:not(.reading-fragment-label):not(.reading-section-label) {
+        font-size: inherit;
+        line-height: 1.3;
+    }
+
+    body:not(.live-quiz-app) #question-category,
+    body:not(.live-quiz-app) #answer-popup-title {
+        font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+
+    body:not(.live-quiz-app) #mcq-options-container button,
+    body:not(.live-quiz-app) #answer-section button {
+        min-height: max(2.75rem, 1.45em);
+        padding-block: 0.25em;
+        font-size: max(var(--reading-content-min-font-size, 1rem), 0.62em);
+    }
+
+    body:not(.live-quiz-app) #verification-buttons button,
+    body:not(.live-quiz-app) #post-verification-buttons button,
+    body:not(.live-quiz-app) .reading-pagination button {
+        min-height: 2.75rem;
+        padding-block: 0.35rem;
+        font-size: clamp(0.95rem, 1.8vw, 1.25rem);
+    }
+}
+
+/* Keep the canonical accessible question text clipped; only its page copy is visible. */
+body:not(.live-quiz-app) #question-modal #question-text.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Reading-card clones no longer carry their source IDs, so style their semantic color classes directly. */
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-gray-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-green-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-red-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-yellow-100 {
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    overflow-wrap: anywhere;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-gray-100 {
+    background-color: #1e293b !important;
+    border-color: #475569;
+    color: #f1f5f9;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-green-100 {
+    background-color: #14532d !important;
+    border-color: #166534;
+    color: #dcfce7;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-red-100 {
+    background-color: #7f1d1d !important;
+    border-color: #991b1b;
+    color: #fee2e2;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-yellow-100 {
+    background-color: #713f12 !important;
+    border-color: #a16207;
+    color: #fef3c7;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-gray-100 {
+    background-color: #f1f5f9 !important;
+    border-color: #94a3b8;
+    color: #0f172a;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-green-100 {
+    background-color: #dcfce7 !important;
+    border-color: #166534;
+    color: #14532d;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-red-100 {
+    background-color: #fee2e2 !important;
+    border-color: #991b1b;
+    color: #7f1d1d;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .bg-yellow-100 {
+    background-color: #fef3c7 !important;
+    border-color: #a16207;
+    color: #78350f;
+}
+
+/* Semantic reading-card content survives source IDs being removed from clones. */
+body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page > .reading-section-label {
+    color: #cbd5e1;
+    font-weight: 700;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #question-reading-pages .reading-page > .reading-section-label,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page > .reading-section-label {
+    color: #475569;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-correct,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-explanation,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-incorrect-explanation {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.24em 0.42em;
+    border: 1px solid transparent;
+    border-left-width: 0.2em;
+    border-radius: 0.45em;
+    box-shadow: 0 0.12em 0.35em rgb(2 6 23 / 12%);
+    font-size: inherit;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+    white-space: pre-line;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-red-100 {
+    background-color: #7f1d1d !important;
+    border-color: #991b1b;
+    border-left-color: #fb7185;
+    color: #fee2e2;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-green-100,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-correct {
+    background-color: #14532d !important;
+    border-color: #166534;
+    border-left-color: #4ade80;
+    color: #dcfce7;
+}
+
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-explanation,
+body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-incorrect-explanation {
+    background-color: #1e293b !important;
+    border-color: #475569;
+    border-left-color: #60a5fa;
+    color: #e2e8f0;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-red-100 {
+    background-color: #fff1f2 !important;
+    border-color: #fecdd3;
+    border-left-color: #e11d48;
+    color: #881337;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-player.bg-green-100,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-correct {
+    background-color: #dcfce7 !important;
+    border-color: #bbf7d0;
+    border-left-color: #16a34a;
+    color: #14532d;
+}
+
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-explanation,
+html:not(.dark):not(.oled) body:not(.live-quiz-app) #answer-reading-pages .reading-page .reading-answer-incorrect-explanation {
+    background-color: #f1f5f9 !important;
+    border-color: #cbd5e1;
+    border-left-color: #2563eb;
+    color: #0f172a;
+}

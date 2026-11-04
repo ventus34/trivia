@@ -156,6 +156,13 @@ export function setLanguage(lang) {
     }
   });
 
+  document.querySelectorAll('[data-lang-key-aria-label]').forEach((el) => {
+    const key = el.dataset.langKeyAriaLabel;
+    if (translations[key] && translations[key][lang]) {
+      el.setAttribute('aria-label', translations[key][lang]);
+    }
+  });
+
   if (UI.suggestionModalTitle) {
     UI.suggestionModalTitle.textContent = translations.suggestion_modal_title[lang];
   }

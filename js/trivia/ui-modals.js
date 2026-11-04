@@ -6,7 +6,7 @@
 import { CONFIG, translations } from './config.js';
 import { gameState, setState } from './state.js';
 import { UI } from './dom.js';
-import { renderExplanation } from './explanations.js';
+import { renderExplanation, resetExplanationView } from './explanations.js';
 import { clearAnswerReadingCards, refreshAnswerReadingCards } from './reading-cards.js';
 import { uiHandlers } from './ui-handlers.js';
 import { saveGameState } from './persistence.js';
@@ -43,6 +43,7 @@ export function promptCategoryChoice() {
  */
 export function showVerificationPopup(playerAnswer, correctAnswer) {
   clearAnswerReadingCards();
+  resetExplanationView();
   UI.playerAnswerText.textContent = playerAnswer;
   UI.correctAnswerText.textContent = correctAnswer;
   setState({ currentPlayerAnswer: playerAnswer }, 'state:verification');
@@ -65,19 +66,12 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
 
   const answersMatch = playerAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
 
-  if (answersMatch) {
-    UI.playerAnswerText.classList.remove('bg-gray-100', 'bg-red-100');
-    UI.playerAnswerText.classList.add('bg-green-100');
-    UI.correctAnswerText.classList.remove('bg-green-100', 'bg-red-100');
-    UI.correctAnswerText.classList.add('bg-green-100');
-  } else {
-    UI.playerAnswerText.classList.remove('bg-gray-100', 'bg-green-100');
-    UI.playerAnswerText.classList.add('bg-red-100');
-    UI.correctAnswerText.classList.remove('bg-green-100', 'bg-red-100');
-    // The supplied answer is wrong; the canonical answer remains the positive
-    // reference in the popup, independent of the player's result.
-    UI.correctAnswerText.classList.add('bg-green-100');
-
+  // A textual mismatch does not determine the outcome of manual assessment.
+  UI.playerAnswerText.classList.remove('bg-red-100', 'bg-green-100');
+  UI.playerAnswerText.classList.add('bg-gray-100');
+  UI.correctAnswerText.classList.remove('bg-gray-100', 'bg-red-100');
+  UI.correctAnswerText.classList.add('bg-green-100');
+  if (!answersMatch) {
     UI.incorrectExplanationContainer.classList.remove('hidden');
     const api = getApiAdapter();
     const canVerify = api && typeof api.getIncorrectAnswerExplanation === 'function';
@@ -89,7 +83,7 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
     lang: gameState.currentLanguage,
     containerEl: UI.explanationContainer,
     textEl: UI.explanationText,
-    isCorrect: answersMatch,
+    isCorrect: null,
   });
 
   showAnswerPopup();
