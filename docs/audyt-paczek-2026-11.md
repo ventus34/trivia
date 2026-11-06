@@ -30,6 +30,8 @@ Kolejna partia 2026-11-06: przejrzano paczkę biograficzną i zmieniono 50 rekor
 
 Kolejna partia 2026-11-06: przejrzano paczkę o instrumentach muzycznych i zmieniono 52 rekordy. Źródła wybranych korekt oraz ograniczenia kontroli zapisano w osobnym raporcie; z powodu limitu zabrakło niezależnego przeglądu subagenta.
 
+Kolejna partia 2026-11-06: przejrzano paczkę o memach i historii internetu, zmieniając 41 rekordów. Źródła wybranych poprawek i ograniczenia opisano w raporcie; niezależna kontrola subagenta była niedostępna z powodu limitu.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
