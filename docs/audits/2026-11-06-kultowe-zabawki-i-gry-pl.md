@@ -1,0 +1,11 @@
+# Kultowe zabawki i gry — przegląd 2026-11-06
+
+Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `kultowe_zabawki_i_gry_pl`. Zmieniono 71 rekordów: 1–12, 14–15, 17–18, 20, 22, 25, 27–28, 30–36, 39–43, 45–48, 50–51, 53, 57–59, 61–63, 65, 67–74, 76–77, 79–80, 83, 85–87, 90–93, 96 i 98–100. Kolejność i liczba pytań nie zmieniły się; opis odpowiada tematyce.
+
+Poprawiono chronologię konsol Nintendo i Fairchild Channel F, odróżniono samochodzik Cozy Coupe od rowerka, potwierdzono istnienie Furbaccy i poprawiono okres popularności Tekno. Usunięto synonimy w odpowiedziach, pytania z kilkoma pasującymi markami i błędne wykluczenia podobnych gier. Uwzględniono współautorstwo Dungeons & Dragons, historię LEGO, zmienność skal samochodzików i niepewne pochodzenie Sudoku oraz tangramu.
+
+Wybrane źródła: [Nintendo — Color TV-Game z 1977 roku](https://iwataasks.nintendo.com/interviews/wii/mario25th/1/0/), [Computer History Museum — Fairchild Channel F](https://www.computerhistory.org/revolution/computer-games/16/210/869), [LEGO — historia pierwszych klocków](https://www.lego.com/en-us/history/early-plastic-products/700-1-automatic-binding-bricks-1949), [Hasbro — Furbacca](https://instructions.hasbro.com/en-sg/instruction/star-wars-furbacca), [Little Tikes — Cozy Coupe](https://www.littletikes.com/products/cozy-coupe), [World Cube Association — kostka Rubika](https://www.worldcubeassociation.org/speedcubing-history), [Wizards of the Coast — Richard Garfield](https://magic.wizards.com/en/news/making-magic/creation-magic-gathering-2013-03-12), [Manley Toy Quest — Tekno w 2000 roku](https://www.toymania.com/news/messages/988.shtml).
+
+Źródła potwierdzają wybrane korekty, nie wszystkie twierdzenia. Przy nazwach handlowych i regionalnych grach może istnieć wiele wariantów; odczyt nie jest pełną niezależną weryfikacją historyczną. Kontrola strukturalna nie potwierdza faktów.
+
+Niezależna kontrola diffu przez subagenta wskazała potrzebę doprecyzowania historii UNO, budowy jo-jo oraz pytań o gry i marki. Poprawiono pozycje 2, 8, 18, 22, 27, 28, 79, 85, 87 i 93; kontrola nie obejmowała pełnej weryfikacji źródłowej. [The Strong National Museum of Play — UNO](https://www.museumofplay.org/blog/americas-favorite-game-and-success-story-uno/).

@@ -46,6 +46,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o sportach motorowych i przyprawach
 
 Kolejna partia 2026-11-06: przejrzano paczki o mitologii nordyckiej i celtyckiej oraz kamieniach szlachetnych, zmieniając odpowiednio 42 i 77 rekordów. Wybrane źródła i ograniczenia zapisano w raportach; nie każdą tezę potwierdzono źródłowo, a w paczce mitologicznej pozostają powtórzenia.
 
+Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zmieniając odpowiednio 71 i 47 rekordów. Wybrane źródła i ograniczenia opisano w raportach; nie wszystkie tezy potwierdzono źródłowo.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
