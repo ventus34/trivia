@@ -1,0 +1,20 @@
+# Audyt paczki Filmowy Maraton
+
+Data: 6 listopada 2026 r. Przejrzano 100 pytań, opcje, klucze, oba wyjaśnienia i opis `databases/categories/filmowy_maraton_pl.json`. Opis odpowiada tematyce pytań. Weryfikacja źródłowa objęła przede wszystkim wątpliwe fakty, techniki i historię nagród, a nie każde podstawowe przypisanie aktora lub reżysera. Numery poniżej oznaczają kolejność pytań od 1. Nie edytowano indeksu.
+
+## Poprawki
+
+- 2, 6, 7, 16, 48, 52, 59, 63: poprawiono nazwę statuetki Academy Award of Merit, historię Złotej Palmy, opis Toy Story, przypisanie Oscara dla „Osiem i pół” oraz charakter nagród „Parasite” i nominacji „Zimnej wojny”. Usunięto niepewną datę początku nagrody w Locarno i mylący rok pierwszego medalu Photoplay; „Humoresque” jest filmem z 1920 r., a wczesne źródło prasowe odnotowuje jego nagrodzenie w 1921 r.
+- 17, 29, 32, 33, 35–36, 54, 69, 71, 87, 90, 92, 95, 98: doprecyzowano techniki i terminologię. Foley artist jest osobą, Foley nazwą techniki; amerykańska metoda Strasberga wyrasta z systemu Stanisławskiego, ale nie jest z nim tożsama; animacja bezkamerowa obejmuje także malowanie; gimbal nie musi być elektroniczny; pole widzenia rybiego oka nie musi przekraczać 180 stopni. Rozróżniono punkt zwrotny od niekoniecznie równoważnego zaskakującego zwrotu akcji.
+- 24, 40–41, 44, 53, 57, 64, 66, 70, 75, 79, 94: doprecyzowano uniwersa i ich wersje, usunięto błędną lokalizację Wakandy w Afryce Północnej oraz pytanie o Pandorę jako planetę: Pandora jest księżycem. Eriador, obejmujący Shire, nie jest już drugą poprawną odpowiedzią. Wskazano, że szpony Logana są kościane i często pokryte adamantium, a Peter Parker nie jest jedynym Spider-Manem. Poprawiono literówkę w „Złotej Muszli”.
+- 20, 37, 38, 50, 80, 86, 100: usunięto nieudokumentowane szczegóły lub uproszczenia, poprawiono pisownię oraz odróżniono twórców literackiego Misia Uszatka od studia, które wyprodukowało jego serial.
+
+Zmieniono 41 pozycji. Poprzednie metadane weryfikacji usunięto dla zmienionych pytań i na poziomie paczki. Liczba pytań pozostała równa 100. Niektóre tematy występują wielokrotnie, np. Wajda i „Popiół i diament”, Hepburn oraz nagroda w Wenecji; nie usuwano powtórzeń podczas audytu.
+
+## Źródła
+
+- Akademia Filmowa: [oficjalna nazwa statuetki](https://www.oscars.org/oscars/statuette) (2); [ceremonia 1964](https://www.oscars.org/oscars/ceremonies/1964) (16); [Parasite — nagrody i producenci](https://www.oscars.org/oscars/ceremonies/2020) (48); [nominacja Pawlikowskiego](https://www.oscars.org/sites/oscars/files/91st-factsheet.pdf) (59); [rola artystów Foley](https://www.oscars.org/sites/oscars/files/complete_sound_and_music_activities_guide.pdf) (35).
+- Festiwal w Cannes, [historia Złotej Palmy](https://www.festival-cannes.com/qui-sommes-nous/la-palme-d-or/) (6); festiwal w Locarno, [palmarès](https://www.locarnofestival.ch/it/dam/jcr%3Ae1d61ff8-bfb9-4322-b827-e73a5f68b4f3/Palmar%C3%A8s_ITA.pdf) (52); [ówczesna relacja Billboard z 1921 r. o pierwszym medalu Photoplay](https://upload.wikimedia.org/wikipedia/commons/2/29/The_Billboard_1921-12-03-_Vol_33_Iss_49_%28IA_sim_billboard_1921-12-03_33_49%29.pdf) (63).
+- Pixar, [historia studia](https://www.pixar.com/our-story) (7); British Film Institute, [Len Lye i malowanie na taśmie](https://replay.bfi.org.uk/video/06895210-f265-5ae0-80e5-eb9b52d987bb) oraz [Norman McLaren](https://www.bfi.org.uk/features/where-begin-norman-mclaren) (71).
+- Avatar, [Pandora](https://www.avatar.com/pandorapedia/pandora) (94); Marvel, [adamantium i szpony Wolverine’a](https://www.marvel.com/articles/comics/wolverine-adamantium-skeleton-history-explained) (79) i [Wakanda](https://www.marvel.com/teams-groups/dora-milaje) (40); StarWars.com, [przyprawa na Kessel](https://www.starwars.com/databank/kessel) (64); Tolkien Gateway, [Shire w Eriadorze](https://tolkiengateway.net/wiki/The_Shire) (66).
+- Culture.pl, [Zbigniew Rychlicki i geneza Misia Uszatka](https://culture.pl/pl/tworca/zbigniew-rychlicki) (100); Canon, [przykład obiektywu rybie oko 180°](https://files.canon-europe.com/files/webcontent/rf-lens-world/history/index.html) (92).

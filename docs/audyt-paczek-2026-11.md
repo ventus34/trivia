@@ -6,7 +6,9 @@ Sprawdzono opisy wszystkich wpisów pod kątem oczywistych literówek, języka i
 
 Na koniec tej partii zmian zmodyfikowano 411 rekordów pytań w 19 paczkach (w tym redakcyjne zmiany nazw podkategorii), zachowując 24 285 pytań. Kontrola strukturalna i 46 testów aplikacji przeszły. Do wykonania pozostaje przegląd merytoryczny paczek bez raportu oraz dalsza kontrola źródłowa tam, gdzie raport wskazuje niezweryfikowane tezy.
 
-Aktualizacja 2026-11-06: względem `HEAD` zmieniono rekordy pytań w 55 paczkach (2231 rekordów, licząc również zmiany redakcyjne i metadane), a indeks nadal obejmuje 229 paczek i 24 285 pytań. To liczba edycji, nie liczba pytań zatwierdzonych źródłowo. Zmiany znajdują się w lokalnym katalogu roboczym i nie są jeszcze commitem. Po ponownej synchronizacji opisów wynik kontroli strukturalnej jest czysty. Część prac subagentów była przerywana limitem i wznawiana; ich dokładny zakres i pozostające wątpliwości zawierają osobne raporty.
+Aktualizacja 2026-11-06: względem `HEAD` zmieniono rekordy pytań w 55 paczkach (2231 rekordów, licząc również zmiany redakcyjne i metadane), a indeks nadal obejmuje 229 paczek i 24 285 pytań. To liczba edycji, nie liczba pytań zatwierdzonych źródłowo. W chwili tej kontroli zmiany znajdowały się w lokalnym katalogu roboczym i nie były jeszcze commitem; później opublikowano je w commicie `9f4d7d6`. Po ponownej synchronizacji opisów wynik kontroli strukturalnej jest czysty. Część prac subagentów była przerywana limitem i wznawiana; ich dokładny zakres i pozostające wątpliwości zawierają osobne raporty.
+
+Kolejna partia 2026-11-06: poprawiono 288 rekordów pytań w siedmiu paczkach dotyczących Europy, urządzeń wejściowych, cytatów filmowych, fantasy, kina, animacji i filozofii. Dla każdej paczki zapisano raport zakresu i źródeł, a wybrane nowe pytania sprawdzono niezależnie. Kontrola strukturalna objęła cały indeks; 46 testów aplikacji przeszło. Nie wszystkie twierdzenia z tych paczek potwierdzono niezależnie.
 
 ## Zmiany redakcyjne
 

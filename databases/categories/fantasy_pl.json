@@ -2,10 +2,8 @@
   "id": "fantasy_pl",
   "name": "Fantasy",
   "language": "pl",
-  "description": "Pytania z zakresu: Mitologia J.R.R. Tolkiena, Literatura Andrzeja Sapkowskiego, Cykl Świat Dysku...",
+  "description": "Pytania o literaturę i gry fantasy, ich bohaterów i światy oraz inspirujące je mity i legendy.",
   "created_at": "2026-06-12T15:03:34.247Z",
-  "last_verified_at": "2026-06-12T15:03:33.501Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
@@ -18,10 +16,8 @@
         "Aulë"
       ],
       "answer": "Eru Ilúvatar",
-      "explanation_correct": "Eru Ilúvatar to najwyższy byt w legendarium Tolkiena, który powołał do życia Ainurów i świat Ardy.",
-      "explanation_incorrect": "Pozostałe postacie to Ainurowie (Valarowie), którzy pełnią rolę namiestników świata, a nie jego pierwotnych stwórców.",
-      "last_verified_at": "2026-06-12T15:00:23.457Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Eru Ilúvatar powołał do istnienia Ainurów i nadał byt światu Eä, którego częścią jest Arda.",
+      "explanation_incorrect": "Manwë, Melkor i Aulë należą do Ainurów; nie są Ilúvatarem."
     },
     {
       "subcategory": "Literatura Andrzeja Sapkowskiego",
@@ -34,9 +30,7 @@
       ],
       "answer": "Szkoła Wilka",
       "explanation_correct": "Siedzibą Szkoły Wilka jest warownia Kaer Morhen, gdzie Geralt przeszedł mutacje i szkolenie.",
-      "explanation_incorrect": "Szkoły Kota, Gryfa i Żmii to inne bractwa wiedźmińskie posiadające odmienne techniki walki i kodeksy.",
-      "last_verified_at": "2026-06-12T15:00:23.457Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Geralt szkolił się w Kaer Morhen i jest kojarzony ze szkołą Wilka; określenia innych szkół różnią się między książkami a adaptacjami."
     },
     {
       "subcategory": "Cykl Świat Dysku",
@@ -48,10 +42,8 @@
         "Eskarina Smith"
       ],
       "answer": "Rincewind",
-      "explanation_correct": "Rincewind to mag potrafiący biegać szybciej niż jakikolwiek inny czarodziej, posiadający tylko jedno zaklęcie w głowie.",
-      "explanation_incorrect": "Pozostali bohaterowie to inni pracownicy lub absolwenci Niewidocznego Uniwersytetu o znacznie większych kompetencjach magicznych.",
-      "last_verified_at": "2026-06-12T15:00:23.457Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rincewind jest nieudolnym magiem, który w początkowych powieściach nosi w pamięci jedno potężne zaklęcie.",
+      "explanation_incorrect": "Ridcully i Stibbons są magami Niewidocznego Uniwersytetu, a Eskarina jest bohaterką innej powieści Świata Dysku."
     },
     {
       "subcategory": "Opowieści z Narnii",
@@ -115,7 +107,7 @@
     },
     {
       "subcategory": "Legenda arturiańska",
-      "question": "Jak nazywa się legendarny miecz króla Artura, który według większości wersji legendy został wyciągnięty przez niego ze skały?",
+      "question": "Jak nazywa się słynny miecz króla Artura, który w jednej z tradycji otrzymał od Pani Jeziora?",
       "options": [
         "Durendal",
         "Gram",
@@ -123,25 +115,21 @@
         "Joyieuse"
       ],
       "answer": "Excalibur",
-      "explanation_correct": "Miecz w skale udowodnił królewskie pochodzenie Artura, choć w innych wersjach otrzymał go od Pani Jeziora.",
-      "explanation_incorrect": "Durendal należał do Rolanda, Gram do Sigurda, a Joyieuse był mieczem Karola Wielkiego.",
-      "last_verified_at": "2026-06-12T15:01:44.017Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Excalibur jest mieczem Artura. W różnych wersjach legendy miecz ze skały bywa z nim utożsamiany albo stanowi odrębny oręż.",
+      "explanation_incorrect": "Durendal należał do Rolanda, Gram do Sigurda, a Joyieuse był mieczem Karola Wielkiego."
     },
     {
       "subcategory": "Cykl Koło Czasu",
       "question": "Pod jakim tytułem znany jest Shai'tan, główne źródło zła i antagonista w serii 'Koło Czasu' Roberta Jordana?",
       "options": [
-        "Władca Ciemności",
+        "Wielki Inkwizytor",
         "Czarny Pan",
         "Król Upiorów",
         "Sauron"
       ],
       "answer": "Czarny Pan",
       "explanation_correct": "Czarny Pan (The Dark One) w uniwersum Koła Czasu jest potężną istotą uwięzioną poza czasem, dążącą do zniszczenia wzoru rzeczywistości.",
-      "explanation_incorrect": "Sauron to antagonista z Władcy Pierścieni, a Król Upiorów to lider Nazgûli u Tolkiena.",
-      "last_verified_at": "2026-06-12T15:00:23.457Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sauron i Król Upiorów to postacie z dzieł Tolkiena; Czarny Pan jest przeciwnikiem z Koła Czasu."
     },
     {
       "subcategory": "Saga o Wiedźminie",
@@ -220,7 +208,7 @@
     },
     {
       "subcategory": "Uniwersum Wiedźmina",
-      "question": "W jakim mieście znajduje się słynna szkoła czarodziejek, w której kształciła się m.in. Yennefer z Vengerbergu?",
+      "question": "Jak nazywa się szkoła czarodziejek na wyspie Thanedd, w której kształciła się Yennefer?",
       "options": [
         "Aretuza",
         "Ban Ard",
@@ -229,13 +217,11 @@
       ],
       "answer": "Aretuza",
       "explanation_correct": "Aretuza to żeńska akademia magii położona na wyspie Thanedd w pobliżu miasta Gors Velen.",
-      "explanation_incorrect": "Ban Ard to szkoła dla czarodziejów (mężczyzn), Oxenfurt słynie z uniwersytetu medycznego, a Wyzima jest stolicą Temerii.",
-      "last_verified_at": "2026-06-12T15:00:23.458Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ban Ard jest szkołą magii, Oxenfurt miastem uniwersyteckim, a Wyzima stolicą Temerii."
     },
     {
       "subcategory": "Literatura high fantasy",
-      "question": "Jak potocznie nazywany jest Pierścień Rządzący wykuty przez Saurona w ogniu Góry Przeznaczenia?",
+      "question": "Jaką najbardziej znaną nazwę nosi wykuty przez Saurona pierścień, mający władać pozostałymi Pierścieniami Mocy?",
       "options": [
         "Pierścień Mocy",
         "Złoty Pierścień",
@@ -244,9 +230,7 @@
       ],
       "answer": "Jedyny Pierścień",
       "explanation_correct": "Jedyny Pierścień został stworzony, aby kontrolować pozostałe Pierścienie Mocy podarowane władcom innych ras.",
-      "explanation_incorrect": "Choć jest to Pierścień Mocy, nazwa 'Jedyny Pierścień' pochodzi bezpośrednio z inskrypcji zapisanej w Czarnym Języku.",
-      "last_verified_at": "2026-06-12T15:00:23.458Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Jest to także jeden z Pierścieni Mocy, lecz „Jedyny Pierścień” to jego charakterystyczna nazwa."
     },
     {
       "subcategory": "Gry RPG / Wiedźmin",
@@ -325,7 +309,7 @@
     },
     {
       "subcategory": "Mitologia Cthulhu",
-      "question": "Jak nazywa się fikcyjna, zakazana księga opisująca bóstwa znane jako Wielcy Przedwieczni w mitologii Cthulhu?",
+      "question": "Którą fikcyjną księgę w opowieściach Lovecrafta przypisuje się Abdulowi Alhazredowi?",
       "options": [
         "Necronomicon",
         "De Vermis Mysteriis",
@@ -334,9 +318,7 @@
       ],
       "answer": "Necronomicon",
       "explanation_correct": "Necronomicon to mityczna księga stworzona przez H.P. Lovecrafta, której autorstwo przypisywane jest 'Szalonemu Arabowi' Abdulowi Alhazredowi.",
-      "explanation_incorrect": "Pozostałe tytuły to również fikcyjne księgi z mitologii Lovecrafta, ale 'Necronomicon' jest najbardziej rozpoznawalną z nich.",
-      "last_verified_at": "2026-06-12T15:00:23.458Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe tytuły nie są nazwą księgi przypisywanej Abdulowi Alhazredowi."
     },
     {
       "subcategory": "Władca Pierścieni",
@@ -348,10 +330,8 @@
         "Czarna Brama"
       ],
       "answer": "Góra Przeznaczenia",
-      "explanation_correct": "Orodruina, znana jako Góra Przeznaczenia, była jedynym miejscem, w którym ogień był wystarczająco gorący, by stworzyć lub zniszczyć Jedyny Pierścień.",
-      "explanation_incorrect": "Barad-dûr to wieża Saurona, a pozostałe lokacje stanowiły kluczowe punkty strategiczne Mordoru, ale nie mieściły kuźni pierścienia.",
-      "last_verified_at": "2026-06-12T15:00:23.458Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sauron wykuł Jedyny Pierścień w ogniu Orodruiny. Tam też ogień mógł go zniszczyć; nie jest to kwestia samej temperatury.",
+      "explanation_incorrect": "Barad-dûr to wieża Saurona, a pozostałe lokacje stanowiły kluczowe punkty strategiczne Mordoru, ale nie mieściły kuźni pierścienia."
     },
     {
       "subcategory": "Mitologia nordycka w fantasy",
@@ -370,33 +350,29 @@
     },
     {
       "subcategory": "Alicja w Krainie Czarów",
-      "question": "Jaki legendarny stwór jest głównym przeciwnikiem armii Białej Królowej oraz Alicji w poemacie Lewisa Carrolla?",
+      "question": "Jaką bronią bohater wiersza „Jabberwocky” Lewisa Carrolla zabija tytułowego potwora?",
       "options": [
-        "Dżabersmok",
-        "Gryf",
-        "Nibyżółw",
-        "Banderołak"
+        "Mieczem vorpalnym",
+        "Srebrną strzałą",
+        "Młotem Thora",
+        "Włócznią Gungnir"
       ],
-      "answer": "Dżabersmok",
-      "explanation_correct": "Dżabersmok (Jabberwocky) to siejący grozę potwór opisany w wierszu, którego Alicja pokonuje przy pomocy miecza vorpalnego.",
-      "explanation_incorrect": "Gryf i Nibyżółw to postacie neutralne, a Banderołak jest kolejnym niebezpiecznym stworzeniem wspomnianym w utworze.",
-      "last_verified_at": "2026-06-12T15:00:23.458Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mieczem vorpalnym",
+      "explanation_correct": "W wierszu syn bierze miecz vorpalny i zabija Dżabersmoka; nie czyni tego Alicja.",
+      "explanation_incorrect": "Żadna z pozostałych broni nie jest orężem użytym przez bohatera wiersza."
     },
     {
       "subcategory": "Wiedźmin",
-      "question": "Jak brzmi najbardziej znany przydomek Geralta z Rivii, nawiązujący do koloru jego włosów oraz szkoły wiedźmińskiej?",
+      "question": "Jak brzmi polski przekład elfickiego przydomka Geralta „Gwynbleidd”?",
       "options": [
         "Biały Wilk",
         "Rzeźnik z Blaviken",
-        "Gwynbleidd",
-        "Vatt'ghern"
+        "Wiedźmin",
+        "Myszołów"
       ],
       "answer": "Biały Wilk",
-      "explanation_correct": "Przydomek ten pochodzi z języka elfów (Gwynbleidd) i odnosi się do Szkoły Wilka, w której szkolił się Geralt.",
-      "explanation_incorrect": "Rzeźnik z Blaviken to przydomek pejoratywny, a Vatt'ghern to po prostu określenie wiedźmina w Starszej Mowie.",
-      "last_verified_at": "2026-06-12T15:00:23.458Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gwynbleidd znaczy Biały Wilk i nawiązuje do wyglądu Geralta.",
+      "explanation_incorrect": "Rzeźnik z Blaviken jest innym przydomkiem Geralta, a wiedźmin określeniem jego profesji."
     },
     {
       "subcategory": "Opowieści z Narnii",
@@ -453,10 +429,8 @@
         "Eliksir Wielosokowy"
       ],
       "answer": "Felix Felicis",
-      "explanation_correct": "Felix Felicis, zwany 'płynnym szczęściem', sprawia, że każda próba podjęta przez czarodzieja kończy się powodzeniem.",
-      "explanation_incorrect": "Amortencja to napój miłosny, Veritaserum to eliksir prawdy, a Wielosokowy służy do zmiany wyglądu.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Felix Felicis, zwany płynnym szczęściem, czasowo zwiększa szczęście osoby, która go wypije.",
+      "explanation_incorrect": "Amortencja to napój miłosny, Veritaserum to eliksir prawdy, a Wielosokowy służy do zmiany wyglądu."
     },
     {
       "subcategory": "Literatura high fantasy",
@@ -483,14 +457,12 @@
         "Zaknafein"
       ],
       "answer": "Drizzt Do'Urden",
-      "explanation_correct": "Drizzt to jedna z najbardziej ikonicznych postaci świata Forgotten Realms, znana ze szlachetności i walki przeciwko naturze swojej rasy.",
-      "explanation_incorrect": "Jarlaxle to najemnik, Bruenor to krasnolud, a Zaknafein był ojcem Drizzta.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Drizzt jest bohaterem Zapomnianych Krain, który sprzeciwia się okrutnym obyczajom społeczeństwa Menzoberranzan.",
+      "explanation_incorrect": "Jarlaxle to najemnik, Bruenor to krasnolud, a Zaknafein był ojcem Drizzta."
     },
     {
       "subcategory": "Mitologia Śródziemia",
-      "question": "Jak w języku sidarińskim pasterze drzew, czyli Entowie, nazywają samych siebie?",
+      "question": "Jak w sindarinie nazywa się lud Entów w legendarium Tolkiena?",
       "options": [
         "Onodrim",
         "Eruhíni",
@@ -498,10 +470,8 @@
         "Quendi"
       ],
       "answer": "Onodrim",
-      "explanation_correct": "Onodrim to nazwa Entów w języku elfów, używana przez Tolkiena w 'Władcy Pierścieni'.",
-      "explanation_incorrect": "Quendi to nazwa elfów, Naugrim odnosi się do krasnoludów, a Eruhíni to ogólna nazwa Dzieci Ilúvatara.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Onodrim to sindarińska nazwa Entów; ich własny język to entyjski.",
+      "explanation_incorrect": "Quendi to nazwa elfów, Naugrim odnosi się do krasnoludów, a Eruhíni to ogólna nazwa Dzieci Ilúvatara."
     },
     {
       "subcategory": "Cykl Pieśń Lodu i Ognia",
@@ -514,9 +484,7 @@
       ],
       "answer": "Starkowie",
       "explanation_correct": "Ród Starków to strażnicy Północy, których dewiza brzmi 'Nadchodzi zima'.",
-      "explanation_incorrect": "Lannisterowie władają Casterly Rock, Baratheonowie Końcem Burzy, a Targaryenowie pochodzą ze Smoczej Skały.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lannisterowie władają Casterly Rock, a Baratheonowie Końcem Burzy. Targaryenowie wywodzą się z Valyrii i osiedli na Smoczej Skale."
     },
     {
       "subcategory": "Gry wideo / Wiedźmin",
@@ -529,9 +497,7 @@
       ],
       "answer": "Cirilla Fiona Elen Riannon",
       "explanation_correct": "Ciri jest księżniczką Cintry i Dzieckiem Niespodzianką, której losy są nierozerwalnie związane z Geraltem.",
-      "explanation_incorrect": "Ciri z Cintry to skrócona forma, Pavetta to jej matka, a Triss jest czarodziejką i przyjaciółką Geralta.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ciri z Cintry to skrócone określenie tej samej osoby, Pavetta jest jej matką, a Triss czarodziejką."
     },
     {
       "subcategory": "Mitologia grecka w fantasy",
@@ -565,7 +531,7 @@
     },
     {
       "subcategory": "Legendy arturiańskie",
-      "question": "Jakie imię nosi Pani Jeziora, która według legend arturiańskich wręczyła królowi Arturowi miecz Excalibur?",
+      "question": "Którą z tych postaci w niektórych wersjach legend arturiańskich utożsamia się z Panią Jeziora?",
       "options": [
         "Nimue",
         "Morgana",
@@ -573,10 +539,8 @@
         "Igerna"
       ],
       "answer": "Nimue",
-      "explanation_correct": "Nimue (często identyfikowana z Vivianą) to potężna czarodziejka z mitów arturiańskich, która strzeże magicznego jeziora.",
-      "explanation_incorrect": "Morgana to przyrodnia siostra Artura, Guinevere to jego żona, a Igerna to jego matka.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nimue bywa utożsamiana z Panią Jeziora; imiona i role tej postaci różnią się zależnie od wersji legendy.",
+      "explanation_incorrect": "Morgana to przyrodnia siostra Artura, Guinevere to jego żona, a Igerna to jego matka."
     },
     {
       "subcategory": "Harry Potter",
@@ -588,10 +552,8 @@
         "Mantykora"
       ],
       "answer": "Smok spiżobrzuchy",
-      "explanation_correct": "W siódmym tomie sagi Harry, Ron i Hermiona uciekają z banku na grzbiecie ślepego smoka rasy spiżobrzuch ukraiński.",
-      "explanation_incorrect": "Bazyliszek znajdował się w Komnacie Tajemnic, a Sfinks pojawił się w Turnieju Trójmagicznym.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W siódmej części bohaterowie uciekają z banku na grzbiecie smoka, który strzegł podziemnych skarbców.",
+      "explanation_incorrect": "Bazyliszek znajdował się w Komnacie Tajemnic, a Sfinks pojawił się w Turnieju Trójmagicznym."
     },
     {
       "subcategory": "Amerykańscy Bogowie",
@@ -604,9 +566,7 @@
       ],
       "answer": "Cień",
       "explanation_correct": "Główny bohater, Shadow Moon (Cień), zostaje wciągnięty w konflikt między nowymi a starymi bogami po wyjściu z więzienia.",
-      "explanation_incorrect": "Wednesday to pracodawca Cienia, a Szalony Sweeney i Czernobog to postacie drugoplanowe będące dawnymi bóstwami.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wednesday jest pracodawcą Cienia, a Szalony Sweeney i Czernobog są innymi postaciami powieści."
     },
     {
       "subcategory": "Kryptozoologia w fantasy",
@@ -629,14 +589,12 @@
       "options": [
         "Król Rybak",
         "Smok Odrodzony",
-        "Władca Poranka",
+        "Biały Wilk",
         "Cień Przeszłości"
       ],
       "answer": "Smok Odrodzony",
       "explanation_correct": "Rand al'Thor jest reinkarnacją Lewsa Therina Telamona i nosi tytuł Smoka Odrodzonego.",
-      "explanation_incorrect": "Władca Poranka to jeden z przydomków dawnego Smoka, ale to Smok Odrodzony jest kluczowym tytułem Randa.",
-      "last_verified_at": "2026-06-12T15:00:23.459Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Smok Odrodzony to tytuł Randa związany z powrotem Smoka; pozostałe opcje nie są tą nazwą."
     },
     {
       "subcategory": "Mitologia nordycka w fantasy",
@@ -655,7 +613,7 @@
     },
     {
       "subcategory": "Opowieści z Narnii",
-      "question": "Przedstawicielem jakiego gatunku mitycznych istot jest postać Pana Tumnusa w 'Opowieściach z Narnii'?",
+      "question": "Jakim mianem C.S. Lewis określa Pana Tumnusa w Opowieściach z Narnii?",
       "options": [
         "Satyr",
         "Faun",
@@ -664,9 +622,7 @@
       ],
       "answer": "Faun",
       "explanation_correct": "Pan Tumnus jest faunem, istotą o ludzkim tułowiu i nogach kozła.",
-      "explanation_incorrect": "Satyrowie są podobni do faunów, ale wywodzą się z mitologii greckiej, podczas gdy Lewis określił Tumnusa mianem fauna.",
-      "last_verified_at": "2026-06-12T15:02:09.861Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Satyrowie są podobni do faunów, ale wywodzą się z mitologii greckiej, podczas gdy Lewis określił Tumnusa mianem fauna."
     },
     {
       "subcategory": "Magia w literaturze",
@@ -708,10 +664,8 @@
         "Lolth"
       ],
       "answer": "Ungolianta",
-      "explanation_correct": "Ungolianta była mrocznym duchem w ciele pająka, która pochłonęła światło Dwóch Drzew Valinoru.",
-      "explanation_incorrect": "Szeloba to daleka potomkini Ungolianty, a Aragog pochodzi z uniwersum Harry'ego Pottera.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ungolianta przybrała postać potężnego pająka i wraz z Melkorem przyczyniła się do zniszczenia Dwóch Drzew Valinoru.",
+      "explanation_incorrect": "Szeloba była potomkinią Ungolianty, a Aragog pochodzi z Harry’ego Pottera."
     },
     {
       "subcategory": "Gry RPG",
@@ -730,18 +684,16 @@
     },
     {
       "subcategory": "Magiczne przedmioty",
-      "question": "Jak nazywa się krasnoludzki miecz (gwyhyr) wykuty w Mahakamie, który Geralt otrzymał od Zoltána Chivaya w sadze o Wiedźminie?",
+      "question": "Jak nazywa się krasnoludzki miecz, który Zoltan Chivay podarował Geraltowi w sadze o Wiedźminie?",
       "options": [
         "Sihill",
         "Aerondight",
-        "Zirael",
+        "Zireael",
         "D’yaebl"
       ],
       "answer": "Sihill",
-      "explanation_correct": "Sihill to wyjątkowo ostry miecz z runicznym napisem, podarowany Geraltowi przez krasnoludzką kompanię.",
-      "explanation_incorrect": "Zirael to miecz Ciri, Aerondight to dar od Pani Jeziora, a D’yaebl jest mieczem znanym głównie z pierwszej części gry.",
-      "last_verified_at": "2026-06-12T15:03:33.501Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sihill to krasnoludzki miecz podarowany Geraltowi przez Zoltana Chivaya.",
+      "explanation_incorrect": "Zireael jest związany z Ciri, a Aerondight i D’yaebl występują w grach z uniwersum Wiedźmina."
     },
     {
       "subcategory": "Literatura angielska",
@@ -775,7 +727,7 @@
     },
     {
       "subcategory": "Harry Potter",
-      "question": "Jak nazywa się jedyna wioska w Wielkiej Brytanii, w której mieszkają wyłącznie czarodzieje?",
+      "question": "Jak nazywa się w świecie Harry’ego Pottera wioska, której mieszkańcy są wyłącznie czarodziejami?",
       "options": [
         "Dolina Godryka",
         "Ottery St Catchpole",
@@ -784,13 +736,11 @@
       ],
       "answer": "Hogsmeade",
       "explanation_correct": "Hogsmeade to miejsce wycieczek uczniów Hogwartu, słynące z pubu Pod Trzema Miotłami.",
-      "explanation_incorrect": "W Dolinie Godryka obok czarodziejów mieszkali również mugole.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W Dolinie Godryka obok czarodziejów mieszkali również mugole."
     },
     {
       "subcategory": "Mitologia arturiańska",
-      "question": "Który z rycerzy Okrągłego Stołu, syn Lancelota, był godzien odnalezienia Świętego Graala?",
+      "question": "Który rycerz, syn Lancelota, osiąga Świętego Graala w tradycji arturiańskiej o jego poszukiwaniu?",
       "options": [
         "Gawain",
         "Galahad",
@@ -798,10 +748,8 @@
         "Bedivere"
       ],
       "answer": "Galahad",
-      "explanation_correct": "Galahad uchodził za najczystszego z rycerzy i jako jedyny w pełni osiągnął cel misji.",
-      "explanation_incorrect": "Percival widział Graala, ale to Galahad jest uznawany za ostatecznego zdobywcę relikwii.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W tradycji o poszukiwaniu Graala Galahad jest synem Lancelota i osiąga cel wyprawy.",
+      "explanation_incorrect": "Percival również uczestniczy w opowieściach o Graalu; ich przebieg zależy od wersji legendy."
     },
     {
       "subcategory": "Pieśń Lodu i Ognia",
@@ -858,14 +806,12 @@
         "Cuthbert Allgood"
       ],
       "answer": "Roland Deschain",
-      "explanation_correct": "Roland z Gilead to główny protagonta serii, dążący do dotarcia do centrum wszystkich światów.",
-      "explanation_incorrect": "Randall Flagg to główny antagonista, a Eddie Dean to towarzysz podróży Rolanda.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Roland z Gilead to główny protagonista serii, poszukujący Mrocznej Wieży.",
+      "explanation_incorrect": "Randall Flagg to główny antagonista, a Eddie Dean to towarzysz podróży Rolanda."
     },
     {
       "subcategory": "Gry wideo fantasy",
-      "question": "Jak brzmi nazwa kontynentu, na którym dzieje się akcja serii gier 'The Elder Scrolls', w tym krainy Skyrim?",
+      "question": "Na jakim kontynencie leży Skyrim, kraina z gry „The Elder Scrolls V: Skyrim”?",
       "options": [
         "Azeroth",
         "Tamriel",
@@ -873,10 +819,8 @@
         "Thedas"
       ],
       "answer": "Tamriel",
-      "explanation_correct": "Tamriel to nazwa kontynentu podzielonego na prowincje takie jak Skyrim, Cyrodiil czy Morrowind.",
-      "explanation_incorrect": "Nirn to nazwa całej planety, a Azeroth to świat z uniwersum Warcraft.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Skyrim jest prowincją kontynentu Tamriel w świecie The Elder Scrolls.",
+      "explanation_incorrect": "Nirn to planeta, Azeroth należy do Warcrafta, a Thedas do Dragon Age."
     },
     {
       "subcategory": "Komiks fantasy",
@@ -903,10 +847,8 @@
         "Terabithia"
       ],
       "answer": "Narnia",
-      "explanation_correct": "Narnia to świat stworzony przez lwa Aslana, w którym czas płynie inaczej niż w naszym świecie.",
-      "explanation_incorrect": "Nibylandia to kraina Piotrusia Pana, a Terabithia jest światem wyobraźni z książki Katherine Paterson.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Narnia jest krainą w świecie stworzonym przez Aslana; dzieci mogą dostać się do niej przez szafę.",
+      "explanation_incorrect": "Nibylandia to kraina Piotrusia Pana, a Terabithia jest światem wyobraźni z książki Katherine Paterson."
     },
     {
       "subcategory": "Literatura high fantasy",
@@ -933,10 +875,8 @@
         "Strzyga"
       ],
       "answer": "Poroniec",
-      "explanation_correct": "Poroniec był uważany za jednego z najniebezpieczniejszych demonów ze względu na krzywdę, jakiej zaznał za życia.",
-      "explanation_incorrect": "Południca nęka na polach, Utopiec w wodzie, a Strzyga to upiór o dwóch sercach.",
-      "last_verified_at": "2026-06-12T15:02:09.862Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W wierzeniach ludowych porońcem nazywano istotę wiązaną m.in. z niepochowanym płodem; opisy różniły się regionalnie.",
+      "explanation_incorrect": "Południca nęka na polach, Utopiec w wodzie, a Strzyga to upiór o dwóch sercach."
     },
     {
       "subcategory": "Cykl o Ziemiomorzu",
@@ -955,7 +895,7 @@
     },
     {
       "subcategory": "Mitologia arturiańska",
-      "question": "Która legendarna kraina jest miejscem wiecznego spoczynku króla Artura, do której został zabrany po bitwie pod Camlann?",
+      "question": "Na jaką legendarną wyspę zabrano rannego króla Artura po jego ostatniej bitwie?",
       "options": [
         "Avalon",
         "Camelot",
@@ -963,14 +903,12 @@
         "Tintagel"
       ],
       "answer": "Avalon",
-      "explanation_correct": "Avalon to mityczna wyspa mgieł, gdzie ranny król Artur został zabrany, by oczekiwać na moment powrotu.",
-      "explanation_incorrect": "Camelot to stolica Artura, Tintagel to miejsce jego narodzin, a Lyonesse to zaginiona kraina z legend.",
-      "last_verified_at": "2026-06-12T15:03:33.501Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W licznych wersjach legendy rannego Artura zabrano na Avalon, gdzie miał zostać uleczony; jego dalszy los bywa przedstawiany różnie.",
+      "explanation_incorrect": "Camelot to stolica Artura, Tintagel to miejsce jego narodzin, a Lyonesse to zaginiona kraina z legend."
     },
     {
       "subcategory": "Harry Potter",
-      "question": "Jak nazywa się czarnoksięski przedmiot, w którym czarodziej ukrywa cząstkę swojej duszy w celu osiągnięcia nieśmiertelności?",
+      "question": "Jak w świecie Harry’ego Pottera nazywa się przedmiot, w którym czarnoksiężnik ukrywa fragment swojej duszy?",
       "options": [
         "Insygnium",
         "Horkruks",
@@ -978,10 +916,8 @@
         "Talizman"
       ],
       "answer": "Horkruks",
-      "explanation_correct": "Horkruksy zostały stworzone przez Lorda Voldemorta przy użyciu czarnej magii po dokonaniu morderstwa.",
-      "explanation_incorrect": "Insygnia Śmierci to inne potężne artefakty, a relikwiarz i talizman to ogólne pojęcia magiczne.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Horkruks zawiera fragment duszy. Voldemort stworzył kilka horkruksów, by zabezpieczyć się przed śmiercią.",
+      "explanation_incorrect": "Insygnia Śmierci to inne potężne artefakty, a relikwiarz i talizman to ogólne pojęcia magiczne."
     },
     {
       "subcategory": "Świat Dysku",
@@ -993,14 +929,12 @@
         "Korona"
       ],
       "answer": "Dolar",
-      "explanation_correct": "Walutą Ankh-Morpork jest dolar, który dzieli się na sto pensów (lub inne mniejsze jednostki).",
-      "explanation_incorrect": "Pozostałe nazwy to waluty rzeczywiste lub z innych światów fantasy, nieużywane przez Terry’ego Pratchetta w tym kontekście.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dolar Ankh-Morpork jest jednostką pieniężną używaną w mieście.",
+      "explanation_incorrect": "Pozostałe nazwy to waluty rzeczywiste lub z innych światów fantasy, nieużywane przez Terry’ego Pratchetta w tym kontekście."
     },
     {
       "subcategory": "Saga o Wiedźminie",
-      "question": "Który wiedźmiński eliksir drastycznie poprawia widzenie w absolutnych ciemnościach, rozszerzając źrenice?",
+      "question": "Który eliksir w grach o Wiedźminie poprawia widzenie w ciemności?",
       "options": [
         "Kot",
         "Puszczyk",
@@ -1008,10 +942,8 @@
         "Wilga"
       ],
       "answer": "Kot",
-      "explanation_correct": "Eliksir Kot pozwala wiedźminom widzieć w ciemnościach, ale czyni ich nadwrażliwymi na światło słoneczne.",
-      "explanation_incorrect": "Puszczyk regeneruje energię, Grom zwiększa siłę ataków, a Wilga neutralizuje trucizny.",
-      "last_verified_at": "2026-06-12T15:03:33.501Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W grach eliksir Kot poprawia widzenie w ciemnych miejscach.",
+      "explanation_incorrect": "Pozostałe eliksiry mają inne zastosowania, które mogą różnić się między grami."
     },
     {
       "subcategory": "Gry RPG",
@@ -1060,7 +992,7 @@
     },
     {
       "subcategory": "Mitologia Tolkiena",
-      "question": "Jak nazywa się kraina zamieszkana przez Valarów, leżąca na zachód od Śródziemia, dostępna jedynie dla elfów?",
+      "question": "Jak nazywa się kraina Valarów położona na zachód od Śródziemia w legendarium Tolkiena?",
       "options": [
         "Beleriand",
         "Valinor",
@@ -1068,25 +1000,21 @@
         "Rhûn"
       ],
       "answer": "Valinor",
-      "explanation_correct": "Valinor to Nieśmiertelne Krainy, do których odpływają elfy pod koniec Trzeciej Ery.",
-      "explanation_incorrect": "Beleriand został zatopiony, Númenor był wyspą ludzi, a Rhûn to kraina na wschodzie Śródziemia.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Valinor znajduje się w Amanie na zachód od Śródziemia. Przy szczególnym zezwoleniu podróż na Zachód odbyli także niektórzy śmiertelnicy, w tym Frodo i Bilbo.",
+      "explanation_incorrect": "Beleriand został zatopiony, Númenor był wyspą ludzi, a Rhûn to kraina na wschodzie Śródziemia."
     },
     {
       "subcategory": "Alicja w Krainie Czarów",
-      "question": "Jak nazywa się kot z powieści 'Alicja w Krainie Czarów', który potrafił znikać, pozostawiając po sobie jedynie szeroki uśmiech?",
+      "question": "Jak nazywa się królik, za którym Alicja biegnie do króliczej nory w powieści Lewisa Carrolla?",
       "options": [
+        "Biały Królik",
+        "Marcowy Zając",
         "Kot z Cheshire",
-        "Kot w butach",
-        "Behemot",
-        "Lucifer"
+        "Królik Piotruś"
       ],
-      "answer": "Kot z Cheshire",
-      "explanation_correct": "Kot z Cheshire jest słynny ze swoich filozoficznych uwag i zdolności do dematerializacji.",
-      "explanation_incorrect": "Behemot to postać z 'Mistrza i Małgorzaty', a Kot w butach pochodzi z baśni Perraulta.",
-      "last_verified_at": "2026-06-12T15:03:33.501Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Biały Królik",
+      "explanation_correct": "Alicja podąża za Białym Królikiem, który spogląda na zegarek, i trafia do Krainy Czarów.",
+      "explanation_incorrect": "Marcowy Zając i Kot z Cheshire pojawiają się później, a Królik Piotruś pochodzi z utworów Beatrix Potter."
     },
     {
       "subcategory": "Literatura polska",
@@ -1105,63 +1033,55 @@
     },
     {
       "subcategory": "Opowieści z Narnii",
-      "question": "Jak w powieściach C.S. Lewisa nazywa się Biała Czarownica, która sprowadziła na Narnię wieczną zimę?",
+      "question": "Z jakiego świata pochodzi Jadis, zanim zostaje Białą Czarownicą w Narnii?",
       "options": [
-        "Jadis",
-        "Maleficent",
-        "Morgana",
-        "Circe"
+        "Charn",
+        "Śródziemie",
+        "Oz",
+        "Ziemiomorze"
       ],
-      "answer": "Jadis",
-      "explanation_correct": "Jadis była ostatnią królową Charnu, która przejęła władzę nad Narnią jako Biała Czarownica.",
-      "explanation_incorrect": "Morgana to postać z legend arturiańskich, a Circe pochodzi z mitologii greckiej.",
-      "last_verified_at": "2026-06-12T15:03:33.501Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Charn",
+      "explanation_correct": "Jadis była ostatnią królową Charnu i została stamtąd sprowadzona do innych światów w „Siostrzeńcu czarodzieja”.",
+      "explanation_incorrect": "Pozostałe nazwy pochodzą z innych utworów fantasy."
     },
     {
       "subcategory": "Mity nordyckie",
-      "question": "Jak w mitologii nordyckiej nazywa się płonący, tęczowy most łączący świat bogów Asgard ze światem ludzi Midgardem?",
+      "question": "Jak nazywa się róg Heimdalla, który zabrzmi przed Ragnarökiem w mitologii nordyckiej?",
       "options": [
-        "Yggdrasil",
-        "Bifrost",
         "Gjallarhorn",
+        "Bifrost",
+        "Yggdrasil",
         "Nagfar"
       ],
-      "answer": "Bifrost",
-      "explanation_correct": "Bifrost to most strzeżony przez Heimdalla, który ulegnie zniszczeniu podczas Ragnaröku.",
-      "explanation_incorrect": "Yggdrasil to drzewo świata, Gjallarhorn to róg Heimdalla, a Nagfar to statek z paznokci zmarłych.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Gjallarhorn",
+      "explanation_correct": "Gjallarhorn to róg Heimdalla związany z nadejściem Ragnaröku.",
+      "explanation_incorrect": "Bifrost jest mostem, Yggdrasil drzewem, a Nagfar statkiem."
     },
     {
       "subcategory": "Polska literatura fantasy",
-      "question": "Jak nazywa się gnomi miecz wykuty z meteorytowej stali, którego Geralt z Rivii używał w późniejszych tomach sagi?",
+      "question": "Jak nazywa się miecz Ciri w sadze Andrzeja Sapkowskiego?",
       "options": [
-        "Zirael",
-        "Sihil",
-        "Aerondight",
-        "Anglachel"
+        "Zireael",
+        "Sihill",
+        "Narsil",
+        "Glamdring"
       ],
-      "answer": "Sihil",
-      "explanation_correct": "Sihil to doskonałej jakości miecz podarowany Geraltowi przez krasnoluda Zoltana Chivaya.",
-      "explanation_incorrect": "Zirael to miecz Ciri, Aerondight pojawia się głównie w grach, a Anglachel to miecz z mitologii Tolkiena.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Zireael",
+      "explanation_correct": "Zireael to miecz podarowany Ciri przez płatnerza Esterhazy’ego.",
+      "explanation_incorrect": "Sihill jest krasnoludzkim mieczem Geralta, a Narsil i Glamdring pochodzą z dzieł Tolkiena."
     },
     {
       "subcategory": "Uniwersum Wiedźmina",
-      "question": "Która wiedźmińska mikstura jest podstawowym środkiem służącym do regeneracji zdrowia po odniesionych ranach?",
+      "question": "Który eliksir w grze „Wiedźmin 3: Dziki Gon” przyspiesza regenerację żywotności?",
       "options": [
-        "Wilga",
-        "Las Mariborski",
-        "Dekokt Raffarda Białego",
-        "Jaskółka"
+        "Jaskółka",
+        "Kot",
+        "Puszczyk",
+        "Grom"
       ],
       "answer": "Jaskółka",
-      "explanation_correct": "Jaskółka to najpopularniejszy eliksir wiedźmiński, który przyspiesza naturalne procesy regeneracyjne organizmu.",
-      "explanation_incorrect": "Wilga to antidotum na trucizny, Las Mariborski zwiększa energię, a Dekokt Raffarda działa natychmiastowo, ale jest rzadszy.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W grze Jaskółka przyspiesza regenerację żywotności Geralta.",
+      "explanation_incorrect": "Kot poprawia widzenie w ciemności, a pozostałe eliksiry mają inne działanie."
     },
     {
       "subcategory": "Śródziemie J.R.R. Tolkiena",
@@ -1180,7 +1100,7 @@
     },
     {
       "subcategory": "Cykl Harry Potter",
-      "question": "Jak nazywa się magiczny dokument stworzony przez Jamesa Pottera i jego przyjaciół, pokazujący każdy zakątek Hogwartu?",
+      "question": "Jak nazywa się mapa stworzona przez Jamesa Pottera i jego przyjaciół, pokazująca znaczną część Hogwartu?",
       "options": [
         "Mapa Huncwotów",
         "Księga Zaklęć",
@@ -1188,14 +1108,12 @@
         "Zwoje Merlina"
       ],
       "answer": "Mapa Huncwotów",
-      "explanation_correct": "Mapa Huncwotów ujawnia nie tylko topografię zamku, ale także ruchy wszystkich osób w nim przebywających.",
-      "explanation_incorrect": "Dziennik Riddle'a był horkruksem, a pozostałe nazwy nie odnoszą się do mapy szkoły.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mapa Huncwotów pokazuje wiele miejsc w Hogwarcie i położenie osób, choć ma ograniczenia, np. nie ujawnia wnętrza Pokoju Życzeń.",
+      "explanation_incorrect": "Dziennik Riddle'a był horkruksem, a pozostałe nazwy nie odnoszą się do mapy szkoły."
     },
     {
       "subcategory": "Mitologia Cthulhu",
-      "question": "Jak nazywa się fikcyjne miasto w stanie Massachusetts, w którym osadzona jest akcja wielu opowiadań H.P. Lovecrafta?",
+      "question": "W którym fikcyjnym mieście Lovecrafta znajduje się Uniwersytet Miskatonic?",
       "options": [
         "Innsmouth",
         "Arkham",
@@ -1204,9 +1122,7 @@
       ],
       "answer": "Arkham",
       "explanation_correct": "Arkham to siedziba Uniwersytetu Miskatonic i centralne miejsce wielu mrocznych wydarzeń w mitologii Cthulhu.",
-      "explanation_incorrect": "Innsmouth, Dunwich i Kingsport to inne fikcyjne miasteczka z twórczości Lovecrafta, ale Arkham jest najbardziej rozpoznawalne.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Innsmouth, Dunwich i Kingsport także pojawiają się w jego fikcyjnej Nowej Anglii, ale Uniwersytet Miskatonic znajduje się w Arkham."
     },
     {
       "subcategory": "Świat Dysku",
@@ -1225,7 +1141,7 @@
     },
     {
       "subcategory": "Pieśń Lodu i Ognia",
-      "question": "Który unikalny metal w świecie Pieśni Lodu i Ognia cechuje się całkowitą odpornością na rdzę i ogień?",
+      "question": "Jak nazywa się cenna stal z „Pieśni Lodu i Ognia”, z której wykonano miecz Długi Pazur?",
       "options": [
         "Stal valyriańska",
         "Smocze szkło",
@@ -1233,10 +1149,8 @@
         "Gwiezdna stal"
       ],
       "answer": "Stal valyriańska",
-      "explanation_correct": "Stal valyriańska powstawała przy użyciu magii w Valyrii i jest niezwykle lekka oraz ostra.",
-      "explanation_incorrect": "Smocze szkło to obsydian służący do walki z Innymi, a pozostałe metale nie mają tych specyficznych cech.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Długi Pazur to miecz z valyriańskiej stali, podarowany Jonowi Snowowi przez Jeora Mormonta.",
+      "explanation_incorrect": "Smocze szkło jest obsydianem; miecz Długi Pazur wykonano ze stali valyriańskiej."
     },
     {
       "subcategory": "Kanon arturiański",
@@ -1249,9 +1163,7 @@
       ],
       "answer": "Camelot",
       "explanation_correct": "Camelot to mityczna stolica państwa Artura i miejsce spotkań rycerzy przy Okrągłym Stole.",
-      "explanation_incorrect": "Tintagel to miejsce narodzin Artura, a Avalon to mityczna wyspa, na którą król trafił po śmierci.",
-      "last_verified_at": "2026-06-12T15:02:09.863Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tintagel bywa miejscem narodzin Artura, Avalon wyspą związaną z jego ostatnią podróżą, a Caerleon jest inną siedzibą dworu w części opowieści."
     },
     {
       "subcategory": "Literatura high fantasy",
@@ -1272,20 +1184,18 @@
       "subcategory": "Bestiariusz fantasy",
       "question": "Jak nazywa się mityczne stworzenie posiadające ciało lwa oraz głowę człowieka?",
       "options": [
-        "Sfinga",
-        "Mantykora",
+        "Sfinks",
+        "Centaur",
         "Gryf",
         "Chimera"
       ],
-      "answer": "Sfinga",
-      "explanation_correct": "Sfinga w mitologii i fantasy często strzeże przejść, zadając podróżnym trudne zagadki.",
-      "explanation_incorrect": "Mantykora posiada ogon skorpiona, a Gryf ma głowę i skrzydła orła.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sfinks",
+      "explanation_correct": "Sfinks jest często przedstawiany z ciałem lwa i ludzką głową; w greckim micie zadaje podróżnym zagadkę.",
+      "explanation_incorrect": "Centaur łączy cechy człowieka i konia, gryf lwa i orła, a chimera występuje jako wielopostaciowy potwór."
     },
     {
       "subcategory": "Gry RPG (Dungeons & Dragons)",
-      "question": "Która grywalna rasa w systemie D&D posiada krew smoków i potrafi posługiwać się bronią ziejącą?",
+      "question": "Która z wymienionych grywalnych ras w D&D 5e ma smocze pochodzenie i zdolność użycia broni oddechowej?",
       "options": [
         "Smocze Dziecię",
         "Kobold",
@@ -1293,25 +1203,21 @@
         "Tiefling"
       ],
       "answer": "Smocze Dziecię",
-      "explanation_correct": "Dragonborn (Smocze Dziecię) charakteryzuje się brakiem ogona i zdolnością do ataku oddechem zgodnym z kolorem jego łusek.",
-      "explanation_incorrect": "Koboldy czczą smoki, ale są małe, a Lizardfolk (jaszczuroludzie) to prymitywni mieszkańcy bagnisk.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dragonborn, czyli smocze dziecię, ma broń oddechową zależną od wybranego smoczego pochodzenia.",
+      "explanation_incorrect": "Koboldy, jaszczuroludzie i tieflingi są innymi grywalnymi ludami; opisana cecha jest charakterystyczna dla smoczych dzieci w D&D 5e."
     },
     {
       "subcategory": "Mitologia nordycka w fantasy",
-      "question": "Która kraina bogów w literaturze fantasy opartej na mitach nordyckich połączona jest z krainą ludzi za pomocą mostu Bifrost?",
+      "question": "Jak nazywa się mityczne drzewo świata w mitologii nordyckiej?",
       "options": [
-        "Asgard",
-        "Vanaheim",
-        "Alfheim",
-        "Jotunheim"
+        "Yggdrasil",
+        "Bifrost",
+        "Gjallarhorn",
+        "Asgard"
       ],
-      "answer": "Asgard",
-      "explanation_correct": "Asgard jest siedzibą Asów, najwyższych bogów panteonu nordyckiego, rządzoną przez Odyna.",
-      "explanation_incorrect": "Jotunheim to kraina olbrzymów, a Alfheim zamieszkują Elfy Światła.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Yggdrasil",
+      "explanation_correct": "Yggdrasil to drzewo świata w mitologii nordyckiej, związane z różnymi krainami kosmosu.",
+      "explanation_incorrect": "Bifrost to most, Gjallarhorn to róg, a Asgard jest siedzibą bogów."
     },
     {
       "subcategory": "Amerykańska literatura fantasy",
@@ -1330,7 +1236,7 @@
     },
     {
       "subcategory": "Alicja w Krainie Czarów",
-      "question": "Który przedmiot w krainie czarów musiał zostać skosztowany przez Alicję, aby mogła ona dowolnie zmieniać swoje rozmiary?",
+      "question": "Co daje Alicji Gąsienica jako wskazówkę pozwalającą zmieniać wzrost w „Alicji w Krainie Czarów”?",
       "options": [
         "Magiczny grzyb",
         "Ciastko",
@@ -1338,10 +1244,8 @@
         "Jabłko"
       ],
       "answer": "Magiczny grzyb",
-      "explanation_correct": "Gąsienica instruuje Alicję, że jedna strona grzyba powoduje wzrost, a druga kurczenie się.",
-      "explanation_incorrect": "Napój i ciastko również zmieniały jej rozmiar, ale tylko grzyb dawał kontrolę nad obiema kierunkami zmiany.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gąsienica mówi Alicji o dwóch stronach grzyba: jedna powoduje wzrost, a druga kurczenie.",
+      "explanation_incorrect": "Napój i ciastko również zmieniają rozmiar Alicji; Gąsienica wskazuje jej grzyb."
     },
     {
       "subcategory": "Saga o Wiedźminie",
@@ -1353,10 +1257,8 @@
         "Haern Caduch"
       ],
       "answer": "Kaer Morhen",
-      "explanation_correct": "Kaer Morhen to Siedliszcze Starych Morzy, gdzie szkolony był Geralt z Rivii.",
-      "explanation_incorrect": "Kaer Trolde to zamek na wyspach Skellige, a pozostałe nazwy to siedziby innych szkół wiedźmińskich.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kaer Morhen to Warownia Starego Morza, w której szkolony był Geralt z Rivii.",
+      "explanation_incorrect": "Kaer Trolde jest zamkiem na Skellige; pozostałe nazwy nie oznaczają Kaer Morhen."
     },
     {
       "subcategory": "Literatura high fantasy",
@@ -1375,18 +1277,16 @@
     },
     {
       "subcategory": "Mity arturiańskie",
-      "question": "Na jaką mityczną wyspę został zabrany król Artur po swojej ostatniej bitwie pod Camlann, aby uleczyć rany?",
+      "question": "Jak nazywa się zaginiona kraina związana w legendach z Tristanem i Izoldą?",
       "options": [
-        "Avalon",
         "Lyonesse",
-        "Hy-Brasil",
-        "Thule"
+        "Avalon",
+        "Moria",
+        "Hogwart"
       ],
-      "answer": "Avalon",
-      "explanation_correct": "Avalon to kraina wiecznej szczęśliwości, gdzie według legendy Artur odpoczywa i czeka na powrót.",
-      "explanation_incorrect": "Lyonesse to zaginiona kraina z legend o Tristanie i Izoldzie, niebędąca miejscem spoczynku Artura.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Lyonesse",
+      "explanation_correct": "Lyonesse to legendarna kraina wiązana w części tradycji z Tristanem.",
+      "explanation_incorrect": "Avalon jest inną legendarną wyspą, a Moria i Hogwart pochodzą z utworów fantasy."
     },
     {
       "subcategory": "Seria o Harrym Potterze",
@@ -1398,10 +1298,8 @@
         "Gruby Mnich"
       ],
       "answer": "Irytek",
-      "explanation_correct": "Irytek (Peeves) nie jest duchem, lecz poltergeistem zrodzonym z chaosu szkolnego życia.",
-      "explanation_incorrect": "Pozostałe postacie to oficjalne duchy domów Hogwartu, które są zazwyczaj pomocne i spokojne.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Irytek (Peeves) jest poltergeistem mieszkającym w Hogwarcie, znanym z hałaśliwych psikusów.",
+      "explanation_incorrect": "Pozostałe postacie to oficjalne duchy domów Hogwartu, które są zazwyczaj pomocne i spokojne."
     },
     {
       "subcategory": "Twórczość J.R.R. Tolkiena",
@@ -1414,13 +1312,11 @@
       ],
       "answer": "Balrogowie",
       "explanation_correct": "Balrogowie to 'Demony Mocy', z których najsłynniejszą postacią jest Zguba Durina z Morii.",
-      "explanation_incorrect": "Nazgûle to Upiorne Pierścienia (ludzie), a Uruk-hai to ulepszona odmiana orków.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nazgûle są Upiorami Pierścienia, niegdyś ludźmi; Uruk-hai są orkami."
     },
     {
       "subcategory": "Saga o Wiedźminie",
-      "question": "Jak nazywa się stolica królestwa Redanii, w której rezydują królowie z dynastii Vizimiridów?",
+      "question": "Jak nazywa się stolica Redanii w książkach o Wiedźminie?",
       "options": [
         "Tretogor",
         "Wyzima",
@@ -1428,10 +1324,8 @@
         "Oxenfurt"
       ],
       "answer": "Tretogor",
-      "explanation_correct": "Tretogor to główna siedziba dworu króla Vizimira II i Radosława Srogiego.",
-      "explanation_incorrect": "Wyzima jest stolicą Temerii, a Novigrad to wolne miasto położone na terytorium Redanii.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tretogor jest stolicą Redanii i siedzibą królewskiego dworu.",
+      "explanation_incorrect": "Wyzima jest stolicą Temerii, a Novigrad wolnym miastem."
     },
     {
       "subcategory": "Uniwersum Pieśni Lodu i Ognia",
@@ -1450,18 +1344,16 @@
     },
     {
       "subcategory": "Mitologia Grecka w Fantasy",
-      "question": "Jak nazywa się wielogłowy pies, który w mitologii greckiej oraz literaturze fantasy strzeże wejścia do podziemi?",
+      "question": "Jak nazywał się dwugłowy pies, brat Cerbera, w mitologii greckiej?",
       "options": [
-        "Kerberos",
         "Ortros",
+        "Kerberos",
         "Argos",
         "Ladon"
       ],
-      "answer": "Kerberos",
-      "explanation_correct": "Kerberos to potomek Tyfona i Echidny, który wpuszcza dusze do Hadesu, ale nie pozwala im wyjść.",
-      "explanation_incorrect": "Ortros to pies o dwóch głowach, a Ladon to smok strzegący złotych jabłek w ogrodzie Hesperyd.",
-      "last_verified_at": "2026-06-12T15:02:09.864Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ortros",
+      "explanation_correct": "Ortros był dwugłowym psem i bratem Cerbera.",
+      "explanation_incorrect": "Kerberos to inne imię Cerbera, Argos był psem Odyseusza, a Ladon smokiem."
     },
     {
       "subcategory": "Świat Dysku",
