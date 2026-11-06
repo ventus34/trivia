@@ -26,6 +26,8 @@ Kolejna partia 2026-11-06: przejrzano paczkę o pojazdach popkultury i zmieniono
 
 Kolejna partia 2026-11-06: przejrzano paczkę o grach niezależnych i zmieniono 34 rekordy. Szczegóły i ograniczenia, w tym brak niezależnej kontroli subagenta z powodu limitu, podano w raporcie.
 
+Kolejna partia 2026-11-06: przejrzano paczkę biograficzną i zmieniono 50 rekordów. Raport podaje źródła oraz ograniczenia; niezależna kontrola subagenta była niedostępna z powodu limitu.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
