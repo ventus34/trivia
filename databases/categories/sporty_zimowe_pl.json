@@ -19,9 +19,7 @@
       ],
       "answer": "Runda karna",
       "explanation_correct": "W sprincie biathlonowym za każde pudło zawodnik musi pokonać 150 metrów dodatkowego biegu.",
-      "explanation_incorrect": "Dodatkowe naboje (do trzech) są dostępne tylko w konkurencji sztafet.",
-      "last_verified_at": "2026-06-12T15:41:25.874Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W sztafetach można korzystać z dodatkowych nabojów; w sprincie za każde niestrącone pole pokonuje się rundę karną."
     },
     {
       "subcategory": "Narciarstwo alpejskie",
@@ -49,9 +47,7 @@
       ],
       "answer": "Regular",
       "explanation_correct": "Regular oznacza prowadzenie lewą nogą do przodu, co jest przeciwieństwem pozycji goofy (prawa noga z przodu).",
-      "explanation_incorrect": "Goofy to pozycja z prawą nogą z przodu, mongo to nieprawidłowe ustawienie, a duck foot to ustawienie obu stóp na zewnątrz.",
-      "last_verified_at": "2026-06-12T15:40:24.312Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Goofy oznacza prawą nogę z przodu, a duck stance opisuje ustawienie kątów wiązań; „mongo” jest terminem znanym głównie ze skateboardingu."
     },
     {
       "subcategory": "Bobsleje",
@@ -63,10 +59,8 @@
         "Piątka"
       ],
       "answer": "Czwórka",
-      "explanation_correct": "W bobslejach olimpijskich istnieją konkurencje dwójek i czwórek, gdzie czwórka to maksymalna liczba zawodników.",
-      "explanation_incorrect": "Dwójka jest mniejszą załogą, trójka nie występuje w bobslejach olimpijskich, a piątka przekracza dopuszczalną liczbę.",
-      "last_verified_at": "2026-06-12T15:41:47.430Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W olimpijskich bobslejach największa załoga liczy cztery osoby; rywalizuje się również w dwójkach i monobobach.",
+      "explanation_incorrect": "Dwójka jest mniejszą załogą, trójka nie występuje w bobslejach olimpijskich, a piątka przekracza dopuszczalną liczbę."
     },
     {
       "subcategory": "Łyżwiarstwo figurowe",
@@ -85,18 +79,16 @@
     },
     {
       "subcategory": "Hokej na lodzie",
-      "question": "Jaka jest nazwa obszaru przed bramką w hokeju na lodzie, w którym napastnik nie może stać?",
+      "question": "Jak nazywa się wyznaczony obszar lodu bezpośrednio przed bramką hokejową?",
       "options": [
         "Pole bramkowe",
-        "Łuk bramkowy",
-        "Strefa bramkarska",
-        "Koło bramkowe"
+        "Koło środkowe",
+        "Ławka kar",
+        "Strefa neutralna"
       ],
       "answer": "Pole bramkowe",
-      "explanation_correct": "Pole bramkowe (ang. goal crease) to wyznaczony obszar przed bramką, do którego napastnik nie może wjeżdżać bez konsekwencji.",
-      "explanation_incorrect": "Pozostałe terminy nie są oficjalnymi nazwami tego obszaru w przepisach IIHF.",
-      "last_verified_at": "2026-06-12T15:41:47.430Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pole bramkowe to obszar przed bramką, istotny m.in. przy ocenie kontaktu zawodnika z bramkarzem.",
+      "explanation_incorrect": "Koło środkowe, ławka kar i strefa neutralna oznaczają inne miejsca na lodowisku lub przy nim."
     },
     {
       "subcategory": "Skoki narciarskie",
@@ -108,10 +100,8 @@
         "Super duża skocznia"
       ],
       "answer": "Mamucia skocznia",
-      "explanation_correct": "Mamucia skocznia to obiekt o punkcie konstrukcyjnym powyżej 185 m, gdzie rozgrywane są loty narciarskie.",
-      "explanation_incorrect": "Normalna, duża i super duża skocznie mają mniejsze rozmiary – mamucia jest największa.",
-      "last_verified_at": "2026-06-12T15:41:47.430Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Na największych skoczniach, potocznie zwanych mamucimi, rozgrywa się loty narciarskie; klasyfikacja rozmiaru zależy od HS, a nie samego punktu K.",
+      "explanation_incorrect": "Skocznie normalne i duże mają mniejszy rozmiar niż obiekty do lotów."
     },
     {
       "subcategory": "Curling",
@@ -130,7 +120,7 @@
     },
     {
       "subcategory": "Narciarstwo alpejskie",
-      "question": "Jakie są kolory tyczek wyznaczających parzysty set bramek w slalomie alpejskim?",
+      "question": "Jakie dwa kolory mają na przemian bramki w slalomie alpejskim?",
       "options": [
         "Czerwony i niebieski",
         "Niebieski i żółty",
@@ -138,10 +128,8 @@
         "Żółty i czarny"
       ],
       "answer": "Czerwony i niebieski",
-      "explanation_correct": "W slalomie bramki są oznaczone na przemian czerwonymi i niebieskimi tyczkami, zależnie od parzystości setu.",
-      "explanation_incorrect": "Inne kombinacje kolorystyczne nie są stosowane w regulaminie FIS.",
-      "last_verified_at": "2026-06-12T15:41:47.431Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bramki slalomu są na przemian czerwone i niebieskie.",
+      "explanation_incorrect": "Pozostałe pary nie odpowiadają standardowemu oznaczeniu bramek slalomu."
     },
     {
       "subcategory": "Bandy",
@@ -175,18 +163,16 @@
     },
     {
       "subcategory": "Snowboarding",
-      "question": "Jaki rodzaj wiązań snowboardowych nie posiada tylnej części (highbacku)?",
+      "question": "Jak nazywa się rodzaj wiązań snowboardowych, do których but wpina się mechanizmem bez zapinania tradycyjnych pasków?",
       "options": [
         "Step-in",
-        "Tradycyjne",
-        "Hybrydowe",
-        "Bindingi wpuszczane"
+        "Wiązania paskowe",
+        "Klamry alpejskie",
+        "Raki"
       ],
       "answer": "Step-in",
-      "explanation_correct": "Wiązania step-in umożliwiają szybkie wejście w wiązanie i nie mają wysokiego tyłu, w przeciwieństwie do tradycyjnych.",
-      "explanation_incorrect": "Tradycyjne wiązania mają highback, hybrydowe mogą go posiadać, a bindingi wpuszczane to odmiana step-in, ale termin step-in jest tu właściwy.",
-      "last_verified_at": "2026-06-12T15:41:47.432Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiązania step-in wykorzystują mechanizm zatrzaskowy dopasowany do buta. Niektóre modele mają highback.",
+      "explanation_incorrect": "Wiązania paskowe zapina się paskami; raki służą do poruszania się po lodzie i śniegu."
     },
     {
       "subcategory": "Skoki narciarskie",
@@ -229,24 +215,20 @@
       ],
       "answer": "Power play",
       "explanation_correct": "Power play to sytuacja, w której drużyna gra w przewadze liczebnej (np. 5 na 4) przez czas kary przeciwnika.",
-      "explanation_incorrect": "Game misconduct to kara meczu, penalty shot to rzut karny, a icing to zagranie poza linię.",
-      "last_verified_at": "2026-06-12T15:41:47.432Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Game misconduct to kara wykluczenia do końca meczu, penalty shot to rzut karny, a icing oznacza uwolnienie."
     },
     {
       "subcategory": "Saneczkarstwo",
-      "question": "Jak nazywa się miejsce startu zawodnika w saneczkarstwie?",
+      "question": "Za co saneczkarz chwyta przed rozpoczęciem ślizgu na sztucznym torze?",
       "options": [
         "Uchwyty startowe",
         "Rękawice startowe",
-        "Barierki startowe",
-        "Rynny startowe"
+        "Kijki narciarskie",
+        "Bramkę slalomową"
       ],
       "answer": "Uchwyty startowe",
       "explanation_correct": "Zawodnicy startują, chwytając się uchwytów startowych, które umożliwają dynamiczny początek ślizgu.",
-      "explanation_incorrect": "Pozostałe terminy nie odnoszą się do elementów toru saneczkarskiego.",
-      "last_verified_at": "2026-06-12T15:41:47.432Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kijki i bramki należą do innych konkurencji, a rękawice są częścią ubioru."
     },
     {
       "subcategory": "Curling",
@@ -258,25 +240,21 @@
         "Draw"
       ],
       "answer": "Hammer",
-      "explanation_correct": "Hammer to ostatni kamień drużyny w endzie, co daje jej strategiczną przewagę.",
-      "explanation_incorrect": "Stone to ogólna nazwa kamienia, guard to kamień ochronny, a draw to rodzaj rzutu.",
-      "last_verified_at": "2026-06-12T15:41:47.433Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hammer oznacza przywilej wykonania ostatniego rzutu w endzie, który daje drużynie przewagę taktyczną.",
+      "explanation_incorrect": "Stone to ogólna nazwa kamienia, guard to kamień ochronny, a draw to rodzaj rzutu."
     },
     {
       "subcategory": "Narciarstwo dowolne",
-      "question": "Która konkurencja narciarstwa dowolnego polega na wykonywaniu akrobacji z dużych skoczni?",
+      "question": "Jak nazywa się konkurencja narciarstwa dowolnego, w której zawodnicy wykonują ewolucje z profilu zwanego kickerem i oceniani są za wykonanie skoku?",
       "options": [
-        "Skoki akrobatyczne",
+        "Skoki akrobatyczne (aerials)",
         "Jazda po muldach",
-        "Slopestyle",
-        "Big air"
+        "Skicross",
+        "Bieg slalomowy"
       ],
-      "answer": "Skoki akrobatyczne",
-      "explanation_correct": "Skoki akrobatyczne (ang. aerials) to konkurencja, w której zawodnicy wykonują ewolucje z dużych skoczni.",
-      "explanation_incorrect": "Mogą być podobne, ale slopestyle łączy różne elementy, a big air to skoki na odległość.",
-      "last_verified_at": "2026-06-12T15:41:47.433Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Skoki akrobatyczne (aerials)",
+      "explanation_correct": "W skokach akrobatycznych (aerials) zawodnicy wykonują oceniane ewolucje po wybiciu ze skoczni.",
+      "explanation_incorrect": "Slopestyle obejmuje zestaw przeszkód, a w big air również wykonuje się oceniane akrobacje; to odrębna konkurencja."
     },
     {
       "subcategory": "Łyżwiarstwo szybkie",
@@ -318,10 +296,8 @@
         "Pachołek"
       ],
       "answer": "Bramka",
-      "explanation_correct": "W narciarstwie alpejskim zawodnicy muszą pokonać trasę wyznaczoną przez bramki – pary tyczek z flagami, przez które należy przejechać.",
-      "explanation_incorrect": "Słupek, flaga i pachołek to ogólne określenia znaczników, ale w alpejskich zawodach nazywa się je właśnie bramkami.",
-      "last_verified_at": "2026-06-12T15:41:47.433Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W narciarstwie alpejskim zawodnik musi prawidłowo pokonać wyznaczone bramki. Ich konstrukcja różni się zależnie od konkurencji.",
+      "explanation_incorrect": "Słupek, flaga i pachołek to ogólne określenia znaczników, ale w alpejskich zawodach nazywa się je właśnie bramkami."
     },
     {
       "subcategory": "Hokej na lodzie",
@@ -340,7 +316,7 @@
     },
     {
       "subcategory": "Skoki narciarskie",
-      "question": "Jak określa się punkt na skoczni narciarskiej który wyznacza jej rozmiar i odległość do uzyskania?",
+      "question": "Jak nazywa się punkt na zeskoku skoczni, który stanowi punkt odniesienia do obliczenia noty za odległość?",
       "options": [
         "Punkt K",
         "Punkt HS",
@@ -348,10 +324,8 @@
         "Punkt lądowania"
       ],
       "answer": "Punkt K",
-      "explanation_correct": "Punkt K (krytyczny) to linia na zeskoku oznaczająca docelową odległość skoczni, od której uzależnione są noty za odległość.",
-      "explanation_incorrect": "Punkt HS to punkt oddalenia (hill size), punkt startowy to belka startowa, a punkt lądowania to miejsce na zeskoku – ale to punkt K jest tym kluczowym.",
-      "last_verified_at": "2026-06-12T15:41:47.434Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Punkt K jest punktem konstrukcyjnym i odniesieniem punktacji za odległość. Rozmiar skoczni opisuje odrębny parametr HS.",
+      "explanation_incorrect": "HS określa rozmiar skoczni; belka i miejsce lądowania nie są punktem konstrukcyjnym."
     },
     {
       "subcategory": "Snowboarding",
@@ -370,7 +344,7 @@
     },
     {
       "subcategory": "Biathlon",
-      "question": "Który bieg w biathlonie składa się z czterech strzelań, a zwycięzca ma najlepszy czas netto?",
+      "question": "W której konkurencji biathlonowej zawodnicy startują pojedynczo, strzelają cztery razy i otrzymują karę czasową za pudła?",
       "options": [
         "Bieg indywidualny",
         "Sprint",
@@ -378,10 +352,8 @@
         "Bieg masowy"
       ],
       "answer": "Bieg indywidualny",
-      "explanation_correct": "W biegu indywidualnym zawodnicy strzelają cztery razy (dwukrotnie leżąc i dwukrotnie stojąc), a za każde pudło dostają minutę kary.",
-      "explanation_incorrect": "Sprint ma dwa strzelania, bieg pościgowy cztery ale startuje z handicapem, a bieg masowy też cztery, ale start jest wspólny.",
-      "last_verified_at": "2026-06-12T15:41:47.434Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W biegu indywidualnym zawodnicy mają cztery strzelania, a za nietrafione cele dolicza się czas karny; jego wysokość zależy od formatu.",
+      "explanation_incorrect": "Sprint ma dwa strzelania; pościg i bieg masowy mają cztery, ale za pudła biega się rundy karne."
     },
     {
       "subcategory": "Short track",
@@ -400,18 +372,16 @@
     },
     {
       "subcategory": "Skeleton",
-      "question": "W skeletonie, w jaki sposób zawodnik steruje saniami podczas jazdy?",
+      "question": "W jaki sposób zawodnik steruje skeletonem na torze?",
       "options": [
-        "Nacisk ramion",
-        "Ruchy nóg",
-        "Przechylenie głowy",
-        "Użycie linek"
+        "Subtelnymi ruchami ciała i naciskiem",
+        "Kierownicą",
+        "Wiosłem",
+        "Kijkami narciarskimi"
       ],
-      "answer": "Nacisk ramion",
-      "explanation_correct": "W skeletonie zawodnik leży na brzuchu i steruje saniami poprzez naciskanie ramionami na boki – to zmienia kierunek jazdy.",
-      "explanation_incorrect": "Ruchy nóg są ograniczone i nie służą do sterowania, przechylenie głowy ma minimalny wpływ, a linki sterownicze są używane w bobslejach, nie w skeletonie.",
-      "last_verified_at": "2026-06-12T15:41:47.434Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Subtelnymi ruchami ciała i naciskiem",
+      "explanation_correct": "Skeletonista steruje drobnymi zmianami nacisku i położenia ciała na saniach.",
+      "explanation_incorrect": "Skeleton nie ma samochodowej kierownicy, a wiosła i kijki nie służą do sterowania."
     },
     {
       "subcategory": "Curling",
@@ -439,24 +409,20 @@
       ],
       "answer": "Parafina",
       "explanation_correct": "Parafina to specjalny wosk nakładany na ślizg nart, który zmniejsza tarcie i poprawia poślizg na śniegu.",
-      "explanation_incorrect": "Żywica i silikon nie są używane do nart alpejskich, a wosk pszczeli nie ma odpowiednich właściwości smarnych.",
-      "last_verified_at": "2026-06-12T15:41:47.435Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Różne preparaty do nart mają różny skład; parafinowe woski ślizgowe są jednym z używanych rozwiązań."
     },
     {
       "subcategory": "Hokej na lodzie",
-      "question": "Jak w hokeju na lodzie nazywa się formacja składająca się z trzech napastników?",
+      "question": "Ilu napastników tworzy standardową formację złożoną ze środkowego i dwóch skrzydłowych w hokeju na lodzie?",
       "options": [
-        "Atak",
-        "Formacja",
-        "Linia",
-        "Sektor"
+        "Trzech",
+        "Dwóch",
+        "Czterech",
+        "Pięciu"
       ],
-      "answer": "Atak",
-      "explanation_correct": "W hokeju na lodzie formacja trzech napastników to atak (lub formacja ataku), która wspólnie porusza się po lodzie.",
-      "explanation_incorrect": "Formacja to ogólne określenie, linia jest używana, ale oficjalnie w przepisach mówi się 'atak' jako grupa napastników.",
-      "last_verified_at": "2026-06-12T15:41:47.435Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Trzech",
+      "explanation_correct": "Trójka ataku obejmuje zwykle środkowego i dwóch skrzydłowych.",
+      "explanation_incorrect": "W typowej formacji ofensywnej występuje trzech napastników."
     },
     {
       "subcategory": "Skoki narciarskie",
@@ -499,39 +465,33 @@
       ],
       "answer": "Alpine",
       "explanation_correct": "Deski typu alpine (twarde) są długie, wąskie i sztywne, przeznaczone do szybkich zjazdów na trasach slalomowych i gigantowych.",
-      "explanation_incorrect": "Freestyle to miękkie deski do tricków, freeride do jazdy w puchu, all-mountain uniwersalne – ale alpine to jedyny typ używany w slalomie.",
-      "last_verified_at": "2026-06-12T15:41:47.436Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Deski freestyle, freeride i all-mountain są projektowane do innych zastosowań; dobór sprzętu może jednak różnić się między zawodnikami."
     },
     {
       "subcategory": "Biegi narciarskie",
-      "question": "Jak nazywa się pojazd używany do przygotowywania i wygładzania tras biegowych?",
+      "question": "Jak nazywa się gąsienicowa maszyna używana do wyrównywania tras narciarskich?",
       "options": [
-        "Ratraki",
-        "Skuter śnieżny",
-        "Arcteryx",
-        "Groomer"
+        "Ratrak",
+        "Łódź motorowa",
+        "Zamboni do lodu",
+        "Kombajn zbożowy"
       ],
-      "answer": "Ratraki",
-      "explanation_correct": "Ratraki to gąsienicowe maszyny, które wygładzają i profilują trasy narciarskie biegowe oraz zjazdowe.",
-      "explanation_incorrect": "Skuter śnieżny służy do transportu, Arcteryx to marka odzieży, a groomer to anglojęzyczne określenie tej samej maszyny; w Polsce powszechnie używa się słowa 'ratraki'.",
-      "last_verified_at": "2026-06-12T15:41:47.436Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ratrak",
+      "explanation_correct": "Ratrak wyrównuje i przygotowuje śnieg na trasach narciarskich; po angielsku bywa nazywany snow groomer.",
+      "explanation_incorrect": "Pozostałe maszyny mają inne zastosowania."
     },
     {
       "subcategory": "Saneczkarstwo",
-      "question": "Jak nazywa się tor lodowy, którym zjeżdżają saneczkarze?",
+      "question": "Jak nazywa się dyscyplina, w której zawodnicy zjeżdżają po torze lodowym na plecach, nogami do przodu?",
       "options": [
-        "Rynna lodowa",
-        "Trasa zjazdowa",
-        "Korytarz lodowy",
-        "Tor saneczkowy"
+        "Saneczkarstwo",
+        "Skeleton",
+        "Curling",
+        "Łyżwiarstwo figurowe"
       ],
-      "answer": "Rynna lodowa",
-      "explanation_correct": "Rynna lodowa to sztucznie mrożony tor o kształcie rynny, po którym ślizgają się sanki (saneczkarstwo, skeleton, bobsleje).",
-      "explanation_incorrect": "Trasa zjazdowa to ogólne określenie, korytarz lodowy nie jest standardowym terminem, a tor saneczkowy jest poprawny, ale w sportach lodowych mówi się właśnie 'rynna'.",
-      "last_verified_at": "2026-06-12T15:41:47.436Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Saneczkarstwo",
+      "explanation_correct": "W saneczkarstwie sportowym zawodnik leży na plecach, nogami do przodu.",
+      "explanation_incorrect": "W skeletonie zawodnik jedzie na brzuchu głową do przodu; pozostałe dyscypliny nie polegają na takim ślizgu."
     },
     {
       "subcategory": "Bobsleje",
@@ -543,29 +503,25 @@
         "Pedal"
       ],
       "answer": "Linki sterownicze",
-      "explanation_correct": "W bobslejach sternik steruje poprzez delikatne pociąganie linek (linki sterownicze) poruszających przednimi płozami.",
-      "explanation_incorrect": "Kierownica, drążek i pedal to nie elementy bobsleja – system oparty jest na linkach, a nie sztywnym połączeniu.",
-      "last_verified_at": "2026-06-12T15:41:47.436Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W bobslejach pilot kieruje pojazdem za pomocą linek połączonych z mechanizmem sterującym przednimi płozami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie opisują typowego linkowego układu sterowania boba."
     },
     {
       "subcategory": "Biathlon",
-      "question": "W jaki sposób sędziowie biathlonowi automatycznie mierzą czas zawodników na punktach pomiarowych?",
+      "question": "Jakie urządzenie noszone przez zawodnika może służyć do automatycznego identyfikowania go na punktach pomiaru czasu w biathlonie?",
       "options": [
-        "Przez transponder na nodze",
-        "Przez fotokomórkę w karabinie",
-        "Przez GPS w nartach",
-        "Przez radar ręczny"
+        "Transponder",
+        "Barometr",
+        "Kompas",
+        "Termometr"
       ],
-      "answer": "Przez transponder na nodze",
-      "explanation_correct": "Transpondery radiowe przypięte do nogi zawodnika wysyłają sygnał do pętli indukcyjnych na trasie, co pozwala na precyzyjny pomiar czasu.",
-      "explanation_incorrect": "Fotokomórki mierzą start i metę, ale transpondery są niezbędne do śledzenia zawodnika na całej trasie.",
-      "last_verified_at": "2026-06-12T15:43:02.534Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Transponder",
+      "explanation_correct": "Transponder może identyfikować zawodnika w elektronicznym systemie pomiaru czasu.",
+      "explanation_incorrect": "Barometr, kompas i termometr służą do innych pomiarów."
     },
     {
       "subcategory": "Hokej na lodzie",
-      "question": "Jak w hokeju na lodzie nazywa się sytuacja, gdy zawodnik wyrzuca krążek z własnej strefy obrony poza linię końcową przeciwnika bez ingerencji?",
+      "question": "Jak nazywa się w hokeju sytuacja wybicia krążka z własnej połowy za linię bramkową przeciwnika, gdy spełnione są warunki przerwania gry?",
       "options": [
         "Uwolnienie",
         "Spalony",
@@ -573,14 +529,12 @@
         "Aut"
       ],
       "answer": "Uwolnienie",
-      "explanation_correct": "Uwolnienie (icing) to sytuacja, gdy drużyna broniąca wybija krążek z własnej połowy za linię bramkową przeciwnika, co powoduje wznowienie w jej strefie obrony.",
-      "explanation_incorrect": "Spalony dotyczy pozycji napastników, przejście to neutralna gra, a aut nie jest terminem hokejowym – poprawnie to uwolnienie.",
-      "last_verified_at": "2026-06-12T15:41:47.437Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Uwolnienie (icing) zależy od szczegółowych przepisów, w tym linii środkowej, bramkowej i możliwych wyjątków.",
+      "explanation_incorrect": "Spalony dotyczy wejścia do strefy ataku; uwolnienie jest innym przewinieniem."
     },
     {
       "subcategory": "Curling",
-      "question": "Jak w curlingu nazywa się pojedyncza część gry (partia), w której każda drużyna wyrzuca po osiem kamieni?",
+      "question": "Jak w curlingu nazywa się część meczu czteroosobowych drużyn, w której każda z nich zagrywa po osiem kamieni?",
       "options": [
         "End",
         "Runda",
@@ -588,25 +542,21 @@
         "Kolejka"
       ],
       "answer": "End",
-      "explanation_correct": "W curlingu mecz dzieli się na endy – w każdym endzie obie drużyny wykonują po osiem rzutów, a po zakończeniu endu liczone są punkty.",
-      "explanation_incorrect": "Runda, set i kolejka to określenia z innych sportów; w curlingu standardowo używa się terminu 'end'.",
-      "last_verified_at": "2026-06-12T15:41:47.437Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W tradycyjnym curlingu drużyn czteroosobowych end obejmuje po osiem kamieni na drużynę; w mikście obowiązują inne zasady.",
+      "explanation_incorrect": "Pozostałe terminy nie są nazwą endu w tym pytaniu."
     },
     {
       "subcategory": "Skoki narciarskie",
-      "question": "Jak nazywa się przyrząd do mierzenia siły wiatru używany na skoczni narciarskiej?",
+      "question": "Jak nazywa się przyrząd do pomiaru prędkości wiatru używany na skoczni narciarskiej?",
       "options": [
         "Anemometr",
-        "Wiatromierz",
         "Barometr",
-        "Higrometr"
+        "Higrometr",
+        "Termometr"
       ],
       "answer": "Anemometr",
       "explanation_correct": "Anemometr to urządzenie pomiarowe służące do określania prędkości wiatru, niezbędne na skoczniach do oceny warunków przed skokiem.",
-      "explanation_incorrect": "Wiatromierz to potoczna nazwa, ale profesjonalnie używa się terminu 'anemometr'; barometr mierzy ciśnienie, a higrometr wilgotność powietrza.",
-      "last_verified_at": "2026-06-12T15:41:47.437Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Barometr mierzy ciśnienie, higrometr wilgotność, a termometr temperaturę. Anemometr jest także nazywany wiatromierzem."
     },
     {
       "subcategory": "Skoki narciarskie",
@@ -625,22 +575,20 @@
     },
     {
       "subcategory": "Biathlon",
-      "question": "Który producent dostarcza systemy spustowe i lufy do większości karabinów używanych w Pucharze Świata w biathlonie?",
+      "question": "Jakiego kalibru amunicji używa się w standardowym biathlonie zimowym?",
       "options": [
-        "Anschütz",
-        "Remington",
-        "Beretta",
-        "Glock"
+        ".22 LR",
+        "9 mm Parabellum",
+        "12 gauge",
+        "5,56 × 45 mm"
       ],
-      "answer": "Anschütz",
-      "explanation_correct": "Niemiecka firma Anschütz dominuje na rynku biathlonowym – szacuje się, że około 95% zawodników używa ich systemów.",
-      "explanation_incorrect": "Glock i Beretta słyną z pistoletów, a Remington nie specjalizuje się w wyczynowych karabinach do biathlonu zimowego.",
-      "last_verified_at": "2026-06-12T15:43:02.534Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": ".22 LR",
+      "explanation_correct": "W biathlonie używa się karabinu małokalibrowego i amunicji .22 Long Rifle.",
+      "explanation_incorrect": "Pozostałe naboje nie są standardową amunicją karabinu biathlonowego."
     },
     {
       "subcategory": "Narciarstwo alpejskie",
-      "question": "Jaka jest nazwa najbardziej stromej i niebezpiecznej części kultowej trasy narciarskiej Streif w Kitzbühel?",
+      "question": "Jak nazywa się słynny stromy odcinek trasy Streif w Kitzbühel, którego nazwa oznacza pułapkę na myszy?",
       "options": [
         "Mausefalle",
         "Steilhang",
@@ -649,24 +597,20 @@
       ],
       "answer": "Mausefalle",
       "explanation_correct": "Mausefalle (pułapka na myszy) to ikoniczny, stromy odcinek trasy Streif, który zawodnicy pokonują z dużą prędkością i ryzykiem.",
-      "explanation_incorrect": "Steilhang i Zielschuß to inne partie stoku, a Hahnenkamm to nazwa całej góry, nie konkretnego odcinka.",
-      "last_verified_at": "2026-06-12T15:41:47.437Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Steilhang i Zielschuß to inne partie stoku, a Hahnenkamm to nazwa całej góry, nie konkretnego odcinka."
     },
     {
       "subcategory": "Curling",
-      "question": "Jak w curlingu nazywa się centralny punkt tarczy (house), który jest celem umieszczenia kamienia?",
+      "question": "Jak nazywa się środek domu (tarczy) w curlingu?",
       "options": [
         "Guzik",
-        "Środek",
-        "Bull’s eye",
-        "Punkt centralny"
+        "Linia spalonego",
+        "Ławka kar",
+        "Punkt K"
       ],
       "answer": "Guzik",
-      "explanation_correct": "Guzik (button) to określenie samego środka tarczy curlingowej, zdobycie na nim kamienia daje najwięcej punktów.",
-      "explanation_incorrect": "Środek i punkt centralny są opisowe, ale nie są terminami technicznymi w curlingu. Bull’s eye to termin z rzutek, nie z curlingu.",
-      "last_verified_at": "2026-06-12T15:41:47.438Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Guzik (button) to środek domu. Punkty zależą od liczby kamieni bliższych środka niż najbliższy kamień przeciwnika.",
+      "explanation_incorrect": "Pozostałe określenia odnoszą się do innych sportów lub obiektów."
     },
     {
       "subcategory": "Hokej na lodzie",
@@ -678,14 +622,12 @@
         "Złoty Puchar"
       ],
       "answer": "Puchar Stanleya",
-      "explanation_correct": "Puchar Stanleya to najstarsze i najbardziej prestiżowe trofeum w sporcie, przyznawane zwycięzcy playoffów NHL.",
-      "explanation_incorrect": "Puchar Prezydenta jest nagrodą dla zwycięzcy sezonu zasadniczego, a pozostałe opcje nie są związane z NHL.",
-      "last_verified_at": "2026-06-12T15:41:47.438Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Puchar Stanleya otrzymuje zwycięzca fazy play-off NHL; trofeum ma historię sięgającą XIX wieku.",
+      "explanation_incorrect": "Puchar Prezydenta jest nagrodą dla zwycięzcy sezonu zasadniczego, a pozostałe opcje nie są związane z NHL."
     },
     {
       "subcategory": "Łyżwiarstwo figurowe",
-      "question": "Jaki skok w łyżwiarstwie figurowym wykonywany jest z krawędzi zewnętrznej tylnej nogi, po długim najazdzie tyłem?",
+      "question": "Który skok łyżwiarski zaczyna się z tylnej zewnętrznej krawędzi, z odbiciem ząbkami drugiej łyżwy i przeciwrotacją?",
       "options": [
         "Axel",
         "Toe loop",
@@ -693,10 +635,8 @@
         "Salchow"
       ],
       "answer": "Lutz",
-      "explanation_correct": "Lutz charakteryzuje się najazdem tyłem na zewnętrznej krawędzi i odbiciem bez pomocy zębów, co czyni go jednym z trudniejszych skoków.",
-      "explanation_incorrect": "Axel i Toe loop mają inne krawędzie i mechanikę, a Salchow wykonywany jest z wewnętrznej krawędzi.",
-      "last_verified_at": "2026-06-12T15:41:47.438Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lutz to skok z tylnej zewnętrznej krawędzi, z odbiciem wspomaganym ząbkami drugiej łyżwy.",
+      "explanation_incorrect": "Salchow jest skokiem krawędziowym; axel i toe loop mają inną technikę odbicia."
     },
     {
       "subcategory": "Snowboarding",
@@ -709,39 +649,33 @@
       ],
       "answer": "Halfpipe",
       "explanation_correct": "Halfpipe to konkurencja polegająca na jeździe po specjalnie ukształtowanej, półokrągłej rynnie, w której snowboardziści wykonują akrobacje.",
-      "explanation_incorrect": "Slopestyle odbywa się na torze z przeszkodami, Big air polega na skokach z progu, a Boardercross to wyścig równoległy.",
-      "last_verified_at": "2026-06-12T15:41:47.438Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Slopestyle wykorzystuje przeszkody, big air pojedynczą skocznię, a snowboardcross to wyścig kilku zawodników."
     },
     {
       "subcategory": "Saneczkarstwo",
-      "question": "W jakiej części sanek sportowych (saneczkarstwo lodowe) spoczywa ciało zawodnika podczas ślizgu?",
+      "question": "Na jakiej części sanek saneczkarz leży podczas przejazdu?",
       "options": [
-        "W kołysce",
-        "Na płozach",
-        "Na pomoście",
-        "W kokpicie"
+        "Na siedzisku lub powłoce sanek",
+        "Na łyżwach",
+        "Na desce snowboardowej",
+        "Na kiju hokejowym"
       ],
-      "answer": "W kołysce",
-      "explanation_correct": "Kołyska (ang. shell) to aerodynamiczne siedzisko, w którym saneczkarz leży na plecach.",
-      "explanation_incorrect": "Płozy to elementy jezdne, a kokpit to termin lotniczy bądź samochodowy.",
-      "last_verified_at": "2026-06-12T15:43:02.534Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Na siedzisku lub powłoce sanek",
+      "explanation_correct": "Saneczkarz leży na siedzisku lub powłoce sanek, z nogami skierowanymi do przodu.",
+      "explanation_incorrect": "Łyżwy, deska i kij nie są siedziskiem sanek."
     },
     {
       "subcategory": "Biegi narciarskie",
-      "question": "Jaką techniką w biegach narciarskich, zwaną często krokiem łyżwowym, poruszają się zawodnicy?",
+      "question": "Jak nazywa się technika biegu narciarskiego, w której zawodnik odbija się nartami na boki podobnie jak łyżwiarz?",
       "options": [
-        "Styl klasyczny",
-        "Styl dowolny",
-        "Styl łyżwowy",
-        "Styl kombinowany"
+        "Technika łyżwowa",
+        "Technika klasyczna naprzemianstronna",
+        "Telemark",
+        "Styl grzbietowy"
       ],
-      "answer": "Styl dowolny",
-      "explanation_correct": "Styl dowolny to technika pozwalająca na odbijanie się nartami na kształt łyżew, co jest szybsze niż styl klasyczny.",
-      "explanation_incorrect": "Styl klasyczny to technika naprzemienna, a styl łyżwowy i kombinowany nie są oficjalnymi nazwami w biegach narciarskich.",
-      "last_verified_at": "2026-06-12T15:41:47.439Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Technika łyżwowa",
+      "explanation_correct": "Technika łyżwowa jest często używana w biegach rozgrywanych stylem dowolnym; przepisy stylu dowolnego dopuszczają też techniki klasyczne.",
+      "explanation_incorrect": "Technika klasyczna naprzemianstronna, telemark i styl grzbietowy oznaczają inne sposoby poruszania się."
     },
     {
       "subcategory": "Kombinacja norweska",
@@ -763,15 +697,13 @@
       "question": "Jak w bobslejach określa się członka załogi odpowiedzialnego za uruchomienie hamulca?",
       "options": [
         "Pilot",
-        "Breakman",
+        "Hamulcowy (brakeman)",
         "Balast",
-        "Refree"
+        "Sędzia"
       ],
-      "answer": "Breakman",
-      "explanation_correct": "Breakman (hamulcowy) to zawodnik siedzący z tyłu boba, który po zakończeniu przejazdu aktywuje hamulec, aby zatrzymać sanie.",
-      "explanation_incorrect": "Pilot to prowadzący, balast to obciążenie, a refree nie jest terminem z bobslejów.",
-      "last_verified_at": "2026-06-12T15:41:47.439Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Hamulcowy (brakeman)",
+      "explanation_correct": "Hamulcowy, po angielsku brakeman, obsługuje hamulec po przejechaniu mety.",
+      "explanation_incorrect": "Pilot kieruje bobem; balast jest obciążeniem, a sędzia nie należy do załogi."
     },
     {
       "subcategory": "Skeleton",
@@ -805,18 +737,16 @@
     },
     {
       "subcategory": "Short track",
-      "question": "Jaki element ochronny nakładają na dłonie zawodnicy short tracku, aby zapobiec urazom od ostrzy łyżew?",
+      "question": "Jaką funkcję pełnią odporne na przecięcie rękawice zawodnika short tracku?",
       "options": [
-        "Rękawice z plastikiem",
-        "Kevlarowe ochraniacze",
-        "Skórzane rękawice",
-        "Piankowe ochraniacze"
+        "Chronią dłonie przed przecięciem",
+        "Mierzą czas",
+        "Zastępują kask",
+        "Służą do sterowania sankami"
       ],
-      "answer": "Rękawice z plastikiem",
-      "explanation_correct": "Rękawice z plastikiem (lub kevlarowe) chronią dłonie przed przecięciami i otarciami podczas wyprzedzania i upadków na lodzie.",
-      "explanation_incorrect": "Kevlarowe ochraniacze są używane, ale nie są jedyną opcją; skórzane i piankowe nie zapewniają wystarczającej ochrony przed ostrzami.",
-      "last_verified_at": "2026-06-12T15:41:47.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Chronią dłonie przed przecięciem",
+      "explanation_correct": "Rękawice odporne na przecięcie chronią dłonie m.in. przed ostrzami łyżew.",
+      "explanation_incorrect": "Pomiar czasu, ochrona głowy i sterowanie sankami to inne funkcje."
     },
     {
       "subcategory": "Skoki narciarskie",
@@ -843,40 +773,34 @@
         "Polerowanie"
       ],
       "answer": "Zamiatanie",
-      "explanation_correct": "Zamiatanie polega na energicznym pocieraniu lodu szczotkami przed kamieniem, co powoduje topnienie lodu i zmniejsza tarcie.",
-      "explanation_incorrect": "Rzucanie to puszczenie kamienia, a czyszczenie i polerowanie nie są terminami curlingowymi związanymi z tą czynnością.",
-      "last_verified_at": "2026-06-12T15:41:47.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zamiatanie szczotką wpływa na tarcie i powierzchnię lodu, a tym samym na prędkość i tor kamienia; mechanizm nie sprowadza się wyłącznie do prostego topnienia lodu.",
+      "explanation_incorrect": "Rzucanie to puszczenie kamienia, a czyszczenie i polerowanie nie są terminami curlingowymi związanymi z tą czynnością."
     },
     {
       "subcategory": "Hokej na lodzie",
       "question": "Jaki przedmiot w hokeju na lodzie zastępuje piłkę i jest uderzany przez zawodników kijami?",
       "options": [
         "Krążek",
-        "Gumowy dysk",
-        "Puck",
-        "Hokejka"
+        "Piłka tenisowa",
+        "Kamień curlingowy",
+        "Lotka"
       ],
       "answer": "Krążek",
       "explanation_correct": "Krążek (puck) to gumowy, twardy dysk, który stanowi obiekt gry w hokeju na lodzie.",
-      "explanation_incorrect": "Gumowy dysk i puck to synonimy, ale 'krążek' jest oficjalną polską nazwą. Hokejka to kij.",
-      "last_verified_at": "2026-06-12T15:41:47.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Piłka, kamień i lotka należą do innych gier. Krążek jest także nazywany po angielsku puck."
     },
     {
       "subcategory": "Łyżwiarstwo szybkie",
-      "question": "Jak nazywa się tor w łyżwiarstwie szybkim o długości 400 metrów, na którym odbywają się zawody na dłuższych dystansach?",
+      "question": "Jak długi jest standardowy tor do łyżwiarstwa szybkiego na długim torze?",
       "options": [
-        "Tor długi",
-        "Tor krótki",
-        "Tor standardowy",
-        "Owalny"
+        "400 metrów",
+        "100 metrów",
+        "1000 metrów",
+        "10 kilometrów"
       ],
-      "answer": "Tor długi",
-      "explanation_correct": "Tor długi to standardowy tor do łyżwiarstwa szybkiego o długości 400 metrów, zazwyczaj z dwoma prostymi i dwoma łukami.",
-      "explanation_incorrect": "Tor krótki odnosi się do short tracku, a standardowy i owalny to opisy, a nie oficjalne nazwy.",
-      "last_verified_at": "2026-06-12T15:41:47.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "400 metrów",
+      "explanation_correct": "Standardowy owal do łyżwiarstwa szybkiego ma długość okrążenia 400 metrów.",
+      "explanation_incorrect": "Pozostałe wartości nie są długością standardowego okrążenia długiego toru."
     },
     {
       "subcategory": "Narciarstwo klasyczne",
@@ -895,7 +819,7 @@
     },
     {
       "subcategory": "Skialpinizm",
-      "question": "Jaki materiał mocuje się pod nartami w skialpinizmie, aby ułatwić podejście pod górę bez poslizgu?",
+      "question": "Jak nazywają się pasy mocowane pod nartami skiturowymi, które zapobiegają zsuwaniu się podczas podejścia?",
       "options": [
         "Foki",
         "Ślizgi",
@@ -903,10 +827,8 @@
         "Korek"
       ],
       "answer": "Foki",
-      "explanation_correct": "Foki (skins) to naklejane pasy z mikrofibry lub syntetyku, które zapewniają przyczepność podczas podchodzenia, a po zdjęciu umożliwiają zjazd.",
-      "explanation_incorrect": "Ślizgi to elementy smarne, paski to ogólniejsze pojęcie, a korek nie jest materiałem używanym w tym celu.",
-      "last_verified_at": "2026-06-12T15:41:47.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Foki to pasy o kierunkowym włosiu, np. syntetycznym lub moherowym, ułatwiające podejście na nartach.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą tych pasów."
     },
     {
       "subcategory": "Skoki narciarskie",
@@ -940,78 +862,68 @@
     },
     {
       "subcategory": "Łyżwiarstwo szybkie",
-      "question": "Która konkurencja w łyżwiarstwie szybkim polega na jeździe drużynowej na dochodzenie?",
+      "question": "Jak nazywa się w łyżwiarstwie szybkim konkurencja team pursuit?",
       "options": [
-        "Bieg drużynowy",
-        "Sztafeta",
+        "Bieg drużynowy na dochodzenie",
         "Bieg masowy",
-        "Drużynówka"
+        "Slalom gigant",
+        "Skeleton"
       ],
-      "answer": "Bieg drużynowy",
-      "explanation_correct": "Bieg drużynowy to konkurencja, w której dwie trzyosobowe drużyny startują z przeciwnych stron i ścigają się na dystansie.",
-      "explanation_incorrect": "Sztafeta występuje w short tracku, bieg masowy to wyścig ze startu wspólnego, a drużynówka to potoczna nazwa tej samej konkurencji.",
-      "last_verified_at": "2026-06-12T15:41:47.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bieg drużynowy na dochodzenie",
+      "explanation_correct": "W biegu drużynowym na dochodzenie rywalizują zespoły startujące z przeciwnych stron toru.",
+      "explanation_incorrect": "Pozostałe odpowiedzi to inne konkurencje lub dyscypliny."
     },
     {
       "subcategory": "Hokej na lodzie",
-      "question": "Jak nazywa się moment w hokeju na lodzie, gdy sędzia wznowi grę po przerwie?",
+      "question": "Jak nazywa się po angielsku wznowienie gry w hokeju, gdy sędzia wrzuca krążek między zawodników?",
       "options": [
-        "Wznowienie",
-        "Buly",
         "Face-off",
-        "Start"
+        "Icing",
+        "Power play",
+        "Penalty shot"
       ],
-      "answer": "Wznowienie",
-      "explanation_correct": "Wznowienie to oficjalny termin określający moment rozpoczęcia gry przez sędziego po wrzuceniu krążka.",
-      "explanation_incorrect": "Buly to zapożyczenie z angielskiego, face-off to angielski odpowiednik, a start jest zbyt ogólny.",
-      "last_verified_at": "2026-06-12T15:41:47.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Face-off",
+      "explanation_correct": "Face-off to wznowienie gry, po polsku nazywane też buli.",
+      "explanation_incorrect": "Icing to uwolnienie, power play to gra w przewadze, a penalty shot to rzut karny."
     },
     {
       "subcategory": "Snowboarding",
-      "question": "Która konkurencja snowboardowa rozgrywana jest z dwoma zawodnikami jadącymi obok siebie?",
+      "question": "Która konkurencja snowboardowa polega na pojedynku dwóch zawodników na równoległych trasach slalomowych?",
       "options": [
         "Slalom równoległy",
-        "Slalom gigant",
-        "Boardercross",
-        "Halfpipe"
+        "Halfpipe",
+        "Big air",
+        "Slopestyle"
       ],
       "answer": "Slalom równoległy",
-      "explanation_correct": "Slalom równoległy to konkurencja, w której dwóch snowboardzistów zjeżdża równocześnie po dwóch identycznych trasach.",
-      "explanation_incorrect": "Slalom gigant to konkurencja indywidualna, boardercross to wyścig kilku zawodników, a halfpipe to jazda w rynnie.",
-      "last_verified_at": "2026-06-12T15:41:47.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W slalomie równoległym dwie osoby ścigają się na sąsiednich, możliwie podobnych trasach.",
+      "explanation_incorrect": "Halfpipe, big air i slopestyle są konkurencjami freestyle."
     },
     {
       "subcategory": "Skoki narciarskie",
-      "question": "Jak nazywa się system punktowy w skokach narciarskich korygujący noty za warunki wiatrowe?",
+      "question": "Co uwzględnia punktowa kompensacja wiatru w skokach narciarskich?",
       "options": [
-        "Kompensata",
-        "Korekta wiatrowa",
-        "Współczynnik wiatru",
-        "Przelicznik aerologiczny"
+        "Warunki wiatrowe podczas skoku",
+        "Kolor kombinezonu",
+        "Kolejność alfabetyczną zawodników",
+        "Wiek sędziego"
       ],
-      "answer": "Kompensata",
-      "explanation_correct": "Kompensata to mechanizm doliczania lub odejmowania punktów za wiatr i długość najazdu, aby wyrównać szanse.",
-      "explanation_incorrect": "Korekta wiatrowa to termin potoczny, współczynnik wiatru to parametr, a przelicznik aerologiczny to nieformalne określenie.",
-      "last_verified_at": "2026-06-12T15:41:47.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Warunki wiatrowe podczas skoku",
+      "explanation_correct": "Punkty za wiatr korygują wynik zależnie od zmierzonych warunków; osobno stosuje się również przeliczenie za belkę.",
+      "explanation_incorrect": "Pozostałe cechy nie są warunkami wiatrowymi."
     },
     {
       "subcategory": "Narciarstwo alpejskie",
       "question": "Jak nazywa się osoba w narciarstwie alpejskim, która jedzie przed zawodnikiem testując trasę?",
       "options": [
         "Przedzjazdowiec",
-        "Forerunner",
-        "Kurser",
-        "Otwierający"
+        "Sędzia bramkowy",
+        "Ratownik wodny",
+        "Punktowy w skokach"
       ],
       "answer": "Przedzjazdowiec",
       "explanation_correct": "Przedzjazdowiec to narciarz zjeżdżający przed startem zawodnika, by sprawdzić stan i ustawienie trasy.",
-      "explanation_incorrect": "Forerunner to anglicyzm, kurser to osoba wytyczająca trasę, a otwierający to pierwszy zawodnik w starcie.",
-      "last_verified_at": "2026-06-12T15:41:47.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Przedzjazdowiec jest nazywany po angielsku forerunner; pozostałe role są inne."
     },
     {
       "subcategory": "Biathlon",
@@ -1030,7 +942,7 @@
     },
     {
       "subcategory": "Łyżwiarstwo figurowe",
-      "question": "Który skok w łyżwiarstwie figurowym wykonywany jest z krawędzi wewnętrznej nogi z odbiciem z tyłu?",
+      "question": "Który skok łyżwiarski jest skokiem krawędziowym z tylnej wewnętrznej krawędzi bez odbicia ząbkami?",
       "options": [
         "Salchow",
         "Toe loop",
@@ -1038,10 +950,8 @@
         "Flip"
       ],
       "answer": "Salchow",
-      "explanation_correct": "Salchow to skok krawędziowy z nogi wewnętrznej, lądowany na nodze zewnętrznej – nie wymaga pomocy zęba.",
-      "explanation_incorrect": "Toe loop, loop i flip to skoki o innej technice – toe loop używa zęba, loop jest skokiem krawędziowym z nogi zewnętrznej, flip również wymaga zęba.",
-      "last_verified_at": "2026-06-12T15:41:47.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Salchow zaczyna się z tylnej wewnętrznej krawędzi i nie wymaga odbicia ząbkami.",
+      "explanation_incorrect": "Toe loop i flip używają ząbków; loop jest skokiem z tylnej zewnętrznej krawędzi."
     },
     {
       "subcategory": "Hokej na lodzie",
@@ -1053,10 +963,8 @@
         "Kij defensywny"
       ],
       "answer": "Kij bramkarski",
-      "explanation_correct": "Kij bramkarski ma szersze łopatkę i dłuższy trzonek, co ułatwia obronę strzałów.",
-      "explanation_incorrect": "Kij hokejowy jest standardowy, uniwersalny to termin nieoficjalny, a defensywny nie jest oddzielną kategorią.",
-      "last_verified_at": "2026-06-12T15:41:47.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kij bramkarski ma charakterystyczną szeroką dolną część i łopatkę przystosowaną do obrony.",
+      "explanation_incorrect": "Jest to wyspecjalizowany rodzaj kija hokejowego."
     },
     {
       "subcategory": "Curling",
@@ -1078,45 +986,39 @@
       "question": "Jaki sprzęt ochronny na oczy jest powszechnie używany przez snowboardzistów?",
       "options": [
         "Gogle narciarskie",
-        "Okulary przeciwsłoneczne",
-        "Maska",
-        "Osłona na twarz"
+        "Ochraniacze kolan",
+        "Rękawice",
+        "Buty"
       ],
       "answer": "Gogle narciarskie",
       "explanation_correct": "Gogle narciarskie chronią oczy przed śniegiem, wiatrem i promieniowaniem UV, są dopasowane do kasku.",
-      "explanation_incorrect": "Okulary przeciwsłoneczne nie zapewniają takiej ochrony, maska to inny typ osłony, a osłona na twarz nie chroni bezpośrednio oczu.",
-      "last_verified_at": "2026-06-12T15:41:47.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ochraniacze kolan, rękawice i buty chronią inne części ciała; ochronne okulary przeciwsłoneczne również mogą chronić oczy."
     },
     {
       "subcategory": "Skoki narciarskie",
-      "question": "Jak nazywa się kąt nachylenia progu skoczni w skokach narciarskich?",
+      "question": "Jak nazywa się krawędź na końcu rozbiegu, z której wybija się skoczek narciarski?",
       "options": [
-        "Nachylenie progu",
-        "Kąt najazdu",
-        "Inklinacja",
-        "Gradient"
+        "Próg",
+        "Zeskok",
+        "Bula",
+        "Punkt K"
       ],
-      "answer": "Nachylenie progu",
-      "explanation_correct": "Nachylenie progu to parametr konstrukcyjny skoczni określający stromość progu.",
-      "explanation_incorrect": "Kąt najazdu dotyczy najazdu, inklinacja to ogólny termin geograficzny, gradient to synonim, ale nieoficjalny.",
-      "last_verified_at": "2026-06-12T15:41:47.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Próg",
+      "explanation_correct": "Próg znajduje się na końcu rozbiegu i jest miejscem odbicia skoczka.",
+      "explanation_incorrect": "Zeskok służy do lądowania, bula jest wypukłą częścią profilu, a punkt K jest punktem odniesienia do punktacji."
     },
     {
       "subcategory": "Narciarstwo alpejskie",
       "question": "Jakie rękawice używane w narciarstwie alpejskim mają oddzielny palec tylko dla kciuka?",
       "options": [
         "Łapawice",
-        "Mitten",
-        "Finger gloves",
-        "Palm gloves"
+        "Rękawice pięciopalczaste",
+        "Rękawice bez palców",
+        "Ochraniacze kolan"
       ],
       "answer": "Łapawice",
-      "explanation_correct": "Łapawice (lub mitenki) to rękawice z jednym palcem oddzielonym dla kciuka, zapewniające lepsze ciepło.",
-      "explanation_incorrect": "Mitten to anglicyzm, finger gloves to rękawice z palcami, palm gloves nie są terminem narciarskim.",
-      "last_verified_at": "2026-06-12T15:41:47.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Łapawice mają osobną część na kciuk i wspólną na pozostałe palce; angielska nazwa to mittens.",
+      "explanation_incorrect": "Rękawice bez palców są nazywane mitenkami; rękawice pięciopalczaste mają oddzielną część na każdy palec."
     },
     {
       "subcategory": "Bobsleje",
@@ -1143,10 +1045,8 @@
         "Na brzuchu"
       ],
       "answer": "Leżąca na plecach",
-      "explanation_correct": "W saneczkarstwie zawodnicy leżą na plecach, nogami do przodu, głową do tyłu, kontrolując sanki linkami.",
-      "explanation_incorrect": "Siedząca jest niemożliwa ze względu na aerodynamikę, klęcząca nie występuje, na brzuchu to pozycja w skeletonie.",
-      "last_verified_at": "2026-06-12T15:41:47.445Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Na sztucznym torze saneczkarz leży na plecach, nogami do przodu, sterując subtelnymi ruchami ciała i naciskiem na sanie.",
+      "explanation_incorrect": "Na brzuchu, głową do przodu, zjeżdżają zawodnicy skeletonu."
     },
     {
       "subcategory": "Łyżwiarstwo szybkie",
@@ -1168,34 +1068,30 @@
       "question": "Jak nazywa się jedna z trzech części meczu hokeja na lodzie?",
       "options": [
         "Tercja",
-        "Okres",
-        "Runda",
-        "Set"
+        "Set tenisowy",
+        "Runda bokserska",
+        "End curlingowy"
       ],
       "answer": "Tercja",
       "explanation_correct": "Mecz hokeja na lodzie składa się z trzech tercji, każda trwa 20 minut czasu netto.",
-      "explanation_incorrect": "Okres to ogólne określenie, runda występuje w boksie, set w tenisie.",
-      "last_verified_at": "2026-06-12T15:41:47.445Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Set, runda i end są określeniami części gry w innych sportach; tercję nazywa się też okresem."
     },
     {
       "subcategory": "Short track",
       "question": "Jaki sprzęt chroni głowę zawodnika short tracku?",
       "options": [
         "Kask",
-        "Czapka",
-        "Osłona",
-        "Hełm"
+        "Rękawica",
+        "Nagolennik",
+        "Łyżwa"
       ],
       "answer": "Kask",
       "explanation_correct": "Kask jest obowiązkowym wyposażeniem w short tracku, chroni głowę podczas upadków na lodzie przy dużej prędkości.",
-      "explanation_incorrect": "Czapka nie zapewnia ochrony, osłona to ogólne pojęcie, hełm to synonim, ale w sporcie zwykle mówimy kask.",
-      "last_verified_at": "2026-06-12T15:41:47.445Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rękawica, nagolennik i łyżwa służą innym częściom ciała."
     },
     {
       "subcategory": "Biathlon",
-      "question": "Który bieg biathlonowy startuje ze startu wspólnego wszystkich zawodników?",
+      "question": "Która indywidualna konkurencja biathlonowa rozpoczyna się wspólnym startem zawodników, bez zmian sztafetowych?",
       "options": [
         "Bieg masowy",
         "Sprint",
@@ -1203,10 +1099,8 @@
         "Sztafeta"
       ],
       "answer": "Bieg masowy",
-      "explanation_correct": "Bieg masowy to konkurencja, w której wszyscy startują jednocześnie (zwykle 30 najlepszych) na dystansie 15/12,5 km.",
-      "explanation_incorrect": "Sprint startuje oddzielnie, bieg indywidualny też, sztafeta to drużyny.",
-      "last_verified_at": "2026-06-12T15:41:47.445Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bieg masowy rozpoczyna się startem wspólnym zawodników. Liczba uczestników i dystans zależą od formatu zawodów.",
+      "explanation_incorrect": "W sztafecie wspólnie startują pierwsi zawodnicy drużyn; sprint i indywidualny mają start interwałowy."
     },
     {
       "subcategory": "Narciarstwo alpejskie",
@@ -1234,9 +1128,7 @@
       ],
       "answer": "Biały",
       "explanation_correct": "W łyżwiarstwie szybkim zawodnik na torze wewnętrznym nosi białą opaskę, aby odróżnić go od rywala na torze zewnętrznym.",
-      "explanation_incorrect": "Czerwony, niebieski i zielony to kolory stosowane w innych dyscyplinach sportowych, ale nie w kodzie opasek w łyżwiarstwie szybkim.",
-      "last_verified_at": "2026-06-12T15:41:47.446Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W typowej parze zawodnik na torze zewnętrznym nosi czerwoną opaskę; w niektórych formatach używa się także innych kolorów."
     },
     {
       "subcategory": "Snowboarding",
@@ -1255,33 +1147,29 @@
     },
     {
       "subcategory": "Skibob",
-      "question": "Jaki sportowy pojazd łączy narty z ramą roweru?",
+      "question": "Jak nazywa się pojazd śnieżny przypominający rowerową ramę osadzoną na nartach?",
       "options": [
         "Skibob",
-        "Snowscoot",
-        "Snowbike",
-        "Skiboard"
+        "Bobslej",
+        "Kamień curlingowy",
+        "Krążek hokejowy"
       ],
       "answer": "Skibob",
       "explanation_correct": "Skibob to pojazd składający się z ramy rowerowej zamontowanej na dwóch nartach, umożliwiający zjazd po śniegu.",
-      "explanation_incorrect": "Snowscoot, Snowbike i Skiboard to inne pojazdy śnieżne, ale nie łączą one nart z ramą roweru w taki sam sposób jak Skibob.",
-      "last_verified_at": "2026-06-12T15:41:47.446Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Snowbike bywa nazwą pokrewnego sprzętu; bobslej, kamień i krążek są innymi przedmiotami."
     },
     {
       "subcategory": "Biegi narciarskie",
-      "question": "Która technika odbicia jest charakterystyczna dla stylu klasycznego w biegach narciarskich?",
+      "question": "Jak nazywa się technika klasyczna biegu narciarskiego z naprzemienną pracą przeciwległych rąk i nóg?",
       "options": [
         "Krok naprzemianstronny",
-        "Krok jednoczesny",
-        "Krok podwójny",
-        "Krok jodełkowy"
+        "Telemark",
+        "Piruet",
+        "Jazda po muldach"
       ],
       "answer": "Krok naprzemianstronny",
       "explanation_correct": "Krok naprzemianstronny, zwany też diagonalem, to podstawowa technika stylu klasycznego, polegająca na naprzemiennej pracy rąk i nóg.",
-      "explanation_incorrect": "Krok jednoczesny, podwójny i jodełkowy to inne techniki, ale nie są one podstawową techniką odbicia w stylu klasycznym.",
-      "last_verified_at": "2026-06-12T15:41:47.447Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Styl klasyczny obejmuje również inne techniki, m.in. bezkrok; pozostałe opcje nie są opisanym krokiem."
     },
     {
       "subcategory": "Hokej na lodzie",
@@ -1323,25 +1211,21 @@
         "Slalom gigant"
       ],
       "answer": "Kombinacja alpejska",
-      "explanation_correct": "Kombinacja alpejska to konkurencja łącząca wyniki z przejazdu zjazdowego i slalomu.",
-      "explanation_incorrect": "Zjazd, slalom i slalom gigant to osobne konkurencje, a ich suma punktów nie tworzy kombinacji alpejskiej.",
-      "last_verified_at": "2026-06-12T15:41:47.447Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kombinacja alpejska łączy wynik konkurencji szybkościowej i slalomu; zależnie od formatu częścią szybkościową może być zjazd lub supergigant.",
+      "explanation_incorrect": "Zjazd, slalom i gigant to osobne konkurencje."
     },
     {
       "subcategory": "Curling",
-      "question": "Jak nazywa się pole gry w curlingu?",
+      "question": "Jak po angielsku nazywa się tor, na którym rozgrywa się mecz curlingu?",
       "options": [
-        "Rink",
-        "Lodowisko",
-        "Tor",
-        "Pole gry"
+        "Sheet",
+        "Goal",
+        "Ski jump",
+        "Penalty box"
       ],
-      "answer": "Rink",
-      "explanation_correct": "Rink to oficjalna nazwa boiska w curlingu, które jest lodową powierzchnią z oznakowaniem.",
-      "explanation_incorrect": "Lodowisko, tor i pole gry to ogólne terminy, które nie odnoszą się specyficznie do boiska w curlingu.",
-      "last_verified_at": "2026-06-12T15:41:47.448Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sheet",
+      "explanation_correct": "Curling sheet to oznakowany tor lodowy używany do gry w curling.",
+      "explanation_incorrect": "Goal to bramka, ski jump to skocznia, a penalty box to ławka kar."
     },
     {
       "subcategory": "Short track",
@@ -1360,7 +1244,7 @@
     },
     {
       "subcategory": "Skoki narciarskie",
-      "question": "Jaki element wyposażenia skoczka narciarskiego ma największy wpływ na uzyskanie siły nośnej tuż po odbiciu z progu?",
+      "question": "Który element wyposażenia skoczka narciarskiego tworzy dużą powierzchnię nośną podczas lotu?",
       "options": [
         "Powierzchnia nart",
         "Długość kijków",
@@ -1368,10 +1252,8 @@
         "Rękawice"
       ],
       "answer": "Powierzchnia nart",
-      "explanation_correct": "Narty w skokach są bardzo długie i szerokie, co tworzy powierzchnię nośną pozwalającą na 'oparcie się' na powietrzu.",
-      "explanation_incorrect": "Skoczkowie nie używają kijków, a ciężar butów jest minimalizowany dla lepszej balistyki.",
-      "last_verified_at": "2026-06-12T15:43:02.535Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Długie narty skokowe tworzą istotną powierzchnię aerodynamiczną w locie; znaczenie ma też pozycja i ubiór zawodnika.",
+      "explanation_incorrect": "Skoczkowie nie używają kijków; buty i rękawice nie są główną powierzchnią nośną."
     },
     {
       "subcategory": "Biathlon",
@@ -1383,25 +1265,21 @@
         "Karabin snajperski"
       ],
       "answer": "Karabin małokalibrowy",
-      "explanation_correct": "Biathloniści używają karabinu małokalibrowego kalibru .22 LR, który jest lekki i precyzyjny celowniczy.",
-      "explanation_incorrect": "Karabin pneumatyczny, myśliwski i snajperski to inne typy broni, które nie spełniają specyfikacji technicznych biathlonu.",
-      "last_verified_at": "2026-06-12T15:41:47.448Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Standardowy karabin biathlonowy wykorzystuje amunicję bocznego zapłonu .22 LR.",
+      "explanation_incorrect": "Pozostałe kategorie broni opisują inne zastosowania lub mechanizmy."
     },
     {
       "subcategory": "Skeleton",
-      "question": "Z jakiego materiału wykonany jest kask w skeletonie?",
+      "question": "Jaką podstawową funkcję pełni kask w skeletonie?",
       "options": [
-        "Karbon",
-        "Plastik",
-        "Włókno szklane",
-        "Aluminium"
+        "Chroni głowę",
+        "Mierzy odległość skoku",
+        "Zastępuje płozy",
+        "Hamuje sanie"
       ],
-      "answer": "Karbon",
-      "explanation_correct": "Kask w skeletonie jest wykonany głównie z karbonu (włókna węglowego) ze względu na jego lekkość i wysoką wytrzymałość.",
-      "explanation_incorrect": "Plastik, włókno szklane i aluminium są lżejsze lub mniej wytrzymałe, przez co nie są stosowane w profesjonalnych kaskach skeletonowych.",
-      "last_verified_at": "2026-06-12T15:41:47.448Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Chroni głowę",
+      "explanation_correct": "Kask chroni głowę zawodnika skeletonu; materiały i konstrukcja mogą się różnić między modelami.",
+      "explanation_incorrect": "Kask nie jest płozą ani hamulcem i nie mierzy odległości."
     },
     {
       "subcategory": "Łyżwiarstwo figurowe",
@@ -1420,18 +1298,16 @@
     },
     {
       "subcategory": "Hokej na lodzie",
-      "question": "Który sędzia w hokeju na lodzie czuwa nad bramką?",
+      "question": "Który sędzia na lodzie podejmuje decyzje dotyczące uznania bramki w hokeju?",
       "options": [
-        "Sędzia bramkowy",
         "Sędzia główny",
-        "Sędzia liniowy",
-        "Sędzia techniczny"
+        "Trener",
+        "Kapitan drużyny",
+        "Spiker"
       ],
-      "answer": "Sędzia bramkowy",
-      "explanation_correct": "Sędzia bramkowy odpowiada za kontrolowanie linii bramkowej i uznawanie lub nieuznawanie goli.",
-      "explanation_incorrect": "Sędzia główny, liniowy i techniczny mają inne obowiązki, nie związane bezpośrednio z czuwaniem nad bramką.",
-      "last_verified_at": "2026-06-12T15:41:47.449Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sędzia główny",
+      "explanation_correct": "Sędzia główny podejmuje decyzję o bramce, korzystając w stosownych rozgrywkach z dostępnych procedur weryfikacji.",
+      "explanation_incorrect": "Trener, kapitan i spiker nie pełnią roli sędziego głównego."
     },
     {
       "subcategory": "Bobsleje",
@@ -1450,7 +1326,7 @@
     },
     {
       "subcategory": "Narciarstwo alpejskie",
-      "question": "Która konkurencja narciarstwa alpejskiego charakteryzuje się bardzo długimi skrętami?",
+      "question": "Która konkurencja alpejska ma dłuższe skręty niż slalom, ale jest bardziej techniczna niż supergigant?",
       "options": [
         "Slalom gigant",
         "Slalom",
@@ -1459,13 +1335,11 @@
       ],
       "answer": "Slalom gigant",
       "explanation_correct": "Slalom gigant ma dłuższe i łagodniejsze skręty niż slalom, ale krótsze niż supergigant i zjazd.",
-      "explanation_incorrect": "Slalom ma krótkie skręty, supergigant i zjazd mają jeszcze dłuższe i szybsze, więc to nie one odpowiadają opisowi 'bardzo długich skrętów' specyficznemu dla slalomu giganta.",
-      "last_verified_at": "2026-06-12T15:41:47.449Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Slalom ma krótsze skręty, a supergigant i zjazd są konkurencjami szybszymi."
     },
     {
       "subcategory": "Biegi narciarskie",
-      "question": "Jaki jest popularny typ wiązań narciarskich w biegach narciarskich?",
+      "question": "Który system wiązań biegowych rozwija skrót New Nordic Norm?",
       "options": [
         "NNN",
         "SNS",
@@ -1473,10 +1347,8 @@
         "Pilot"
       ],
       "answer": "NNN",
-      "explanation_correct": "NNN (New Nordic Norm) to popularny system wiązań w biegach narciarskich, używany przez wielu producentów.",
-      "explanation_incorrect": "SNS, 75mm i Pilot to inne typy wiązań, ale są one mniej powszechne lub stosowane w innych systemach.",
-      "last_verified_at": "2026-06-12T15:41:47.449Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "NNN oznacza New Nordic Norm, popularny system wiązań do biegów narciarskich.",
+      "explanation_incorrect": "SNS, 75 mm i Pilot to inne oznaczenia wiązań lub systemów."
     },
     {
       "subcategory": "Snowboarding",
@@ -1488,10 +1360,8 @@
         "Quarterpipe"
       ],
       "answer": "Rail",
-      "explanation_correct": "Rail to przeszkoda w snowparku w postaci długiego, wąskiego elementu (często metalowego), po którym snowboardziści wykonują slidy i graby.",
-      "explanation_incorrect": "Box to szeroka przeszkoda, kickery to skocznie, a quarterpipe to przeszkoda w kształcie ćwierćrury, więc nie przypominają rury tak jak rail.",
-      "last_verified_at": "2026-06-12T15:41:47.449Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rail to wąska przeszkoda, często metalowa, po której wykonuje się ślizgi deski lub nart.",
+      "explanation_incorrect": "Box ma zwykle szerszą powierzchnię, kicker jest skocznią, a quarterpipe ma inny kształt."
     },
     {
       "subcategory": "Curling",
@@ -1499,14 +1369,12 @@
       "options": [
         "Slider",
         "Gripper",
-        "But ze stalową płytą",
-        "Podeszwa z teflonu"
+        "Kamień",
+        "Szczotka"
       ],
       "answer": "Slider",
-      "explanation_correct": "Slider to podeszwa ślizgowa zakładana na jedną stopę, która umożliwia curlingiście płynne ślizganie po lodzie.",
-      "explanation_incorrect": "Gripper to podeszwa antypoślizgowa, a but ze stalową płytą i podeszwa z teflonu to inne rozwiązania, ale nie są standardowym slidersem.",
-      "last_verified_at": "2026-06-12T15:41:47.450Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Slider to śliska podeszwa lub nakładka umożliwiająca ślizg; może być wykonana np. z PTFE.",
+      "explanation_incorrect": "Gripper zapewnia przyczepność, szczotka służy do zamiatania, a kamień jest zagrywany po lodzie."
     }
   ]
 }

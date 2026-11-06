@@ -36,6 +36,8 @@ Kolejna partia 2026-11-06: przejrzano trzy paczki dotyczące przypadkowych wynal
 
 Kolejna partia 2026-11-06: przejrzano paczki o literaturze dziecięcej, kawie i legendach miejskich, zmieniając odpowiednio 41, 63 i 54 rekordy. Zakres i wybrane źródła podano w raportach; nie wszystkie tezy potwierdzono źródłowo, a przegląd legend miejskich subagent zakończył limitem po zapisaniu wyników. W części paczek pozostają powtórzenia.
 
+Kolejna partia 2026-11-06: przejrzano paczki o sportach zimowych i komiksach, zmieniając odpowiednio 66 i 43 rekordy. Raporty zawierają szczegóły, wybrane źródła i ograniczenia; liczba zmian nie oznacza pełnego źródłowego potwierdzenia każdej tezy.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
