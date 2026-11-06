@@ -38,6 +38,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o literaturze dziecięcej, kawie i 
 
 Kolejna partia 2026-11-06: przejrzano paczki o sportach zimowych i komiksach, zmieniając odpowiednio 66 i 43 rekordy. Raporty zawierają szczegóły, wybrane źródła i ograniczenia; liczba zmian nie oznacza pełnego źródłowego potwierdzenia każdej tezy.
 
+Kolejna partia 2026-11-06: przejrzano paczki o systemach pisma i ogrodach, zmieniając odpowiednio 58 i 65 rekordów. Wybrane źródła i ograniczenia opisano w raportach; odczyt nie potwierdza źródłowo każdej tezy.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
