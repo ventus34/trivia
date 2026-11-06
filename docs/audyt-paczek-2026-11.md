@@ -42,6 +42,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o systemach pisma i ogrodach, zmien
 
 Kolejna partia 2026-11-06: przejrzano paczki o jednostkach miar i parkach narodowych, zmieniając odpowiednio 52 i 68 rekordów. Raporty wskazują wybrane źródła i ograniczenia; nie wszystkie twierdzenia potwierdzono źródłowo.
 
+Kolejna partia 2026-11-06: przejrzano paczki o sportach motorowych i przyprawach, zmieniając odpowiednio 75 i 88 rekordów. Wybrane źródła i ograniczenia zamieszczono w raportach; odczyt wszystkich pytań nie potwierdza źródłowo każdej tezy.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
