@@ -32,6 +32,8 @@ Kolejna partia 2026-11-06: przejrzano paczkę o instrumentach muzycznych i zmien
 
 Kolejna partia 2026-11-06: przejrzano paczkę o memach i historii internetu, zmieniając 41 rekordów. Źródła wybranych poprawek i ograniczenia opisano w raporcie; niezależna kontrola subagenta była niedostępna z powodu limitu.
 
+Kolejna partia 2026-11-06: przejrzano trzy paczki dotyczące przypadkowych wynalazków, technologii retro i muzyki popularnej, zmieniając odpowiednio 44, 49 i 26 rekordów. Odczyt pytań oraz wybrane źródła i ograniczenia opisano w osobnych raportach; zakres nie jest pełnym potwierdzeniem źródłowym wszystkich twierdzeń. W paczce muzycznej pozostają powtórzenia do redakcji.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
