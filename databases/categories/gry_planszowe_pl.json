@@ -2,10 +2,8 @@
   "id": "gry_planszowe_pl",
   "name": "Gry Planszowe",
   "language": "pl",
-  "description": "Pytania z zakresu: Mechanika gier, Klasyka polska, Gry ekonomiczne, Gry logiczne...",
+  "description": "Pytania o mechaniki, autorów i historię gier planszowych oraz popularne tytuły strategiczne, ekonomiczne, kooperacyjne, przygodowe, rodzinne i tematyczne.",
   "created_at": "2026-06-12T15:05:24.195Z",
-  "last_verified_at": "2026-06-12T15:05:23.485Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 97,
   "questions": [
     {
@@ -63,10 +61,8 @@
         "Carcassonne"
       ],
       "answer": "Azul",
-      "explanation_correct": "'Azul' Michaela Rieslinga to abstrakcyjna gra o układaniu kafelków, inspirowana azulejos, która zdobyła prestiżową nagrodę w 2018 roku.",
-      "explanation_incorrect": "'Sagrada' i 'Karuba' również dotyczą układania kafelków, ale nie są inspirowane azulejos, a 'Carcassonne' ma inną tematykę.",
-      "last_verified_at": "2026-06-12T15:04:23.315Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Azul Michaela Kieslinga to abstrakcyjna gra o układaniu kafelków, inspirowana portugalskimi azulejos; zdobyła Spiel des Jahres w 2018 roku.",
+      "explanation_incorrect": "'Sagrada' i 'Karuba' również dotyczą układania kafelków, ale nie są inspirowane azulejos, a 'Carcassonne' ma inną tematykę."
     },
     {
       "subcategory": "Gry cywilizacyjne",
@@ -175,22 +171,20 @@
     },
     {
       "subcategory": "Gry z motywem rolnictwa",
-      "question": "Który tytuł Uwe Rosenberga o prowadzeniu gospodarstwa rolnego jest uznawany za jego flagową grę?",
+      "question": "Która gra Uwe Rosenberga przedstawia rozwijanie gospodarstwa rolnego przez rodzinę?",
       "options": [
         "Agricola",
         "Le Havre",
-        "Caverna",
+        "Patchwork",
         "A Feast for Odin"
       ],
       "answer": "Agricola",
-      "explanation_correct": "'Agricola' to przełomowa gra Uwe Rosenberga z 2007 roku, w której gracze rozwijają swoje gospodarstwa.",
-      "explanation_incorrect": "Pozostałe to także gry ekonomiczne Rosenberga, ale nie o rolnictwie we współczesnym znaczeniu (Le Havre o porcie, Caverna o krasnoludach, Odin o Wikingach).",
-      "last_verified_at": "2026-06-12T15:04:23.316Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Agricola to gra Uwe Rosenberga, w której gracze rozwijają gospodarstwo, uprawiają ziemię i hodują zwierzęta.",
+      "explanation_incorrect": "Le Havre dotyczy portu, Patchwork szycia kołdry, a A Feast for Odin życia i rozwoju osady wikingów; Agricola skupia się na gospodarstwie rolnym."
     },
     {
       "subcategory": "Gry karciane",
-      "question": "Który kolekcjonerski system karciany (TCG) jest uznawany za najstarszy i został wydany w 1993 roku?",
+      "question": "Który kolekcjonerski system karciany, uznawany za pierwszą nowoczesną grę TCG, ukazał się w 1993 roku?",
       "options": [
         "Magic: The Gathering",
         "Pokémon TCG",
@@ -198,10 +192,8 @@
         "Hearthstone"
       ],
       "answer": "Magic: The Gathering",
-      "explanation_correct": "Magic: The Gathering, wydane w 1993 roku, jest pierwszym i najdłużej istniejącym kolekcjonerskim systemem karcianym.",
-      "explanation_incorrect": "Pokémon i Yu-Gi-Oh! pojawiły się później, a Hearthstone jest cyfrowy.",
-      "last_verified_at": "2026-06-12T15:04:23.316Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Magic: The Gathering Richarda Garfielda ukazał się w 1993 roku i zapoczątkował nowoczesny gatunek kolekcjonerskich gier karcianych.",
+      "explanation_incorrect": "Pokémon TCG i Yu-Gi-Oh! pojawiły się później; Hearthstone jest cyfrową grą karcianą."
     },
     {
       "subcategory": "Gry o podróżach",
@@ -250,7 +242,7 @@
     },
     {
       "subcategory": "Gry z miniaturami",
-      "question": "Która gra z miniaturami osadzona w mrocznym fantasy, w której gracze walczą z potworami i rozwijają swoją osadę, jest znana z wysokiego poziomu trudności?",
+      "question": "Która gra Adama Pootsa prowadzi kampanię przez kolejne fazy polowania, walki z potworami i rozwoju osady?",
       "options": [
         "Kingdom Death: Monster",
         "Gloomhaven",
@@ -258,10 +250,8 @@
         "Warhammer Quest"
       ],
       "answer": "Kingdom Death: Monster",
-      "explanation_correct": "Kingdom Death: Monster to słynna gra z miniaturami w mrocznym świecie, gdzie gracze walczą z potworami i budują osadę, znana z ogromnej liczby figurek i wyzwania.",
-      "explanation_incorrect": "Gloomhaven to gra legacy z miniaturami, ale jej nastrój nie jest wyłącznie mroczno-fantasy; Descent i Warhammer Quest to inne systemy dungeon crawl.",
-      "last_verified_at": "2026-06-12T15:04:23.316Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kingdom Death: Monster to kampanijna gra Adama Pootsa, w której po fazie polowania następuje walka z potworem, a następnie rozwój osady.",
+      "explanation_incorrect": "Pozostałe gry zawierają walkę z potworami, ale nie mają charakterystycznej dla Kingdom Death: Monster kampanii dzielącej rozgrywkę na fazę polowania, walki i rozwoju osady."
     },
     {
       "subcategory": "Gry o budowaniu silniczka",
@@ -295,7 +285,7 @@
     },
     {
       "subcategory": "Gry z mechaniką legacy",
-      "question": "Który projektant jest uznawany za twórcę mechaniki 'legacy' w grach planszowych, która polega na trwałej zmianie komponentów?",
+      "question": "Który projektant współtworzył Risk Legacy, jedną z pierwszych gier w formacie legacy, w którym rozgrywka trwale zmienia elementy gry?",
       "options": [
         "Rob Daviau",
         "Matt Leacock",
@@ -303,10 +293,8 @@
         "Isaac Childres"
       ],
       "answer": "Rob Daviau",
-      "explanation_correct": "Rob Daviau jest twórcą mechaniki legacy, wprowadzonej w grze 'Risk Legacy' i rozwiniętej w 'Pandemic Legacy'.",
-      "explanation_incorrect": "Pozostali projektanci tworzyli gry legacy, ale to Daviau jest uznawany za pioniera tej koncepcji.",
-      "last_verified_at": "2026-06-12T15:04:23.317Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rob Daviau, wspólnie z Chrisem Dupuisem, zaprojektował Risk Legacy, grę, która wprowadziła do głównego nurtu format kampanii trwale modyfikującej komponenty i zasady.",
+      "explanation_incorrect": "Pytanie dotyczy współprojektanta Risk Legacy, gry zapoczątkowującej popularny format legacy."
     },
     {
       "subcategory": "Gry pociągowe",
@@ -325,7 +313,7 @@
     },
     {
       "subcategory": "Gry pirackie",
-      "question": "Jaka klasyczna gra planszowa opowiada o poszukiwaniu skarbu na wyspie?",
+      "question": "Jaka gra planszowa opowiada o poszukiwaniu skarbu Long Johna Silvera na wyspie?",
       "options": [
         "Piraci z Karaibów",
         "Port Royal",
@@ -333,10 +321,8 @@
         "Wyspa Skarbów"
       ],
       "answer": "Wyspa Skarbów",
-      "explanation_correct": "Wyspa Skarbów to klasyczna gra planszowa o poszukiwaniu skarbu, inspirowana powieścią Stevensona.",
-      "explanation_incorrect": "Pozostałe to gry o tematyce pirackiej, ale nie są to klasyczne gry o poszukiwaniu skarbu na wyspie.",
-      "last_verified_at": "2026-06-12T15:04:23.317Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Wyspie Skarbów jeden gracz kieruje Long Johnem Silverem, który ukrył skarb; pozostali gracze szukają go na mapie na podstawie wskazówek.",
+      "explanation_incorrect": "Pozostałe tytuły mają temat piracki lub handlowy, ale nie opierają się na wspólnym poszukiwaniu skarbu ukrytego przez Long Johna Silvera."
     },
     {
       "subcategory": "Gry horror",
@@ -355,7 +341,7 @@
     },
     {
       "subcategory": "Gry z asymetrią",
-      "question": "Jaka gra planszowa jest uznawana za lidera gier asymetrycznych, w której leśne frakcje walczą o kontrolę nad lasem?",
+      "question": "Jaka gra planszowa przedstawia konflikt leśnych frakcji, z których każda ma własne cele i sposób gry?",
       "options": [
         "Vast: The Crystal Caverns",
         "Spirit Island",
@@ -364,13 +350,11 @@
       ],
       "answer": "Root",
       "explanation_correct": "Root to gra asymetryczna, w której każda frakcja (np. Marquise de Cat, Eyrie Dynasties) ma unikalne zdolności i cele.",
-      "explanation_incorrect": "Pozostałe to gry asymetryczne, ale nie o leśnych frakcjach lub nie są liderem gatunku.",
-      "last_verified_at": "2026-06-12T15:04:23.317Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe gry również zawierają asymetrię lub konflikt, ale nie przedstawiają rywalizujących o las frakcji z odmiennymi celami."
     },
     {
       "subcategory": "Gry o handlu",
-      "question": "Jaka gra planszowa o handlu klejnotami i rozwoju w okresie renesansu jest bardzo popularna?",
+      "question": "Jaka gra planszowa polega na pozyskiwaniu klejnotów i rozwoju handlowego w realiach renesansu?",
       "options": [
         "Azul",
         "Century: Szlak Przypraw",
@@ -378,10 +362,8 @@
         "Splendor"
       ],
       "answer": "Splendor",
-      "explanation_correct": "Splendor to gra, w której gracze pozyskują klejnoty i rozwijają swoje imperium w okresie renesansu.",
-      "explanation_incorrect": "Pozostałe opcje to gry o handlu, ale nie dotyczą konkretnie klejnotów w renesansie.",
-      "last_verified_at": "2026-06-12T15:04:23.317Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Splendor to gra, w której gracze zbierają klejnoty, kupują karty rozwoju i starają się przyciągnąć arystokratów.",
+      "explanation_incorrect": "Pozostałe opcje to gry o handlu, ale nie dotyczą konkretnie klejnotów w renesansie."
     },
     {
       "subcategory": "Gry z kośćmi",
@@ -408,10 +390,8 @@
         "This War of Mine"
       ],
       "answer": "This War of Mine",
-      "explanation_correct": "This War of Mine to adaptacja gry komputerowej, w której gracze kontrolują grupę cywilów w oblężonym Sarajewie.",
-      "explanation_incorrect": "Pozostałe to gry o przetrwaniu, ale nie dotyczą oblężenia miasta z perspektywy cywilów.",
-      "last_verified_at": "2026-06-12T15:04:23.317Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "This War of Mine to adaptacja gry komputerowej, w której gracze wspólnie prowadzą grupę cywilów próbujących przetrwać oblężenie fikcyjnego miasta Pogoren.",
+      "explanation_incorrect": "Pozostałe to gry o przetrwaniu, ale nie dotyczą oblężenia miasta z perspektywy cywilów."
     },
     {
       "subcategory": "Gry o winie",
@@ -429,8 +409,8 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gry z układaniem poliminio",
-      "question": "Jaka gra planszowa z układaniem poliminio polega na ratowaniu kotów z tonącej wyspy?",
+      "subcategory": "Gry z układaniem kafelków",
+      "question": "Jaka gra planszowa polega na ratowaniu kotów z wyspy zagrożonej armią Vesha i rozmieszczaniu ich na łodziach za pomocą wielokształtnych kafelków?",
       "options": [
         "Patchwork",
         "Blokus",
@@ -438,14 +418,12 @@
         "Wyspa Kotów"
       ],
       "answer": "Wyspa Kotów",
-      "explanation_correct": "Wyspa Kotów to gra, w której gracze układają poliminio w kształcie kotów, by uratować je z tonącej wyspy.",
-      "explanation_incorrect": "Pozostałe to gry z układaniem poliminio, ale nie dotyczą ratowania kotów.",
-      "last_verified_at": "2026-06-12T15:04:23.317Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Wyspie Kotów gracze ratują koty z wyspy przed armią Vesha i układają je na swojej łodzi za pomocą wielokształtnych kafelków.",
+      "explanation_incorrect": "Pozostałe gry wykorzystują układanie kształtów lub kafelków, ale nie dotyczą ewakuowania kotów z wyspy przed armią Vesha."
     },
     {
       "subcategory": "Gry o kosmosie",
-      "question": "Jaka gra planszowa 4X o eksploracji kosmosu i handlu międzygwiezdnym?",
+      "question": "Który tytuł Touko Tahkokallio to gra 4X o eksploracji i rozwoju cywilizacji w galaktyce?",
       "options": [
         "Twilight Imperium",
         "Space Empires",
@@ -453,10 +431,8 @@
         "Eclipse"
       ],
       "answer": "Eclipse",
-      "explanation_correct": "Eclipse to gra 4X, w której gracze eksplorują galaktykę, rozwijają technologię i handlują.",
-      "explanation_incorrect": "Pozostałe to również gry kosmiczne, ale nie są to klasyczne 4X w skali galaktycznej.",
-      "last_verified_at": "2026-06-12T15:04:23.318Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Eclipse, zaprojektowane przez Touko Tahkokallio, to galaktyczna gra 4X o eksploracji, rozwoju, ekspansji i konflikcie.",
+      "explanation_incorrect": "Pozostałe gry również wykorzystują temat kosmosu, ale nie są grą 4X zaprojektowaną przez Touko Tahkokallio."
     },
     {
       "subcategory": "Gry o naturze",
@@ -490,7 +466,7 @@
     },
     {
       "subcategory": "Gry fantasy",
-      "question": "W jakiej krainie (i jednocześnie pod tym samym tytułem gry) toczy się akcja gry Gloomhaven?",
+      "question": "Jak nazywa się fikcyjne miasto, w którym rozpoczyna się kampania gry Gloomhaven?",
       "options": [
         "Terrinoth",
         "Valeria",
@@ -499,9 +475,7 @@
       ],
       "answer": "Gloomhaven",
       "explanation_correct": "Gloomhaven to nazwa zarówno gry, jak i fikcyjnego miasta, w którym toczy się akcja.",
-      "explanation_incorrect": "Pozostałe to nazwy krain z innych gier fantasy, ale nie są związane z Gloomhaven.",
-      "last_verified_at": "2026-06-12T15:04:23.318Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy pochodzą z innych gier fantasy; Gloomhaven jest miastem z uniwersum tytułowej gry."
     },
     {
       "subcategory": "Gry negocjacyjne",
@@ -520,18 +494,16 @@
     },
     {
       "subcategory": "Gry narracyjne",
-      "question": "Jaka gra narracyjna o mrocznym twistcie opowiada o Rycerzach Okrągłego Stołu?",
+      "question": "Jaka planszowa gra kampanijna w mrocznej wersji legend arturiańskich jest osadzona na wyspie Avalon?",
       "options": [
-        "King Arthur: Knight's Tale",
+        "The 7th Continent",
         "The Lord of the Rings: Journeys",
         "Mythic Battles",
         "Tainted Grail"
       ],
       "answer": "Tainted Grail",
       "explanation_correct": "Tainted Grail to kampanijna gra narracyjna, która przedstawia mroczną wersję legend arturiańskich.",
-      "explanation_incorrect": "Pozostałe to gry narracyjne, ale nie dotyczą Rycerzy Okrągłego Stołu w mrocznej konwencji.",
-      "last_verified_at": "2026-06-12T15:04:23.318Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe tytuły dotyczą innych krain lub mitologii; Tainted Grail to planszowa kampania osadzona na Avalon, inspirowana legendami arturiańskimi."
     },
     {
       "subcategory": "Gry o szyciu",
@@ -550,7 +522,7 @@
     },
     {
       "subcategory": "Gry o oceanach",
-      "question": "Jaka gra z serii Evolution dotyczy eksploracji podwodnych głębin?",
+      "question": "Która samodzielna gra z serii Evolution skupia się na rozwoju gatunków morskich?",
       "options": [
         "Evolution: Kiedyś",
         "Evolution: Nowa Ziemia",
@@ -558,10 +530,8 @@
         "Oceany"
       ],
       "answer": "Oceany",
-      "explanation_correct": "Oceany to gra z serii Evolution, w której gracze eksplorują ocean i rozwijają morskie stworzenia.",
-      "explanation_incorrect": "Pozostałe to gry z serii Evolution, ale dotyczą lądowych ekosystemów.",
-      "last_verified_at": "2026-06-12T15:04:23.318Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oceany jest samodzielną grą z serii Evolution, w której gracze rozwijają morskie gatunki i przystosowują je do zmieniającego się środowiska.",
+      "explanation_incorrect": "Pozostałe tytuły z serii koncentrują się na ekosystemach lądowych; Oceany przenosi mechanikę rozwoju gatunków do podwodnego środowiska."
     },
     {
       "subcategory": "Gry o cywilizacji",
@@ -573,10 +543,8 @@
         "Francis Tresham"
       ],
       "answer": "Francis Tresham",
-      "explanation_correct": "Francis Tresham jest twórcą planszowej gry Civilization z 1980 roku, która zapoczątkowała serię.",
-      "explanation_incorrect": "Pozostali to znani projektanci gier, ale nie są autorami oryginalnej Civilization.",
-      "last_verified_at": "2026-06-12T15:04:23.318Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Francis Tresham zaprojektował planszową grę Civilization, wydaną w 1980 roku.",
+      "explanation_incorrect": "Pozostali to znani projektanci gier, ale nie są autorami oryginalnej Civilization."
     },
     {
       "subcategory": "Gry imprezowe",
@@ -625,22 +593,20 @@
     },
     {
       "subcategory": "Gry o muzeum",
-      "question": "Jak nazywa się gra o kuratorach wystaw, w której licytujemy i wystawiamy dzieła sztuki, stworzona przez Rainera Knizię?",
+      "question": "Która gra Vitala Lacerdy pozwala graczom prowadzić galerię sztuki, pozyskiwać artystów i promować ich dzieła?",
       "options": [
         "Modern Art",
         "Muzealnik",
         "Galeria",
         "The Gallerist"
       ],
-      "answer": "Modern Art",
-      "explanation_correct": "Modern Art to klasyczna gra licytacyjna Knizii o zarządzaniu wystawami i handlu obrazami.",
-      "explanation_incorrect": "The Gallerist to znacznie cięższa gra Vitala Lacerdy, a pozostałe to nazwy generyczne.",
-      "last_verified_at": "2026-06-12T15:05:23.484Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "The Gallerist",
+      "explanation_correct": "The Gallerist to gra Vitala Lacerdy, w której gracze łączą role właściciela galerii, agenta artystów i marszanda.",
+      "explanation_incorrect": "Modern Art jest grą aukcyjną Reiner Knizii; The Gallerist skupia się na prowadzeniu galerii i promowaniu artystów."
     },
     {
       "subcategory": "Gry o kinie",
-      "question": "Jaki tytuł nosi gra planszowa o produkcji filmowej w złotym wieku Hollywood?",
+      "question": "Jak nazywa się gra z 2013 roku, w której każdy gracz jest szefem studia próbującym wyprodukować najbardziej udany filmowy blockbuster?",
       "options": [
         "Hollywood",
         "The Networks",
@@ -648,10 +614,8 @@
         "The Gallerist"
       ],
       "answer": "Hollywood",
-      "explanation_correct": "W grze Hollywood gracze wcielają się w producentów kompletujących ekipę filmową i kręcących hity w dawnym stylu.",
-      "explanation_incorrect": "The Networks dotyczy telewizji, Dream Factory to inna gra o kinie (Traumfabrik), a The Gallerist o sztuce.",
-      "last_verified_at": "2026-06-12T15:05:23.484Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hollywood to gra karciana, w której gracze jako szefowie studiów kompletują elementy produkcji filmowych i rywalizują o stworzenie udanych blockbusterów.",
+      "explanation_incorrect": "The Networks dotyczy telewizji, Dream Factory to inna gra o kinie (Traumfabrik), a The Gallerist o sztuce."
     },
     {
       "subcategory": "Gry o egiptologii",
@@ -693,10 +657,8 @@
         "Horrified"
       ],
       "answer": "Fury of Dracula",
-      "explanation_correct": "Fury of Dracula (pol. Horror w Arkham: Fury of Dracula) to asymetryczna gra o ściganiu wampira przez grupę łowców.",
-      "explanation_incorrect": "Listy z Whitechapel to gra o morderstwach w Londynie, pozostałe to inne gry tematyczne.",
-      "last_verified_at": "2026-06-12T15:05:23.484Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fury of Dracula to asymetryczna gra dedukcyjna osadzona w XIX-wiecznej Europie: jeden gracz kieruje Draculą, a pozostali próbują wytropić i powstrzymać wampira.",
+      "explanation_incorrect": "Listy z Whitechapel to gra o morderstwach w Londynie, pozostałe to inne gry tematyczne."
     },
     {
       "subcategory": "Gry o architekturze",
@@ -708,10 +670,8 @@
         "Abyss"
       ],
       "answer": "Queendomino",
-      "explanation_correct": "Queendomino to rozszerzona wersja Kingdomino, w której gracze budują posiadłości licząc na wizytę królowej.",
-      "explanation_incorrect": "Five Tribes to gra o dżinnach i licytacji, pozostałe to inne popularne tytuły tego autora.",
-      "last_verified_at": "2026-06-12T15:05:23.484Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Queendomino to samodzielna gra z rodziny Kingdomino; można ją też łączyć z Kingdomino, by grać w większym składzie.",
+      "explanation_incorrect": "Five Tribes to gra o dżinnach i licytacji, pozostałe to inne popularne tytuły tego autora."
     },
     {
       "subcategory": "Gry o mapach",
@@ -790,18 +750,16 @@
     },
     {
       "subcategory": "Gry o kawie",
-      "question": "Jaki tytuł nosi gra o handlu kawą w epoce kolonialnej (np. w Gwatemali czy Etiopii)?",
+      "question": "Jaki tytuł nosi gra ekonomiczna o handlu kawą arabica, osadzona w latach 70. XX wieku?",
       "options": [
-        "Coffee Trader",
+        "Coffee Traders",
         "Coffee Roaster",
         "Java",
         "Costa Rica"
       ],
-      "answer": "Coffee Trader",
-      "explanation_correct": "Coffee Trader to zaawansowana gra ekonomiczna o handlu kawą arabica na światowych rynkach.",
-      "explanation_incorrect": "Coffee Roaster to gra jednoosobowa o paleniu kawy, Java o budowie tarasów w Indonezji.",
-      "last_verified_at": "2026-06-12T15:05:23.484Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Coffee Traders",
+      "explanation_correct": "Coffee Traders przedstawia handel kawą arabica w latach 70. XX wieku, obejmując regiony upraw w Ameryce, Afryce i Azji oraz międzynarodową sieć sprzedaży.",
+      "explanation_incorrect": "Coffee Roaster to gra solo o wypalaniu kawy, Java dotyczy rozwoju na indonezyjskiej wyspie, a Coffee Traders skupia się na produkcji i handlu kawą w kilku regionach świata."
     },
     {
       "subcategory": "Gry o koszykówce",
@@ -820,7 +778,7 @@
     },
     {
       "subcategory": "Gry o zegarach",
-      "question": "Jaki tytuł nosi gra o podróżach w czasie i naprawianiu kontinuum?",
+      "question": "W której grze science fiction gracze mogą sprowadzać zasoby z przyszłości i później je spłacać?",
       "options": [
         "Anachrony",
         "Czas",
@@ -828,10 +786,8 @@
         "Podróż w Czasie"
       ],
       "answer": "Anachrony",
-      "explanation_correct": "Anachrony to gra o podróżach w czasie, gdzie gracze naprawiają kontinuum czasowe i zarządzają paradoksami.",
-      "explanation_incorrect": "Czas, Chronos i Podróż w Czasie to ogólne terminy, nie tytuły gry.",
-      "last_verified_at": "2026-06-12T15:04:43.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Anachrony łączy rozmieszczanie robotników i zarządzanie zasobami z podróżami w czasie: gracze mogą pożyczać zasoby z przyszłych rund, a potem je zwracać.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są tytułami tej gry; mechanika pożyczania zasobów z przyszłości jest charakterystyczna dla Anachrony."
     },
     {
       "subcategory": "Gry o psach",
@@ -850,7 +806,7 @@
     },
     {
       "subcategory": "Gry o jaskiniach",
-      "question": "Jaki tytuł nosi gra Uwe Rosenberga o rozwoju plemienia w jaskiniach?",
+      "question": "Jaki tytuł nosi gra Uwe Rosenberga, w której rodzina krasnoludów rozwija gospodarstwo i swoją jaskinię?",
       "options": [
         "Caverna",
         "Jaskinie",
@@ -858,10 +814,8 @@
         "Agricola"
       ],
       "answer": "Caverna",
-      "explanation_correct": "Caverna to gra Uwe Rosenberga, w której gracze rozwijają swoje plemię w jaskiniach, uprawiając ziemię i hodując zwierzęta.",
-      "explanation_incorrect": "Jaskinie i Plemiona to ogólne tematy; Agricola to inna gra Rosenberga, ale o gospodarstwie rolnym.",
-      "last_verified_at": "2026-06-12T15:04:43.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Caverna: The Cave Farmers to gra Uwe Rosenberga o rodzinie krasnoludów, która rozbudowuje jaskinię, uprawia ziemię i hoduje zwierzęta.",
+      "explanation_incorrect": "Agricola to inna gra Rosenberga o gospodarstwie; Caverna przedstawia krasnoludzką rodzinę rozwijającą jaskinię i ziemię wokół niej."
     },
     {
       "subcategory": "Gry o lodach",
@@ -895,18 +849,16 @@
     },
     {
       "subcategory": "Gry o cywilizacji",
-      "question": "Jaki tytuł nosi planszowa adaptacja gry Sid Meiera o rozwoju cywilizacji?",
+      "question": "Jaki jest pełny tytuł planszowej adaptacji komputerowej serii Sid Meier's Civilization wydanej przez Fantasy Flight Games w 2010 roku?",
       "options": [
-        "Civilization",
-        "Cywilizacja",
-        "Sid Meier's Civilization",
-        "Imperium"
+        "Sid Meier's Civilization: The Board Game",
+        "Sid Meier's Civilization: A New Dawn",
+        "Through the Ages: A New Story of Civilization",
+        "Clash of Cultures"
       ],
-      "answer": "Civilization",
-      "explanation_correct": "Civilization to planszowa wersja kultowej gry komputerowej Sid Meiera, w której gracze rozwijają swoją cywilizację przez epoki.",
-      "explanation_incorrect": "Cywilizacja to polskie tłumaczenie, ale poprawny tytuł oryginalny to Civilization; Sidd Meier's Civilization to pełna nazwa, ale często skracana; Imperium to inna gra.",
-      "last_verified_at": "2026-06-12T15:04:43.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sid Meier's Civilization: The Board Game",
+      "explanation_correct": "Sid Meier's Civilization: The Board Game to planszowa adaptacja serii gier komputerowych Sid Meier's Civilization wydana przez Fantasy Flight Games w 2010 roku.",
+      "explanation_incorrect": "Sid Meier's Civilization: A New Dawn to inna gra planszowa z tej marki; Through the Ages i Clash of Cultures to odrębne gry cywilizacyjne."
     },
     {
       "subcategory": "Gry o architekturze",
@@ -925,7 +877,7 @@
     },
     {
       "subcategory": "Gry o sztuce",
-      "question": "Który malarz jest tematem gry planszowej o tworzeniu obrazów?",
+      "question": "Jaki artysta jest tytułową postacią gry planszowej wydanej przez Van Gogh Museum, która prowadzi graczy przez wydarzenia z jego życia?",
       "options": [
         "Vincent van Gogh",
         "Pablo Picasso",
@@ -933,25 +885,21 @@
         "Rembrandt"
       ],
       "answer": "Vincent van Gogh",
-      "explanation_correct": "Gra 'Van Gogh' lub 'The Art of Vincent van Gogh' koncentruje się na życiu i twórczości Vincenta van Gogha.",
-      "explanation_incorrect": "Pozostali malarze również mają gry, ale pytanie dotyczy konkretnej gry o tworzeniu obrazów – van Gogh jest jednym z najpopularniejszych tematów.",
-      "last_verified_at": "2026-06-12T15:04:43.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Vincent van Gogh Board Game wydane przez Van Gogh Museum przedstawia kolejne miejsca i wydarzenia z życia Vincenta van Gogha.",
+      "explanation_incorrect": "Pytanie dotyczy gry muzealnej o życiu konkretnego artysty, a nie gier o sztuce lub malarzach jako ogólnym temacie."
     },
     {
       "subcategory": "Gry ze słowami",
-      "question": "Jaka jest nazwa najpopularniejszej gry w układanie słów na planszy?",
+      "question": "Która gra planszowa polega na układaniu słów z płytek literowych na planszy, przy czym litery mają różne wartości punktowe?",
       "options": [
         "Scrabble",
         "Boggle",
-        "Words With Friends",
+        "Bananagrams",
         "Słowotok"
       ],
       "answer": "Scrabble",
-      "explanation_correct": "Scrabble to klasyczna gra słowna, w której gracze układają słowa z liter o różnej wartości punktowej na planszy.",
-      "explanation_incorrect": "Boggle to gra z kostkami, Words With Friends to wersja cyfrowa, a Słowotok to polska gra, ale Scrabble jest zdecydowanie najpopularniejsze.",
-      "last_verified_at": "2026-06-12T15:04:43.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Scrabble gracze dokładają płytki z literami, tworząc słowa na planszy; litery mają różne wartości punktowe.",
+      "explanation_incorrect": "Boggle tworzy słowa z liter na kostkach, a Bananagrams i Słowotok nie wykorzystują planszy z polami premiującymi; pytanie opisuje zasady Scrabble."
     },
     {
       "subcategory": "Gry o pszczołach",
@@ -1000,7 +948,7 @@
     },
     {
       "subcategory": "Gry o japońskiej kulturze",
-      "question": "Jaka gra planszowa o japońskiej kulturze skupia się na pojedynkach samurajów z mechaniką licytacji?",
+      "question": "Jaka gra Erica Langa, osadzona w fantastycznej wersji feudalnej Japonii, łączy negocjacje, sojusze i walkę między klanami?",
       "options": [
         "Rising Sun",
         "Shogun",
@@ -1008,10 +956,8 @@
         "Ronin"
       ],
       "answer": "Rising Sun",
-      "explanation_correct": "Rising Sun to gra o feudalnej Japonii z mechaniką licytacji i kontroli terytorium, znana z dynamicznych pojedynków.",
-      "explanation_incorrect": "Shogun to gra strategiczna, ale bez licytacji. Samurai i Ronin to inne gry, ale nie mają mechaniki licytacji w centrum rozgrywki.",
-      "last_verified_at": "2026-06-12T15:04:43.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rising Sun to gra strategiczna osadzona w fantastycznej wersji feudalnej Japonii; ważną rolę odgrywają w niej negocjacje, sojusze i konflikty klanów.",
+      "explanation_incorrect": "Pozostałe tytuły także przywołują Japonię lub samurajów, ale pytanie opisuje grę Erica Langa Rising Sun."
     },
     {
       "subcategory": "Gry o rynkach",
@@ -1044,8 +990,8 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gry o herbaty",
-      "question": "Jaka gra planszowa o herbaty polega na zbieraniu liści herbaty i parzeniu naparów?",
+      "subcategory": "Gry o herbacie",
+      "question": "Jaka gra planszowa łączy uprawę i zbiory herbaty oraz zasób Chai z budową Kolei Himalajskiej i Darjeeling?",
       "options": [
         "Alubari",
         "Tea Dragon Society",
@@ -1053,14 +999,12 @@
         "Herbatian"
       ],
       "answer": "Alubari",
-      "explanation_correct": "Alubari: A Nice Cup of Tea to gra o produkcji herbaty, gdzie gracze zbierają liście i parzą herbatę.",
-      "explanation_incorrect": "Tea Dragon Society to gra karciana o opiece nad smokami, Cha Dao to abstrakcyjna gra, Herbatian nie jest znaną grą.",
-      "last_verified_at": "2026-06-12T15:04:43.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Alubari: A Nice Cup of Tea łączy rozwijanie plantacji i zbieranie herbaty, zdobywanie Chai oraz budowę Kolei Himalajskiej i Darjeeling.",
+      "explanation_incorrect": "Tea Dragon Society, Cha Dao i Herbatian nie opisują rozwoju plantacji herbaty oraz wspólnej budowy tej kolei."
     },
     {
       "subcategory": "Gry o sporcie",
-      "question": "Która gra symuluje krwawe rozgrywki futbolowe w świecie fantasy?",
+      "question": "Która gra Games Workshop rozgrywa fantasy football na boisku, w odróżnieniu od wariantu Dungeon Bowl rozgrywanego w lochach?",
       "options": [
         "Blood Bowl",
         "Football Legends",
@@ -1068,25 +1012,21 @@
         "Space Marine Soccer"
       ],
       "answer": "Blood Bowl",
-      "explanation_correct": "Blood Bowl to gra planszowa łącząca fantasy i futbol amerykański, pełna przemocy i humoru.",
-      "explanation_incorrect": "Football Legends i Space Marine Soccer nie są znane, Dungeon Bowl to wariant Blood Bowl, ale główna gra to Blood Bowl.",
-      "last_verified_at": "2026-06-12T15:04:43.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Blood Bowl to podstawowa gra Games Workshop o meczach fantasy football na boisku. Dungeon Bowl jest odrębną odmianą osadzoną w lochach.",
+      "explanation_incorrect": "Dungeon Bowl również wywodzi się z fantasy football, ale jego areną są lochy; pytanie dotyczy boiskowej gry Blood Bowl."
     },
     {
       "subcategory": "Gry o kosmosie",
-      "question": "Jaka rasa z gry Cosmic Encounter potrafi zmieniać zasady gry?",
+      "question": "Jaki element wyróżnia każdą z ras obcych w grze Cosmic Encounter?",
       "options": [
-        "Obcy",
-        "Zieloni",
-        "Kosmici",
-        "Zmiennicy"
+        "Unikalna moc, która może zmieniać zwykłe zasady gry",
+        "Własna talia kart do budowy statków",
+        "Osobna mapa planety z własnymi surowcami",
+        "Stała liczba dodatkowych tur"
       ],
-      "answer": "Obcy",
-      "explanation_correct": "Rasa Obcy (Aliens) w Cosmic Encounter ma zdolność 'Zamień zasady', pozwalającą na modyfikację reguł.",
-      "explanation_incorrect": "Zieloni to inna rasa, ale nie zmienia zasad. Kosmici to ogólny termin, a Zmiennicy to niepoprawna nazwa.",
-      "last_verified_at": "2026-06-12T15:04:43.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Unikalna moc, która może zmieniać zwykłe zasady gry",
+      "explanation_correct": "Każda rasa w Cosmic Encounter ma własną unikalną moc; wiele z nich modyfikuje lub omija zwykłe zasady gry.",
+      "explanation_incorrect": "Wyróżnikiem ras są ich odmienne moce specjalne, a nie osobne talie, mapy planet ani stała liczba dodatkowych tur."
     },
     {
       "subcategory": "Gry o zamkach",
@@ -1135,7 +1075,7 @@
     },
     {
       "subcategory": "Gry o marszu",
-      "question": "W której grze wcielamy się w kupców handlujących dywanami na słynnym marokańskim placu?",
+      "question": "W której grze gracze wykładają dywany na targu i przesuwają figurkę Asama?",
       "options": [
         "Marrakech",
         "Casablanca",
@@ -1143,10 +1083,8 @@
         "Bazar"
       ],
       "answer": "Marrakech",
-      "explanation_correct": "W grze Marrakech przesuwamy figurkę Asama i wykładamy dywany, starając się przejąć kontrolę nad planszą.",
-      "explanation_incorrect": "Pozostałe nazwy nie są związane z tą konkretną mechaniką handlu tkaninami.",
-      "last_verified_at": "2026-06-12T15:05:23.484Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Marrakech gracze rozmieszczają dywany na planszy targu, a ruch figurki Asama wyznacza, gdzie można położyć kolejny dywan.",
+      "explanation_incorrect": "Pozostałe nazwy nie odpowiadają grze z figurką Asama i rozmieszczaniem dywanów."
     },
     {
       "subcategory": "Gry o modzie",
@@ -1233,10 +1171,8 @@
         "The Gallerist"
       ],
       "answer": "Weather Machine",
-      "explanation_correct": "W Weather Machine gracze współpracują z profesorem Lativ em, by naprawić skutki manipulacji klimatem.",
-      "explanation_incorrect": "Wszystkie wymienione gry są autorstwa Lacerdy, ale tylko jedna dotyczy meteorologii.",
-      "last_verified_at": "2026-06-12T15:05:23.485Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Weather Machine gracze, jako naukowcy współpracujący z profesorem Sênim Lativem, testują jego wynalazek i próbują ograniczyć skutki uboczne manipulowania lokalną pogodą.",
+      "explanation_incorrect": "Wszystkie wymienione gry zaprojektował Vital Lacerda, ale Weather Machine dotyczy testowania technologii kontroli pogody."
     },
     {
       "subcategory": "Gry o snach",
@@ -1255,18 +1191,16 @@
     },
     {
       "subcategory": "Gry o owadach",
-      "question": "Która gra logiczna przedstawia walkę dwóch kolonii owadów bez planszy?",
+      "question": "Która abstrakcyjna gra logiczna o owadach rozgrywa się bez planszy, z płytek tworzących obszar gry?",
       "options": [
         "Rój",
-        "Hive",
-        "Bug",
-        "Insecta"
+        "Onitama",
+        "Abalone",
+        "Stratego"
       ],
       "answer": "Rój",
-      "explanation_correct": "Rój (znany też jako Hive) to abstrakcyjna gra strategiczna, w której owady walczą na heksagonalnych polach.",
-      "explanation_incorrect": "Pozostałe opcje albo nie są grami planszowymi, albo mają inny mechanizm.",
-      "last_verified_at": "2026-06-12T15:04:43.651Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rój (Hive) to abstrakcyjna gra strategiczna bez planszy: gracze przesuwają heksagonalne płytki z owadami, które same tworzą zmienny obszar gry.",
+      "explanation_incorrect": "Onitama, Abalone i Stratego są innymi grami abstrakcyjnymi; Rój wyróżnia się owadzimi płytkami, które same tworzą obszar rozgrywki."
     },
     {
       "subcategory": "Gry o magii",
@@ -1293,10 +1227,8 @@
         "Taverns of Tiefenthal"
       ],
       "answer": "Beer & Bread",
-      "explanation_correct": "Beer & Bread to gra, w której gracze warzą piwo i pieką chleb, aby zdobyć pieniądze.",
-      "explanation_incorrect": "Pozostałe gry skupiają się tylko na jednym z tych aspektów lub mają inną tematykę.",
-      "last_verified_at": "2026-06-12T15:04:43.651Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Beer & Bread to dwuosobowa gra o uprawie surowców, warzeniu piwa i pieczeniu chleba. Gracze zbierają monety za oba rodzaje produkcji, a końcowy wynik zależy od niższego z tych dwóch wyników.",
+      "explanation_incorrect": "Pozostałe tytuły nie łączą w ten sam sposób uprawy, produkcji piwa i pieczenia chleba."
     },
     {
       "subcategory": "Gry o duchach",
@@ -1308,14 +1240,12 @@
         "Betrayal at House on the Hill"
       ],
       "answer": "Spirit Island",
-      "explanation_correct": "Spirit Island to gra kooperacyjna, w której gracze wcielają się w duchy broniące swojej wyspy przed kolonizatorami.",
-      "explanation_incorrect": "Pozostałe gry mają inną mechanikę lub tematykę walki z duchami.",
-      "last_verified_at": "2026-06-12T15:04:43.651Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Spirit Island to kooperacyjna gra, w której gracze wcielają się w duchy broniące wyspy przed najeźdźcami.",
+      "explanation_incorrect": "Pozostałe gry mają inną mechanikę lub tematykę walki z duchami."
     },
     {
       "subcategory": "Gry o mitologii",
-      "question": "Która gra opowiada o greckich bogach walczących o kontrolę nad archipelagiem?",
+      "question": "W której grze gracze rywalizują o władzę nad wyspami archipelagu Cyklad, zabiegając o przychylność greckich bogów?",
       "options": [
         "Cyclades",
         "Thebes",
@@ -1323,10 +1253,8 @@
         "Olympus"
       ],
       "answer": "Cyclades",
-      "explanation_correct": "Cyclades to gra strategiczna, w której gracze kontrolują greckie bóstwa i walczą o dominację nad wyspami.",
-      "explanation_incorrect": "Pozostałe gry nie dotyczą bezpośrednio walki bogów o archipelag.",
-      "last_verified_at": "2026-06-12T15:04:43.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cyclades to gra o rywalizacji frakcji o dominację na wyspach archipelagu; gracze licytują przychylność greckich bogów i korzystają z ich pomocy.",
+      "explanation_incorrect": "Pozostałe tytuły mają inne tematy lub mechaniki; w Cyclades gracze walczą o kontrolę nad wyspami, pozyskując wsparcie bogów."
     },
     {
       "subcategory": "Gry o smokach",
@@ -1345,7 +1273,7 @@
     },
     {
       "subcategory": "Gry o handlu morskim",
-      "question": "Która klasyczna gra handlowa rozgrywa się w basenie Morza Śródziemnego?",
+      "question": "Która gra strategiczna Maca Gerdtsa przedstawia rozwój sieci handlowej w granicach starożytnego Imperium Rzymskiego?",
       "options": [
         "Concordia",
         "Settlers of Catan",
@@ -1353,10 +1281,8 @@
         "Puerto Rico"
       ],
       "answer": "Concordia",
-      "explanation_correct": "Concordia to gra ekonomiczna osadzona w starożytnym handlu śródziemnomorskim, często uznawana za klasykę.",
-      "explanation_incorrect": "Pozostałe gry mają inne regiony lub tematy (np. Catan na wyspie, Through the Ages cywilizacyjna).",
-      "last_verified_at": "2026-06-12T15:04:43.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Concordia to strategiczna gra ekonomiczna o rozbudowie sieci handlowej w prowincjach Imperium Rzymskiego.",
+      "explanation_incorrect": "Pozostałe gry dotyczą odmiennych światów lub okresów; Concordia rozgrywa się w starożytnym Imperium Rzymskim."
     },
     {
       "subcategory": "Gry o górnictwie",
@@ -1375,7 +1301,7 @@
     },
     {
       "subcategory": "Gry o kulinariach",
-      "question": "W której grze przygotowujesz tradycyjne japońskie posiłki?",
+      "question": "W której grze karcianej gracze draftują zestawy kart przedstawiających sushi?",
       "options": [
         "Sushi Go!",
         "Wasabi!",
@@ -1383,14 +1309,12 @@
         "Tokyo Highway"
       ],
       "answer": "Sushi Go!",
-      "explanation_correct": "Sushi Go! to gra karciana, w której gracze zbierają karty składników do przygotowywania dań kuchni japońskiej.",
-      "explanation_incorrect": "Pozostałe gry nie dotyczą bezpośrednio gotowania japońskich potraw.",
-      "last_verified_at": "2026-06-12T15:04:43.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Sushi Go! gracze przekazują sobie karty i draftują zestawy potraw sushi, aby zdobyć punkty.",
+      "explanation_incorrect": "Pozostałe tytuły nie opierają się na draftowaniu zestawów kart sushi."
     },
     {
       "subcategory": "Gry o zamkach",
-      "question": "Która gra Stefana Felda polega na budowaniu zamków we Francji?",
+      "question": "Która gra Stefana Felda polega na rozwijaniu posiadłości w Burgundii przez układanie zamków, budynków i innych płytek?",
       "options": [
         "Zamki Burgundii",
         "Brugia",
@@ -1398,10 +1322,8 @@
         "Macao"
       ],
       "answer": "Zamki Burgundii",
-      "explanation_correct": "Zamki Burgundii to gra ekonomiczna, w której gracze rozwijają posiadłości i budują zamki w historycznym regionie Burgundii.",
-      "explanation_incorrect": "Pozostałe gry Felda mają inne tematy (Brugia, Notre Dame, Macao) i nie skupiają się na zamkach.",
-      "last_verified_at": "2026-06-12T15:04:43.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zamki Burgundii to gra strategiczna Stefana Felda, w której gracze rozwijają swoje posiadłości w historycznej Burgundii, umieszczając różne płytki.",
+      "explanation_incorrect": "Brugia, Notre Dame i Macao to inne gry Stefana Felda; pytanie opisuje rozwój posiadłości w Zamkach Burgundii."
     },
     {
       "subcategory": "Gry o robotach",
@@ -1435,22 +1357,20 @@
     },
     {
       "subcategory": "Gry o bibliotekach",
-      "question": "Która gra polega na zbieraniu i porządkowaniu książek w domowej biblioteczce?",
+      "question": "Która gra polega na układaniu książek i innych przedmiotów na własnej półce, by realizować cele osobiste i wspólne?",
       "options": [
-        "Moja Półka na Książki",
+        "Półeczka",
         "Biblioteczka",
         "Carcassonne",
         "Terraforming Mars"
       ],
-      "answer": "Moja Półka na Książki",
-      "explanation_correct": "Moja Półka na Książki to gra o układaniu książek na półce według kolorów i autorów.",
-      "explanation_incorrect": "Pozostałe gry nie mają nic wspólnego z biblioteczką i książkami.",
-      "last_verified_at": "2026-06-12T15:04:43.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Półeczka",
+      "explanation_correct": "W Półeczce (My Shelfie) gracze wybierają z pokoju kafelki z książkami i innymi przedmiotami, a następnie układają je na regale, by realizować cele punktujące.",
+      "explanation_incorrect": "Pytanie opisuje grę o tworzeniu regału z kafelków i realizowaniu celów układu, a nie ogólną grę o bibliotekach."
     },
     {
       "subcategory": "Gry o religii",
-      "question": "Jaka gra o budowie słynnej bazyliki w Barcelonie polega na układaniu witraży z kolorowych kości?",
+      "question": "W której grze gracze układają kolorowe kości, aby zaprojektować witraż inspirowany Sagrada Família?",
       "options": [
         "Sagrada",
         "Alhambra",
@@ -1458,10 +1378,8 @@
         "Barcelona"
       ],
       "answer": "Sagrada",
-      "explanation_correct": "Sagrada nawiązuje do słynnej Sagrada Família, gdzie gracze tworzą witraże z kości o różnych wartościach i kolorach.",
-      "explanation_incorrect": "Alhambra dotyczy pałacu w Granadzie, Azul – układania mozaik (azulejos), Barcelona – rozbudowy miasta.",
-      "last_verified_at": "2026-06-12T15:05:23.485Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Sagrada gracze układają kolorowe kości na planszetkach, tworząc wzory witraży inspirowane bazyliką Sagrada Família.",
+      "explanation_incorrect": "Alhambra dotyczy budowy zespołu pałacowego, Azul układania dekoracyjnych kafelków, a Barcelona rozwoju miasta."
     }
   ]
 }
