@@ -2,15 +2,13 @@
   "id": "historia_polskich_elektronarzdzi_pl",
   "name": "Historia Polskich Elektronarzędzi",
   "language": "pl",
-  "description": "Pytania z zakresu: Producent, Marka, Narzędzie, Technologia, Historia, Akcesoria, Licencja...",
+  "description": "Pytania o historię Celmy i innych polskich marek narzędziowych oraz budowę, zastosowanie i bezpieczeństwo elektronarzędzi.",
   "created_at": "2026-06-12T17:19:09.638Z",
-  "last_verified_at": "2026-06-12T17:10:31.715Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Producent",
-      "question": "Które przedsiębiorstwo z Cieszyna jest uznawane za najstarszego polskiego producenta elektronarzędzi?",
+      "question": "Która marka elektronarzędzi jest historycznie związana z Cieszynem i Goleszowem?",
       "options": [
         "Celma",
         "Zelmer",
@@ -18,14 +16,12 @@
         "Indukta"
       ],
       "answer": "Celma",
-      "explanation_correct": "Celma została założona w Cieszynie i jest pionierem krajowych elektronarzędzi.",
-      "explanation_incorrect": "Pozostałe firmy to inni producenci z branży technicznej, ale o innej specjalizacji geograficznej lub produktowej.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Celma ma długą historię produkcji elektronarzędzi w Cieszynie i Goleszowie.",
+      "explanation_incorrect": "Pozostałe przedsiębiorstwa nie są opisaną marką związaną z tymi zakładami."
     },
     {
       "subcategory": "Producent",
-      "question": "Jaka fabryka z Rzeszowa była najbardziej znana z produkcji wiertarek i drobnego sprzętu AGD?",
+      "question": "Która marka sprzętu AGD jest historycznie związana z Rzeszowem?",
       "options": [
         "Zelmer",
         "Celma",
@@ -33,10 +29,8 @@
         "EDA"
       ],
       "answer": "Zelmer",
-      "explanation_correct": "Zakłady Zelmer w Rzeszowie posiadały rozwiniętą linię produkcyjną wiertarek domowych.",
-      "explanation_incorrect": "Pozostałe wymienione firmy to inni polscy producenci narzędzi lub sprzętu przemysłowego.",
-      "last_verified_at": "2026-06-12T17:09:52.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zelmer rozwinął w Rzeszowie produkcję sprzętu gospodarstwa domowego, w tym odkurzaczy.",
+      "explanation_incorrect": "Celma jest związana z Cieszynem i Goleszowem, a Aspa z Wrocławiem."
     },
     {
       "subcategory": "Producent",
@@ -48,10 +42,8 @@
         "Aspa"
       ],
       "answer": "ZDZ Łódź",
-      "explanation_correct": "Zakład Doskonalenia Zawodowego w Łodzi był głównym producentem polskich lutownic transformatorowych.",
-      "explanation_incorrect": "Inne firmy zajmowały się cięższym sprzętem maszynowym lub produkcją silników elektrycznych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ZDZ w Łodzi produkował lutownice transformatorowe; nie jest to dowód, że był jedynym lub największym ich producentem.",
+      "explanation_incorrect": "Pozostałe marki nie oznaczają łódzkiego ZDZ."
     },
     {
       "subcategory": "Producent",
@@ -70,7 +62,7 @@
     },
     {
       "subcategory": "Marka",
-      "question": "Pod jaką nazwą handlową holding z Cieszyna oferował (i oferuje) swoją profesjonalną linię elektronarzędzi?",
+      "question": "Która z wymienionych nazw występuje w ofercie marki Celma jako linia elektronarzędzi?",
       "options": [
         "Celma Professional",
         "Celma Industry",
@@ -78,14 +70,12 @@
         "Celma Expert"
       ],
       "answer": "Celma Professional",
-      "explanation_correct": "Celma Professional to oficjalna nazwa linii narzędzi przeznaczonych dla użytkowników profesjonalnych.",
-      "explanation_incorrect": "Pozostałe nazwy są nazwami generycznymi stosowanymi przez inne marki i nie były oficjalnymi liniami Celmy.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Celma Professional to nazwa jednej z linii elektronarzędzi marki Celma.",
+      "explanation_incorrect": "Pozostałe propozycje nie są nazwą linii Celma Professional."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Który model polskiej wiertarki udarowej stał się kultowym wyposażeniem polskich warsztatów w latach 80.?",
+      "question": "Jaki symbol nosiła znana dwubiegowa wiertarka bez udaru marki Celma?",
       "options": [
         "Celma PRCr",
         "Celma PRwg",
@@ -93,14 +83,12 @@
         "Aspa 500"
       ],
       "answer": "Celma PRCr",
-      "explanation_correct": "Seria PRCr była standardem wyposażenia polskich remontów w tamtym okresie.",
-      "explanation_incorrect": "Pozostałe modele to albo nieistniejące nazwy, albo maszyny innego typu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "PRCr 10/6 występowała jako dwubiegowa wiertarka bezudarowa, także w wersjach z przystawkami.",
+      "explanation_incorrect": "PRWg oznaczał rodzinę młotków obrotowych, a nie wskazaną wiertarkę PRCr."
     },
     {
       "subcategory": "Technologia",
-      "question": "Jaki rodzaj napędu był stosowany w pierwszych konstrukcjach polskich szlifierek?",
+      "question": "Jaki typ silnika w elektronarzędziu przekazuje prąd do wirnika przez szczotki i komutator?",
       "options": [
         "Silnik komutatorowy",
         "Silnik indukcyjny",
@@ -108,10 +96,8 @@
         "Napęd pneumatyczny"
       ],
       "answer": "Silnik komutatorowy",
-      "explanation_correct": "Silniki komutatorowe umożliwiały uzyskanie wysokich obrotów niezbędnych w szlifierkach ręcznych.",
-      "explanation_incorrect": "Silniki indukcyjne były zbyt ciężkie do elektronarzędzi ręcznych, a bezszczotkowe to technologia współczesna.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Silnik komutatorowy używa szczotek i komutatora do połączenia elektrycznego z wirnikiem.",
+      "explanation_incorrect": "Silnik pneumatyczny wykorzystuje sprężone powietrze, a silnik bezszczotkowy nie ma szczotek komutatora."
     },
     {
       "subcategory": "Producent",
@@ -123,14 +109,12 @@
         "Zelmer"
       ],
       "answer": "Indukta",
-      "explanation_correct": "Fabryka Indukta w Bielsku-Białej wytwarzała kluczowe silniki dla wielu polskich maszyn.",
-      "explanation_incorrect": "Pozostałe firmy były finalnymi montowniami gotowych produktów.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Indukta w Bielsku-Białej jest producentem silników elektrycznych.",
+      "explanation_incorrect": "Pozostałe marki nie oznaczają bielskiej fabryki Indukta."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jaki był symbol najpopularniejszej wiertarki ręcznej o mocy 350W?",
+      "question": "Jaki symbol miała dwubiegowa wiertarka Celma, której własną wersję o mocy 450 W uruchomiono w 1983 roku?",
       "options": [
         "PRCr 10/6",
         "PRCr 13",
@@ -138,29 +122,25 @@
         "PZ-350"
       ],
       "answer": "PRCr 10/6",
-      "explanation_correct": "Symbol PRCr 10/6 odnosił się do popularnego modelu wiertarki z uchwytem 10 mm.",
-      "explanation_incorrect": "Pozostałe symbole odnoszą się do innych klas mocy lub zupełnie odmiennych narzędzi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Według opracowania historii Celmy w 1983 roku uruchomiono własną wiertarkę PRCr 10/6 z silnikiem 450 W. Inne wersje mogły mieć inną moc.",
+      "explanation_incorrect": "Opis w źródle historycznym odnosi się do modelu PRCr 10/6."
     },
     {
       "subcategory": "Historia",
-      "question": "W którym mieście po raz pierwszy w Polsce wyprodukowano szlifierkę kątową?",
+      "question": "W jakiej dekadzie rozpoczęto produkcję pierwszych wiertarek elektrycznych w cieszyńskiej fabryce narzędzi?",
       "options": [
-        "Cieszyn",
-        "Łódź",
-        "Wrocław",
-        "Rzeszów"
+        "W latach 50. XX wieku",
+        "W latach 20. XX wieku",
+        "W latach 90. XX wieku",
+        "W latach 2010–2019"
       ],
-      "answer": "Cieszyn",
-      "explanation_correct": "Cieszyn był kolebką rozwoju polskiej myśli technicznej w zakresie elektronarzędzi wirujących.",
-      "explanation_incorrect": "Pozostałe miasta posiadały istotne zakłady, ale to Cieszyn wdrożył jako pierwszy tę technologię.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "W latach 50. XX wieku",
+      "explanation_correct": "Pierwsze wiertarki elektryczne fabryki wyprodukowano pod koniec lat 50.",
+      "explanation_incorrect": "Źródła historyczne podają rok 1959 jako początek produkcji tych wiertarek."
     },
     {
       "subcategory": "Akcesoria",
-      "question": "Który polski producent był najbardziej znanym wytwórcą uchwytów wiertarskich?",
+      "question": "Która firma z Białegostoku jest znana z produkcji uchwytów i osprzętu do obrabiarek?",
       "options": [
         "Bison-Bial",
         "Celma",
@@ -168,14 +148,12 @@
         "Zelmer"
       ],
       "answer": "Bison-Bial",
-      "explanation_correct": "Firma Bison-Bial z Białegostoku to renomowany wytwórca osprzętu mocującego.",
-      "explanation_incorrect": "Pozostałe wymienione firmy to producenci kompletnych narzędzi, a nie samego osprzętu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bison-Bial z Białegostoku wytwarza osprzęt mocujący do obrabiarek.",
+      "explanation_incorrect": "Pozostałe marki nie oznaczają białostockiego producenta Bison-Bial."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak w polskiej nomenklaturze technicznej określa się urządzenie do cięcia drewna tarczowego?",
+      "question": "Jak nazywa się narzędzie do cięcia drewna obracającą się piłą w kształcie tarczy?",
       "options": [
         "Pilarka tarczowa",
         "Wyrzynarka",
@@ -184,13 +162,11 @@
       ],
       "answer": "Pilarka tarczowa",
       "explanation_correct": "Pilarka tarczowa to standardowa nazwa elektronarzędzia służącego do obróbki drewna.",
-      "explanation_incorrect": "Pozostałe nazwy dotyczą narzędzi do innych operacji technicznych (cięcie krzywoliniowe, profilowanie, struganie).",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy dotyczą narzędzi do innych operacji technicznych (cięcie krzywoliniowe, profilowanie, struganie)."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się elektryczne narzędzie przeznaczone do wyrównywania powierzchni drewna?",
+      "question": "Które narzędzie wyrównuje drewno, skrawając jego powierzchnię nożami na obracającym się wale?",
       "options": [
         "Strug elektryczny",
         "Pilarka",
@@ -199,24 +175,20 @@
       ],
       "answer": "Strug elektryczny",
       "explanation_correct": "Strug elektryczny służy do strugania drewna przy pomocy noży wirujących.",
-      "explanation_incorrect": "Pozostałe wymienione urządzenia służą do wiercenia, cięcia poprzecznego lub wykańczania powierzchni ścierniwem.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pilarka przecina, szlifierka pracuje ścierniwem, a wiertarka wykonuje otwory."
     },
     {
       "subcategory": "Producent",
-      "question": "Która firma dostarczała transformatory separacyjne do zasilania bezpiecznych narzędzi elektrycznych?",
+      "question": "Jak nazywa się transformator oddzielający galwanicznie obwód odbiornika od sieci?",
       "options": [
-        "Noratel",
-        "Celma",
-        "Indukta",
-        "Aspa"
+        "Transformator separacyjny",
+        "Przekładnia planetarna",
+        "Komutator",
+        "Wirnik"
       ],
-      "answer": "Noratel",
-      "explanation_correct": "Noratel jest znanym producentem transformatorów stosowanych w profesjonalnych układach zasilania narzędzi.",
-      "explanation_incorrect": "Pozostałe firmy to wytwórcy silników lub gotowych narzędzi elektrycznych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Transformator separacyjny",
+      "explanation_correct": "Transformator separacyjny zapewnia oddzielenie galwaniczne uzwojenia wyjściowego od wejściowego.",
+      "explanation_incorrect": "Pozostałe elementy nie są transformatorem oddzielającym obwody."
     },
     {
       "subcategory": "Licencja",
@@ -229,43 +201,37 @@
       ],
       "answer": "Bosch",
       "explanation_correct": "Współpraca z firmą Bosch pozwoliła na unowocześnienie konstrukcji polskich wiertarek.",
-      "explanation_incorrect": "Pozostałe marki nie brały udziału w bezpośredniej standaryzacji narzędzi Celsy w tym czasie.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bosch był stroną umowy licencyjnej; Makita, Metabo i Hilti nie są odpowiedzią na to pytanie."
     },
     {
       "subcategory": "Licencja",
-      "question": "Która japońska marka współpracowała przy projektowaniu polskich silników do narzędzi?",
+      "question": "Z jaką niemiecką firmą Celma podpisała licencję na narzędzia do obróbki drewna w latach 70.?",
       "options": [
+        "Holz-Her",
         "Makita",
-        "Bosch",
-        "Hitachi",
-        "Ryobi"
+        "Nikon",
+        "Philips"
       ],
-      "answer": "Makita",
-      "explanation_correct": "Współpraca z japońskimi inżynierami miała na celu poprawę efektywności energetycznej silników.",
-      "explanation_incorrect": "Bosch kojarzony jest z inną erą licencjonowania, a pozostałe firmy nie współpracowały z Celmą w zakresie silników.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Holz-Her",
+      "explanation_correct": "Licencja Holz-Her obejmowała m.in. pilarkę, strug i szlifierkę taśmową.",
+      "explanation_incorrect": "Pozostałe marki nie są firmą wskazaną w opisanej licencji."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Który model polskiej młotowiertarki powstał w kooperacji z zagranicznymi technologiami?",
+      "question": "Jaki symbol nosił młotek obrotowy z licencji Bosch wymieniony w historii Celmy?",
       "options": [
-        "Celma PRwg",
-        "Celma PRCr",
-        "Zelmer W-2",
-        "Aspa 100"
+        "PRWg 1B",
+        "PRCr 10/6",
+        "DBRCc 67",
+        "DBHEh 65"
       ],
-      "answer": "Celma PRwg",
-      "explanation_correct": "Model PRwg został zaprojektowany z wykorzystaniem licencjonowanego mechanizmu udaru pneumatycznego.",
-      "explanation_incorrect": "Pozostałe modele to prostsze wiertarki udarowe lub inne narzędzia.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "PRWg 1B",
+      "explanation_correct": "PRWg 1B należał do narzędzi objętych umową licencyjną z Boschem z 1973 roku.",
+      "explanation_incorrect": "PRCr była wiertarką, DBRCc pilarką, a DBHEh strugiem."
     },
     {
       "subcategory": "Komponenty",
-      "question": "Z jakiego materiału najczęściej wykonywano obudowy klasycznych polskich wiertarek?",
+      "question": "Jaki metaliczny materiał stosowano w niektórych korpusach dawnych wiertarek?",
       "options": [
         "Stop aluminium",
         "Włókno węglowe",
@@ -273,14 +239,12 @@
         "Stal nierdzewna"
       ],
       "answer": "Stop aluminium",
-      "explanation_correct": "Odlewy ze stopów aluminium zapewniały dużą wytrzymałość mechaniczną i chłodzenie silnika.",
-      "explanation_incorrect": "Stal jest za ciężka, a tworzywa sztuczne stały się standardem dopiero w późniejszym okresie.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odlewane stopy aluminium wykorzystywano w korpusach części starszych wiertarek. Nie wszystkie urządzenia miały jednakowe obudowy.",
+      "explanation_incorrect": "Włókno węglowe i polistyren nie są metalami, a stal nierdzewna nie jest stopem aluminium."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jakie narzędzie służy do precyzyjnego łączenia komponentów elektronicznych na płytkach drukowanych?",
+      "question": "Jak nazywa się lutownica, w której niskonapięciowy grot nagrzewa się prądem z transformatora?",
       "options": [
         "Lutownica transformatorowa",
         "Wiertarka wysokoobrotowa",
@@ -288,40 +252,34 @@
         "Wyrzynarka"
       ],
       "answer": "Lutownica transformatorowa",
-      "explanation_correct": "Jest to narzędzie generujące ciepło przez zwarcie wtórne transformatora, idealne do elektroniki.",
-      "explanation_incorrect": "Pozostałe urządzenia są narzędziami mechanicznymi nieprzeznaczonymi do lutowania.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W lutownicy transformatorowej prąd o dużym natężeniu nagrzewa grot. Do drobnej elektroniki często używa się również lutownic oporowych lub stacji lutowniczych.",
+      "explanation_incorrect": "Pozostałe urządzenia są narzędziami mechanicznymi, a nie lutownicami."
     },
     {
       "subcategory": "Zastosowanie",
-      "question": "Jaki sektor polskiej gospodarki był głównym odbiorcą narzędzi marki Celma?",
+      "question": "Które z wymienionych urządzeń znajdowało się w historycznej produkcji Celmy?",
       "options": [
-        "Przemysł ciężki",
-        "Rolnictwo indywidualne",
-        "Handel detaliczny",
-        "Sektor medyczny"
+        "Wiertarka elektryczna",
+        "Fortepian",
+        "Aparat fotograficzny",
+        "Rower miejski"
       ],
-      "answer": "Przemysł ciężki",
-      "explanation_correct": "Konstrukcja narzędzi Celma była dostosowana do pracy w warunkach zwiększonego obciążenia w zakładach przemysłowych.",
-      "explanation_incorrect": "Pozostałe sektory nie wymagały tak wytrzymałych narzędzi, jakie oferował holding Celma.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wiertarka elektryczna",
+      "explanation_correct": "Wiertarki elektryczne były ważnym produktem zakładów związanych z marką Celma.",
+      "explanation_incorrect": "Pozostałe propozycje nie są wiertarkami elektrycznymi."
     },
     {
       "subcategory": "Producent",
-      "question": "Która firma z siedzibą w Suwałkach wyspecjalizowała się w produkcji osprzętu oraz narzędzi magnetycznych do szlifierek?",
+      "question": "W jakim mieście działa producent wiertarek magnetycznych i urządzeń spawalniczych Promotech?",
       "options": [
-        "Promotech",
-        "Celma",
-        "Besel",
-        "Juco"
+        "Białystok",
+        "Suwałki",
+        "Cieszyn",
+        "Brzeg"
       ],
-      "answer": "Promotech",
-      "explanation_correct": "Promotech z Suwałk jest kluczowym polskim producentem rozwiązań magnetycznych i osprzętu.",
-      "explanation_incorrect": "Pozostałe firmy to albo inni producenci elektronarzędzi, albo zakłady o innym profilu produkcji.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Białystok",
+      "explanation_correct": "Siedziba Promotech znajduje się w Białymstoku.",
+      "explanation_incorrect": "Firma wskazuje Białystok jako swoją lokalizację."
     },
     {
       "subcategory": "Narzędzie",
@@ -333,55 +291,47 @@
         "Szlifierka mimośrodowa"
       ],
       "answer": "Szlifierka oscylacyjna",
-      "explanation_correct": "Szlifierka oscylacyjna wykorzystuje prostoliniowy ruch posuwisto-zwrotny stopy szlifującej.",
-      "explanation_incorrect": "Pozostałe narzędzia wykorzystują odmienne mechanizmy ścierne, takie jak pas bezkońcowy lub tarcza obrotowa.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szlifierka oscylacyjna wykonuje drobne oscylacje stopy, zwykle po niewielkiej orbicie, a nie prosty ruch tam i z powrotem.",
+      "explanation_incorrect": "Szlifierka taśmowa używa pasa bezkońcowego, a kątowa obracającej się tarczy. Mimośrodowa łączy ruch orbitalny z obrotem talerza."
     },
     {
       "subcategory": "Model",
-      "question": "Który produkt marki Celma stał się uniwersalnym systemem wielofunkcyjnym popularnym w polskich domach?",
+      "question": "Jaki rodzaj osprzętu pozwalał rozszerzyć zastosowania niektórych wiertarek Celma PRCr?",
       "options": [
-        "Zestaw Combi",
-        "System Pro",
-        "Multi-Tool",
-        "Versa-Kit"
+        "Wymienne przystawki",
+        "Bieżnia sportowa",
+        "Wyświetlacz telewizyjny",
+        "Koła rowerowe"
       ],
-      "answer": "Zestaw Combi",
-      "explanation_correct": "Zestaw Combi był wszechstronnym rozwiązaniem modułowym produkowanym przez firmę Celma.",
-      "explanation_incorrect": "Podane dystraktory to nazwy obcojęzyczne lub nieistniejące w nomenklaturze historycznej firmy Celma.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wymienne przystawki",
+      "explanation_correct": "Wiertarka PRCr 10/6 B występowała w historycznej ofercie z zestawem przystawek.",
+      "explanation_incorrect": "Opisany system wykorzystuje przystawki do wiertarki."
     },
     {
       "subcategory": "Historia",
-      "question": "Pod jaką nazwą funkcjonowały przed latami 60. XX wieku zakłady, które później stały się znane jako Celma?",
+      "question": "Jak nazywała się cieszyńska fabryka narzędzi połączona z Celmą w 1972 roku?",
       "options": [
-        "Elektron",
-        "Iskra",
-        "Volt",
-        "Metal"
+        "CEFANA",
+        "Polfa",
+        "Unitra Diora",
+        "Fablok"
       ],
-      "answer": "Elektron",
-      "explanation_correct": "Cieszyńskie zakłady przed przybraniem nazwy Celma funkcjonowały jako zakład Elektron.",
-      "explanation_incorrect": "Inne propozycje są nazwami ogólnymi lub odnoszą się do innych gałęzi przemysłu elektrotechnicznego.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "CEFANA",
+      "explanation_correct": "Cieszyńska Fabryka Narzędzi, nazywana CEFANA, została włączona do Celmy w 1972 roku.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają cieszyńskiej fabryki narzędzi połączonej wtedy z Celmą."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Który model polskiej szlifierki kątowej o dużej mocy stał się symbolem profesjonalnej serii narzędzi z Cieszyna?",
+      "question": "Jaki symbol miała szlifierka z licencji Boscha wymieniona w historii Celmy?",
       "options": [
-        "Celma PRAw",
-        "Celma PRAl",
-        "Celma PRBm",
-        "Celma PRCc"
+        "PRAw 130B",
+        "PRWg 2B",
+        "PRCz 16B",
+        "PRMk 2B"
       ],
-      "answer": "Celma PRAw",
-      "explanation_correct": "Seria PRAw to ceniona przez profesjonalistów rodzina szlifierek kątowych produkcji Celmy.",
-      "explanation_incorrect": "Inne oznaczenia albo nie istnieją w tej serii, albo odnoszą się do zupełnie innych typów narzędzi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "PRAw 130B",
+      "explanation_correct": "W historycznym wykazie licencji Boscha PRAw 130B figuruje jako szlifierka.",
+      "explanation_incorrect": "Pozostałe oznaczenia dotyczą innych urządzeń z wykazu licencyjnego."
     },
     {
       "subcategory": "Producent",
@@ -394,24 +344,20 @@
       ],
       "answer": "Besel",
       "explanation_correct": "Firma Besel od dziesięcioleci dostarcza silniki elektryczne do szerokiej gamy polskich maszyn.",
-      "explanation_incorrect": "Pozostałe podane firmy to albo producenci narzędzi, albo fabryki silników o innej specjalizacji przemysłowej.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Emit i TAMEL także są związane z produkcją silników elektrycznych; pytanie dotyczy firmy z Brzegu."
     },
     {
       "subcategory": "Narzędzie",
       "question": "Jak określa się specjalistyczne narzędzie z napędem elektrycznym służące do udarowego wkręcania śrub?",
       "options": [
         "Zakrętarka udarowa",
-        "Wiertarko-wkrętarka",
-        "Klucz elektryczny",
-        "Wkrętarka sieciowa"
+        "Szlifierka oscylacyjna",
+        "Pilarka tarczowa",
+        "Wyrzynarka"
       ],
       "answer": "Zakrętarka udarowa",
       "explanation_correct": "Zakrętarka udarowa służy do precyzyjnego osadzania śrub za pomocą energii udarowej.",
-      "explanation_incorrect": "Wiertarko-wkrętarki to urządzenia wielofunkcyjne, a klucze elektryczne służą zazwyczaj do obsługi większych śrub sześciokątnych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe narzędzia służą do szlifowania lub cięcia. Także klucze udarowe wykorzystują udar obrotowy do dokręcania elementów złącznych."
     },
     {
       "subcategory": "Standard",
@@ -423,55 +369,47 @@
         "Uchwyt B16"
       ],
       "answer": "Uchwyt SDS",
-      "explanation_correct": "System SDS (Steck-Dreh-Sitz) pozwala na szybką wymianę osprzętu w młotowiertarkach.",
-      "explanation_incorrect": "Pozostałe typy uchwytów stosuje się głównie w wiertarkach stołowych lub ręcznych wiertarkach uniwersalnych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SDS to rodzina systemów mocowania stosowanych w wielu młotowiertarkach; istnieją m.in. różne warianty SDS-plus i SDS-max.",
+      "explanation_incorrect": "Pozostałe oznaczenia dotyczą innych rozwiązań mocowania narzędzi."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Który model klasycznej lutownicy oporowej produkowanej przez ZDZ zyskał miano kultowego w polskich warsztatach?",
+      "question": "Jakiego rodzaju jest lutownica ZDZ oznaczona LT-100?",
       "options": [
-        "LT-100",
-        "LT-50",
-        "LZ-200",
-        "L-40"
+        "Transformatorowa",
+        "Gazowa",
+        "Pneumatyczna",
+        "Naftowa"
       ],
-      "answer": "LT-100",
-      "explanation_correct": "Lutownica serii LT-100 to jeden z najdłużej produkowanych i najbardziej rozpoznawalnych produktów ZDZ.",
-      "explanation_incorrect": "Inne modele nie występowały w popularnej ofercie ZDZ jako standardowe narzędzia warsztatowe.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Transformatorowa",
+      "explanation_correct": "LT-100 to lutownica transformatorowa, w której grot nagrzewa się prądem z transformatora.",
+      "explanation_incorrect": "LT-100 jest lutownicą transformatorową, nie gazową, pneumatyczną ani naftową."
     },
     {
       "subcategory": "Kolorystyka",
-      "question": "Jaki kolor stał się znakiem rozpoznawczym obudów w nowszych seriach profesjonalnych elektronarzędzi marki Celma?",
+      "question": "Co w nazwie linii akumulatorowej oznacza stosowany przez Celmę skrót OBS?",
       "options": [
-        "Niebieski",
-        "Zielony",
-        "Czerwony",
-        "Żółty"
+        "One Battery System",
+        "Outdoor Blade Size",
+        "Optical Boring Sensor",
+        "Oscillating Brush Speed"
       ],
-      "answer": "Niebieski",
-      "explanation_correct": "Współczesna linia produktów Celma wyróżnia się charakterystycznym niebieskim odcieniem obudów.",
-      "explanation_incorrect": "Pozostałe kolory są kojarzone z innymi markami elektronarzędzi obecnymi na polskim rynku.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "One Battery System",
+      "explanation_correct": "OBS to One Battery System – oznaczenie systemu narzędzi z wykorzystaniem wspólnego typu akumulatora.",
+      "explanation_incorrect": "Pozostałe rozwinięcia nie są nazwą One Battery System."
     },
     {
       "subcategory": "Kolorystyka",
-      "question": "Jaki kolor dominował w wykonaniu klasycznych, aluminiowych obudów polskich elektronarzędzi w epoce PRL?",
+      "question": "Jaki element wiertarki zaciska się bezpośrednio na chwycie wiertła?",
       "options": [
-        "Srebrny",
-        "Szary",
-        "Czarny",
-        "Beżowy"
+        "Uchwyt wiertarski",
+        "Przewód zasilający",
+        "Stojan",
+        "Wtyczka"
       ],
-      "answer": "Srebrny",
-      "explanation_correct": "Klasyczne narzędzia Celmy miały korpusy z polerowanego lub malowanego odlewu aluminium.",
-      "explanation_incorrect": "W tamtym okresie rzadko stosowano tworzywa sztuczne w tych kolorach, stawiając na naturalny kolor metalu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Uchwyt wiertarski",
+      "explanation_correct": "Uchwyt wiertarski mocuje wiertło do wrzeciona urządzenia.",
+      "explanation_incorrect": "Pozostałe elementy nie zaciskają szczęk na wiertle."
     },
     {
       "subcategory": "Narzędzie",
@@ -490,22 +428,20 @@
     },
     {
       "subcategory": "Producent",
-      "question": "Która wrocławska firma stała się liderem w produkcji przecinarek plazmowych i sprzętu spawalniczego?",
+      "question": "Jaką nazwę nosi proces łączenia metali przez stopienie materiału w miejscu połączenia?",
       "options": [
-        "Sherman",
-        "Promotech",
-        "Besel",
-        "Celma"
+        "Spawanie",
+        "Szlifowanie",
+        "Wiercenie",
+        "Struganie"
       ],
-      "answer": "Sherman",
-      "explanation_correct": "Sherman to uznana polska marka specjalizująca się w dostarczaniu urządzeń do obróbki termicznej metali.",
-      "explanation_incorrect": "Inne wymienione firmy zajmują się produkcją narzędzi ręcznych lub silników elektrycznych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Spawanie",
+      "explanation_correct": "Podczas spawania krawędzie materiału są miejscowo stapiane; może być użyte spoiwo.",
+      "explanation_incorrect": "Pozostałe operacje nie polegają na utworzeniu połączenia spawanego."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Które specjalistyczne narzędzie z napędem elektrycznym jest niezbędne do precyzyjnego wycinania złożonych kształtów w blasze?",
+      "question": "Które narzędzie wycina pas blachy przez kolejne skoki stempla?",
       "options": [
         "Nożyce skokowe",
         "Szlifierka oscylacyjna",
@@ -513,70 +449,60 @@
         "Piła szablasta"
       ],
       "answer": "Nożyce skokowe",
-      "explanation_correct": "Nożyce skokowe (lub wycinaki) działają na zasadzie mechanicznego przebijania blachy, co umożliwia cięcie bez deformacji.",
-      "explanation_incorrect": "Wyrzynarki i piły służą do innych operacji cięcia, używając brzeszczotów lub tarcz.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nożyce skokowe, zwane wycinakiem do blachy, wycinają materiał stemplem.",
+      "explanation_incorrect": "Wyrzynarka i piła szablasta również mogą ciąć blachę odpowiednim brzeszczotem, ale działają inaczej niż wycinak skokowy."
     },
     {
       "subcategory": "Współpraca",
-      "question": "W którym polskim mieście znajdował się kluczowy ośrodek badawczo-rozwojowy nadzorujący technikę narzędziową w PRL?",
+      "question": "W którym roku połączono Cieszyńską Fabrykę Narzędzi z Celmą?",
       "options": [
-        "Warszawa",
-        "Cieszyn",
-        "Katowice",
-        "Poznań"
+        "1972",
+        "1936",
+        "1950",
+        "2009"
       ],
-      "answer": "Warszawa",
-      "explanation_correct": "W Warszawie mieściły się główne instytuty koordynujące standardy i badania techniczne maszyn.",
-      "explanation_incorrect": "Pozostałe miasta były głównymi ośrodkami produkcyjnymi, a nie ogólnokrajowymi centrami badawczymi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "1972",
+      "explanation_correct": "Połączenie CEFANY z Celmą nastąpiło w lipcu 1972 roku.",
+      "explanation_incorrect": "Pozostałe lata nie są rokiem tego połączenia."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Pod jakim symbolem znana jest polska szlifierka taśmowa zaprojektowana do obróbki drewna?",
+      "question": "Który symbol widnieje w historycznym zestawieniu Celmy jako szlifierka taśmowa z licencji Holz-Her?",
       "options": [
-        "Celma DBSM",
-        "Celma PRDa",
-        "Celma SA-2",
-        "Celma T-100"
+        "DBSMm",
+        "PRWg 1B",
+        "PRCr 10/6",
+        "PRCz 16B"
       ],
-      "answer": "Celma DBSM",
-      "explanation_correct": "DBSM to model szlifierki taśmowej, który zdobył popularność w zakładach stolarskich i warsztatach.",
-      "explanation_incorrect": "Inne oznaczenia nie odpowiadają tej konkretnej rodzinie produktów marki Celma.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "DBSMm",
+      "explanation_correct": "DBSMm była szlifierką taśmową z licencji Holz-Her.",
+      "explanation_incorrect": "PRWg był młotkiem, a wymienione PRCr i PRCz były wiertarkami."
     },
     {
       "subcategory": "Komponenty",
-      "question": "Jaki materiał ścierny był najczęściej stosowany w formie tarcz w polskich szlifierkach kątowych?",
+      "question": "Które ścierniwo jest powszechnie używane w tarczach do obróbki stali?",
       "options": [
-        "Tarcza korundowa",
-        "Tarcza diamentowa",
-        "Tarcza widiowa",
-        "Tarcza ceramiczna"
+        "Korund",
+        "Drewno sosnowe",
+        "Papier biurowy",
+        "Guma do ścierania"
       ],
-      "answer": "Tarcza korundowa",
-      "explanation_correct": "Korund jest klasycznym ścierniwem używanym do cięcia i szlifowania stali w tradycyjnych tarczach.",
-      "explanation_incorrect": "Tarcze diamentowe są przeznaczone do materiałów budowlanych, a ceramiczne nie są typowymi tarczami do elektronarzędzi ręcznych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Korund",
+      "explanation_correct": "Korund, czyli tlenek glinu, jest jednym z popularnych ścierniw używanych do obróbki stali.",
+      "explanation_incorrect": "Pozostałe materiały nie są korundowym ścierniwem tarczy."
     },
     {
       "subcategory": "Producent",
-      "question": "Który producent z Sułkowic jest uznawany za legendarną polską markę narzędzi ręcznych i kowalskich?",
+      "question": "Z jaką podkrakowską miejscowością kojarzona jest marka narzędzi ręcznych Juco?",
       "options": [
-        "Juco",
-        "Promotech",
-        "Besel",
-        "Celma"
+        "Sułkowice",
+        "Goleszów",
+        "Brzeg",
+        "Białystok"
       ],
-      "answer": "Juco",
-      "explanation_correct": "Zakłady Juco w Sułkowicach mają długą tradycję w produkcji narzędzi stalowych.",
-      "explanation_incorrect": "Pozostałe podmioty to firmy wyspecjalizowane w narzędziach elektrycznych lub elektromechanicznych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sułkowice",
+      "explanation_correct": "Juco wiąże się z tradycją produkcji narzędzi w Sułkowicach.",
+      "explanation_incorrect": "Pozostałe miejscowości są związane z innymi ośrodkami przemysłowymi."
     },
     {
       "subcategory": "Narzędzie",
@@ -595,33 +521,29 @@
     },
     {
       "subcategory": "Model",
-      "question": "Jaki model serii innowacyjnych wiertarek bezszczotkowych produkowanych w Cieszynie zyskał miano nowoczesnego standardu?",
+      "question": "Jaką funkcję łączy wiertarko-wkrętarka akumulatorowa, np. Celma WAK-Li?",
       "options": [
-        "Celma WAK",
-        "Celma PRW",
-        "Celma S-50",
-        "Celma Pro-Bit"
+        "Wiercenie i wkręcanie",
+        "Spawanie i lutowanie",
+        "Malowanie i suszenie",
+        "Cięcie i struganie"
       ],
-      "answer": "Celma WAK",
-      "explanation_correct": "Seria WAK to nowoczesne elektronarzędzia Celmy wprowadzające nowsze rozwiązania napędowe.",
-      "explanation_incorrect": "Pozostałe nazwy są fikcyjne lub pochodzą z epoki narzędzi o zupełnie innej konstrukcji napędu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wiercenie i wkręcanie",
+      "explanation_correct": "Wiertarko-wkrętarka może wiercić i wkręcać, zależnie od użytego osprzętu. Sama nazwa WAK nie przesądza o silniku bezszczotkowym.",
+      "explanation_incorrect": "Pozostałe zestawy czynności nie opisują podstawowych funkcji wiertarko-wkrętarki."
     },
     {
       "subcategory": "Historia",
-      "question": "W której dekadzie XX wieku nastąpił największy rozwój licencyjny przedsiębiorstwa Celma w Cieszynie?",
+      "question": "W którym roku Celma zawarła umowę licencyjną z firmą Bosch na elektronarzędzia?",
       "options": [
-        "Lata pięćdziesiąte",
-        "Lata sześćdziesiąte",
-        "Lata siedemdziesiąte",
-        "Lata osiemdziesiąte"
+        "1973",
+        "1945",
+        "1999",
+        "2015"
       ],
-      "answer": "Lata siedemdziesiąte",
-      "explanation_correct": "W latach 70. Celma nawiązała intensywną współpracę licencyjną z zachodnimi firmami, co unowocześniło produkcję elektronarzędzi.",
-      "explanation_incorrect": "Pozostałe dekady nie charakteryzowały się tak dużą skalą zakupów licencji zagranicznych technologii produkcyjnych w tym zakładzie.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "1973",
+      "explanation_correct": "Umowę z Boschem zawarto w 1973 roku.",
+      "explanation_incorrect": "Pozostałe lata nie są datą tej umowy."
     },
     {
       "subcategory": "Zabezpieczenie",
@@ -633,10 +555,8 @@
         "Izolacja ceramiczna"
       ],
       "answer": "Izolacja podwójna",
-      "explanation_correct": "Wprowadzenie podwójnej izolacji wyeliminowało konieczność stosowania przewodu ochronnego, co zwiększyło bezpieczeństwo użytkowników.",
-      "explanation_incorrect": "Pozostałe opcje nie definiują standardów konstrukcyjnych dotyczących klasy ochronności elektronarzędzi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Podwójna lub wzmocniona izolacja jest cechą urządzeń klasy II: bezpieczeństwo nie opiera się w nich na podłączeniu przewodu ochronnego.",
+      "explanation_incorrect": "Pozostałe określenia nie oznaczają klasy II z podwójną lub wzmocnioną izolacją."
     },
     {
       "subcategory": "Narzędzie",
@@ -655,7 +575,7 @@
     },
     {
       "subcategory": "Producent",
-      "question": "Która z wymienionych marek jest znana jako polski brand elektronarzędzi należący do Grupy Topex?",
+      "question": "Która marka elektronarzędzi jest oferowana przez grupę znaną dawniej jako Grupa Topex?",
       "options": [
         "Graphite",
         "Bosch",
@@ -663,14 +583,12 @@
         "DeWalt"
       ],
       "answer": "Graphite",
-      "explanation_correct": "Graphite to polska marka należąca do grupy kapitałowej Topex, kierowana do wymagających majsterkowiczów i profesjonalistów.",
-      "explanation_incorrect": "Pozostałe marki to globalne koncerny z Niemiec (Bosch), Japonii (Makita) oraz USA (DeWalt).",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "GRAPHITE to marka z portfela grupy GTX, wcześniej znanej jako Grupa Topex.",
+      "explanation_incorrect": "Pozostałe marki to globalne koncerny z Niemiec (Bosch), Japonii (Makita) oraz USA (DeWalt)."
     },
     {
       "subcategory": "Producent",
-      "question": "Która marka narzędzi budowlanych wchodzi w skład portfela grupy Topex?",
+      "question": "Która marka narzędzi należy do portfela grupy znanej dawniej jako Grupa Topex?",
       "options": [
         "Verto",
         "Milwaukee",
@@ -678,10 +596,8 @@
         "Metabo"
       ],
       "answer": "Verto",
-      "explanation_correct": "Verto to jedna z marek własnych grupy Topex, pozycjonowana w segmencie domowym i ogrodowym.",
-      "explanation_incorrect": "Pozostałe wymienione firmy funkcjonują niezależnie od polskiej grupy Topex.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "VERTO to jedna z marek grupy GTX, dawniej Grupy Topex.",
+      "explanation_incorrect": "Pozostałe wymienione firmy funkcjonują niezależnie od polskiej grupy Topex."
     },
     {
       "subcategory": "Narzędzie",
@@ -700,33 +616,29 @@
     },
     {
       "subcategory": "Współpraca",
-      "question": "Z jaką niemiecką firmą Celma współpracowała w zakresie serwisu elektronarzędzi w czasach PRL?",
+      "question": "Na wyrobach jakiej niemieckiej firmy wzorowano pierwszą jednobiegową wiertarkę elektryczną cieszyńskiej fabryki?",
       "options": [
-        "Festool",
         "Fein",
-        "Hilti",
-        "Protool"
+        "Nikon",
+        "Roland",
+        "Pentax"
       ],
       "answer": "Fein",
-      "explanation_correct": "Celma posiadała autoryzację na serwisowanie wyrobów firmy Fein, pioniera w dziedzinie wiertarek elektrycznych.",
-      "explanation_incorrect": "Pozostałe firmy albo nie miały tak sformalizowanej współpracy serwiszowej z Celmą, albo w danym okresie były niedostępne na rynku wschodnim.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Według historycznej relacji pierwsza cieszyńska wiertarka elektryczna była wzorowana na wyrobie firmy Fein.",
+      "explanation_incorrect": "Pozostałe nazwy nie są firmą wskazaną w tej relacji."
     },
     {
       "subcategory": "Model",
-      "question": "Jaki model wiertarki stołowej był szczególnie popularny w polskich zakładach przemysłowych w okresie PRL?",
+      "question": "Jak nazywa się wiertarka mocowana na stole warsztatowym, z pionowym wrzecionem?",
       "options": [
-        "WS-15",
-        "PRC-10",
-        "D-500",
-        "A-32"
+        "Wiertarka stołowa",
+        "Wyrzynarka",
+        "Lutownica",
+        "Polerka"
       ],
-      "answer": "WS-15",
-      "explanation_correct": "Wiertarka WS-15 to klasyczna, trwała konstrukcja stołowa, masowo produkowana na potrzeby rodzimego przemysłu.",
-      "explanation_incorrect": "Pozostałe oznaczenia są albo błędne, albo odnoszą się do zupełnie innych typów narzędzi ręcznych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wiertarka stołowa",
+      "explanation_correct": "Wiertarka stołowa jest mocowana do stołu i prowadzi wiertło za pomocą mechanizmu posuwu.",
+      "explanation_incorrect": "Pozostałe urządzenia nie są wiertarką stołową."
     },
     {
       "subcategory": "Części",
@@ -739,28 +651,24 @@
       ],
       "answer": "Szczotki grafitowe",
       "explanation_correct": "Szczotki grafitowe odpowiadają za doprowadzenie prądu do zasilanego silnika komutatorowego.",
-      "explanation_incorrect": "Wymienione podzespoły pełnią funkcje związane z włączaniem, stabilizacją napięcia lub zmianą prędkości, a nie z doprowadzeniem prądu do wirnika.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Włącznik steruje obwodem, przekładnia przenosi napęd, a kondensator pełni inne zadania zależne od rodzaju silnika."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Który z wymienionych symboli charakteryzuje polską bruzdownicę do instalacji elektrycznych produkowaną przez Celmę?",
+      "question": "Jakiego rodzaju urządzeniem była Celma PRCb 10?",
       "options": [
-        "Celma PRCb",
-        "Celma PRA",
-        "Celma WS",
-        "Celma DGS"
+        "Wiertarką",
+        "Bruzdownicą",
+        "Lutownicą",
+        "Wyrzynarką"
       ],
-      "answer": "Celma PRCb",
-      "explanation_correct": "Symbol PRCb oznaczał w nomenklaturze Celmy bruzdownicę przystosowaną do nacinania kanałów w ścianach pod przewody.",
-      "explanation_incorrect": "Pozostałe skróty odnoszą się do wiertarek, szlifierek lub innych typów narzędzi o innej konstrukcji.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wiertarką",
+      "explanation_correct": "PRCb 10 to wiertarka elektryczna; oznaczenie to nie oznacza bruzdownicy.",
+      "explanation_incorrect": "PRCb 10 jest oznaczeniem wiertarki."
     },
     {
       "subcategory": "Budowa",
-      "question": "Jaki rodzaj przekładni jest najczęściej stosowany w narzędziach wymagających zmiany momentu obrotowego i prędkości?",
+      "question": "Jak nazywa się przekładnia z centralnym kołem słonecznym i kołami planetarnymi?",
       "options": [
         "Przekładnia planetarna",
         "Przekładnia pasowa",
@@ -768,25 +676,21 @@
         "Przekładnia ślimakowa"
       ],
       "answer": "Przekładnia planetarna",
-      "explanation_correct": "Przekładnia planetarna zapewnia wysoką trwałość i duży moment obrotowy przy niewielkich gabarytach urządzenia.",
-      "explanation_incorrect": "Pozostałe opcje są nieefektywne w tak kompaktowych konstrukcjach jak wiertarki ręczne czy młotowiertarki.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przekładnia planetarna składa się m.in. z koła słonecznego, kół planetarnych i ich nośnika.",
+      "explanation_incorrect": "Przekładnie pasowa, łańcuchowa i ślimakowa wykorzystują odmienne układy przeniesienia ruchu."
     },
     {
       "subcategory": "Producent",
-      "question": "Która polska firma jest znany producentem pił łańcuchowych, zarówno spalinowych, jak i elektrycznych?",
+      "question": "Która z wymienionych marek oferuje urządzenia ogrodnicze, w tym pilarki?",
       "options": [
-        "Nac",
-        "Dedra",
-        "Yato",
-        "Bass"
+        "NAC",
+        "NOAA",
+        "UNESCO",
+        "NASA"
       ],
-      "answer": "Nac",
-      "explanation_correct": "NAC jest polską marką z wieloletnią tradycją w produkcji urządzeń do ogrodu i lasu, w tym pilarek.",
-      "explanation_incorrect": "Pozostałe firmy to dystrybutorzy lub producenci głównie narzędzi warsztatowych, a nie dedykowanego sprzętu leśnego.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "NAC",
+      "explanation_correct": "NAC oferuje m.in. pilarki i urządzenia ogrodnicze; obecność marki nie przesądza miejsca produkcji każdego modelu.",
+      "explanation_incorrect": "Pozostałe nazwy nie są wskazaną marką urządzeń ogrodniczych."
     },
     {
       "subcategory": "Narzędzie",
@@ -805,18 +709,16 @@
     },
     {
       "subcategory": "Model",
-      "question": "Który lekki model wiertarki marki Celma był powszechnie używany do domowych prac naprawczych w PRL?",
+      "question": "Jaką jednobiegową wiertarkę cieszyńska fabryka wyprodukowała w serii informacyjnej w 1959 roku?",
       "options": [
-        "PRCq",
-        "WS-8",
-        "D-10",
-        "Z-15"
+        "PRCa 10",
+        "PRWg 2B",
+        "DBSMm",
+        "PRMk 2B"
       ],
-      "answer": "PRCq",
-      "explanation_correct": "Model PRCq był kompaktową i chętnie wybieraną przez majsterkowiczów wiertarką jednobiegową.",
-      "explanation_incorrect": "Pozostałe symbole są nieprawidłowe lub należą do innej klasy sprzętu profesjonalnego.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "PRCa 10",
+      "explanation_correct": "W 1959 roku wyprodukowano serię informacyjną wiertarki PRCa 10.",
+      "explanation_incorrect": "Pozostałe oznaczenia odnoszą się do innych narzędzi."
     },
     {
       "subcategory": "Części",
@@ -850,22 +752,20 @@
     },
     {
       "subcategory": "Budowa",
-      "question": "Z jakiego konkretnego materiału tradycyjnie produkowane są w Polsce uchwyty wiertarskie marki Bison?",
+      "question": "Ile szczęk ma typowy samocentrujący uchwyt trójszczękowy do wiertła?",
       "options": [
-        "Stal utwardzana",
-        "Aluminium",
-        "Tworzywo ABS",
-        "Mosiądz"
+        "Trzy",
+        "Jedną",
+        "Pięć",
+        "Dziesięć"
       ],
-      "answer": "Stal utwardzana",
-      "explanation_correct": "Uchwyty Bison charakteryzują się wysoką odpornością dzięki zastosowaniu stali utwardzanej w procesach obróbki cieplnej.",
-      "explanation_incorrect": "Zastosowanie pozostałych materiałów byłoby niewystarczające do zapewnienia niezbędnej wytrzymałości chwytu wiertła.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Trzy",
+      "explanation_correct": "Uchwyt trójszczękowy zaciska wiertło trzema szczękami rozmieszczonymi wokół jego osi.",
+      "explanation_incorrect": "Pozostałe liczby nie odpowiadają uchwytowi trójszczękowemu."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się elektronarzędzie firmy Celma służące do obróbki i szlifowania płaszczyzn betonowych?",
+      "question": "Jak nazywa się elektronarzędzie przeznaczone do szlifowania powierzchni betonowych?",
       "options": [
         "Szlifierka do betonu",
         "Wiertnica diamentowa",
@@ -874,43 +774,37 @@
       ],
       "answer": "Szlifierka do betonu",
       "explanation_correct": "Szlifierka do betonu od Celmy to specjalistyczne urządzenie z osłoną przeciwpyłową do wyrównywania wylewek.",
-      "explanation_incorrect": "Wiertnice służą do wiercenia otworów, a pozostałe nazwy nie są profesjonalnymi terminami technologicznymi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wiertnica wykonuje otwory, a bruzdownica nacina rowki. Szlifierka do betonu służy do obróbki powierzchni."
     },
     {
       "subcategory": "Producent",
-      "question": "Która marka elektronarzędzi znajduje się w ofercie grupy AFG?",
+      "question": "Którą nazwą określa się obracający się element przekazujący ruch osprzętowi wiertarki?",
       "options": [
-        "Stalco",
-        "Dedra",
-        "Verto",
-        "Graphite"
+        "Wrzeciono",
+        "Stojan",
+        "Wtyczka",
+        "Kondensator"
       ],
-      "answer": "Stalco",
-      "explanation_correct": "Marka Stalco rozwija się pod egidą grupy AFG, oferując szeroki wachlarz narzędzi ręcznych i elektronarzędzi.",
-      "explanation_incorrect": "Pozostałe marki są niezależnymi brandami lub należą do innych grup kapitałowych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wrzeciono",
+      "explanation_correct": "Wrzeciono obraca się i przekazuje ruch do uchwytu lub osprzętu.",
+      "explanation_incorrect": "Stojan jest nieruchomą częścią silnika, a wtyczka i kondensator pełnią inne funkcje."
     },
     {
       "subcategory": "Współpraca",
-      "question": "Do jakiego kraju eksportowano największą ilość produktów firmy Celma w czasach gospodarki planowej PRL?",
+      "question": "Z jakiego kraju pochodziła firma Bosch, z którą Celma zawarła licencję w 1973 roku?",
       "options": [
-        "Związek Radziecki",
-        "Czechosłowacja",
-        "Niemiecka Republika Demokratyczna",
-        "Węgry"
+        "Niemcy",
+        "Japonia",
+        "Kanada",
+        "Brazylia"
       ],
-      "answer": "Związek Radziecki",
-      "explanation_correct": "ZSRR był podstawowym odbiorcą eksportowanych polskich elektronarzędzi w ramach wymiany handlowej RWPG.",
-      "explanation_incorrect": "Mimo współpracy z innymi krajami bloku wschodniego, to rynek radziecki przyjmował największe wolumeny sprzętu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Niemcy",
+      "explanation_correct": "Robert Bosch GmbH jest firmą niemiecką; Celma podpisała z nią licencję w 1973 roku.",
+      "explanation_incorrect": "Pozostałe kraje nie są siedzibą firmy Bosch wskazanej w licencji."
     },
     {
       "subcategory": "Akcesoria",
-      "question": "Jak brzmi poprawna polska nazwa techniczna dla elementu wkrętakowego montowanego w uchwycie wkrętarki?",
+      "question": "Jaką nazwę techniczną nosi wymienny element wkrętakowy montowany w uchwycie wkrętarki?",
       "options": [
         "Końcówka wkrętakowa",
         "Grot montażowy",
@@ -919,24 +813,20 @@
       ],
       "answer": "Końcówka wkrętakowa",
       "explanation_correct": "Końcówka wkrętakowa to fachowe określenie bitu stosowane w polskiej dokumentacji technicznej narzędzi.",
-      "explanation_incorrect": "Pozostałe określenia są potocznymi lub błędnymi opisami funkcji tego narzędzia.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Końcówka wkrętakowa jest fachową nazwą bitu; inne określenia mogą być używane w zależności od budowy i kontekstu."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się elektryczne urządzenie służące do precyzyjnego przecinania materiałów ceramicznych?",
+      "question": "Jak nazywa się urządzenie przeznaczone specjalnie do przecinania płytek ceramicznych?",
       "options": [
-        "Bruzdownica",
+        "Opalarka",
         "Przecinarka do glazury",
-        "Piła tarczowa",
-        "Szlifierka szybkotnąca"
+        "Lutownica",
+        "Mieszarka"
       ],
       "answer": "Przecinarka do glazury",
       "explanation_correct": "Przecinarka do glazury jest specjalistycznym urządzeniem zaprojektowanym do obróbki twardych płytek ceramicznych.",
-      "explanation_incorrect": "Bruzdownica służy do wycinania kanałów w ścianach, a pozostałe narzędzia mają odmienne przeznaczenie konstrukcyjne.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Opalarka, lutownica i mieszarka nie są przecinarkami przeznaczonymi do płytek."
     },
     {
       "subcategory": "Model",
@@ -948,14 +838,12 @@
         "PRAm 230"
       ],
       "answer": "PRAg 125",
-      "explanation_correct": "Oznaczenie PRAg 125 odnosiło się w nomenklaturze Celmy do szlifierek kątowych z tarczą o konkretnym wymiarze.",
-      "explanation_incorrect": "Pozostałe symbole są błędnymi odniesieniami do innych typów lub rozmiarów szlifierek produkowanych przez ten zakład.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "PRAg 125 jest oznaczeniem rodziny szlifierek kątowych Celmy przystosowanych do tarczy 125 mm.",
+      "explanation_incorrect": "Wskazana w pytaniu rodzina ma oznaczenie PRAg 125; sama nazwa innych modeli nie jest tu podstawą do twierdzenia, że nie istnieją."
     },
     {
       "subcategory": "Właściciel",
-      "question": "Jaką nazwę nosi grupa kapitałowa, która przejęła markę Celma w XXI wieku?",
+      "question": "Jaka grupa kapitałowa kupiła w 2009 roku udziały w spółkach związanych z marką Celma?",
       "options": [
         "Complex",
         "Master",
@@ -963,29 +851,25 @@
         "Proma"
       ],
       "answer": "Complex",
-      "explanation_correct": "Grupa Complex stała się inwestorem strategicznym, przejmując markę Celma w procesie restrukturyzacji.",
-      "explanation_incorrect": "Podane marki są dystrybutorami lub konkurentami rynkowymi, a nie podmiotami przejmującymi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W 2009 roku Complex SA kupił większość akcji ZEM-EN Celma oraz akcje spółki Celma Tools.",
+      "explanation_incorrect": "Pozostałe nazwy nie są wskazaną grupą Complex SA."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się urządzenie elektryczne przeznaczone do wykańczania powierzchni lakierniczych auta?",
+      "question": "Jak nazywa się urządzenie przeznaczone specjalnie do polerowania powłoki lakierniczej?",
       "options": [
-        "Szlifierka mimośrodowa",
+        "Młot wyburzeniowy",
         "Polerka elektryczna",
-        "Wibrator techniczny",
-        "Frezarka krawędziowa"
+        "Opalarka",
+        "Lutownica"
       ],
       "answer": "Polerka elektryczna",
-      "explanation_correct": "Polerka elektryczna charakteryzuje się niskimi obrotami i zmiennym momentem obrotowym, idealnym do pracy z lakierem.",
-      "explanation_incorrect": "Szlifierka mimośrodowa usuwa materiał, natomiast pozostałe urządzenia służą do obróbki twardych materiałów budowlanych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Polerka elektryczna napędza pad polerski. Dobór obrotów i środka zależy od powierzchni i urządzenia.",
+      "explanation_incorrect": "Pozostałe urządzenia nie są dedykowanymi polerkami do lakieru. Niektóre szlifierki mimośrodowe także mogą polerować z odpowiednim osprzętem."
     },
     {
       "subcategory": "Technologia",
-      "question": "Jaki typ technologii ogniw akumulatorowych jest obecnie standardem w nowoczesnych wiertarkach Celma?",
+      "question": "Jaki rodzaj akumulatora zastosowano w oferowanej wiertarko-wkrętarce Celma WAK-Li 18OBS?",
       "options": [
         "Niklowo-kadmowy",
         "Litowo-jonowy",
@@ -993,14 +877,12 @@
         "Ołowiowo-kwasowy"
       ],
       "answer": "Litowo-jonowy",
-      "explanation_correct": "Akumulatory litowo-jonowe cechują się wysoką gęstością energii i brakiem efektu pamięci, co wymusiło zmianę standardów w branży.",
-      "explanation_incorrect": "Technologie Ni-Cd i Ni-MH są uznawane za przestarzałe ze względu na niższą wydajność i kwestie ekologiczne.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Producent opisuje WAK-Li 18OBS jako urządzenie z akumulatorami litowo-jonowymi.",
+      "explanation_incorrect": "Pozostałe technologie nie są typem akumulatora podanym dla WAK-Li 18OBS."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Który z wymienionych oznaczeń odnosi się do dawnego modelu wiertarko-wkrętarki akumulatorowej produkcji polskiej?",
+      "question": "Która nazwa była używana dla akumulatorowej wiertarko-wkrętarki Celma?",
       "options": [
         "WAK 18",
         "PRCe 12",
@@ -1008,55 +890,47 @@
         "CEL 14"
       ],
       "answer": "WAK 18",
-      "explanation_correct": "WAK 18 to seria wiertarko-wkrętarek produkowanych przez Celmę z wykorzystaniem nowoczesnych wówczas rozwiązań akumulatorowych.",
-      "explanation_incorrect": "Pozostałe oznaczenia są wymyślone lub odnoszą się do innych klas produktów niebędących wiertarkami akumulatorowymi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "WAK 18 to oznaczenie wiertarko-wkrętarki akumulatorowej oferowanej pod marką Celma.",
+      "explanation_incorrect": "Pozostałe nazwy nie są oznaczeniem WAK 18 opisanej wiertarko-wkrętarki."
     },
     {
       "subcategory": "Zaleta",
-      "question": "Jaka była główna cecha konstrukcyjna uznawana za znak rozpoznawczy starych wiertarek serii Celma PRCr?",
+      "question": "Jakie dwa przełożenia oferuje dwubiegowa wiertarka?",
       "options": [
-        "Wysoka trwałość",
-        "Ekstremalna waga",
-        "Minimalistyczna obudowa",
-        "Wysoka częstotliwość udaru"
+        "Dwa zakresy prędkości i momentu",
+        "Dwa rodzaje napięcia w sieci",
+        "Dwa kolory obudowy",
+        "Dwa niezależne przewody ochronne"
       ],
-      "answer": "Wysoka trwałość",
-      "explanation_correct": "Seria PRCr zyskała legendarne opinie dzięki metalowym przekładniom i wytrzymałym silnikom, co zapewniało długowieczność.",
-      "explanation_incorrect": "Waga była często wadą, a konstrukcja nie była minimalistyczna w nowoczesnym tego słowa znaczeniu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dwa zakresy prędkości i momentu",
+      "explanation_correct": "Przekładnia dwubiegowa pozwala wybrać jeden z dwóch zakresów obrotów i momentu.",
+      "explanation_incorrect": "Kolor obudowy i liczba przewodów nie określają dwóch biegów przekładni."
     },
     {
       "subcategory": "Zastosowanie",
-      "question": "Jak nazywano specjalistyczne wiertarki marki Celma dedykowane do prac przy infrastrukturze kolejowej?",
+      "question": "Jak nazywa się urządzenie przeznaczone do wiercenia otworów w stalowych szynach kolejowych?",
       "options": [
-        "Wiertarki szynowe",
-        "Wiertarki montażowe",
-        "Wiertarki warsztatowe",
-        "Wiertarki torowe"
+        "Wiertarka szynowa",
+        "Lutownica transformatorowa",
+        "Opalarka",
+        "Odkurzacz"
       ],
-      "answer": "Wiertarki szynowe",
-      "explanation_correct": "Wiertarki szynowe to maszyny o specjalnie dostosowanej podstawie, umożliwiającej stabilne wiercenie w szynach stalowych.",
-      "explanation_incorrect": "Pozostałe określenia są zbyt ogólne i nie odnoszą się do dedykowanego zastosowania w kolejnictwie.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wiertarka szynowa",
+      "explanation_correct": "Wiertarka szynowa jest przeznaczona do wiercenia w szynach; spotyka się też inne opisowe nazwy takich urządzeń.",
+      "explanation_incorrect": "Pozostałe urządzenia nie są wiertarką do szyn."
     },
     {
       "subcategory": "Przyrząd",
-      "question": "Jak nazywa się przyrząd mocujący produkowany w Cieszynie, umożliwiający uzyskanie stabilności pionowej wiertarki ręcznej?",
+      "question": "Jak nazywa się przyrząd prowadzący wiertarkę ręczną pionowo podczas wiercenia?",
       "options": [
-        "Statyw magnetyczny",
+        "Grot lutownicy",
         "Stojak wiertarski",
-        "Prowadnica kątowa",
-        "Wspornik narzędziowy"
+        "Wtyczka",
+        "Papier ścierny"
       ],
       "answer": "Stojak wiertarski",
       "explanation_correct": "Stojak wiertarski przekształca wiertarkę ręczną w stacjonarne urządzenie wiertnicze, zwiększając precyzję.",
-      "explanation_incorrect": "Statywy magnetyczne są używane z wiertarkami stożkowymi, a prowadnice służą do cięcia, nie wiercenia.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Grot, wtyczka i papier ścierny nie są opisanym stojakiem. Istnieją też inne sposoby stabilizacji wiertarek."
     },
     {
       "subcategory": "Narzędzie",
@@ -1068,25 +942,21 @@
         "Mieszarka do farb"
       ],
       "answer": "Agregat hydrodynamiczny",
-      "explanation_correct": "Agregat hydrodynamiczny tłoczy farbę pod bardzo wysokim ciśnieniem przez dyszę, co pozwala na malowanie dużych powierzchni bez odprysków powietrza.",
-      "explanation_incorrect": "Kompresory i pistolety niskociśnieniowe wymagają sprężonego powietrza, a mieszarka służy jedynie do przygotowania produktu.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Agregat hydrodynamiczny tłoczy farbę przez dyszę pod wysokim ciśnieniem bez użycia sprężonego powietrza do jej rozpylania.",
+      "explanation_incorrect": "Pistolet niskociśnieniowy korzysta z innego sposobu rozpylania, a mieszarka przygotowuje farbę."
     },
     {
       "subcategory": "Historia",
-      "question": "Jak nazywał się centralny organ nadzorczy, któremu podlegały fabryki narzędzi w czasach gospodarki planowej w PRL?",
+      "question": "Do jakiego zjednoczenia włączono cieszyńską fabrykę narzędzi przed połączeniem z Celmą w 1972 roku?",
       "options": [
-        "Zjednoczenie Ponar",
-        "Centrala Techniczna",
-        "Komitet Narzędziowy",
-        "Zjednoczenie Mechanizacji"
+        "EMA",
+        "NASA",
+        "Unitra Diora",
+        "PKP"
       ],
-      "answer": "Zjednoczenie Ponar",
-      "explanation_correct": "Zjednoczenie Ponar nadzorowało polski przemysł obrabiarek i narzędzi w latach PRL.",
-      "explanation_incorrect": "Pozostałe nazwy są fikcyjnymi konstrukcjami lub nie pełniły funkcji nadrzędnej w tym sektorze.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "EMA",
+      "explanation_correct": "Źródło o historii zakładów podaje włączenie fabryki do Zjednoczenia EMA przed połączeniem z Celmą.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są wskazanym w źródle zjednoczeniem EMA."
     },
     {
       "subcategory": "Narzędzie",
@@ -1099,13 +969,11 @@
       ],
       "answer": "Szlifierka dwutarczowa",
       "explanation_correct": "Szlifierka dwutarczowa to klasyczne narzędzie warsztatowe do ostrzenia narzędzi i obróbki zgrubnej metalu.",
-      "explanation_incorrect": "Szlifierka taśmowa i oscylacyjna to narzędzia ręczne do szlifowania płaszczyzn drewna lub metalu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Szlifierka taśmowa wykorzystuje taśmę, a oscylacyjna i mimośrodowa – poruszającą się stopę lub talerz. Szlifierki taśmowe mogą być również stacjonarne."
     },
     {
       "subcategory": "Miejscowość",
-      "question": "W jakiej miejscowości znajduje się historyczna siedziba fabryki produkującej wiertła marki Globus?",
+      "question": "W jakiej dzielnicy Bielska-Białej ma historyczną siedzibę Fabryka Pił i Narzędzi Wapienica, kojarzona z marką Globus?",
       "options": [
         "Wapienica",
         "Czechowice",
@@ -1113,55 +981,47 @@
         "Kęty"
       ],
       "answer": "Wapienica",
-      "explanation_correct": "Wapienica (dzielnica Bielska-Białej) jest historycznym ośrodkiem produkcji narzędzi skrawających Globus.",
-      "explanation_incorrect": "Pozostałe miejscowości znajdują się w pobliżu, ale nie są miejscem produkcji tych narzędzi.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wapienica jest dzielnicą Bielska-Białej i siedzibą fabryki kojarzonej z marką Globus.",
+      "explanation_incorrect": "Pozostałe miejscowości znajdują się w pobliżu, ale nie są miejscem produkcji tych narzędzi."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się elektryczne narzędzie ręczne przeznaczone do cięcia materiałów za pomocą brzeszczotu wykonującego ruchy posuwisto-zwrotne?",
+      "question": "Jak nazywa się ręczna piła elektryczna typu „lisica”, której brzeszczot wykonuje ruch wzdłużny?",
       "options": [
-        "Piła posuwista",
-        "Piła łańcuchowa",
-        "Wyrzynarka uchwytowa",
-        "Pilarka tarczowa"
+        "Piła szablasta",
+        "Pilarka łańcuchowa",
+        "Pilarka tarczowa",
+        "Szlifierka kątowa"
       ],
-      "answer": "Piła posuwista",
-      "explanation_correct": "Piła posuwista (nazywana też często lisicą) wykorzystuje ruchy wzdłużne brzeszczotu do cięcia m.in. drewna i rur.",
-      "explanation_incorrect": "Wyrzynarka wykonuje cięcia precyzyjne, a pozostałe narzędzia używają ostrzy obrotowych lub łańcuchowych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Piła szablasta",
+      "explanation_correct": "Piła szablasta wykorzystuje wzdłużny ruch posuwisto-zwrotny brzeszczotu. Wyrzynarka także używa brzeszczotu poruszającego się ruchem posuwisto-zwrotnym.",
+      "explanation_incorrect": "Pozostałe narzędzia wykorzystują łańcuch lub obracającą się tarczę."
     },
     {
       "subcategory": "Producent",
-      "question": "Która polska firma jest znana z projektowania i produkcji wysokiej klasy laserów budowlanych?",
+      "question": "Jak nazywa się przyrząd budowlany wyznaczający widoczną linię odniesienia za pomocą światła laserowego?",
       "options": [
-        "Nivel System",
-        "Bud-Pomiar",
-        "Geo-Technik",
-        "Laser-Bud"
+        "Laser liniowy",
+        "Młot wyburzeniowy",
+        "Lutownica",
+        "Pilarka łańcuchowa"
       ],
-      "answer": "Nivel System",
-      "explanation_correct": "Nivel System to rozpoznawalna marka, która specjalizuje się w przyrządach pomiarowych i laserach dla budownictwa.",
-      "explanation_incorrect": "Pozostałe nazwy nie odnoszą się do wiodących polskich producentów w tej branży.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Laser liniowy",
+      "explanation_correct": "Laser liniowy wyświetla linię odniesienia używaną m.in. przy pracach wykończeniowych.",
+      "explanation_incorrect": "Pozostałe urządzenia nie są przyrządami do wyznaczania linii laserowej."
     },
     {
       "subcategory": "Model",
-      "question": "Który z modeli wiertarek Celma wyróżniał się charakterystyczną rączką typu D, ułatwiającą trzymanie przy wierceniu?",
+      "question": "Jakie narzędzie Celma oznaczono w katalogu jako PRDa 140AEO?",
       "options": [
-        "Celma PRDa",
-        "Celma PRAb",
-        "Celma PRCt",
-        "Celma PRDe"
+        "Mieszadło elektryczne",
+        "Lutownicę",
+        "Piłę łańcuchową",
+        "Odkurzacz"
       ],
-      "answer": "Celma PRDa",
-      "explanation_correct": "Model PRDa był projektowany z ergonomicznym uchwytem typu D, popularnym w ówczesnych elektronarzędziach o większej mocy.",
-      "explanation_incorrect": "Pozostałe symbole odnoszą się do innych serii produktowych, które nie miały tego typu konstrukcji rękojeści.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mieszadło elektryczne",
+      "explanation_correct": "PRDa 140AEO oferowano jako mieszadło elektryczne do mas budowlanych.",
+      "explanation_incorrect": "Wymienione oznaczenie odnosi się do mieszadła."
     },
     {
       "subcategory": "Zabezpieczenie",
@@ -1173,25 +1033,21 @@
         "Ogranicznik obrotów"
       ],
       "answer": "Sprzęgło przeciążeniowe",
-      "explanation_correct": "Sprzęgło przeciążeniowe chroni silnik przed awarią oraz użytkownika przed urazami przy nagłym zatrzymaniu wiertła.",
-      "explanation_incorrect": "Hamulec zatrzymuje narzędzie po puszczeniu spustu, a pozostałe elementy służą do kontroli parametrów pracy, nie do zabezpieczenia mechanicznego.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sprzęgło przeciążeniowe może ograniczyć przenoszony moment przy zakleszczeniu wiertła, zmniejszając obciążenie i ryzyko gwałtownej reakcji narzędzia.",
+      "explanation_incorrect": "Hamulec, regulacja momentu i ogranicznik obrotów pełnią inne funkcje, choć niektóre narzędzia mogą łączyć kilka zabezpieczeń."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się urządzenie przeznaczone do łączenia elementów instalacji wodnych za pomocą wysokiej temperatury?",
+      "question": "Jak nazywa się urządzenie używane do zgrzewania przez nagrzanie końców rur i kształtek z polipropylenu?",
       "options": [
-        "Zgrzewarka elektryczna",
-        "Lutownica gazowa",
-        "Spawarka inwertorowa",
-        "Palnik budowlany"
+        "Zgrzewarka do rur PP",
+        "Lutownica do elektroniki",
+        "Mieszarka",
+        "Wyrzynarka"
       ],
-      "answer": "Zgrzewarka elektryczna",
-      "explanation_correct": "Zgrzewarka elektryczna jest niezbędna do montażu rur typu PP poprzez ich podgrzewanie i łączenie dyfuzyjne.",
-      "explanation_incorrect": "Lutownica i spawarka służą do obróbki metalu, a palnik gazowy posiada inne zastosowanie w instalatorstwie.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Zgrzewarka do rur PP",
+      "explanation_correct": "Zgrzewarka do rur PP nagrzewa łączone powierzchnie, które następnie łączy się ze sobą.",
+      "explanation_incorrect": "Pozostałe urządzenia nie są przeznaczone do opisanego zgrzewania rur PP."
     },
     {
       "subcategory": "Funkcja",
@@ -1203,10 +1059,8 @@
         "Przycisk udaru"
       ],
       "answer": "Blokada wrzeciona",
-      "explanation_correct": "Blokada wrzeciona jest mechanizmem, który po wciśnięciu unieruchamia wał, pozwalając na odkręcenie tarczy jednym kluczem.",
-      "explanation_incorrect": "Pozostałe wymienione części nie pełnią funkcji blokującej układ napędowy podczas wymiany osprzętu.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Blokada wrzeciona unieruchamia wał przy wymianie tarczy. Wymianę wykonuje się po odłączeniu zasilania.",
+      "explanation_incorrect": "Pozostałe części nie pełnią tej funkcji blokady wrzeciona."
     },
     {
       "subcategory": "Producent",
@@ -1225,7 +1079,7 @@
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywamy dedykowane urządzenie elektryczne przeznaczone do nacinania gwintów na rurach?",
+      "question": "Jak nazywa się maszyna przeznaczona specjalnie do nacinania gwintów na rurach?",
       "options": [
         "Gwinciarka stacjonarna",
         "Wiertarka kolumnowa",
@@ -1234,13 +1088,11 @@
       ],
       "answer": "Gwinciarka stacjonarna",
       "explanation_correct": "Gwinciarka stacjonarna to specjalistyczne narzędzie warsztatowe do obróbki rur w trybie ciągłym.",
-      "explanation_incorrect": "Wymienione alternatywy to obrabiarki ogólnego przeznaczenia, które nie są dedykowane wyłącznie do gwintowania rur.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wymienione alternatywy to obrabiarki ogólnego przeznaczenia, które nie są dedykowane wyłącznie do gwintowania rur."
     },
     {
       "subcategory": "Model",
-      "question": "Który kultowy model szlifierki prostej marki Celma był powszechnie stosowany w polskich zakładach ślusarskich?",
+      "question": "Które oznaczenie odnosi się do szlifierki prostej marki Celma?",
       "options": [
         "Celma PRAa",
         "Celma PRCr",
@@ -1248,14 +1100,12 @@
         "Celma WAK"
       ],
       "answer": "Celma PRAa",
-      "explanation_correct": "Model PRAa to klasyczna szlifierka prosta o charakterystycznym dla epoki PRL wykonaniu korpusu.",
-      "explanation_incorrect": "Pozostałe oznaczenia odnoszą się do wiertarek lub innych typów urządzeń elektrycznych tego producenta.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "PRAa 40 to oznaczenie szlifierki prostej spotykanej pod marką Celma.",
+      "explanation_incorrect": "PRCr i WAK są oznaczeniami wiertarek lub wiertarko-wkrętarek; pytanie dotyczy szlifierki PRAa."
     },
     {
       "subcategory": "Konstrukcja",
-      "question": "Jaki materiał powszechnie wykorzystywano do formowania rękojeści i korpusów starszych modeli polskich wiertarek?",
+      "question": "Jak nazywa się wczesne tworzywo fenolowo-formaldehydowe stosowane m.in. jako izolator w wyrobach elektrycznych?",
       "options": [
         "Bakelit",
         "Poliwęglan",
@@ -1263,10 +1113,8 @@
         "Poliamid"
       ],
       "answer": "Bakelit",
-      "explanation_correct": "Bakelit był wczesnym tworzywem sztucznym stosowanym ze względu na doskonałe właściwości izolacyjne.",
-      "explanation_incorrect": "Nowoczesne obudowy wykonuje się głównie z poliamidu wzmocnionego włóknem szklanym lub ABS-u.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bakelit to tworzywo fenolowo-formaldehydowe stosowane w dawnych elementach elektrotechnicznych.",
+      "explanation_incorrect": "Poliwęglan, ABS i poliamid są innymi tworzywami."
     },
     {
       "subcategory": "Producent",
@@ -1278,10 +1126,8 @@
         "Bass"
       ],
       "answer": "Globus",
-      "explanation_correct": "Firma Globus z Wapienicy posiada wieloletnią tradycję w produkcji tarczy tnących.",
-      "explanation_incorrect": "Pozostałe marki to dystrybutorzy lub producenci narzędzi z zupełnie innych ośrodków przemysłowych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fabryka Pił i Narzędzi Wapienica kojarzona z marką Globus wytwarza m.in. piły tarczowe i inne narzędzia skrawające.",
+      "explanation_incorrect": "Pozostałe nazwy nie wskazują fabryki Wapienica kojarzonej z marką Globus."
     },
     {
       "subcategory": "Narzędzie",
@@ -1308,10 +1154,8 @@
         "Napięcie znamionowe"
       ],
       "answer": "Klasa IP",
-      "explanation_correct": "Klasyfikacja IP (Ingress Protection) określa szczelność urządzeń elektrycznych.",
-      "explanation_incorrect": "Pozostałe oznaczenia dotyczą odporności mechanicznej, bezpieczeństwa elektrycznego lub parametrów mocy urządzenia.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kod IP określa stopień ochrony przed dostępem do części niebezpiecznych i wnikaniem ciał stałych oraz wody; konkretne cyfry oznaczają poziomy ochrony.",
+      "explanation_incorrect": "IK odnosi się do odporności na uderzenia, klasa izolacji do innego aspektu bezpieczeństwa, a napięcie znamionowe do zasilania."
     },
     {
       "subcategory": "Producent",
@@ -1330,22 +1174,20 @@
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Które narzędzie udarowe jest stosowane do szybkiego odkręcania i dokręcania śrub w kołach pojazdów ciężarowych?",
+      "question": "Które narzędzie udarowe z kwadratowym zabierakiem typowo stosuje się z nasadkami do odkręcania śrub kół?",
       "options": [
         "Klucz udarowy",
         "Wiertarka udarowa",
         "Szlifierka kątowa",
-        "Zakrętarka akumulatorowa"
+        "Opalarka"
       ],
       "answer": "Klucz udarowy",
       "explanation_correct": "Klucz udarowy wykorzystuje energię kinetyczną uderzeń do generowania wysokiego momentu obrotowego.",
-      "explanation_incorrect": "Wiertarka udarowa służy do pracy w betonie, a pozostałe narzędzia nie posiadają odpowiedniego mechanizmu udarowego.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wiertarka udarowa, szlifierka i opalarka nie są opisanym kluczem z nasadką."
     },
     {
       "subcategory": "Model",
-      "question": "Jak nazywamy specjalistyczną wiertarkę Celma, która stabilność uzyskuje dzięki zastosowaniu mocnego przyciągania elektromagnetycznego?",
+      "question": "Jak nazywa się wiertarka, którą można zamocować elektromagnetyczną podstawą do stalowej konstrukcji?",
       "options": [
         "Wiertarka magnetyczna",
         "Wiertarka promieniowa",
@@ -1353,25 +1195,21 @@
         "Wiertarka kątowa"
       ],
       "answer": "Wiertarka magnetyczna",
-      "explanation_correct": "Wiertarka magnetyczna używa elektromagnesu do zamocowania na stalowych elementach konstrukcyjnych.",
-      "explanation_incorrect": "Pozostałe wiertarki to standardowe urządzenia warsztatowe, wymagające imadła lub ręcznego trzymania.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiertarka magnetyczna może używać elektromagnesu do mocowania podstawy na odpowiednim stalowym podłożu.",
+      "explanation_incorrect": "Pozostałe nazwy opisują inne konstrukcje wiertarek."
     },
     {
       "subcategory": "Konstrukcja",
-      "question": "Jaki rodzaj silnika elektrycznego w nowoczesnych elektronarzędziach eliminuje konieczność stosowania zużywających się szczotek węglowych?",
+      "question": "Jaki typ silnika elektronarzędzia z komutacją elektroniczną nie wymaga szczotek komutatora?",
       "options": [
-        "Silnik bezszczotkowy",
-        "Silnik indukcyjny",
-        "Silnik synchroniczny",
-        "Silnik szeregowy"
+        "Silnik bezszczotkowy BLDC",
+        "Silnik komutatorowy szczotkowy",
+        "Silnik spalinowy",
+        "Napęd ręczny"
       ],
-      "answer": "Silnik bezszczotkowy",
-      "explanation_correct": "Silniki bezszczotkowe (BLDC) są trwalsze i wydajniejsze dzięki elektronicznej komutacji.",
-      "explanation_incorrect": "Silniki szeregowe wymagają szczotek, a pozostałe typy nie są podstawowym standardem w ręcznych elektronarzędziach.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Silnik bezszczotkowy BLDC",
+      "explanation_correct": "Silnik BLDC wykorzystuje elektroniczną komutację i nie wymaga szczotek komutatora. Również silniki indukcyjne mogą pracować bez szczotek.",
+      "explanation_incorrect": "Silnik szczotkowy wymaga szczotek, a napędy spalinowy i ręczny nie są silnikiem BLDC."
     },
     {
       "subcategory": "Narzędzie",
@@ -1383,29 +1221,25 @@
         "Żuraw"
       ],
       "answer": "Żyrafa",
-      "explanation_correct": "Terminem 'żyrafa' określa się szlifierki do wysięgniku, które pozwalają szlifować sufity bez użycia drabiny.",
-      "explanation_incorrect": "Pozostałe nazwy zwierząt nie funkcjonują w polskiej nomenklaturze narzędziowej jako określenia szlifierek.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Żyrafa” to potoczna nazwa szlifierki do gładzi na długim wysięgniku, ułatwiającym pracę na ścianach i sufitach.",
+      "explanation_incorrect": "Pozostałe nazwy zwierząt nie funkcjonują w polskiej nomenklaturze narzędziowej jako określenia szlifierek."
     },
     {
       "subcategory": "Certyfikat",
-      "question": "Jaki znak certyfikacyjny był najważniejszym polskim symbolem bezpieczeństwa maszyn i elektronarzędzi w okresie PRL?",
+      "question": "Co oznacza polski znak bezpieczeństwa B na wyrobie podlegającym certyfikacji?",
       "options": [
-        "Znak B",
-        "znak CE",
-        "Znak jakości I",
-        "Gost"
+        "Potwierdzenie zgodności z wymaganiami bezpieczeństwa",
+        "Kolor obudowy narzędzia",
+        "Rodzaj akumulatora",
+        "Kraj wydobycia metalu"
       ],
-      "answer": "Znak B",
-      "explanation_correct": "Znak Bezpieczeństwa (B) potwierdzał zgodność wyrobu z polskimi normami technicznymi.",
-      "explanation_incorrect": "Znak CE wszedł znacznie później, a pozostałe opcje są nieprawdziwe lub dotyczą innych systemów certyfikacji.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Potwierdzenie zgodności z wymaganiami bezpieczeństwa",
+      "explanation_correct": "Znak B wiązał się z polską certyfikacją bezpieczeństwa wyrobów; zasady jego stosowania zmieniały się w czasie.",
+      "explanation_incorrect": "Znak bezpieczeństwa nie oznacza koloru, typu akumulatora ani miejsca wydobycia metalu."
     },
     {
       "subcategory": "Osprzęt",
-      "question": "Jaki element tnący wiertła jest odpowiedzialny za trwałość przy wierceniu w twardych materiałach budowlanych?",
+      "question": "Jak nazywa się wiertło z wkładką z węglika spiekanego, stosowane m.in. do muru?",
       "options": [
         "Wiertło widiowe",
         "Wiertło kobaltowe",
@@ -1413,40 +1247,34 @@
         "Wiertło stopniowe"
       ],
       "answer": "Wiertło widiowe",
-      "explanation_correct": "Wiertło widiowe zwieńczone jest wkładką z węglika spiekanego, zdolną kruszyć twardy beton.",
-      "explanation_incorrect": "Pozostałe typy wierteł przeznaczone są głównie do metalu lub drewna i nie posiadają twardych wstawek.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiertło widiowe ma twardą wkładkę z węglika spiekanego, przydatną w materiałach budowlanych.",
+      "explanation_incorrect": "Kobaltowe, kręte i stopniowe oznaczają inne rodzaje lub cechy wierteł."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się elektryczne narzędzie wyposażone w mieszadło, służące do przygotowywania zapraw tynkarskich i klejów?",
+      "question": "Jak nazywa się końcówka obracana przez napęd w celu mieszania zaprawy?",
       "options": [
-        "Mieszadło elektryczne",
-        "Wiertarka mieszająca",
-        "Betoniarka",
-        "Młotowiertarka"
+        "Mieszadło",
+        "Uchwyt wiertarski",
+        "Tarcza tnąca",
+        "Grot lutownicy"
       ],
-      "answer": "Mieszadło elektryczne",
-      "explanation_correct": "Mieszadło elektryczne posiada wysoki moment obrotowy przy niskich obrotach, co jest kluczowe przy pracy z gęstą masą.",
-      "explanation_incorrect": "Betoniarka to maszyna wielkogabarytowa, a wiertarka nie jest przystosowana do pracy pod dużym obciążeniem masowym.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mieszadło",
+      "explanation_correct": "Mieszadło zanurza się w mieszance i obraca odpowiednim napędem; jego kształt dobiera się do masy.",
+      "explanation_incorrect": "Uchwyt mocuje osprzęt, tarcza tnie, a grot lutownicy nagrzewa lut."
     },
     {
       "subcategory": "Zastosowanie",
-      "question": "Jaki specjalistyczny typ wiertarek Celma był szeroko wykorzystywany w polskim przemyśle wydobywczym (górnictwie)?",
+      "question": "Dlaczego niektóre urządzenia przeznaczone do podziemnych zakładów górniczych muszą mieć specjalne wykonanie?",
       "options": [
-        "Wiertarki górnicze",
-        "Wiertarki udarowe",
-        "Wiertarki diamentowe",
-        "Wiertarki pneumatyczne"
+        "Ze względu na zagrożenie wybuchem",
+        "Aby zmieniały kolor po zmroku",
+        "Aby wyświetlały filmy",
+        "Ze względu na pływy morskie"
       ],
-      "answer": "Wiertarki górnicze",
-      "explanation_correct": "Wiertarki górnicze Celma cechowały się wzmocnioną obudową i specjalnymi zabezpieczeniami przeciwwybuchowymi.",
-      "explanation_incorrect": "Pozostałe wiertarki projektowane były do celów ogólnobudowlanych, a nie do pracy w trudnych warunkach podziemnych.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ze względu na zagrożenie wybuchem",
+      "explanation_correct": "W miejscach zagrożonych wybuchem stosuje się urządzenia o wykonaniu odpowiednim do warunków i klasyfikacji strefy.",
+      "explanation_incorrect": "Kolor, wyświetlanie filmów ani pływy nie są przyczyną wymogu wykonania przeciwwybuchowego."
     },
     {
       "subcategory": "Historia",
@@ -1465,7 +1293,7 @@
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Które urządzenie najczęściej używane jest w polskich warsztatach stolarskich do precyzyjnego przecinania metalu pod kątem?",
+      "question": "Jak nazywa się pilarka z prowadzeniem kątowym przeznaczona do wykonywania cięć pod zadanym kątem?",
       "options": [
         "Ukośnica",
         "Pilarka spalinowa",
@@ -1473,40 +1301,34 @@
         "Piła ramowa"
       ],
       "answer": "Ukośnica",
-      "explanation_correct": "Ukośnica pozwala na precyzyjne ustawienie kąta cięcia profilu metalowego lub drewnianego.",
-      "explanation_incorrect": "Wyrzynarka służy do cięć krzywoliniowych, a pozostałe narzędzia mają inne zastosowania konstrukcyjne.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ukośnica umożliwia ustawienie kąta cięcia; zastosowanie do metalu wymaga odpowiedniej maszyny i tarczy.",
+      "explanation_incorrect": "Wyrzynarki i inne piły także mogą ciąć pod kątem przy odpowiednim wyposażeniu, lecz ukośnica jest przeznaczona do takich cięć."
     },
     {
       "subcategory": "Model",
-      "question": "Który rozpoznawalny model wiertarki Celma posiadał wbudowany w przycisk elektroniczny regulator obrotów?",
+      "question": "Jaką czynność umożliwia regulator obrotów w wiertarce?",
       "options": [
-        "Celma PRCr 10/6A",
-        "Celma PRCr 4",
-        "Celma WAK 12",
-        "Celma DWe 10"
+        "Dostosowanie prędkości obrotowej",
+        "Zmianę średnicy wiertła bez wymiany",
+        "Zamianę prądu w drewno",
+        "Automatyczne wyostrzenie każdego wiertła"
       ],
-      "answer": "Celma PRCr 10/6A",
-      "explanation_correct": "Model PRCr 10/6A oznaczał wiertarkę wyposażoną w nowoczesny na owy czas układ regulacji obrotów w spuście.",
-      "explanation_incorrect": "Inne modele Celmy były zazwyczaj urządzeniami o stałej prędkości obrotowej bez zaawansowanej elektroniki sterującej.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dostosowanie prędkości obrotowej",
+      "explanation_correct": "Regulator pozwala zmienić prędkość obrotową w zakresie przewidzianym przez konstrukcję wiertarki.",
+      "explanation_incorrect": "Pozostałe możliwości nie są funkcją regulatora obrotów."
     },
     {
       "subcategory": "Marka",
-      "question": "Jak nazywała się budżetowa linia elektronarzędzi wprowadzona przez firmę Celma po 2000 roku dla użytkowników domowych?",
+      "question": "Jakie dwie linie elektronarzędzi wymieniano na stronie marki Celma w listopadzie 2026 roku?",
       "options": [
-        "Celma Hobby",
-        "Celma Pro",
-        "Celma Industrial",
-        "Celma Easy"
+        "Professional i C-Power",
+        "Hobby i Starlink",
+        "Aero i Ocean",
+        "Apollo i Gemini"
       ],
-      "answer": "Celma Hobby",
-      "explanation_correct": "Linia Celma Hobby powstała, aby sprostać dużej konkurencji tanich narzędzi importowanych na polski rynek.",
-      "explanation_incorrect": "Pozostałe nazwy są fikcyjnymi określeniami lub odnoszą się do profesjonalnych serii tego producenta.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Professional i C-Power",
+      "explanation_correct": "Na stronie marki wymieniono linie Celma Professional i Celma C-Power.",
+      "explanation_incorrect": "Pozostałe pary nie są wymienionymi na stronie liniami marki."
     }
   ]
 }

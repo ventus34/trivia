@@ -16,6 +16,8 @@ Kolejna partia 2026-11-06: zmieniono 287 rekordów w siedmiu plikach, w tym sze�
 
 Następnie przejrzano paczkę gier planszowych: zmieniono 40 z 97 rekordów i zsynchronizowano opis z indeksem. Niezależna kontrola wskazała kolejne niejednoznaczności; poprawki, źródła i ograniczenia opisano w osobnym raporcie.
 
+Kolejna partia 2026-11-06: poprawiono 313 rekordów w sześciu paczkach o historii gier, elektronarzędziach, średniowieczu, starożytności, historii współczesnej i przebojach radiowych. Dwóm paczkom zsynchronizowano opisy z indeksem. Niektóre przeglądy przerwał limit subagentów; dla elektronarzędzi zapisano częściowy zakres i potrzebę dalszej kontroli. Liczba edycji obejmuje również redakcję i metadane i nie oznacza źródłowego potwierdzenia wszystkich faktów.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
