@@ -10,6 +10,8 @@ Aktualizacja 2026-11-06: względem `HEAD` zmieniono rekordy pytań w 55 paczkach
 
 Kolejna partia 2026-11-06: poprawiono 288 rekordów pytań w siedmiu paczkach dotyczących Europy, urządzeń wejściowych, cytatów filmowych, fantasy, kina, animacji i filozofii. Dla każdej paczki zapisano raport zakresu i źródeł, a wybrane nowe pytania sprawdzono niezależnie. Kontrola strukturalna objęła cały indeks; 46 testów aplikacji przeszło. Nie wszystkie twierdzenia z tych paczek potwierdzono niezależnie.
 
+Kolejna partia 2026-11-06: zmieniono 327 rekordów w siedmiu paczkach o fizyce, zjawiskach natury, fotografii, nagrodach i kulturze gier, światach gier oraz gatunkach muzycznych. Poprawki obejmują również redakcję i metadane; nie oznaczają potwierdzenia źródłowego każdego twierdzenia. Szczegóły, wybrane źródła oraz granice kontroli zapisano w osobnych raportach, w tym informację o pracach przerwanych limitem. Dalszy przegląd pozostałych paczek trwa.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

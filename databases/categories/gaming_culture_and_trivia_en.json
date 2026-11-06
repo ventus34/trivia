@@ -2,10 +2,8 @@
   "id": "gaming_culture_and_trivia_en",
   "name": "Gaming Culture and Trivia",
   "language": "en",
-  "description": "Questions covering: Famous Glitches & Easter Eggs, Gaming Industry Lore & Development...",
+  "description": "A collection of gaming culture and history covering famous glitches and Easter eggs, industry lore and development, viral gaming memes, Polish gaming magazines, and speedrunning and esports milestones.",
   "created_at": "2026-06-12T14:49:19.944Z",
-  "last_verified_at": "2026-06-12T14:39:44.410Z",
-  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 100,
   "questions": [
     {
@@ -55,7 +53,7 @@
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
-      "question": "What is the historical name given to the EVO 2004 Street Fighter III clip where Daigo Uehara parries Chun-Li's entire special move?",
+      "question": "What is the historical name given to the EVO 2004 Street Fighter III clip where Daigo Umehara parries Chun-Li’s entire special move?",
       "options": [
         "Evo Moment 37",
         "The Beast Parry",
@@ -63,10 +61,8 @@
         "Street Fighter Clash"
       ],
       "answer": "Evo Moment 37",
-      "explanation_correct": "Evo Moment 37 refers to a legendary comeback by Daigo 'The Beast' Uehara against Justin Wong at Evolution Championship Series 2004.",
-      "explanation_incorrect": "The other options are informal descriptions and not the recognized title of the video highlight.",
-      "last_verified_at": "2026-06-12T14:36:17.832Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Evo Moment 37 refers to Daigo Umehara’s legendary comeback against Justin Wong at Evolution Championship Series 2004.",
+      "explanation_incorrect": "The other options are informal descriptions and not the recognized title of the video highlight."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -85,22 +81,20 @@
     },
     {
       "subcategory": "Famous Glitches & Easter Eggs",
-      "question": "What coding glitch in the original Civilization game caused the peaceful Indian leader Gandhi to become highly aggressive and nuclear-obsessed?",
+      "question": "Which programming error was mistakenly said to explain the “Nuclear Gandhi” behavior in the original Civilization?",
       "options": [
-        "Integer underflow (overflow)",
+        "Integer underflow (unsigned wraparound)",
         "Division by zero",
         "Buffer overflow",
         "Save file corruption"
       ],
-      "answer": "Integer underflow (overflow)",
-      "explanation_correct": "Gandhi's base aggression of 1 dropped below zero when adopting Democracy (which reduced it by 2), causing an integer underflow that looped the value to 255.",
-      "explanation_incorrect": "The other options are standard software crash errors and not the cause of this gameplay behavior.",
-      "last_verified_at": "2026-06-12T14:36:17.832Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Integer underflow (unsigned wraparound)",
+      "explanation_correct": "The popular story claimed that Gandhi’s low aggression value wrapped to a very high value after a government change. Sid Meier later confirmed that the original Civilization had no such bug; the underflow explanation is apocryphal.",
+      "explanation_incorrect": "The integer-underflow story is the commonly repeated explanation, but it is false: Sid Meier later debunked the alleged bug in the original Civilization."
     },
     {
       "subcategory": "Cult Gaming Media & Mags",
-      "question": "What is the name of Poland's longest-running printed video game magazine, published continuously since 1996?",
+      "question": "Which Polish video game magazine launched in 1996 and is still published in print?",
       "options": [
         "CD-Action",
         "Secret Service",
@@ -108,10 +102,8 @@
         "Reset"
       ],
       "answer": "CD-Action",
-      "explanation_correct": "CD-Action is Poland's most resilient gaming magazine, famous for including full game discs and its anonymous columnist Smuggler.",
-      "explanation_incorrect": "Secret Service, Top Secret, and Reset are nostalgic magazines that ceased regular publication years ago.",
-      "last_verified_at": "2026-06-12T14:36:17.832Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "CD-Action began publication in 1996 and remains in print. Its long-running Action Redaction letters section is one of its best-known features.",
+      "explanation_incorrect": "Secret Service, Top Secret, and Reset are nostalgic magazines that ceased regular publication years ago."
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
@@ -138,10 +130,8 @@
         "NullPoke"
       ],
       "answer": "MissingNo.",
-      "explanation_correct": "MissingNo. is a glitch Pokemon used by developers as an exception handler, famous for duplicating the player's sixth item by 128.",
-      "explanation_incorrect": "Mewthree is a popular playground myth, and the other names are fictional.",
-      "last_verified_at": "2026-06-12T14:36:17.832Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "MissingNo. is a glitch Pokémon name derived from “Missing Number,” used for invalid Pokémon data in Pokémon Red and Blue. The Cinnabar Island encounter can also increase the quantity of the sixth item in the Bag by 128.",
+      "explanation_incorrect": "MissingNo. is the glitch Pokémon linked to invalid Pokémon data and the sixth-item duplication glitch in Pokémon Red and Blue."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -258,10 +248,8 @@
         "Qnik"
       ],
       "answer": "Smuggler",
-      "explanation_correct": "Smuggler was the chief editor of the letters department, whose identity remained a tightly guarded secret for decades.",
-      "explanation_incorrect": "Eld, Mac Abra, and Qnik were other prominent editors whose real identities were public.",
-      "last_verified_at": "2026-06-12T14:36:17.832Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Smuggler was the pseudonym used for CD-Action’s Action Redaction letters page. CD-Action’s 2026 anniversary book publicly identified the longtime contributor as Jerzy Poprawa, ending the mystery for readers.",
+      "explanation_incorrect": "Eld, Mac Abra, and Qnik were other prominent editors whose real identities were public."
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
@@ -325,7 +313,7 @@
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
-      "question": "What mistake by developer Toby Gard led to the exaggerated chest size of Lara Croft in the original 1996 Tomb Raider?",
+      "question": "Which joke did developer Toby Gard make in a 1997 interview when asked about Lara Croft’s exaggerated bust size?",
       "options": [
         "Accidentally adjusting the scale slider to 150% instead of 50%",
         "A file conversion error from Amiga to PC models",
@@ -333,10 +321,8 @@
         "Polygon limitations forcing blocky body proportions"
       ],
       "answer": "Accidentally adjusting the scale slider to 150% instead of 50%",
-      "explanation_correct": "Toby Gard slipped his mouse while adjusting the model's dimensions, scaling the breast size to 150% by mistake, which the marketing team insisted on keeping.",
-      "explanation_incorrect": "The change was not caused by file conversion issues, polygon limits, or developer pranks.",
-      "last_verified_at": "2026-06-12T14:36:17.833Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Gard joked that a mouse slip had changed a planned 50% increase to 150%. He later clarified that this was a flippant joke, not a real modeling accident.",
+      "explanation_incorrect": "The “slip of the mouse” story was Gard’s joke; it was not a file-conversion error, a prank, or a documented polygon-budget accident."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -460,7 +446,7 @@
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
-      "question": "In which European country did DreamHack, recognized as the world's largest LAN party, originate?",
+      "question": "In which country did DreamHack begin in 1994?",
       "options": [
         "Sweden",
         "Norway",
@@ -468,10 +454,8 @@
         "Poland"
       ],
       "answer": "Sweden",
-      "explanation_correct": "DreamHack was founded in Sweden in 1994, growing from a school cafeteria meeting into a massive gaming festival.",
-      "explanation_incorrect": "Though hosted internationally now, Sweden is the historic birthplace of the event.",
-      "last_verified_at": "2026-06-12T14:36:17.833Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "DreamHack began in 1994 in Malung, Sweden, as a small gathering in a school. It later grew into a major gaming festival.",
+      "explanation_incorrect": "Though hosted internationally now, Sweden is the historic birthplace of the event."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -640,7 +624,7 @@
     },
     {
       "subcategory": "Famous Glitches & Easter Eggs",
-      "question": "Which Team Fortress character class was added because of a bug that colored a player as a member of the opposite team?",
+      "question": "Which Team Fortress class uses disguises in a mechanic inspired by a Quake Team Fortress team-color bug?",
       "options": [
         "Spy",
         "Scout",
@@ -648,10 +632,8 @@
         "Engineer"
       ],
       "answer": "Spy",
-      "explanation_correct": "The Spy class was inspired by a bug in Quake TF where a player's name appeared in the enemy team's color, leading to disguise mechanics.",
-      "explanation_incorrect": "The other classes were designed from the start and did not originate from texture or color bugs.",
-      "last_verified_at": "2026-06-12T14:36:17.834Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Team Fortress developer Robin Walker traced the Spy disguise idea to a bug that could make a disguised player appear in the opposing team’s colors, creating confusion about their allegiance.",
+      "explanation_incorrect": "The other classes were designed from the start and did not originate from texture or color bugs."
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
@@ -738,10 +720,8 @@
         "Using frame data that requires pausing the game"
       ],
       "answer": "Requiring pressing forward/down precisely as the hit connects",
-      "explanation_correct": "Parrying in SFIII requires tap-forward (or tap-down for lows) within a tight 10-frame window, exposing the player to damage if they miss the timing.",
-      "explanation_incorrect": "EX meters are not consumed, and button inputs are not used for parrying in Street Fighter III.",
-      "last_verified_at": "2026-06-12T14:36:17.835Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Unlike blocking, parrying requires a directional tap timed to each attack: forward for standing attacks and down for low attacks. A missed input does not block the hit, so Daigo had to time a separate parry for each hit of Chun-Li’s super.",
+      "explanation_incorrect": "EX meters are not consumed, and button inputs are not used for parrying in Street Fighter III."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -760,37 +740,33 @@
     },
     {
       "subcategory": "Famous Glitches & Easter Eggs",
-      "question": "Which historical leader in the Civilization series became a meme representing nuclear war due to a programming bug in the first game?",
+      "question": "In which Civilization game did developers deliberately build on the “Nuclear Gandhi” meme by giving Gandhi a strong preference for nuclear weapons?",
       "options": [
-        "Mahatma Gandhi",
-        "Napoleon Bonaparte",
-        "Genghis Khan",
-        "Julius Caesar"
+        "Civilization V",
+        "Civilization VI",
+        "Civilization II",
+        "Civilization (1991)"
       ],
-      "answer": "Mahatma Gandhi",
-      "explanation_correct": "Mahatma Gandhi, despite his pacifist real-life legacy, became an aggressive nuclear war-monger in the game due to an underflow error.",
-      "explanation_incorrect": "The other leaders had high aggression rates programmed by default, rather than by software glitches.",
-      "last_verified_at": "2026-06-12T14:36:17.835Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Civilization V",
+      "explanation_correct": "The original Civilization did not contain the alleged underflow bug. Civilization V instead gave Gandhi unusually strong nuclear preferences, making the joke part of the game’s design.",
+      "explanation_incorrect": "Civilization V deliberately leaned into the Nuclear Gandhi meme. The claimed original-game integer-underflow bug was later debunked."
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
       "question": "What technical reason caused the aliens in Space Invaders (1978) to accelerate as the player destroyed them?",
       "options": [
-        "The reduction in rendering load allowed the hardware processor to run faster",
+        "With fewer invaders to update, the formation completed each movement cycle sooner",
         "It was a deliberate difficulty scaling algorithm written in the code",
         "A game loop bug that skipped frame delays",
         "Technical limitations of cathode-ray tube monitors"
       ],
-      "answer": "The reduction in rendering load allowed the hardware processor to run faster",
-      "explanation_correct": "The processor was overloaded by rendering many alien sprites. As they died, the system could draw sprites faster, which developer Tomohiro Nishikado kept as a gameplay feature.",
-      "explanation_incorrect": "It was not a pre-programmed speed-up curve, but an accidental hardware behavior left in by the designer.",
-      "last_verified_at": "2026-06-12T14:36:17.835Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "With fewer invaders to update, the formation completed each movement cycle sooner",
+      "explanation_correct": "The game updated the alien formation incrementally, moving one invader per frame. With fewer invaders in the list, each remaining invader was updated more often and the formation sped up; Nishikado said the hardware only let him move one invader every 1/60 second.",
+      "explanation_incorrect": "The faster movement followed from how the game updated the invaders, not a change in processor clock speed or a limitation of the monitor."
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
-      "question": "Which South Korean cable channel was the first to broadcast professional StarCraft matches and establish leagues in 2000?",
+      "question": "Which South Korean broadcaster’s StarCraft league, the OnGameNet Starleague, began in 2000?",
       "options": [
         "OnGameNet (OGN)",
         "MBCGame",
@@ -798,10 +774,8 @@
         "KBS World"
       ],
       "answer": "OnGameNet (OGN)",
-      "explanation_correct": "OnGameNet (OGN) pioneered televised esports, producing professional leagues like the Starleague for over a decade.",
-      "explanation_incorrect": "MBCGame was a rival channel launched later, while SBS and KBS are mainstream networks.",
-      "last_verified_at": "2026-06-12T14:36:17.835Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The first official OnGameNet Starleague (OSL) began in 2000. The tournament became one of South Korea’s major professional StarCraft competitions.",
+      "explanation_incorrect": "MBCGame was a rival channel launched later, while SBS and KBS are mainstream networks."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -843,10 +817,8 @@
         "Broken Maze"
       ],
       "answer": "Split Screen / Level 256",
-      "explanation_correct": "The level 256 glitch, or split-screen, occurs because Pac-Man's 8-bit level register overflows when drawing the fruit icons at the bottom.",
-      "explanation_incorrect": "The other options are generic computer terms and not the historic arcade slang.",
-      "last_verified_at": "2026-06-12T14:36:17.835Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "At level 256, the level counter wraps around to zero. The fruit-drawing routine then runs beyond its normal range, drawing corrupted data across the right side of the maze and producing the split-screen kill screen.",
+      "explanation_incorrect": "The other options are generic computer terms and not the historic arcade slang."
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
@@ -910,7 +882,7 @@
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
-      "question": "What is the name of the world's premier biannual charity speedrunning marathon event?",
+      "question": "What is the name of the charity speedrunning organization whose flagship marathons include a summer and a winter event each year?",
       "options": [
         "Games Done Quick (GDQ)",
         "Speedrun Expo",
@@ -918,10 +890,8 @@
         "Fast Legends"
       ],
       "answer": "Games Done Quick (GDQ)",
-      "explanation_correct": "Games Done Quick (GDQ) is a massive charity marathon where speedrunners show off their skills to raise money for charity.",
-      "explanation_incorrect": "ESA is the European equivalent, while the other choices are fictitious speedrunning leagues.",
-      "last_verified_at": "2026-06-12T14:36:17.836Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Games Done Quick organizes the annual Summer Games Done Quick and Awesome Games Done Quick charity marathons, along with other events.",
+      "explanation_incorrect": "ESA is the European equivalent, while the other choices are fictitious speedrunning leagues."
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
@@ -1023,25 +993,21 @@
         "Motorola 68000"
       ],
       "answer": "Intel 8080",
-      "explanation_correct": "Space Invaders was built using the Intel 8080 Central Processing Unit, which could not manage the processing overhead of moving all aliens at top speed.",
-      "explanation_incorrect": "MOS 6502 was in the Apple II, Z80 in Pac-Man, and 68000 in newer 16-bit consoles like Genesis.",
-      "last_verified_at": "2026-06-12T14:36:17.836Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The original Space Invaders arcade cabinet used an Intel 8080 CPU. The processor and game logic updated alien movement incrementally, which is also why the formation accelerated as fewer invaders remained.",
+      "explanation_incorrect": "MOS 6502 was in the Apple II, Z80 in Pac-Man, and 68000 in newer 16-bit consoles like Genesis."
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
-      "question": "Which South Korean esports organization did BoxeR found in 2004, which remains a powerhouse in LoL and StarCraft today?",
+      "question": "Which team did BoxeR found in 2002 that later became SK Telecom T1 after a 2004 sponsorship deal?",
       "options": [
+        "Team Orion",
+        "4 Union",
         "SK Telecom T1 (T1)",
-        "KT Rolster",
-        "Samsung Galaxy",
-        "CJ Entus"
+        "KT Rolster"
       ],
-      "answer": "SK Telecom T1 (T1)",
-      "explanation_correct": "BoxeR founded the team Orion, which secured sponsorship to become SK Telecom T1, the most successful League of Legends team under the name T1.",
-      "explanation_incorrect": "KT Rolster is T1's historic telecom rival, and the other clubs are defunct or rebranded.",
-      "last_verified_at": "2026-06-12T14:36:17.836Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Team Orion",
+      "explanation_correct": "BoxeR founded the team as Orion in October 2002. It became 4 Union in 2003, then SK Telecom T1 after SK Telecom sponsored it in 2004.",
+      "explanation_incorrect": "BoxeR founded Orion in 2002. The team later changed names to 4 Union and then SK Telecom T1 after a sponsorship deal."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -1077,16 +1043,14 @@
       "subcategory": "Speedrunning & Esport Milestones",
       "question": "What does the speedrun category 'Any%' mean, in contrast to the '100%' category?",
       "options": [
-        "Completing the game as fast as possible with no requirement on collection percentage",
-        "Completing the game using only wall-clip out of bounds glitches",
+        "Completing the game’s defined finish condition as quickly as possible, without a required completion percentage",
+        "Completing the game using only wall-clip out-of-bounds glitches",
         "Playing the game on the easiest difficulty setting",
         "Beating a random assortment of levels in a custom order"
       ],
-      "answer": "Completing the game as fast as possible with no requirement on collection percentage",
-      "explanation_correct": "Any% requires the player to reach the game's credits by any means, bypassing side-quests, collectibles, and standard progression.",
-      "explanation_incorrect": "Glitches may be used depending on sub-rules (Glitchless), but Any% refers strictly to the lack of completion requirements.",
-      "last_verified_at": "2026-06-12T14:36:17.836Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Completing the game’s defined finish condition as quickly as possible, without a required completion percentage",
+      "explanation_correct": "Any% generally means reaching the category’s defined finish condition as quickly as possible without a minimum collection or completion percentage. Each game’s rules define the finish condition and which techniques are allowed.",
+      "explanation_incorrect": "Glitches may be used depending on sub-rules (Glitchless), but Any% refers strictly to the lack of completion requirements."
     },
     {
       "subcategory": "Famous Glitches & Easter Eggs",
@@ -1150,7 +1114,7 @@
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
-      "question": "What is the name of the designer of Space Invaders who decided to leave the hardware acceleration glitch in the game?",
+      "question": "Which designer explained that Space Invaders’ aliens sped up as their number decreased because the hardware could move only one invader per frame?",
       "options": [
         "Tomohiro Nishikado",
         "Toru Iwatani",
@@ -1158,10 +1122,8 @@
         "Gunpei Yokoi"
       ],
       "answer": "Tomohiro Nishikado",
-      "explanation_correct": "Tomohiro Nishikado realized the frame-rate speedup enhanced the gameplay tension and decided to treat it as an official game feature.",
-      "explanation_incorrect": "Iwatani made Pac-Man, Miyamoto designed Mario, and Yokoi created the Game Boy.",
-      "last_verified_at": "2026-06-12T14:36:21.717Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tomohiro Nishikado explained that the hardware let him move one invader every 1/60 second. As the number of invaders fell, the formation moved faster; he said this added tension, though he described related behaviors as bugs.",
+      "explanation_incorrect": "Iwatani made Pac-Man, Miyamoto designed Mario, and Yokoi created the Game Boy."
     },
     {
       "subcategory": "Cult Gaming Media & Mags",
@@ -1347,16 +1309,14 @@
       "subcategory": "Speedrunning & Esport Milestones",
       "question": "Which counter-attack combo did Daigo's Ken execute immediately after parrying Chun-Li to win the round?",
       "options": [
-        "Jumping kick, fierce punch, Shoryuken, into Shippu Jinraikyaku Super Art",
+        "Jumping heavy kick, crouching medium kick, medium Shoryuken, into Shippu Jinraikyaku Super Art",
         "A standard throw",
         "Light kick followed by a Hadouken",
         "His own Super Art raw without aerial parries"
       ],
-      "answer": "Jumping kick, fierce punch, Shoryuken, into Shippu Jinraikyaku Super Art",
-      "explanation_correct": "Daigo executed a jump-parry to position himself for an optimal counter combo, finishing with Ken's Shippu Jinraikyaku Super Art.",
-      "explanation_incorrect": "A throw or light Hadouken would not have dealt enough damage to secure the KO before timeout.",
-      "last_verified_at": "2026-06-12T14:36:21.718Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Jumping heavy kick, crouching medium kick, medium Shoryuken, into Shippu Jinraikyaku Super Art",
+      "explanation_correct": "After parrying Chun-Li’s super, Daigo landed a jumping heavy kick, linked a crouching medium kick into a medium Shoryuken, and canceled into Ken’s Shippu Jinraikyaku Super Art.",
+      "explanation_incorrect": "A throw or light Hadouken would not have dealt enough damage to secure the KO before timeout."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",
@@ -1435,18 +1395,16 @@
     },
     {
       "subcategory": "Speedrunning & Esport Milestones",
-      "question": "What does the term 'Glitchless' mean in speedrunning rules and leaderboard categories?",
+      "question": "In a speedrun category labeled “Glitchless,” what does the label generally indicate?",
       "options": [
-        "Completing the game without using programming glitches, bugs, or out-of-bounds errors",
+        "The run follows that category’s rules prohibiting glitches",
         "Completing the run without taking any damage (no-hit)",
         "Banning the use of controllers with turbo features",
         "Banning the skipping of in-game story cutscenes"
       ],
-      "answer": "Completing the game without using programming glitches, bugs, or out-of-bounds errors",
-      "explanation_correct": "Glitchless categories require runners to beat the game using only developer-intended mechanics, banning memory leaks and physics exploits.",
-      "explanation_incorrect": "No-hit is a different challenge, and hardware rules are managed under general submission guidelines.",
-      "last_verified_at": "2026-06-12T14:36:21.719Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "The run follows that category’s rules prohibiting glitches",
+      "explanation_correct": "A Glitchless label generally means the category’s rules restrict glitches. The exact prohibited techniques are defined by that game’s leaderboard and may differ between games.",
+      "explanation_incorrect": "Glitchless categories restrict glitches under their game-specific rules. No-hit, controller restrictions, and cutscene rules describe different constraints."
     },
     {
       "subcategory": "Famous Glitches & Easter Eggs",
@@ -1465,18 +1423,16 @@
     },
     {
       "subcategory": "Gaming Industry Lore & Development",
-      "question": "Who is James Sunderland actually looking at in the mirror during the opening scene of Silent Hill 2, as discovered by fans brightening the image textures?",
+      "question": "What have some fans interpreted James Sunderland’s gaze in Silent Hill 2’s opening mirror scene as doing?",
       "options": [
-        "Directly at the player (breaking the fourth wall)",
-        "At his deceased wife Mary",
-        "At the monster Pyramid Head",
-        "At his evil alter-ego double"
+        "Looking toward the camera/player (a fan interpretation that the game’s art director disputed)",
+        "Looking at his deceased wife Mary",
+        "Looking at the monster Pyramid Head",
+        "Looking at his evil alter-ego double"
       ],
-      "answer": "Directly at the player (breaking the fourth wall)",
-      "explanation_correct": "Texture extraction and brightening revealed that James's pupils are turned away from his own reflection, staring directly at the camera/player.",
-      "explanation_incorrect": "He is not staring at Mary, Pyramid Head, or an alternate self; his eyes are directed at the user.",
-      "last_verified_at": "2026-06-12T14:36:21.719Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Looking toward the camera/player (a fan interpretation that the game’s art director disputed)",
+      "explanation_correct": "Some fans read James’s gaze as looking toward the player, but Silent Hill 2 art director Masahiro Ito rejected that interpretation. It is a fan theory, not confirmed story canon.",
+      "explanation_incorrect": "The camera/player reading is a fan theory that the game’s art director disputed; the game does not confirm that James breaks the fourth wall."
     },
     {
       "subcategory": "Gaming Memes & Viral Gaming",

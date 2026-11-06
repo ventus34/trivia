@@ -4,13 +4,11 @@
   "language": "pl",
   "description": "Pytania z zakresu: Edycja, Kompozycja, Gatunek, Sprzęt, Technika, Budowa aparatu, Matryca, Optyka...",
   "created_at": "2026-06-12T15:03:34.249Z",
-  "last_verified_at": "2026-06-12T15:03:33.503Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Edycja",
-      "question": "Które narzędzie w programie graficznym służy do usuwania niedoskonałości poprzez kopiowanie pikseli z innego obszaru?",
+      "question": "Które narzędzie w Photoshopie służy do malowania próbką obrazu bez automatycznego dopasowania tekstury i oświetlenia do otoczenia?",
       "options": [
         "Stempel klonujący",
         "Pędzel korygujący",
@@ -18,10 +16,8 @@
         "Gumka"
       ],
       "answer": "Stempel klonujący",
-      "explanation_correct": "Stempel klonujący pozwala na precyzyjne kopiowanie fragmentów obrazu w celu maskowania defektów.",
-      "explanation_incorrect": "Pędzel korygujący nakłada teksturę, rozmycie gaussowskie rozmywa, gumka usuwa.",
-      "last_verified_at": "2026-06-12T15:02:49.886Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stempel klonujący kopiuje próbkowane piksele; efekt zależy m.in. od trybu mieszania i krycia.",
+      "explanation_incorrect": "Pędzel korygujący również pobiera próbkę, ale dopasowuje ją do otoczenia. Rozmycie gaussowskie rozmywa, a gumka usuwa piksele."
     },
     {
       "subcategory": "Kompozycja",
@@ -63,10 +59,8 @@
         "Blenda fotograficzna"
       ],
       "answer": "Lampa reporterska",
-      "explanation_correct": "Lampa reporterska (speedlight) to mobilne źródło światła zasilane bateryjnie, niezbędne w reportażu.",
-      "explanation_incorrect": "Lampy halogenowe dają światło ciągłe, generator studyjny jest stacjonarny, a blenda odbija światło, zamiast je generować.",
-      "last_verified_at": "2026-06-12T15:03:33.502Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lampa reporterska (speedlight) to przenośna lampa błyskowa, często zasilana bateryjnie i mocowana na stopce aparatu; reportaż można jednak wykonywać także bez niej.",
+      "explanation_incorrect": "Lampy halogenowe dają światło ciągłe, generator studyjny jest stacjonarny, a blenda odbija światło, zamiast je generować."
     },
     {
       "subcategory": "Technika",
@@ -79,9 +73,7 @@
       ],
       "answer": "Obraz HDR",
       "explanation_correct": "HDR (High Dynamic Range) tworzy obraz o większym zakresie tonalnym.",
-      "explanation_incorrect": "Panorama łączy szerokie kadry, bracketing to seria zdjęć, focus stacking łączy różne ogniskowe.",
-      "last_verified_at": "2026-06-12T15:02:49.886Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bracketing ekspozycji tworzy serię zdjęć o różnym naświetleniu; HDR może je łączyć. Focus stacking łączy obrazy o różnych odległościach ostrzenia, nie ogniskowych."
     },
     {
       "subcategory": "Budowa aparatu",
@@ -115,18 +107,16 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Który typ obiektywu charakteryzuje się skrajnie szerokim kątem widzenia i charakterystycznym efektem dystorsji?",
+      "question": "Który typ obiektywu jest projektowany tak, by uzyskać bardzo szeroki kąt widzenia i charakterystycznie zakrzywiony obraz?",
       "options": [
         "Rybie oko",
-        "Obiektyw szerokokątny",
-        "Obiektyw zoom",
-        "Obiektyw makro"
+        "Standardowy 50 mm na pełnej klatce",
+        "Teleobiektyw 200 mm na pełnej klatce",
+        "Standardowy 45 mm na pełnej klatce"
       ],
       "answer": "Rybie oko",
-      "explanation_correct": "Obiektyw typu rybie oko (fisheye) ma kąt widzenia do 180 stopni i dystorsję beczkową.",
-      "explanation_incorrect": "Szerokokątny ma mniejszą dystorsję, zoom zmienia ogniskową, makro do bliskich zdjęć.",
-      "last_verified_at": "2026-06-12T15:02:49.886Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Obiektyw rybie oko ma bardzo szeroki kąt widzenia i charakterystyczne zakrzywienie obrazu; kąt zależy od modelu i może wynosić około 180 stopni.",
+      "explanation_incorrect": "Rybie oko jest rodzajem obiektywu szerokokątnego. Pozostałe odpowiedzi opisują inne kąty widzenia na matrycy pełnoklatkowej."
     },
     {
       "subcategory": "Ciemnia",
@@ -139,9 +129,7 @@
       ],
       "answer": "Powiększalnik",
       "explanation_correct": "Powiększalnik projekcyjny służy do naświetlania papieru z negatywu.",
-      "explanation_incorrect": "Wywoływarka to proces chemiczny, stykówka to technika, kopiarka nie jest typowa.",
-      "last_verified_at": "2026-06-12T15:02:49.886Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stykówka powstaje przez kontakt negatywu z papierem, a wywoływarka może oznaczać urządzenie do obróbki. Powiększalnik rzutuje obraz optycznie."
     },
     {
       "subcategory": "Oświetlenie",
@@ -154,13 +142,11 @@
       ],
       "answer": "Parasolka fotograficzna",
       "explanation_correct": "Parasolka to prosty modyfikator, który zmiękcza światło.",
-      "explanation_incorrect": "Softbox ma kształt prostokątny, beauty dish talerzowaty, okno to naturalne źródło.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Softbox może mieć różne kształty, beauty dish ma formę czaszy, a okno może przepuszczać światło dzienne."
     },
     {
       "subcategory": "Gatunek",
-      "question": "Jaki gatunek fotografii koncentruje się na uchwyceniu spontanicznych momentów w przestrzeni publicznej?",
+      "question": "Jak nazywa się gatunek kojarzony z uchwyceniem codziennego życia w przestrzeni publicznej, znany po angielsku jako street photography?",
       "options": [
         "Fotografia uliczna",
         "Fotografia reportażowa",
@@ -168,14 +154,12 @@
         "Fotografia krajobrazowa"
       ],
       "answer": "Fotografia uliczna",
-      "explanation_correct": "Fotografia uliczna dokumentuje codzienne życie bez ingerencji.",
-      "explanation_incorrect": "Reportażowa może być planowana, portretowa pozowana, krajobrazowa statyczna.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fotografia uliczna często pokazuje spontaniczne sceny codzienności w przestrzeni publicznej. Może się nakładać na reportaż i portret.",
+      "explanation_incorrect": "Pozostałe gatunki mogą obejmować zdjęcia w miejscach publicznych, ale street photography to nazwa fotografii ulicznej."
     },
     {
       "subcategory": "Parametry",
-      "question": "Który parametr określa wrażliwość matrycy na światło w standardzie międzynarodowym?",
+      "question": "Jak nazywa się ustawienie aparatu cyfrowego oznaczane wartościami np. 100, 400 i 1600, związane z jasnością obrazu?",
       "options": [
         "Czułość ISO",
         "Czas naświetlania",
@@ -183,10 +167,8 @@
         "Balans bieli"
       ],
       "answer": "Czułość ISO",
-      "explanation_correct": "ISO reguluje wzmocnienie sygnału matrycy.",
-      "explanation_incorrect": "Czas i przysłona kontrolują ekspozycję, balans bieli kolor.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ISO w aparacie cyfrowym określa ustawienie czułości lub indeks ekspozycji. Zwykle wpływa na wzmocnienie i przetwarzanie sygnału, a nie na ilość światła wpadającą przez obiektyw.",
+      "explanation_incorrect": "Przysłona i czas wpływają na ilość światła docierającą do matrycy; balans bieli koryguje barwy."
     },
     {
       "subcategory": "Historia",
@@ -213,10 +195,8 @@
         "Maska gradientowa"
       ],
       "answer": "Histogram",
-      "explanation_correct": "Histogram pozwala ocenić, czy zdjęcie nie jest prześwietlone lub niedoświetlone poprzez analizę rozkładu tonów.",
-      "explanation_incorrect": "Próbnik służy do wyboru koloru, warstwy porządkują edycję, a maski służą do ukrywania fragmentów obrazu.",
-      "last_verified_at": "2026-06-12T15:03:33.502Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Histogram pokazuje rozkład jasności. Może ujawnić obcięcie skrajnych tonów, lecz sam nie przesądza, czy ekspozycja jest właściwa dla danej sceny.",
+      "explanation_incorrect": "Próbnik służy do wyboru koloru, warstwy porządkują edycję, a maski służą do ukrywania fragmentów obrazu."
     },
     {
       "subcategory": "Optyka",
@@ -235,33 +215,29 @@
     },
     {
       "subcategory": "Akcesoria",
-      "question": "Jaki filtr fotograficzny redukuje ilość światła wpadającego do obiektywu bez zmiany barw?",
+      "question": "Który filtr określa się skrótem ND i stosuje do ograniczenia ilości światła bez zamierzonej zmiany barw?",
       "options": [
         "Filtr neutralny szary",
         "Filtr polaryzacyjny",
         "Filtr UV",
-        "Filtr gradientowy"
+        "Filtr czerwony"
       ],
       "answer": "Filtr neutralny szary",
-      "explanation_correct": "Filtr ND (neutral density) jednolicie przyciemnia obraz.",
-      "explanation_incorrect": "Polaryzacyjny redukuje odbicia, UV blokuje ultrafiolet, gradientowy jest częściowo przyciemniający.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jednolity filtr ND jest projektowany do redukcji światła w całym kadrze bez zamierzonej zmiany barw; rzeczywiste filtry mogą wprowadzać zafarb.",
+      "explanation_incorrect": "Filtr polaryzacyjny również zmniejsza ilość światła, ale selekcjonuje polaryzację; filtr czerwony zmienia barwę, a UV ogranicza ultrafiolet. Filtr gradientowy również może być filtrem ND."
     },
     {
       "subcategory": "Gatunek",
-      "question": "Który gatunek fotografii koncentruje się na dokumentowaniu dzikich zwierząt w ich naturalnym środowisku?",
+      "question": "Jak nazywa się dziedzina obejmująca zdjęcia dzikich zwierząt w naturze, a także inne obrazy przyrody?",
       "options": [
         "Fotografia przyrodnicza",
-        "Fotografia safari",
-        "Fotografia zoologiczna",
-        "Fotografia makro"
+        "Fotografia kulinarna",
+        "Fotografia dokumentów",
+        "Fotografia reprodukcyjna"
       ],
       "answer": "Fotografia przyrodnicza",
-      "explanation_correct": "Fotografia przyrodnicza (wildlife) pokazuje zwierzęta w naturze.",
-      "explanation_incorrect": "Safari to podróż, zoologiczna dotyczy ogrodów, makro to małe obiekty.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fotografia przyrodnicza obejmuje zdjęcia roślin, zwierząt, krajobrazów i innych elementów natury. Fotografia wildlife koncentruje się na dzikich zwierzętach.",
+      "explanation_incorrect": "Fotografia dzikich zwierząt jest częścią fotografii przyrodniczej. Pozostałe odpowiedzi oznaczają inne rodzaje zdjęć."
     },
     {
       "subcategory": "Kompozycja",
@@ -295,7 +271,7 @@
     },
     {
       "subcategory": "Aparaty",
-      "question": "Jaka marka aparatów fotograficznych zasłynęła z produkcji modeli dających natychmiastowe wydruki?",
+      "question": "Która marka była związana z aparatem Land Camera zaprezentowanym przez Edwina Landa w 1947 roku?",
       "options": [
         "Polaroid",
         "Fujifilm Instax",
@@ -303,10 +279,8 @@
         "Leica"
       ],
       "answer": "Polaroid",
-      "explanation_correct": "Polaroid wynalazł fotografię natychmiastową w latach 40.",
-      "explanation_incorrect": "Instax to konkurencja Fuji, Kodak i Leica nie specjalizują się w tym.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Polaroid wprowadził aparaty i materiały do fotografii natychmiastowej opracowane przez zespół Edwina Landa.",
+      "explanation_incorrect": "Fujifilm Instax i Kodak również oferowały systemy fotografii natychmiastowej, lecz Land Camera jest związana z Polaroidem."
     },
     {
       "subcategory": "Sprzęt fotograficzny",
@@ -318,14 +292,12 @@
         "Osłona przeciwsłoneczna"
       ],
       "answer": "Pierścień ostrzenia",
-      "explanation_correct": "Pierścień ostrzenia to mechaniczny element obiektywu umożliwiający precyzyjne ustawienie ostrości przez fotografa.",
-      "explanation_incorrect": "Pozostałe elementy pełnią inne funkcje: pierścień przysłony steruje ilością światła, przełącznik AF/MF zmienia tryb autofokusa, a osłona chroni przed flarami.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pierścień ostrzenia pozwala ręcznie ustawić ostrość. Może sterować soczewkami mechanicznie lub elektronicznie.",
+      "explanation_incorrect": "Pozostałe elementy pełnią inne funkcje: pierścień przysłony steruje ilością światła, przełącznik AF/MF zmienia tryb autofokusa, a osłona chroni przed flarami."
     },
     {
       "subcategory": "Historia procesów",
-      "question": "Która z poniższych technik fotograficznych została opracowana jako pierwsza trwała metoda rejestracji obrazu?",
+      "question": "Która z wymienionych metod została ogłoszona w 1839 roku przez Louisa Daguerre’a?",
       "options": [
         "Dagerotypia",
         "Kalotypia",
@@ -333,10 +305,8 @@
         "Mokry kolodion"
       ],
       "answer": "Dagerotypia",
-      "explanation_correct": "Dagerotypia, ogłoszona w 1839 roku przez Louisa Daguerre'a, była pierwszą praktyczną i trwałą metodą fotograficzną na metalowej płycie.",
-      "explanation_incorrect": "Kalotypia (wynaleziona przez Talbota), cyjanotypia i mokry kolodion pojawiły się później i opierały się na innych procesach chemicznych.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dagerotypia była wczesną praktyczną metodą fotografii na posrebrzanej płycie. Wcześniej Niépce uzyskał trwały obraz metodą heliografii.",
+      "explanation_incorrect": "Kalotypia, cyjanotypia i mokry kolodion są innymi procesami historycznymi."
     },
     {
       "subcategory": "Optyka",
@@ -344,18 +314,16 @@
       "options": [
         "Efekt bokeh",
         "Aberracja chromatyczna",
-        "Winiacja",
+        "Winietowanie",
         "Dystorsja"
       ],
       "answer": "Efekt bokeh",
-      "explanation_correct": "Bokeh to japoński termin określający jakość i wygląd nieostrego tła, uzyskiwany głównie przez szeroką przysłonę.",
-      "explanation_incorrect": "Aberracja chromatyczna to wada obiektywu, winiacja to przyciemnienie brzegów, a dystorsja to zniekształcenie linii prostych.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bokeh oznacza wygląd i jakość nieostrych części obrazu, w tym tła; wpływają na niego m.in. konstrukcja obiektywu i przysłona.",
+      "explanation_incorrect": "Aberracja chromatyczna może powodować barwne obwódki, winietowanie przyciemnia brzegi, a dystorsja zniekształca geometrię."
     },
     {
       "subcategory": "Formaty plików",
-      "question": "Który format pliku zawiera surowe, nieprzetworzone dane bezpośrednio z matrycy aparatu?",
+      "question": "Który rodzaj pliku fotograficznego zachowuje dane z matrycy w postaci dającej dużą swobodę dalszego wywołania?",
       "options": [
         "RAW",
         "JPEG",
@@ -363,14 +331,12 @@
         "GIF"
       ],
       "answer": "RAW",
-      "explanation_correct": "Pliki RAW dają największe możliwości edycji, ponieważ nie są poddawane obróbce przez oprogramowanie aparatu.",
-      "explanation_incorrect": "JPEG go kompresuje stratnie, PNG nie jest standardem zapisu w aparatach, a GIF obsługuje ograniczoną paletę barw.",
-      "last_verified_at": "2026-06-12T15:03:33.502Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pliki RAW zawierają dane z matrycy i metadane przed typowym końcowym przetworzeniem do JPEG. Mogą być kompresowane, a niektóre korekty mogą być stosowane już w aparacie.",
+      "explanation_incorrect": "JPEG zwykle zapisuje obraz po obróbce i kompresji stratnej; PNG i GIF są innymi formatami obrazu."
     },
     {
       "subcategory": "Budowa aparatu",
-      "question": "Jaki typ elementu optycznego znajduje się w lustrzankach jednoobiektywowych i umożliwia podgląd przez wizjer?",
+      "question": "Który element optyczny bywa stosowany w wizjerze lustrzanki do przekierowania obrazu z matówki do oka?",
       "options": [
         "Pryzmat pentagonalny",
         "Lustro półprzepuszczalne",
@@ -378,14 +344,12 @@
         "Żaluzja"
       ],
       "answer": "Pryzmat pentagonalny",
-      "explanation_correct": "Pryzmat pentagonalny (pentapryzmat) odwraca obraz w wizjerze, umożliwiając poprawny podgląd przez obiektyw.",
-      "explanation_incorrect": "Lustro półprzepuszczalne stosowane w aparatach z wizjerem elektronicznym; soczewki korekcyjne nie są standardowym elementem; żaluzja to migawka.",
-      "last_verified_at": "2026-06-12T15:02:49.887Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pentapryzmat przekierowuje obraz do wizjera i umożliwia jego właściwą orientację. Niektóre lustrzanki zamiast niego używają układu luster pentagonalnych.",
+      "explanation_incorrect": "Lustra półprzepuszczalne występują w niektórych konstrukcjach aparatów, lecz nie są pentapryzmatem. Żaluzja może być częścią migawki."
     },
     {
       "subcategory": "Kompozycja",
-      "question": "Jak nazywa się reguła kompozycyjna polegająca na podziale kadru według proporcji oko 1:1.618?",
+      "question": "Jak nazywa się podział odcinka na części, których stosunek większej do mniejszej wynosi około 1,618?",
       "options": [
         "Złoty podział",
         "Reguła trójpodziału",
@@ -394,9 +358,7 @@
       ],
       "answer": "Złoty podział",
       "explanation_correct": "Złoty podział to proporcja estetyczna wywodząca się z matematyki, stosowana w fotografii do harmonicznego rozmieszczenia elementów kadru.",
-      "explanation_incorrect": "Reguła trójpodziału to uproszczona wersja, symetria to inne podejście, linia horyzontu to element kompozycji, a nie reguła.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Reguła trójpodziału dzieli kadr na trzy równe części w obu kierunkach. Symetria i linia horyzontu to inne pojęcia."
     },
     {
       "subcategory": "Oświetlenie",
@@ -409,13 +371,11 @@
       ],
       "answer": "Światło odbite",
       "explanation_correct": "Światło odbite to technika, w której źródło światła skierowane jest na powierzchnię odbijającą (np. sufit), tworząc miękkie, równomierne oświetlenie.",
-      "explanation_incorrect": "Światło bezpośrednie pada wprost na obiekt, tworząc twarde cienie; punktowe jest skoncentrowane; naturalne pochodzi ze słońca.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Światło bezpośrednie dociera bez odbicia od sufitu; może być miękkie lub twarde w zależności od rozmiaru źródła. Światło naturalne może pochodzić również z nieba."
     },
     {
       "subcategory": "Technika",
-      "question": "Która technika fotograficzna polega na użyciu czasu migawki dłuższego niż 1/30 sekundy, często wymagającego stabilnego podparcia?",
+      "question": "Jak nazywa się technika używania na tyle długiego czasu naświetlania, by zarejestrować np. smugi ruchu?",
       "options": [
         "Długa ekspozycja",
         "Zdjęcie z ręki",
@@ -424,13 +384,11 @@
       ],
       "answer": "Długa ekspozycja",
       "explanation_correct": "Długa ekspozycja to technika polegająca na długim czasie naświetlania (nawet kilkadziesiąt sekund), używana do rozmycia ruchu lub fotografii przy słabym świetle.",
-      "explanation_incorrect": "Zdjęcia z ręki są krótsze (zwykle poniżej 1/60 s); szybki czas zamknięcia to przeciwieństwo; tryb sportowy automatyzuje krótkie czasy.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zdjęcie z ręki może również wykorzystywać długi czas, zależnie od stabilizacji i efektu. Tryb sportowy zazwyczaj preferuje krótsze czasy."
     },
     {
       "subcategory": "Sprzęt",
-      "question": "Które urządzenie jest niezbędne do stabilnego utrzymania aparatu podczas długich naświetlań?",
+      "question": "Jak nazywa się trójnożne akcesorium używane do podpierania aparatu podczas długich naświetlań?",
       "options": [
         "Statyw fotograficzny",
         "Gimbal",
@@ -438,10 +396,8 @@
         "Lampa błyskowa"
       ],
       "answer": "Statyw fotograficzny",
-      "explanation_correct": "Statyw fotograficzny zapewnia stabilne podparcie aparatu, eliminując drgania i umożliwiając długie czasy migawki bez rozmycia.",
-      "explanation_incorrect": "Gimbal stabilizuje wideo, ale nie jest klasycznym statywem; monopod podpiera, ale nie daje pełnej stabilności; lampa błyskowa nie stabilizuje.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Statyw fotograficzny pomaga unieruchomić aparat. Nie eliminuje wszystkich drgań, a aparat można też oprzeć na innej stabilnej powierzchni.",
+      "explanation_incorrect": "Monopod ma jedną nogę, gimbal służy do stabilizacji ruchu, a lampa błyskowa jest źródłem światła."
     },
     {
       "subcategory": "Zjawiska świetlne",
@@ -450,13 +406,11 @@
         "Flara soczewki",
         "Dystorsja perspektywy",
         "Aberracja sferyczna",
-        "Winiacja"
+        "Winietowanie"
       ],
       "answer": "Flara soczewki",
       "explanation_correct": "Flara (lens flare) to rozproszone odbicia światła między soczewkami obiektywu, często widoczne jako kolorowe plamy lub pasy.",
-      "explanation_incorrect": "Dystorsja to zniekształcenie geometryczne, aberracja sferyczna to wada ostrości, winiacja to zaciemnienie brzegów.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dystorsja jest zniekształceniem geometrycznym, aberracja sferyczna wpływa na ostrość, a winietowanie przyciemnia brzegi."
     },
     {
       "subcategory": "Fotografia klasyczna",
@@ -468,10 +422,8 @@
         "Barwniki organiczne"
       ],
       "answer": "Halogenki srebra",
-      "explanation_correct": "Halogenki srebra (np. bromek srebra) to substancje światłoczułe, które po ekspozycji na światło ulegają redukcji do metalicznego srebra, tworząc obraz utajony.",
-      "explanation_incorrect": "Związki żelaza używane są w cyjanotypii, platyny w platynotypii, barwniki organiczne stosowane w filmach barwnych, ale nie są głównym składnikiem światłoczułym.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Halogenki srebra, np. bromek srebra, wytwarzają po ekspozycji obraz utajony. Wywoływacz redukuje naświetlone kryształy, tworząc obraz widzialny.",
+      "explanation_incorrect": "Związki żelaza używane są w cyjanotypii, platyny w platynotypii, barwniki organiczne stosowane w filmach barwnych, ale nie są głównym składnikiem światłoczułym."
     },
     {
       "subcategory": "Rodzaje aparatów",
@@ -490,18 +442,16 @@
     },
     {
       "subcategory": "Cyfrowe obrazowanie",
-      "question": "Jaka jest nazwa najmniejszego, pojedynczego elementu matrycy cyfrowej, który rejestruje informację o świetle?",
+      "question": "Jak nazywa się światłoczuły element półprzewodnikowy, który w typowej matrycy zamienia padające światło na sygnał elektryczny?",
       "options": [
         "Piksel",
         "Fotodioda",
         "Mikrosoczewka",
         "Barwnik kryjący"
       ],
-      "answer": "Piksel",
-      "explanation_correct": "Piksel (skrót od picture element) to podstawowa jednostka matrycy, która odpowiada za rejestrację natężenia światła (często w jednym kolorze).",
-      "explanation_incorrect": "Fotodioda to element półprzewodnikowy, ale w kontekście matrycy mówimy o pikselach; mikrosoczewki pomagają skupić światło; barwnik to element maski.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fotodioda",
+      "explanation_correct": "Fotodioda przekształca światło w ładunek elektryczny. Piksel matrycy może obejmować fotodiodę i dodatkowe elementy, a piksel obrazu to próbka obrazu.",
+      "explanation_incorrect": "Mikrosoczewka skupia światło, filtr barwny przepuszcza wybrane długości fal, a piksel opisuje jednostkę obrazu lub element układu sensora."
     },
     {
       "subcategory": "Gatunek",
@@ -514,9 +464,7 @@
       ],
       "answer": "Fotografia lotnicza",
       "explanation_correct": "Fotografia lotnicza to wykonywanie zdjęć z powietrza za pomocą samolotów, helikopterów, dronów itp. do celów kartograficznych, artystycznych lub dokumentacyjnych.",
-      "explanation_incorrect": "Krajobrazowa obejmuje widoki z ziemi, reportażowa dokumentuje wydarzenia, makro to zdjęcia z bliska, a nie z lotu ptaka.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zdjęcia lotnicze mogą być jednocześnie krajobrazowe lub reportażowe; nazwa „lotnicza” odnosi się do wykonywania zdjęć z powietrza."
     },
     {
       "subcategory": "Sprzęt",
@@ -529,9 +477,7 @@
       ],
       "answer": "Tulipanowa osłona",
       "explanation_correct": "Tulipanowa osłona przeciwsłoneczna (o kształcie koniczyny) blokuje boczne promienie słoneczne, zapobiegając flarom i odblaskom.",
-      "explanation_incorrect": "Okrągłe osłony są zwykle używane do filtrów; kapturki przeciwbryzgowe to osłony przed wodą; pokrywka ochronna zamyka obiektyw.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Okrągłe osłony również blokują światło spoza kadru. Osłona tulipanowa jest rozpoznawalna po charakterystycznym kształcie płatków."
     },
     {
       "subcategory": "Parametry",
@@ -565,18 +511,16 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Jaki typ obiektywu charakteryzuje się możliwością zmiany ogniskowej w szerokim zakresie?",
+      "question": "Jaki typ obiektywu pozwala zmieniać ogniskową bez wymiany obiektywu?",
       "options": [
         "Obiektyw zmiennoogniskowy",
-        "Obiektyw stałoogniskowy",
-        "Obiektyw makro",
-        "Obiektyw szerokokątny"
+        "Stałoogniskowy 35 mm",
+        "Stałoogniskowy 50 mm",
+        "Stałoogniskowy 85 mm"
       ],
       "answer": "Obiektyw zmiennoogniskowy",
       "explanation_correct": "Obiektyw zmiennoogniskowy (zoom) umożliwia płynną zmianę ogniskowej, co pozwala na przybliżanie lub oddalanie kadru bez zmiany obiektywu.",
-      "explanation_incorrect": "Stałoogniskowy ma jedną stałą ogniskową, makro jest przystosowany do bardzo bliskich zdjęć, szerokokątny ma krótką ogniskową, ale nie jest zmienny.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Obiektywy podane jako stałoogniskowe mają jedną ogniskową. Zoom może być zarazem obiektywem makro lub szerokokątnym."
     },
     {
       "subcategory": "Ciemnia",
@@ -595,7 +539,7 @@
     },
     {
       "subcategory": "Historia",
-      "question": "Kto jest uważany za twórcę pierwszej trwałej fotografii ('Widok z okna') wykonanej w 1826 roku?",
+      "question": "Kto wykonał zachowany heliograficzny „Widok z okna w Le Gras”, datowany na około 1826–1827 rok?",
       "options": [
         "Joseph Nicéphore Niépce",
         "Louis Daguerre",
@@ -603,14 +547,12 @@
         "George Eastman"
       ],
       "answer": "Joseph Nicéphore Niépce",
-      "explanation_correct": "Joseph Nicéphore Niépce wykonał pierwsze trwałe zdjęcie techniką heliografii na płycie cynowej w 1826 roku.",
-      "explanation_incorrect": "Daguerre udoskonalił proces (dagerotypia), Talbot wynalazł kalotypię, Eastman wprowadził film zwojowy i aparat Kodak, ale to Niépce był pionierem.",
-      "last_verified_at": "2026-06-12T15:02:49.888Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Joseph Nicéphore Niépce utrwalił widok techniką heliografii na płycie ze stopu cyny, tzw. pewter. Jest to jedno z najwcześniejszych zachowanych zdjęć z aparatu.",
+      "explanation_incorrect": "Daguerre udoskonalił proces (dagerotypia), Talbot wynalazł kalotypię, Eastman wprowadził film zwojowy i aparat Kodak, ale to Niépce był pionierem."
     },
     {
       "subcategory": "Właściwość",
-      "question": "Jak nazywa się zjawisko braku detali w czerni na zdjęciu?",
+      "question": "Jak nazywa się zbyt mała ekspozycja, która może powodować utratę szczegółów w cieniach?",
       "options": [
         "Niedoświetlenie",
         "Prześwietlenie",
@@ -618,14 +560,12 @@
         "Przebarwienie"
       ],
       "answer": "Niedoświetlenie",
-      "explanation_correct": "To zjawisko występuje, gdy naświetlenie jest zbyt niskie, przez co ciemne obszary tracą szczegóły.",
-      "explanation_incorrect": "Prześwietlenie dotyczy braku detali w bieli, a przebarwienie wynika z błędnego balansu bieli.",
-      "last_verified_at": "2026-06-12T15:02:49.889Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Niedoświetlenie oznacza zbyt małą ekspozycję względem zamierzonego efektu; może prowadzić do utraty szczegółów w cieniach. Ciemne obszary mogą powstać także wskutek obróbki.",
+      "explanation_incorrect": "Prześwietlenie dotyczy braku detali w bieli, a przebarwienie wynika z błędnego balansu bieli."
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Jaki termin określa najkrótszy czas migawki, przy którym można użyć lampy błyskowej?",
+      "question": "Jak nazywa się najkrótszy czas migawki pozwalający na standardowy pojedynczy błysk, gdy cała matryca jest jednocześnie odsłonięta?",
       "options": [
         "Sync speed",
         "Flash duration",
@@ -633,10 +573,8 @@
         "Exposure time"
       ],
       "answer": "Sync speed",
-      "explanation_correct": "To maksymalna prędkość migawki, przy której cała klatka jest równomiernie oświetlona przez błysk.",
-      "explanation_incorrect": "Flash duration to czas trwania błysku, a shutter lag to opóźnienie migawki.",
-      "last_verified_at": "2026-06-12T15:02:49.889Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czas synchronizacji X określa granicę zwykłego błysku przy migawce szczelinowej. Tryby HSS/FP pozwalają korzystać z błysku przy krótszych czasach.",
+      "explanation_incorrect": "Flash duration to czas błysku, shutter lag to opóźnienie, a exposure time oznacza czas ekspozycji."
     },
     {
       "subcategory": "Ustawienia",
@@ -663,10 +601,8 @@
         "Kaseta"
       ],
       "answer": "Koreks",
-      "explanation_correct": "To szczelny, obrotowy pojemnik, w którym umieszcza się film podczas wywoływania.",
-      "explanation_incorrect": "Kuweta służy do wywoływania odbitek, a kaseta do przechowywania filmu w aparacie.",
-      "last_verified_at": "2026-06-12T15:03:00.551Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koreks to światłoszczelny zbiornik, do którego załadowany w ciemności film trafia na szpulce. Po zamknięciu można wlewać i wylewać roztwory przy świetle.",
+      "explanation_incorrect": "Kuwety często służą do obróbki odbitek, a kaseta mieści film w aparacie."
     },
     {
       "subcategory": "Historia",
@@ -685,18 +621,16 @@
     },
     {
       "subcategory": "Gatunek",
-      "question": "Jaki gatunek fotografii obejmuje zdjęcia robione po zachodzie słońca i przed świtem?",
+      "question": "Jak nazywa się fotografia wykonywana w nocy, niezależnie od wybranego tematu zdjęcia?",
       "options": [
         "Fotografia nocna",
-        "Fotografia krajobrazowa",
-        "Fotografia astralna",
-        "Fotografia studyjna"
+        "Fotografia dzienna",
+        "Fotografia poranna",
+        "Fotografia południowa"
       ],
       "answer": "Fotografia nocna",
-      "explanation_correct": "To fotografia wykonywana przy słabym oświetleniu naturalnym lub sztucznym w porze nocnej.",
-      "explanation_incorrect": "Fotografia krajobrazowa może być wykonywana o różnych porach, a astralna koncentruje się na ciele niebieskich.",
-      "last_verified_at": "2026-06-12T15:03:00.551Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fotografia nocna odnosi się do pory wykonywania zdjęć. Może obejmować m.in. krajobraz, architekturę lub niebo.",
+      "explanation_incorrect": "Astrofotografia również może być wykonywana nocą, ale określa temat zdjęcia. Pozostałe odpowiedzi odnoszą się do innych pór dnia."
     },
     {
       "subcategory": "Kolor",
@@ -805,7 +739,7 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Jak nazywa się wada soczewki powodująca, że obraz jest wypukły w środku i rozmyty na brzegach?",
+      "question": "Która wada optyczna powoduje, że powierzchnia najlepszego wyostrzenia jest zakrzywiona, a nie płaska?",
       "options": [
         "Krzywizna pola",
         "Aberracja chromatyczna",
@@ -813,10 +747,8 @@
         "Winietyzacja"
       ],
       "answer": "Krzywizna pola",
-      "explanation_correct": "To wada, w której płaszczyzna obrazu nie jest płaska, co powoduje rozmycie na krawędziach przy środkowej ostrości.",
-      "explanation_incorrect": "Dystorsja beczkowa powoduje wybrzuszenie linii prostych, a winietyzacja przyciemnienie rogów.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krzywizna pola oznacza, że powierzchnia najlepszego odwzorowania ostrości jest zakrzywiona; przy ostrości w centrum brzegi płaskiego obiektu mogą być nieostre.",
+      "explanation_incorrect": "Dystorsja beczkowa wygina linie proste, lecz sama nie oznacza rozmycia. Winietowanie przyciemnia brzegi."
     },
     {
       "subcategory": "Historia",
@@ -829,9 +761,7 @@
       ],
       "answer": "Magnum Photos",
       "explanation_correct": "To międzynarodowa spółdzielnia fotograficzna założona w 1947 roku przez Henri Cartier-Bressona, Roberta Capę i innych.",
-      "explanation_incorrect": "VII Photo Agency powstała w 2000 roku, Aperture to fundacja wydawnicza, a National Geographic to magazyn.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "VII Photo Agency to inna agencja fotograficzna, Aperture jest organizacją wydawniczą, a National Geographic Society jest organizacją naukowo-edukacyjną."
     },
     {
       "subcategory": "Aparaty",
@@ -850,48 +780,42 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Jaki obiektyw ma kąt widzenia zbliżony do ludzkiego oka (około 50 mm na pełnej klatce)?",
+      "question": "Jak nazywa się obiektyw o ogniskowej około 50 mm dla pełnej klatki, tradycyjnie uznawany za standardowy?",
       "options": [
         "Obiektyw standardowy",
         "Obiektyw szerokokątny",
-        "Obiektyw teleobiektyw",
-        "Obiektyw makro"
+        "Teleobiektyw",
+        "Obiektyw rybie oko"
       ],
       "answer": "Obiektyw standardowy",
-      "explanation_correct": "Zapewnia naturalną perspektywę, odpowiadającą polu widzenia ludzkiego oka.",
-      "explanation_incorrect": "Szerokokątny ma szerszy kąt, teleobiektyw węższy, a makro jest przeznaczony do małych obiektów.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Na pełnej klatce obiektyw około 50 mm jest tradycyjnie uznawany za standardowy. Ludzkie pole widzenia jest szersze, a perspektywa zależy od położenia aparatu.",
+      "explanation_incorrect": "Obiektywy szerokokątne i rybie oko obejmują szerszy kąt, a teleobiektywy węższy."
     },
     {
       "subcategory": "Technika",
       "question": "Jak nazywa się technika polegająca na malowaniu latarką w ciemności podczas długiego czasu naświetlania?",
       "options": [
         "Malowanie światłem",
-        "Long exposure",
-        "Multiple exposure",
-        "High speed photography"
+        "Ustawianie balansu bieli",
+        "Korekcja dystorsji",
+        "Redukcja szumu"
       ],
       "answer": "Malowanie światłem",
       "explanation_correct": "To technika, w której fotograf porusza źródłem światła w kadrze, tworząc świetlne wzory.",
-      "explanation_incorrect": "Long exposure to długi czas naświetlania, ale bez celowego malowania światłem.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Malowanie światłem wykorzystuje długie naświetlanie. Pozostałe odpowiedzi odnoszą się do innych ustawień lub operacji na obrazie."
     },
     {
       "subcategory": "Ciemnia",
-      "question": "Jak nazywa się narzędzie do precyzyjnego cięcia papieru fotograficznego w ciemni?",
+      "question": "Jak nazywa się urządzenie z długim ostrzem dźwigniowym służące do przycinania papieru?",
       "options": [
         "Gilotyna",
-        "Nożyczki",
-        "Nóż introligatorski",
-        "Krajarka"
+        "Powiększalnik",
+        "Koreks",
+        "Światłomierz"
       ],
       "answer": "Gilotyna",
       "explanation_correct": "To urządzenie z ostrym ostrzem, które umożliwia szybkie i dokładne cięcie papieru pod kątem prostym.",
-      "explanation_incorrect": "Nożyczki i nóż introligatorski są mniej precyzyjne, a krajarka to ogólne określenie.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Powiększalnik służy do projekcji obrazu, koreks do wywoływania filmu, a światłomierz do pomiaru światła. Gilotyna jest rodzajem krajarki."
     },
     {
       "subcategory": "Oświetlenie",
@@ -904,9 +828,7 @@
       ],
       "answer": "Softbox",
       "explanation_correct": "To prostokątne lub okrągłe pudełko z tkaniną rozpraszającą, które daje miękkie, równomierne światło.",
-      "explanation_incorrect": "Reflektor skupia światło, grid tworzy wiązkę, a oświetlacz pierścieniowy jest okrągły i mocowany na obiektywie.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Reflektor i grid kierują światłem, a lampa pierścieniowa ma pierścieniowy kształt; nie każda musi być zamocowana na obiektywie."
     },
     {
       "subcategory": "Optyka",
@@ -918,10 +840,8 @@
         "Makro"
       ],
       "answer": "Stałoogniskowy 'stałka'",
-      "explanation_correct": "Określenie 'stałka' to potoczna, ale precyzyjna nazwa obiektywu o stałej ogniskowej, używanego dla lepszej jasności i ostrości.",
-      "explanation_incorrect": "Zoom zmienia ogniskową, teleobiektyw ma długą ogniskową, a makro służy do zdjęć z bliska — żaden z nich nie określa stałej ogniskowej.",
-      "last_verified_at": "2026-06-12T15:03:00.552Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Stałka” to potoczna nazwa obiektywu o stałej ogniskowej. Takie obiektywy mogą być szerokokątne, standardowe, teleobiektywami lub makro.",
+      "explanation_incorrect": "Zoom zmienia ogniskową. Teleobiektyw i obiektyw makro mogą być stałoogniskowe lub zmiennoogniskowe."
     },
     {
       "subcategory": "Metoda",
@@ -970,33 +890,29 @@
     },
     {
       "subcategory": "Sprzęt",
-      "question": "Jakim urządzeniem mierzy się natężenie światła w fotografii?",
+      "question": "Jak nazywa się przyrząd fotograficzny do pomiaru światła pomagający w doborze ekspozycji?",
       "options": [
-        "Termometr",
         "Światłomierz",
-        "Spektrometr",
-        "Lumenometr"
+        "Termometr",
+        "Higrometr",
+        "Barometr"
       ],
       "answer": "Światłomierz",
       "explanation_correct": "Światłomierz (eksponometr) to urządzenie pomiarowe pozwalające dobrać poprawną ekspozycję (przysłonę i czas).",
-      "explanation_incorrect": "Termometr mierzy temperaturę, spektrometr skład widma, a lumenometr strumień świetlny — nie służą do ustawiania ekspozycji.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Termometr mierzy temperaturę, higrometr wilgotność, a barometr ciśnienie."
     },
     {
       "subcategory": "Optyka",
-      "question": "Czym jest zdolność obiektywu do odwzorowania szczegółów?",
+      "question": "Jak nazywa się zdolność obiektywu do rozróżniania bardzo drobnych szczegółów?",
       "options": [
-        "Kontrast",
-        "Ostrość obrazu",
+        "Zdolność rozdzielcza",
+        "Balans bieli",
         "Aberracja chromatyczna",
-        "Dystorsja"
+        "Winietowanie"
       ],
-      "answer": "Ostrość obrazu",
-      "explanation_correct": "Ostrość określa, jak wyraźnie obiektyw przenosi szczegóły i krawędzie; zależy od konstrukcji i zakresu przysłony.",
-      "explanation_incorrect": "Kontrast to różnica tonalna, aberracja to wada barwna, a dystorsja to zniekształcenie geometryczne — nie są miarą rozdzielczości detali.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Zdolność rozdzielcza",
+      "explanation_correct": "Zdolność rozdzielcza opisuje możliwość oddzielnego odwzorowania drobnych szczegółów. Na wrażenie ostrości wpływa także kontrast.",
+      "explanation_incorrect": "Balans bieli koryguje kolor, aberracja chromatyczna może powodować obwódki, a winietowanie przyciemnia brzegi."
     },
     {
       "subcategory": "Podstawy",
@@ -1015,7 +931,7 @@
     },
     {
       "subcategory": "Historia",
-      "question": "Jaką historyczną nazwę nosiła camera obscura używana w początkach fotografii?",
+      "question": "Jak brzmi łacińska nazwa ciemni optycznej, pierwowzoru aparatu fotograficznego?",
       "options": [
         "Luneta",
         "Camera obscura",
@@ -1023,29 +939,25 @@
         "Kalotypia"
       ],
       "answer": "Camera obscura",
-      "explanation_correct": "Camera obscura (ciemnia optyczna) to pierwowzór aparatu, w którym obraz powstawał przez dziurkę w ciemnym pomieszczeniu.",
-      "explanation_incorrect": "Luneta powiększa obraz, dagerotyp to technika, a kalotypia to inna wczesna metoda — nie są nazwą urządzenia.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Camera obscura to ciemnia optyczna, w której obraz powstaje przez mały otwór lub obiektyw w zaciemnionej przestrzeni.",
+      "explanation_incorrect": "Luneta powiększa obraz, dagerotyp to technika, a kalotypia to inna wczesna metoda — nie są nazwą urządzenia."
     },
     {
       "subcategory": "Formaty",
-      "question": "Który format pliku graficznego stosuje stratną kompresję w fotografii?",
+      "question": "Który popularny sposób zapisu zdjęć zwykle stosuje stratną kompresję JPEG?",
       "options": [
-        "TIFF",
         "Plik JPEG",
-        "RAW",
-        "PNG"
+        "Plik PNG",
+        "Plik tekstowy",
+        "Plik MIDI"
       ],
       "answer": "Plik JPEG",
-      "explanation_correct": "JPEG (Joint Photographic Experts Group) używa kompresji stratnej, która zmniejsza rozmiar pliku kosztem części szczegółów.",
-      "explanation_incorrect": "TIFF i PNG to formaty bezstratne, a RAW to surowy plik matrycy — żaden nie jest standardowo stratny.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Typowy plik JPEG wykorzystuje kompresję stratną. TIFF może używać kompresji bezstratnej, ale dopuszcza także stratną kompresję JPEG.",
+      "explanation_incorrect": "PNG stosuje kompresję bezstratną; pliki tekstowe i MIDI nie są typowymi formatami zdjęć."
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Jak nazywa się podłużna softbox przypominająca kształtem pasek?",
+      "question": "Jak nazywa się podłużny softbox przypominający kształtem pasek?",
       "options": [
         "Parasol",
         "Stripbox",
@@ -1054,24 +966,20 @@
       ],
       "answer": "Stripbox",
       "explanation_correct": "Stripbox to wydłużony modyfikator światła (często wąski prostokąt) stosowany do podkreślenia konturów lub oświetlenia tła.",
-      "explanation_incorrect": "Parasol jest okrągły, octabox ośmiokątny, a reflektor skupia światło w wiązce — żaden nie jest podłużny.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Parasol jest okrągły, octabox ośmiokątny, a reflektor skupia światło w wiązce — żaden nie jest podłużny."
     },
     {
       "subcategory": "Sztuka",
-      "question": "Jaki efekt powstaje przez celowe naświetlenie negatywu, odwracające tony?",
+      "question": "Jak nazywa się efekt częściowego odwrócenia tonów po ponownym naświetleniu materiału podczas wywoływania?",
       "options": [
         "Winiety",
-        "Solaryzacja",
+        "Efekt Sabattiera",
         "Posteryzacja",
         "Filtrowanie"
       ],
-      "answer": "Solaryzacja",
-      "explanation_correct": "Solaryzacja (efekt Sabattiera) to częściowa inwersja tonalna uzyskana przez doświetlenie podczas wywoływania.",
-      "explanation_incorrect": "Winiety to przyciemnienie rogów, posteryzacja redukuje liczbę tonów, a filtrowanie zmienia barwy — nie polegają na selektywnej inwersji.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Efekt Sabattiera",
+      "explanation_correct": "Efekt Sabattiera, potocznie nazywany pseudosolaryzacją, uzyskuje się m.in. przez dodatkowe naświetlenie podczas wywoływania. Ścisła solaryzacja jest innym zjawiskiem.",
+      "explanation_incorrect": "Winietowanie przyciemnia brzegi, posteryzacja redukuje liczbę tonów, a filtrowanie zmienia charakter przepuszczanego światła."
     },
     {
       "subcategory": "Technika",
@@ -1083,10 +991,8 @@
         "Strobowanie"
       ],
       "answer": "Panoramowanie",
-      "explanation_correct": "Panoramowanie polega na ruchu aparatu zgodnie z kierunkiem ruchu obiektu, co daje ostre obiekty na rozmytym tle.",
-      "explanation_incorrect": "Zoomowanie zmienia ogniskową, przemieszczanie to nieprecyzyjne określenie, a strobowanie to serię błysków — nie są techniką śledzenia.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Panoramowanie polega na podążaniu aparatem za obiektem. Przy odpowiednich warunkach obiekt może pozostać względnie ostry, a tło ulec rozmyciu.",
+      "explanation_incorrect": "Zoomowanie zmienia ogniskową, przemieszczanie to nieprecyzyjne określenie, a strobowanie to serię błysków — nie są techniką śledzenia."
     },
     {
       "subcategory": "Matryca",
@@ -1120,7 +1026,7 @@
     },
     {
       "subcategory": "Sprzęt",
-      "question": "Jaki typ wizjera wyświetla obraz z matrycy na małym ekranie LCD?",
+      "question": "Jaki typ wizjera wyświetla podgląd z matrycy na małym ekranie, np. OLED lub LCD?",
       "options": [
         "Pryzmat pentagonalny",
         "Wizjer elektroniczny",
@@ -1129,24 +1035,20 @@
       ],
       "answer": "Wizjer elektroniczny",
       "explanation_correct": "Wizjer elektroniczny (EVF) to mały ekran wbudowany w korpus, pokazujący podgląd z sensora, z informacjami o ekspozycji.",
-      "explanation_incorrect": "Pryzmat i wizjer optyczny wykorzystują lustro, dalmierzowy służy do pomiaru odległości — żaden nie wyświetla obrazu z matrycy.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wizjery optyczne wykorzystują układ optyczny; niektóre, np. dalmierzowe, nie wymagają lustra lustrzanki."
     },
     {
       "subcategory": "Optyka",
-      "question": "Czym jest maksymalna wartość przysłony obiektywu?",
+      "question": "Jak nazywa się cecha obiektywu opisywana jego największym otworem względnym, np. f/1,4?",
       "options": [
-        "Ostrosć",
+        "Ostrość",
         "Jasność obiektywu",
         "Głębia ostrości",
-        "Dystans hipercentralny"
+        "Odległość hiperfokalna"
       ],
       "answer": "Jasność obiektywu",
       "explanation_correct": "Jasność obiektywu to największy otwór względny (np. f/1.4), który wpływa na ilość światła i możliwość fotografowania w słabym oświetleniu.",
-      "explanation_incorrect": "Ostrość to zdolność rozdzielcza, głębia ostrości to zakres ostrości, dystans hiperfokalny to odległość dla maksymalnej głębi — nie dotyczą otworu przysłony.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ostrość to zdolność rozdzielcza, głębia ostrości to zakres ostrości, dystans hiperfokalny to odległość dla maksymalnej głębi — nie dotyczą otworu przysłony."
     },
     {
       "subcategory": "Procesy",
@@ -1165,33 +1067,29 @@
     },
     {
       "subcategory": "Gatunek",
-      "question": "Jaki gatunek fotografii skupia się na wizerunkach budynków i przestrzeni zurbanizowanej?",
+      "question": "Jaki gatunek fotografii jest poświęcony przede wszystkim wizerunkom budynków i innych budowli?",
       "options": [
-        "Fotografia krajobrazowa",
+        "Fotografia kulinarna",
         "Fotografia architektury",
-        "Fotografia uliczna",
-        "Fotografia wnętrz"
+        "Fotografia portretowa",
+        "Fotografia produktowa"
       ],
       "answer": "Fotografia architektury",
       "explanation_correct": "Fotografia architektury to dziedzina poświęcona budynkom, mostom i innym strukturom, często z naciskiem na perspektywę i światło.",
-      "explanation_incorrect": "Krajobraz to przyroda, uliczna to reportaż z życia, wnętrz to pomieszczenia — żaden nie jest specyficznie o budynkach.",
-      "last_verified_at": "2026-06-12T15:03:00.553Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Krajobrazy, sceny uliczne i wnętrza również mogą przedstawiać budynki. Pozostałe odpowiedzi wskazują inne główne tematy zdjęć."
     },
     {
       "subcategory": "Gatunek",
-      "question": "Jaki typ fotografii uprawiano w XIX wieku jako nekrologiczne upamiętnienie zmarłych?",
+      "question": "Jak nazywa się praktyka wykonywania pamiątkowych zdjęć osobom po ich śmierci?",
       "options": [
-        "Fotografia żałobna",
         "Fotografia pośmiertna",
-        "Fotografia pamiątkowa",
-        "Fotografia obrzędowa"
+        "Fotografia podwodna",
+        "Fotografia lotnicza",
+        "Fotografia panoramiczna"
       ],
       "answer": "Fotografia pośmiertna",
       "explanation_correct": "Fotografia pośmiertna (post-mortem) to wiktoriańska praktyka fotografowania zmarłych w celu zachowania ich wizerunku jako pamiątki.",
-      "explanation_incorrect": "Żałobna, pamiątkowa i obrzędowa odnoszą się do ceremonii, ale nie są specyficzną nazwą dla fotografowania zwłok.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe odpowiedzi opisują inne techniki lub warunki wykonywania zdjęć. Określenie „fotografia żałobna” może mieć szersze lub pokrewne znaczenie."
     },
     {
       "subcategory": "Edycja",
@@ -1218,10 +1116,8 @@
         "Bracketing"
       ],
       "answer": "Focus stacking",
-      "explanation_correct": "Focus stacking to technika łączenia wielu zdjęć z różnymi punktami ostrości w celu uzyskania pełnej głębi ostrości.",
-      "explanation_incorrect": "HDR łączy różne ekspozycje, nie ostrości. Panorama łączy szerokie ujęcia, a bracketing to seria zdjęć z różną ekspozycją.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Focus stacking łączy zdjęcia wykonane przy różnych ustawieniach ostrości, aby zwiększyć zakres widocznej ostrości.",
+      "explanation_incorrect": "Bracketing może dotyczyć ostrości lub ekspozycji i tworzy serię ujęć; focus stacking polega na ich łączeniu."
     },
     {
       "subcategory": "Optyka",
@@ -1248,10 +1144,8 @@
         "Aberracja sferyczna"
       ],
       "answer": "Szum cyfrowy",
-      "explanation_correct": "Szum cyfrowy to przypadkowe zmiany jasności lub koloru pikseli, wynikające ze wzmocnienia sygnału elektrycznego na matrycy.",
-      "explanation_incorrect": "Moire to wzór powstający na gęstych teksturach, a fringing to kolorowe obwódki związane z aberracją.",
-      "last_verified_at": "2026-06-12T15:03:33.503Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szum to losowe zmiany jasności lub barwy obrazu. Jego widoczność zależy m.in. od ilości światła, wzmocnienia i przetwarzania; wzrost ISO nie jest jedyną przyczyną.",
+      "explanation_incorrect": "Moire to wzór powstający na gęstych teksturach, a fringing to kolorowe obwódki związane z aberracją."
     },
     {
       "subcategory": "Oświetlenie",
@@ -1263,10 +1157,8 @@
         "Świt"
       ],
       "answer": "Złota godzina",
-      "explanation_correct": "Złota godzina to okres tuż po wschodzie i przed zachodem słońca, charakteryzujący się ciepłym, rozproszonym światłem idealnym do fotografii.",
-      "explanation_incorrect": "Niebieska godzina to czas przed świtem lub po zmroku z niebieskawym odcieniem, godzina szczytu dotyczy komunikacji, a świt to wczesny poranek.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Złota godzina to okres po wschodzie i przed zachodem Słońca, często dający ciepłe światło. Jego miękkość zależy także od pogody i rozmiaru źródła.",
+      "explanation_incorrect": "Niebieska godzina to czas przed świtem lub po zmroku z niebieskawym odcieniem, godzina szczytu dotyczy komunikacji, a świt to wczesny poranek."
     },
     {
       "subcategory": "Sprzęt",
@@ -1285,33 +1177,29 @@
     },
     {
       "subcategory": "Wideo",
-      "question": "Jak nazywa się pojedyncze zdjęcie pochodzące z sekwencji wideo?",
+      "question": "Jak nazywa się pojedynczy nieruchomy obraz należący do sekwencji wideo?",
       "options": [
-        "Kadr filmowy",
-        "Klatka kluczowa",
-        "Migawka",
-        "Frejm"
+        "Klatka filmowa",
+        "Ścieżka dźwiękowa",
+        "Kodek",
+        "Mikrofon"
       ],
-      "answer": "Kadr filmowy",
-      "explanation_correct": "Kadr filmowy (ang. frame) to pojedynczy nieruchomy obraz wyodrębniony z ciągu wideo.",
-      "explanation_incorrect": "Klatka kluczowa to punkt w animacji, migawka to zdjęcie, a 'frejm' to potoczne określenie, choć często używane zamiennie z 'kadrem'.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Klatka filmowa",
+      "explanation_correct": "Klatka filmowa to pojedynczy obraz w sekwencji wideo; po angielsku frame.",
+      "explanation_incorrect": "Klatka bywa potocznie nazywana frejmem. Kodek koduje lub dekoduje dane, a ścieżka dźwiękowa i mikrofon dotyczą dźwięku."
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Jaki płaski akcesorium fotograficzne służy do odbijania światła?",
+      "question": "Jak nazywa się płaski ekran fotograficzny odbijający światło na fotografowany obiekt?",
       "options": [
         "Blenda",
-        "Parasol",
-        "Softbox",
-        "Reflektor"
+        "Matryca",
+        "Migawka",
+        "Karta pamięci"
       ],
       "answer": "Blenda",
       "explanation_correct": "Blenda to płaska, odbijająca powierzchnia (np. biała, srebrna), używana do kierowania światła na obiekt.",
-      "explanation_incorrect": "Parasol i softbox rozpraszają światło, a reflektor daje skupioną wiązkę.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Parasole fotograficzne również mogą odbijać światło. Matryca rejestruje obraz, migawka steruje czasem, a karta przechowuje dane."
     },
     {
       "subcategory": "Matryca",
@@ -1323,29 +1211,25 @@
         "Przysłona"
       ],
       "answer": "Crop factor",
-      "explanation_correct": "Crop factor (współczynnik kadrowania) to stosunek przekątnej pełnoklatkowego sensora do sensora w danym aparacie, wpływający na kąt widzenia obiektywu.",
-      "explanation_incorrect": "Rozdzielczość to liczba pikseli, ISO to czułość na światło, a przysłona to otwór w obiektywie.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Crop factor to stosunek przekątnej klatki 36 × 24 mm do przekątnej porównywanego sensora. Przy danej ogniskowej pomaga porównać kąty widzenia.",
+      "explanation_incorrect": "Rozdzielczość to liczba pikseli, ISO to czułość na światło, a przysłona to otwór w obiektywie."
     },
     {
       "subcategory": "Fizyka",
-      "question": "Jaka część widma elektromagnetycznego jest widoczna dla ludzkiego oka?",
+      "question": "Jak nazywa się zakres długości fal elektromagnetycznych odbieranych przez ludzki wzrok?",
       "options": [
         "Widmo widzialne",
         "Podczerwień",
         "Ultrafiolet",
-        "Światło spolaryzowane"
+        "Fale radiowe"
       ],
       "answer": "Widmo widzialne",
       "explanation_correct": "Widmo widzialne to zakres fal elektromagnetycznych (około 380–780 nm), które są rejestrowane przez ludzki wzrok.",
-      "explanation_incorrect": "Podczerwień i ultrafiolet są niewidoczne bez specjalnych urządzeń, a światło spolaryzowane to stan, nie zakres fal.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Podczerwień i ultrafiolet leżą odpowiednio poza długofalową i krótkofalową granicą światła widzialnego, a fale radiowe mają znacznie większe długości fal."
     },
     {
       "subcategory": "Filtr",
-      "question": "Który filtr eliminuje odblaski i poprawia nasycenie barw w fotografii krajobrazowej?",
+      "question": "Który filtr może ograniczyć część odbić od wody lub szkła dzięki selekcji polaryzacji?",
       "options": [
         "Filtr polaryzacyjny",
         "Filtr UV",
@@ -1353,10 +1237,8 @@
         "Filtr gradientowy"
       ],
       "answer": "Filtr polaryzacyjny",
-      "explanation_correct": "Filtr polaryzacyjny redukuje odblaski od niemetali (woda, szkło) i wzmacnia nasycenie kolorów, szczególnie nieba i liści.",
-      "explanation_incorrect": "Filtr UV chroni przed promieniowaniem, ND zmniejsza ilość światła, a gradientowy przyciemnia część kadru.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Filtr polaryzacyjny może redukować odbicia od powierzchni niemetalicznych; skuteczność zależy od kąta, orientacji filtra i materiału.",
+      "explanation_incorrect": "Filtr ND zmniejsza ilość światła, filtr UV ogranicza ultrafiolet, a filtr gradientowy przyciemnia część kadru."
     },
     {
       "subcategory": "Historia",
@@ -1390,7 +1272,7 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Który parametr obiektywu określa odległość od soczewki do punktu, w którym zbiegają się promienie światła?",
+      "question": "Jak nazywa się parametr optyczny obiektywu wyrażany zwykle w milimetrach, związany z kątem widzenia?",
       "options": [
         "Ogniskowa",
         "Przysłona",
@@ -1398,25 +1280,21 @@
         "ISO"
       ],
       "answer": "Ogniskowa",
-      "explanation_correct": "Ogniskowa to odległość między soczewką a punktem ogniskowania, wyrażana w milimetrach, decydująca o kącie widzenia.",
-      "explanation_incorrect": "Przysłona reguluje ilość światła, czas otwarcia migawki kontroluje ekspozycję, a ISO to czułość matrycy.",
-      "last_verified_at": "2026-06-12T15:03:00.554Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ogniskowa układu optycznego odpowiada odległości między jego tylną płaszczyzną główną a ogniskiem obrazu dla przedmiotu w nieskończoności. Nie musi być odległością od fizycznej soczewki.",
+      "explanation_incorrect": "Przysłona reguluje otwór, czas migawki wpływa na ekspozycję, a ISO jest ustawieniem czułości lub indeksu ekspozycji."
     },
     {
       "subcategory": "Optyka",
-      "question": "Jaki typ obiektywu jest idealny do portretów z bliska, dający małą głębię ostrości?",
+      "question": "Jak nazywa się typ obiektywu o długiej ogniskowej względem formatu, często używany do portretów?",
       "options": [
         "Teleobiektyw",
         "Obiektyw szerokokątny",
-        "Obiektyw makro",
+        "Obiektyw standardowy",
         "Obiektyw typu rybie oko"
       ],
       "answer": "Teleobiektyw",
-      "explanation_correct": "Teleobiektyw (np. 85 mm lub 135 mm) kompresuje perspektywę i pozwala uzyskać rozmyte tło, idealne do portretów.",
-      "explanation_incorrect": "Szerokokątny deformuje twarz, makro służy do małych obiektów, a rybie oko daje ekstremalnie szeroki kąt.",
-      "last_verified_at": "2026-06-12T15:03:00.555Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Teleobiektyw może ułatwiać kadrowanie portretów z większej odległości i uzyskanie rozmytego tła. Perspektywa zależy od położenia aparatu, a nie bezpośrednio od ogniskowej.",
+      "explanation_incorrect": "Obiektyw makro również może służyć do portretów i być teleobiektywem. Pozostałe opcje w tym zestawie opisują inny kąt widzenia."
     },
     {
       "subcategory": "Ciemnia",
@@ -1458,10 +1336,8 @@
         "Uchwyt na nadgarstek"
       ],
       "answer": "Battery grip",
-      "explanation_correct": "Battery grip (uchwyt bateryjny) montuje się pod aparatem, dodaje dodatkową baterię i udostępnia pionowy spust migawki.",
-      "explanation_incorrect": "Statyw stabilizuje aparat, monopod to jednonożny podpórka, a uchwyt na nadgarstek zapobiega upuszczeniu.",
-      "last_verified_at": "2026-06-12T15:03:00.555Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Uchwyt bateryjny może pomieścić dodatkowe akumulatory i często ma dodatkowy spust do zdjęć pionowych; funkcje zależą od modelu.",
+      "explanation_incorrect": "Statyw podpiera aparat, monopod jest jednonożnym podparciem, a pasek na nadgarstek pomaga chronić przed upuszczeniem."
     },
     {
       "subcategory": "Styl",

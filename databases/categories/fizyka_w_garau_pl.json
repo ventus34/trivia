@@ -10,7 +10,7 @@
   "questions": [
     {
       "subcategory": "Mechanika",
-      "question": "Który z wymienionych elementów jest odpowiedzialny za tłumienie drgań zawieszenia poprzez zamianę energii kinetycznej na cieplną?",
+      "question": "Który element zawieszenia w typowej konstrukcji hydraulicznej tłumi jego drgania, zamieniając energię ruchu na ciepło?",
       "options": [
         "amortyzator",
         "wahacz",
@@ -18,10 +18,8 @@
         "drążek"
       ],
       "answer": "amortyzator",
-      "explanation_correct": "Amortyzator służy do wygaszania drgań powstających podczas ruchu pojazdu po nierównościach.",
-      "explanation_incorrect": "Pozostałe elementy służą do prowadzenia koła lub przenoszenia sił, ale nie pełnią funkcji tłumiącej.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Amortyzator hydrauliczny tłumi ruch zawieszenia, wymuszając przepływ oleju przez zawory i zamieniając energię drgań na ciepło.",
+      "explanation_incorrect": "Elastyczna tuleja może również tłumić część drgań, ale opisany hydrauliczny tłumik ruchu zawieszenia to amortyzator."
     },
     {
       "subcategory": "Elektrotechnika",
@@ -33,10 +31,8 @@
         "przekaźnik"
       ],
       "answer": "bezpiecznik",
-      "explanation_correct": "Bezpiecznik zawiera element topliwy, który przerywa przepływ prądu w warunkach zwarcia.",
-      "explanation_incorrect": "Rezystor ogranicza prąd, a kondensator magazynuje ładunek, ale nie chronią one przed skutkami zwarcia.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W bezpieczniku topikowym element przewodzący nagrzewa się i topi przy odpowiednio dużym przeciążeniu lub zwarciu, przerywając obwód.",
+      "explanation_incorrect": "Rezystor ogranicza prąd, a kondensator magazynuje ładunek, ale nie chronią one przed skutkami zwarcia."
     },
     {
       "subcategory": "Termodynamika",
@@ -70,7 +66,7 @@
     },
     {
       "subcategory": "Pneumatyka",
-      "question": "Które urządzenie elektromechaniczne służy do zwiększania ciśnienia gazu zawartego w zbiorniku?",
+      "question": "Które urządzenie spręża powietrze i może zasilać zbiornik instalacji pneumatycznej?",
       "options": [
         "wentylator",
         "kompresor",
@@ -78,10 +74,8 @@
         "turbina"
       ],
       "answer": "kompresor",
-      "explanation_correct": "Kompresor spręża powietrze atmosferyczne, umożliwiając pracę narzędzi pneumatycznych.",
-      "explanation_incorrect": "Pozostałe wymienione urządzenia służą do przepływu gazów bez znaczącego zwiększania ich ciśnienia.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kompresor spręża powietrze, które może zostać zgromadzone w zbiorniku na potrzeby narzędzi pneumatycznych.",
+      "explanation_incorrect": "Wentylator przemieszcza powietrze przy niewielkiej różnicy ciśnień, pompa próżniowa usuwa gaz z przestrzeni, a turbina odbiera energię z przepływającego czynnika."
     },
     {
       "subcategory": "Elektromagnetyzm",
@@ -145,7 +139,7 @@
     },
     {
       "subcategory": "Elektryczność",
-      "question": "Wskaż element, który w samochodzie pełni rolę chemicznego magazynu energii elektrycznej prądu stałego.",
+      "question": "Który element samochodu magazynuje energię chemicznie i może zasilać instalację prądem stałym?",
       "options": [
         "alternator",
         "akumulator",
@@ -154,13 +148,11 @@
       ],
       "answer": "akumulator",
       "explanation_correct": "Akumulator ołowiowy pozwala na przechowywanie energii potrzebnej do rozruchu silnika i zasilania odbiorników.",
-      "explanation_incorrect": "Alternator wytwarza prąd, a prostownik i inwerter przetwarzają jego postać.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Alternator wytwarza prąd, a prostownik i inwerter przetwarzają jego postać."
     },
     {
       "subcategory": "Mechanika cieczy",
-      "question": "W jaki sposób najczęściej tłoczony jest płyn hamulcowy od pompy do zacisków przy ruchomych kołach?",
+      "question": "Jaki rodzaj przewodu hamulcowego stosuje się na odcinku wymagającym ruchu zawieszenia lub skrętu koła?",
       "options": [
         "Sztywny przewód miedziany",
         "Przewód elastyczny",
@@ -168,10 +160,8 @@
         "Linka stalowa"
       ],
       "answer": "Przewód elastyczny",
-      "explanation_correct": "Przewód elastyczny pozwala na pracę układu przy ruchach zawieszenia i skręcie kół.",
-      "explanation_incorrect": "Przewody miedziane i stalowe są sztywne i mogłyby pęknąć w miejscach wymagających ruchomości.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elastyczny przewód łączy sztywną część instalacji z ruchomym elementem, umożliwiając ruch zawieszenia i skręt koła.",
+      "explanation_incorrect": "Sztywne przewody prowadzi się na nieruchomych odcinkach; linka stalowa nie transportuje płynu hamulcowego."
     },
     {
       "subcategory": "Tribologia",
@@ -205,7 +195,7 @@
     },
     {
       "subcategory": "Metrologia",
-      "question": "Który przyrząd metrologiczny służy do pomiaru średnicy wałka z dokładnością do setnych części milimetra?",
+      "question": "Jaki przyrząd pomiarowy ze śrubą mikrometryczną i kabłąkiem służy do precyzyjnego pomiaru średnicy zewnętrznej wałka?",
       "options": [
         "suwmiarka",
         "mikrometr",
@@ -213,10 +203,8 @@
         "linijka"
       ],
       "answer": "mikrometr",
-      "explanation_correct": "Mikrometr jest precyzyjnym urządzeniem śrubowym przeznaczonym do dokładnych pomiarów liniowych.",
-      "explanation_incorrect": "Inne wymienione przyrządy mają znacznie niższą dokładność pomiarową.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mikrometr zewnętrzny mierzy wymiar między wrzecionem a kowadełkiem; śruba umożliwia dokładny odczyt.",
+      "explanation_incorrect": "Suwmiarka również może mierzyć średnicę, często z rozdzielczością 0,01 mm, ale nie jest opisanym mikrometrem kabłąkowym."
     },
     {
       "subcategory": "Elektronika",
@@ -235,33 +223,29 @@
     },
     {
       "subcategory": "Termodynamika",
-      "question": "Jak ogólnie określa się czynnik chłodniczy stosowany w układach klimatyzacji, podlegający przemianom fazowym?",
+      "question": "Jak nazywa się substancja krążąca w układzie klimatyzacji, która paruje i skrapla się w obiegu chłodniczym?",
       "options": [
-        "Glikol",
-        "Gaz chłodniczy",
-        "Smar",
-        "Elektrolit"
+        "glikol",
+        "czynnik chłodniczy",
+        "smar",
+        "elektrolit"
       ],
-      "answer": "Gaz chłodniczy",
-      "explanation_correct": "Czynnik chłodniczy krąży w układzie, zmieniając stan skupienia z gazowego na ciekły i odwrotnie.",
-      "explanation_incorrect": "Glikol stosowany jest w układzie chłodzenia silnika, a elektrolit znajduje się w akumulatorze.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "czynnik chłodniczy",
+      "explanation_correct": "Czynnik chłodniczy w czasie pracy układu występuje zarówno jako ciecz, jak i para.",
+      "explanation_incorrect": "Glikol bywa składnikiem płynu chłodzącego silnik; smar i elektrolit pełnią inne funkcje."
     },
     {
       "subcategory": "Statyka",
-      "question": "Jak nazywa się metalowa, regulowana podstawa używana do trwałego podparcia auta po podniesieniu lewarkiem?",
+      "question": "Jak nazywa się regulowana podpora stosowana do podparcia samochodu uniesionego podnośnikiem?",
       "options": [
         "podnośnik hydrauliczny",
         "kobyłka",
-        "najazd",
-        "ramp"
+        "przekładnia",
+        "amortyzator"
       ],
       "answer": "kobyłka",
-      "explanation_correct": "Kobyłka zapewnia bezpieczne utrzymanie uniesionego pojazdu bez obciążania układu hydraulicznego.",
-      "explanation_incorrect": "Pozostałe elementy służą do unoszenia pojazdu, a nie do jego bezpiecznego i statycznego podparcia.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odpowiednio dobrana kobyłka podpiera pojazd po jego podniesieniu; sam podnośnik nie powinien być jedyną podporą podczas pracy pod pojazdem.",
+      "explanation_incorrect": "Podnośnik służy do unoszenia, a przekładnia i amortyzator nie są podporami warsztatowymi."
     },
     {
       "subcategory": "Sprężystość",
@@ -280,7 +264,7 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Jaki przezroczysty element znajduje się wewnątrz reflektora, aby precyzyjnie formować wiązkę światła?",
+      "question": "Jaki przezroczysty element reflektora projekcyjnego załamuje światło i pomaga formować wiązkę?",
       "options": [
         "odbłyśnik",
         "soczewka",
@@ -288,10 +272,8 @@
         "bezpiecznik"
       ],
       "answer": "soczewka",
-      "explanation_correct": "Soczewka załamuje promienie świetlne, skupiając je w żądany obszar przed pojazdem.",
-      "explanation_incorrect": "Odbłyśnik odbija światło, a klosz jedynie chroni wnętrze reflektora przed brudem.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W reflektorze projekcyjnym soczewka załamuje światło i współpracuje z innymi elementami układu optycznego.",
+      "explanation_incorrect": "Odbłyśnik odbija światło, a klosz chroni reflektor i w niektórych konstrukcjach również wpływa na rozkład światła."
     },
     {
       "subcategory": "Mechanika",
@@ -315,13 +297,11 @@
         "lusterko asferyczne",
         "lusterko sferyczne",
         "lustro płaskie",
-        "zwierciadło paraboliczne"
+        "lustro cylindryczne"
       ],
       "answer": "lusterko asferyczne",
-      "explanation_correct": "Lusterka asferyczne posiadają zmienną krzywiznę, co minimalizuje zjawisko martwego pola.",
-      "explanation_incorrect": "Pozostałe wymienione rodzaje zwierciadeł nie posiadają takiej zmiennej geometrii dedykowanej eliminacji martwego pola.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lusterko asferyczne ma fragmenty o różnej krzywiźnie, dzięki czemu poszerza pole widzenia i ogranicza martwe pole.",
+      "explanation_incorrect": "Zwierciadło sferyczne ma stały promień krzywizny, płaskie nie ma krzywizny, a cylindryczne ma inną geometrię powierzchni."
     },
     {
       "subcategory": "Gazy",
@@ -378,10 +358,8 @@
         "Miernik ciśnienia"
       ],
       "answer": "Czujnik gazu",
-      "explanation_correct": "Czujnik gazu (LPG) wykrywa obecność węglowodorów w powietrzu, zapobiegając wybuchowi.",
-      "explanation_incorrect": "Detektor dymu reaguje na produkty spalania, a nie na wyciek paliwa gazowego.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czujnik LPG może wykrywać obecność gazu i uruchomić alarm; sam z siebie nie gwarantuje uniknięcia wybuchu.",
+      "explanation_incorrect": "Detektor dymu reaguje na produkty spalania, a nie na wyciek paliwa gazowego."
     },
     {
       "subcategory": "Mechanika",
@@ -415,7 +393,7 @@
     },
     {
       "subcategory": "Elektromobilność",
-      "question": "Jak nazywa się europejski standard złącza ładowania prądem zmiennym (AC), umożliwiający podłączenie pojazdu elektrycznego do punktu ładowania?",
+      "question": "Jaki typ złącza przewidziano jako standard interoperacyjności dla publicznych punktów ładowania AC samochodów osobowych w UE?",
       "options": [
         "złącze typu drugiego",
         "złącze CHAdeMO",
@@ -423,10 +401,8 @@
         "złącze typu pierwszego"
       ],
       "answer": "złącze typu drugiego",
-      "explanation_correct": "Złącze typu 2 (IEC 62196) jest standardem dla ładowania AC w Europie.",
-      "explanation_incorrect": "Pozostałe standardy to odpowiednio złącza dla szybkich ładowarek DC lub standardy amerykańskie/japońskie.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wymagania UE przewidują dla takich punktów gniazdo lub złącze typu 2 zgodne z EN IEC 62196-2.",
+      "explanation_incorrect": "CHAdeMO i CCS Combo 2 są stosowane do ładowania prądem stałym. Typ 1 służy do ładowania AC, lecz nie jest wskazanym europejskim minimum interoperacyjności."
     },
     {
       "subcategory": "Statyka",
@@ -445,7 +421,7 @@
     },
     {
       "subcategory": "Mechanika płynów",
-      "question": "Jak nazywa się fizyczne zjawisko powstawania pęcherzyków gazu w układzie hydraulicznym (np. hamulcowym), prowadzące do drastycznego spadku skuteczności przekazywania ciśnienia?",
+      "question": "Jak nazywa się powstawanie i zapadanie pęcherzyków pary cieczy wskutek miejscowego spadku, a następnie wzrostu ciśnienia w pompie?",
       "options": [
         "kawitacja",
         "sublimacja",
@@ -453,14 +429,12 @@
         "osmoza"
       ],
       "answer": "kawitacja",
-      "explanation_correct": "Kawitacja powstaje w wyniku spadku ciśnienia cieczy, powodując tzw. zapowietrzenie układu.",
-      "explanation_incorrect": "Pozostałe procesy to zjawiska fizyczne niezwiązane z tworzeniem się gazów w zamkniętych układach hydraulicznych pod obciążeniem.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kawitacja obejmuje tworzenie pęcherzyków pary przy niskim ciśnieniu oraz ich zapadanie przy wzroście ciśnienia. To nie jest to samo co przedostanie się powietrza do przewodów hamulcowych.",
+      "explanation_incorrect": "Sublimacja to przejście ciała stałego w gaz, dyfuzja to transport wskutek ruchu cząstek, a osmoza dotyczy przepływu rozpuszczalnika przez błonę."
     },
     {
       "subcategory": "Materiały",
-      "question": "Jaki pierwiastek chemiczny jest głównym składnikiem stopów wykorzystywanych do produkcji lekkich felg samochodowych?",
+      "question": "Który metal stanowi główny składnik powszechnych samochodowych felg aluminiowych?",
       "options": [
         "aluminium",
         "magnez",
@@ -469,9 +443,7 @@
       ],
       "answer": "aluminium",
       "explanation_correct": "Aluminium jest podstawą tzw. stopów lekkich, zapewniających dobry stosunek wytrzymałości do masy.",
-      "explanation_incorrect": "Pozostałe pierwiastki są albo zbyt ciężkie, albo posiadają mniejszą odporność korozyjną w standardowych felgach.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Felgi lekkie mogą być także wykonane ze stopów magnezu; pytanie dotyczy felg aluminiowych."
     },
     {
       "subcategory": "Obróbka skrawaniem",
@@ -509,14 +481,12 @@
       "options": [
         "koszulka termokurczliwa",
         "taśma izolacyjna",
-        "rurka teflonowa",
+        "rurka karbowana",
         "oplot bawełniany"
       ],
       "answer": "koszulka termokurczliwa",
-      "explanation_correct": "Polimerowa koszulka termokurczliwa zmniejsza swoją średnicę po podgrzaniu, szczelnie pokrywając przewód.",
-      "explanation_incorrect": "Pozostałe materiały nie posiadają właściwości termokurczliwych i nie zapewniają takiego stopnia hermetyzacji.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koszulka termokurczliwa po podgrzaniu zmniejsza średnicę i izoluje przewód. Wersja z klejem może dodatkowo uszczelniać połączenie.",
+      "explanation_incorrect": "Taśma izolacyjna, oplot i standardowa rurka karbowana nie działają jak opisana koszulka kurcząca się pod wpływem ciepła; niektóre rurki z PTFE też mogą być termokurczliwe."
     },
     {
       "subcategory": "Chemia",
@@ -580,33 +550,29 @@
     },
     {
       "subcategory": "Narzędzia momentowe",
-      "question": "Jak nazywa się rodzaj klucza warsztatowego, który pozwala na precyzyjne ustawienie siły dokręcania połączenia gwintowego?",
+      "question": "Jak nazywa się ręczny klucz wyposażony w mechanizm pomiaru lub wskazania zadanego momentu dokręcania?",
       "options": [
         "klucz dynamometryczny",
-        "klucz z grzechotką",
-        "klucz udarowy",
-        "klucz płaski"
+        "zwykły klucz z grzechotką",
+        "klucz płaski",
+        "zwykły klucz nasadowy"
       ],
       "answer": "klucz dynamometryczny",
-      "explanation_correct": "Klucz dynamometryczny wyposażony jest w mechanizm sygnalizujący osiągnięcie zadanego momentu obrotowego.",
-      "explanation_incorrect": "Pozostałe klucze nie pozwalają na kontrolowanie siły dokręcania w precyzyjny sposób podczas pracy.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klucz dynamometryczny umożliwia pomiar lub sygnalizację osiągnięcia zadanego momentu siły.",
+      "explanation_incorrect": "Zwykłe klucze płaskie, nasadowe i z grzechotką nie mają opisanego wskazania momentu. Istnieją też narzędzia udarowe ze sterowaniem momentem."
     },
     {
       "subcategory": "Smary",
-      "question": "Jaki rodzaj smaru stałego, często stosowany w łożyskach tocznych, zawiera w składzie mydła litowe zapewniające wysoką odporność na wymywanie wodą?",
+      "question": "Jak nazywa się smar, którego zagęszczaczem jest mydło litowe?",
       "options": [
         "smar litowy",
-        "smar grafitowy",
-        "smar silikonowy",
-        "smar teflonowy"
+        "smar z zagęszczaczem wapniowym",
+        "smar z zagęszczaczem glinowym",
+        "smar z zagęszczaczem sodowym"
       ],
       "answer": "smar litowy",
-      "explanation_correct": "Smary litowe są standardem w motoryzacji ze względu na dobrą adhezję i odporność na warunki atmosferyczne.",
-      "explanation_incorrect": "Pozostałe smary mają inne zastosowania, często nieodpowiednie dla typowych łożysk pracujących w warunkach wilgotnych.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Smar litowy zawiera zagęszczacz na bazie mydła litowego; konkretne właściwości, w tym odporność na wodę, zależą od receptury.",
+      "explanation_incorrect": "Pozostałe nazwy wskazują inne zagęszczacze. Grafit lub PTFE to dodatki, które mogą występować również w smarze litowym."
     },
     {
       "subcategory": "Akustyka",
@@ -649,13 +615,11 @@
       ],
       "answer": "spoiler",
       "explanation_correct": "Spoiler ma za zadanie zmienić sposób opływu powietrza, co redukuje niekorzystną siłę nośną przy dużych prędkościach.",
-      "explanation_incorrect": "Zderzak chroni przed skutkami kolizji, a dyfuzor przyspiesza przepływ powietrza pod podwoziem.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zderzak służy głównie do ochrony przy określonych zderzeniach. Dyfuzor kształtuje przepływ pod autem, wpływając na rozkład ciśnień."
     },
     {
       "subcategory": "Fizyka metali",
-      "question": "Jak nazywa się proces trwałego łączenia części metalowych poprzez ich miejscowe stopienie z użyciem spoiwa?",
+      "question": "Jak nazywa się łączenie metali przez miejscowe stopienie ich krawędzi, z użyciem lub bez użycia spoiwa?",
       "options": [
         "lutowanie",
         "spawanie",
@@ -663,10 +627,8 @@
         "nitowanie"
       ],
       "answer": "spawanie",
-      "explanation_correct": "Spawanie polega na doprowadzeniu energii cieplnej niezbędnej do lokalnego roztopienia łączonych krawędzi metali.",
-      "explanation_incorrect": "Lutowanie używa spoiwa o niższej temperaturze topnienia, a nitowanie jest połączeniem mechanicznym, bez topienia metalu.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W spawaniu przez stapianie materiał rodzimy jest miejscowo topiony; spoiwo może, ale nie musi być użyte.",
+      "explanation_incorrect": "Podczas lutowania topi się lut, ale nie materiał rodzimy. Nitowanie jest połączeniem mechanicznym."
     },
     {
       "subcategory": "Mechanika bryły",
@@ -694,13 +656,11 @@
       ],
       "answer": "chwytak magnetyczny",
       "explanation_correct": "Chwytak magnetyczny wykorzystuje ferromagnetyczne właściwości śrub do ich przyciągnięcia.",
-      "explanation_incorrect": "Śrubokręty i szczypce służą do montażu, a nie do wydobywania elementów ze szczelin.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Także namagnesowany śrubokręt lub szczypce mogą pomóc wydobyć przedmiot; chwytak magnetyczny jest przeznaczony do podnoszenia ferromagnetycznych części."
     },
     {
       "subcategory": "Hydrodynamika",
-      "question": "Jak nazywa się urządzenie w układzie chłodzenia, które wymusza wymuszony przepływ cieczy chłodzącej przez silnik?",
+      "question": "Jaki element układu chłodzenia wymusza przepływ cieczy chłodzącej przez silnik?",
       "options": [
         "pompa wody",
         "wentylator",
@@ -709,9 +669,7 @@
       ],
       "answer": "pompa wody",
       "explanation_correct": "Pompa wody generuje różnicę ciśnień niezbędną do obiegu cieczy w układzie zamkniętym.",
-      "explanation_incorrect": "Termostat reguluje temperaturę, chłodnica oddaje ciepło, a wentylator chłodzi chłodnicę powietrzem.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Termostat reguluje temperaturę, chłodnica oddaje ciepło, a wentylator chłodzi chłodnicę powietrzem."
     },
     {
       "subcategory": "Napędy",
@@ -724,13 +682,11 @@
       ],
       "answer": "pasek klinowy",
       "explanation_correct": "Pasek klinowy dzięki kształtowi klina silnie przylega do kół pasowych, przenosząc moment obrotowy przez tarcie.",
-      "explanation_incorrect": "Pasek rozrządu jest zębaty, a sprzęgło rozłącza napęd, nie przekazując go w sposób ciągły na osprzęt.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pasek rozrządu synchronizuje elementy rozrządu, a sprzęgło łączy lub rozłącza napęd. W wielu autach osprzęt napędza pasek wielorowkowy."
     },
     {
       "subcategory": "Pomiary",
-      "question": "Jakie precyzyjne narzędzie warsztatowe, oprócz czujników elektronicznych, służy tradycyjnie do pomiaru głębokości bieżnika opony?",
+      "question": "Jakim przyrządem z przesuwanymi szczękami, noniuszem i wysuwanym głębokościomierzem można zmierzyć głębokość rowka bieżnika?",
       "options": [
         "szczelinomierz",
         "mikrometr",
@@ -739,9 +695,7 @@
       ],
       "answer": "suwmiarka",
       "explanation_correct": "Suwmiarka posiada wysuwany głębokościomierz, który pozwala zmierzyć odległość od wierzchołka bieżnika do dna rowka.",
-      "explanation_incorrect": "Pozostałe narzędzia służą do pomiarów grubości, luzów zaworowych lub kątów, nie posiadają głębokościomierza.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Szczelinomierz i kątomierz służą do innych pomiarów. Istnieją też osobne głębokościomierze oraz mikrometry głębokości; typowa suwmiarka jest wyposażona w wysuwany głębokościomierz."
     },
     {
       "subcategory": "Materiały",
@@ -768,10 +722,8 @@
         "liczba kwasowa"
       ],
       "answer": "liczba oktanowa",
-      "explanation_correct": "Liczba oktanowa mierzy odporność paliwa na samozapłon sprężonej mieszanki.",
-      "explanation_incorrect": "Liczba cetanowa dotyczy paliw silników Diesla, a pozostałe nie określają jakości spalania.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liczba oktanowa określa odporność benzyny na spalanie stukowe w warunkach znormalizowanego badania.",
+      "explanation_incorrect": "Liczba cetanowa opisuje skłonność oleju napędowego do samozapłonu w silniku o zapłonie samoczynnym."
     },
     {
       "subcategory": "Elektryczność",
@@ -809,29 +761,25 @@
       "options": [
         "przegub krzyżakowy",
         "przegub homokinetyczny",
-        "przegub kulowy",
+        "sworzeń zawieszenia",
         "łącznik stabilizatora"
       ],
       "answer": "przegub homokinetyczny",
-      "explanation_correct": "Przegub homokinetyczny zapewnia płynną transmisję mocy niezależnie od kąta skręcenia koła.",
-      "explanation_incorrect": "Przegub krzyżakowy nie utrzymuje stałej prędkości kątowej, a kulowy służy do zawieszenia.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przegub homokinetyczny przenosi napęd przy jednakowych chwilowych prędkościach kątowych obu wałów, w dopuszczalnym zakresie pracy.",
+      "explanation_incorrect": "Pojedynczy przegub krzyżakowy przy załamaniu wałów nie utrzymuje jednakowych chwilowych prędkości; sworzeń zawieszenia służy do prowadzenia koła."
     },
     {
       "subcategory": "Chemia techniczna",
-      "question": "Jak nazywa się preparat chemiczny wykorzystujący niskie napięcie powierzchniowe do wnikania w zardzewiałe połączenia śrubowe?",
+      "question": "Jaki preparat jest przeznaczony do wnikania w zapieczone połączenia gwintowe i ułatwiania ich poluzowania?",
       "options": [
         "smar grafitowy",
-        "odrdzewiacz",
+        "preparat penetrujący",
         "odtłuszczacz",
         "lakier podkładowy"
       ],
-      "answer": "odrdzewiacz",
-      "explanation_correct": "Odrdzewiacze (często z dodatkiem MoS2) mają właściwości penetrujące, co pozwala na poluzowanie zapieczonych gwintów.",
-      "explanation_incorrect": "Smar grafitowy służy do długotrwałego smarowania ciężkich mechanizmów, a odtłuszczacz usuwa oleje.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "preparat penetrujący",
+      "explanation_correct": "Preparat penetrujący może wnikać w szczeliny zardzewiałego gwintu i ułatwiać rozłączenie elementów.",
+      "explanation_incorrect": "Odtłuszczacz usuwa tłuste zabrudzenia, lakier podkładowy przygotowuje powierzchnię do malowania, a smar grafitowy ma inne zastosowanie."
     },
     {
       "subcategory": "Właściwości materii",
@@ -843,10 +791,8 @@
         "przewodność cieplna"
       ],
       "answer": "rozszerzalność cieplna",
-      "explanation_correct": "Rozszerzalność cieplna wynika ze zwiększenia amplitud drgań atomów w sieci krystalicznej metalu.",
-      "explanation_incorrect": "Plastyczność i sprężystość to reakcje na siły zewnętrzne, a przewodność dotyczy przepływu energii.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przy ogrzewaniu metalu wskutek asymetrii oddziaływań atomowych rośnie średnia odległość między atomami; same większe amplitudy drgań nie wystarczą do wyjaśnienia rozszerzania.",
+      "explanation_incorrect": "Plastyczność i sprężystość to reakcje na siły zewnętrzne, a przewodność dotyczy przepływu energii."
     },
     {
       "subcategory": "Przeniesienie napędu",
@@ -895,22 +841,20 @@
     },
     {
       "subcategory": "Materiały",
-      "question": "Jaki metal jest powszechnie stosowany do produkcji sztywnych przewodów hamulcowych ze względu na swoją ciągliwość i odporność na korozję?",
+      "question": "Który materiał stosuje się do produkcji odpornych na korozję sztywnych przewodów hamulcowych?",
       "options": [
-        "miedź",
-        "żelazo",
-        "chrom",
-        "nikiel"
+        "stop miedzi z niklem",
+        "drewno",
+        "guma piankowa",
+        "szkło okienne"
       ],
-      "answer": "miedź",
-      "explanation_correct": "Miedź charakteryzuje się dużą plastycznością, co ułatwia formowanie przewodów, oraz wysoką odpornością na utlenianie.",
-      "explanation_incorrect": "Pozostałe metale są albo zbyt twarde do obróbki przy przewodach, albo ulegają szybkiej korozji w kontakcie z warunkami drogowymi.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "stop miedzi z niklem",
+      "explanation_correct": "Stopy miedzi z niklem są stosowane do przewodów hamulcowych. Spotyka się również przewody stalowe oraz inne materiały dopuszczone w danym zastosowaniu.",
+      "explanation_incorrect": "Drewno, guma piankowa i szkło okienne nie są materiałami takich metalowych przewodów."
     },
     {
       "subcategory": "Właściwości cieczy",
-      "question": "Dla którego rodzaju płynu eksploatacyjnego lepkość jest najważniejszym parametrem technicznym, determinującym jego zdolność do smarowania kół zębatych?",
+      "question": "Który płyn jest przeznaczony specjalnie do smarowania przekładni i kół zębatych?",
       "options": [
         "olej silnikowy",
         "płyn chłodniczy",
@@ -918,10 +862,8 @@
         "płyn hamulcowy"
       ],
       "answer": "olej przekładniowy",
-      "explanation_correct": "Olej przekładniowy musi zachować odpowiednią lepkość, aby utworzyć trwały film olejowy między zębami kół pracującymi pod dużym obciążeniem.",
-      "explanation_incorrect": "Pozostałe płyny mają inne kluczowe parametry, takie jak temperatura wrzenia (płyn hamulcowy) lub pojemność cieplna (płyn chłodniczy).",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Olej przekładniowy dobiera się m.in. według lepkości oraz wymagań dotyczących dodatków i obciążeń.",
+      "explanation_incorrect": "Olej silnikowy również smaruje i jego lepkość jest ważna; pytanie dotyczy środka przeznaczonego do przekładni."
     },
     {
       "subcategory": "Obróbka",
@@ -955,7 +897,7 @@
     },
     {
       "subcategory": "Elektryczność",
-      "question": "Który komponent elektryczny jest wykorzystywany w układzie napędowym do wymuszenia pierwszego suwu pracy silnika spalinowego?",
+      "question": "Który oddzielny silnik elektryczny w konwencjonalnym układzie z alternatorem obraca wał korbowy podczas rozruchu?",
       "options": [
         "alternator",
         "cewka zapłonowa",
@@ -963,25 +905,21 @@
         "akumulator"
       ],
       "answer": "rozrusznik",
-      "explanation_correct": "Rozrusznik to silnik elektryczny prądu stałego, który wprawia wał korbowy w ruch obrotowy niezbędny do uruchomienia silnika.",
-      "explanation_incorrect": "Alternator wytwarza prąd podczas pracy, a cewka odpowiada za iskrę; akumulator tylko magazynuje energię.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rozrusznik obraca wał korbowy podczas uruchamiania silnika. Niektóre pojazdy zamiast osobnego rozrusznika używają zintegrowanego rozrusznika-generatora.",
+      "explanation_incorrect": "W opisanym układzie akumulator dostarcza energię, alternator ładuje instalację, a cewka zapłonowa wytwarza wysokie napięcie."
     },
     {
       "subcategory": "Chemia",
-      "question": "Jaki środek chemiczny stosuje się do skutecznego usuwania tłuszczu i nagaru z powierzchni tarcz hamulcowych przed montażem nowych klocków?",
+      "question": "Jaki preparat jest przeznaczony do odtłuszczania tarcz hamulcowych przed montażem?",
       "options": [
-        "rozpuszczalnik nitro",
-        "odtłuszczacz",
-        "benzyna ekstrakcyjna",
-        "zmywacz do silników"
+        "zmywacz do hamulców",
+        "smar miedziany",
+        "płyn chłodniczy",
+        "olej silnikowy"
       ],
-      "answer": "odtłuszczacz",
-      "explanation_correct": "Specjalistyczny odtłuszczacz do hamulców szybko odparowuje, nie zostawiając osadów, co gwarantuje pełną skuteczność hamowania.",
-      "explanation_incorrect": "Wymienione alternatywy mogą zostawiać tłusty nalot lub uszkadzać elementy gumowe układu hamulcowego.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "zmywacz do hamulców",
+      "explanation_correct": "Zmywacz do hamulców jest przeznaczony do usuwania zabrudzeń i tłuszczu z elementów układu hamulcowego; należy stosować go według zaleceń producenta.",
+      "explanation_incorrect": "Smary i oleje nie służą do odtłuszczania powierzchni ciernych, a płyn chłodniczy ma inne przeznaczenie."
     },
     {
       "subcategory": "Smarowanie",
@@ -1008,10 +946,8 @@
         "kątomierz nastawny"
       ],
       "answer": "laserowy system zbieżności",
-      "explanation_correct": "Laserowy system zbieżności pozwala na określenie geometrii układu jezdnego z dokładnością do minut kątowych.",
-      "explanation_incorrect": "Pozostałe narzędzia są zbyt mało precyzyjne lub nieprzystosowane do złożonych pomiarów geometrii zawieszenia.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Laserowy system pomiarowy może służyć do określania parametrów geometrii kół; dokładność zależy od konkretnego urządzenia i procedury.",
+      "explanation_incorrect": "Pozostałe przyrządy nie stanowią opisanego kompletnego systemu pomiarowego. Istnieją również urządzenia wykorzystujące kamery i tarcze pomiarowe."
     },
     {
       "subcategory": "Mechanika",
@@ -1045,7 +981,7 @@
     },
     {
       "subcategory": "Elektryka",
-      "question": "Jaki materiał elastyczny jest najczęściej stosowany do izolacji przewodów wysokiego napięcia w trudnych warunkach termicznych?",
+      "question": "Jaki elastyczny materiał izolacyjny stosuje się w przewodach zapłonowych odpornych na wysoką temperaturę?",
       "options": [
         "PVC",
         "silikon",
@@ -1053,14 +989,12 @@
         "polietylen"
       ],
       "answer": "silikon",
-      "explanation_correct": "Silikon zachowuje swoje właściwości izolacyjne w bardzo szerokim zakresie temperatur, co jest kluczowe w komorze silnika.",
-      "explanation_incorrect": "PVC twardnieje w niskich temperaturach, a polietylen może ulec stopieniu w środowisku pracy silnika.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Guma silikonowa jest stosowana jako izolacja przewodów zapłonowych ze względu na właściwości elektryczne i termiczne.",
+      "explanation_incorrect": "Inne materiały izolacyjne mają różne dopuszczalne temperatury; ich przydatność zależy od receptury i konstrukcji przewodu."
     },
     {
       "subcategory": "Praca silnika",
-      "question": "Jak fachowo określa się zmianę momentu inicjacji iskry zapłonowej w stosunku do położenia tłoka w cylindrze?",
+      "question": "Jak określa się kąt, o jaki wystąpienie iskry poprzedza osiągnięcie przez tłok górnego martwego położenia?",
       "options": [
         "opóźnienie reakcji",
         "wyprzedzenie zapłonu",
@@ -1068,10 +1002,8 @@
         "faza rozrządu"
       ],
       "answer": "wyprzedzenie zapłonu",
-      "explanation_correct": "Wyprzedzenie zapłonu pozwala mieszance spalać się w sposób optymalny tak, aby najwyższe ciśnienie gazów nastąpiło tuż po trasie górnego martwego punktu.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do wtrysku paliwa lub mechanicznego ustawienia wałków rozrządu.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wyprzedzenie zapłonu podaje się zwykle w stopniach obrotu wału korbowego przed górnym martwym położeniem tłoka.",
+      "explanation_incorrect": "Dawka paliwa i fazy rozrządu opisują inne parametry pracy silnika."
     },
     {
       "subcategory": "Napędy",
@@ -1094,14 +1026,12 @@
       "options": [
         "sworzeń wahacza",
         "tuleja wahacza",
-        "silentblock",
+        "stabilizator poprzeczny",
         "łożysko oporowe"
       ],
       "answer": "sworzeń wahacza",
       "explanation_correct": "Sworzeń wahacza to przegub kulisty łączący elementy ruchome zawieszenia z układem kierowniczym.",
-      "explanation_incorrect": "Tuleja wahacza (silentblock) służy do mocowania wahacza do ramy/nadwozia i nie pozwala na skręt osiowy.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tuleja wahacza, zwana silentblokiem, elastycznie łączy wahacz z nadwoziem; stabilizator i łożysko oporowe pełnią inne funkcje."
     },
     {
       "subcategory": "Skrawanie",
@@ -1113,14 +1043,12 @@
         "frez palcowy"
       ],
       "answer": "otwornica",
-      "explanation_correct": "Otwornica działa jak piła pierścieniowa, co pozwala na wykonanie otworu przy mniejszym zapotrzebowaniu na moc wiertarki niż pełne wiercenie.",
-      "explanation_incorrect": "Wiertła kręte i frezy usuwają cały materiał z wnętrza otworu, co czyni je nieefektywnymi przy dużych średnicach.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Otwornica wycina materiał wzdłuż obwodu, pozostawiając zwykle centralny rdzeń.",
+      "explanation_incorrect": "Wiertła i frezy mogą wykonywać otwory innymi sposobami; dobór narzędzia zależy od materiału, średnicy i warunków pracy."
     },
     {
       "subcategory": "Gazy",
-      "question": "Jaki podstawowy gaz jest najczęściej stosowany jako czynnik osłonowy przy spawaniu metodą MIG/MAG stali czarnej?",
+      "question": "Który gaz aktywny można stosować samodzielnie jako osłonę łuku przy spawaniu MAG stali węglowej?",
       "options": [
         "argon",
         "dwutlenek węgla",
@@ -1128,10 +1056,8 @@
         "azot"
       ],
       "answer": "dwutlenek węgla",
-      "explanation_correct": "Dwutlenek węgla (CO2) jest tani i zapewnia dobrą penetrację przy spawaniu stali węglowych metodą MAG.",
-      "explanation_incorrect": "Argon i hel są częściej używane do spawania aluminium lub stali nierdzewnej, a azot nie jest stosowany jako gaz osłonowy w spawalnictwie łukowym.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dwutlenek węgla można stosować w MAG samodzielnie; częste są też mieszaniny argonu z CO₂. MIG oznacza osłonę gazem obojętnym.",
+      "explanation_incorrect": "Argon i hel są gazami obojętnymi, a dobór gazu zależy od procesu. Azot ma również zastosowania w określonych operacjach spawalniczych."
     },
     {
       "subcategory": "Statyka",
@@ -1158,10 +1084,8 @@
         "drenaż"
       ],
       "answer": "wysysarka",
-      "explanation_correct": "Wysysarka wykorzystuje podciśnienie do wyciągnięcia oleju przez rurkę bagnetu, co eliminuje potrzebę odkręcania korka w misce.",
-      "explanation_incorrect": "Separator i odolejacz to urządzenia przemysłowe do oczyszczania gazów lub wody z tłuszczów, nie służą do opróżniania silników.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wysysarka może odsysać olej przez otwór bagnetu bez odkręcania korka; możliwość i skuteczność takiej metody zależą od konstrukcji silnika.",
+      "explanation_incorrect": "Separator i odolejacz mają inne zastosowania niż opisane odsysanie oleju z silnika."
     },
     {
       "subcategory": "Elektryczność",
@@ -1173,10 +1097,8 @@
         "przekaźnik"
       ],
       "answer": "regulator napięcia",
-      "explanation_correct": "Regulator napięcia dozuje prąd wzbudzenia alternatora tak, aby wyjściowe napięcie oscylowało w granicach 14V.",
-      "explanation_incorrect": "Mostek prostowniczy tylko zamienia prąd zmienny na stały, a przekaźnik służy do sterowania obwodami, nie do stabilizacji.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Regulator steruje wzbudzeniem alternatora, utrzymując napięcie ładowania w zadanym zakresie; wartość zależy od pojazdu, temperatury i strategii ładowania.",
+      "explanation_incorrect": "Mostek prostowniczy tylko zamienia prąd zmienny na stały, a przekaźnik służy do sterowania obwodami, nie do stabilizacji."
     },
     {
       "subcategory": "Hydraulika",
@@ -1195,33 +1117,29 @@
     },
     {
       "subcategory": "Filtracja",
-      "question": "Który element układu smarowania silnika jest odpowiedzialny za zatrzymywanie opiłków metalu i zanieczyszczeń w obiegu oleju?",
+      "question": "Który wymienny element układu smarowania zatrzymuje drobne cząstki zanieczyszczeń przepływającego oleju?",
       "options": [
         "filtr olejowy",
-        "separator odśrodkowy",
-        "smok olejowy",
-        "chłodnica oleju"
+        "chłodnica oleju",
+        "pompa wody",
+        "zbiornik płynu do spryskiwaczy"
       ],
       "answer": "filtr olejowy",
       "explanation_correct": "Filtr olejowy pełni funkcję oczyszczania oleju z cząstek stałych i opiłków metalu.",
-      "explanation_incorrect": "Pozostałe elementy albo pobierają olej, albo go chłodzą, nie pełniąc roli filtracyjnej.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Chłodnica oleju odbiera ciepło, a pozostałe elementy należą do innych układów. Smok olejowy, którego nie ma w wariantach, zawiera sitko zatrzymujące większe zanieczyszczenia; stosuje się także separatory odśrodkowe."
     },
     {
       "subcategory": "Filtracja",
-      "question": "Jak nazywa się rodzaj filtra powietrza o charakterystycznym kształcie, montowany w układach dolotowych w celu zwiększenia przepustowości powietrza?",
+      "question": "Jak nazywa się filtr powietrza do silnika o kształcie stożka?",
       "options": [
         "filtr panelowy",
         "filtr stożkowy",
-        "filtr kabinowy",
-        "filtr węglowy"
+        "filtr cylindryczny",
+        "filtr płaski"
       ],
       "answer": "filtr stożkowy",
-      "explanation_correct": "Filtr stożkowy charakteryzuje się dużą powierzchnią filtracyjną i specyficznym ukształtowaniem dolotu.",
-      "explanation_incorrect": "Pozostałe wymienione filtry różnią się konstrukcją oraz przeznaczeniem (kabina lub standardowe puszki airboxa).",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Filtr stożkowy rozpoznaje się po charakterystycznym kształcie; sam kształt nie gwarantuje większego przepływu ani mocy.",
+      "explanation_incorrect": "Pozostałe odpowiedzi opisują inne kształty. Filtr węglowy określa materiał lub funkcję, a nie kształt, i także może być stożkowy."
     },
     {
       "subcategory": "Podzespoły",
@@ -1248,14 +1166,12 @@
         "elektrosprężarka"
       ],
       "answer": "kompresor mechaniczny",
-      "explanation_correct": "Kompresor mechaniczny jest napędzany sztywnym połączeniem z wałem korbowym jednostki napędowej.",
-      "explanation_incorrect": "Turbosprężarkę napędzają gazy wylotowe, a pompa wtryskowa nie zajmuje się sprężaniem powietrza.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kompresor mechaniczny jest napędzany od wału korbowego, na przykład paskiem lub przekładnią.",
+      "explanation_incorrect": "Turbosprężarkę napędzają gazy wylotowe, a pompa wtryskowa nie zajmuje się sprężaniem powietrza."
     },
     {
       "subcategory": "Akustyka",
-      "question": "Który materiał jest powszechnie stosowany w car audio i tuningu do wygłuszania wnętrza drzwi poprzez tłumienie wibracji blachy?",
+      "question": "Jak nazywa się mata na bazie kauczuku butylowego stosowana m.in. do tłumienia drgań blach drzwi samochodu?",
       "options": [
         "mata bitumiczna",
         "mata butylowa",
@@ -1263,10 +1179,8 @@
         "filc techniczny"
       ],
       "answer": "mata butylowa",
-      "explanation_correct": "Mata butylowa charakteryzuje się wysoką skutecznością w tłumieniu drgań blach samochodowych.",
-      "explanation_incorrect": "Mata bitumiczna jest starszą, mniej elastyczną technologią, a pianki służą głównie do izolacji cieplnej.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mata butylowa zawiera materiał na bazie kauczuku butylowego i może tłumić drgania blachy.",
+      "explanation_incorrect": "Maty bitumiczne również mogą tłumić drgania; pytanie dotyczy materiału butylowego. Pianki i filc mogą służyć do innych zadań akustycznych."
     },
     {
       "subcategory": "Pomiary",
@@ -1323,10 +1237,8 @@
         "prąd jednokierunkowy"
       ],
       "answer": "prąd zmienny",
-      "explanation_correct": "Prądnice indukuje prąd zmienny (AC), którego kierunek zmienia się w czasie.",
-      "explanation_incorrect": "Prąd stały otrzymuje się dopiero po zastosowaniu prostownika lub komutatora.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Prądnica rowerowa i alternator samochodowy wytwarzają w uzwojeniach napięcie przemienne; alternator samochodowy wykorzystuje następnie prostownik.",
+      "explanation_incorrect": "Prądnica z komutatorem może dostarczać prąd jednokierunkowy; pytanie dotyczy wskazanych urządzeń przed prostowaniem."
     },
     {
       "subcategory": "Elektryczność",
@@ -1345,7 +1257,7 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Jaki gaz szlachetny jest wykorzystywany do napełniania wysokociśnieniowych żarników w nowoczesnych reflektorach samochodowych typu HID?",
+      "question": "Jaki gaz szlachetny nadaje nazwę samochodowym reflektorom wyładowczym zwanym ksenonowymi?",
       "options": [
         "neon",
         "argon",
@@ -1353,10 +1265,8 @@
         "krypton"
       ],
       "answer": "ksenon",
-      "explanation_correct": "Ksenon jest głównym składnikiem gazowym w żarnikach HID generującym jasne światło.",
-      "explanation_incorrect": "Pozostałe gazy szlachetne mają inne właściwości świecenia i są rzadziej stosowane w tego typu lampach.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W lampie ksenonowej światło powstaje w wyładowaniu elektrycznym w mieszaninie gazów i par, a nie w żarniku jak w lampie halogenowej.",
+      "explanation_incorrect": "Pozostałe gazy szlachetne mają inne właściwości świecenia i są rzadziej stosowane w tego typu lampach."
     },
     {
       "subcategory": "Magnetyzm",
@@ -1390,7 +1300,7 @@
     },
     {
       "subcategory": "Narzędzia",
-      "question": "Jak nazywa się uniwersalne narzędzie warsztatowe wykorzystywane do demontażu elementów osadzonych ciasno, takich jak łożyska lub koła zębate?",
+      "question": "Jak nazywa się narzędzie z ramionami chwytającymi element i śrubą dociskową, służące do zsuwania ciasno osadzonego łożyska z wału?",
       "options": [
         "klucz dynamometryczny",
         "ściągacz",
@@ -1398,10 +1308,8 @@
         "wybijak"
       ],
       "answer": "ściągacz",
-      "explanation_correct": "Ściągacz mechaniczny pozwala bezpiecznie zsunąć łożysko z osi za pomocą gwintowanego wrzeciona.",
-      "explanation_incorrect": "Klucz służy do dokręcania, a prasa do wciskania, nie zawsze oferując chwyt łożyska.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ściągacz z ramionami chwyta łożysko lub koło, a obracana śruba wywiera nacisk na wał, zsuwając część.",
+      "explanation_incorrect": "Prasa hydrauliczna również może demontować łożyska, ale nie jest opisanym narzędziem z ramionami i śrubą dociskową."
     },
     {
       "subcategory": "Pneumatyka",
@@ -1435,18 +1343,16 @@
     },
     {
       "subcategory": "Budowa silnika",
-      "question": "W jakim głównym elemencie konstrukcyjnym bloku silnika odbywa się proces spalania mieszanki paliwowo-powietrznej?",
+      "question": "W jakiej przestrzeni silnika następuje spalanie mieszanki, ograniczonej m.in. tłokiem i głowicą?",
       "options": [
-        "karter",
-        "cylinder",
-        "głowica",
-        "miska olejowa"
+        "komora spalania",
+        "miska olejowa",
+        "kanał dolotowy",
+        "obudowa skrzyni biegów"
       ],
-      "answer": "cylinder",
-      "explanation_correct": "Cylinder to przestrzeń robocza, w której tłok wykonuje ruch posuwisto-zwrotny podczas pracy silnika.",
-      "explanation_incorrect": "Głowica zamyka cylinder, karter to osłona wału, a miska zbiera olej.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "komora spalania",
+      "explanation_correct": "Komora spalania znajduje się nad tłokiem i jest ograniczona elementami cylindra oraz głowicy; jej kształt zależy od konstrukcji silnika.",
+      "explanation_incorrect": "Miska olejowa, kanał dolotowy i obudowa skrzyni biegów nie są komorą spalania."
     },
     {
       "subcategory": "Przeniesienie napędu",

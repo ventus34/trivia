@@ -4,13 +4,11 @@
   "language": "en",
   "description": "Questions covering: Atmospheric Phenomena, Seismology, Electromagnetism, Gravitation, Meteorology...",
   "created_at": "2026-06-12T16:42:48.093Z",
-  "last_verified_at": "2026-06-12T16:18:26.827Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Which large-scale electrical discharge occurs in the mesosphere above active thunderstorms?",
+      "question": "Which transient luminous event often appears red and resembles a jellyfish, carrot, or column high above a thunderstorm?",
       "options": [
         "Blue Jet",
         "Red Sprite",
@@ -19,9 +17,7 @@
       ],
       "answer": "Red Sprite",
       "explanation_correct": "A Red Sprite is a large-scale electrical discharge that occurs high above thunderstorm clouds.",
-      "explanation_incorrect": "Blue Jets, Elves, and Halos are also transient luminous events, but they occur at different altitudes or display distinct physical characteristics.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Blue jets extend upward from thunderclouds; elves and halos usually appear as broad, short-lived luminous regions."
     },
     {
       "subcategory": "Seismology",
@@ -64,9 +60,7 @@
       ],
       "answer": "Black hole",
       "explanation_correct": "A black hole is defined by its event horizon, past which nothing can escape the intense gravitational pull.",
-      "explanation_incorrect": "Neutron stars, quasars, and white dwarfs are stellar remnants or objects that do not entrap light in the same definitive manner.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A neutron star and a white dwarf are compact stellar remnants. A quasar is a luminous active galactic nucleus powered by matter around a supermassive black hole."
     },
     {
       "subcategory": "Meteorology",
@@ -108,14 +102,12 @@
         "Weight"
       ],
       "answer": "Drag",
-      "explanation_correct": "Drag is the aerodynamic force that reduces an object's velocity relative to the advancing fluid.",
-      "explanation_incorrect": "Lift, thrust, and weight are the other three primary forces of flight which act perpendicular or forward relative to the object.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Drag is the component of aerodynamic force opposite an object’s velocity relative to the surrounding fluid.",
+      "explanation_incorrect": "Lift acts perpendicular to the relative airflow; thrust is a propulsive force and weight is gravitational."
     },
     {
       "subcategory": "Thermodynamics",
-      "question": "In thermodynamics, what quantity measures the unavailability of a system's energy to do work, often associated with randomness?",
+      "question": "Which thermodynamic state function has a change equal to reversible heat transfer divided by absolute temperature in an isothermal process?",
       "options": [
         "Enthalpy",
         "Entropy",
@@ -123,10 +115,8 @@
         "Gibbs free energy"
       ],
       "answer": "Entropy",
-      "explanation_correct": "Entropy is a measure of the microscopic disorder or state of energy unavailability in a thermodynamic system.",
-      "explanation_incorrect": "Enthalpy, internal energy, and Gibbs free energy are thermodynamic potentials rather than direct measures of system disorder.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "For a reversible isothermal process, the entropy change is ΔS = Qrev / T. Entropy is a state function; its relation to available work also depends on the surroundings.",
+      "explanation_incorrect": "Enthalpy, internal energy, and Gibbs free energy are different thermodynamic state functions."
     },
     {
       "subcategory": "Volcanology",
@@ -139,9 +129,7 @@
       ],
       "answer": "Lava",
       "explanation_correct": "Lava is the term used for magma once it has erupted onto the surface.",
-      "explanation_incorrect": "Magma is found beneath the crust, tephra refers to rock fragments, and igneous rock is the hardened material type.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Magma is molten or partially molten rock below Earth’s surface, including within the crust; tephra consists of erupted fragments, and igneous rock forms when molten material solidifies."
     },
     {
       "subcategory": "Nuclear Physics",
@@ -184,24 +172,20 @@
       ],
       "answer": "Plate tectonics",
       "explanation_correct": "Plate tectonics explains the large-scale motion of Earth's lithospheric plates.",
-      "explanation_incorrect": "Continental drift was an early hypothesis, while isostasy and seafloor spreading are individual components within the theory of plate tectonics.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Continental drift is an earlier explanation of moving continents; seafloor spreading is a process incorporated in plate tectonics, and isostasy concerns gravitational balance of the lithosphere."
     },
     {
       "subcategory": "Meteorology",
       "question": "What is the general term for a mass of fluid that rotates around an axis line?",
       "options": [
-        "Eddy",
+        "Current",
         "Turbulence",
         "Vortex",
-        "Cyclone"
+        "Tide"
       ],
       "answer": "Vortex",
       "explanation_correct": "A vortex describes any fluid flow spinning around an axis, whether in liquid or gas.",
-      "explanation_incorrect": "Eddies, turbulence, and cyclones are specific types or manifestations of fluid motion, not the general term for the rotational structure.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A current is a directed flow, turbulence describes irregular flow, and tides are periodic water-level changes; none specifically denotes a rotating flow."
     },
     {
       "subcategory": "Particle Physics",
@@ -254,14 +238,12 @@
       "options": [
         "Momentum",
         "Inertia",
-        "Mass",
+        "Energy",
         "Force"
       ],
       "answer": "Inertia",
       "explanation_correct": "Inertia is the fundamental tendency of an object to resist changes in its velocity.",
-      "explanation_incorrect": "Momentum, mass, and force are related concepts but do not describe the resistance to change itself.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Momentum, energy, and force are different physical quantities; inertia is the tendency to resist changes in velocity."
     },
     {
       "subcategory": "Climatology",
@@ -333,10 +315,8 @@
         "Heliograph"
       ],
       "answer": "Seismograph",
-      "explanation_correct": "A seismograph is designed to detect and record the magnitude and duration of seismic waves.",
-      "explanation_incorrect": "A barograph measures pressure, a tachograph measures speed, and a heliograph uses sunlight to transmit messages.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A seismograph detects and records ground motion over time, producing a seismogram from which earthquake properties can be estimated.",
+      "explanation_incorrect": "A barograph measures pressure, a tachograph measures speed, and a heliograph uses sunlight to transmit messages."
     },
     {
       "subcategory": "Particle Physics",
@@ -453,10 +433,8 @@
         "Potential field"
       ],
       "answer": "Magnetic field",
-      "explanation_correct": "A magnetic field is the region space surrounding a magnet or current where magnetic forces operate.",
-      "explanation_incorrect": "Electric fields relate to charges at rest, gravitational fields relate to mass, and potential fields represent scalar energy states.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A magnetic field is a vector field that describes magnetic effects on moving charges and currents.",
+      "explanation_incorrect": "Electric fields exert forces on electric charges whether they are moving or stationary; gravitational fields describe gravitational effects."
     },
     {
       "subcategory": "Astronomy",
@@ -475,7 +453,7 @@
     },
     {
       "subcategory": "Thermodynamics",
-      "question": "Which mechanism of heat transfer occurs through the direct microscopic collision of atoms within a solid?",
+      "question": "Which mechanism of heat transfer occurs through microscopic interactions within a material, without bulk fluid motion?",
       "options": [
         "Conduction",
         "Convection",
@@ -483,10 +461,8 @@
         "Advection"
       ],
       "answer": "Conduction",
-      "explanation_correct": "Conduction is the process by which heat is transferred through a substance without movement of the substance itself.",
-      "explanation_incorrect": "Convection involves fluid movement, radiation involves electromagnetic waves, and advection is heat carried by fluid bulk motion.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Conduction transfers thermal energy through microscopic interactions; in metals, mobile electrons can also carry energy.",
+      "explanation_incorrect": "Convection and advection involve bulk fluid motion, while thermal radiation is carried by electromagnetic waves."
     },
     {
       "subcategory": "Atmospheric Science",
@@ -498,14 +474,12 @@
         "Helium"
       ],
       "answer": "Ozone",
-      "explanation_correct": "Ozone (O3) absorbs the majority of the sun's ultraviolet (UV) radiation.",
-      "explanation_incorrect": "Methane is a greenhouse gas, argon is an inert noble gas, and helium is a light, unreactive inert gas.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stratospheric ozone absorbs most solar UV-B and essentially all UV-C; much UV-A passes through the atmosphere.",
+      "explanation_incorrect": "Methane is a greenhouse gas, argon is an inert noble gas, and helium is a light, unreactive inert gas."
     },
     {
       "subcategory": "Aerodynamics",
-      "question": "What aerodynamic force acts perpendicular to the direction of motion, opposing the weight of an aircraft?",
+      "question": "What aerodynamic force acts perpendicular to the oncoming airflow and helps support an aircraft in level flight?",
       "options": [
         "Lift",
         "Drag",
@@ -514,24 +488,20 @@
       ],
       "answer": "Lift",
       "explanation_correct": "Lift is the component of the total aerodynamic force that acts perpendicular to the oncoming airflow.",
-      "explanation_incorrect": "Drag opposes motion, thrust facilitates forward motion, and gravity is a separate force pulling objects downward.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Drag opposes motion relative to the air, thrust is propulsive, and gravity pulls the aircraft downward."
     },
     {
       "subcategory": "Geology",
       "question": "What is the term for a planar fracture or discontinuity in a volume of rock across which there has been significant displacement?",
       "options": [
-        "Fault line",
+        "Fault",
         "Fissure",
         "Joint",
         "Fold"
       ],
-      "answer": "Fault line",
-      "explanation_correct": "A fault line is the surface trace of a fault, the point of intersection between a fault plane and the ground surface.",
-      "explanation_incorrect": "A fissure is a crack without displacement, a joint is a fracture without displacement, and a fold is a bending of rock layers.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fault",
+      "explanation_correct": "A fault is a fracture or zone of fractures along which rock blocks have moved relative to each other. Its intersection with the ground is a fault trace or fault line.",
+      "explanation_incorrect": "A joint is a fracture with little or no shear displacement; a fissure is an opening, and a fold is bending of rock layers."
     },
     {
       "subcategory": "Crystallography",
@@ -550,7 +520,7 @@
     },
     {
       "subcategory": "Optics",
-      "question": "What optical phenomenon occurs when a wave changes speed as it passes from one medium to another, causing it to change direction?",
+      "question": "What wave phenomenon involves a change in direction when a wave crosses an interface obliquely and its speed changes?",
       "options": [
         "Refraction",
         "Reflection",
@@ -558,10 +528,8 @@
         "Dispersion"
       ],
       "answer": "Refraction",
-      "explanation_correct": "Refraction is the bending of a wave due to a change in its speed when entering a medium of different density.",
-      "explanation_incorrect": "Reflection occurs when waves bounce back, diffraction is bending around obstacles, and dispersion is the separation of light into colors.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Refraction is a change in wave direction caused by a change in propagation speed at an interface, except when incidence is normal. The speed depends on the properties of the media.",
+      "explanation_incorrect": "Reflection occurs when waves bounce back, diffraction is bending around obstacles, and dispersion is the separation of light into colors."
     },
     {
       "subcategory": "Hydrology",
@@ -573,10 +541,8 @@
         "Deposition"
       ],
       "answer": "Evaporation",
-      "explanation_correct": "Evaporation is the process of a liquid surface becoming a gas at temperatures below the boiling point.",
-      "explanation_incorrect": "Sublimation is solid to gas, condensation is gas to liquid, and deposition is gas to solid.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Evaporation is vaporization at a liquid surface, as distinct from boiling throughout the liquid.",
+      "explanation_incorrect": "Sublimation is solid to gas, condensation is gas to liquid, and deposition is gas to solid."
     },
     {
       "subcategory": "Meteorology",
@@ -648,10 +614,8 @@
         "Airglow"
       ],
       "answer": "Aurora",
-      "explanation_correct": "Auroras occur when solar wind particles excite gases in the ionosphere, leading to light emission.",
-      "explanation_incorrect": "The other phenomena refer to solar features, light diffraction around objects, or general background atmospheric luminescence.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Auroras occur when energetic particles guided by Earth’s magnetic field collide with atmospheric gases, which then emit light. Solar wind drives much of the process.",
+      "explanation_incorrect": "A corona can be an optical diffraction pattern; halos are generally caused by ice crystals, and airglow is a different form of atmospheric luminescence."
     },
     {
       "subcategory": "Nuclear Physics",
@@ -659,14 +623,12 @@
       "options": [
         "Fission",
         "Fusion",
-        "Decay",
-        "Transmutation"
+        "Ionization",
+        "Evaporation"
       ],
       "answer": "Fission",
       "explanation_correct": "Nuclear fission is the division of a heavy nucleus into smaller parts accompanied by energy release.",
-      "explanation_incorrect": "Fusion joins nuclei together, while decay and transmutation refer to different radioactive processes.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Fusion joins nuclei, ionization changes the number of electrons, and evaporation is a phase change. Spontaneous fission is a type of radioactive decay."
     },
     {
       "subcategory": "Oceanography",
@@ -685,7 +647,7 @@
     },
     {
       "subcategory": "Dynamics",
-      "question": "In dynamics, what physical quantity is defined as the product of force and the displacement it produces?",
+      "question": "For a constant force, what quantity is the dot product of the force and the displacement?",
       "options": [
         "Work",
         "Power",
@@ -693,10 +655,8 @@
         "Torque"
       ],
       "answer": "Work",
-      "explanation_correct": "Work is defined as force applied over a distance.",
-      "explanation_incorrect": "Power is work per unit time, momentum is mass times velocity, and torque is rotational force.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mechanical work is W = F·d = Fd cos θ for a constant force, where θ is the angle between force and displacement.",
+      "explanation_incorrect": "Power is the rate of doing work, momentum is mass times velocity, and torque is the moment of a force."
     },
     {
       "subcategory": "Meteorology",
@@ -739,24 +699,20 @@
       ],
       "answer": "Turbulence",
       "explanation_correct": "Turbulence is characterized by erratic changes in pressure and flow velocity.",
-      "explanation_incorrect": "Laminar corresponds to smooth flow, while viscosity relates to resistance, and steady implies non-chaotic movement.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Laminar flow has orderly layers; viscosity is resistance to deformation, and steady flow has properties that do not change with time at a fixed point."
     },
     {
       "subcategory": "Thermodynamics",
-      "question": "Which mechanism of heat transfer is identified by the net movement of molecules within a fluid?",
+      "question": "What heat-transfer mechanism involves bulk movement of a fluid?",
       "options": [
         "Convection",
         "Conduction",
         "Radiation",
-        "Advection"
+        "Sublimation"
       ],
       "answer": "Convection",
-      "explanation_correct": "Convection involves the bulk movement of fluid particles to transfer thermal energy.",
-      "explanation_incorrect": "Conduction transfers heat through stationery matter while radiation involves electromagnetic waves.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Convection transports heat through fluid motion, usually together with conduction within the fluid. Advection is transport by bulk fluid motion.",
+      "explanation_incorrect": "Conduction transfers energy through microscopic interactions, radiation uses electromagnetic waves, and sublimation is a phase change."
     },
     {
       "subcategory": "Glaciology",
@@ -768,10 +724,8 @@
         "Melting"
       ],
       "answer": "Sublimation",
-      "explanation_correct": "Sublimation is the direct transition of ice into water vapor.",
-      "explanation_incorrect": "Evaporation is liquid to gas, deposition is gas to solid, and melting is solid to liquid.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sublimation is the direct transition from a solid to a gas; ice changing directly to water vapor is one example.",
+      "explanation_incorrect": "Evaporation is liquid to gas, deposition is gas to solid, and melting is solid to liquid."
     },
     {
       "subcategory": "Kinematics",
@@ -843,10 +797,8 @@
         "Coronal hole"
       ],
       "answer": "Solar flare",
-      "explanation_correct": "Solar flares are abrupt flashes of increased brightness on the solar surface.",
-      "explanation_incorrect": "Sunspots appear darker, prominences are loops of plasma, and coronal holes are low-density regions.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A solar flare is a sudden burst of radiation released from the Sun’s atmosphere by a rapid release of magnetic energy.",
+      "explanation_incorrect": "Sunspots appear darker, prominences are loops of plasma, and coronal holes are low-density regions."
     },
     {
       "subcategory": "Geophysics",
@@ -895,7 +847,7 @@
     },
     {
       "subcategory": "Meteorology",
-      "question": "Which scale is utilized to categorize hurricanes based on wind speeds and potential damage?",
+      "question": "Which scale categorizes Atlantic and eastern North Pacific hurricanes using maximum sustained wind speed?",
       "options": [
         "Saffir-Simpson",
         "Richter",
@@ -903,10 +855,8 @@
         "Beaufort"
       ],
       "answer": "Saffir-Simpson",
-      "explanation_correct": "The Saffir-Simpson Hurricane Wind Scale classifies hurricanes from Category 1 to 5.",
-      "explanation_incorrect": "Richter measures earthquakes, Fujita classifies tornadoes, and Beaufort estimates wind speed for mariners.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Saffir–Simpson Hurricane Wind Scale classifies hurricanes from Category 1 to 5 by sustained wind speed; it does not directly classify storm surge or rainfall.",
+      "explanation_incorrect": "Richter measures earthquakes, Fujita classifies tornadoes, and Beaufort estimates wind speed for mariners."
     },
     {
       "subcategory": "Solid Mechanics",
@@ -940,22 +890,20 @@
     },
     {
       "subcategory": "Quantum Mechanics",
-      "question": "What term refers to the minimum discrete unit of an entity, particularly energy or matter?",
+      "question": "What is a discrete amount of a physical quantity in a quantum process called?",
       "options": [
-        "Quanta",
-        "Isotopes",
-        "Ions",
-        "Photons"
+        "Quantum",
+        "Isotope",
+        "Ion",
+        "Molecule"
       ],
-      "answer": "Quanta",
-      "explanation_correct": "A quantum is the minimum amount of any physical entity involved in an interaction.",
-      "explanation_incorrect": "Isotopes, ions, and photons represent specific categories of particles rather than the general concept of discrete units.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Quantum",
+      "explanation_correct": "A quantum is a discrete amount of a physical quantity, such as an energy quantum associated with a photon. Not every physical quantity has a universal minimum.",
+      "explanation_incorrect": "An isotope is a nuclear variant of an element, an ion has net charge, and a molecule consists of bonded atoms."
     },
     {
       "subcategory": "Climatology",
-      "question": "Which climate cycle is characterized by unusually cold Pacific Ocean temperatures?",
+      "question": "Which phase of El Niño–Southern Oscillation features unusually cool sea-surface temperatures in the central and eastern equatorial Pacific?",
       "options": [
         "La Niña",
         "El Niño",
@@ -964,28 +912,24 @@
       ],
       "answer": "La Niña",
       "explanation_correct": "La Niña is the cool phase of the El Niño-Southern Oscillation pattern.",
-      "explanation_incorrect": "El Niño is the warming phase, while the others describe broader atmospheric or oscillation processes.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "El Niño is the warming phase, while the others describe broader atmospheric or oscillation processes."
     },
     {
       "subcategory": "Hydrodynamics",
-      "question": "Which term describes the force exerted by a fluid in motion, such as moving water, against an object?",
+      "question": "In fluid mechanics, what is the name of the quantity equal to one half of the fluid density multiplied by the square of its speed?",
       "options": [
-        "Hydrodynamic force",
+        "Dynamic pressure",
         "Buoyant force",
-        "Hydrostatic pressure",
-        "Surface tension"
+        "Surface tension",
+        "Viscosity"
       ],
-      "answer": "Hydrodynamic force",
-      "explanation_correct": "Hydrodynamic force results from the motion and momentum of a fluid acting upon a body.",
-      "explanation_incorrect": "Buoyant force is a static upward force, and hydrostatic pressure is the pressure exerted by a fluid at rest.",
-      "last_verified_at": "2026-06-12T16:18:26.827Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dynamic pressure",
+      "explanation_correct": "Dynamic pressure is q = ½ρv², where ρ is the fluid density and v is the flow speed relative to the chosen frame.",
+      "explanation_incorrect": "Buoyant force results from pressure differences; surface tension and viscosity are distinct fluid properties."
     },
     {
       "subcategory": "Biophysics",
-      "question": "What is the maximum stress a material can withstand while being stretched before fracture?",
+      "question": "What is the maximum engineering stress a material sustains in a tensile test?",
       "options": [
         "Tensile strength",
         "Elastic modulus",
@@ -993,10 +937,8 @@
         "Flexural strength"
       ],
       "answer": "Tensile strength",
-      "explanation_correct": "Tensile strength is the capacity of a material to withstand a pulling force before failure.",
-      "explanation_incorrect": "Yield point refers to the onset of plastic deformation, and elastic modulus measures stiffness.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ultimate tensile strength is the maximum engineering stress reached during a tensile test; fracture may occur after that maximum.",
+      "explanation_incorrect": "Yield marks the onset of permanent deformation, elastic modulus measures stiffness, and flexural strength concerns bending."
     },
     {
       "subcategory": "Surface Science",
@@ -1039,9 +981,7 @@
       ],
       "answer": "Tachyon",
       "explanation_correct": "A tachyon is a hypothetical particle that travels faster than c.",
-      "explanation_incorrect": "Gluons, leptons, and hadrons are real, known categories of subatomic particles.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gluons are known elementary particles, while leptons and hadrons are particle categories; none denotes a hypothetical always-faster-than-light particle."
     },
     {
       "subcategory": "Thermodynamics",
@@ -1075,7 +1015,7 @@
     },
     {
       "subcategory": "Atmospheric Science",
-      "question": "At what specific temperature must air be cooled for it to be saturated with water vapor?",
+      "question": "What is the temperature to which air must be cooled to reach saturation, at constant pressure and water-vapor content?",
       "options": [
         "Dew point",
         "Freezing point",
@@ -1083,10 +1023,8 @@
         "Triple point"
       ],
       "answer": "Dew point",
-      "explanation_correct": "The dew point is the temperature at which water vapor in the air condenses into liquid water.",
-      "explanation_incorrect": "Freezing, boiling, and triple points are phase transition temperatures for pure substances under specific conditions.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The dew point is the temperature at which air reaches saturation when cooled at constant pressure and moisture content.",
+      "explanation_incorrect": "Freezing, boiling, and triple points are phase transition temperatures for pure substances under specific conditions."
     },
     {
       "subcategory": "Nuclear Physics",
@@ -1098,10 +1036,8 @@
         "Ionization"
       ],
       "answer": "Fusion",
-      "explanation_correct": "Nuclear fusion is the process by which two light atomic nuclei combine to form a heavier one, releasing energy.",
-      "explanation_incorrect": "Fission is the splitting of a heavy nucleus, and decay is the spontaneous loss of energy.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nuclear fusion combines nuclei into a heavier nucleus. Fusion of light nuclei can release energy, though energy release depends on the reaction.",
+      "explanation_incorrect": "Fission is the splitting of a heavy nucleus, and decay is the spontaneous loss of energy."
     },
     {
       "subcategory": "Geomorphology",
@@ -1120,7 +1056,7 @@
     },
     {
       "subcategory": "Astronomy",
-      "question": "What phenomenon consists of a stream of charged particles emitted from the upper atmosphere of the Sun?",
+      "question": "What is the continuous outflow of charged particles from the Sun’s upper atmosphere called?",
       "options": [
         "Solar wind",
         "Coronal mass ejection",
@@ -1129,9 +1065,7 @@
       ],
       "answer": "Solar wind",
       "explanation_correct": "Solar wind is a stream of charged particles (plasma) released from the upper atmosphere of the Sun.",
-      "explanation_incorrect": "Coronal mass ejections and flares are specific solar events, while sunspots are localized dark regions.",
-      "last_verified_at": "2026-06-12T16:17:44.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A coronal mass ejection is a separate large eruption of solar plasma; a flare is an intense radiation burst, and sunspots are relatively dark regions."
     },
     {
       "subcategory": "Molecular Physics",
@@ -1174,9 +1108,7 @@
       ],
       "answer": "Body wave",
       "explanation_correct": "Body waves are waves that travel through the inner parts of the Earth, distinct from surface waves.",
-      "explanation_incorrect": "Surface, Love, and Rayleigh waves are seismic waves that propagate only along the Earth's crust.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Love and Rayleigh waves are surface waves, which propagate near Earth’s surface rather than through its deep interior."
     },
     {
       "subcategory": "Statics",
@@ -1188,10 +1120,8 @@
         "Acceleration"
       ],
       "answer": "Equilibrium",
-      "explanation_correct": "Equilibrium occurs when all forces acting on a body are balanced, resulting in no change in motion.",
-      "explanation_incorrect": "Inertia is a property of matter, while velocity and acceleration describe active changes in motion.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mechanical equilibrium means the net force and net torque are zero, so linear and angular momentum do not change. An object need not be at rest.",
+      "explanation_incorrect": "Inertia is resistance to changes in motion; velocity and acceleration describe motion rather than the balance of force and torque."
     },
     {
       "subcategory": "Optics",
@@ -1210,18 +1140,16 @@
     },
     {
       "subcategory": "Magnetism",
-      "question": "What is the specific temperature threshold at which a ferromagnetic material loses its permanent magnetic properties?",
+      "question": "What is the temperature above which a ferromagnetic material loses its spontaneous ferromagnetic order?",
       "options": [
         "Curie point",
         "Triple point",
-        "Critical point",
+        "Boiling point",
         "Flash point"
       ],
       "answer": "Curie point",
-      "explanation_correct": "The Curie point is the temperature above which certain materials lose their permanent magnetic properties definitively.",
-      "explanation_incorrect": "These alternatives refer to thermodynamic phases or safety thresholds rather than magnetic state transitions.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Above its Curie temperature, a ferromagnet becomes paramagnetic; ferromagnetic order can return when the material cools.",
+      "explanation_incorrect": "The triple point and boiling point describe phase behavior; the flash point concerns ignition of vapor. The Curie point is a magnetic critical point."
     },
     {
       "subcategory": "Atmospheric Science",
@@ -1249,9 +1177,7 @@
       ],
       "answer": "Thrust",
       "explanation_correct": "Thrust is the forward-directed force produced by a propulsion system to overcome resistance.",
-      "explanation_incorrect": "Lift, drag, and gravity are forces acting perpendicular or opposite to the movement of the aircraft.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lift and drag are aerodynamic force components; gravity is the aircraft’s weight force. Their exact directions depend on the motion and configuration."
     },
     {
       "subcategory": "Chemistry",
@@ -1285,7 +1211,7 @@
     },
     {
       "subcategory": "Hydrology",
-      "question": "What collective term describes any product of the condensation of atmospheric water vapor that falls under gravity onto the Earth's surface?",
+      "question": "What collective term describes liquid or frozen water particles falling from clouds to the ground?",
       "options": [
         "Precipitation",
         "Evaporation",
@@ -1293,10 +1219,8 @@
         "Transpiration"
       ],
       "answer": "Precipitation",
-      "explanation_correct": "Precipitation includes all liquid or frozen water particles falling from the sky to the ground.",
-      "explanation_incorrect": "These other terms refer to the conversion of liquid or solid water into vapor, not liquid fall.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Precipitation includes rain, snow, sleet and hail. Ice crystals can grow by deposition of water vapor as well as through processes involving droplets.",
+      "explanation_incorrect": "Evaporation and sublimation are phase changes; transpiration releases water vapor from plants."
     },
     {
       "subcategory": "Dynamics",
@@ -1308,10 +1232,8 @@
         "Work"
       ],
       "answer": "Torque",
-      "explanation_correct": "Torque is the rotational force that creates angular acceleration.",
-      "explanation_incorrect": "These options relate to linear force applications, time-series changes in movement, or energy transfer.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Torque is the moment of a force about a point or axis and can change angular momentum.",
+      "explanation_incorrect": "Impulse changes linear momentum, momentum describes motion, and work is energy transferred by a force through displacement."
     },
     {
       "subcategory": "Meteorology",
@@ -1348,15 +1270,13 @@
       "question": "What specific geological structure is defined as an isolated mountain rising from the seafloor that does not reach the surface?",
       "options": [
         "Seamount",
-        "Guyot",
         "Atoll",
-        "Island arc"
+        "Abyssal plain",
+        "Ocean trench"
       ],
       "answer": "Seamount",
-      "explanation_correct": "Seamounts are submerged volcanic mountains formed on the ocean floor.",
-      "explanation_incorrect": "Guyots are flat-topped seamounts, atolls are coral reefs, and island arcs are chains of volcanic islands.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A seamount is an underwater mountain rising from the seafloor. A flat-topped seamount is called a guyot.",
+      "explanation_incorrect": "An atoll is a ring-shaped coral reef, an abyssal plain is a broad deep-ocean floor, and a trench is a deep depression."
     },
     {
       "subcategory": "Materials Science",
@@ -1390,7 +1310,7 @@
     },
     {
       "subcategory": "Quantum Physics",
-      "question": "What phenomenon in quantum mechanics allows a physical system to exist in multiple theoretical states simultaneously until measured?",
+      "question": "What quantum concept describes a state expressed as a linear combination of two or more basis states?",
       "options": [
         "Superposition",
         "Entanglement",
@@ -1398,14 +1318,12 @@
         "Decoherence"
       ],
       "answer": "Superposition",
-      "explanation_correct": "Superposition describes the capability of quantum entities to occupy all valid states until an observation forces a collapse.",
-      "explanation_incorrect": "These terms describe other complex quantum interactions such as correlation, penetration of barriers, or loss of state.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A quantum superposition combines basis states with amplitudes. The possible outcomes and probabilities depend on the measurement basis.",
+      "explanation_incorrect": "Entanglement concerns correlations between quantum systems; tunneling concerns transmission through a barrier, and decoherence reduces observable interference."
     },
     {
       "subcategory": "Cryogenics",
-      "question": "What state of matter is formed when particles at extremely near-zero temperatures occupy the same lowest energy quantum state as a single wave function?",
+      "question": "What state of matter can arise when many bosons occupy the same lowest-energy quantum state at temperatures near absolute zero?",
       "options": [
         "Bose-Einstein condensate",
         "Plasma",
@@ -1414,28 +1332,24 @@
       ],
       "answer": "Bose-Einstein condensate",
       "explanation_correct": "A Bose-Einstein condensate is a state of matter occurring at temperatures near absolute zero where quantum effects become macroscopic.",
-      "explanation_incorrect": "These alternatives describe high-energy states, phase boundaries, or high-density states found in stars.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Plasma is ionized matter; a supercritical fluid is above its critical point, while other forms of degenerate matter are not necessarily Bose–Einstein condensates."
     },
     {
       "subcategory": "Cosmology",
-      "question": "Which undetected, hypothetical form of energy is proposed to explain the observed accelerating expansion of the entire universe?",
+      "question": "What broad name is given to the unknown component invoked to explain the observed acceleration of cosmic expansion?",
       "options": [
         "Dark energy",
         "Dark matter",
-        "Cosmological constant",
-        "Vacuum energy"
+        "Cosmic rays",
+        "Ordinary matter"
       ],
       "answer": "Dark energy",
-      "explanation_correct": "Dark energy is the force postulated to drive the accelerated expansion of the universe.",
-      "explanation_incorrect": "Dark matter is an gravitational mass component, while the other terms describe energy constants or theoretical framework components.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dark energy is the name for the unknown cause of accelerated cosmic expansion. A cosmological constant or vacuum energy is one possible model.",
+      "explanation_incorrect": "Dark matter helps explain gravitational effects on cosmic structure; cosmic rays are energetic particles, and ordinary matter does not name the inferred accelerating component."
     },
     {
       "subcategory": "Astronomy",
-      "question": "What astrophysical process involves the gravitational collapse of massive interstellar dust and gas clouds, leading to the ignition of fusion?",
+      "question": "What process can begin with the gravitational collapse of a gas and dust cloud and lead to hydrogen fusion in a protostar’s core?",
       "options": [
         "Star formation",
         "Nucleosynthesis",
@@ -1443,14 +1357,12 @@
         "Nova eruption"
       ],
       "answer": "Star formation",
-      "explanation_correct": "Star formation is the process by which gaseous nebulae collapse under their own gravity to ignite.",
-      "explanation_incorrect": "The others refer to element production inside stars, matter accumulation onto disks, or late-stage stellar explosions.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "In star formation, a collapsing region forms a protostar. If its core becomes hot and dense enough, sustained hydrogen fusion begins there.",
+      "explanation_incorrect": "Nucleosynthesis makes elements, accretion is the accumulation of matter and can occur during star formation, and a nova is an eruption on an accreting white dwarf."
     },
     {
       "subcategory": "Geology",
-      "question": "What molten material is found beneath the Earth's crust, which can form igneous rocks if it cools and solidifies?",
+      "question": "What molten or partially molten rock below Earth’s surface can form igneous rock when it cools?",
       "options": [
         "Magma",
         "Lava",
@@ -1458,10 +1370,8 @@
         "Obsidian"
       ],
       "answer": "Magma",
-      "explanation_correct": "Magma is the subterranean term for molten rock found within the Earth.",
-      "explanation_incorrect": "Lava describes molten rock reaching the surface, while the others are solid debris or volcanic glass types.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Magma is molten or partially molten rock beneath Earth’s surface, including within the crust.",
+      "explanation_incorrect": "Lava describes molten rock reaching the surface, while the others are solid debris or volcanic glass types."
     },
     {
       "subcategory": "Hydrostatics",
@@ -1473,14 +1383,12 @@
         "Torricelli law"
       ],
       "answer": "Archimedes principle",
-      "explanation_correct": "Archimedes' principle defines the relationship between buoyancy and displacement in liquids.",
-      "explanation_incorrect": "These other principles govern pressure in closed fluids, fluid velocity-pressure relationships, or flow drainage rates.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Archimedes’ principle states that buoyant force equals the weight of displaced fluid; it applies to gases as well as liquids.",
+      "explanation_incorrect": "These other principles govern pressure in closed fluids, fluid velocity-pressure relationships, or flow drainage rates."
     },
     {
       "subcategory": "Circular Motion",
-      "question": "What type of force is required to keep an object moving in a curved path, always directed toward the center of the arc?",
+      "question": "What is the name of the net inward force component needed to keep an object moving in a circular path?",
       "options": [
         "Centripetal force",
         "Frictional force",
@@ -1488,14 +1396,12 @@
         "Tension force"
       ],
       "answer": "Centripetal force",
-      "explanation_correct": "Centripetal force is the net force acting on an object to force it into a circular trajectory.",
-      "explanation_incorrect": "These options represent resistance, property of matter relative to state change, or pulling force along a string.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The centripetal force is the inward component of the net force. It can be supplied by tension, friction, gravity, or other interactions.",
+      "explanation_incorrect": "Friction and tension can provide centripetal force in particular cases; they are not alternatives to the general name for the net inward force."
     },
     {
       "subcategory": "Mechanics",
-      "question": "Which apparent force appears to pull an object away from the center of curvature in a rotating frame of reference?",
+      "question": "Which apparent force points away from the axis of rotation in a rotating reference frame?",
       "options": [
         "Centrifugal force",
         "Coriolis force",
@@ -1504,9 +1410,7 @@
       ],
       "answer": "Centrifugal force",
       "explanation_correct": "Centrifugal force is a fictitious force felt in a rotating frame that seems to push outward.",
-      "explanation_incorrect": "Coriolis is an deflection force, while gravity and normal force are real physical forces involved in statics.",
-      "last_verified_at": "2026-06-12T16:17:44.736Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "The Coriolis force is another apparent force in a rotating frame; gravity and normal force are physical forces."
     }
   ]
 }
