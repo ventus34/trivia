@@ -12,6 +12,8 @@ Kolejna partia 2026-11-06: poprawiono 288 rekordów pytań w siedmiu paczkach do
 
 Kolejna partia 2026-11-06: zmieniono 327 rekordów w siedmiu paczkach o fizyce, zjawiskach natury, fotografii, nagrodach i kulturze gier, światach gier oraz gatunkach muzycznych. Poprawki obejmują również redakcję i metadane; nie oznaczają potwierdzenia źródłowego każdego twierdzenia. Szczegóły, wybrane źródła oraz granice kontroli zapisano w osobnych raportach, w tym informację o pracach przerwanych limitem. Dalszy przegląd pozostałych paczek trwa.
 
+Kolejna partia 2026-11-06: zmieniono 287 rekordów w siedmiu plikach, w tym sześciu kolejnych paczkach o odkryciach, wodzie, grach i gwarach oraz trzech rekordach w wcześniej opublikowanej paczce o nagrodach gier. Liczba obejmuje także poprawki redakcyjne i metadane. Raporty opisują zakres przeglądów, wybrane źródła i ograniczenia; przegląd pytań nie jest dowodem niezależnej weryfikacji każdego twierdzenia.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

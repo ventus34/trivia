@@ -2,10 +2,8 @@
   "id": "great_water_en",
   "name": "Great Water",
   "language": "en",
-  "description": "Questions covering: Ancient Oceans, Biblical Flood, Great Lakes, World Rivers, Oceanography...",
+  "description": "Questions about oceans, rivers and lakes, marine life, navigation, water science, art, and water-related myths and stories.",
   "created_at": "2026-06-12T14:49:22.785Z",
-  "last_verified_at": "2026-06-12T14:42:22.214Z",
-  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 97,
   "questions": [
     {
@@ -40,7 +38,7 @@
     },
     {
       "subcategory": "Great Lakes",
-      "question": "Which of the Great Lakes is the largest by surface area?",
+      "question": "When the five named Great Lakes are counted separately, which has the largest surface area?",
       "options": [
         "Superior",
         "Michigan",
@@ -48,10 +46,8 @@
         "Erie"
       ],
       "answer": "Superior",
-      "explanation_correct": "Lake Superior is the largest Great Lake by surface area. It is also the largest freshwater lake by area in the world.",
-      "explanation_incorrect": "The other choices are also Great Lakes, but each is smaller in surface area than Superior. They are not the correct largest lake in the group.",
-      "last_verified_at": "2026-06-12T14:40:43.772Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Lake Superior is the largest of the five named Great Lakes by surface area. Hydrologically, Michigan and Huron can also be treated as one connected lake, Michigan–Huron.",
+      "explanation_incorrect": "Each of the other separately named Great Lakes is smaller than Lake Superior by surface area."
     },
     {
       "subcategory": "World Rivers",
@@ -85,7 +81,7 @@
     },
     {
       "subcategory": "Naval Exploration",
-      "question": "Which explorer is known for the first expedition to cross the Pacific Ocean?",
+      "question": "Which explorer led the expedition that crossed the Pacific from South America to the Mariana Islands in 1520–1521?",
       "options": [
         "Magellan",
         "Columbus",
@@ -93,10 +89,8 @@
         "Vespucci"
       ],
       "answer": "Magellan",
-      "explanation_correct": "Ferdinand Magellan’s expedition became the first to cross the Pacific Ocean. His voyage is a landmark in global exploration.",
-      "explanation_incorrect": "The other explorers are famous voyagers, but they are not credited with the first Pacific crossing. Their expeditions focused on different routes and discoveries.",
-      "last_verified_at": "2026-06-12T14:40:43.772Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ferdinand Magellan led the expedition on that crossing. Pacific Islanders had navigated the ocean long before European voyages.",
+      "explanation_incorrect": "The named 1520–1521 expedition was led by Magellan; the other explorers did not lead that crossing."
     },
     {
       "subcategory": "Hydrology",
@@ -220,7 +214,7 @@
     },
     {
       "subcategory": "Mythic Islands",
-      "question": "What is the name of the legendary sunken island civilization?",
+      "question": "What legendary island civilization is described by Plato as having sunk beneath the sea?",
       "options": [
         "Atlantis",
         "Lemuria",
@@ -229,9 +223,7 @@
       ],
       "answer": "Atlantis",
       "explanation_correct": "Atlantis is the best-known legendary island civilization said to have sunk beneath the sea. It appears in classical philosophical tradition, especially in Plato.",
-      "explanation_incorrect": "Lemuria, Mu, and Avalon are also legendary or fictional places, but they are not the famous sunken civilization from Plato's account. Atlantis is the standard answer.",
-      "last_verified_at": "2026-06-12T14:40:43.773Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Lemuria, Mu, and Avalon are other legendary or speculative places; Atlantis is the island described by Plato."
     },
     {
       "subcategory": "Mythology",
@@ -280,7 +272,7 @@
     },
     {
       "subcategory": "Exploration",
-      "question": "Which naturalist was the navigator associated with the voyage of the Beagle?",
+      "question": "Which naturalist sailed on HMS Beagle’s second survey voyage and later developed a theory of evolution by natural selection?",
       "options": [
         "Darwin",
         "Hooker",
@@ -289,9 +281,7 @@
       ],
       "answer": "Darwin",
       "explanation_correct": "Charles Darwin sailed on the Beagle and became famous for observations made during that expedition. He later developed the theory of evolution by natural selection.",
-      "explanation_incorrect": "Hooker, Lyell, and Wallace were important scientists, but they were not the Beagle's associated navigator/naturalist in the same famous voyage. Darwin is the correct historical figure.",
-      "last_verified_at": "2026-06-12T14:40:43.773Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The voyage was commanded by Robert FitzRoy; Darwin sailed aboard as a naturalist and companion. Hooker, Lyell, and Wallace did not fill that role on this voyage."
     },
     {
       "subcategory": "Maritime History",
@@ -355,18 +345,16 @@
     },
     {
       "subcategory": "Engineering",
-      "question": "What is the device called that removes salt from seawater?",
+      "question": "What is the general name for equipment designed to remove dissolved salts from seawater?",
       "options": [
         "desalinator",
-        "evaporator",
-        "filtration pump",
-        "condensator"
+        "barometer",
+        "sextant",
+        "anemometer"
       ],
       "answer": "desalinator",
       "explanation_correct": "A desalinator removes dissolved salts from seawater to make it usable as fresh water. It is used in desalination processes.",
-      "explanation_incorrect": "The other devices may process fluids or heat, but they do not specifically remove salt from seawater.",
-      "last_verified_at": "2026-06-12T14:40:43.774Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A barometer measures pressure, a sextant measures angles, and an anemometer measures wind speed."
     },
     {
       "subcategory": "Literature",
@@ -385,7 +373,7 @@
     },
     {
       "subcategory": "Weather",
-      "question": "What is the name of a rotating tropical storm over the Atlantic?",
+      "question": "What is the regional name for an Atlantic tropical cyclone with maximum sustained winds of at least 74 mph (64 knots)?",
       "options": [
         "hurricane",
         "typhoon",
@@ -393,10 +381,8 @@
         "tornado"
       ],
       "answer": "hurricane",
-      "explanation_correct": "A hurricane is a tropical cyclone that forms over the Atlantic and northeastern Pacific. It is the regional term for that type of storm.",
-      "explanation_incorrect": "The other terms refer to similar weather systems in different regions or to a different kind of storm entirely.",
-      "last_verified_at": "2026-06-12T14:40:43.774Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "An Atlantic tropical cyclone reaching at least 74 mph (64 knots) in maximum sustained winds is classified as a hurricane.",
+      "explanation_incorrect": "A hurricane is a type of tropical cyclone; a typhoon is the regional name for a comparable system in the northwestern Pacific. A tornado is a different phenomenon."
     },
     {
       "subcategory": "Religion",
@@ -415,7 +401,7 @@
     },
     {
       "subcategory": "Earth Science",
-      "question": "What is the term for the process by which water changes from liquid to gas?",
+      "question": "What is the surface process by which liquid water becomes water vapor without boiling?",
       "options": [
         "evaporation",
         "condensation",
@@ -423,10 +409,8 @@
         "sublimation"
       ],
       "answer": "evaporation",
-      "explanation_correct": "Evaporation is the phase change in which liquid water becomes water vapor. It happens when molecules gain enough energy to escape the liquid surface.",
-      "explanation_incorrect": "The other choices describe different phase changes or different states of matter.",
-      "last_verified_at": "2026-06-12T14:40:43.774Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Evaporation is vaporization at the liquid surface. Boiling is another way for liquid water to become vapor.",
+      "explanation_incorrect": "The other choices describe different phase changes or different states of matter."
     },
     {
       "subcategory": "Canals",
@@ -460,18 +444,16 @@
     },
     {
       "subcategory": "Mythology",
-      "question": "Which figure in Norse mythology is the sea god?",
+      "question": "Which Norse sea-associated figure hosts feasts for the gods in his hall?",
       "options": [
         "Aegir",
-        "Poseidon",
-        "Njord",
-        "Triton"
+        "Zeus",
+        "Apollo",
+        "Ares"
       ],
       "answer": "Aegir",
-      "explanation_correct": "Aegir is a sea god in Norse mythology. He is associated with the sea and seafaring.",
-      "explanation_incorrect": "The other options are also mythological sea-related figures, but they are not the Norse sea god asked for here.",
-      "last_verified_at": "2026-06-12T14:40:43.774Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Aegir is a sea-associated figure in Norse mythology who hosts the gods at feasts.",
+      "explanation_incorrect": "Zeus, Apollo, and Ares are Greek deities. Njord is another Norse deity associated with the sea."
     },
     {
       "subcategory": "Oceanography",
@@ -483,14 +465,12 @@
         "Labrador Current"
       ],
       "answer": "Gulf Stream",
-      "explanation_correct": "The Gulf Stream is a major warm Atlantic ocean current. It transports heat from the Gulf of Mexico toward the North Atlantic.",
-      "explanation_incorrect": "The other options are ocean currents too, but they are different currents from the one named in the question.",
-      "last_verified_at": "2026-06-12T14:40:43.775Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Gulf Stream is a warm current in the western North Atlantic. It flows north along the US coast before turning eastward.",
+      "explanation_incorrect": "The Kuroshio is a warm Pacific current; the Canary and Labrador currents are Atlantic currents with cooler waters."
     },
     {
       "subcategory": "Geography",
-      "question": "Which ocean is the largest by surface area?",
+      "question": "Which ocean lies between the Americas and Europe and Africa?",
       "options": [
         "Atlantic Ocean",
         "Indian Ocean",
@@ -498,10 +478,8 @@
         "Arctic Ocean"
       ],
       "answer": "Atlantic Ocean",
-      "explanation_correct": "The Atlantic Ocean is the largest ocean by surface area. It lies between the Americas and Europe/Africa.",
-      "explanation_incorrect": "The other options are oceans as well, but they are smaller than the one asked for.",
-      "last_verified_at": "2026-06-12T14:40:43.775Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Atlantic Ocean lies between the Americas to the west and Europe and Africa to the east.",
+      "explanation_incorrect": "The Indian, Southern, and Arctic oceans do not match this location."
     },
     {
       "subcategory": "Rivers",
@@ -595,7 +573,7 @@
     },
     {
       "subcategory": "Naval History",
-      "question": "Which admiral led the British fleet at Trafalgar?",
+      "question": "Which admiral commanded the British fleet at the start of the Battle of Trafalgar in 1805?",
       "options": [
         "Horatio Nelson",
         "Francis Drake",
@@ -603,10 +581,8 @@
         "Cuthbert Collingwood"
       ],
       "answer": "Horatio Nelson",
-      "explanation_correct": "Horatio Nelson commanded the British fleet at the Battle of Trafalgar in 1805. He is one of Britain's most celebrated naval commanders.",
-      "explanation_incorrect": "The other options are naval figures, but they are not the admiral who led the fleet at Trafalgar.",
-      "last_verified_at": "2026-06-12T14:40:43.775Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Horatio Nelson commanded the fleet at the start of Trafalgar and was fatally wounded during the battle. Cuthbert Collingwood then assumed command.",
+      "explanation_incorrect": "Collingwood took command after Nelson was mortally wounded; the fleet began the battle under Nelson."
     },
     {
       "subcategory": "Freshwater Ecology",
@@ -655,18 +631,16 @@
     },
     {
       "subcategory": "Sailing",
-      "question": "What is the name for the windless ocean zone near the equator?",
+      "question": "What maritime term refers to the low-wind belt near the equator where sailing ships can be becalmed?",
       "options": [
         "doldrums",
         "trade winds",
         "horse latitudes",
-        "calm belt"
+        "polar easterlies"
       ],
       "answer": "doldrums",
-      "explanation_correct": "The doldrums are the calm, low-wind region near the equator that can stall sailing ships. The term is especially common in maritime navigation.",
-      "explanation_incorrect": "The other options also relate to wind or sailing conditions, but they are not the specific calm zone named in the clue. They are similar in category but incorrect.",
-      "last_verified_at": "2026-06-12T14:40:43.775Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The doldrums are an equatorial region associated with light and variable winds and frequent convection; they are not always windless.",
+      "explanation_incorrect": "Trade winds and polar easterlies are prevailing wind belts, while horse latitudes are subtropical high-pressure regions."
     },
     {
       "subcategory": "Art",
@@ -685,18 +659,16 @@
     },
     {
       "subcategory": "Mythology",
-      "question": "Which Greek sea deity is the son of Poseidon?",
+      "question": "Which sea deity in Greek myth is a son of Poseidon and Amphitrite and is often shown with a conch?",
       "options": [
         "Triton",
-        "Nereus",
-        "Proteus",
-        "Glaucus"
+        "Zeus",
+        "Ares",
+        "Apollo"
       ],
       "answer": "Triton",
       "explanation_correct": "Triton is a Greek sea god and son of Poseidon. He is often depicted with a conch shell.",
-      "explanation_incorrect": "The other figures are sea-associated beings from Greek myth, but they are not the deity identified in the clue. They belong to the same mythological category but are not correct.",
-      "last_verified_at": "2026-06-12T14:40:43.776Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Zeus, Ares, and Apollo are Greek gods, but the son of Poseidon and Amphitrite described here is Triton."
     },
     {
       "subcategory": "Mythology",
@@ -760,7 +732,7 @@
     },
     {
       "subcategory": "Hydrology",
-      "question": "What is the process called when water vapor cools and forms clouds?",
+      "question": "What is the change from water vapor into liquid droplets in cloud formation called?",
       "options": [
         "condensation",
         "evaporation",
@@ -768,10 +740,8 @@
         "precipitation"
       ],
       "answer": "condensation",
-      "explanation_correct": "Condensation is the phase change in which water vapor becomes liquid droplets, allowing clouds to form. It is a key step in the water cycle.",
-      "explanation_incorrect": "Evaporation changes liquid to vapor, sublimation skips the liquid phase, and precipitation is water falling from clouds.",
-      "last_verified_at": "2026-06-12T14:40:43.776Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Condensation turns water vapor into liquid droplets. Some clouds also contain ice formed by freezing or deposition.",
+      "explanation_incorrect": "Evaporation changes liquid to vapor, sublimation skips the liquid phase, and precipitation is water falling from clouds."
     },
     {
       "subcategory": "Engineering",
@@ -805,18 +775,16 @@
     },
     {
       "subcategory": "Marine Biology",
-      "question": "What is the largest living coral structure on Earth?",
+      "question": "What kind of organisms are the coral polyps that build many coral reefs?",
       "options": [
-        "Great Barrier Reef",
-        "Belize Barrier Reef",
-        "New Caledonia Barrier Reef",
-        "Andros Barrier Reef"
+        "animals",
+        "flowering plants",
+        "mushrooms",
+        "bacteria"
       ],
-      "answer": "Great Barrier Reef",
-      "explanation_correct": "The Great Barrier Reef is the world's largest living coral system, stretching along Australia's northeast coast. It is visible even from space.",
-      "explanation_incorrect": "The other reefs are large coral systems, but none match its scale.",
-      "last_verified_at": "2026-06-12T14:40:49.674Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "animals",
+      "explanation_correct": "Coral polyps are animals related to sea anemones and jellyfish. Many reef-building corals secrete calcium carbonate skeletons.",
+      "explanation_incorrect": "Coral polyps are animals, although many corals live in association with microscopic algae."
     },
     {
       "subcategory": "Religion",
@@ -835,37 +803,33 @@
     },
     {
       "subcategory": "Naval History",
-      "question": "Which admiral commanded the British fleet at the Battle of Trafalgar?",
+      "question": "Which cold ocean current flows north along the west coast of South America?",
       "options": [
-        "Nelson",
-        "Collingwood",
-        "Jervis",
-        "Duncan"
+        "Humboldt Current",
+        "Gulf Stream",
+        "Kuroshio Current",
+        "Agulhas Current"
       ],
-      "answer": "Nelson",
-      "explanation_correct": "Admiral Nelson led the British fleet at Trafalgar in 1805. His victory secured British naval dominance, though he was killed in the battle.",
-      "explanation_incorrect": "The other admirals were prominent British naval officers, but Nelson was the commander at Trafalgar.",
-      "last_verified_at": "2026-06-12T14:40:49.675Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Humboldt Current",
+      "explanation_correct": "The Humboldt, or Peru, Current carries relatively cold water northward along western South America.",
+      "explanation_incorrect": "The Gulf Stream is in the Atlantic, Kuroshio in the western Pacific, and Agulhas off southern Africa."
     },
     {
       "subcategory": "Geography",
-      "question": "Which lake is the world's largest freshwater lake by volume?",
+      "question": "Which African lake borders Uganda, Kenya, and Tanzania?",
       "options": [
-        "Baikal",
-        "Superior",
-        "Tanganyika",
-        "Victoria"
+        "Lake Victoria",
+        "Lake Tanganyika",
+        "Lake Malawi",
+        "Lake Chad"
       ],
-      "answer": "Baikal",
-      "explanation_correct": "Lake Baikal contains more freshwater by volume than any other lake on Earth. It is also the deepest lake in the world.",
-      "explanation_incorrect": "The other lakes are vast and important, but none hold as much freshwater by volume as Baikal.",
-      "last_verified_at": "2026-06-12T14:40:49.675Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Lake Victoria",
+      "explanation_correct": "Lake Victoria is shared by Uganda, Kenya, and Tanzania.",
+      "explanation_incorrect": "The other lakes do not border all three of those countries."
     },
     {
       "subcategory": "Meteorology",
-      "question": "What term describes a rotating ocean storm?",
+      "question": "What is the general meteorological term for a rotating low-pressure storm system?",
       "options": [
         "cyclone",
         "anticyclone",
@@ -873,10 +837,8 @@
         "monsoon"
       ],
       "answer": "cyclone",
-      "explanation_correct": "A cyclone is a large rotating storm system that forms over warm ocean waters. It is known for strong winds and heavy rain.",
-      "explanation_incorrect": "An anticyclone is a high-pressure system, a tornado is much smaller and usually over land, and a monsoon is a seasonal wind pattern.",
-      "last_verified_at": "2026-06-12T14:40:49.675Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A cyclone is a rotating low-pressure system. Tropical cyclones form over tropical or subtropical waters, but cyclones also occur outside the tropics.",
+      "explanation_incorrect": "An anticyclone is associated with high pressure; a tornado is a smaller rotating column, and a monsoon is a seasonal wind system."
     },
     {
       "subcategory": "Ancient Philosophy",
@@ -928,15 +890,13 @@
       "question": "What is the term for the mouth of a river where freshwater mixes with seawater?",
       "options": [
         "estuary",
-        "delta",
         "tributary",
-        "watershed"
+        "watershed",
+        "aquifer"
       ],
       "answer": "estuary",
       "explanation_correct": "An estuary is a coastal body of water where river water mixes with saltwater from the sea. It is typically partially enclosed by land.",
-      "explanation_incorrect": "A delta is a sediment deposit at a river mouth, a tributary is a smaller river feeding a larger one, and a watershed is the land area draining into a body of water.",
-      "last_verified_at": "2026-06-12T14:40:49.675Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A tributary feeds another watercourse, a watershed is a drainage area, and an aquifer stores and transmits groundwater. A river delta may also contain estuarine waters."
     },
     {
       "subcategory": "Marine Biology",
@@ -970,7 +930,7 @@
     },
     {
       "subcategory": "Oceanography",
-      "question": "What is the name of a large ocean wave caused by sudden displacement of water?",
+      "question": "What is the name for a series of waves that travels across the ocean after a sudden large displacement of water?",
       "options": [
         "tsunami",
         "tidal bore",
@@ -978,10 +938,8 @@
         "swell"
       ],
       "answer": "tsunami",
-      "explanation_correct": "A tsunami is a series of large waves generated by underwater earthquakes, landslides, or volcanic activity. It results from rapid displacement of water.",
-      "explanation_incorrect": "A tidal bore is a tide-driven wave in a river, a seiche is a standing wave in an enclosed body of water, and a swell is a regular ocean wave pattern.",
-      "last_verified_at": "2026-06-12T14:40:49.675Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A tsunami is a series of propagating waves generated by a sudden displacement of water, often during an undersea earthquake or landslide.",
+      "explanation_incorrect": "A seiche is a standing oscillation in a body of water and can also be triggered by an earthquake. A tidal bore travels upriver with the tide, while swell consists of waves that have traveled away from their generating winds."
     },
     {
       "subcategory": "Literature",
@@ -1030,7 +988,7 @@
     },
     {
       "subcategory": "Meteorology",
-      "question": "What is the regional term for a mature tropical cyclone that develops between 180° and 100°E in the Northern Hemisphere?",
+      "question": "What is the regional name for a hurricane-strength tropical cyclone in the northwestern Pacific?",
       "options": [
         "Typhoon",
         "Hurricane",
@@ -1038,10 +996,8 @@
         "Tornado"
       ],
       "answer": "Typhoon",
-      "explanation_correct": "A typhoon is the specific name for a tropical cyclone in the Northwest Pacific Basin.",
-      "explanation_incorrect": "Hurricanes occur in the Atlantic and Northeast Pacific, while cyclones typically refer to those in the Indian Ocean.",
-      "last_verified_at": "2026-06-12T14:40:49.676Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A typhoon is the regional name for a sufficiently intense tropical cyclone in the northwestern Pacific.",
+      "explanation_incorrect": "Hurricane is used in the Atlantic and parts of the Pacific; tropical cyclone is the broader class, and tornado describes a different phenomenon."
     },
     {
       "subcategory": "Religion",
@@ -1105,48 +1061,42 @@
     },
     {
       "subcategory": "Chemistry",
-      "question": "What substance is commonly called the universal solvent?",
+      "question": "Why does ordinary ice float on liquid water?",
       "options": [
-        "water",
-        "ethanol",
-        "acetone",
-        "ammonia"
+        "Ice is less dense than liquid water",
+        "Ice contains no hydrogen",
+        "Ice has no mass",
+        "Ice is denser than liquid water"
       ],
-      "answer": "water",
-      "explanation_correct": "Water is often called the universal solvent because it dissolves many different substances. This comes from its polarity and molecular structure.",
-      "explanation_incorrect": "The other choices can dissolve some materials, but they are not the substance most commonly given this nickname.",
-      "last_verified_at": "2026-06-12T14:40:49.676Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Ice is less dense than liquid water",
+      "explanation_correct": "The structure of ordinary ice makes it less dense than liquid water, so it floats.",
+      "explanation_incorrect": "Ice and liquid water are both H2O and have mass. A denser object would not float for that reason."
     },
     {
       "subcategory": "Mythology",
-      "question": "Which sea god in Norse mythology is associated with seafaring and the coast?",
+      "question": "Which Norse god is associated with the sea, seafaring, and favorable winds?",
       "options": [
         "Njord",
-        "Aegir",
         "Odin",
-        "Thor"
+        "Thor",
+        "Baldr"
       ],
       "answer": "Njord",
-      "explanation_correct": "Njord is the Norse deity linked to the sea, winds, and wealth. He is especially associated with safe travel and coastal life.",
-      "explanation_incorrect": "The other choices are Norse gods, but they are not the deity specifically known as the sea god here.",
-      "last_verified_at": "2026-06-12T14:40:49.676Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Njord is a Norse deity associated with the sea, winds, and prosperity.",
+      "explanation_incorrect": "Odin, Thor, and Baldr have different principal associations; Aegir is another Norse figure associated with the sea."
     },
     {
       "subcategory": "Geography",
-      "question": "Which ocean is the largest on Earth?",
+      "question": "Which ocean contains the Mariana Trench?",
       "options": [
-        "Pacific",
-        "Atlantic",
-        "Indian",
-        "Arctic"
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
       ],
-      "answer": "Pacific",
-      "explanation_correct": "The Pacific Ocean is the largest ocean by area. It covers more surface than any other ocean basin.",
-      "explanation_incorrect": "The other options are major oceans, but none are as large as the Pacific.",
-      "last_verified_at": "2026-06-12T14:40:49.676Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Pacific Ocean",
+      "explanation_correct": "The Mariana Trench lies in the western Pacific Ocean.",
+      "explanation_incorrect": "The Mariana Trench is in the Pacific, not the other oceans listed."
     },
     {
       "subcategory": "Rivers",
@@ -1180,33 +1130,29 @@
     },
     {
       "subcategory": "Marine Biology",
-      "question": "Which fast predatory fish is known for its long bill and speed in open water?",
+      "question": "Which fast ocean predator is famous for its long, flattened, sword-like bill?",
       "options": [
-        "marlin",
         "swordfish",
         "tuna",
-        "king mackerel"
+        "king mackerel",
+        "blue shark"
       ],
-      "answer": "marlin",
-      "explanation_correct": "A marlin is a large, fast predatory fish recognized by its elongated bill. It is one of the ocean's most iconic game fish.",
-      "explanation_incorrect": "The other options are also fish, but they are different species with different body shapes and hunting traits.",
-      "last_verified_at": "2026-06-12T14:40:49.676Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "swordfish",
+      "explanation_correct": "The swordfish has a long, flattened bill. Marlins also have elongated bills, generally rounder in cross-section.",
+      "explanation_incorrect": "Tuna, king mackerel, and blue sharks do not have the swordfish’s long flattened bill."
     },
     {
       "subcategory": "Exploration",
-      "question": "Who was the captain of HMS Beagle during its famous survey voyage?",
+      "question": "What scale estimates wind force using observed effects on the sea and on land?",
       "options": [
-        "FitzRoy",
-        "Cook",
-        "Bligh",
-        "Ross"
+        "Beaufort scale",
+        "Richter scale",
+        "pH scale",
+        "Mohs scale"
       ],
-      "answer": "FitzRoy",
-      "explanation_correct": "Robert FitzRoy commanded HMS Beagle on the voyage best known for carrying Charles Darwin. He was a naval officer and hydrographer.",
-      "explanation_incorrect": "The other names are also notable explorers or captains, but they did not command HMS Beagle on that voyage.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Beaufort scale",
+      "explanation_correct": "The Beaufort scale relates wind force to observed conditions such as waves and effects on land.",
+      "explanation_incorrect": "The Richter scale concerns earthquakes, pH acidity, and Mohs scale mineral hardness."
     },
     {
       "subcategory": "Weather",
@@ -1225,7 +1171,7 @@
     },
     {
       "subcategory": "Hydrology",
-      "question": "What is the name for the upper boundary of groundwater in soil or rock?",
+      "question": "What is the upper surface of the saturated zone in an unconfined aquifer called?",
       "options": [
         "water table",
         "aquifer",
@@ -1233,10 +1179,8 @@
         "floodplain"
       ],
       "answer": "water table",
-      "explanation_correct": "The water table is the level below which the ground is saturated with water. It marks the top of the groundwater zone.",
-      "explanation_incorrect": "The other options relate to water storage or surface features, but they are not the underground boundary itself.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The water table is the upper surface of the saturated zone in an unconfined aquifer. Confined aquifers have a different pressure relationship.",
+      "explanation_incorrect": "The other options relate to water storage or surface features, but they are not the underground boundary itself."
     },
     {
       "subcategory": "Engineering",
@@ -1248,40 +1192,34 @@
         "sluice"
       ],
       "answer": "noria",
-      "explanation_correct": "A noria is a water-lifting wheel, often powered by a current or animals, used especially for irrigation. It raises water in containers attached to the wheel.",
-      "explanation_incorrect": "The other options are also water or irrigation devices, but they do not specifically describe this lifting wheel.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A noria is a water-lifting wheel fitted with containers, traditionally often driven by the water current.",
+      "explanation_incorrect": "A shaduf lifts water using a lever; a windmill and sluice use different arrangements."
     },
     {
       "subcategory": "Oceans",
-      "question": "Which ocean is named after a directional term rather than a continent or country?",
+      "question": "Which ocean was named with a word meaning peaceful?",
       "options": [
-        "Arctic",
-        "Indian",
+        "Pacific",
         "Atlantic",
-        "Pacific"
+        "Indian",
+        "Arctic"
       ],
-      "answer": "Arctic",
-      "explanation_correct": "The Arctic is the ocean surrounding the North Pole. Its name comes from the Greek word for north, not from a country or continent.",
-      "explanation_incorrect": "The other options are major oceans, but their names do not fit the same naming clue.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Pacific",
+      "explanation_correct": "The name Pacific derives from a word meaning peaceful; it does not mean that the ocean is always calm.",
+      "explanation_incorrect": "The Atlantic, Indian, and Arctic have different name origins."
     },
     {
       "subcategory": "Ancient History",
-      "question": "In Greek mythology, who is the shape-shifting sea spirit and messenger of the sea?",
+      "question": "Which Greek sea figure was known for changing shape and foretelling the future?",
       "options": [
         "Proteus",
-        "Triton",
-        "Nereus",
-        "Oceanus"
+        "Ares",
+        "Apollo",
+        "Hades"
       ],
       "answer": "Proteus",
-      "explanation_correct": "Proteus is a sea god known for changing shape and for his prophetic knowledge. He appears in Greek myth as an elusive marine figure.",
-      "explanation_incorrect": "The other names are also sea-related mythological figures, but they are distinct characters with different roles.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Proteus is a sea-associated figure known for changing shape and possessing prophetic knowledge.",
+      "explanation_incorrect": "Ares, Apollo, and Hades are Greek deities, but the shape-changing sea figure described is Proteus."
     },
     {
       "subcategory": "Canals",
@@ -1300,7 +1238,7 @@
     },
     {
       "subcategory": "Marine Mammals",
-      "question": "Which tusked Arctic mammal is famous for its long ivory tusks?",
+      "question": "Which Arctic marine mammal has long paired tusks and prominent whiskers?",
       "options": [
         "walrus",
         "sealion",
@@ -1309,13 +1247,11 @@
       ],
       "answer": "walrus",
       "explanation_correct": "A walrus is a large Arctic marine mammal known for its long tusks and whiskered face. It spends much of its life in cold northern waters.",
-      "explanation_incorrect": "The other choices are marine animals, but they are not the tusked Arctic mammal described here.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Narwhals are Arctic mammals known for a long tusk, generally a single enlarged tooth. The paired-tusked, whiskered mammal described is the walrus."
     },
     {
       "subcategory": "Art",
-      "question": "Which painter is especially renowned for dramatic seascapes and atmospheric marine scenes?",
+      "question": "Who painted the 1840 seascape Slave Ship?",
       "options": [
         "Turner",
         "Constable",
@@ -1323,25 +1259,21 @@
         "Hokusai"
       ],
       "answer": "Turner",
-      "explanation_correct": "J. M. W. Turner is famous for seascapes and powerful depictions of light, weather, and motion. His marine paintings are among his best-known works.",
-      "explanation_incorrect": "The other artists are also celebrated painters, but they are not the one most associated with this style of seascape.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "J. M. W. Turner painted Slave Ship, a dramatic work addressing the transatlantic slave trade.",
+      "explanation_incorrect": "Constable, Monet, and Hokusai created other artworks; Slave Ship is by Turner."
     },
     {
       "subcategory": "Mythology",
-      "question": "In Greek mythology, which primordial deity is associated with the sea?",
+      "question": "Which Greek primordial personification of the sea is the son of Gaia and father of Nereus?",
       "options": [
         "Pontus",
-        "Nereus",
-        "Tethys",
-        "Oceanus"
+        "Zeus",
+        "Apollo",
+        "Ares"
       ],
       "answer": "Pontus",
-      "explanation_correct": "Pontus is the primordial Greek deity personifying the sea. He is one of the earliest divine beings in Greek mythology.",
-      "explanation_incorrect": "The other choices are also sea-related deities or personifications, but they are not the primordial sea god named in the blueprint.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Pontus personifies the sea in Greek mythology and is described as a son of Gaia and father of Nereus.",
+      "explanation_incorrect": "Zeus, Apollo, and Ares are not the primordial sea personification described here."
     },
     {
       "subcategory": "Oceanography",
@@ -1360,18 +1292,16 @@
     },
     {
       "subcategory": "Marine Biology",
-      "question": "Which ray species is the largest?",
+      "question": "Which species is the largest living ray?",
       "options": [
-        "manta ray",
-        "stingray",
-        "electric ray",
-        "skate"
+        "giant manta ray",
+        "reef manta ray",
+        "spotted eagle ray",
+        "cownose ray"
       ],
-      "answer": "manta ray",
-      "explanation_correct": "Manta rays are the largest rays, reaching very large wingspans. They are distinct from stingrays, electric rays, and skates.",
-      "explanation_incorrect": "The other options are all types of rays or ray-like fishes, but none matches the size of a manta ray.",
-      "last_verified_at": "2026-06-12T14:40:49.677Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "giant manta ray",
+      "explanation_correct": "The giant manta ray (Mobula birostris) is the largest living ray and feeds by filtering plankton.",
+      "explanation_incorrect": "The reef manta, spotted eagle ray, and cownose ray are smaller ray species."
     },
     {
       "subcategory": "Geography",
@@ -1405,7 +1335,7 @@
     },
     {
       "subcategory": "Engineering",
-      "question": "Who is credited with designing an early canal lock?",
+      "question": "Which Renaissance artist and engineer drew designs for canals and miter lock gates?",
       "options": [
         "Leonardo da Vinci",
         "Galileo Galilei",
@@ -1413,10 +1343,8 @@
         "Niccolò Machiavelli"
       ],
       "answer": "Leonardo da Vinci",
-      "explanation_correct": "Leonardo da Vinci designed an early version of a miter lock for canals. His engineering sketches included many practical waterworks ideas.",
-      "explanation_incorrect": "The other choices are notable Renaissance-era figures, but they are not associated with inventing the canal lock in this context.",
-      "last_verified_at": "2026-06-12T14:40:49.678Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Leonardo da Vinci drew plans for canals and miter gates. Locks existed before his designs, and the attribution of the gate’s invention is debated.",
+      "explanation_incorrect": "The other figures are known for other work; the question identifies Leonardo through his drawings, without assigning him invention of the lock or miter gate."
     },
     {
       "subcategory": "Meteorology",
@@ -1429,9 +1357,7 @@
       ],
       "answer": "Kuroshio Current",
       "explanation_correct": "The Kuroshio Current is a warm western boundary current in the North Pacific. It flows past Japan and influences regional climate.",
-      "explanation_incorrect": "The other currents are also major ocean currents, but they are not the warm current named in the blueprint.",
-      "last_verified_at": "2026-06-12T14:40:49.678Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The Gulf Stream is an Atlantic current; the Humboldt and Labrador currents are cooler currents in other regions."
     },
     {
       "subcategory": "Ancient History",
@@ -1450,18 +1376,16 @@
     },
     {
       "subcategory": "Navigation",
-      "question": "Which navigational instrument helps sailors determine direction by measuring celestial angles?",
+      "question": "Which instrument measures the angle between a celestial body and the horizon for marine navigation?",
       "options": [
         "sextant",
         "compass",
-        "astrolabe",
-        "chronometer"
+        "chronometer",
+        "ship’s log"
       ],
       "answer": "sextant",
-      "explanation_correct": "A sextant is used to measure the angle between a celestial body and the horizon for navigation. It helps determine position at sea.",
-      "explanation_incorrect": "The other tools are also used in navigation or timekeeping, but they do not specifically measure celestial angles like a sextant.",
-      "last_verified_at": "2026-06-12T14:40:49.678Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A sextant measures celestial altitudes, helping navigators determine position. An astrolabe can also measure celestial angles.",
+      "explanation_incorrect": "A compass indicates direction, a chronometer measures time, and a ship’s log records voyage data."
     }
   ]
 }

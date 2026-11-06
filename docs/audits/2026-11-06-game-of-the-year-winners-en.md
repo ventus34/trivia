@@ -30,3 +30,5 @@ Przy przejęciu przejrzano zmienione pytania, opcje i wyjaśnienia oraz poniższ
 Próbka nie obejmuje niezależnej ponownej weryfikacji każdego z 98 pytań ani każdego komentarza o nominacjach. Pozostają semantyczne powtórzenia tego samego wyniku mimo różnic w brzmieniu i opcjach, m.in. 6/96, 7/39/94, 9/77, 11/46, 16/62/83, 18/84, 21/73, 22/86, 32/92, 34/97, 52/71 oraz 58/66. Nie usuwano ich w ramach ograniczonego przejęcia poza trzema wskazanymi pozycjami 70, 81, 91. Przy pytaniach o różne nagrody zdobyte przez tę samą grę odrębność kategorii lub organizatora ma znaczenie i nie jest sama w sobie powtórzeniem.
 
 `python3 scripts/audit_questions.py` nie wykrył problemów strukturalnych; `git diff --check` jest czysty. Weryfikacja struktury nie potwierdza prawdziwości każdego wyniku.
+
+Po publikacji wznowiony pierwotny recenzent poprawił dwa pytania: nagrodę Steam 2020 dla Red Dead Redemption 2 i wygraną Untitled Goose Game na Game Developers Choice Awards 2020. Skorygowano również objaśnienie pierwszego pytania i usunięto jego nieaktualne metadane weryfikacji.

@@ -2,7 +2,7 @@
   "id": "gwara_i_polszczyzna_pl",
   "name": "Gwara i Polszczyzna",
   "language": "pl",
-  "description": "Pytania z zakresu: Gwara poznańska, Gwara białostocka, Gwara kurpiowska, Gwara kulinarna...",
+  "description": "Pytania o regionalizmy polszczyzny, gwary miejskie oraz słownictwo zawodowe i potoczne.",
   "created_at": "2026-06-12T15:08:12.416Z",
   "last_verified_at": "2026-06-12T15:08:11.696Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -10,48 +10,42 @@
   "questions": [
     {
       "subcategory": "Gwara poznańska",
-      "question": "Jak w gwarze poznańskiej nazywa się ziemniaki?",
+      "question": "Co w gwarze poznańskiej oznaczają „pyry”?",
       "options": [
-        "Pyry",
-        "Kartofle",
-        "Bulwy",
-        "Grule"
+        "Ziemniaki",
+        "Jabłka",
+        "Skarpety",
+        "Krzesła"
       ],
-      "answer": "Pyry",
-      "explanation_correct": "Pyry to najbardziej rozpoznawalne określenie ziemniaków w Wielkopolsce.",
-      "explanation_incorrect": "Grule to określenie z gwary góralskiej, a kartofle i bulwy są używane powszechnie w innych regionach.",
-      "last_verified_at": "2026-06-12T15:05:23.485Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ziemniaki",
+      "explanation_correct": "„Pyry” to poznańskie i wielkopolskie określenie ziemniaków.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne rzeczy."
     },
     {
-      "subcategory": "Gwara białostocka",
-      "question": "Które słowo w gwarze białostockiej oznacza uderzenie?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „kejter”?",
       "options": [
-        "Buch",
-        "Cios",
-        "Trzask",
-        "Huk"
+        "Pies",
+        "Kot",
+        "Koń",
+        "Kura"
       ],
-      "answer": "Buch",
-      "explanation_correct": "W gwarze białostockiej 'buch' to onomatopeiczne określenie uderzenia, używane potocznie.",
-      "explanation_incorrect": "Pozostałe opcje są ogólnopolskimi synonimami uderzenia, ale nie są specyficzne dla gwary białostockiej.",
-      "last_verified_at": "2026-06-12T15:05:11.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pies",
+      "explanation_correct": "W słowniku gwary poznańskiej „kejter” oznacza: pies.",
+      "explanation_incorrect": "W tym znaczeniu „kejter” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
-      "subcategory": "Gwara kurpiowska",
-      "question": "Jak w gwarze kurpiowskiej nazywa się laska?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „gzub”?",
       "options": [
-        "Kij",
-        "Patyk",
-        "Pałka",
-        "Laska"
+        "Dziecko",
+        "Nóż",
+        "Garnek",
+        "Rower"
       ],
-      "answer": "Kij",
-      "explanation_correct": "W gwarze kurpiowskiej 'kij' jest powszechnie używany jako określenie laski lub kija.",
-      "explanation_incorrect": "Pozostałe słowa są zwykle używane w innych kontekstach lub są mniej typowe dla gwary kurpiowskiej.",
-      "last_verified_at": "2026-06-12T15:05:11.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dziecko",
+      "explanation_correct": "W słowniku gwary poznańskiej „gzub” oznacza: dziecko.",
+      "explanation_incorrect": "W tym znaczeniu „gzub” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara kulinarna",
@@ -69,34 +63,30 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gwara techniczna",
-      "question": "Jak w gwarze technicznej określa się klucz płaski?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „drobka”?",
       "options": [
-        "Kluczyk",
-        "Śrubokręt",
-        "Klucz",
-        "Wkrętak"
+        "Drabina",
+        "Patelnia",
+        "Teczka",
+        "Kanapa"
       ],
-      "answer": "Kluczyk",
-      "explanation_correct": "W gwarze technicznej 'kluczyk' to potoczna nazwa małego klucza płaskiego, szczególnie używanego w mechanice precyzyjnej.",
-      "explanation_incorrect": "Pozostałe opcje to nazwy innych narzędzi, nie zaś samego klucza płaskiego.",
-      "last_verified_at": "2026-06-12T15:05:11.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Drabina",
+      "explanation_correct": "W słowniku gwary poznańskiej „drobka” oznacza: drabina.",
+      "explanation_incorrect": "W tym znaczeniu „drobka” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
-      "subcategory": "Gwara kolejowa",
-      "question": "Które słowo w gwarze kolejowej oznacza konduktora?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „bimba”?",
       "options": [
-        "Kanak",
-        "Kolejarz",
-        "Konduktor",
-        "Przewodnik"
+        "Tramwaj",
+        "Kajak",
+        "Rower",
+        "Samolot"
       ],
-      "answer": "Kanak",
-      "explanation_correct": "W gwarze kolejowej 'kanak' to potoczne, nieformalne określenie konduktora, wywodzące się z żargonu pracowników kolei.",
-      "explanation_incorrect": "Pozostałe opcje to oficjalne lub bardziej ogólne nazwy pracowników kolei.",
-      "last_verified_at": "2026-06-12T15:05:11.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Tramwaj",
+      "explanation_correct": "W słowniku gwary poznańskiej „bimba” oznacza: tramwaj.",
+      "explanation_incorrect": "W tym znaczeniu „bimba” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara fryzjerska",
@@ -115,18 +105,16 @@
     },
     {
       "subcategory": "Gwara teatralna",
-      "question": "Które określenie w gwarze teatralnej dotyczy pomyłki w tekście?",
+      "question": "Kto w teatrze koordynuje przebieg przedstawienia i daje sygnały do rozpoczęcia scen?",
       "options": [
-        "Sypka",
-        "Pomyłka",
-        "Błąd",
-        "Wpadka"
+        "Inspicjent",
+        "Dubler",
+        "Scenograf",
+        "Statysta"
       ],
-      "answer": "Sypka",
-      "explanation_correct": "W gwarze teatralnej 'sypka' oznacza pomyłkę aktora w trakcie przedstawienia, np. przejęzyczenie lub opuszczenie kwestii.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne terminy nie używane w żargonie teatralnym w tym konkretnym znaczeniu.",
-      "last_verified_at": "2026-06-12T15:05:11.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Inspicjent",
+      "explanation_correct": "Inspicjent czuwa nad przebiegiem przedstawienia i koordynuje działania jego uczestników.",
+      "explanation_incorrect": "Dubler zastępuje aktora, scenograf projektuje oprawę, a statysta występuje w tle."
     },
     {
       "subcategory": "Gwara graczy",
@@ -235,22 +223,20 @@
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Jak w gwarze poznańskiej określa się piwnicę?",
+      "question": "Co w gwarze poznańskiej oznacza słowo „korbol”?",
       "options": [
-        "Suter",
-        "Antrejka",
-        "Składzik",
-        "Loch"
+        "Dynia",
+        "Pomidor",
+        "Marchew",
+        "Gruszka"
       ],
-      "answer": "Suter",
-      "explanation_correct": "Suter to potoczne poznańskie skrócenie słowa suterena stosowane wobec piwnic.",
-      "explanation_incorrect": "Antrejka to przedpokój, co jest bardzo charakterystycznym słowem dla tego regionu.",
-      "last_verified_at": "2026-06-12T15:05:23.486Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dynia",
+      "explanation_correct": "W słowniku gwary poznańskiej „korbol” oznacza: dynia.",
+      "explanation_incorrect": "W tym znaczeniu „korbol” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara wiejska",
-      "question": "Jak w gwarze wiejskiej nazywa się pług?",
+      "question": "Jak nazywa się dawne ciągnione narzędzie orne z radlicą, które spulchnia ziemię, ale w odróżnieniu od pługa nie odwraca skiby?",
       "options": [
         "Radło",
         "Pług",
@@ -258,10 +244,8 @@
         "Brona"
       ],
       "answer": "Radło",
-      "explanation_correct": "W gwarze wiejskiej 'radło' to dawna, ludowa nazwa pługa, szczególnie w regionach wschodnich Polski.",
-      "explanation_incorrect": "Pozostałe opcje to inne narzędzia rolnicze lub ogólne terminy.",
-      "last_verified_at": "2026-06-12T15:05:11.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Radło spulchniało glebę bez odwracania skiby; pług jest odrębnym narzędziem.",
+      "explanation_incorrect": "Pług odwraca skiby, a siewnik i brona pełnią inne funkcje."
     },
     {
       "subcategory": "Gwara myśliwska",
@@ -279,49 +263,43 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gwara lotnicza",
-      "question": "Jak w gwarze lotniczej nazywa się pas startowy?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „ćmik”?",
       "options": [
-        "Beton",
-        "Droga",
-        "Pas",
-        "Startówka"
+        "Papieros",
+        "Rękawiczka",
+        "Ogórek",
+        "Kredka"
       ],
-      "answer": "Beton",
-      "explanation_correct": "W gwarze lotniczej 'beton' to potoczne określenie pasa startowego, ze względu na materiał, z którego jest wykonany.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne terminy lub mniej specyficzne dla lotnictwa.",
-      "last_verified_at": "2026-06-12T15:05:11.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Papieros",
+      "explanation_correct": "W słowniku gwary poznańskiej „ćmik” oznacza: papieros.",
+      "explanation_incorrect": "W tym znaczeniu „ćmik” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
-      "subcategory": "Gwara szkolna",
-      "question": "Które określenie w gwarze szkolnej dotyczy nauczyciela geografii?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „gzik”?",
       "options": [
-        "Geograf",
-        "Gieograf",
-        "Geografik",
-        "Mazgaj"
+        "Twarożek ze śmietaną",
+        "Kisiel",
+        "Kiełbasa",
+        "Czarna kawa"
       ],
-      "answer": "Geograf",
-      "explanation_correct": "W gwarze szkolnej 'geograf' to potoczna nazwa nauczyciela geografii, pochodząca od nazwy przedmiotu.",
-      "explanation_incorrect": "Pozostałe opcje to zniekształcenia lub inne, mało używane formy.",
-      "last_verified_at": "2026-06-12T15:05:11.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Twarożek ze śmietaną",
+      "explanation_correct": "W słowniku gwary poznańskiej „gzik” oznacza: twarożek ze śmietaną.",
+      "explanation_incorrect": "W tym znaczeniu „gzik” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara policyjna",
-      "question": "Jak w gwarze policyjnej nazywa się więzienie?",
+      "question": "Które z tych słów jest potocznym określeniem więzienia?",
       "options": [
         "Pucha",
-        "Pała",
-        "Krypa",
-        "Kić"
+        "Biblioteka",
+        "Teatr",
+        "Kawiarnia"
       ],
       "answer": "Pucha",
-      "explanation_correct": "W gwarze policyjnej 'pucha' to potoczne określenie więzienia, wywodzące się z gwary przestępczej.",
-      "explanation_incorrect": "Pozostałe opcje to również słowa oznaczające więzienie, ale w innych gwarach lub kontekstach, np. 'krypa' w gwarze przestępczej.",
-      "last_verified_at": "2026-06-12T15:05:11.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Pucha” to potoczne określenie więzienia.",
+      "explanation_incorrect": "Pozostałe słowa oznaczają inne miejsca."
     },
     {
       "subcategory": "Gwara informatyczna",
@@ -340,18 +318,16 @@
     },
     {
       "subcategory": "Gwara krakowska",
-      "question": "Jak w Krakowie nazywa się podłużną białą bułkę, znaną w innych częściach Polski jako bułka paryska lub kawiarka?",
+      "question": "Co w Krakowie oznacza regionalne słowo „weka”?",
       "options": [
-        "Weka",
-        "Angielka",
-        "Baton",
-        "Bułka wrocławska"
+        "Podłużne pszenne pieczywo",
+        "Jabłko",
+        "Ziemniak",
+        "Łyżkę"
       ],
-      "answer": "Weka",
-      "explanation_correct": "Weka to krakowskie określenie na jasne pieczywo pszenne o podłużnym kształcie.",
-      "explanation_incorrect": "Angielka to nazwa używana w Radomiu, a bułka wrocławska w Warszawie.",
-      "last_verified_at": "2026-06-12T15:05:23.486Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Podłużne pszenne pieczywo",
+      "explanation_correct": "Weka to regionalne określenie podłużnego jasnego pieczywa pszennego.",
+      "explanation_incorrect": "Weka nie oznacza w tym znaczeniu jabłka, ziemniaka ani łyżki."
     },
     {
       "subcategory": "Gwara poznańska",
@@ -370,7 +346,7 @@
     },
     {
       "subcategory": "Gwara śląska",
-      "question": "Jak w gwarze śląskiej nazywa się cukierek w papierku?",
+      "question": "Jak nazywają się twarde śląskie cukierki kojarzone ze smakiem anyżowym lub lukrecjowym?",
       "options": [
         "Kopalniok",
         "Cukier",
@@ -378,55 +354,47 @@
         "Czekolada"
       ],
       "answer": "Kopalniok",
-      "explanation_correct": "Na Śląsku 'kopalniok' to potoczna nazwa cukierka w papierku, nawiązująca do kształtu bryłek węgla wydobywanych w kopalni.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne nazwy słodyczy, ale nie są typowe dla gwary śląskiej jako określenie tego konkretnego rodzaju cukierka.",
-      "last_verified_at": "2026-06-12T15:05:11.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kopalnioki to nazwa twardych cukierków kojarzonych m.in. z anyżem i lukrecją.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą tych konkretnych cukierków."
     },
     {
-      "subcategory": "Gwara podlaska",
-      "question": "Jak w gwarze podlaskiej określa się słowo oznaczające 'teraz'?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „garować”?",
       "options": [
-        "Otoż",
-        "Zaraz",
-        "Już",
-        "Aktualnie"
+        "Spać",
+        "Tańczyć",
+        "Gotować",
+        "Rysować"
       ],
-      "answer": "Otoż",
-      "explanation_correct": "W gwarze podlaskiej 'otoż' jest używane jako odpowiednik 'teraz', 'w tej chwili'.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy 'teraz', ale 'zaraz' oznacza za chwilę, 'już' to moment po teraz, a 'aktualnie' jest formalne.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Spać",
+      "explanation_correct": "„Garować” w gwarze poznańskiej znaczy spać.",
+      "explanation_incorrect": "Pozostałe czynności mają inne znaczenia."
     },
     {
-      "subcategory": "Gwara kaszubska",
-      "question": "Jak w gwarze kaszubskiej nazywa się tabakę?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „glanc”?",
       "options": [
-        "Tabaka",
-        "Fajka",
-        "Dymek",
-        "Tytoń"
+        "Połysk",
+        "Ziemniak",
+        "Drabinę",
+        "Dzielnicę"
       ],
-      "answer": "Tabaka",
-      "explanation_correct": "W języku kaszubskim 'tabaka' to bezpośrednie zapożyczenie z polskiego, oznaczające tabakę (tytoń do zażywania).",
-      "explanation_incorrect": "Pozostałe opcje to inne słowa związane z paleniem, ale 'fajka' to narzędzie, 'dymek' to dym, a 'tytoń' to roślina.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Połysk",
+      "explanation_correct": "„Glanc” oznacza połysk, blask.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne rzeczy."
     },
     {
-      "subcategory": "Gwara warszawska",
-      "question": "Jak w gwarze warszawskiej określa się jedzenie?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „kluber”?",
       "options": [
-        "Wikt",
-        "Chał",
-        "Gryczak",
-        "Bal"
+        "Nos",
+        "Plecy",
+        "Kolano",
+        "Łokieć"
       ],
-      "answer": "Wikt",
-      "explanation_correct": "W warszawskiej gwarze 'wikt' oznacza jedzenie, wyżywienie – pochodzi od łacińskiego 'victus'.",
-      "explanation_incorrect": "Pozostałe opcje to inne wyrazy gwarowe, ale 'chał' to chleb na wsi, 'gryczak' to gryka, a 'bal' to przyjęcie.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Nos",
+      "explanation_correct": "W słowniku gwary poznańskiej „kluber” oznacza: nos.",
+      "explanation_incorrect": "W tym znaczeniu „kluber” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara żeglarska",
@@ -445,33 +413,29 @@
     },
     {
       "subcategory": "Gwara śląska",
-      "question": "Jak w gwarze śląskiej określa się dziadka?",
+      "question": "Co na Śląsku oznacza słowo „opa”?",
       "options": [
-        "Opa",
-        "Großvater",
-        "Stary",
-        "Dziadzio"
+        "Dziadka",
+        "Ławkę",
+        "Samochód",
+        "Zupę"
       ],
-      "answer": "Opa",
-      "explanation_correct": "Na Śląsku 'opa' to potoczna, czuła nazwa dziadka, wywodząca się z niemieckiego 'Opa'.",
-      "explanation_incorrect": "Pozostałe opcje to inne określenia dziadka: 'großvater' jest niemieckie, 'stary' jest potoczne, 'dziadzio' jest zdrobnieniem ogólnopolskim.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dziadka",
+      "explanation_correct": "„Opa” to używane na Śląsku określenie dziadka.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają rzeczy, nie dziadka."
     },
     {
-      "subcategory": "Gwara krakowska",
-      "question": "Jak w gwarze krakowskiej nazywa się loda w rożku (lody)?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „bryle”?",
       "options": [
-        "Lód",
-        "Gałka",
-        "Sopel",
-        "Lodzik"
+        "Okulary",
+        "Buty",
+        "Rękawiczki",
+        "Spodnie"
       ],
-      "answer": "Lód",
-      "explanation_correct": "W Krakowie na lody w rożku często mówi się po prostu 'lód' – jest to regionalne skrótowe określenie.",
-      "explanation_incorrect": "Pozostałe opcje to inne słowa związane z lodami: 'gałka' to jedna porcja, 'sopel' to lód naturalny, a 'lodzik' jest zdrobnieniem.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Okulary",
+      "explanation_correct": "W słowniku gwary poznańskiej „bryle” oznacza: okulary.",
+      "explanation_incorrect": "W tym znaczeniu „bryle” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara rzemieślnicza",
@@ -483,40 +447,34 @@
         "Praktykant"
       ],
       "answer": "Terminator",
-      "explanation_correct": "W rzemiośle 'terminator' to uczeń uczący się zawodu na podstawie umowy terminowej.",
-      "explanation_incorrect": "Pozostałe opcje to stopnie w rzemiośle: czeladnik jest wyższym stopniem, mistrz jest najwyższym, praktykant to ogólne pojęcie.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Terminator to dawniej uczeń rzemiosła odbywający naukę u mistrza, czyli termin.",
+      "explanation_incorrect": "Pozostałe opcje to stopnie w rzemiośle: czeladnik jest wyższym stopniem, mistrz jest najwyższym, praktykant to ogólne pojęcie."
     },
     {
       "subcategory": "Gwara lekarska",
-      "question": "Jak w gwarze lekarskiej nazywa się oddział intensywnej terapii?",
+      "question": "Co dawniej oznaczała potoczna nazwa „erka” w ratownictwie medycznym?",
       "options": [
-        "Erka",
-        "Chirurgia",
-        "Intensywna",
-        "Sala operacyjna"
+        "Karetkę reanimacyjną",
+        "Oddział intensywnej terapii",
+        "Salę operacyjną",
+        "Aptekę"
       ],
-      "answer": "Erka",
-      "explanation_correct": "W slangu medycznym 'erka' to skrót od Oddział Intensywnej Terapii (OIT), czytany jako 'OIT' lub potocznie 'erka'.",
-      "explanation_incorrect": "Pozostałe opcje to inne działy lub pomieszczenia szpitalne: 'chirurgia' to oddział, 'intensywna' to skrót, 'sala operacyjna' to miejsce zabiegów.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Karetkę reanimacyjną",
+      "explanation_correct": "„Erka” odnosiła się do karetki reanimacyjnej oznaczanej literą R; później wprowadzono oznaczenie S dla ambulansu specjalistycznego.",
+      "explanation_incorrect": "Oddział intensywnej terapii jest oddziałem szpitalnym, a nie karetką reanimacyjną."
     },
     {
       "subcategory": "Gwara studencka",
-      "question": "Jak w gwarze studenckiej określa się legitymację?",
+      "question": "Jak potocznie nazywa się legitymację studencką?",
       "options": [
-        "Blacha",
         "Legitka",
-        "Identyfikator",
-        "Karta"
+        "Syllabus",
+        "Indeks glikemiczny",
+        "Dyplom magisterski"
       ],
-      "answer": "Blacha",
-      "explanation_correct": "Na studiach 'blacha' to potoczna nazwa legitymacji studenckiej, ze względu na jej sztywną, metaliczną fakturę (dawniej z metalu).",
-      "explanation_incorrect": "Pozostałe opcje to synonimy legitymacji, ale 'legitka' jest zdrobnieniem ogólnym, 'identyfikator' jest bardziej formalny, a 'karta' jest zbyt ogólna.",
-      "last_verified_at": "2026-06-12T15:05:11.735Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Legitka",
+      "explanation_correct": "„Legitka” to potoczne zdrobnienie słowa legitymacja.",
+      "explanation_incorrect": "Syllabus opisuje zajęcia, a dyplom potwierdza ich ukończenie."
     },
     {
       "subcategory": "Gwara więzienna",
@@ -550,18 +508,16 @@
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Jak w gwarze poznańskiej nazywa się bałagan?",
+      "question": "Co w gwarze poznańskiej oznacza słowo „gymyla”?",
       "options": [
-        "Gubry",
-        "Mętlik",
-        "Nieład",
-        "Kołomyja"
+        "Śmietnik lub bałagan",
+        "Wazon z kwiatami",
+        "Fortepian",
+        "Rzeka"
       ],
-      "answer": "Gubry",
-      "explanation_correct": "W Poznaniu 'gubry' lub 'gubyr' to gwarowe określenie bałaganu i nieporządku.",
-      "explanation_incorrect": "Pozostałe słowa są ogólnopolskimi określeniami nieładu i zamieszania.",
-      "last_verified_at": "2026-06-12T15:08:11.694Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Śmietnik lub bałagan",
+      "explanation_correct": "W słowniku gwary poznańskiej „gymyla” oznacza: śmietnik lub bałagan.",
+      "explanation_incorrect": "W tym znaczeniu „gymyla” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara śląska",
@@ -579,19 +535,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gwara warszawska",
-      "question": "Jak w gwarze warszawskiej określa się pieniądze?",
+      "subcategory": "Gwara poznańska",
+      "question": "Które słowo w gwarze poznańskiej oznacza pieniądze?",
       "options": [
-        "Siano",
-        "Kasa",
-        "Fora",
-        "Moneta"
+        "Bejmy",
+        "Ryczki",
+        "Pyry",
+        "Szneki"
       ],
-      "answer": "Siano",
-      "explanation_correct": "W warszawskiej gwarze 'siano' to potoczne określenie pieniędzy, nawiązujące do wartości odżywczej siana jako towaru.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy pieniędzy: 'kasa' jest powszechna, 'fora' to slang młodzieżowy, 'moneta' to konkretny przedmiot.",
-      "last_verified_at": "2026-06-12T15:05:53.227Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bejmy",
+      "explanation_correct": "„Bejmy” to poznańskie określenie pieniędzy.",
+      "explanation_incorrect": "Ryczka to stołek, pyry to ziemniaki, a szneki to drożdżówki."
     },
     {
       "subcategory": "Gwara lwowska",
@@ -628,45 +582,39 @@
       "question": "Która z poniższych nazw w gwarze sportowej oznacza rzut karny w piłce nożnej?",
       "options": [
         "Jedenastka",
-        "Wolny",
-        "Rzut z autu",
-        "Karniak"
+        "Rzut rożny",
+        "Wrzut z autu",
+        "Rzut sędziowski"
       ],
       "answer": "Jedenastka",
       "explanation_correct": "W środowisku piłkarskim 'jedenastka' to potoczna nazwa rzutu karnego, wynikająca z odległości 11 metrów od bramki.",
-      "explanation_incorrect": "'Wolny' to rzut wolny, 'rzut z autu' to wyrzut piłki z boiska, a 'karniak' jest rzadziej używany, ale też może oznaczać karny – jednak poprawną gwarową nazwą jest 'jedenastka'.",
-      "last_verified_at": "2026-06-12T15:05:53.227Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rzut rożny, wrzut z autu i rzut sędziowski to inne wznowienia gry. Rzut karny bywa też potocznie nazywany karniakiem."
     },
     {
       "subcategory": "Gwara kurpiowska",
-      "question": "Jak w gwarze kurpiowskiej potocznie mówi się na ojca?",
+      "question": "Kogo może oznaczać gwarowa forma „ociec”?",
       "options": [
-        "Ociec",
-        "Tata",
-        "Ojciec",
-        "Starzyk"
+        "Ojca",
+        "Rzekę",
+        "Ogród",
+        "Konia"
       ],
-      "answer": "Ociec",
-      "explanation_correct": "Na Kurpiach 'ociec' to gwarowe, archaiczne określenie ojca, wywodzące się z dawnej polszczyzny.",
-      "explanation_incorrect": "'Tata' i 'ojciec' to formy ogólnopolskie, a 'starzyk' oznacza starca, nie ojca.",
-      "last_verified_at": "2026-06-12T15:05:53.227Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ojca",
+      "explanation_correct": "„Ociec” jest gwarową i dawną formą słowa ojciec.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają ojca."
     },
     {
       "subcategory": "Gwara muzyczna",
-      "question": "Które słowo w gwarze muzycznej odnosi się do instrumentu basowego?",
+      "question": "Jak w środowisku muzycznym bywa skracana nazwa kontrabasu?",
       "options": [
         "Kontra",
-        "Bas",
+        "Smyczek",
         "Pedał",
-        "Smycz"
+        "Nuta"
       ],
       "answer": "Kontra",
       "explanation_correct": "W gwarze muzycznej 'kontra' to określenie kontrabasu, czyli instrumentu basowego (np. 'grać na kontrze').",
-      "explanation_incorrect": "'Bas' to ogólna nazwa, 'pedał' to część instrumentu, a 'smycz' to pałeczka do gry na instrumentach smyczkowych.",
-      "last_verified_at": "2026-06-12T15:05:53.227Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Smyczek służy do gry na niektórych instrumentach, pedał jest częścią instrumentu lub urządzeniem, a nuta jest znakiem muzycznym."
     },
     {
       "subcategory": "Gwara kulinarna",
@@ -685,48 +633,42 @@
     },
     {
       "subcategory": "Gwara śląska",
-      "question": "Którego określenia używa się na Śląsku na żonę?",
+      "question": "Kogo w gwarze śląskiej może oznaczać „baba”?",
       "options": [
-        "Baba",
-        "Żona",
-        "Małżonka",
-        "Kobieta"
+        "Żonę",
+        "Filiżankę",
+        "Płot",
+        "Skrzypce"
       ],
-      "answer": "Baba",
-      "explanation_correct": "Na Śląsku 'baba' to potoczne, gwarowe określenie żony, używane w mowie codziennej.",
-      "explanation_incorrect": "'Żona' i 'małżonka' to formy oficjalne, 'kobieta' to ogólne określenie płci.",
-      "last_verified_at": "2026-06-12T15:05:53.227Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Żonę",
+      "explanation_correct": "„Baba” może oznaczać żonę; w zależności od kontekstu słowo ma również inne znaczenia.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają żony."
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Jak w gwarze poznańskiej mówi się na drożdżówkę?",
+      "question": "Co w gwarze poznańskiej oznacza „szneka”?",
       "options": [
-        "Szneka",
-        "Drożdżówa",
-        "Ptys",
-        "Bułka"
+        "Drożdżówkę",
+        "Rękawiczkę",
+        "Samochód",
+        "Ołówek"
       ],
-      "answer": "Szneka",
-      "explanation_correct": "W Poznaniu i okolicach 'szneka' to gwarowa nazwa drożdżówki, często z serem lub owocami.",
-      "explanation_incorrect": "'Drożdżówa' to inny gwarowy odpowiednik, 'ptys' to ciastko z kremem, a 'bułka' to ogólne określenie pieczywa.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Drożdżówkę",
+      "explanation_correct": "„Szneka” to poznańska nazwa drożdżówki, np. szneki z glancem.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają rzeczy, nie wypiek."
     },
     {
-      "subcategory": "Gwara lotnicza",
-      "question": "Którą nazwą w gwarze lotniczej określa się początkującego pilota?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „knyp”?",
       "options": [
-        "Młody",
-        "Nowy",
-        "Uczeń",
-        "Praktykant"
+        "Nóż",
+        "Łyżka",
+        "Talerz",
+        "Garnek"
       ],
-      "answer": "Młody",
-      "explanation_correct": "W lotnictwie 'młody' to potoczne określenie początkującego pilota, stażysty.",
-      "explanation_incorrect": "'Nowy' jest zbyt ogólne, 'uczeń' dotyczy szkoły, a 'praktykant' raczej biura.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Nóż",
+      "explanation_correct": "W słowniku gwary poznańskiej „knyp” oznacza: nóż.",
+      "explanation_incorrect": "W tym znaczeniu „knyp” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara harcerska",
@@ -760,18 +702,16 @@
     },
     {
       "subcategory": "Gwara więzienna",
-      "question": "Jak w gwarze więziennej nazywa się mocną herbatę?",
+      "question": "Jak potocznie, również w środowisku więziennym, nazywa się herbatę?",
       "options": [
         "Czaj",
-        "Herbata",
-        "Napój",
-        "Ściema"
+        "Kawa",
+        "Mleko",
+        "Sok"
       ],
       "answer": "Czaj",
-      "explanation_correct": "W slangu więziennym 'czaj' oznacza mocną zaparzoną herbatę, często tzw. 'zaparzankę'.",
-      "explanation_incorrect": "'Herbata' to ogólna nazwa, 'napój' to za szerokie, 'ściema' to kłamstwo.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Czaj” bywa potoczną nazwą herbaty; nie musi oznaczać wyłącznie mocnego naparu.",
+      "explanation_incorrect": "Kawa, mleko i sok są innymi napojami."
     },
     {
       "subcategory": "Gwara krakowska",
@@ -790,37 +730,33 @@
     },
     {
       "subcategory": "Gwara śląska",
-      "question": "Jak na Śląsku potocznie mówi się na spodnie?",
+      "question": "Co w gwarze śląskiej oznacza „hose”?",
       "options": [
-        "Hose",
         "Spodnie",
-        "Portki",
-        "Szaty"
+        "Okulary",
+        "Kapelusz",
+        "Zupę"
       ],
-      "answer": "Hose",
-      "explanation_correct": "Na Śląsku 'hose' (z niem. Hose) to gwarowe określenie spodni, np. 'łoblyc hose' (włożyć spodnie).",
-      "explanation_incorrect": "'Spodnie' to forma ogólnopolska, 'portki' to przestarzałe, 'szaty' to odświętne ubranie.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Spodnie",
+      "explanation_correct": "„Hose” to używane na Śląsku określenie spodni, związane z niemieckim słowem Hose.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają spodni."
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Którego określenia używa się w gwarze poznańskiej na dziewczynę?",
+      "question": "Kogo w gwarze poznańskiej może oznaczać „mela”?",
       "options": [
-        "Mela",
-        "Dziewczyna",
-        "Baba",
-        "Panna"
+        "Dziewczynę",
+        "Kota",
+        "Konia",
+        "Kucharza"
       ],
-      "answer": "Mela",
-      "explanation_correct": "W Poznaniu 'mela' to gwarowe, pieszczotliwe określenie dziewczyny lub narzeczonej.",
-      "explanation_incorrect": "'Dziewczyna' i 'panna' to ogólnopolskie, 'baba' to na Śląsku żona – tu niepoprawne.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dziewczynę",
+      "explanation_correct": "„Mela” występuje w słowniku gwary poznańskiej jako określenie dziewczyny.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie odpowiadają wskazanemu znaczeniu."
     },
     {
       "subcategory": "Gwara góralska",
-      "question": "Jak w gwarze góralskiej nazywa się pasterza owiec?",
+      "question": "Jak na Podhalu nazywa się głównego pasterza zarządzającego wypasem owiec?",
       "options": [
         "Baca",
         "Juhas",
@@ -829,39 +765,33 @@
       ],
       "answer": "Baca",
       "explanation_correct": "Na Podhalu 'baca' to główny pasterz, który zarządza owcami i bacówką.",
-      "explanation_incorrect": "'Juhas' to pomocnik pasterza, 'pasterz' to ogólnie, 'owcarz' to rzadkie określenie.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "'Juhas' to pomocnik pasterza, 'pasterz' to ogólnie, 'owcarz' to rzadkie określenie."
     },
     {
-      "subcategory": "Gwara warszawska",
-      "question": "Które słowo w gwarze warszawskiej oznacza mieszkanie?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „szparować”?",
       "options": [
-        "Chata",
-        "Mieszkanko",
-        "Lokal",
-        "Dom"
+        "Oszczędzać",
+        "Tańczyć",
+        "Śpiewać",
+        "Pływać"
       ],
-      "answer": "Chata",
-      "explanation_correct": "W warszawskiej gwarze 'chata' to potoczne określenie mieszkania, często małego lub lokatorskiego.",
-      "explanation_incorrect": "'Mieszkanko' to zdrobnienie, 'lokal' to oficjalny, 'dom' to budynek wolnostojący.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Oszczędzać",
+      "explanation_correct": "W słowniku gwary poznańskiej „szparować” oznacza: oszczędzać.",
+      "explanation_incorrect": "W tym znaczeniu „szparować” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
-      "subcategory": "Gwara lekarska",
-      "question": "Jak w gwarze lekarskiej nazywa się opatrunek gipsowy?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „golarz”?",
       "options": [
-        "Skorupa",
-        "Gips",
-        "Opatrunek",
-        "Łupina"
+        "Fryzjer",
+        "Piekarz",
+        "Lekarz",
+        "Pilot"
       ],
-      "answer": "Skorupa",
-      "explanation_correct": "W środowisku medycznym 'skorupa' to żargonowe określenie gipsu lub opatrunku gipsowego (twarda jak skorupa).",
-      "explanation_incorrect": "'Gips' to oficjalna nazwa materiału, 'opatrunek' to ogólnie, 'łupina' to inna skorupka.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fryzjer",
+      "explanation_correct": "W słowniku gwary poznańskiej „golarz” oznacza: fryzjer.",
+      "explanation_incorrect": "W tym znaczeniu „golarz” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Polszczyzna literacka",
@@ -873,10 +803,8 @@
         "Koncerz"
       ],
       "answer": "Karabela",
-      "explanation_correct": "Karabela to najpopularniejszy typ szlachty polskiej, ceniony zarówno za walory bojowe, jak i paradne.",
-      "explanation_incorrect": "Miecz to broń obosieczna, kord był bronią plebejską, a koncerz służył do kłucia z konia.",
-      "last_verified_at": "2026-06-12T15:08:11.695Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Karabela to typ szabli kojarzony z polską szlachtą, używany również jako broń i element stroju paradnego.",
+      "explanation_incorrect": "Miecz to broń obosieczna, kord był bronią plebejską, a koncerz służył do kłucia z konia."
     },
     {
       "subcategory": "Gwara kolejowa",
@@ -894,19 +822,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gwara informatyczna",
-      "question": "Którego określenia w gwarze informatycznej używa się na klawiaturę?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „śrubociąg”?",
       "options": [
-        "Klepak",
-        "Klawiatura",
-        "Klawisz",
-        "Maszynka"
+        "Śrubokręt",
+        "Młotek",
+        "Piła",
+        "Wiadro"
       ],
-      "answer": "Klepak",
-      "explanation_correct": "W slangu komputerowym 'klepak' to potoczna, humorystyczna nazwa klawiatury (od 'klepania' w klawisze).",
-      "explanation_incorrect": "'Klawiatura' to oficjalne, 'klawisz' to pojedynczy przycisk, 'maszynka' to inna forma.",
-      "last_verified_at": "2026-06-12T15:05:53.228Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Śrubokręt",
+      "explanation_correct": "W słowniku gwary poznańskiej „śrubociąg” oznacza: śrubokręt.",
+      "explanation_incorrect": "W tym znaczeniu „śrubociąg” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara poznańska",
@@ -929,29 +855,25 @@
       "options": [
         "Fater",
         "Opa",
-        "Tata",
-        "Vater"
+        "Kredens",
+        "Fotel"
       ],
       "answer": "Fater",
       "explanation_correct": "Na Śląsku 'fater' to potoczne określenie ojca, zapożyczone z niemieckiego 'Vater'.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy ojca, ale nie są charakterystyczne dla gwary śląskiej.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Opa oznacza dziadka; kredens i fotel to meble."
     },
     {
-      "subcategory": "Gwara górska",
-      "question": "Które z poniższych określeń w gwarze górskiej oznacza dziewczynę?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „szwung”?",
       "options": [
-        "Sikorzyca",
-        "Dziewucha",
-        "Kiecka",
-        "Dziwka"
+        "Rozpęd lub impet",
+        "Mróz",
+        "Cień",
+        "Kurz"
       ],
-      "answer": "Sikorzyca",
-      "explanation_correct": "W gwarze górskiej 'sikorzyca' to potoczne określenie młodej dziewczyny.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne określenia, ale nie są typowe dla regionu Podhala.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Rozpęd lub impet",
+      "explanation_correct": "W słowniku gwary poznańskiej „szwung” oznacza: rozpęd lub impet.",
+      "explanation_incorrect": "W tym znaczeniu „szwung” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara warszawska",
@@ -969,184 +891,160 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Gwara więzienna",
-      "question": "Które z poniższych określeń w gwarze więziennej oznacza chleb?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „latoś”?",
       "options": [
-        "Pajda",
-        "Buchta",
-        "Kromka",
-        "Bochenek"
+        "W tym roku",
+        "Wczoraj",
+        "W przyszłym tygodniu",
+        "O północy"
       ],
-      "answer": "Pajda",
-      "explanation_correct": "W gwarze więziennej 'pajda' to potoczne określenie chleba.",
-      "explanation_incorrect": "Pozostałe opcje to neutralne słowa związane z pieczywem, nieużywane w tym znaczeniu w środowisku więziennym.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "W tym roku",
+      "explanation_correct": "„Latoś” oznacza „tego roku” lub „w tym roku”.",
+      "explanation_incorrect": "Pozostałe określenia odnoszą się do innych momentów."
     },
     {
-      "subcategory": "Gwara krakowska",
-      "question": "Które z poniższych słów w gwarze krakowskiej oznacza spódnicę?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „szneka z glancem”?",
       "options": [
-        "Kiece",
-        "Spódnica",
-        "Fartuch",
-        "Suknia"
+        "Drożdżówka z lukrem",
+        "Zupa z dyni",
+        "Kromka razowego chleba",
+        "Smażone jajko"
       ],
-      "answer": "Kiece",
-      "explanation_correct": "W gwarze krakowskiej 'kiece' to potoczne określenie spódnicy, często używane wśród starszego pokolenia.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne nazwy odzieży, ale nie są typowe dla Krakowa.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Drożdżówka z lukrem",
+      "explanation_correct": "W słowniku gwary poznańskiej „szneka z glancem” oznacza: drożdżówka z lukrem.",
+      "explanation_incorrect": "W tym znaczeniu „szneka z glancem” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara śląska",
-      "question": "Które z poniższych określeń w gwarze śląskiej oznacza ziemniaki?",
+      "question": "Która z podanych nazw ziemniaków jest używana również na Śląsku?",
       "options": [
         "Kartofle",
-        "Pyry",
-        "Bulwy",
-        "Ziemnioki"
+        "Kominy",
+        "Poduszki",
+        "Zegarki"
       ],
       "answer": "Kartofle",
       "explanation_correct": "Na Śląsku 'kartofle' to powszechna nazwa ziemniaków, pochodząca z niemieckiego 'Kartoffeln'.",
-      "explanation_incorrect": "Pozostałe opcje to regionalne lub potoczne określenia, ale 'kartofle' jest typowe dla Śląska.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe słowa oznaczają inne przedmioty. Nazwa kartofle występuje także poza Śląskiem."
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Które z poniższych słów w gwarze poznańskiej oznacza cukierki?",
+      "question": "Co w gwarze poznańskiej oznacza „fyrtel”?",
       "options": [
-        "Fyrtle",
-        "Szneki",
-        "Bombonierka",
-        "Lizaki"
+        "Okolicę lub dzielnicę",
+        "Cukierek",
+        "Drożdżówkę",
+        "Stołek"
       ],
-      "answer": "Fyrtle",
-      "explanation_correct": "W Poznaniu 'fyrtle' lub 'śmietony' to nazwy słodyczy, przy czym 'fyrtel' może też oznaczać okolicę/dzielnicę.",
-      "explanation_incorrect": "Szneki to drożdżówki, pozostałe nazwy są ogólnopolskie.",
-      "last_verified_at": "2026-06-12T15:08:11.695Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Okolicę lub dzielnicę",
+      "explanation_correct": "„Fyrtel” oznacza okolicę lub dzielnicę.",
+      "explanation_incorrect": "Cukierek, drożdżówka i stołek nie są tym znaczeniem słowa „fyrtel”."
     },
     {
       "subcategory": "Gwara lwowska",
-      "question": "Które z poniższych określeń w gwarze lwowskiej oznacza łobuza?",
+      "question": "Kogo w tradycji lwowskiej nazywano batiarą?",
       "options": [
-        "Batiar",
-        "Łobuz",
-        "Chuligan",
-        "Bandyta"
+        "Ulicznego łobuza",
+        "Dyrygenta orkiestry",
+        "Marynarza",
+        "Piekarza"
       ],
-      "answer": "Batiar",
-      "explanation_correct": "W gwarze lwowskiej 'batiar' to potoczne określenie łobuza, ulicznika lub dowcipnego chłopaka.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy, ale nie są specyficzne dla Lwowa.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ulicznego łobuza",
+      "explanation_correct": "Batiar to określenie lwowskiego ulicznika lub łobuza, obecnego w lokalnej kulturze i piosenkach.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne role i zawody."
     },
     {
       "subcategory": "Gwara łódzka",
-      "question": "Które z poniższych słów w gwarze łódzkiej oznacza migawki biletowe?",
+      "question": "Co w łódzkim użyciu oznacza „migawka” w komunikacji miejskiej?",
       "options": [
-        "Migawka",
-        "Karta",
-        "Abonament",
-        "Bilet"
+        "Bilet okresowy",
+        "Rozkład jazdy",
+        "Przystanek",
+        "Kierownicę"
       ],
-      "answer": "Migawka",
-      "explanation_correct": "W gwarze łódzkiej 'migawka' to potoczne określenie biletu miesięcznego lub okresowego, zwłaszcza w komunikacji miejskiej.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne słowa związane z biletami, ale 'migawka' jest specyficzne dla Łodzi.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
-    },
-    {
-      "subcategory": "Gwara kurpiowska",
-      "question": "Które z poniższych określeń w gwarze kurpiowskiej oznacza kawę?",
-      "options": [
-        "Zbożówka",
-        "Kawa",
-        "Napój",
-        "Herbata"
-      ],
-      "answer": "Zbożówka",
-      "explanation_correct": "W gwarze kurpiowskiej 'zbożówka' to potoczne określenie kawy zbożowej, popularnej na wsi.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne nazwy napojów, ale nie są typowe dla Kurpi.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
-    },
-    {
-      "subcategory": "Gwara bydgoska",
-      "question": "Które z poniższych słów w gwarze bydgoskiej oznacza torebkę?",
-      "options": [
-        "Tytka",
-        "Torebka",
-        "Sakwa",
-        "Torba"
-      ],
-      "answer": "Tytka",
-      "explanation_correct": "W gwarze bydgoskiej 'tytka' to potoczne określenie torebki, zwłaszcza papierowej lub plastikowej.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy, ale nie są charakterystyczne dla Bydgoszczy.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
-    },
-    {
-      "subcategory": "Gwara podlaska",
-      "question": "Które z poniższych określeń w gwarze podlaskiej oznacza dużo?",
-      "options": [
-        "Dlaś",
-        "Dużo",
-        "Moc",
-        "Spora ilość"
-      ],
-      "answer": "Dlaś",
-      "explanation_correct": "W gwarze podlaskiej 'dlaś' to potoczne określenie oznaczające 'dużo' lub 'wiele'.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy, ale nie są specyficzne dla Podlasia.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
-    },
-    {
-      "subcategory": "Gwara śląska",
-      "question": "Które z poniższych słów w gwarze śląskiej oznacza babcię?",
-      "options": [
-        "Oma",
-        "Babcia",
-        "Babka",
-        "Staruszka"
-      ],
-      "answer": "Oma",
-      "explanation_correct": "Na Śląsku 'oma' to potoczne określenie babci, zapożyczone z niemieckiego 'Oma'.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne określenia, ale nie są typowe dla gwary śląskiej.",
-      "last_verified_at": "2026-06-12T15:05:53.229Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bilet okresowy",
+      "explanation_correct": "W Łodzi „migawka” jest nazwą biletu okresowego w komunikacji miejskiej.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne elementy transportu."
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Które z poniższych określeń w gwarze poznańskiej oznacza kapcie?",
+      "question": "Co w gwarze poznańskiej oznacza słowo „szabel”?",
       "options": [
-        "Laczki",
-        "Kapcie",
-        "Pantofle",
-        "Klapki"
+        "Fasolka szparagowa",
+        "Jabłko",
+        "Burak",
+        "Wiśnia"
       ],
-      "answer": "Laczki",
-      "explanation_correct": "W gwarze poznańskiej 'laczki' to potoczne określenie kapci lub domowego obuwia.",
-      "explanation_incorrect": "Pozostałe opcje to synonimy, ale nie są charakterystyczne dla Poznania.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fasolka szparagowa",
+      "explanation_correct": "W słowniku gwary poznańskiej „szabel” oznacza: fasolka szparagowa.",
+      "explanation_incorrect": "W tym znaczeniu „szabel” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
-      "subcategory": "Gwara góralska",
-      "question": "Które z poniższych słów w gwarze góralskiej oznacza dom?",
+      "subcategory": "Gwara bydgoska",
+      "question": "Co w gwarze bydgoskiej może oznaczać „tytka”?",
       "options": [
-        "Chyża",
-        "Dom",
-        "Chata",
-        "Budynek"
+        "Papierową torebkę",
+        "Szklaną butelkę",
+        "Drewnianą ławkę",
+        "Metalową łyżkę"
       ],
-      "answer": "Chyża",
-      "explanation_correct": "W gwarze góralskiej 'chyża' to potoczne określenie domu, zwłaszcza drewnianej chaty.",
-      "explanation_incorrect": "Pozostałe opcje to ogólne nazwy budynków, ale nie są typowe dla regionu góralskiego.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Papierową torebkę",
+      "explanation_correct": "„Tytka” jest regionalną nazwą torebki, zwłaszcza papierowej; używa się jej także w innych częściach Polski.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne przedmioty."
+    },
+    {
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „sznupa”?",
+      "options": [
+        "Twarz",
+        "Łokieć",
+        "Pięta",
+        "Plecy"
+      ],
+      "answer": "Twarz",
+      "explanation_correct": "W słowniku gwary poznańskiej „sznupa” oznacza: twarz.",
+      "explanation_incorrect": "W tym znaczeniu „sznupa” nie oznacza żadnej z pozostałych odpowiedzi."
+    },
+    {
+      "subcategory": "Gwara śląska",
+      "question": "Kogo na Śląsku nazywa się „omą”?",
+      "options": [
+        "Babcię",
+        "Rybę",
+        "Rower",
+        "Szafę"
+      ],
+      "answer": "Babcię",
+      "explanation_correct": "„Oma” to używane na Śląsku określenie babci, pochodzące z języka niemieckiego.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne osoby lub przedmioty."
+    },
+    {
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznaczają „laczki”?",
+      "options": [
+        "Domowe obuwie",
+        "Rękawiczki",
+        "Ogórki",
+        "Plecaki"
+      ],
+      "answer": "Domowe obuwie",
+      "explanation_correct": "„Laczki” to regionalne określenie domowego obuwia.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne rzeczy."
+    },
+    {
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „szwaja”?",
+      "options": [
+        "Noga",
+        "Ucho",
+        "Oko",
+        "Włosy"
+      ],
+      "answer": "Noga",
+      "explanation_correct": "W słowniku gwary poznańskiej „szwaja” oznacza: noga.",
+      "explanation_incorrect": "W tym znaczeniu „szwaja” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara studencka",
@@ -1183,15 +1081,13 @@
       "question": "Które z poniższych określeń w gwarze żeglarskiej oznacza lewą stronę statku?",
       "options": [
         "Bakburta",
-        "Lewa",
-        "Port",
-        "Nawietrzna"
+        "Sterburta",
+        "Dziób",
+        "Rufa"
       ],
       "answer": "Bakburta",
-      "explanation_correct": "W gwarze żeglarskiej 'bakburta' to fachowe określenie lewej burty statku, z języka angielskiego 'backboard'.",
-      "explanation_incorrect": "Pozostałe opcje to słowa związane z kierunkami, ale nie są terminami żeglarskimi.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bakburta to lewa burta jednostki, gdy patrzymy w kierunku dziobu.",
+      "explanation_incorrect": "Sterburta to prawa burta, dziób jest przodem jednostki, a rufa jej tyłem."
     },
     {
       "subcategory": "Gwara policyjna",
@@ -1234,9 +1130,7 @@
       ],
       "answer": "Rel",
       "explanation_correct": "'Rel' to słowo wyrażające zgodę lub potwierdzenie, zwyciężyło w plebiscycie Młodzieżowe Słowo Roku 2023.",
-      "explanation_incorrect": "Pozostałe opcje pojawiały się w innych latach lub nie są zwycięzcami – 'sztos' wygrał w 2022, 'omg' i 'sigma' nie zdobyły głównej nagrody.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W 2022 roku zwyciężyło „essa”; pozostałe podane słowa nie wygrały głównego głosowania w 2023 roku."
     },
     {
       "subcategory": "Gwara śląska",
@@ -1255,7 +1149,7 @@
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Jak w gwarze poznańskiej określa się dorożkę?",
+      "question": "Jak w dawnej gwarze poznańskiej określano dorożkę lub taksówkę?",
       "options": [
         "Drynda",
         "Pyra",
@@ -1263,40 +1157,34 @@
         "Fuga"
       ],
       "answer": "Drynda",
-      "explanation_correct": "W Poznaniu dorożkę tradycyjnie nazywa się 'drynda' (od niem. Droschke – dorożka).",
-      "explanation_incorrect": "Pozostałe opcje to inne poznańskie wyrazy: 'pyra' to ziemniak, 'bryka' to wesoły pojazd, 'fuga' to szczelina lub motyw muzyczny.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Drynda” bywała poznańską nazwą dorożki, a także taksówki.",
+      "explanation_incorrect": "Pyra to ziemniak; pozostałe słowa nie są nazwą „drynda”."
     },
     {
       "subcategory": "Gwara kaszubska",
-      "question": "Jaka jest kaszubska nazwa regionalnego instrumentu dętego?",
+      "question": "Jak nazywa się tradycyjna kaszubska drewniana trąba?",
       "options": [
         "Bazuna",
-        "Djemba",
-        "Fujarka",
-        "Róg"
+        "Skrzypce",
+        "Bęben",
+        "Klawesyn"
       ],
       "answer": "Bazuna",
-      "explanation_correct": "Bazuna to drewniana trąba o niskim dźwięku, tradycyjny instrument dęty Kaszub.",
-      "explanation_incorrect": "Djemba to bęben afrykański, fujarka to instrument ludowy powszechny w całej Polsce, róg jest ogólnym terminem – bazuna jest typowo kaszubska.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bazuna jest tradycyjnym kaszubskim instrumentem dętym w postaci drewnianej trąby.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają drewnianej kaszubskiej trąby."
     },
     {
-      "subcategory": "Gwara kujawska",
-      "question": "Jak na Kujawach nazywa się garnek?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „haczka”?",
       "options": [
-        "Garniec",
-        "Kocioł",
-        "Rondel",
-        "Balon"
+        "Motyka",
+        "Pędzel",
+        "Łopata do śniegu",
+        "Parasolka"
       ],
-      "answer": "Garniec",
-      "explanation_correct": "W gwarze kujawskiej 'garniec' to tradycyjne określenie garnka, zwykle glinianego.",
-      "explanation_incorrect": "Pozostałe opcje są ogólnopolskie lub należą do innych gwar – 'kocioł' to duże naczynie, 'rondel' to metalowy garnek, 'balon' to rodzaj szklanego naczynia.",
-      "last_verified_at": "2026-06-12T15:05:53.230Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Motyka",
+      "explanation_correct": "W słowniku gwary poznańskiej „haczka” oznacza: motyka.",
+      "explanation_incorrect": "W tym znaczeniu „haczka” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara podhalańska",
@@ -1315,18 +1203,16 @@
     },
     {
       "subcategory": "Gwara prawnicza",
-      "question": "Jak w gwarze prawniczej nazywa się postanowienie sądu?",
+      "question": "Co oznacza wokanda sądowa?",
       "options": [
-        "Wokanda",
-        "Wyrok",
-        "Ustawa",
+        "Wykaz spraw wyznaczonych do rozpoznania",
+        "Postanowienie sądu",
+        "Ustawę",
         "Paragraf"
       ],
-      "answer": "Wokanda",
-      "explanation_correct": "W środowisku prawniczym 'wokanda' oznacza postanowienie sądu lub wcześniej – spis spraw do rozpoznania.",
-      "explanation_incorrect": "Pozostałe opcje mają inne znaczenia: 'wyrok' to orzeczenie kończące sprawę, 'ustawa' to akt normatywny, 'paragraf' to jednostka redakcyjna tekstu prawnego.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wykaz spraw wyznaczonych do rozpoznania",
+      "explanation_correct": "Wokanda zawiera wykaz spraw wyznaczonych do rozpoznania, z informacjami takimi jak sygnatury i godziny.",
+      "explanation_incorrect": "Postanowienie jest rodzajem orzeczenia, ustawa aktem prawnym, a paragraf jednostką redakcyjną."
     },
     {
       "subcategory": "Gwara kulinarna",
@@ -1338,145 +1224,125 @@
         "Leniwe"
       ],
       "answer": "Garusek",
-      "explanation_correct": "Garusek to tradycyjna polewska (zupa) z suszonych owoców, charakterystyczna dla kuchni regionalnej.",
-      "explanation_incorrect": "Kompot to napój, 'zupa owocowa' to opis, a 'leniwe' to kluski – garusek jest specyficznym daniem.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Garusek to tradycyjna polewka, czyli zupa przyrządzana m.in. z suszonych owoców.",
+      "explanation_incorrect": "Kompot to napój, 'zupa owocowa' to opis, a 'leniwe' to kluski – garusek jest specyficznym daniem."
     },
     {
-      "subcategory": "Gwara lwowska",
-      "question": "Kogo w gwarze lwowskiej nazywa się określeniem 'batiar'?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „ejber”?",
       "options": [
-        "Łobuza z klasą",
-        "Naiwniaka",
-        "Złodzieja",
-        "Policjanta"
+        "Łobuz",
+        "Kucharz",
+        "Sędzia",
+        "Dentysta"
       ],
-      "answer": "Łobuza z klasą",
-      "explanation_correct": "Batiar to najsłynniejszy lwowskiej 'typ' – ulicznik, wesoły łobuz znany z dowcipów i piosenek.",
-      "explanation_incorrect": "Frajer to naiwniak, a złodziej to doliniarz; batiar to postać pozytywnie kojarzona z miastem.",
-      "last_verified_at": "2026-06-12T15:08:11.695Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Łobuz",
+      "explanation_correct": "W słowniku gwary poznańskiej „ejber” oznacza: łobuz.",
+      "explanation_incorrect": "W tym znaczeniu „ejber” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara krakowska",
       "question": "Jak w gwarze krakowskiej mówi się o wyjściu na zewnątrz?",
       "options": [
         "Na pole",
-        "Lasa",
-        "Na dwór",
-        "Za progiem"
+        "Do środka",
+        "Pod ziemię",
+        "Na strych"
       ],
       "answer": "Na pole",
       "explanation_correct": "W Krakowie określenie 'na pole' oznacza wyjście na zewnątrz, podwórko lub ulicę.",
-      "explanation_incorrect": "'Na dwór' jest typowe dla Warszawy, 'lasa' to obraźliwe w innych gwarach, 'za progiem' to opis.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wyrażenia „na pole” i „na dwór” oznaczają wyjście na zewnątrz; ich użycie różni się regionalnie."
     },
     {
       "subcategory": "Gwara warszawska",
       "question": "Jak w gwarze warszawskiej mówi się o wyjściu na zewnątrz?",
       "options": [
         "Na dwór",
-        "Na pole",
-        "Lufcik",
-        "Sztama"
+        "Do środka",
+        "Pod ziemię",
+        "Na strych"
       ],
       "answer": "Na dwór",
-      "explanation_correct": "Warszawiacy mówią 'na dwór' zamiast ogólnopolskiego 'na zewnątrz'.",
-      "explanation_incorrect": "'Na pole' to krakowskie, 'lufcik' to okno, 'sztama' to przyjaźń.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
-    },
-    {
-      "subcategory": "Gwara śląska",
-      "question": "Jak w gwarze śląskiej nazywa się małe pomieszczenie kuchenne lub izbę?",
-      "options": [
-        "Kuchnia",
-        "Pokój",
-        "Antryj",
-        "Sypialnia"
-      ],
-      "answer": "Kuchnia",
-      "explanation_correct": "W gwarze śląskiej kuchnia to centralne miejsce domu, nazwa jest taka sama jak po polsku, choć wymawiana z akcentem.",
-      "explanation_incorrect": "Antryj to przedpokój, pokój to izba, a sypialnia to sypialnia.",
-      "last_verified_at": "2026-06-12T15:08:11.695Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Na dwór” to szeroko używane w polszczyźnie określenie wyjścia na zewnątrz, również w Warszawie.",
+      "explanation_incorrect": "W innych regionach popularne jest również wyrażenie „na pole”."
     },
     {
       "subcategory": "Gwara poznańska",
-      "question": "Jak w gwarze poznańskiej nazywa się rower?",
+      "question": "Co w gwarze poznańskiej oznacza słowo „kalafa”?",
       "options": [
-        "Koło",
-        "Rower",
-        "Bajk",
-        "Tramwaj"
+        "Twarz",
+        "Ramię",
+        "Stopa",
+        "Plecy"
       ],
-      "answer": "Koło",
-      "explanation_correct": "W Poznaniu rower często nazywany jest 'koło' (od niem. Rad – koło, rower).",
-      "explanation_incorrect": "Pozostałe opcje są ogólnopolskie lub błędne – 'bajk' to angielski, 'tramwaj' to inny pojazd.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Twarz",
+      "explanation_correct": "W słowniku gwary poznańskiej „kalafa” oznacza: twarz.",
+      "explanation_incorrect": "W tym znaczeniu „kalafa” nie oznacza żadnej z pozostałych odpowiedzi."
+    },
+    {
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „wajcha”?",
+      "options": [
+        "Dźwignia",
+        "Garnek",
+        "Zasłona",
+        "Poduszka"
+      ],
+      "answer": "Dźwignia",
+      "explanation_correct": "W słowniku gwary poznańskiej „wajcha” oznacza: dźwignia.",
+      "explanation_incorrect": "W tym znaczeniu „wajcha” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara komputerowa",
       "question": "Jak w gwarze komputerowej nazywa się błąd w programie?",
       "options": [
         "Bug",
-        "Error",
-        "Błąd",
-        "Crash"
+        "Drukarka",
+        "Kursor",
+        "Monitor"
       ],
       "answer": "Bug",
       "explanation_correct": "W żargonie informatycznym 'bug' oznacza błąd w kodzie programu.",
-      "explanation_incorrect": "Pozostałe opcje są angielskie lub polskie, ale nie są typowym żargonowym określeniem jak 'bug'.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Drukarka, kursor i monitor nie oznaczają błędu w programie. Angielskie „error” także może oznaczać błąd."
     },
     {
-      "subcategory": "Gwara muzyczna",
-      "question": "Jak w gwarze muzycznej nazywa się próbę?",
+      "subcategory": "Gwara poznańska",
+      "question": "Co w gwarze poznańskiej oznacza słowo „zaklepka”?",
       "options": [
-        "Sztuka",
-        "Próba",
-        "Repetycja",
-        "Konkurs"
+        "Zaciąg z mąki do sosu lub zupy",
+        "Nóż kuchenny",
+        "Rodzaj sernika",
+        "Drewniany stołek"
       ],
-      "answer": "Sztuka",
-      "explanation_correct": "Muzycy często mówią 'sztuka' zamiast próba (z niem. Stück – utwór, ale też próba).",
-      "explanation_incorrect": "Pozostałe opcje to ogólne określenia lub nieużywane w tej gwarze.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Zaciąg z mąki do sosu lub zupy",
+      "explanation_correct": "W słowniku gwary poznańskiej „zaklepka” oznacza: zaciąg z mąki do sosu lub zupy.",
+      "explanation_incorrect": "W tym znaczeniu „zaklepka” nie oznacza żadnej z pozostałych odpowiedzi."
     },
     {
       "subcategory": "Gwara wojskowa",
       "question": "Jak w gwarze wojskowej określa się starego żołnierza?",
       "options": [
         "Dziadek",
-        "Weteran",
-        "Dziad",
-        "Stary"
+        "Rekrut",
+        "Poborowy",
+        "Podchorąży"
       ],
       "answer": "Dziadek",
       "explanation_correct": "W wojsku 'dziadek' to potoczne określenie starszego stażem żołnierza.",
-      "explanation_incorrect": "Pozostałe opcje są synonimami, ale nie są specyficzne dla gwary wojskowej.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rekrut, poborowy i podchorąży nie oznaczają w tym żargonie „dziadka”; starszego żołnierza nazywano też „dziadem”."
     },
     {
       "subcategory": "Gwara góralska",
-      "question": "Jak po góralsku nazywa się ser owczy?",
+      "question": "Jak nazywa się wędzony ser z Podhala, którego chroniona specyfikacja dopuszcza do 40% mleka krowiego?",
       "options": [
         "Oscypek",
-        "Brynza",
-        "Redykołka",
+        "Bryndza",
+        "Gouda",
         "Feta"
       ],
       "answer": "Oscypek",
-      "explanation_correct": "Oscypek to wędzony ser z mleka owczego, chroniony prawem regionalnym na Podhalu.",
-      "explanation_incorrect": "Brynza to miękki ser góralski, redykołka to mały ser w kształcie zwierzątek, feta to grecki ser.",
-      "last_verified_at": "2026-06-12T15:05:53.231Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oscypek to chroniona nazwa pochodzenia sera wytwarzanego z co najmniej 60% mleka owczego; specyfikacja dopuszcza do 40% mleka krowiego.",
+      "explanation_incorrect": "Bryndza podhalańska to inny ser regionalny, a gouda i feta to inne rodzaje sera. Redykołka, której nie ma wśród odpowiedzi, również może być wędzonym serem z przewagą mleka owczego."
     },
     {
       "subcategory": "Gwara krakowska",
