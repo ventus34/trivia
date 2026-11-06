@@ -20,6 +20,8 @@ Kolejna partia 2026-11-06: poprawiono 313 rekordów w sześciu paczkach o histor
 
 Kolejna partia 2026-11-06: przejrzano paczkę o historii po 1945 roku i zmieniono 41 rekordów. Zakres zmian, źródła i ograniczenia opisano w osobnym raporcie; niezależnej kontroli subagenta nie wykonano z powodu limitu.
 
+Kolejna partia 2026-11-06: przejrzano paczkę o hobby, rzemiośle i DIY, zmieniając 47 rekordów; źródła i ograniczenia przedstawiono w osobnym raporcie. Kontrola niezależna była niedostępna z powodu limitu subagentów.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
