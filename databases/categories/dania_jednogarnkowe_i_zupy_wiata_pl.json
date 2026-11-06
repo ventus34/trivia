@@ -10,18 +10,16 @@
   "questions": [
     {
       "subcategory": "Kuchnia hiszpańska",
-      "question": "Jak nazywa się naczynie, od którego wzięła swoją nazwę najsłynniejsza hiszpańska potrawa z ryżu i szafranu?",
+      "question": "Jak nazywa się asturyjski gulasz z białej fasoli, chorizo i innych wędlin?",
       "options": [
-        "Wok",
+        "Gazpacho",
         "Paella",
-        "Tadżin",
-        "Kociołek"
+        "Ajoblanco",
+        "Fabada"
       ],
-      "answer": "Paella",
-      "explanation_correct": "Słowo 'paella' w języku walenckim oznacza patelnię; z czasem nazwa ta przeszła na samą potrawę.",
-      "explanation_incorrect": "Tadżin to naczynie z Maghrebu, a wok pochodzi z kuchni azjatyckiej.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fabada",
+      "explanation_correct": "Fabada asturiana to sycąca potrawa z fasoli gotowanej z wędlinami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia wietnamska",
@@ -39,49 +37,43 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia węgierska",
-      "question": "Która przyprawa z mielonych owoców rośliny Capsicum uznawana jest za najważniejszy składnik kuchni węgierskiej?",
+      "subcategory": "Kuchnia hiszpańska",
+      "question": "Jak nazywa się baskijska potrawa z tuńczyka i ziemniaków, tradycyjnie gotowana przez rybaków?",
       "options": [
-        "Kminek",
-        "Kurkuma",
-        "Papryka",
-        "Pieprz kajeński"
+        "Gazpacho",
+        "Marmitako",
+        "Fabada",
+        "Salmorejo"
       ],
-      "answer": "Papryka",
-      "explanation_correct": "Papryka (zarówno słodka, jak i ostra) jest fundamentem węgierskich gulaszy i zup rybnych.",
-      "explanation_incorrect": "Kminek bywa dodatkiem, ale to papryka definiuje smak i barwę kuchni węgierskiej; kurkuma i pieprz kajeński pochodzą z innych tradycji kulinarnych.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Marmitako",
+      "explanation_correct": "Marmitako łączy rybę, ziemniaki i warzywa w gęstym daniu.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia marokańska",
-      "question": "Jak nazywa się gliniane naczynie ze stożkowatą pokrywką, używane w Maroku do powolnego duszenia potraw?",
+      "subcategory": "Kuchnia włoska",
+      "question": "Która toskańska zupa wykorzystuje warzywa i czerstwy chleb?",
       "options": [
-        "Cazuela",
-        "Tadżin",
-        "Bogrács",
-        "Puchat"
+        "Ribollita",
+        "Tiramisu",
+        "Pesto",
+        "Risotto"
       ],
-      "answer": "Tadżin",
-      "explanation_correct": "Specyficzny kształt pokrywki tadżinu sprawia, że skroplona para wraca do potrawy, utrzymując jej wilgotność.",
-      "explanation_incorrect": "Cazuela to naczynie hiszpańskie, bogrács węgierskie, a puchat nie jest naczyniem kuchennym.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ribollita",
+      "explanation_correct": "Ribollita to toskańska zupa z warzyw i chleba, znana w wielu domowych wersjach.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia polska",
       "question": "Która polska zupa powstaje na bazie zakwasu z mąki żytniej?",
       "options": [
-        "Barszcz biały",
+        "Pomidorowa",
         "Żurek",
         "Kapuśniak",
         "Kwaśnica"
       ],
       "answer": "Żurek",
       "explanation_correct": "Żurek tradycyjnie przygotowuje się na zakwasie żytnim, co nadaje mu charakterystyczny, kwaśny smak.",
-      "explanation_incorrect": "Barszcz biały zwykle robi się na zakwasie pszennym, a kapuśniak i kwaśnica bazują na soku z kiszonej kapusty.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pomidorowa bazuje na pomidorach, a kapuśniak i kwaśnica na kapuście. Nazwy żurek i barszcz biały w części regionów bywają używane zamiennie."
     },
     {
       "subcategory": "Kuchnia francuska",
@@ -93,25 +85,21 @@
         "Cioppino"
       ],
       "answer": "Bouillabaisse",
-      "explanation_correct": "Bouillabaisse to gęsta zupa z co najmniej kilku gatunków ryb morskich i owoców morza, doprawiona szafranem.",
-      "explanation_incorrect": "Cacciucco i Cioppino to włoskie zupy rybne, a Chowder wywodzi się z tradycji anglosaskiej.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bouillabaisse to marsylska zupa przygotowywana z kilku gatunków ryb morskich i przypraw, często z szafranem; niektóre wersje zawierają też inne owoce morza.",
+      "explanation_incorrect": "Cacciucco pochodzi z Włoch, cioppino z tradycji włosko-amerykańskiej w San Francisco, a chowder ma korzenie w tradycji angloamerykańskiej."
     },
     {
       "subcategory": "Kuchnia japońska",
-      "question": "Pasta ze sfermentowanej soi, stanowiąca bazę klasycznej japońskiej zupy, to:",
+      "question": "Która japońska zupa miso zawiera wieprzowinę i warzywa?",
       "options": [
-        "Miso",
-        "Gochujang",
-        "Wasabi",
-        "Tamari"
+        "Chłodnik litewski",
+        "Tonjiru",
+        "Ajoblanco",
+        "Gazpacho"
       ],
-      "answer": "Miso",
-      "explanation_correct": "Miso to pasta produkowana ze sfermentowanej soi z dodatkiem ryżu lub jęczmienia i drożdży koji.",
-      "explanation_incorrect": "Gochujang to koreańska pasta chili, Wasabi to chrzan japoński, a Tamari to rodzaj sosu sojowego.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Tonjiru",
+      "explanation_correct": "Tonjiru, zwana też butajiru, to zupa z wieprzowiny i warzyw doprawiana miso.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia tajska",
@@ -168,10 +156,8 @@
         "Kapuśniak"
       ],
       "answer": "Barszcz ukraiński",
-      "explanation_correct": "Barszcz ukraiński to gęsta zupa z buraków, kapusty, ziemniaków i mięsa, często podawana ze śmietaną.",
-      "explanation_incorrect": "Chłodnik litewski podaje się na zimno, barszcz biały nie zawiera buraków, a kapuśniak bazuje na kapuście.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Barszcz ukraiński ma wiele regionalnych i rodzinnych odmian; często zawiera buraki, kapustę i ziemniaki, bywa gotowany z mięsem i podawany ze śmietaną.",
+      "explanation_incorrect": "Chłodnik litewski podaje się na zimno, barszcz biały nie zawiera buraków, a kapuśniak bazuje na kapuście."
     },
     {
       "subcategory": "Kuchnia meksykańska",
@@ -199,13 +185,11 @@
       ],
       "answer": "Charczo",
       "explanation_correct": "Charczo (Kharcho) to sycąca zupa wołowa o wyrazistym aromacie czosnku, kolendry i przyprawy chmeli-suneli.",
-      "explanation_incorrect": "Czystiama to zupa czosnkowa, Piti to potrawa azerska, a Lagman pochodzi z Azji Środkowej.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Piti to zupa popularna w Azerbejdżanie, a lagman to środkowoazjatycka potrawa z makaronem; czystiama nie jest nazwą szukanej zupy gruzińskiej."
     },
     {
       "subcategory": "Kuchnia koreańska",
-      "question": "Jak nazywa się ostra koreańska zupa przygotowywana ze sfermentowanej kapusty pekińskiej?",
+      "question": "Jak nazywa się koreański gulasz z dojrzałego kimchi, często z tofu i wieprzowiną, odróżniany od budae jjigae?",
       "options": [
         "Bulgogi",
         "Kimchijigae",
@@ -213,10 +197,8 @@
         "Budae Jjigae"
       ],
       "answer": "Kimchijigae",
-      "explanation_correct": "Kimchijigae to rodzaj gulaszu (jjigae) robionego z dojrzałego kimchi, tofu i boczku lub owoców morza.",
-      "explanation_incorrect": "Bulgogi to mięso z grilla, Bibimbap to danie z ryżu, a Budae Jjigae to 'zupa wojskowa' z dodatkiem konserw.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kimchi-jjigae to gulasz z kimchi, często z dodatkiem tofu i wieprzowiny.",
+      "explanation_incorrect": "Budae jjigae również może zawierać kimchi, ale kojarzy się także z dodatkami takimi jak mielonka i parówki; bulgogi i bibimbap to inne potrawy."
     },
     {
       "subcategory": "Kuchnia portugalska",
@@ -234,49 +216,43 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia węgierska",
-      "question": "Jak nazywa się tradycyjny węgierski kociołek zawieszany nad ogniskiem, służący do gotowania gulaszu?",
+      "subcategory": "Kuchnia japońska",
+      "question": "Jak nazywa się japońska potrawa, w której różne składniki, np. rzodkiew daikon i jajka, gotują się w bulionie dashi?",
       "options": [
-        "Tadżin",
-        "Bogrács",
-        "Wok",
-        "Kazan"
+        "Oden",
+        "Sashimi",
+        "Tempura",
+        "Onigiri"
       ],
-      "answer": "Bogrács",
-      "explanation_correct": "Od nazwy tego naczynia pochodzi nazwa potrawy 'bogracz', która jest gulaszem przygotowywanym na wolnym ogniu.",
-      "explanation_incorrect": "Tadżin jest marokański, Wok chiński, a Kazan to kocioł używany w Azji Środkowej.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Oden",
+      "explanation_correct": "Oden to danie jednogarnkowe z rozmaitymi dodatkami powoli gotowanymi w bulionie.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia wietnamska",
-      "question": "Która wietnamska potrawa składa się z aromatycznego wywaru, mięsa (najczęściej wołowego) oraz świeżych ziół?",
+      "subcategory": "Kuchnia koreańska",
+      "question": "Jak nazywa się koreańska zupa z kurczaka i żeń-szenia?",
       "options": [
-        "Bun cha",
-        "Pho",
-        "Ramen",
-        "Laksa"
+        "Bibimbap",
+        "Bulgogi",
+        "Gimbap",
+        "Samgyetang"
       ],
-      "answer": "Pho",
-      "explanation_correct": "Zupa Pho jest uznawana za narodowe danie Wietnamu i zazwyczaj występuje w wersji Pho Bo (wołowina) lub Pho Ga (kurczak).",
-      "explanation_incorrect": "Bun cha to grillowana wieprzowina z makaronem, Ramen jest japoński, a Laksa malezyjska.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Samgyetang",
+      "explanation_correct": "Samgyetang to koreańska zupa drobiowa z żeń-szeniem.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia marokańska",
-      "question": "Która drobna kasza z pszenicy durum jest najczęstszym dodatkiem do marokańskich duszonych mięs?",
+      "subcategory": "Kuchnia japońska",
+      "question": "Które japońskie danie z Hokkaido jest jednogarnkową potrawą z łososia i warzyw, często z miso?",
       "options": [
-        "Bulgur",
-        "Kuskus",
-        "Pęczak",
-        "Quinoa"
+        "Fabada",
+        "Ribollita",
+        "Ishikari nabe",
+        "Bigos"
       ],
-      "answer": "Kuskus",
-      "explanation_correct": "Kuskus przygotowuje się tradycyjnie na parze nad gotującym się tadżinem, aby ziarna nasiąkły aromatem potrawy.",
-      "explanation_incorrect": "Bulgur jest popularniejszy w kuchni tureckiej, pęczak w polskiej, a quinoa w południowoamerykańskiej.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ishikari nabe",
+      "explanation_correct": "Ishikari nabe to regionalna potrawa z łososia i warzyw, kojarzona z Hokkaido.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia rosyjska",
@@ -289,9 +265,7 @@
       ],
       "answer": "Solanka",
       "explanation_correct": "Solanka to gęsta, słono-kwaśna zupa, w której łączy się kilka rodzajów mięs lub ryb z wyrazistymi dodatkami.",
-      "explanation_incorrect": "Rassolnik jest łagodniejszy i bez oliwek, Szczi to zupa kapuściana, a Borszcz bazuje na burakach.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rassolnik często zawiera kiszone ogórki i kaszę, szczi to zupa kapuściana, a barszcz bywa przygotowywany na bazie buraków."
     },
     {
       "subcategory": "Kuchnia hiszpańska",
@@ -309,34 +283,30 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia japońska",
-      "question": "Jak nazywają się tradycyjne, grube kluski pszenne podawane w kuchni japońskiej w gorącym bulionie?",
+      "subcategory": "Kuchnia wietnamska",
+      "question": "Która wietnamska zupa makaronowa z miasta Huế słynie z pikantnego bulionu z trawą cytrynową i wołowiny?",
       "options": [
-        "Ramen",
-        "Soba",
-        "Udon",
-        "Shirataki"
+        "Bánh mì",
+        "Bánh xèo",
+        "Bánh bao",
+        "Bún bò Huế"
       ],
-      "answer": "Udon",
-      "explanation_correct": "Udon to najgrubszy rodzaj makaronu pszennego w Japonii, robiony z mąki pszennej, soli i wody.",
-      "explanation_incorrect": "Ramen i Soba są cieńsze, przy czym Soba produkowana jest głównie z mąki gryczanej.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bún bò Huế",
+      "explanation_correct": "Bún bò Huế podaje się z makaronem ryżowym i aromatycznym bulionem; receptury różnią się dodatkami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia indyjska",
-      "question": "Jak określa się w kuchni indyjskiej klarowane masło, które stanowi podstawę aromatycznych dań curry?",
+      "subcategory": "Kuchnia irlandzka",
+      "question": "Jak nazywa się irlandzka potrawa z duszonej jagnięciny, ziemniaków i cebuli?",
       "options": [
-        "Paneer",
-        "Ghee",
-        "Raita",
-        "Lassi"
+        "Sushi",
+        "Sorbet",
+        "Irish stew",
+        "Gazpacho"
       ],
-      "answer": "Ghee",
-      "explanation_correct": "Ghee to oczyszczone masło o wysokiej temperaturze dymienia i orzechowym aromacie.",
-      "explanation_incorrect": "Paneer to rodzaj sera, Raita to sos jogurtowy, a Lassi to napój na bazie jogurtu.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Irish stew",
+      "explanation_correct": "Irish stew to sycąca potrawa jednogarnkowa, przyrządzana m.in. z jagnięciny i ziemniaków.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia polska",
@@ -355,7 +325,7 @@
     },
     {
       "subcategory": "Kuchnia Luizjany",
-      "question": "Jak nazywa się jednogarnkowa potrawa z Luizjany, zagęszczana zasmażką roux, zawierająca owoce morza lub kiełbasę?",
+      "question": "Jak nazywa się luizjańska zupa lub gulasz, często zagęszczana ciemną zasmażką, okrą lub sproszkowanymi liśćmi sassafrasu (filé)?",
       "options": [
         "Jambalaya",
         "Gumbo",
@@ -363,40 +333,34 @@
         "Paella"
       ],
       "answer": "Gumbo",
-      "explanation_correct": "Gumbo to flagowe danie luizjańskiej kuchni kreolskiej, którego kluczowym elementem jest ciemne roux.",
-      "explanation_incorrect": "Jambalaya bazuje na ryżu gotowanym z dodatkami, a Etouffee to technika duszenia owoców morza.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gumbo występuje w wielu wersjach z mięsem, kiełbasą lub owocami morza; do zagęszczania mogą służyć roux, okra lub filé.",
+      "explanation_incorrect": "Étouffée również bywa zagęszczane zasmażką; jambalaya to potrawa z ryżu gotowanego z dodatkami, a paella pochodzi z Hiszpanii."
     },
     {
       "subcategory": "Kuchnia koreańska",
-      "question": "Która fermentowana pasta z soi jest w kuchni koreańskiej podstawowym składnikiem gęstych, aromatycznych zup?",
+      "question": "Jak nazywa się pikantna koreańska zupa z wołowiną i warzywami?",
       "options": [
-        "Miso",
-        "Gochujang",
-        "Doenjang",
-        "Wasabi"
+        "Gimbap",
+        "Bibimbap",
+        "Bulgogi",
+        "Yukgaejang"
       ],
-      "answer": "Doenjang",
-      "explanation_correct": "Doenjang to tradycyjna koreańska pasta sojowa powstała w procesie fermentacji solonych ziaren soi.",
-      "explanation_incorrect": "Miso pochodzi z Japonii, a Gochujang to koreańska pasta z dodatkiem ostrej papryki.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Yukgaejang",
+      "explanation_correct": "Yukgaejang to zupa z wołowiną, warzywami i ostrą przyprawą.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia prowansalska",
-      "question": "Jak nazywa się czosnkowy sos majonezowy tradycyjnie podawany jako dodatek do prowansalskich zup rybnych?",
+      "subcategory": "Kuchnia francuska",
+      "question": "Jak nazywa się francuskie danie z długo gotowanej wołowiny i warzyw, podawane z bulionem?",
       "options": [
-        "Aioli",
-        "Rouille",
-        "Tartare",
-        "Béarnaise"
+        "Pot-au-feu",
+        "Tarte Tatin",
+        "Ratatouille",
+        "Crêpe"
       ],
-      "answer": "Rouille",
-      "explanation_correct": "Rouille zawiera oliwę, bułkę tartą, czosnek, szafran i papryczkę chili, co nadaje mu rdzawy kolor.",
-      "explanation_incorrect": "Aioli to klasyczny sos czosnkowy, a Béarnaise opiera się na maśle i żółtkach z estragonem.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pot-au-feu",
+      "explanation_correct": "Pot-au-feu to francuska potrawa z wołowiny i warzyw wolno gotowanych w bulionie.",
+      "explanation_incorrect": "Ratatouille to danie warzywne, a tarte Tatin i crêpe są innymi potrawami kuchni francuskiej."
     },
     {
       "subcategory": "Kuchnia meksykańska",
@@ -424,9 +388,7 @@
       ],
       "answer": "Feijoada",
       "explanation_correct": "Feijoada wywodzi się z tradycji portugalskiej, ale w Brazylii stała się daniem kultowym z czarną fasolą i wieprzowiną.",
-      "explanation_incorrect": "Moqueca to gulasz rybny z mlekiem kokosowym, a Churrasco to mięso z grilla.",
-      "last_verified_at": "2026-06-12T14:59:45.295Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Moqueca to brazylijska potrawa z ryb lub owoców morza, występująca w różnych wersjach regionalnych, a churrasco to mięso z grilla."
     },
     {
       "subcategory": "Kuchnia francuska",
@@ -475,7 +437,7 @@
     },
     {
       "subcategory": "Kuchnia hiszpańska",
-      "question": "Jak nazywa się andaluzyjski chłodnik pomidorowy o gęstej konsystencji, przygotowany z chleba, oliwy i czosnku?",
+      "question": "Jak nazywa się gęsty chłodnik pomidorowy charakterystyczny dla Kordoby, przygotowany z chleba, oliwy i czosnku?",
       "options": [
         "Gazpacho",
         "Salmorejo",
@@ -484,24 +446,20 @@
       ],
       "answer": "Salmorejo",
       "explanation_correct": "Salmorejo pochodzi z Kordoby i jest znacznie gęstsze oraz bardziej kremowe od tradycyjnego gazpacho.",
-      "explanation_incorrect": "Gazpacho zawiera więcej warzyw (papryka, ogórek), a Ajoblanco bazuje na migdałach.",
-      "last_verified_at": "2026-06-12T14:59:45.296Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gazpacho zawiera więcej warzyw (papryka, ogórek), a Ajoblanco bazuje na migdałach."
     },
     {
-      "subcategory": "Kuchnia japońska",
-      "question": "Który rodzaj pszennego makaronu japońskiego, serwowany często na zimno, jest znacznie cieńszy od udonu?",
+      "subcategory": "Kuchnia hiszpańska",
+      "question": "Jak nazywa się hiszpańska zupa czosnkowa, często przygotowywana z chlebem i jajkiem?",
       "options": [
-        "Sōmen",
-        "Ramen",
-        "Soba",
-        "Harusame"
+        "Paella",
+        "Tortilla de patatas",
+        "Crema catalana",
+        "Sopa de ajo"
       ],
-      "answer": "Sōmen",
-      "explanation_correct": "Sōmen to bardzo cienkie białe nitki o średnicy mniejszej niż 1,3 mm, popularne zwłaszcza latem.",
-      "explanation_incorrect": "Ramen jest sprężysty dzięki wodzie alkalicznej, a Harusame to makaron celofanowy wykonany ze skrobi.",
-      "last_verified_at": "2026-06-12T15:01:44.016Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sopa de ajo",
+      "explanation_correct": "Sopa de ajo to zupa z czosnkiem i chlebem; spotyka się wersje z jajkiem.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia węgierska",
@@ -549,19 +507,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Akcesoria kuchenne",
-      "question": "Jak nazywa się charakterystyczny wietnamski zaparzacz metalowy stawiany bezpośrednio na szklance do parzenia kawy?",
+      "subcategory": "Kuchnia szkocka",
+      "question": "Która szkocka zupa często zawiera kaszę jęczmienną, warzywa i bulion jagnięcy?",
       "options": [
-        "Wok",
-        "Phin",
-        "Tetsubin",
-        "Moka"
+        "Cullen skink",
+        "Gazpacho",
+        "Ajoblanco",
+        "Scotch broth"
       ],
-      "answer": "Phin",
-      "explanation_correct": "Phin składa się z małej komory z filtrem i pokrywki, pozwalając na powolne parzenie bardzo mocnej kawy.",
-      "explanation_incorrect": "Tetsubin to japoński czajniczek do herbaty, a Moka to kawiarka typu włoskiego.",
-      "last_verified_at": "2026-06-12T14:59:45.296Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Scotch broth",
+      "explanation_correct": "Scotch broth występuje w różnych wersjach, często z jęczmieniem, warzywami i strączkami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia szkocka",
@@ -625,7 +581,7 @@
     },
     {
       "subcategory": "Kuchnia peruwiańska",
-      "question": "Która peruwiańska zupa opiera się na krewetkach, mleku skondensowanym i serze?",
+      "question": "Która peruwiańska zupa z Arequipy łączy krewetki, ziemniaki i nabiał?",
       "options": [
         "Aguadito de pollo",
         "Chupe de camarones",
@@ -633,25 +589,21 @@
         "Menestrón"
       ],
       "answer": "Chupe de camarones",
-      "explanation_correct": "To wyraziste danie z Arequipy łączy owoce morza z kremową teksturą nabiału i ziemniakami.",
-      "explanation_incorrect": "Aguadito to zupa z kurczaka i kolendry, Sopa a la minuta to szybka zupa z wołowiny, a Menestrón to lokalna wersja minestrone.",
-      "last_verified_at": "2026-06-12T14:59:45.296Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chupe de camarones to zupa z krewetek z regionu Arequipy; często dodaje się do niej ziemniaki, mleko, ser i inne składniki.",
+      "explanation_incorrect": "Aguadito to zupa z kurczaka i kolendry, Sopa a la minuta to szybka zupa z wołowiny, a Menestrón to lokalna wersja minestrone."
     },
     {
       "subcategory": "Kuchnia polska",
-      "question": "Jak nazywa się regionalna małopolska zupa przygotowywana na bazie serwatki?",
+      "question": "Jak bywa nazywana regionalna polska zupa przygotowywana na bazie serwatki?",
       "options": [
         "Serwatczanka",
-        "Krzonówka",
+        "Rosół",
         "Kwaśnica",
         "Zalewajka"
       ],
       "answer": "Serwatczanka",
-      "explanation_correct": "Serwatczanka to tradycyjna potrawa pasterska z Beskidów, przyrządzana z płynu pozostałego po wyrobie sera.",
-      "explanation_incorrect": "Krzonówka bazuje na chrzanie, Kwaśnica na kapuście kiszonej, a Zalewajka na zakwasie chlebowym.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Serwatczanka to regionalna nazwa zupy przygotowywanej z serwatki, płynu pozostałego po wyrobie sera; receptury i nazwy różnią się zależnie od regionu.",
+      "explanation_incorrect": "Krzonówka, niewymieniona w opcjach, również bywa gotowana na serwatce; rosół, kwaśnica i zalewajka mają inne typowe bazy."
     },
     {
       "subcategory": "Kuchnia amerykańska",
@@ -669,38 +621,34 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Sosy i dodatki",
-      "question": "Która pikantna pasta z papryczek chili jest kluczowym dodatkiem w kuchni krajów Maghrebu?",
+      "subcategory": "Kuchnia francuska",
+      "question": "Jak nazywa się francuska potrawa z wolno gotowanej białej fasoli i mięsa, często z kiełbasą?",
       "options": [
-        "Sambal",
-        "Guchujang",
-        "Harissa",
-        "Muhammara"
+        "Ratatouille",
+        "Crêpe",
+        "Tarte Tatin",
+        "Cassoulet"
       ],
-      "answer": "Harissa",
-      "explanation_correct": "Harissa powstaje z tłuczonych papryczek piri-piri z dodatkiem czosnku, kolendry i kminu rzymskiego.",
-      "explanation_incorrect": "Sambal pochodzi z Indonezji, Gochujang z Korei, a Muhammara to syryjska pasta z orzechów i papryki.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Cassoulet",
+      "explanation_correct": "Cassoulet to francuskie danie z fasoli i mięs, przygotowywane w różnych regionalnych wersjach.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia węgierska",
-      "question": "Jak nazywają się tradycyjne węgierskie drobne kładzione kluseczki, podawane najczęściej do gulaszu pörkölt?",
+      "subcategory": "Kuchnia francuska",
+      "question": "Jak nazywa się francuska potrawa z kurczaka duszonego w winie, często z pieczarkami i cebulkami?",
       "options": [
-        "Nokedli",
-        "Tarhonya",
-        "Krumpligombóc",
-        "Lángos"
+        "Ratatouille",
+        "Tarte Tatin",
+        "Coq au vin",
+        "Crème brûlée"
       ],
-      "answer": "Nokedli",
-      "explanation_correct": "Nokedli to popularne na Węgrzech kluski kładzione z mąki i jajek, serwowane jako dodatek do dań mięsnych.",
-      "explanation_incorrect": "Tarhonya to twarde ciasto tarte, Krumpligombóc to knedle ziemniaczane, a Lángos to smażony drożdżowy placek.",
-      "last_verified_at": "2026-06-12T15:01:44.016Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Coq au vin",
+      "explanation_correct": "Coq au vin to klasyczna potrawa drobiowa duszona w winie; dodatki zależą od przepisu.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia indyjska",
-      "question": "Które indyjskie danie składa się z wolno gotowanej czarnej soczewicy i fasoli kidney z dużym dodatkiem masła i śmietany?",
+      "question": "Które indyjskie danie przygotowuje się z długo gotowanego uradu (czarnej fasoli mungo) i często fasoli kidney, z dodatkiem masła i śmietany?",
       "options": [
         "Tarka Dal",
         "Chana Masala",
@@ -708,40 +656,34 @@
         "Rajma"
       ],
       "answer": "Dal Makhani",
-      "explanation_correct": "Dal Makhani to luksusowa wersja potrawy z roślin strączkowych, zawdzięczająca nazwę dużej ilości masła (makhana).",
-      "explanation_incorrect": "Tarka Dal to lżejsza soczewica z przyprawami, Chana Masala to ciecierzyca, a Rajma to sama fasola kidney w sosie.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dal makhani zawiera urad, często również fasolę kidney, oraz masło i śmietanę. Hindi „makhan” oznacza masło.",
+      "explanation_incorrect": "Tarka Dal to lżejsza soczewica z przyprawami, Chana Masala to ciecierzyca, a Rajma to sama fasola kidney w sosie."
     },
     {
-      "subcategory": "Kuchnia wietnamska",
-      "question": "Jak nazywają się wietnamskie chrupiące naleśniki z mąki ryżowej z kurkumą, nadziewane boczkiem, krewetkami i kiełkami?",
+      "subcategory": "Kuchnia hiszpańska",
+      "question": "Z którym regionem Hiszpanii kojarzy się treściwa zupa caldo gallego?",
       "options": [
-        "Bánh xèo",
-        "Bánh mì",
-        "Bánh cuốn",
-        "Bánh bao"
+        "Galicja",
+        "Andaluzja",
+        "Katalonia",
+        "Wyspy Kanaryjskie"
       ],
-      "answer": "Bánh xèo",
-      "explanation_correct": "Bánh xèo dosłownie oznacza 'skwierczący placek' od dźwięku, jaki wydaje ciasto na gorącej patelni.",
-      "explanation_incorrect": "Bánh mì to kanapka, Bánh cuốn to parowane naleśniki, a Bánh bao to nadziewane bułeczki na parze.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Galicja",
+      "explanation_correct": "Caldo gallego to zupa z Galicji, przygotowywana w różnych wersjach z warzywami i mięsem.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia brytyjska",
-      "question": "Która szkocka zupa jest przygotowywana z wędzonego łupacza, ziemniaków, cebuli i śmietany?",
+      "subcategory": "Kuchnia fińska",
+      "question": "Jak nazywa się fińska zupa z łososia, ziemniaków i śmietanki?",
       "options": [
-        "Cock-a-leekie",
-        "Scotch Broth",
-        "Cullen Skink",
-        "Partan Bree"
+        "Tiramisu",
+        "Gazpacho",
+        "Kimchi",
+        "Lohikeitto"
       ],
-      "answer": "Cullen Skink",
-      "explanation_correct": "Cullen Skink pochodzi z miasta Cullen i jest jedną z najważniejszych zup w kulinarnym dziedzictwie Szkocji.",
-      "explanation_incorrect": "Cock-a-leekie to zupa z kurczaka i pora, a Scotch Broth to wywar z baraniny i jęczmienia.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Lohikeitto",
+      "explanation_correct": "Lohikeitto to fińska zupa łososiowa, często podawana z koperkiem.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia gruzińska",
@@ -753,10 +695,8 @@
         "Solianka"
       ],
       "answer": "Czichirtma",
-      "explanation_correct": "Czichirtma charakteryzuje się brakiem warzyw i aksamitną konsystencją uzyskaną dzięki procesowi hartowania jajek.",
-      "explanation_incorrect": "Charcho to zupa z wołowiny i orzechów, a Haszi to tłusta zupa z podrobów.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czichirtma to gruzińska zupa drobiowa zagęszczana jajkami; spotyka się w niej także cebulę, mąkę i kwaśny dodatek.",
+      "explanation_incorrect": "Charcho to zupa z wołowiny i orzechów, a Haszi to tłusta zupa z podrobów."
     },
     {
       "subcategory": "Kuchnia włoska",
@@ -849,34 +789,30 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia peruwiańska",
-      "question": "Które peruwiańskie danie składa się z kawałków wołowiny smażonych metodą stir-fry z czerwoną cebulą, pomidorami i frytkami?",
+      "subcategory": "Kuchnia włoska",
+      "question": "Jak nazywa się włoskie danie z kurczaka duszonego po myśliwsku, często z pomidorami?",
       "options": [
-        "Lomo Saltado",
-        "Anticuchos",
-        "Aji de Gallina",
-        "Ceviche"
+        "Tiramisu",
+        "Panna cotta",
+        "Gelato",
+        "Pollo alla cacciatora"
       ],
-      "answer": "Lomo Saltado",
-      "explanation_correct": "Lomo Saltado to przykład kuchni chifa, łączącej tradycje peruwiańskie z wpływami chińskich imigrantów.",
-      "explanation_incorrect": "Anticuchos to szaszłyki z serc, a Aji de Gallina to kurczak w kremowym sosie z papryki aji amarilo.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pollo alla cacciatora",
+      "explanation_correct": "Kurczak po myśliwsku występuje w regionalnych wersjach; w jednej z nich dusi się go z pomidorami i grzybami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia tajska",
-      "question": "Jak nazywa się najsłynniejszy tajski smażony makaron ryżowy z pastą z tamaryndowca, orzeszkami ziemnymi i limonką?",
+      "subcategory": "Kuchnia japońska",
+      "question": "Jak nazywa się japońskie danie jednogarnkowe kojarzone z dietą zawodników sumo?",
       "options": [
-        "Pad See Ew",
-        "Pad Thai",
-        "Tom Kha Kai",
-        "Som Tum"
+        "Mochi",
+        "Onigiri",
+        "Chanko nabe",
+        "Nigiri sushi"
       ],
-      "answer": "Pad Thai",
-      "explanation_correct": "Pad Thai to narodowe danie Tajlandii, łączące smaki słodki, kwaśny i słony w jednym daniu z woka.",
-      "explanation_incorrect": "Pad See Ew to makaron z sosem sojowym, a Tom Kha Kai to zupa kokosowa.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Chanko nabe",
+      "explanation_correct": "Chanko nabe to potrawa z bulionem i różnymi dodatkami, m.in. mięsem lub tofu oraz warzywami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia rosyjska",
@@ -894,19 +830,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia koreańska",
-      "question": "Jak nazywa się koreańska potrawa serwowana w misce, składająca się z ryżu, blanszowanych warzyw, mięsa i pasty gochujang?",
+      "subcategory": "Kuchnia hiszpańska",
+      "question": "Jak nazywa się potrawa z regionu La Rioja, w której ziemniaki dusi się z chorizo?",
       "options": [
-        "Bulgogi",
-        "Bibimbap",
-        "Kimchi",
-        "Gimbap"
+        "Patatas a la riojana",
+        "Salmorejo",
+        "Gazpacho",
+        "Ajoblanco"
       ],
-      "answer": "Bibimbap",
-      "explanation_correct": "Bibimbap dosłownie oznacza 'mieszany ryż' i przed spożyciem należy dokładnie wymieszać wszystkie składniki z ostrym sosem.",
-      "explanation_incorrect": "Bulgogi to grillowana wołowina, a Gimbap to koreańskie rolki ryżowe zawijane w algi.",
-      "last_verified_at": "2026-06-12T14:59:58.747Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Patatas a la riojana",
+      "explanation_correct": "Patatas a la riojana łączy ziemniaki z chorizo, papryką i innymi przyprawami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia brytyjska",
@@ -939,19 +873,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia gruzińska",
-      "question": "Który rodzaj gruzińskich pierożków charakteryzuje się zawartością aromatycznego bulionu wewnątrz ciasta?",
+      "subcategory": "Kuchnia meksykańska",
+      "question": "Co jest charakterystycznym dodatkiem do meksykańskiej zupy tortilla?",
       "options": [
-        "Pelmieni",
-        "Chinkali",
-        "Manti",
-        "Wonton"
+        "Płatki migdałowe",
+        "Paski tortilli kukurydzianej",
+        "Płatki owsiane",
+        "Płatki kukurydziane"
       ],
-      "answer": "Chinkali",
-      "explanation_correct": "Chinkali formuje się w charakterystyczne sakiewki, które podczas gotowania wypełniają się bulionem z mięsa.",
-      "explanation_incorrect": "Pelmieni są mniejsze i pochodzą z Rosji, Manti to pierogi środkowoazjatyckie, a Wonton to specjał chiński.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Paski tortilli kukurydzianej",
+      "explanation_correct": "Zupę tortilla często podaje się z chrupiącymi paskami kukurydzianej tortilli.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia indyjska",
@@ -985,7 +917,7 @@
     },
     {
       "subcategory": "Kuchnia grecka",
-      "question": "Która grecka zupa charakteryzuje się kremową konsystencją uzyskaną dzięki połączeniu soku z cytryny i jajek?",
+      "question": "Jak nazywa się grecka zupa z kurczaka z dodatkiem jajek i soku z cytryny, podawana często z ryżem?",
       "options": [
         "Fasolada",
         "Avgolemono",
@@ -993,25 +925,21 @@
         "Magiritsa"
       ],
       "answer": "Avgolemono",
-      "explanation_correct": "Avgolemono to aksamitna zupa na bulionie z kury, której nazwa dosłownie oznacza 'jajko-cytryna'.",
-      "explanation_incorrect": "Fasolada to zupa fasolowa, Psarosoupa rybna, a Magiritsa to wielkanocna zupa z podrobów.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Avgolemono to nazwa mieszanki jajka i cytryny, a także zupy przygotowywanej często na bulionie drobiowym.",
+      "explanation_incorrect": "Magiritsa może także zawierać mieszankę avgolemono, lecz jest zupą z podrobów; fasolada to zupa fasolowa, a psarosoupa – rybna."
     },
     {
-      "subcategory": "Kuchnia włoska",
-      "question": "Która odmiana ryżu o krótkich, pękatych ziarnach jest najczęściej stosowana do przyrządzania włoskiego risotto?",
+      "subcategory": "Kuchnia polska",
+      "question": "Jak nazywa się kujawska zupa z kapusty i innych warzyw, m.in. ziemniaków?",
       "options": [
-        "Basmati",
-        "Arborio",
-        "Jasmine",
-        "Parboiled"
+        "Zupa pomidorowa",
+        "Parzybroda",
+        "Czernina",
+        "Żurek"
       ],
-      "answer": "Arborio",
-      "explanation_correct": "Arborio zawiera dużą ilość amylopektyny, dzięki czemu podczas gotowania wydziela skrobię nadającą risotto kremowość.",
-      "explanation_incorrect": "Basmati i Jasmine to ryże długoziarniste o innych właściwościach, a Parboiled nie uwalnia dostatecznej ilości skrobi.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Parzybroda",
+      "explanation_correct": "Kujawska parzybroda zawiera kapustę, ziemniaki i inne warzywa.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia kreolska",
@@ -1030,7 +958,7 @@
     },
     {
       "subcategory": "Kuchnia brazylijska",
-      "question": "Który brazylijski gulasz rybny przygotowuje się tradycyjnie z dodatkiem mleczka kokosowego i oleju palmowego dendê?",
+      "question": "Który brazylijski gulasz rybny w wersji baiana przygotowuje się z mleczkiem kokosowym i olejem palmowym dendê?",
       "options": [
         "Feijoada",
         "Moqueca",
@@ -1038,10 +966,8 @@
         "Bobó de Camarão"
       ],
       "answer": "Moqueca",
-      "explanation_correct": "Moqueca capixaba lub baiana to wolno gotowane danie z ryb lub owoców morza w glinianych naczyniach.",
-      "explanation_incorrect": "Feijoada to gulasz z czarnej fasoli i wieprzowiny, a Vatapa to pasta z chleba i krewetek.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Moqueca baiana jest regionalną potrawą z ryb lub owoców morza z Bahii; wersja capixaba z Espírito Santo tradycyjnie nie zawiera mleczka kokosowego ani oleju dendê.",
+      "explanation_incorrect": "Feijoada to gulasz z czarnej fasoli i wieprzowiny, a Vatapa to pasta z chleba i krewetek."
     },
     {
       "subcategory": "Kuchnia tunezyjska",
@@ -1059,19 +985,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia rosyjska",
-      "question": "Jak nazywa się tradycyjna, gęsta zupa rosyjska, której głównym składnikiem jest kiszona kapusta?",
+      "subcategory": "Kuchnia śląska",
+      "question": "Z jakiego siemienia przyrządza się konopną odmianę śląskiej zupy wigilijnej nazywanej siemieniotką?",
       "options": [
-        "Szi",
-        "Solanka",
-        "Barszcz",
-        "Ucha"
+        "Z ziaren kawy",
+        "Z nasion konopi",
+        "Z pestek dyni",
+        "Z orzechów laskowych"
       ],
-      "answer": "Szi",
-      "explanation_correct": "Szi to narodowa rosyjska zupa kapustna; wersja z kiszonej kapusty nazywana jest 'kisliszi'.",
-      "explanation_incorrect": "Solanka jest zupą słono-kwaśną, Barszcz to zupa buraczana, a Ucha to zupa rybna.",
-      "last_verified_at": "2026-06-12T15:01:44.016Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Z nasion konopi",
+      "explanation_correct": "W opisanej tradycji siemieniotkę przygotowuje się z siemienia konopnego; istnieją także regionalne warianty.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia hiszpańska",
@@ -1104,49 +1028,43 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia irlandzka",
-      "question": "Która irlandzka potrawa składa się z utłuczonych ziemniaków wymieszanych z posiekanym jarmużem lub kapustą i dużą ilością masła?",
+      "subcategory": "Kuchnia śląska",
+      "question": "Jak nazywa się śląska potrawa wigilijna, która w słodkiej wersji może zawierać piernik i suszone owoce?",
       "options": [
-        "Boxty",
-        "Champ",
-        "Colcannon",
-        "Coddle"
+        "Rosół",
+        "Fasolka po bretońsku",
+        "Moczka",
+        "Żurek"
       ],
-      "answer": "Colcannon",
-      "explanation_correct": "Colcannon to klasyczne danie kuchni domowej, podawane często jako dodatek do gotowanej szynki lub boczku.",
-      "explanation_incorrect": "Champ zawiera cebulę dymkę zamiast kapusty, Boxty to placki ziemniaczane, a Coddle to gulasz z parówek.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Moczka",
+      "explanation_correct": "Moczka, zwana też m.in. mołcką, ma różne wersje; niektóre zawierają piernik i bakalie.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia marokańska",
-      "question": "Która nazwa odnosi się do tradycyjnego marokańskiego, stożkowatego naczynia glinianego używanego do powolnego duszenia potraw?",
+      "subcategory": "Kuchnia polska",
+      "question": "Którą polską potrawę przygotowuje się z duszonej kapusty kiszonej i różnych mięs?",
       "options": [
-        "Tajine",
-        "Couscousier",
-        "Kazan",
-        "Wok"
+        "Sernik",
+        "Bigos",
+        "Racuchy",
+        "Naleśniki"
       ],
-      "answer": "Tajine",
-      "explanation_correct": "Tajine to naczynie z charakterystyczną stożkowatą pokrywą, która sprzyja cyrkulacji pary podczas gotowania.",
-      "explanation_incorrect": "Couscousier służy do parowania kaszy, Kazan to kociołek środkowoazjatycki, a Wok to naczynie azjatyckie.",
-      "last_verified_at": "2026-06-12T15:01:44.016Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bigos",
+      "explanation_correct": "Bigos wielkopolski łączy kapustę kiszoną, często także świeżą, z mięsem i przyprawami.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia brytyjska",
-      "question": "Pod jaką nazwą znana jest angielska zapiekanka z mielonej jagnięciny przykrytej warstwą zapieczonych ziemniaków?",
+      "subcategory": "Kuchnia węgierska",
+      "question": "Jak nazywa się potrawa węgierska z duszonej papryki, pomidorów i cebuli?",
       "options": [
-        "Cottage pie",
-        "Shepherd's pie",
-        "Pot pie",
-        "Lancashire Hotpot"
+        "Leczo",
+        "Bigos",
+        "Żurek",
+        "Rosół"
       ],
-      "answer": "Shepherd's pie",
-      "explanation_correct": "Nazwa nawiązuje do pasterza (shepherd), który opiekuje się owcami, co wskazuje na użyte mięso jagnięce.",
-      "explanation_incorrect": "Cottage pie to odpowiednik z wołowiną, a Lancashire Hotpot to gulasz z plastrami ziemniaków na górze.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Leczo",
+      "explanation_correct": "Leczo to potrawa warzywna z papryką, pomidorami i cebulą; spotyka się różne dodatki.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia koreańska",
@@ -1158,25 +1076,21 @@
         "Miyeok-guk"
       ],
       "answer": "Sundubu-jjigae",
-      "explanation_correct": "Sundubu-jjigae jest ceniona za jedwabistą teksturę tofu 'sun' oraz głęboki smak pasty gochujang.",
-      "explanation_incorrect": "Doenjang-jjigae bazuje na paście sojowej, Yukgaejang to zupa z wołowiny, a Miyeok-guk to zupa z wodorostów.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sundubu-jjigae zawiera delikatne, niesprasowane tofu; w pikantnych wersjach smak nadają mu między innymi płatki chili gochugaru lub pasta gochujang.",
+      "explanation_incorrect": "Doenjang-jjigae bazuje na paście sojowej, Yukgaejang to zupa z wołowiny, a Miyeok-guk to zupa z wodorostów."
     },
     {
       "subcategory": "Kuchnia japońska",
-      "question": "Jak nazywa się podstawowy japoński bulion przygotowywany z płatków suszonego tuńczyka (katsuobushi) i wodorostów kombu?",
+      "question": "Jaki bulion nadaje nazwę japońskiemu ramenowi tonkotsu?",
       "options": [
-        "Miso",
-        "Dashi",
-        "Mirin",
-        "Tonkotsu"
+        "Bulion z samych pomidorów",
+        "Napój z ziaren kawy",
+        "Bulion gotowany na kościach wieprzowych",
+        "Wywar wyłącznie z migdałów"
       ],
-      "answer": "Dashi",
-      "explanation_correct": "Dashi stanowi esencję smaku umami i jest bazą dla większości japońskich zup oraz sosów.",
-      "explanation_incorrect": "Miso to pasta ze sfermentowanej soi, Mirin to słodkie wino ryżowe, a Tonkotsu to bulion na kościach wieprzowych.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bulion gotowany na kościach wieprzowych",
+      "explanation_correct": "Tonkotsu ramen charakteryzuje się bogatym bulionem na kościach wieprzowych.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia gruzińska",
@@ -1209,34 +1123,30 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia indyjska",
-      "question": "Jak nazywa się klarowane masło powszechnie używane w kuchni indyjskiej do smażenia bazy aromatycznej dań jednogarnkowych?",
+      "subcategory": "Kuchnia polska",
+      "question": "Które popularne danie w Polsce łączy białą fasolę z sosem pomidorowym i często kiełbasą?",
       "options": [
-        "Tahini",
-        "Ghee",
-        "Paneer",
-        "Tempeh"
+        "Racuchy",
+        "Naleśniki",
+        "Piernik",
+        "Fasolka po bretońsku"
       ],
-      "answer": "Ghee",
-      "explanation_correct": "Ghee to oczyszczony tłuszcz mleczny o wysokim punkcie dymienia, kluczowy w kuchni południowoazjatyckiej. Powstaje poprzez długotrwałe gotowanie masła i usunięcie z niego osadów białkowych.",
-      "explanation_incorrect": "Tahini to pasta z sezamu, Paneer jest rodzajem twarogu, a Tempeh to produkt ze sfermentowanej soi.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fasolka po bretońsku",
+      "explanation_correct": "Fasolka po bretońsku to potrawa z białej fasoli w sosie, w popularnych wersjach z kiełbasą.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia hiszpańska",
-      "question": "Jaką nazwę nosi charakterystyczne, szerokie i płytkie naczynie z dwoma uchwytami, służące do przygotowywania hiszpańskiej paelli?",
+      "subcategory": "Kuchnia gruzińska",
+      "question": "Jak nazywa się gruziński gulasz z jagnięciny lub koźliny, z ziołami i zielonymi śliwkami?",
       "options": [
-        "Tagine",
-        "Wok",
-        "Paellera",
-        "Kociołek"
+        "Chinkali",
+        "Churchchela",
+        "Czakapuli",
+        "Chaczapuri"
       ],
-      "answer": "Paellera",
-      "explanation_correct": "Paellera jest naczyniem zaprojektowanym tak, aby ryż gotował się w cienkiej warstwie, co sprzyja równomiernemu odparowaniu płynu. Nazwa potrawy wywodzi się bezpośrednio od nazwy tego naczynia.",
-      "explanation_incorrect": "Tagine to gliniane naczynie marokańskie, wok służy do kuchni azjatyckiej, a kociołek do dań nad ogniem.",
-      "last_verified_at": "2026-06-12T14:59:58.748Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Czakapuli",
+      "explanation_correct": "Czakapuli to gruzińska potrawa mięsna, do której dodaje się m.in. estragon i zielone śliwki.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia peruwiańska",
@@ -1254,64 +1164,56 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia tajska",
-      "question": "Która kompozycja składników tworzy podstawę aromatyczną dla ostrych, tajskich dań jednogarnkowych na bazie mleczka kokosowego?",
+      "subcategory": "Kuchnia polska",
+      "question": "Jak nazywa się polska zupa często przygotowywana z kaszy jęczmiennej i warzyw?",
       "options": [
-        "Czerwone curry",
-        "Żółte curry",
-        "Zielone curry",
-        "Massaman curry"
+        "Krupnik",
+        "Czernina",
+        "Żurek",
+        "Rosół"
       ],
-      "answer": "Zielone curry",
-      "explanation_correct": "Zielone curry zawdzięcza swój kolor i aromat świeżym zielonym papryczkom chili oraz ziołom, takim jak kolendra i bazylia tajska. Jest uznawane za jedną z najbardziej pikantnych odmian tajskiego curry.",
-      "explanation_incorrect": "Pozostałe opcje to inne rodzaje past curry, różniące się doborem przypraw i stopniem ostrości.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
-    },
-    {
-      "subcategory": "Kuchnia węgierska",
-      "question": "Jaki składnik stanowi fundament smakowy i kolorystyczny dla większości tradycyjnych zup i gulaszy kuchni węgierskiej?",
-      "options": [
-        "Kminek",
-        "Mielona papryka",
-        "Szafran",
-        "Kurkuma"
-      ],
-      "answer": "Mielona papryka",
-      "explanation_correct": "Mielona papryka (słodka i ostra) jest sercem kuchni węgierskiej, nadając potrawom takim jak pörkölt czy gulyásleves głęboki kolor. Często podsmaża się ją na smalcu z cebulą na samym początku gotowania.",
-      "explanation_incorrect": "Kminek jest tylko dodatkiem, natomiast szafran i kurkuma nie są charakterystyczne dla tradycyjnej bazy dań węgierskich.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Krupnik",
+      "explanation_correct": "Krupnik jest zupą z kaszą; w niwiskiej wersji wykorzystuje się kaszę jęczmienną.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia polska",
-      "question": "Która staropolska zupa przygotowywana jest na bazie zakwasu sporządzonego z mąki żytniej?",
+      "question": "Która gęsta zupa z nasion roślin strączkowych, często z wędzonką i ziemniakami, kojarzy się w Polsce z kuchnią wojskową?",
       "options": [
-        "Barszcz biały",
-        "Zalewajka",
-        "Żurek",
-        "Kapuśniak"
+        "Grochówka",
+        "Czernina",
+        "Rosół",
+        "Żurek"
       ],
-      "answer": "Żurek",
-      "explanation_correct": "Żurek tradycyjnie bazuje na zakwasie żytnim, co nadaje mu charakterystyczny, kwaśny smak. Często serwowany jest z jajkiem, kiełbasą i chrzanem.",
-      "explanation_incorrect": "Barszcz biały często robi się na zakwasie pszennym, zalewajka ma inny proces przygotowania (zalewanie ziemniaków), a kapuśniak bazuje na kapuście.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Grochówka",
+      "explanation_correct": "Grochówka to zupa z grochu, występująca w wersjach postnych i mięsnych.",
+      "explanation_incorrect": "Czernina zawiera krew, rosół jest wywarem, a żurek często przygotowuje się na zakwasie."
     },
     {
-      "subcategory": "Kuchnia włoska",
-      "question": "Która odmiana ryżu, cechująca się wysoką zawartością skrobi i zdolnością do wchłaniania płynów, jest uznawana za najlepszą do włoskich dań typu risotto?",
+      "subcategory": "Kuchnia polska",
+      "question": "Co jest głównym składnikiem tradycyjnej zupy zwanej flakami?",
       "options": [
-        "Basmati",
-        "Arborio",
-        "Carnaroli",
-        "Jasmine"
+        "Suszone śliwki",
+        "Płatki migdałowe",
+        "Oczyszczone i pokrojone fragmenty żołądków zwierzęcych",
+        "Makaron ryżowy"
       ],
-      "answer": "Carnaroli",
-      "explanation_correct": "Carnaroli jest nazywany 'królem ryżu' do risotto ze względu na doskonały balans między kremowością a twardością ziarna. Lepiej zachowuje kształt podczas długiego gotowania niż popularniejsze Arborio.",
-      "explanation_incorrect": "Basmati i Jasmine to ryże sypkie, długoziarniste, które nie nadają się do uzyskania kremowej konsystencji risotta.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Oczyszczone i pokrojone fragmenty żołądków zwierzęcych",
+      "explanation_correct": "Flaki przygotowuje się z oczyszczonych fragmentów żołądków, np. wołowych, oraz wywaru i przypraw.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
+    },
+    {
+      "subcategory": "Kuchnia polska",
+      "question": "Która popularna w Polsce zupa bywa przygotowywana ze świeżych pomidorów i podawana z makaronem lub ryżem?",
+      "options": [
+        "Szczawiowa",
+        "Pomidorowa",
+        "Ogórkowa",
+        "Krupnik"
+      ],
+      "answer": "Pomidorowa",
+      "explanation_correct": "Zupę pomidorową przygotowuje się z pomidorów lub przetworów pomidorowych; bywa podawana z ryżem albo makaronem.",
+      "explanation_incorrect": "Pozostałe zupy kojarzą się odpowiednio ze szczawiem, ogórkami kiszonymi lub kaszą."
     },
     {
       "subcategory": "Kuchnia ormiańska",
@@ -1329,49 +1231,43 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia brazylijska",
-      "question": "Która potrawa z czarnej fasoli i różnych gatunków mięs jest uznawana za narodowy specjał typu jednogarnkowego w Brazylii?",
+      "subcategory": "Kuchnia brytyjska",
+      "question": "Jak nazywa się zupa łącząca przyprawy kojarzone z kuchnią indyjską i brytyjską tradycją kulinarną?",
       "options": [
-        "Moqueca",
-        "Feijoada",
-        "Churrasco",
-        "Coxinha"
+        "Sushi",
+        "Tiramisu",
+        "Risotto",
+        "Mulligatawny"
       ],
-      "answer": "Feijoada",
-      "explanation_correct": "Feijoada to gęsty gulasz z czarnej fasoli, w którym gotuje się soloną wołowinę oraz różne części wieprzowiny. Tradycyjnie podaje się ją z ryżem, jarmużem i mączką maniokową (farofa).",
-      "explanation_incorrect": "Moqueca to gulasz rybny, Churrasco to mięso z grilla, a Coxinha to rodzaj krokieta.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mulligatawny",
+      "explanation_correct": "Mulligatawny to przyprawiona zupa łącząca wpływy indyjskie i brytyjskie, przygotowywana w różnych wersjach.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
-      "subcategory": "Kuchnia francuska",
-      "question": "Jak w terminologii kulinarnej, wywodzącej się z Francji, określa się mieszankę mąki i tłuszczu podgrzewaną razem w celu zagęszczenia zupy lub sosu?",
+      "subcategory": "Zupy warzywne",
+      "question": "Z którego sezonowego warzywa przygotowuje się pomarańczowy krem, np. z dodatkiem imbiru lub mleka kokosowego?",
       "options": [
-        "Zasmażka",
-        "Bouillon",
-        "Mirepoix",
-        "Deglasowanie"
+        "Szczaw",
+        "Dynia",
+        "Ogórek kiszony",
+        "Cebula"
       ],
-      "answer": "Zasmażka",
-      "explanation_correct": "Zasmażka (fr. roux) powstaje poprzez wspólne smażenie mąki i tłuszczu, co pozwala na stabilne połączenie płynów w aksamitną strukturę. Stopień wysmażenia zasmażki wpływa na kolor i smak końcowego dania.",
-      "explanation_incorrect": "Bouillon to wywar, Mirepoix to baza warzywna, a deglasowanie to odklejanie smaku z dna patelni płynem.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dynia",
+      "explanation_correct": "Zupa krem z dyni powstaje z ugotowanej lub upieczonej dyni, którą można zmiksować z wywarem.",
+      "explanation_incorrect": "Szczaw, ogórki i cebula są bazą innych zup; pomarańczowy krem opisany w pytaniu przygotowuje się z dyni."
     },
     {
-      "subcategory": "Kuchnia węgierska",
-      "question": "Jak nazywają się małe, kładzione kluseczki, które stanowią nierozłączny dodatek do węgierskiego gulaszu lub pörkölt?",
+      "subcategory": "Kuchnia japońska",
+      "question": "Które danie polega na krótkim gotowaniu cienkich plastrów mięsa w gorącym bulionie przy stole?",
       "options": [
-        "Spätzle",
-        "Tarhonya",
-        "Nokedli",
-        "Gnocchi"
+        "Mochi",
+        "Shabu-shabu",
+        "Sashimi",
+        "Onigiri"
       ],
-      "answer": "Nokedli",
-      "explanation_correct": "Nokedli to węgierski odpowiednik klusek kładzionych, robiony z mąki i jajek, przeciskany przez specjalne sitko bezpośrednio do wrzątku. Są one idealnym dodatkiem do sosów mięsnych dzięki swojej teksturze.",
-      "explanation_incorrect": "Spätzle są podobne lecz popularne w Niemczech, Tarhonya to twarde ciasto tarte, a Gnocchi są ziemniaczane.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Shabu-shabu",
+      "explanation_correct": "W shabu-shabu mięso i warzywa gotuje się w bulionie; mięso kroi się bardzo cienko.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia brytyjska",
@@ -1413,25 +1309,21 @@
         "Lobio"
       ],
       "answer": "Czachochbili",
-      "explanation_correct": "Czachochbili pierwotnie przygotowywano z bażanta (gruz. chochobi), ale obecnie króluje wersja z kurczakiem bez dodatku tłuszczu, wykorzystująca soki z warzyw. Kluczowe jest długie duszenie potrawy z kolendrą i purpuratem.",
-      "explanation_incorrect": "Saciwi to kurczak w sosie orzechowym, Czikirtyma to zupa jajeczna, a Lobio to danie z fasoli.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czachochbili to gruziński gulasz drobiowy z cebulą, pomidorami i ziołami. Dawniej przygotowywano go również z bażanta; dziś często używa się kurczaka.",
+      "explanation_incorrect": "Saciwi to kurczak w sosie orzechowym, Czikirtyma to zupa jajeczna, a Lobio to danie z fasoli."
     },
     {
-      "subcategory": "Kuchnia francuska",
-      "question": "Jaką nazwę nosi francuska technika zagęszczania gotowych dań za pomocą surowej pasty z masła i mąki, wyrabianej na zimno?",
+      "subcategory": "Kuchnia belgijska",
+      "question": "Jak nazywa się flandryjski gulasz wołowy duszony w piwie?",
       "options": [
-        "Roux",
-        "Velouté",
-        "Beurre manié",
-        "Liaison"
+        "Ajoblanco",
+        "Carbonnade flamande",
+        "Ratatouille",
+        "Gazpacho"
       ],
-      "answer": "Beurre manié",
-      "explanation_correct": "Beurre manié (masło ugniatane) dodaje się do gorącego płynu pod koniec gotowania, aby błyskawicznie zagęścić sos bez powstawania grudek. Różni się od zasmażki tym, że składników nie smaży się przed dodaniem do potrawy.",
-      "explanation_incorrect": "Roux (zasmażka) jest smażone, Velouté to gotowy sos, a Liaison to zagęszczanie żółtkami i śmietaną.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Carbonnade flamande",
+      "explanation_correct": "Carbonnade flamande to potrawa z kawałków wołowiny duszonych w piwie.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia belgijska",
@@ -1449,49 +1341,43 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Kuchnia peruwiańska",
-      "question": "Jak nazywa się peruwiańska, sycąca zupa z krewetek, która zawiera mleko, ser, jajka oraz kawałki kolb kukurydzy?",
+      "subcategory": "Kuchnia Azji Południowo-Wschodniej",
+      "question": "Jak nazywa się zupa makaronowa popularna w Malezji i Singapurze, występująca m.in. w wersji z mleczkiem kokosowym?",
       "options": [
-        "Chupe de camarones",
-        "Parihuela",
-        "Chilcano",
-        "Aguadito"
+        "Minestrone",
+        "Żurek",
+        "Barszcz czerwony",
+        "Laksa"
       ],
-      "answer": "Chupe de camarones",
-      "explanation_correct": "Chupe de camarones to bogata zupa pochodząca z regionu Arequipa, łącząca owoce morza z andyjskimi składnikami. Jest znacznie cięższa i bardziej kremowa niż typowe wywary rybne.",
-      "explanation_incorrect": "Parihuela to pikantna zupa z owoców morza bez mleka, Chilcano to lekki bulion rybny, a Aguadito to zupa z kurczaka i kolendry.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Laksa",
+      "explanation_correct": "Laksa ma wiele odmian; część z nich to pikantne zupy makaronowe na mleczku kokosowym.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia polska",
-      "question": "Jaki owoc stanowi tradycyjną bazę polskiej wigilijnej zupy owocowej zwanej garusem?",
+      "question": "Jak nazywa się regionalna polska zupa lub potrawa wigilijna przygotowywana z suszonych owoców, takich jak śliwki, jabłka i gruszki?",
       "options": [
-        "Świeże jabłka",
-        "Mrożone wiśnie",
-        "Suszone śliwki",
-        "Gruszki"
+        "Garus",
+        "Żurek",
+        "Kapuśniak",
+        "Czernina"
       ],
-      "answer": "Suszone śliwki",
-      "explanation_correct": "Garus to staropolska zupa z suszonych owoców, w której główną rolę grają suszone śliwki, nadające jej dymny aromat i ciemny kolor. Często podawany był z kluskami lub ziemniakami.",
-      "explanation_incorrect": "Choć inne owoce mogą się pojawić, to suszone śliwki są kluczowe dla definicji garusa jako zupy z suszu.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Garus",
+      "explanation_correct": "Garus, zwany także garuskiem, występuje w regionalnych wersjach z suszonych owoców; dobór śliwek, jabłek i gruszek zależy od receptury.",
+      "explanation_incorrect": "Żurek, kapuśniak i czernina mają inne podstawowe składniki i nie są nazwami opisanej potrawy z suszu."
     },
     {
-      "subcategory": "Kuchnia marokańska",
-      "question": "Jak nazywa się słynna marokańska mieszanka przypraw, której nazwa oznacza 'sklepowa góra' i która jest używana do aromatyzowania tadżinów?",
+      "subcategory": "Kuchnia rosyjska",
+      "question": "Jak nazywa się potrawa z pasków wołowiny w sosie, często podawana z pieczarkami?",
       "options": [
-        "Harissa",
-        "Ras el hanout",
-        "Za'atar",
-        "Dukkah"
+        "Ratatouille",
+        "Stroganow",
+        "Bigos",
+        "Leczo"
       ],
-      "answer": "Ras el hanout",
-      "explanation_correct": "Ras el hanout może składać się z kilkunastu, a nawet kilkudziesięciu różnych ziół i korzeni, będąc autorską kompozycją kupca. Jest to niezwykle złożona przyprawa dodająca głębi gulaszom z jagnięciny czy warzyw.",
-      "explanation_incorrect": "Harissa to pasta chili, Za'atar to mix tymianku i sezamu, a Dukkah to egipska mieszanka orzechów i przypraw.",
-      "last_verified_at": "2026-06-12T14:59:58.749Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Stroganow",
+      "explanation_correct": "Stroganow występuje w różnych wersjach, np. z wołowiną, pieczarkami i kwaśną śmietaną.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie pasują do opisu podanego w pytaniu."
     },
     {
       "subcategory": "Kuchnia rumuńska",

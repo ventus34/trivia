@@ -1,0 +1,15 @@
+# Anatomia Prawdy — przegląd 5 listopada 2026
+
+Paczka `anatomia_prawdy_pl`: przeczytano wszystkie 100 pytań, wariantów, kluczy i wyjaśnień oraz opis. Opis wymienia reprezentowane tematy i nie wymagał zmiany. Wybrane wątpliwe tezy sprawdzono w poniższych źródłach; nie zweryfikowano niezależnie wszystkich twierdzeń i historii, więc przegląd nie oznacza pełnej certyfikacji faktograficznej. Numeracja odnosi się do położenia w `questions` (od 1).
+
+Zmieniono 57 rekordów: 1–8, 11–13, 16–18, 20–22, 25–26, 29, 31, 36–37, 40–41, 43–45, 48–51, 55–58, 63–64, 69–70, 73–74, 76–79, 83–84, 88–90, 92–94, 97, 99 i 100.
+
+- W 2 i 49 ograniczono twierdzenia o wykrywaniu kłamstwa poligrafem i „serum prawdy”; w 6 i 64 usunięto automatyczną hierarchię wiarygodności świadków, w 20 poprawiono opis habeas corpus, a w 21 corpus delicti.
+- W 31 zaznaczono, że dosłownie rozumiana wypowiedź Epimenidesa nie musi prowadzić do sprzeczności; 89 doprecyzowuje założenia twierdzenia Gödla. W 12 i 13 rozróżniono tautologię logiczną i retoryczną oraz bit i wartość logiczną. W 76 wyjaśniono koherencję bez utożsamiania jej wyłącznie z niesprzecznością.
+- Powtórzone pytania o halucynację AI i Poppera (43, 51) zastąpiono pytaniami o przeuczenie i weryfikacjonizm. W 78 usunięto synonimiczny dystraktor „represja”; w 55 doprecyzowano przykład błędnej atrybucji źródła, którego nie opisuje kryptomnezja.
+- Pytanie 50, zawierające nieuzasadniony sztywny czas pełnego wykształcenia plam opadowych, zastąpiono rozpoznaniem zjawiska. W 99 wskazano, że istnienie i mechanizm skurczu kataleptycznego są sporne. W 83 wyjaśniono, że osoba odgrywająca ucznia w eksperymencie Milgrama nie otrzymywała wstrząsów.
+- Pozostałe zmiany eliminują między innymi błędne utożsamienia, nieuzasadnione absoluty, uproszczenia funkcji mózgu i biologii oraz poprawiają sformułowania. Ze zmienionych rekordów usunięto stare znaczniki modelu i daty weryfikacji, które nie dotyczyły już nowej treści.
+
+Źródła kontrolne: [National Academies — poligraf i ograniczenia trafności](https://nap.nationalacademies.org/skim.php?act=nap&chap=212-231&record_id=10420); [SEP — wypowiedź Epimenidesa](https://plato.stanford.edu/archives/spr2024/entries/insolubles/notes.html); [SEP — twierdzenia Gödla](https://plato.stanford.edu/archives/sum2026/entries/goedel-incompleteness/); [SEP — koherencyjna teoria prawdy](https://plato.stanford.edu/entries/truth-coherence/); [SEP — empiryzm logiczny](https://plato.stanford.edu/archives/sum2024/entries/logical-empiricism/); [NIDCD — afazja](https://www.nidcd.nih.gov/health/aphasia); [przegląd rozwoju plam opadowych](https://pmc.ncbi.nlm.nih.gov/articles/PMC12450430/); [publikacja kwestionująca skurcz kataleptyczny](https://pubmed.ncbi.nlm.nih.gov/23179991/); [APA — eksperyment Milgrama](https://dictionary.apa.org/behavioral-study-of-obedience); [badanie wpływu skopolaminy na pamięć](https://pubmed.ncbi.nlm.nih.gov/20158291/).
+
+Kontrola `python3 scripts/audit_questions.py` przeszła dla całego indeksu: 229 paczek, 24 285 pytań. Skrypt sprawdza strukturę, nie prawdziwość treści.

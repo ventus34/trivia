@@ -1,0 +1,18 @@
+# Audyt zaindeksowanych paczek — listopad 2026
+
+Audyt trwa. Zakres wyznacza `databases/list.json`: na początku przeglądu 229 paczek i 24 285 pytań. Kontrola `python3 scripts/audit_questions.py` nie wykazała błędów strukturalnych; nie jest ona weryfikacją faktów, jakości dystraktorów ani jednoznaczności pytań. Wyniki przeglądów merytorycznych i ich faktyczny zakres należy dokumentować osobno, bez oznaczania niesprawdzonych paczek jako zweryfikowanych.
+
+Sprawdzono opisy wszystkich wpisów pod kątem oczywistych literówek, języka i zgodności z plikami; nie jest to ocena zgodności każdego opisu z pełną zawartością paczki. Przeglądy pytań oraz ich ograniczenia opisują raporty w `docs/audits/` i `docs/question-audits/`. Paczki bez raportu merytorycznego pozostają do sprawdzenia; sam raport też nie oznacza, że wszystkie tezy potwierdzono źródłowo.
+
+Na koniec tej partii zmian zmodyfikowano 411 rekordów pytań w 19 paczkach (w tym redakcyjne zmiany nazw podkategorii), zachowując 24 285 pytań. Kontrola strukturalna i 46 testów aplikacji przeszły. Do wykonania pozostaje przegląd merytoryczny paczek bez raportu oraz dalsza kontrola źródłowa tam, gdzie raport wskazuje niezweryfikowane tezy.
+
+Aktualizacja 2026-11-06: względem `HEAD` zmieniono rekordy pytań w 55 paczkach (2231 rekordów, licząc również zmiany redakcyjne i metadane), a indeks nadal obejmuje 229 paczek i 24 285 pytań. To liczba edycji, nie liczba pytań zatwierdzonych źródłowo. Zmiany znajdują się w lokalnym katalogu roboczym i nie są jeszcze commitem. Po ponownej synchronizacji opisów wynik kontroli strukturalnej jest czysty. Część prac subagentów była przerywana limitem i wznawiana; ich dokładny zakres i pozostające wątpliwości zawierają osobne raporty.
+
+## Zmiany redakcyjne
+
+- `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
+- `wiat_modych_pl`: poprawiono literówkę „Komixt” w podkategorii i w opisach paczki oraz indeksu.
+
+## Przeglądy częściowe
+
+- `zioolecznictwo_i_medycyna_ludowa_pl`: wstępnie przejrzano 100 pytań i objaśnień; poprawiono pozycje 7, 9, 16, 18, 21, 23, 34, 43, 44, 46, 52, 60, 63, 64, 69, 70, 72, 73 i 75. Usunięto dwuznaczności, poprawiono błędny klucz „ziele św. Jana”, nazwę johimby i literówki oraz ograniczono niepoparte twierdzenia medyczne. Pozostałe pytania wymagają dalszej weryfikacji merytorycznej i medycznej; wstępny odczyt nie oznacza ich zatwierdzenia. Źródła: [EMA — glistnik](https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-chelidonium-majus-l-herba_en.pdf), [MedlinePlus — bieluń](https://medlineplus.gov/ency/article/002881.htm), [NCCIH — ostropest](https://www.nccih.nih.gov/health/milk-thistle), [NCCIH — żurawina](https://www.nccih.nih.gov/health/cranberry?nav=tw), [NCI — jemioła](https://www.cancer.gov/about-cancer/treatment/cam/hp/mistletoe-pdq), [NCCIH — kurkumina](https://www.nccih.nih.gov/health/cancer-and-complementary-health-approaches-what-you-need-to-know), [EMA — pokrzywa](https://www.ema.europa.eu/en/medicines/herbal/urticae-folium), [EMA — skrzyp](https://www.ema.europa.eu/en/medicines/herbal/equiseti-herba), [NCCIH — detoks](https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know), [GIS — johimba](https://www.gov.pl/web/gis/komunikat-nie-dla-johimby-lekarskiej-i-przesli-w-zywnosci), [NCCIH — miłorząb](https://www.nccih.nih.gov/health/ginkgo/index.html).

@@ -10,7 +10,7 @@
   "questions": [
     {
       "subcategory": "Upper Limb Prosthetics",
-      "question": "Which specific device was developed through the DARPA Revolutionizing Prosthetics program and became the first FDA-approved commercially available system of its kind?",
+      "question": "Which prosthetic arm developed by DEKA under DARPA’s Revolutionizing Prosthetics program received an FDA de novo decision in 2014?",
       "options": [
         "LUKE Arm",
         "bebionic",
@@ -18,14 +18,12 @@
         "i-Limb"
       ],
       "answer": "LUKE Arm",
-      "explanation_correct": "The LUKE Arm (formerly known as the DEKA Arm) was the flagship outcome of the DARPA initiative and the first prosthetic arm with a powered shoulder.",
-      "explanation_incorrect": "While the others are advanced prosthetics, they were developed by independent companies (Ottobock, Touch Bionics, and Steeper) outside the DARPA program.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The DEKA Arm, later commercialized as the LUKE Arm, received an FDA de novo classification decision in May 2014. The system can provide multiple simultaneous powered movements.",
+      "explanation_incorrect": "The bebionic, Michelangelo, and i-Limb are other prosthetic hands; they are not the DEKA Arm described in the 2014 decision."
     },
     {
       "subcategory": "Material Science",
-      "question": "Which material is most commonly utilized for creating high-strength, lightweight prosthetic sockets?",
+      "question": "Which fiber is often incorporated in composite prosthetic sockets to improve strength while keeping weight low?",
       "options": [
         "Carbon fiber",
         "Thermoplastic",
@@ -33,10 +31,8 @@
         "Polypropylene"
       ],
       "answer": "Carbon fiber",
-      "explanation_correct": "Carbon fiber is favored for its exceptional strength-to-weight ratio in the manufacturing of prosthetic sockets.",
-      "explanation_incorrect": "Thermoplastics, fiberglass, and polypropylene are used in prosthetics but lack the structural stiffness and lightness of carbon fiber.",
-      "last_verified_at": "2026-06-12T16:37:01.205Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Carbon fibers can reinforce a resin matrix in lightweight, strong prosthetic socket composites. Material choice depends on the user and design.",
+      "explanation_incorrect": "Fiberglass also reinforces composites; polypropylene is a thermoplastic. Their suitability and mechanical performance depend on the complete socket design."
     },
     {
       "subcategory": "Cybernetics",
@@ -100,7 +96,7 @@
     },
     {
       "subcategory": "Exoskeletons",
-      "question": "Which firm is well-known for manufacturing high-end industrial exoskeleton suits?",
+      "question": "Which company developed the Guardian XO industrial powered exoskeleton?",
       "options": [
         "Sarcos Robotics",
         "Ekso Bionics",
@@ -108,10 +104,8 @@
         "SuitX"
       ],
       "answer": "Sarcos Robotics",
-      "explanation_correct": "Sarcos Robotics specializes in full-body powered exoskeletons tailored for heavy-duty industrial tasks.",
-      "explanation_incorrect": "While the other companies also make exoskeletons, Sarcos Robotics is specifically recognized for high-strength industrial applications.",
-      "last_verified_at": "2026-06-12T16:37:01.205Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sarcos developed the Guardian XO, a powered exoskeleton intended to assist with industrial material handling.",
+      "explanation_incorrect": "Ekso Bionics, Cyberdyne, and SuitX have also developed exoskeletons, including industrial or rehabilitation devices; Guardian XO is associated with Sarcos."
     },
     {
       "subcategory": "Surgical Science",
@@ -130,7 +124,7 @@
     },
     {
       "subcategory": "Information Theory",
-      "question": "Which pioneering mathematician collaborated extensively with Norbert Wiener on the development of information theory?",
+      "question": "Which mathematician authored the 1948 paper “A Mathematical Theory of Communication”?",
       "options": [
         "Claude Shannon",
         "Alan Turing",
@@ -138,14 +132,12 @@
         "Marvin Minsky"
       ],
       "answer": "Claude Shannon",
-      "explanation_correct": "Claude Shannon is the father of information theory and frequently engaged with Norbert Wiener on the foundations of communication and control.",
-      "explanation_incorrect": "Turing, von Neumann, and Minsky were influential in computing, but did not co-develop information theory with Wiener in this specific context.",
-      "last_verified_at": "2026-06-12T16:37:01.205Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Claude Shannon published “A Mathematical Theory of Communication” in 1948, a foundational work in information theory.",
+      "explanation_incorrect": "Turing, von Neumann, and Minsky made important contributions to computing but did not author Shannon’s 1948 paper."
     },
     {
       "subcategory": "Prosthetics",
-      "question": "Which type of prosthetic device is specifically designed for a person missing a leg below the knee?",
+      "question": "Which type of prosthesis is designed for an amputation through the tibia and fibula, retaining the knee joint?",
       "options": [
         "Transtibial prosthesis",
         "Transfemoral prosthesis",
@@ -153,14 +145,12 @@
         "Symes prosthesis"
       ],
       "answer": "Transtibial prosthesis",
-      "explanation_correct": "A transtibial prosthesis is the standard term for a device replacing a limb lost below the knee joint.",
-      "explanation_incorrect": "Transfemoral refers to above-knee, while Symes refers to ankle-level and hip disarticulation at the hip level.",
-      "last_verified_at": "2026-06-12T16:37:01.205Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A transtibial prosthesis replaces the limb below an amputation through the tibia and fibula.",
+      "explanation_incorrect": "Transfemoral refers to above-knee, while Symes refers to ankle-level and hip disarticulation at the hip level."
     },
     {
       "subcategory": "Prosthetics",
-      "question": "Which type of prosthetic device is designed to replace a leg lost above the knee joint?",
+      "question": "Which type of prosthesis is designed for an amputation through the femur?",
       "options": [
         "Transfemoral prosthesis",
         "Transtibial prosthesis",
@@ -169,28 +159,24 @@
       ],
       "answer": "Transfemoral prosthesis",
       "explanation_correct": "A transfemoral prosthesis is designed for individuals who have undergone an amputation through the femur bone.",
-      "explanation_incorrect": "Transtibial is below-knee, while the others refer to different anatomical levels of amputation.",
-      "last_verified_at": "2026-06-12T16:37:01.205Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Transtibial refers to an amputation through the tibia and fibula; knee disarticulation is through the knee joint, and partial foot amputation is at the foot."
     },
     {
       "subcategory": "Social Impact",
-      "question": "Which artist and activist made history as the world's first 'bionic' pop artist and model, notably wearing an alternative prosthetic at the 2012 Paralympic Closing Ceremony?",
+      "question": "Which singer and model portrayed the Snow Queen at the 2012 London Paralympic closing ceremony, wearing a decorated prosthetic leg?",
       "options": [
-        "Victoria Modesta",
+        "Viktoria Modesta",
         "Aimee Mullins",
         "Amy Purdy",
         "Lauren Wassermann"
       ],
-      "answer": "Victoria Modesta",
-      "explanation_correct": "Victoria Modesta deliberately uses her prosthetic leg as a fashion statement and artistic tool, often labeled as the first 'bionic' pop star.",
-      "explanation_incorrect": "Aimee Mullins is a pioneer in carbon-fiber blade usage, and Amy Purdy is a well-known athlete/model, but neither adopted the specific 'bionic model' branding as their primary identity.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Viktoria Modesta",
+      "explanation_correct": "Viktoria Modesta appeared as the Snow Queen and wore a decorated prosthetic leg at the ceremony.",
+      "explanation_incorrect": "Mullins and Purdy are also known for work involving prostheses, but Modesta played the Snow Queen at the 2012 ceremony."
     },
     {
       "subcategory": "Haptics",
-      "question": "What is the sensory technology used in advanced prosthetics to provide users with physical sensations of touch?",
+      "question": "What is the general term for feedback presented through touch, pressure, vibration, or other mechanical sensations?",
       "options": [
         "Haptic feedback",
         "Visual cues",
@@ -198,14 +184,12 @@
         "Neural stim"
       ],
       "answer": "Haptic feedback",
-      "explanation_correct": "Haptic feedback provides tactile information to the prosthesis's user through vibration or pressure.",
-      "explanation_incorrect": "Visual and audio cues are auxiliary, while neural stimulation is a different mechanism of sensory restoration.",
-      "last_verified_at": "2026-06-12T16:37:01.205Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Haptic feedback conveys information through tactile or force sensations. In prosthetics, researchers use methods such as skin vibration or pressure.",
+      "explanation_incorrect": "Visual cues and audio prompts use sight and hearing. Electrical nerve stimulation is another possible way to evoke sensation and can be part of sensory-feedback research."
     },
     {
       "subcategory": "Surgical Techniques",
-      "question": "Which surgical procedure is used to restore sensory feedback by rerouting nerves to skin near the amputation site?",
+      "question": "What procedure redirects sensory nerve fibers to skin so that stimulation of the reinnervated area can evoke referred sensation?",
       "options": [
         "Targeted Sensory Reinnervation",
         "Nerve grafting",
@@ -213,10 +197,8 @@
         "Myoelectric surgery"
       ],
       "answer": "Targeted Sensory Reinnervation",
-      "explanation_correct": "Targeted Sensory Reinnervation (TSR) reroutes nerves to provide the brain with tactile data from the prosthetic limb.",
-      "explanation_incorrect": "The alternatives are standard orthopedic or reconstructive methods but do not reroute nerves for sensory restoration.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Targeted sensory reinnervation redirects sensory nerve fibers to skin or cutaneous nerves. In some patients, stimulating that skin can evoke sensations referred to a missing hand.",
+      "explanation_incorrect": "Nerve grafting and tendon transfer are broader reconstructive procedures; myoelectric surgery is not the name of this specific sensory technique."
     },
     {
       "subcategory": "Cybernetics Theory",
@@ -243,10 +225,8 @@
         "Pancreas"
       ],
       "answer": "Heart",
-      "explanation_correct": "The AbioCor was the first fully implanted artificial heart, eliminating the need for external drive lines.",
-      "explanation_incorrect": "There are no current equivalent fully implanted bionic devices for the listed alternative organs.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The AbioCor was an early fully implantable total artificial heart designed without a driveline crossing the skin. Other artificial-heart designs preceded it.",
+      "explanation_incorrect": "The AbioCor replaced the pumping action of the heart, not the functions of the kidney, liver, or pancreas."
     },
     {
       "subcategory": "Vision Prosthetics",
@@ -258,14 +238,12 @@
         "Transdermal delivery"
       ],
       "answer": "Optogenetics",
-      "explanation_correct": "Optogenetics involves the insertion of light-sensitive genes into cells to allow stimulation via specific light frequencies.",
-      "explanation_incorrect": "Photobiomodulation and laser techniques do not rely on genetic modifications for neural light-sensitivity.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Optogenetics uses genetically introduced light-sensitive proteins to control selected cells with light; depending on the protein, activity can be increased or suppressed.",
+      "explanation_incorrect": "Photobiomodulation and laser techniques do not rely on genetic modifications for neural light-sensitivity."
     },
     {
       "subcategory": "Brain-Computer Interface",
-      "question": "Which brain-monitoring method assesses brain activity by detecting changes associated with blood flow?",
+      "question": "Which method uses magnetic resonance and the blood-oxygen-level-dependent (BOLD) signal to map changes related to brain activity?",
       "options": [
         "Functional MRI",
         "Computed Tomography",
@@ -273,14 +251,12 @@
         "Near-infrared spectroscopy"
       ],
       "answer": "Functional MRI",
-      "explanation_correct": "Functional MRI (fMRI) measures brain activity by detecting hemodynamic responses linked to blood oxygenation.",
-      "explanation_incorrect": "CT scans use X-rays, and while others measure flow, fMRI is the primary blood-flow-dependent BCI tool.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Functional MRI commonly uses the BOLD contrast associated with changes in blood oxygenation and hemodynamics.",
+      "explanation_incorrect": "PET and near-infrared spectroscopy can also measure physiological changes related to blood flow or oxygenation, but they do not use MRI BOLD imaging."
     },
     {
       "subcategory": "Bio-Sensors",
-      "question": "What type of sensor is frequently employed in prosthetics to measure mechanical deformation like muscle tension?",
+      "question": "Which sensor measures mechanical strain through a change in its electrical resistance?",
       "options": [
         "Strain gauge",
         "Piezoelectric sensor",
@@ -288,29 +264,25 @@
         "Optical encoder"
       ],
       "answer": "Strain gauge",
-      "explanation_correct": "A strain gauge measures physical deformation, making it ideal for tracking muscle contractions in a socket-based system.",
-      "explanation_incorrect": "While the others capture different types of physical change, strain gauges are specifically standard for tension and compression.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A resistance strain gauge changes electrical resistance as it deforms, allowing strain to be estimated.",
+      "explanation_incorrect": "Piezoelectric, capacitive, and optical sensors also measure physical changes, but a resistance strain gauge is defined by the resistance response to strain."
     },
     {
       "subcategory": "Upper Limb Prosthetics",
-      "question": "Which company is historically famous for producing the standard three-pronged mechanical hook terminal device?",
+      "question": "What type of body-powered prosthetic terminal device uses two opposed sections that open and close to grasp objects?",
       "options": [
-        "Hosmer",
-        "Fillauer",
-        "TRS",
-        "College Park"
+        "Split hook",
+        "Cosmetic glove",
+        "Prosthetic socket",
+        "Cochlear implant"
       ],
-      "answer": "Hosmer",
-      "explanation_correct": "Hosmer is the brand name long associated with the classic voluntary-opening or closing mechanical hook design.",
-      "explanation_incorrect": "The others are prosthetic manufacturers, but they did not originate or specialize in the iconic three-pronged hosmer-style hook.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Split hook",
+      "explanation_correct": "A split hook is a grasping terminal device. In voluntary-opening models, cable tension opens the hook and elastic elements close it.",
+      "explanation_incorrect": "A cosmetic glove covers a hand, a socket connects a prosthesis to a residual limb, and a cochlear implant is a hearing device."
     },
     {
       "subcategory": "Foundations",
-      "question": "Which mathematician is credited with coining the term 'cybernetics' in his 1948 book?",
+      "question": "Which mathematician popularized cybernetics as the study of control and communication in his 1948 book?",
       "options": [
         "Norbert Wiener",
         "Claude Shannon",
@@ -318,14 +290,12 @@
         "John von Neumann"
       ],
       "answer": "Norbert Wiener",
-      "explanation_correct": "Norbert Wiener published 'Cybernetics: Or Control and Communication in the Animal and the Machine' in 1948.",
-      "explanation_incorrect": "While Shannon, Turing, and Von Neumann were pioneers in computing and information theory, none coined the specific term 'cybernetics'.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Norbert Wiener published “Cybernetics: Or Control and Communication in the Animal and the Machine” in 1948. The word had earlier uses; the question refers to Wiener’s modern interdisciplinary field.",
+      "explanation_incorrect": "Shannon, Turing, and von Neumann were influential in related fields, but Wiener authored the 1948 book."
     },
     {
       "subcategory": "Neural Interfaces",
-      "question": "Which company is specifically notable for developing the 'Link,' a high-bandwidth, fully-implantable N1 sensor containing 1024 electrodes across 64 threads?",
+      "question": "Which company developed the investigational N1 brain implant described in its PRIME study as having 1,024 electrodes on 64 threads?",
       "options": [
         "Neuralink",
         "Synchron",
@@ -333,14 +303,12 @@
         "Paradromics"
       ],
       "answer": "Neuralink",
-      "explanation_correct": "Neuralink's Link is designed for high-bandwidth data transmission via threads inserted by a specialized robotic system.",
-      "explanation_incorrect": "Synchron focuses on endovascular (stent-based) access, while Blackrock and Paradromics use different electrode array architectures.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Neuralink’s PRIME study brochure describes an investigational N1 implant with 1,024 electrodes distributed across 64 threads.",
+      "explanation_incorrect": "Synchron, Blackrock Neurotech, and Paradromics work on other neural-interface architectures. The N1 system described is investigational."
     },
     {
       "subcategory": "Prosthetic Limbs",
-      "question": "Which research organization developed the Modular Prosthetic Limb (MPL) that features advanced mind-control capabilities?",
+      "question": "Which Johns Hopkins organization developed the Modular Prosthetic Limb under a DARPA-funded program?",
       "options": [
         "Applied Physics Laboratory",
         "MIT Media Lab",
@@ -348,14 +316,12 @@
         "SRI International"
       ],
       "answer": "Applied Physics Laboratory",
-      "explanation_correct": "The Johns Hopkins Applied Physics Laboratory developed the MPL under a DARPA-funded program.",
-      "explanation_incorrect": "These other organizations focus on diverse engineering areas but did not lead the development of the MPL platform.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Johns Hopkins Applied Physics Laboratory developed the Modular Prosthetic Limb, an advanced research prosthesis. Neural control methods are studied experimentally.",
+      "explanation_incorrect": "MIT Media Lab, Draper Laboratory, and SRI International did not lead the specified Johns Hopkins MPL project."
     },
     {
       "subcategory": "Cybernetics",
-      "question": "What is the primary regulatory mechanism that allows cybernetic systems to maintain stability?",
+      "question": "What control-system mechanism uses the measured output to influence subsequent system behavior?",
       "options": [
         "Feedback loops",
         "Neural pathways",
@@ -363,10 +329,8 @@
         "Signal modulation"
       ],
       "answer": "Feedback loops",
-      "explanation_correct": "Feedback loops are fundamental to cybernetics, allowing a system to self-correct based on its output.",
-      "explanation_incorrect": "The other options refer to biological or electronic processes that do not define the core operational principle of cybernetic control systems.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Feedback compares or otherwise uses information about output to influence control. Properly designed negative feedback can improve stability, but feedback does not automatically guarantee it.",
+      "explanation_incorrect": "Neural pathways, sensory gating, and signal modulation are other biological or engineering concepts rather than this general definition of feedback."
     },
     {
       "subcategory": "Lower Limb Prosthetics",
@@ -378,14 +342,12 @@
         "LP Symes"
       ],
       "answer": "Cheetah Flex-Foot",
-      "explanation_correct": "The Cheetah Flex-Foot is the iconic running prosthesis designed to simulate the energy return of a biological limb.",
-      "explanation_incorrect": "These other options refer to different prosthetic feet or component lines not designed for sprinting.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Cheetah Flex-Foot is a running blade that stores and returns elastic energy during gait; unlike a biological muscle, a passive blade does not actively generate metabolic power.",
+      "explanation_incorrect": "These other options refer to different prosthetic feet or component lines not designed for sprinting."
     },
     {
       "subcategory": "Ocular Prosthetics",
-      "question": "Which retinal implant system received FDA approval as an artificial vision device for patients with severe retinitis pigmentosa?",
+      "question": "Which retinal prosthesis received an FDA humanitarian device exemption in 2013 for certain patients with severe retinitis pigmentosa?",
       "options": [
         "Argus II",
         "Pixium Vision",
@@ -393,25 +355,21 @@
         "Alpha AMS"
       ],
       "answer": "Argus II",
-      "explanation_correct": "The Argus II Retinal Prosthesis System gained regulatory approval to restore limited vision to blind patients.",
-      "explanation_incorrect": "The other companies or systems listed provide different approaches to ocular prosthetics or are conceptual designs.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The FDA approved the Argus II Retinal Prosthesis System under its humanitarian device exemption pathway in 2013, for a specified patient population.",
+      "explanation_incorrect": "The other names describe different companies or retinal implant systems, not the Argus II authorization described."
     },
     {
       "subcategory": "Upper Limb Prosthetics",
-      "question": "Which company was the original developer of the i-Limb, the first commercially available multi-articulating bionic hand?",
+      "question": "What does a myoelectric upper-limb prosthesis commonly measure to interpret a user’s movement intent?",
       "options": [
-        "Touch Bionics",
-        "Steeper Group",
-        "Ottobock",
-        "Vincent Systems"
+        "Electrical activity of residual muscles",
+        "Retinal illumination",
+        "Blood glucose concentration",
+        "Air temperature"
       ],
-      "answer": "Touch Bionics",
-      "explanation_correct": "Touch Bionics, founded by David Gow, launched the i-Limb in 2007 before being acquired by Össur.",
-      "explanation_incorrect": "Steeper Group developed the bebionic hand (now owned by Ottobock), and Vincent Systems produces the Vincent Hand.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Electrical activity of residual muscles",
+      "explanation_correct": "Myoelectric systems commonly use surface electrodes to measure electrical activity generated by residual muscles and translate it into control signals.",
+      "explanation_incorrect": "Retinal illumination, glucose level, and air temperature are not the usual input to surface-myoelectric limb control."
     },
     {
       "subcategory": "Neural Engineering",
@@ -430,7 +388,7 @@
     },
     {
       "subcategory": "History",
-      "question": "Ancient Egyptian prosthetics were primarily constructed using which materials?",
+      "question": "Which materials were used in the ancient Egyptian Cairo prosthetic toe found by archaeologists?",
       "options": [
         "Wood and leather",
         "Bronze and rope",
@@ -438,14 +396,12 @@
         "Copper and hide"
       ],
       "answer": "Wood and leather",
-      "explanation_correct": "Archaeological findings like the Cairo toe consist of wooden and leather components crafted for functionality.",
-      "explanation_incorrect": "While ancient civilizations used bronze and ceramics, they were not the primary functional materials for human prosthetics.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The ancient Egyptian Cairo toe is a specific archaeological example made from wood and leather; it does not establish the materials of every ancient prosthesis.",
+      "explanation_incorrect": "Bronze, ceramic, and copper are not the materials identified in this particular wooden-and-leather toe."
     },
     {
       "subcategory": "Exoskeletons",
-      "question": "Which company is recognized for its powered exoskeleton designed for clinical gait rehabilitation?",
+      "question": "Which company manufactures the EksoNR robotic exoskeleton for supervised clinical rehabilitation?",
       "options": [
         "Ekso Bionics",
         "Cyberdyne",
@@ -453,10 +409,8 @@
         "Sarcos"
       ],
       "answer": "Ekso Bionics",
-      "explanation_correct": "Ekso Bionics provides rehabilitative wearable robots to assist patients in relearning how to walk.",
-      "explanation_incorrect": "While others like Cyberdyne and ReWalk also make exoskeletons, Ekso Bionics is the landmark entity for clinical rehab units.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ekso Bionics produces the EksoNR for use in rehabilitation settings under clinical supervision.",
+      "explanation_incorrect": "Cyberdyne and ReWalk have also developed rehabilitation exoskeletons, and Sarcos developed industrial systems. EksoNR is associated with Ekso Bionics."
     },
     {
       "subcategory": "Robotics",
@@ -499,28 +453,24 @@
       ],
       "answer": "Targeted Muscle Reinnervation",
       "explanation_correct": "Targeted Muscle Reinnervation (TMR) translates nerve signals into usable inputs for motorized prosthetics.",
-      "explanation_incorrect": "Typical nerve grafting is for sensory restoration, not the motor control functionality of TMR.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nerve grafting and other nerve transfers can serve motor or sensory reconstruction; TMR specifically redirects nerves to target muscles for purposes including prosthetic control and pain management."
     },
     {
       "subcategory": "Bio-Electronics",
-      "question": "What common implantable bio-electronic device ensures a consistent heartbeat for those with arrhythmias?",
+      "question": "What implant delivers timed electrical impulses to help regulate an abnormally slow heart rhythm?",
       "options": [
         "Artificial pacemaker",
-        "Implantable cardioverter-defibrillator",
-        "Cardiac resynchronization device",
-        "Biventricular stimulator"
+        "Prosthetic hip",
+        "Insulin pump",
+        "Stethoscope"
       ],
       "answer": "Artificial pacemaker",
-      "explanation_correct": "An artificial pacemaker is the baseline bio-electronic device used to regulate rhythm via electrical impulses.",
-      "explanation_incorrect": "While defibrillators and resynchronizers are implants, they are specialized for distinct cardiac conditions rather than simple pacing.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A cardiac pacemaker can deliver electrical impulses to support a slow heart rhythm. Some implantable defibrillators and resynchronization devices can also provide pacing.",
+      "explanation_incorrect": "A prosthetic hip replaces a joint, an insulin pump delivers medication, and a stethoscope is used for listening to body sounds."
     },
     {
       "subcategory": "Osseointegration",
-      "question": "Which metallic element is the gold standard for osseointegration due to its biological stability and strength?",
+      "question": "Which metal is commonly used in implants that are designed to integrate with bone?",
       "options": [
         "Titanium",
         "Stainless steel",
@@ -528,10 +478,8 @@
         "Tanzanite"
       ],
       "answer": "Titanium",
-      "explanation_correct": "Titanium is uniquely biocompatible and promotes bone growth directly onto the implant surface.",
-      "explanation_incorrect": "Stainless steel or cobalt-chrome lack the same level of osseointegrative success and biocompatibility.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Titanium and its alloys are widely used for bone-anchored implants because of their mechanical properties and biocompatibility; compatibility depends on the implant and surface.",
+      "explanation_incorrect": "Stainless steel and cobalt-chromium alloys are also used in medical implants. Tanzanite is a gemstone, not a metal alloy."
     },
     {
       "subcategory": "Brain-Computer Interface",
@@ -553,34 +501,30 @@
       "question": "What term describes the philosophical and scientific movement that advocates for the enhancement of human physical and cognitive abilities through technology?",
       "options": [
         "Transhumanism",
-        "Cyborgism",
-        "Extropianism",
-        "Technocracy"
+        "Radiology",
+        "Histology",
+        "Epidemiology"
       ],
       "answer": "Transhumanism",
       "explanation_correct": "Transhumanism (H+) is the intellectual movement advocating for the use of technology to improve human mental and physical characteristics.",
-      "explanation_incorrect": "Cyborgism refers specifically to the integration of biology and machine, while technocracy is a system of governance by experts.",
-      "last_verified_at": "2026-06-12T16:38:22.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Radiology, histology, and epidemiology are medical or scientific disciplines, not the name of the philosophical movement described."
     },
     {
       "subcategory": "Sensory Feedback",
-      "question": "What is the term for the biological ability to perceive the position, movement, and orientation of one's limbs?",
+      "question": "What is the term for the sense of the position and movement of one’s body and limbs?",
       "options": [
         "Proprioception",
-        "Kinesthesia",
-        "Somatosensation",
+        "Olfaction",
+        "Gustation",
         "Nociception"
       ],
       "answer": "Proprioception",
       "explanation_correct": "Proprioception is the internal sense of body position that prosthetic users often lack and researchers try to restore.",
-      "explanation_incorrect": "Kinesthesia involves movement perception, while nociception is pain sensing, and somatosensation is broad touch sensitivity.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Olfaction is smell, gustation is taste, and nociception concerns detection of potentially damaging stimuli. Kinesthesia is closely related to the movement component of proprioception."
     },
     {
       "subcategory": "Auditory Prosthetics",
-      "question": "What prosthetic device uses an external microphone and an internal electrode array to convert sound into direct nerve stimulation?",
+      "question": "Which auditory implant uses an electrode array placed in the cochlea to electrically stimulate the auditory nerve?",
       "options": [
         "Cochlear implant",
         "Bone-anchored hearing aid",
@@ -589,13 +533,11 @@
       ],
       "answer": "Cochlear implant",
       "explanation_correct": "A cochlear implant bypasses damaged areas of the ear to stimulate the auditory nerve directly.",
-      "explanation_incorrect": "Bone-anchored aids rely on vibration, whereas cochlear implants convert signal into electrical impulses for the nerve.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bone-anchored aids rely on bone vibration; auditory brainstem implants target the cochlear nucleus rather than the cochlear nerve through an electrode in the cochlea."
     },
     {
       "subcategory": "Control Systems",
-      "question": "What cybernetic principle describes the ability of a biological or artificial system to maintain internal constant conditions?",
+      "question": "What term describes the maintenance of relatively stable internal conditions by a biological system?",
       "options": [
         "Homeostasis",
         "Equilibrium",
@@ -603,10 +545,8 @@
         "Negative feedback"
       ],
       "answer": "Homeostasis",
-      "explanation_correct": "Homeostasis is the essential biological property that keeps internal systems stable despite external changes.",
-      "explanation_incorrect": "Equilibrium implies a static balance, whereas homeostasis involves active, continuous cybernetic regulation.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Homeostasis refers to maintaining certain internal variables within viable ranges despite disturbances. Those variables need not remain perfectly constant.",
+      "explanation_incorrect": "Feedback is a mechanism that can contribute to homeostasis; equilibrium and steady state are broader physical or control concepts."
     },
     {
       "subcategory": "Neural Plasticity",
@@ -618,14 +558,12 @@
         "Habituation"
       ],
       "answer": "Neuroplasticity",
-      "explanation_correct": "Neuroplasticity refers to the ability of the brain to form new neural connections throughout life, allowing users to habituate to prosthetic controls.",
-      "explanation_incorrect": "Neurogenesis is the growth of new neurons, while synaptic pruning and habituation describe different processes of brain development or stimulus response.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Neuroplasticity includes changes in the strength, organization, or function of neural connections and circuits; forming new connections is only one possible mechanism.",
+      "explanation_incorrect": "Neurogenesis is the creation of new neurons. Synaptic pruning and habituation are more specific processes, and can themselves be related to plasticity."
     },
     {
       "subcategory": "Anatomy",
-      "question": "Which nerve is frequently used in Targeted Muscle Reinnervation (TMR) to restore sensory feedback in upper-limb prosthetics?",
+      "question": "Which upper-limb nerve supplies sensation to the palmar surfaces of the thumb, index finger, and middle finger?",
       "options": [
         "Radial nerve",
         "Ulnar nerve",
@@ -633,10 +571,8 @@
         "Axillary nerve"
       ],
       "answer": "Median nerve",
-      "explanation_correct": "The median nerve is a primary nerve targeted during TMR surgeries to provide independent control of hand and wrist prosthetic functions.",
-      "explanation_incorrect": "Other options listed are major upper-limb nerves, but the median nerve is specifically prioritized in the TMR framework for grip functionality.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The median nerve supplies sensation to much of the palm-side thumb, index, middle, and radial half of the ring finger. It can be one of several nerves used in targeted muscle reinnervation.",
+      "explanation_incorrect": "The radial and ulnar nerves also supply regions of the hand, while the axillary nerve mainly supplies the deltoid region. TMR can use several different nerves."
     },
     {
       "subcategory": "Lower Limb",
@@ -655,18 +591,16 @@
     },
     {
       "subcategory": "Computing",
-      "question": "What term describes the mathematical theory identifying machines capable of reproducing their own configuration?",
+      "question": "Which model did John von Neumann use to study self-reproducing machines in a grid of cells?",
       "options": [
+        "Von Neumann cellular automaton",
         "Turing completeness",
-        "Von Neumann cellular-automata",
         "Shannon entropy",
         "Boolean logic"
       ],
-      "answer": "Von Neumann cellular-automata",
-      "explanation_correct": "John von Neumann proposed the cellular-automata model to demonstrate how self-replication could be achieved in computational architectures.",
-      "explanation_incorrect": "Turing completeness and Boolean logic define sets of computational capabilities, while Shannon entropy measures data uncertainty.",
-      "last_verified_at": "2026-06-12T16:37:01.206Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Von Neumann cellular automaton",
+      "explanation_correct": "Von Neumann designed a cellular automaton as a model for studying self-reproduction in a grid of cells.",
+      "explanation_incorrect": "Turing completeness concerns computational capabilities, Shannon entropy measures uncertainty, and Boolean logic describes operations on truth values."
     },
     {
       "subcategory": "Upper Limb",
@@ -679,9 +613,7 @@
       ],
       "answer": "Open Bionics",
       "explanation_correct": "Open Bionics is the UK-based manufacturer known for the affordable, customizable, 3D-printed Hero Arm.",
-      "explanation_incorrect": "Ottobrck and Ossur are major manufacturers of high-end prosthetics, but they did not originate the Hero Arm product.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ottobock and Össur also manufacture prosthetic devices, and Hanger Clinic provides prosthetic care; Open Bionics developed the Hero Arm."
     },
     {
       "subcategory": "Auditory",
@@ -690,13 +622,11 @@
         "Cochlear implant",
         "BAHA",
         "Auditory brainstem implant",
-        "Hearing aid"
+        "Electronic insulin pump"
       ],
       "answer": "BAHA",
       "explanation_correct": "BAHA stands for Bone Anchored Hearing Aid, which transmits sound vibrations directly to the skull to bypass external canal obstructions.",
-      "explanation_incorrect": "Cochlear implants stimulate the auditory nerve directly via an electrode array rather than using bone conduction.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cochlear implants stimulate the auditory nerve directly via an electrode array rather than using bone conduction."
     },
     {
       "subcategory": "Control systems",
@@ -715,7 +645,7 @@
     },
     {
       "subcategory": "Exoskeletons",
-      "question": "Which Japanese company developed the HAL (Hybrid Assistive Limb), which is unique for utilizing Bio-Electrical Signals (BES) from the wearer's skin to trigger movement?",
+      "question": "Which Japanese company developed the HAL (Hybrid Assistive Limb), which can use surface bioelectrical signals from the wearer to assist movement?",
       "options": [
         "Cyberdyne Inc.",
         "Fanuc Corporation",
@@ -723,25 +653,21 @@
         "Yaskawa Electric"
       ],
       "answer": "Cyberdyne Inc.",
-      "explanation_correct": "Cyberdyne's HAL uses sensors to detect minute nerve signals at the skin's surface to facilitate movement before the muscles actually contract.",
-      "explanation_incorrect": "While Fanuc and Kawasaki are major robotics firms, they focus on industrial automation rather than neuro-controlled wearable suits.",
-      "last_verified_at": "2026-06-12T16:38:22.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cyberdyne’s HAL can detect signals at the skin associated with voluntary muscle activation and use them to assist movement. The device does not read nerve signals directly from inside a nerve.",
+      "explanation_incorrect": "Fanuc, Kawasaki, and Yaskawa also make robotic systems, but HAL was developed by Cyberdyne."
     },
     {
       "subcategory": "Invention",
-      "question": "Who is credited with the key development of the 'Boston Arm' in the late 1960s?",
+      "question": "Which MIT engineer worked with clinicians including Melvin Glimcher on development of the early Boston Arm prosthesis?",
       "options": [
-        "Norbert Wiener",
+        "Robert Mann",
         "Melvin Glimcher",
         "Hugh Herr",
         "Warren McCulloch"
       ],
-      "answer": "Melvin Glimcher",
-      "explanation_correct": "Melvin Glimcher led the team at Massachusetts General Hospital that created the first commercially viable myoelectric prosthetic arm.",
-      "explanation_incorrect": "Norbert Wiener founded the field of cybernetics, while Hugh Herr is a contemporary developer of advanced bionic feet.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Robert Mann",
+      "explanation_correct": "MIT professor Robert Mann contributed to development of the Boston Arm in collaboration with clinicians and other researchers, including surgeon Melvin Glimcher.",
+      "explanation_incorrect": "Glimcher was a collaborating surgeon rather than the MIT engineer in the question; Herr and McCulloch were not that engineer."
     },
     {
       "subcategory": "Biomechatronics",
@@ -760,7 +686,7 @@
     },
     {
       "subcategory": "Psychology",
-      "question": "What common post-amputation phenomenon involves the brain creating conscious sensations attributed to an absent extremity?",
+      "question": "What common post-amputation phenomenon involves sensations attributed to an absent extremity?",
       "options": [
         "Phantom limb",
         "Neuroma pain",
@@ -768,25 +694,21 @@
         "Neuralgia"
       ],
       "answer": "Phantom limb",
-      "explanation_correct": "Phantom limb syndrome is a sensory experience where the brain continues to perceive a missing body part as present.",
-      "explanation_incorrect": "Neuroma pain results from nerve terminal damage, and referred sensation relates to mapping errors, but they are not the general phenomenon described.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Phantom limb sensation is the experience of perceiving a body part that has been amputated.",
+      "explanation_incorrect": "Neuroma pain occurs at a damaged nerve, whereas phantom sensations are perceived as coming from the absent limb."
     },
     {
       "subcategory": "Socket Design",
-      "question": "Which prosthetic socket design utilizes atmospheric pressure differences to secure the limb to the prosthesis?",
+      "question": "Which prosthetic suspension method uses a sealed interface and pressure difference to help retain the socket?",
       "options": [
-        "Pin-lock socket",
-        "Suction socket",
-        "Total Surface Bearing socket",
-        "Gel-liner interface"
+        "Suction suspension",
+        "Pin-lock suspension",
+        "External belt",
+        "Shoulder harness"
       ],
-      "answer": "Suction socket",
-      "explanation_correct": "A suction socket relies on the vacuum created by sealing the limb to maintain suspension during movement.",
-      "explanation_incorrect": "Pin-lock sockets use mechanical interlocking, while TSB and gel-liners refer to interface and pressure distribution techniques.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Suction suspension",
+      "explanation_correct": "Suction suspension relies on a seal and a pressure difference. Socket designs, liners, and suspension mechanisms can be combined in different ways.",
+      "explanation_incorrect": "Pin-lock systems use a mechanical lock, while belts and harnesses retain devices through straps or other mechanical supports."
     },
     {
       "subcategory": "Neural Interface",
@@ -813,25 +735,21 @@
         "Solid ankle"
       ],
       "answer": "Energy-storage-and-return",
-      "explanation_correct": "ESR feet are comprised of elastic materials that bend during load bearing and spring back, mimicking the kinetic function of an ankle.",
-      "explanation_incorrect": "These are distinct from static designs like solid ankles or active electronic systems like microprocessor feet.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Energy-storage-and-return feet deform under loading and return part of the stored elastic energy as they unload. They do not reproduce all active muscle power of a biological ankle.",
+      "explanation_incorrect": "Other prosthetic feet may be passive or powered; microprocessor-controlled components can also use elastic elements."
     },
     {
       "subcategory": "Robotics",
       "question": "Which autonomous robotic machine, created to study sensory-motor coordination, bears the name of a cybernetics pioneer?",
       "options": [
-        "Grey Walter's Tortoise",
-        "Turing's Machine",
-        "Wiener's Cyber-cat",
-        "Shannon's Mouse"
+        "Grey Walter’s Tortoise",
+        "Turing machine",
+        "Wiener’s Cyber-cat",
+        "von Neumann constructor"
       ],
-      "answer": "Grey Walter's Tortoise",
+      "answer": "Grey Walter’s Tortoise",
       "explanation_correct": "William Grey Walter built the 'tortoises' in the late 1940s to demonstrate autonomous, adaptive behaviors using simple electronic circuits.",
-      "explanation_incorrect": "The other options either represent abstract mathematical concepts or incorrect associations with legendary figures.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A Turing machine and von Neumann constructor are theoretical models. Grey Walter built physical autonomous tortoises."
     },
     {
       "subcategory": "Upper Limb",
@@ -865,7 +783,7 @@
     },
     {
       "subcategory": "Bio-Compatibility",
-      "question": "What biological response occurs when the body identifies an implanted prosthetic material as an intruder?",
+      "question": "What response to an implant can involve inflammation and formation of fibrous tissue around it?",
       "options": [
         "Osseointegration",
         "Foreign body response",
@@ -873,10 +791,8 @@
         "Fibroblast degradation"
       ],
       "answer": "Foreign body response",
-      "explanation_correct": "The foreign body response is the body's defensive reaction, often involving inflammation, to wall off an implanted or external synthetic material.",
-      "explanation_incorrect": "Osseointegration is the desired direct structural connection to bone, while other terms describe minor cellular processes.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The foreign body response can involve inflammatory cells and the formation of a fibrous capsule around an implant.",
+      "explanation_incorrect": "Osseointegration describes a direct structural connection between bone and an implant; hypoxia refers to inadequate oxygen."
     },
     {
       "subcategory": "Propulsion",
@@ -888,10 +804,8 @@
         "Rheo Knee"
       ],
       "answer": "BiOM",
-      "explanation_correct": "The BiOM (now known as the emPower) was the first commercial robotic ankle to provide active energy injection for push-off.",
-      "explanation_incorrect": "The C-Leg, Genium, and Rheo Knee are microprocessor-controlled prosthetic knee systems, not active robotic ankle systems.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The BiOM powered ankle-foot system was designed to supply active push-off power using a motorized actuator.",
+      "explanation_incorrect": "C-Leg, Genium, and Rheo Knee are prosthetic knee product lines rather than the named BiOM ankle-foot system."
     },
     {
       "subcategory": "Ethics",
@@ -904,9 +818,7 @@
       ],
       "answer": "Human enhancement",
       "explanation_correct": "Human enhancement covers the bioethical debate regarding using prosthesis or other means to surpass normal biological human capabilities.",
-      "explanation_incorrect": "Regenerative medicine and rehabilitation are aimed at restoring function to a standard state, rather than exceeding it.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rehabilitation and regenerative medicine often aim to restore function, but the boundary between restoration and enhancement can depend on context."
     },
     {
       "subcategory": "Neuroprosthetics",
@@ -955,7 +867,7 @@
     },
     {
       "subcategory": "Lower Limb",
-      "question": "Which specific model of microprocessor-controlled prosthetic knee by Ottobock is renowned for its full submersion capability in water?",
+      "question": "Which Ottobock knee model was designed for use in fresh, chlorinated, and salt water according to the manufacturer’s waterproofing documentation?",
       "options": [
         "Genium X3",
         "C-Leg 4",
@@ -963,10 +875,8 @@
         "Helix 3D"
       ],
       "answer": "Genium X3",
-      "explanation_correct": "The Genium X3 is specifically engineered with high durability and waterproofing for active environments.",
-      "explanation_incorrect": "C-Leg, Kenevo, and Helix 3D lack the specific classification of being fully submersible as the primary design feature.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Genium X3 is designed for water exposure, including salt water, subject to the manufacturer’s depth, time, and maintenance instructions.",
+      "explanation_incorrect": "C-Leg 4 permits limited fresh-water immersion under its specifications; Kenevo and Helix 3D are other prosthetic components. Water tolerance depends on model and version."
     },
     {
       "subcategory": "Medical Physics",
@@ -978,10 +888,8 @@
         "Electroneurography"
       ],
       "answer": "Surface EMG",
-      "explanation_correct": "Surface EMG (Electromyography) monitors muscle impulse transmission via electrodes on the epidermis.",
-      "explanation_incorrect": "Intramuscular EMG requires needle insertion, while EEG and ENG measure brain or nerve activity respectively.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Surface electromyography records electrical potentials associated with muscle activity using electrodes on the skin.",
+      "explanation_incorrect": "Intramuscular EMG requires needle insertion, while EEG and ENG measure brain or nerve activity respectively."
     },
     {
       "subcategory": "Upper Limb",
@@ -1009,43 +917,37 @@
       ],
       "answer": "Cuff electrode",
       "explanation_correct": "A cuff electrode surrounds a peripheral nerve to interface directly with signals traveling along the nerve bundle.",
-      "explanation_incorrect": "Neural probes, intracortical arrays, and micro-wires are typically used for invasive brain tissue insertion rather than peripheral cuffing.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Intracortical arrays target the brain; other probes and microwires can also be used in peripheral nerves, but a cuff specifically wraps around the nerve."
     },
     {
       "subcategory": "Computing",
       "question": "What is the designation for a control mechanism that can alter its own parameters to optimize performance based on feedback from the operating environment?",
       "options": [
         "Adaptive system",
-        "Static network",
-        "Deterministic controller",
-        "Heuristic loop"
+        "Fixed-gain controller",
+        "Static lookup table",
+        "Mechanical stop"
       ],
       "answer": "Adaptive system",
-      "explanation_correct": "An adaptive system dynamically adjusts its parameters to optimize behavior in response to environmental input.",
-      "explanation_incorrect": "Static networks, deterministic controllers, and heuristic loops lack the self-modifying, real-time optimization characteristic of these systems.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An adaptive controller adjusts parameters in response to changing conditions or measured behavior. Adaptation does not guarantee a globally optimal result.",
+      "explanation_incorrect": "A fixed-gain controller does not adjust its gain, a static table does not update itself, and a mechanical stop limits motion. An adaptive controller may still be deterministic."
     },
     {
       "subcategory": "Prosthetics",
-      "question": "Which type of specialized prosthetic device is designed specifically to optimize swimming efficiency for lower-limb amputees?",
+      "question": "What type of prosthetic attachment shaped like a fin can help some users move through water?",
       "options": [
-        "Fin prosthesis",
-        "Paddle attachment",
-        "Marine limb",
-        "Aquatic pylon"
+        "Swim fin attachment",
+        "Cochlear electrode",
+        "Cardiac pacemaker",
+        "Retinal array"
       ],
-      "answer": "Fin prosthesis",
-      "explanation_correct": "A fin prosthesis mimics the shape and function of a hydrofoil to provide propulsion in water.",
-      "explanation_incorrect": "Paddle attachments, marine limbs, and aquatic pylons are not standard terminology for this specialized equipment.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Swim fin attachment",
+      "explanation_correct": "A fin-shaped swimming attachment can provide a larger surface to push against water. Aquatic prosthetic designs and terminology vary.",
+      "explanation_incorrect": "Cochlear electrodes, pacemakers, and retinal arrays are devices for hearing, cardiac rhythm, and visual stimulation, respectively."
     },
     {
       "subcategory": "Power Source",
-      "question": "What is the most frequently utilized battery chemical composition for powering modern, high-torque myoelectric prosthetic limbs?",
+      "question": "Which rechargeable battery chemistry stores energy using lithium ions moving between electrodes?",
       "options": [
         "Lithium-ion",
         "Nickel-cadmium",
@@ -1053,29 +955,25 @@
         "Silver-zinc"
       ],
       "answer": "Lithium-ion",
-      "explanation_correct": "Lithium-ion batteries are favored for their high energy density and compact size in portable devices.",
-      "explanation_incorrect": "Nickel-cadmium, lead-acid, and silver-zinc batteries are heavier, less efficient, or obsolete in standard modern prosthetics.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lithium-ion cells use lithium ions moving between electrodes during charging and discharge; they power some modern prosthetic devices.",
+      "explanation_incorrect": "Nickel-cadmium, lead-acid, and silver-zinc are different battery chemistries. Battery choice varies among prosthetic devices."
     },
     {
       "subcategory": "Signal Transfer",
-      "question": "Which technique allows the transmission of electrical energy through biological tissue using magnetic fields without direct skin penetration?",
+      "question": "What wireless power-transfer method uses magnetic coupling between two coils across the skin?",
       "options": [
         "Inductive coupling",
-        "Conductive contact",
-        "Radiofrequency relay",
-        "Resonant transduction"
+        "Suture",
+        "Mechanical gearing",
+        "Optical lens"
       ],
       "answer": "Inductive coupling",
-      "explanation_correct": "Inductive coupling uses electromagnetic fields between coils to transfer power safely through the skin.",
-      "explanation_incorrect": "Conductive contact requires a physical bridge, while RF and resonance denote different transmission modalities or frequency bands.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Inductive coupling transfers energy between coils through a changing magnetic field and can be used through intact skin in appropriately designed implants.",
+      "explanation_incorrect": "Resonant inductive and radiofrequency systems can overlap with this method; sutures, gears, and lenses are not the coil-to-coil transfer mechanism."
     },
     {
       "subcategory": "Anatomy",
-      "question": "What is the specific synapse structure where electrical signals from a motor neuron are transmitted to a muscle fiber?",
+      "question": "What is the name of the whole specialized synapse between a motor neuron and a skeletal muscle fiber?",
       "options": [
         "Neuromuscular junction",
         "Synaptic cleft",
@@ -1084,9 +982,7 @@
       ],
       "answer": "Neuromuscular junction",
       "explanation_correct": "The neuromuscular junction is the chemical synapse between a motor neuron and a muscle fiber.",
-      "explanation_incorrect": "The synaptic cleft is a gap; myelin gaps and axon terminals are parts of neurons, not the junction itself.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "The synaptic cleft and axon terminal are components of a neuromuscular junction; a gap in myelin is a different neuronal structure."
     },
     {
       "subcategory": "Cybernetics Theory",
@@ -1099,9 +995,7 @@
       ],
       "answer": "Positive feedback",
       "explanation_correct": "Positive feedback loops increase the input effect, potentially causing runaway behavior or instability.",
-      "explanation_incorrect": "Negative feedback stabilizes, feed-forward anticipate inputs, and hysteresis describes lagging system states.",
-      "last_verified_at": "2026-06-12T16:37:01.207Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Negative feedback can counter deviations and help stabilize a system; feed-forward anticipates inputs, and hysteresis means that a response depends on prior states."
     },
     {
       "subcategory": "Visual Bionics",
@@ -1110,32 +1004,28 @@
         "Epiretinal",
         "Subretinal",
         "Suprachoroidal",
-        "Intraocular"
+        "Cochlear"
       ],
       "answer": "Epiretinal",
       "explanation_correct": "Epiretinal implants are fixed to the vitreous side of the retinal surface.",
-      "explanation_incorrect": "Subretinal, suprachoroidal, and intraocular indicate different anatomical positions within or behind the retina rather than the surface.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Subretinal and suprachoroidal describe other positions relative to the retina; cochlear refers to the inner ear. An epiretinal array is also intraocular."
     },
     {
       "subcategory": "Sensory Recovery",
-      "question": "Which rehabilitation technique employs a reflective device between a patient's limbs to trick the brain into perceiving movement in an absent limb, reducing neuropathic pain?",
+      "question": "Which rehabilitation technique uses a mirror to create a visual image of a missing limb and is investigated for phantom limb pain?",
       "options": [
         "Mirror therapy",
-        "Phantom imagery",
-        "Visual feedback training",
-        "Peripheral desensitization"
+        "Antibiotic therapy",
+        "Dialysis",
+        "Blood transfusion"
       ],
       "answer": "Mirror therapy",
-      "explanation_correct": "Mirror therapy alleviates phantom limb pain by providing visual, rather than proprioceptive, feedback.",
-      "explanation_incorrect": "Phantom imagery, visual feedback training, and desensitization are related but distinguish from the specific mirror-based technique.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mirror therapy provides visual feedback that can be used in rehabilitation. Some patients may experience short-term pain reduction, but effects vary and evidence has limitations.",
+      "explanation_incorrect": "Antibiotics, dialysis, and blood transfusion are not the mirror-based intervention described."
     },
     {
       "subcategory": "Lower Limb",
-      "question": "What prosthetic component facilitates multi-axial rotation and shock absorption at the connection between the socket and the lower limb assembly?",
+      "question": "Which prosthetic component is designed to reduce twisting torque transmitted between a lower-limb socket and the foot?",
       "options": [
         "Torsion adapter",
         "Alignment clamp",
@@ -1143,14 +1033,12 @@
         "Pyramid link"
       ],
       "answer": "Torsion adapter",
-      "explanation_correct": "A torsion adapter incorporates a spring mechanism to absorb transverse torque and rotational impact.",
-      "explanation_incorrect": "Alignment clamps, pylon extensions, and pyramid links handle structural attachment rather than rotational impact absorption.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A torsion adapter permits some transverse rotation and can attenuate torsional loads. Designs may add other features, but multi-axial rotation is not guaranteed.",
+      "explanation_incorrect": "Alignment clamps, pylon extensions, and pyramid links primarily connect or position components rather than providing the specified torsional function."
     },
     {
       "subcategory": "Material",
-      "question": "Which durable, corrosion-resistant metal alloy is commonly used for the ball-and-socket joints of hip and knee replacements?",
+      "question": "Which alloy based on cobalt and chromium is commonly used for components of hip and knee replacements?",
       "options": [
         "Cobalt-chrome",
         "Grade 5 Titanium",
@@ -1158,10 +1046,8 @@
         "Aluminum nitride"
       ],
       "answer": "Cobalt-chrome",
-      "explanation_correct": "Cobalt-chrome alloys are valued for their exceptional hardness and resistance to wear in load-bearing joints.",
-      "explanation_incorrect": "Titanium, steel, and aluminum nitride serve different structural roles or lack the necessary wear resistance for joint surfaces.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cobalt-chromium alloys are used in load-bearing joint components because of their strength, corrosion resistance, and wear properties.",
+      "explanation_incorrect": "Titanium alloys and stainless steel are also used in orthopedic implants, but cobalt-chromium is the alloy named here. The knee is not a ball-and-socket joint."
     },
     {
       "subcategory": "Space Cybernetics",
@@ -1180,7 +1066,7 @@
     },
     {
       "subcategory": "Upper Limb",
-      "question": "Which company currently owns and manufactures the bebionic hand, having acquired the technology from the Steeper Group in 2017?",
+      "question": "Which company acquired the bebionic prosthetic hand from Steeper in 2017?",
       "options": [
         "Ottobock",
         "Össur",
@@ -1189,24 +1075,20 @@
       ],
       "answer": "Ottobock",
       "explanation_correct": "The bebionic hand was acquired by the German manufacturer Ottobock to complement their existing range of bionic upper-limb solutions.",
-      "explanation_incorrect": "Össur owns the rival i-Limb technology, while Fillauer and Blatchford focus on other prosthetic components.",
-      "last_verified_at": "2026-06-12T16:38:22.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "The acquisition was announced by Ottobock; the other companies were not the buyer in that transaction."
     },
     {
       "subcategory": "Prosthetics",
-      "question": "What type of soft interface component is used to secure a prosthetic socket to a residual limb using friction or suction?",
+      "question": "Which component can help suspend a lower-limb prosthesis by sealing around the socket and residual limb?",
       "options": [
         "Suspension sleeve",
-        "Silicone liner",
-        "Gel insert",
-        "Elastic wrap"
+        "Cardiac electrode",
+        "Retinal array",
+        "Cochlear implant"
       ],
       "answer": "Suspension sleeve",
-      "explanation_correct": "A suspension sleeve provides the necessary seal or grip to keep the prosthetic attached securely during gait.",
-      "explanation_incorrect": "Liners, inserts, and wraps provide padding or protection but rarely provide the primary mechanical suspension alone.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A suspension sleeve can create a seal as part of a prosthetic suspension system. Depending on design, liners can also provide suspension through suction or pin locks.",
+      "explanation_incorrect": "Cardiac electrodes, retinal arrays, and cochlear implants are not socket-suspension components."
     },
     {
       "subcategory": "Cybernetics History",
@@ -1225,7 +1107,7 @@
     },
     {
       "subcategory": "Lower Limb Prosthetics",
-      "question": "What is the widely recognized name of the first commercially available microprocessor-controlled prosthetic knee joint?",
+      "question": "Which named Ottobock microprocessor-controlled knee was introduced in 1997?",
       "options": [
         "C-Leg",
         "K-10",
@@ -1233,10 +1115,8 @@
         "Rheo Knee"
       ],
       "answer": "C-Leg",
-      "explanation_correct": "Released by Otto Bock, the C-Leg was the first system to integrate onboard processing for gait stability.",
-      "explanation_incorrect": "Genium and Rheo Knee are also microprocessor knees, but they were released after the debut of the original C-Leg.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ottobock introduced the C-Leg in 1997. Earlier commercially available microprocessor-controlled knees included Blatchford’s Intelligent Prosthesis, introduced in 1993.",
+      "explanation_incorrect": "Genium and Rheo Knee are other microprocessor-controlled knees; K-10 is not the named Ottobock C-Leg."
     },
     {
       "subcategory": "Robotics",
@@ -1258,15 +1138,13 @@
       "question": "What is the name of the medical procedure used to filter blood outside of the body for individuals with kidney failure?",
       "options": [
         "Hemodialysis",
-        "Plasmapheresis",
-        "Hemoperfusion",
-        "Continuous filtration"
+        "Pacemaker implantation",
+        "Cochlear implantation",
+        "Artificial limb fitting"
       ],
       "answer": "Hemodialysis",
       "explanation_correct": "Hemodialysis is the standard clinical method for removing waste and excess fluids from the blood via an artificial kidney machine.",
-      "explanation_incorrect": "Plasmapheresis cleans plasma, and hemoperfusion is a localized toxic removal process rather than standard kidney failure treatment.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pacemaker implantation, cochlear implantation, and limb fitting do not filter blood. Other extracorporeal techniques, including continuous kidney replacement therapy, can also filter blood."
     },
     {
       "subcategory": "Prosthetic Design",
@@ -1275,13 +1153,11 @@
         "Pylon",
         "Socket",
         "Adapter",
-        "Shank"
+        "Retinal array"
       ],
       "answer": "Pylon",
       "explanation_correct": "The pylon is the structural rod that provides the height and rigidity required for the artificial limb's function.",
-      "explanation_incorrect": "The socket is the interface, the adapter connects components, and shank is a general anatomical term.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "The socket interfaces with the limb and adapters connect parts. “Shank” can also refer to the lower-leg structural section; a retinal array is an eye implant."
     },
     {
       "subcategory": "Neuromorphic Engineering",
@@ -1308,29 +1184,25 @@
         "Beta burst"
       ],
       "answer": "P300 wave",
-      "explanation_correct": "The P300 is a positive deflection occurring approximately 300ms after a target stimulus is perceived, used for BCI selection.",
-      "explanation_incorrect": "Mu rhythms relate to motor imagery, while Alpha and Beta oscillations are general frequency bands of brain activity.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The P300 is a positive event-related potential often observed roughly 300 ms after a target stimulus; its latency varies, and it can be used for BCI selection.",
+      "explanation_incorrect": "Mu rhythms relate to motor imagery, while Alpha and Beta oscillations are general frequency bands of brain activity."
     },
     {
       "subcategory": "Medical Terminology",
       "question": "What is the correct clinical term for the anatomical portion of an amputated limb that interfaces directly with a prosthetic socket?",
       "options": [
         "Residual limb",
-        "Stump",
-        "Afferent end",
-        "Distal site"
+        "Cochlear nerve",
+        "Corneal surface",
+        "Left atrium"
       ],
       "answer": "Residual limb",
       "explanation_correct": "Residual limb is the accepted professional terminology for the remaining section of the extremity.",
-      "explanation_incorrect": "The others are either colloquial, anatomical subsets, or physiological terms that do not describe the interface point.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "The cochlear nerve, cornea, and left atrium are unrelated structures. “Stump” is also used clinically by some people; preferred terminology varies."
     },
     {
       "subcategory": "Material Science",
-      "question": "Which material is standardly used for its high compliance and skin-friendly properties in the creation of prosthetic liners?",
+      "question": "Which material with a siloxane (Si–O–Si) backbone is used to make some flexible prosthetic liners?",
       "options": [
         "Silicone",
         "Polyurethane",
@@ -1338,10 +1210,8 @@
         "Thermoplastic"
       ],
       "answer": "Silicone",
-      "explanation_correct": "Silicone is favored for its durability, hypoallergenic nature, and ability to conform to the residual limb shape.",
-      "explanation_incorrect": "While PU and other rubbers are used, silicone is the baseline preference for cushioning and skin interface density.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Silicone is one material used in prosthetic liners. Polyurethane and thermoplastic elastomers are also used, and selection depends on individual needs.",
+      "explanation_incorrect": "Polyurethane, neoprene, and thermoplastics can also be used in liners, but silicone is the named siloxane-based material."
     },
     {
       "subcategory": "Cybernetics History",
@@ -1353,25 +1223,21 @@
         "Claude Shannon"
       ],
       "answer": "William Ross Ashby",
-      "explanation_correct": "Ashby created the Homeostat in 1948 to model how complex systems maintain equilibrium.",
-      "explanation_incorrect": "Wiener defined the field's math, but did not build the Homeostat; the others worked in theory and information transmission.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ashby built the Homeostat to explore ultrastability: a system can change its own parameters in response to disturbances and reach a stable state.",
+      "explanation_incorrect": "Wiener was a founder of cybernetics; von Neumann and Shannon made other influential contributions to computing and information theory."
     },
     {
       "subcategory": "Wearable Tech",
       "question": "What specific class of wearable devices utilizes flexible materials rather than rigid frames to assist human movement?",
       "options": [
         "Soft exosuit",
-        "Exoskeleton",
-        "Powered orthotic",
-        "Haptic garment"
+        "Cochlear implant",
+        "Retinal prosthesis",
+        "Cardiac pacemaker"
       ],
       "answer": "Soft exosuit",
       "explanation_correct": "Soft exosuits rely on fabric and tension cables to provide torque without constraining natural joint movement.",
-      "explanation_incorrect": "Exoskeletons are by definition rigid frameworks, while the others lack the specific robotic assistance functionality.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Some exoskeletons use rigid frames and others combine rigid and soft elements; a soft exosuit emphasizes flexible materials. Powered orthoses can use several designs."
     },
     {
       "subcategory": "Vision Bionics",
@@ -1390,22 +1256,20 @@
     },
     {
       "subcategory": "Neuroprosthetics",
-      "question": "Which medical prosthetic device is specifically designed to bypass respiratory paralysis by electrically triggering the phrenic nerve?",
+      "question": "What device can stimulate the phrenic nerve electrically to cause the diaphragm to contract in selected patients?",
       "options": [
         "Diaphragm pacer",
-        "Ventilatory assist",
-        "Tracheal stimulator",
-        "Thoracic bridge"
+        "Cochlear implant",
+        "Prosthetic hip",
+        "Retinal array"
       ],
       "answer": "Diaphragm pacer",
-      "explanation_correct": "A diaphragm pacer transmits electrical signals to the phrenic nerve to induce diaphragm contraction and respiration.",
-      "explanation_incorrect": "The other terms describe non-specific respiratory equipment or anatomical regions rather than the dedicated phrenic stimulation device.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some diaphragm pacing systems stimulate the phrenic nerve or diaphragm motor points to produce contractions. Suitability depends on a clinical assessment.",
+      "explanation_incorrect": "Cochlear implants, artificial hips, and retinal arrays serve hearing, joint replacement, and visual stimulation, not phrenic nerve pacing."
     },
     {
       "subcategory": "Philosophy",
-      "question": "Which influential 1985 work by Donna Haraway framed the cyborg not as reality, but as a political, anti-dualist metaphor?",
+      "question": "Which influential 1985 essay by Donna Haraway used the cyborg to challenge boundaries such as human and machine?",
       "options": [
         "A Cyborg Manifesto",
         "The Cybernetic Age",
@@ -1413,29 +1277,25 @@
         "Techno-Identity"
       ],
       "answer": "A Cyborg Manifesto",
-      "explanation_correct": "Donna Haraway's essay challenged traditional boundaries of nature and culture through the figure of the cyborg.",
-      "explanation_incorrect": "The other titles are academic-sounding decoys that do not correspond to the actual famous feminist techno-cultural essay.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "In “A Cyborg Manifesto,” Donna Haraway used the cyborg as a figure connecting social reality and fiction to question rigid boundaries.",
+      "explanation_incorrect": "The other titles do not identify Haraway’s essay."
     },
     {
       "subcategory": "Upper Limb",
       "question": "What categorizes a prosthetic limb that relies on cables and harness-based user skeletal movement instead of motors for its actuation?",
       "options": [
         "Body-powered",
-        "Mechanically-assisted",
-        "Tethered-actuated",
-        "Cable-driven"
+        "Myoelectric",
+        "Passive cosmetic",
+        "Retinal"
       ],
       "answer": "Body-powered",
       "explanation_correct": "Body-powered devices leverage the user's scapular or shoulder movement via cables to operate the terminal device.",
-      "explanation_incorrect": "While they are cable-driven, the clinical category for this control methodology is 'body-powered' as opposed to myoelectric.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Body-powered upper-limb devices are often cable-driven. Myoelectric devices use muscle electrical signals, passive cosmetic devices do not provide the described active cable control, and retinal devices are for vision."
     },
     {
       "subcategory": "Signal Processing",
-      "question": "In Brain-Computer Interface research, what is the procedure of identifying and removing non-neural electrical interference from brain signals?",
+      "question": "What is the term for excluding portions of EEG data contaminated by eye blinks or muscle activity?",
       "options": [
         "Artifact rejection",
         "Signal cleansing",
@@ -1443,10 +1303,8 @@
         "Noise filtering"
       ],
       "answer": "Artifact rejection",
-      "explanation_correct": "Artifact rejection is the standard methodology for excluding signal data contaminated by eye blinks or muscle activity.",
-      "explanation_incorrect": "While 'filtering' occurs, the removal of corrupted data blocks in EEG signal processing is distinctively termed artifact rejection.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Artifact rejection can exclude contaminated EEG segments from analysis. Filtering and other artifact-correction approaches may also be used, depending on the method.",
+      "explanation_incorrect": "Noise filtering is a broader family of operations and is not necessarily the exclusion of contaminated data segments."
     },
     {
       "subcategory": "Medical Specialization",
@@ -1465,7 +1323,7 @@
     },
     {
       "subcategory": "History",
-      "question": "Which individual, famously injured at the Battle of Gettysburg, contributed significantly to the advancement of prosthetic limb design during the Civil War era?",
+      "question": "Which Civil War soldier lost a leg at Philippi in 1861 and subsequently developed a prosthetic limb?",
       "options": [
         "James Hanger",
         "Douglas Bly",
@@ -1473,10 +1331,8 @@
         "Charles Potts"
       ],
       "answer": "James Hanger",
-      "explanation_correct": "James Hanger invented the 'Hanger Limb,' a design that revolutionized artificial legs following his own amputation.",
-      "explanation_incorrect": "The other figures were also historical makers of prosthetics, but Hanger's wartime narrative is distinctively linked to the Civil War.",
-      "last_verified_at": "2026-06-12T16:37:01.208Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "James Edward Hanger lost a leg at Philippi on June 3, 1861, and made a prosthetic leg. The Battle of Gettysburg occurred later, in 1863.",
+      "explanation_incorrect": "Bly, Palmer, and Potts are associated with prosthetic history, but Hanger was the soldier described."
     },
     {
       "subcategory": "Soft Robotics",

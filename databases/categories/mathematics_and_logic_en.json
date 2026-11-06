@@ -40,7 +40,7 @@
     },
     {
       "subcategory": "Logical Paradoxes",
-      "question": "What is the classic logical paradox formulated by the ancient philosopher Epimenides, stating: 'All Cretans are liars'?",
+      "question": "What is the paradox illustrated by the sentence 'This statement is false' called?",
       "options": [
         "Liar paradox",
         "Zeno's paradox",
@@ -49,9 +49,7 @@
       ],
       "answer": "Liar paradox",
       "explanation_correct": "The Liar paradox arises when a statement refers to itself declaring itself untruthful (if it lies, it speaks the truth).",
-      "explanation_incorrect": "Zeno described paradoxes of motion, and the Barber and Russell's paradoxes deal with set theory contradictions.",
-      "last_verified_at": "2026-06-12T14:40:54.564Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Zeno's paradoxes concern motion; the barber paradox illustrates Russell's set-theoretic paradox."
     },
     {
       "subcategory": "Algebra and Analysis",
@@ -93,10 +91,8 @@
         "Marin Mersenne"
       ],
       "answer": "Pierre de Fermat",
-      "explanation_correct": "Fermat's Last Theorem states that the equation x^n + y^n = z^n has no positive integer solutions for n > 2.",
-      "explanation_incorrect": "Pascal co-developed probability and pressure laws, Descartes created coordinate geometry, and Mersenne studied prime numbers.",
-      "last_verified_at": "2026-06-12T14:40:54.565Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Fermat's Last Theorem states that x^n + y^n = z^n has no positive integer solutions when n is an integer greater than 2.",
+      "explanation_incorrect": "Pascal co-developed probability and pressure laws, Descartes created coordinate geometry, and Mersenne studied prime numbers."
     },
     {
       "subcategory": "Algebra and Analysis",
@@ -175,7 +171,7 @@
     },
     {
       "subcategory": "Famous Theorems",
-      "question": "Which mathematical theorem formulated in 1931 by Kurt Gödel shook the foundations of mathematics, proving the existence of true statements that cannot be proved within a given axiomatic system?",
+      "question": "Which of Gödel's 1931 results shows that any consistent, effectively axiomatized system strong enough to express arithmetic is incomplete?",
       "options": [
         "Incompleteness theorems",
         "Compactness theorem",
@@ -183,10 +179,8 @@
         "Fixed-point theorem"
       ],
       "answer": "Incompleteness theorems",
-      "explanation_correct": "Gödel's incompleteness theorems showed that any consistent axiomatic system capable of describing basic arithmetic cannot be both consistent and complete.",
-      "explanation_incorrect": "The other options are different logic or math theorems unrelated to Gödel's fundamental limit.",
-      "last_verified_at": "2026-06-12T14:40:54.566Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The first incompleteness theorem establishes an undecidable statement: neither it nor its negation is provable in such a system.",
+      "explanation_incorrect": "The other options are different logic or math theorems unrelated to Gödel's fundamental limit."
     },
     {
       "subcategory": "Geometry",
@@ -199,9 +193,7 @@
       ],
       "answer": "Circle",
       "explanation_correct": "A circle is the boundary line enclosing a disk. The distance from the center is the radius (r).",
-      "explanation_incorrect": "A disk is the circle plus its interior region, an ellipse is a squashed circle with two foci, and a parabola is an open conic section.",
-      "last_verified_at": "2026-06-12T14:40:54.566Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A disk is the circle and its interior; an ellipse is defined using two foci, and a parabola is an open conic section."
     },
     {
       "subcategory": "Great Mathematicians",
@@ -259,13 +251,11 @@
       ],
       "answer": "Cone",
       "explanation_correct": "Rotating a right triangle around a leg sweeps out a right circular cone.",
-      "explanation_incorrect": "A cylinder is swept by a rotating rectangle, a sphere by a semicircle, and a torus by a circle rotated around an external axis.",
-      "last_verified_at": "2026-06-12T14:40:54.567Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A cylinder is formed by rotating a rectangle about a side, a sphere by rotating a semicircular disk about its diameter, and a solid torus by rotating a disk about a coplanar axis that does not intersect it."
     },
     {
       "subcategory": "Great Mathematicians",
-      "question": "Which British mathematician and cryptologist broke the German Enigma cipher during World War II and designed the theoretical model of the modern computer?",
+      "question": "Which British mathematician helped decipher German Enigma messages during World War II and described an abstract model of computation?",
       "options": [
         "Alan Turing",
         "Charles Babbage",
@@ -273,10 +263,8 @@
         "Ada Lovelace"
       ],
       "answer": "Alan Turing",
-      "explanation_correct": "Turing created the Turing machine - an abstract computational model that defined the concept of an algorithm.",
-      "explanation_incorrect": "Babbage designed the mechanical Analytical Engine, von Neumann described modern computer architecture, and Lovelace was the first programmer.",
-      "last_verified_at": "2026-06-12T14:40:54.567Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Alan Turing worked on Enigma cryptanalysis at Bletchley Park, building in part on earlier Polish work, and described the abstract Turing machine.",
+      "explanation_incorrect": "Babbage designed the mechanical Analytical Engine, von Neumann described modern computer architecture, and Lovelace was the first programmer."
     },
     {
       "subcategory": "Logic",
@@ -379,9 +367,7 @@
       ],
       "answer": "Matrix",
       "explanation_correct": "Matrices are core tools in linear algebra, extensively used in 3D graphics, physics, and computer science.",
-      "explanation_incorrect": "A vector is a one-dimensional matrix, a tensor generalizes matrices to higher dimensions, and a system of equations is a set of relationships.",
-      "last_verified_at": "2026-06-12T14:40:54.569Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A vector can be represented by a row or column matrix, a tensor is a more general concept, and a system of equations is a collection of relationships."
     },
     {
       "subcategory": "Geometry",
@@ -430,7 +416,7 @@
     },
     {
       "subcategory": "Algebra and Analysis",
-      "question": "What is a point where a mathematical function output is zero (where its graph crosses the x-axis) called?",
+      "question": "What is a value of x for which a function f(x) equals zero called?",
       "options": [
         "Root (zero)",
         "Local extremum",
@@ -438,10 +424,8 @@
         "Asymptote"
       ],
       "answer": "Root (zero)",
-      "explanation_correct": "A root (or zero) of a function f(x) is a value of x for which f(x) = 0.",
-      "explanation_incorrect": "An extremum is a minimum/maximum, an inflection point changes graph curvature, and an asymptote is a line the curve approaches at infinity.",
-      "last_verified_at": "2026-06-12T14:40:54.570Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A root or zero is a value x for which f(x) = 0; the graph may cross or merely touch the x-axis there.",
+      "explanation_incorrect": "An extremum is a minimum or maximum, an inflection point involves a change in curvature, and an asymptote is a line approached by a graph in an appropriate limit."
     },
     {
       "subcategory": "Logic",
@@ -475,7 +459,7 @@
     },
     {
       "subcategory": "Great Mathematicians",
-      "question": "Which self-taught Indian mathematician, despite no formal training, formulated thousands of identities and collaborated with G.H. Hardy at Cambridge?",
+      "question": "Which largely self-taught Indian mathematician formulated thousands of identities and collaborated with G.H. Hardy at Cambridge?",
       "options": [
         "Srinivasa Ramanujan",
         "Satyendra Nath Bose",
@@ -484,9 +468,7 @@
       ],
       "answer": "Srinivasa Ramanujan",
       "explanation_correct": "Ramanujan claimed his formulas were revealed to him by the goddess Namagiri, contributing deeply to infinite series and partition theory.",
-      "explanation_incorrect": "Bose was a physicist (Bose-Einstein statistics), Harish-Chandra worked on Lie groups, and Mahalanobis was a statistician.",
-      "last_verified_at": "2026-06-12T14:40:54.570Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Bose was a physicist (Bose-Einstein statistics), Harish-Chandra worked on Lie groups, and Mahalanobis was a statistician."
     },
     {
       "subcategory": "Logic",
@@ -520,7 +502,7 @@
     },
     {
       "subcategory": "Combinatorics and Probability",
-      "question": "What is the mathematical measure of the likelihood that a random event will occur, ranging from 0 (impossible) to 1 (certain)?",
+      "question": "What is the mathematical measure of the likelihood of a random event, taking values between 0 and 1?",
       "options": [
         "Probability",
         "Variance",
@@ -528,14 +510,12 @@
         "Cumulative distribution"
       ],
       "answer": "Probability",
-      "explanation_correct": "The axiomatic foundation of modern probability theory was established by Andrey Kolmogorov in 1933.",
-      "explanation_incorrect": "Variance measures data spread, correlation measures statistical dependency, and cumulative distribution describes variable probabilities.",
-      "last_verified_at": "2026-06-12T14:40:54.570Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "An impossible event has probability 0 and a certain event has probability 1; in infinite sample spaces, the converse need not hold.",
+      "explanation_incorrect": "Variance measures data spread, correlation measures statistical dependency, and cumulative distribution describes variable probabilities."
     },
     {
       "subcategory": "Geometry",
-      "question": "Which plane curve consists of all points where the sum of the distances to two fixed points (foci) is constant?",
+      "question": "Which plane curve consists of points whose distances from two distinct fixed foci have a constant sum greater than the distance between the foci?",
       "options": [
         "Ellipse",
         "Parabola",
@@ -544,9 +524,7 @@
       ],
       "answer": "Ellipse",
       "explanation_correct": "An ellipse is a closed conic section. Kepler's First Law states that planetary orbits are ellipses with the Sun at one focus.",
-      "explanation_incorrect": "A parabola is open with one focus, a hyperbola has a constant difference of distances, and a circle is a special ellipse where foci coincide.",
-      "last_verified_at": "2026-06-12T14:40:54.571Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A parabola is open with one focus, a hyperbola has a constant difference of distances, and a circle is a special ellipse where foci coincide."
     },
     {
       "subcategory": "Great Mathematicians",
@@ -558,10 +536,8 @@
         "Józef Piłsudski"
       ],
       "answer": "Marian Rejewski",
-      "explanation_correct": "Rejewski, along with Różycki and Zygalski, reconstructed Enigma wiring and designed decryption machines like the cryptologic bomb.",
-      "explanation_incorrect": "Różycki and Zygalski were his close team colleagues, and Piłsudski was a Polish Marshal.",
-      "last_verified_at": "2026-06-12T14:40:54.571Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Rejewski reconstructed Enigma wiring in 1932. He, Różycki and Zygalski developed techniques to read messages; Rejewski later designed the cryptologic bomb.",
+      "explanation_incorrect": "Różycki and Zygalski were his close team colleagues, and Piłsudski was a Polish Marshal."
     },
     {
       "subcategory": "Logical Paradoxes",
@@ -589,9 +565,7 @@
       ],
       "answer": "Derivative",
       "explanation_correct": "The derivative f'(x) allows finding local maxima, minima, and tangent lines to curves.",
-      "explanation_incorrect": "An integral measures area under a curve, a gradient is a vector of steepest increase, and a differential approximates variable change.",
-      "last_verified_at": "2026-06-12T14:40:54.571Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A definite integral can measure signed area, a gradient points in the direction of steepest increase, and a differential gives a linear approximation to change."
     },
     {
       "subcategory": "Logic",
@@ -655,7 +629,7 @@
     },
     {
       "subcategory": "Famous Theorems",
-      "question": "Which algebraic theorem states that every non-zero single-variable polynomial with complex coefficients has at least one complex root?",
+      "question": "Which algebraic theorem states that every nonconstant single-variable polynomial with complex coefficients has at least one complex root?",
       "options": [
         "Fundamental theorem of algebra",
         "Bézout's theorem",
@@ -663,10 +637,8 @@
         "Vieta's formulas"
       ],
       "answer": "Fundamental theorem of algebra",
-      "explanation_correct": "The first rigorous proof of the Fundamental Theorem of Algebra was published by Carl Friedrich Gauss in 1799.",
-      "explanation_incorrect": "Bézout's theorem relates to polynomial division, Kronecker-Capelli to system solvability, and Vieta's formulas connect coefficients to roots.",
-      "last_verified_at": "2026-06-12T14:40:54.572Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Gauss published a proof in 1799, although his first proof has gaps by modern standards of rigor.",
+      "explanation_incorrect": "Bézout's theorem relates to polynomial division, Kronecker-Capelli to system solvability, and Vieta's formulas connect coefficients to roots."
     },
     {
       "subcategory": "Combinatorics and Probability",
@@ -738,25 +710,21 @@
         "Differential"
       ],
       "answer": "Logarithm",
-      "explanation_correct": "Logarithms were introduced by John Napier in the 1700s to simplify complex astronomical calculations.",
-      "explanation_incorrect": "Radicals reverse fixed-power exponentiation, derivatives measure rate of change, and differentials approximate increments.",
-      "last_verified_at": "2026-06-12T14:40:54.574Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "John Napier published his work on logarithms in 1614, helping simplify lengthy calculations.",
+      "explanation_incorrect": "Radicals reverse fixed-power exponentiation, derivatives measure rate of change, and differentials approximate increments."
     },
     {
       "subcategory": "Logic",
-      "question": "Which deductive argument form consists of three parts: a major premise, a minor premise, and a conclusion?",
+      "question": "Which classical law of logic states that a proposition or its negation must be true?",
       "options": [
-        "Syllogism",
-        "Tautology",
-        "Implication",
-        "Dichotomy"
+        "Law of excluded middle",
+        "Modus ponens",
+        "Law of non-contradiction",
+        "Syllogism"
       ],
-      "answer": "Syllogism",
-      "explanation_correct": "The theory of syllogisms was developed by Aristotle, forming the base of classical formal logic.",
-      "explanation_incorrect": "A tautology is always true, implication is a conditional statement, and dichotomy is a division into two parts.",
-      "last_verified_at": "2026-06-12T14:40:54.574Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Law of excluded middle",
+      "explanation_correct": "The law of excluded middle is expressed as p or not-p.",
+      "explanation_incorrect": "Modus ponens is an inference rule, non-contradiction excludes p and not-p together, and a syllogism is an argument form."
     },
     {
       "subcategory": "Geometry",
@@ -783,10 +751,8 @@
         "Jacob Bernoulli"
       ],
       "answer": "Gottfried Wilhelm Leibniz",
-      "explanation_correct": "Leibniz's notation proved to be more versatile and intuitive than Newton's dot notation.",
-      "explanation_incorrect": "Kepler described planetary motion, Descartes created analytic geometry, and Bernoulli developed calculus applications.",
-      "last_verified_at": "2026-06-12T14:40:54.574Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Leibniz's integral and differential notation remains widely used; Newton's dot notation also remains useful, especially in mechanics.",
+      "explanation_incorrect": "Kepler described planetary motion, Descartes created analytic geometry, and Bernoulli developed calculus applications."
     },
     {
       "subcategory": "Algebra and Analysis",
@@ -805,18 +771,16 @@
     },
     {
       "subcategory": "Famous Theorems",
-      "question": "Which theorem states that the ratio of a side length of a triangle to the sine of its opposite angle is constant?",
+      "question": "Which theorem says that the segment joining the midpoints of two sides of a triangle is parallel to the third side and half its length?",
       "options": [
-        "Law of sines",
+        "Triangle midsegment theorem",
         "Law of cosines",
-        "Thales's theorem",
+        "Four color theorem",
         "Pythagorean theorem"
       ],
-      "answer": "Law of sines",
-      "explanation_correct": "The Law of Sines (a/sinA = b/sinB = 2R) allows calculating the radius of the circumscribed circle of a triangle.",
-      "explanation_incorrect": "The Law of Cosines generalizes Pythagoras, Thales's theorem relates to angles in circles, and the Pythagorean theorem is for right triangles.",
-      "last_verified_at": "2026-06-12T14:40:57.639Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Triangle midsegment theorem",
+      "explanation_correct": "A triangle midsegment is parallel to the third side and half as long.",
+      "explanation_incorrect": "The law of cosines relates sides and angles, the four color theorem concerns maps, and the Pythagorean theorem concerns right triangles."
     },
     {
       "subcategory": "Combinatorics and Probability",
@@ -880,7 +844,7 @@
     },
     {
       "subcategory": "Algebra and Analysis",
-      "question": "What is the mathematical operation that is the inverse of differentiation, finding antiderivatives or measuring areas under curves?",
+      "question": "What mathematical operation includes finding antiderivatives and evaluating definite integrals?",
       "options": [
         "Integration",
         "Differentiation",
@@ -888,10 +852,8 @@
         "Exponentiation"
       ],
       "answer": "Integration",
-      "explanation_correct": "Integration is divided into definite integrals (measuring area) and indefinite integrals (finding antiderivatives).",
-      "explanation_incorrect": "Differentiation finds derivatives, logarithms reverse exponentiation, and exponentiation is repeated multiplication.",
-      "last_verified_at": "2026-06-12T14:40:57.640Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Indefinite integration finds antiderivatives; a definite integral can represent signed area between a curve and the axis.",
+      "explanation_incorrect": "Differentiation finds derivatives, logarithms reverse exponentiation, and exponentiation is repeated multiplication."
     },
     {
       "subcategory": "Logic",
@@ -963,10 +925,8 @@
         "Law of sines"
       ],
       "answer": "Varignon's theorem",
-      "explanation_correct": "Varignon's theorem, formulated by Pierre Varignon in 1731, holds true for any flat quadrilateral.",
-      "explanation_incorrect": "Ptolemy's theorem relates to cyclic quadrilaterals, Euler's relates to polyhedra, and sines is a trigonometric law.",
-      "last_verified_at": "2026-06-12T14:40:57.641Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The theorem appeared in Pierre Varignon's notes published posthumously in 1731 and applies to a planar quadrilateral.",
+      "explanation_incorrect": "Ptolemy's theorem relates to cyclic quadrilaterals, Euler's relates to polyhedra, and sines is a trigonometric law."
     },
     {
       "subcategory": "Combinatorics and Probability",
@@ -978,10 +938,8 @@
         "Power set"
       ],
       "answer": "Permutation",
-      "explanation_correct": "A permutation describes the number of ways to order n elements (e.g. 3 elements have 3! = 6 permutations).",
-      "explanation_incorrect": "Combinations do not consider order, variations select k elements from n, and a power set is the set of all subsets.",
-      "last_verified_at": "2026-06-12T14:40:57.641Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A permutation is one ordering of elements. There are n! orderings of n distinct elements; three elements have 6 permutations.",
+      "explanation_incorrect": "Combinations do not consider order, variations select k elements from n, and a power set is the set of all subsets."
     },
     {
       "subcategory": "Geometry",
@@ -1015,7 +973,7 @@
     },
     {
       "subcategory": "Logical Paradoxes",
-      "question": "Which thought experiment asks: 'If a barber shaves only those men in town who do not shave themselves, does the barber shave himself?'",
+      "question": "What is the paradox of a male barber who shaves all and only the men in town who do not shave themselves, prompting the question whether he shaves himself?",
       "options": [
         "Barber paradox (Russell's paradox)",
         "Zeno's paradox",
@@ -1024,9 +982,7 @@
       ],
       "answer": "Barber paradox (Russell's paradox)",
       "explanation_correct": "The barber paradox is a popular illustration of Russell's paradox in set theory, showing limits of definition consistency.",
-      "explanation_incorrect": "The other options are paradoxes of motion, truth value, or divine capabilities.",
-      "last_verified_at": "2026-06-12T14:40:57.642Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other options are paradoxes of motion, truth value, or divine capabilities."
     },
     {
       "subcategory": "Algebra and Analysis",
@@ -1090,7 +1046,7 @@
     },
     {
       "subcategory": "Famous Theorems",
-      "question": "Which famous mathematical theorem, proved in 1976 using computer assistance, states that any map on a plane can be colored using at most four colors so that no adjacent regions share the same color?",
+      "question": "Which theorem, proved with computer assistance in 1976, says a planar map with connected regions can be colored with at most four colors so that regions sharing a boundary segment differ?",
       "options": [
         "Four color theorem",
         "Five color theorem",
@@ -1099,13 +1055,11 @@
       ],
       "answer": "Four color theorem",
       "explanation_correct": "The Four Color Theorem was the first major mathematical theorem to be proved using a computer program.",
-      "explanation_incorrect": "The Five Color Theorem is easier to prove classically, Jordan's curve theorem deals with closed curves, and Euler studied Königsberg bridges.",
-      "last_verified_at": "2026-06-12T14:40:57.642Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The Five Color Theorem is easier to prove classically, Jordan's curve theorem deals with closed curves, and Euler studied Königsberg bridges."
     },
     {
       "subcategory": "Algebra and Analysis",
-      "question": "What is a sequence of numbers called where each term after the first is found by multiplying the previous term by a constant non-zero number?",
+      "question": "What is a sequence in which every term after the first equals the previous term multiplied by a constant called?",
       "options": [
         "Geometric sequence",
         "Arithmetic sequence",
@@ -1113,10 +1067,8 @@
         "Fibonacci sequence"
       ],
       "answer": "Geometric sequence",
-      "explanation_correct": "The constant multiplier in a geometric sequence is called the common ratio (q).",
-      "explanation_incorrect": "Arithmetic sequences have a constant difference, harmonic sequences are reciprocals of arithmetic ones, and Fibonacci sequences sum the two preceding terms.",
-      "last_verified_at": "2026-06-12T14:40:57.643Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The constant multiplier is called the common ratio; it can also be zero.",
+      "explanation_incorrect": "Arithmetic sequences have a constant difference, harmonic sequences are reciprocals of arithmetic ones, and Fibonacci sequences sum the two preceding terms."
     },
     {
       "subcategory": "Combinatorics and Probability",
@@ -1143,10 +1095,8 @@
         "St. Petersburg paradox"
       ],
       "answer": "Monty Hall paradox",
-      "explanation_correct": "In the Monty Hall paradox, switching doors after the host reveals a goat increases the winning probability to 2/3.",
-      "explanation_incorrect": "The gambler's fallacy is a misconception about independent events, the St. Petersburg paradox involves infinite expected value, and the luxury paradox does not exist.",
-      "last_verified_at": "2026-06-12T14:40:57.643Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "If the host always reveals a door without the prize and always offers a switch, switching wins with probability 2/3.",
+      "explanation_incorrect": "The gambler's fallacy is a misconception about independent events, the St. Petersburg paradox involves infinite expected value, and the luxury paradox does not exist."
     },
     {
       "subcategory": "Geometry",
@@ -1180,7 +1130,7 @@
     },
     {
       "subcategory": "Algebra and Analysis",
-      "question": "What is a mathematical function of the form f(x) = a^x called, where the base 'a' is positive and not equal to one, characterized by rapid growth?",
+      "question": "What is a function of the form f(x) = a^x called, where a is positive and not equal to one?",
       "options": [
         "Exponential function",
         "Power function",
@@ -1188,10 +1138,8 @@
         "Linear function"
       ],
       "answer": "Exponential function",
-      "explanation_correct": "The exponential function grows faster than any polynomial function, modeling population growth or compound interest.",
-      "explanation_incorrect": "Power functions have the variable in the base, logarithmic functions are their inverses, and linear functions have a constant rate of change.",
-      "last_verified_at": "2026-06-12T14:40:57.643Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The exponential function increases when a > 1 and decreases when 0 < a < 1. Exponential models describe compound interest, among other phenomena.",
+      "explanation_incorrect": "Power functions have the variable in the base; a logarithm is the inverse of an exponential with the same base, and a linear function has a constant rate of change."
     },
     {
       "subcategory": "Logic",
@@ -1210,7 +1158,7 @@
     },
     {
       "subcategory": "Famous Theorems",
-      "question": "Which ancient scholar first proved by contradiction that the set of prime numbers is infinite?",
+      "question": "Which ancient scholar included a proof that there are infinitely many primes in his 'Elements'?",
       "options": [
         "Euclid",
         "Pythagoras",
@@ -1218,14 +1166,12 @@
         "Archimedes"
       ],
       "answer": "Euclid",
-      "explanation_correct": "Euclid's proof assumes a finite number of primes, then constructs a new prime by multiplying all existing ones and adding one.",
-      "explanation_incorrect": "Pythagoras studied number harmony, Thales geometry, and Archimedes approximated Pi.",
-      "last_verified_at": "2026-06-12T14:40:57.644Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "For any finite list of primes, the product of those primes plus one is divisible by none of them; either it or one of its prime factors supplies another prime.",
+      "explanation_incorrect": "Pythagoras studied number harmony, Thales geometry, and Archimedes approximated Pi."
     },
     {
       "subcategory": "Combinatorics and Probability",
-      "question": "Which discrete probability distribution expresses the probability of a given number of events occurring in a fixed interval of time or space, if these events occur independently?",
+      "question": "Which distribution describes the number of events in a fixed time interval for a homogeneous Poisson process with independent events and a constant average rate?",
       "options": [
         "Poisson distribution",
         "Normal distribution",
@@ -1234,9 +1180,7 @@
       ],
       "answer": "Poisson distribution",
       "explanation_correct": "The Poisson distribution models events like the number of clients entering a shop per hour or machine failures.",
-      "explanation_incorrect": "The normal distribution is continuous, Bernoulli is for a single success/failure trial, and the exponential distribution models time between events.",
-      "last_verified_at": "2026-06-12T14:40:57.644Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The normal distribution is continuous, Bernoulli is for a single success/failure trial, and the exponential distribution models time between events."
     },
     {
       "subcategory": "Geometry",
@@ -1248,10 +1192,8 @@
         "Hyperboloid"
       ],
       "answer": "Möbius strip",
-      "explanation_correct": "A Möbius strip has only one side and one boundary. The Klein bottle is its closed, boundaryless equivalent in higher dimensions.",
-      "explanation_incorrect": "A Klein bottle is a closed non-orientable surface with no boundaries, a torus is a donut shape, and a hyperboloid is a quadric surface.",
-      "last_verified_at": "2026-06-12T14:40:57.644Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A Möbius strip is a one-sided surface with one boundary. A Klein bottle is another non-orientable surface, but it has no boundary.",
+      "explanation_incorrect": "A Klein bottle is a closed non-orientable surface with no boundaries, a torus is a donut shape, and a hyperboloid is a quadric surface."
     },
     {
       "subcategory": "Great Mathematicians",
@@ -1279,9 +1221,7 @@
       ],
       "answer": "Determinant",
       "explanation_correct": "If the determinant of a square matrix is non-zero, the matrix is invertible (non-singular).",
-      "explanation_incorrect": "The trace is the sum of diagonal elements, rank is the number of linearly independent rows, and eigenvectors retain direction under transformation.",
-      "last_verified_at": "2026-06-12T14:40:57.644Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The trace is the sum of diagonal elements; the rank is the maximum number of linearly independent rows; an eigenvector is multiplied by a scalar under the transformation."
     },
     {
       "subcategory": "Logical Paradoxes",
@@ -1390,22 +1330,20 @@
     },
     {
       "subcategory": "Combinatorics and Probability",
-      "question": "Which combination is a type of selection of k objects from a set of n distinct objects where the order does not matter?",
+      "question": "What is an unordered selection of k objects from n distinct objects called?",
       "options": [
-        "Subset",
         "Combination",
         "Permutation",
-        "Tuple"
+        "Tuple",
+        "Ordered arrangement"
       ],
       "answer": "Combination",
-      "explanation_correct": "A combination counts the number of ways to choose k items from n without regard to the order of selection.",
-      "explanation_incorrect": "Permutation accounts for order, a subset is a general collection, and a tuple is an ordered sequence.",
-      "last_verified_at": "2026-06-12T14:42:22.215Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A combination is an unordered selection; the binomial coefficient counts such selections.",
+      "explanation_incorrect": "A permutation, tuple, and ordered arrangement all involve order."
     },
     {
       "subcategory": "Famous Theorems",
-      "question": "Which calculus theorem states that if a real-valued function is continuous on a closed interval, it must attain a maximum and a minimum value at least once?",
+      "question": "Which theorem says that a real-valued function continuous on a closed and bounded interval attains a maximum and a minimum there?",
       "options": [
         "Extreme value theorem (Weierstrass's theorem)",
         "Rolle's theorem",
@@ -1413,10 +1351,8 @@
         "Mean value theorem (Lagrange)"
       ],
       "answer": "Extreme value theorem (Weierstrass's theorem)",
-      "explanation_correct": "The Extreme Value Theorem ensures that bounded continuous functions have absolute extrema on closed intervals, critical for optimization.",
-      "explanation_incorrect": "Rolle's theorem states derivatives equal zero under conditions, Darboux concerns intermediate values, and Lagrange describes average rates of change.",
-      "last_verified_at": "2026-06-12T14:40:57.645Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The extreme value theorem guarantees absolute extrema for a continuous real-valued function on a closed, bounded interval.",
+      "explanation_incorrect": "Rolle's theorem states derivatives equal zero under conditions, Darboux concerns intermediate values, and Lagrange describes average rates of change."
     },
     {
       "subcategory": "Logical Paradoxes",
@@ -1428,10 +1364,8 @@
         "Sorites paradox"
       ],
       "answer": "Raven paradox (Hempel's paradox)",
-      "explanation_correct": "Hempel showed that the statement 'All ravens are black' is logically equivalent to 'All non-black things are non-ravens', which is confirmed by green apples.",
-      "explanation_incorrect": "Newcomb's paradox deals with decision theory, the crocodile paradox is a classic dilemma, and Sorites is about vague predicates (heaps).",
-      "last_verified_at": "2026-06-12T14:40:57.645Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "'All ravens are black' is logically equivalent to 'All non-black things are non-ravens'. The paradox asks whether observing a green apple supports the former claim.",
+      "explanation_incorrect": "Newcomb's paradox deals with decision theory, the crocodile paradox is a classic dilemma, and Sorites is about vague predicates (heaps)."
     },
     {
       "subcategory": "Algebra and Analysis",
@@ -1439,14 +1373,12 @@
       "options": [
         "Identity matrix",
         "Zero matrix",
-        "Diagonal matrix",
-        "Symmetric matrix"
+        "Scalar matrix with every diagonal entry equal to 2",
+        "Matrix with every entry equal to 1"
       ],
       "answer": "Identity matrix",
-      "explanation_correct": "Multiplying any matrix A by the identity matrix I yields A (AI = IA = A).",
-      "explanation_incorrect": "The zero matrix has all zeros, diagonal matrices have non-zeros only on the diagonal, and symmetric matrices equal their transpose.",
-      "last_verified_at": "2026-06-12T14:40:57.645Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Multiplying a matrix by identity matrices of appropriate dimensions on the left or right yields the original matrix.",
+      "explanation_incorrect": "The zero matrix has no ones on the diagonal; the other two matrices do not act as multiplicative identities in general."
     },
     {
       "subcategory": "Wielcy matematycy",
@@ -1465,7 +1397,7 @@
     },
     {
       "subcategory": "Geometry",
-      "question": "Which triangular array of numbers has each entry as the sum of the two directly above it, representing binomial coefficients?",
+      "question": "Which triangular array of numbers has each interior entry as the sum of the two directly above it, representing binomial coefficients?",
       "options": [
         "Pascal's triangle",
         "Sierpiński triangle",
@@ -1474,9 +1406,7 @@
       ],
       "answer": "Pascal's triangle",
       "explanation_correct": "The rows of Pascal's triangle correspond to the coefficients of the expansion of the binomial (a+b)^n.",
-      "explanation_incorrect": "The Sierpiński triangle and carpet are geometric fractals, and Euler's fan does not exist.",
-      "last_verified_at": "2026-06-12T14:40:57.646Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The Sierpiński triangle and carpet are geometric fractals, and Euler's fan does not exist."
     },
     {
       "subcategory": "Logika",

@@ -40,7 +40,7 @@
     },
     {
       "subcategory": "Paradoksy logiczne",
-      "question": "Jak nazywa się klasyczny paradoks logiczny sformułowany przez starożytnego filozofa Epimenidesa, mówiący: 'Wszyscy Kreteńczycy są kłamcami'?",
+      "question": "Jak nazywa się paradoks, którego klasyczna wersja brzmi: 'To zdanie jest fałszywe'?",
       "options": [
         "Paradoks kłamcy",
         "Paradoks Zenona z Elei",
@@ -49,9 +49,7 @@
       ],
       "answer": "Paradoks kłamcy",
       "explanation_correct": "Paradoks kłamcy powstaje, gdy zdanie odnosi się do samego siebie, orzekając o swojej własnej nieprawdzie (jeśli kłamie, to mówi prawdę).",
-      "explanation_incorrect": "Zenon opisał paradoks Achillesa i żółwia, paradoks fryzjera (lub Russella) dotyczy teorii zbiorów.",
-      "last_verified_at": "2026-06-12T15:20:49.814Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Paradoksy Zenona dotyczą ruchu; paradoks fryzjera ilustruje paradoks Russella dotyczący zbiorów."
     },
     {
       "subcategory": "Algebra i analiza",
@@ -93,14 +91,12 @@
         "Marin Mersenne"
       ],
       "answer": "Pierre de Fermat",
-      "explanation_correct": "Wielkie Twierdzenie Fermata mówi, że równanie x^n + y^n = z^n nie ma rozwiązań w liczbach całkowitych dodatnich dla n > 2.",
-      "explanation_incorrect": "Pascal badał prawdopodobieństwo i ciśnienie, Descartes stworzył układ współrzędnych, a Mersenne badał liczby pierwsze.",
-      "last_verified_at": "2026-06-12T15:20:49.814Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wielkie twierdzenie Fermata mówi, że równanie x^n + y^n = z^n nie ma rozwiązań w dodatnich liczbach całkowitych dla całkowitego n > 2.",
+      "explanation_incorrect": "Pascal badał prawdopodobieństwo i ciśnienie, Descartes stworzył układ współrzędnych, a Mersenne badał liczby pierwsze."
     },
     {
       "subcategory": "Algebra i analiza",
-      "question": "Jak nazywa się ciąg liczb, w którym każdy kolejny wyraz (oprócz dwóch pierwszych) jest sumą dwóch poprzednich wyrazów (np. 1, 1, 2, 3, 5, 8...)?",
+      "question": "Jak nazywa się ciąg 1, 1, 2, 3, 5, 8..., w którym każdy wyraz po pierwszych dwóch jest sumą dwóch poprzednich?",
       "options": [
         "Ciąg Fibonacciego",
         "Ciąg arytmetyczny",
@@ -109,9 +105,7 @@
       ],
       "answer": "Ciąg Fibonacciego",
       "explanation_correct": "Stosunki kolejnych wyrazów ciągu Fibonacciego dążą do złotej liczby (złotego podziału), co występuje powszechnie w naturze.",
-      "explanation_incorrect": "Ciąg arytmetyczny rośnie o stałą różnicę, geometryczny o stały iloraz, a ciąg Taylora służy do przybliżania funkcji.",
-      "last_verified_at": "2026-06-12T15:20:49.815Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W ciągu arytmetycznym różnica kolejnych wyrazów jest stała, w geometrycznym stały jest mnożnik, a szereg Taylora służy do przybliżania funkcji."
     },
     {
       "subcategory": "Geometria",
@@ -175,7 +169,7 @@
     },
     {
       "subcategory": "Sławne twierdzenia",
-      "question": "Które twierdzenie matematyczne sformułowane w 1931 roku przez Kurta Gödla wstrząsnęło podstawami matematyki, dowodząc istnienia zdań prawdziwych, których nie da się udowodnić w ramach danego systemu aksjomatycznego?",
+      "question": "Które twierdzenie Gödla z 1931 roku pokazuje, że dostatecznie silny, niesprzeczny i efektywnie aksjomatyzowalny system arytmetyczny jest niezupełny?",
       "options": [
         "Twierdzenie o niezupełności",
         "Twierdzenie o zwartości",
@@ -183,10 +177,8 @@
         "Twierdzenie o punktach stałych"
       ],
       "answer": "Twierdzenie o niezupełności",
-      "explanation_correct": "Twierdzenia Gödla o niezupełności wykazały, że żaden niesprzeczny system aksjomatów wystarczający do opisu arytmetyki nie może być jednocześnie zupełny.",
-      "explanation_incorrect": "Pozostałe opcje to inne twierdzenia logiczne lub matematyczne niezwiązane z tym przełomem aksjomatycznym.",
-      "last_verified_at": "2026-06-12T15:20:49.815Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pierwsze twierdzenie o niezupełności mówi, że w takim systemie istnieje zdanie, którego ani ono, ani jego zaprzeczenie nie jest dowodliwe.",
+      "explanation_incorrect": "Pozostałe opcje to inne twierdzenia logiczne lub matematyczne niezwiązane z tym przełomem aksjomatycznym."
     },
     {
       "subcategory": "Geometria",
@@ -199,9 +191,7 @@
       ],
       "answer": "Okrąg",
       "explanation_correct": "Okrąg to linia krzywa stanowiąca brzeg koła. Odległość od środka to promień (r).",
-      "explanation_incorrect": "Koło to okrąg wraz z jego wnętrzem, elipsa to spłaszczony okrąg o dwóch ogniskach, a parabola to krzywa stożkowa otwarta.",
-      "last_verified_at": "2026-06-12T15:20:49.815Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Koło obejmuje okrąg wraz z wnętrzem; elipsę opisują dwa ogniska, a parabola jest otwartą krzywą stożkową."
     },
     {
       "subcategory": "Wielcy matematycy",
@@ -244,9 +234,7 @@
       ],
       "answer": "Liczby zespolone",
       "explanation_correct": "Liczby zespolone (C) zapisuje się w postaci a + bi, gdzie a i b to liczby rzeczywiste.",
-      "explanation_incorrect": "Liczby rzeczywiste nie mają części urojonej, kwaterniony to rozszerzenie liczb zespolonych o cztery wymiary, a niewymierne nie dają się zapisać jako ułamek zwykły.",
-      "last_verified_at": "2026-06-12T15:20:49.816Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Liczby rzeczywiste mają zerową część urojoną; kwaterniony tworzą czterowymiarową algebrę rzeczywistą, a liczby niewymierne nie są ilorazem dwóch liczb całkowitych."
     },
     {
       "subcategory": "Geometria",
@@ -259,13 +247,11 @@
       ],
       "answer": "Stożek",
       "explanation_correct": "Obrót trójkąta prostokątnego wokół przyprostokątnej tworzy stożek obrotowy o okrągłej podstawie.",
-      "explanation_incorrect": "Walec powstaje z obrotu prostokąta, kula z obrotu półkola, a torus z obrotu okręgu wokół osi leżącej poza nim.",
-      "last_verified_at": "2026-06-12T15:20:49.816Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Walec powstaje przez obrót prostokąta wokół boku, kula przez obrót półkola wokół średnicy, a pełny torus przez obrót koła wokół osi w jego płaszczyźnie, która nie przecina koła."
     },
     {
       "subcategory": "Wielcy matematycy",
-      "question": "Który brytyjski matematyk i kryptolog złamał kod niemieckiej maszyny szyfrującej Enigma podczas II wojny światowej i zaprojektował teoretyczny model nowoczesnego komputera?",
+      "question": "Który brytyjski matematyk współtworzył metody odczytywania niemieckich szyfrów Enigmy podczas II wojny światowej i opisał abstrakcyjny model obliczeń?",
       "options": [
         "Alan Turing",
         "Charles Babbage",
@@ -273,10 +259,8 @@
         "Ada Lovelace"
       ],
       "answer": "Alan Turing",
-      "explanation_correct": "Turing stworzył maszynę Turinga – abstrakcyjny model obliczeniowy, który zdefiniował pojęcie algorytmu.",
-      "explanation_incorrect": "Babbage zaprojektował maszynę analityczną w XIX wieku, von Neumann opisał architekturę współczesnych komputerów, a Lovelace była pierwszą programistką.",
-      "last_verified_at": "2026-06-12T15:20:49.816Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Alan Turing pracował w Bletchley Park nad kryptoanalizą Enigmy, rozwijając także wcześniejsze osiągnięcia polskich kryptologów. Opisał abstrakcyjną maszynę Turinga.",
+      "explanation_incorrect": "Babbage zaprojektował maszynę analityczną w XIX wieku, von Neumann opisał architekturę współczesnych komputerów, a Lovelace była pierwszą programistką."
     },
     {
       "subcategory": "Logika",
@@ -364,9 +348,7 @@
       ],
       "answer": "Twierdzenie sinusów (twierdzenie Snelliusa)",
       "explanation_correct": "Twierdzenie sinusów (a/sinA = b/sinB = c/sinC = 2R) służy do rozwiązywania trójkątów ukośnokątnych.",
-      "explanation_incorrect": "Twierdzenie cosinusów to uogólniony Pitagorasa, Talesa dotyczy kątów i proporcji, a Cevy współliniowości prostych w trójkącie.",
-      "last_verified_at": "2026-06-12T15:20:49.817Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Twierdzenie cosinusów uogólnia twierdzenie Pitagorasa, twierdzenie Talesa dotyczy proporcji odcinków, a twierdzenie Cevy warunku przecinania się trzech prostych w jednym punkcie."
     },
     {
       "subcategory": "Algebra i analiza",
@@ -379,9 +361,7 @@
       ],
       "answer": "Macierz",
       "explanation_correct": "Macierze są kluczowym narzędziem algebry liniowej, stosowanym powszechnie w grafice 3D, fizyce i informatyce.",
-      "explanation_incorrect": "Wektor to macierz jednowymiarowa, tensor to uogólnienie macierzy na więcej wymiarów, a układ równań to zbiór powiązanych zależności.",
-      "last_verified_at": "2026-06-12T15:20:49.817Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wektor można przedstawiać jako macierz kolumnową lub wierszową; tensor jest pojęciem szerszym niż macierz, a układ równań jest zbiorem zależności."
     },
     {
       "subcategory": "Geometria",
@@ -430,7 +410,7 @@
     },
     {
       "subcategory": "Algebra i analiza",
-      "question": "Jak nazywa się punkt, w którym funkcja matematyczna osiąga wartość zero (jej wykres przecina oś OX)?",
+      "question": "Jak nazywa się argument, dla którego funkcja przyjmuje wartość zero?",
       "options": [
         "Miejsce zerowe",
         "Ekstremum lokalne",
@@ -438,10 +418,8 @@
         "Asymptota"
       ],
       "answer": "Miejsce zerowe",
-      "explanation_correct": "Miejsce zerowe (pierwiastek równania) wyznacza się rozwiązując równanie f(x) = 0.",
-      "explanation_incorrect": "Ekstremum to minimum lub maksimum, punkt przegięcia zmienia wypukłość wykresu, a asymptota to prosta, do której wykres dąży w nieskończoności.",
-      "last_verified_at": "2026-06-12T15:20:49.818Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Miejsce zerowe to liczba x spełniająca równanie f(x) = 0. Wykres może w tym miejscu przecinać oś OX lub jej dotykać.",
+      "explanation_incorrect": "Ekstremum jest minimum lub maksimum, punkt przegięcia jest związany ze zmianą wypukłości, a asymptota jest prostą, do której wykres zbliża się w odpowiedniej granicy."
     },
     {
       "subcategory": "Logika",
@@ -475,7 +453,7 @@
     },
     {
       "subcategory": "Wielcy matematycy",
-      "question": "Który hinduski matematyk samouk z przełomu XIX i XX wieku, mimo braku formalnego wykształcenia, sformułował tysiące genialnych tożsamości matematycznych i współpracował z G.H. Hardym w Cambridge?",
+      "question": "Który indyjski matematyk z przełomu XIX i XX wieku, w dużej mierze samouk, sformułował tysiące tożsamości matematycznych i współpracował z G.H. Hardym w Cambridge?",
       "options": [
         "Srinivasa Ramanujan",
         "Satyendra Nath Bose",
@@ -484,9 +462,7 @@
       ],
       "answer": "Srinivasa Ramanujan",
       "explanation_correct": "Ramanujan twierdził, że jego wzory objawiała mu w snach bogini Namagiri. Badania jego spuścizny trwają do dziś.",
-      "explanation_incorrect": "Bose to fizyk (statystyka Bosego-Einsteina), Harish-Chandra badał algebrę Liego, a Mahalanobis to wybitny statystyk.",
-      "last_verified_at": "2026-06-12T15:20:49.818Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bose to fizyk (statystyka Bosego-Einsteina), Harish-Chandra badał algebrę Liego, a Mahalanobis to wybitny statystyk."
     },
     {
       "subcategory": "Logika",
@@ -520,7 +496,7 @@
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
-      "question": "Jak nazywa się matematyczna miara szansy na zajście zdarzenia losowego, przyjmująca wartości z przedziału od 0 (zdarzenie niemożliwe) do 1 (zdarzenie pewne)?",
+      "question": "Jak nazywa się matematyczna miara szansy na zajście zdarzenia losowego, przyjmująca wartości od 0 do 1?",
       "options": [
         "Prawdopodobieństwo",
         "Wariancja",
@@ -528,14 +504,12 @@
         "Dystrybuanta"
       ],
       "answer": "Prawdopodobieństwo",
-      "explanation_correct": "Aksjomatyczną definicję prawdopodobieństwa sformułował w 1933 roku Andriej Kołmogorow.",
-      "explanation_incorrect": "Wariancja mierzy rozrzut danych, korelacja współzależność, a dystrybuanta opisuje rozkład zmiennej.",
-      "last_verified_at": "2026-06-12T15:20:49.818Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Prawdopodobieństwo zdarzenia niemożliwego wynosi 0, a pewnego 1; w przestrzeniach nieskończonych zdarzenia o tych prawdopodobieństwach nie muszą być odpowiednio niemożliwe lub pewne.",
+      "explanation_incorrect": "Wariancja mierzy rozrzut danych, korelacja współzależność, a dystrybuanta opisuje rozkład zmiennej."
     },
     {
       "subcategory": "Geometria",
-      "question": "Jak nazywa się krzywa będąca zbiorem wszystkich punktów płaszczyzny, dla których suma odległości od dwóch ustalonych punktów (ognisk) jest stała?",
+      "question": "Jak nazywa się krzywa będąca zbiorem punktów, których suma odległości od dwóch różnych ustalonych punktów (ognisk) jest stała i większa od odległości między ogniskami?",
       "options": [
         "Elipsa",
         "Parabola",
@@ -544,9 +518,7 @@
       ],
       "answer": "Elipsa",
       "explanation_correct": "Elipsa to krzywa zamknięta stożkowa. Zgodnie z I prawem Keplera, planety krążą wokół Słońca po orbitach eliptycznych.",
-      "explanation_incorrect": "Parabola to krzywa otwarta o jednym ognisku, hiperbola ma stałą różnicę odległości, a okrąg to elipsa o pokrywających się ogniskach.",
-      "last_verified_at": "2026-06-12T15:20:49.819Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Parabola to krzywa otwarta o jednym ognisku, hiperbola ma stałą różnicę odległości, a okrąg to elipsa o pokrywających się ogniskach."
     },
     {
       "subcategory": "Wielcy matematycy",
@@ -589,9 +561,7 @@
       ],
       "answer": "Pochodna funkcji",
       "explanation_correct": "Pochodna funkcji f'(x) pozwala wyznaczać kierunek stycznej do wykresu oraz ekstrema lokalne funkcji.",
-      "explanation_incorrect": "Całka oznaczona to pole pod wykresem, gradient to wektor najszybszego wzrostu, a różniczka to przybliżony przyrost wartości.",
-      "last_verified_at": "2026-06-12T15:21:02.771Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Całka oznaczona opisuje m.in. pole ze znakiem, gradient wskazuje kierunek najszybszego wzrostu, a różniczka jest liniowym przybliżeniem przyrostu."
     },
     {
       "subcategory": "Logika",
@@ -634,13 +604,11 @@
       ],
       "answer": "Blaise Pascal",
       "explanation_correct": "Pascal wraz z Fermatem stworzył również matematyczne podwaliny pod teorię prawdopodobieństwa.",
-      "explanation_incorrect": "Descartes stworzył układ współrzędnych, Fermat opisał teorię liczb, a Leibniz maszynę liczącą liczącą mnożenie i rachunek różniczkowy.",
-      "last_verified_at": "2026-06-12T15:21:02.772Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Descartes rozwijał geometrię analityczną, Fermat badał teorię liczb, a Leibniz opracował maszynę liczącą oraz rachunek różniczkowy."
     },
     {
       "subcategory": "Logika",
-      "question": "Jak w logice formalnej nazywa się fałsz wartościowy (zdanie logiczne), które jest zawsze fałszywe, niezależnie od wartości zdań składowych?",
+      "question": "Jak w logice formalnej nazywa się formuła, która jest zawsze fałszywa, niezależnie od wartości zdań składowych?",
       "options": [
         "Kontradykcja (sprzeczność)",
         "Tautologia",
@@ -649,9 +617,7 @@
       ],
       "answer": "Kontradykcja (sprzeczność)",
       "explanation_correct": "Przykładem kontradykcji jest zdanie: 'p i nie-p' (p ∧ ~p).",
-      "explanation_incorrect": "Tautologia jest zawsze prawdziwa, aksjomat to założenie podstawowe, a implikacja to spójnik warunkowy.",
-      "last_verified_at": "2026-06-12T15:21:02.772Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tautologia jest zawsze prawdziwa, aksjomat to założenie podstawowe, a implikacja to spójnik warunkowy."
     },
     {
       "subcategory": "Sławne twierdzenia",
@@ -663,10 +629,8 @@
         "Twierdzenie Viète'a"
       ],
       "answer": "Zasadnicze twierdzenie algebry",
-      "explanation_correct": "Pierwszy rygorystyczny dowód zasadniczego twierdzenia algebry opublikował Carl Friedrich Gauss w 1799 roku.",
-      "explanation_incorrect": "Twierdzenie Bézouta mówi o dzieleniu wielomianu przez dwumian, Kroneckera-Capelliego o rozwiązalności układów równań, a wzory Viète'a łączą współczynniki z pierwiastkami.",
-      "last_verified_at": "2026-06-12T15:21:02.772Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gauss przedstawił dowód tego twierdzenia w 1799 roku. Jego pierwszy dowód nie spełnia jednak wszystkich współczesnych standardów ścisłości.",
+      "explanation_incorrect": "Twierdzenie Bézouta mówi o dzieleniu wielomianu przez dwumian, Kroneckera-Capelliego o rozwiązalności układów równań, a wzory Viète'a łączą współczynniki z pierwiastkami."
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
@@ -783,10 +747,8 @@
         "Jacob Bernoulli"
       ],
       "answer": "Gottfried Wilhelm Leibniz",
-      "explanation_correct": "Notacja Leibniza okazała się znacznie wygodniejsza i bardziej intuicyjna niż notacja kropkowa Newtona.",
-      "explanation_incorrect": "Kepler opisał ruch planet, Descartes stworzył geometrię analityczną, a Bernoulli rozwijał analizę matematyczną.",
-      "last_verified_at": "2026-06-12T15:21:02.773Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Notacja Leibniza z symbolem całki oraz różniczkami stała się szeroko stosowana; notacji Newtona z kropką nadal używa się np. w mechanice.",
+      "explanation_incorrect": "Kepler opisał ruch planet, Descartes stworzył geometrię analityczną, a Bernoulli rozwijał analizę matematyczną."
     },
     {
       "subcategory": "Algebra i analiza",
@@ -805,18 +767,16 @@
     },
     {
       "subcategory": "Sławne twierdzenia",
-      "question": "Jak nazywa się twierdzenie, które mówi, że w dowolnym trójkącie stosunek długości boku do sinusa kąta naprzeciwległego jest stały?",
+      "question": "Które twierdzenie mówi, że odcinek łączący środki dwóch boków trójkąta jest równoległy do trzeciego boku i ma połowę jego długości?",
       "options": [
-        "Twierdzenie sinusów",
+        "Twierdzenie o odcinku środkowym trójkąta",
         "Twierdzenie cosinusów",
-        "Twierdzenie Talesa",
+        "Twierdzenie o czterech barwach",
         "Twierdzenie Pitagorasa"
       ],
-      "answer": "Twierdzenie sinusów",
-      "explanation_correct": "Twierdzenie sinusów (a/sinA = b/sinB = 2R) pozwala na łatwe obliczenie promienia okręgu opisanego na trójkącie.",
-      "explanation_incorrect": "Twierdzenie cosinusów uogólnia twierdzenie Pitagorasa, Talesa dotyczy proporcji na ramionach kąta, a Pitagorasa trójkątów prostokątnych.",
-      "last_verified_at": "2026-06-12T15:21:02.773Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Twierdzenie o odcinku środkowym trójkąta",
+      "explanation_correct": "Odcinek środkowy trójkąta jest równoległy do trzeciego boku i dwukrotnie krótszy od niego.",
+      "explanation_incorrect": "Twierdzenie cosinusów wiąże boki z kątem, twierdzenie o czterech barwach dotyczy map, a twierdzenie Pitagorasa trójkątów prostokątnych."
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
@@ -850,7 +810,7 @@
     },
     {
       "subcategory": "Wielcy matematycy",
-      "question": "Który polski matematyk, wybitny przedstawiciel warszawskiej szkoły matematycznej, wniósł ogromny wkład w teorię mnogości i topologię oraz założył czasopismo 'Fundamenta Mathematicae'?",
+      "question": "Który polski matematyk, przedstawiciel warszawskiej szkoły matematycznej, wniósł znaczący wkład w teorię mnogości i topologię oraz współtworzył czasopismo 'Fundamenta Mathematicae'?",
       "options": [
         "Wacław Sierpiński",
         "Stefan Banach",
@@ -859,13 +819,11 @@
       ],
       "answer": "Wacław Sierpiński",
       "explanation_correct": "Sierpiński opisał trójkąt Sierpińskiego oraz dywan Sierpińskiego – klasyczne obiekty teorii fraktali.",
-      "explanation_incorrect": "Banach stworzył analizę funkcjonalną we Lwowie, Ulam pracował w USA przy projekcie Manhattan, a Borsuk badał topologię geometryczną.",
-      "last_verified_at": "2026-06-12T15:21:02.774Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Banach stworzył analizę funkcjonalną we Lwowie, Ulam pracował w USA przy projekcie Manhattan, a Borsuk badał topologię geometryczną."
     },
     {
       "subcategory": "Paradoksy logiczne",
-      "question": "Jak nazywa się paradoks Zenona z Elei mówiący, że wystrzelona z łuku strzała w każdym ułamku sekundy spoczywa w jednym punkcie przestrzeni, więc ruch jest tylko iluzją?",
+      "question": "Jak nazywa się paradoks Zenona z Elei, według którego lecąca strzała w każdej pojedynczej chwili zajmuje określone miejsce, co ma prowadzić do wniosku o niemożliwości ruchu?",
       "options": [
         "Paradoks strzały",
         "Paradoks dychotomii",
@@ -873,14 +831,12 @@
         "Paradoks stadionu"
       ],
       "answer": "Paradoks strzały",
-      "explanation_correct": "Paradoks strzały dowodził bezruchu poprzez analizę czasu jako zbioru izolowanych punktów 'teraz'.",
-      "explanation_incorrect": "Dychotomia dzieli drogę na nieskończone połówki, Achilles goni żółwia, a stadion dotyczy ruchu ciał o różnych prędkościach względem siebie.",
-      "last_verified_at": "2026-06-12T15:21:02.774Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Argument Zenona przypisuje strzale bezruch w każdej chwili; nie jest to rozstrzygający dowód, że ruch nie istnieje.",
+      "explanation_incorrect": "Dychotomia dzieli drogę na nieskończone połówki, Achilles goni żółwia, a stadion dotyczy ruchu ciał o różnych prędkościach względem siebie."
     },
     {
       "subcategory": "Algebra i analiza",
-      "question": "Jak nazywa się operacja odwrotna do różniczkowania, polegająca na wyznaczaniu funkcji pierwotnej lub pola powierzchni pod wykresem funkcji?",
+      "question": "Jak nazywa się operacja obejmująca wyznaczanie funkcji pierwotnych oraz całek oznaczonych?",
       "options": [
         "Całkowanie",
         "Różniczkowanie",
@@ -888,10 +844,8 @@
         "Potęgowanie"
       ],
       "answer": "Całkowanie",
-      "explanation_correct": "Całkowanie dzieli się na oznaczone (pole pod wykresem) oraz nieoznaczone (wyznaczanie funkcji pierwotnej).",
-      "explanation_incorrect": "Różniczkowanie wyznacza pochodną, logarytmowanie to operacja odwrotna do potęgowania, a potęgowanie mnoży wielokrotnie.",
-      "last_verified_at": "2026-06-12T15:21:02.774Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Całka nieoznaczona opisuje funkcje pierwotne, a oznaczona m.in. pole ze znakiem między wykresem a osią.",
+      "explanation_incorrect": "Różniczkowanie wyznacza pochodną, logarytmowanie to operacja odwrotna do potęgowania, a potęgowanie mnoży wielokrotnie."
     },
     {
       "subcategory": "Logika",
@@ -963,10 +917,8 @@
         "Twierdzenie sinusów"
       ],
       "answer": "Twierdzenie Varignona",
-      "explanation_correct": "Twierdzenie to sformułował Pierre Varignon w 1731 roku i zachodzi ono dla każdego czworokąta płaskiego.",
-      "explanation_incorrect": "Ptolemeusz dotyczy czworokątów wpisanych w okrąg, Euler wierzchołków wielościanów, a sinusów proporcji kątów.",
-      "last_verified_at": "2026-06-12T15:21:02.775Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Twierdzenie znalazło się w pośmiertnie wydanych w 1731 roku notatkach Pierre’a Varignona i dotyczy czworokąta płaskiego.",
+      "explanation_incorrect": "Twierdzenie Ptolemeusza dotyczy czworokątów wpisanych w okrąg, twierdzenie Eulera zależności między liczbami wierzchołków, krawędzi i ścian wielościanu, a twierdzenie sinusów boków i kątów trójkąta."
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
@@ -978,10 +930,8 @@
         "Zbiór potęgowy"
       ],
       "answer": "Permutacja",
-      "explanation_correct": "Permutacja opisuje liczbę sposobów na jakie można ustawić w kolejności n elementów (np. 3 elementy dają 3! = 6 ustawień).",
-      "explanation_incorrect": "Kombinacja nie uwzględnia kolejności elementów, wariacja to wybór k elementów z n, a zbiór potęgowy to zbiór wszystkich podzbiorów.",
-      "last_verified_at": "2026-06-12T15:21:02.775Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Permutacja to jedno uporządkowanie elementów. Dla n różnych elementów istnieje n! takich uporządkowań; dla trzech jest ich 6.",
+      "explanation_incorrect": "Kombinacja nie uwzględnia kolejności elementów, wariacja to wybór k elementów z n, a zbiór potęgowy to zbiór wszystkich podzbiorów."
     },
     {
       "subcategory": "Geometria",
@@ -1015,7 +965,7 @@
     },
     {
       "subcategory": "Paradoksy logiczne",
-      "question": "Jak nazywa się paradoks, w którym pyta się: 'Czy fryzjer, który goli w miasteczku tylko tych mężczyzn, którzy sami się nie golą, goli samego siebie?'",
+      "question": "Jak nazywa się paradoks, w którym fryzjer w miasteczku goli wszystkich i tylko tych mężczyzn, którzy nie golą się sami, a pytanie brzmi: czy goli on samego siebie?",
       "options": [
         "Paradoks fryzjera (paradoks Russella)",
         "Paradoks Zenona",
@@ -1024,9 +974,7 @@
       ],
       "answer": "Paradoks fryzjera (paradoks Russella)",
       "explanation_correct": "Paradoks fryzjera to popularne sformułowanie paradoksu Russella w teorii zbiorów pokazujące granice logicznej spójności klasycznych definicji.",
-      "explanation_incorrect": "Pozostałe paradoksy dotyczą innych pojęć (ruchu, prawdy zdań, omnipotencji).",
-      "last_verified_at": "2026-06-12T15:21:02.776Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe paradoksy dotyczą innych pojęć (ruchu, prawdy zdań, omnipotencji)."
     },
     {
       "subcategory": "Algebra i analiza",
@@ -1090,7 +1038,7 @@
     },
     {
       "subcategory": "Sławne twierdzenia",
-      "question": "Które słynne twierdzenie matematyczne, udowodnione w 1976 roku przy użyciu komputerów, mówi, że każdą mapę na płaszczyźnie można pokolorować czterema kolorami tak, by sąsiadujące kraje miały różne barwy?",
+      "question": "Które twierdzenie, udowodnione w 1976 roku przy użyciu komputerów, mówi, że każdą mapę o spójnych obszarach na płaszczyźnie można pokolorować najwyżej czterema kolorami tak, by obszary mające wspólny odcinek granicy miały różne barwy?",
       "options": [
         "Twierdzenie o czterech barwach",
         "Twierdzenie o pięciu barwach",
@@ -1099,13 +1047,11 @@
       ],
       "answer": "Twierdzenie o czterech barwach",
       "explanation_correct": "Twierdzenie o czterech barwach było pierwszym wielkim twierdzeniem matematycznym udowodnionym za pomocą komputera.",
-      "explanation_incorrect": "Twierdzenie o pięciu barwach jest łatwiejsze do udowodnienia klasycznie, twierdzenie Jordana dotyczy krzywych zamkniętych, a Euler badał mosty królewieckie.",
-      "last_verified_at": "2026-06-12T15:21:02.776Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Twierdzenie o pięciu barwach jest łatwiejsze do udowodnienia klasycznie, twierdzenie Jordana dotyczy krzywych zamkniętych, a Euler badał mosty królewieckie."
     },
     {
       "subcategory": "Algebra i analiza",
-      "question": "Jak nazywa się ciąg liczbowy, w którym stosunek dowolnego wyrazu (oprócz pierwszego) do wyrazu go poprzedzającego jest stały?",
+      "question": "Jak nazywa się ciąg liczbowy, w którym każdy wyraz po pierwszym otrzymuje się, mnożąc poprzedni przez stałą liczbę?",
       "options": [
         "Ciąg geometryczny",
         "Ciąg arytmetyczny",
@@ -1113,10 +1059,8 @@
         "Ciąg Fibonacciego"
       ],
       "answer": "Ciąg geometryczny",
-      "explanation_correct": "Stały stosunek wyrazów w ciągu geometrycznym nazywa się ilorazem ciągu i oznacza się go zazwyczaj literą q.",
-      "explanation_incorrect": "Ciąg arytmetyczny ma stałą różnicę wyrazów, harmoniczny to ciąg odwrotności ciągu arytmetycznego, a ciąg Fibonacciego powstaje przez sumowanie dwóch poprzednich wyrazów.",
-      "last_verified_at": "2026-06-12T15:21:02.776Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stały mnożnik ciągu geometrycznego nazywa się ilorazem i oznacza zazwyczaj literą q; może być on również równy zeru.",
+      "explanation_incorrect": "Ciąg arytmetyczny ma stałą różnicę wyrazów, harmoniczny to ciąg odwrotności ciągu arytmetycznego, a ciąg Fibonacciego powstaje przez sumowanie dwóch poprzednich wyrazów."
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
@@ -1143,14 +1087,12 @@
         "Paradoks petersburski"
       ],
       "answer": "Paradoks Monty Halla",
-      "explanation_correct": "W paradoksie Monty Halla zmiana pierwotnego wyboru po ujawnieniu przez prowadzącego pustych drzwi zwiększa szansę na wygraną do 2/3.",
-      "explanation_incorrect": "Paradoks hazardzisty to błąd myślowy dotyczący zdarzeń niezależnych, petersburski dotyczy nieskończonej wartości oczekiwanej gry, a luksusowy nie istnieje.",
-      "last_verified_at": "2026-06-12T15:21:02.777Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jeśli prowadzący zawsze odsłania drzwi bez nagrody i zawsze proponuje zmianę, zmiana wyboru daje szansę 2/3 na wygraną.",
+      "explanation_incorrect": "Paradoks hazardzisty to błąd myślowy dotyczący zdarzeń niezależnych, petersburski dotyczy nieskończonej wartości oczekiwanej gry, a luksusowy nie istnieje."
     },
     {
       "subcategory": "Geometria",
-      "question": "Ktory wzór pozwala obliczyć pole powierzchni dowolnego trójkąta na podstawie długości jego trzech boków, bez konieczności znajomości wysokości?",
+      "question": "Który wzór pozwala obliczyć pole dowolnego trójkąta na podstawie długości jego trzech boków, bez znajomości wysokości?",
       "options": [
         "Wzór Herona",
         "Wzór Picka",
@@ -1159,9 +1101,7 @@
       ],
       "answer": "Wzór Herona",
       "explanation_correct": "Wzór Herona wykorzystuje połowę obwodu trójkąta (p) oraz długości boków: S = sqrt(p(p-a)(p-b)(p-c)).",
-      "explanation_incorrect": "Wzór Picka dotyczy wielokątów na siatce punktowej, twierdzenie Pitagorasa trójkątów prostokątnych, a wzór Brahmagupty czworokątów wpisanych w okrąg.",
-      "last_verified_at": "2026-06-12T15:21:02.777Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wzór Picka dotyczy wielokątów na siatce punktowej, twierdzenie Pitagorasa trójkątów prostokątnych, a wzór Brahmagupty czworokątów wpisanych w okrąg."
     },
     {
       "subcategory": "Wielcy matematycy",
@@ -1180,7 +1120,7 @@
     },
     {
       "subcategory": "Algebra i analiza",
-      "question": "Jak nazywa się funkcja matematyczna postaci f(x) = a^x, gdzie podstawa 'a' jest dodatnia i różna od jedności, charakteryzująca się gwałtownym wzrostem?",
+      "question": "Jak nazywa się funkcja postaci f(x) = a^x, gdzie podstawa a jest dodatnia i różna od jedności?",
       "options": [
         "Funkcja wykładnicza",
         "Funkcja potęgowa",
@@ -1188,10 +1128,8 @@
         "Funkcja liniowa"
       ],
       "answer": "Funkcja wykładnicza",
-      "explanation_correct": "Funkcja wykładnicza rośnie szybciej niż jakakolwiek funkcja wielomianowa, modelując np. wzrost populacji bakterii czy procent składany.",
-      "explanation_incorrect": "Funkcja potęgowa ma zmienną w podstawie, logarytmiczna to jej odwrotność, a liniowa ma stałe tempo wzrostu.",
-      "last_verified_at": "2026-06-12T15:21:02.777Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dla a > 1 funkcja wykładnicza rośnie, a dla 0 < a < 1 maleje. Modele wykładnicze opisują m.in. procent składany.",
+      "explanation_incorrect": "W funkcji potęgowej zmienna jest w podstawie, funkcja logarytmiczna jest odwrotna do wykładniczej o tej samej podstawie, a liniowa ma stałe tempo zmian."
     },
     {
       "subcategory": "Logika",
@@ -1210,7 +1148,7 @@
     },
     {
       "subcategory": "Sławne twierdzenia",
-      "question": "Który starożytny uczony jako pierwszy przeprowadził dowód nie wprost na to, że zbiór liczb pierwszych jest nieskończony?",
+      "question": "Który starożytny uczony przedstawił w „Elementach” dowód, że liczb pierwszych jest nieskończenie wiele?",
       "options": [
         "Euklides",
         "Pitagoras",
@@ -1218,14 +1156,12 @@
         "Archimedes"
       ],
       "answer": "Euklides",
-      "explanation_correct": "Dowód Euklidesa zakłada skończoność liczb pierwszych, a następnie konstruuje liczbę pierwszą spoza tego zbioru poprzez pomnożenie wszystkich i dodanie jedynki.",
-      "explanation_incorrect": "Pitagoras badał harmonię liczb, Tales geometrię trójkątów, a Archimedes przybliżenie liczby Pi.",
-      "last_verified_at": "2026-06-12T15:21:02.778Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dla dowolnej skończonej listy liczb pierwszych iloczyn tych liczb powiększony o jeden nie dzieli się przez żadną z nich; on sam lub jego dzielnik pierwszy daje nową liczbę pierwszą.",
+      "explanation_incorrect": "Pitagoras badał harmonię liczb, Tales geometrię trójkątów, a Archimedes przybliżenie liczby Pi."
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
-      "question": "Jak nazywa się dyskretny rozkład prawdopodobieństwa wyrażający szansę na zajście określonej liczby zdarzeń w ustalonym przedziale czasu lub przestrzeni, jeśli zdarzenia te zachodzą niezależnie?",
+      "question": "Jaki rozkład opisuje liczbę zdarzeń w ustalonym przedziale czasu w jednorodnym procesie Poissona, w którym zdarzenia zachodzą niezależnie ze stałą średnią intensywnością?",
       "options": [
         "Rozkład Poissona",
         "Rozkład normalny",
@@ -1234,9 +1170,7 @@
       ],
       "answer": "Rozkład Poissona",
       "explanation_correct": "Rozkład Poissona modeluje np. liczbę klientów wchodzących do sklepu w ciągu godziny czy liczbę awarii maszyn.",
-      "explanation_incorrect": "Rozkład normalny jest ciągły, Bernoulliego dotyczy pojedynczej próby o dwóch wynikach, a wykładniczy modeluje czas do zajścia zdarzenia.",
-      "last_verified_at": "2026-06-12T15:21:02.778Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rozkład normalny jest ciągły, Bernoulliego dotyczy pojedynczej próby o dwóch wynikach, a wykładniczy modeluje czas do zajścia zdarzenia."
     },
     {
       "subcategory": "Geometria",
@@ -1248,10 +1182,8 @@
         "Hiperboloida"
       ],
       "answer": "Wstęga Möbiusa",
-      "explanation_correct": "Wstęga Möbiusa ma tylko jedną stronę i jedną krawędź. Jej trójwymiarowym odpowiednikiem bez krawędzi jest butelka Kleina.",
-      "explanation_incorrect": "Butelka Kleina nie ma krawędzi i wymaga 4 wymiarów do bezkolizyjnego zanurzenia, torus to powierzchnia dętki, a hiperboloida to powierzchnia drugiego stopnia.",
-      "last_verified_at": "2026-06-12T15:21:02.778Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wstęga Möbiusa jest powierzchnią jednostronną z jednym brzegiem. Butelka Kleina jest inną nieorientowalną powierzchnią, która nie ma brzegu.",
+      "explanation_incorrect": "Butelka Kleina jest powierzchnią bez brzegu, a do osadzenia bez samoprzecięć wymaga czterech wymiarów; torus to powierzchnia dętki, a hiperboloida to powierzchnia drugiego stopnia."
     },
     {
       "subcategory": "Wielcy matematycy",
@@ -1279,9 +1211,7 @@
       ],
       "answer": "Wyznacznik macierzy (det)",
       "explanation_correct": "Jeśli wyznacznik macierzy kwadratowej jest różny od zera, macierz posiada macierz odwrotną i jest nieosobliwa.",
-      "explanation_incorrect": "Ślad macierzy to suma elementów na głównej przekątnej, rząd macierzy to liczba liniowo niezależnych wierszy, a wektor własny nie zmienia kierunku przy przekształceniu.",
-      "last_verified_at": "2026-06-12T15:21:02.778Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ślad to suma elementów na przekątnej, rząd to maksymalna liczba liniowo niezależnych wierszy, a wektor własny po przekształceniu jest mnożony przez skalar."
     },
     {
       "subcategory": "Paradoksy logiczne",
@@ -1294,9 +1224,7 @@
       ],
       "answer": "Paradoks hazardzisty (błąd hazardzisty)",
       "explanation_correct": "Rzuty monetą są niezależne, zatem wyrzucenie orła dziesięć razy z rzędu nie zwiększa szansy na reszkę w kolejnym rzucie.",
-      "explanation_incorrect": "Paradoks Monty Halla dotyczy zmiany decyzji w teleturnieju, petersburski to paradoks decyzji przy nieskończonej wygranej, a efekt potwierdzenia to błąd selekcji informacji.",
-      "last_verified_at": "2026-06-12T15:21:02.778Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Paradoks Monty Halla dotyczy zmiany decyzji, petersburski gry o nieskończonej wartości oczekiwanej, a efekt potwierdzenia to selektywne traktowanie informacji."
     },
     {
       "subcategory": "Geometria",
@@ -1384,28 +1312,24 @@
       ],
       "answer": "Twierdzenie cosinusów (twierdzenie Carnota)",
       "explanation_correct": "Twierdzenie cosinusów zapisuje się jako c^2 = a^2 + b^2 - 2ab*cos(C). Dla kąta prostego cos(90) = 0 i otrzymujemy twierdzenie Pitagorasa.",
-      "explanation_incorrect": "Twierdzenie sinusów opisuje stosunek boku do sinusa kąta naprzeciw ległego, Talesa rzuty równoległe, a Cevy przecinanie linii w trójkącie.",
-      "last_verified_at": "2026-06-12T15:21:02.779Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Twierdzenie sinusów opisuje stosunek boku do sinusa kąta naprzeciwległego, Talesa proporcje odcinków, a Cevy warunek współpękowości prostych w trójkącie."
     },
     {
       "subcategory": "Kombinatoryka i prawdopodobieństwo",
       "question": "Jak nazywa się współczynnik we wzorze dwumianowym Newtona określający liczbę sposobów wyboru k-elementowego podzbioru z n-elementowego zbioru, bez uwzględniania kolejności?",
       "options": [
-        "Symbol Newtona (kombinacja bez powtórzeń)",
+        "Symbol Newtona",
         "Permutacja",
         "Wariacja z powtórzeniami",
         "Wariacja bez powtórzeń"
       ],
-      "answer": "Symbol Newtona (kombinacja bez powtórzeń)",
-      "explanation_correct": "Symbol Newtona oznacza się jako n nad k i wyraża wzorem n! / (k!(n-k)!).",
-      "explanation_incorrect": "Permutacja porządkuje n elementów, wariacje wybierają elementy z uwzględnieniem ich kolejności.",
-      "last_verified_at": "2026-06-12T15:21:02.779Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Symbol Newtona",
+      "explanation_correct": "Symbol Newtona n nad k wyraża liczbę k-elementowych podzbiorów n-elementowego zbioru: n! / (k!(n-k)!).",
+      "explanation_incorrect": "Permutacja porządkuje n elementów, wariacje wybierają elementy z uwzględnieniem ich kolejności."
     },
     {
       "subcategory": "Sławne twierdzenia",
-      "question": "Które twierdzenie analizy matematycznej mówi, że jeśli funkcja jest ciągła na przedziale domkniętym, to przyjmuje w tym przedziale swoje wartości ekstremalne (maksimum i minimum)?",
+      "question": "Które twierdzenie mówi, że funkcja rzeczywista ciągła na domkniętym i ograniczonym przedziale osiąga na nim maksimum i minimum?",
       "options": [
         "Twierdzenie Weierstrassa",
         "Twierdzenie Rolle'a",
@@ -1414,9 +1338,7 @@
       ],
       "answer": "Twierdzenie Weierstrassa",
       "explanation_correct": "Twierdzenie Weierstrassa o kresach ma kluczowe znaczenie w problemach optymalizacyjnych analizy matematycznej.",
-      "explanation_incorrect": "Twierdzenie Rolle'a mówi o zerowaniu pochodnej, Darboux o przyjmowaniu wartości pośrednich, a Lagrange'a o wartości średniej.",
-      "last_verified_at": "2026-06-12T15:21:02.780Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Twierdzenie Rolle'a mówi o zerowaniu pochodnej, Darboux o przyjmowaniu wartości pośrednich, a Lagrange'a o wartości średniej."
     },
     {
       "subcategory": "Paradoksy logiczne",
@@ -1428,10 +1350,8 @@
         "Paradoks sterty"
       ],
       "answer": "Paradoks czarnego kruka (paradoks Hempla)",
-      "explanation_correct": "Hempel wykazał, że logicznie równoważne zdanie 'Wszystko co nie jest czarne, nie jest krukiem' jest potwierdzane przez każdy nieczarny obiekt niebędący krukiem (np. zielone jabłko).",
-      "explanation_incorrect": "Paradoks Newcomba dotyczy teorii decyzji i wolnej woli, krokodyla to klasyczny dylemat logiczny, a sterty to paradoks nieostrości pojęć.",
-      "last_verified_at": "2026-06-12T15:21:02.780Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zdanie „Wszystkie kruki są czarne” jest równoważne zdaniu „Wszystko, co nie jest czarne, nie jest krukiem”. Paradoks pyta, czy obserwacja zielonego jabłka dostarcza potwierdzenia tej hipotezy.",
+      "explanation_incorrect": "Paradoks Newcomba dotyczy teorii decyzji i wolnej woli, krokodyla to klasyczny dylemat logiczny, a sterty to paradoks nieostrości pojęć."
     },
     {
       "subcategory": "Algebra i analiza",
@@ -1439,14 +1359,12 @@
       "options": [
         "Macierz jednostkowa",
         "Macierz zerowa",
-        "Macierz diagonalna",
-        "Macierz symetryczna"
+        "Macierz diagonalna z samymi dwójkami na przekątnej",
+        "Macierz złożona z samych jedynek"
       ],
       "answer": "Macierz jednostkowa",
-      "explanation_correct": "Mnożenie dowolnej macierzy A przez macierz jednostkową I o odpowiednich wymiarach daje w wyniku macierz A (AI = IA = A).",
-      "explanation_incorrect": "Macierz zerowa zawiera same zera, diagonalna ma niezerowe wartości tylko na przekątnej (niekoniecznie jedynki), a symetryczna jest równa swojej macierzy transponowanej.",
-      "last_verified_at": "2026-06-12T15:21:02.780Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mnożenie macierzy przez macierze jednostkowe o odpowiednich wymiarach z lewej lub prawej strony daje tę samą macierz.",
+      "explanation_incorrect": "Macierz zerowa ma same zera, a dwie pozostałe macierze na ogół nie są elementem neutralnym mnożenia."
     },
     {
       "subcategory": "Wielcy matematycy",

@@ -55,7 +55,7 @@
     },
     {
       "subcategory": "Cosmology",
-      "question": "What is the prevailing scientific theory about the origin and evolution of the universe, stating that it expanded from a singularity about 13.8 billion years ago?",
+      "question": "What is the prevailing scientific model describing the evolution of the universe from an early hot, dense state about 13.8 billion years ago?",
       "options": [
         "Big Bang",
         "Steady State theory",
@@ -93,7 +93,7 @@
         "Roger Penrose"
       ],
       "answer": "Stephen Hawking",
-      "explanation_correct": "Hawking proved theoretically that black holes emit radiation (Hawking radiation) and studied cosmological singularities.",
+      "explanation_correct": "Hawking theoretically predicted that black holes emit radiation (Hawking radiation) and studied cosmological singularities.",
       "explanation_incorrect": "Feynman researched quantum electrodynamics, Sagan popularized astronomy, and Penrose is a mathematical physicist who collaborated with Hawking.",
       "last_verified_at": "2026-06-12T14:46:06.152Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -228,7 +228,7 @@
         "Maxwell's demon"
       ],
       "answer": "Schrödinger's cat",
-      "explanation_correct": "The experiment presents a cat in a sealed box that, due to the superposition of a radioactive atom, is simultaneously alive and dead until the box is opened.",
+      "explanation_correct": "The thought experiment links a cat to a quantum event and illustrates the difficulty of applying quantum superposition and measurement to macroscopic objects.",
       "explanation_incorrect": "The double-slit experiment demonstrates wave-particle duality, the EPR paradox concerns entanglement, and Maxwell's demon challenges the second law of thermodynamics.",
       "last_verified_at": "2026-06-12T14:46:06.153Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -250,7 +250,7 @@
     },
     {
       "subcategory": "Cosmology",
-      "question": "What is the boundary of a black hole beyond which the escape velocity exceeds the speed of light, preventing anything from escaping?",
+      "question": "What is the boundary of a black hole beyond which signals cannot escape to distant observers?",
       "options": [
         "Event horizon",
         "Singularity",
@@ -258,8 +258,8 @@
         "Accretion disk"
       ],
       "answer": "Event horizon",
-      "explanation_correct": "The event horizon is a one-way boundary. Anything that crosses it is inevitably drawn into the singularity.",
-      "explanation_incorrect": "The singularity is the point of infinite density at the center, the ergosphere is a rotating region outside the event horizon of a Kerr black hole, and the accretion disk is orbiting gas outside.",
+      "explanation_correct": "The event horizon is the boundary separating events that can send signals to distant observers from those that cannot.",
+      "explanation_incorrect": "The singularity is where classical general relativity breaks down; the ergosphere lies outside the horizon of a rotating black hole, and an accretion disk is orbiting material.",
       "last_verified_at": "2026-06-12T14:46:06.154Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -363,7 +363,7 @@
         "Photoelectric effect"
       ],
       "answer": "Quantum entanglement",
-      "explanation_correct": "Quantum entanglement means measuring the state of one particle immediately determines the state of its entangled partner, regardless of distance.",
+      "explanation_correct": "Entangled particles can show correlations between measurement outcomes that cannot be explained by local classical models. The correlations do not allow faster-than-light communication.",
       "explanation_incorrect": "Superposition is state overlapping, tunneling is crossing a barrier, and the photoelectric effect is electron emission under light.",
       "last_verified_at": "2026-06-12T14:46:06.155Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -409,7 +409,7 @@
       ],
       "answer": "Perpetual motion machine of the first kind",
       "explanation_correct": "A perpetual motion machine of the first kind would create energy from nothing, violating the conservation of energy.",
-      "explanation_incorrect": "A machine of the second kind would convert heat to work with 100% efficiency (violating the second law), Stirling engine is real, and Maxwell's demon is a thought experiment.",
+      "explanation_incorrect": "A machine of the second kind would convert heat from a single thermal reservoir entirely into work in a cycle, violating the second law. A Stirling engine is real; Maxwell’s demon is a thought experiment.",
       "last_verified_at": "2026-06-12T14:46:06.156Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -589,7 +589,7 @@
       ],
       "answer": "Graviton",
       "explanation_correct": "Gravitons are predicted to be massless bosons with spin 2 to recover Newton's gravity laws in quantum fields.",
-      "explanation_incorrect": "The Higgs boson gives mass, gluons mediate the strong force, and photinos are supersymmetric partners of photons.",
+      "explanation_incorrect": "The Higgs boson is an excitation of the Higgs field, gluons mediate the strong force, and photinos are hypothetical supersymmetric partners of photons.",
       "last_verified_at": "2026-06-12T14:46:06.159Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -618,7 +618,7 @@
         "Planck epoch"
       ],
       "answer": "Big Bang nucleosynthesis",
-      "explanation_correct": "Big Bang nucleosynthesis (BBN) set the chemical composition of the early universe (approx. 75% hydrogen, 25% helium, trace lithium).",
+      "explanation_correct": "Big Bang nucleosynthesis produced mostly hydrogen and helium nuclei, with trace amounts of other light nuclei. Roughly 75% hydrogen and 25% helium refers to mass, not atom counts.",
       "explanation_incorrect": "Recombination occurred 380,000 years later forming neutral atoms, inflation is the rapid expansion phase, and the Planck epoch is the earliest era.",
       "last_verified_at": "2026-06-12T14:46:06.159Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -723,7 +723,7 @@
         "Beltrami horizon"
       ],
       "answer": "Lense-Thirring effect (frame-dragging)",
-      "explanation_correct": "Frame-dragging was experimentally confirmed with high precision by the Gravity Probe B satellite mission.",
+      "explanation_correct": "Gravity Probe B measured the frame-dragging effect, with substantially less precision than its measurement of the geodetic effect.",
       "explanation_incorrect": "Geodetic precession is spin precession due to static mass curvature, gravitational time dilation slows clocks, and Beltrami horizon is a math term.",
       "last_verified_at": "2026-06-12T14:46:06.161Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -738,7 +738,7 @@
         "Electrons and photons"
       ],
       "answer": "Fermions and bosons",
-      "explanation_correct": "Fermions have half-integer spin (like electrons, quarks) and obey the Pauli principle, while bosons have integer spin (like photons, gluons) and carry forces.",
+      "explanation_correct": "Fermions have half-integer spin and obey the Pauli principle. Bosons have integer spin; gauge bosons mediate forces, while the Higgs boson is a scalar boson.",
       "explanation_incorrect": "Hadrons are composed of quarks, leptons do not feel the strong force, and quarks/gluons are subcategories.",
       "last_verified_at": "2026-06-12T14:46:09.196Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -865,7 +865,7 @@
     },
     {
       "subcategory": "Relativity",
-      "question": "What gravitational deflection of starlight, observed during the 1919 solar eclipse by Arthur Eddington's expedition, provided the first experimental proof of General Relativity?",
+      "question": "What effect, observed during the 1919 solar eclipse by expeditions including Arthur Eddington's, provided early experimental evidence for General Relativity?",
       "options": [
         "Bending of light in a gravitational field",
         "Quantum lensing",
@@ -910,7 +910,7 @@
     },
     {
       "subcategory": "Cosmology",
-      "question": "Which state of the universe is characterized by maximum entropy and uniform temperature where all physical processes cease?",
+      "question": "What hypothetical end state of the universe is associated with near-maximum entropy and no remaining capacity for useful work?",
       "options": [
         "Heat death of the universe",
         "Big Crunch",
@@ -918,7 +918,7 @@
         "Big Bounce"
       ],
       "answer": "Heat death of the universe",
-      "explanation_correct": "Heat death is a consequence of the second law of thermodynamics, where the universe reaches maximum entropy and no useful work can be performed.",
+      "explanation_correct": "In a heat-death scenario, available energy differences are exhausted, so sustained useful work is no longer possible; microscopic motion need not cease.",
       "explanation_incorrect": "The Big Crunch is a gravitational collapse, the Big Rip is the tearing of spacetime by phantom energy, and the Big Bounce suggests a cyclic expansion-contraction model.",
       "last_verified_at": "2026-06-12T14:47:45.575Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1038,7 +1038,7 @@
         "Specific heat"
       ],
       "answer": "Enthalpy",
-      "explanation_correct": "Enthalpy measures the total heat content of a system at constant pressure, widely used in physical chemistry.",
+      "explanation_correct": "Enthalpy is defined as H = U + pV. At constant pressure, its change equals the heat transferred when only pressure-volume work is done.",
       "explanation_incorrect": "Entropy measures disorder, Gibbs free energy determines process spontaneity, and specific heat is the energy required to raise a unit mass temperature.",
       "last_verified_at": "2026-06-12T14:46:09.201Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1188,7 +1188,7 @@
         "Coriolis force"
       ],
       "answer": "Lorentz force",
-      "explanation_correct": "The Lorentz force (F = q(E + v x B)) acts perpendicular to both the particle's velocity and the magnetic field lines.",
+      "explanation_correct": "The magnetic part of the Lorentz force, q(v × B), is perpendicular to both velocity and magnetic field. The full force q(E + v × B) also includes any electric force.",
       "explanation_incorrect": "The Coulomb force acts on stationary charges, the Ampere force acts on current-carrying wires in magnetic fields, and the Coriolis force is an inertial force in rotating frames.",
       "last_verified_at": "2026-06-12T14:46:09.203Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1203,7 +1203,7 @@
         "Photoelectric effect"
       ],
       "answer": "Total internal reflection",
-      "explanation_correct": "Total internal reflection is the principle behind optical fibers, allowing lossless transmission of light through the fiber core.",
+      "explanation_correct": "Total internal reflection helps confine light within an optical fiber, although real fibers still have transmission losses.",
       "explanation_incorrect": "Dispersion splits light into colors, polarization confines wave vibrations, and the photoelectric effect is the emission of electrons under light.",
       "last_verified_at": "2026-06-12T14:46:09.204Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1293,7 +1293,7 @@
         "Richard Feynman"
       ],
       "answer": "Paul Dirac",
-      "explanation_correct": "The Dirac equation combined quantum mechanics with Special Relativity, leading to the discovery of spin and antimatter.",
+      "explanation_correct": "Dirac's equation combined quantum mechanics with special relativity, incorporated electron spin, and led to the prediction of the positron.",
       "explanation_incorrect": "Heisenberg and Schrödinger formulated non-relativistic quantum mechanics, and Feynman developed QED in the 1940s.",
       "last_verified_at": "2026-06-12T14:46:09.205Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1303,7 +1303,7 @@
       "question": "What physical phenomenon is characterized by the complete disappearance of electrical resistance in certain materials cooled below a critical temperature?",
       "options": [
         "Superconductivity",
-        "Semiconducitivity",
+        "Semiconductivity",
         "Dielectricity",
         "Ferromagnetism"
       ],
@@ -1380,26 +1380,26 @@
         "Pulsar",
         "Quasar",
         "Red dwarf",
-        "Magnetar"
+        "White dwarf"
       ],
       "answer": "Pulsar",
       "explanation_correct": "Pulsars were discovered in 1967 by Jocelyn Bell Burnell, acting as highly accurate cosmic beacons due to their precise rotation rates.",
-      "explanation_incorrect": "Quasars are active nuclei of distant galaxies, red dwarfs are small main-sequence stars, and magnetars are neutron stars with extreme magnetic fields lacking the pulsar beacon beam.",
+      "explanation_incorrect": "Quasars are active galactic nuclei, red dwarfs are small main-sequence stars, and white dwarfs are stellar remnants supported mainly by electron degeneracy pressure. Some magnetars can also behave as pulsars.",
       "last_verified_at": "2026-06-12T14:46:09.206Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Thermodynamics",
-      "question": "What is the amount of heat energy absorbed or released per unit mass of a substance during a constant-temperature phase change (such as melting or boiling)?",
+      "question": "What is the heat absorbed or released per unit mass during a constant-temperature phase change, such as melting or boiling?",
       "options": [
-        "Latent heat",
-        "Specific heat",
+        "Specific latent heat",
+        "Specific heat capacity",
         "Heat capacity",
         "Enthalpy of formation"
       ],
-      "answer": "Latent heat",
-      "explanation_correct": "During a phase transition, latent heat energy goes into breaking intermolecular bonds rather than increasing the system's temperature.",
-      "explanation_incorrect": "Specific heat is the energy required to change temperature by one degree, heat capacity is body-wide, and enthalpy of formation relates to chemical synthesis.",
+      "answer": "Specific latent heat",
+      "explanation_correct": "Specific latent heat is the heat transferred per unit mass during a phase change. The energy changes molecular arrangements and interactions without a temperature rise during the transition.",
+      "explanation_incorrect": "Specific heat capacity relates heat transfer per unit mass to a temperature change, heat capacity refers to the whole body, and enthalpy of formation relates to formation of a compound.",
       "last_verified_at": "2026-06-12T14:46:09.206Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -1428,7 +1428,7 @@
         "Lenz's law"
       ],
       "answer": "Ohm's law",
-      "explanation_correct": "Ohm's law (I = U/R) defines electrical resistance (R) as the constant of proportionality.",
+      "explanation_correct": "Ohm's law is V = IR, where resistance R is the constant ratio V/I for an ohmic conductor under constant conditions.",
       "explanation_incorrect": "Kirchhoff's laws describe current and voltage balances in circuits, Joule's law governs heat generation, and Lenz's law dictates induction current direction.",
       "last_verified_at": "2026-06-12T14:46:09.207Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1503,7 +1503,7 @@
         "Deceleration parameter"
       ],
       "answer": "Cosmological constant",
-      "explanation_correct": "Einstein called the cosmological constant (denoted by Lambda) his 'biggest blunder', but modern discoveries of accelerating expansion reinstated it as vacuum energy density.",
+      "explanation_correct": "Einstein introduced the cosmological constant (Lambda) in a static-universe model. Today it is a leading mathematical description of dark energy in the standard cosmological model.",
       "explanation_incorrect": "The Hubble constant measures current expansion rates, the gravitational constant defines gravity strength, and the deceleration parameter describes change in expansion speed.",
       "last_verified_at": "2026-06-12T14:46:09.208Z",
       "verifying_model": "google/gemini-3.1-flash-lite"

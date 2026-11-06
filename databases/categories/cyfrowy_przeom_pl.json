@@ -25,18 +25,16 @@
     },
     {
       "subcategory": "Kryptografia",
-      "question": "Która niemiecka maszyna wirnikowa służyła do szyfrowania wiadomości w trakcie II wojny światowej?",
+      "question": "Która niemiecka maszyna wirnikowa, używana podczas II wojny światowej, została wcześniej rozpracowana przez polskich kryptologów?",
       "options": [
         "Enigma",
         "Colossus",
-        "Lorenz",
-        "Sigaba"
+        "Typex",
+        "SIGABA"
       ],
       "answer": "Enigma",
-      "explanation_correct": "Enigma była przenośną maszyną elektromechaniczną, której kod został złamany najpierw przez polskich matematyków, a później brytyjskich kryptologów.",
-      "explanation_incorrect": "Colossus był brytyjskim komputerem, Lorenz był bardziej skomplikowaną maszyną dalekopisową, a Sigaba to system amerykański.",
-      "last_verified_at": "2026-06-12T14:59:34.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Polscy kryptolodzy przed wojną rozpracowali wojskową Enigmę; podczas wojny ich prace pomogły dalszej kryptoanalizie w Wielkiej Brytanii.",
+      "explanation_incorrect": "Colossus był brytyjskim komputerem, Typex brytyjską maszyną szyfrującą, a SIGABA amerykańską. Niemcy używali też innych maszyn, m.in. Lorenza."
     },
     {
       "subcategory": "Sieci Komputerowe",
@@ -48,10 +46,8 @@
         "MILNET"
       ],
       "answer": "ARPANET",
-      "explanation_correct": "ARPANET była pierwszą siecią opartą na komutacji pakietów, wdrożoną w 1969 roku.",
-      "explanation_incorrect": "ALOHANET była siecią radiową, CYCLADES francuską siecią badawczą, a MILNET wojskowym odgałęzieniem ARPANETU.",
-      "last_verified_at": "2026-06-12T14:59:34.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ARPANET, uruchomiona w 1969 roku, była ważnym poprzednikiem Internetu i jedną z wczesnych sieci komutacji pakietów; nie była jedyną pierwszą siecią tego rodzaju.",
+      "explanation_incorrect": "ALOHANET była siecią radiową, CYCLADES francuską siecią badawczą, a MILNET wojskowym odgałęzieniem ARPANETU."
     },
     {
       "subcategory": "Sztuczna Inteligencja",
@@ -153,10 +149,8 @@
         "Opera"
       ],
       "answer": "Mosaic",
-      "explanation_correct": "Mosaic, opracowany przez Marca Andreessena, przyczynił się do boomu na sieć WWW w 1993 roku.",
-      "explanation_incorrect": "Netscape był komercyjnym następcą Mosaic, a Internet Explorer został wydany przez Microsoft dwa lata później.",
-      "last_verified_at": "2026-06-12T14:59:34.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mosaic opracowano w NCSA, a wśród jego twórców byli Marc Andreessen i Eric Bina. Przeglądarka pomogła spopularyzować WWW.",
+      "explanation_incorrect": "Netscape był komercyjnym następcą Mosaic, a Internet Explorer został wydany przez Microsoft dwa lata później."
     },
     {
       "subcategory": "Hardware",
@@ -199,9 +193,7 @@
       ],
       "answer": "Morris worm",
       "explanation_correct": "Stworzony przez studenta Roberta Morrisa robak wykorzystywał luki w systemach Unix do samopowielania się.",
-      "explanation_incorrect": "Creeper był eksperymentalnym wirusem z lat 70., ILOVEYOU atakiem mailowym z 2000 roku, a Stuxnet celował w infrastrukturę przemysłową.",
-      "last_verified_at": "2026-06-12T14:59:34.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Creeper był wcześniejszym programem przemieszczającym się w sieci; ILOVEYOU rozprzestrzeniał się pocztą elektroniczną w 2000 roku, a Stuxnet celował w systemy przemysłowe."
     },
     {
       "subcategory": "Kryptowaluty",
@@ -280,7 +272,7 @@
     },
     {
       "subcategory": "Protokoły sieciowe",
-      "question": "Który protokół warstwy transportowej zapewnia niezawodne i uporządkowane dostarczanie pakietów danych w internecie?",
+      "question": "Który protokół warstwy transportowej udostępnia aplikacjom niezawodny, uporządkowany strumień bajtów?",
       "options": [
         "UDP",
         "TCP",
@@ -288,10 +280,8 @@
         "HTTP"
       ],
       "answer": "TCP",
-      "explanation_correct": "TCP (Transmission Control Protocol) nawiązuje połączenie i dba o retransmisję zgubionych danych.",
-      "explanation_incorrect": "UDP jest protokołem bezpołączeniowym, IP działa w warstwie sieciowej, a HTTP to protokół warstwy aplikacji.",
-      "last_verified_at": "2026-06-12T14:59:34.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "TCP wykrywa utratę danych i stosuje retransmisję, udostępniając uporządkowany strumień bajtów.",
+      "explanation_incorrect": "UDP jest protokołem bezpołączeniowym, IP działa w warstwie sieciowej, a HTTP to protokół warstwy aplikacji."
     },
     {
       "subcategory": "Języki programowania",
@@ -333,10 +323,8 @@
         "SHA-256"
       ],
       "answer": "RSA",
-      "explanation_correct": "RSA (Rivest-Shamir-Adleman) to pierwszy algorytm umożliwiający bezpieczne szyfrowanie z kluczem publicznym.",
-      "explanation_incorrect": "AES i DES to algorytmy symetryczne, natomiast SHA-256 to funkcja skrótu.",
-      "last_verified_at": "2026-06-12T14:59:34.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "RSA to jeden z wczesnych i nadal znanych algorytmów kryptografii z kluczem publicznym; służy m.in. do szyfrowania i podpisów.",
+      "explanation_incorrect": "AES i DES to algorytmy symetryczne, natomiast SHA-256 to funkcja skrótu."
     },
     {
       "subcategory": "Interfejs użytkownika",
@@ -385,7 +373,7 @@
     },
     {
       "subcategory": "Historia gier",
-      "question": "W jakim tytule na konsolę Atari 2600 pojawił się pierwszy znany w historii gier wideo 'easter egg'?",
+      "question": "W której grze na Atari 2600 Warren Robinett ukrył swoje nazwisko w sekretnym pokoju?",
       "options": [
         "Pong",
         "Pac-Man",
@@ -393,10 +381,8 @@
         "Asteroids"
       ],
       "answer": "Adventure",
-      "explanation_correct": "Programista Warren Robinett ukrył swoje nazwisko w tajnym pokoju, tworząc pierwszą taką niespodziankę.",
-      "explanation_incorrect": "Pozostałe tytuły to klasyki arcade, ale nie posiadały tak wczesnej formy ukrytego podpisu twórcy.",
-      "last_verified_at": "2026-06-12T14:59:34.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W grze Adventure Robinett umieścił ukryty podpis, będący jednym z najbardziej znanych wczesnych easter eggów.",
+      "explanation_incorrect": "Pozostałe tytuły to klasyki arcade, ale nie posiadały tak wczesnej formy ukrytego podpisu twórcy."
     },
     {
       "subcategory": "Sieci bezprzewodowe",
@@ -490,18 +476,16 @@
     },
     {
       "subcategory": "Sieci komputerowe",
-      "question": "Który protokół służy do przesyłania plików między klientem a serwerem w architekturze TCP/IP?",
+      "question": "Który protokół zaprojektowano specjalnie do transferu plików między klientem a serwerem?",
       "options": [
-        "HTTP",
+        "DHCP",
         "SMTP",
         "FTP",
         "SNMP"
       ],
       "answer": "FTP",
       "explanation_correct": "FTP (File Transfer Protocol) to klasyczny protokół dedykowany wymianie plików w sieci.",
-      "explanation_incorrect": "HTTP służy do przesyłania stron WWW, SMTP do poczty e-mail, a SNMP do zarządzania siecią.",
-      "last_verified_at": "2026-06-12T14:59:34.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "DHCP przydziela konfigurację sieciową, SMTP służy do przesyłania poczty, a SNMP do zarządzania. Pliki można przesyłać również innymi protokołami, m.in. HTTP."
     },
     {
       "subcategory": "Przeglądarki internetowe",
@@ -610,18 +594,16 @@
     },
     {
       "subcategory": "Pamięci półprzewodnikowe",
-      "question": "Który rodzaj pamięci operacyjnej charakteryzuje się synchroniczną pracą z częstotliwością magistrali systemowej?",
+      "question": "Który rodzaj pamięci DRAM synchronizuje swoje operacje z sygnałem zegarowym?",
       "options": [
         "SRAM",
         "SDRAM",
-        "VRAM",
-        "DDR2"
+        "EEPROM",
+        "Pamięć flash"
       ],
       "answer": "SDRAM",
-      "explanation_correct": "SDRAM (Synchronous Dynamic Random Access Memory) synchronizuje operacje z zegarem procesora, co wyeliminowało czasy oczekiwania typowe dla starszych pamięci DRAM.",
-      "explanation_incorrect": "SRAM to pamięć statyczna, VRAM służy do przechowywania danych obrazu, a DDR2 jest tylko jedną z generacji rozwinięcia standardu SDRAM.",
-      "last_verified_at": "2026-06-12T14:59:34.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SDRAM to synchroniczna pamięć DRAM. Rodzina obejmuje także późniejsze generacje DDR, w tym DDR2.",
+      "explanation_incorrect": "SRAM, EEPROM i flash to inne rodzaje pamięci; DDR2 również należy do rodziny SDRAM."
     },
     {
       "subcategory": "Wyszukiwarki internetowe",
@@ -723,10 +705,8 @@
         "tvOS"
       ],
       "answer": "macOS",
-      "explanation_correct": "macOS (dawniej Mac OS X) to rodzina systemów operacyjnych opartych na jądrze Unix, dedykowana komputerom Macintosh.",
-      "explanation_incorrect": "iOS to system dla telefonów iPhone, natomiast watchOS oraz tvOS obsługują zegarki i przystawki telewizyjne.",
-      "last_verified_at": "2026-06-12T14:59:45.292Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "macOS wywodzi się z systemów uniksowych i korzysta z jądra XNU, łączącego m.in. elementy Mach i BSD.",
+      "explanation_incorrect": "iOS to system dla telefonów iPhone, natomiast watchOS oraz tvOS obsługują zegarki i przystawki telewizyjne."
     },
     {
       "subcategory": "Telekomunikacja",
@@ -790,18 +770,16 @@
     },
     {
       "subcategory": "Grafika komputerowa",
-      "question": "Który popularny format zapisu obrazów wykorzystuje stratną metodę kompresji, optymalną dla fotografii cyfrowej?",
+      "question": "Który format obrazu jest szczególnie kojarzony ze stratną kompresją fotografii?",
       "options": [
         "PNG",
         "BMP",
         "JPEG",
-        "TIFF"
+        "WAV"
       ],
       "answer": "JPEG",
-      "explanation_correct": "JPEG redukuje rozmiar pliku poprzez usuwanie informacji mniej istotnych dla ludzkiego oka, co czyni go idealnym do zdjęć w internecie.",
-      "explanation_incorrect": "PNG i BMP to formaty bezstratne, natomiast TIFF jest często stosowany w profesjonalnym druku ze względu na precyzję szczegółów.",
-      "last_verified_at": "2026-06-12T14:59:45.292Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "JPEG jest powszechnie stosowany do stratnej kompresji fotografii; stopień kompresji wpływa na jakość.",
+      "explanation_incorrect": "PNG zwykle stosuje kompresję bezstratną, BMP to format bitmapowy, a WAV jest kontenerem audio. TIFF może obsługiwać różne metody kompresji."
     },
     {
       "subcategory": "Przeglądarki internetowe",
@@ -820,7 +798,7 @@
     },
     {
       "subcategory": "Kryptografia",
-      "question": "W jaki sposób określa się technologię zapisu informacji w formie łańcucha bloków, która gwarantuje niezmienność danych bez centralnego nadzorcy?",
+      "question": "Jak nazywa się technologia rejestru, w której bloki danych są ze sobą kryptograficznie powiązane?",
       "options": [
         "Cloud Computing",
         "Blockchain",
@@ -828,10 +806,8 @@
         "Edge Computing"
       ],
       "answer": "Blockchain",
-      "explanation_correct": "Blockchain to zdecentralizowana baza danych (rejestr), w której każda kolejna transakcja jest trwale powiązana z poprzednią przy użyciu kryptografii.",
-      "explanation_incorrect": "Cloud Computing dotyczy usług w chmurze, a Big Data skupia się na analizie olbrzymich zbiorów informacji.",
-      "last_verified_at": "2026-06-12T14:59:45.292Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Blockchain łączy bloki za pomocą kryptograficznych skrótów, co utrudnia późniejsze zmiany i pomaga je wykryć. Nie gwarantuje bezwzględnej niezmienności danych.",
+      "explanation_incorrect": "Cloud Computing dotyczy usług w chmurze, a Big Data skupia się na analizie olbrzymich zbiorów informacji."
     },
     {
       "subcategory": "Języki programowania",
@@ -865,7 +841,7 @@
     },
     {
       "subcategory": "Elektronika",
-      "question": "Jak nazywa się podstawowy element elektroniczny wykonany z materiałów półprzewodnikowych, stanowiący bazę budowy współczesnych mikroprocesorów?",
+      "question": "Który element półprzewodnikowy pełni rolę przełącznika lub wzmacniacza i jest podstawowym składnikiem współczesnych procesorów?",
       "options": [
         "Dioda",
         "Rezystor",
@@ -874,24 +850,20 @@
       ],
       "answer": "Tranzystor",
       "explanation_correct": "Tranzystor działa jako elektroniczny przełącznik lub wzmacniacz, a jego miniaturyzacja pozwala na umieszczenie miliardów sztuk w jednym układzie scalonym.",
-      "explanation_incorrect": "Rezystory i kondensatory są elementami pasywnymi, a diody pozwalają na przepływ prądu tylko w jednym kierunku.",
-      "last_verified_at": "2026-06-12T14:59:45.292Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rezystory i kondensatory są elementami pasywnymi, a diody pozwalają na przepływ prądu tylko w jednym kierunku."
     },
     {
       "subcategory": "Sieci bezprzewodowe",
-      "question": "Który standard bezprzewodowej transmisji danych służy do nawiązywania połączeń krótkiego zasięgu (do 100m) między telefonami i akcesoriami?",
+      "question": "Który standard radiowy krótkiego zasięgu służy m.in. do łączenia telefonów z bezprzewodowymi słuchawkami i używa przeskoków częstotliwości?",
       "options": [
-        "Wi-Fi",
-        "Infared (IrDA)",
+        "Ethernet",
+        "Podczerwień IrDA",
         "Bluetooth",
         "NFC"
       ],
       "answer": "Bluetooth",
       "explanation_correct": "Standard Bluetooth został opracowany w celach komunikacji głosowej i przesyłania danych między urządzaniami mobilnymi bez użycia kabli.",
-      "explanation_incorrect": "Wi-Fi służy głównie do budowy lokalnych sieci internetowych, a NFC działa na dystansie zaledwie kilku centymetrów.",
-      "last_verified_at": "2026-06-12T14:59:45.292Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ethernet jest zwykle przewodowy, IrDA korzysta z podczerwieni, a NFC z pola bliskiego. Wi-Fi również może łączyć urządzenia na niewielkie odległości."
     },
     {
       "subcategory": "Telefonia komórkowa",
@@ -948,14 +920,12 @@
         "Egzojądro"
       ],
       "answer": "Monolityczne jądro Linux",
-      "explanation_correct": "Linux jest przykładem jądra monolitycznego, co oznacza, że wszystkie usługi systemu operacyjnego działają w przestrzeni jądra.",
-      "explanation_incorrect": "Mikrojądra (np. Mach) oraz jądra hybrydowe (np. Windows NT) stosują odmienne architektury separacji usług.",
-      "last_verified_at": "2026-06-12T14:59:45.292Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Linux jest jądrem monolitycznym z obsługą modułów: wiele funkcji systemu działa w jądrze, ale liczne usługi działają w przestrzeni użytkownika.",
+      "explanation_incorrect": "Mikrojądra (np. Mach) oraz jądra hybrydowe (np. Windows NT) stosują odmienne architektury separacji usług."
     },
     {
       "subcategory": "Telekomunikacja",
-      "question": "Która rodzina kodeków audio, rozwijana obecnie przez firmę Qualcomm, umożliwia przesył dźwięku o wysokiej rozdzielczości przez Bluetooth?",
+      "question": "Która rodzina kodeków Bluetooth, obejmująca warianty aptX HD i aptX Adaptive, jest związana z firmą Qualcomm?",
       "options": [
         "aptX",
         "Vorbis",
@@ -963,10 +933,8 @@
         "MIDI"
       ],
       "answer": "aptX",
-      "explanation_correct": "AptX (np. HD lub Adaptive) to rodzina kodeków umożliwiająca przesyłanie dźwięku o wysokiej jakości przy niskich opóźnieniach.",
-      "explanation_incorrect": "Vorbis i FLAC to formaty plików/kompresji, a MIDI to standard zapisu informacji o dźwiękach, a nie strumieniowego audio.",
-      "last_verified_at": "2026-06-12T15:01:44.016Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "aptX obejmuje m.in. warianty HD i Adaptive stosowane do przesyłania dźwięku przez Bluetooth.",
+      "explanation_incorrect": "FLAC i Vorbis to kodeki kompresji audio, a MIDI opisuje zdarzenia muzyczne; nie są nazwą rodziny aptX."
     },
     {
       "subcategory": "Oprogramowanie",
@@ -1008,10 +976,8 @@
         "TIFF"
       ],
       "answer": "GIF",
-      "explanation_correct": "Twórca formatu uważa, że powinno się go wymawiać jako 'jif', choć większość użytkowników mówi 'gif'.",
-      "explanation_incorrect": "PNG oferuje lepszą przezroczystość, ale nie obsługuje natywnie animacji.",
-      "last_verified_at": "2026-06-12T14:59:45.293Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Twórca formatu Steve Wilhite preferował wymowę „jif”; w użyciu występuje też wymowa z twardym g.",
+      "explanation_incorrect": "APNG jest animowanym rozszerzeniem PNG; PNG, JPEG i TIFF nie są formatem GIF wskazanym w pytaniu."
     },
     {
       "subcategory": "Języki programowania",
@@ -1068,10 +1034,8 @@
         "Trojan"
       ],
       "answer": "Ransomware",
-      "explanation_correct": "Ransomware najczęściej wykorzystuje asymetryczne szyfrowanie, aby uniemożliwić użytkownikowi dostęp do ważnych dokumentów.",
-      "explanation_incorrect": "Spyware służy do szpiegowania, Adware do wyświetlania reklam, a Trojan do ukradkowego przejmowania kontroli nad systemem.",
-      "last_verified_at": "2026-06-12T14:59:45.293Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ransomware blokuje dostęp do danych lub systemu i żąda okupu; konkretne techniki, w tym użycie szyfrowania, różnią się między rodzinami.",
+      "explanation_incorrect": "Spyware zbiera informacje, adware wyświetla reklamy, a trojan podszywa się pod nieszkodliwy program. Kategorie mogą się nakładać."
     },
     {
       "subcategory": "Interfejs użytkownika",
@@ -1135,18 +1099,16 @@
     },
     {
       "subcategory": "Kryptografia wizualna",
-      "question": "Jak określa się dziedzinę kryptografii zajmującą się ukrywaniem samego faktu istnienia komunikatu wewnątrz innego, niepozornego nośnika?",
+      "question": "Jak nazywa się ukrywanie samego faktu istnienia komunikatu wewnątrz innego nośnika?",
       "options": [
-        "Kryptonaliura",
+        "Kryptoanaliza",
         "Haszowanie",
         "Steganografia",
         "Zaciemnianie kodu"
       ],
       "answer": "Steganografia",
-      "explanation_correct": "Steganografia cyfrowa pozwala np. ukryć tekst w najmniej znaczących bitach pliku graficznego typu BMP lub JPG.",
-      "explanation_incorrect": "Kryptografia klasyczna szyfruje treść, ale nie ukrywa jej obecności, natomiast haszowanie służy do weryfikacji integralności danych.",
-      "last_verified_at": "2026-06-12T14:59:45.293Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Steganografia może np. ukryć dane w mało znaczących bitach obrazu bitmapowego.",
+      "explanation_incorrect": "Kryptoanaliza bada metody łamania zabezpieczeń, haszowanie tworzy skrót, a zaciemnianie kodu utrudnia jego analizę."
     },
     {
       "subcategory": "Pamięci komputerowe",
@@ -1210,7 +1172,7 @@
     },
     {
       "subcategory": "Algorytmy wyszukiwarek",
-      "question": "Jak nazywa się algorytm wykorzystywany przez Google do ustalania pozycji stron na liście wyników?",
+      "question": "Jak nazywa się algorytm Google oceniający strony na podstawie struktury odsyłaczy?",
       "options": [
         "Hummingbird",
         "PageRank",
@@ -1218,10 +1180,8 @@
         "Penguin"
       ],
       "answer": "PageRank",
-      "explanation_correct": "PageRank ocenia popularność i rangę stron internetowych na podstawie struktury linków przychodzących. Został stworzony przez Larry'ego Page'a i Sergeya Brina.",
-      "explanation_incorrect": "Pozostałe opcje, takie jak Panda i Penguin, to późniejsze aktualizacje algorytmu skupiające się na jakości treści i profilu linków.",
-      "last_verified_at": "2026-06-12T14:59:45.293Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "PageRank wykorzystuje strukturę odsyłaczy do oceny stron. Współczesne systemy wyszukiwania korzystają też z wielu innych sygnałów.",
+      "explanation_incorrect": "Pozostałe opcje, takie jak Panda i Penguin, to późniejsze aktualizacje algorytmu skupiające się na jakości treści i profilu linków."
     },
     {
       "subcategory": "Pamięci masowe",
@@ -1285,7 +1245,7 @@
     },
     {
       "subcategory": "Hardware",
-      "question": "Który standard analogowej transmisji obrazu był powszechnie stosowany do łączenia komputerów z monitorami przed upowszechnieniem się standardu HDMI?",
+      "question": "Który standard analogowego obrazu jest kojarzony z 15-stykowym złączem DE-15 powszechnym dawniej w komputerach PC?",
       "options": [
         "Standard VGA",
         "Standard DisplayPort",
@@ -1294,9 +1254,7 @@
       ],
       "answer": "Standard VGA",
       "explanation_correct": "VGA (Video Graphics Array) to analogowe złącze wprowadzone w 1987 roku, które przez dekady było standardem w PC.",
-      "explanation_incorrect": "DVI i DisplayPort to nowsze standardy cyfrowe, a Thunderbolt jest uniwersalną magistralą danych i wideo.",
-      "last_verified_at": "2026-06-12T14:59:45.293Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "DisplayPort i Thunderbolt przesyłają obraz cyfrowo; DVI występuje w wariantach cyfrowych i takich, które mogą przenosić sygnał analogowy."
     },
     {
       "subcategory": "Sztuczna inteligencja",
@@ -1443,10 +1401,8 @@
         "GPRS"
       ],
       "answer": "SMS",
-      "explanation_correct": "Short Message Service (SMS) pozwala na wysyłanie wiadomości o długości do 160 znaków i zadebiutował w 1992 roku.",
-      "explanation_incorrect": "MMS służy do przesyłania multimediów, WAP do przeglądania internetu na starych telefonach, a GPRS to pakietowa transmisja danych.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SMS pozwala przesyłać krótkie komunikaty. Limit zależy od kodowania: pojedyncza wiadomość może mieć do 160 znaków alfabetu GSM lub mniej przy innych znakach; wiadomości można łączyć.",
+      "explanation_incorrect": "MMS służy do przesyłania multimediów, WAP do przeglądania internetu na starych telefonach, a GPRS to pakietowa transmisja danych."
     },
     {
       "subcategory": "Wirtualizacja i gry",
@@ -1454,14 +1410,12 @@
       "options": [
         "Oculus Rift",
         "PlayStation VR",
-        "HPC Vive",
+        "HTC Vive",
         "Google Cardboard"
       ],
       "answer": "Oculus Rift",
       "explanation_correct": "Oculus Rift został stworzony przez Palmera Luckeya i stał się katalizatorem zakupu firmy Oculus VR przez Facebooka.",
-      "explanation_incorrect": "Pozostałe produkty, jak Vive czy PS VR, pojawiły się jako komercyjna odpowiedź na sukces prototypów Oculusa.",
-      "last_verified_at": "2026-06-12T14:59:45.294Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe produkty, jak Vive czy PS VR, pojawiły się jako komercyjna odpowiedź na sukces prototypów Oculusa."
     },
     {
       "subcategory": "Środowiska graficzne",

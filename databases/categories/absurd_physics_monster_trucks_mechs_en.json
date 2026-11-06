@@ -423,10 +423,8 @@
         "LIDAR"
       ],
       "answer": "IMU (Inertial Measurement Unit)",
-      "explanation_correct": "An IMU uses a combination of sensors to track an object's specific force, angular rate, and orientation.",
-      "explanation_incorrect": "GPS provides global positioning but cannot provide high-frequency orientation or rotational data needed for stability.",
-      "last_verified_at": "2026-06-12T16:40:47.926Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An IMU measures specific force and angular velocity; orientation can be estimated from its sensor data, although the estimate may drift.",
+      "explanation_incorrect": "GPS provides global positioning but cannot provide high-frequency orientation or rotational data needed for stability."
     },
     {
       "subcategory": "Monster Truck Bodies",
@@ -445,7 +443,7 @@
     },
     {
       "subcategory": "Mecha Balancing",
-      "question": "Which force is primarily responsible for preventing a mecha from tipping over while stationary on uneven terrain?",
+      "question": "Which force can prevent a stationary robot’s foot from sliding across the ground?",
       "options": [
         "Static friction",
         "Kinetic friction",
@@ -453,10 +451,8 @@
         "Coriolis force"
       ],
       "answer": "Static friction",
-      "explanation_correct": "Static friction holds the ground contact points in place against tipping forces until the threshold is exceeded.",
-      "explanation_incorrect": "Kinetic friction applies to moving objects, while centrifugal and Coriolis are inertial forces related to rotation.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Static friction opposes relative sliding at a contact, up to a limit set by the surfaces and normal force.",
+      "explanation_incorrect": "Kinetic friction acts when surfaces slide; centrifugal and Coriolis forces arise in rotating reference frames."
     },
     {
       "subcategory": "Monster Truck Exhaust",
@@ -633,10 +629,8 @@
         "Barometer"
       ],
       "answer": "Accelerometer",
-      "explanation_correct": "An accelerometer measures the rate of change of velocity along a specific axis.",
-      "explanation_incorrect": "Gyroscopes measure angular velocity, while magnetometers measure magnetic fields to determine heading.",
-      "last_verified_at": "2026-06-12T16:40:47.926Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An accelerometer measures specific force along its sensing axis. A stationary sensor on Earth therefore registers a gravitational support effect, even though its velocity is constant.",
+      "explanation_incorrect": "Gyroscopes measure angular velocity, while magnetometers measure magnetic fields to determine heading."
     },
     {
       "subcategory": "Monster Truck Transmission",
@@ -880,7 +874,7 @@
     },
     {
       "subcategory": "Monster Truck Stability",
-      "question": "What metric defines the centerline distance between the two left tires and the two right tires on a truck?",
+      "question": "What is the lateral distance between the centerlines of the left and right tires on the same axle called?",
       "options": [
         "Wheelbase",
         "Axle span",
@@ -888,10 +882,8 @@
         "Turning radius"
       ],
       "answer": "Track width",
-      "explanation_correct": "Track width is the lateral measurement that dictates a vehicle's side-to-side stability.",
-      "explanation_incorrect": "Wheelbase refers to the distance between the front and rear axles, affecting longitudinal stability.",
-      "last_verified_at": "2026-06-12T16:39:50.858Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Track width is the lateral distance between the tire centerlines on an axle. It is one factor affecting a vehicle’s side-to-side stability.",
+      "explanation_incorrect": "Wheelbase refers to the distance between the front and rear axles, affecting longitudinal stability."
     },
     {
       "subcategory": "Mech Movement",
@@ -1075,18 +1067,16 @@
     },
     {
       "subcategory": "Mech Stability",
-      "question": "What is the technical term for the geometry formed by a robot's foot contact points that dictates its balance?",
+      "question": "What is the usual name for the convex polygon formed by a robot’s ground contact points when assessing static balance?",
       "options": [
         "Support polygon",
-        "Convex hull",
+        "Wheelbase",
         "Stability envelope",
         "Center of pressure"
       ],
       "answer": "Support polygon",
-      "explanation_correct": "The support polygon is the perimeter within which the projection of the center of mass must remain for stability.",
-      "explanation_incorrect": "The other terms represent geometric or physics concepts that differ from the stability footprint definition.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "On level ground, the support polygon is the convex hull of the ground contact points. In a simple static balance model, the vertical projection of the center of mass must lie inside it.",
+      "explanation_incorrect": "Wheelbase is an axle separation, while center of pressure and stability envelope are different concepts."
     },
     {
       "subcategory": "Monster Truck Steering",

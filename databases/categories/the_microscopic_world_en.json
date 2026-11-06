@@ -18,7 +18,7 @@
         "Galileo Galilei"
       ],
       "answer": "Zacharias Janssen",
-      "explanation_correct": "Zacharias Janssen, along with his father Hans, is credited with inventing the first compound microscope around 1590.",
+      "explanation_correct": "Zacharias Janssen is often credited with an early compound microscope, sometimes with his father Hans, although its invention and dating are disputed.",
       "explanation_incorrect": "Van Leeuwenhoek improved lens making for single-lens microscopes later in the 17th century, while Hooke popularized its use in science.",
       "last_verified_at": "2026-06-12T16:21:34.833Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -85,16 +85,16 @@
     },
     {
       "subcategory": "Cell Biology",
-      "question": "What term describes the jelly-like fluid that fills the interior of a cell?",
+      "question": "What is the name of the semifluid portion of the cytoplasm, excluding organelles?",
       "options": [
-        "Cytoplasm",
+        "Cytosol",
         "Nucleoplasm",
         "Matrix",
         "Stroma"
       ],
-      "answer": "Cytoplasm",
-      "explanation_correct": "Cytoplasm is the thick, aqueous substance that fills the cell and encloses all organelles.",
-      "explanation_incorrect": "Nucleoplasm, matrix, and stroma refer to specific internal fluids contained within precise organelles like the nucleus, mitochondria, or chloroplasts respectively.",
+      "answer": "Cytosol",
+      "explanation_correct": "The cytosol is the fluid portion of the cytoplasm in which cellular components are suspended.",
+      "explanation_incorrect": "Nucleoplasm, matrix and stroma refer to fluids or internal spaces within specific cell compartments.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -199,7 +199,7 @@
       ],
       "answer": "Ribosomes",
       "explanation_correct": "Ribosomes are molecular machines that read messenger RNA and translate the code into sequence-specific proteins.",
-      "explanation_incorrect": "The other organelles are specialized for energy production, digestion, or oxidative breakdown, but not protein translation.",
+      "explanation_incorrect": "Lysosomes and peroxisomes have other functions. Mitochondria contain ribosomes that synthesize some proteins, but ribosomes are the machinery responsible for translation.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -250,7 +250,7 @@
     },
     {
       "subcategory": "Microbiology",
-      "question": "Who is credited with the discovery of the first antibiotic, penicillin?",
+      "question": "Who discovered the antibiotic penicillin?",
       "options": [
         "Alexander Fleming",
         "Louis Pasteur",
@@ -273,14 +273,14 @@
         "Uracil"
       ],
       "answer": "Thymine",
-      "explanation_correct": "In DNA base pairing rules, Adenine always forms bonds with Thymine to stabilize the ladder structure.",
-      "explanation_incorrect": "Guanine pairs with Cytosine, while Uracil is found only in RNA, not DNA.",
+      "explanation_correct": "In standard DNA base pairing, adenine pairs with thymine through hydrogen bonds.",
+      "explanation_incorrect": "Guanine pairs with cytosine in standard DNA. Uracil is a normal RNA base, although it can also occur in DNA under particular circumstances.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Microscopy",
-      "question": "Which diagnostic staining technique is used to categorize bacteria based on their cell wall composition?",
+      "question": "Which staining technique classifies bacteria as Gram-positive or Gram-negative?",
       "options": [
         "Gram stain",
         "Acid-fast stain",
@@ -289,7 +289,7 @@
       ],
       "answer": "Gram stain",
       "explanation_correct": "The Gram stain is a fundamental method that distinguishes bacteria into Gram-positive or Gram-negative based on peptidoglycan thickness.",
-      "explanation_incorrect": "Acid-fast, endospore, and negative staining are specialized diagnostic routines for specific microbial characteristics, not general cell wall classification.",
+      "explanation_incorrect": "Acid-fast staining also probes cell-wall properties, but distinguishes acid-fast organisms rather than the Gram-positive and Gram-negative groups.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -310,7 +310,7 @@
     },
     {
       "subcategory": "Immunology",
-      "question": "Which specific Y-shaped glycoproteins are produced by plasma cells to neutralize antigens?",
+      "question": "Which Y-shaped glycoproteins are produced by plasma cells and bind specific antigens?",
       "options": [
         "Antibodies",
         "Antigens",
@@ -318,14 +318,14 @@
         "Cytokines"
       ],
       "answer": "Antibodies",
-      "explanation_correct": "Antibodies are proteins that specifically bind to and neutralize pathogens like bacteria and viruses.",
+      "explanation_correct": "Antibodies bind specific antigens; some neutralize pathogens or toxins, while others support different immune functions.",
       "explanation_incorrect": "Antigens trigger immune responses, while interferons and cytokines are signaling molecules involved in immune regulation.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Bacteriology",
-      "question": "Which rigid, polysaccharide-based outer layer shields certain bacteria from phagocytosis?",
+      "question": "Which outer layer of certain bacteria can protect them from phagocytosis?",
       "options": [
         "Capsule",
         "Flagella",
@@ -333,7 +333,7 @@
         "Plasmid"
       ],
       "answer": "Capsule",
-      "explanation_correct": "The bacterial capsule is an outer coating that aids in protection and adherence while evading the immune system.",
+      "explanation_correct": "A bacterial capsule is an organized outer coating, often polysaccharide, that can promote adherence and protect against phagocytosis.",
       "explanation_incorrect": "Flagella and pili are involved in motility and attachment, while plasmids are non-essential pieces of DNA.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -400,7 +400,7 @@
     },
     {
       "subcategory": "Parasitology",
-      "question": "Which four-part scientific protocol is used to definitively establish a causal relationship between a microbe and a disease?",
+      "question": "Which historical set of four criteria was proposed to link a microorganism to a disease?",
       "options": [
         "Koch's postulates",
         "The Germ Theory",
@@ -408,7 +408,7 @@
         "Mendelian laws"
       ],
       "answer": "Koch's postulates",
-      "explanation_correct": "Koch's postulates provide criteria designed to establish the causative link between a microbe and a disease.",
+      "explanation_correct": "Koch’s postulates are historical criteria for linking a microbe to a disease, though their strict application has limitations and is not possible for every pathogen.",
       "explanation_incorrect": "The other options refer to broad evolutionary or genetic theories rather than experimental methodologies for disease pathology.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -445,7 +445,7 @@
     },
     {
       "subcategory": "Bacteriology",
-      "question": "Which form of asexual reproduction do prokaryotes use to produce two genetically identical daughter cells?",
+      "question": "What is the common process by which many prokaryotes divide into two daughter cells?",
       "options": [
         "Binary fission",
         "Mitosis",
@@ -453,8 +453,8 @@
         "Budding"
       ],
       "answer": "Binary fission",
-      "explanation_correct": "Binary fission is the process where a single-celled organism divides into two equal halves after replicating its DNA.",
-      "explanation_incorrect": "Mitosis and meiosis are eukaryotic cell division processes, while budding is a form of asexual reproduction common in yeast.",
+      "explanation_correct": "In binary fission, a cell replicates its DNA and divides into two daughter cells, which are usually genetically very similar.",
+      "explanation_incorrect": "Mitosis and meiosis occur in eukaryotes. Budding also occurs in some bacteria and is common in yeast, but it is distinct from binary fission.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -514,7 +514,7 @@
       ],
       "answer": "Plasmodium",
       "explanation_correct": "Plasmodium is the genus of intracellular parasites that infect blood cells and cause malaria.",
-      "explanation_incorrect": "Amoeba, Trypanosoma, and Giardia are other protozoans that cause different clinical conditions like amoebiasis or sleeping sickness.",
+      "explanation_incorrect": "Trypanosoma and Giardia include parasites causing other diseases; not every organism called an amoeba is pathogenic.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -535,7 +535,7 @@
     },
     {
       "subcategory": "Biochemistry",
-      "question": "Which class of biological macromolecules serves as the primary catalyst for chemical reactions in living cells?",
+      "question": "What are biological catalysts that speed up chemical reactions in living cells called?",
       "options": [
         "Enzymes",
         "Hormones",
@@ -543,7 +543,7 @@
         "Vitamins"
       ],
       "answer": "Enzymes",
-      "explanation_correct": "Enzymes are protein catalysts that accelerate biochemical reactions by lowering activation energy.",
+      "explanation_correct": "Enzymes catalyze biochemical reactions by lowering activation energy. Most are proteins, though some RNA molecules also have catalytic activity.",
       "explanation_incorrect": "Hormones are signaling molecules, antibodies target immune threats, and vitamins are essential organic cofactors.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -580,15 +580,15 @@
     },
     {
       "subcategory": "Microbiology",
-      "question": "What term describes microorganisms that thrive only in environments that lack free oxygen?",
+      "question": "What term describes organisms that grow only in the absence of oxygen?",
       "options": [
-        "Anaerobes",
+        "Obligate anaerobes",
         "Aerobes",
         "Microaerophiles",
         "Facultative"
       ],
-      "answer": "Anaerobes",
-      "explanation_correct": "Anaerobes are organisms that can grow in the absence of oxygen and often find oxygen toxic.",
+      "answer": "Obligate anaerobes",
+      "explanation_correct": "Obligate anaerobes grow without oxygen, which is toxic to many of them.",
       "explanation_incorrect": "Aerobes require oxygen, microaerophiles prefer low levels, and facultative organisms can switch metabolic modes depending on oxygen availability.",
       "last_verified_at": "2026-06-12T16:21:14.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -685,16 +685,16 @@
     },
     {
       "subcategory": "Planktology",
-      "question": "What collective term refers to microscopic heterotrophic animals that drift in aquatic environments?",
+      "question": "What is the general term for drifting aquatic animals and other primarily heterotrophic plankton?",
       "options": [
         "Zooplankton",
         "Phytoplankton",
-        "Bacterioplankton",
-        "Mixoplankton"
+        "Benthos",
+        "Nekton"
       ],
       "answer": "Zooplankton",
-      "explanation_correct": "Zooplankton are animal-like plankton that feed on other plankton or organic material.",
-      "explanation_incorrect": "Phytoplankton are autotrophic, and the other terms refer to different biological classifications.",
+      "explanation_correct": "Zooplankton are heterotrophic drifting organisms, including many animals and some protists; they are not all microscopic.",
+      "explanation_incorrect": "Phytoplankton are primarily photosynthetic; benthos inhabit the bottom, while nekton swim independently of currents.",
       "last_verified_at": "2026-06-12T16:21:14.595Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -768,7 +768,7 @@
         "Interphase"
       ],
       "answer": "Cytokinesis",
-      "explanation_correct": "Cytokinesis is the physical cleavage of the cytoplasm, occurring after the nuclear stages of mitosis or meiosis are complete.",
+      "explanation_correct": "Cytokinesis physically divides the cytoplasm, often beginning before mitosis or meiosis has completely finished.",
       "explanation_incorrect": "Mitosis and meiosis are types of nuclear division, while interphase is the growth phase where DNA is replicated.",
       "last_verified_at": "2026-06-12T16:21:34.834Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -814,7 +814,7 @@
       ],
       "answer": "Skin",
       "explanation_correct": "Skin functions as a primary physical barrier preventing entry by most microorganisms.",
-      "explanation_incorrect": "Mucous, acid, and cilia are secondary defenses or part of internal protective systems.",
+      "explanation_incorrect": "Mucous membranes and cilia also contribute to first-line defenses; stomach acid is a chemical barrier. Skin is the organ identified by the question.",
       "last_verified_at": "2026-06-12T16:21:14.595Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -930,17 +930,17 @@
         "Spherical",
         "Comma-shaped",
         "Spiral",
-        "Rod-shaped"
+        "Cubic"
       ],
       "answer": "Comma-shaped",
       "explanation_correct": "Vibrio species are characteristically curved or comma-shaped rods.",
-      "explanation_incorrect": "These options describe cocci, spirilla, or bacilli, which have different morphological classifications.",
+      "explanation_incorrect": "Cocci are spherical and spirilla are spiral-shaped. Vibrio are characteristically curved rods, often described as comma-shaped.",
       "last_verified_at": "2026-06-12T16:21:14.595Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Cell Biology",
-      "question": "Which small, membrane-bound vesicle is primarily responsible for the intercellular transport and secretion of cellular materials?",
+      "question": "Which small extracellular vesicle can be released by cells and participate in intercellular communication?",
       "options": [
         "Ribosome",
         "Lysosome",
@@ -1015,7 +1015,7 @@
     },
     {
       "subcategory": "Microbiology",
-      "question": "What term is used for ingested live microorganisms that provide health benefits to the host's gastrointestinal tract?",
+      "question": "What are live microorganisms called when they confer a health benefit on the host if administered in adequate amounts?",
       "options": [
         "Prebiotics",
         "Antibiotics",
@@ -1023,7 +1023,7 @@
         "Symbiotes"
       ],
       "answer": "Probiotics",
-      "explanation_correct": "Probiotics are beneficial bacteria and yeasts intended to improve digestive health.",
+      "explanation_correct": "Probiotics are live microorganisms that confer a health benefit on the host when administered in adequate amounts.",
       "explanation_incorrect": "Prebiotics are food for bacteria, antibiotics kill bacteria, and symbiotes represent a broader relationship status.",
       "last_verified_at": "2026-06-12T16:21:14.595Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1069,7 +1069,7 @@
       ],
       "answer": "Peroxisome",
       "explanation_correct": "Peroxisomes contain enzymes that catalyze the breakdown of very long-chain fatty acids.",
-      "explanation_incorrect": "Mitochondria create ATP, vacuoles store materials, and the endoplasmic reticulum synthesizes proteins and lipids.",
+      "explanation_incorrect": "Mitochondria also break down fatty acids, but peroxisomes are particularly associated with oxidation of very-long-chain fatty acids. Vacuoles and the ER have other roles.",
       "last_verified_at": "2026-06-12T16:21:14.595Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1195,7 +1195,7 @@
     },
     {
       "subcategory": "Taxonomy",
-      "question": "To which biological domain do single-celled, prokaryotic microbes that thrive in extreme conditions belong?",
+      "question": "To which domain does the methane-producing microorganism Methanobrevibacter belong?",
       "options": [
         "Eukarya",
         "Bacteria",
@@ -1203,8 +1203,8 @@
         "Protista"
       ],
       "answer": "Archaea",
-      "explanation_correct": "Archaea constitute a domain of life specialized for extreme environments like thermal vents or high salinity.",
-      "explanation_incorrect": "Eukarya are complex organisms, Bacteria are a distinct domain, and Protista is a kingdom within the Eukarya domain.",
+      "explanation_correct": "Methanobrevibacter is a genus of methane-producing Archaea. Archaea occur in both extreme and ordinary environments.",
+      "explanation_incorrect": "Methanobrevibacter belongs to Archaea, not Bacteria or Eukarya. Protista is a grouping of eukaryotes, not a domain.",
       "last_verified_at": "2026-06-12T16:21:14.596Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1219,7 +1219,7 @@
       ],
       "answer": "Tardigrades",
       "explanation_correct": "Tardigrades, often called water bears, are microscopic animals capable of surviving extreme desiccation, radiation, and vacuum.",
-      "explanation_incorrect": "Rotifers, nematodes, and crustaceans lack the unique extremophile survival physiology associated with the cryptobiosis of tardigrades.",
+      "explanation_incorrect": "Rotifers, nematodes and some crustaceans can also survive extreme stresses in dormant states; tardigrades are especially well known for surviving space exposure.",
       "last_verified_at": "2026-06-12T16:21:14.596Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "subcategory": "Microbiology",
-      "question": "Which medical pioneer introduced the use of carbolic acid to sterilize surgical instruments?",
+      "question": "Which medical pioneer introduced carbolic acid antisepsis in surgery?",
       "options": [
         "Joseph Lister",
         "Robert Koch",
@@ -1270,7 +1270,7 @@
     },
     {
       "subcategory": "Crystallography",
-      "question": "Which scientist produced the critical X-ray diffraction image known as Photo 51 that revealed the structure of DNA?",
+      "question": "Which scientist collaborated with Raymond Gosling on the DNA X-ray diffraction image known as Photo 51?",
       "options": [
         "Rosalind Franklin",
         "Barbara McClintock",
@@ -1278,8 +1278,8 @@
         "Jennifer Doudna"
       ],
       "answer": "Rosalind Franklin",
-      "explanation_correct": "Franklin's X-ray crystallography work provided the essential data to confirm the helical structure of DNA.",
-      "explanation_incorrect": "The others are prominent biological scientists but were not responsible for the specific X-ray image of the DNA double helix.",
+      "explanation_correct": "Rosalind Franklin and Raymond Gosling worked together on the X-ray diffraction study that produced Photo 51, an important image of B-form DNA.",
+      "explanation_incorrect": "The other scientists made important contributions in genetics, structural chemistry or molecular biology, but did not collaborate with Gosling on Photo 51.",
       "last_verified_at": "2026-06-12T16:21:14.596Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1368,7 +1368,7 @@
         "Mordant"
       ],
       "answer": "Fixative",
-      "explanation_correct": "A fixative preserves biological tissues from decay and maintains the structure through chemical cross-linking.",
+      "explanation_correct": "Fixatives preserve biological structure before microscopy, for example through chemical cross-linking or precipitation of cellular components.",
       "explanation_incorrect": "Stains color specimens, buffers maintain pH, and mordants help dyes adhere to tissues.",
       "last_verified_at": "2026-06-12T16:21:14.596Z",
       "verifying_model": "google/gemini-3-flash-preview"

@@ -2,10 +2,8 @@
   "id": "enoteka_i_szczepy_win_pl",
   "name": "Enoteka i Szczepy Win",
   "language": "pl",
-  "description": "Pytania z zakresu: Szczepy czerwone, Szczepy białe, Francuskie regiony winiarskie...",
+  "description": "Pytania o odmiany winorośli, regiony i apelacje, produkcję oraz tradycje winiarskie.",
   "created_at": "2026-06-12T17:19:12.127Z",
-  "last_verified_at": "2026-06-12T17:18:21.479Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 98,
   "questions": [
     {
@@ -124,9 +122,7 @@
       ],
       "answer": "Nebbiolo",
       "explanation_correct": "Barolo musi być produkowane w 100% ze szczepu Nebbiolo.",
-      "explanation_incorrect": "Pozostałe wymienione szczepy także pochodzą z Piemontu, ale nie są używane do produkcji wina Barolo.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Barbera i Dolcetto są związane z Piemontem, Corvina z Veneto; żadna z nich nie jest szczepem Barolo."
     },
     {
       "subcategory": "Klasyfikacja win",
@@ -175,37 +171,33 @@
     },
     {
       "subcategory": "Narzędzia enologa",
-      "question": "Jak nazywa się naczynie używane do dekantacji, służące do napowietrzenia wina?",
+      "question": "Jak nazywa się naczynie do dekantacji wina, którego nazwa pochodzi bezpośrednio od tej czynności?",
       "options": [
         "Dekanter",
-        "Karafka",
-        "Amfora",
-        "Wazon"
+        "Korkociąg",
+        "Termometr",
+        "Kieliszek"
       ],
       "answer": "Dekanter",
       "explanation_correct": "Dekanter pozwala na oddzielenie osadu i napowietrzenie wina, co otwiera jego bukiet.",
-      "explanation_incorrect": "Pozostałe naczynia nie pełnią specjalistycznej funkcji dekantacji wina w enologii.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Korkociąg, termometr i kieliszek pełnią inne funkcje; dekanter bywa też nazywany karafką."
     },
     {
       "subcategory": "Wina musujące",
       "question": "Jak nazywa się popularne włoskie wino musujące, wytwarzane głównie ze szczepu Glera?",
       "options": [
-        "Prosseco",
+        "Prosecco",
         "Asti",
         "Franciacorta",
         "Lambrusco"
       ],
-      "answer": "Prosseco",
+      "answer": "Prosecco",
       "explanation_correct": "Prosecco jest chronionym oznaczeniem, a szczep Glera stanowi jego główny komponent.",
-      "explanation_incorrect": "Asti, Franciacorta i Lambrusco są włoskimi winami, ale powstają z innych szczepów i metodami.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Asti, Franciacorta i Lambrusco są włoskimi winami, ale powstają z innych szczepów i metodami."
     },
     {
       "subcategory": "Szczepy białe",
-      "question": "Jaki aromatyczny biały szczep o różowawej skórce cieszy się dużą popularnością w regionie Alzacji?",
+      "question": "Który szczep szczególnie kojarzy się w Alzacji z intensywnymi aromatami liczi i róży?",
       "options": [
         "Gewürztraminer",
         "Riesling",
@@ -214,9 +206,7 @@
       ],
       "answer": "Gewürztraminer",
       "explanation_correct": "Gewürztraminer słynie z bardzo intensywnego aromatu liczi i płatków róż, a jego skórki mają różowy odcień.",
-      "explanation_incorrect": "Pozostałe odmiany są typowe dla Alzacji, ale nie mają różowawej skórki lub charakteryzują się odmiennymi aromatami.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe odmiany również uprawia się w Alzacji, lecz opis liczi i róży jest szczególnie charakterystyczny dla Gewürztraminera. Pinot Gris także może mieć różowawą skórkę."
     },
     {
       "subcategory": "Zjawiska winiarskie",
@@ -265,7 +255,7 @@
     },
     {
       "subcategory": "Pojęcia degustacyjne",
-      "question": "Jaki związek chemiczny, występujący w szypułkach i skórkach winogron, jest odpowiedzialny za cierpkość wina?",
+      "question": "Która grupa związków występujących m.in. w skórkach winogron odpowiada za cierpkość wina?",
       "options": [
         "Garbniki",
         "Kwas cytrynowy",
@@ -274,9 +264,7 @@
       ],
       "answer": "Garbniki",
       "explanation_correct": "Garbniki (taniny) odpowiadają za odczucie wysuszania w ustach podczas degustacji wina.",
-      "explanation_incorrect": "Pozostałe wymienione substancje wpływają na smak lub strukturę, ale nie odpowiadają za cierpkość.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe wymienione substancje wpływają na smak lub strukturę, ale nie odpowiadają za cierpkość."
     },
     {
       "subcategory": "Polskie winiarstwo",
@@ -288,10 +276,8 @@
         "Zachodniopomorskie"
       ],
       "answer": "Lubuskie",
-      "explanation_correct": "Ziemia lubuska posiada najdłuższą udokumentowaną historię polskiego winiarstwa.",
-      "explanation_incorrect": "Mimo rozwoju winiarstwa w innych polskich regionach, to Lubuskie jest historycznym centrum.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zielona Góra i okolice mają wielowiekową tradycję uprawy winorośli i leżą w województwie lubuskim.",
+      "explanation_incorrect": "Mimo rozwoju winiarstwa w innych polskich regionach, to Lubuskie jest historycznym centrum."
     },
     {
       "subcategory": "Szczepy czerwone",
@@ -319,9 +305,7 @@
       ],
       "answer": "Metoda szampańska",
       "explanation_correct": "Metoda szampańska (méthode traditionnelle) polega na przeprowadzaniu drugiej fermentacji bezpośrednio w butelce.",
-      "explanation_incorrect": "Pozostałe metody wykorzystują inne techniki lub zbiorniki ciśnieniowe do uzyskania bąbelków.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Metoda Charmata wykorzystuje zbiornik ciśnieniowy. W metodzie ancestral fermentacja kończy się w butelce, lecz nie jest to klasyczna wtórna fermentacja szampańska."
     },
     {
       "subcategory": "Szczepy białe",
@@ -348,10 +332,8 @@
         "Grenache"
       ],
       "answer": "Gamay",
-      "explanation_correct": "Gamay jest gatunkiem dedykowanym winom z regionu Beaujolais.",
-      "explanation_incorrect": "Syrah, Merlot i Grenache to szczepy typowe dla innych regionów Francji lub o innej charakterystyce aromatycznej.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gamay to odmiana winorośli szczególnie kojarzona z czerwonymi winami Beaujolais.",
+      "explanation_incorrect": "Syrah, Merlot i Grenache to szczepy typowe dla innych regionów Francji lub o innej charakterystyce aromatycznej."
     },
     {
       "subcategory": "Naczynia winiarskie",
@@ -378,14 +360,12 @@
         "Marsala"
       ],
       "answer": "Sherry",
-      "explanation_correct": "Sherry to wino produkowane w trójkącie miast Jerez de la Frontera, Sanlúcar de Barrameda i El Puerto de Santa María.",
-      "explanation_incorrect": "Porto, Madeira i Marsala to wina wzmacniane wywodzące się z innych krajów lub regionów.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sherry to wzmacniane wino pochodzące z wyznaczonego obszaru w andaluzyjskim regionie Jerez.",
+      "explanation_incorrect": "Porto, Madeira i Marsala to wina wzmacniane wywodzące się z innych krajów lub regionów."
     },
     {
       "subcategory": "Szczepy czerwone",
-      "question": "Który szczep uprawiany w Chorwacji jest genetycznie identyczny z popularnym w Kalifornii Zinfandelem?",
+      "question": "Pod którą włoską nazwą występuje odmiana genetycznie identyczna z kalifornijskim Zinfandelem?",
       "options": [
         "Primitivo",
         "Sangiovese",
@@ -394,9 +374,7 @@
       ],
       "answer": "Primitivo",
       "explanation_correct": "Primitivo (uprawiane głównie we Włoszech) oraz Zinfandel to ten sam szczep znany w Chorwacji jako Crljenak Kastelanski.",
-      "explanation_incorrect": "Sangiovese, Nebbiolo i Tempranillo to odrębne włoskie lub hiszpańskie odmiany winorośli.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sangiovese, Nebbiolo i Tempranillo to odrębne odmiany winorośli."
     },
     {
       "subcategory": "Wina białe",
@@ -408,14 +386,12 @@
         "Alentejo"
       ],
       "answer": "Vinho Verde",
-      "explanation_correct": "Vinho Verde to wino 'zielone' (młode), które często posiada delikatne naturalne wysycenie dwutlenkiem węgla.",
-      "explanation_incorrect": "Pozostałe opcje to regiony produkujące głównie wina spokojne o większej strukturze.",
-      "last_verified_at": "2026-06-12T17:18:21.479Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Vinho Verde to nazwa portugalskiego regionu i jego win, często lekkich i świeżych; niektóre są lekko perliste.",
+      "explanation_incorrect": "Pozostałe opcje to regiony produkujące głównie wina spokojne o większej strukturze."
     },
     {
       "subcategory": "Sommelierskie akcesoria",
-      "question": "Jakim mianem potocznie określa się podstawowe narzędzie sommelierskie służące do usuwania zatkanych korków z butelek?",
+      "question": "Jak nazywa się narzędzie służące do wyciągania korka z butelki wina?",
       "options": [
         "Dekanter",
         "Korkociąg",
@@ -424,13 +400,11 @@
       ],
       "answer": "Korkociąg",
       "explanation_correct": "Korkociąg to mechaniczne urządzenie do wyciągania korków.",
-      "explanation_incorrect": "Dekanter i aerator służą do napowietrzania wina, a termometr do mierzenia jego temperatury.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dekanter i aerator służą do napowietrzania wina, a termometr do mierzenia jego temperatury."
     },
     {
       "subcategory": "Choroby winorośli",
-      "question": "Który szkodnik, mszyca atakująca korzenie winorośli, doprowadził do niemal całkowitej zagłady europejskich upraw w XIX wieku?",
+      "question": "Jaki szkodnik atakujący korzenie winorośli spustoszył europejskie winnice w XIX wieku?",
       "options": [
         "Filoksera",
         "Mączniak rzekomy",
@@ -439,9 +413,7 @@
       ],
       "answer": "Filoksera",
       "explanation_correct": "Filoksera zaatakowała europejskie winnice, zmuszając plantatorów do szczepienia szlachetnych odmian na amerykańskich podkładkach.",
-      "explanation_incorrect": "Pozostałe wymienione to grzyby atakujące części nadziemne winorośli.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe odpowiedzi to choroby wywoływane przez organizmy chorobotwórcze; mączniak rzekomy jest powodowany przez lęgniowca, nie grzyba."
     },
     {
       "subcategory": "Szczepy białe",
@@ -475,18 +447,16 @@
     },
     {
       "subcategory": "Szczepy czerwone",
-      "question": "Który szczep czerwony, będący krzyżówką Pinot Noir i Cinsault, jest symbolem winiarstwa RPA?",
+      "question": "Jak nazywa się południowoafrykańska nazwa odmiany Syrah?",
       "options": [
-        "Pinotage",
         "Shiraz",
-        "Malbec",
-        "Cabernet Sauvignon"
+        "Pinotage",
+        "Sangiovese",
+        "Riesling"
       ],
-      "answer": "Pinotage",
-      "explanation_correct": "Pinotage został stworzony w RPA w 1925 roku i do dziś stanowi unikalny wkład tego kraju w świat wina.",
-      "explanation_incorrect": "Choć pozostałe szczepy są tam uprawiane, tylko Pinotage jest unikalną południowoafrykańską kreacją.",
-      "last_verified_at": "2026-06-12T17:17:57.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Shiraz",
+      "explanation_correct": "Shiraz jest używaną m.in. w RPA i Australii nazwą odmiany Syrah.",
+      "explanation_incorrect": "Pinotage, Sangiovese i Riesling to inne odmiany winorośli."
     },
     {
       "subcategory": "Niemieckie regiony winiarskie",
@@ -505,7 +475,7 @@
     },
     {
       "subcategory": "Wina musujące",
-      "question": "Jaką nazwę nosi hiszpańskie wino musujące, które podobnie jak Szampan, poddawane jest procesowi fermentacji w butelce?",
+      "question": "Jak nazywa się hiszpańskie wino musujące, którego apelacja wymaga wtórnej fermentacji w butelce?",
       "options": [
         "Cava",
         "Prosecco",
@@ -514,9 +484,7 @@
       ],
       "answer": "Cava",
       "explanation_correct": "Cava to hiszpańska apelacja win musujących produkowanych tradycyjną metodą (méthode traditionnelle).",
-      "explanation_incorrect": "Prosecco powstaje metodą zbiornikową, a inne wymienione są nazwami dla win z innych krajów.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Prosecco może także przechodzić fermentację w butelce, lecz hiszpańska apelacja opisana w pytaniu to Cava."
     },
     {
       "subcategory": "Szczepy białe",
@@ -580,18 +548,16 @@
     },
     {
       "subcategory": "Wina słodkie",
-      "question": "W niemieckiej klasyfikacji jakościowej win, jaki termin oznacza wino powstałe z owoców zebranych w późnej fazie dojrzałości?",
+      "question": "Które niemieckie określenie wina Prädikatswein dosłownie oznacza „późny zbiór”?",
       "options": [
         "Spätlese",
-        "Kabinet",
+        "Kabinett",
         "Auslese",
         "Trockenbeerenauslese"
       ],
       "answer": "Spätlese",
       "explanation_correct": "Spätlese (dosłownie 'późny zbiór') to stopień w klasyfikacji Prädikatswein.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do innych poziomów cukru w owocach przy zbiorze lub technik produkcji.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kabinett, Auslese i Trockenbeerenauslese to inne oznaczenia w klasyfikacji Prädikatswein."
     },
     {
       "subcategory": "Amerykańskie regiony winiarskie",
@@ -610,22 +576,20 @@
     },
     {
       "subcategory": "Szczepy czerwone",
-      "question": "Która odmiana winorośli stanowi główny komponent wina Amarone della Valpolicella?",
+      "question": "Która odmiana może w przepisach Amarone della Valpolicella występować wraz z Corvinone jako podstawowy składnik mieszanki?",
       "options": [
         "Corvina",
-        "Molinara",
-        "Rondinella",
-        "Negrara"
+        "Nebbiolo",
+        "Sangiovese",
+        "Tempranillo"
       ],
       "answer": "Corvina",
-      "explanation_correct": "Corvina jest fundamentem mieszanek wina Amarone, nadając mu strukturę i aromaty.",
-      "explanation_incorrect": "Molinara i Rondinella to szczepy uzupełniające, a Negrara jest rzadziej stosowana w tym stylu win.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Corvina jest ważną odmianą Amarone; przepisy dopuszczają też wykorzystanie Corvinone.",
+      "explanation_incorrect": "Pozostałe wymienione odmiany nie są podstawową parą Corvina–Corvinone w przepisach apelacji."
     },
     {
       "subcategory": "Wina wzmacniane",
-      "question": "Jaki typ wina Sherry dojrzewa pod ochronną warstwą drożdży flor w procesie biologicznego starzenia?",
+      "question": "Który typ Sherry dojrzewa wyłącznie biologicznie pod ochronną warstwą drożdży flor?",
       "options": [
         "Amontillado",
         "Oloroso",
@@ -634,28 +598,24 @@
       ],
       "answer": "Fino",
       "explanation_correct": "Fino jest Sherry starzonym wyłącznie biologicznie pod warstwą flor, co chroni je przed utlenianiem.",
-      "explanation_incorrect": "Oloroso starzeje się oksydacyjnie, a pozostałe style mają charakter mieszany lub inny proces dojrzewania.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Oloroso starzeje się oksydacyjnie, a pozostałe style mają charakter mieszany lub inny proces dojrzewania."
     },
     {
       "subcategory": "Szczepy białe",
-      "question": "Który biały szczep wywodzi się z włoskiego regionu Kampania?",
+      "question": "Która biała odmiana jest szczególnie kojarzona z winem Fiano di Avellino w Kampanii?",
       "options": [
         "Fiano",
-        "Falanghina",
-        "Greco",
-        "Trebbiano"
+        "Nebbiolo",
+        "Tempranillo",
+        "Cabernet Sauvignon"
       ],
       "answer": "Fiano",
       "explanation_correct": "Fiano to wybitny szczep z Kampanii, ceniony za głębię smakową i potencjał starzenia.",
-      "explanation_incorrect": "Falanghina i Greco to inne odmiany z tego samego regionu, które charakteryzują się odmienną genetyką.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wino Fiano di Avellino jest szczególnie związane z odmianą Fiano."
     },
     {
       "subcategory": "Szczepy czerwone",
-      "question": "Jaki szczep winorośli jest jedynym dopuszczonym w czerwonych winach z apelacji Hermitage w Dolinie Rodanu?",
+      "question": "Który czerwony szczep stanowi podstawową odmianę czerwonych win apelacji Hermitage?",
       "options": [
         "Grenache",
         "Mourvèdre",
@@ -663,10 +623,8 @@
         "Cinsault"
       ],
       "answer": "Syrah",
-      "explanation_correct": "Hermitage słynie z potężnych i długowiecznych win produkowanych w 100% z odmiany Syrah.",
-      "explanation_incorrect": "Pozostałe szczepy są popularne w innych częściach Doliny Rodanu, ale nie w samym Hermitage.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Syrah jest podstawową odmianą czerwonego Hermitage; dopuszcza się także ograniczony udział białych odmian Marsanne i Roussanne.",
+      "explanation_incorrect": "Grenache, Mourvèdre i Cinsault nie są podstawowym szczepem czerwonego Hermitage."
     },
     {
       "subcategory": "Wina miodowe",
@@ -754,9 +712,7 @@
       ],
       "answer": "Madera",
       "explanation_correct": "Madera jest poddawana działaniu ciepła, co symuluje dawne warunki transportu morskiego przez tropiki.",
-      "explanation_incorrect": "Porto dojrzewa w chłodniejszych warunkach, a Sherry opiera się na systemie solera i flor.",
-      "last_verified_at": "2026-06-12T17:18:21.479Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Madera jest charakterystyczna dzięki dojrzewaniu z udziałem ciepła. Sherry i Porto stosują inne tradycyjne sposoby dojrzewania."
     },
     {
       "subcategory": "Szczepy białe",
@@ -850,33 +806,29 @@
     },
     {
       "subcategory": "Szczepy hybrydowe",
-      "question": "Która odmiana winorośli jest obecnie najpopularniejszym szczepem hybrydowym uprawianym w polskich winnicach?",
+      "question": "Która z wymienionych odmian uprawianych w Polsce daje białe winogrona?",
       "options": [
-        "Regent",
         "Solaris",
+        "Regent",
         "Rondo",
-        "Hibernal"
+        "Pinot Noir"
       ],
       "answer": "Solaris",
-      "explanation_correct": "Solaris jest niezwykle ceniony w Polsce za wczesne dojrzewanie i wysoką odporność na mróz.",
-      "explanation_incorrect": "Regent i Rondo to również odmiany hybrydowe, ale to Solaris dominuje w nowych nasadzeniach.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Solaris jest odmianą o jasnych owocach, cenioną w polskich warunkach uprawy.",
+      "explanation_incorrect": "Regent, Rondo i Pinot Noir są odmianami o ciemnych owocach."
     },
     {
       "subcategory": "Wina słodkie",
-      "question": "Pod jaką nazwą znane są włoskie wina deserowe powstające z podsuszanych (rodzynkowanych) winogron?",
+      "question": "Jak nazywa się włoska metoda podsuszania winogron przed produkcją skoncentrowanego wina?",
       "options": [
-        "Recioto",
-        "Passito",
-        "Vin Santo",
-        "Sciacchetrà"
+        "Appassimento",
+        "Kupażowanie",
+        "Degorżowanie",
+        "Maceracja węglowa"
       ],
-      "answer": "Passito",
-      "explanation_correct": "Metoda passito polega na koncentracji cukru poprzez suszenie owoców przed tłoczeniem.",
-      "explanation_incorrect": "Recioto i Vin Santo to style wymagające konkretnych apelacji, podczas gdy Passito to ogólna nazwa procesu.",
-      "last_verified_at": "2026-06-12T17:17:57.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Appassimento",
+      "explanation_correct": "Appassimento polega na podsuszaniu winogron, aby skoncentrować składniki owoców przed winifikacją.",
+      "explanation_incorrect": "Pozostałe terminy oznaczają inne techniki winiarskie; wina z podsuszonych gron obejmują m.in. passito, recioto i vin santo."
     },
     {
       "subcategory": "Szczepy czerwone",
@@ -903,10 +855,8 @@
         "Sec"
       ],
       "answer": "Brut Nature",
-      "explanation_correct": "Brut Nature oznacza wino musujące, do którego po degorżowaniu nie dodano likieru ekspedycyjnego, co skutkuje brakiem cukru resztkowego.",
-      "explanation_incorrect": "Pozostałe określenia wskazują na różne stopnie zawartości cukru, od wytrawnych po słodkie.",
-      "last_verified_at": "2026-06-12T17:17:57.176Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brut Nature oznacza brak dodatku cukru po fermentacji i zawartość cukru poniżej 3 g/l; niewielka ilość cukru resztkowego jest dopuszczalna.",
+      "explanation_incorrect": "Pozostałe określenia wskazują na różne stopnie zawartości cukru, od wytrawnych po słodkie."
     },
     {
       "subcategory": "Szczepy słowiańskie",
@@ -957,16 +907,14 @@
       "subcategory": "Enoturystyka",
       "question": "Jak nazywamy miejsce, w którym selekcja win jest przechowywana głównie w celu ich profesjonalnej degustacji oraz sprzedaży?",
       "options": [
-        "Winiarnia",
         "Enoteka",
-        "Piwniczka",
-        "Gorzelnia"
+        "Gorzelnia",
+        "Młyn",
+        "Piekarnia"
       ],
       "answer": "Enoteka",
       "explanation_correct": "Enoteka odnosi się do specjalistycznego lokalu lub sklepu skupionego na prezentacji i sprzedaży wyselekcjonowanych win.",
-      "explanation_incorrect": "Winiarnia to miejsce produkcji, a piwniczka to miejsce składowania, niekoniecznie o charakterze komercyjnym/degustacyjnym.",
-      "last_verified_at": "2026-06-12T17:17:57.176Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gorzelnia, młyn i piekarnia nie oznaczają specjalistycznego sklepu lub lokalu z winami."
     },
     {
       "subcategory": "Szczepy białe",
@@ -1008,10 +956,8 @@
         "Sangiovese"
       ],
       "answer": "Malbec",
-      "explanation_correct": "Cahors jest historyczną ojczyzną szczepu Malbec, często nazywanego tam 'czarnym winem'.",
-      "explanation_incorrect": "Pozostałe wymienione odmiany nie są historycznie związane z apelacją Cahors.",
-      "last_verified_at": "2026-06-12T17:17:57.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Malbec, nazywany również Cot, jest podstawową odmianą czerwonych win Cahors; samo wino bywa nazywane „czarnym winem”.",
+      "explanation_incorrect": "Pozostałe wymienione odmiany nie są historycznie związane z apelacją Cahors."
     },
     {
       "subcategory": "Wina musujące",
@@ -1068,10 +1014,8 @@
         "Mourvedre"
       ],
       "answer": "Grenache",
-      "explanation_correct": "W apelacji Gigondas to Grenache musi stanowić większość udziału w składzie wina.",
-      "explanation_incorrect": "Choć pozostałe szczepy są używane, to Grenache jest głównym składnikiem ustalonym w przepisach apelacji.",
-      "last_verified_at": "2026-06-12T17:17:57.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Grenache jest podstawową odmianą czerwonego Gigondas; przepisy apelacji określają jej udział w nasadzeniach gospodarstwa.",
+      "explanation_incorrect": "Choć pozostałe szczepy są używane, to Grenache jest głównym składnikiem ustalonym w przepisach apelacji."
     },
     {
       "subcategory": "Przechowywanie wina",
@@ -1105,7 +1049,7 @@
     },
     {
       "subcategory": "Wina hiszpańskie",
-      "question": "W hiszpańskim systemie klasyfikacji, które określenie odnosi się do wina, które dojrzewało minimum dwa lata, w tym co najmniej rok w dębowej beczce?",
+      "question": "Jaka jest najniższa kategoria dojrzewania czerwonego Rioja, wymagająca co najmniej dwóch lat, w tym roku w dębowej beczce?",
       "options": [
         "Garnacha",
         "Crianza",
@@ -1113,10 +1057,8 @@
         "Gran Reserva"
       ],
       "answer": "Crianza",
-      "explanation_correct": "Crianza to podstawowa kategoria dojrzewania win czerwonych w wielu apelacjach Hiszpanii.",
-      "explanation_incorrect": "Reserva i Gran Reserva wymagają znacznie dłuższego procesu starzenia.",
-      "last_verified_at": "2026-06-12T17:17:57.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Rioja kategoria Crianza dla win czerwonych obejmuje co najmniej dwa lata dojrzewania, w tym co najmniej rok w beczce.",
+      "explanation_incorrect": "Reserva i Gran Reserva wymagają dłuższego dojrzewania, a Garnacha jest odmianą winorośli."
     },
     {
       "subcategory": "Szczepy czerwone",
@@ -1143,10 +1085,8 @@
         "Buk pospolity"
       ],
       "answer": "Dąb korkowy",
-      "explanation_correct": "Naturalny korek pozyskuje się z kory dębu korkowego, głownie w krajach śródziemnomorskich, jak Portugalia.",
-      "explanation_incorrect": "Wymienione inne gatunki drzew nie mają kory o właściwościach umożliwiających produkcję szczelnych korków winiarskich.",
-      "last_verified_at": "2026-06-12T17:17:57.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Naturalny korek pozyskuje się z kory dębu korkowego, głównie w krajach śródziemnomorskich, takich jak Portugalia.",
+      "explanation_incorrect": "Wymienione inne gatunki drzew nie mają kory o właściwościach umożliwiających produkcję szczelnych korków winiarskich."
     },
     {
       "subcategory": "Szczepy białe",
@@ -1203,10 +1143,8 @@
         "Mas"
       ],
       "answer": "Château",
-      "explanation_correct": "Termin Château jest zarezerwowany dla posiadłości z budynkiem i przyległą winnicą w Bordeaux.",
-      "explanation_incorrect": "Pozostałe określenia odnoszą się do winnic lub majątków w innych regionach Francji.",
-      "last_verified_at": "2026-06-12T17:17:57.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Château to tradycyjne określenie posiadłości winiarskiej używane szczególnie często w Bordeaux; pojawia się także poza tym regionem.",
+      "explanation_incorrect": "Domaine, clos i mas są innymi francuskimi określeniami posiadłości lub winnic, nie wyłącznie przypisanymi do Bordeaux."
     },
     {
       "subcategory": "Szczepy białe",
@@ -1219,9 +1157,7 @@
       ],
       "answer": "Chenin Blanc",
       "explanation_correct": "W apelacji Vouvray jedynym dozwolonym szczepem białym jest Chenin Blanc.",
-      "explanation_incorrect": "Sauvignon Blanc dominuje w Sancerre, a Muscadet w regionie Nantes.",
-      "last_verified_at": "2026-06-12T17:17:57.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sauvignon Blanc jest kojarzony m.in. z Sancerre; Muscadet to nazwa apelacji, a nie odmiany winorośli."
     },
     {
       "subcategory": "Degustacja",
@@ -1409,14 +1345,12 @@
       "options": [
         "Wytłoki",
         "Osad",
-        "Most",
+        "Moszcz",
         "Drożdże"
       ],
       "answer": "Wytłoki",
       "explanation_correct": "Wytłoki (marc) pozostają po wyciśnięciu soku z winogron i mogą służyć do produkcji destylatów.",
-      "explanation_incorrect": "Most to świeży sok, osad to pozostałości po fermentacji, a drożdże to mikroorganizmy.",
-      "last_verified_at": "2026-06-12T17:18:00.789Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Moszcz to świeżo pozyskany sok, osad może pozostawać po fermentacji, a drożdże są mikroorganizmami."
     },
     {
       "subcategory": "Szczepy czerwone",
@@ -1428,25 +1362,21 @@
         "Corvina"
       ],
       "answer": "Barbera",
-      "explanation_correct": "Barbera jest drugim co do ważności po Nebbiolo szczepem czerwonym w regionie Piemont we Włoszech.",
-      "explanation_incorrect": "Pozostałe szczepy są typowe dla Toskanii, Abruzji lub regionu Veneto.",
-      "last_verified_at": "2026-06-12T17:18:00.789Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Barbera jest jedną z najważniejszych i szeroko uprawianych czerwonych odmian Piemontu.",
+      "explanation_incorrect": "Pozostałe szczepy są typowe dla Toskanii, Abruzji lub regionu Veneto."
     },
     {
       "subcategory": "Wina pomarańczowe",
       "question": "Jak nazywa się tradycyjne naczynie w kształcie jaja, zakopywane w ziemi podczas fermentacji win gruzińskich?",
       "options": [
         "Kvevri",
-        "Amfora",
-        "Beczka",
-        "Kadź"
+        "Korkociąg",
+        "Dekanter",
+        "Kieliszek"
       ],
       "answer": "Kvevri",
       "explanation_correct": "Kvevri to starożytne gliniane naczynie wykorzystywane w tradycyjnej metodzie produkcji wina w Gruzji.",
-      "explanation_incorrect": "Termin amfora jest ogólny, a beczka i kadź wykonane są z innych materiałów niż glina.",
-      "last_verified_at": "2026-06-12T17:18:00.789Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Korkociąg, dekanter i kieliszek nie są zakopywanymi naczyniami fermentacyjnymi."
     },
     {
       "subcategory": "Szczepy białe",

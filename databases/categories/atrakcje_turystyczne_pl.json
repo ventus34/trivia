@@ -2,7 +2,7 @@
   "id": "atrakcje_turystyczne_pl",
   "name": "Atrakcje Turystyczne",
   "language": "pl",
-  "description": "Pytania z zakresu: Polska architektura sakralna, Wonders of the World, Paryskie muzea...",
+  "description": "Pytania z zakresu: Polska architektura sakralna, Cuda świata, Paryskie muzea...",
   "created_at": "2026-06-12T14:59:15.455Z",
   "last_verified_at": "2026-06-12T14:59:14.502Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -14,17 +14,15 @@
       "options": [
         "Kościoły Łaski",
         "Kościoły Pokoju",
-        "Kościoły Artykuularne",
+        "Kościoły Artykularne",
         "Kościoły Klepsydrowe"
       ],
       "answer": "Kościoły Pokoju",
-      "explanation_correct": "Kościoły Pokoju powstały na mocy traktatu westfalskiego kończącego wojnę trzydziestoletnią. Są to największe w Europie drewniane budowle o funkcjach religijnych.",
-      "explanation_incorrect": "Kościoły Łaski powstały w innym okresie, a pozostałe nazwy odnoszą się do odrębnych typów budownictwa sakralnego lub są fikcyjne.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kościoły Pokoju powstały po pokoju westfalskim, który zakończył wojnę trzydziestoletnią. Świątynie w Jaworze i Świdnicy wpisano wspólnie na Listę Światowego Dziedzictwa UNESCO.",
+      "explanation_incorrect": "Kościoły Łaski powstały w innym okresie, a pozostałe nazwy odnoszą się do odrębnych typów budownictwa sakralnego lub są fikcyjne."
     },
     {
-      "subcategory": "Wonders of the World",
+      "subcategory": "Cuda świata",
       "question": "Jak nazywa się starożytne miasto w Jordanii, słynące z budowli wykutych bezpośrednio w różowych skałach?",
       "options": [
         "Petra",
@@ -48,10 +46,8 @@
         "Musée d'Orsay"
       ],
       "answer": "Musée d'Orsay",
-      "explanation_correct": "Muzeum to posiada najbogatszą na świecie kolekcję dzieł impresjonistów i postimpresjonistów. Budynek służył jako dworzec do lat 30. XX wieku.",
-      "explanation_incorrect": "Luwr to dawny pałac królewski, Centre Pompidou to obiekt nowoczesny, a Musée de l'Orangerie mieści się w dawnej oranżerii.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Musée d’Orsay zajmuje budynek dawnego dworca Gare d’Orsay, otwartego w 1900 roku. Słynie m.in. z kolekcji sztuki impresjonistycznej i postimpresjonistycznej.",
+      "explanation_incorrect": "Luwr to dawny pałac królewski, Centre Pompidou to obiekt nowoczesny, a Musée de l'Orangerie mieści się w dawnej oranżerii."
     },
     {
       "subcategory": "Islandzki fenomen przyrodniczy",
@@ -108,10 +104,8 @@
         "Enric Miralles"
       ],
       "answer": "Antoni Gaudí",
-      "explanation_correct": "Gaudí poświęcił projektowi ponad 40 lat życia i został pochowany w krypcie świątyni. Budowla do dziś pozostaje nieukończona.",
-      "explanation_incorrect": "Pozostali to również wybitni hiszpańscy architekci, ale nie byli projektantami tej konkretnej bazyliki.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gaudí przejął projekt po pierwszym architekcie, Franciscu de Paula del Villarze, i pracował nad nim przez ponad 40 lat. Został pochowany w krypcie bazyliki.",
+      "explanation_incorrect": "Pozostali to również wybitni hiszpańscy architekci, ale nie byli projektantami tej konkretnej bazyliki."
     },
     {
       "subcategory": "Zabytki starożytnego Rzymu",
@@ -139,9 +133,7 @@
       ],
       "answer": "Zapora Hoovera",
       "explanation_correct": "Wzniesiona w latach 1931–1936 zapora była w chwili ukończenia największą elektrownią wodną na świecie. Spiętrza wody rzeki, tworząc sztuczne jezioro Mead.",
-      "explanation_incorrect": "Wymienione zapory również znajdują się w USA, ale na innych rzekach lub w innych lokalizacjach.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Grand Coulee i Shasta znajdują się na innych rzekach. Glen Canyon również przegradza Kolorado, ale w innym miejscu, na pograniczu Arizony i Utah."
     },
     {
       "subcategory": "Atrakcje Kambodży",
@@ -169,9 +161,7 @@
       ],
       "answer": "Okrąglica",
       "explanation_correct": "Okrąglica (982 m n.p.m.) jest najwyższą z pięciu turni tworzących koronę masywu Trzech Koron.",
-      "explanation_incorrect": "Wysoka jest najwyższym szczytem całych Pienin, a Wysoki Wierch to znany punkt widokowy w Małych Pieninach.",
-      "last_verified_at": "2026-06-12T14:59:14.502Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Płaska Skała, Pańska Skała i Nad Ogródki są innymi turniami masywu; Okrąglica jest z nich najwyższa."
     },
     {
       "subcategory": "Szwajcarskie Alpy",
@@ -183,10 +173,8 @@
         "Matterhorn"
       ],
       "answer": "Matterhorn",
-      "explanation_correct": "Matterhorn wznosi się na wysokość 4478 m n.p.m. i jest uznawany za jeden z najtrudniejszych do zdobycia czterotysięczników.",
-      "explanation_incorrect": "Mont Blanc to najwyższy szczyt Alp, a Eiger i Jungfrau tworzą słynny masyw wraz z Mönch w Alpach Berneńskich.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Matterhorn ma wysokość około 4478 m n.p.m. i charakterystyczny piramidalny kształt. W języku włoskim jest nazywany Cervino.",
+      "explanation_incorrect": "Mont Blanc to najwyższy szczyt Alp, a Eiger i Jungfrau tworzą słynny masyw wraz z Mönch w Alpach Berneńskich."
     },
     {
       "subcategory": "Atrakcje Wenecji",
@@ -220,7 +208,7 @@
     },
     {
       "subcategory": "Zabytki Peru",
-      "question": "Jak nazywa się najlepiej zachowane miasto Inków, odkryte dla świata w 1911 roku przez Hirama Binghama?",
+      "question": "Jak nazywa się inkaska cytadela w Andach, którą Hiram Bingham odwiedził w 1911 roku z pomocą lokalnych mieszkańców?",
       "options": [
         "Cuzco",
         "Tiahuanaco",
@@ -228,10 +216,8 @@
         "Choquequirao"
       ],
       "answer": "Machu Picchu",
-      "explanation_correct": "Zbudowane w XV wieku na wysokości ponad 2000 metrów, miasto służyło prawdopodobnie jako rezydencja królewska lub ośrodek religijny. W 1983 roku wpisano je na listę UNESCO.",
-      "explanation_incorrect": "Cuzco było stolicą imperium, Tiahuanaco to kultura przedinkaska, a Choquequirao to mniej znane miasto nazywane 'siostrą' Machu Picchu.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Machu Picchu było znane miejscowym mieszkańcom przed wizytą Binghama. Zbudowany w XV wieku zespół jest wpisany na listę UNESCO.",
+      "explanation_incorrect": "Cuzco było stolicą imperium, Tiahuanaco to kultura przedinkaska, a Choquequirao to mniej znane miasto nazywane 'siostrą' Machu Picchu."
     },
     {
       "subcategory": "Hydrografia Islandii",
@@ -244,9 +230,7 @@
       ],
       "answer": "Gullfoss",
       "explanation_correct": "Gullfoss oznacza w języku islandzkim 'Złoty Wodospad'. Jest on kluczowym elementem trasy turystycznej zwanej Złotym Kręgiem.",
-      "explanation_incorrect": "Skógafoss i Seljalandsfoss leżą na południu wyspy, a Dettifoss to najpotężniejszy wodospad w Europie pod względem przepływu wody.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Skógafoss i Seljalandsfoss leżą na południu wyspy, a Dettifoss jest potężnym wodospadem w północno-wschodniej Islandii."
     },
     {
       "subcategory": "Architektura nowoczesna",
@@ -280,7 +264,7 @@
     },
     {
       "subcategory": "Zabytki starożytnego Egiptu",
-      "question": "Jak nazywa się największy monolityczny posąg na świecie, znajdujący się obok piramid w Gizie?",
+      "question": "Jak nazywa się monumentalny posąg lwa z ludzką twarzą stojący w pobliżu piramid w Gizie?",
       "options": [
         "Kolosy Memnona",
         "Obelisk Teodozjusza",
@@ -288,10 +272,8 @@
         "Posąg Ramzesa II"
       ],
       "answer": "Wielki Sfinks",
-      "explanation_correct": "Sfinks przedstawia leżącego lwa z ludzką twarzą, najprawdopodobniej faraona Chefrena. Został wykuty w jednej skale wapiennej.",
-      "explanation_incorrect": "Kolosy Memnona znajdują się w Tebach, a pozostałe to wolnostojące pomniki wykonane z różnych bloków kamienia.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wielki Sfinks został wykuty w podłożu wapiennym. Jego twarz często łączy się z faraonem Chefrenem, choć identyfikacja ta jest przedmiotem dyskusji.",
+      "explanation_incorrect": "Kolosy Memnona stoją w Tebach; pozostałe obiekty nie odpowiadają opisowi posągu lwa z ludzką twarzą w Gizie."
     },
     {
       "subcategory": "Parki narodowe USA",
@@ -325,7 +307,7 @@
     },
     {
       "subcategory": "Zoologia turystyczna",
-      "question": "Który gatunek żółwi lądowych jest endemicznym mieszkańcem archipelagu Galapagos?",
+      "question": "Jak nazywa się grupa dużych żółwi lądowych naturalnie występujących na Galapagos?",
       "options": [
         "Żółwie zielone",
         "Żółwie błotne",
@@ -333,10 +315,8 @@
         "Żółwie skórzaste"
       ],
       "answer": "Żółwie słoniowe",
-      "explanation_correct": "Są to jedne z największych żyjących żółwi na świecie, a ich pancerze osiągają ponad metr długości.",
-      "explanation_incorrect": "Żółwie zielone i skórzaste to gady morskie, natomiast żółwie błotne to gatunek słodkowodny występujący m.in. w Europie.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żółwie słoniowe z Galapagos obejmują kilka linii i gatunków; należą do największych żyjących żółwi lądowych.",
+      "explanation_incorrect": "Żółwie zielone i skórzaste to gady morskie, natomiast żółwie błotne to gatunek słodkowodny występujący m.in. w Europie."
     },
     {
       "subcategory": "Kultura Chin",
@@ -378,10 +358,8 @@
         "Efekt Tyndalla"
       ],
       "answer": "Zorza polarna",
-      "explanation_correct": "Powstaje w wyniku oddziaływania wiatru słonecznego z polem magnetycznym Ziemi w okolicach polarnych.",
-      "explanation_incorrect": "Miraż to zjawisko optyczne w troposferze, a efekt Tyndalla dotyczy rozpraszania światła w koloidach.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zorza powstaje, gdy cząstki kierowane przez ziemskie pole magnetyczne zderzają się z atomami i cząsteczkami górnej atmosfery, powodując emisję światła.",
+      "explanation_incorrect": "Miraż to zjawisko optyczne w troposferze, a efekt Tyndalla dotyczy rozpraszania światła w koloidach."
     },
     {
       "subcategory": "Zabytki Grecji",
@@ -499,9 +477,7 @@
       ],
       "answer": "Wyspy Galapagos",
       "explanation_correct": "Darwin odwiedził te wyspy w 1835 roku na pokładzie statku HMS Beagle, badając specyficzne cechy lokalnej fauny.",
-      "explanation_incorrect": "Chociaż pozostałe archipelagi są wulkaniczne, to izolacja gatunków na Galapagos stała się kluczem do teorii doboru naturalnego.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe archipelagi nie były miejscem opisanych obserwacji Darwina. Na rozwój jego teorii wpłynęły również dane z innych regionów i późniejsze badania."
     },
     {
       "subcategory": "Historyczny transport",
@@ -520,7 +496,7 @@
     },
     {
       "subcategory": "Hydrobiologia",
-      "question": "Jak nazywa się słone jezioro na Palau słynące z ogromnej populacji meduz, które utraciły zdolność parzydełkowania?",
+      "question": "Jak nazywa się słone jezioro na Palau znane z populacji złotych meduz?",
       "options": [
         "Jezioro Meduzowe",
         "Jezioro Titicaca",
@@ -528,10 +504,8 @@
         "Jezioro Tahoe"
       ],
       "answer": "Jezioro Meduzowe",
-      "explanation_correct": "Jezioro Meduzowe to potoczna nazwa jeziora Ongeim'l Tketau na Palau. Izolacja od oceanu sprawiła, że żyjące tam meduzy utraciły parzydełkowanie.",
-      "explanation_incorrect": "Titicaca to jezioro wysokogórskie, a Jezioro Wiktorii jest największym jeziorem tropikalnym na świecie. Tahoe leży w Ameryce Północnej i nie jest znane z meduz.",
-      "last_verified_at": "2026-06-12T14:56:31.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jezioro Meduzowe, Ongeim’l Tketau, zamieszkują złote meduzy. Zachowały one komórki parzydełkowe; ich ukłucie jest zwykle słabe dla człowieka.",
+      "explanation_incorrect": "Titicaca to jezioro wysokogórskie, a Jezioro Wiktorii jest największym jeziorem tropikalnym na świecie. Tahoe leży w Ameryce Północnej i nie jest znane z meduz."
     },
     {
       "subcategory": "Sztuka uliczna",
@@ -565,7 +539,7 @@
     },
     {
       "subcategory": "Klimatologia",
-      "question": "Która pustynia, położona w północnym Chile, uznawana jest za najbardziej suche miejsce na kuli ziemskiej?",
+      "question": "Która pustynia w północnym Chile należy do najsuchszych niepolarnych obszarów Ziemi?",
       "options": [
         "Sahara",
         "Gobi",
@@ -573,10 +547,8 @@
         "Kalahari"
       ],
       "answer": "Atakama",
-      "explanation_correct": "Niektóre stacje meteorologiczne na tej pustyni nigdy nie odnotowały opadów deszczu w swojej historii.",
-      "explanation_incorrect": "Sahara jest największą gorącą pustynią, a Gobi jest znana z ekstremalnych różnic temperatur zimą.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Atakama jest jedną z najsuchszych niepolarnych pustyń. Opady są tam bardzo rzadkie i różnią się znacznie w zależności od miejsca.",
+      "explanation_incorrect": "Sahara jest największą gorącą pustynią, a Gobi jest znana z ekstremalnych różnic temperatur zimą."
     },
     {
       "subcategory": "Inżynieria wodna",
@@ -603,10 +575,8 @@
         "Zion"
       ],
       "answer": "Park Narodowy Sekwoi",
-      "explanation_correct": "General Sherman to mamutowiec olbrzymi rosnący w Giant Forest na terenie Parku Narodowego Sekwoi. Jest to drzewo o największej objętości drewna na świecie.",
-      "explanation_incorrect": "Yosemite słynie z wodospadów i granitowych formacji, a Yellowstone z gejzerów. Zion jest znany z kanionów i czerwonych skał.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "General Sherman to mamutowiec olbrzymi rosnący w Giant Forest. Jest największym znanym żyjącym pojedynczym drzewem pod względem objętości pnia.",
+      "explanation_incorrect": "Yosemite słynie z wodospadów i granitowych formacji, a Yellowstone z gejzerów. Zion jest znany z kanionów i czerwonych skał."
     },
     {
       "subcategory": "Górnictwo zabytkowe",
@@ -648,10 +618,8 @@
         "Skellig Michael"
       ],
       "answer": "Giant's Causeway",
-      "explanation_correct": "Grobla Olbrzyma powstała w wyniku gwałtownego stygnięcia lawy bazaltowej około 50-60 milionów lat temu.",
-      "explanation_incorrect": "Cliffs of Moher to klify wapienne, Fingal's Cave znajduje się w Szkocji, a Skellig Michael to wyspa z klasztorem.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Grobla Olbrzyma składa się z kolumn bazaltu powstałych podczas stygnięcia lawy około 50–60 milionów lat temu.",
+      "explanation_incorrect": "Cliffs of Moher tworzą m.in. piaskowce, mułowce i łupki; Fingal’s Cave leży w Szkocji, a Skellig Michael to irlandzka wyspa z klasztorem."
     },
     {
       "subcategory": "Astronomia",
@@ -685,7 +653,7 @@
     },
     {
       "subcategory": "Polska przyroda",
-      "question": "W którym polskim parku narodowym znajdują się największe w Europie Środkowej ruchome wydmy?",
+      "question": "W którym polskim parku narodowym można zobaczyć nadmorskie ruchome wydmy, w tym Wydmę Łącką?",
       "options": [
         "Woliński Park Narodowy",
         "Słowiński Park Narodowy",
@@ -694,9 +662,7 @@
       ],
       "answer": "Słowiński Park Narodowy",
       "explanation_correct": "Słowiński Park Narodowy słynie z Wydmy Łąckiej, która przemieszcza się pod wpływem wiatru.",
-      "explanation_incorrect": "Woliński PN posiada klify, Biebrzański to mokradła, a Kampinoski to wydmy śródlądowe porośnięte lasem.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Woliński PN posiada klify, Biebrzański to mokradła, a Kampinoski to wydmy śródlądowe porośnięte lasem."
     },
     {
       "subcategory": "Architektura starożytna",
@@ -745,7 +711,7 @@
     },
     {
       "subcategory": "Sztuka uliczna",
-      "question": "W którym mieście znajduje się ulica o nazwie 'The High Line' – park linearny powstały na estakadzie dawnej linii kolejowej?",
+      "question": "W którym mieście znajduje się The High Line – park linearny na estakadzie dawnej linii kolejowej?",
       "options": [
         "Nowy Jork",
         "Chicago",
@@ -754,9 +720,7 @@
       ],
       "answer": "Nowy Jork",
       "explanation_correct": "The High Line na Manhattanie stała się światowym wzorem rewitalizacji terenów poprzemysłowych na cele rekreacyjne.",
-      "explanation_incorrect": "Pierwowzorem dla nowojorskiego projektu była Promenade Plantée w Paryżu, ale to nazwa High Line jest unikalna dla Nowego Jorku.",
-      "last_verified_at": "2026-06-12T14:59:14.502Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Paryska Promenade Plantée jest innym parkiem założonym na dawnej linii kolejowej; obiekt o nazwie The High Line znajduje się na Manhattanie."
     },
     {
       "subcategory": "Zjawiska klimatyczne",
@@ -768,14 +732,12 @@
         "Lodowiec Szelfowy Ronne"
       ],
       "answer": "Lodowiec Taylora",
-      "explanation_correct": "Czerwony kolor pochodzi z bogatej w tlenki żelaza solanki wypływającej z jeziora podlodowcowego.",
-      "explanation_incorrect": "Pozostałe lodowce są znacznie większe, ale nie wykazują tego specyficznego zjawiska hydrogeologicznego.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krwawe Wodospady wypływają z lodowca Taylora. Czerwona barwa wiąże się z utlenianiem związków żelaza obecnych w solance.",
+      "explanation_incorrect": "Pozostałe lodowce są znacznie większe, ale nie wykazują tego specyficznego zjawiska hydrogeologicznego."
     },
     {
       "subcategory": "Budowle obronne",
-      "question": "Który historyczny fort w Valletcie odegrał kluczową rolę podczas Wielkiego Oblężenia Malty w 1565 roku?",
+      "question": "Który fort, znajdujący się dziś w Valletcie, był oblegany przez wojska osmańskie w 1565 roku?",
       "options": [
         "Fort Rinella",
         "Fort Saint Elmo",
@@ -783,10 +745,8 @@
         "Fort Manoel"
       ],
       "answer": "Fort Saint Elmo",
-      "explanation_correct": "Fort Saint Elmo broni wejścia do portu i był miejscem heroicznej obrony przed flotą osmańską.",
-      "explanation_incorrect": "Fort Saint Angelo znajduje się w Birgu, a Forty Rinella i Manoel powstały w innych okresach historycznych.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fort Saint Elmo na półwyspie Sceberras bronił się przez niemal miesiąc w 1565 roku. Kamień węgielny pod Vallettę położono dopiero po oblężeniu, w 1566 roku.",
+      "explanation_incorrect": "Fort Saint Angelo znajduje się w Birgu, a Forty Rinella i Manoel powstały w innych okresach historycznych."
     },
     {
       "subcategory": "Egzotyczna botanika",
@@ -798,14 +758,12 @@
         "Reunion"
       ],
       "answer": "Sokotra",
-      "explanation_correct": "Dracena smocza (Dracaena cinnabari) wydziela czerwoną żywicę zwaną smoczą krwią, używaną dawniej w medycynie i farbiarstwie.",
-      "explanation_incorrect": "Pozostałe wyspy słyną z bogatej flory, ale kształt parasolowaty draceny jest unikalny dla odizolowanej Sokotry.",
-      "last_verified_at": "2026-06-12T14:59:14.502Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dracaena cinnabari, sokotrańskie drzewo smoczej krwi, wydziela czerwoną żywicę zwaną smoczą krwią.",
+      "explanation_incorrect": "Zanzibar, Madagaskar i Reunion nie są jemeńską Sokotrą. Inne gatunki dracen również mogą mieć rozłożyste korony lub czerwoną żywicę."
     },
     {
       "subcategory": "Muzea morskie",
-      "question": "Jak nazywa się szwedzki galeon z XVII wieku, wydobyty z dna morza i wystawiony w specjalnym muzeum na wyspie Djurgården?",
+      "question": "Jak nazywa się szwedzki okręt wojenny z XVII wieku, wydobyty z dna morza i wystawiony w muzeum na wyspie Djurgården?",
       "options": [
         "Vasa",
         "Mary Rose",
@@ -813,10 +771,8 @@
         "Fram"
       ],
       "answer": "Vasa",
-      "explanation_correct": "Vasa zatonęła w 1628 roku podczas dziewiczego rejsu, po przepłynięciu zaledwie jednej mili morskiej. Statek wydobyto niemal w całości w 1961 roku.",
-      "explanation_incorrect": "Mary Rose i Victory to okręty brytyjskie, a Fram to statek polarny używany przez Nansena i Amundsena.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Vasa zatonęła w 1628 roku w swoim dziewiczym rejsie po przebyciu niewielkiej odległości. Wrak podniesiono w 1961 roku.",
+      "explanation_incorrect": "Mary Rose i Victory to okręty brytyjskie, a Fram to statek polarny używany przez Nansena i Amundsena."
     },
     {
       "subcategory": "Turystyka filmowa",
@@ -850,7 +806,7 @@
     },
     {
       "subcategory": "Kryptobotanika",
-      "question": "W pobliżu której miejscowości w województwie zachodniopomorskim znajduje się pomnik przyrody 'Krzywy Las'?",
+      "question": "Przy której wsi w gminie Gryfino znajduje się pomnik przyrody „Krzywy Las”?",
       "options": [
         "Gryfino",
         "Nowe Czarnowo",
@@ -858,10 +814,8 @@
         "Stargard"
       ],
       "answer": "Nowe Czarnowo",
-      "explanation_correct": "Krzywy Las to skupisko około 100 nienaturalnie wygiętych sosen rosnących w Nowym Czarnowie pod Gryfinem.",
-      "explanation_incorrect": "Gryfino to gmina i najbliższe miasto, ale las fizycznie leży na terenie sołectwa Nowe Czarnowo.",
-      "last_verified_at": "2026-06-12T14:56:31.216Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krzywy Las znajduje się w pobliżu wsi Nowe Czarnowo w gminie Gryfino.",
+      "explanation_incorrect": "Gryfino jest miastem i siedzibą gminy; pozostałe miejscowości nie wskazują wsi przy Krzywym Lesie."
     },
     {
       "subcategory": "Święte góry",
@@ -910,7 +864,7 @@
     },
     {
       "subcategory": "Hydrografia miejska",
-      "question": "Jak nazywa się jedna z największych sztucznych wysp w Dubaju, uformowana w kształt drzewa palmowego?",
+      "question": "Jak nazywa się dubajska sztuczna wyspa w kształcie palmy, przy której znajduje się hotel Atlantis, The Palm?",
       "options": [
         "Palm Jumeirah",
         "Palm Jebel Ali",
@@ -919,9 +873,7 @@
       ],
       "answer": "Palm Jumeirah",
       "explanation_correct": "Palm Jumeirah to najsłynniejsza z dubajskich palm, ukończona jako pierwsza i posiadająca charakterystyczną strukturę pnia i liści.",
-      "explanation_incorrect": "The World to archipelag imitujący mapę świata, a Bluewaters Island to wyspa z kołem obserwacyjnym Ain Dubai.",
-      "last_verified_at": "2026-06-12T14:56:42.675Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Palm Jebel Ali to również projekt wyspy w kształcie palmy. The World to archipelag, a Bluewaters to wyspa z kołem Ain Dubai."
     },
     {
       "subcategory": "Współczesna architektura",
@@ -948,10 +900,8 @@
         "Wielka Piramida w Choluli"
       ],
       "answer": "Piramida Słońca",
-      "explanation_correct": "Piramida Słońca jest największą budowlą w Teotihuacán i jednym z najbardziej znanych zabytków Mezoameryki. Jest trzecią co do wielkości piramidą na świecie.",
-      "explanation_incorrect": "Piramida Księżyca znajduje się na północnym końcu Alei Zmarłych w tym samym kompleksie, ale jest znacznie mniejsza.",
-      "last_verified_at": "2026-06-12T14:56:42.675Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Piramida Słońca jest największą budowlą Teotihuacán i jednym z najbardziej znanych zabytków Mezoameryki.",
+      "explanation_incorrect": "Piramida Księżyca znajduje się na północnym końcu Alei Zmarłych w tym samym kompleksie, ale jest znacznie mniejsza."
     },
     {
       "subcategory": "Ekstremalna turystyka polarna",
@@ -970,7 +920,7 @@
     },
     {
       "subcategory": "Europejskie zamki",
-      "question": "Który bawarski zamek królewski stał się głównym wzorcem dla zamku Śpiącej Królewny w filmach Disneya?",
+      "question": "Który bawarski zamek był inspiracją dla Zamku Śpiącej Królewny w parku Disneyland w Kalifornii?",
       "options": [
         "Hohenschwangau",
         "Linderhof",
@@ -978,10 +928,8 @@
         "Herrenchiemsee"
       ],
       "answer": "Neuschwanstein",
-      "explanation_correct": "Neuschwanstein został zbudowany przez Ludwika II Wittelsbacha jako romantyczna interpretacja średniowiecznego zamku rycerskiego.",
-      "explanation_incorrect": "Hohenschwangau był zamkiem z dzieciństwa Ludwika II, a Linderhof to jedyny z jego projektów ukończony za jego życia.",
-      "last_verified_at": "2026-06-12T14:56:42.675Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Disneyland wskazuje Neuschwanstein w Bawarii jako inspirację dla zamku otwartego w parku w 1955 roku.",
+      "explanation_incorrect": "Hohenschwangau był zamkiem z dzieciństwa Ludwika II, a Linderhof to jedyny z jego projektów ukończony za jego życia."
     },
     {
       "subcategory": "Przyroda Islandii",
@@ -1009,9 +957,7 @@
       ],
       "answer": "Berlin",
       "explanation_correct": "East Side Gallery to pomnik wolności o długości 1,3 km, znajdujący się na fragmencie dawnego Muru Berlińskiego.",
-      "explanation_incorrect": "Paryż i Praga słyną z innych form ekspozycji ulicznych, ale nie mają obiektu o genezie politycznej muru miejskiego.",
-      "last_verified_at": "2026-06-12T14:56:42.675Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "East Side Gallery jest zachowanym fragmentem Muru Berlińskiego w Berlinie; pozostałe miasta nie są jego lokalizacją."
     },
     {
       "subcategory": "Transport lotniczy",
@@ -1054,24 +1000,20 @@
       ],
       "answer": "Bajkał",
       "explanation_correct": "Bajkał osiąga głębokość 1642 metrów i jest najgłębszym jeziorem świata. Uznaje się go także za jedno z najstarszych jezior słodkowodnych na Ziemi.",
-      "explanation_incorrect": "Tanganika jest drugim najgłębszym jeziorem świata, a Jezioro Górne jest największe pod względem powierzchni. Jezioro Wiktorii jest bardzo duże, ale znacznie płytsze.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tanganika jest drugim najgłębszym jeziorem świata, a Jezioro Górne największym słodkowodnym jeziorem świata pod względem powierzchni. Jezioro Wiktorii jest płytsze."
     },
     {
-      "subcategory": "Zabytki architektury sakralnej",
-      "question": "Jak nazywa się monumentalna bazylika w Barcelonie, której budowa trwa od 1882 roku według wizji Antoniego Gaudiego?",
+      "subcategory": "Architektura Barcelony",
+      "question": "Który park w Barcelonie, znany z mozaik i architektury Antoniego Gaudiego, nosi nazwisko swego inicjatora Eusebiego?",
       "options": [
-        "Sagrada Família",
-        "Katedra św. Eulalii",
-        "Santa Maria del Mar",
-        "Montserrat"
+        "Park Güell",
+        "Park Ciutadella",
+        "Park Retiro",
+        "Park Łazienkowski"
       ],
-      "answer": "Sagrada Família",
-      "explanation_correct": "Sagrada Família jest unikalnym połączeniem neogotyku i secesji, a jej ukończenie planowane jest na rok 2026.",
-      "explanation_incorrect": "Katedra św. Eulalii to główna katedra gotycka Barcelony, a Montserrat to klasztor położony w górach poza miastem.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Park Güell",
+      "explanation_correct": "Park Güell powstał z inicjatywy Eusebiego Güella według projektu Antoniego Gaudiego; jest częścią obiektu UNESCO „Dzieła Antoniego Gaudiego”.",
+      "explanation_incorrect": "Park Ciutadella także leży w Barcelonie, Retiro w Madrycie, a Łazienki w Warszawie; żaden z nich nie jest Parkiem Güell."
     },
     {
       "subcategory": "Szlaki piesze",
@@ -1090,7 +1032,7 @@
     },
     {
       "subcategory": "Szlaki winiarskie",
-      "question": "Nazwa którego historycznego regionu Francji jest prawnie zastrzeżona wyłącznie dla win musujących tam produkowanych?",
+      "question": "Jak nazywa się francuski region, z którego pochodzą wina musujące objęte chronioną nazwą Champagne?",
       "options": [
         "Alzacja",
         "Bordeaux",
@@ -1098,10 +1040,8 @@
         "Burgundia"
       ],
       "answer": "Szampania",
-      "explanation_correct": "Zasada apelacji (AOC) ogranicza używanie tej nazwy tylko do produktów z tego konkretnego regionu.",
-      "explanation_incorrect": "Inne regiony produkują wina musujące pod innymi nazwami, na przykład Crémant d'Alsace.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Champagne jest chronioną nazwą pochodzenia: wino musi pochodzić z wyznaczonego obszaru i spełniać określone zasady produkcji.",
+      "explanation_incorrect": "Alzacja, Bordeaux i Burgundia mają własne apelacje; w Alzacji wytwarza się m.in. Crémant d’Alsace."
     },
     {
       "subcategory": "Inżynieria morska",
@@ -1128,10 +1068,8 @@
         "Wenecja"
       ],
       "answer": "Wenecja",
-      "explanation_correct": "Karnawał w Wenecji jest najstarszym festiwalem maskowym na świecie, sięgającym swoimi korzeniami XI wieku.",
-      "explanation_incorrect": "Mediolan słynie z Tygodnia Mody, a Florencja z renesansowych zabytków, lecz nie z karnawału masek.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Karnawał w Wenecji ma wielowiekową historię i słynie z masek oraz ozdobnych kostiumów.",
+      "explanation_incorrect": "Mediolan słynie z Tygodnia Mody, a Florencja z renesansowych zabytków, lecz nie z karnawału masek."
     },
     {
       "subcategory": "Prawosławne klasztory",
@@ -1143,10 +1081,8 @@
         "Kreta"
       ],
       "answer": "Meteory",
-      "explanation_correct": "Meteory, co oznacza 'zawieszone w powietrzu', składają się z 24 klasztorów zbudowanych na naturalnych formacjach skalnych.",
-      "explanation_incorrect": "Athos to autonomiczna republika mnichów na półwyspie, gdzie wstęp kobiet jest surowo zabroniony.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Meteory w Tesalii słyną z klasztorów zbudowanych na wysokich formacjach skalnych. Spośród licznych historycznych klasztorów kilka jest nadal czynnych.",
+      "explanation_incorrect": "Athos to autonomiczna republika mnichów na półwyspie, gdzie wstęp kobiet jest surowo zabroniony."
     },
     {
       "subcategory": "Architektura modernizmu",
@@ -1189,9 +1125,7 @@
       ],
       "answer": "Dolina Śmierci",
       "explanation_correct": "Dolina Śmierci jest jednym z najgorętszych miejsc na świecie i słynie z rekordowo wysokich temperatur. Odnotowano tam 56,7°C.",
-      "explanation_incorrect": "Dolina Yosemite słynie z wodospadów i granitowych ścian, a Dolina Monumentów z iglic skalnych na terenie Nawaho. Dolina Krzemowa nie jest obiektem geograficznym tego typu.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dolina Yosemite słynie z wodospadów i granitowych ścian, Monument Valley z ostańców piaskowca, a Dolina Krzemowa leży w Kalifornii."
     },
     {
       "subcategory": "Fortyfikacje chińskie",
@@ -1210,7 +1144,7 @@
     },
     {
       "subcategory": "Sztuka renesansu",
-      "question": "Które słynne dzieło Michała Anioła zdobi centralną część sklepienia Kaplicy Sykstynskiej?",
+      "question": "Która scena Michała Anioła na sklepieniu Kaplicy Sykstyńskiej przedstawia Boga i Adama wyciągających ku sobie dłonie?",
       "options": [
         "Sąd Ostateczny",
         "Stworzenie Adama",
@@ -1219,9 +1153,7 @@
       ],
       "answer": "Stworzenie Adama",
       "explanation_correct": "Jest to jedno z najbardziej rozpoznawalnych dzieł na świecie, przedstawiające moment ożywienia pierwszego człowieka przez Boga.",
-      "explanation_incorrect": "Sąd Ostateczny znajduje się na ścianie ołtarzowej, a pozostałe opcje to inne, mniejsze sceny z cyklu sykstyńskiego.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sąd Ostateczny znajduje się na ścianie ołtarzowej; Ezechiel i Grzech Pierworodny są innymi przedstawieniami na sklepieniu."
     },
     {
       "subcategory": "Budowle sakralne",
@@ -1338,10 +1270,8 @@
         "Przylądek Świętego Wincentego"
       ],
       "answer": "Przylądek Dobrej Nadziei",
-      "explanation_correct": "Został odkryty przez Bartolomeu Diasa i nazwany tak przez króla Jana II, by symbolizował szansę na dotarcie do Indii.",
-      "explanation_incorrect": "Horn leży w Ameryce Południowej, Przylądek Północny w Norwegii, a św. Wincentego w Portugalii.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bartolomeu Dias opłynął przylądek w 1488 roku. Był to ważny etap portugalskich poszukiwań drogi morskiej do Indii; obszar był już wcześniej znany miejscowym społecznościom.",
+      "explanation_incorrect": "Horn leży w Ameryce Południowej, Przylądek Północny w Norwegii, a św. Wincentego w Portugalii."
     },
     {
       "subcategory": "Obiekty astronomiczne",
@@ -1369,9 +1299,7 @@
       ],
       "answer": "Jeti",
       "explanation_correct": "Jeti, znany też jako Człowiek Śniegu, jest stałym elementem folkloru tybetańskiego i himalajskiego.",
-      "explanation_incorrect": "Sasquatch (Wielka Stopa) pochodzi z Ameryki Północnej, Chupacabra z Meksyku, a Kraken to potwór morski ze skandynawskich legend.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sasquatch pochodzi z tradycji Ameryki Północnej, współczesne opowieści o chupacabrze zyskały rozgłos w Portoryko, a kraken to potwór morski z legend skandynawskich."
     },
     {
       "subcategory": "Hydrografia",
@@ -1399,24 +1327,20 @@
       ],
       "answer": "Katta",
       "explanation_correct": "Lemur katta jest najbardziej rozpoznawalnym gatunkiem lemura, prowadzącym w dużej mierze naziemny tryb życia.",
-      "explanation_incorrect": "Sifaka, Wari oraz Aj-aj (palczak madagaskarski) to inne gatunki małpiatek endemicznych dla Madagaskaru.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sifaki i wari to nazwy grup lemurów, a aj-aj (palczak madagaskarski) jest innym gatunkiem naczelnym występującym na Madagaskarze."
     },
     {
       "subcategory": "Geologia",
-      "question": "Jak nazywa się najgłębszy znany punkt na Ziemi, położony w Rowie Mariańskim na dnie Oceanu Spokojnego?",
+      "question": "Jak nazywa się najgłębsza znana część oceanu, położona w Rowie Mariańskim?",
       "options": [
+        "Głębia Challengera",
         "Rów Sundajski",
-        "Rów Atakamski",
         "Rów Mariański",
         "Rów Portorykański"
       ],
-      "answer": "Rów Mariański",
-      "explanation_correct": "Najgłębszy punkt Ziemi, Głębia Challengera, znajduje się w Rowie Mariańskim i sięga blisko 11 kilometrów poniżej poziomu morza. To najgłębsza znana część oceaniczna na świecie.",
-      "explanation_incorrect": "Pozostałe opcje to również głębokie rowy oceaniczne, ale znajdują się w innych rejonach świata. Nie są najgłębszym znanym miejscem na Ziemi.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Głębia Challengera",
+      "explanation_correct": "Głębia Challengera leży w południowej części Rowu Mariańskiego; pomiary wskazują głębokość około 10,9 km poniżej poziomu morza.",
+      "explanation_incorrect": "Rów Mariański jest większą strukturą obejmującą Głębię Challengera. Rowy Sundajski i Portorykański leżą w innych rejonach oceanów."
     },
     {
       "subcategory": "Sztuka renesansowa",
@@ -1480,22 +1404,20 @@
     },
     {
       "subcategory": "Kulinaria regionalne",
-      "question": "Jak nazywają się popularne w Kraju Basków lokale serwujące drobne przekąski pintxos, tradycyjnie podawane z wykałaczką?",
+      "question": "Jak nazywają się niewielkie przekąski serwowane w barach Kraju Basków, często podawane z wykałaczką?",
       "options": [
-        "Bodegas",
-        "Tabernas",
-        "Bary pintxos",
-        "Taquerias"
+        "Pintxos",
+        "Tacos",
+        "Sushi",
+        "Pierogi"
       ],
-      "answer": "Bary pintxos",
-      "explanation_correct": "Pintxos to baskijskie przekąski, często nabite na wykałaczkę i serwowane w barach specjalizujących się w tej kuchni.",
-      "explanation_incorrect": "Bodega to winiarnia, taberna to ogólny lokal gastronomiczny lub tawerna, a taqueria serwuje meksykańskie tacos.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pintxos",
+      "explanation_correct": "Pintxos to baskijskie przekąski, często nabite na wykałaczkę i serwowane w barach.",
+      "explanation_incorrect": "Tacos kojarzą się z kuchnią meksykańską, sushi z japońską, a pierogi występują m.in. w kuchni polskiej."
     },
     {
       "subcategory": "Odwierty i zjawiska",
-      "question": "Jaką potoczną nazwę nosi stale płonący krater gazowy Darvaza, znajdujący się na pustyni Kara-kum w Turkmenistanie?",
+      "question": "Jaką potoczną nazwę nosi krater gazowy Darvaza na pustyni Kara-kum w Turkmenistanie?",
       "options": [
         "Piekielna Otchłań",
         "Wrota Piekieł",
@@ -1503,10 +1425,8 @@
         "Słońce Pustyni"
       ],
       "answer": "Wrota Piekieł",
-      "explanation_correct": "Krater powstał w 1971 roku w wyniku zapadnięcia się terenu podczas wierceń i od tamtej pory płonie nieprzerwanie.",
-      "explanation_incorrect": "Pozostałe nazwy są jedynie potocznymi określeniami o charakterze opisowym, podczas gdy 'Wrota Piekieł' to utrwalona nazwa turystyczna.",
-      "last_verified_at": "2026-06-12T14:56:42.676Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krater zwany Wrotami Piekieł słynie z płonącego gazu. Dokładna data powstania krateru i rozpoczęcia pożaru jest sporna.",
+      "explanation_incorrect": "Wrota Piekieł to utrwalona nazwa turystyczna krateru; pozostałe odpowiedzi jej nie oddają."
     }
   ]
 }

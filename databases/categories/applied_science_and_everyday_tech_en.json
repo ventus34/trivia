@@ -12,16 +12,14 @@
       "subcategory": "Everyday Technology",
       "question": "Which mathematical method, using signal travel time from at least four satellites, is used to determine a receiver's position in GPS?",
       "options": [
-        "Trilateration",
+        "Thermometry",
         "Triangulation",
         "Multilateration",
         "Linear interpolation"
       ],
       "answer": "Multilateration",
-      "explanation_correct": "GPS determines position by measuring the time it takes signals to arrive from multiple satellites and solving for the receiver's location. In the strict technical sense, this is multilateration.",
-      "explanation_incorrect": "Triangulation uses angles, trilateration uses distances in a geometric sense, and linear interpolation is unrelated to satellite positioning.",
-      "last_verified_at": "2026-06-12T14:29:31.063Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "GPS estimates position from signal timing measurements from multiple satellites, while also solving for receiver clock offset. The geometry is often described as trilateration or multilateration.",
+      "explanation_incorrect": "Triangulation uses angles, while thermometry and linear interpolation are not positioning methods. GPS positioning is also often described as trilateration."
     },
     {
       "subcategory": "Everyday Technology",
@@ -55,7 +53,7 @@
     },
     {
       "subcategory": "Household Physics",
-      "question": "Which chemical compound in food is most efficiently agitated into rotation by microwave radiation, generating heat through friction?",
+      "question": "Which compound, made of two hydrogen atoms and one oxygen atom per molecule, absorbs microwave energy and contributes to heating food?",
       "options": [
         "Water (H2O)",
         "Fat",
@@ -63,10 +61,8 @@
         "Protein"
       ],
       "answer": "Water (H2O)",
-      "explanation_correct": "Water molecules are polar dipoles that align themselves with the alternating electromagnetic field, rotating rapidly and transferring kinetic energy as heat.",
-      "explanation_incorrect": "Fats, starch, and proteins absorb microwave energy far less effectively due to their lower molecular polarity.",
-      "last_verified_at": "2026-06-12T14:29:31.063Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Water molecules interact with the alternating electric field and transfer absorbed energy to their surroundings as heat.",
+      "explanation_incorrect": "Other food components can also absorb microwave energy; absorption depends on composition, temperature and frequency."
     },
     {
       "subcategory": "Materials Science",
@@ -100,7 +96,7 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which chemical compound (decomposing rapidly into nitrogen gas and sodium metal when heated) inflates car airbags in milliseconds?",
+      "question": "Which compound was used in some early airbag inflators to generate nitrogen gas rapidly?",
       "options": [
         "Sodium azide",
         "Gunpowder",
@@ -108,10 +104,8 @@
         "Nitroglycerin"
       ],
       "answer": "Sodium azide",
-      "explanation_correct": "Electric triggers heat sodium azide (NaN3) to over 300 degrees Celsius, triggering an explosive decay that yields nitrogen gas to inflate the bag.",
-      "explanation_incorrect": "Gunpowder and nitroglycerin produce dangerous shockwaves or toxic smoke, and sodium carbonate is a non-explosive cleaning salt.",
-      "last_verified_at": "2026-06-12T14:29:31.063Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Some older inflators used sodium azide, which decomposes rapidly to release nitrogen. Many modern inflators use other formulations.",
+      "explanation_incorrect": "The other listed substances are not the sodium azide used in those inflators."
     },
     {
       "subcategory": "Everyday Technology",
@@ -145,18 +139,16 @@
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Why does placing sharp metal objects (such as forks) inside a microwave oven cause dangerous electrical sparking?",
+      "question": "Why can sharp metal objects, such as forks, produce electrical sparks inside a microwave oven?",
       "options": [
-        "High electrical field concentration on sharp points ionizes the air, causing corona discharge",
+        "A strong electric field near sharp points can ionize air and cause arcing",
         "Metals reflect microwaves back into the magnetron, exploding it instantly",
         "The magnetic fields physically melt the metal via friction",
         "Fork tines vibrate mechanically due to wave resonance"
       ],
-      "answer": "High electrical field concentration on sharp points ionizes the air, causing corona discharge",
-      "explanation_correct": "Microwaves induce electric currents in metal; sharp tips concentrate the charge, creating an electric field strong enough to ionize air and form sparks.",
-      "explanation_incorrect": "Magnetron damage from reflections is a separate thermal issue, forks do not melt instantly, and mechanical resonance is not the source of the electric arcs.",
-      "last_verified_at": "2026-06-12T14:29:31.063Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "A strong electric field near sharp points can ionize air and cause arcing",
+      "explanation_correct": "A sharp metal point can concentrate the electric field enough to ionize surrounding air and produce an electrical arc.",
+      "explanation_incorrect": "Magnetron damage from reflections is a separate thermal issue, forks do not melt instantly, and mechanical resonance is not the source of the electric arcs."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -280,22 +272,20 @@
     },
     {
       "subcategory": "Materials Science",
-      "question": "Which gas component (making up over 99% of its volume) accounts for the low density and thermal insulation of aerogels?",
+      "question": "What commonly fills the pores of silica aerogel under ordinary atmospheric conditions?",
       "options": [
-        "Air (or nitrogen gas)",
+        "Air",
         "Vacuum",
         "Helium",
         "Argon"
       ],
-      "answer": "Air (or nitrogen gas)",
-      "explanation_correct": "Aerogels are open-celled mesoporous solids where air occupies over 95% of the volume, trapping gas molecules to stop convective heat transfer.",
-      "explanation_incorrect": "Creating a vacuum inside micro-pores is physically impossible at ambient scale, and noble gases like argon are not standard cell fillers.",
-      "last_verified_at": "2026-06-12T14:29:31.063Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Air",
+      "explanation_correct": "Silica aerogel has a porous solid network; under ordinary atmospheric conditions its pores are largely filled with air.",
+      "explanation_incorrect": "A vacuum is not a gas. The gases in the pores depend on the aerogel’s environment and processing."
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which volatile sulfur compound (lachrymatory agent released when onion cells are damaged) reacts with eye moisture to produce sulfuric acid?",
+      "question": "Which volatile sulfur compound, released when onion cells are damaged, triggers the tearing response?",
       "options": [
         "Syn-propanethial-S-oxide",
         "Diallyl disulfide",
@@ -303,10 +293,8 @@
         "Hydrogen sulfide"
       ],
       "answer": "Syn-propanethial-S-oxide",
-      "explanation_correct": "Syn-propanethial-S-oxide is a volatile gas that triggers sensory fibers in the cornea, prompting the tear glands to dilute the irritation.",
-      "explanation_incorrect": "Diallyl disulfide is a garlic aroma, allicin is an antimicrobial organosulfur in garlic, and hydrogen sulfide is a toxic gas with a rotten egg smell.",
-      "last_verified_at": "2026-06-12T14:29:31.063Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Syn-propanethial-S-oxide is a volatile irritant that stimulates sensory nerves in the eye, triggering tears.",
+      "explanation_incorrect": "Diallyl disulfide is a garlic aroma, allicin is an antimicrobial organosulfur in garlic, and hydrogen sulfide is a toxic gas with a rotten egg smell."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -373,15 +361,13 @@
       "question": "What dry acidic ingredient is added to baking soda to create a baking powder that reacts without the presence of acids in the dough?",
       "options": [
         "Cream of tartar (potassium bitartrate)",
-        "Citric acid",
-        "Acetic acid",
+        "Sodium carbonate",
+        "Calcium carbonate",
         "Sodium chloride"
       ],
       "answer": "Cream of tartar (potassium bitartrate)",
       "explanation_correct": "Cream of tartar is a dry acidic salt that reacts with sodium bicarbonate when moistened to produce CO2 gas.",
-      "explanation_incorrect": "Citric or acetic acids are typically added as liquids, and table salt has no leavening properties.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other listed compounds are not the dry acidic ingredient specified. Other acids, including solid citric acid, can also react with baking soda."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -460,7 +446,7 @@
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which protein makes up the largest portion of egg white and is the primary protein to denature during cooking?",
+      "question": "Which protein makes up the largest portion of egg-white protein?",
       "options": [
         "Ovalbumin",
         "Conalbumin",
@@ -468,10 +454,8 @@
         "Lysozyme"
       ],
       "answer": "Ovalbumin",
-      "explanation_correct": "Ovalbumin comprises over 50% of the proteins in egg white and undergoes rapid denaturation when exposed to heat.",
-      "explanation_incorrect": "Conalbumin is less abundant, Ovomucin provides structural thickness, and Lysozyme is a minor antimicrobial enzyme.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ovalbumin makes up over half of the protein in egg white and denatures during cooking; other egg-white proteins also denature at different temperatures.",
+      "explanation_incorrect": "Conalbumin, ovomucin and lysozyme are egg-white proteins but are less abundant than ovalbumin."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -505,7 +489,7 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What characteristic tuning fork shape is quartz crystal carved into in a watch to oscillate at exactly 32,768 Hz?",
+      "question": "What characteristic shape is commonly used for a quartz watch crystal with a nominal frequency of 32,768 Hz?",
       "options": [
         "Tuning fork",
         "Flat disc",
@@ -513,10 +497,8 @@
         "Double pyramid"
       ],
       "answer": "Tuning fork",
-      "explanation_correct": "The tuning fork geometry provides a stable, low-power frequency resonance of 32,768 Hz, which is easily divisible into one-second intervals.",
-      "explanation_incorrect": "The other shapes do not facilitate the stable, high-Q resonance required for precision quartz timekeeping.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A common quartz watch crystal has a nominal resonance of 32,768 Hz, which can be divided down to produce a nominal one-second interval.",
+      "explanation_incorrect": "Other crystal geometries are also possible, but the tuning-fork shape is a common low-power design for watch oscillators."
     },
     {
       "subcategory": "Materials Science",
@@ -625,7 +607,7 @@
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "What is the term for the characteristic earthy scent accompanying rain falling on dry soil, largely caused by geosmin?",
+      "question": "What is the name of the characteristic earthy smell associated with rain on dry ground?",
       "options": [
         "Petrichor",
         "Ozone",
@@ -633,10 +615,8 @@
         "Humus"
       ],
       "answer": "Petrichor",
-      "explanation_correct": "Petrichor comes from the Greek 'petra' (stone) and 'ichor' (the fluid that flows in the veins of the gods).",
-      "explanation_incorrect": "Ozone is the scent of air after a lightning strike, while geosmin is actually the specific compound causing the petrichor smell.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Petrichor describes the earthy smell associated with rain on dry ground. Geosmin is one compound that can contribute to it.",
+      "explanation_incorrect": "Geosmin is a compound, not the name of the overall smell; ozone and humus describe different substances or materials."
     },
     {
       "subcategory": "Everyday Technology",
@@ -655,22 +635,20 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which electronic component chain divides quartz oscillations to derive exactly one pulse per second?",
+      "question": "Which electronic component chain can divide a nominal 32,768 Hz quartz signal to derive a nominal one pulse per second?",
       "options": [
         "Frequency divider (flip-flop chain)",
         "Variable capacitor",
-        "8-bit microprocessor",
+        "Thermistor",
         "Operational amplifier"
       ],
       "answer": "Frequency divider (flip-flop chain)",
       "explanation_correct": "A series of digital flip-flops can divide a 32,768 Hz signal by 2 repeatedly until it reaches 1 Hz.",
-      "explanation_incorrect": "A capacitor performs tuning, a processor is overkill, and an amplifier does not change frequency.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A capacitor can tune an oscillator, a thermistor senses temperature, and an amplifier increases a signal; the flip-flop chain divides frequency."
     },
     {
       "subcategory": "Materials Science",
-      "question": "What is the phenomenon where a superconductor expels all magnetic flux from its interior, potentially enabling magnetic levitation?",
+      "question": "What is the effect in which a superconductor expels magnetic field from its bulk as it enters the superconducting state?",
       "options": [
         "Meissner effect",
         "Josephson effect",
@@ -678,10 +656,8 @@
         "Barkhausen effect"
       ],
       "answer": "Meissner effect",
-      "explanation_correct": "The Meissner effect describes the magnetic field expulsion, which is the defining characteristic of a perfect superconductor.",
-      "explanation_incorrect": "The Josephson effect involves tunneling, skin effect involves AC current density, and Barkhausen effect involves iron domain flipping.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Meissner effect is the expulsion of magnetic field from the bulk of a superconductor when it enters the superconducting state, subject to its critical conditions.",
+      "explanation_incorrect": "The Josephson effect involves tunneling, the skin effect concerns alternating current, and Barkhausen noise reflects magnetic domain changes."
     },
     {
       "subcategory": "Kitchen Science",
@@ -693,10 +669,8 @@
         "Actin"
       ],
       "answer": "Myoglobin",
-      "explanation_correct": "Myoglobin stores oxygen within muscle cells; during cooking, it oxidizes to metmyoglobin, changing color from red to grey.",
-      "explanation_incorrect": "Hemoglobin transports oxygen in blood circulation, collagen provides structural tissue, and actin is a contractile machinery component.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Myoglobin is an oxygen-binding protein in muscle and a major contributor to raw meat color. Heating changes the protein and its pigments, producing the colors of cooked meat.",
+      "explanation_incorrect": "Hemoglobin transports oxygen in blood circulation, collagen provides structural tissue, and actin is a contractile machinery component."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -768,10 +742,8 @@
         "Larmor precession and Shapiro delay"
       ],
       "answer": "Relativistic time dilation due to velocity and gravity",
-      "explanation_correct": "GPS satellites experience both kinematic time dilation (due to orbital speed) and gravitational time dilation (due to less mass nearby than at Earth's surface).",
-      "explanation_incorrect": "The other phenomena do not represent the cumulative time-sync errors that GNSS systems must mathematically correct.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Satellite clocks are affected by both their orbital speed and the difference in gravitational potential between their orbit and Earth’s surface.",
+      "explanation_incorrect": "The other phenomena do not represent the cumulative time-sync errors that GNSS systems must mathematically correct."
     },
     {
       "subcategory": "Everyday Technology",
@@ -783,10 +755,8 @@
         "Leo Esaki"
       ],
       "answer": "Shuji Nakamura",
-      "explanation_correct": "Nakamura was recognized for his massive industrial contribution to blue GaAs-nitride LED fabrication.",
-      "explanation_incorrect": "Esaki received his prize much earlier for tunnel diodes; the other two shared the 2014 award for the same material developments.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Shuji Nakamura shared the 2014 Nobel Prize in Physics with Akasaki and Amano for efficient blue LEDs based on gallium nitride.",
+      "explanation_incorrect": "Esaki received his prize much earlier for tunnel diodes; the other two shared the 2014 award for the same material developments."
     },
     {
       "subcategory": "Everyday Technology",
@@ -813,10 +783,8 @@
         "10.6 GHz"
       ],
       "answer": "2.45 GHz",
-      "explanation_correct": "The 2.45 GHz band is chosen because it effectively couples with water molecules without being entirely absorbed at the surface only.",
-      "explanation_incorrect": "The other frequencies are either reserved for different industrial/telecom standards or are inefficient for penetrating household meal-sized portions.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Most household microwave ovens operate near 2.45 GHz, an internationally allocated industrial, scientific and medical frequency band.",
+      "explanation_incorrect": "Some other frequencies are used in industrial microwave heating; 2.45 GHz is the usual household frequency."
     },
     {
       "subcategory": "Materials Science",
@@ -835,7 +803,7 @@
     },
     {
       "subcategory": "Household Physics",
-      "question": "Which material property of the cookware bottom is required for it to work on an induction stove?",
+      "question": "Which property makes cookware suitable for most ordinary household induction cooktops?",
       "options": [
         "Ferromagnetism",
         "Diamagnetism",
@@ -843,10 +811,8 @@
         "Superconductivity"
       ],
       "answer": "Ferromagnetism",
-      "explanation_correct": "The cookware base must interact with magnetic fields, requiring ferrous metals like cast iron or specific stainless steels to produce eddy currents.",
-      "explanation_incorrect": "Induction does not work with non-ferrous, non-conductive, or high-resistance materials like copper or standard aluminum.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Most household induction cooktops are designed for cookware with a magnetic base, such as cast iron or suitable stainless steel. The changing magnetic field induces currents that heat the base.",
+      "explanation_incorrect": "Most ordinary cooktops do not heat bare aluminum or copper efficiently; induction heating itself can also heat nonmagnetic electrical conductors using suitable equipment."
     },
     {
       "subcategory": "Everyday Technology",
@@ -865,7 +831,7 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which error correction algorithm, used in CD-ROMs, allows a QR code to be readable even if up to 30% of its surface is damaged?",
+      "question": "Which error-correction scheme used in QR codes can recover data when some encoded codewords are damaged?",
       "options": [
         "Reed-Solomon error correction",
         "Hamming codes",
@@ -873,10 +839,8 @@
         "Huffman coding"
       ],
       "answer": "Reed-Solomon error correction",
-      "explanation_correct": "Reed-Solomon adds mathematical redundancy that allows for the reconstruction of missing segments through polynomial interpolation.",
-      "explanation_incorrect": "CRC32 is for detection, Hamming codes for simple bit-flipping, and Huffman is for lossless information compression.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "QR codes use Reed–Solomon error correction. The amount recoverable depends on the correction level and on which parts of the code are damaged.",
+      "explanation_incorrect": "CRC32 detects errors without correcting them; Hamming codes can correct specified bit errors, while Huffman coding is used for compression."
     },
     {
       "subcategory": "Materials Science",
@@ -895,18 +859,16 @@
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which property defines the depth where microwave power drops to roughly 37% of the surface value, explaining why thick food stays cold inside?",
+      "question": "In food engineering, what is the depth at which microwave power falls to about 37% of its value at the surface?",
       "options": [
-        "Penetration depth (skin depth)",
+        "Microwave power penetration depth",
         "Thermal diffusivity",
         "Dielectric permittivity",
         "Cutoff wavelength"
       ],
-      "answer": "Penetration depth (skin depth)",
-      "explanation_correct": "The penetration depth is essentially the distance at which most of the microwave energy has been absorbed by the medium (food).",
-      "explanation_incorrect": "Thermal diffusivity is about slow heat spread; the other values are related to electromagnetics but do not represent internal heat decay depth.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Microwave power penetration depth",
+      "explanation_correct": "Power penetration depth is defined as the depth at which power falls to 1/e of its surface value in a specified model. Field-amplitude penetration depth can use a different convention.",
+      "explanation_incorrect": "Thermal diffusivity is about slow heat spread; the other values are related to electromagnetics but do not represent internal heat decay depth."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -925,22 +887,20 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which Active Noise Cancellation (ANC) system places a microphone inside the ear cup to dynamically adjust the signal?",
+      "question": "Which ANC design uses a microphone inside the ear cup to measure the residual sound and adjust cancellation?",
       "options": [
         "Feedback ANC",
         "Feedforward ANC",
-        "Hybrid ANC",
-        "Passive ANC"
+        "Passive noise isolation",
+        "Mechanical sound insulation"
       ],
       "answer": "Feedback ANC",
       "explanation_correct": "Feedback systems capture noise already behind the isolation barrier, allowing for real-time error correction of the cancellation sound.",
-      "explanation_incorrect": "Feedforward uses microphones on the outside; hybrid combines both styles; passive ANC is just manual sound-blocking padding.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Feedforward ANC measures sound outside the ear cup. Hybrid ANC combines feedforward and feedback and also uses an internal microphone."
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Which motor type using rare-earth permanent magnets dominates in high-performance electric vehicles today?",
+      "question": "Which electric motor type combines a synchronous rotating magnetic field with permanent magnets on the rotor?",
       "options": [
         "Permanent Magnet Synchronous Motor (PMSM)",
         "Asynchronous induction motor",
@@ -948,10 +908,8 @@
         "Synchronic reluctance motor"
       ],
       "answer": "Permanent Magnet Synchronous Motor (PMSM)",
-      "explanation_correct": "PMSMs offer the highest torque-to-weight ratio and efficiency, essential for long-range, high-acceleration electric automotive applications.",
-      "explanation_incorrect": "Induction motors are cheaper but less efficient/compact; brushed motors have high maintenance and wear.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A permanent-magnet synchronous motor uses rotor magnets and a rotating stator field, and is used in many electric vehicles.",
+      "explanation_incorrect": "An induction motor induces rotor currents; the other options do not describe this permanent-magnet synchronous motor design."
     },
     {
       "subcategory": "Materials Science",
@@ -978,10 +936,8 @@
         "They neutralize unpleasant odors while baking"
       ],
       "answer": "They release gas twice: once upon mixing and again when heated in the oven",
-      "explanation_correct": "Double-acting powder uses two different dry acids—one reacts at room temperature and the second only under heat.",
-      "explanation_incorrect": "The quantity, dough type, and odor absorption are not the basis for the leavening mechanism of double-action.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Double-acting powder includes components that release carbon dioxide after mixing and further gas during heating; exact formulations and reaction timing vary.",
+      "explanation_incorrect": "The quantity, dough type, and odor absorption are not the basis for the leavening mechanism of double-action."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -1045,7 +1001,7 @@
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Why must the turntable in most microwave ovens rotate?",
+      "question": "Why do many microwave ovens rotate the food on a turntable?",
       "options": [
         "The compartment forms standing waves, causing uneven hot and cold spots",
         "Rotation helps evenly evaporate surface moisture",
@@ -1053,10 +1009,8 @@
         "The rotating motor also drives the cooling fan"
       ],
       "answer": "The compartment forms standing waves, causing uneven hot and cold spots",
-      "explanation_correct": "Rotating keeps the food moving through the interference patterns of waves, preventing hot and cold zones (nodes and antinodes).",
-      "explanation_incorrect": "Centrifugal forces in a microwave are negligible, and cooling fans are independent of interior turntable motion.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Moving the food through the oven’s microwave field helps reduce uneven heating, although it does not eliminate all hot and cold spots.",
+      "explanation_incorrect": "Centrifugal forces in a microwave are negligible, and cooling fans are independent of interior turntable motion."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -1105,7 +1059,7 @@
     },
     {
       "subcategory": "Materials Science",
-      "question": "Which synthetic polymer, abbreviated as PAN, is the main raw material for producing over 90% of global carbon fiber?",
+      "question": "Which synthetic polymer, abbreviated PAN, is a common precursor for carbon-fiber production?",
       "options": [
         "Polyacrylonitrile (PAN)",
         "Polystyrene",
@@ -1114,9 +1068,7 @@
       ],
       "answer": "Polyacrylonitrile (PAN)",
       "explanation_correct": "PAN fibers are oxidized and carbonized at high temperatures to create the high-strength molecular strands of carbon fiber.",
-      "explanation_incorrect": "The other polymers listed do not have the molecular backbone required to convert into carbon fiber structure effectively.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "PAN is a widely used precursor. Other materials, including modified polymers, can also be used to produce carbon fibers."
     },
     {
       "subcategory": "Kitchen Science",
@@ -1135,7 +1087,7 @@
     },
     {
       "subcategory": "Atmospheric Phenomena",
-      "question": "Which cloud-to-ground lightning discharge, positive or negative, is statistically rarer but carries a significantly higher charge and is more frequently associated with starting forest fires?",
+      "question": "Which cloud-to-ground lightning polarity is less common than negative cloud-to-ground lightning?",
       "options": [
         "Positive cloud-to-ground lightning (+CG)",
         "Negative cloud-to-ground lightning (-CG)",
@@ -1143,14 +1095,12 @@
         "Ball lightning"
       ],
       "answer": "Positive cloud-to-ground lightning (+CG)",
-      "explanation_correct": "Positive cloud-to-ground lightning occurs less frequently than negative, but it often carries a higher charge and current, making it particularly capable of igniting forest fires.",
-      "explanation_incorrect": "Negative cloud-to-ground lightning is the most common, intracloud lightning does not reach the ground, and ball lightning is a rare, distinct phenomenon.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Positive cloud-to-ground lightning is less common and can transfer large amounts of charge. Fire ignition also depends on factors such as continuing current and fuel conditions.",
+      "explanation_incorrect": "Negative cloud-to-ground lightning is the most common, intracloud lightning does not reach the ground, and ball lightning is a rare, distinct phenomenon."
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Why does a GPS receiver require signals from at least four satellites, rather than three, to calculate a 3D position (latitude, longitude, and altitude)?",
+      "question": "Why does a conventional stand-alone GPS receiver with an unknown clock offset need signals from at least four satellites to calculate a 3D position?",
       "options": [
         "The fourth satellite allows for the calculation of the receiver's clock error",
         "The fourth satellite measures the atmospheric pressure at the user's location",
@@ -1158,10 +1108,8 @@
         "Three satellites are only sufficient at night due to solar radiation"
       ],
       "answer": "The fourth satellite allows for the calculation of the receiver's clock error",
-      "explanation_correct": "Because a standard GPS receiver lacks an atomic clock, the fourth satellite signal provides the additional equation needed to solve for the time offset.",
-      "explanation_incorrect": "Atmospheric pressure is not measured by the satellite, signals are not transmitted in pairs, and the diurnal cycle does not affect the necessity of the fourth satellite for time synchronization.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A conventional receiver solves for three position coordinates and an unknown clock offset, requiring at least four suitably placed satellite measurements without additional information.",
+      "explanation_incorrect": "Atmospheric pressure is not measured by the satellite, signals are not transmitted in pairs, and the diurnal cycle does not affect the necessity of the fourth satellite for time synchronization."
     },
     {
       "subcategory": "Everyday Technology",
@@ -1189,9 +1137,7 @@
       ],
       "answer": "Indium tin oxide (ITO)",
       "explanation_correct": "Indium tin oxide is a transparent semiconductor that conducts electricity while allowing visible light to pass through, which is ideal for touchscreens.",
-      "explanation_incorrect": "Titanium dioxide is opaque, zinc-doped aluminum oxide is not the standard, and silicon dioxide is an electrical insulator.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Silicon dioxide is an insulator. The other oxides are not indium tin oxide; transparency and conductivity depend on the material and preparation."
     },
     {
       "subcategory": "Everyday Technology",
@@ -1225,48 +1171,42 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "Why did early Active Noise Control (ANC) systems of the 1980s and 90s rely on analog electronics instead of Digital Signal Processors (DSP)?",
+      "question": "Which source of delay is avoided by an all-analog active-noise-control signal path?",
       "options": [
-        "Analog circuits do not introduce latency caused by ADC/DAC conversion",
-        "Digital signal processing was prohibited in aviation communication",
-        "Analog circuits consumed more power to increase signal gain",
-        "Acoustic waves cannot be stored in digital format"
+        "Analog-to-digital and digital-to-analog conversion",
+        "All propagation and circuit delay",
+        "The travel time of sound through air",
+        "The response time of a loudspeaker"
       ],
-      "answer": "Analog circuits do not introduce latency caused by ADC/DAC conversion",
-      "explanation_correct": "To cancel out high-frequency noise, the system must react instantly. Analog systems avoid the conversion time delay inherent in early digital systems.",
-      "explanation_incorrect": "Aviation allowed digital processing; energy consumption didn't solve the timing issue, and acoustic waves are easily converted to digital data.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Analog-to-digital and digital-to-analog conversion",
+      "explanation_correct": "An all-analog path avoids ADC and DAC conversion, but analog circuits and acoustic components still introduce delay.",
+      "explanation_incorrect": "Sound propagation, loudspeaker response and analog circuitry can all introduce delay."
     },
     {
       "subcategory": "Everyday Technology",
       "question": "Which rare-earth element from the lanthanide group is added to neodymium magnets to increase their resistance to demagnetization at higher operating temperatures?",
       "options": [
         "Dysprosium",
-        "Lanthanum",
-        "Cerium",
-        "Erbium"
+        "Titanium",
+        "Copper",
+        "Silicon"
       ],
       "answer": "Dysprosium",
       "explanation_correct": "Dysprosium is added to Neodymium-Iron-Boron (NdFeB) magnets to significantly enhance their coercivity and thermal stability, vital for motors.",
-      "explanation_incorrect": "Lanthanum and cerium do not increase coercivity to the same effective degree, and erbium is primarily used in fiber optics.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Titanium, copper and silicon are not lanthanide rare-earth elements; dysprosium is used in some NdFeB magnets to improve coercivity at elevated temperatures."
     },
     {
       "subcategory": "Materials Science",
-      "question": "In which type of atmosphere is polymer fiber carbonization conducted to remove hydrogen and nitrogen without burning the carbon?",
+      "question": "In which type of atmosphere are PAN-derived precursor fibers commonly carbonized to limit oxidation?",
       "options": [
         "An inert gas atmosphere, such as nitrogen or argon",
-        "A vacuum",
-        "A carbon dioxide atmosphere",
-        "An oxygen atmosphere"
+        "An oxygen atmosphere",
+        "An ozone atmosphere",
+        "A chlorine atmosphere"
       ],
       "answer": "An inert gas atmosphere, such as nitrogen or argon",
-      "explanation_correct": "Carbonization requires an inert atmosphere to prevent the oxygen from burning the fibers at extremely high temperatures.",
-      "explanation_incorrect": "A vacuum is technically possible but harder to scale, CO2 can react with hot carbon, and oxygen would immediately ignite the substance.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "PAN-derived fibers are commonly carbonized in an inert gas atmosphere, such as nitrogen, to limit oxidation during high-temperature processing.",
+      "explanation_incorrect": "Carbonization typically uses inert gas to prevent oxidative burning; the other listed atmospheres are not the inert atmosphere described."
     },
     {
       "subcategory": "Kitchen Science",
@@ -1320,13 +1260,11 @@
         "Quantum dots",
         "Organic phosphors",
         "Phthalocyanine dyes",
-        "Silicon nanocrystals"
+        "Bulk quartz crystals"
       ],
       "answer": "Quantum dots",
       "explanation_correct": "Quantum dots are nanometer-scale crystals that emit light at very precise wavelengths depending on their size, allowing for vivid color reproduction.",
-      "explanation_incorrect": "Organic dyes degrade faster, and silicon does not have an efficient bandgap for light emission.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The listed dyes, phosphors and bulk quartz are not the semiconductor quantum dots described; semiconductor nanocrystals can themselves be quantum dots."
     },
     {
       "subcategory": "Materials Science",
@@ -1405,7 +1343,7 @@
     },
     {
       "subcategory": "Materials Science",
-      "question": "At what approximate temperature range is polymer fiber carbonization conducted to remove non-carbon atoms?",
+      "question": "What approximate temperature is used during a high-temperature carbonization stage in producing PAN-based carbon fibers?",
       "options": [
         "1000–1500°C",
         "100–300°C",
@@ -1413,14 +1351,12 @@
         "500–700°C"
       ],
       "answer": "1000–1500°C",
-      "explanation_correct": "Carbonization occurs at 1000–1500°C to break down polymer chains and leave a carbon-only structure.",
-      "explanation_incorrect": "100-300°C is the stabilization stage, while 3000°C+ is often used for subsequent graphitization, not initial carbonization.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Carbonization in an inert atmosphere removes much of the non-carbon material and produces a carbon-rich fiber; the exact temperature range depends on the process.",
+      "explanation_incorrect": "100-300°C is the stabilization stage, while 3000°C+ is often used for subsequent graphitization, not initial carbonization."
     },
     {
       "subcategory": "Kitchen Science",
-      "question": "Which linear glucose polymer in starch is primarily responsible for forming a stable gel upon cooling?",
+      "question": "Which largely linear glucose polymer in starch is primarily responsible for forming a firm gel upon cooling?",
       "options": [
         "Amylose",
         "Amylopectin",
@@ -1428,10 +1364,8 @@
         "Cellulose"
       ],
       "answer": "Amylose",
-      "explanation_correct": "Amylose consists of straight chains that reassociate after cooling (retrogradation), creating a firm, water-trapping gel network.",
-      "explanation_incorrect": "Amylopectin is branched and prevents gel structure, glycogen is for animals, and cellulose is structural fiber.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Amylose chains reassociate after cooling (retrogradation), contributing to a firm, water-trapping network.",
+      "explanation_incorrect": "Amylopectin is branched and also affects starch texture; glycogen is an animal storage polysaccharide, while cellulose is primarily structural."
     },
     {
       "subcategory": "Atmospheric Phenomena",
@@ -1465,18 +1399,16 @@
     },
     {
       "subcategory": "Everyday Technology",
-      "question": "What is the display technology called where the light-emitting layer is constructed from organic carbon compounds, eliminating the need for a backlight?",
+      "question": "Which display technology emits light directly from organic layers and does not require an LCD backlight?",
       "options": [
         "OLED (Organic Light-Emitting Diode)",
-        "QLED",
-        "AMOLED",
-        "Mini-LED"
+        "Conventional liquid-crystal display (LCD)",
+        "Electrophoretic e-paper",
+        "Passive printed color filter"
       ],
       "answer": "OLED (Organic Light-Emitting Diode)",
       "explanation_correct": "OLED creates light directly from organic layers, enabling perfect black levels and high contrast.",
-      "explanation_incorrect": "QLED and Mini-LED rely on backlit LCD matrices, and AMOLED is specifically a type of OLED.",
-      "last_verified_at": "2026-06-12T14:32:02.753Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "LCDs modulate a separate light source, electrophoretic e-paper reflects ambient light, and a color filter does not emit light. AMOLED is a type of OLED."
     },
     {
       "subcategory": "Materials Science",

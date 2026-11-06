@@ -1,0 +1,9 @@
+# Communication — przegląd 2026-11-05
+
+Przeczytano 100 pytań, opcje, klucze i oba wyjaśnienia w paczce `communication_en`; opis odpowiada głównym zagadnieniom. Wybrane niepewne tezy sprawdzono źródłowo. Nie oznacza to niezależnego potwierdzenia każdego faktu ani dystraktora.
+
+Poprawiono pozycje 3–4, 6–7, 11, 19, 26–27, 29, 33, 35, 37, 44, 47–48, 55–56, 60, 67–68, 73, 78–79, 88, 92–95. Zmiany usuwają m.in. wieloznaczność między sloganem i tagline, niemieckimi szyframi Enigma i Lorenz oraz ideogramem i logogramem; doprecyzowują historię Telstara, wczesnych przeglądarek, CQD i fotofonu. Skorygowano też kategoryczne opisy kodowania Unicode, webcastów, języków code talkers, funkcji i finansowania nadawców. Ze zmienionych pytań usunięto dawne znaczniki weryfikacji.
+
+Źródła kontrolne: [CERN — historia przeglądarek WWW](https://home.cern/science/computing/the-birth-of-the-web/short-history-web/), [Unicode — UTF i punkty kodowe](https://www.unicode.org/faq/utf_bom.html), [Smithsonian — fotofon Bella i Taintera](https://www.si.edu/object/archives/components/sova-nmah-ac-0124-ref25), [NASA — wcześniejsze aktywne satelity SCORE i Courier](https://ntrs.nasa.gov/api/citations/19640023826/downloads/19640023826.pdf), [NASA — transmisja Telstara](https://www.nasa.gov/history/telstar-opened-era-of-global-satellite-television/), [ITU — CQD i SOS](https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/12.25.72.en.100.pdf), [US Navy — Navajo Code Talkers](https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/n/code-talkers.html).
+
+Niezależny przegląd zmienionych pytań wskazał dodatkowe niejednoznaczności w pozycjach 7 i 95. Doprecyzowano Unicode oraz usunięto piktogram z dystraktorów, ponieważ klasyfikacje znaków mogą się pokrywać. Źródła: [Unicode](https://www.unicode.org/faq/blocks_ranges.html), [badanie znaków i piktogramów](https://pmc.ncbi.nlm.nih.gov/articles/PMC3383821/).

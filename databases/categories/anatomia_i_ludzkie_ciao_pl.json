@@ -103,15 +103,13 @@
       "question": "Gdzie w płucach zachodzi bezpośrednia wymiana gazowa między krwią a powietrzem?",
       "options": [
         "Oskrzela",
-        "Oskrzeliki",
+        "Tchawica",
         "Pęcherzyki płucne",
         "Wnęka płuca"
       ],
       "answer": "Pęcherzyki płucne",
       "explanation_correct": "Pęcherzyki płucne to końcowe struktury układu oddechowego, gdzie dyfunduje tlen i dwutlenek węgla.",
-      "explanation_incorrect": "Oskrzela i oskrzeliki pełnią jedynie funkcje przewodzące powietrze.",
-      "last_verified_at": "2026-06-12T17:14:33.497Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Oskrzela i tchawica przewodzą powietrze. Wymiana gazowa zachodzi na powierzchni pęcherzyków; w ich pobliżu zaczyna się już w oskrzelikach oddechowych."
     },
     {
       "subcategory": "Narządy zmysłów",
@@ -139,9 +137,7 @@
       ],
       "answer": "Naskórek",
       "explanation_correct": "Naskórek to zewnętrzna warstwa nabłonka chroniąca organizm przed czynnikami zewnętrznymi.",
-      "explanation_incorrect": "Pozostałe warstwy znajdują się głębiej pod naskórkiem.",
-      "last_verified_at": "2026-06-12T17:14:33.497Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Skóra właściwa leży pod naskórkiem, tkanka podskórna głębiej, a otrzewna jest błoną surowiczą jamy brzusznej."
     },
     {
       "subcategory": "Układ trawienny",
@@ -190,18 +186,16 @@
     },
     {
       "subcategory": "Układ kostny",
-      "question": "Jak określa się rodzaj nieruchomego połączenia kości czaszki u dorosłych?",
+      "question": "Jak nazywa się włókniste połączenie występujące między kośćmi sklepienia czaszki?",
       "options": [
         "Staw",
         "Szew",
-        "Więzozrost",
-        "CHRZĄSTKOZROST"
+        "Kościozrost",
+        "Chrząstkozrost"
       ],
       "answer": "Szew",
-      "explanation_correct": "Szwy to specyficzne połączenia włókniste między kośćmi czaszki.",
-      "explanation_incorrect": "Stawy są połączeniami ruchomymi, a pozostałe to inne rodzaje połączeń tkankowych.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szew jest rodzajem więzozrostu: kości czaszki łączy w nim włóknista tkanka łączna.",
+      "explanation_incorrect": "W kościozroście kości są zrośnięte tkanką kostną, w chrząstkozroście łączy je chrząstka; staw ma jamę stawową."
     },
     {
       "subcategory": "Stomatologia",
@@ -214,9 +208,7 @@
       ],
       "answer": "Szkliwo",
       "explanation_correct": "Szkliwo pokrywa koronę zęba i jest najtwardszą substancją w organizmie.",
-      "explanation_incorrect": "Zębina i kość są twarde, ale mniej odporne na uszkodzenia niż szkliwo.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zębina i kość mają mniejszą twardość niż szkliwo; twardość nie oznacza odporności na każdy rodzaj uszkodzenia."
     },
     {
       "subcategory": "Układ nerwowy",
@@ -250,7 +242,7 @@
     },
     {
       "subcategory": "Układ mięśniowy",
-      "question": "Który mięsień człowieka generuje największą siłę nacisku w stosunku do swojej masy, co czyni go najsilniejszym pod tym względem?",
+      "question": "Który mięsień żucia unosi żuchwę podczas zaciskania szczęk?",
       "options": [
         "Mięsień pośladkowy wielki",
         "Mięsień żwacz",
@@ -258,10 +250,8 @@
         "Mięsień sercowy"
       ],
       "answer": "Mięsień żwacz",
-      "explanation_correct": "Mięsień żwacz potrafi wygenerować nacisk rzędu 80 kg na zębach trzonowych przy stosunkowo małej masie własnej.",
-      "explanation_incorrect": "Pośladkowy wielki jest najsilniejszy pod względem siły bezwzględnej, a sercowy pod względem wytrzymałości.",
-      "last_verified_at": "2026-06-12T17:15:59.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żwacz jest jednym z mięśni żucia unoszących żuchwę podczas zaciskania szczęk.",
+      "explanation_incorrect": "Mięśnie pośladkowy wielki, czworogłowy uda i sercowy nie unoszą żuchwy."
     },
     {
       "subcategory": "Układ kostny",
@@ -378,10 +368,8 @@
         "Wątroba"
       ],
       "answer": "Pęcherzyk żółciowy",
-      "explanation_correct": "Pęcherzyk żółciowy gromadzi i zagęszcza żółć niezbędną do trawienia tłuszczów.",
-      "explanation_incorrect": "Trzustka produkuje enzymy trawienne, śledziona usuwa stare krwinki, a wątroba żółć tylko wytwarza.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pęcherzyk żółciowy gromadzi i zagęszcza żółć wytwarzaną przez wątrobę. Żółć ułatwia trawienie i wchłanianie tłuszczów.",
+      "explanation_incorrect": "Trzustka produkuje enzymy trawienne, śledziona filtruje krew, a wątroba wytwarza żółć."
     },
     {
       "subcategory": "Układ moczowy",
@@ -424,9 +412,7 @@
       ],
       "answer": "Kość promieniowa",
       "explanation_correct": "Kość promieniowa znajduje się bocznie w stosunku do kości łokciowej, po stronie kciuka.",
-      "explanation_incorrect": "Kość łokciowa jest po stronie małego palca, kość ramienna jest powyżej, a kości nadgarstka tworzą dłoń.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kość łokciowa leży po stronie małego palca, kość ramienna jest powyżej, a kości nadgarstka stanowią część szkieletu ręki."
     },
     {
       "subcategory": "Układ kostny",
@@ -460,7 +446,7 @@
     },
     {
       "subcategory": "Narządy zmysłów",
-      "question": "Jak nazywają się struktury w uchu wewnętrznym, które odpowiadają za zmysł równowagi?",
+      "question": "Które struktury ucha wewnętrznego wykrywają przyspieszenia kątowe towarzyszące obrotom głowy?",
       "options": [
         "Kanały półkoliste",
         "Ślimak",
@@ -468,10 +454,8 @@
         "Trąbka słuchowa"
       ],
       "answer": "Kanały półkoliste",
-      "explanation_correct": "Kanały półkoliste wykrywają ruchy obrotowe głowy i pomagają utrzymać równowagę.",
-      "explanation_incorrect": "Ślimak odpowiada za słuch, kosteczki za przewodzenie dźwięku, a trąbka słuchowa wyrównuje ciśnienie.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kanały półkoliste należą do narządu przedsionkowego i wykrywają przyspieszenia kątowe głowy. Łagiewka i woreczek reagują na przyspieszenia liniowe.",
+      "explanation_incorrect": "Ślimak uczestniczy w słyszeniu, kosteczki przewodzą drgania dźwiękowe, a trąbka słuchowa wyrównuje ciśnienie."
     },
     {
       "subcategory": "Układ nerwowy",
@@ -484,9 +468,7 @@
       ],
       "answer": "Móżdżek",
       "explanation_correct": "Móżdżek przetwarza informacje o ruchu i położeniu ciała w przestrzeni.",
-      "explanation_incorrect": "Kora odpowiada za funkcje poznawcze, a wzgórze i podwzgórze za procesy regulacyjne.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kora mózgowa uczestniczy między innymi w planowaniu ruchów i funkcjach poznawczych, a wzgórze i podwzgórze pełnią inne ważne funkcje przekaźnikowe i regulacyjne."
     },
     {
       "subcategory": "Układ trawienny",
@@ -550,7 +532,7 @@
     },
     {
       "subcategory": "Hematologia",
-      "question": "Jakie elementy krwi są wyspecjalizowane w procesie krzepnięcia krwi?",
+      "question": "Jak nazywają się fragmenty komórek krwi tworzące czop w miejscu uszkodzenia naczynia?",
       "options": [
         "Erytrocyty",
         "Leukocyty",
@@ -559,9 +541,7 @@
       ],
       "answer": "Płytki krwi",
       "explanation_correct": "Płytki krwi tworzą tzw. czop płytkowy, który zapobiega utracie krwi przy skaleczeniach.",
-      "explanation_incorrect": "Erytrocyty transportują tlen, leukocyty bronią organizm, a osocze to płynna część krwi.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Erytrocyty transportują tlen, leukocyty uczestniczą w odporności, a osocze zawiera liczne czynniki krzepnięcia. Płytki tworzą czop płytkowy."
     },
     {
       "subcategory": "Układ kostny",
@@ -574,9 +554,7 @@
       ],
       "answer": "Kość krzyżowa",
       "explanation_correct": "Kość krzyżowa stanowi fundament kręgosłupa i łączy go z kośćmi miednicy.",
-      "explanation_incorrect": "Kości udowa, łonowa i kulszowa są elementami obręczy kończyny dolnej, a nie samego kręgosłupa.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kości łonowa i kulszowa należą do kości miednicznej, a udowa jest kością kończyny dolnej; żadna z nich nie jest częścią kręgosłupa."
     },
     {
       "subcategory": "Układ trawienny",
@@ -649,9 +627,7 @@
       ],
       "answer": "Rogówka",
       "explanation_correct": "Rogówka to przednia, przezroczysta część gałki ocznej, mająca największą moc łamiącą światło w układzie optycznym oka.",
-      "explanation_incorrect": "Soczewka znajduje się w głębi oka, twardówka stanowi jej białą osłonę, a naczyniówka odpowiada za unaczynienie gałki ocznej.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Soczewka znajduje się wewnątrz gałki ocznej, twardówka tworzy jej białą zewnętrzną osłonę, a naczyniówka jest bogata w naczynia krwionośne."
     },
     {
       "subcategory": "Układ nerwowy",
@@ -678,10 +654,8 @@
         "Kwas mlekowy"
       ],
       "answer": "DNA",
-      "explanation_correct": "DNA (kwas deoksyrybonukleinowy) przechowuje kompletny zapis informacji genetycznej organizmu.",
-      "explanation_incorrect": "RNA bierze udział w ekspresji genów, ATP to nośnik energii, a kwas mlekowy to produkt metabolizmu.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "DNA w jądrze przechowuje większość informacji genetycznej komórki. Niewielka ilość DNA znajduje się również w mitochondriach.",
+      "explanation_incorrect": "RNA bierze udział w ekspresji genów, ATP to nośnik energii, a kwas mlekowy to produkt metabolizmu."
     },
     {
       "subcategory": "Układ kostny",
@@ -724,9 +698,7 @@
       ],
       "answer": "Kwas solny",
       "explanation_correct": "Kwas solny (HCl) w żołądku pełni funkcję bakteriobójczą i aktywuje enzymy trawienne.",
-      "explanation_incorrect": "Pozostałe kwasy nie są głównym sładnikiem trawiennym produkowanym przez śluzówkę żołądka.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe kwasy nie są głównym źródłem kwaśnego pH soku żołądkowego."
     },
     {
       "subcategory": "Narządy zmysłów",
@@ -738,10 +710,8 @@
         "Tęczówka"
       ],
       "answer": "Plamka żółta",
-      "explanation_correct": "Plamka żółta to miejsce na siatkówce o największym zagęszczeniu czopków, odpowiedzialnych za widzenie barwne i detaliczne.",
-      "explanation_incorrect": "Tarcza nerwu to plamka ślepa, tęczówka reguluje dopływ światła, a ciało szkliste wypełnia gałkę oczną.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Plamka żółta obejmuje dołek środkowy siatkówki, gdzie zagęszczenie czopków i ostrość widzenia są szczególnie duże.",
+      "explanation_incorrect": "Tarcza nerwu to plamka ślepa, tęczówka reguluje dopływ światła, a ciało szkliste wypełnia gałkę oczną."
     },
     {
       "subcategory": "Osteologia",
@@ -754,9 +724,7 @@
       ],
       "answer": "Szpik kostny",
       "explanation_correct": "Szpik kostny znajduje się w jamach szpikowych kości długich i pełni funkcję krwiotwórczą (czerwony) lub magazynującą tłuszcz (żółty).",
-      "explanation_incorrect": "Okostna to zewnętrzna błona kości, chrząstka pokrywa powierzchnie stawowe, a tkanka łączna buduje więzadła.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Okostna pokrywa zewnętrzną powierzchnię większości kości, chrząstka pokrywa powierzchnie stawowe, a tkanka łączna luźna nie jest nazwą zawartości jamy szpikowej."
     },
     {
       "subcategory": "Układ nerwowy",
@@ -777,16 +745,14 @@
       "subcategory": "Układ mięśniowy",
       "question": "Jak nazywa się jeden z najsilniejszych mięśni odpowiadający za wyprost stawu biodrowego?",
       "options": [
-        "Mięsień czworogłowy",
+        "Mięsień czworogłowy uda",
         "Mięsień pośladkowy wielki",
-        "Mięsień dwugłowy",
-        "Mięsień brzuchaty"
+        "Mięsień dwugłowy ramienia",
+        "Mięsień brzuchaty łydki"
       ],
       "answer": "Mięsień pośladkowy wielki",
       "explanation_correct": "Mięsień pośladkowy wielki jest głównym mięśniem pośladka, największym i najsilniejszym prostownikiem biodra.",
-      "explanation_incorrect": "Pozostałe wymienione mięśnie znajdują się w obrębie kończyny dolnej i pełnią inne funkcje ruchowe.",
-      "last_verified_at": "2026-06-12T17:14:33.498Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mięsień czworogłowy przede wszystkim prostuje kolano, dwugłowy ramienia zgina łokieć, a brzuchaty łydki uczestniczy w zgięciu podeszwowym stopy. Także inne mięśnie mogą prostować biodro."
     },
     {
       "subcategory": "Embriologia",
@@ -859,9 +825,7 @@
       ],
       "answer": "Mięsień krawiecki",
       "explanation_correct": "Mięsień krawiecki (m. sartorius) biegnie od kolca biodrowego do piszczeli, osiągając u dorosłych do 50-60 cm długości.",
-      "explanation_incorrect": "Mięśnie grzbietu lub uda mogą mieć większą masę, ale nie dorównują krawieckiemu pod względem czystej długości włókien.",
-      "last_verified_at": "2026-06-12T17:15:59.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wymienione mięśnie są krótsze jako całe mięśnie; długość mięśnia nie jest tym samym co długość pojedynczego włókna mięśniowego."
     },
     {
       "subcategory": "Układ kostny",
@@ -934,9 +898,7 @@
       ],
       "answer": "Amylaza ślinowa",
       "explanation_correct": "Amylaza ślinowa (ptialina) hydrolizuje wiązania glikozydowe w skrobi.",
-      "explanation_incorrect": "Pozostałe enzymy odpowiadają za trawienie białek lub tłuszczów oraz działają w innych częściach przewodu pokarmowego.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pepsyna i trypsyna trawią białka, a lipaza językowa uczestniczy w trawieniu tłuszczów; nie rozkładają one skrobi jak amylaza."
     },
     {
       "subcategory": "Układ nerwowy",
@@ -1000,7 +962,7 @@
     },
     {
       "subcategory": "Układ kostny",
-      "question": "Która kość twarzoczaszki tworzy dolną część szkieletu głowy i jest jedyną ruchomą częścią czaszki?",
+      "question": "Która kość twarzoczaszki tworzy dolną szczękę i porusza się w stawach skroniowo-żuchwowych?",
       "options": [
         "Kość jarzmowa",
         "Szczęka",
@@ -1008,10 +970,8 @@
         "Kość klinowa"
       ],
       "answer": "Żuchwa",
-      "explanation_correct": "Żuchwa łączy się ze skronią w stawie skroniowo-żuchwowym, umożliwiając ruchy otwierania ust.",
-      "explanation_incorrect": "Pozostałe kości czaszki są nieruchomo połączone szwami.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żuchwa łączy się z kośćmi skroniowymi w stawach skroniowo-żuchwowych, co umożliwia między innymi otwieranie ust.",
+      "explanation_incorrect": "Kości jarzmowa, szczękowa i klinowa nie tworzą ruchomej dolnej szczęki. Kosteczki słuchowe w uchu środkowym także się poruszają."
     },
     {
       "subcategory": "Cytologia",
@@ -1038,10 +998,8 @@
         "Limfa"
       ],
       "answer": "Osocze",
-      "explanation_correct": "Osocze składa się głównie z wody, białek oraz rozpuszczonych związków chemicznych.",
-      "explanation_incorrect": "Surowica to osocze pozbawione fibrynogenu, a pozostałe płyny krążą poza naczyniami krwionośnymi lub mają inny skład.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Osocze to płynna część krwi oddzielona od krwinek i płytek bez dopuszczenia do krzepnięcia.",
+      "explanation_incorrect": "Surowica jest płynem otrzymywanym po krzepnięciu i nie zawiera fibrynogenu zużytego w tym procesie; limfa i płyn tkankowy są innymi płynami ustrojowymi."
     },
     {
       "subcategory": "Układ oddechowy",
@@ -1054,9 +1012,7 @@
       ],
       "answer": "Tchawica",
       "explanation_correct": "Tchawica ma budowę rurkowatą, wzmocnioną chrząstkami, prowadzącą powietrze do płuc.",
-      "explanation_incorrect": "Przełyk należy do układu pokarmowego, gardło jest częścią wspólną, a nagłośnia to zastawek.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Przełyk należy do układu pokarmowego, gardło jest wspólnym odcinkiem dróg pokarmowych i oddechowych, a nagłośnia jest chrząstką krtani."
     },
     {
       "subcategory": "Narządy zmysłów",
@@ -1108,15 +1064,13 @@
       "question": "Która grupa hormonów steroidowych pełni kluczową rolę w regulacji cyklu płciowego u kobiet?",
       "options": [
         "Testosteron",
-        "Estrogen",
+        "Estrogeny",
         "Aldosteron",
         "Tyroksyna"
       ],
-      "answer": "Estrogen",
+      "answer": "Estrogeny",
       "explanation_correct": "Estrogeny wywierają kluczowy wpływ na rozrost endometrium i inne cechy żeńskie.",
-      "explanation_incorrect": "Testosteron to androgen, aldosteron reguluje ciśnienie krwi, a tyroksyna metabolizm.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Testosteron to androgen, aldosteron reguluje ciśnienie krwi, a tyroksyna metabolizm."
     },
     {
       "subcategory": "Ginekologia",
@@ -1188,10 +1142,8 @@
         "Cytokiny"
       ],
       "answer": "Przeciwciała",
-      "explanation_correct": "Przeciwciała to glicykoproteiny zwane immunoglobulinami, które wiążą patogeny.",
-      "explanation_incorrect": "Leukocyty to komórki krwi, cytokiny to cząsteczki sygnałowe, a interferony działają przeciwwirusowo.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przeciwciała to glikoproteiny zwane immunoglobulinami, wytwarzane przez komórki plazmatyczne powstałe z limfocytów B. Wiążą swoiste antygeny.",
+      "explanation_incorrect": "Leukocyty to komórki krwi, cytokiny to cząsteczki sygnałowe, a interferony działają przeciwwirusowo."
     },
     {
       "subcategory": "Układ trawienny",
@@ -1270,18 +1222,16 @@
     },
     {
       "subcategory": "Układ mięśniowy",
-      "question": "Który mięsień przedniej części ramienia jest głównym zginaczem stawu łokciowego?",
+      "question": "Który mięsień przedniej części ramienia zgina staw łokciowy i pomaga odwracać przedramię dłonią ku górze?",
       "options": [
-        "Mięsień dwugłowy",
-        "Mięsień trójgłowy",
+        "Mięsień dwugłowy ramienia",
+        "Mięsień trójgłowy ramienia",
         "Mięsień kruczo-ramienny",
-        "Mięsień ramienno-promieniowy"
+        "Mięsień naramienny"
       ],
-      "answer": "Mięsień dwugłowy",
-      "explanation_correct": "Mięsień dwugłowy ramienia pełni funkcję zginacza w stawie łokciowym.",
-      "explanation_incorrect": "Trójgłowy jest prostownikiem, a pozostałe są wspomagającymi mięśniami o innym głównym działaniu.",
-      "last_verified_at": "2026-06-12T17:14:45.741Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mięsień dwugłowy ramienia",
+      "explanation_correct": "Mięsień dwugłowy ramienia zgina łokieć i uczestniczy w odwracaniu przedramienia. Mięsień ramienny również jest ważnym zginaczem łokcia.",
+      "explanation_incorrect": "Mięsień trójgłowy prostuje łokieć, a kruczo-ramienny i naramienny działają przede wszystkim na staw ramienny."
     },
     {
       "subcategory": "Dermatologia",
@@ -1338,10 +1288,8 @@
         "Ciało komórki"
       ],
       "answer": "Synapsa",
-      "explanation_correct": "Synapsa umożliwia przekazanie impulsu nerwowego z jednego neuronu do drugiego za pomocą neuroprzekaźników.",
-      "explanation_incorrect": "Akson i dendryt to wypustki neuronu, a ciało komórki to jego centrum metaboliczne.",
-      "last_verified_at": "2026-06-12T17:14:45.741Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Synapsa umożliwia przekazanie sygnału z jednego neuronu do drugiego, zwykle za pomocą neuroprzekaźników. Istnieją też synapsy elektryczne.",
+      "explanation_incorrect": "Akson i dendryt to wypustki neuronu, a ciało komórki to jego centrum metaboliczne."
     },
     {
       "subcategory": "Biochemia",
@@ -1375,7 +1323,7 @@
     },
     {
       "subcategory": "Układ trawienny",
-      "question": "Jak nazywają się drobne wypustki błony śluzowej jelita cienkiego zwiększające powierzchnię wchłaniania składników odżywczych?",
+      "question": "Jak nazywają się palczaste wypustki całej błony śluzowej jelita cienkiego, zawierające naczynia i zwiększające powierzchnię wchłaniania?",
       "options": [
         "Kosmki jelitowe",
         "Krypta jelitowa",
@@ -1384,9 +1332,7 @@
       ],
       "answer": "Kosmki jelitowe",
       "explanation_correct": "Kosmki jelitowe to palczaste wypustki błony śluzowej, które wielokrotnie zwiększają powierzchnię chłonną jelita.",
-      "explanation_incorrect": "Krypta to wgłębienie w nabłonku, fałdy okrężnicy znajdują się w jelicie grubym, a mikrokosmki to wypustki samych komórek (enterocytów).",
-      "last_verified_at": "2026-06-12T17:15:59.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Krypta jest wgłębieniem nabłonka, fałdy okrężnicy leżą w jelicie grubym, a mikrokosmki są wypustkami pojedynczych komórek nabłonka."
     },
     {
       "subcategory": "Układ kostny",
@@ -1398,10 +1344,8 @@
         "Miednica"
       ],
       "answer": "Czaszka",
-      "explanation_correct": "Czaszka to zespół kości chroniących mózg oraz stanowiący stelaż dla twarzoczaszki.",
-      "explanation_incorrect": "Pozostałe struktury kostne chronią narządy wewnętrzne tułowia lub stanowią podporę osiową ciała.",
-      "last_verified_at": "2026-06-12T17:14:45.741Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czaszka obejmuje mózgoczaszkę, która chroni mózgowie, oraz twarzoczaszkę stanowiącą szkielet twarzy.",
+      "explanation_incorrect": "Pozostałe struktury kostne chronią narządy wewnętrzne tułowia lub stanowią podporę osiową ciała."
     },
     {
       "subcategory": "Endokrynologia",
@@ -1420,7 +1364,7 @@
     },
     {
       "subcategory": "Układ trawienny",
-      "question": "Jaka jest nazwa ostatniego końcowego odcinka jelita grubego prowadzącego do odbytu?",
+      "question": "Jak nazywa się końcowy odcinek jelita grubego leżący między esicą a kanałem odbytu?",
       "options": [
         "Odbytnica",
         "Kątnica",
@@ -1428,14 +1372,12 @@
         "Okrężnica wstępująca"
       ],
       "answer": "Odbytnica",
-      "explanation_correct": "Odbytnica jest końcowym fragmentem układu pokarmowego, gromadzącym masy kałowe przed defekacją.",
-      "explanation_incorrect": "Pozostałe elementy to części jelita grubego zlokalizowane powyżej odbytnicy.",
-      "last_verified_at": "2026-06-12T17:14:45.741Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odbytnica leży między esicą a kanałem odbytu i gromadzi masy kałowe przed defekacją.",
+      "explanation_incorrect": "Pozostałe elementy to części jelita grubego zlokalizowane powyżej odbytnicy."
     },
     {
       "subcategory": "Układ krwionośny",
-      "question": "Jak nazywa się dwuwarstwowy worek surowiczy otaczający mięsień sercowy?",
+      "question": "Jak nazywa się worek otaczający serce, złożony z części włóknistej i surowiczej?",
       "options": [
         "Osierdzie",
         "Opłucna",
@@ -1443,10 +1385,8 @@
         "Osierdzie płucne"
       ],
       "answer": "Osierdzie",
-      "explanation_correct": "Osierdzie jest strukturą łącznotkankową, która chroni serce i zmniejsza tarcie podczas jego pracy.",
-      "explanation_incorrect": "Opłucna otacza płuca, a otrzewna wyściela jamę brzuszną.",
-      "last_verified_at": "2026-06-12T17:14:45.741Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Osierdzie obejmuje zewnętrzną część włóknistą i część surowiczą. Płyn między blaszkami części surowiczej zmniejsza tarcie podczas pracy serca.",
+      "explanation_incorrect": "Opłucna otacza płuca, a otrzewna wyściela jamę brzuszną."
     },
     {
       "subcategory": "Układ nerwowy",
@@ -1503,10 +1443,8 @@
         "Aktyna"
       ],
       "answer": "Kolagen",
-      "explanation_correct": "Kolagen nadaje tkankom łącznym wytrzymałość na rozciąganie oraz elastyczność.",
-      "explanation_incorrect": "Keratyna dominuje w naskórku, fibrynogen w krzepnięciu krwi, a aktyna w skurczach mięśni.",
-      "last_verified_at": "2026-06-12T17:14:45.741Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kolagen jest ważnym składnikiem macierzy tkanki łącznej; nadaje jej przede wszystkim wytrzymałość na rozciąganie.",
+      "explanation_incorrect": "Keratyna dominuje w naskórku, fibrynogen w krzepnięciu krwi, a aktyna w skurczach mięśni."
     }
   ]
 }

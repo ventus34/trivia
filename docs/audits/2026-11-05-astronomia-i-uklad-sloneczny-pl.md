@@ -1,0 +1,21 @@
+# Przegląd „Astronomia i Układ Słoneczny” — `astronomia_i_ukad_soneczny_pl`
+
+Przeczytano 159 pytań, wariantów odpowiedzi i obu wyjaśnień oraz opis paczki. Opis oddaje zakres treści; nie zmieniono opisu ani indeksu. Wybrane sporne twierdzenia zweryfikowano w źródłach; nie wszystkie szczegóły każdej pozycji były niezależnie sprawdzane. Numery niżej oznaczają pozycje w tablicy `questions`, liczone od 1.
+
+W porównaniu z HEAD zmieniono 59 rekordów: 1, 6, 8, 10, 11, 12, 13, 15, 16, 17, 22, 23, 26, 27, 35, 37, 38, 41, 42, 48, 57, 60, 61, 63, 94, 95, 96, 97, 98, 99, 100, 101, 104, 110, 112, 114, 115, 119, 120, 123, 127, 128, 129, 130, 132, 133, 134, 135, 136, 137, 139, 140, 141, 142, 144, 147, 150, 151 i 157. Pozycję 41 poprawił dodatkowo główny agent. Usunięto nieaktualne znaczniki modelu i czasu w zmodyfikowanych rekordach.
+
+Przykłady istotnych korekt:
+
+- 1 i 23: datowane dane o księżycach Saturna i aktualizacja statusu teleskopu Roman; 6 rozróżnia okres obrotu Wenus i dobę słoneczną.
+- 8, 10, 12, 16, 22: warunki dla życia na Europie, niepewny los Andromedy, magnetar jako druga poprawna odpowiedź, obserwacje Harriota przed Galileuszem oraz pierwszeństwo sond Pioneer.
+- 26, 97–101: bardziej precyzyjne wyjaśnienia horyzontu zdarzeń, granic mas, supernowych i procesu r.
+- 94, 96, 114: wyeliminowano zachodzące na siebie odpowiedzi (RR Lyrae, blazar i kwazar) i wyjaśniono mikrosoczewkowanie.
+- 132, 133, 135–137, 139–140, 144, 151, 157: zastąpiono powtórzone lub niejednoznaczne pytania odrębnymi pytaniami, m.in. o Ganimedesa, atmosferę Tytana, Spitzer, ergosferę, regolit, meteoryt, Hiady i przesunięcie Dopplera.
+
+Wciąż otwarte: w tej samej paczce pozostały podobne pary dotyczące tych samych faktów (29/138, 67/141, 68/142, 69/143, 71/145, 74/147, 75/148, 77/149, 78/150, 87/152, 88/153, 90/154, 93/156, 121/158, 124/159). Wersja bazowa HEAD tej paczki i `astronomia_uklad_sloneczny_pl` miała 126 identycznych treści pytań; nie usuwano plików ani identyfikatorów. Potrzebne jest porównanie końcowych poprawek obu paczek oraz decyzja redakcyjna o pozostałych powtórzeniach. Kontrola strukturalna nie identyfikuje parafraz.
+
+Źródła dla wybranych zmian: [MUA – księżyce Saturna i Jowisza, marzec 2026](https://www.iau.org/Iau/News/Ann2026/MPC-New-Moons-Saturn-Jupiter.aspx), [NASA – możliwe losy Andromedy, 2025](https://science.nasa.gov/missions/hubble/apocalypse-when-hubble-casts-doubt-on-certainty-of-galactic-collision/), [NASA – Europa Clipper nie wykrywa bezpośrednio życia](https://science.nasa.gov/mission/europa-clipper/mission-faq/), [NASA – Harriot i obserwacje Księżyca](https://www.jpl.nasa.gov/videos/whats-up-february-2009-learn-how-galileo-studied-the-moon/), [NASA – pierwsze przeloty sond](https://science.nasa.gov/deep-space-exploration/), [NASA – start Roman 2026](https://science.nasa.gov/mission/roman-space-telescope/roman-launch/), [NASA – supernowe](https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-stellar-explosions/), [NASA – niepewność granicy mas gwiazd neutronowych](https://ntrs.nasa.gov/api/citations/19870009701/downloads/19870009701.pdf), [NASA – Ganimedes](https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/), [NASA – atmosfera Tytana](https://science.nasa.gov/saturn/moons/titan/facts/), [NASA – Spitzer](https://science.nasa.gov/missions/spitzer/nasas-spitzer-space-telescope-ends-mission-of-astronomical-discovery/), [NASA – regolit](https://science.nasa.gov/moon/composition/), [NASA – meteoroidy, meteory i meteoryty](https://science.nasa.gov/solar-system/meteors-meteorites/), [NASA – Hiady](https://science.nasa.gov/asset/hubble/digitized-sky-survey-image-of-white-dwarf-stars-in-hyades-cluster/), [NASA – supernowa Keplera](https://www.nasa.gov/history/420-years-ago-astronomer-johannes-kepler-observes-a-supernova/), [NASA – przesunięcie Dopplera](https://science.nasa.gov/mission/webb/science-overview/science-explainers/spectroscopy-101-beyond-temperature-and-composition/).
+
+`python3 scripts/audit_questions.py` i `git diff --check` przeszły po zmianach. Nie dowodzi to poprawności merytorycznej pozostałych tez.
+
+Dodatkowe źródło dla poz. 150: [NASA – Charles Messier i późniejsze rozszerzenie katalogu](https://science.nasa.gov/people/explore-the-night-sky-hubbleatms-messier-catalog-bio/).

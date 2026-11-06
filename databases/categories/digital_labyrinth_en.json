@@ -4,8 +4,6 @@
   "language": "en",
   "description": "Questions covering: Video Games, Cryptography, Computer Science, Mathematics, Internet Culture...",
   "created_at": "2026-06-12T14:49:14.284Z",
-  "last_verified_at": "2026-06-12T14:35:52.145Z",
-  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 100,
   "questions": [
     {
@@ -25,7 +23,7 @@
     },
     {
       "subcategory": "Cryptography",
-      "question": "Which cipher device was used by Germany for encrypted military communications during World War II?",
+      "question": "Which German World War II cipher machine, invented by Arthur Scherbius, used rotating wheels and a plugboard in its military versions?",
       "options": [
         "Enigma",
         "Lorenz",
@@ -34,9 +32,7 @@
       ],
       "answer": "Enigma",
       "explanation_correct": "Enigma was the famous cipher machine used to encrypt military messages in World War II. Its code was eventually broken by Allied cryptanalysts.",
-      "explanation_incorrect": "The other options are cryptographic methods or devices, but they are not the specific rotor machine described.",
-      "last_verified_at": "2026-06-12T14:34:39.407Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Lorenz was another German wartime cipher machine used for high-level teleprinter traffic. Vigenère and Caesar are classical ciphers."
     },
     {
       "subcategory": "Computer Science",
@@ -85,18 +81,16 @@
     },
     {
       "subcategory": "Logic Puzzles",
-      "question": "Which maze-solving aid is typically left to mark a route so it can be followed again?",
+      "question": "What name is commonly given to a trail of small markers left along a route to help retrace it?",
       "options": [
         "breadcrumb trail",
         "compass",
         "map",
-        "ribbon marker"
+        "altimeter"
       ],
       "answer": "breadcrumb trail",
       "explanation_correct": "A breadcrumb trail is a series of markers left along a route to help retrace steps. It is a common metaphor in navigation and puzzle solving.",
-      "explanation_incorrect": "The other options are navigation tools or markers, but they are not the specific trail-of-clues method described.",
-      "last_verified_at": "2026-06-12T14:34:39.407Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other options are navigation tools or markers, but they are not the specific trail-of-clues method described."
     },
     {
       "subcategory": "Web Technology",
@@ -130,7 +124,7 @@
     },
     {
       "subcategory": "Programming",
-      "question": "Which loop escape statement immediately exits the current loop in many programming languages?",
+      "question": "Which statement exits the current loop and continues execution after it in many programming languages?",
       "options": [
         "break",
         "continue",
@@ -139,9 +133,7 @@
       ],
       "answer": "break",
       "explanation_correct": "The break statement terminates the current loop immediately. Control then continues with the first statement after the loop.",
-      "explanation_incorrect": "The other options alter control flow, but they do not specifically mean ending the current loop in the same direct way.",
-      "last_verified_at": "2026-06-12T14:34:39.407Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other options alter control flow, but they do not specifically mean ending the current loop in the same direct way."
     },
     {
       "subcategory": "User Interface Design",
@@ -160,7 +152,7 @@
     },
     {
       "subcategory": "Cybersecurity",
-      "question": "Which term refers to an unauthorized maze-like network route?",
+      "question": "What is a sequence of multiple proxy servers through which network traffic is routed?",
       "options": [
         "proxy chain",
         "firewall rule",
@@ -168,10 +160,8 @@
         "port scan"
       ],
       "answer": "proxy chain",
-      "explanation_correct": "A proxy chain routes traffic through multiple intermediary servers in sequence. In an unauthorized context, it can be used to obscure origin and movement across networks.",
-      "explanation_incorrect": "The other options are security tools or activities, not a routed series of proxies. They do not specifically describe a chained path through multiple relays.",
-      "last_verified_at": "2026-06-12T14:34:39.407Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A proxy chain routes traffic through multiple intermediary servers in sequence. Such chains can serve legitimate purposes and are not inherently unauthorized.",
+      "explanation_incorrect": "A firewall rule filters traffic, a packet sniffer captures it, and a port scan probes services."
     },
     {
       "subcategory": "Robotics",
@@ -189,8 +179,8 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "Television",
-      "question": "Which title is the sci-fi digital prison setting from a classic film franchise?",
+      "subcategory": "Cinema",
+      "question": "Which film follows programmer Kevin Flynn into a computer world where programs compete in deadly games?",
       "options": [
         "Tron",
         "Blade Runner",
@@ -198,14 +188,12 @@
         "Neuromancer"
       ],
       "answer": "Tron",
-      "explanation_correct": "Tron is the title associated with a digital world and imprisoned programs inside a computer system. It is the correct named work for this clue.",
-      "explanation_incorrect": "The other options are science-fiction titles, but they are not the one centered on the specific digital prison concept described. They point to different settings and stories.",
-      "last_verified_at": "2026-06-12T14:34:39.407Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "In Tron, Kevin Flynn is transported into a computer world and encounters programs controlled by the Master Control Program.",
+      "explanation_incorrect": "The other works also feature science-fiction settings, but Kevin Flynn is the protagonist of Tron."
     },
     {
       "subcategory": "Data Structures",
-      "question": "Which data structure is a node-link structure with branches from a single root?",
+      "question": "Which data structure is a hierarchy of nodes with one root and no cycles?",
       "options": [
         "tree",
         "stack",
@@ -214,9 +202,7 @@
       ],
       "answer": "tree",
       "explanation_correct": "A tree is a hierarchical node-link structure organized around parent-child relationships. It branches outward from a root node.",
-      "explanation_incorrect": "The other options are common structures, but they are not hierarchical branching structures in the same way. Graphs are broader, while stacks and queues are linear.",
-      "last_verified_at": "2026-06-12T14:34:39.408Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A rooted tree is a special kind of graph; stacks and queues are linear data structures."
     },
     {
       "subcategory": "Virtual Reality",
@@ -235,7 +221,7 @@
     },
     {
       "subcategory": "Video Games",
-      "question": "Which arcade title is known for a maze chase and aggressive enemy pursuit?",
+      "question": "Which arcade game features the player shooting robots in maze-like rooms while avoiding the deadly Evil Otto?",
       "options": [
         "Berzerk",
         "Pac-Man",
@@ -243,14 +229,12 @@
         "Asteroids"
       ],
       "answer": "Berzerk",
-      "explanation_correct": "Berzerk is a classic arcade game featuring maze-like rooms and hostile enemies chasing the player. It fits the clue’s description exactly.",
-      "explanation_incorrect": "The other games are classic arcade titles, but they are not the one identified by this maze chase description. Each has different core gameplay.",
-      "last_verified_at": "2026-06-12T14:34:39.408Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Berzerk features armed robots in maze-like rooms and Evil Otto, a pursuing enemy.",
+      "explanation_incorrect": "Pac-Man is another maze-chase game, while Galaga and Asteroids are space shooters."
     },
     {
       "subcategory": "Algorithms",
-      "question": "Which algorithm is a shortest-path method used on weighted graphs?",
+      "question": "Which algorithm finds single-source shortest paths with nonnegative edge weights by repeatedly settling the vertex with the smallest tentative distance?",
       "options": [
         "Dijkstra",
         "A*",
@@ -259,13 +243,11 @@
       ],
       "answer": "Dijkstra",
       "explanation_correct": "Dijkstra’s algorithm finds shortest paths from a source node in a graph with nonnegative weights. It is the named shortest-path method in the clue.",
-      "explanation_incorrect": "The other options are graph algorithms, but they serve different purposes. They are not the classic single-source shortest-path method described here.",
-      "last_verified_at": "2026-06-12T14:34:39.408Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A* typically adds a goal-directed heuristic, while Prim and Kruskal construct minimum spanning trees."
     },
     {
       "subcategory": "Networking",
-      "question": "Which anonymous routing system uses multiple relays to hide traffic origin?",
+      "question": "Which anonymity network provides services with .onion addresses and routes traffic through relays?",
       "options": [
         "Tor",
         "VPN",
@@ -274,9 +256,7 @@
       ],
       "answer": "Tor",
       "explanation_correct": "Tor routes traffic through layered relays to help conceal the user’s location and identity. It is the well-known anonymous routing system referenced by the clue.",
-      "explanation_incorrect": "The other options involve privacy or secure communication, but they are not the specific relay-based anonymity network named here. They do not match the clue’s routing model exactly.",
-      "last_verified_at": "2026-06-12T14:34:39.408Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "I2P is another anonymous network with multiple relays; VPN and HTTPS provide different networking or security functions."
     },
     {
       "subcategory": "Cryptography",
@@ -385,7 +365,7 @@
     },
     {
       "subcategory": "Game Development",
-      "question": "Which algorithm is commonly used to generate mazes using a minimum-spanning-tree approach?",
+      "question": "Which minimum-spanning-tree algorithm builds a forest by adding edges that connect different components, and can be adapted to generate mazes?",
       "options": [
         "Kruskal",
         "Prim",
@@ -394,9 +374,7 @@
       ],
       "answer": "Kruskal",
       "explanation_correct": "Kruskal's algorithm can be adapted to carve mazes by selecting edges without creating cycles. This produces a perfect maze when applied to a grid of cells.",
-      "explanation_incorrect": "The other options are graph algorithms, but they are not the one named in the clue for this maze-generation method.",
-      "last_verified_at": "2026-06-12T14:34:39.408Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Prim's algorithm can also generate mazes using a spanning tree, but it grows a single tree from a starting vertex. Dijkstra and Floyd-Warshall address shortest paths."
     },
     {
       "subcategory": "Ancient Myth",
@@ -460,7 +438,7 @@
     },
     {
       "subcategory": "Video Games",
-      "question": "Which arcade title is a maze chase game featuring a character named Ms.?",
+      "question": "Which Pac-Man sequel features a female protagonist with a bow and her own maze-chase arcade game?",
       "options": [
         "Pac-Man",
         "Ms. Pac-Man",
@@ -469,13 +447,11 @@
       ],
       "answer": "Ms. Pac-Man",
       "explanation_correct": "Ms. Pac-Man is the well-known maze chase arcade title released as a sequel to Pac-Man. It centers on navigating mazes while avoiding ghosts.",
-      "explanation_incorrect": "Pac-Man is the original game, while Donkey Kong and Galaga belong to different arcade genres.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Pac-Man is the original game, while Donkey Kong and Galaga belong to different arcade genres."
     },
     {
       "subcategory": "Cryptography",
-      "question": "Who is credited as the inventor of the rotor machine later associated with the Enigma family?",
+      "question": "Which inventor is associated with the early development and commercialization of the Enigma cipher machine?",
       "options": [
         "Hugo Koch",
         "Arthur Scherbius",
@@ -483,14 +459,12 @@
         "Claude Shannon"
       ],
       "answer": "Arthur Scherbius",
-      "explanation_correct": "Arthur Scherbius invented the rotor machine that became the basis for the Enigma cipher machine. His work is central to the history of electromechanical cryptography.",
-      "explanation_incorrect": "Hugo Koch was an earlier patent holder, while Turing and Shannon were important cryptographers and theorists, not the machine's inventor.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Arthur Scherbius was associated with the development and commercialization of Enigma. Early rotor-machine patent histories also involve other inventors, including Hugo Koch.",
+      "explanation_incorrect": "Koch also contributed to early rotor-machine patents; Turing and Shannon are known for later work in cryptanalysis and information theory."
     },
     {
       "subcategory": "Algorithms",
-      "question": "Which shortest-path algorithm can handle graphs with negative edge weights?",
+      "question": "Which listed algorithm finds single-source shortest paths with negative edge weights and can detect reachable negative-weight cycles?",
       "options": [
         "Dijkstra",
         "Bellman-Ford",
@@ -498,10 +472,8 @@
         "Prim"
       ],
       "answer": "Bellman-Ford",
-      "explanation_correct": "The Bellman-Ford algorithm computes single-source shortest paths even when some edges have negative weight. It also detects negative cycles.",
-      "explanation_incorrect": "Dijkstra and A* assume nonnegative edge costs, and Prim is used for minimum spanning trees rather than shortest paths.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Bellman-Ford computes single-source shortest paths when negative edges are present and detects negative cycles reachable from the source.",
+      "explanation_incorrect": "Standard Dijkstra assumes nonnegative weights; Prim builds a minimum spanning tree. A* is normally applied under nonnegative-cost assumptions and does not provide the same negative-cycle detection."
     },
     {
       "subcategory": "Greek Mythology",
@@ -535,7 +507,7 @@
     },
     {
       "subcategory": "Computer Networking",
-      "question": "Which anonymous routing system is designed to provide decentralized hidden services and privacy?",
+      "question": "Which anonymous overlay network uses garlic routing and unidirectional tunnels?",
       "options": [
         "Tor",
         "I2P",
@@ -544,9 +516,7 @@
       ],
       "answer": "I2P",
       "explanation_correct": "I2P is an anonymous overlay network built for privacy-preserving communication and hidden services. It routes traffic through layered tunnels to reduce traceability.",
-      "explanation_incorrect": "Tor and VPNs also relate to privacy, but BitTorrent is a file-sharing protocol rather than an anonymity network.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Tor is also an anonymity network and offers onion services, but I2P is associated with garlic routing and unidirectional tunnels."
     },
     {
       "subcategory": "Robotics",
@@ -573,10 +543,8 @@
         "Ready Player One"
       ],
       "answer": "Neuromancer",
-      "explanation_correct": "Neuromancer is William Gibson's landmark novel that helped define cyberpunk and introduced the idea of cyberspace. Its story heavily features virtual networks and digital immersion.",
-      "explanation_incorrect": "Snow Crash and Ready Player One are later works with similar themes, while The Moon Is a Harsh Mistress is a different classic science fiction novel.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Neuromancer is William Gibson's landmark cyberpunk novel featuring virtual networks and digital immersion. Gibson used the term cyberspace earlier in his short story 'Burning Chrome'.",
+      "explanation_incorrect": "Snow Crash and Ready Player One are later works with similar themes, while The Moon Is a Harsh Mistress is a different classic science fiction novel."
     },
     {
       "subcategory": "Cybersecurity",
@@ -700,7 +668,7 @@
     },
     {
       "subcategory": "Cryptography",
-      "question": "Which cipher machine was used by the German military and is often paired with the Enigma in World War II discussions?",
+      "question": "Which German World War II cipher machine encrypted high-level teleprinter traffic and was attacked by Allied codebreakers?",
       "options": [
         "Lorenz",
         "Enigma",
@@ -709,9 +677,7 @@
       ],
       "answer": "Lorenz",
       "explanation_correct": "The Lorenz machine was a German teleprinter cipher machine used for high-level military communications. It is famous for being attacked by Allied cryptanalysts.",
-      "explanation_incorrect": "The other devices were also historical cipher machines, but they are distinct systems. Lorenz is the one associated with that specific rotor/teleprinter role.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Enigma was also used by Germany, but Lorenz was the teleprinter cipher system described. Hagelin and Purple were other cipher machines."
     },
     {
       "subcategory": "Algorithms",
@@ -723,10 +689,8 @@
         "Kruskal"
       ],
       "answer": "Floyd-Warshall",
-      "explanation_correct": "The Floyd-Warshall algorithm finds shortest paths between every pair of vertices. It uses dynamic programming to update path distances through intermediate nodes.",
-      "explanation_incorrect": "The other algorithms solve different graph problems or single-source path tasks. They do not directly compute all-pairs shortest paths.",
-      "last_verified_at": "2026-06-12T14:34:39.409Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Floyd-Warshall algorithm computes shortest paths between every pair of vertices using dynamic programming, provided the relevant shortest paths are well-defined; negative cycles can make them undefined.",
+      "explanation_incorrect": "The other algorithms solve different graph problems or single-source path tasks. They do not directly compute all-pairs shortest paths."
     },
     {
       "subcategory": "Web Navigation",
@@ -745,7 +709,7 @@
     },
     {
       "subcategory": "Cybersecurity",
-      "question": "Which peer-to-peer network is designed for censorship-resistant communication and data sharing?",
+      "question": "Which decentralized network is known for storing and retrieving encrypted content for censorship-resistant publishing under the name Freenet?",
       "options": [
         "Freenet",
         "Tor",
@@ -754,9 +718,7 @@
       ],
       "answer": "Freenet",
       "explanation_correct": "Freenet is a decentralized platform designed for anonymous and censorship-resistant publishing and sharing. It stores and retrieves content through a distributed network.",
-      "explanation_incorrect": "The other options are networking systems or protocols with different primary purposes. They are not the same censorship-resistant content network as Freenet.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Tor and I2P also support privacy and censorship resistance, while BitTorrent is a peer-to-peer file distribution protocol."
     },
     {
       "subcategory": "Mythology",
@@ -820,18 +782,16 @@
     },
     {
       "subcategory": "Topology",
-      "question": "Which term describes a three-dimensional manifold with a boundary that forms a complex, winding network of tunnels?",
+      "question": "Which of these closed surfaces has the shape of a doughnut and one hole?",
       "options": [
-        "maze manifold",
         "torus",
-        "Klein bottle",
-        "sphere"
+        "sphere",
+        "plane",
+        "disk"
       ],
-      "answer": "maze manifold",
-      "explanation_correct": "In topology, a maze manifold represents a space with complex, non-trivial connectivity similar to a labyrinth.",
-      "explanation_incorrect": "Torus and spheres are standard geometric shapes, while a Klein bottle is a non-orientable surface.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "torus",
+      "explanation_correct": "A torus is a doughnut-shaped surface with one hole; it is a standard example of a surface of genus one.",
+      "explanation_incorrect": "A sphere has no hole, while a plane and a disk do not have the same closed doughnut-shaped surface."
     },
     {
       "subcategory": "Operating Systems",
@@ -844,13 +804,11 @@
       ],
       "answer": "cd ..",
       "explanation_correct": "The command cd .. changes the working directory to its parent directory. It is the standard way to move up one level in a file path.",
-      "explanation_incorrect": "cd ~ goes to the home directory, pwd prints the current directory, and ls lists files. None of those moves up exactly one level.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "cd ~ goes to the home directory, which may occasionally also be the parent. pwd prints the current directory, and ls lists files."
     },
     {
       "subcategory": "Video Games",
-      "question": "Which arcade title is the sequel in the Maze Wars series?",
+      "question": "Which Macintosh game was an updated version of the classic Maze Wars?",
       "options": [
         "Super Maze Wars",
         "Maze Invaders",
@@ -858,10 +816,8 @@
         "Warpath Maze"
       ],
       "answer": "Super Maze Wars",
-      "explanation_correct": "Super Maze Wars is the sequel associated with the Maze Wars arcade series. The title directly matches the clue.",
-      "explanation_incorrect": "The other options are plausible game titles, but they are not the known sequel name. Only Super Maze Wars fits the specific series clue.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Super Maze Wars is a Macintosh update of the earlier Maze Wars game.",
+      "explanation_incorrect": "The other titles are not the Macintosh update described."
     },
     {
       "subcategory": "Robotics",
@@ -925,7 +881,7 @@
     },
     {
       "subcategory": "Cryptography",
-      "question": "Which cryptographic system was designed as a rotor machine alternative?",
+      "question": "Which Japanese diplomatic cipher machine used electrical stepping switches rather than rotors?",
       "options": [
         "Purple",
         "SIGABA",
@@ -933,14 +889,12 @@
         "Typex"
       ],
       "answer": "Purple",
-      "explanation_correct": "Purple was a Japanese diplomatic cipher machine built as an alternative to rotor-based systems. It is the exact target answer.",
-      "explanation_incorrect": "The other options are also historical cipher machines, but they are not the specific rotor machine alternative referred to here.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Purple was the Allied name for a Japanese diplomatic cipher machine using electrical stepping switches.",
+      "explanation_incorrect": "SIGABA, Enigma and Typex were rotor-based cipher machines."
     },
     {
       "subcategory": "Algorithms",
-      "question": "Which shortest-path algorithm is used for maze routing on a grid?",
+      "question": "Which algorithm uses breadth-first search to find a shortest route on an unweighted grid, notably in circuit layout?",
       "options": [
         "Lee algorithm",
         "Dijkstra's algorithm",
@@ -948,10 +902,8 @@
         "Bellman-Ford algorithm"
       ],
       "answer": "Lee algorithm",
-      "explanation_correct": "The Lee algorithm is a breadth-first search approach commonly used to find shortest paths in grid-based mazes. It matches the blueprint exactly.",
-      "explanation_incorrect": "The other options are valid pathfinding algorithms, but they are not the grid-routing method named in the question.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Lee algorithm uses breadth-first search for grid routing, including printed-circuit routing.",
+      "explanation_incorrect": "Dijkstra and A* can also find routes on grids, but Lee specifically uses breadth-first expansion for grid routing; Bellman-Ford is a general shortest-path algorithm."
     },
     {
       "subcategory": "Ancient Mythology",
@@ -963,10 +915,8 @@
         "Helen"
       ],
       "answer": "Ariadne",
-      "explanation_correct": "Ariadne is the Cretan princess associated with giving Theseus the thread to leave the Labyrinth. She is the correct answer from the blueprint.",
-      "explanation_incorrect": "The other options are mythological women, but they are not the princess tied to the Labyrinth story.",
-      "last_verified_at": "2026-06-12T14:34:39.410Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ariadne is the Cretan princess associated with giving Theseus the thread to leave the Labyrinth.",
+      "explanation_incorrect": "The other options are mythological women, but they are not the princess tied to the Labyrinth story."
     },
     {
       "subcategory": "Web Navigation",
@@ -1008,10 +958,8 @@
         "The Diamond Age"
       ],
       "answer": "Ready Player One",
-      "explanation_correct": "Ready Player One is the novel by Ernest Cline centered on a virtual reality world and pop-culture quest. It is the exact target answer.",
-      "explanation_incorrect": "The other options are well-known science fiction novels, but they are not the specific virtual world novel named in the blueprint.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ready Player One is Ernest Cline’s novel centered on a virtual reality world and a pop-culture quest.",
+      "explanation_incorrect": "The other options are science-fiction novels by other authors."
     },
     {
       "subcategory": "Robotics",
@@ -1034,14 +982,12 @@
       "options": [
         "kebab menu",
         "hamburger menu",
-        "ellipsis menu",
+        "search icon",
         "gear icon"
       ],
       "answer": "kebab menu",
       "explanation_correct": "The vertical three-dot icon is widely known in UI design as a kebab menu. It is typically used to reveal overflow options.",
-      "explanation_incorrect": "A hamburger menu consists of three horizontal lines, and an ellipsis is typically horizontal; a gear icon is used for settings.",
-      "last_verified_at": "2026-06-12T14:35:52.145Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A hamburger menu uses three horizontal lines; a magnifying glass commonly denotes search, and a gear often denotes settings. A vertical ellipsis is another name for the three-dot symbol."
     },
     {
       "subcategory": "Literature",
@@ -1083,10 +1029,8 @@
         "link aggregation"
       ],
       "answer": "onion routing",
-      "explanation_correct": "Onion routing peels away layers of encryption at each hop, hiding the original source and destination.",
-      "explanation_incorrect": "Packet switching is a general networking concept, while port forwarding is for local network access.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Onion routing uses layers of encryption and relays: each relay learns limited information about the preceding and following hop, helping protect source and destination privacy. It does not guarantee anonymity against every observer.",
+      "explanation_incorrect": "Packet switching is a general networking concept, while port forwarding is for local network access."
     },
     {
       "subcategory": "Game Development",
@@ -1120,7 +1064,7 @@
     },
     {
       "subcategory": "Navigation",
-      "question": "What positioning satellite system is commonly used by receivers to determine location on Earth?",
+      "question": "Which U.S. satellite navigation system provides positioning signals to receivers worldwide?",
       "options": [
         "GPS",
         "GLONASS",
@@ -1129,9 +1073,7 @@
       ],
       "answer": "GPS",
       "explanation_correct": "GPS is the U.S. Global Positioning System, used worldwide for satellite-based navigation and positioning. Receivers compute location from signals sent by multiple satellites.",
-      "explanation_incorrect": "The other options are also satellite navigation systems, but they are not the specific term requested.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "GLONASS, Galileo and BeiDou are also satellite navigation systems, operated respectively by Russia, the European Union and China."
     },
     {
       "subcategory": "Video Games",
@@ -1150,7 +1092,7 @@
     },
     {
       "subcategory": "Cryptography",
-      "question": "Who is credited with inventing the cipher machine associated with early rotor-based encryption?",
+      "question": "Which inventor developed an early electric rotor cipher machine known as the Hebern machine?",
       "options": [
         "Hebern",
         "Morse",
@@ -1159,13 +1101,11 @@
       ],
       "answer": "Hebern",
       "explanation_correct": "Hebern refers to Edward Hebern, an early inventor of rotor-based cipher machines. His designs were important in the development of mechanical cryptography.",
-      "explanation_incorrect": "The other options are notable figures in communication, computing, or information theory, but they are not the inventor asked for here.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other options are notable figures in communication, computing, or information theory, but they are not the inventor asked for here."
     },
     {
       "subcategory": "Graph Theory",
-      "question": "Which graph theorist gave his name to a shortest-path tree algorithm and many other foundational results?",
+      "question": "Which computer scientist gave his name to a depth-first-search algorithm for finding strongly connected components in a directed graph?",
       "options": [
         "Tarjan",
         "Kruskal",
@@ -1173,10 +1113,8 @@
         "Prim"
       ],
       "answer": "Tarjan",
-      "explanation_correct": "Tarjan is the surname of Robert Tarjan, known for major contributions to graph algorithms and data structures. His name is attached to several important algorithmic results.",
-      "explanation_incorrect": "The other options are also prominent algorithm names, but they do not identify the person referenced by this clue.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Robert Tarjan developed a depth-first-search algorithm to find strongly connected components in directed graphs.",
+      "explanation_incorrect": "Kruskal and Prim are associated with minimum spanning trees, while Ford is associated with other graph algorithms."
     },
     {
       "subcategory": "Ancient Mythology",
@@ -1210,7 +1148,7 @@
     },
     {
       "subcategory": "Hypertext Fiction",
-      "question": "Which pioneering hypertext fiction work is considered a landmark in the genre?",
+      "question": "Which pioneering hypertext fiction work was written by Michael Joyce and is often styled 'a story'?",
       "options": [
         "Afternoon",
         "Patchwork Girl",
@@ -1219,13 +1157,11 @@
       ],
       "answer": "Afternoon",
       "explanation_correct": "Michael Joyce's Afternoon is widely regarded as one of the seminal works of hypertext fiction. It helped define early electronic literature.",
-      "explanation_incorrect": "The other options are also works of hypertext fiction, but they are not the specific pioneering title asked for.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Patchwork Girl, Victory Garden and Twelve Blue are also important hypertext works; Michael Joyce wrote Twelve Blue as well, but its title is not Afternoon, a story."
     },
     {
       "subcategory": "Navigation",
-      "question": "What maze-solving strategy keeps one hand in contact with a wall throughout the search?",
+      "question": "Which maze-solving strategy keeps the left hand in contact with a wall throughout the search?",
       "options": [
         "left-hand rule",
         "breadth-first search",
@@ -1234,13 +1170,11 @@
       ],
       "answer": "left-hand rule",
       "explanation_correct": "The left-hand rule is a classic maze-navigation technique that follows a wall continuously on the left side. It can solve many simply connected mazes.",
-      "explanation_incorrect": "The other choices are either different navigation methods or the mirrored version of the same rule.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other choices are either different navigation methods or the mirrored version of the same rule."
     },
     {
       "subcategory": "Internet Privacy",
-      "question": "Which privacy-focused operating system is used to route activity through the Tor network?",
+      "question": "Which privacy-focused live operating system is designed to be amnesic and routes its connections through Tor by default?",
       "options": [
         "Tails",
         "Whonix",
@@ -1249,9 +1183,7 @@
       ],
       "answer": "Tails",
       "explanation_correct": "Tails is a live operating system designed to preserve anonymity and privacy, routing connections through Tor by default. It leaves little trace on the host computer.",
-      "explanation_incorrect": "The other options are privacy-oriented systems or distributions, but they are not the specific anonymous network software asked for.",
-      "last_verified_at": "2026-06-12T14:34:39.411Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Whonix also routes traffic through Tor, but uses a gateway and workstation architecture. Qubes OS and Parrot OS have different designs."
     },
     {
       "subcategory": "Algorithms",
@@ -1263,10 +1195,8 @@
         "Greedy best-first search"
       ],
       "answer": "IDA*",
-      "explanation_correct": "IDA* stands for iterative deepening A*, combining heuristic guidance with repeated depth-bound increases. It is used when memory efficiency matters.",
-      "explanation_incorrect": "The other algorithms are related search methods, but they do not use the same iterative deepening heuristic approach.",
-      "last_verified_at": "2026-06-12T14:34:39.412Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "IDA* stands for iterative deepening A*. It repeats depth-first searches with increasing limits on the estimated total path cost, typically using much less memory than A*.",
+      "explanation_incorrect": "The other algorithms are related search methods, but they do not use the same iterative deepening heuristic approach."
     },
     {
       "subcategory": "User Interface",
@@ -1275,13 +1205,11 @@
         "ellipsis",
         "caret",
         "hamburger",
-        "kebab"
+        "gear"
       ],
       "answer": "ellipsis",
       "explanation_correct": "An ellipsis is the punctuation mark made of three dots, and it is often used as a menu icon in interfaces. It signals additional options or actions.",
-      "explanation_incorrect": "The other options are different interface symbols or slang terms for other menu icons, not the three-dot name itself.",
-      "last_verified_at": "2026-06-12T14:34:39.412Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A caret is an angled mark, a hamburger icon uses three horizontal lines, and a gear commonly indicates settings. A vertical three-dot icon is also called a kebab menu."
     },
     {
       "subcategory": "Literature",
@@ -1300,18 +1228,16 @@
     },
     {
       "subcategory": "Classic Computing",
-      "question": "What is the name of the cave system that inspired a famous text adventure game?",
+      "question": "Which part of the Mammoth Cave system inspired Will Crowther’s text adventure?",
       "options": [
         "Colossal Cave",
-        "Mammoth Cave",
         "Lechuguilla Cave",
-        "Carlsbad Caverns"
+        "Carlsbad Caverns",
+        "Lascaux"
       ],
       "answer": "Colossal Cave",
-      "explanation_correct": "Colossal Cave is the cave system associated with the original Adventure text game. It inspired one of the earliest and most influential interactive fiction titles.",
-      "explanation_incorrect": "The other options are real cave systems, but they are not the source of the classic text adventure.",
-      "last_verified_at": "2026-06-12T14:34:39.412Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Crowther drew on the Bedquilt area of Colossal Cave, which is part of the Mammoth Cave system in Kentucky.",
+      "explanation_incorrect": "The other caves are separate locations; Mammoth Cave is the larger system that includes Colossal Cave."
     },
     {
       "subcategory": "Steganography",
@@ -1360,7 +1286,7 @@
     },
     {
       "subcategory": "Arcade Video Games",
-      "question": "In arcade video games, what is the name of the enemy group in a maze chase game?",
+      "question": "What are the four pursuers in the original Pac-Man commonly called?",
       "options": [
         "Ghosts",
         "Aliens",
@@ -1368,10 +1294,8 @@
         "Monsters"
       ],
       "answer": "Ghosts",
-      "explanation_correct": "In maze chase arcade games, the player is pursued by ghosts. This is the standard term for that enemy group.",
-      "explanation_incorrect": "The other options are also enemy types, but they are not the classic maze-chase opponents. They do not match the specified group name.",
-      "last_verified_at": "2026-06-12T14:34:39.412Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The four pursuers in Pac-Man are commonly called ghosts: Blinky, Pinky, Inky and Clyde.",
+      "explanation_incorrect": "Other maze games can feature robots, monsters or other enemies; Pac-Man’s pursuers are commonly called ghosts."
     },
     {
       "subcategory": "Cryptography",
@@ -1384,9 +1308,7 @@
       ],
       "answer": "Vigenère",
       "explanation_correct": "Blaise de Vigenère did not actually invent the cipher, but his name became associated with it in the 19th century.",
-      "explanation_incorrect": "Caesar used a simple shift cipher, while Hill and Playfair created methods based on bigrams and matrices respectively.",
-      "last_verified_at": "2026-06-12T14:34:39.412Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The Caesar cipher uses a fixed shift. The Playfair cipher uses letter pairs and the Hill cipher uses matrix-based transformations; their namesakes were not necessarily their inventors."
     },
     {
       "subcategory": "Web Navigation",

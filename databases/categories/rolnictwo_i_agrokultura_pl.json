@@ -19,7 +19,7 @@
       ],
       "answer": "Dożynki",
       "explanation_correct": "Dożynki to tradycyjne polskie święto dziękczynienia za plony, obchodzone po zakończeniu zbiorów zbóż.",
-      "explanation_incorrect": "Rożanki to święto wiosenne związane z topieniem Marzanny, odpust to uroczystość kościelna, a karczma to lokal gastronomiczny, nie święto rolnicze.",
+      "explanation_incorrect": "Odpust jest uroczystością kościelną, a karczma lokalem gastronomicznym. Rożanki nie są nazwą tradycyjnego święta zakończenia żniw.",
       "last_verified_at": "2026-06-12T15:37:03.160Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -29,12 +29,12 @@
       "options": [
         "Cambridge",
         "Brona",
-        "Plug",
+        "Pług",
         "Siewnik"
       ],
       "answer": "Cambridge",
       "explanation_correct": "Wały Cambridge to maszyny rolnicze służące do wyrównywania i zagęszczania gleby po orce i siewie.",
-      "explanation_incorrect": "Brona służy do rozdrabniania i spulchniania gleby, plug do orki, a siewnik do wysiewu nasion.",
+      "explanation_incorrect": "Brona służy do rozdrabniania i spulchniania gleby, pług do orki, a siewnik do wysiewu nasion.",
       "last_verified_at": "2026-06-12T15:37:03.160Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -48,7 +48,7 @@
         "Zagroda"
       ],
       "answer": "Stajnia",
-      "explanation_correct": "Stajnia to budynek gospodarczy służący do przebywania koni (lub bydła, ale głównie koni).",
+      "explanation_correct": "Stajnia to budynek gospodarczy przeznaczony przede wszystkim dla koni.",
       "explanation_incorrect": "Stodoła przechowuje siano i zboże, obornik to nawóz, a zagroda to ogrodzone miejsce na pastwisku.",
       "last_verified_at": "2026-06-12T15:37:03.160Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -70,7 +70,7 @@
     },
     {
       "subcategory": "Magazynowanie",
-      "question": "Jaka budowla służy do przechowywania ziarna na dużą skalę?",
+      "question": "Jak nazywa się zespół magazynowy wyposażony w urządzenia do mechanicznego przyjmowania, transportu, przechowywania i wydawania ziarna?",
       "options": [
         "Silos zbożowy",
         "Spichlerz",
@@ -79,7 +79,7 @@
       ],
       "answer": "Elewator zbożowy",
       "explanation_correct": "Elewator zbożowy to wyspecjalizowana budowla magazynowa wyposażona w mechanizmy do przyjmowania, przechowywania i wydawania ziarna.",
-      "explanation_incorrect": "Silos zbożowy jest podobny, ale często mniejszy i pozbawiony pełnej infrastruktury elewatora. Spichlerz i stodoła to tradycyjne, mniej mechaniczne obiekty.",
+      "explanation_incorrect": "Silos jest zbiornikiem magazynowym, który może być częścią elewatora. Spichlerz i stodoła są innymi budynkami gospodarczymi.",
       "last_verified_at": "2026-06-12T15:37:03.161Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -133,28 +133,28 @@
       "question": "Jak nazywa się wykastrowany samiec bydła?",
       "options": [
         "Byk",
-        "Woł",
+        "Wół",
         "Buhaj",
         "Cielę"
       ],
-      "answer": "Woł",
-      "explanation_correct": "Woł to kastrowany samiec bydła, używany głównie jako zwierzę robocze lub opasowe.",
+      "answer": "Wół",
+      "explanation_correct": "Wół to wykastrowany samiec bydła, tradycyjnie wykorzystywany do pracy lub opasu.",
       "explanation_incorrect": "Byk i buhaj to niekastrowane samce, cielę to młode bydło bez względu na płeć.",
       "last_verified_at": "2026-06-12T15:37:03.161Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gospodarka leśna",
-      "question": "Jak nazywa się proces sztucznego odnawiania lasu?",
+      "question": "Jak nazywa się zakładanie lasu na gruntach, które wcześniej nie były lasem?",
       "options": [
         "Zalesianie",
-        "Enwitalizacja",
+        "Odnowienie lasu",
         "Deforestacja",
         "Użyźnianie"
       ],
       "answer": "Zalesianie",
-      "explanation_correct": "Zalesianie to celowe zakładanie upraw leśnych na gruntach, które wcześniej nie były lasem lub zostały wylesione.",
-      "explanation_incorrect": "Deforestacja to wylesianie, enwitalizacja i użyźnianie nie są terminami dotyczącymi odnawiania lasu.",
+      "explanation_correct": "Zalesianie to zakładanie lasu na gruntach wcześniej nieleśnych, np. porolnych.",
+      "explanation_incorrect": "Odnowienie to wprowadzanie kolejnego pokolenia lasu na terenie leśnym, deforestacja oznacza wylesianie, a użyźnianie poprawia żyzność gleby.",
       "last_verified_at": "2026-06-12T15:37:03.162Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -229,7 +229,7 @@
       ],
       "answer": "Zaraza ziemniaczana",
       "explanation_correct": "Zaraza ziemniaczana to groźna choroba powodowana przez lęgniowca Phytophthora infestans, atakująca liście i bulwy.",
-      "explanation_incorrect": "Parch wywołują grzyby, mączniak i rdza to choroby innych roślin, nie są powodowane przez lęgniowce.",
+      "explanation_incorrect": "Parch zwykły wywołują bakterie z rodzaju Streptomyces. Mączniaki i rdze są chorobami grzybowymi, a nie chorobami wywołanymi przez lęgniowce.",
       "last_verified_at": "2026-06-12T15:37:03.162Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -265,7 +265,7 @@
     },
     {
       "subcategory": "Narzędzia ręczne",
-      "question": "Jakie narzędzie służy do ręcznego koszenia trawy lub zboża?",
+      "question": "Jakie ręczne narzędzie z długim styliskiem i zakrzywionym ostrzem służy do koszenia trawy lub zboża?",
       "options": [
         "Sierp",
         "Kosa",
@@ -274,7 +274,7 @@
       ],
       "answer": "Kosa",
       "explanation_correct": "Kosa to ręczne narzędzie rolnicze z długim styliskiem i zakrzywionym ostrzem, używane do koszenia.",
-      "explanation_incorrect": "Sierp jest mniejszy, służy głównie do żniw; grabie do zbierania, sieczkarnia to narzędzie mechaniczne.",
+      "explanation_incorrect": "Sierp również służy do żęcia, ale jest krótszy i używany jedną ręką; grabie służą do zgrabiania, a sieczkarnia do cięcia paszy.",
       "last_verified_at": "2026-06-12T15:37:03.163Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -298,13 +298,13 @@
       "question": "Jaki produkt uboczny powstaje podczas tłoczenia oleju rzepakowego?",
       "options": [
         "Makuchy",
-        "Śruta",
+        "Serwatka",
         "Otręby",
         "Melasa"
       ],
       "answer": "Makuchy",
       "explanation_correct": "Makuchy to sprasowane resztki nasion rzepaku po wytłoczeniu oleju, używane jako pasza dla zwierząt.",
-      "explanation_incorrect": "Śruta to zmielone ziarno zbóż, otręby to okrywy ziaren, melasa to produkt uboczny produkcji cukru – nie powstają z rzepaku.",
+      "explanation_incorrect": "Serwatka powstaje przy produkcji sera, otręby przy przemiale ziarna, a melasa przy produkcji cukru. Rzepakowa śruta poekstrakcyjna również pochodzi z przetwarzania rzepaku, ale po ekstrakcji oleju.",
       "last_verified_at": "2026-06-12T15:37:03.163Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -370,7 +370,7 @@
     },
     {
       "subcategory": "Agrobotanika",
-      "question": "Która z wymienionych roślin strączkowych charakteryzuje się wyjątkowo dużymi nasionami i jest uprawiana głównie na paszę?",
+      "question": "Która z wymienionych roślin jest uprawną formą bobu zwyczajnego wykorzystywaną m.in. na paszę?",
       "options": [
         "Bobik",
         "Groch",
@@ -378,23 +378,23 @@
         "Soja"
       ],
       "answer": "Bobik",
-      "explanation_correct": "Bobik (Vicia faba var. minor) to roślina strączkowa o dużych nasionach, uprawiana przede wszystkim na nasiona paszowe i zielonkę.",
-      "explanation_incorrect": "Groch, fasola i soja mają mniejsze nasiona i są uprawiane głównie dla celów konsumpcyjnych lub paszowych, ale nie tak duże jak bobik.",
+      "explanation_correct": "Bobik to forma bobu zwyczajnego (Vicia faba), uprawiana m.in. na nasiona paszowe i zielonkę.",
+      "explanation_incorrect": "Groch, fasola i soja również należą do roślin bobowatych, ale nie są formami bobu zwyczajnego.",
       "last_verified_at": "2026-06-12T15:37:03.164Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Mechanizacja rolnictwa",
-      "question": "Która z wymienionych maszyn służy do jednoczesnego wykopywania i oczyszczania ziemniaków z gleby?",
+      "question": "Która maszyna wykopuje ziemniaki, oddziela je od gleby i zbiera do zbiornika lub na jadący obok pojazd?",
       "options": [
         "Kombajn ziemniaczany",
         "Kopaczka do ziemniaków",
         "Sortownik do ziemniaków",
-        "Siewnik do ziemniaków"
+        "Sadzarka do ziemniaków"
       ],
       "answer": "Kombajn ziemniaczany",
       "explanation_correct": "Kombajn ziemniaczany wykonuje kompleksowy zbiór ziemniaków, wykopując i oczyszczając je w jednym przejeździe.",
-      "explanation_incorrect": "Kopaczka tylko wykopuje ziemniaki, sortownik sortuje, a siewnik służy do sadzenia, nie do zbioru.",
+      "explanation_incorrect": "Kopaczka także wykopuje i oddziela bulwy od części gleby, lecz kombajn dodatkowo zbiera je do zbiornika lub na pojazd. Sortownik sortuje bulwy, a sadzarka służy do sadzenia.",
       "last_verified_at": "2026-06-12T15:37:03.164Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -520,16 +520,16 @@
     },
     {
       "subcategory": "Maszyny rolnicze",
-      "question": "Która maszyna rolnicza jest przeznaczona do spulchniania i mieszania gleby bez jej odwracania?",
+      "question": "Które narzędzie z zębami roboczymi spulchnia i miesza glebę bez odwracania skiby?",
       "options": [
         "Kultywator",
         "Pług",
-        "Brona",
-        "Glebogryzarka"
+        "Siewnik",
+        "Rozsiewacz nawozu"
       ],
       "answer": "Kultywator",
       "explanation_correct": "Kultywator spulchnia glebę na określoną głębokość bez odwracania skiby, co odróżnia go od pługa.",
-      "explanation_incorrect": "Pług odwraca glebę, brona głównie wyrównuje, a glebogryzarka intensywnie miesza, ale zwykle na większych obrotach.",
+      "explanation_incorrect": "Pług odkładnicowy odwraca skibę, siewnik wysiewa nasiona, a rozsiewacz rozprowadza nawóz. Także inne narzędzia, np. glebogryzarki, mogą spulchniać i mieszać glebę.",
       "last_verified_at": "2026-06-12T15:37:03.166Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -553,13 +553,13 @@
       "question": "Która metoda rozmnażania wegetatywnego drzew owocowych polega na umieszczeniu pojedynczego pąka w nacięciu podkładki?",
       "options": [
         "Okulizacja",
-        "Szczepienie",
+        "Siew",
         "Sadzonkowanie",
         "Odkłady"
       ],
       "answer": "Okulizacja",
       "explanation_correct": "Okulizacja polega na przeszczepianiu pąka na podkładkę, co jest powszechne w rozmnażaniu drzew owocowych.",
-      "explanation_incorrect": "Szczepienie to łączenie pędu, sadzonkowanie to ukorzenianie fragmentów, a odkłady to ukorzenianie gałęzi bez odcinania.",
+      "explanation_incorrect": "Okulizacja jest rodzajem szczepienia. Siew wykorzystuje nasiona, sadzonkowanie ukorzenia odcięte fragmenty, a odkłady ukorzeniają pędy przed ich odłączeniem.",
       "last_verified_at": "2026-06-12T15:37:03.167Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -604,7 +604,7 @@
       ],
       "answer": "Sokólski",
       "explanation_correct": "Sokólski to polska rasa koni zimnokrwistych wywodząca się z okolic Sokółki, używana głównie do prac polowych.",
-      "explanation_incorrect": "Ardeński i belgijski to rasy zagraniczne, a huculski jest górskim koniem zimnokrwistym z Karpat.",
+      "explanation_incorrect": "Koń ardeński i belgijski pochodzą spoza Polski; huculski jest rasą koni górskich wywodzącą się z Karpat.",
       "last_verified_at": "2026-06-12T15:37:03.167Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -760,7 +760,7 @@
     },
     {
       "subcategory": "Hodowla zwierząt",
-      "question": "Która rasa owiec jest polskiego pochodzenia?",
+      "question": "Która rasa owiec o polskim pochodzeniu ma w nazwie określenie merynos?",
       "options": [
         "Merynos polski",
         "Owca olkuska",
@@ -768,8 +768,8 @@
         "Wrzosówka"
       ],
       "answer": "Merynos polski",
-      "explanation_correct": "Merynos polski to polska rasa owiec wełnisto-mięsna wyhodowana z owiec merynosa hiszpańskiego.",
-      "explanation_incorrect": "Owca olkuska, wielkopolska i wrzosówka to również rasy polskie, ale nie są to merynosy.",
+      "explanation_correct": "Merynos polski jest rodzimą rasą owiec o użytkowaniu wełnisto-mięsnym.",
+      "explanation_incorrect": "Owca olkuska, wielkopolska i wrzosówka również są rasami rodzimymi. W powstaniu owcy wielkopolskiej także uczestniczyły merynosy.",
       "last_verified_at": "2026-06-12T15:37:03.170Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -790,16 +790,16 @@
     },
     {
       "subcategory": "Warzywnictwo",
-      "question": "Jaką inną nazwą określa się cykorię liściową?",
+      "question": "Jak nazywa się grupa włoskich odmian cykorii o barwnych, często czerwonych liściach?",
       "options": [
         "Rukola",
-        "Radićchio",
-        "Endywia",
-        "Roszponka"
+        "Radicchio",
+        "Roszponka",
+        "Sałata lodowa"
       ],
-      "answer": "Radićchio",
-      "explanation_correct": "Radićchio to włoska odmiana cykorii liściowej o intensywnym kolorze i gorzkawym smaku.",
-      "explanation_incorrect": "Rukola to rokietta siewna, endywia to inny gatunek cykorii, a roszponka to roślina sałatowa z rodzaju Valerianella.",
+      "answer": "Radicchio",
+      "explanation_correct": "Radicchio to włoska nazwa grupy odmian cykorii sałatowej o gorzkawych i często czerwonych liściach.",
+      "explanation_incorrect": "Rukola, roszponka i sałata lodowa to inne rośliny sałatowe.",
       "last_verified_at": "2026-06-12T15:37:03.170Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -809,18 +809,18 @@
       "options": [
         "Pędrak",
         "Gąsienica",
-        "Larwa chrząszcza",
+        "Nimfa ważki",
         "Poczwarka"
       ],
       "answer": "Pędrak",
       "explanation_correct": "Pędrak to typowa larwa chrząszczy z rodziny poświętnikowatych, w tym chrząszcza majowego.",
-      "explanation_incorrect": "Gąsienica to larwa motyla, larwa chrząszcza to ogólne określenie, a poczwarka to stadium rozwojowe po larwie.",
+      "explanation_incorrect": "Gąsienica jest larwą motyla, nimfa ważki to stadium ważki, a poczwarka występuje po stadium larwalnym chrząszcza.",
       "last_verified_at": "2026-06-12T15:37:03.170Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przetwórstwo mleka",
-      "question": "Jaki ser wytwarza się tradycyjnie z mleka owczego w polskich górach?",
+      "question": "Jaki tradycyjny ser z polskich gór ma wrzecionowaty kształt, ozdobną skórkę i jest wędzony?",
       "options": [
         "Bundz",
         "Oscypek",
@@ -828,8 +828,8 @@
         "Gouda"
       ],
       "answer": "Oscypek",
-      "explanation_correct": "Oscypek to wędzony ser owczy z Podhala, produkowany ręcznie z mleka owczego.",
-      "explanation_incorrect": "Bundz to ser biały, bryndza to ser miękki, a gouda to ser holenderski z mleka krowiego.",
+      "explanation_correct": "Oscypek to ręcznie wyrabiany wędzony ser z Podhala. Chroniona nazwa dopuszcza dodatek określonego mleka krowiego do mleka owczego.",
+      "explanation_incorrect": "Bundz i bryndza również mogą być wytwarzane z mleka owczego, ale mają inną postać; gouda to ser pochodzenia holenderskiego.",
       "last_verified_at": "2026-06-12T15:37:03.171Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -838,13 +838,13 @@
       "question": "Jak nazywa się konstrukcja wsporcza dla pnączy chmielu?",
       "options": [
         "Rusztowanie",
-        "Pergola",
-        "Treliaż",
-        "Stelaż"
+        "Silos",
+        "Siewnik",
+        "Pług"
       ],
       "answer": "Rusztowanie",
       "explanation_correct": "Rusztowanie to specjalna konstrukcja z drutów i słupów podtrzymująca pędy chmielu na plantacji.",
-      "explanation_incorrect": "Pergola służy do ozdoby, treliaż do pnączy ozdobnych, a stelaż to ogólne określenie ramy podtrzymującej.",
+      "explanation_incorrect": "Silos służy do magazynowania, siewnik do siewu, a pług do orki. Konstrukcję wsporczą dla pnączy można też ogólnie nazwać stelażem.",
       "last_verified_at": "2026-06-12T15:37:03.171Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -883,13 +883,13 @@
       "question": "Jak nazywa się samiec kozy domowej?",
       "options": [
         "Kozioł",
-        "Cap",
         "Baran",
-        "Knur"
+        "Knur",
+        "Gąsior"
       ],
       "answer": "Kozioł",
-      "explanation_correct": "Kozioł to prawidłowa nazwa samca kozy, używaną w hodowli kóz.",
-      "explanation_incorrect": "Cap to w języku łowieckim samiec sarny, baran to samiec owcy, a knur to samiec świni.",
+      "explanation_correct": "Kozioł, nazywany również capem, to samiec kozy domowej.",
+      "explanation_incorrect": "Baran to samiec owcy, knur – świni, a gąsior – gęsi.",
       "last_verified_at": "2026-06-12T15:37:03.171Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -898,13 +898,13 @@
       "question": "Który owad jest hodowany w celu produkcji jedwabiu?",
       "options": [
         "Jedwabnik morwowy",
-        "Jedwabnik dębowy",
-        "Mól jedwabniczy",
-        "Pająk krzyżak"
+        "Mucha domowa",
+        "Komar brzęczący",
+        "Pszczoła miodna"
       ],
       "answer": "Jedwabnik morwowy",
       "explanation_correct": "Jedwabnik morwowy (Bombyx mori) to motyl hodowany na dużą skalę dla jedwabiu pozyskiwanego z jego kokonów.",
-      "explanation_incorrect": "Jedwabnik dębowy również produkuje jedwab, ale jest mniej popularny, mól jedwabniczy to szkodnik, a pająki nie są hodowane dla jedwabiu.",
+      "explanation_incorrect": "Mucha, komar i pszczoła nie są hodowane w celu produkcji jedwabiu. Również niektóre inne jedwabniki dostarczają włókna.",
       "last_verified_at": "2026-06-12T15:37:03.172Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -925,16 +925,16 @@
     },
     {
       "subcategory": "Przechowalnictwo",
-      "question": "Gdzie tradycyjnie przechowuje się siano pod dachem?",
+      "question": "Jak nazywa się budynek gospodarczy tradycyjnie używany do składowania siana, słomy i nieomłóconego zboża?",
       "options": [
         "Stodoła",
         "Obora",
-        "Garaż",
-        "Szopa"
+        "Kurnik",
+        "Chlew"
       ],
       "answer": "Stodoła",
       "explanation_correct": "Stodoła to budynek gospodarczy przeznaczony głównie do przechowywania siana, słomy i zboża.",
-      "explanation_incorrect": "Obora służy do trzymania bydła, garaż do pojazdów, a szopa do przechowywania narzędzi.",
+      "explanation_incorrect": "Obora służy bydłu, kurnik kurom, a chlew świniom. Siano może być też przechowywane w innych budynkach.",
       "last_verified_at": "2026-06-12T15:37:03.172Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -985,7 +985,7 @@
     },
     {
       "subcategory": "Maszyny transportowe",
-      "question": "Który pojazd jest przeznaczony do prac polowych?",
+      "question": "Który pojazd jest podstawowo przeznaczony do ciągnięcia i napędzania maszyn rolniczych?",
       "options": [
         "Kombajn zbożowy",
         "Ciągnik rolniczy",
@@ -994,7 +994,7 @@
       ],
       "answer": "Ciągnik rolniczy",
       "explanation_correct": "Ciągnik rolniczy to podstawowy pojazd używany do ciągnięcia i napędzania maszyn rolniczych w polu.",
-      "explanation_incorrect": "Kombajn zbożowy jest maszyną żniwną, a nie typowym pojazdem transportowym. Traktor ogrodowy jest mniejszy i do ogrodu. Pług to narzędzie, nie pojazd.",
+      "explanation_incorrect": "Kombajn służy do zbioru, traktor ogrodowy jest przeznaczony głównie do prac ogrodowych, a pług jest narzędziem. Kombajn także pracuje w polu.",
       "last_verified_at": "2026-06-12T15:37:03.173Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1008,7 +1008,7 @@
         "Skala ORP"
       ],
       "answer": "Skala pH",
-      "explanation_correct": "Skala pH mierzy stężenie jonów wodorowych i określa odczyn gleby (kwaśny, obojętny, zasadowy).",
+      "explanation_correct": "Odczyn gleby wyraża się wartością pH, związaną z aktywnością jonów wodorowych: im niższe pH, tym silniej kwaśny odczyn.",
       "explanation_incorrect": "Skala BE (baza ekstrakcyjna) i CE (przewodność elektryczna) oraz ORP (potencjał oksydacyjno-redukcyjny) są używane w innych kontekstach analizy gleby.",
       "last_verified_at": "2026-06-12T15:37:03.173Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1045,7 +1045,7 @@
     },
     {
       "subcategory": "Botanika",
-      "question": "Jak nazywa się proces sztucznego wywoływania dojrzałości owoców zebranych przedwcześnie?",
+      "question": "Jak nazywa się proces pozbiorczego dojrzewania, w którym zebrane owoce osiągają cechy konsumpcyjne?",
       "options": [
         "Dochodzenie",
         "Maceracja",
@@ -1053,14 +1053,14 @@
         "Stratyfikacja"
       ],
       "answer": "Dochodzenie",
-      "explanation_correct": "Dochodzenie (lub dojrzewanie pozbiorcze) to proces, w którym owoce klimakteryczne uzyskują cechy konsumpcyjne.",
+      "explanation_correct": "Dojrzewanie pozbiorcze, zwane też dochodzeniem, pozwala odpowiednio zebranym owocom klimakterycznym uzyskać cechy konsumpcyjne; owoce zebrane zbyt wcześnie mogą ich nie osiągnąć.",
       "explanation_incorrect": "Wernalizacja to wpływ chłodu na kwitnienie, a stratyfikacja to pobudzanie nasion do kiełkowania.",
       "last_verified_at": "2026-06-12T15:38:50.290Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Produkcja rolna",
-      "question": "Jak nazywa się obszar obsiany jedną rośliną?",
+      "question": "Jak nazywa się wieloletnia uprawa tego samego gatunku rośliny na tym samym polu?",
       "options": [
         "Monokultura",
         "Polikultura",
@@ -1068,7 +1068,7 @@
         "Płodozmian"
       ],
       "answer": "Monokultura",
-      "explanation_correct": "Monokultura to sposób uprawy polegający na obsiewaniu dużego areału jednym gatunkiem rośliny.",
+      "explanation_correct": "Monokultura polega na powtarzaniu uprawy tego samego gatunku na tym samym polu przez wiele lat.",
       "explanation_incorrect": "Polikultura to uprawa wielu gatunków razem, uprawa mieszana to mieszanie roślin, płodozmian to rotacja upraw.",
       "last_verified_at": "2026-06-12T15:37:03.173Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1105,7 +1105,7 @@
     },
     {
       "subcategory": "Rybiarstwo",
-      "question": "Jaki jest podstawowy pokarm dla ryb w hodowli?",
+      "question": "Jak nazywa się sucha, formowana w małe porcje mieszanka paszowa stosowana w hodowli wielu gatunków ryb?",
       "options": [
         "Pasza granulowana",
         "Bryłka planktonu",
@@ -1113,14 +1113,14 @@
         "Karma w płatkach"
       ],
       "answer": "Pasza granulowana",
-      "explanation_correct": "Pasza granulowana to zbilansowany, suchy pokarm produkowany specjalnie dla ryb hodowlanych.",
-      "explanation_incorrect": "Bryłka planktonu to naturalna, ale nie podstawowa pasza; mączka rybna to składnik, karma w płatkach dla akwarium.",
+      "explanation_correct": "Pasza granulowana to produkowana przemysłowo mieszanka w granulkach. Sposób żywienia ryb zależy od gatunku i systemu hodowli.",
+      "explanation_incorrect": "Mączka rybna jest składnikiem niektórych pasz, karma w płatkach jest częsta w akwarystyce, a plankton stanowi naturalny pokarm wielu ryb.",
       "last_verified_at": "2026-06-12T15:37:03.174Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kwiaciarstwo",
-      "question": "Która roślina cebulowa jest powszechnie uprawiana na polach Holandii?",
+      "question": "Która roślina cebulowa jest szczególnie znanym symbolem Holandii i jest tam masowo uprawiana?",
       "options": [
         "Tulipan",
         "Hiacynt",
@@ -1150,16 +1150,16 @@
     },
     {
       "subcategory": "Sadownictwo",
-      "question": "Jak nazywa się zabieg polegający na usuwaniu zbędnych pędów w sadownictwie?",
+      "question": "Jak nazywa się cięcie polegające na usuwaniu części pędów i gałęzi dla poprawy dostępu światła do korony drzewa?",
       "options": [
         "Prześwietlanie",
-        "Przycinanie",
-        "Przerzedzanie",
-        "Formowanie"
+        "Nawożenie",
+        "Podlewanie",
+        "Bielenie pnia"
       ],
       "answer": "Prześwietlanie",
       "explanation_correct": "Prześwietlanie to usuwanie gałęzi lub pędów w celu poprawy dostępu światła i powietrza do korony drzewa.",
-      "explanation_incorrect": "Przycinanie jest ogólnym terminem, przerzedzanie dotyczy owoców, formowanie nadaje kształt, ale wszystkie są podobne.",
+      "explanation_incorrect": "Prześwietlanie jest rodzajem przycinania i przerzedzania korony. Nawożenie, podlewanie i bielenie pnia są innymi zabiegami.",
       "last_verified_at": "2026-06-12T15:37:03.175Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1195,7 +1195,7 @@
     },
     {
       "subcategory": "Budownictwo inwentarskie",
-      "question": "Jaki jest nazwa budynku przeznaczonego dla owiec?",
+      "question": "Jak nazywa się budynek przeznaczony dla owiec?",
       "options": [
         "Owczarnia",
         "Obora",
@@ -1203,7 +1203,7 @@
         "Kurnik"
       ],
       "answer": "Owczarnia",
-      "explanation_correct": "Owczarnia to budynek gospodarski służący do zimowania i przechowywania owiec.",
+      "explanation_correct": "Owczarnia to budynek gospodarski służący do utrzymywania owiec.",
       "explanation_incorrect": "Obora dla bydła, chlew dla świń, kurnik dla kur.",
       "last_verified_at": "2026-06-12T15:37:03.175Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1225,16 +1225,16 @@
     },
     {
       "subcategory": "Uprawa ryżu",
-      "question": "Jak nazywa się zalane wodą pole ryżowe?",
+      "question": "Jak po polsku nazywa się pole przeznaczone do uprawy ryżu, często okresowo zalewane wodą?",
       "options": [
-        "Paddies",
         "Ryżowisko",
-        "Akwen ryżowy",
-        "Basen ryżowy"
+        "Pastwisko",
+        "Sad",
+        "Winnica"
       ],
-      "answer": "Paddies",
-      "explanation_correct": "Paddies (pola mokre) to tradycyjne zalane wodą poletka, na których uprawia się ryż.",
-      "explanation_incorrect": "Ryżowisko to ogólne określenie, akwen i basen to sztuczne zbiorniki, nie są to terminy rolnicze.",
+      "answer": "Ryżowisko",
+      "explanation_correct": "Ryżowisko to pole uprawne przeznaczone do uprawy ryżu; wiele ryżowisk jest okresowo zalewanych.",
+      "explanation_incorrect": "Pastwisko służy wypasowi, sad uprawie drzew owocowych, a winnica uprawie winorośli.",
       "last_verified_at": "2026-06-12T15:37:03.176Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "subcategory": "Struktura gleby",
-      "question": "Jaka jest najmniejsza cząstka mineralna gleby?",
+      "question": "Która z podanych frakcji mineralnych gleby ma najmniejsze cząstki?",
       "options": [
         "Ił",
         "Piasek",
@@ -1263,7 +1263,7 @@
         "Żwir"
       ],
       "answer": "Ił",
-      "explanation_correct": "Ił to frakcja gleby o średnicy poniżej 0,002 mm, najmniejsza z frakcji mineralnych.",
+      "explanation_correct": "Frakcja iłowa obejmuje cząstki mniejsze niż 0,002 mm, a więc drobniejsze niż pył, piasek i żwir.",
       "explanation_incorrect": "Piasek ma ziarna 0,05-2 mm, pył 0,002-0,05 mm, żwir powyżej 2 mm, więc ił jest najmniejszy.",
       "last_verified_at": "2026-06-12T15:37:03.176Z",
       "verifying_model": "google/gemini-3-flash-preview"

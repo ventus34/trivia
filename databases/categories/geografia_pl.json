@@ -2,7 +2,7 @@
   "id": "geografia_pl",
   "name": "Geografia",
   "language": "pl",
-  "description": "Pytania z zakresu: Geomorfologia i mity, Kartografia artystyczna, Geopolityka i literatura...",
+  "description": "Geografia fizyczna i społeczna, mapy, miejsca, kultury oraz legendarne krainy.",
   "created_at": "2026-06-12T15:05:24.194Z",
   "last_verified_at": "2026-06-12T15:05:23.482Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -25,7 +25,7 @@
     },
     {
       "subcategory": "Kartografia artystyczna",
-      "question": "Który mityczny potwór morski był najczęściej przedstawiany na dawnych mapach jako gigantyczny głowonóg atakujący statki?",
+      "question": "Jak nazywa się legendarny skandynawski potwór morski przedstawiany współcześnie jako gigantyczny głowonóg atakujący statki?",
       "options": [
         "Lewiatan",
         "Kraken",
@@ -34,9 +34,7 @@
       ],
       "answer": "Kraken",
       "explanation_correct": "Kraken to legendarne stworzenie morskie z mitologii skandynawskiej, często utożsamiane z kałamarnicą olbrzymią.",
-      "explanation_incorrect": "Lewiatan to biblijny potwór morski, Scylla to monstrum z mitologii greckiej, a Hydra to stworzenie wielogłowe żyjące w bagnach.",
-      "last_verified_at": "2026-06-12T15:03:56.509Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lewiatan to biblijny potwór morski, Scylla to monstrum z mitologii greckiej, a Hydra to stworzenie wielogłowe żyjące w bagnach."
     },
     {
       "subcategory": "Geopolityka i literatura",
@@ -49,9 +47,7 @@
       ],
       "answer": "Utopia",
       "explanation_correct": "Utopia to nazwa wymyślonej przez Thomasa More'a wyspy, na której panuje idealny ustrój społeczny.",
-      "explanation_incorrect": "Lilliput pojawia się w 'Podróżach Guliwera', Atlantis to mityczna kraina, a Erewhon to anagram 'nowhere' z powieści Samuela Butlera.",
-      "last_verified_at": "2026-06-12T15:03:56.509Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lilliput pojawia się w 'Podróżach Guliwera', Atlantyda to mityczna kraina, a Erewhon jest fikcyjnym krajem z powieści Samuela Butlera."
     },
     {
       "subcategory": "Geografia regionalna kulinariów",
@@ -93,29 +89,25 @@
         "Birmingham"
       ],
       "answer": "Liverpool",
-      "explanation_correct": "Wszyscy członkowie The Beatles urodzili się i wychowali w Liverpoolu, gdzie zespół stawiał pierwsze kroki.",
-      "explanation_incorrect": "Manchester słynie z zespołów Oasis i Joy Division, Birmingham z Black Sabbath, a Londyn był głównym rynkiem muzycznym.",
-      "last_verified_at": "2026-06-12T15:03:56.509Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Beatles powstali w Liverpoolu, gdzie John Lennon, Paul McCartney, George Harrison i Ringo Starr działali na lokalnej scenie muzycznej.",
+      "explanation_incorrect": "Manchester słynie z zespołów Oasis i Joy Division, Birmingham z Black Sabbath, a Londyn był głównym rynkiem muzycznym."
     },
     {
       "subcategory": "Etnogeografia i moda",
-      "question": "Jak nazywa się tradycyjny, długi ubiór japoński o kroju litery T, wiązany pasem obi?",
+      "question": "Jak nazywa się tradycyjny japoński strój o kroju litery T, do którego zalicza się również letnią jukatę?",
       "options": [
-        "Yukata",
         "Kimono",
         "Haori",
-        "Hakama"
+        "Hakama",
+        "Geta"
       ],
       "answer": "Kimono",
       "explanation_correct": "Kimono to narodowy strój Japonii, którego nazwa dosłownie oznacza 'rzecz do noszenia'.",
-      "explanation_incorrect": "Yukata to lżejsza wersja kimona, Haori to rodzaj kaftana wierzchniego, a Hakama to szerokie spodnie.",
-      "last_verified_at": "2026-06-12T15:03:56.509Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Haori to okrycie wierzchnie, hakama to rodzaj szerokich spodni lub spódnicy, a geta to drewniane obuwie."
     },
     {
       "subcategory": "Geografia morska i literatura",
-      "question": "Jak brzmi imię i nazwisko dowódcy łodzi podwodnej Nautilus z powieści 'Dwadzieścia tysięcy mil podmorskiej żeglugi'?",
+      "question": "Jakim mianem posługuje się dowódca Nautilusa z powieści 'Dwadzieścia tysięcy mil podmorskiej żeglugi'?",
       "options": [
         "Kapitan Ahab",
         "Kapitan Hook",
@@ -124,9 +116,7 @@
       ],
       "answer": "Kapitan Nemo",
       "explanation_correct": "Kapitan Nemo to tajemniczy konstruktor 'Nautilusa' stworzony przez Juliusza Verne'a.",
-      "explanation_incorrect": "Ahab to bohater 'Moby Dicka', Hook występuje w 'Piotrusiu Panu', a Morgan był autentycznym piratem.",
-      "last_verified_at": "2026-06-12T15:03:56.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ahab to bohater 'Moby Dicka', Hook występuje w 'Piotrusiu Panu', a Morgan był autentycznym piratem."
     },
     {
       "subcategory": "Geobotanika",
@@ -153,10 +143,8 @@
         "Język niderlandzki"
       ],
       "answer": "Język portugalski",
-      "explanation_correct": "Brazylia była kolonią Portugalii, co zdeterminuje jej obecny język urzędowy.",
-      "explanation_incorrect": "Język hiszpański dominuje w większości krajów Ameryki Łacińskiej, francuski w Gujanie Francuskiej, a niderlandzki w Surinamie.",
-      "last_verified_at": "2026-06-12T15:03:56.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brazylia była kolonią Portugalii, a portugalski jest dziś jej językiem urzędowym.",
+      "explanation_incorrect": "Język hiszpański dominuje w większości krajów Ameryki Łacińskiej, francuski w Gujanie Francuskiej, a niderlandzki w Surinamie."
     },
     {
       "subcategory": "Geografia filmowa",
@@ -183,10 +171,8 @@
         "Sirocco"
       ],
       "answer": "Bura",
-      "explanation_correct": "Bura (bora) to silny wiatr katabatyczny, który osiąga największą prędkość na wybrzeżu Chorwacji.",
-      "explanation_incorrect": "Mistral wieje w południowej Francji, Halny w polskich Tatrach, a Sirocco to ciepły wiatr z Afryki.",
-      "last_verified_at": "2026-06-12T15:03:56.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bura (bora) to silny, suchy i zimny wiatr spływający z gór ku wybrzeżu Adriatyku.",
+      "explanation_incorrect": "Mistral wieje w południowej Francji, Halny w polskich Tatrach, a Sirocco to ciepły wiatr z Afryki."
     },
     {
       "subcategory": "Geografia przemysłowa",
@@ -213,10 +199,8 @@
         "Loch Tay"
       ],
       "answer": "Loch Ness",
-      "explanation_correct": "Pierwsze doniesienia o kryptydzie z jeziora Loch Ness pochodzą już z żywota św. Kolumby z VI wieku.",
-      "explanation_incorrect": "Pozostałe to również duże jeziora szkockie, ale nie są powiązane z tą konkretną legendą.",
-      "last_verified_at": "2026-06-12T15:03:56.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W średniowiecznym żywocie św. Kolumby pojawia się opowieść o wodnym stworze w rzece Ness; współczesna legenda Nessie rozwinęła się szczególnie w XX wieku.",
+      "explanation_incorrect": "Pozostałe to również duże jeziora szkockie, ale nie są powiązane z tą konkretną legendą."
     },
     {
       "subcategory": "Geografia wierzeń",
@@ -243,10 +227,8 @@
         "Simum"
       ],
       "answer": "Chamsin",
-      "explanation_correct": "Chamsin to nazwa egipska oznaczająca 'pięćdziesiąt', co odnosi się do liczby dni, kiedy zazwyczaj wieje.",
-      "explanation_incorrect": "Harmattan wieje w Afryce Zachodniej, a Samum to gwałtowny wiatr na Półwyspie Arabskim.",
-      "last_verified_at": "2026-06-12T15:03:56.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nazwa chamsin oznacza po arabsku „pięćdziesiąt” i odnosi się do pory roku, w której wiatr może występować, a nie do nieprzerwanego pięćdziesięciodniowego wiania.",
+      "explanation_incorrect": "Harmattan wieje w Afryce Zachodniej, a Samum to gwałtowny wiatr na Półwyspie Arabskim."
     },
     {
       "subcategory": "Geografia mityczna",
@@ -334,9 +316,7 @@
       ],
       "answer": "Pangea",
       "explanation_correct": "Pangea była ostatnim wielkim superkontynentem, który zaczął się rozpadać około 200 milionów lat temu.",
-      "explanation_incorrect": "Gondwana i Laurazja to części składowe powstałe po rozpadzie Pangei, a Rodinia istniała znacznie wcześniej.",
-      "last_verified_at": "2026-06-12T15:03:56.511Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gondwana istniała już przed powstaniem Pangei i później stanowiła jej część; Laurazja to północna masa lądowa po rozpadzie Pangei, a Rodinia istniała wcześniej."
     },
     {
       "subcategory": "Toponimia",
@@ -370,7 +350,7 @@
     },
     {
       "subcategory": "Endemity",
-      "question": "Na jakiej wyspie leżącej u wschodnich wybrzeży Afryki występuje naturalnie cała populacja lemurów?",
+      "question": "Która wyspa u wschodnich wybrzeży Afryki jest naturalną ojczyzną lemurów?",
       "options": [
         "Zanzibar",
         "Seszele",
@@ -378,10 +358,8 @@
         "Mauritius"
       ],
       "answer": "Madagaskar",
-      "explanation_correct": "Lemury są endemitami Madagaskaru, co oznacza, że na wolności nie występują nigdzie indziej na świecie.",
-      "explanation_incorrect": "Pozostałe wyspy oferują unikalną faunę i florę, ale nie są naturalnym siedliskiem dziko żyjących lemurów.",
-      "last_verified_at": "2026-06-12T15:03:56.511Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Madagaskar jest naturalną ojczyzną lemurów; niektóre populacje na Komorach zostały tam wprowadzone przez ludzi.",
+      "explanation_incorrect": "Pozostałe wyspy oferują unikalną faunę i florę, ale nie są naturalnym siedliskiem dziko żyjących lemurów."
     },
     {
       "subcategory": "Geografia literatury",
@@ -423,10 +401,8 @@
         "Aborygeni"
       ],
       "answer": "Inuici",
-      "explanation_correct": "Inuici to ludy arktyczne, które dawniej były błędnie określane mianem Eskimosów.",
-      "explanation_incorrect": "Maorysi pochodzą z Nowej Zelandii, Aborygeni z Australii, a Samarytanie to grupa etno-religijna z Palestyny.",
-      "last_verified_at": "2026-06-12T15:03:56.511Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Inuici to rdzenne ludy zamieszkujące obszary arktyczne Grenlandii, Kanady i Alaski; istnieją też inne rdzenne ludy Arktyki, m.in. Jupikowie.",
+      "explanation_incorrect": "Maorysi pochodzą z Nowej Zelandii, Aborygeni z Australii, a Samarytanie to grupa etno-religijna z Palestyny."
     },
     {
       "subcategory": "Geografia astronomiczna",
@@ -498,14 +474,12 @@
         "Klif"
       ],
       "answer": "Delta",
-      "explanation_correct": "Delta tworzy się, gdy rzeka nie zdąży usunąć niesionego osadu przed wpłynięciem do zbiornika o małych pływach.",
-      "explanation_incorrect": "Estuarium to ujście lejkowate, mierzeja to piaszczysty wał odcinkowy, a klif to stromy brzeg morski.",
-      "last_verified_at": "2026-06-12T15:03:56.511Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Delta powstaje, gdy osady rzeczne gromadzą się przy ujściu szybciej, niż są usuwane przez fale, pływy i prądy.",
+      "explanation_incorrect": "Estuarium to ujście lejkowate, mierzeja to piaszczysty wał odcinkowy, a klif to stromy brzeg morski."
     },
     {
       "subcategory": "Oceanografia",
-      "question": "Która jednostka morfologiczna dna oceanicznego u wybrzeży Filipin jest uznawana za najgłębsze miejsce na Ziemi?",
+      "question": "Który rów oceaniczny na zachodnim Pacyfiku, w pobliżu Marianów, zawiera najgłębsze znane miejsce oceanu?",
       "options": [
         "Rów Sundajski",
         "Rów Portorykański",
@@ -514,13 +488,11 @@
       ],
       "answer": "Rów Mariański",
       "explanation_correct": "Głębia Challengera w Rowie Mariańskim sięga niemal 11 000 metrów poniżej poziomu morza.",
-      "explanation_incorrect": "Wszystkie opcje to rowy oceaniczne, ale Rów Mariański jest najgłębszy spośród nich.",
-      "last_verified_at": "2026-06-12T15:03:56.512Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wszystkie opcje to rowy oceaniczne, ale Rów Mariański jest najgłębszy spośród nich."
     },
     {
       "subcategory": "Demografia",
-      "question": "Jak w geografii osadnictwa określa się skupisko sąsiadujących miast, które fizycznie się połączyły, ale zachowały odrębność administracyjną?",
+      "question": "Jak nazywa się zespół sąsiadujących miast o zbliżonym znaczeniu, które tworzą wspólny obszar zurbanizowany bez jednego dominującego centrum?",
       "options": [
         "Aglomeracja",
         "Metropolia",
@@ -529,9 +501,7 @@
       ],
       "answer": "Konurbacja",
       "explanation_correct": "W konurbacji nie ma jednego dominującego ośrodka, co odróżnia ją od aglomeracji monocentrycznej.",
-      "explanation_incorrect": "Aglomeracja ma zazwyczaj jedno miasto centralne, a megalopolis to obszar łączący wiele wielkich aglomeracji.",
-      "last_verified_at": "2026-06-12T15:03:56.512Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Aglomeracja ma zazwyczaj jedno miasto centralne, a megalopolis to obszar łączący wiele wielkich aglomeracji."
     },
     {
       "subcategory": "Geologia",
@@ -565,7 +535,7 @@
     },
     {
       "subcategory": "Geopolityka",
-      "question": "Jak w geografii politycznej nazywa się terytorium danego państwa, które jest ze wszystkich stron otoczone terytorium innego lądu?",
+      "question": "Jak nazywa się terytorium całkowicie otoczone lądowym terytorium jednego innego państwa?",
       "options": [
         "Eksklawa",
         "Półwysep",
@@ -573,10 +543,8 @@
         "Kondominium"
       ],
       "answer": "Enklawa",
-      "explanation_correct": "Przykładami enklaw są San Marino i Watykan, które leżą całkowicie wewnątrz terytorium Włoch.",
-      "explanation_incorrect": "Eksklawa to część państwa oddzielona od jego głównego obszaru, a kondominium to terytorium pod wspólną władzą.",
-      "last_verified_at": "2026-06-12T15:03:56.512Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Enklawą z perspektywy otaczającego państwa jest terytorium leżące w całości w jego granicach, np. San Marino na obszarze Włoch.",
+      "explanation_incorrect": "Eksklawa to część państwa oddzielona od jego głównego obszaru, a kondominium to terytorium pod wspólną władzą."
     },
     {
       "subcategory": "Hydrologia",
@@ -610,7 +578,7 @@
     },
     {
       "subcategory": "Wulkanologia",
-      "question": "Jak nazywa się wielkie zagłębienie powstałe w wyniku gwałtownej eksplozji lub zapadnięcia się opróżnionej komory magmowej wulkanu?",
+      "question": "Jak nazywa się wielkie zagłębienie wulkaniczne, powstałe najczęściej przez zapadnięcie terenu po częściowym opróżnieniu zbiornika magmy?",
       "options": [
         "Kaldera",
         "Krater",
@@ -618,10 +586,8 @@
         "Fumarola"
       ],
       "answer": "Kaldera",
-      "explanation_correct": "Kaldera powstaje poprzez zapadnięcie się stropu komory magmowej, tworząc znacznie większą strukturę niż zwykły krater.",
-      "explanation_incorrect": "Krater jest naturalnym ujściem komina, a fumarola to rodzaj wyziewu gazów wulkanicznych.",
-      "last_verified_at": "2026-06-12T15:03:56.512Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kaldera zwykle powstaje wskutek zapadnięcia terenu po częściowym opróżnieniu zbiornika magmowego; może mieć wiele kilometrów średnicy.",
+      "explanation_incorrect": "Krater jest naturalnym ujściem komina, a fumarola to rodzaj wyziewu gazów wulkanicznych."
     },
     {
       "subcategory": "Onomastyka geograficzna",
@@ -688,15 +654,13 @@
       "question": "Jaką nazwę nosi gwałtowny, suchy i gorący wiatr wiejący z kierunków południowych w Libii?",
       "options": [
         "Ghibli",
-        "Sirocco",
+        "Mistral",
         "Hamada",
-        "Chamsin"
+        "Bora"
       ],
       "answer": "Ghibli",
       "explanation_correct": "Ghibli to lokalna nazwa libijska dla saharyjskiego wiatru niosącego tumany piasku i pyłu.",
-      "explanation_incorrect": "Sirocco to nazwa podobnego wiatru we Włoszech, a Chamsin występuje głównie w Egipcie.",
-      "last_verified_at": "2026-06-12T15:04:08.668Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mistral i bora są wiatrami chłodnymi, a hamada to rodzaj pustyni skalistej."
     },
     {
       "subcategory": "Geomorfologia",
@@ -715,18 +679,16 @@
     },
     {
       "subcategory": "Geopolityka",
-      "question": "Jakim terminem określa się część terytorium państwa, która jest w całości otoczona przez terytorium lądowe innego, jednego państwa?",
+      "question": "Jak nazywa się część terytorium państwa oddzielona od jego głównego obszaru przez obce terytorium?",
       "options": [
         "Eksklawa",
         "Enklawa",
-        "Terytorium zależne",
-        "Autonomia"
+        "Kondominium",
+        "Protektorat"
       ],
-      "answer": "Enklawa",
-      "explanation_correct": "Enklawa to terytorium otoczone ze wszystkich stron przez obszar innego państwa (np. San Marino).",
-      "explanation_incorrect": "Eksklawa to część państwa oddzielona od jego głównego terytorium, ale niekoniecznie otoczona przez tylko jedno państwo.",
-      "last_verified_at": "2026-06-12T15:05:23.482Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Eksklawa",
+      "explanation_correct": "Eksklawa jest oddzielona od głównej części państwa. Obwód kaliningradzki jest przykładem rosyjskiej eksklawy.",
+      "explanation_incorrect": "Enklawa jest otoczona przez inne państwo; kondominium to wspólne zwierzchnictwo, a protektorat to szczególna zależność polityczna."
     },
     {
       "subcategory": "Oceanografia",
@@ -925,7 +887,7 @@
     },
     {
       "subcategory": "Kartografia",
-      "question": "Które odwzorowanie walcowe wiernokątne jest najczęściej stosowane w nawigacji morskiej i lotniczej?",
+      "question": "Które odwzorowanie walcowe wiernokątne wykorzystuje się w nawigacji morskiej, ponieważ loksodromy są na nim liniami prostymi?",
       "options": [
         "Odwzorowanie Mollweidego",
         "Odwzorowanie Galla-Petersa",
@@ -934,9 +896,7 @@
       ],
       "answer": "Odwzorowanie Merkatora",
       "explanation_correct": "Odwzorowanie Merkatora zachowuje kąty, co pozwala na wykreślanie kursu statku jako linii prostej (loksodromy).",
-      "explanation_incorrect": "Pozostałe odwzorowania służą głównie celom dydaktycznym lub prezentacji map świata przy zachowaniu proporcji pól powierzchni.",
-      "last_verified_at": "2026-06-12T15:04:08.669Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mollweidego i Galla-Petersa zachowują pola powierzchni, Robinsona jest odwzorowaniem kompromisowym."
     },
     {
       "subcategory": "Demografia",
@@ -955,18 +915,16 @@
     },
     {
       "subcategory": "Geomorfologia",
-      "question": "Która krasowa forma terenu zwisa ze stropu jaskini i powstaje w wyniku wytrącania się węglanu wapnia z kapiącej wody?",
+      "question": "Jak nazywa się naciek jaskiniowy w kształcie sopla, zwisający ze stropu i powstający wskutek wytrącania węglanu wapnia?",
       "options": [
+        "Stalaktyt",
         "Stalagmit",
         "Stalagnat",
-        "Stalaktyt",
-        "Draperia"
+        "Misa martwicowa"
       ],
       "answer": "Stalaktyt",
       "explanation_correct": "Stalaktyty tworzą się na stropach jaskiń i mają kształt wydłużonych sopli.",
-      "explanation_incorrect": "Stalagmity rosną od dna jaskini ku górze, a stalagnaty to kolumny powstałe z połączenia obu tych form.",
-      "last_verified_at": "2026-06-12T15:04:08.669Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stalagmity rosną od dna, stalagnaty są kolumnami naciekowymi, a misy martwicowe mają postać zagłębień z progami."
     },
     {
       "subcategory": "Hydrologia",
@@ -978,10 +936,8 @@
         "Sobat"
       ],
       "answer": "Nil Błękitny",
-      "explanation_correct": "Nil Błękitny wypływa z terytorium Etiopii i odpowiada za około 80% zasobów wodnych Nilu w okresie letnim.",
-      "explanation_incorrect": "Nil Biały jest dłuższy i ma stabilniejszy przepływ, ale dostarcza znacznie mniej wody niż Nil Błękitny.",
-      "last_verified_at": "2026-06-12T15:04:08.669Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nil Błękitny wypływa z jeziora Tana w Etiopii i podczas letnich wezbrań dostarcza znaczną część wód oraz osadów Nilu.",
+      "explanation_incorrect": "Nil Biały jest dłuższy i ma stabilniejszy przepływ, ale dostarcza znacznie mniej wody niż Nil Błękitny."
     },
     {
       "subcategory": "Etnografia",
@@ -1000,7 +956,7 @@
     },
     {
       "subcategory": "Geopolityka",
-      "question": "Jak nazywa się terytorium zależne Danii, będące największą wyspą świata niebędącą kontynentem?",
+      "question": "Jak nazywa się autonomiczna część Królestwa Danii, będąca największą wyspą świata nieuznawaną za kontynent?",
       "options": [
         "Grenlandia",
         "Islandia",
@@ -1009,9 +965,7 @@
       ],
       "answer": "Grenlandia",
       "explanation_correct": "Grenlandia posiada szeroką autonomię, lecz formalnie pozostaje częścią Królestwa Danii.",
-      "explanation_incorrect": "Islandia jest niepodległym państwem, a Ziemia Baffina i Nowa Gwinea mają inny status polityczny.",
-      "last_verified_at": "2026-06-12T15:04:08.669Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Islandia jest niepodległym państwem, a Ziemia Baffina i Nowa Gwinea mają inny status polityczny."
     },
     {
       "subcategory": "Biogeografia",
@@ -1053,14 +1007,12 @@
         "Rafa Tubbataha"
       ],
       "answer": "Wielka Rafa Koralowa",
-      "explanation_correct": "Wielka Rafa Koralowa jest widoczna z kosmosu i jest największą pojedynczą strukturą wytworzoną przez organizmy żywe.",
-      "explanation_incorrect": "Rafa Belizeńska jest na Atlantyku, a pozostałe są znacznie mniejszymi strukturami w Azji.",
-      "last_verified_at": "2026-06-12T15:04:08.669Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wielka Rafa Koralowa u wybrzeży Australii to rozległy system tysięcy raf i wysp koralowych, tworzony przez organizmy żywe.",
+      "explanation_incorrect": "Rafa Belizeńska jest na Atlantyku, a pozostałe są znacznie mniejszymi strukturami w Azji."
     },
     {
       "subcategory": "Toponimia",
-      "question": "Pod jaką nazwą znana była wyspa Sri Lanka do 1972 roku, gdy była brytyjską kolonią?",
+      "question": "Pod jaką nazwą znane było państwo Sri Lanka do 1972 roku?",
       "options": [
         "Syjam",
         "Cejlon",
@@ -1068,25 +1020,21 @@
         "Birma"
       ],
       "answer": "Cejlon",
-      "explanation_correct": "Nazwa Cejlon pochodzi z czasów kolonialnych i do dziś jest używana w handlu herbatą eksportowaną z tej wyspy.",
-      "explanation_incorrect": "Syjam to dawna Tajlandia, Formoza to Tajwan, a Birma to dzisiejszy Mjanma.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cejlon uzyskał niepodległość w 1948 roku, a w 1972 roku przyjął nazwę Sri Lanka.",
+      "explanation_incorrect": "Syjam to dawna Tajlandia, Formoza to Tajwan, a Birma to dzisiejszy Mjanma."
     },
     {
       "subcategory": "Geografia regionalna",
-      "question": "W którym regionie pustynnym USA znajduje się najniżej położony punkt Ameryki Północnej (86 m p.p.m.)?",
+      "question": "W jakiej dolinie znajduje się Badwater Basin, najniższy punkt Ameryki Północnej (około 86 m p.p.m.)?",
       "options": [
         "Dolina Krzemowa",
         "Dolina Śmierci",
         "Wielki Kanion",
-        "Pustynia Mojave"
+        "Dolina Yosemite"
       ],
       "answer": "Dolina Śmierci",
-      "explanation_correct": "Dolina Śmierci to depresja w Kalifornii, znana również z rekordowo wysokich temperatur powietrza.",
-      "explanation_incorrect": "Dolina Krzemowa to ośrodek technologii, a Wielki Kanion i Mojave leżą na znacznie większych wysokościach nad poziomem morza.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Badwater Basin znajduje się w Dolinie Śmierci, na obszarze pustyni Mojave.",
+      "explanation_incorrect": "Dolina Krzemowa jest ośrodkiem technologicznym, Wielki Kanion to dolina rzeki Kolorado, a Yosemite leży w górach Sierra Nevada."
     },
     {
       "subcategory": "Meteorologia",
@@ -1180,18 +1128,16 @@
     },
     {
       "subcategory": "Gleboznawstwo",
-      "question": "Która grupa gleb, powstająca pod roślinnością stepową i bogata w próchnicę, jest uznawana za najżyźniejszą na świecie?",
+      "question": "Która grupa gleb powstających pod roślinnością stepową ma gruby, bogaty w próchnicę poziom i słynie z wysokiej żyzności?",
       "options": [
         "Bielice",
         "Czarnoziemy",
-        "Latrosol",
+        "Lateryty",
         "Mady"
       ],
       "answer": "Czarnoziemy",
       "explanation_correct": "Czarnoziemy charakteryzują się grubym poziomem próchnicznym, co nadaje im czarną barwę i wyjątkową produktywność rolniczą.",
-      "explanation_incorrect": "Bielice są mało żyzne (lasy iglaste), latrosole to gleby tropikalne, a mady to gleby aluwialne w dolinach rzek.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bielice są zwykle ubogie, lateryty występują w klimacie tropikalnym, a mady powstają z osadów rzecznych."
     },
     {
       "subcategory": "Demografia",
@@ -1203,10 +1149,8 @@
         "Pojemność środowiska"
       ],
       "answer": "Gęstość fizjologiczna",
-      "explanation_correct": "Gęstość fizjologiczna daje lepszy obraz presji populacyjnej na zasoby żywnościowe niż zwykła gęstość zaludnienia.",
-      "explanation_incorrect": "Gęstość fizyczna to ogólna liczba osób na km², a pozostałe terminy opisują stopień miejskości lub limity ekosystemu.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gęstość fizjologiczna to liczba mieszkańców przypadająca na jednostkę powierzchni gruntów uprawnych; obrazuje jedynie jeden z aspektów presji na te grunty.",
+      "explanation_incorrect": "Gęstość fizyczna to ogólna liczba osób na km², a pozostałe terminy opisują stopień miejskości lub limity ekosystemu."
     },
     {
       "subcategory": "Geologia dynamiczna",
@@ -1218,10 +1162,8 @@
         "Rów tektoniczny"
       ],
       "answer": "Strefa subdukcji",
-      "explanation_correct": "Subdukcja to proces polegający na wciąganiu cięższej płyty oceanicznej pod lżejszą płytę kontynentalną lub oceaniczną.",
-      "explanation_incorrect": "Grzbiet śródoceaniczny to miejsce powstawania nowej skorupy, a uskoki transformacyjne to strefy przesuwania się płyt obok siebie.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Subdukcja polega na wsuwaniu się jednej płyty litosfery pod drugą; płyta zagłębiająca się ma zwykle litosferę oceaniczną.",
+      "explanation_incorrect": "Grzbiet śródoceaniczny to miejsce powstawania nowej skorupy, a uskoki transformacyjne to strefy przesuwania się płyt obok siebie."
     },
     {
       "subcategory": "Hydrologia rzeczna",
@@ -1233,10 +1175,8 @@
         "Mierzeja"
       ],
       "answer": "Estuarium",
-      "explanation_correct": "Estuarium powstaje, gdy prądy morskie i pływy oczyszczają ujście rzeki, nie pozwalając na osadzanie się niesionego materiału.",
-      "explanation_incorrect": "Delta to ujście o wielu odnogach budowane przez nanosy rzeczne, natomiast liman to zatoka powstała z zatopionego wylotu doliny.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Estuarium to lejkowate ujście pod wpływem pływów, w którym miesza się woda rzeczna i morska. Osady nadal mogą się w nim gromadzić.",
+      "explanation_incorrect": "Delta to ujście o wielu odnogach budowane przez nanosy rzeczne, natomiast liman to zatoka powstała z zatopionego wylotu doliny."
     },
     {
       "subcategory": "Meteorologia",
@@ -1255,7 +1195,7 @@
     },
     {
       "subcategory": "Geografia społeczna",
-      "question": "Jak nazywany jest potomek osoby rasy białej oraz osoby rasy żółtej (Indianina) w Ameryce Łacińskiej?",
+      "question": "Jak nazywa się osoba o mieszanym pochodzeniu rdzennie amerykańskim i europejskim w tradycyjnym nazewnictwie Ameryki Łacińskiej?",
       "options": [
         "Metys",
         "Mulat",
@@ -1263,10 +1203,8 @@
         "Kreol"
       ],
       "answer": "Metys",
-      "explanation_correct": "Metysi stanowią znaczną część populacji wielu krajów Ameryki Łacińskiej, zwłaszcza Meksyku.",
-      "explanation_incorrect": "Mulat to potomek rasy białej i czarnej, natomiast Zambo to potomek rasy czarnej i żółtej.",
-      "last_verified_at": "2026-06-12T15:04:08.670Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Termin „Metys” bywa używany wobec osób o mieszanym pochodzeniu rdzennie amerykańskim i europejskim; jego znaczenie i tożsamość różnią się zależnie od kraju.",
+      "explanation_incorrect": "Określenia Mulat i Zambo odnoszą się historycznie do innych kategorii pochodzenia, a Kreol ma różne znaczenia zależnie od regionu."
     },
     {
       "subcategory": "Geografia astronomiczna",
@@ -1278,10 +1216,8 @@
         "Peryhelium"
       ],
       "answer": "Równonoc",
-      "explanation_correct": "Podczas równonocy jesiennej i wiosennej Słońce znajduje się w zenicie nad równikiem, a dzień i noc trwają po 12 godzin.",
-      "explanation_incorrect": "Przesilenie to moment zenitu nad zwrotnikiem, a aphelium to punkt orbity Ziemi najdalej oddalony od Słońca.",
-      "last_verified_at": "2026-06-12T15:04:08.671Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W chwili równonocy Słońce znajduje się nad równikiem. Dzień i noc są wtedy zbliżone do 12 godzin, ale refrakcja i rozmiar tarczy słonecznej wpływają na dokładną długość dnia.",
+      "explanation_incorrect": "Przesilenie to moment zenitu nad zwrotnikiem, a aphelium to punkt orbity Ziemi najdalej oddalony od Słońca."
     },
     {
       "subcategory": "Klimatologia",
@@ -1414,9 +1350,7 @@
       ],
       "answer": "Fanerozoik",
       "explanation_correct": "Fanerozoik to eon 'jawnego życia', dzielący się na ery: paleozoiczną, mezozoiczną i kenozoiczną.",
-      "explanation_incorrect": "Proterozoik i Archean to eony prekambryjskie, które trwały przed pojawieniem się złożonych form życia.",
-      "last_verified_at": "2026-06-12T15:04:08.671Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hadeik, archaik i proterozoik poprzedzały fanerozoik; życie istniało już przed fanerozoikiem."
     },
     {
       "subcategory": "Hydrologia",
@@ -1428,10 +1362,8 @@
         "Frome"
       ],
       "answer": "Eyre",
-      "explanation_correct": "Jezioro Eyre leży w wielkiej depresji i wypełnia się wodą jedynie raz na kilkanaście lat podczas obfitych opadów.",
-      "explanation_incorrect": "Torrens i Gairdner to również słone jeziora Australii, ale są one znacznie mniejsze od jeziora Eyre.",
-      "last_verified_at": "2026-06-12T15:04:08.671Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kati Thanda–Lake Eyre to zwykle suche jezioro słone w depresji; ilość wody i częstość zalania zależą od opadów w dorzeczu.",
+      "explanation_incorrect": "Torrens i Gairdner to również słone jeziora Australii, ale są one znacznie mniejsze od jeziora Eyre."
     },
     {
       "subcategory": "Geografia polityczna",
@@ -1450,18 +1382,16 @@
     },
     {
       "subcategory": "Etnografia",
-      "question": "Który z wymienionych ludów koczowniczych tradycyjnie zamieszkuje obszar pustyni Kalahari?",
+      "question": "Które z wymienionych rdzennych ludów południowej Afryki tradycyjnie zajmowały się łowiectwem i zbieractwem, także na obszarze Kalahari?",
       "options": [
         "Tuaregowie",
-        "Buszmeni",
+        "San",
         "Masajowie",
         "Beduini"
       ],
-      "answer": "Buszmeni",
-      "explanation_correct": "Buszmeni (lud San) to jedni z najstarszych mieszkańców Afryki Południowej, trudniący się zbieractwem i łowiectwem.",
-      "explanation_incorrect": "Tuaregowie zamieszkują Saharę, Masajowie Afrykę Wschodnią, a Beduini pustynie Bliskiego Wschodu.",
-      "last_verified_at": "2026-06-12T15:04:08.671Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "San",
+      "explanation_correct": "San to zbiorcza nazwa rdzennych społeczności południowej Afryki, z których część tradycyjnie utrzymywała się z łowiectwa i zbieractwa.",
+      "explanation_incorrect": "Tuaregowie zamieszkują Saharę, Masajowie Afrykę Wschodnią, a Beduini m.in. Bliski Wschód."
     },
     {
       "subcategory": "Meteorologia",

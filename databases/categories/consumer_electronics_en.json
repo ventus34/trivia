@@ -40,63 +40,55 @@
     },
     {
       "subcategory": "Tablet Computers",
-      "question": "Which Amazon tablet brand is known by this name?",
+      "question": "Which tablet family is sold under Amazon’s own brand?",
       "options": [
+        "Pixel Tablet",
         "Fire",
         "Galaxy Tab",
-        "iPad",
-        "Pixel Tablet"
+        "iPad"
       ],
       "answer": "Fire",
       "explanation_correct": "Fire is Amazon’s tablet brand. It includes devices such as the Fire HD tablets.",
-      "explanation_incorrect": "The other options are tablet brands made by Samsung, Apple, and Google. They are not Amazon tablets.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other options are tablet brands made by Samsung, Apple, and Google. They are not Amazon tablets."
     },
     {
       "subcategory": "Televisions",
-      "question": "Which display technology uses organic light-emitting diodes?",
+      "question": "Which display technology uses liquid crystals to modulate light from a backlight in many televisions?",
       "options": [
-        "OLED",
         "LCD",
+        "OLED",
         "Plasma",
         "CRT"
       ],
-      "answer": "OLED",
-      "explanation_correct": "OLED stands for organic light-emitting diode technology. It is used in some televisions for self-emissive pixels.",
-      "explanation_incorrect": "The other options are different display technologies. They do not specifically refer to organic light-emitting diodes.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "LCD",
+      "explanation_correct": "An LCD uses liquid crystals to modulate light; many LCD televisions use an LED backlight.",
+      "explanation_incorrect": "OLED is self-emissive, plasma uses gas cells and CRT uses an electron beam."
     },
     {
       "subcategory": "Headphones",
-      "question": "What is Apple’s wireless earbuds line called?",
+      "question": "Which wireless earbuds are sold under Apple’s AirPods brand?",
       "options": [
-        "AirPods",
         "Beats Fit Pro",
         "Galaxy Buds",
-        "Pixel Buds"
+        "Pixel Buds",
+        "AirPods"
       ],
       "answer": "AirPods",
       "explanation_correct": "AirPods are Apple's wireless earbuds. They are the named line referenced by the clue.",
-      "explanation_incorrect": "The other options are wireless earbuds from other brands or sub-brands. They are not Apple’s AirPods.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Beats Fit Pro are sold under the Beats brand, which is also owned by Apple. Galaxy Buds and Pixel Buds are Samsung and Google lines."
     },
     {
       "subcategory": "Gaming Consoles",
-      "question": "Which Nintendo hybrid game console is this?",
+      "question": "Which Nintendo console was designed to work both as a handheld and connected to a TV dock?",
       "options": [
-        "Switch",
-        "Wii U",
         "GameCube",
-        "3DS"
+        "3DS",
+        "Switch",
+        "Wii U"
       ],
       "answer": "Switch",
       "explanation_correct": "The Nintendo Switch is Nintendo’s hybrid console that can be used handheld or docked. It matches the clue exactly.",
-      "explanation_incorrect": "The other options are older Nintendo systems with different designs and purposes. They are not the hybrid console described.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other options are older Nintendo systems with different designs and purposes. They are not the hybrid console described."
     },
     {
       "subcategory": "Wearables",
@@ -145,18 +137,16 @@
     },
     {
       "subcategory": "Home Audio",
-      "question": "Which wireless audio standard is used for short-range pairing?",
+      "question": "Which wireless technology includes the A2DP profile commonly used to stream audio to headphones?",
       "options": [
-        "Bluetooth",
-        "NFC",
         "Wi-Fi",
-        "Zigbee"
+        "Zigbee",
+        "Bluetooth",
+        "NFC"
       ],
       "answer": "Bluetooth",
-      "explanation_correct": "Bluetooth is a short-range wireless standard commonly used for pairing audio devices. It fits the clue precisely.",
-      "explanation_incorrect": "The other options are wireless technologies, but they are used for different purposes or ranges. They are not the standard most associated with short-range audio pairing.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A2DP is a Bluetooth profile for distributing audio, including music to compatible headphones.",
+      "explanation_incorrect": "NFC can assist pairing and Wi-Fi can stream audio, but A2DP is a Bluetooth profile; Zigbee targets other low-power networking uses."
     },
     {
       "subcategory": "Digital Cameras",
@@ -175,7 +165,7 @@
     },
     {
       "subcategory": "Streaming Devices",
-      "question": "Which Google TV dongle brand is commonly used for streaming to a television?",
+      "question": "Which Google product line included HDMI devices called Chromecast for streaming and casting to TVs?",
       "options": [
         "Chromecast",
         "Roku",
@@ -184,39 +174,33 @@
       ],
       "answer": "Chromecast",
       "explanation_correct": "Chromecast is Google's streaming dongle brand. It is used to cast or stream content to a TV.",
-      "explanation_incorrect": "The other choices are streaming-device brands or products, but they are not Google's Chromecast.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "The other choices are streaming-device brands or products, but they are not Google's Chromecast."
     },
     {
       "subcategory": "Virtual Reality",
-      "question": "Which Meta virtual reality headset line is named here?",
+      "question": "Which Meta headset family includes standalone devices such as Quest 3?",
       "options": [
-        "Quest",
         "Rift",
         "Index",
-        "Vive"
+        "Vive",
+        "Quest"
       ],
       "answer": "Quest",
-      "explanation_correct": "Quest is Meta's current standalone virtual reality headset line. It includes multiple consumer VR headsets.",
-      "explanation_incorrect": "The other options are VR headset lines or brands, but they are not Meta's Quest line.",
-      "last_verified_at": "2026-06-12T14:32:55.212Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Quest headsets are Meta’s standalone VR and mixed-reality devices.",
+      "explanation_incorrect": "Rift was also a Meta/Oculus headset family, but Quest includes the standalone Quest 3. Index and Vive are associated with Valve and HTC."
     },
     {
       "subcategory": "Action Cameras",
-      "question": "Which popular rugged camera brand is described here?",
+      "question": "Which company makes the Osmo Action camera line?",
       "options": [
-        "GoPro",
-        "DJI",
         "Insta360",
-        "Ricoh"
+        "Ricoh",
+        "DJI",
+        "GoPro"
       ],
-      "answer": "GoPro",
-      "explanation_correct": "GoPro is widely known for rugged action cameras. Its cameras are designed for sports and adventure use.",
-      "explanation_incorrect": "The other options are camera-related brands, but they are not the rugged action-camera brand GoPro.",
-      "last_verified_at": "2026-06-12T14:33:01.092Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "DJI",
+      "explanation_correct": "Osmo Action is DJI’s action-camera line.",
+      "explanation_incorrect": "The other companies sell cameras, but Osmo Action is a DJI line."
     },
     {
       "subcategory": "Portable Music Players",
@@ -235,7 +219,7 @@
     },
     {
       "subcategory": "Smartphones",
-      "question": "Which flagship product line does this refer to?",
+      "question": "Which Samsung smartphone family uses names such as Galaxy S24?",
       "options": [
         "Galaxy S",
         "Galaxy A",
@@ -244,9 +228,7 @@
       ],
       "answer": "Galaxy S",
       "explanation_correct": "Galaxy S is Samsung's flagship smartphone line. It represents the company's top-tier mainstream phone series.",
-      "explanation_incorrect": "The other options are smartphone lines, but they are not Samsung's Galaxy S flagship line.",
-      "last_verified_at": "2026-06-12T14:33:01.092Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Galaxy A is another Samsung line; Pixel and Xperia are Google and Sony brands. Galaxy S24 belongs to the Galaxy S family."
     },
     {
       "subcategory": "Gaming Consoles",
@@ -265,37 +247,33 @@
     },
     {
       "subcategory": "Televisions",
-      "question": "Which television display technology uses a 'quantum dot' layer to enhance brightness and color?",
+      "question": "Which term is used for quantum-dot-enhanced LCD televisions such as Samsung QLED models?",
       "options": [
+        "Plasma",
+        "CRT",
         "QLED",
-        "OLED",
-        "LCD",
-        "Plasma"
+        "OLED"
       ],
       "answer": "QLED",
-      "explanation_correct": "QLED stands for Quantum dot Light Emitting Diode, a display technology that uses microscopic quantum dots to enhance the image quality on LCD panels.",
-      "explanation_incorrect": "OLED uses organic compounds, LCD relies on liquid crystals without quantum dots, and Plasma used ionized gas.",
-      "last_verified_at": "2026-06-12T14:34:21.014Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "QLED TVs commonly use quantum dots with an LCD panel and a backlight; QLED is not a synonym for self-emissive OLED.",
+      "explanation_incorrect": "OLED uses organic light-emitting layers, plasma uses gas cells and CRT uses a cathode-ray tube."
     },
     {
       "subcategory": "Portable Audio",
-      "question": "Which brand is known for noise-cancelling headphones?",
+      "question": "Which brand sells the MOMENTUM 4 Wireless headphones?",
       "options": [
-        "Bose",
-        "Sony",
+        "JBL",
         "Sennheiser",
-        "JBL"
+        "Bose",
+        "Sony"
       ],
-      "answer": "Bose",
-      "explanation_correct": "Bose is a major brand known for noise-cancelling headphones and audio products. Its QuietComfort line is especially well known.",
-      "explanation_incorrect": "The other options are headphone or audio brands, but they are not Bose.",
-      "last_verified_at": "2026-06-12T14:33:01.092Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Sennheiser",
+      "explanation_correct": "MOMENTUM 4 Wireless is part of Sennheiser’s MOMENTUM headphone family.",
+      "explanation_incorrect": "Bose, Sony and JBL also sell headphones, but not the Sennheiser MOMENTUM line."
     },
     {
       "subcategory": "Home Audio",
-      "question": "Which wireless speaker brand is described here?",
+      "question": "Which company introduced the Era 100 wireless home speaker?",
       "options": [
         "Sonos",
         "Bose",
@@ -303,10 +281,8 @@
         "Denon"
       ],
       "answer": "Sonos",
-      "explanation_correct": "Sonos is a well-known brand of wireless home speakers and audio systems. It focuses on multiroom connected audio.",
-      "explanation_incorrect": "The other options are audio brands, but they are not Sonos.",
-      "last_verified_at": "2026-06-12T14:33:01.092Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Era 100 is a Sonos smart speaker that can be used in a multiroom audio system.",
+      "explanation_incorrect": "Bose, JBL and Denon also sell audio equipment, but Era 100 is a Sonos product."
     },
     {
       "subcategory": "Cameras",
@@ -325,33 +301,29 @@
     },
     {
       "subcategory": "Drones",
-      "question": "Which company is widely recognized as a leading consumer brand for drones?",
+      "question": "Which company produces the Mavic drone family?",
       "options": [
-        "DJI",
-        "Parrot",
         "Skydio",
-        "Yuneec"
+        "Yuneec",
+        "DJI",
+        "Parrot"
       ],
       "answer": "DJI",
-      "explanation_correct": "DJI is the dominant consumer drone brand and a major name in aerial photography hardware. It is especially known for its wide range of popular drones.",
-      "explanation_incorrect": "The other options are drone manufacturers, but they are not the leading consumer brand described here.",
-      "last_verified_at": "2026-06-12T14:33:01.092Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "DJI makes the Mavic family of camera drones.",
+      "explanation_incorrect": "Parrot, Skydio and Yuneec also make drones, but the Mavic line belongs to DJI."
     },
     {
       "subcategory": "Wearables",
-      "question": "Which fitness tracker brand helped popularize wearable activity monitors?",
+      "question": "Which fitness tracker company introduced the Fitbit Charge series?",
       "options": [
+        "Xiaomi",
         "Fitbit",
         "Garmin",
-        "Withings",
-        "Xiaomi"
+        "Withings"
       ],
       "answer": "Fitbit",
-      "explanation_correct": "Fitbit became one of the best-known names in consumer fitness trackers. It helped bring step counting and health tracking into the mainstream.",
-      "explanation_incorrect": "The other options are wearable or fitness-tech brands, but they are not the brand most associated with popularizing fitness trackers.",
-      "last_verified_at": "2026-06-12T14:33:01.092Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Charge is a Fitbit family of wearable activity trackers.",
+      "explanation_incorrect": "Garmin, Withings and Xiaomi make wearables, but the Charge series is a Fitbit line."
     },
     {
       "subcategory": "E-readers",
@@ -370,48 +342,42 @@
     },
     {
       "subcategory": "Smart Home",
-      "question": "Which smart home brand is known for its thermostat line?",
+      "question": "Which brand sells the Smart Thermostat Premium?",
       "options": [
         "Nest",
-        "Ecobee",
         "Honeywell",
-        "Tado"
+        "Tado",
+        "ecobee"
       ],
-      "answer": "Nest",
-      "explanation_correct": "Nest is strongly associated with smart thermostats and home automation products. Its thermostat line is one of the brand's most recognizable offerings.",
-      "explanation_incorrect": "The other options are smart thermostat brands, but they are not the brand referenced by the blueprint.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "ecobee",
+      "explanation_correct": "Smart Thermostat Premium is an ecobee product for compatible home heating and cooling systems.",
+      "explanation_incorrect": "Nest, Honeywell and Tado also sell thermostats, but Smart Thermostat Premium is an ecobee model."
     },
     {
       "subcategory": "Laptops",
-      "question": "Which laptop line is known as a longstanding business-focused ultrabook series?",
+      "question": "Which laptop family was introduced by IBM and later became a Lenovo product line?",
       "options": [
-        "ThinkPad",
-        "ZenBook",
         "EliteBook",
-        "Latitude"
+        "Latitude",
+        "ThinkPad",
+        "ZenBook"
       ],
       "answer": "ThinkPad",
-      "explanation_correct": "ThinkPad is a famous laptop line known for business use and durable design. It has long been associated with Lenovo and its professional notebooks.",
-      "explanation_incorrect": "The other options are laptop lines, but they are not the ultrabook line specified in the blueprint.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "ThinkPad began at IBM; Lenovo acquired IBM’s PC business and continued the line.",
+      "explanation_incorrect": "ZenBook is an ASUS family, EliteBook an HP family, and Latitude a Dell family."
     },
     {
       "subcategory": "Tablets",
-      "question": "Which tablet line is associated with Microsoft's Android tablet-like device naming here?",
+      "question": "Which product family is Microsoft’s line of Windows tablets and 2-in-1 PCs?",
       "options": [
+        "MediaPad",
         "Surface",
         "Galaxy Tab",
-        "iPad",
-        "MediaPad"
+        "iPad"
       ],
       "answer": "Surface",
-      "explanation_correct": "Surface is Microsoft's tablet and 2-in-1 product line. It is the name expected by the blueprint for this device category.",
-      "explanation_incorrect": "The other options are tablet product lines, but they are not the target answer listed in the blueprint.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Surface is Microsoft’s hardware family, including Windows tablets and 2-in-1 PCs. Some distinct Surface Duo devices used Android.",
+      "explanation_incorrect": "Galaxy Tab, iPad and MediaPad are product lines associated with Samsung, Apple and Huawei."
     },
     {
       "subcategory": "Virtual Reality",
@@ -423,55 +389,47 @@
         "Pico"
       ],
       "answer": "Vive",
-      "explanation_correct": "The original HTC Vive was the first major consumer PC VR headset developed in partnership with Valve.",
-      "explanation_incorrect": "Index is a Valve product, Quest is Meta's, and Pico is owned by ByteDance.",
-      "last_verified_at": "2026-06-12T14:34:21.014Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The original HTC Vive was a consumer PC VR headset developed with technology and collaboration from Valve.",
+      "explanation_incorrect": "Valve Index is a Valve headset, Quest is associated with Meta, and Pico is a separate headset brand."
     },
     {
       "subcategory": "Streaming Devices",
-      "question": "Which brand is a well-known set-top box and streaming device maker?",
+      "question": "Which company sells the Ultra and Streaming Stick TV streaming players?",
       "options": [
-        "Roku",
         "Apple TV",
         "Fire TV",
-        "Chromecast"
+        "Chromecast",
+        "Roku"
       ],
       "answer": "Roku",
-      "explanation_correct": "Roku is a leading brand for streaming players and set-top boxes. Its devices are widely used for accessing streaming services on televisions.",
-      "explanation_incorrect": "The other options are streaming device platforms or brands, but they are not the set-top box brand specified.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Roku sells streaming players including Roku Ultra and Roku Streaming Stick.",
+      "explanation_incorrect": "Apple TV, Fire TV and Chromecast are competing product families from Apple, Amazon and Google."
     },
     {
       "subcategory": "Mobile Payments",
-      "question": "Which mobile payment platform was formerly known as Android Pay before a branding consolidation?",
+      "question": "What name replaced Android Pay when Google consolidated its payment brands in 2018?",
       "options": [
-        "Google Pay",
-        "Apple Pay",
         "Samsung Pay",
-        "PayPal"
+        "PayPal",
+        "Google Pay",
+        "Apple Pay"
       ],
       "answer": "Google Pay",
-      "explanation_correct": "Google Pay combines the features of Android Pay and Google Wallet into one brand.",
-      "explanation_incorrect": "Apple Pay and Samsung Pay are proprietary to those manufacturers; PayPal is a broader service.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Google introduced the Google Pay brand in 2018 to bring together Android Pay and Google Wallet. Branding and services have since evolved.",
+      "explanation_incorrect": "Apple Pay, Samsung Pay and PayPal were not the name Google adopted for that 2018 consolidation."
     },
     {
       "subcategory": "Smartphones",
       "question": "Which mobile operating system was developed by Google?",
       "options": [
+        "Windows Phone",
         "Android",
         "iOS",
-        "HarmonyOS",
-        "Windows Phone"
+        "HarmonyOS"
       ],
       "answer": "Android",
-      "explanation_correct": "Android is the mobile operating system developed by Google. It powers a wide range of smartphones and tablets.",
-      "explanation_incorrect": "The other options are different mobile operating systems or platforms. They are not the one created by Google.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Android is developed under Google’s leadership; Google acquired Android Inc. before releasing the platform.",
+      "explanation_incorrect": "iOS is Apple’s, HarmonyOS is Huawei’s, and Windows Phone was Microsoft’s mobile platform."
     },
     {
       "subcategory": "Portable Audio",
@@ -522,16 +480,14 @@
       "subcategory": "Wearables",
       "question": "Which series of wearable devices was launched in 2015, featuring the S-series SIP and watchOS?",
       "options": [
+        "Pixel Watch",
         "Apple Watch",
         "Galaxy Watch",
-        "Fitbit Sense",
-        "Pixel Watch"
+        "Fitbit Sense"
       ],
       "answer": "Apple Watch",
-      "explanation_correct": "This device is the most popular smartwatch globally and integrates deeply with the iOS ecosystem.",
-      "explanation_incorrect": "Galaxy Watch uses Wear OS/Tizen; Fitbit is focused on fitness; Pixel Watch is Google's hardware.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Apple Watch debuted in 2015, uses watchOS and integrates with iPhone.",
+      "explanation_incorrect": "Galaxy Watch, Fitbit Sense and Pixel Watch are wearable lines associated with other companies."
     },
     {
       "subcategory": "Home Audio",
@@ -565,18 +521,16 @@
     },
     {
       "subcategory": "Televisions",
-      "question": "Which TV platform was developed by LG?",
+      "question": "Which platform, originally developed by Palm and later acquired and adapted by LG, is used on many LG smart TVs?",
       "options": [
-        "webOS",
-        "Tizen",
         "Roku TV",
-        "Android TV"
+        "Android TV",
+        "webOS",
+        "Tizen"
       ],
       "answer": "webOS",
-      "explanation_correct": "webOS is the smart TV platform developed by LG. It is used on many LG televisions.",
-      "explanation_incorrect": "The other options are TV operating systems or platforms from different companies. They are not LG's platform.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "LG acquired webOS technology from HP in 2013 and developed it for smart TVs; Palm originally developed it.",
+      "explanation_incorrect": "Tizen is associated with Samsung, while Roku TV and Android TV belong to different TV platform ecosystems."
     },
     {
       "subcategory": "Gaming Hardware",
@@ -595,7 +549,7 @@
     },
     {
       "subcategory": "Home Automation",
-      "question": "Which smart home protocol is backed by Apple and Google?",
+      "question": "Which Connectivity Standards Alliance smart-home standard can run over IP networks including Wi-Fi and Thread?",
       "options": [
         "Matter",
         "Zigbee",
@@ -603,10 +557,8 @@
         "Thread"
       ],
       "answer": "Matter",
-      "explanation_correct": "Matter is a smart home interoperability standard backed by major tech companies including Apple and Google. It is designed to make devices work across ecosystems.",
-      "explanation_incorrect": "The other options are smart home technologies or networking standards, but they are not the same protocol backed in this way.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Matter is an application-layer interoperability standard that can use IP networks such as Wi-Fi and Thread.",
+      "explanation_incorrect": "Thread is a network technology that Matter can use; Zigbee and Z-Wave are separate smart-home technologies."
     },
     {
       "subcategory": "PC Peripherals",
@@ -729,19 +681,17 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "E-readers",
-      "question": "Which Barnes & Noble e-reader line is being referenced here?",
+      "subcategory": "Displays",
+      "question": "What property of a bistable E Ink display allows it to retain a page without continuously powering the display?",
       "options": [
-        "NOOK",
-        "Kindle",
-        "Kobo",
-        "ReMarkable"
+        "High refresh rate",
+        "Active backlight",
+        "Continuous pixel refresh",
+        "Bistability"
       ],
-      "answer": "NOOK",
-      "explanation_correct": "NOOK is Barnes & Noble's e-reader line. It has been used for both e-readers and related reading devices.",
-      "explanation_incorrect": "The other options are e-reader brands or devices, but they are not Barnes & Noble's line.",
-      "last_verified_at": "2026-06-12T14:33:01.093Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Bistability",
+      "explanation_correct": "Bistable E Ink displays can retain a static image when power is removed; changing the image requires power.",
+      "explanation_incorrect": "A backlight, continuous refresh and refresh rate are not the property that retains the image without power."
     },
     {
       "subcategory": "Audio",
@@ -774,19 +724,17 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "Gaming Handhelds",
-      "question": "What is the name of Valve's handheld gaming device?",
+      "subcategory": "TV Audio",
+      "question": "In which direction does HDMI ARC primarily allow audio to travel?",
       "options": [
-        "Steam Deck",
-        "PlayStation Portal",
-        "ROG Ally",
-        "Nintendo Switch Lite"
+        "From a TV to a compatible soundbar or receiver",
+        "From a camera to a printer only",
+        "From a Wi-Fi router to a phone",
+        "From a speaker to a camera sensor"
       ],
-      "answer": "Steam Deck",
-      "explanation_correct": "The Steam Deck is Valve's handheld gaming PC. It runs SteamOS and is designed for portable PC gaming.",
-      "explanation_incorrect": "The other options are handheld gaming devices, but they are made by different companies.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "From a TV to a compatible soundbar or receiver",
+      "explanation_correct": "Audio Return Channel can send audio from a television back to a compatible audio device over HDMI.",
+      "explanation_incorrect": "ARC is an HDMI audio return function, not a camera-printer, Wi-Fi or image-sensor link."
     },
     {
       "subcategory": "Home Audio",
@@ -805,63 +753,55 @@
     },
     {
       "subcategory": "Wearables",
-      "question": "What is Garmin's smartwatch family focused on fitness called?",
+      "question": "Which Garmin running and triathlon watch family includes the model numbered 965?",
       "options": [
-        "Forerunner",
-        "Fenix",
         "Venu",
-        "Instinct"
+        "Instinct",
+        "Forerunner",
+        "Fenix"
       ],
       "answer": "Forerunner",
-      "explanation_correct": "Forerunner is Garmin's lineup of fitness-oriented smartwatches, especially popular with runners. It includes features for training and performance tracking.",
-      "explanation_incorrect": "The other options are Garmin watch families too, but they are different product lines with different focuses.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Forerunner 965 is part of Garmin’s Forerunner family, which includes running and multisport watches.",
+      "explanation_incorrect": "Fenix, Venu and Instinct are other Garmin families, some of which also support fitness or multisport activities."
     },
     {
       "subcategory": "Action Cameras",
-      "question": "Which Insta360 modular action camera line is being described?",
+      "question": "Which modular Insta360 system uses a core, battery base and interchangeable lens modules?",
       "options": [
+        "Ace Pro",
         "ONE R",
         "GO 3",
-        "X3",
-        "Ace Pro"
+        "X3"
       ],
       "answer": "ONE R",
       "explanation_correct": "ONE R is Insta360's modular action camera system. Its design allows different lens and core combinations.",
-      "explanation_incorrect": "The other options are also camera models from Insta360, but they are not the modular ONE R line.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "GO 3, X3 and Ace Pro are other Insta360 models; ONE R used a modular design."
     },
     {
       "subcategory": "Computer Accessories",
-      "question": "Apple's Magic ___ is which computer input device?",
+      "question": "Which Apple accessory is a wireless computer mouse?",
       "options": [
-        "Mouse",
-        "Trackpad",
-        "Keyboard",
-        "Remote"
+        "Magic Mouse",
+        "Magic Keyboard",
+        "Magic Trackpad",
+        "Apple Pencil"
       ],
-      "answer": "Mouse",
-      "explanation_correct": "Apple's Magic Mouse is a wireless pointing device for computers. It is part of Apple's Magic accessory lineup.",
-      "explanation_incorrect": "The other options are also Apple accessories, but they are not the device named Magic Mouse.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Magic Mouse",
+      "explanation_correct": "Magic Mouse is Apple’s wireless mouse. Magic Trackpad is a separate pointing device.",
+      "explanation_incorrect": "Magic Keyboard is a keyboard, Magic Trackpad is a touchpad, and Apple Pencil is a stylus."
     },
     {
       "subcategory": "Streaming Devices",
-      "question": "What is Walmart's streaming TV brand called?",
+      "question": "Which electronics house brand does Walmart use for onn. streaming devices?",
       "options": [
-        "Onn",
         "Insignia",
-        "onn. Roku TV",
-        "Element"
+        "TCL",
+        "Element",
+        "onn."
       ],
-      "answer": "Onn",
-      "explanation_correct": "Onn is Walmart's house brand used for a variety of electronics, including streaming devices and TVs. It appears on Walmart-branded consumer tech products.",
-      "explanation_incorrect": "The other options are also electronics brands or TV brands, but they are not Walmart's Onn brand.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "onn.",
+      "explanation_correct": "onn. is Walmart’s house brand for electronics including streaming devices.",
+      "explanation_incorrect": "Insignia, TCL and Element are separate electronics brands."
     },
     {
       "subcategory": "Drones",
@@ -894,34 +834,30 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "Portable Audio",
-      "question": "What is the name of Apple's wireless earbud line?",
+      "subcategory": "Audio",
+      "question": "What does active noise cancellation in compatible AirPods use to reduce external sound?",
       "options": [
-        "AirPods",
-        "Galaxy Buds",
-        "Pixel Buds",
-        "Echo Buds"
+        "Microphones and an opposing audio signal",
+        "A mechanical shutter over the ear canal",
+        "Only a larger battery",
+        "A satellite navigation receiver"
       ],
-      "answer": "AirPods",
-      "explanation_correct": "AirPods are Apple's wireless earbuds. They are designed to work seamlessly with Apple devices.",
-      "explanation_incorrect": "Galaxy Buds, Pixel Buds and Echo Buds are product lines from Samsung, Google and Amazon, respectively.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Microphones and an opposing audio signal",
+      "explanation_correct": "Microphones detect sound and the device generates anti-noise to reduce unwanted sound.",
+      "explanation_incorrect": "The feature uses microphones and signal processing, not a GPS receiver, battery size alone or a mechanical shutter."
     },
     {
       "subcategory": "Smartphones",
-      "question": "Which company is the manufacturer of the iPhone?",
+      "question": "Which company designs and markets the iPhone smartphone line?",
       "options": [
-        "Apple",
         "Samsung",
         "Sony",
-        "Nokia"
+        "Nokia",
+        "Apple"
       ],
       "answer": "Apple",
-      "explanation_correct": "Apple designs and manufactures the iPhone line of smartphones. It is the company most closely associated with that device.",
-      "explanation_incorrect": "Samsung, Sony, and Nokia are all consumer electronics companies, but they are not the manufacturer of the iPhone.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Apple designs and markets the iPhone; manufacturing and assembly involve suppliers and contractors.",
+      "explanation_incorrect": "Samsung, Sony, and Nokia are all consumer electronics companies, but they are not the manufacturer of the iPhone."
     },
     {
       "subcategory": "Game Consoles",
@@ -939,34 +875,30 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "E-readers",
-      "question": "Which brand of e-readers and tablets, competing with the Kindle, is owned by the Japanese company Rakuten?",
+      "subcategory": "Cameras",
+      "question": "What is optical image stabilization (OIS) designed to reduce in a camera?",
       "options": [
-        "Kobo",
-        "Amazon",
-        "Rakuten",
-        "Barnes & Noble"
+        "Noise caused by the camera microphone",
+        "Blur caused by camera shake",
+        "The size of image files",
+        "The amount of stored metadata"
       ],
-      "answer": "Kobo",
-      "explanation_correct": "Kobo was originally a Canadian company before being acquired by Rakuten in 2012.",
-      "explanation_incorrect": "Rakuten is the parent company, not the device brand. Amazon makes Kindles and B&N makes Nooks.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Blur caused by camera shake",
+      "explanation_correct": "Optical stabilization moves a lens element or sensor to compensate for camera movement and reduce blur.",
+      "explanation_incorrect": "OIS concerns optical motion compensation, not file compression, metadata or microphone noise."
     },
     {
       "subcategory": "Televisions",
-      "question": "What is the name of the operating system used by most modern Samsung Smart TVs?",
+      "question": "What does HDR primarily extend in compatible video compared with standard dynamic range?",
       "options": [
-        "Tizen",
-        "One UI",
-        "webOS",
-        "Google TV"
+        "The range between dark and bright image detail",
+        "The number of television channels",
+        "The physical size of the TV connector",
+        "The wireless range of a remote"
       ],
-      "answer": "Tizen",
-      "explanation_correct": "Tizen is a Linux-based operating system developed by Samsung and used as the primary interface for its Smart TVs.",
-      "explanation_incorrect": "One UI is for mobile devices, webOS is used by LG, and Google TV is a separate platform.",
-      "last_verified_at": "2026-06-12T14:34:21.014Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "The range between dark and bright image detail",
+      "explanation_correct": "High dynamic range video can represent a wider range of luminance; the visible result depends on the content and display.",
+      "explanation_incorrect": "HDR concerns image dynamic range, not channel count, connector size or remote-control range."
     },
     {
       "subcategory": "Audio Devices",
@@ -1015,7 +947,7 @@
     },
     {
       "subcategory": "Home Theater",
-      "question": "What HD optical disc format was developed by Sony and Philips?",
+      "question": "Which high-definition optical disc format is specified and licensed by the Blu-ray Disc Association?",
       "options": [
         "Blu-ray",
         "DVD",
@@ -1023,55 +955,47 @@
         "LaserDisc"
       ],
       "answer": "Blu-ray",
-      "explanation_correct": "Blu-ray is the high-definition optical disc format associated with Sony and its partners. It was developed to store high-capacity video and data.",
-      "explanation_incorrect": "DVD, HD DVD, and LaserDisc are optical media formats, but they are not the Sony-and-Philips HD format.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Blu-ray Disc is an optical format for high-definition audio/video and high-capacity data, licensed by the Blu-ray Disc Association.",
+      "explanation_incorrect": "DVD, HD DVD and LaserDisc are other optical formats, not the Blu-ray Disc Association’s Blu-ray format."
     },
     {
       "subcategory": "Cameras",
-      "question": "Which brand of cameras and film uses a name derived from 'Instant' and 'Exchange' to describe its point-and-shoot products?",
+      "question": "Which Fujifilm line includes instant cameras and compatible self-developing film?",
       "options": [
-        "Instax",
         "Polaroid",
         "SureShot",
-        "Canonet"
+        "Canonet",
+        "Instax"
       ],
       "answer": "Instax",
-      "explanation_correct": "Instax is Fujifilm's successful line of analog instant cameras and film formats.",
-      "explanation_incorrect": "Polaroid is a separate company; SureShot and Canonet are lines of traditional film cameras.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "instax is Fujifilm’s instant photography line, covering cameras and film.",
+      "explanation_incorrect": "Polaroid is a separate instant-photography brand; Sure Shot and Canonet are Canon camera lines."
     },
     {
       "subcategory": "Wearables",
-      "question": "What is the name of Garmin's multisport watch line?",
+      "question": "Which Garmin outdoor multisport watch family includes models numbered 7 and 7 Pro?",
       "options": [
-        "Fenix",
-        "Forerunner",
         "Venu",
-        "Instinct"
+        "Instinct",
+        "Fenix",
+        "Forerunner"
       ],
       "answer": "Fenix",
-      "explanation_correct": "Fenix is Garmin's multisport watch line aimed at endurance and outdoor athletes. It is one of Garmin's flagship wearable series.",
-      "explanation_incorrect": "Forerunner, Venu, and Instinct are Garmin watch lines too, but they are not the target multisport series here.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The fēnix 7 belongs to Garmin’s fēnix family of multisport watches.",
+      "explanation_incorrect": "Forerunner, Venu and Instinct are other Garmin watch families and can also offer sports features."
     },
     {
       "subcategory": "Drones",
-      "question": "The 'Lite' and 'Nano' are versions of which ultra-compact foldable drone series produced by Autel Robotics?",
+      "question": "Which Autel Robotics drone family includes the Lite and Nano models?",
       "options": [
+        "Skydio 2",
         "Evo",
         "Mavic Air",
-        "Mini 3",
-        "Skydio 2"
+        "Mini 3"
       ],
       "answer": "Evo",
       "explanation_correct": "The Autel Evo series is a direct competitor to DJI's consumer drone lineup.",
-      "explanation_incorrect": "Mavic Air and Mini 3 are DJI products; Skydio is an American autonomous drone company.",
-      "last_verified_at": "2026-06-12T14:33:01.094Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Mavic Air and Mini 3 are DJI products; Skydio is an American autonomous drone company."
     },
     {
       "subcategory": "Gaming Handhelds",
@@ -1105,18 +1029,16 @@
     },
     {
       "subcategory": "Laptops",
-      "question": "Which premium laptop line is sold by Dell?",
+      "question": "Which company marketed the XPS family of premium laptops?",
       "options": [
-        "XPS",
-        "Latitude",
-        "ThinkPad",
-        "Spectre"
+        "Dell",
+        "ASUS",
+        "Lenovo",
+        "HP"
       ],
-      "answer": "XPS",
-      "explanation_correct": "XPS is Dell's premium laptop line. The other options are premium or business laptop lines from different manufacturers.",
-      "explanation_incorrect": "The distractors are valid laptop families, but they are not Dell's XPS line. They are associated with other brands.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Dell",
+      "explanation_correct": "XPS was Dell’s premium consumer computer family, including laptops.",
+      "explanation_incorrect": "ASUS markets ZenBook, Lenovo markets ThinkPad and HP markets Spectre; XPS was a Dell family."
     },
     {
       "subcategory": "Wireless Audio",
@@ -1134,19 +1056,17 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "Smartphones",
-      "question": "Which company makes the Pixel smartphone line?",
+      "subcategory": "Displays",
+      "question": "How does an OLED display create an image?",
       "options": [
-        "Google",
-        "Samsung",
-        "OnePlus",
-        "Sony"
+        "Organic light-emitting pixels produce their own light",
+        "Liquid crystals create all light without a separate source",
+        "A cathode-ray beam strikes phosphors",
+        "An electrophoretic page reflects ambient light"
       ],
-      "answer": "Google",
-      "explanation_correct": "Google manufactures the Pixel line of smartphones. The other options are smartphone makers that do not own the Pixel brand.",
-      "explanation_incorrect": "The distractors are all smartphone companies, but they are not the maker of Pixel. Pixel is Google's line.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Organic light-emitting pixels produce their own light",
+      "explanation_correct": "OLED pixels emit light directly when driven electrically.",
+      "explanation_incorrect": "LCDs modulate light, CRTs use electron beams, and electrophoretic displays typically reflect ambient light."
     },
     {
       "subcategory": "Gaming Consoles",
@@ -1164,154 +1084,134 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "E-readers",
-      "question": "What is the Barnes & Noble e-reader brand called?",
+      "subcategory": "Connectivity",
+      "question": "What is the purpose of NFC in contactless payments?",
       "options": [
-        "Nook",
-        "Kobo",
-        "Kindle",
-        "reMarkable"
+        "High-power wireless charging across a room",
+        "Analog audio recording onto tape",
+        "Short-range wireless communication between a device and a reader",
+        "Long-range satellite navigation"
       ],
-      "answer": "Nook",
-      "explanation_correct": "Barnes & Noble's e-reader brand is Nook. The other options are e-reader or tablet brands from different companies.",
-      "explanation_incorrect": "The distractors are all reading-device brands, but they are not Barnes & Noble's. Nook is the correct brand name.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Short-range wireless communication between a device and a reader",
+      "explanation_correct": "NFC enables short-range communication used by compatible contactless payment devices and readers.",
+      "explanation_incorrect": "GPS, long-range power transfer and tape recording are not the contactless-payment role of NFC."
     },
     {
       "subcategory": "Noise-Canceling Headphones",
-      "question": "What is Sony's flagship noise-canceling headphone line called?",
+      "question": "Which company makes the WH-1000XM family of noise-cancelling headphones?",
       "options": [
-        "WH-1000X",
-        "QC Ultra",
-        "Momentum 4",
-        "PX7"
+        "Bowers & Wilkins",
+        "Sony",
+        "Bose",
+        "Sennheiser"
       ],
-      "answer": "WH-1000X",
-      "explanation_correct": "Sony's flagship noise-canceling headphones are the WH-1000X line. The other options are competing noise-canceling headphone series.",
-      "explanation_incorrect": "The other choices are headphone models from rival brands, not Sony's flagship line. They belong to the same product category but different manufacturers.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Smart Home Speakers",
-      "question": "Which wireless audio protocol is used by Apple devices?",
-      "options": [
-        "AirPlay",
-        "Bluetooth",
-        "Chromecast",
-        "DLNA"
-      ],
-      "answer": "AirPlay",
-      "explanation_correct": "AirPlay is Apple's wireless audio protocol. The other options are wireless streaming or networking standards, but not Apple's protocol.",
-      "explanation_incorrect": "The distractors are all valid audio or streaming technologies, but they are not Apple's AirPlay. Only AirPlay is the correct Apple protocol.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Action Cameras",
-      "question": "Which Insta360 modular camera line is designed for interchangeable lens and core components?",
-      "options": [
-        "ONE R",
-        "GO 3",
-        "Ace Pro",
-        "X3"
-      ],
-      "answer": "ONE R",
-      "explanation_correct": "ONE R is Insta360's modular action camera line built around swappable camera modules. It was known for offering different lens and core configurations in one system.",
-      "explanation_incorrect": "The other options are also camera models or product names, but they are not Insta360's modular camera line. They belong to different Insta360 product families or other camera generations.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Laptop Computers",
-      "question": "What is the name of Dell's premium laptop line that commonly includes slim, high-end notebooks?",
-      "options": [
-        "XPS",
-        "Inspiron",
-        "Latitude",
-        "Alienware"
-      ],
-      "answer": "XPS",
-      "explanation_correct": "XPS is Dell's premium consumer laptop line, known for its high-end designs and displays. It is one of Dell's flagship notebook families.",
-      "explanation_incorrect": "The other options are Dell product families too, but they are not the premium XPS line. Inspiron targets mainstream consumers, Latitude is business-oriented, and Alienware is for gaming.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Smart Home Standards",
-      "question": "What is the name of the unified smart home protocol developed to improve cross-brand device compatibility?",
-      "options": [
-        "Matter",
-        "Zigbee",
-        "Z-Wave",
-        "Thread"
-      ],
-      "answer": "Matter",
-      "explanation_correct": "Matter is the smart home standard created to help devices from different brands work together more easily. It focuses on interoperability across ecosystems.",
-      "explanation_incorrect": "The other options are related connectivity technologies or standards, but they are not the unified protocol in question. They are used in smart home networking, yet they serve different roles.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Televisions",
-      "question": "What is the name of LG's smart TV platform used on its televisions?",
-      "options": [
-        "webOS",
-        "Tizen",
-        "Google TV",
-        "Roku TV"
-      ],
-      "answer": "webOS",
-      "explanation_correct": "webOS is LG's smart TV operating platform used on its televisions. It powers LG's app and interface experience.",
-      "explanation_incorrect": "The other options are smart TV platforms from other companies or ecosystems. They are not the platform specifically associated with LG TVs.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "VR Headsets",
-      "question": "Which HTC virtual reality brand is associated with its headset lineup?",
-      "options": [
-        "Vive",
-        "Index",
-        "Quest",
-        "Pimax"
-      ],
-      "answer": "Vive",
-      "explanation_correct": "Vive is HTC's VR brand for its headset lineup. It has been used across several HTC virtual reality devices.",
-      "explanation_incorrect": "The other options are VR headset brands or product names, but they are not HTC's brand. They belong to different companies or separate headset families.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Wearables",
-      "question": "What is the name of Garmin's multisport watch line aimed at runners and endurance athletes?",
-      "options": [
-        "Forerunner",
-        "Fenix",
-        "Venu",
-        "Instinct"
-      ],
-      "answer": "Forerunner",
-      "explanation_correct": "Forerunner is Garmin's multisport watch line, especially associated with running and endurance training. It is a long-running product family in Garmin's wearables catalog.",
-      "explanation_incorrect": "The other options are also Garmin watch lines, but they are different series. They are not the specific multisport-focused line asked for here.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Sony",
+      "explanation_correct": "WH-1000XM models are Sony wireless headphones with active noise cancellation.",
+      "explanation_incorrect": "Bose, Sennheiser and Bowers & Wilkins make competing headphones, but WH-1000XM is a Sony model family."
     },
     {
       "subcategory": "Audio",
-      "question": "What is the Sony portable music player brand that became widely known for cassette and later digital players?",
+      "question": "Which Bluetooth profile is designed for remote-control commands such as play and pause?",
       "options": [
-        "Walkman",
-        "Discman",
-        "MiniDisc",
-        "Cyber-shot"
+        "AVRCP",
+        "A2DP",
+        "HID over USB",
+        "HDMI ARC"
       ],
-      "answer": "Walkman",
-      "explanation_correct": "Walkman is Sony's iconic portable music player brand. It became synonymous with personal portable listening devices.",
-      "explanation_incorrect": "The other options are Sony product names or related audio terms, but they are not the main portable music player brand. They refer to different media or device categories.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "AVRCP",
+      "explanation_correct": "AVRCP specifies audio/video remote-control functions; A2DP addresses audio distribution.",
+      "explanation_incorrect": "A2DP streams audio; USB HID and HDMI ARC serve different interfaces and purposes."
+    },
+    {
+      "subcategory": "Action Cameras",
+      "question": "What is GoPro HyperSmooth designed to improve?",
+      "options": [
+        "The optical zoom range of a lens",
+        "The amount of storage in a memory card",
+        "The charging speed of a battery",
+        "Video stability during movement"
+      ],
+      "answer": "Video stability during movement",
+      "explanation_correct": "HyperSmooth is GoPro’s video-stabilization feature.",
+      "explanation_incorrect": "It is not an optical zoom mechanism, memory-card capacity upgrade or battery charger."
+    },
+    {
+      "subcategory": "Computer Accessories",
+      "question": "What kind of computer accessory is the Logitech MX Master family?",
+      "options": [
+        "Inkjet printers",
+        "Desktop monitors",
+        "Wireless mice",
+        "External SSDs"
+      ],
+      "answer": "Wireless mice",
+      "explanation_correct": "MX Master is Logitech’s family of wireless computer mice.",
+      "explanation_incorrect": "The MX Master family does not name a printer, SSD or monitor line."
+    },
+    {
+      "subcategory": "Smart Home",
+      "question": "What role can Thread play in a Matter smart-home setup?",
+      "options": [
+        "A replacement for the device’s power supply",
+        "An IP-based mesh network carrying Matter messages",
+        "A video connector for a television",
+        "A proprietary photo format"
+      ],
+      "answer": "An IP-based mesh network carrying Matter messages",
+      "explanation_correct": "Matter can use Thread as an IP-based low-power mesh network; Matter and Thread perform different functions.",
+      "explanation_incorrect": "Thread is a wireless networking technology, not a video plug, image file or power supply."
+    },
+    {
+      "subcategory": "Displays",
+      "question": "How do most reflective electronic-paper displays remain readable in ambient light?",
+      "options": [
+        "They reflect external light rather than relying on a backlight",
+        "They require each pixel to emit light continuously",
+        "They use an electron beam to scan phosphors",
+        "They project an image onto a wall"
+      ],
+      "answer": "They reflect external light rather than relying on a backlight",
+      "explanation_correct": "Reflective electronic-paper displays use ambient light; some readers add a front light for dark environments.",
+      "explanation_incorrect": "Self-emissive pixels and electron-beam phosphors describe other display approaches; a projector works differently."
+    },
+    {
+      "subcategory": "Virtual Reality",
+      "question": "What distinguishes a standalone VR headset such as Meta Quest from a PC-tethered headset?",
+      "options": [
+        "It can never contain a display",
+        "It needs a wired PC for every application",
+        "It works only as a television remote",
+        "It can run supported VR applications without a connected PC"
+      ],
+      "answer": "It can run supported VR applications without a connected PC",
+      "explanation_correct": "A standalone headset contains computing hardware and can run compatible applications without a PC; some models also support PC connections.",
+      "explanation_incorrect": "A standalone headset has displays and need not be tethered for all apps; optional PC connectivity does not change that."
+    },
+    {
+      "subcategory": "Wearables",
+      "question": "Which satellite navigation system was developed by the United States and is used by many sports watches?",
+      "options": [
+        "GLONASS",
+        "BeiDou",
+        "GPS",
+        "Galileo"
+      ],
+      "answer": "GPS",
+      "explanation_correct": "GPS is the U.S. Global Positioning System. Many Garmin watches can use GPS and, depending on the model, other satellite systems.",
+      "explanation_incorrect": "Galileo is European, GLONASS is Russian and BeiDou is Chinese."
+    },
+    {
+      "subcategory": "Portable Audio",
+      "question": "What recording technology did Sony’s recordable MiniDisc format use?",
+      "options": [
+        "Punch-card encoding",
+        "Magneto-optical recording",
+        "Magnetic cassette tape",
+        "Wax-cylinder engraving"
+      ],
+      "answer": "Magneto-optical recording",
+      "explanation_correct": "Recordable MiniDiscs use magneto-optical recording on a small disc inside a protective cartridge.",
+      "explanation_incorrect": "Recordable MiniDisc is a disc-based digital format, not cassette tape, a wax cylinder or a punch card."
     },
     {
       "subcategory": "Smartphones",
@@ -1329,94 +1229,82 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "Portable Gaming PCs",
-      "question": "What is the name of Lenovo's handheld gaming device?",
+      "subcategory": "Gaming",
+      "question": "What is SteamOS 3, the operating system supplied with the original Steam Deck, based on?",
       "options": [
-        "Legion Go",
-        "Steam Deck",
-        "ROG Ally",
-        "Ayaneo"
-      ],
-      "answer": "Legion Go",
-      "explanation_correct": "Legion Go is Lenovo's handheld gaming device. It belongs to Lenovo's Legion gaming lineup.",
-      "explanation_incorrect": "The other options are handheld gaming devices or brands, but they are not Lenovo's model. They come from different companies or product lines.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Home Security",
-      "question": "What is the Amazon video doorbell brand used for connected home security devices?",
-      "options": [
-        "Ring",
-        "Nest",
-        "Arlo",
-        "Eufy"
-      ],
-      "answer": "Ring",
-      "explanation_correct": "Ring is Amazon's brand for video doorbells and home security devices. It is strongly associated with connected doorbell cameras.",
-      "explanation_incorrect": "The other options are also home security brands, but they are not Amazon's video doorbell brand. They belong to other companies in the same category.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Gaming Consoles",
-      "question": "Which company is behind the Xbox?",
-      "options": [
-        "Microsoft",
-        "Sony",
-        "Nintendo",
-        "Sega"
-      ],
-      "answer": "Microsoft",
-      "explanation_correct": "Microsoft develops and publishes the Xbox family of gaming consoles. It introduced the platform in the early 2000s.",
-      "explanation_incorrect": "The other options are major video game companies, but they are not the creator of Xbox. They fit the same category without being correct.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Televisions",
-      "question": "What is the smart TV platform developed by Samsung?",
-      "options": [
+        "iOS",
         "Tizen",
-        "webOS",
-        "Roku TV",
-        "Android TV"
+        "ChromeOS",
+        "Linux"
       ],
-      "answer": "Tizen",
-      "explanation_correct": "Tizen is Samsung's operating system used on many of its smart TVs. It powers the TV interface and app ecosystem.",
-      "explanation_incorrect": "The other options are smart TV platforms used by different manufacturers or ecosystems. They are related but not Samsung's platform.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "E-readers",
-      "question": "What is Amazon's e-reader brand?",
-      "options": [
-        "Kindle",
-        "Kobo",
-        "Nook",
-        "Onyx"
-      ],
-      "answer": "Kindle",
-      "explanation_correct": "Kindle is Amazon's line of e-readers and related digital reading devices. It is the company's best-known reading brand.",
-      "explanation_incorrect": "The other options are e-reader brands from other companies. They belong to the same product category but are not Amazon's brand.",
-      "last_verified_at": "2026-06-12T14:33:01.095Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Linux",
+      "explanation_correct": "SteamOS 3 is a Linux distribution based on Arch Linux.",
+      "explanation_incorrect": "iOS, Tizen and ChromeOS are distinct operating systems; SteamOS 3 is Linux-based."
     },
     {
       "subcategory": "Smart Home",
-      "question": "What is Google's smart thermostat brand?",
+      "question": "What feature lets a compatible Ring video doorbell user speak with a visitor remotely?",
       "options": [
-        "Nest",
-        "Ecobee",
-        "Honeywell",
-        "Emerson"
+        "An optical disc drive",
+        "A passive mechanical chime only",
+        "Two-way audio",
+        "One-way radio broadcasting only"
       ],
-      "answer": "Nest",
-      "explanation_correct": "Nest is Google's smart home brand, including its thermostat products. The Nest thermostat became a flagship smart home device.",
-      "explanation_incorrect": "The other options are thermostat brands or smart home competitors, but they are not Google's brand. They fit the same device category.",
-      "last_verified_at": "2026-06-12T14:33:01.096Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Two-way audio",
+      "explanation_correct": "Two-way audio uses the doorbell’s microphone and speaker with the app to support conversation.",
+      "explanation_incorrect": "A passive chime or optical disc drive does not provide remote two-way conversation."
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "Which statement about a USB-C connector is correct?",
+      "options": [
+        "USB-C specifies a single fixed data speed",
+        "The plug is reversible; supported features depend on the device and cable",
+        "All USB-C ports support Thunderbolt and video",
+        "Every USB-C cable can deliver 240 W"
+      ],
+      "answer": "The plug is reversible; supported features depend on the device and cable",
+      "explanation_correct": "USB-C specifies the connector; supported protocols, speeds and power depend on the implementation.",
+      "explanation_incorrect": "The connector shape alone does not guarantee Thunderbolt, video, 240 W or one data speed."
+    },
+    {
+      "subcategory": "Connectivity",
+      "question": "What does USB Power Delivery enable compatible devices to do?",
+      "options": [
+        "Negotiate power delivery beyond basic USB power capabilities",
+        "Guarantee that every USB-C port supports video",
+        "Convert any USB cable into an optical fiber",
+        "Eliminate the need for a power source"
+      ],
+      "answer": "Negotiate power delivery beyond basic USB power capabilities",
+      "explanation_correct": "USB Power Delivery allows supported devices to negotiate power; capabilities depend on the charger, device and cable.",
+      "explanation_incorrect": "USB PD does not itself guarantee video, replace a power source or convert a cable into fiber."
+    },
+    {
+      "subcategory": "Displays",
+      "question": "What does a front light on a reflective e-reader do?",
+      "options": [
+        "Makes an electrophoretic display self-emissive",
+        "Records video through the screen",
+        "Provides all of the device’s internet connection",
+        "Illuminates the screen so it can be read in low light"
+      ],
+      "answer": "Illuminates the screen so it can be read in low light",
+      "explanation_correct": "A front light illuminates a reflective display for reading in dim conditions; the image remains on the e-paper display.",
+      "explanation_incorrect": "A front light is illumination, not a video sensor, wireless network or conversion to self-emissive pixels."
+    },
+    {
+      "subcategory": "Smart Home",
+      "question": "What does a smart thermostat primarily control in a compatible home system?",
+      "options": [
+        "The storage format of a speaker",
+        "The refresh rate of a television",
+        "Heating or cooling according to a temperature setting",
+        "The optical focus of a security camera"
+      ],
+      "answer": "Heating or cooling according to a temperature setting",
+      "explanation_correct": "A compatible smart thermostat can control heating or cooling and manage temperature settings.",
+      "explanation_incorrect": "It is not primarily a camera focus controller, audio format or television refresh-rate controller."
     },
     {
       "subcategory": "Action Cameras",
@@ -1435,48 +1323,42 @@
     },
     {
       "subcategory": "Wearables",
-      "question": "What is Samsung's smartwatch family called?",
+      "question": "How do many optical wrist-worn heart-rate sensors estimate pulse?",
       "options": [
-        "Galaxy Watch",
-        "Apple Watch",
-        "Fitbit Sense",
-        "Pixel Watch"
+        "They detect changes in reflected light from the skin",
+        "They directly measure blood pressure using a cuff",
+        "They record a continuous electrocardiogram from the wrist alone",
+        "They measure body weight with a scale"
       ],
-      "answer": "Galaxy Watch",
-      "explanation_correct": "Galaxy Watch is Samsung's smartwatch family. It is part of the broader Galaxy product ecosystem.",
-      "explanation_incorrect": "The other options are smartwatch families from different companies. They are all wearables, but only one is Samsung's line.",
-      "last_verified_at": "2026-06-12T14:33:01.096Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "They detect changes in reflected light from the skin",
+      "explanation_correct": "Optical sensors use light and a detector to estimate pulse-related changes in blood flow; results can be affected by fit and motion.",
+      "explanation_incorrect": "Optical pulse sensing is different from cuff-based blood pressure measurement, ECG and weighing."
     },
     {
-      "subcategory": "Streaming Devices",
-      "question": "What is the name of Google's casting device line?",
+      "subcategory": "Streaming",
+      "question": "In a Google Cast session, what does the sender device typically control?",
       "options": [
-        "Chromecast",
-        "Fire TV",
-        "Roku",
-        "Apple TV"
+        "A receiver’s internal hardware assembly",
+        "The firmware used by every television",
+        "The chemical composition of the television screen",
+        "Media playback on a Cast-enabled receiver"
       ],
-      "answer": "Chromecast",
-      "explanation_correct": "Chromecast is Google's line of streaming and casting devices. It lets users stream or cast content to a television.",
-      "explanation_incorrect": "The other options are streaming devices or platforms from other companies. They belong to the same category but are not Google's line.",
-      "last_verified_at": "2026-06-12T14:33:01.096Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Media playback on a Cast-enabled receiver",
+      "explanation_correct": "A Cast sender such as a phone sends playback commands to a compatible receiver such as a Chromecast or TV.",
+      "explanation_incorrect": "Cast controls a media session; it does not physically alter a receiver’s hardware or screen chemistry."
     },
     {
-      "subcategory": "Cameras",
-      "question": "Fujifilm successfully revitalized the analog market with which specific sub-brand of instant photography products?",
+      "subcategory": "Instant Photography",
+      "question": "What happens when a compatible Fujifilm instax instant-film exposure is printed?",
       "options": [
-        "Instax",
-        "Polaroid",
-        "Kodak",
-        "Leica"
+        "The film must be heated in a microwave oven",
+        "The image can appear only after scanning with a computer",
+        "The exposed film is ejected and develops into a visible print",
+        "The camera stores the image only on an optical disc"
       ],
-      "answer": "Instax",
-      "explanation_correct": "Instax became a massive cultural phenomenon, especially among younger demographics, in the 2010s.",
-      "explanation_incorrect": "The others are different manufacturers, though Polaroid is the original inventor of the tech.",
-      "last_verified_at": "2026-06-12T14:33:01.096Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "The exposed film is ejected and develops into a visible print",
+      "explanation_correct": "instax cameras expose compatible instant film, which is ejected and develops into a physical image.",
+      "explanation_incorrect": "Instant film produces a physical print and does not require a microwave, optical disc or computer scan."
     }
   ]
 }

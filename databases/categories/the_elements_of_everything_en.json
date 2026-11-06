@@ -25,7 +25,7 @@
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which element has the highest melting point of all known chemical elements?",
+      "question": "Which metal has the highest melting point?",
       "options": [
         "Tungsten",
         "Osmium",
@@ -33,7 +33,7 @@
         "Tantalum"
       ],
       "answer": "Tungsten",
-      "explanation_correct": "Tungsten has a melting point of approximately 3,422 degrees Celsius.",
+      "explanation_correct": "Tungsten has the highest melting point among metals, approximately 3,422 degrees Celsius.",
       "explanation_incorrect": "Although Rhenium and Osmium have very high melting points, they remain lower than that of Tungsten.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -48,14 +48,14 @@
         "Iron"
       ],
       "answer": "Mercury",
-      "explanation_correct": "Mercury is the only metal that is definitely liquid at standard temperature (25°C), owing to its unique electron configuration.",
+      "explanation_correct": "Mercury is liquid at 25°C; gallium melts at about 29.8°C and is solid at 25°C.",
       "explanation_incorrect": "While gallium and mercury are often discussed together, gallium's melting point is 29.7°C, meaning it is typically solid at room temperature.",
       "last_verified_at": "2026-06-12T16:19:56.517Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "What is considered the lightest solid chemical element?",
+      "question": "Which of these solid elements has the lowest density at room temperature?",
       "options": [
         "Lithium",
         "Beryllium",
@@ -93,7 +93,7 @@
         "Iodine"
       ],
       "answer": "Chlorine",
-      "explanation_correct": "Table salt is composed of sodium and chlorine ions held together by ionic bonds.",
+      "explanation_correct": "Table salt is primarily sodium chloride, an ionic compound made of sodium and chloride ions.",
       "explanation_incorrect": "Fluorine, Bromine, and Iodine are other halogens that do not form the primary structure of standard table salt.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -190,7 +190,7 @@
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which gas is commonly used in balloons to make them float in air?",
+      "question": "Which non-flammable gas is commonly used to make balloons float in air?",
       "options": [
         "Helium",
         "Hydrogen",
@@ -199,13 +199,13 @@
       ],
       "answer": "Helium",
       "explanation_correct": "Helium is lighter than air and remains a chemically stable, non-flammable gas, making it ideal for balloons.",
-      "explanation_incorrect": "Hydrogen also provides buoyancy but is highly flammable; Neon and Nitrogen are heavier and do not provide the same lift.",
+      "explanation_incorrect": "Hydrogen provides lift but is flammable. Neon is also lighter than air but provides less lift than helium; nitrogen provides much less lift.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which chemical element is the primary structural component of human bones?",
+      "question": "Which of these elements is a major component of bone mineral and accounts for more of its mass than phosphorus?",
       "options": [
         "Calcium",
         "Magnesium",
@@ -213,14 +213,14 @@
         "Potassium"
       ],
       "answer": "Calcium",
-      "explanation_correct": "Calcium phosphate is the mineral compound that provides strength and structure to the human skeletal system.",
-      "explanation_incorrect": "While phosphorus is part of the bone matrix, calcium is the primary mineral element for structural integrity.",
+      "explanation_correct": "Bone mineral contains calcium and phosphate, largely in a form related to hydroxyapatite. Calcium accounts for more mass than phosphorus.",
+      "explanation_incorrect": "Phosphorus is also an essential component of bone mineral; magnesium and potassium occur in smaller amounts.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which chemical element is commonly added to swimming pools as a disinfectant?",
+      "question": "Which element is most commonly used in compounds added to swimming pools for disinfection?",
       "options": [
         "Chlorine",
         "Fluorine",
@@ -228,7 +228,7 @@
         "Iodine"
       ],
       "answer": "Chlorine",
-      "explanation_correct": "Chlorine is utilized for its ability to oxidize contaminants and destroy harmful bacteria in pool water.",
+      "explanation_correct": "Chlorine-based disinfectants form reactive chlorine species in water that inactivate many microbes.",
       "explanation_incorrect": "Bromine is sometimes used, but chlorine is the standard chemical element associated with pool sanitation.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -265,7 +265,7 @@
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which gas is essential for supporting the process of combustion?",
+      "question": "Which gas normally supports the combustion of a fire burning in air?",
       "options": [
         "Oxygen",
         "Nitrogen",
@@ -274,7 +274,7 @@
       ],
       "answer": "Oxygen",
       "explanation_correct": "Oxygen acts as an oxidizer that sustains the chemical reactions of fire.",
-      "explanation_incorrect": "Nitrogen and Carbon Dioxide typically extinguish fires, while hydrogen is a fuel that requires oxygen to burn.",
+      "explanation_incorrect": "Nitrogen and carbon dioxide do not normally sustain combustion in air. Hydrogen is a fuel, not the oxidizer in an ordinary air-fed fire.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -318,7 +318,7 @@
         "Cloud"
       ],
       "answer": "Nucleus",
-      "explanation_correct": "The nucleus is the small, dense region at the center of an atom, containing protons and neutrons.",
+      "explanation_correct": "The nucleus is the small, dense region at the center of an atom, containing protons and usually neutrons; ordinary hydrogen-1 has no neutron.",
       "explanation_incorrect": "Orbit, shell, and cloud refer to regions or paths where electrons are typically found.",
       "last_verified_at": "2026-06-12T16:19:04.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -409,7 +409,7 @@
       ],
       "answer": "Silicon",
       "explanation_correct": "Silicon is the primary semiconducting material used to fabricate modern computer processor chips.",
-      "explanation_incorrect": "While germanium and gallium are also semiconductors, silicon is the industry standard for mass-scale chip production.",
+      "explanation_incorrect": "Germanium is also an elemental semiconductor; gallium forms semiconducting compounds such as gallium arsenide. Silicon remains the dominant material for mainstream processor chips.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -430,7 +430,7 @@
     },
     {
       "subcategory": "Particle Physics",
-      "question": "Which elementary particle is theorized to give mass to other fundamental particles?",
+      "question": "Which discovered particle is an excitation of the field that gives mass to several fundamental particles?",
       "options": [
         "Higgs boson",
         "Gluon",
@@ -438,7 +438,7 @@
         "Photon"
       ],
       "answer": "Higgs boson",
-      "explanation_correct": "The Higgs boson is associated with the field that imparts mass to elementary particles.",
+      "explanation_correct": "The Higgs boson is an excitation of the Higgs field, whose interaction gives mass to several fundamental particles.",
       "explanation_incorrect": "Gluons mediate the strong force, photons mediate electromagnetism, and the graviton is a hypothetical gravity particle.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -498,14 +498,14 @@
         "Robert Boyle"
       ],
       "answer": "Dmitri Mendeleev",
-      "explanation_correct": "Dmitri Mendeleev formulated the periodic law and developed the first version of the periodic table by recognizing patterns in properties.",
+      "explanation_correct": "Dmitri Mendeleev developed an influential periodic table in 1869, arranging elements by patterns in their properties and predicting missing elements.",
       "explanation_incorrect": "Dalton, Lavoisier, and Boyle made fundamental contributions to early atomic theory, stoichiometry, and gases, respectively, but not the periodic table.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "History of Science",
-      "question": "Which famous scientist is known for discovering the elements Radium and Polonium?",
+      "question": "Which scientist discovered polonium and radium in collaboration with Pierre Curie?",
       "options": [
         "Marie Curie",
         "Lise Meitner",
@@ -513,8 +513,8 @@
         "Dorothy Hodgkin"
       ],
       "answer": "Marie Curie",
-      "explanation_correct": "Marie Curie conducted pioneering research on radioactivity and isolated the elements radium and polonium.",
-      "explanation_incorrect": "Meitner discovered nuclear fission, while Franklin and Hodgkin are primarily associated with X-ray crystallography.",
+      "explanation_correct": "Marie and Pierre Curie discovered polonium and radium in 1898; Gustave Bémont also collaborated on the radium research.",
+      "explanation_incorrect": "Meitner helped explain nuclear fission; Franklin and Hodgkin are associated with X-ray crystallography.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -528,7 +528,7 @@
         "Richter scale"
       ],
       "answer": "pH scale",
-      "explanation_correct": "The pH scale is a logarithmic measure of the concentration of hydrogen ions in a solution.",
+      "explanation_correct": "The pH scale is defined as the negative logarithm of hydrogen-ion activity in aqueous solution; in dilute solutions it approximates a concentration-based measure.",
       "explanation_incorrect": "The Mohs scale measures hardness, the Beaufort scale measures wind, and the Richter scale measures earthquakes.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -625,16 +625,16 @@
     },
     {
       "subcategory": "Chemical Compounds",
-      "question": "What is the systematic chemical name for water, often used in scientific jokes regarding its safety?",
+      "question": "What is the common name of the compound with the formula H₂O?",
       "options": [
-        "Dihydrogen monoxide",
-        "Hydrogen hydroxide",
-        "Hydric acid",
-        "Hydroxic acid"
+        "Water",
+        "Hydrogen peroxide",
+        "Oxygen",
+        "Hydrogen"
       ],
-      "answer": "Dihydrogen monoxide",
-      "explanation_correct": "Dihydrogen monoxide (H2O) is the systematic name, though 'water' is the accepted IUPAC name.",
-      "explanation_incorrect": "While these names follow various chemical naming conventions, Dihydrogen monoxide is the standard systematic designation.",
+      "answer": "Water",
+      "explanation_correct": "Water is the common name for H₂O. It can also be described compositionally as dihydrogen monoxide.",
+      "explanation_incorrect": "Hydrogen peroxide is H₂O₂; oxygen and hydrogen are elements, not the compound H₂O.",
       "last_verified_at": "2026-06-12T16:19:56.517Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -679,7 +679,7 @@
       ],
       "answer": "Lithium",
       "explanation_correct": "Lithium is the lightest metal and is extensively used in high-capacity rechargeable battery technology.",
-      "explanation_incorrect": "Sodium, potassium, and rubidium are highly reactive and less suitable for stable mainstream rechargeable battery cathodes.",
+      "explanation_incorrect": "Sodium-ion rechargeable batteries also exist; lithium-ion batteries are currently widely used in portable electronics and electric vehicles.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -715,7 +715,7 @@
     },
     {
       "subcategory": "Modern Physics",
-      "question": "What form of invisible matter is hypothesized to account for most of the mass in the universe?",
+      "question": "What form of matter is hypothesized to account for most of the matter in the universe?",
       "options": [
         "Dark matter",
         "Antimatter",
@@ -723,14 +723,14 @@
         "Neutrino cloud"
       ],
       "answer": "Dark matter",
-      "explanation_correct": "Dark matter is a hypothetical form of matter that does not interact with electromagnetic radiation, thus emitting no light.",
-      "explanation_incorrect": "Antimatter particles possess charge, dark energy is a repulsive force, and neutrino clouds are distinct physical phenomena.",
+      "explanation_correct": "Dark matter is inferred from gravitational effects and does not emit or absorb light in the way ordinary luminous matter does.",
+      "explanation_incorrect": "Antimatter is distinct from dark matter; dark energy is a separate proposed component associated with cosmic expansion, while neutrinos cannot explain most dark matter.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Biology/Chemistry",
-      "question": "Which macromolecule stores and transmits the genetic instructions for biological life?",
+      "question": "Which macromolecule stores hereditary genetic instructions in cellular organisms?",
       "options": [
         "DNA",
         "RNA",
@@ -739,7 +739,7 @@
       ],
       "answer": "DNA",
       "explanation_correct": "Deoxyribonucleic acid (DNA) is the molecule containing the biological instructions for the development and function of living organisms.",
-      "explanation_incorrect": "RNA mediates expression, proteins are the functional products, and ATP is the energy carrier molecule.",
+      "explanation_incorrect": "RNA helps express genetic information and is also the genetic material of some viruses. Proteins and ATP have other primary roles.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -784,13 +784,13 @@
       ],
       "answer": "Cesium",
       "explanation_correct": "Cesium has the lowest ionization energy of the stable elements, making it the most reactive metal for practical observation.",
-      "explanation_incorrect": "Francium is more reactive in theory but is highly radioactive and unstable; within the stable options, lithium and sodium are significantly less reactive than cesium.",
+      "explanation_incorrect": "Lithium, sodium and potassium are less reactive alkali metals. Francium is radioactive and its reactivity is difficult to establish experimentally.",
       "last_verified_at": "2026-06-12T16:19:56.517Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which element was the first to be artificially produced through nuclear reactor technology?",
+      "question": "Which element was identified in 1937 in molybdenum irradiated in a cyclotron and is often cited as the first artificially produced element?",
       "options": [
         "Technetium",
         "Promethium",
@@ -798,8 +798,8 @@
         "Americium"
       ],
       "answer": "Technetium",
-      "explanation_correct": "Technetium was the first element artificially produced in 1937, identified within the periodic table sequence.",
-      "explanation_incorrect": "The other options are synthetic elements discovered or produced after technetium.",
+      "explanation_correct": "Carlo Perrier and Emilio Segrè identified technetium in irradiated molybdenum from a cyclotron, a particle accelerator, in 1937.",
+      "explanation_incorrect": "The other elements were identified later; technetium is also produced in trace amounts naturally by uranium fission.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -865,7 +865,7 @@
     },
     {
       "subcategory": "Biochemistry",
-      "question": "What is the biological term for a protein-based catalyst that accelerates chemical processes in organisms?",
+      "question": "What is the term for a biological catalyst that accelerates chemical reactions in organisms?",
       "options": [
         "Enzyme",
         "Hormone",
@@ -873,7 +873,7 @@
         "Neurotransmitter"
       ],
       "answer": "Enzyme",
-      "explanation_correct": "An enzyme is a protein that lowers activation energy to facilitate biochemical reactions essential to life.",
+      "explanation_correct": "Enzymes are biological catalysts that lower activation energy. Most are proteins, but some RNA molecules also catalyze reactions.",
       "explanation_incorrect": "Hormones act as signals, antibodies as defenders, and neurotransmitters deliver chemical messages, but none are biological catalysts.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -948,7 +948,7 @@
         "Compound"
       ],
       "answer": "Molecule",
-      "explanation_correct": "A molecule is the smallest unit of a compound that represents the chemical makeup of that substance.",
+      "explanation_correct": "A molecule is an electrically neutral group of atoms joined by chemical bonds; molecules can contain atoms of one element, as in O₂, or several elements, as in H₂O.",
       "explanation_incorrect": "Ions are charged particles, isotopes are variations of elements, and compounds refer to substances made of two or more different elements.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -979,7 +979,7 @@
       ],
       "answer": "Helium",
       "explanation_correct": "Helium is used in heliox mixtures for deep diving to reduce the risk of nitrogen narcosis.",
-      "explanation_incorrect": "Neon, argon, and krypton are inert gases that lack the physiological appropriateness for therapeutic breathing mixtures.",
+      "explanation_incorrect": "Helium is used in heliox and trimix to reduce nitrogen narcosis and breathing gas density. Other gases have different practical properties and uses.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1008,7 +1008,7 @@
         "Tantalum"
       ],
       "answer": "Tungsten",
-      "explanation_correct": "The symbol 'W' comes from 'Wolframite', the mineral from which tungsten was derived.",
+      "explanation_correct": "The symbol W derives from the historical name wolfram, associated with the mineral wolframite.",
       "explanation_incorrect": "Tin is Sn, Titanium is Ti, and Tantalum is Ta.",
       "last_verified_at": "2026-06-12T16:19:56.517Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1024,7 +1024,7 @@
       ],
       "answer": "Ozone",
       "explanation_correct": "Ozone (O3) absorbs ultraviolet light, preventing the majority of harmful rays from reaching the Earth's surface.",
-      "explanation_incorrect": "Nitrogen and oxygen are diatomic gases that do not provide the same specialized UV-absorptive properties.",
+      "explanation_incorrect": "Ozone absorbs much of the Sun’s harmful UV radiation. Molecular oxygen also absorbs some ultraviolet wavelengths, particularly in the upper atmosphere.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1034,12 +1034,12 @@
       "options": [
         "Cation",
         "Anion",
-        "Proton",
+        "Isotope",
         "Neutron"
       ],
       "answer": "Cation",
       "explanation_correct": "A cation is an atom or group of atoms that has lost one or more electrons, resulting in a net positive charge.",
-      "explanation_incorrect": "An anion has a negative charge, while protons and neutrons are subatomic particles rather than ion types.",
+      "explanation_incorrect": "An anion carries a negative charge; an isotope is a variant of an element and a neutron is an uncharged subatomic particle.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1054,7 +1054,7 @@
       ],
       "answer": "Anion",
       "explanation_correct": "An anion is an atom or molecule that has gained one or more electrons, giving it a negative electrical charge.",
-      "explanation_incorrect": "A cation is positive, while electrons and positrons are constituent particles of atoms.",
+      "explanation_incorrect": "A cation is positive; electrons and positrons are elementary particles, not the negatively charged atom or molecule described here.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1180,7 +1180,7 @@
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which chemical element has historically been notorious as a lethal poison frequently referenced in literature and forensics?",
+      "question": "Which element is present in arsenic trioxide, a poison historically called white arsenic?",
       "options": [
         "Arsenic",
         "Mercury",
@@ -1188,8 +1188,8 @@
         "Cyanide"
       ],
       "answer": "Arsenic",
-      "explanation_correct": "Arsenic has long been used as a classic poison due to its toxicity and historical availability.",
-      "explanation_incorrect": "While mercury and lead are toxic, and cyanide is a lethal chemical compound, arsenic is the classic historical poisonous element.",
+      "explanation_correct": "Arsenic trioxide (As₂O₃), also known as white arsenic, contains arsenic and has a notorious history as a poison.",
+      "explanation_incorrect": "Mercury and lead also have toxic compounds, but neither is an element of arsenic trioxide; cyanide is not an element.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1240,7 +1240,7 @@
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which noble gas is frequently utilized as a shielding gas in arc welding to prevent oxidation?",
+      "question": "Which noble gas, also the most abundant noble gas in Earth’s atmosphere, is commonly used to shield an arc weld?",
       "options": [
         "Argon",
         "Helium",
@@ -1249,7 +1249,7 @@
       ],
       "answer": "Argon",
       "explanation_correct": "Argon is commonly used in arc welding to create an inert atmosphere that protects the weld puddle from atmospheric contamination.",
-      "explanation_incorrect": "Neon, helium, and krypton are inert but are not the standard gases used for common shielding applications in welding.",
+      "explanation_incorrect": "Helium is also used as a welding shielding gas, but argon is the most abundant noble gas in the atmosphere. Neon and krypton are less common for this purpose.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1285,7 +1285,7 @@
     },
     {
       "subcategory": "Analytical Chemistry",
-      "question": "Which compound is frequently referred to as the 'universal solvent' due to its ability to dissolve more substances than any other liquid?",
+      "question": "Which compound is commonly nicknamed the “universal solvent” because it dissolves a wide variety of substances?",
       "options": [
         "Water",
         "Ethanol",
@@ -1294,7 +1294,7 @@
       ],
       "answer": "Water",
       "explanation_correct": "Water's molecular polarity allows it to solvate a vast array of ionic and polar substances, earning it the label of universal solvent.",
-      "explanation_incorrect": "Ethanol, acetone, and methanol are common solvents but possess a more limited range of solutes they can dissolve compared to water.",
+      "explanation_incorrect": "Ethanol, acetone and methanol are useful solvents too. Water does not dissolve every substance; its nickname reflects its broad solvent properties.",
       "last_verified_at": "2026-06-12T16:19:04.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1405,7 +1405,7 @@
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which chemical element serves as the primary component in the structure of common glass?",
+      "question": "Which element forms the main glass-forming network of common soda-lime glass as silicon dioxide?",
       "options": [
         "Silicon",
         "Boron",
@@ -1414,7 +1414,7 @@
       ],
       "answer": "Silicon",
       "explanation_correct": "Common soda-lime glass is primarily formed from silica (silicon dioxide), which acts as the main glass-forming network.",
-      "explanation_incorrect": "Boron and aluminum are used as additives to alter glass properties, while calcium is a stabilizer, not the primary component.",
+      "explanation_incorrect": "Boron and aluminum can alter glass properties, while calcium helps stabilize soda-lime glass; silicon and oxygen form its main silicate network.",
       "last_verified_at": "2026-06-12T16:19:04.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1488,14 +1488,14 @@
         "Louis de Broglie"
       ],
       "answer": "Ernest Rutherford",
-      "explanation_correct": "Ernest Rutherford's experiments with alpha particles and thin gold foil proved the existence of a dense, positively charged atomic nucleus.",
+      "explanation_correct": "Ernest Rutherford proposed a small, dense nucleus after interpreting alpha-particle scattering experiments performed by Hans Geiger and Ernest Marsden.",
       "explanation_incorrect": "Planck, Heisenberg, and de Broglie were pivotal figures in quantum theory but did not perform the nucleus discovery experiment.",
       "last_verified_at": "2026-06-12T16:19:04.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemical Elements",
-      "question": "Which radioactive chemical element is known as the heaviest naturally occurring element found on Earth?",
+      "question": "Which element has the highest atomic number among those occurring naturally on Earth in substantial quantities?",
       "options": [
         "Uranium",
         "Thorium",
@@ -1503,8 +1503,8 @@
         "Radon"
       ],
       "answer": "Uranium",
-      "explanation_correct": "Uranium (number 92) is recognized as the heaviest of the naturally occurring primordial elements found in significant concentrations.",
-      "explanation_incorrect": "Thorium has a lower atomic number, Plutonium is primarily man-made, and Radon is an inert gas.",
+      "explanation_correct": "Uranium, atomic number 92, occurs naturally in substantial quantities and has long-lived isotopes.",
+      "explanation_incorrect": "Thorium and radon have lower atomic numbers. Plutonium has a higher atomic number and occurs naturally only in trace amounts.",
       "last_verified_at": "2026-06-12T16:19:04.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }
