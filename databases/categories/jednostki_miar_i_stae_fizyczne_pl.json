@@ -19,9 +19,7 @@
       ],
       "answer": "tesla",
       "explanation_correct": "Tesla jest jednostką indukcji magnetycznej pochodną w układzie SI.",
-      "explanation_incorrect": "Weber to jednostka strumienia, henrt indukcyjności, a gauss jest jednostką w układzie CGS.",
-      "last_verified_at": "2026-06-12T17:17:21.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Weber jest jednostką strumienia magnetycznego, henr indukcyjności, a gaus jednostką indukcji w układzie CGS."
     },
     {
       "subcategory": "Mechanika",
@@ -42,16 +40,14 @@
       "subcategory": "Termodynamika",
       "question": "Która jednostka jest podstawową jednostką temperatury bezwzględnej w układzie SI?",
       "options": [
-        "celcjusz",
+        "stopień Celsjusza",
         "kelwin",
-        "farenheit",
-        "rankin"
+        "stopień Fahrenheita",
+        "stopień Rankine’a"
       ],
       "answer": "kelwin",
       "explanation_correct": "Kelwin jest jednostką temperatury termodynamicznej w układzie SI.",
-      "explanation_incorrect": "Celsjusz, Fahrenheit i Rankine to inne skale temperatur niebędące jednostkami podstawowymi SI.",
-      "last_verified_at": "2026-06-12T17:17:21.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stopnie Celsjusza, Fahrenheita i Rankine’a są jednostkami temperatury, lecz nie są podstawową jednostką SI."
     },
     {
       "subcategory": "Elektryczność",
@@ -70,18 +66,16 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Jaka jednostka jest stosowana do określania zdolności skupiającej soczewki?",
+      "question": "Jaka jednostka optyczna, równa odwrotności metra, wyraża moc optyczną soczewki?",
       "options": [
         "radian",
-        "stradian",
+        "steradian",
         "dioptria",
         "sekunda łuku"
       ],
       "answer": "dioptria",
       "explanation_correct": "Dioptria to jednostka miary zdolności skupiającej soczewki, odpowiadająca odwrotności metra.",
-      "explanation_incorrect": "Radian i steradian to jednostki miar kątów, a sekunda łuku to jednostka kątowa.",
-      "last_verified_at": "2026-06-12T17:17:21.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Radian, steradian i sekunda łuku są jednostkami miary kątów."
     },
     {
       "subcategory": "Fizyka kwantowa",
@@ -123,10 +117,8 @@
         "rentgen"
       ],
       "answer": "bekerel",
-      "explanation_correct": "Bekerel mierzy liczbę rozpadów jądrowych występujących w jednostce czasu.",
-      "explanation_incorrect": "Sievert i Grej mierzą dawkę promieniowania, a rentgen jest jednostką historyczną.",
-      "last_verified_at": "2026-06-12T17:17:21.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bekerel oznacza jeden rozpad promieniotwórczy na sekundę i jest jednostką aktywności źródła.",
+      "explanation_incorrect": "Siwert i grej dotyczą wielkości dozymetrycznych, a rentgen to jednostka ekspozycji na promieniowanie."
     },
     {
       "subcategory": "Akustyka",
@@ -205,7 +197,7 @@
     },
     {
       "subcategory": "Fizyka jądrowa",
-      "question": "Jak określa się stałą fizyczną definiującą liczbę obiektów w jednym molu?",
+      "question": "Jak nazywa się bezwymiarowa liczba określająca dokładną liczbę obiektów w jednym molu?",
       "options": [
         "stała Boltzmanna",
         "liczba Avogadra",
@@ -213,10 +205,8 @@
         "liczba Faradaya"
       ],
       "answer": "liczba Avogadra",
-      "explanation_correct": "Liczba Avogadra wynosi w przybliżeniu 6,022 x 10^23 cząstek na mol.",
-      "explanation_incorrect": "Pozostałe wymienione stałe odnoszą się do innych właściwości termodynamicznych lub elektrycznych.",
-      "last_verified_at": "2026-06-12T17:17:21.733Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liczba Avogadra wynosi dokładnie 6,02214076 × 10²³. Stała Avogadra ma tę samą wartość liczbową w jednostce mol⁻¹.",
+      "explanation_incorrect": "Stała Boltzmanna i stała gazowa są innymi wielkościami; stała Faradaya dotyczy ładunku na mol."
     },
     {
       "subcategory": "Magnetyzm",
@@ -243,10 +233,8 @@
         "atmosfera"
       ],
       "answer": "paskal",
-      "explanation_correct": "Paskal to nacisk jednego niutona na powierzchnię jednego metra kwadratowego.",
-      "explanation_incorrect": "Niuton to siła, a bar i atmosfera są popularnymi jednostkami pozaukładowymi.",
-      "last_verified_at": "2026-06-12T17:17:21.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Paskal to ciśnienie równe jednemu niutonowi siły działającej prostopadle na metr kwadratowy powierzchni.",
+      "explanation_incorrect": "Niuton to siła, a bar i atmosfera są popularnymi jednostkami pozaukładowymi."
     },
     {
       "subcategory": "Elektryczność",
@@ -267,31 +255,27 @@
       "subcategory": "Elektromagnetyzm",
       "question": "Jak nazywa się jednostka indukcyjności w układzie SI?",
       "options": [
-        "tesl",
+        "tesla",
         "weber",
         "henr",
         "farad"
       ],
       "answer": "henr",
       "explanation_correct": "Henr to jednostka indukcyjności własnej lub wzajemnej w układzie SI.",
-      "explanation_incorrect": "Tesla mierzy indukcję, weber strumień magnetyczny, a farad pojemność.",
-      "last_verified_at": "2026-06-12T17:17:21.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tesla mierzy indukcję, weber strumień magnetyczny, a farad pojemność."
     },
     {
       "subcategory": "Optyka",
       "question": "Jaka jest podstawowa jednostka światłości źródła światła (w układzie SI)?",
       "options": [
         "lumen",
-        "luksa",
+        "luks",
         "kandela",
         "wolt"
       ],
       "answer": "kandela",
       "explanation_correct": "Kandela jest podstawową jednostką układu SI mierzącą światłość źródła światła.",
-      "explanation_incorrect": "Lumen i luks to jednostki pochodne strumienia i natężenia oświetlenia, wolt to napięcie.",
-      "last_verified_at": "2026-06-12T17:17:21.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lumen i luks to jednostki pochodne strumienia i natężenia oświetlenia, wolt to napięcie."
     },
     {
       "subcategory": "Fizyka cząstek",
@@ -300,28 +284,24 @@
         "dżul",
         "elektronowolt",
         "kaloria",
-        "wat na sekundę"
+        "watosekunda"
       ],
       "answer": "elektronowolt",
-      "explanation_correct": "Elektronowolt (eV) to energia kinetyczna zyskana przez elektron w polu elektrycznym o różnicy potencjałów 1 wolta.",
-      "explanation_incorrect": "Dżul jest zbyt dużą skalą w skali mikro, a kaloria i wat-sekunda to inne jednostki energii.",
-      "last_verified_at": "2026-06-12T17:17:21.734Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elektronowolt to energia równa iloczynowi ładunku elementarnego i jednego wolta; odpowiada energii zyskanej przez elektron przy przejściu przez różnicę potencjałów 1 V.",
+      "explanation_incorrect": "Dżul i watosekunda są równoważnymi jednostkami energii, lecz w fizyce cząstek często używa się elektronowoltów."
     },
     {
       "subcategory": "Elektryczność",
-      "question": "Jak nazywa się stała fizyczna oznaczana symbolem 'e', reprezentująca ładunek niesiony przez proton?",
+      "question": "Jak nazywa się dodatnia stała e, równa co do wartości ładunkowi protonu?",
       "options": [
         "ładunek elementarny",
-        "ładunek elektronowy",
-        "ładunek jednostkowy",
-        "ładunek podstawowy"
+        "ładunek molowy Faradaya",
+        "przenikalność elektryczna",
+        "stała Plancka"
       ],
       "answer": "ładunek elementarny",
-      "explanation_correct": "Ładunek elementarny to stała fizyczna równa w przybliżeniu 1,602 x 10^-19 kulomba.",
-      "explanation_incorrect": "Pozostałe określenia są nazwami potocznymi lub nie występują w nomenklaturze fizycznej jako stałe.",
-      "last_verified_at": "2026-06-12T17:17:31.335Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ładunek elementarny ma w SI dokładnie wartość 1,602176634 × 10⁻¹⁹ C; proton ma ładunek +e, a elektron −e.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne wielkości fizyczne."
     },
     {
       "subcategory": "Magnetyzm",
@@ -333,10 +313,8 @@
         "indukcja nasycenia próżni"
       ],
       "answer": "przenikalność magnetyczna próżni",
-      "explanation_correct": "Przenikalność magnetyczna próżni określa zdolność próżni do przenikania przez nią pola magnetycznego.",
-      "explanation_incorrect": "Indukcja i reluktancja to wielkości fizyczne definiowane przez inne parametry, a nie są stałymi fundamentalnymi.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przenikalność magnetyczna próżni μ₀ występuje w zależnościach elektromagnetyzmu; w obecnym SI jej wartość nie jest zdefiniowana jako dokładna.",
+      "explanation_incorrect": "Reluktancja i indukcyjność są innymi wielkościami."
     },
     {
       "subcategory": "Elektrostayka",
@@ -364,13 +342,11 @@
       ],
       "answer": "Stała Plancka zredukowana",
       "explanation_correct": "Stała zredukowana, oznaczana symbolem ħ, jest kluczową wielkością w mechanice kwantowej i nazywana jest zamiennie stałą Diraca.",
-      "explanation_incorrect": "Pozostałe opcje to fundamentalne stałe fizyczne o zupełnie innym znaczeniu i wartościach.",
-      "last_verified_at": "2026-06-12T17:18:21.478Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stała Boltzmanna i stała Avogadra są innymi wielkościami; „stała Schrödingera” nie jest tu standardową nazwą."
     },
     {
       "subcategory": "Astronomia",
-      "question": "Jak nazywa się jednostka miary równa średniej odległości Ziemi od Słońca?",
+      "question": "Jaka jednostka długości jest obecnie zdefiniowana jako dokładnie 149 597 870 700 metrów?",
       "options": [
         "jednostka astronomiczna",
         "parsek",
@@ -378,10 +354,8 @@
         "jednostka solarna"
       ],
       "answer": "jednostka astronomiczna",
-      "explanation_correct": "Jednostka astronomiczna (AU) wynosi w przybliżeniu 149,6 miliona kilometrów.",
-      "explanation_incorrect": "Parsek i rok świetlny to jednostki odległości, ale o znacznie większych wartościach.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jednostka astronomiczna (au) ma dokładnie 149 597 870 700 m. Jej wartość jest zbliżona do średniej odległości Ziemi od Słońca.",
+      "explanation_incorrect": "Parsek i rok świetlny to inne jednostki odległości."
     },
     {
       "subcategory": "Fizyka jądrowa",
@@ -402,16 +376,14 @@
       "subcategory": "Mechanika",
       "question": "Jaka jest jednostka pędu w układzie SI wyrażona wyłącznie za pomocą jednostek podstawowych?",
       "options": [
-        "kilogramometr na sekundę",
-        "dżulsekunda",
+        "kilogram metr na sekundę",
+        "dżul sekunda",
         "kilogram na metr na sekundę",
         "watosekunda"
       ],
-      "answer": "kilogramometr na sekundę",
+      "answer": "kilogram metr na sekundę",
       "explanation_correct": "Pęd (p = mv) ma jednostkę masy razy prędkość, co w jednostkach podstawowych daje kg·m/s.",
-      "explanation_incorrect": "Dżulsekunda to jednostka działania (lub stałej Plancka), a pozostałe opcje są niepoprawnymi kombinacjami jednostek.",
-      "last_verified_at": "2026-06-12T17:18:21.478Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dżul sekunda jest jednostką działania, watosekunda energii, a kg/(m·s) lepkości dynamicznej."
     },
     {
       "subcategory": "Miernictwo",
@@ -450,13 +422,11 @@
         "giga",
         "tera",
         "mega",
-        "eta"
+        "eksa"
       ],
       "answer": "giga",
       "explanation_correct": "Przedrostek 'giga-' (G) oznacza miliard.",
-      "explanation_incorrect": "Tera, mega oraz błędnie zinterpretowany przedrostek 'eta' odnoszą się do innych rzędów wielkości.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tera, mega i eksa oznaczają inne potęgi liczby dziesięć."
     },
     {
       "subcategory": "Miernictwo",
@@ -520,7 +490,7 @@
     },
     {
       "subcategory": "Termodynamika",
-      "question": "Która stała fizyczna określa łączną moc promieniowania ciała doskonale czarnego?",
+      "question": "Która stała jest współczynnikiem proporcjonalności w prawie opisującym emitancję ciała doskonale czarnego jako funkcję czwartej potęgi temperatury?",
       "options": [
         "stała Stefana-Boltzmanna",
         "stała Plancka",
@@ -528,14 +498,12 @@
         "stała Loschmidta"
       ],
       "answer": "stała Stefana-Boltzmanna",
-      "explanation_correct": "Stała Stefana-Boltzmanna (σ) pojawia się w prawie Stefana-Boltzmanna określającym emitancję ciała czarnego.",
-      "explanation_incorrect": "Pozostałe stałe opisują inne zjawiska: stała Plancka dotyczy kwantów energii, a gazowa zachowania gazów.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Prawo Stefana–Boltzmanna ma postać M = σT⁴ dla całkowitej emitancji ciała doskonale czarnego.",
+      "explanation_incorrect": "Pozostałe stałe opisują inne zjawiska: stała Plancka dotyczy kwantów energii, a gazowa zachowania gazów."
     },
     {
       "subcategory": "Mechanika płynów",
-      "question": "Jak nazywa się powszechnie stosowana, choć niebędąca jednostką podstawową SI, miara objętości cieczy?",
+      "question": "Jaka jednostka objętości dopuszczona do stosowania z SI jest równa jednemu decymetrowi sześciennemu?",
       "options": [
         "litr",
         "metr sześcienny",
@@ -544,9 +512,7 @@
       ],
       "answer": "litr",
       "explanation_correct": "Litr jest jednostką objętości dopuszczoną do stosowania z układem SI, równą 1 dm^3.",
-      "explanation_incorrect": "Metr sześcienny jest jednostką pochodną SI, galon nie jest jednostką SI, a bar to jednostka ciśnienia.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Metr sześcienny to jednostka SI i odpowiada 1000 litrom; galon ma inną wartość, a bar jest jednostką ciśnienia."
     },
     {
       "subcategory": "Masa",
@@ -559,9 +525,7 @@
       ],
       "answer": "kilogram",
       "explanation_correct": "Kilogram jest jednostką główną masy w układzie SI.",
-      "explanation_incorrect": "Gram to podwielokrotność, tona jest wielokrotnością, a funt to jednostka pozaukładowa.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gram to jedna tysięczna kilograma; tona odpowiada 1000 kg, a funt jest jednostką masy spoza SI."
     },
     {
       "subcategory": "Czas",
@@ -573,10 +537,8 @@
         "doba"
       ],
       "answer": "sekunda",
-      "explanation_correct": "Sekunda (s) to jednostka czasu oparta na drganiach atomu cezu-133.",
-      "explanation_incorrect": "Minuta, godzina i doba nie są jednostkami podstawowymi SI, mimo że są powszechnie używane.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sekunda SI jest zdefiniowana przez częstotliwość przejścia nadsubtelnego atomu cezu-133 w określonych warunkach.",
+      "explanation_incorrect": "Minuta, godzina i doba nie są jednostkami podstawowymi SI, mimo że są powszechnie używane."
     },
     {
       "subcategory": "Długość",
@@ -618,10 +580,8 @@
         "Grej"
       ],
       "answer": "Lumen",
-      "explanation_correct": "Lumen (lm) jest jednostką pochodną układu SI określającą całkowitą moc światła emitowanego z danego źródła.",
-      "explanation_incorrect": "Kandela mierzy światłość źródła, luks natężenie oświetlenia powierzchni, a grej to jednostka dawki pochłoniętej.",
-      "last_verified_at": "2026-06-12T17:18:21.479Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lumen jest jednostką strumienia świetlnego, czyli wielkości fotometrycznej ważonej czułością wzroku; nie jest jednostką całkowitej mocy promieniowania.",
+      "explanation_incorrect": "Kandela mierzy światłość źródła, luks natężenie oświetlenia powierzchni, a grej to jednostka dawki pochłoniętej."
     },
     {
       "subcategory": "Olimpizm miar",
@@ -648,10 +608,8 @@
         "newton"
       ],
       "answer": "herc",
-      "explanation_correct": "Herc definiuje liczbę zdarzeń zachodzących w czasie jednej sekundy.",
-      "explanation_incorrect": "Dżul, wat oraz niuton to jednostki energii, mocy i siły.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Herc to jednostka częstotliwości równa jednemu cyklowi na sekundę.",
+      "explanation_incorrect": "Dżul, wat oraz niuton to jednostki energii, mocy i siły."
     },
     {
       "subcategory": "Astronomia",
@@ -678,14 +636,12 @@
         "jon"
       ],
       "answer": "mol",
-      "explanation_correct": "Mol jest jednostką liczności materii, odpowiadającą liczbie Avogadra dla cząsteczek.",
-      "explanation_incorrect": "Gram to jednostka masy, a atom i jon to pojęcia fizykochemiczne, a nie jednostki miar.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mol jest jednostką ilości substancji. Jeden mol zawiera dokładnie 6,02214076 × 10²³ określonych obiektów, np. atomów, cząsteczek lub jonów.",
+      "explanation_incorrect": "Gram to jednostka masy, a atom i jon to pojęcia fizykochemiczne, a nie jednostki miar."
     },
     {
       "subcategory": "Elektrodynamika",
-      "question": "Który z naukowców jest patronem jednostki pojemności elektrycznej, od którego nazwiska pochodzi również określenie indukcji w procesach elektromagnetycznych?",
+      "question": "Na cześć którego uczonego nazwano jednostkę pojemności elektrycznej: farad?",
       "options": [
         "Michael Faraday",
         "Andre Ampere",
@@ -694,9 +650,7 @@
       ],
       "answer": "Michael Faraday",
       "explanation_correct": "Farad jest jednostką pojemności, a Michael Faraday zajmował się m.in. zjawiskiem indukcji elektromagnetycznej.",
-      "explanation_incorrect": "Amper, wolt i om to jednostki natężenia, napięcia i rezystancji, pochodzące od innych fizyków.",
-      "last_verified_at": "2026-06-12T17:17:31.336Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Amper, wolt i om to jednostki natężenia, napięcia i rezystancji, pochodzące od innych fizyków."
     },
     {
       "subcategory": "Mechanika płynów",
@@ -784,9 +738,7 @@
       ],
       "answer": "siwert",
       "explanation_correct": "Siwert jest jednostką dawki skutecznej, która bierze pod uwagę wpływ promieniowania na organizm człowieka.",
-      "explanation_incorrect": "Grej mierzy energię, bekerel zdarzenia jądrowe, a rad jest dawną jednostką spoza układu SI.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Grej jest jednostką dawki pochłoniętej w J/kg, bekerel aktywności, a rad pozaukładową jednostką dawki pochłoniętej."
     },
     {
       "subcategory": "Astronomia",
@@ -798,10 +750,8 @@
         "milowka"
       ],
       "answer": "parsek",
-      "explanation_correct": "Parsek to skrót od paralaksy sekundy i jest podstawową jednostką w astronomii używaną do pomiaru dużych odległości.",
-      "explanation_incorrect": "Jednostka astronomiczna mierzy dystans Ziemia-Słońce, rok świetlny to odległość światła, a milowka nie jest jednostką astrofizyczną.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Parsek to jednostka odległości wynikająca z definicji opartej na jednostce astronomicznej i sekundzie łuku; odpowiada około 3,26 roku świetlnego.",
+      "explanation_incorrect": "Jednostka astronomiczna mierzy dystans Ziemia-Słońce, rok świetlny to odległość światła, a milowka nie jest jednostką astrofizyczną."
     },
     {
       "subcategory": "Magnetyzm",
@@ -820,7 +770,7 @@
     },
     {
       "subcategory": "Elektryczność",
-      "question": "Która jednostka układu SI służy do wyrażania przewodności elektrycznej, będąc odwrotnością ohma?",
+      "question": "Która jednostka SI mierzy konduktancję, czyli odwrotność rezystancji elektrycznej?",
       "options": [
         "simens",
         "amper",
@@ -828,25 +778,21 @@
         "henr"
       ],
       "answer": "simens",
-      "explanation_correct": "Simens to jednostka przewodności elektrycznej, mianowana na cześć Wernera von Siemensa.",
-      "explanation_incorrect": "Amper, farad i henr to jednostki natężenia, pojemności i indukcyjności.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Simens (S) to jednostka konduktancji równa odwrotności oma. Przewodność właściwa ma jednostkę S/m.",
+      "explanation_incorrect": "Amper, farad i henr to jednostki natężenia, pojemności i indukcyjności."
     },
     {
       "subcategory": "Mechanika bryły sztywnej",
-      "question": "Jak nazywa się jednostka SI momentu siły, będąca iloczynem niutona i metra?",
+      "question": "Jaką nazwę nosi jednostka zapisywana N·m, zwyczajowo używana dla momentu siły?",
       "options": [
-        "dżul",
-        "wat",
         "niutonometr",
-        "paskalo-metr"
+        "wat",
+        "paskal",
+        "amper"
       ],
       "answer": "niutonometr",
-      "explanation_correct": "Niutonometr to jednostka momentu siły, wyrażająca siłę obrotową działającą na ramię.",
-      "explanation_incorrect": "Dżul to jednostka pracy, wat mocy, a paskalo-metr nie istnieje w fizyce jako standardowa jednostka.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Moment siły wyraża się w niutonometrach. N·m jest wymiarowo równe dżulowi, ale dla momentu siły stosuje się nazwę niutonometr.",
+      "explanation_incorrect": "Wat, paskal i amper są jednostkami innych wielkości."
     },
     {
       "subcategory": "Kąty",
@@ -868,19 +814,17 @@
       "question": "Jak nazywa się jednostka kąta bryłowego w układzie SI?",
       "options": [
         "radian",
-        "sterradian",
+        "steradian",
         "minuta kątowa",
         "stopień kwadratowy"
       ],
-      "answer": "sterradian",
-      "explanation_correct": "Sterradian to jednostka kąta bryłowego, określająca powierzchnię wyciętą na sferze przez stożek.",
-      "explanation_incorrect": "Radian to kąt płaski, minuta kątowa i stopień kwadratowy to jednostki spoza układu SI.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "steradian",
+      "explanation_correct": "Steradian to jednostka kąta bryłowego. Jeden steradian odpowiada na sferze polu równemu kwadratowi jej promienia.",
+      "explanation_incorrect": "Radian i minuta kątowa dotyczą kąta płaskiego; stopień kwadratowy jest inną jednostką kąta bryłowego."
     },
     {
       "subcategory": "Termodynamika",
-      "question": "Jak nazywa się stała fizyczna relacjonująca energię kinetyczną cząstki z jej temperaturą termodynamiczną?",
+      "question": "Która stała wiąże temperaturę termodynamiczną ze skalą energii w fizyce statystycznej?",
       "options": [
         "stała Boltzmanna",
         "stała gazowa",
@@ -888,10 +832,8 @@
         "stała Avogadra"
       ],
       "answer": "stała Boltzmanna",
-      "explanation_correct": "Stała Boltzmanna łączy energię na poziomie mikro z temperaturą na poziomie makro.",
-      "explanation_incorrect": "Stała gazowa odnosi się do moli gazu, Plancka dotyczy kwantowania energii, a Avogadra to liczba cząstek w molu.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stała Boltzmanna k łączy temperaturę i energię; dla gazu doskonałego średnia energia translacyjna cząstki wynosi 3kT/2.",
+      "explanation_incorrect": "Stała gazowa dotyczy ilości substancji, stała Plancka kwantowania, a stała Avogadra ma jednostkę mol⁻¹ i wiąże liczbę obiektów z ilością substancji."
     },
     {
       "subcategory": "Fizyka atomowa",
@@ -925,22 +867,20 @@
     },
     {
       "subcategory": "Fizyka kwantowa",
-      "question": "Jaka jest nazwa najmniejszej jednostki skwantowanego strumienia magnetycznego?",
+      "question": "Jak nazywa się wielkość Φ₀ = h/(2e), opisująca porcję strumienia w nadprzewodniku?",
       "options": [
-        "flukson",
-        "kwanton",
-        "weberon",
+        "kwant strumienia magnetycznego",
+        "foton",
+        "fonon",
         "magnon"
       ],
-      "answer": "flukson",
-      "explanation_correct": "Flukson to kwant strumienia magnetycznego występujący m.in. w nadprzewodnikowych złączach Josephsona.",
-      "explanation_incorrect": "Pozostałe nazwy są terminami nieistniejącymi lub fizycznie nie odnoszą się do miary strumienia magnetycznego.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "kwant strumienia magnetycznego",
+      "explanation_correct": "W nadprzewodniku kwant strumienia magnetycznego Φ₀ wynosi h/(2e).",
+      "explanation_incorrect": "Foton, fonon i magnon są nazwami innych kwantów lub kwazicząstek."
     },
     {
       "subcategory": "Grawitacja",
-      "question": "Jaka jest oficjalna nazwa parametru fizycznego określającego wartość przyspieszenia grawitacyjnego na Ziemi?",
+      "question": "Jak nazywa się przyspieszenie swobodnego spadania w pobliżu powierzchni Ziemi, oznaczane zwykle g?",
       "options": [
         "przyspieszenie ziemskie",
         "stała grawitacyjna",
@@ -948,10 +888,8 @@
         "potencjał ziemski"
       ],
       "answer": "przyspieszenie ziemskie",
-      "explanation_correct": "Przyspieszenie ziemskie to wartość przyspieszenia, z jakim ciało porusza się w ziemskim polu grawitacyjnym.",
-      "explanation_incorrect": "Stała grawitacyjna to uniwersalna stała fizyczna (G), a pozostałe określenia nie są mianami jednostek ani zjawisk.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przyspieszenie ziemskie zmienia się nieco z miejscem; jego wartość standardowa wynosi 9,80665 m/s².",
+      "explanation_incorrect": "Stała grawitacyjna G jest inną wielkością; potencjał grawitacyjny nie jest przyspieszeniem."
     },
     {
       "subcategory": "Magnetyzm",
@@ -973,15 +911,13 @@
       "question": "Jaka jednostka jest stosowana do określania wartości momentu magnetycznego nukleonów?",
       "options": [
         "magneton jądrowy",
-        "magneton nuklearny",
-        "stała protonowa",
-        "jednostka magnetyczna jądra"
+        "magneton Bohra",
+        "stała gazowa",
+        "jednostka astronomiczna"
       ],
       "answer": "magneton jądrowy",
-      "explanation_correct": "Magneton jądrowy jest jednostką momentu magnetycznego dla cząstek ciężkich, takich jak protony i neutrony.",
-      "explanation_incorrect": "Pozostałe opcje są niepoprawnymi terminami używanymi w fizyce jądrowej.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Magneton jądrowy (nuklearny) jest jednostką wykorzystywaną do wyrażania momentów magnetycznych jąder i nukleonów.",
+      "explanation_incorrect": "Magneton Bohra jest inną jednostką momentu magnetycznego, a dwie pozostałe odpowiedzi dotyczą innych wielkości."
     },
     {
       "subcategory": "Masa",
@@ -994,24 +930,20 @@
       ],
       "answer": "karat",
       "explanation_correct": "Karat jubilerski jest jednostką masy równą dokładnie 0,2 grama.",
-      "explanation_incorrect": "Gram to jednostka podstawowa masy, natomiast gran i uncja trojańska mają inne zastosowania.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gram jest jednostką masy, lecz podstawową jednostką SI jest kilogram; gran i uncja trojańska są innymi jednostkami masy."
     },
     {
       "subcategory": "Żegluga",
       "question": "Jak nazywa się jednostka prędkości używana w żegludze, równa jednej mili morskiej na godzinę?",
       "options": [
         "węzeł",
-        "mila na godzinę",
-        "sążen",
-        "knot"
+        "mila lądowa",
+        "sążeń",
+        "hektar"
       ],
       "answer": "węzeł",
       "explanation_correct": "Węzeł to jednostka prędkości wywodząca się z dawnych metod pomiaru prędkości statków.",
-      "explanation_incorrect": "Mila na godzinę to jednostka lądowa, a sążeń to jednostka głębokości.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Knot jest angielską nazwą węzła; mila i sążeń są jednostkami długości, a hektar jednostką pola."
     },
     {
       "subcategory": "Żegluga",
@@ -1023,10 +955,8 @@
         "sążen"
       ],
       "answer": "mila morska",
-      "explanation_correct": "Mila morska jest jednostką odległości odpowiadającą jednej minucie kątowej łuku południka.",
-      "explanation_incorrect": "Kabel i sążeń to jednostki długości, ale nie stanowią standardu nawigacyjnego na dużych dystansach.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Międzynarodowa mila morska wynosi dokładnie 1852 metry; historycznie wiązano ją z minutą łuku południka.",
+      "explanation_incorrect": "Kabel i sążeń są innymi jednostkami długości."
     },
     {
       "subcategory": "Pole powierzchni",
@@ -1045,18 +975,16 @@
     },
     {
       "subcategory": "Pole powierzchni",
-      "question": "Pod jaką nazwą (będącą w oryginale zapożyczeniem z j. angielskiego) znana jest jednostka przekroju czynnego stosowana w fizyce jądrowej?",
+      "question": "Jak nazywa się jednostka przekroju czynnego w fizyce jądrowej równa 10⁻²⁸ m²?",
       "options": [
-        "stodoła",
-        "pole",
-        "obszar",
-        "przekrój"
+        "barn",
+        "hektar",
+        "weber",
+        "paskal"
       ],
-      "answer": "stodoła",
-      "explanation_correct": "Termin 'barn' (stodoła) został użyty jako nazwa jednostki 10^-28 m kwadratowych w fizyce jądrowej.",
-      "explanation_incorrect": "Pozostałe wyrazy to określenia ogólne lub matematyczne, nie będące wyspecjalizowanymi jednostkami fizycznymi.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "barn",
+      "explanation_correct": "Barn (b) to jednostka powierzchni równa 10⁻²⁸ m², używana m.in. do wyrażania przekrojów czynnych.",
+      "explanation_incorrect": "Hektar to inna jednostka powierzchni, weber jest jednostką strumienia magnetycznego, a paskal ciśnienia."
     },
     {
       "subcategory": "Fizyka kwantowa",
@@ -1075,22 +1003,20 @@
     },
     {
       "subcategory": "Klimatologia",
-      "question": "Która jednostka ciśnienia jest najczęściej używana w meteorologii do przedstawiania ciśnienia atmosferycznego?",
+      "question": "Która jednostka ciśnienia używana w meteorologii jest równa 100 paskalom?",
       "options": [
         "hektopaskal",
-        "milibar",
-        "tor",
-        "atmosfera techniczna"
+        "paskal",
+        "kilopaskal",
+        "atmosfera standardowa"
       ],
       "answer": "hektopaskal",
-      "explanation_correct": "Hektopaskal jest obecnie standardową jednostką ciśnienia atmosferycznego używaną w prognozach pogody.",
-      "explanation_incorrect": "Tor i atmosfera techniczna są rzadziej stosowane w codziennej meteorologii.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hektopaskal (hPa) wynosi 100 Pa i odpowiada jednemu milibarowi.",
+      "explanation_incorrect": "Milibar jest równy hektopaskalowi; jednostki podane jako pozostałe odpowiedzi mają inną wartość."
     },
     {
       "subcategory": "Fizyka cząstek",
-      "question": "Jaka wartość fizyczna jest uważana za naturalną jednostkę długości wynikającą z fundamentalnych stałych?",
+      "question": "Jak nazywa się naturalna skala długości zbudowana ze stałych ħ, G i c?",
       "options": [
         "długość Plancka",
         "promień Bohra",
@@ -1098,14 +1024,12 @@
         "długość Comptona"
       ],
       "answer": "długość Plancka",
-      "explanation_correct": "Długość Plancka to jednostka długości, poniżej której prawa fizyki klasycznej tracą sens.",
-      "explanation_incorrect": "Promień Bohra czy długość Comptona to jednostki oparte na właściwościach atomów, a nie na stałych fundamentalnych całego wszechświata.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Długość Plancka wynosi √(ħG/c³). Jest skalą istotną w rozważaniach o grawitacji kwantowej, a nie dowiedzioną minimalną długością.",
+      "explanation_incorrect": "Pozostałe skale mają inne definicje fizyczne."
     },
     {
       "subcategory": "Fizyka cząstek",
-      "question": "Jaka wartość fizyczna określa najmniejszą sensowną jednostkę czasu w fizyce kwantowej?",
+      "question": "Jak nazywa się czas równy długości Plancka podzielonej przez prędkość światła w próżni?",
       "options": [
         "czas Plancka",
         "stała rozpadu",
@@ -1113,10 +1037,8 @@
         "czas życia protonu"
       ],
       "answer": "czas Plancka",
-      "explanation_correct": "Czas Plancka to czas, w jakim światło pokonuje długość Plancka.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do procesów statystycznych lub konkretnych właściwości cząstek.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czas Plancka to długość Plancka podzielona przez c. Nie jest dowiedzioną najmniejszą możliwą jednostką czasu.",
+      "explanation_incorrect": "Pozostałe określenia dotyczą innych wielkości lub procesów."
     },
     {
       "subcategory": "Relatywistyka",
@@ -1158,14 +1080,12 @@
         "stała Avogadra"
       ],
       "answer": "stała Faradaya",
-      "explanation_correct": "Stała Faradaya reprezentuje łączny ładunek jednego mola elektronów.",
-      "explanation_incorrect": "Pozostałe stałe wiążą się z termodynamiką lub liczbą cząstek, nie z procesami elektrochemicznymi.",
-      "last_verified_at": "2026-06-12T17:17:31.337Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stała Faradaya jest wartością bezwzględną ładunku jednego mola elektronów, F = Nₐe; ładunek elektronów ma znak ujemny.",
+      "explanation_incorrect": "Pozostałe stałe wiążą się z termodynamiką lub liczbą cząstek, nie z procesami elektrochemicznymi."
     },
     {
       "subcategory": "Optyka",
-      "question": "Jakim mianem w fizyce określa się wymiar jednostki współczynnika załamania światła?",
+      "question": "Jaki wymiar fizyczny ma współczynnik załamania światła?",
       "options": [
         "bezwymiarowa",
         "metr",
@@ -1173,10 +1093,8 @@
         "wolt"
       ],
       "answer": "bezwymiarowa",
-      "explanation_correct": "Współczynnik załamania to stosunek prędkości światła, więc wyraża się liczbą niemianowaną.",
-      "explanation_incorrect": "Metr, radian i wolt to jednostki posiadające specyficzne wymiary fizyczne.",
-      "last_verified_at": "2026-06-12T17:17:31.338Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Współczynnik załamania jest bezwymiarowym stosunkiem prędkości światła w próżni do prędkości fazowej w ośrodku.",
+      "explanation_incorrect": "Metr i wolt mają inne zastosowania; radian również jest jednostką bezwymiarową, ale nie jest jednostką współczynnika załamania."
     },
     {
       "subcategory": "Mechanika",
@@ -1188,25 +1106,21 @@
         "metr na kilogram"
       ],
       "answer": "kilogram na metr sześcienny",
-      "explanation_correct": "W układzie SI podstawowe jednostki masy to kg, a objętości to m3.",
-      "explanation_incorrect": "Gram na centymetr sześcienny to jednostka CGS, a pozostałe opcje są fizycznie błędne.",
-      "last_verified_at": "2026-06-12T17:17:31.338Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jednostką SI gęstości masy jest kilogram na metr sześcienny (kg/m³).",
+      "explanation_incorrect": "Gram na centymetr sześcienny to inna jednostka gęstości; pozostałe jednostki mają inne wymiary."
     },
     {
       "subcategory": "Kinematyka",
       "question": "Jak nazywa się jednostka przyspieszenia w układzie jednostek SI?",
       "options": [
-        "metr na sekundę kwadrat",
+        "metr na sekundę do kwadratu",
         "metr na sekundę",
         "metr na minutę",
-        "metr na sekundę sześcienną"
+        "metr na sekundę do trzeciej"
       ],
-      "answer": "metr na sekundę kwadrat",
-      "explanation_correct": "Przyspieszenie definiuje się jako zmianę prędkości w czasie, co daje m/s2.",
-      "explanation_incorrect": "Pozostałe opcje opisują prędkość lub błędne pochodne jednostki czasu.",
-      "last_verified_at": "2026-06-12T17:17:31.338Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "metr na sekundę do kwadratu",
+      "explanation_correct": "Jednostką przyspieszenia w SI jest m/s², czyli metr na sekundę do kwadratu.",
+      "explanation_incorrect": "Pozostałe opcje opisują prędkość lub błędne pochodne jednostki czasu."
     },
     {
       "subcategory": "Fizyka kwantowa",
@@ -1225,7 +1139,7 @@
     },
     {
       "subcategory": "Kosmologia",
-      "question": "Jaka wielkość fizyczna określa tempo ekspansji Wszechświata w modelu kosmologicznym?",
+      "question": "Jak nazywa się obecna wartość parametru opisującego tempo ekspansji Wszechświata, oznaczana H₀?",
       "options": [
         "stała Hubble'a",
         "gęstość krytyczna",
@@ -1233,10 +1147,8 @@
         "parametr frydmanowski"
       ],
       "answer": "stała Hubble'a",
-      "explanation_correct": "Stała Hubble'a (oznaczana H0) wyraża zależność między prędkością oddalania się galaktyk a ich odległością od obserwatora.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do właściwości materii lub energii wewnątrz Wszechświata, a nie do tempa jego ekspansji.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stała Hubble’a H₀ jest obecną wartością parametru Hubble’a; parametr ten ogólnie może zmieniać się w czasie.",
+      "explanation_incorrect": "Gęstość krytyczna i stała kosmologiczna to inne wielkości kosmologiczne."
     },
     {
       "subcategory": "Mechanika",
@@ -1255,18 +1167,16 @@
     },
     {
       "subcategory": "Fizyka cieplna",
-      "question": "Jaka wielkość określa ilość energii potrzebną do ogrzania jednostki masy substancji o jeden kelwin?",
+      "question": "Jak nazywa się ilość energii potrzebna do ogrzania jednostki masy substancji o jeden kelwin przy określonych warunkach, bez przemiany fazowej?",
       "options": [
         "pojemność cieplna",
         "ciepło właściwe",
         "ciepło przemiany",
-        "entelpia właściwa"
+        "entalpia właściwa"
       ],
       "answer": "ciepło właściwe",
-      "explanation_correct": "Ciepło właściwe to ilość energii potrzebna do podniesienia temperatury jednostki masy danej substancji o jednostkę temperatury.",
-      "explanation_incorrect": "Pojemność cieplna odnosi się do całego ciała, a nie do masy jednostkowej, natomiast ciepło przemiany dotyczy zmiany stanu skupienia.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ciepło właściwe określa pojemność cieplną przypadającą na jednostkę masy; zależy od warunków, np. ciśnienia lub objętości.",
+      "explanation_incorrect": "Pojemność cieplna odnosi się do całego ciała, a nie do masy jednostkowej, natomiast ciepło przemiany dotyczy zmiany stanu skupienia."
     },
     {
       "subcategory": "Termodynamika",
@@ -1278,29 +1188,25 @@
         "dżul na sekunde"
       ],
       "answer": "dżul na kelwin",
-      "explanation_correct": "Entropia jest definiowana jako ilość ciepła dostarczonego do układu w procesie odwracalnym, podzielona przez temperaturę, co daje dżul na kelwin.",
-      "explanation_incorrect": "Inne jednostki opisują odpowiednio energię molową, energię mechaniczną lub moc, a nie miarę nieuporządkowania obiektu.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jednostką entropii w SI jest J/K. W procesie odwracalnym różniczkowa zmiana entropii wynosi δQ_rev/T.",
+      "explanation_incorrect": "Pozostałe jednostki mają inne wymiary fizyczne."
     },
     {
       "subcategory": "Chemia",
       "question": "Jak wyraża się jednostkę stężenia molowego roztworu najczęściej używaną w laboratoriach chemicznych?",
       "options": [
         "mol na litr",
-        "mol na decymetr sześcienny",
-        "gram na decymetr sześcienny",
-        "mol na kilogram"
+        "gram na litr",
+        "mol na kilogram",
+        "gram na mol"
       ],
-      "answer": "mol na decymetr sześcienny",
-      "explanation_correct": "Stężenie molowe określa liczbę moli substancji w 1 dm3 (litrze) roztworu.",
-      "explanation_incorrect": "Mol na kilogram to jednostka molalności, a gram na dm3 to stężenie masowe.",
-      "last_verified_at": "2026-06-12T17:18:21.479Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "mol na litr",
+      "explanation_correct": "Stężenie molowe bywa podawane w mol/l; litr to dokładnie 1 dm³, więc mol/l i mol/dm³ są równoważne.",
+      "explanation_incorrect": "Mol/kg oznacza jednostkę molalności, gram/l stężenia masowego, a gram/mol masy molowej."
     },
     {
       "subcategory": "Geometria",
-      "question": "Która jednostka miary kąta płaskiego jest podstawową w systemie sześćdziesiątkowym?",
+      "question": "Jak nazywa się jednostka kąta płaskiego dzielona na 60 minut kątowych?",
       "options": [
         "radian",
         "grad",
@@ -1308,10 +1214,8 @@
         "minuta"
       ],
       "answer": "stopień",
-      "explanation_correct": "W systemie sześćdziesiątkowym pełny obrót jest dzielony na 360 stopni.",
-      "explanation_incorrect": "Radian jest jednostką układu SI, grad pochodzi z systemu dziesiętnego, a minuta jest jednostką pochodną stopnia.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stopień kątowy dzieli się na 60 minut, a każda minuta na 60 sekund.",
+      "explanation_incorrect": "Radian i grad mają inne definicje, a minuta jest częścią stopnia."
     },
     {
       "subcategory": "Miernictwo",
@@ -1353,10 +1257,8 @@
         "tera"
       ],
       "answer": "hekto",
-      "explanation_correct": "Hekto oznacza stykrotność jednostki.",
-      "explanation_incorrect": "Pozostałe opcje oznaczają większe potęgi dziesiątki (10^3, 10^6, 10^12).",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hekto oznacza stokrotność jednostki (10²).",
+      "explanation_incorrect": "Pozostałe opcje oznaczają większe potęgi dziesiątki (10^3, 10^6, 10^12)."
     },
     {
       "subcategory": "Miernictwo",
@@ -1465,22 +1367,20 @@
     },
     {
       "subcategory": "Fizyka atomowa",
-      "question": "Jak nazywa się jednostka długości, będąca promieniem orbity elektronu w modelu atomu wodoru?",
+      "question": "Jak nazywa się charakterystyczna długość oznaczana a₀, odpowiadająca promieniowi najniższej orbity w modelu Bohra atomu wodoru?",
       "options": [
         "promień Bohra",
-        "jednostka atomowa",
         "promień klasyczny elektronu",
-        "stała Rydberga"
+        "stała Rydberga",
+        "rok świetlny"
       ],
       "answer": "promień Bohra",
-      "explanation_correct": "Promień Bohra jest charakterystyczną jednostką odległości w fizyce atomowej, wynoszącą około 5,29 x 10^-11 m.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do innych właściwości atomu lub stałych fizycznych o innym znaczeniu.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Promień Bohra a₀ wynosi około 5,29 × 10⁻¹¹ m i jest atomową jednostką długości.",
+      "explanation_incorrect": "Klasyczny promień elektronu jest inną skalą; stała Rydberga i rok świetlny oznaczają inne wielkości."
     },
     {
       "subcategory": "Magnetyzm",
-      "question": "Jaka jest jednostka podstawowa oporu magnetycznego w systemie SI?",
+      "question": "Jaka jest jednostka reluktancji magnetycznej w jednostkach SI?",
       "options": [
         "amper na weber",
         "weber na metr",
@@ -1488,10 +1388,8 @@
         "wolt na amper"
       ],
       "answer": "amper na weber",
-      "explanation_correct": "Opór magnetyczny (reluktancja) jest zdefiniowany jako stosunek siły magnetomotorycznej (ampery) do strumienia magnetycznego (webery).",
-      "explanation_incorrect": "Pozostałe przedstawione kombinacje jednostek odnoszą się do innych wielkości elektrycznych lub magnetycznych.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Reluktancję wyraża się w amperach na weber (A/Wb), równoważnie H⁻¹.",
+      "explanation_incorrect": "Pozostałe kombinacje są jednostkami innych wielkości."
     },
     {
       "subcategory": "Akustyka",
@@ -1504,9 +1402,7 @@
       ],
       "answer": "mel",
       "explanation_correct": "Mel to jednostka wysokości dźwięku, opracowana w oparciu o subiektywne skale słuchaczy.",
-      "explanation_incorrect": "Herc mierzy częstotliwość fizyczną, decybel natężenie dźwięku, a son głośność, więc nie opisują one wysokości tonu.",
-      "last_verified_at": "2026-06-12T17:17:47.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Herc mierzy częstotliwość, decybel jest jednostką poziomu logarytmicznego, a son opisuje głośność subiektywną."
     }
   ]
 }
