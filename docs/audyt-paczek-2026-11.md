@@ -68,6 +68,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Mitologia nordycka (PL):** przegląd 100 pytań, korekty 59 pozycji; źródła, ograniczenia i powtórzenia w [raporcie](audits/2026-11-07-mitologia-nordycka-pl.md).
 
+- **Zabytki Techniki (PL):** przegląd 100 pytań, korekty 72 pozycji; szczegóły i zagadnienia do dalszego sprawdzenia w [raporcie](audits/2026-11-07-zabytki-techniki-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
