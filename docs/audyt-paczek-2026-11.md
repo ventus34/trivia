@@ -76,6 +76,12 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 - **Religie Świata (PL):** przegląd 100 pytań, korekty 67 pozycji; [raport](audits/2026-11-07-religie-swiata-pl.md).
 - **The Science of Food Preservation (EN):** przegląd 100 pytań, korekty 79 pozycji; [raport](audits/2026-11-07-the-science-of-food-preservation-en.md).
 
+- **Skróty, Akronimy i Symbole (PL):** przegląd 100 pytań, korekty 44 pozycji; [raport](audits/2026-11-07-skroty-akronimy-i-symbole-pl.md).
+- **Kino Europejskie (PL):** przegląd 100 pytań, korekty 26 pozycji; [raport](audits/2026-11-07-kino-europejskie-pl.md).
+
+- **Kosmos i Futurologia (PL):** przegląd 100 pytań, korekty 63 pozycji; [raport](audits/2026-11-07-kosmos-i-futurologia-pl.md).
+- **The Evolution of Flight Sims (EN):** przegląd 100 pytań, korekty 71 pozycji; [raport](audits/2026-11-07-the-evolution-of-flight-sims-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

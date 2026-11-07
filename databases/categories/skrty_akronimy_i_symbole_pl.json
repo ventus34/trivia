@@ -18,25 +18,21 @@
         "AES"
       ],
       "answer": "MIDI",
-      "explanation_correct": "MIDI to Musical Instrument Digital Interface, powszechny standard cyfrowego zapisu muzyki.",
-      "explanation_incorrect": "Pozostałe skróty dotyczą protokołów oświetleniowych, transmisji dźwięku cyfrowego lub przesyłu danych wielokanałowych.",
-      "last_verified_at": "2026-06-12T17:16:51.248Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "MIDI to Musical Instrument Digital Interface: standard komunikatów sterujących i połączeń między urządzeniami muzycznymi; komunikaty MIDI nie są nagraniem dźwięku.",
+      "explanation_incorrect": "DMX kojarzy się ze sterowaniem oświetleniem, a ADAT i AES z rozwiązaniami związanymi z cyfrowym dźwiękiem."
     },
     {
       "subcategory": "Edukacja",
-      "question": "Jak nazywa się popularny program wymiany edukacyjnej studentów, finansowany przez Unię Europejską?",
+      "question": "Jak nazywa się program Unii Europejskiej wspierający m.in. mobilność edukacyjną studentów?",
       "options": [
-        "Erasmus",
-        "Socrates",
-        "Leonardo",
-        "Tempus"
+        "Erasmus+",
+        "NATO",
+        "Europol",
+        "Schengen"
       ],
-      "answer": "Erasmus",
-      "explanation_correct": "Erasmus to znany program mobilności edukacyjnej działający w ramach struktur UE.",
-      "explanation_incorrect": "Socrates, Leonardo i Tempus to wygasłe lub węższe programy edukacyjno-szkoleniowe Unii Europejskiej.",
-      "last_verified_at": "2026-06-12T17:16:51.248Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Erasmus+",
+      "explanation_correct": "Erasmus+ wspiera m.in. wyjazdy edukacyjne i współpracę w dziedzinie edukacji, szkoleń, młodzieży i sportu.",
+      "explanation_incorrect": "Socrates, Leonardo i Tempus to nazwy wcześniejszych programów; pozostałe opcje nie są nazwą programu Erasmus+."
     },
     {
       "subcategory": "Technologia",
@@ -70,7 +66,7 @@
     },
     {
       "subcategory": "Motoryzacja",
-      "question": "Jaki system bezpieczeństwa aktywnego w samochodach zapobiega blokowaniu kół podczas hamowania?",
+      "question": "Jaki system w samochodzie ogranicza blokowanie kół podczas hamowania?",
       "options": [
         "ABS",
         "EBD",
@@ -78,10 +74,8 @@
         "ESC"
       ],
       "answer": "ABS",
-      "explanation_correct": "ABS to Anti-lock Braking System.",
-      "explanation_incorrect": "EBD, ASR i ESC to systemy wspomagające siłę hamowania, trakcję lub stabilność toru jazdy.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ABS oznacza Anti-lock Braking System; reguluje ciśnienie hamowania, aby ograniczać blokowanie kół.",
+      "explanation_incorrect": "EBD rozdziela siłę hamowania, ASR wspomaga trakcję, a ESC stabilność pojazdu."
     },
     {
       "subcategory": "Motoryzacja",
@@ -93,10 +87,8 @@
         "TCS"
       ],
       "answer": "ESP",
-      "explanation_correct": "ESP to Electronic Stability Program.",
-      "explanation_incorrect": "EBA, ACC oraz TCS odnoszą się do asystenta hamowania, tempomatu aktywnego i kontroli trakcji.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ESP to nazwa elektronicznego systemu stabilizacji toru jazdy; działa w określonych warunkach i nie może zagwarantować uniknięcia poślizgu.",
+      "explanation_incorrect": "EBA, ACC oraz TCS odnoszą się do asystenta hamowania, tempomatu aktywnego i kontroli trakcji."
     },
     {
       "subcategory": "Militaria",
@@ -115,7 +107,7 @@
     },
     {
       "subcategory": "Prawo",
-      "question": "Jaki unikalny 11-cyfrowy identyfikator został przypisany każdej osobie fizycznej w polskim rejestrze ewidencji ludności?",
+      "question": "Jaki 11-cyfrowy identyfikator nadaje się osobie, której dane są gromadzone w polskim rejestrze PESEL?",
       "options": [
         "PESEL",
         "NIP",
@@ -124,9 +116,7 @@
       ],
       "answer": "PESEL",
       "explanation_correct": "PESEL to Powszechny Elektroniczny System Ewidencji Ludności.",
-      "explanation_incorrect": "NIP i REGON dotyczą podmiotów gospodarczych, natomiast PKI to infrastruktura klucza publicznego.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "NIP jest identyfikatorem podatkowym, REGON identyfikuje podmioty w rejestrze gospodarki, a PKI to infrastruktura klucza publicznego."
     },
     {
       "subcategory": "Gospodarka",
@@ -145,7 +135,7 @@
     },
     {
       "subcategory": "Gospodarka",
-      "question": "Jaki numer jest używany w Polsce do identyfikacji podatników w urzędach skarbowych?",
+      "question": "Który skrót oznacza polski numer identyfikacji podatkowej?",
       "options": [
         "NIP",
         "VAT",
@@ -153,10 +143,8 @@
         "PIT"
       ],
       "answer": "NIP",
-      "explanation_correct": "NIP to Numer Identyfikacji Podatkowej.",
-      "explanation_incorrect": "VAT, CIT i PIT to rodzaje podatków, a nie numery ewidencyjne.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "NIP to numer identyfikacji podatkowej. W niektórych przypadkach identyfikatorem podatnika jest numer PESEL.",
+      "explanation_incorrect": "VAT, CIT i PIT są nazwami podatków, a nie rozwinięciem skrótu NIP."
     },
     {
       "subcategory": "Gospodarka",
@@ -175,7 +163,7 @@
     },
     {
       "subcategory": "Gospodarka",
-      "question": "Jaka polska instytucja państwowa odpowiada za gromadzenie składek na ubezpieczenia emerytalne i rentowe?",
+      "question": "Która instytucja w Polsce obsługuje ubezpieczenia społeczne większości pracowników i przedsiębiorców?",
       "options": [
         "ZUS",
         "KRUS",
@@ -183,10 +171,8 @@
         "PFRON"
       ],
       "answer": "ZUS",
-      "explanation_correct": "ZUS to Zakład Ubezpieczeń Społecznych.",
-      "explanation_incorrect": "KRUS obsługuje rolników, NFZ leczenie, a PFRON rehabilitację zawodową.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zakład Ubezpieczeń Społecznych obsługuje system ubezpieczeń społecznych; ubezpieczenia rolnicze prowadzi KRUS.",
+      "explanation_incorrect": "KRUS obsługuje ubezpieczenia społeczne rolników, NFZ finansuje świadczenia zdrowotne, a PFRON wspiera rehabilitację osób z niepełnosprawnościami."
     },
     {
       "subcategory": "Sztuka",
@@ -198,10 +184,8 @@
         "THX"
       ],
       "answer": "IMAX",
-      "explanation_correct": "IMAX pochodzi od Image Maximum, technologii formatu kinowego.",
-      "explanation_incorrect": "DCP, VFX i THX to standardy cyfrowej dystrybucji, efektów wizualnych i certyfikacji dźwięku.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "IMAX to nazwa formatu i systemów prezentacji kinowej, kojarzonych m.in. z dużym ekranem i specjalnymi technologiami obrazu oraz dźwięku.",
+      "explanation_incorrect": "DCP jest formatem dystrybucji cyfrowej, VFX oznacza efekty wizualne, a THX wiąże się m.in. ze standardami jakości audiowizualnej."
     },
     {
       "subcategory": "Sport",
@@ -258,14 +242,12 @@
         "WCS"
       ],
       "answer": "WWF",
-      "explanation_correct": "WWF to najpopularniejsza fundacja ochrony przyrody na świecie.",
-      "explanation_incorrect": "IUCN, UNEP i WCS to inne organizacje przyrodnicze o szerszym lub innym zakresie działań.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "WWF to międzynarodowa organizacja zajmująca się ochroną przyrody; rozwinięcie nazwy stosowane w wielu krajach to World Wide Fund for Nature.",
+      "explanation_incorrect": "IUCN, UNEP i WCS także działają na rzecz środowiska, lecz ich nazwy nie rozwijają się do podanego zwrotu."
     },
     {
       "subcategory": "Ochrona środowiska",
-      "question": "Jak nazywa się niezależna międzynarodowa organizacja zajmująca się aktywnymi kampaniami na rzecz środowiska naturalnego?",
+      "question": "Która organizacja ekologiczna nosi nazwę oznaczającą po angielsku „zielony pokój”?",
       "options": [
         "Greenpeace",
         "PETA",
@@ -273,10 +255,8 @@
         "WWF"
       ],
       "answer": "Greenpeace",
-      "explanation_correct": "Greenpeace to nazwa własna organizacji znaną z bezpośrednich akcji proekologicznych.",
-      "explanation_incorrect": "Pozostałe opcje to inne organizacje charytatywne lub lobbujące o odrębnych celach statutowych.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Greenpeace jest międzynarodową siecią organizacji znaną m.in. z kampanii i działań na rzecz środowiska.",
+      "explanation_incorrect": "WWF również działa na rzecz środowiska; pytanie identyfikuje nazwę Greenpeace."
     },
     {
       "subcategory": "Lingwistyka",
@@ -288,10 +268,8 @@
         "Artium Doctor"
       ],
       "answer": "Anno Domini",
-      "explanation_correct": "Anno Domini oznacza 'Roku Pańskiego' i wyznacza lata naszej ery w kalendarzu gregoriańskim.",
-      "explanation_incorrect": "Pozostałe zwroty nie są standardowymi terminami używanymi do oznaczania ery w chronologii historycznej.",
-      "last_verified_at": "2026-06-12T17:17:05.039Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Anno Domini oznacza „roku Pańskiego” i oznacza lata naszej ery; stosuje się je w datowaniu różnych kalendarzy, w tym juliańskiego i gregoriańskiego.",
+      "explanation_incorrect": "Pozostałe zwroty nie są standardowymi terminami używanymi do oznaczania ery w chronologii historycznej."
     },
     {
       "subcategory": "Lingwistyka",
@@ -379,13 +357,11 @@
       ],
       "answer": "GPS",
       "explanation_correct": "GPS (Global Positioning System) służy do określania położenia geograficznego użytkownika.",
-      "explanation_incorrect": "GPRS to technologia telefonii komórkowej, pozostałe skróty są błędne.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "GPRS to technologia transmisji danych w sieciach komórkowych, GIS to system informacji geograficznej, a GSP nie jest podanym skrótem tego systemu nawigacji."
     },
     {
       "subcategory": "Telekomunikacja",
-      "question": "Jak nazywamy skrót standardu bezprzewodowego przesyłu danych?",
+      "question": "Jak nazywa się rodzina technologii bezprzewodowej sieci lokalnej opartych na standardach IEEE 802.11?",
       "options": [
         "Wi-Fi",
         "Wi-Li",
@@ -393,10 +369,8 @@
         "Wa-Fi"
       ],
       "answer": "Wi-Fi",
-      "explanation_correct": "Wi-Fi to standard budowy bezprzewodowej sieci komputerowej.",
-      "explanation_incorrect": "Hi-Fi odnosi się do sprzętu audio, a pozostałe zapisy są fonetycznie podobne, ale nieprawidłowe.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wi-Fi to nazwa technologii bezprzewodowych sieci lokalnych opartych na standardach IEEE 802.11; nazwa nie jest rozwinięciem skrótowca Wireless Fidelity.",
+      "explanation_incorrect": "Hi-Fi odnosi się do sprzętu audio, a pozostałe zapisy są fonetycznie podobne, ale nieprawidłowe."
     },
     {
       "subcategory": "Telekomunikacja",
@@ -423,10 +397,8 @@
         "PKN"
       ],
       "answer": "PKP",
-      "explanation_correct": "PKP to skrótowiec głównego polskiego przewoźnika kolejowego, którego historia sięga 1926 roku.",
-      "explanation_incorrect": "PLK zarządza liniami kolejowymi, PKS to transport autobusowy, a PKN to Polski Komitet Normalizacyjny.",
-      "last_verified_at": "2026-06-12T17:17:05.040Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "PKP to skrót nazwy Polskie Koleje Państwowe, używany m.in. w nazwach spółek grupy kolejowej.",
+      "explanation_incorrect": "PKP PLK zarządza infrastrukturą kolejową; PKS kojarzy się z transportem autobusowym, a PKN z normalizacją."
     },
     {
       "subcategory": "Elektronika",
@@ -454,9 +426,7 @@
       ],
       "answer": "HDMI",
       "explanation_correct": "HDMI (High-Definition Multimedia Interface) to standardowy interfejs w telewizorach, konsolach i komputerach.",
-      "explanation_incorrect": "VGA i DVI to starsze standardy wideo, a SATA to interfejs służący do podłączania dysków twardych.",
-      "last_verified_at": "2026-06-12T17:17:05.040Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "VGA przesyła sygnał analogowy, DVI jest rodziną interfejsów obrazu, a SATA służy do łączenia urządzeń pamięci masowej."
     },
     {
       "subcategory": "Kulinaria",
@@ -475,7 +445,7 @@
     },
     {
       "subcategory": "Muzyka",
-      "question": "Jak nosi nazwę stowarzyszenie autorów i kompozytorów w Polsce?",
+      "question": "Jaka nazwa identyfikuje polskie stowarzyszenie zbiorowego zarządzania prawami autorskimi znane jako Stowarzyszenie Autorów?",
       "options": [
         "ZAiKS",
         "ZPAKS",
@@ -483,10 +453,8 @@
         "ZAKS"
       ],
       "answer": "ZAiKS",
-      "explanation_correct": "ZAiKS to Związek Autorów i Kompozytorów Scenicznych reprezentujący twórców.",
-      "explanation_incorrect": "Pozostałe warianty nie są poprawnymi nazwami tego stowarzyszenia.",
-      "last_verified_at": "2026-06-12T17:16:51.249Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Obecna nazwa to Stowarzyszenie Autorów ZAiKS. Litery pochodzą od historycznej nazwy „Związek Autorów i Kompozytorów Scenicznych”.",
+      "explanation_incorrect": "Pozostałe warianty nie są nazwą tego stowarzyszenia."
     },
     {
       "subcategory": "Media",
@@ -559,9 +527,7 @@
       ],
       "answer": "Fe",
       "explanation_correct": "Fe pochodzi od łacińskiej nazwy żelaza, ferrum.",
-      "explanation_incorrect": "J to symbol jodu, pozostałe nie są poprawnymi symbolami chemicznymi.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "J nie jest obecnym symbolem chemicznym jodu; jod oznacza się literą I. Pozostałe opcje także nie oznaczają żelaza."
     },
     {
       "subcategory": "Chemia",
@@ -604,9 +570,7 @@
       ],
       "answer": "USA",
       "explanation_correct": "USA oznacza United States of America.",
-      "explanation_incorrect": "Pozostałe są jedynie przestawieniem liter i nie oznaczają tego państwa.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "USA to angielski skrót nazwy Stanów Zjednoczonych; AUS jest kodem Australii w niektórych systemach."
     },
     {
       "subcategory": "Motoryzacja",
@@ -625,7 +589,7 @@
     },
     {
       "subcategory": "Motoryzacja",
-      "question": "Jaki międzynarodowy akronim oznacza pojazd z napędem elektrycznym?",
+      "question": "Jaki jest angielski skrót od słów „electric vehicle”, czyli pojazd elektryczny?",
       "options": [
         "EV",
         "HEV",
@@ -633,10 +597,8 @@
         "FCEV"
       ],
       "answer": "EV",
-      "explanation_correct": "EV pochodzi od angielskiego Electric Vehicle.",
-      "explanation_incorrect": "HEV oznacza hybrydę, ICE silnik spalinowy, a FCEV pojazd na ogniwa paliwowe.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "EV oznacza electric vehicle, czyli pojazd elektryczny. Dokładny zakres tego terminu zależy od klasyfikacji i kontekstu.",
+      "explanation_incorrect": "HEV oznacza hybrydowy pojazd elektryczny, FCEV pojazd elektryczny z ogniwem paliwowym, a ICE silnik spalinowy."
     },
     {
       "subcategory": "Motoryzacja",
@@ -649,9 +611,7 @@
       ],
       "answer": "PHEV",
       "explanation_correct": "PHEV oznacza Plug-in Hybrid Electric Vehicle.",
-      "explanation_incorrect": "MHEV to miękka hybryda, BEV to auto w pełni elektryczne.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "MHEV oznacza miękką hybrydę, BEV pojazd akumulatorowy, a EREV bywa używane dla pojazdu elektrycznego z dodatkowym wydłużaczem zasięgu; klasyfikacje rynkowe mogą się nakładać."
     },
     {
       "subcategory": "Dyplomacja",
@@ -723,14 +683,12 @@
         "BA"
       ],
       "answer": "PhD",
-      "explanation_correct": "PhD to skrót od latinum Philosophiae Doctor.",
-      "explanation_incorrect": "MD oznacza doktora medycyny, a MSc i BA to stopnie magistra i licencjata.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "PhD (Philosophiae Doctor) jest stopniem doktora w wielu dziedzinach nauki, nie tylko w filozofii.",
+      "explanation_incorrect": "MD odnosi się do medycyny, a MSc i BA to inne kwalifikacje; nazwy i status stopni różnią się między krajami."
     },
     {
       "subcategory": "Informatyka",
-      "question": "Jaki skrót oznacza ujednolicony format adresu strony internetowej?",
+      "question": "Który skrót oznacza Uniform Resource Locator, czyli lokalizator zasobu w internecie?",
       "options": [
         "URL",
         "URI",
@@ -739,9 +697,7 @@
       ],
       "answer": "URL",
       "explanation_correct": "URL to Uniform Resource Locator, czyli lokalizator zasobów.",
-      "explanation_incorrect": "URI i URN to pojęcia pokrewne, ale technicznie odmienne od pełnego adresu URL.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "URL jest rodzajem URI; URN to inny rodzaj identyfikatora, a UML jest językiem modelowania."
     },
     {
       "subcategory": "Informatyka",
@@ -775,7 +731,7 @@
     },
     {
       "subcategory": "Informatyka",
-      "question": "Jak skrótowo określa się pamięć o dostępie swobodnym w komputerze?",
+      "question": "Który skrót pochodzi od angielskiej nazwy Random Access Memory?",
       "options": [
         "RAM",
         "ROM",
@@ -784,13 +740,11 @@
       ],
       "answer": "RAM",
       "explanation_correct": "RAM oznacza Random Access Memory.",
-      "explanation_incorrect": "ROM to pamięć tylko do odczytu, a PROM/EPROM to rodzaje pamięci nieulotnych.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "ROM, PROM i EPROM to nazwy innych rodzajów pamięci; techniczne znaczenie dostępu swobodnego nie ogranicza się wyłącznie do modułów RAM."
     },
     {
       "subcategory": "Informatyka",
-      "question": "Jaki skrót opisuje nowoczesny rodzaj dysku danych wykorzystujący pamięć flash?",
+      "question": "Który skrót oznacza dysk półprzewodnikowy, zwykle wykorzystujący pamięć flash?",
       "options": [
         "SSD",
         "HDD",
@@ -798,10 +752,8 @@
         "ODD"
       ],
       "answer": "SSD",
-      "explanation_correct": "SSD to Solid State Drive.",
-      "explanation_incorrect": "HDD to tradycyjny dysk talerzowy, FDD to stacja dyskietek, a ODD to napęd optyczny.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SSD to Solid State Drive, czyli dysk półprzewodnikowy; współczesne modele zwykle wykorzystują pamięć flash.",
+      "explanation_incorrect": "HDD to tradycyjny dysk talerzowy, FDD to stacja dyskietek, a ODD to napęd optyczny."
     },
     {
       "subcategory": "Psychologia",
@@ -835,7 +787,7 @@
     },
     {
       "subcategory": "Sygnały",
-      "question": "Jaki jest międzynarodowy, trzyznakowy sygnał wzywania pomocy?",
+      "question": "Który sygnał alarmowy w alfabecie Morse’a zapisuje się jako trzy krótkie, trzy długie i trzy krótkie sygnały?",
       "options": [
         "SOS",
         "MAYDAY",
@@ -843,10 +795,8 @@
         "TTT"
       ],
       "answer": "SOS",
-      "explanation_correct": "SOS jest uniwersalnym znakiem ratunkowym używanym w komunikacji radiowej i telegraficznej.",
-      "explanation_incorrect": "Mayday to komunikat głosowy, a TTT i PAN to mniej krytyczne sygnały komunikacyjne.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SOS jest sygnałem wzywania pomocy kojarzonym z sekwencją ···−−−···; Mayday jest głosowym sygnałem niebezpieczeństwa.",
+      "explanation_incorrect": "PAN-PAN jest głosowym sygnałem pilności, a Mayday sygnałem niebezpieczeństwa w komunikacji głosowej."
     },
     {
       "subcategory": "Lotnictwo",
@@ -940,22 +890,20 @@
     },
     {
       "subcategory": "Prawo i Administracja",
-      "question": "Jakim dwuliterowym skrótem określa się w polskim obiegu administracyjnym dokument uprawniający do kierowania pojazdami?",
+      "question": "Co oznacza skrót PKK używany w procedurze uzyskania prawa jazdy?",
       "options": [
-        "PJ",
-        "PK",
-        "DZ",
-        "RK"
+        "Profil kandydata na kierowcę",
+        "Potwierdzenie kontroli kierowcy",
+        "Powszechny kodeks kierowcy",
+        "Plan kontroli komunikacji"
       ],
-      "answer": "PJ",
-      "explanation_correct": "PJ to powszechnie stosowany skrót dla terminu Prawo Jazdy.",
-      "explanation_incorrect": "Pozostałe kombinacje liter nie oznaczają tego dokumentu w polskiej terminologii prawnej.",
-      "last_verified_at": "2026-06-12T17:16:51.250Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Profil kandydata na kierowcę",
+      "explanation_correct": "PKK to profil kandydata na kierowcę, zawierający dane osoby ubiegającej się o uprawnienia.",
+      "explanation_incorrect": "Pozostałe propozycje nie są rozwinięciem tego urzędowego skrótu."
     },
     {
       "subcategory": "Medycyna",
-      "question": "Jaki skrót opisuje zespól nabytego niedoboru odporności?",
+      "question": "Jaki skrót opisuje zespół nabytego niedoboru odporności?",
       "options": [
         "AIDS",
         "ADIS",
@@ -964,28 +912,24 @@
       ],
       "answer": "AIDS",
       "explanation_correct": "AIDS to skrót od angielskiego Acquired Immune Deficiency Syndrome, powszechnie używany w Polsce.",
-      "explanation_incorrect": "Pozostałe opcje to błędne zapisy literowe niebędące medycznymi skrótami.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe opcje to błędne zapisy literowe niebędące medycznymi skrótami."
     },
     {
       "subcategory": "Medycyna",
-      "question": "Wirus wywołujący zespół nabytego niedoboru odporności to?",
+      "question": "Jaki angielski skrót oznacza wirusa ludzkiego niedoboru odporności?",
       "options": [
         "HIV",
         "HVI",
         "IHV",
-        "VIH"
+        "AIDS"
       ],
       "answer": "HIV",
-      "explanation_correct": "HIV to skrót od Human Immunodeficiency Virus.",
-      "explanation_incorrect": "Pozostałe kombinacje nie stanowią poprawnej nazwy tego wirusa.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "HIV to Human Immunodeficiency Virus. We francuskim stosuje się również skrót VIH.",
+      "explanation_incorrect": "AIDS oznacza zespół nabytego niedoboru odporności, a nie nazwę wirusa."
     },
     {
       "subcategory": "Biznes",
-      "question": "Jak nazywamy najważniejsze stanowisko w hierarchii zarządzania spółką?",
+      "question": "Jaki angielski skrót oznacza stanowisko Chief Executive Officer?",
       "options": [
         "CEO",
         "CFO",
@@ -993,10 +937,8 @@
         "CTO"
       ],
       "answer": "CEO",
-      "explanation_correct": "CEO (Chief Executive Officer) to określenie dyrektora generalnego lub prezesa firmy.",
-      "explanation_incorrect": "Pozostałe skróty odnoszą się do innych dyrektorów funkcyjnych w przedsiębiorstwie.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "CEO to Chief Executive Officer, zwykle dyrektor generalny lub osoba kierująca firmą; struktury organizacyjne są różne.",
+      "explanation_incorrect": "Pozostałe skróty odnoszą się do innych dyrektorów funkcyjnych w przedsiębiorstwie."
     },
     {
       "subcategory": "Biznes",
@@ -1045,7 +987,7 @@
     },
     {
       "subcategory": "Informatyka",
-      "question": "Jaki dwuliterowy skrót jest obecnie używany do określenia sztucznej inteligencji?",
+      "question": "Jaki angielski skrót pochodzi od wyrażenia „artificial intelligence”?",
       "options": [
         "AI",
         "IA",
@@ -1053,10 +995,8 @@
         "IS"
       ],
       "answer": "AI",
-      "explanation_correct": "AI to akronim od angielskiego Artificial Intelligence.",
-      "explanation_incorrect": "Pozostałe skróty nie są standardowymi określeniami dla tej dziedziny informatyki.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "AI oznacza artificial intelligence. W polszczyźnie używa się także skrótu SI — sztuczna inteligencja.",
+      "explanation_incorrect": "SI jest polskim skrótem tego pojęcia; pytanie dotyczy jego angielskiego rozwinięcia."
     },
     {
       "subcategory": "Medycyna",
@@ -1075,7 +1015,7 @@
     },
     {
       "subcategory": "Gry Wideo",
-      "question": "Jak nazywamy gatunek gier oparty na odgrywaniu ról przedmiotowych?",
+      "question": "Jak nazywa się skrótowo gatunek gier polegających na odgrywaniu ról?",
       "options": [
         "RPG",
         "RGP",
@@ -1083,10 +1023,8 @@
         "PGR"
       ],
       "answer": "RPG",
-      "explanation_correct": "RPG to skrót od Role-Playing Game, czyli gry fabularnej.",
-      "explanation_incorrect": "Inne warianty literowe to przypadkowe przestawienia, które nie tworzą uznanego akronimu.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "RPG to Role-Playing Game, czyli gra fabularna lub gra polegająca na odgrywaniu ról.",
+      "explanation_incorrect": "Inne warianty literowe to przypadkowe przestawienia, które nie tworzą uznanego akronimu."
     },
     {
       "subcategory": "Gry Wideo",
@@ -1129,39 +1067,33 @@
       ],
       "answer": "Zabytek",
       "explanation_correct": "Zabytek to termin zdefiniowany w ustawie, odnoszący się do dzieł człowieka lub wytworów związanych z jego działalnością.",
-      "explanation_incorrect": "Relikwia ma charakter sakralny, pomnik to konkretny typ obiektu upamiętniającego, a dziedzictwo to pojęcie szersze, niematerialne.",
-      "last_verified_at": "2026-06-12T17:17:05.040Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Relikwia jest pojęciem religijnym, pomnik może być szczególnym rodzajem obiektu, a dziedzictwo obejmuje elementy materialne i niematerialne."
     },
     {
       "subcategory": "Materiały",
-      "question": "Jak nazywamy popularne tworzywo sztuczne o skrócie PVC?",
+      "question": "Co oznacza skrót PVC odnoszący się do tworzywa sztucznego?",
       "options": [
-        "PVC",
-        "CPV",
-        "VPC",
-        "PCV"
+        "Polichlorek winylu",
+        "Polietylen",
+        "Polipropylen",
+        "Polistyren"
       ],
-      "answer": "PVC",
-      "explanation_correct": "PVC to skrót od poli(chlorku winylu), często używany w przemyśle.",
-      "explanation_incorrect": "Pozostałe to błędne kombinacje liter niebędące poprawnymi skrótami chemicznymi.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Polichlorek winylu",
+      "explanation_correct": "PVC to polyvinyl chloride, po polsku polichlorek winylu; spotyka się też oznaczenia PCW i PCV.",
+      "explanation_incorrect": "Polietylen, polipropylen i polistyren są innymi polimerami."
     },
     {
       "subcategory": "Materiały",
-      "question": "Skrót PET oznacza rodzaj materiału będącego?",
+      "question": "Które tworzywo określa się skrótem PET?",
       "options": [
-        "PET",
-        "PTE",
-        "TPE",
-        "EPT"
+        "Poli(tereftalan etylenu)",
+        "Polichlorek winylu",
+        "Polipropylen",
+        "Polistyren"
       ],
-      "answer": "PET",
-      "explanation_correct": "PET to polietylen tereftalanu, powszechnie stosowany w produkcji opakowań.",
-      "explanation_incorrect": "Pozostałe kombinacje nie określają substancji chemicznej o tym skrócie.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Poli(tereftalan etylenu)",
+      "explanation_correct": "PET to poli(tereftalan etylenu), tworzywo stosowane m.in. w opakowaniach i włóknach.",
+      "explanation_incorrect": "Pozostałe opcje oznaczają inne polimery."
     },
     {
       "subcategory": "Kryptografia",
@@ -1180,33 +1112,29 @@
     },
     {
       "subcategory": "Ekonomia",
-      "question": "Podstawowy miernik mierzący wartość produkcji w kraju to?",
+      "question": "Co mierzy produkt krajowy brutto (PKB)?",
       "options": [
-        "PKB",
-        "PBP",
-        "KBP",
-        "BK P"
+        "Wartość finalnych dóbr i usług wytworzonych w gospodarce w danym okresie",
+        "Liczbę mieszkańców kraju",
+        "Łączną powierzchnię kraju",
+        "Wysokość pojedynczej pensji"
       ],
-      "answer": "PKB",
-      "explanation_correct": "PKB (Produkt Krajowy Brutto) to miara aktywności ekonomicznej kraju.",
-      "explanation_incorrect": "Pozostałe warianty literowe nie odnoszą się do żadnego standardowego wskaźnika ekonomicznego.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wartość finalnych dóbr i usług wytworzonych w gospodarce w danym okresie",
+      "explanation_correct": "PKB mierzy wartość finalnej produkcji gospodarki w danym okresie. W ujęciu produkcyjnym to suma wartości dodanej brutto, powiększona o podatki od produktów i pomniejszona o dotacje do produktów.",
+      "explanation_incorrect": "Liczba mieszkańców, powierzchnia i pojedyncza pensja nie są definicją PKB."
     },
     {
       "subcategory": "Ekonomia",
-      "question": "Skrót VAT w ekonomii dotyczy podatku od?",
+      "question": "Jakiego podatku dotyczy angielski skrót VAT?",
       "options": [
-        "VAT",
-        "VTA",
-        "TAV",
-        "TVA"
+        "Podatku od wartości dodanej",
+        "Podatku od nieruchomości",
+        "Podatku od spadków",
+        "Podatku pogłównego"
       ],
-      "answer": "VAT",
-      "explanation_correct": "VAT to Value Added Tax, czyli podatek od wartości dodanej.",
-      "explanation_incorrect": "Pozostałe opcje to nieprawidłowe zapisy akronimu tego powszechnego podatku.",
-      "last_verified_at": "2026-06-12T17:16:51.251Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Podatku od wartości dodanej",
+      "explanation_correct": "VAT oznacza Value Added Tax, czyli podatek od wartości dodanej.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne kategorie podatków; TVA jest wariantem skrótu w niektórych językach."
     },
     {
       "subcategory": "Egzotyczne skróty IT",
@@ -1264,9 +1192,7 @@
       ],
       "answer": "IATA",
       "explanation_correct": "IATA to skrót od International Air Transport Association, organizacji zrzeszającej linie lotnicze.",
-      "explanation_incorrect": "Pozostałe skróty odnoszą się do innych organizacji lotniczych (IATA to stowarzyszenie przewoźników, nie agencja regulacyjna jak EASA czy ICAO).",
-      "last_verified_at": "2026-06-12T17:17:21.731Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "ICAO jest organizacją międzypaństwową lotnictwa cywilnego, EASA agencją UE, a FAA amerykańską administracją lotniczą."
     },
     {
       "subcategory": "Finanse",
@@ -1278,10 +1204,8 @@
         "Funt"
       ],
       "answer": "Euro",
-      "explanation_correct": "Euro jest oficjalną walutą większości państw UE, a jej znak odnosi się do greckiej litery epsilon.",
-      "explanation_incorrect": "Ecu była przedwalutą, natomiast Dolar i Funt to waluty innych regionów świata.",
-      "last_verified_at": "2026-06-12T17:17:21.731Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Euro jest walutą państw strefy euro; graficzny znak € nawiązuje m.in. do greckiej litery epsilon.",
+      "explanation_incorrect": "ECU była europejską jednostką walutową; dolar i funt mają inne symbole i zastosowania."
     },
     {
       "subcategory": "Chemia",
@@ -1375,7 +1299,7 @@
     },
     {
       "subcategory": "Astronomia",
-      "question": "Co jest skrótem polskiej agencji rządowej zajmującej się badaniami kosmicznymi?",
+      "question": "Jaki skrót oznacza Polską Agencję Kosmiczną?",
       "options": [
         "POLSA",
         "PAN",
@@ -1383,10 +1307,8 @@
         "NASA"
       ],
       "answer": "POLSA",
-      "explanation_correct": "Polska Agencja Kosmiczna (POLSA) zajmuje się wspieraniem sektora kosmicznego w Polsce.",
-      "explanation_incorrect": "PAN to Polska Akademia Nauk, natomiast ESA i NASA to organizacje europejskie i amerykańskie.",
-      "last_verified_at": "2026-06-12T17:17:21.731Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "POLSA to skrót Polskiej Agencji Kosmicznej, która wspiera rozwój polskiego sektora kosmicznego.",
+      "explanation_incorrect": "PAN jest akademią nauk, ESA europejską agencją kosmiczną, a NASA agencją Stanów Zjednoczonych."
     },
     {
       "subcategory": "Polityka",
@@ -1399,9 +1321,7 @@
       ],
       "answer": "CIA",
       "explanation_correct": "Central Intelligence Agency (CIA) jest głównym amerykańskim cywilnym wywiadem zagranicznym.",
-      "explanation_incorrect": "NSA, DEA i FBI to służby amerykańskie o zupełnie innych zadaniach niż wywiad zagraniczny.",
-      "last_verified_at": "2026-06-12T17:17:21.731Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "NSA, DEA i FBI mają inne podstawowe zadania; zakresy działań służb mogą się częściowo nakładać."
     },
     {
       "subcategory": "Polityka",
@@ -1420,7 +1340,7 @@
     },
     {
       "subcategory": "Polityka",
-      "question": "Jaki jest potoczny akronim izraelskiego Instytutu Wywiadu i Zadań Specjalnych?",
+      "question": "Jak nazywa się izraelska agencja wywiadu zagranicznego?",
       "options": [
         "Mosad",
         "Shin Bet",
@@ -1428,10 +1348,8 @@
         "IDF"
       ],
       "answer": "Mosad",
-      "explanation_correct": "Mosad to powszechna nazwa izraelskiej agencji odpowiedzialnej za wywiad zagraniczny.",
-      "explanation_incorrect": "Shin Bet i Aman to inne izraelskie służby, a IDF to siły obronne, nie agencja wywiadowcza.",
-      "last_verified_at": "2026-06-12T17:17:21.732Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mosad jest powszechną nazwą izraelskiej instytucji wywiadowczej; nazwa jest słowem hebrajskim, nie typowym akronimem.",
+      "explanation_incorrect": "Szin Bet i Aman są innymi służbami, a IDF oznacza izraelskie siły zbrojne."
     },
     {
       "subcategory": "Medycyna",
@@ -1443,10 +1361,8 @@
         "ECHO"
       ],
       "answer": "EKG",
-      "explanation_correct": "Elektrokardiogram (EKG) służy do rejestracji pracy serca.",
-      "explanation_incorrect": "EEG bada prace mózgu, EMG mięśnie, a ECHO to badanie ultrasonograficzne serca.",
-      "last_verified_at": "2026-06-12T17:17:21.732Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elektrokardiografia (EKG) rejestruje elektryczną czynność serca; elektrokardiogram jest zapisem tego badania.",
+      "explanation_incorrect": "EEG rejestruje aktywność mózgu, EMG bada czynność mięśni, a echo serca wykorzystuje ultradźwięki."
     },
     {
       "subcategory": "Medycyna",
@@ -1465,7 +1381,7 @@
     },
     {
       "subcategory": "Informatyka",
-      "question": "Jaki skrót opisuje jeden ze standardowych protokołów przesyłania plików w sieciach komputerowych?",
+      "question": "Który skrót rozwija się jako File Transfer Protocol?",
       "options": [
         "FTP",
         "SMTP",
@@ -1474,9 +1390,7 @@
       ],
       "answer": "FTP",
       "explanation_correct": "File Transfer Protocol (FTP) jest protokołem służącym do przesyłania danych między serwerem a klientem.",
-      "explanation_incorrect": "SMTP obsługuje pocztę, HTTP strony www, a POP3 to inny protokół pocztowy.",
-      "last_verified_at": "2026-06-12T17:17:21.732Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "HTTP także może służyć do przesyłania plików; SMTP i POP3 dotyczą poczty. FTP jest rozwinięciem File Transfer Protocol."
     },
     {
       "subcategory": "Informatyka",
@@ -1504,9 +1418,7 @@
       ],
       "answer": "SQL",
       "explanation_correct": "Structured Query Language (SQL) jest standardem służącym do komunikacji z relacyjnymi bazami danych.",
-      "explanation_incorrect": "NoSQL to brak relacyjności, a XML i JSON to formaty zapisu danych, nie języki zapytań.",
-      "last_verified_at": "2026-06-12T17:17:21.732Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "NoSQL obejmuje różne nierelacyjne lub nie wyłącznie relacyjne systemy baz danych; XML i JSON to formaty danych."
     }
   ]
 }

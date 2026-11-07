@@ -15,13 +15,11 @@
         "abiogeneza",
         "panspermia",
         "biogeneza",
-        "egzogeneza"
+        "fotosynteza"
       ],
       "answer": "panspermia",
-      "explanation_correct": "Panspermia sugeruje, że prebiotyczne składniki lub mikroorganizmy mogą przetrwać podróż międzygwiezdną.",
-      "explanation_incorrect": "Abiogeneza to powstanie życia z materii nieożywionej na miejscu, a egzogeneza to wariant panspermii skupiony na samych związkach organicznych.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Panspermia to hipoteza, że życie lub jego zaczątki mogły zostać przeniesione między światami. Nie potwierdzono jej jako wyjaśnienia pochodzenia życia na Ziemi.",
+      "explanation_incorrect": "Abiogeneza dotyczy powstania życia z materii nieożywionej; niektóre wersje panspermii dopuszczają naturalny transport."
     },
     {
       "subcategory": "Egzoplanety",
@@ -33,10 +31,8 @@
         "Proxima Centauri"
       ],
       "answer": "TRAPPIST-1",
-      "explanation_correct": "TRAPPIST-1 to system odkryty w 2016 roku, w którym aż trzy planety znajdują się w ekosferze.",
-      "explanation_incorrect": "Kepler-186 był pierwszym systemem z odkrytą planetą wielkości Ziemi w ekosferze, ale nie posiada siedmiu planet skalistych.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W układzie TRAPPIST-1 znamy siedem planet wielkości Ziemi; trzy są zwykle zaliczane do strefy zamieszkiwalnej. Nie dowodzi to istnienia na nich ciekłej wody ani życia.",
+      "explanation_incorrect": "Kepler-186f także znajduje się w strefie zamieszkiwalnej swojej gwiazdy; pytanie wskazuje układ siedmiu planet."
     },
     {
       "subcategory": "Futurologia",
@@ -48,14 +44,12 @@
         "Cylinder O'Neilla"
       ],
       "answer": "Sfera Dysona",
-      "explanation_correct": "Sfera Dysona to koncepcja Freeman'a Dysona opisująca instalacje energetyczne budowane przez cywilizacje typu II.",
-      "explanation_incorrect": "Cylinder O'Neilla to projekt kolonii kosmicznej, a Pierścień Nivena to węższa, wstęgowa forma megastruktury wokół gwiazdy.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sfera Dysona to hipotetyczna rodzina konstrukcji zbierających znaczną część energii gwiazdy; koncepcja może przyjmować formę roju, nie tylko litej powłoki.",
+      "explanation_incorrect": "Cylinder O'Neilla to projekt kolonii kosmicznej, a Pierścień Nivena to węższa, wstęgowa forma megastruktury wokół gwiazdy."
     },
     {
       "subcategory": "Mechanika nieba",
-      "question": "Jak nazywają się punkty w układzie dwóch ciał niebieskich, w których siły grawitacyjne pozwalają na pozostanie obiektu w stałym położeniu względem nich?",
+      "question": "Jak nazywają się punkty równowagi w obracającym się układzie odniesienia dwóch ciał, w których niewielki obiekt może zachować stałe położenie względem nich?",
       "options": [
         "punkty Lagrange'a",
         "punkty Keplera",
@@ -63,10 +57,8 @@
         "punkty Fermiego"
       ],
       "answer": "punkty Lagrange'a",
-      "explanation_correct": "W każdym układzie dwóch ciał istnieje pięć takich punktów, oznaczanych od L1 do L5.",
-      "explanation_incorrect": "Prawa Keplera opisują ruch planet, ale nie definiują konkretnych punktów stabilności grawitacyjnej.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W idealizowanym kołowym zagadnieniu trzech ciał jest pięć punktów Lagrange’a. Ich stabilność nie jest jednakowa; obiekty przy L1 i L2 zazwyczaj wymagają korekt orbity.",
+      "explanation_incorrect": "Prawa Keplera opisują ruch planet, ale nie definiują konkretnych punktów stabilności grawitacyjnej."
     },
     {
       "subcategory": "Historia technologii",
@@ -100,22 +92,20 @@
     },
     {
       "subcategory": "Fizyka teoretyczna",
-      "question": "Jak w fizyce teoretycznej nazywa się hipotetyczne połączenie między dwoma obszarami czasoprzestrzeni, znane potocznie jako tunel czasoprzestrzenny?",
+      "question": "Jak nazywa się klasyczne rozwiązanie ogólnej teorii względności opisujące nieprzechodni most między obszarami czasoprzestrzeni?",
       "options": [
-        "horyzont zdarzeń",
-        "most Einsteina-Rosena",
-        "osobliwość Penrose'a",
-        "promieniowanie Hawkinga"
+        "most Einsteina–Rosena",
+        "promieniowanie Hawkinga",
+        "foton",
+        "stała Plancka"
       ],
-      "answer": "most Einsteina-Rosena",
-      "explanation_correct": "Jest to rozwiązanie równań ogólnej teorii względności pozwalające na teoretyczne skróty w przestrzeni.",
-      "explanation_incorrect": "Horyzont zdarzeń to granica czarnej dziury, a nie tunel łączący różne punkty wszechświata.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "most Einsteina–Rosena",
+      "explanation_correct": "Most Einsteina–Rosena jest przykładem konstrukcji opisywanej jako tunel czasoprzestrzenny. Klasyczny most nie jest przechodnim skrótem dla podróżnika.",
+      "explanation_incorrect": "Nie wykazano istnienia przechodnich tuneli; pozostałe odpowiedzi oznaczają inne pojęcia fizyczne."
     },
     {
       "subcategory": "Eksploracja Marsa",
-      "question": "Która formacja geologiczna na Marsie jest uznawana za najwyższy wygasły wulkan w całym Układzie Słonecznym?",
+      "question": "Który marsjański wulkan tarczowy należy do najwyższych znanych wulkanów w Układzie Słonecznym?",
       "options": [
         "Mauna Kea",
         "Ascraeus Mons",
@@ -123,14 +113,12 @@
         "Tharsis Regio"
       ],
       "answer": "Olympus Mons",
-      "explanation_correct": "Olympus Mons wznosi się na wysokość około 21 kilometrów nad średni poziom powierzchni Marsa.",
-      "explanation_incorrect": "Mauna Kea znajduje się na Ziemi, a Tharsis Regio to płaskowyż, na którym leży kilka wulkanów.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Olympus Mons wznosi się na około 21 km nad otaczający go obszar. Nie obserwowano jego współczesnej erupcji; ostateczny stan aktywności marsjańskich wulkanów pozostaje przedmiotem badań.",
+      "explanation_incorrect": "Mauna Kea znajduje się na Ziemi, a Tharsis Regio to płaskowyż, na którym leży kilka wulkanów."
     },
     {
       "subcategory": "Sztuczna inteligencja",
-      "question": "Jakim terminem określa się moment w rozwoju cywilizacji, w którym postęp techniczny i sztuczna inteligencja wymkną się spod kontroli ludzi?",
+      "question": "Jak nazywa się hipotetyczny punkt, po którym tempo rozwoju technologii staje się trudne do przewidzenia?",
       "options": [
         "osobliwość technologiczna",
         "punkt krytyczny",
@@ -138,10 +126,8 @@
         "paradoks wielkiego filtra"
       ],
       "answer": "osobliwość technologiczna",
-      "explanation_correct": "Koncepcja ta zakłada, że nadludzka inteligencja zacznie ulepszać się sama w tempie niemożliwym do przewidzenia.",
-      "explanation_incorrect": "Transhumanizm to ruch dążący do ulepszenia człowieka, a nie konkretny moment technologicznego przełomu.",
-      "last_verified_at": "2026-06-12T15:12:10.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Osobliwość technologiczna jest spekulacyjną koncepcją gwałtownej zmiany, często wiązaną z rozwojem sztucznej inteligencji; jej wystąpienie nie jest ustalone.",
+      "explanation_incorrect": "Transhumanizm to ruch dążący do ulepszenia człowieka, a nie konkretny moment technologicznego przełomu."
     },
     {
       "subcategory": "Kosmologia",
@@ -153,10 +139,8 @@
         "ciemna energia"
       ],
       "answer": "ciemna materia",
-      "explanation_correct": "Ciemna materia stanowi około 27% gęstości masowo-energetycznej Wszechświata.",
-      "explanation_incorrect": "Ciemna energia odpowiada za przyspieszoną ekspansję wszechświata, a nie za masę skupioną w galaktykach.",
-      "last_verified_at": "2026-06-12T15:12:10.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ciemną materię wnioskuje się m.in. z jej wpływu grawitacyjnego na galaktyki i soczewkowanie. Jej natura pozostaje nieznana; według standardowego modelu kosmologicznego stanowi około jednej czwartej całkowitej zawartości masowo-energetycznej kosmosu.",
+      "explanation_incorrect": "Ciemna energia odpowiada za przyspieszoną ekspansję wszechświata, a nie za masę skupioną w galaktykach."
     },
     {
       "subcategory": "Literatura Science-Fiction",
@@ -175,7 +159,7 @@
     },
     {
       "subcategory": "Astroforyka",
-      "question": "Jak nazywa się granica wokół czarnej dziury, po której przekroczeniu prędkość ucieczki przewyższa prędkość światła?",
+      "question": "Jak nazywa się granica czarnej dziury, zza której sygnał świetlny nie może dotrzeć do odległego obserwatora?",
       "options": [
         "strefa grawitacyjna",
         "horyzont zdarzeń",
@@ -183,10 +167,8 @@
         "promień Schwarzschilda"
       ],
       "answer": "horyzont zdarzeń",
-      "explanation_correct": "Wszystko, co znajdzie się za horyzontem zdarzeń, zostaje nieodwołalnie wciągnięte do osobliwości.",
-      "explanation_incorrect": "Ergosfera znajduje się na zewnątrz horyzontu zdarzeń wirującej czarnej dziury i technicznie pozwala jeszcze na ucieczkę.",
-      "last_verified_at": "2026-06-12T15:12:10.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Horyzont zdarzeń jest granicą przyczynową oddzielającą obszar, z którego sygnały nie mogą dotrzeć do dalekiego obserwatora.",
+      "explanation_incorrect": "Ergosfera znajduje się na zewnątrz horyzontu wirującej czarnej dziury; promień Schwarzschilda jest długością opisującą horyzont w szczególnym modelu niewirującej czarnej dziury."
     },
     {
       "subcategory": "Geologia księżycowa",
@@ -205,7 +187,7 @@
     },
     {
       "subcategory": "Transhumanizm",
-      "question": "Która koncepcja zakłada skopiowanie danych zawartych w ludzkim mózgu do postaci cyfrowej, umożliwiając życie po śmierci biologicznej?",
+      "question": "Jak nazywa się spekulacyjna koncepcja odtworzenia ludzkiego umysłu w systemie komputerowym?",
       "options": [
         "transfer umysłu",
         "krioanabioza",
@@ -213,10 +195,8 @@
         "hibernacja cyfrowa"
       ],
       "answer": "transfer umysłu",
-      "explanation_correct": "Mind uploading polega na emulacji całego mózgu na komputerze o odpowiedniej mocy obliczeniowej.",
-      "explanation_incorrect": "Krioanabioza polega na zamrażaniu ciała, co jest procesem biologicznym, a nie cyfrowym.",
-      "last_verified_at": "2026-06-12T15:12:10.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Transfer umysłu (mind uploading) zakładałby cyfrowe odtworzenie procesów związanych z umysłem. Nie wykazano możliwości takiego przeniesienia ani zachowania świadomości po śmierci.",
+      "explanation_incorrect": "Krioanabioza jest określeniem hipotetycznego przywrócenia po głębokim ochłodzeniu, a nie cyfrowego odtworzenia umysłu; nie wykazano możliwości przywrócenia w ten sposób zmarłej osoby."
     },
     {
       "subcategory": "Paradoksy kosmiczne",
@@ -235,7 +215,7 @@
     },
     {
       "subcategory": "Kosmologia",
-      "question": "Jak nazywa się proces gwałtownego, wykładniczego rozszerzenia się wczesnego Wszechświata tuż po Wielkim Wybuchu?",
+      "question": "Jak nazywa się hipotetyczny etap bardzo szybkiej ekspansji we wczesnym Wszechświecie?",
       "options": [
         "jonizacja",
         "osobliwość początkowa",
@@ -243,10 +223,8 @@
         "rekombinacja"
       ],
       "answer": "inflacja kosmologiczna",
-      "explanation_correct": "Teoria inflacji wyjaśnia jednorodność mikrofalowego promieniowania tła we wszechświecie.",
-      "explanation_incorrect": "Rekombinacja to późniejszy etap, w którym powstały pierwsze neutralne atomy wodoru.",
-      "last_verified_at": "2026-06-12T15:12:10.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Inflacja kosmologiczna jest hipotetycznym etapem gwałtownej ekspansji, proponowanym m.in. jako wyjaśnienie dużej jednorodności obserwowanego Wszechświata.",
+      "explanation_incorrect": "Rekombinacja to późniejszy etap, w którym powstały pierwsze neutralne atomy wodoru."
     },
     {
       "subcategory": "Eksploracja kosmosu",
@@ -258,14 +236,12 @@
         "Virgin Galactic"
       ],
       "answer": "SpaceX",
-      "explanation_correct": "Misja Demo-2 firmy SpaceX w 2020 roku zakończyła monopol agencji państwowych na loty załogowe.",
-      "explanation_incorrect": "Blue Origin i Virgin Galactic skupiają się głównie na lotach suborbitalnych i turystyce, a nie misjach na ISS.",
-      "last_verified_at": "2026-06-12T15:12:10.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Załogowy lot Demo-2 firmy SpaceX dotarł do ISS w 2020 roku; był pierwszą załogową misją komercyjnego statku do tej stacji.",
+      "explanation_incorrect": "Blue Origin i Virgin Galactic wykonują loty suborbitalne; załogowy Starliner Boeinga dotarł do ISS później."
     },
     {
       "subcategory": "Mechanika nieba",
-      "question": "Jak nazywa się odległość od środka ciężkości planety, poniżej której mniejszy obiekt ulegnie zniszczeniu przez siły przypływowe?",
+      "question": "Jak nazywa się przybliżona odległość od planety, poniżej której siły pływowe mogą rozerwać satelitę utrzymywanego razem głównie przez własną grawitację?",
       "options": [
         "promień Einsteina",
         "granica Roche'a",
@@ -273,10 +249,8 @@
         "punkt Lamberta"
       ],
       "answer": "granica Roche'a",
-      "explanation_correct": "Przekroczenie tej granicy przez księżyc skutkuje jego rozpadem i często tworzeniem się pierścieni wokół planety.",
-      "explanation_incorrect": "Strefa Hill określa obszar, w którym planeta dominuje grawitacyjnie nad swoimi satelitami.",
-      "last_verified_at": "2026-06-12T15:12:10.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Granica Roche’a zależy m.in. od gęstości i właściwości obu ciał. Materiał o dużej wytrzymałości może przetrwać bliżej planety; rozpad nie jest zawsze natychmiastowy.",
+      "explanation_incorrect": "Strefa Hill określa obszar, w którym planeta dominuje grawitacyjnie nad swoimi satelitami."
     },
     {
       "subcategory": "Futurologia kosmiczna",
@@ -300,13 +274,11 @@
         "kwazar",
         "biały karzeł",
         "pulsar",
-        "magnetar"
+        "czerwona planeta"
       ],
       "answer": "pulsar",
       "explanation_correct": "Pulsary działają jak kosmiczne latarnie morskie, a ich sygnały są niezwykle precyzyjne czasowo.",
-      "explanation_incorrect": "Kwazar to aktywne jądro galaktyki zasilane przez supermasywną czarną dziurę, a nie pojedyncza gwiazda neutronowa.",
-      "last_verified_at": "2026-06-12T15:12:10.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Niektóre magnetary również są pulsarami, dlatego nie stanowią rozłącznej alternatywy. Kwazar jest aktywnym jądrem galaktyki."
     },
     {
       "subcategory": "Napędy kosmiczne",
@@ -318,10 +290,8 @@
         "napęd plazmowy"
       ],
       "answer": "napęd Alcubierre'a",
-      "explanation_correct": "Napęd Alcubierre'a to propozycja metryki czasoprzestrzeni, która pozwalałaby na podróże z prędkością nadświetlną bez naruszania praw fizyki lokalnej.",
-      "explanation_incorrect": "Pozostałe napędy opierają się na odrzucie materii lub energii i nie zaginają czasoprzestrzeni w celu skrócenia podróży.",
-      "last_verified_at": "2026-06-12T15:12:10.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Metryka Alcubierre’a to matematyczna propozycja rozwiązania równań ogólnej teorii względności. Jej realizacja wiąże się z nierozwiązanymi problemami, m.in. dotyczącymi wymaganej energii.",
+      "explanation_incorrect": "Napęd jonowy, fotonowy i plazmowy wykorzystują inne zasady; nie wykazano praktycznej możliwości zbudowania napędu Alcubierre’a."
     },
     {
       "subcategory": "Egzoplanetologia",
@@ -333,10 +303,8 @@
         "termosfera"
       ],
       "answer": "ekosfera",
-      "explanation_correct": "Ekosfera (strefa zamieszkiwalna) to region, gdzie temperatura pozwala na istnienie ciekłej wody, co jest kluczowe dla życia typu ziemskiego.",
-      "explanation_incorrect": "Fotosfera to widzialna warstwa gwiazdy, heliosfera to obszar dominacji wiatru gwiezdnego, a termosfera to warstwa atmosfery planetarnej.",
-      "last_verified_at": "2026-06-12T15:12:10.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Strefa zamieszkiwalna to zakres odległości, w którym na powierzchni planety mogłaby istnieć ciekła woda przy odpowiedniej atmosferze. Samo położenie w strefie nie potwierdza wody ani życia.",
+      "explanation_incorrect": "Fotosfera to widzialna warstwa gwiazdy, heliosfera to obszar dominacji wiatru gwiezdnego, a termosfera to warstwa atmosfery planetarnej."
     },
     {
       "subcategory": "Astrobiologia",
@@ -355,7 +323,7 @@
     },
     {
       "subcategory": "Astronautyka",
-      "question": "Który obiekt na orbicie ziemskiej jest największym wspólnym przedsięwzięciem badawczym wielu światowych potęg kosmicznych?",
+      "question": "Która międzynarodowa stacja orbitalna jest wspólnym programem m.in. NASA, ESA, JAXA, CSA i Roskosmosu?",
       "options": [
         "Skylab",
         "Mir",
@@ -363,14 +331,12 @@
         "Międzynarodowa Stacja Kosmiczna"
       ],
       "answer": "Międzynarodowa Stacja Kosmiczna",
-      "explanation_correct": "ISS (International Space Station) jest na stałe zamieszkana od listopada 2000 roku.",
-      "explanation_incorrect": "Mir był radziecki/rosyjski, Tiangong jest chińska, a Skylab była amerykańska.",
-      "last_verified_at": "2026-06-12T15:12:10.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ISS to międzynarodowa stacja badawcza zamieszkana nieprzerwanie od listopada 2000 roku.",
+      "explanation_incorrect": "Mir był radziecki/rosyjski, Tiangong jest chińska, a Skylab była amerykańska."
     },
     {
       "subcategory": "Fizyka teoretyczna",
-      "question": "Jak w fizyce cząstek elementarnych nazywa się nośnik siły ciążenia?",
+      "question": "Jak nazywa się hipotetyczny kwant pola grawitacyjnego w niektórych podejściach do fizyki?",
       "options": [
         "bozon Higgsa",
         "gluon",
@@ -378,10 +344,8 @@
         "foton"
       ],
       "answer": "grawiton",
-      "explanation_correct": "Choć grawiton jest przewidziany teoretycznie, do tej pory nie został zaobserwowany eksperymentalnie.",
-      "explanation_incorrect": "Foton przenosi oddziaływania elektromagnetyczne, a gluon silne jądrowe.",
-      "last_verified_at": "2026-06-12T15:12:10.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Grawiton jest hipotetyczną cząstką w niektórych kwantowych opisach grawitacji; nie został eksperymentalnie wykryty. Klasyczna ogólna teoria względności opisuje grawitację jako geometrię czasoprzestrzeni.",
+      "explanation_incorrect": "Foton przenosi oddziaływania elektromagnetyczne, a gluon silne jądrowe."
     },
     {
       "subcategory": "Geologia planetarna",
@@ -408,10 +372,8 @@
         "osobliwość techniczna"
       ],
       "answer": "superinteligencja",
-      "explanation_correct": "Superinteligencja to AI zdolna do prześcignięcia najlepszych ludzkich umysłów w niemal każdej dziedzinie, w tym kreatywności i mądrości.",
-      "explanation_incorrect": "Sieci neuronowe i uczenie maszynowe to obecne narzędzia informatyczne, a osobliwość to moment, w którym rozwój AI stanie się niekontrolowany.",
-      "last_verified_at": "2026-06-12T15:12:10.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Superinteligencja to hipotetyczna inteligencja przewyższająca ludzkie zdolności w szerokim zakresie zadań; definicje i prognozy różnią się między autorami.",
+      "explanation_incorrect": "Sieci neuronowe i uczenie maszynowe to obecne narzędzia informatyczne, a osobliwość to moment, w którym rozwój AI stanie się niekontrolowany."
     },
     {
       "subcategory": "Radioastronomia",
@@ -430,18 +392,16 @@
     },
     {
       "subcategory": "Metale w kosmosie",
-      "question": "Jak nazywa się proces pozyskiwania surowców mineralnych z mniejszych obiektów krążących w Układzie Słonecznym poza dużymi planetami?",
+      "question": "Jak nazywa się hipotetyczne pozyskiwanie surowców z planetoid?",
       "options": [
-        "eksplatacja głębinowa",
+        "eksploatacja głębinowa",
         "górnictwo asteroid",
         "ekstrakcja księżycowa",
         "rafinacja kometarna"
       ],
       "answer": "górnictwo asteroid",
-      "explanation_correct": "Górnictwo asteroid zakłada eksploatację cennych metali (np. platyny) z przelatujących blisko Ziemi planetoid.",
-      "explanation_incorrect": "Choć Księżyc też jest celem, termin górnictwo asteroid odnosi się specyficznie do obiektów skalnych zwanych planetoidami.",
-      "last_verified_at": "2026-06-12T15:12:10.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Górnictwo asteroid to proponowane wydobycie surowców z planetoid. Skala ekonomicznie opłacalnej eksploatacji i jej przyszłość pozostają niepewne.",
+      "explanation_incorrect": "Choć Księżyc też jest celem, termin górnictwo asteroid odnosi się specyficznie do obiektów skalnych zwanych planetoidami."
     },
     {
       "subcategory": "Kultura i Futurologia",
@@ -460,7 +420,7 @@
     },
     {
       "subcategory": "Kosmologia",
-      "question": "Jak nazywa się dominujący model kosmologiczny opisujący powstanie wszechświata z niezwykle gęstej i gorącej osobliwości?",
+      "question": "Który model opisuje ewolucję Wszechświata z bardzo gorącego i gęstego wczesnego stanu?",
       "options": [
         "Teoria Wielkiego Wybuchu",
         "Teoria strun",
@@ -468,14 +428,12 @@
         "Teoria panspermii"
       ],
       "answer": "Teoria Wielkiego Wybuchu",
-      "explanation_correct": "Opisuje ona ewolucję kosmosu od momentu jego powstania około 13,8 mld lat temu.",
-      "explanation_incorrect": "Teoria strun to fizyka cząstek, a panspermia dotyczy pochodzenia życia, nie wszechświata.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Model Wielkiego Wybuchu opisuje ewolucję Wszechświata od wczesnego gorącego i gęstego stanu; fizyka samego początku i ewentualnej osobliwości nie jest rozstrzygnięta.",
+      "explanation_incorrect": "Teoria strun to fizyka cząstek, a panspermia dotyczy pochodzenia życia, nie wszechświata."
     },
     {
       "subcategory": "Egzoplanetologia",
-      "question": "Która planeta spoza naszego układu jest najbliższym nam obiektem krążącym wokół gwiazdy najbliższej Słońcu?",
+      "question": "Która planeta krąży wokół Proximy Centauri, najbliższej Słońcu gwiazdy?",
       "options": [
         "Kepler-186f",
         "TRAPPIST-1e",
@@ -483,10 +441,8 @@
         "Gliese 581g"
       ],
       "answer": "Proxima Centauri b",
-      "explanation_correct": "Planeta ta znajduje się około 4,2 lat świetlnych od Ziemi i krąży w ekosferze swojej gwiazdy.",
-      "explanation_incorrect": "Inne wymienione planety znajdują się znacznie dalej od Układu Słonecznego.",
-      "last_verified_at": "2026-06-12T15:12:10.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Proxima Centauri b krąży wokół gwiazdy oddalonej o około 4,2 roku świetlnego; jej położenie w strefie zamieszkiwalnej nie dowodzi obecności wody lub życia.",
+      "explanation_incorrect": "Inne wymienione planety znajdują się znacznie dalej od Układu Słonecznego."
     },
     {
       "subcategory": "Astrofizyka",
@@ -499,13 +455,11 @@
       ],
       "answer": "mikrofalowe promieniowanie tła",
       "explanation_correct": "To promieniowanie reliktowe pochodzi z czasu, gdy Wszechświat stał się przezroczysty dla światła (ok. 380 tys. lat po powstaniu).",
-      "explanation_incorrect": "Promieniowanie X, gamma czy podczerwone jest emitowane przez konkretne obiekty astronomiczne, a nie przez całą przestrzeń.",
-      "last_verified_at": "2026-06-12T15:12:10.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "We Wszechświecie istnieją także tła innych rodzajów promieniowania; mikrofalowe promieniowanie tła jest szczególnie ważnym śladem wczesnego gorącego stanu kosmosu."
     },
     {
       "subcategory": "Futurologia kosmiczna",
-      "question": "Jak nazywa się teoretyczny system transportowy łączący powierzchnię planety z orbitą za pomocą liny z nanorurek węglowych?",
+      "question": "Jak nazywa się hipotetyczny system transportu łączący powierzchnię planety z orbitą za pomocą liny i poruszających się po niej pojazdów?",
       "options": [
         "katapulta elektromagnetyczna",
         "pętla startowa",
@@ -513,10 +467,8 @@
         "winda kosmiczna"
       ],
       "answer": "winda kosmiczna",
-      "explanation_correct": "Winda kosmiczna pozwoliłaby na wynoszenie ładunków na orbitę bez użycia silników rakietowych, dzięki przeciwwadze umieszczonej poza orbitą geostacjonarną.",
-      "explanation_incorrect": "Działa i katapulty to systemy miotające, a nie stałe konstrukcje linowe.",
-      "last_verified_at": "2026-06-12T15:12:10.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koncepcja ziemskiej windy kosmicznej wymagałaby bardzo wytrzymałej liny oraz odpowiedniego układu przeciwwagi. Żadnej takiej windy nie zbudowano.",
+      "explanation_incorrect": "Działa i katapulty to systemy miotające, a nie stałe konstrukcje linowe."
     },
     {
       "subcategory": "Eksploracja Marsa",
@@ -535,7 +487,7 @@
     },
     {
       "subcategory": "Astronomia gwiazdowa",
-      "question": "Który obiekt astronomiczny może powstać w wyniku grawitacyjnego zapadnięcia się jądra gwiazdy o masie przekraczającej trzykrotnie masę Słońca?",
+      "question": "Która pozostałość może powstać po zapadnięciu się dostatecznie masywnego jądra gwiazdy, gdy nie utrzyma się ono jako gwiazda neutronowa?",
       "options": [
         "biały karzeł",
         "gwiazda neutronowa",
@@ -543,10 +495,8 @@
         "czarna dziura"
       ],
       "answer": "czarna dziura",
-      "explanation_correct": "Gdy grawitacja pokonuje ciśnienie zdegenerowanych neutronów, powstaje obszar czasoprzestrzeni, z którego nie ucieka nawet światło.",
-      "explanation_incorrect": "Białe karły powstają z lżejszych gwiazd, a gwiazdy neutronowe z masywnych, ale mniejszych niż te tworzące czarne dziury.",
-      "last_verified_at": "2026-06-12T15:12:10.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czarna dziura może powstać w wyniku grawitacyjnego zapadnięcia się odpowiednio masywnego jądra. Wynik zależy od masy, rotacji i warunków fizycznych, a granica nie jest prostym progiem masy początkowej gwiazdy.",
+      "explanation_incorrect": "Białe karły powstają z lżejszych gwiazd, a gwiazdy neutronowe z masywnych, ale mniejszych niż te tworzące czarne dziury."
     },
     {
       "subcategory": "Inżynieria międzygwiezdna",
@@ -558,29 +508,25 @@
         "napęd pulsarowy"
       ],
       "answer": "żagiel słoneczny",
-      "explanation_correct": "Żagiel słoneczny nie wymaga paliwa, lecz wykorzystuje pęd światła gwiazdy lub laserów do stopniowego przyspieszania.",
-      "explanation_incorrect": "Silnik Halla to napęd plazmowy, a żagiel magnetyczny oddziałuje z wiatrem słonecznym (jonami), a nie światłem.",
-      "last_verified_at": "2026-06-12T15:12:10.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żagiel słoneczny wykorzystuje pęd fotonów światła słonecznego. Pokrewne koncepcje żagli mogą być napędzane wiązką lasera.",
+      "explanation_incorrect": "Silnik Halla to napęd plazmowy, a żagiel magnetyczny oddziałuje z wiatrem słonecznym (jonami), a nie światłem."
     },
     {
       "subcategory": "Biologia kosmiczna",
-      "question": "Które mikroskopijne zwierzę bezkręgowe potrafi przetrwać ekstremalne temperatury, wysokie dawki promieniowania oraz ekspozycję na próżnię kosmiczną?",
+      "question": "Które małe bezkręgowce wykazały w eksperymentach zdolność przetrwania ekspozycji na próżnię kosmiczną?",
       "options": [
-        "wrotka",
-        "pantofelek",
-        "niesporczak",
-        "nicień"
+        "niesporczaki",
+        "wróble",
+        "meduzy",
+        "słonie"
       ],
-      "answer": "niesporczak",
-      "explanation_correct": "Niesporczaki wchodzą w stan kryptobiozy, w którym ich metabolizm niemal ustaje, co pozwala im przetrwać w ekstremalnych warunkach kosmosu.",
-      "explanation_incorrect": "Pozostałe organizmy mają wysoką odporność, ale żadne z nich nie wykazuje tak ekstremalnej wytrzymałości na próżnię jak niesporczaki.",
-      "last_verified_at": "2026-06-12T15:12:10.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "niesporczaki",
+      "explanation_correct": "Niektóre niesporczaki przetrwały ekspozycję w stanie kryptobiozy. Odporność zależy od gatunku, stanu organizmu i warunków eksperymentu.",
+      "explanation_incorrect": "Inne organizmy także bywają odporne na ekstremalne warunki; pytanie dotyczy grupy wymienionej w odpowiedziach."
     },
     {
       "subcategory": "Astronomia galaktyczna",
-      "question": "Pod jaką nazwą znana jest galaktyka spiralna z poprzeczką, w której znajduje się nasze Słońce oraz wszystkie widoczne gołym okiem gwiazdy?",
+      "question": "Jak nazywa się galaktyka spiralna z poprzeczką, w której znajduje się Układ Słoneczny?",
       "options": [
         "Galaktyka Andromedy",
         "Droga Mleczna",
@@ -589,9 +535,7 @@
       ],
       "answer": "Droga Mleczna",
       "explanation_correct": "Droga Mleczna zawiera od 100 do 400 miliardów gwiazd, a Układ Słoneczny znajduje się w jednym z jej ramion spiralnych.",
-      "explanation_incorrect": "Andromeda to nasza najbliższa sąsiadka, a Obłoki Magellana to galaktyki satelitarne Drogi Mlecznej.",
-      "last_verified_at": "2026-06-12T15:12:26.709Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Andromeda jest najbliższą dużą galaktyką spiralną, lecz istnieją bliższe galaktyki karłowate, w tym Obłoki Magellana."
     },
     {
       "subcategory": "Cyberpunk i futurologia",
@@ -610,7 +554,7 @@
     },
     {
       "subcategory": "Mechanika nieba",
-      "question": "Jak fachowo nazywa się minimalna prędkość, którą musi osiągnąć obiekt, aby pokonać przyciąganie grawitacyjne ciała niebieskiego i nie spaść na jego powierzchnię?",
+      "question": "Jak nazywa się minimalna początkowa prędkość potrzebna do oddalenia się do nieskończoności od idealizowanego izolowanego ciała bez dalszego napędu?",
       "options": [
         "prędkość ucieczki",
         "prędkość orbitalna",
@@ -618,14 +562,12 @@
         "prędkość relatywistyczna"
       ],
       "answer": "prędkość ucieczki",
-      "explanation_correct": "Prędkość ucieczki (druga prędkość kosmiczna) to prędkość, przy której energia kinetyczna ciała równoważy jego energię potencjalną w polu grawitacyjnym.",
-      "explanation_incorrect": "Prędkość orbitalna pozwala utrzymać się na orbicie, a nie opuścić pole grawitacyjne planety.",
-      "last_verified_at": "2026-06-12T15:12:26.709Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Prędkość ucieczki to minimalna prędkość dla ucieczki w takim idealizowanym modelu. Nie jest konieczna do pozostawania na orbicie.",
+      "explanation_incorrect": "Prędkość orbitalna pozwala na ruch po odpowiedniej orbicie i może być niższa od prędkości ucieczki."
     },
     {
       "subcategory": "Astrobiologia",
-      "question": "Który z księżyców Jowisza jest uważany za jedno z najbardziej obiecujących miejsc w poszukiwaniu życia pozaziemskiego ze względu na lodową skorupę skrywającą ocean?",
+      "question": "Który lodowy księżyc Jowisza, będący celem misji Europa Clipper, jest uważany za potencjalne miejsce warunków sprzyjających życiu?",
       "options": [
         "Ganimedes",
         "Io",
@@ -633,10 +575,8 @@
         "Kallisto"
       ],
       "answer": "Europa",
-      "explanation_correct": "Europa posiada podlodowy ocean wody w stanie ciekłym, który jest podgrzewany przez siły pływowe Jowisza.",
-      "explanation_incorrect": "Io jest skrajnie wulkaniczny, a Ganimedes i Kallisto mają inną strukturę wewnętrzną.",
-      "last_verified_at": "2026-06-12T15:12:26.709Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pomiary wskazują, że Europa prawdopodobnie kryje ocean pod lodową skorupą; ogrzewanie pływowe może pomagać utrzymać go w stanie ciekłym. Nie wykryto tam życia.",
+      "explanation_incorrect": "Ganimedes i Kallisto również są badane jako możliwe światy oceaniczne; Io jest silnie wulkaniczny."
     },
     {
       "subcategory": "Literatura Science-Fiction",
@@ -655,7 +595,7 @@
     },
     {
       "subcategory": "Astronomia obserwacyjna",
-      "question": "Jak nazywa się największy i najbardziej zaawansowany teleskop kosmiczny NASA, pracujący głównie w podczerwieni, który rozpoczął misję operacyjną w 2022 roku?",
+      "question": "Który teleskop kosmiczny NASA, ESA i CSA rozpoczął obserwacje naukowe w 2022 roku i pracuje głównie w podczerwieni?",
       "options": [
         "Hubble",
         "Spitzer",
@@ -664,9 +604,7 @@
       ],
       "answer": "James Webb",
       "explanation_correct": "Kosmiczny Teleskop Jamesa Webba posiada zwierciadło o średnicy 6,5 metra i bada najstarsze galaktyki we wszechświecie.",
-      "explanation_incorrect": "Teleskop Hubble'a pracuje głównie w świetle widzialnym i jest znacznie starszą konstrukcją.",
-      "last_verified_at": "2026-06-12T15:12:26.709Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Teleskop Hubble'a pracuje głównie w świetle widzialnym i jest znacznie starszą konstrukcją."
     },
     {
       "subcategory": "Futurologia medyczna",
@@ -678,10 +616,8 @@
         "kriostaza"
       ],
       "answer": "krionika",
-      "explanation_correct": "Krionika to praktyka zachowywania organizmów w niskich temperaturach po śmierci, której nie należy mylić z kriogeniką.",
-      "explanation_incorrect": "Kriogenika to nauka o wytwarzaniu niskich temperatur, a hibernacja to naturalne spowolnienie procesów życiowych.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krionika polega na niskotemperaturowym przechowywaniu po stwierdzeniu śmierci, z nadzieją na przyszłe przywrócenie. Nie wykazano możliwości przywrócenia ludzi do życia tą metodą.",
+      "explanation_incorrect": "Kriogenika to nauka o wytwarzaniu niskich temperatur, a hibernacja to naturalne spowolnienie procesów życiowych."
     },
     {
       "subcategory": "Kosmologia",
@@ -693,10 +629,8 @@
         "Wielkie Odbicie"
       ],
       "answer": "Wielki Chłód",
-      "explanation_correct": "Wielki Chłód (Big Freeze) zakłada, że wszechświat będzie się rozszerzał w nieskończoność, aż wyczerpie się energia do podtrzymywania procesów gwiazdotwórczych.",
-      "explanation_incorrect": "Wielki Kolaps to scenariusz zapadnięcia się wszechświata, a Wielkie Rozdarcie zakłada rozerwanie samej czasoprzestrzeni.",
-      "last_verified_at": "2026-06-12T15:12:26.709Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wielki Chłód to scenariusz dalszej ekspansji i rozrzedzania kosmosu, w którym stopniowo maleją możliwości podtrzymania procesów tworzących gwiazdy.",
+      "explanation_incorrect": "Wielki Kolaps zakłada kurczenie się Wszechświata, a Wielkie Rozdarcie jest odrębnym hipotetycznym scenariuszem rozpadu struktur."
     },
     {
       "subcategory": "Astronomia gwiazdowa",
@@ -723,10 +657,8 @@
         "Planeta ktoniczna"
       ],
       "answer": "Planeta okołobinarna",
-      "explanation_correct": "Planety okołobinarne (Circumbinary planets) krążą wokół wspólnego środka masy dwóch gwiazd, podobnie jak fikcyjna Tatooine.",
-      "explanation_incorrect": "Planety trojańskie dzielą orbitę z inną planetą, a ktoniczne to jądra dawnych gazowych olbrzymów.",
-      "last_verified_at": "2026-06-12T15:12:26.710Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Planeta okołobinarna okrąża obie gwiazdy układu podwójnego; Tatooine jest przykładem fikcyjnym.",
+      "explanation_incorrect": "Planety trojańskie dzielą orbitę z inną planetą, a ktoniczne to jądra dawnych gazowych olbrzymów."
     },
     {
       "subcategory": "Futurologia kosmiczna",
@@ -805,7 +737,7 @@
     },
     {
       "subcategory": "Futurologia",
-      "question": "Jak nazywa się hipotetyczne urządzenia zdolne do samopowielania się przy użyciu surowców znalezionych w kosmosie, co pozwoliłoby im skolonizować całą galaktykę?",
+      "question": "Jak nazywają się hipotetyczne sondy kosmiczne zdolne do samopowielania z lokalnie pozyskanych surowców?",
       "options": [
         "Sondy von Neumanna",
         "Maszyny Turinga",
@@ -813,10 +745,8 @@
         "Statki Heinsberga"
       ],
       "answer": "Sondy von Neumanna",
-      "explanation_correct": "Koncepcja automatów zdolnych do reprodukcji została sformułowana przez matematyka Johna von Neumanna.",
-      "explanation_incorrect": "Maszyny Turinga to abstrakcyjne modele obliczeniowe, a nie fizyczne systemy do eksploracji kosmosu.",
-      "last_verified_at": "2026-06-12T15:12:26.710Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sondy von Neumanna są spekulacyjnym zastosowaniem idei samoreplikujących automatów do eksploracji kosmosu. Nie wykazano możliwości zbudowania takiej sondy.",
+      "explanation_incorrect": "Maszyny Turinga to abstrakcyjne modele obliczeniowe, a nie fizyczne systemy do eksploracji kosmosu."
     },
     {
       "subcategory": "Eksploracja Marsa",
@@ -843,10 +773,8 @@
         "Gluony"
       ],
       "answer": "Tachiony",
-      "explanation_correct": "Tachiony to obiekty, których masa spoczynkowa byłaby liczbą urojoną, a ich istnienie naruszałoby zasadę przyczynowości.",
-      "explanation_incorrect": "Neutrina mają masę zbliżoną do zera, ale poruszają się z prędkością mniejszą (choć bardzo bliską) światłu.",
-      "last_verified_at": "2026-06-12T15:12:26.711Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tachiony to hipotetyczne cząstki szybsze od światła; ich istnienia nie potwierdzono. Ich opis wiąże się z trudnościami interpretacyjnymi, w tym przyczynowością.",
+      "explanation_incorrect": "Neutrina mają masę zbliżoną do zera, ale poruszają się z prędkością mniejszą (choć bardzo bliską) światłu."
     },
     {
       "subcategory": "Astronomia galaktyczna",
@@ -858,10 +786,8 @@
         "Galaktyka Sombrero"
       ],
       "answer": "Galaktyka Andromedy",
-      "explanation_correct": "Galaktyka Andromedy (M31) zbliża się do Drogi Mlecznej i za około 4,5 miliarda lat dojdzie do ich kolizji.",
-      "explanation_incorrect": "Obłoki Magellana to znacznie mniejsze galaktyki karłowate, będące satelitami naszej galaktyki.",
-      "last_verified_at": "2026-06-12T15:12:26.711Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Andromeda zbliża się do Drogi Mlecznej, lecz ich przyszła kolizja nie jest pewna. Analiza przedstawiona przez NASA w 2025 roku wskazała około 50% szans połączenia w ciągu 10 miliardów lat.",
+      "explanation_incorrect": "Obłoki Magellana to znacznie mniejsze galaktyki karłowate, będące satelitami naszej galaktyki."
     },
     {
       "subcategory": "Historia techniki",
@@ -888,10 +814,8 @@
         "Precesja orbitalna"
       ],
       "answer": "Dylatacja czasu",
-      "explanation_correct": "Zjawisko to jest przewidziane przez szczególną teorię względności Einsteina i potwierdzone np. przez zegary na satelitach GPS.",
-      "explanation_incorrect": "Kontrakcja długości dotyczy skracania się wymiarów obiektu w kierunku ruchu.",
-      "last_verified_at": "2026-06-12T15:12:26.711Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dylatacja czasu wynika ze szczególnej teorii względności. W działaniu GPS uwzględnia się zarówno efekty związane z ruchem, jak i różnicą pola grawitacyjnego.",
+      "explanation_incorrect": "Kontrakcja długości dotyczy skracania się wymiarów obiektu w kierunku ruchu."
     },
     {
       "subcategory": "Literatura Science-Fiction",
@@ -948,10 +872,8 @@
         "Hipoteza rzadkiej Ziemi"
       ],
       "answer": "Ukierunkowana panspermia",
-      "explanation_correct": "Ukierunkowana panspermia zakłada celowe rozsianie 'zarodników' życia w kosmosie, m.in. przez Francisa Cricka.",
-      "explanation_incorrect": "Standardowa panspermia zakłada naturalny transport mikroorganizmów, a abiogeneza to powstanie życia z materii nieorganicznej.",
-      "last_verified_at": "2026-06-12T15:12:26.712Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ukierunkowana panspermia zakłada celowe wysłanie życia przez inną cywilizację. Hipotezę rozważali Francis Crick i Leslie Orgel; nie jest ona potwierdzona.",
+      "explanation_incorrect": "Panspermia może zakładać transport naturalny lub celowy; abiogeneza dotyczy powstania życia z materii nieożywionej."
     },
     {
       "subcategory": "Astronomia gwiazdowa",
@@ -978,10 +900,8 @@
         "Złoty pył"
       ],
       "answer": "Szara maź",
-      "explanation_correct": "Szara maź (grey goo) to termin wprowadzony przez Erica Drexlera na określenie niekontrolowanej autokomplikacji nanomaszyn.",
-      "explanation_incorrect": "Pozostałe nazwy nie są związane z kanonicznymi terminami zagrożeń nanotechnologicznych w literaturze naukowej.",
-      "last_verified_at": "2026-06-12T15:12:26.712Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szara maź (grey goo) to hipotetyczny scenariusz niekontrolowanej samoreplikacji nanomaszyn, omawiany m.in. przez Erica Drexlera. Nie jest zaobserwowanym zjawiskiem.",
+      "explanation_incorrect": "Pozostałe nazwy nie są związane z kanonicznymi terminami zagrożeń nanotechnologicznych w literaturze naukowej."
     },
     {
       "subcategory": "Eksploracja kosmosu",
@@ -994,9 +914,7 @@
       ],
       "answer": "Lem",
       "explanation_correct": "Lem był pierwszym polskim satelitą naukowym, którego zadaniem jest badanie pulsacji najjaśniejszych gwiazd.",
-      "explanation_incorrect": "Heweliusz to drugi polski satelita BRITE, natomiast Kopernik i Twardowski to nazwy innych polskich misji lub projektów.",
-      "last_verified_at": "2026-06-12T15:12:26.712Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Heweliusz był drugim polskim satelitą naukowym BRITE; pozostałe odpowiedzi nie są nazwą pierwszego satelity tej serii."
     },
     {
       "subcategory": "Planetologia",
@@ -1030,7 +948,7 @@
     },
     {
       "subcategory": "Przemysł kosmiczny",
-      "question": "Który statek kosmiczny, wyprodukowany przez firmę SpaceX, był pierwszym w historii pojazdem komercyjnym, który połączył się z Międzynarodową Stacją Kosmiczną?",
+      "question": "Która kapsuła SpaceX w 2012 roku została pierwszym komercyjnym statkiem dostarczającym ładunek i przyłączonym do ISS?",
       "options": [
         "Falcon",
         "Starliner",
@@ -1038,10 +956,8 @@
         "Orion"
       ],
       "answer": "Dragon",
-      "explanation_correct": "Kapsuła Dragon dokonała historycznego połączenia z ISS w maju 2012 roku w ramach misji COTS 2.",
-      "explanation_incorrect": "Falcon to rodzina rakiet nośnych, Starliner to pojazd Boeinga, a Orion to statek NASA do lotów dalekiego zasięgu.",
-      "last_verified_at": "2026-06-12T15:12:26.712Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dragon w misji COTS 2 został schwytany przez ramię robotyczne i przyłączony do ISS w maju 2012 roku. Jest to inne podejście techniczne niż samodzielne dokowanie.",
+      "explanation_incorrect": "Falcon to rodzina rakiet nośnych, Starliner to pojazd Boeinga, a Orion to statek NASA do lotów dalekiego zasięgu."
     },
     {
       "subcategory": "Literatura Science-Fiction",
@@ -1084,9 +1000,7 @@
       ],
       "answer": "Asysta grawitacyjna",
       "explanation_correct": "Dzięki temu manewrowi sondy takie jak Voyager czy Cassini mogły osiągnąć ogromne prędkości bez gigantycznych zapasów paliwa.",
-      "explanation_incorrect": "Transfer Hohmanna to ekonomiczna zmiana orbity za pomocą silników.",
-      "last_verified_at": "2026-06-12T15:12:26.713Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Transfer Hohmanna to manewr orbitalny pomiędzy orbitami, często realizowany dwoma impulsami; asysta grawitacyjna wykorzystuje ruch i grawitację ciała niebieskiego."
     },
     {
       "subcategory": "Hipotetyczne konstrukcje",
@@ -1105,7 +1019,7 @@
     },
     {
       "subcategory": "Fizyka cząstek",
-      "question": "Która cząstka elementarna, odkryta w 2012 roku, odpowiada za mechanizm nadawania masy innym cząstkom we wczesnym wszechświecie?",
+      "question": "Który bozon związany z polem Higgsa odkryto w CERN w 2012 roku?",
       "options": [
         "Foton",
         "Bożon Higgsa",
@@ -1113,14 +1027,12 @@
         "Gluon"
       ],
       "answer": "Bożon Higgsa",
-      "explanation_correct": "Bożon Higgsa jest manifestacją pola Higgsa, z którym oddziaływanie nadaje masę cząstkom elementarnym.",
-      "explanation_incorrect": "Fotony są bezmasowymi nośnikami światła, a gluony odpowiadają za oddziaływania silne wewnątrz jąder atomowych.",
-      "last_verified_at": "2026-06-12T15:12:26.713Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bozon Higgsa jest wzbudzeniem pola Higgsa, z którym oddziaływanie nadaje masę niektórym cząstkom elementarnym. Znaczna część masy protonów i neutronów wynika z energii oddziaływań silnych.",
+      "explanation_incorrect": "Fotony są bezmasowymi nośnikami światła, a gluony odpowiadają za oddziaływania silne wewnątrz jąder atomowych."
     },
     {
       "subcategory": "Geologia planetarna",
-      "question": "Jak nazywa się największy znany krater uderzeniowy na Księżycu, położony na jego niewidocznej z Ziemi stronie w pobliżu południowego bieguna?",
+      "question": "Jak nazywa się ogromny księżycowy basen uderzeniowy po stronie odwróconej od Ziemi, w pobliżu bieguna południowego?",
       "options": [
         "Krater Tycho",
         "Krater Kopernik",
@@ -1128,14 +1040,12 @@
         "Morze Spokoju"
       ],
       "answer": "Basen Aitken",
-      "explanation_correct": "Basen Biegun Południowy – Aitken to jedna z największych struktur uderzeniowych w całym Układzie Słonecznym.",
-      "explanation_incorrect": "Tycho i Kopernik to jedne z najbardziej znanych kraterów widocznej strony Księżyca, ale są znacznie mniejsze.",
-      "last_verified_at": "2026-06-12T15:12:26.713Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Basen Biegun Południowy–Aitken jest jedną z największych i najstarszych znanych struktur uderzeniowych na Księżycu.",
+      "explanation_incorrect": "Tycho i Kopernik to jedne z najbardziej znanych kraterów widocznej strony Księżyca, ale są znacznie mniejsze."
     },
     {
       "subcategory": "Mechanika nieba",
-      "question": "Zjawisko, w którym satelita jest zwrócony do planety zawsze tą samą stroną, nazywamy rotacją:",
+      "question": "Jak nazywa się rotacja, w której średni okres obrotu satelity jest równy okresowi jego obiegu wokół planety?",
       "options": [
         "Precesyjną",
         "Synchroniczną",
@@ -1143,14 +1053,12 @@
         "Ekscentryczną"
       ],
       "answer": "Synchroniczną",
-      "explanation_correct": "Księżyc jest najlepszym przykładem rotacji synchronicznej, co wynika z oddziaływań pływowych między ciałami.",
-      "explanation_incorrect": "Libracja to chwianie się satelity, a precesja to zmiana kierunku osi obrotu.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rotacja synchroniczna sprawia, że średnio ta sama półkula jest skierowana ku planecie. Z powodu libracji z Ziemi widzimy z czasem nieco ponad połowę powierzchni Księżyca.",
+      "explanation_incorrect": "Libracja to chwianie się satelity, a precesja to zmiana kierunku osi obrotu."
     },
     {
       "subcategory": "Egzobiologia",
-      "question": "Który z księżyców Jowisza jest największym satelitą w Układzie Słonecznym i posiada podpowierzchniowy ocean słonej wody?",
+      "question": "Który księżyc Jowisza jest największym satelitą w Układzie Słonecznym i ma własne pole magnetyczne?",
       "options": [
         "Europa",
         "Kallisto",
@@ -1158,10 +1066,8 @@
         "Io"
       ],
       "answer": "Ganimedes",
-      "explanation_correct": "Ganimedes jest większy od planety Merkury i jest jedynym księżycem posiadającym własne pole magnetyczne oraz ogromny ocean.",
-      "explanation_incorrect": "Europa również posiada ocean, ale jest mniejsza od Ganimedesa. Io słynie z aktywności wulkanicznej, nie wodnej.",
-      "last_verified_at": "2026-06-12T15:12:26.713Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ganimedes ma większą średnicę niż Merkury i jako jedyny znany księżyc posiada wewnętrznie generowane pole magnetyczne. Dane wskazują również na możliwy ocean pod powierzchnią.",
+      "explanation_incorrect": "Europa i Kallisto są również kandydatami na światy oceaniczne, ale są mniejsze od Ganimedesa."
     },
     {
       "subcategory": "Historia technologii",
@@ -1180,18 +1086,16 @@
     },
     {
       "subcategory": "Fizyka teoretyczna",
-      "question": "Jaką nazwę nosi hipotetyczny rodzaj słabo oddziałujących masywnych cząstek, będących jednym z głównych kandydatów na ciemną materię?",
+      "question": "Jak rozwija się skrót WIMP dotyczący hipotetycznej klasy cząstek ciemnej materii?",
       "options": [
-        "Wimp",
-        "Aksjon",
-        "Neutralino",
-        "Tachion"
+        "Weakly Interacting Massive Particles",
+        "Wide Interstellar Magnetic Plasma",
+        "Water Ice Microscopic Particles",
+        "World Interplanetary Mapping Program"
       ],
-      "answer": "Wimp",
-      "explanation_correct": "Akronim WIMP (Weakly Interacting Massive Particles) opisuje cząstki oddziałujące jedynie grawitacyjnie i słabo.",
-      "explanation_incorrect": "Aksjony to inne kandydatki na ciemną materię, a tachiony to cząstki teoretycznie poruszające się szybciej niż światło.",
-      "last_verified_at": "2026-06-12T15:12:26.713Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Weakly Interacting Massive Particles",
+      "explanation_correct": "WIMP oznacza słabo oddziałujące masywne cząstki. Jest to hipotetyczna klasa kandydatów, a nie potwierdzone wyjaśnienie ciemnej materii.",
+      "explanation_incorrect": "Neutralino jest przykładem postulowanego kandydata na WIMP; aksjony są inną rozważaną klasą."
     },
     {
       "subcategory": "Astrobiologia",
@@ -1203,10 +1107,8 @@
         "Markery spektralne"
       ],
       "answer": "Biosygnatury",
-      "explanation_correct": "Biosygnatury to substancje lub zjawiska dostarczające dowodów naukowych na istnienie życia w przeszłości lub obecnie.",
-      "explanation_incorrect": "Skamieniałości to fizyczne pozostałości organizmów, a anomalie izotopowe to specyficzne proporcje pierwiastków.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Biosygnatura to cecha, substancja lub zjawisko potencjalnie związane z życiem. Jej interpretacja wymaga wykluczenia możliwych źródeł niebiologicznych.",
+      "explanation_incorrect": "Anomalie izotopowe i pewne związki chemiczne mogą same być potencjalnymi biosygnaturami; termin obejmuje różne rodzaje śladów."
     },
     {
       "subcategory": "Literatura science-fiction",
@@ -1233,14 +1135,12 @@
         "Wielki Wybuch"
       ],
       "answer": "Wielki Kolaps",
-      "explanation_correct": "Wielki Kolaps (Big Crunch) to scenariusz, w którym gęstość materii jest wystarczająca, aby odwrócić rozszerzanie się wszechświata.",
-      "explanation_incorrect": "Wielki Chłód i Wielkie Rozdarcie zakładają wieczną ekspansję prowadzącą do rozpadu struktur.",
-      "last_verified_at": "2026-06-12T15:12:26.714Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wielki Kolaps (Big Crunch) to hipotetyczny scenariusz odwrócenia ekspansji i kurczenia się Wszechświata; los zależy m.in. od jego zawartości i ewolucji ciemnej energii.",
+      "explanation_incorrect": "Wielki Chłód i Wielkie Rozdarcie zakładają wieczną ekspansję prowadzącą do rozpadu struktur."
     },
     {
       "subcategory": "Eksploracja Marsa",
-      "question": "Który z lądowników NASA jako pierwszy w historii pomyślnie osiadł na powierzchni Marsa w lipcu 1976 roku?",
+      "question": "Który lądownik NASA rozpoczął wieloletnie badania powierzchni Marsa po lądowaniu w lipcu 1976 roku?",
       "options": [
         "Viking 1",
         "Pathfinder",
@@ -1248,10 +1148,8 @@
         "Curiosity"
       ],
       "answer": "Viking 1",
-      "explanation_correct": "Viking 1 był pierwszym urządzeniem, które wykonało udane lądowanie na Marsie i przesłało zdjęcia z powierzchni.",
-      "explanation_incorrect": "Pathfinder lądował znacznie później (1997), a Opportunity i Curiosity to łaziki nowszej generacji.",
-      "last_verified_at": "2026-06-12T15:12:26.714Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Viking 1 wylądował 20 lipca 1976 roku i przekazał dane oraz zdjęcia. Radziecki Mars 3 wykonał miękkie lądowanie już w 1971 roku, lecz transmisja ustała po kilkunastu sekundach.",
+      "explanation_incorrect": "Pathfinder lądował znacznie później (1997), a Opportunity i Curiosity to łaziki nowszej generacji."
     },
     {
       "subcategory": "Astrofizyka",
@@ -1279,9 +1177,7 @@
       ],
       "answer": "Pluton",
       "explanation_correct": "Pluton-238 generuje ciepło poprzez rozpad alfa, co pozwala zasilać sondy w miejscach, gdzie światło słoneczne jest zbyt słabe.",
-      "explanation_incorrect": "Uran i tor wymagają reaktorów do generowania energii, podczas gdy RTG bazują na naturalnym rozpadzie.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "RTG wykorzystuje ciepło rozpadu radioaktywnego izotopu, a nie reaktor jądrowy; używane izotopy i konstrukcje generatorów mogą się różnić."
     },
     {
       "subcategory": "Geologia planetarna",
@@ -1294,9 +1190,7 @@
       ],
       "answer": "Dwutlenek węgla",
       "explanation_correct": "Tak wysoka zawartość CO2 powoduje niekontrolowany efekt cieplarniany, przez co Wenus jest najgorętszą planetą Układu Słonecznego.",
-      "explanation_incorrect": "Azot jest głównym składnikiem atmosfery Ziemi i Tytana, a metan – Neptuna i Urana.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Azot jest głównym składnikiem atmosfer Ziemi i Tytana. W atmosferach Urana i Neptuna dominują wodór i hel, a metan jest istotną domieszką."
     },
     {
       "subcategory": "Futurologia",
@@ -1308,10 +1202,8 @@
         "Ekspansja galaktyczna"
       ],
       "answer": "Osadnictwo kosmiczne",
-      "explanation_correct": "Obejmuje ono budowę stacji takich jak torus Stanforda czy cylindry O'Neilla.",
-      "explanation_incorrect": "Teraformacja to modyfikowanie środowiska planety, a egzobiologia to nauka o życiu pozaziemskim.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Osadnictwo kosmiczne obejmuje hipotetyczne stałe siedliska poza Ziemią; torus Stanforda i cylindry O’Neilla pozostają projektami koncepcyjnymi.",
+      "explanation_incorrect": "Teraformacja to modyfikowanie środowiska planety, a egzobiologia to nauka o życiu pozaziemskim."
     },
     {
       "subcategory": "Inżynieria megastruktur",
@@ -1323,10 +1215,8 @@
         "Rotor Stanforda"
       ],
       "answer": "Pierścień Nivena",
-      "explanation_correct": "Jest to odmiana sfery Dysona o znacznie mniejszej lecz wciąż gigantycznej powierzchni mieszkalnej.",
-      "explanation_incorrect": "Sfera Dysona to kompletna powłoka, a rotor Stanforda to mała stacja w kształcie torusa.",
-      "last_verified_at": "2026-06-12T15:12:26.714Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pierścień Nivena jest fikcyjną konstrukcją mieszkalną w kształcie wstęgi otaczającej gwiazdę; nie stanowi pełnej sfery.",
+      "explanation_incorrect": "Sfera Dysona jest rodziną hipotetycznych konstrukcji zbierających energię gwiazdy; może być rojem, niekoniecznie litą powłoką."
     },
     {
       "subcategory": "Astronautyka",
@@ -1353,14 +1243,12 @@
         "Detektor BICEP"
       ],
       "answer": "Detektor LIGO",
-      "explanation_correct": "Odkrycie fal grawitacyjnych przez LIGO potwierdziło ostatnie brakujące przewidywanie ogólnej teorii względności Einsteina.",
-      "explanation_incorrect": "VIRGO znajduje się we Włoszech, a James Webb to teleskop podczerwony.",
-      "last_verified_at": "2026-06-12T15:13:55.000Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "LIGO zarejestrowało fale grawitacyjne w 2015 roku; sygnał ogłoszony w 2016 roku pochodził od łączących się czarnych dziur. Było to ważne potwierdzenie przewidywań ogólnej teorii względności.",
+      "explanation_incorrect": "VIRGO znajduje się we Włoszech, a James Webb to teleskop podczerwony."
     },
     {
       "subcategory": "Kosmologia",
-      "question": "Zgodnie z którym prawem kosmologicznym prędkość oddalania się galaktyk jest wprost proporcjonalna do ich odległości od obserwatora?",
+      "question": "Jak nazywa się przybliżona zależność między odległością a kosmologiczną prędkością oddalania się dostatecznie pobliskich galaktyk?",
       "options": [
         "Prawo Keplera",
         "Prawo Hubble'a-Lemaître'a",
@@ -1368,10 +1256,8 @@
         "Prawo powszechnego ciążenia"
       ],
       "answer": "Prawo Hubble'a-Lemaître'a",
-      "explanation_correct": "Prawo to opisuje ekspansję wszechświata i stanowi fundament nowoczesnej kosmologii.",
-      "explanation_incorrect": "Prawa Keplera opisują ruch planet, a nie ucieczkę galaktyk.",
-      "last_verified_at": "2026-06-12T15:12:26.714Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Prawo Hubble’a–Lemaître’a opisuje przybliżoną zależność prędkości recesji od odległości; lokalne ruchy własne galaktyk powodują odchylenia.",
+      "explanation_incorrect": "Prawa Keplera opisują ruch planet, a nie ucieczkę galaktyk."
     },
     {
       "subcategory": "Egzoplanetologia",
@@ -1390,18 +1276,16 @@
     },
     {
       "subcategory": "Astrobiologia",
-      "question": "Jak nazywa się hipoteza zakładająca istnienie na Ziemi drobnoustrojów o biochemii odmiennej od znanej nam (np. opartych na arsenie), które żyją obok nas niezauważone?",
+      "question": "Jak nazywa się hipoteza, że na Ziemi mogłoby istnieć nieodkryte życie o biochemii odmiennej od znanej?",
       "options": [
-        "Ekstremophile",
+        "Ekstremofile",
         "Cienista biosfera",
         "Panspermia",
         "Hipoteza Gai"
       ],
       "answer": "Cienista biosfera",
-      "explanation_correct": "Cienista biosfera sugeruje, że życie mogło powstać na Ziemi więcej niż raz i ewoluować równolegle.",
-      "explanation_incorrect": "Panspermia to hipoteza o pochodzeniu życia z kosmosu, a nie o odmiennej biochemii na Ziemi.",
-      "last_verified_at": "2026-06-12T15:12:26.714Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hipoteza cienistej biosfery rozważa istnienie odmiennych form życia, które mogłyby pozostać niewykryte. Nie potwierdzono ich istnienia.",
+      "explanation_incorrect": "Ekstremofile są znanymi organizmami przystosowanymi do skrajnych warunków; sama odporność nie dowodzi odmiennej biochemii."
     },
     {
       "subcategory": "Fizyka teoretyczna",
@@ -1428,14 +1312,12 @@
         "Akcelerator dyskowy"
       ],
       "answer": "Mózg Matrioszka",
-      "explanation_correct": "Mózg Matrioszka to zaawansowana forma sfery Dysona, wykorzystująca całą energię gwiazdy do obliczeń.",
-      "explanation_incorrect": "Mózg Boltzmanna to paradoks dotyczący samoświadomego bytu powstałego z chaosu, a nie inżynieryjna konstrukcja.",
-      "last_verified_at": "2026-06-12T15:13:55.001Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mózg Matrioszka to hipotetyczny system wielu warstw obliczeniowych wykorzystujących energię gwiazdy; taka konstrukcja nie została zbudowana.",
+      "explanation_incorrect": "Mózg Boltzmanna to paradoks dotyczący samoświadomego bytu powstałego z chaosu, a nie inżynieryjna konstrukcja."
     },
     {
       "subcategory": "Historia eksploracji kosmosu",
-      "question": "Jak nazywała się suczka, która w 1957 roku na pokładzie radzieckiego satelity Sputnik 2 stała się pierwszą żywą istotą umieszczoną na orbicie okołoziemskiej?",
+      "question": "Jak nazywała się suczka, która w 1957 roku na pokładzie Sputnika 2 została pierwszym zwierzęciem na orbicie okołoziemskiej?",
       "options": [
         "Biełka",
         "Striełka",
@@ -1443,14 +1325,12 @@
         "Zwiezdoczka"
       ],
       "answer": "Łajka",
-      "explanation_correct": "Łajka była pionierką lotów kosmicznych, choć niestety nie przeżyła powrotu na Ziemię.",
-      "explanation_incorrect": "Biełka i Striełka poleciały później (1960) i bezpiecznie wróciły na Ziemię.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Łajka zmarła kilka godzin po starcie; statek nie miał systemu umożliwiającego jej powrót na Ziemię.",
+      "explanation_incorrect": "Biełka i Striełka odbyły lot orbitalny później, w 1960 roku, i wróciły żywe."
     },
     {
       "subcategory": "Futurologia komunikacji",
-      "question": "Który rodzaj szyfrowania bazuje na prawach fizyki mikroświata, czyniąc podsłuch natychmiast wykrywalnym?",
+      "question": "Jak nazywa się rozprowadzanie klucza kryptograficznego wykorzystujące własności stanów kwantowych do wykrywania zakłóceń?",
       "options": [
         "Sieć 5G",
         "Komunikacja laserowa",
@@ -1458,10 +1338,8 @@
         "Transmisja radiowa"
       ],
       "answer": "Kryptografia kwantowa",
-      "explanation_correct": "Wykorzystuje ona fakt, że pomiar stanu kwantowego zmienia go, co pozwala wykryć próbę szpiegowania klucza.",
-      "explanation_incorrect": "5G i lasery to standardowe technologie przesyłu danych bez natywnego zabezpieczenia kwantowego.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kwantowa dystrybucja klucza może ujawnić podsłuch poprzez analizę błędów i korelacji. Wykrycie jest statystyczne i zależy także od bezpieczeństwa urządzeń.",
+      "explanation_incorrect": "5G, transmisja laserowa i radiowa nie są same w sobie nazwą kwantowej dystrybucji klucza."
     },
     {
       "subcategory": "Mechanika orbitalna",
@@ -1480,7 +1358,7 @@
     },
     {
       "subcategory": "Astronomia gwiazdowa",
-      "question": "Jaki obiekt powstaje, gdy po zapadnięciu się gwiazdy materii jest zbyt dużo na białego karła, ale za mało na czarną dziurę?",
+      "question": "Jak nazywa się bardzo gęsta pozostałość, która może powstać po zapadnięciu jądra masywnej gwiazdy w wybuchu supernowej?",
       "options": [
         "Biały karzeł",
         "Czerwony olbrzym",
@@ -1488,25 +1366,21 @@
         "Brązowy karzeł"
       ],
       "answer": "Gwiazda neutronowa",
-      "explanation_correct": "Są to jedne z najgęstszych obiektów we wszechświecie – łyżeczka materii z takiej gwiazdy ważyłaby miliardy ton.",
-      "explanation_incorrect": "Białe karły powstają z mniejszych gwiazd jak Słońce, a czerwone olbrzymy to stadium przed wybuchem.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gwiazda neutronowa może powstać po zapadnięciu jądra masywnej gwiazdy. Wynik zależy od warunków fizycznych i nie sprowadza się do jednego progu masy.",
+      "explanation_incorrect": "Białe karły powstają z mniejszych gwiazd jak Słońce, a czerwone olbrzymy to stadium przed wybuchem."
     },
     {
       "subcategory": "Futurologia społeczna",
-      "question": "Które z poniższych pojęć futurologicznych opisuje system rządów oparty na sile i kontroli nad kluczowymi zasobami oraz infrastrukturą na orbicie?",
+      "question": "Jak nazywa się proponowany sposób zarządzania, w którym decydujący wpływ mają specjaliści ze względu na swoją wiedzę techniczną?",
       "options": [
         "Demokracja płynna",
-        "Kratokracja orbitalna",
         "Technokracja",
-        "Anarchokapitalizm"
+        "Anarchokapitalizm",
+        "Monarchia dziedziczna"
       ],
-      "answer": "Kratokracja orbitalna",
-      "explanation_correct": "Kratokracja orbitalna zakłada, że ten, kto kontroluje przestrzeń nad planetą, dysponuje ostateczną władzą polityczną.",
-      "explanation_incorrect": "Demokracja płynna to system głosowania, a nie model oparty na kontroli militarnej orbity.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Technokracja",
+      "explanation_correct": "Technokracja oznacza model rządów lub zarządzania oparty na znaczącym wpływie ekspertów technicznych.",
+      "explanation_incorrect": "Pozostałe pojęcia opisują inne sposoby organizacji politycznej; fikcyjne określenia dotyczące kontroli orbity nie są standardową nazwą tego modelu."
     }
   ]
 }
