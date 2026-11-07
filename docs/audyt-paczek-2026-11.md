@@ -106,6 +106,10 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Tech Buzz (EN):** przegląd 100 pytań, korekty 67 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-tech-buzz-en.md).
 
+- **Mitologia egipska (PL):** przegląd 128 pytań, korekty 71 pozycji i niezależna kontrola wybranych tez; [raport](audits/2026-11-07-mitologia-egipska-pl.md).
+- **Zwierzęta Domowe i Hodowlane (PL):** przegląd 100 pytań, korekty 86 pozycji i kontrola wybranych treści weterynaryjnych; [raport](audits/2026-11-07-zwierzeta-domowe-i-hodowlane-pl.md).
+- **Techniki Szefów Kuchni (PL):** przegląd 100 pytań, korekty 85 pozycji i niezależna kontrola wybranych kwestii bezpieczeństwa; [raport](audits/2026-11-07-techniki-szefow-kuchni-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

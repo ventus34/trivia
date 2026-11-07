@@ -4,13 +4,11 @@
   "language": "pl",
   "description": "Pytania z zakresu: Akwarystyka, Kynologia, Felinologia, Hodowla gryzoni, Ptaki ozdobne...",
   "created_at": "2026-06-12T15:50:44.014Z",
-  "last_verified_at": "2026-06-12T15:50:43.330Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Akwarystyka",
-      "question": "Która ryba akwariowa ma weloniasty ogon?",
+      "question": "Która ryba akwariowa nosi nazwę naukową Betta splendens?",
       "options": [
         "Gupik",
         "Mieczyk",
@@ -18,29 +16,25 @@
         "Bojownik wspaniały"
       ],
       "answer": "Bojownik wspaniały",
-      "explanation_correct": "Bojownik wspaniały (Betta splendens) ma długie, weloniaste płetwy ogonowe, co czyni go charakterystycznym.",
-      "explanation_incorrect": "Gupik, mieczyk i skalar mają płetwy ogonowe o innych kształtach, nie weloniastych.",
-      "last_verified_at": "2026-06-12T15:50:10.638Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Niektóre odmiany bojownika wspaniałego mają długie płetwy; istnieją też odmiany krótkopłetwe.",
+      "explanation_incorrect": "Gupik, mieczyk i skalar są innymi rybami; również u nich występują odmiany o wydłużonych płetwach."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa nazywana jest 'lwim psem' i pochodzi z Tybetu?",
+      "question": "Która rasa psa ma nazwę tłumaczoną jako „lwi pies”?",
       "options": [
-        "Lhasa Apso",
-        "Pekinczyk",
-        "Chow Chow",
+        "Labrador",
+        "Beagle",
+        "Bokser",
         "Shih Tzu"
       ],
       "answer": "Shih Tzu",
-      "explanation_correct": "Nazwa Shih Tzu po chińsku oznacza 'lwi pies', a rasa pochodzi z Tybetu.",
-      "explanation_incorrect": "Lhasa Apso również z Tybetu, ale nie nosi przydomka 'lwi pies'; pekińczyk i chow chow mają inne pochodzenie.",
-      "last_verified_at": "2026-06-12T15:50:10.639Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nazwa shih tzu jest tłumaczona jako „lwi pies”; rasa rozwijała się w Chinach, a jej historia wiąże się także z Tybetem.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają „lwiego psa”."
     },
     {
       "subcategory": "Felinologia",
-      "question": "Która rasa kota charakteryzuje się całkowitym brakiem ogona?",
+      "question": "Która rasa kota wywodząca się z wyspy Man znana jest z osobników bez ogona lub z krótkim ogonem?",
       "options": [
         "Bobtail japoński",
         "Pixiebob",
@@ -48,29 +42,25 @@
         "Manx"
       ],
       "answer": "Manx",
-      "explanation_correct": "Kot Manx rodzi się bez ogona w wyniku mutacji genetycznej.",
-      "explanation_incorrect": "Bobtail japoński, pixiebob i kurylski bobtail mają krótkie ogony, ale nie są całkowicie bezogonowe.",
-      "last_verified_at": "2026-06-12T15:50:10.639Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "U kotów manx długość ogona jest zmienna: niektóre rodzą się bez ogona, a inne mają ogon różnej długości.",
+      "explanation_incorrect": "Bobtaile japońskie i kurylskie oraz pixiebob znane są z krótszych ogonów, lecz nie są rasą nazwaną od wyspy Man."
     },
     {
       "subcategory": "Hodowla gryzoni",
-      "question": "Który gatunek chomika jest jednym z najmniejszych?",
+      "question": "Który z wymienionych gatunków chomika jest najmniejszy?",
       "options": [
         "Chomik syryjski",
         "Chomik Roborowskiego",
         "Chomik chiński",
         "Chomik dżungarski"
       ],
-      "answer": "Chomik dżungarski",
-      "explanation_correct": "Chomik dżungarski (Phodopus sungorus) osiąga długość 7-10 cm, co czyni go bardzo małym.",
-      "explanation_incorrect": "Chomik syryjski jest większy (15-18 cm), a chomik Roborowskiego i chiński są podobnej wielkości, ale dżungarski jest typowo najmniejszy z popularnych.",
-      "last_verified_at": "2026-06-12T15:50:10.639Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Chomik Roborowskiego",
+      "explanation_correct": "Chomik Roborowskiego jest bardzo małym gatunkiem; jest mniejszy od chomika syryjskiego, chińskiego i dżungarskiego.",
+      "explanation_incorrect": "Chomik dżungarski jest niewielki, ale zwykle większy od chomika Roborowskiego."
     },
     {
       "subcategory": "Ptaki ozdobne",
-      "question": "Która papuga jest najczęściej hodowana w domach?",
+      "question": "Która mała australijska papuga ma dziko zielone ciało, żółtą głowę i ciemne faliste wzory na skrzydłach?",
       "options": [
         "Nimfa",
         "Żako",
@@ -78,10 +68,8 @@
         "Papużka falista"
       ],
       "answer": "Papużka falista",
-      "explanation_correct": "Papużka falista (Melopsittacus undulatus) jest najpopularniejszą papugą domową ze względu na łatwość hodowli.",
-      "explanation_incorrect": "Nimfa i żako są również popularne, ale mniej licznie, a ara wymaga więcej miejsca i jest rzadsza.",
-      "last_verified_at": "2026-06-12T15:50:10.639Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Papużka falista jest niewielką papugą pochodzącą z Australii i często bywa utrzymywana w domach.",
+      "explanation_incorrect": "Nimfa również pochodzi z Australii, ale ma charakterystyczny czub; żako pochodzi z Afryki, a ary z Ameryki."
     },
     {
       "subcategory": "Herpetologia domowa",
@@ -100,7 +88,7 @@
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa wywodząca się z Niemiec jest największa?",
+      "question": "Która z wymienionych ras niemieckich psów jest zazwyczaj najwyższa?",
       "options": [
         "Owczarek niemiecki",
         "Rottweiler",
@@ -108,25 +96,21 @@
         "Dog niemiecki"
       ],
       "answer": "Dog niemiecki",
-      "explanation_correct": "Dog niemiecki osiąga wysokość do 86 cm, co czyni go największą rasą niemiecką.",
-      "explanation_incorrect": "Owczarek niemiecki, rottweiler i bokser są średnich rozmiarów, znacznie mniejsze od doga.",
-      "last_verified_at": "2026-06-12T15:50:10.640Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dog niemiecki jest bardzo wysoką rasą; wzrost zależy od płci i osobnika.",
+      "explanation_incorrect": "Owczarek niemiecki, rottweiler i bokser są na ogół niższe od doga niemieckiego."
     },
     {
       "subcategory": "Hodowla koni",
-      "question": "Która polska rasa konia ma prymitywne pochodzenie?",
+      "question": "Która z wymienionych ras koni pochodzi z Polski i jest objęta programem ochrony zasobów genetycznych?",
       "options": [
-        "Hucuł",
-        "Arabski",
-        "Wielkopolski",
+        "Koń arabski",
+        "Koń fryzyjski",
+        "Koń andaluzyjski",
         "Konik polski"
       ],
       "answer": "Konik polski",
-      "explanation_correct": "Konik polski wywodzi się od dzikiego konia tarpana i zachowuje prymitywne cechy.",
-      "explanation_incorrect": "Hucuł również jest prymitywny, ale pochodzi z Karpat, a nie od tarpanów; arab i wielkopolski to rasy szlachetne.",
-      "last_verified_at": "2026-06-12T15:50:10.640Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Konik polski jest rodzimą rasą zachowawczą. Jego domniemane związki z tarpanem są przedmiotem badań.",
+      "explanation_incorrect": "Pozostałe wymienione rasy nie pochodzą z Polski. Także inne polskie rasy koni są objęte ochroną."
     },
     {
       "subcategory": "Rolnictwo",
@@ -135,13 +119,11 @@
         "Baran",
         "Kozioł",
         "Knur",
-        "Ogiier"
+        "Ogier"
       ],
       "answer": "Baran",
       "explanation_correct": "Baran to nazwa dorosłego samca owcy; w hodowli często używa się też profesjonalnego terminu 'tryk'.",
-      "explanation_incorrect": "Kozioł to samiec kozy, knur to samiec świni, a ogier to samiec konia.",
-      "last_verified_at": "2026-06-12T15:50:43.328Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kozioł to samiec kozy, knur to samiec świni, a ogier to samiec konia."
     },
     {
       "subcategory": "Pszczelarstwo",
@@ -153,10 +135,8 @@
         "Robotnica karmicielka"
       ],
       "answer": "Matka pszczela",
-      "explanation_correct": "Matka pszczela jest jedyną w pełni rozwiniętą samicą w ulu zdolną do reprodukcji.",
-      "explanation_incorrect": "Trutnie to samce, a robotnice to samice o niedozwolonych narządach rozrodczych, które zajmują się pracą w ulu.",
-      "last_verified_at": "2026-06-12T15:50:43.328Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W typowej rodzinie pszczelej matka jest główną samicą składającą jaja. W szczególnych okolicznościach niezapłodnione jaja mogą składać również robotnice.",
+      "explanation_incorrect": "Trutnie są samcami, a robotnice wykonują różne prace w rodzinie pszczelej; niektóre mogą składać niezapłodnione jaja."
     },
     {
       "subcategory": "Akwarystyka",
@@ -175,22 +155,20 @@
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa jest często wykorzystywana przez policję?",
+      "question": "Która rasa psa jest często wykorzystywana przez policję do pracy patrolowej i tropienia?",
       "options": [
-        "Labrador",
-        "Beagle",
-        "Doberman",
-        "Owczarek niemiecki"
+        "Owczarek niemiecki",
+        "Maltańczyk",
+        "Pekińczyk",
+        "Chihuahua"
       ],
       "answer": "Owczarek niemiecki",
-      "explanation_correct": "Owczarek niemiecki jest powszechnie używany w policji ze względu na inteligencję i posłuszeństwo.",
-      "explanation_incorrect": "Labrador i doberman również są używane, ale owczarek niemiecki jest najbardziej kojarzony z policją; beagle rzadziej.",
-      "last_verified_at": "2026-06-12T15:50:10.640Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Owczarki niemieckie są jedną z ras wykorzystywanych w policji; inne rasy również mogą pracować w służbach.",
+      "explanation_incorrect": "Wymienione małe rasy nie są typowym wyborem do patrolowania i tropienia policyjnego."
     },
     {
       "subcategory": "Felinologia",
-      "question": "Która rasa kota jest największa?",
+      "question": "Która rasa kota, pochodząca ze stanu Maine w USA, słynie z dużych rozmiarów?",
       "options": [
         "Perski",
         "Syberyjski",
@@ -198,10 +176,8 @@
         "Maine Coon"
       ],
       "answer": "Maine Coon",
-      "explanation_correct": "Maine Coon może ważyć do 11 kg, co czyni go największą rasą kota domowego.",
-      "explanation_incorrect": "Perski, syberyjski i ragdoll są mniejsze, choć syberyjski też jest duży, ale Maine Coon jest największy.",
-      "last_verified_at": "2026-06-12T15:50:10.641Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Maine coon to duża rasa kota domowego; masa dorosłych zwierząt różni się zależnie od osobnika i płci.",
+      "explanation_incorrect": "Kot perski, syberyjski i ragdoll to inne rasy; także wśród nich mogą występować duże osobniki."
     },
     {
       "subcategory": "Hodowla drobiu",
@@ -220,18 +196,16 @@
     },
     {
       "subcategory": "Insekty domowe",
-      "question": "Które owady są hodowane jako pokarm dla gadów?",
+      "question": "Który z owadów bywa hodowany jako pokarm dla owadożernych gadów?",
       "options": [
-        "Mrówki",
-        "Muchy",
-        "Karaczany",
-        "Świerszcze"
+        "Świerszcze",
+        "Rozgwiazdy",
+        "Pijawki",
+        "Dżdżownice"
       ],
       "answer": "Świerszcze",
-      "explanation_correct": "Świerszcze (Acheta domestica) są popularnym i pożywnym pokarmem dla gadów.",
-      "explanation_incorrect": "Karaczany też są używane, ale świerszcze są najczęstsze; mrówki i muchy są rzadziej stosowane.",
-      "last_verified_at": "2026-06-12T15:50:10.641Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Świerszcze są jednym z owadów stosowanych w żywieniu niektórych gadów. Dieta musi odpowiadać potrzebom konkretnego gatunku.",
+      "explanation_incorrect": "Rozgwiazdy, pijawki i dżdżownice nie są owadami."
     },
     {
       "subcategory": "Kynologia",
@@ -258,10 +232,8 @@
         "Baran francuski"
       ],
       "answer": "Baran francuski",
-      "explanation_correct": "Baran francuski to rasa królika z długimi, zwisającymi uszami sięgającymi do ziemi.",
-      "explanation_incorrect": "Miniaturka i nowozelandzki mają normalne uszy, angorski ma długą sierść, ale uszy nie są wyjątkowo długie.",
-      "last_verified_at": "2026-06-12T15:50:23.162Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Baran francuski jest dużą rasą królika o długich, zwisających uszach.",
+      "explanation_incorrect": "Królik angorski jest znany z długiej sierści; pozostałe wymienione typy nie są baranem francuskim."
     },
     {
       "subcategory": "Hodowla bydła",
@@ -295,7 +267,7 @@
     },
     {
       "subcategory": "Gryzonie",
-      "question": "Który gryzoń ma bardzo miękkie futro i duże uszy?",
+      "question": "Który południowoamerykański gryzoń jest znany z bardzo gęstego futra i dużych, zaokrąglonych uszu?",
       "options": [
         "Chomik",
         "Mysz",
@@ -304,24 +276,20 @@
       ],
       "answer": "Szynszyla",
       "explanation_correct": "Szynszyla ma wyjątkowo miękkie i gęste futro oraz duże, okrągłe uszy.",
-      "explanation_incorrect": "Chomik, mysz i szczur mają krótsze i mniej miękkie futro oraz proporcjonalnie mniejsze uszy.",
-      "last_verified_at": "2026-06-12T15:50:23.163Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Chomiki, myszy i szczury to inne gryzonie; gęstość futra nie stanowi sama w sobie jednoznacznego kryterium klasyfikacji."
     },
     {
       "subcategory": "Herpetologia domowa",
-      "question": "Który wąż jest często polecany jako pierwszy dla początkujących hodowców?",
+      "question": "Który niejadowity wąż pochodzący z Ameryki Północnej bywa utrzymywany w terrariach?",
       "options": [
-        "Wąż boa",
         "Wąż zbożowy",
-        "Pyton królewski",
-        "Połośnik smugowany"
+        "Żmija zygzakowata",
+        "Kobra królewska",
+        "Mamba czarna"
       ],
       "answer": "Wąż zbożowy",
-      "explanation_correct": "Wąż zbożowy jest mało wymagający i ma łagodne usposobienie, co czyni go idealnym dla początkujących.",
-      "explanation_incorrect": "Pozostałe gatunki mają bardziej specyficzne wymagania, co utrudnia opiekę nowicjuszom.",
-      "last_verified_at": "2026-06-12T15:50:23.163Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wąż zbożowy bywa utrzymywany w terrariach; wymaga odpowiednich warunków, żywienia oraz opieki przez całe życie.",
+      "explanation_incorrect": "Żmija, kobra królewska i mamba czarna są jadowite."
     },
     {
       "subcategory": "Kynologia",
@@ -333,14 +301,12 @@
         "Wyżeł niemiecki"
       ],
       "answer": "Pudel",
-      "explanation_correct": "Pudel został wyhodowany jako pies myśliwski do aportowania z wody; jego kręcona sierść jest nieprzemakalna.",
-      "explanation_incorrect": "Labrador, pointer i wyżeł mają gładką lub krótką sierść, bez kręconej struktury.",
-      "last_verified_at": "2026-06-12T15:50:23.163Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pudel był historycznie wykorzystywany m.in. do aportowania z wody; jego sierść jest kręcona, ale nie jest nieprzemakalna.",
+      "explanation_incorrect": "Labrador, pointer i wyżeł mają gładką lub krótką sierść, bez kręconej struktury."
     },
     {
       "subcategory": "Hodowla królików",
-      "question": "Która rasa królika jest popularna w hodowli na mięso?",
+      "question": "Która duża rasa królika nosi w nazwie określenie „olbrzym”?",
       "options": [
         "Miniaturka holenderska",
         "Belgijski olbrzym",
@@ -348,25 +314,21 @@
         "Rex"
       ],
       "answer": "Belgijski olbrzym",
-      "explanation_correct": "Belgijski olbrzym osiąga duże rozmiary i szybko przyrasta, dzięki czemu jest efektywny w produkcji mięsa.",
-      "explanation_incorrect": "Miniaturka i angorski są hodowane głównie do towarzystwa lub wełny, a rex dla futra.",
-      "last_verified_at": "2026-06-12T15:50:23.164Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Belgijski olbrzym to duża rasa królika. Rasy królików mogą być hodowane w różnych celach.",
+      "explanation_incorrect": "Pozostałe nazwy nie zawierają określenia „olbrzym”."
     },
     {
       "subcategory": "Akwarystyka",
-      "question": "Jaki niewielki skorupiak jest często trzymany w akwarium?",
+      "question": "Który z wymienionych skorupiaków z rodzaju Neocaridina bywa hodowany w akwariach słodkowodnych?",
       "options": [
-        "Rak sygnałowy",
-        "Krab tęczowy",
         "Krewetka",
-        "Homar"
+        "Meduza",
+        "Rozgwiazda",
+        "Ślimak"
       ],
       "answer": "Krewetka",
-      "explanation_correct": "Krewetki (np. z rodzaju Neocaridina) są małe, łatwe w hodowli i popularne w akwariach słodkowodnych.",
-      "explanation_incorrect": "Raki i kraby są większe i bardziej agresywne, homary wymagają natomiast akwenów morskich.",
-      "last_verified_at": "2026-06-12T15:50:23.164Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krewetki z rodzaju Neocaridina są popularnymi skorupiakami słodkowodnymi; wymagają odpowiednich parametrów wody.",
+      "explanation_incorrect": "Meduza, rozgwiazda i ślimak nie są skorupiakami."
     },
     {
       "subcategory": "Felinologia",
@@ -379,9 +341,7 @@
       ],
       "answer": "Rosyjski niebieski",
       "explanation_correct": "Rosyjski niebieski ma gęste, jedwabiste futro w odcieniu srebrnoniebieskim oraz zielone oczy.",
-      "explanation_incorrect": "Brytyjski krótkowłosy występuje w wielu kolorach, ale nie ma srebrzystej specyfiki rasy.",
-      "last_verified_at": "2026-06-12T15:50:23.164Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Brytyjski krótkowłosy może również mieć umaszczenie niebieskie; pozostałe nazwy nie wskazują rasy rosyjski niebieski."
     },
     {
       "subcategory": "Kynologia",
@@ -393,10 +353,8 @@
         "Cocker spaniel"
       ],
       "answer": "Lagotto romagnolo",
-      "explanation_correct": "Lagotto romagnolo został wyhodowany we Włoszech specjalnie do poszukiwania trufli, dzięki czułemu węchowi i kręconej sierści.",
-      "explanation_incorrect": "Bassety i beagle też mają dobry węch, ale nie są historycznie używane do trufli.",
-      "last_verified_at": "2026-06-12T15:50:23.165Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lagotto romagnolo pochodzi z Włoch; dawniej pracował jako pies wodny, a później wykorzystywano go także do wyszukiwania trufli.",
+      "explanation_incorrect": "Także inne psy o dobrym węchu mogą być szkolone do poszukiwania trufli."
     },
     {
       "subcategory": "Hodowla koni",
@@ -409,28 +367,24 @@
       ],
       "answer": "Appaloosa",
       "explanation_correct": "Appaloosa pochodzi od koni Nez Perce i wyróżnia się cętkowanym wzorem sierści.",
-      "explanation_incorrect": "Araby, fryzy i andaluzyjczyki mają jednolite maści, bez plam.",
-      "last_verified_at": "2026-06-12T15:50:23.165Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe rasy nie są appaloosą; umaszczenie poszczególnych koni może być zróżnicowane."
     },
     {
       "subcategory": "Ptaki łowne",
       "question": "Jaki ptak hodowlany jest mniejszy od kury i ceniony za jaja?",
       "options": [
-        "Perliczka",
+        "Struś",
         "Przepiórka",
         "Gęś",
         "Indyk"
       ],
       "answer": "Przepiórka",
       "explanation_correct": "Przepiórki są małe, szybko dojrzewają i znoszą dużo jaj, które są uważane za przysmak.",
-      "explanation_incorrect": "Perliczka i gęś są większe od kury, a indyk znacznie większy.",
-      "last_verified_at": "2026-06-12T15:50:23.165Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Strusie, gęsi i indyki są zwykle większe od przepiórek; wielkość drobiu zależy od gatunku i rasy."
     },
     {
       "subcategory": "Gryzonie",
-      "question": "Jaki gryzoń o długim ogonie jest często hodowany jako zwierzę towarzyszące i tworzy grupy?",
+      "question": "Który gryzoń domowy, należący do gatunku szczura wędrownego, ma długi ogon i jest zwierzęciem społecznym?",
       "options": [
         "Chomik syryjski",
         "Szczur domowy",
@@ -439,13 +393,11 @@
       ],
       "answer": "Szczur domowy",
       "explanation_correct": "Szczury domowe są inteligentne, społeczne i mają długi ogon; często trzymane w grupach.",
-      "explanation_incorrect": "Chomik syryjski jest samotnikiem, a świnka morska ma bardzo krótki ogon.",
-      "last_verified_at": "2026-06-12T15:50:23.165Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Myszy domowe również są społeczne i mają długie ogony, ale należą do innego gatunku niż szczur wędrowny."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa jest znana z tego, że nie potrafi szczekać?",
+      "question": "Która rasa psa znana jest z charakterystycznego dźwięku przypominającego jodłowanie, a nie typowe szczekanie?",
       "options": [
         "Chart angielski",
         "Basenji",
@@ -453,10 +405,8 @@
         "Buldog"
       ],
       "answer": "Basenji",
-      "explanation_correct": "Basenji wydaje charakterystyczny jodłowy dźwięk zamiast szczekania, ze względu na budowę krtani.",
-      "explanation_incorrect": "Inne rasy potrafią szczekać, choć charciki szczekają rzadko, ale nie mają anatomicznego braku szczekania.",
-      "last_verified_at": "2026-06-12T15:50:23.166Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Basenji słynie z jodłującej wokalizacji. Wydaje też inne dźwięki, więc nie jest niemy.",
+      "explanation_incorrect": "Pozostałe rasy nie są znane z tej charakterystycznej cechy basenji."
     },
     {
       "subcategory": "Akwarystyka",
@@ -468,10 +418,8 @@
         "Bojownik"
       ],
       "answer": "Pirania",
-      "explanation_correct": "Piranie mają ostre zęby i są drapieżnikami, choć w akwarium rzadko atakują większe ryby.",
-      "explanation_incorrect": "Neonki i gupiki są małymi rybami o drobnych zębach, a bojowniki nie są drapieżnikami w typie piranii.",
-      "last_verified_at": "2026-06-12T15:50:23.166Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Piranie obejmują różne gatunki ryb o ostrych zębach; ich dieta i zachowanie zależą od gatunku.",
+      "explanation_incorrect": "Pozostałe ryby należą do innych grup; bojowniki również są drapieżnikami żywiącymi się m.in. drobnymi bezkręgowcami."
     },
     {
       "subcategory": "Felinologia",
@@ -520,7 +468,7 @@
     },
     {
       "subcategory": "Sokolnictwo",
-      "question": "Który ptak drapieżny jest często wykorzystywany do polowań w sokolnictwie?",
+      "question": "Który sokół, ceniony w sokolnictwie, znany jest z bardzo szybkiego lotu nurkowego?",
       "options": [
         "Jastrząb",
         "Sokół wędrowny",
@@ -529,13 +477,11 @@
       ],
       "answer": "Sokół wędrowny",
       "explanation_correct": "Sokół wędrowny jest ceniony w sokolnictwie za szybkość i zdolność do chwytania ptaków w locie.",
-      "explanation_incorrect": "Jastrząb i orzeł są też używane, ale sokół wędrowny jest klasycznym ptakiem łowczym.",
-      "last_verified_at": "2026-06-12T15:50:23.167Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Jastrzębie i orły również mogą być używane w sokolnictwie, lecz nie są sokołami wędrownymi."
     },
     {
       "subcategory": "Hodowla ryb",
-      "question": "Która ryba z rodziny karpiowatych jest symbolem Japonii i hodowana w stawach?",
+      "question": "Jak nazywa się ozdobna odmiana karpia hodowana w stawach i szczególnie kojarzona z Japonią?",
       "options": [
         "Złota rybka",
         "Karp koi",
@@ -544,9 +490,7 @@
       ],
       "answer": "Karp koi",
       "explanation_correct": "Karp koi to udomowiona odmiana karpia, hodowana w Japonii dla dekoracyjnych wzorów i kolorów.",
-      "explanation_incorrect": "Złota rybka pochodzi z Chin, a leszcz i piskorz nie mają znaczenia symbolicznego.",
-      "last_verified_at": "2026-06-12T15:50:23.167Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Złota rybka również bywa hodowana ozdobnie; piskorz i leszcz to inne ryby."
     },
     {
       "subcategory": "Kynologia",
@@ -559,13 +503,11 @@
       ],
       "answer": "Bloodhound",
       "explanation_correct": "Pies św. Huberta to Bloodhound, rasa gończa o znakomitym węchu, używana do tropienia.",
-      "explanation_incorrect": "Gończy polski to inna rasa, a pointer i seter nie są związane z tym zakonem.",
-      "last_verified_at": "2026-06-12T15:50:23.167Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gończy polski, pointer i seter irlandzki to inne rasy psów."
     },
     {
       "subcategory": "Psia tresura",
-      "question": "Jaki przedmiot jest używany w szkoleniu pozytywnym psów do wydawania dźwięku?",
+      "question": "Jak nazywa się małe urządzenie wydające kliknięcie jako znacznik w szkoleniu zwierząt?",
       "options": [
         "Gwizdek",
         "Klikier",
@@ -573,25 +515,21 @@
         "Grzmot"
       ],
       "answer": "Klikier",
-      "explanation_correct": "Klikier wydaje kliknięcie, które oznacza nagrodę, co ułatwia naukę w treningu pozytywnym.",
-      "explanation_incorrect": "Gwizdek i dzwonek też są używane, ale nie są standardowym narzędziem do klikania wzmacnianego.",
-      "last_verified_at": "2026-06-12T15:50:23.167Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klikier wydaje krótki dźwięk, który po skojarzeniu z nagrodą może oznaczać pożądane zachowanie.",
+      "explanation_incorrect": "Gwizdek i dzwonek także mogą pełnić funkcję sygnałów; klikier jest urządzeniem wydającym kliknięcie."
     },
     {
       "subcategory": "Felinologia",
-      "question": "Która rasa kota pochodzi z Birmy i jest uważana za świętą?",
+      "question": "Jak nazywa się długowłosy kot o niebieskich oczach zwany świętym kotem Birmy?",
       "options": [
-        "Kot birmański",
-        "Birmański kot",
-        "Syjamski",
-        "Bengalski"
+        "Kot birmański (birman)",
+        "Kot burmański (burmese)",
+        "Kot syjamski",
+        "Kot bengalski"
       ],
-      "answer": "Kot birmański",
-      "explanation_correct": "Kot birmański, zwany też świętym kotem Birmy, ma długą sierść i niebieskie oczy.",
-      "explanation_incorrect": "Birmański kot to osobna rasa o gładkiej sierści, syjamski jest krótkowłosy.",
-      "last_verified_at": "2026-06-12T15:50:23.168Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kot birmański (birman)",
+      "explanation_correct": "Święty kot birmański (birman) ma półdługą sierść, umaszczenie point i białe „rękawiczki”.",
+      "explanation_incorrect": "Kot burmański (burmese) to odrębna rasa; nie należy mylić nazw birman i burmese."
     },
     {
       "subcategory": "Gryzonie",
@@ -603,14 +541,12 @@
         "Kenia"
       ],
       "answer": "Chile",
-      "explanation_correct": "Koszatniczka (Octodon degus) pochodzi z Chile, gdzie zamieszkuje suchre regiony.",
-      "explanation_incorrect": "Pozostałe kraje nie są naturalnym obszarem występowania tego gryzonia.",
-      "last_verified_at": "2026-06-12T15:50:23.168Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koszatniczka (Octodon degus) pochodzi z Chile, gdzie żyje m.in. w suchych zaroślach.",
+      "explanation_incorrect": "Pozostałe kraje nie są naturalnym obszarem występowania tego gryzonia."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa charakteryzuje się krótkimi nogami i długim tułowiem?",
+      "question": "Którą niemiecką rasę psa hodowano do pracy w norach, co znajduje odbicie w jej nazwie dachshund?",
       "options": [
         "Jamnik",
         "Buldog francuski",
@@ -618,14 +554,12 @@
         "Corgi"
       ],
       "answer": "Jamnik",
-      "explanation_correct": "Jamnik, znany również jako dachshund, został wyhodowany w Niemczech do polowań w norach. Jego krótkie nogi i wydłużony tułów są doskonałe do poruszania się w podziemnych tunelach.",
-      "explanation_incorrect": "Pozostałe rasy, choć mogą mieć krótkie nogi (np. buldog francuski, mops) lub długi tułów (np. corgi), nie łączą tych cech w tak charakterystyczny sposób jak jamnik.",
-      "last_verified_at": "2026-06-12T15:50:23.168Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jamnik był wykorzystywany do pracy w norach dzięki krótkim kończynom i wydłużonemu tułowi. Rasa ma zwiększone ryzyko chorób krążków międzykręgowych.",
+      "explanation_incorrect": "Corgi również ma krótkie nogi i długi tułów, ale nie jest niemieckim jamnikiem."
     },
     {
       "subcategory": "Felinologia",
-      "question": "Która z wymienionych ras kotów jest najstarszą rasą o umaszczeniu colorpoint (ciemne znaczenia) i niebieskich oczach?",
+      "question": "Która rasa kota pochodząca z dawnego Syjamu jest znana z umaszczenia point i niebieskich oczu?",
       "options": [
         "Kot syjamski",
         "Kot himalajski",
@@ -633,29 +567,25 @@
         "Kot brytyjski"
       ],
       "answer": "Kot syjamski",
-      "explanation_correct": "Kot syjamski to naturalna, starożytna rasa z Tajlandii, która dała początek innym rasom o tym ubarwieniu.",
-      "explanation_incorrect": "Himalajski i ragdoll to rasy wyhodowane znacznie później; kot brytyjski zazwyczaj ma oczy miedziane lub złote.",
-      "last_verified_at": "2026-06-12T15:50:43.329Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kot syjamski jest związany z dawnym Syjamem, dzisiejszą Tajlandią, i ma charakterystyczne ciemne znaczenia oraz niebieskie oczy.",
+      "explanation_incorrect": "Koty himalajskie i ragdolle również mogą mieć umaszczenie point i niebieskie oczy."
     },
     {
       "subcategory": "Hodowla świń",
-      "question": "Która polska rasa świń ma zwisłe uszy?",
+      "question": "Która rasa świń ma w nazwie odniesienie do zwisających uszu?",
       "options": [
-        "Zwisłoucha",
-        "Wielka Biała Polska",
-        "Złotnicka",
-        "Puławska"
+        "Polska biała zwisłoucha",
+        "Wielka biała polska",
+        "Duroc",
+        "Hampshire"
       ],
-      "answer": "Zwisłoucha",
-      "explanation_correct": "Zwisłoucha to polska rasa świń charakteryzująca się długimi, opadającymi uszami. Jest ceniona za odporność i dobre wykorzystanie pasz objętościowych.",
-      "explanation_incorrect": "Wielka Biała Polska ma uszy sztywne i skierowane do góry, Złotnicka – częściowo zwisłe, a Puławska – krótkie i stojące. Tylko Zwisłoucha ma jednoznacznie zwisłe uszy.",
-      "last_verified_at": "2026-06-12T15:50:23.169Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Polska biała zwisłoucha",
+      "explanation_correct": "Polska biała zwisłoucha to rasa świń o opadających uszach.",
+      "explanation_incorrect": "Zwisłe uszy występują również u innych ras świń; pytanie dotyczy pełnej nazwy rasy."
     },
     {
       "subcategory": "Ptaki ozdobne",
-      "question": "Który ptak jest znany z wyjątkowej zdolności naśladowania ludzkiej mowy?",
+      "question": "Która afrykańska papuga szara jest znana ze zdolności naśladowania ludzkiej mowy?",
       "options": [
         "Żako",
         "Kakadu",
@@ -663,14 +593,12 @@
         "Nimfa"
       ],
       "answer": "Żako",
-      "explanation_correct": "Żako, czyli afrykańska papuga szara, jest uważana za najlepszego mówcę wśród ptaków – potrafi uczyć się setek słów i zwrotów. Jest to ptak długowieczny i niezwykle inteligentny.",
-      "explanation_incorrect": "Kakadu, ara i nimfa również potrafią naśladować dźwięki, ale nie osiągają takiego poziomu precyzji w naśladowaniu mowy jak żako.",
-      "last_verified_at": "2026-06-12T15:50:23.169Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żako potrafią uczyć się i naśladować różne dźwięki, w tym ludzką mowę; zdolności różnią się między osobnikami.",
+      "explanation_incorrect": "Kakadu, ary i nimfy także potrafią naśladować dźwięki."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa jest tradycyjnie wykorzystywana do ratownictwa wodnego?",
+      "question": "Która duża kanadyjska rasa psa jest tradycyjnie kojarzona z pracą w wodzie i ratownictwem wodnym?",
       "options": [
         "Nowofundland",
         "Labrador retriever",
@@ -678,10 +606,8 @@
         "Owczarek niemiecki"
       ],
       "answer": "Nowofundland",
-      "explanation_correct": "Nowofundland to duży pies o silnym instynkcie ratowniczym i wodoodpornej sierści, wyhodowany w Kanadzie do pracy na morzu. Jego umiejętność pływania i wytrzymałość sprawiają, że jest idealny do ratownictwa wodnego.",
-      "explanation_incorrect": "Labrador i golden retriever są dobrymi pływakami, ale nie są tak wyspecjalizowane w ratownictwie jak nowofundland; owczarek niemiecki nie ma naturalnych predyspozycji do pracy w wodzie.",
-      "last_verified_at": "2026-06-12T15:50:23.169Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nowofundlandy były wykorzystywane przy pracy na wodzie i mogą być szkolone do ratownictwa.",
+      "explanation_incorrect": "Psy innych ras również mogą pracować w ratownictwie wodnym po odpowiednim szkoleniu."
     },
     {
       "subcategory": "Hodowla kóz",
@@ -694,13 +620,11 @@
       ],
       "answer": "Koza angorska",
       "explanation_correct": "Koza angorska pochodzi z Turcji i jest ceniona za długie, lśniące i miękkie włókno zwane moherem. Jest to jedna z najstarszych ras kóz hodowanych dla wełny.",
-      "explanation_incorrect": "Kozy syryjskie, burskie i alpejskie są rasami mlecznymi lub mięsnymi; ich okrywa włosowa jest krótka i nie nadaje się do przędzenia. Tylko koza angorska daje wysokiej jakości wełnę.",
-      "last_verified_at": "2026-06-12T15:50:23.169Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kozy burskie są kojarzone przede wszystkim z produkcją mięsa, a alpejskie z produkcją mleka. Inne rasy kóz również mogą dostarczać włókna."
     },
     {
       "subcategory": "Akwarystyka",
-      "question": "Która ryba akwariowa jest znana ze skutecznego czyszczenia szyb z glonów?",
+      "question": "Która ryba z rodziny zbrojnikowatych ma otwór gębowy przystosowany do przywierania do powierzchni?",
       "options": [
         "Zbrojnik",
         "Gupik",
@@ -708,10 +632,8 @@
         "Skalar"
       ],
       "answer": "Zbrojnik",
-      "explanation_correct": "Zbrojnik, zwany też glonożercą lub otoskiem, ma przyssawkę na pysku, którą usuwa glony z szyb i dekoracji. Jest nieocenionym pomocnikiem w utrzymaniu czystości akwarium.",
-      "explanation_incorrect": "Gupiki, mieczyki i skalary nie mają przystosowań do zjadania glonów; żywią się głównie pokarmem suchym lub żywym. Zbrojnik jest jedynym typowo roślinożernym czyszcicielem wśród wymienionych.",
-      "last_verified_at": "2026-06-12T15:50:23.170Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiele zbrojnikowatych ma przyssawkowy otwór gębowy i zjada m.in. glony. Ich potrzeby pokarmowe zależą od gatunku; nie zastępują pielęgnacji akwarium.",
+      "explanation_incorrect": "Gupik, mieczyk i skalar nie są zbrojnikowatymi."
     },
     {
       "subcategory": "Gryzonie",
@@ -723,10 +645,8 @@
         "Szczur wędrowny"
       ],
       "answer": "Kawia domowa",
-      "explanation_correct": "Świnka morska należy do rodziny kawii, a jej naukowa nazwa to Cavia porcellus. Potocznie bywa nazywana kawią domową.",
-      "explanation_incorrect": "Chomik, mysz i szczur to inne gryzonie, ale nie są synonimami świnki morskiej. Kawia domowa to jedyna poprawna, naukowa nazwa dla tego gatunku.",
-      "last_verified_at": "2026-06-12T15:50:23.170Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kawia domowa to polska nazwa gatunku Cavia porcellus, nazywanego także świnką morską.",
+      "explanation_incorrect": "Chomik, mysz i szczur są innymi gryzoniami; nazwa naukowa kawii domowej to Cavia porcellus."
     },
     {
       "subcategory": "Felinologia",
@@ -745,22 +665,20 @@
     },
     {
       "subcategory": "Hodowla alpak",
-      "question": "Który typ alpaki ma kręcone runo?",
+      "question": "Który typ alpaki ma długie włókno układające się w zwisające pasma?",
       "options": [
         "Suri",
         "Huacaya",
-        "Lamy",
-        "Wikunii"
+        "Lama",
+        "Wikunia"
       ],
       "answer": "Suri",
-      "explanation_correct": "Suri to typ alpaki o długim, jedwabistym i kręconym runie, które zwisa w lokach. Jest rzadszy od Huacaya, ale ceniony w przemyśle tekstylnym.",
-      "explanation_incorrect": "Huacaya ma puszyste, gęste i wełniste runo, ale nie kręcone; lamy i wikunie to inne gatunki z rodziny wielbłądowatych, nie alpaki. Suri jest jedynym typem o wyraźnie kręconym włosie.",
-      "last_verified_at": "2026-06-12T15:50:23.171Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Runo suri tworzy długie zwisające pasma; huacaya ma bardziej puszyste, sprężyste runo.",
+      "explanation_incorrect": "Huacaya jest drugim typem alpaki, natomiast lama i wikunia to inne wielbłądowate."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psów jest uznawana za najszybszą?",
+      "question": "Która rasa, nazywana chartem angielskim, jest znana z dużej szybkości w sprincie?",
       "options": [
         "Greyhound",
         "Whippet",
@@ -768,14 +686,12 @@
         "Chart polski"
       ],
       "answer": "Greyhound",
-      "explanation_correct": "Greyhound (chart angielski) może osiągnąć prędkość do 72 km/h, czyniąc go najszybszym psem na krótkich dystansach. Jego smukła budowa i silne nogi są przystosowane do sprintu.",
-      "explanation_incorrect": "Whippet, borzoi i chart polski są również szybkie, ale nie dorównują greyhoundowi. Whippet jest nieco wolniejszy, a borzoi i chart polski są hodowane głównie do wytrzymałości, a nie sprintu.",
-      "last_verified_at": "2026-06-12T15:50:23.171Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Greyhound to chart angielski, znany z szybkiego biegu na krótkich dystansach.",
+      "explanation_incorrect": "Whippet, borzoj i chart polski także należą do chartów, ale chart angielski to greyhound."
     },
     {
       "subcategory": "Ptaki ozdobne",
-      "question": "Który mały ptak śpiewający jest najczęściej kojarzony z żółtym kolorem upierzenia?",
+      "question": "Który popularny ptak śpiewający został udomowiony od dzikiego kanarka?",
       "options": [
         "Kanarek",
         "Nimfa",
@@ -784,9 +700,7 @@
       ],
       "answer": "Kanarek",
       "explanation_correct": "Kanarek domowy, pochodzący od kanarka dzikiego, jest hodowany w wielu odmianach barwnych, ale żółty jest klasyczny. Znany jest ze swojego melodyjnego śpiewu i popularności jako ptak ozdobny.",
-      "explanation_incorrect": "Nimfa i papużka falista występują w różnych kolorach, ale żółty nie jest ich typowym ubarwieniem; amadyna ma przeważnie brązowe upierzenie. Kanarek jest najbardziej charakterystyczny dla koloru żółtego.",
-      "last_verified_at": "2026-06-12T15:50:23.171Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nimfa, papużka falista i amadyny to inne ptaki; ich odmiany również mogą mieć żółte upierzenie."
     },
     {
       "subcategory": "Rolnictwo",
@@ -798,10 +712,8 @@
         "Jałówka"
       ],
       "answer": "Wół",
-      "explanation_correct": "Wół to wykastrowany samiec bydła domowego, używany głównie jako zwierzę pociągowe lub do opasu. Kastracja powoduje, że wół jest łagodniejszy i łatwiejszy w prowadzeniu niż byk.",
-      "explanation_incorrect": "Byk to niekastrowany samiec, cielak to młode bydło obojga płci, a jałówka to młoda krowa przed pierwszym wycieleniem. Tylko wół jest terminem kastrowanego samca.",
-      "last_verified_at": "2026-06-12T15:50:23.171Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wół to wykastrowany samiec bydła domowego, wykorzystywany m.in. do pracy pociągowej lub opasu.",
+      "explanation_incorrect": "Byk to niekastrowany dorosły samiec, cielę to młode bydła, a jałówka to samica przed pierwszym wycieleniem."
     },
     {
       "subcategory": "Herpetologia domowa",
@@ -813,14 +725,12 @@
         "Tryton grzebieniasty"
       ],
       "answer": "Aksolotl",
-      "explanation_correct": "Aksolotl (Ambystoma mexicanum) to neoteniczny płaz ogoniasty, który zachowuje skrzela przez całe życie i jest popularny w hodowlach akwarystycznych. Pochodzi z jezior w Meksyku i występuje w wielu odmianach barwnych.",
-      "explanation_incorrect": "Żaba szponiasta i tryton również żyją w wodzie, ale nie są neoteniczne; salamandra plamista jest lądowa. Aksolotl jest jedynym z wymienionych, który typowo pozostaje w formie larwalnej.",
-      "last_verified_at": "2026-06-12T15:50:23.172Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aksolotl zwykle zachowuje cechy larwalne, w tym skrzela zewnętrzne, osiągając dojrzałość płciową. Przemiana może wystąpić w wyjątkowych warunkach.",
+      "explanation_incorrect": "Żaba szponiasta i salamandra plamista to inne płazy; także u niektórych innych płazów możliwa jest neotenia."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa ma charakterystyczną, pomarszczoną skórę?",
+      "question": "Która chińska rasa psa znana jest z licznych fałdów skórnych i szorstkiej sierści?",
       "options": [
         "Shar pei",
         "Buldog angielski",
@@ -829,13 +739,11 @@
       ],
       "answer": "Shar pei",
       "explanation_correct": "Shar pei to chińska rasa o luźnej i pomarszczonej skórze, szczególnie widocznej w fazie szczenięcej. Nazwa rasy oznacza 'piaskową skórę' i odnosi się do szorstkiej faktury sierści.",
-      "explanation_incorrect": "Buldog angielski i mops mają fałdy skórne na twarzy, ale nie na całym ciele; owczarek szetlandzki ma gładką skórę. Shar pei jest jedynym psem o generalnie pomarszczonej skórze.",
-      "last_verified_at": "2026-06-12T15:50:23.172Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mopsy i buldogi również mogą mieć fałdy skóry; nie są jednak rasą shar pei."
     },
     {
       "subcategory": "Felinologia",
-      "question": "Która rasa kota ma gęste, pluszowe futro i okrągłą głowę?",
+      "question": "Która brytyjska rasa kota ma krótkie, gęste futro i okrągłą głowę?",
       "options": [
         "Brytyjski krótkowłosy",
         "Kot perski",
@@ -844,13 +752,11 @@
       ],
       "answer": "Brytyjski krótkowłosy",
       "explanation_correct": "Brytyjski krótkowłosy to średniej wielkości kot o krótkim, bardzo gęstym i puszystym futrze oraz okrągłej głowie i dużych okrągłych oczach. Jest znany jako spokojny i przyjazny towarzysz.",
-      "explanation_incorrect": "Kot perski ma długie futro, Maine coon i syberyjski mają półdługą sierść. Tylko brytyjski krótkowłosy ma charakterystyczne pluszowe futro typu 'teddy bear'.",
-      "last_verified_at": "2026-06-12T15:50:23.172Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe rasy mają zwykle dłuższe futro; okrągła głowa nie jest cechą wyłączną kotów brytyjskich."
     },
     {
       "subcategory": "Hodowla drobiu",
-      "question": "Który ptak hodowlany jest ceniony zarówno ze względu na mięso, jak i duże pióra ogonowe?",
+      "question": "Samiec którego dużego ptaka hodowlanego może rozkładać okazały wachlarz piór ogonowych?",
       "options": [
         "Indyk",
         "Kura",
@@ -859,13 +765,11 @@
       ],
       "answer": "Indyk",
       "explanation_correct": "Indyk domowy jest hodowany głównie dla mięsa, a samce (indory) mają charakterystyczny, duży ogon z piórami, które są używane w zdobnictwie. Jego mięso jest popularne zwłaszcza w okresie świątecznym.",
-      "explanation_incorrect": "Kury, kaczki i gęsi mają stosunkowo małe ogony, nieużywane jako ozdoby; ich pióra ogonowe nie są znacząco duże. Indyk jest jedynym ptakiem wśród wymienionych z tak okazałym ogonem.",
-      "last_verified_at": "2026-06-12T15:50:23.172Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe ptaki także mają pióra ogonowe, lecz nie są indykami."
     },
     {
       "subcategory": "Akwarystyka",
-      "question": "Która ryba z rodziny piękniczkowatych (Poeciliidae) jest żyworodna i bardzo popularna w akwarystyce?",
+      "question": "Która popularna ryba akwariowa nosi nazwę naukową Poecilia reticulata?",
       "options": [
         "Gupik",
         "Mieczyk",
@@ -873,14 +777,12 @@
         "Platka"
       ],
       "answer": "Gupik",
-      "explanation_correct": "Gupik (Poecilia reticulata) to mała, żyworodna ryba z rodziny piękniczkowatych, niezwykle łatwa w hodowli. Samce są barwniejsze od samic i występują w wielu odmianach hodowlanych.",
-      "explanation_incorrect": "Mieczyk, molinezja i platka również są żyworodne i należą do tej samej rodziny, ale gupik jest najbardziej rozpowszechniony i stanowi klasyczny przykład ryby piękniczkowatej.",
-      "last_verified_at": "2026-06-12T15:50:23.173Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Poecilia reticulata to gupik, ryba z rodziny piękniczkowatych.",
+      "explanation_incorrect": "Mieczyk, molinezja i platka również są piękniczkowatymi i rodzą młode, ale nie są gatunkiem Poecilia reticulata."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Jaki pies pasterski pochodzi ze Szkocji?",
+      "question": "Który pies pasterski pochodzi z pogranicza Anglii i Szkocji i ma w nazwie angielskie słowo oznaczające granicę?",
       "options": [
         "Border collie",
         "Owczarek szkocki (Collie)",
@@ -888,29 +790,25 @@
         "Bobtail"
       ],
       "answer": "Border collie",
-      "explanation_correct": "Border collie pochodzi z pogranicza szkocko-angielskiego i jest uznawany za jednego z najinteligentniejszych psów pasterskich. Znany jest z doskonałego instynktu stadnego i niespożytej energii.",
-      "explanation_incorrect": "Owczarek szkocki (collie) też pochodzi ze Szkocji, ale pytanie dotyczy konkretnej rasy – border collie jest bardziej typowym psem pasterskim i został wyhodowany wyłącznie do zaganiania owiec. Shetland sheepdog to miniaturowy collie z Szetlandów, a bobtail to owczarek staroangielski.",
-      "last_verified_at": "2026-06-12T15:50:23.173Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Border collie to rasa związana z pograniczem angielsko-szkockim; „border” oznacza granicę.",
+      "explanation_incorrect": "Owczarek szkocki i owczarek szetlandzki również pochodzą ze Szkocji, ale nie mają w nazwie słowa „border”."
     },
     {
       "subcategory": "Gryzonie",
-      "question": "Który gryzoń domowy jest największy pod względem wielkości?",
+      "question": "Niedobór której witaminy w diecie kawii domowej może wywołać szkorbut?",
       "options": [
-        "Kawia domowa",
-        "Szynszyla",
-        "Degu",
-        "Szczur"
+        "Witaminę C",
+        "Witaminę K",
+        "Witaminę D",
+        "Witaminę B12"
       ],
-      "answer": "Kawia domowa",
-      "explanation_correct": "Kawia domowa (świnka morska) osiąga długość 20–35 cm i wagę 0,7–1,2 kg, co czyni ją największym popularnym gryzoniem domowym. Jest spokojna, łatwa w hodowli i często wybierana jako zwierzę dla dzieci.",
-      "explanation_incorrect": "Szynszyla (ok. 500 g), degu (ok. 200 g) i szczur (ok. 300 g) są mniejsze. Kawia domowa wyraźnie przewyższa je rozmiarami i masą.",
-      "last_verified_at": "2026-06-12T15:50:23.173Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Witaminę C",
+      "explanation_correct": "Kawia domowa nie syntetyzuje witaminy C i musi otrzymywać ją wraz z pożywieniem. Sposób żywienia warto omówić z lekarzem weterynarii.",
+      "explanation_incorrect": "Witaminy K, D i B12 również pełnią funkcje w organizmie; pytanie dotyczy witaminy C, którą kawia musi otrzymywać z diety."
     },
     {
       "subcategory": "Hodowla koni",
-      "question": "Jak nazywa się mały koń o wzroście nieprzekraczającym 148 cm w kłębie?",
+      "question": "Jak ogólnie określa się niewielkiego konia, którego wzrost w kłębie mieści się w limicie dla kuców w zawodach jeździeckich?",
       "options": [
         "Kuc",
         "Hucuł",
@@ -918,10 +816,8 @@
         "Źrebak"
       ],
       "answer": "Kuc",
-      "explanation_correct": "Kuc to termin określający małe konie poniżej granicy wzrostu ustalonej przez federacje jeździeckie.",
-      "explanation_incorrect": "Hucuł to konkretna rasa konia, muł to hybryda, a źrebak to młody koń bez względu na docelowy wzrost.",
-      "last_verified_at": "2026-06-12T15:50:43.330Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kuc to określenie małego konia. Granica w zawodach zależy od regulaminu i sposobu pomiaru, a nie tylko od rasy.",
+      "explanation_incorrect": "Hucuł jest rasą, muł mieszańcem konia i osła, a źrebię młodym koniowatym."
     },
     {
       "subcategory": "Felinologia",
@@ -933,10 +829,8 @@
         "Birmańska"
       ],
       "answer": "Scottish Fold",
-      "explanation_correct": "Scottish Fold to rasa kota, u której dominująca mutacja genetyczna powoduje, że uszy są złożone do przodu. Inne rasy nie mają tej cechy.",
-      "explanation_incorrect": "Sphynx jest bezwłosy, Maine Coon ma duże uszy, a Birmańska ma uszy normalne – żadna nie ma kłapouchych uszu.",
-      "last_verified_at": "2026-06-12T15:50:23.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "U kotów Scottish Fold mutacja wpływa na chrząstkę, powodując złożenie uszu i wiążąc się z ryzykiem bolesnych zmian kostno-stawowych.",
+      "explanation_incorrect": "Pozostałe wymienione rasy nie są rasą Scottish Fold."
     },
     {
       "subcategory": "Kynologia",
@@ -949,28 +843,24 @@
       ],
       "answer": "Siberian husky",
       "explanation_correct": "Siberian husky to rasa psów zaprzęgowych, u której często występują niebieskie oczy, choć mogą być też brązowe. Inne rasy zaprzęgowe rzadko mają niebieskie oczy.",
-      "explanation_incorrect": "Alaskan malamute ma oczy brązowe, Samojed ma oczy ciemne, a Bernański pies pasterski ma oczy brązowe – żadna z tych ras nie ma niebieskich oczu jako typowej cechy.",
-      "last_verified_at": "2026-06-12T15:50:23.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Umaszczenie oczu różni się między osobnikami; niebieskie oczy są dopuszczalne w standardzie husky."
     },
     {
       "subcategory": "Ptaki ozdobne",
-      "question": "Która papuga ozdobna ma charakterystyczny czub na głowie?",
+      "question": "Która niewielka australijska papuga z rodziny kakaduowatych ma ruchomy czub i zwykle pomarańczowe plamy na policzkach?",
       "options": [
         "Nimfa",
         "Żako",
-        "Ara",
-        "Kakadu"
+        "Ara hiacyntowa",
+        "Papużka falista"
       ],
       "answer": "Nimfa",
-      "explanation_correct": "Nimfa (Kakadu nimfa) ma na głowie charakterystyczny, stojący czub, który może być podnoszony w zależności od nastroju. Żako, Ara i Kakadu również mają czuby, ale u Nimfy jest on najbardziej wyrazisty.",
-      "explanation_incorrect": "Żako ma szare upierzenie i brak czuba, Ara ma duży dziób i często nagą twarz, a Kakadu ma czub, ale jest to inna grupa – u Nimfy czub jest dłuższy i bardziej widoczny.",
-      "last_verified_at": "2026-06-12T15:50:23.174Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nimfa ma ruchomy czub; należy do rodziny kakaduowatych.",
+      "explanation_incorrect": "Inne kakadu również mają czuby, dlatego nie przeciwstawiono ich nimfie jako odpowiedzi."
     },
     {
       "subcategory": "Hodowla owiec",
-      "question": "Jaka rasa owiec ceniona jest za najwyższej jakości, cienką i miękką wełnę?",
+      "question": "Która rasa owiec jest znana z cienkiej wełny wykorzystywanej do produkcji odzieży?",
       "options": [
         "Merynos",
         "Suffolk",
@@ -978,10 +868,8 @@
         "Wrzosówka"
       ],
       "answer": "Merynos",
-      "explanation_correct": "Merynosy dostarczają najcieńszej wełny na świecie, idealnej do produkcji odzieży termoaktywnej.",
-      "explanation_incorrect": "Rasy Suffolk i Texel są hodowane głównie dla mięsa, a Wrzosówka daje wełnę grubszą, kożuchową.",
-      "last_verified_at": "2026-06-12T15:50:43.330Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Merynosy są cenione za cienkie włókna wełny; jej parametry zależą od zwierzęcia i hodowli.",
+      "explanation_incorrect": "Suffolk i texel są kojarzone przede wszystkim z hodowlą mięsną; wrzosówka jest inną rasą owiec."
     },
     {
       "subcategory": "Pszczelarstwo",
@@ -1000,22 +888,20 @@
     },
     {
       "subcategory": "Kynologia",
-      "question": "Jaka rasa psa z grupy chartów poluje, wykorzystując przede wszystkim wzrok?",
+      "question": "Która z wymienionych ras należy do chartów, które w pogoni korzystają przede wszystkim ze wzroku?",
       "options": [
         "Whippet",
-        "Greyhound",
         "Bokser",
-        "Jamnik"
+        "Jamnik",
+        "Buldog"
       ],
       "answer": "Whippet",
-      "explanation_correct": "Whippet to chart, który poluje głównie wzrokiem, ścigając zdobycz z dużą prędkością. Podobnie jak inne charty, jest szybki i ma świetny wzrok.",
-      "explanation_incorrect": "Greyhound również jest chartem, ale określenie 'whippet' jest tutaj konkretne; bokser i jamnik to inne typy psów, nie polujące wzrokiem.",
-      "last_verified_at": "2026-06-12T15:50:23.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Whippet jest chartem; charty w pościgu wykorzystują m.in. wzrok.",
+      "explanation_incorrect": "Także greyhound i inne charty polują głównie wzrokiem; wymienione pozostałe rasy nie są whippetami."
     },
     {
       "subcategory": "Akwarystyka",
-      "question": "Która ryba jajożyworodna jest popularnie nazywana 'mieczem'?",
+      "question": "Która popularna ryba akwariowa ma u samca wydłużony dolny płat płetwy ogonowej przypominający miecz?",
       "options": [
         "Mieczyk",
         "Gupik",
@@ -1023,10 +909,8 @@
         "Karaś"
       ],
       "answer": "Mieczyk",
-      "explanation_correct": "Mieczyk (Xiphophorus hellerii) to ryba jajożyworodna, u której samce mają wydłużony dolny płat płetwy ogonowej, przypominający miecz. Inne ryby nie mają tej cechy.",
-      "explanation_incorrect": "Gupik też jest jajożyworodny, ale nie ma 'miecza'; skalar i karaś to ryby składające ikrę.",
-      "last_verified_at": "2026-06-12T15:50:23.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mieczyk (Xiphophorus hellerii) rodzi żywe młode; samce często mają charakterystyczne wydłużenie płetwy ogonowej.",
+      "explanation_incorrect": "Gupik również rodzi żywe młode; skalar i karaś składają ikrę."
     },
     {
       "subcategory": "Felinologia",
@@ -1038,10 +922,8 @@
         "Kot rosyjski"
       ],
       "answer": "Kot bengalski",
-      "explanation_correct": "Kot bengalski ma cętkowane umaszczenie, które przypomina dzikiego geparda, ze względu na krzyżówkę z dzikim kotem bengalskim. Inne rasy nie mają takiego wzoru.",
-      "explanation_incorrect": "Kot syjamski ma jasne ubarwienie i ciemniejsze kończyny, perski ma długie futro, a rosyjski jest jednolicie szary – żaden nie ma wzoru cętkowanego.",
-      "last_verified_at": "2026-06-12T15:50:23.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koty bengalskie mogą mieć cętkowany lub marmurkowy wzór sierści. Rasa powstała z udziałem dzikiego kota bengalskiego i kotów domowych.",
+      "explanation_incorrect": "Cętki występują również u innych kotów; wzór sam nie identyfikuje rasy."
     },
     {
       "subcategory": "Hodowla bydła",
@@ -1053,14 +935,12 @@
         "Cielak"
       ],
       "answer": "Jałówka",
-      "explanation_correct": "Jałówka to młoda samica bydła (poniżej 2-3 lat), która nie urodziła jeszcze cielęcia. Po pierwszym wycieleniu staje się krową.",
-      "explanation_incorrect": "'Krowa' to dorosła samica, 'byk' to samiec, a 'cielak' to bardzo młode zwierzę (obie płci) – nie spełniają definicji jałówki.",
-      "last_verified_at": "2026-06-12T15:50:23.175Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jałówka to samica bydła przed pierwszym wycieleniem; nie ma jednej uniwersalnej granicy wieku w latach.",
+      "explanation_incorrect": "Byk jest samcem, a cielę to młode bydła; określenie jałówka odnosi się do samicy przed pierwszym wycieleniem."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa uznawana jest za narodową rasę Japonii?",
+      "question": "Która duża japońska rasa psa pochodzi z prefektury Akita?",
       "options": [
         "Akita",
         "Shiba Inu",
@@ -1068,10 +948,8 @@
         "Peking"
       ],
       "answer": "Akita",
-      "explanation_correct": "Akita (Akita Inu) jest uznawana za narodowy pies Japonii, symbolizujący wierność i odwagę. Shiba Inu również jest japoński, ale to Akita ma status narodowy.",
-      "explanation_incorrect": "Chow Chow i Peking pochodzą z Chin, a Shiba Inu jest popularny, ale nie ma statusu narodowego psa Japonii.",
-      "last_verified_at": "2026-06-12T15:50:23.176Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Akita to japońska rasa związana z prefekturą Akita. Shiba również jest rodzimą rasą japońską.",
+      "explanation_incorrect": "Shiba inu także pochodzi z Japonii; chow chow i pekińczyk są kojarzone z Chinami."
     },
     {
       "subcategory": "Gryzonie domowe",
@@ -1083,25 +961,21 @@
         "Szczur"
       ],
       "answer": "Gerbil",
-      "explanation_correct": "Gerbil, czyli myszoskoczek mongolski (Meriones unguiculatus), jest popularnym gryzoniem domowym o puszystym ogonie zakończonym pędzelkiem. Inne gryzonie nie mają tej cechy.",
-      "explanation_incorrect": "Chomik ma krótki ogon, mysz i szczur mają długie, cienkie ogony – żaden z nich nie jest typowo nazywany myszoskoczkiem.",
-      "last_verified_at": "2026-06-12T15:50:23.176Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gerbil jest potocznym określeniem myszoskoczka; w hodowli spotyka się m.in. myszoskoczka mongolskiego.",
+      "explanation_incorrect": "Chomik, mysz i szczur należą do innych grup gryzoni."
     },
     {
       "subcategory": "Ptaki ozdobne",
-      "question": "Który ptak z rodziny gołębiowatych jest często trzymany jako ozdobny i ma białe upierzenie?",
+      "question": "Który ptak ozdobny z rodziny gołębiowatych nazywany jest cukrówką?",
       "options": [
-        "Cukrówka",
-        "Gołąb",
+        "Synogarlica",
+        "Kanarek",
         "Kura",
-        "Papuga"
+        "Nimfa"
       ],
-      "answer": "Cukrówka",
-      "explanation_correct": "Cukrówka to odmiana gołębia domowego o białym upierzeniu, często hodowana jako ptak ozdobny. Jest to ptak z rodziny gołębiowatych.",
-      "explanation_incorrect": "'Gołąb' to ogólna nazwa, nie konkretna odmiana; kura i papuga należą do innych rodzin ptaków.",
-      "last_verified_at": "2026-06-12T15:50:23.176Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Synogarlica",
+      "explanation_correct": "Cukrówką nazywa się udomowioną synogarlicę; występuje w różnych odmianach barwnych, nie tylko białej.",
+      "explanation_incorrect": "Kanarek, kura i nimfa nie należą do gołębiowatych."
     },
     {
       "subcategory": "Kynologia",
@@ -1113,14 +987,12 @@
         "Mastif"
       ],
       "answer": "Bernardyn",
-      "explanation_correct": "Bernardyn (bernardyn) to rasa psa z Alp Szwajcarskich, znana z ratowania zagubionych podróżnych. Nowofundland ratuje z wody, ale nie z gór.",
-      "explanation_incorrect": "Nowofundland jest psem wodnym, husky zaprzęgowym, a mastif psem stróżującym – żaden nie specjalizuje się w ratownictwie górskim.",
-      "last_verified_at": "2026-06-12T15:50:23.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bernardyny były używane przez zakonników na przełęczy św. Bernarda do odnajdywania podróżnych.",
+      "explanation_incorrect": "Psy różnych ras mogą być szkolone do ratownictwa górskiego; pozostałe nie są bernardynami."
     },
     {
       "subcategory": "Hodowla koni",
-      "question": "Jaka maść konia charakteryzuje się białym włosem przy czarnej skórze?",
+      "question": "Jak nazywa się maść konia, którego sierść z wiekiem stopniowo jaśnieje?",
       "options": [
         "Koń siwy",
         "Koń gniady",
@@ -1128,10 +1000,8 @@
         "Koń karosz"
       ],
       "answer": "Koń siwy",
-      "explanation_correct": "Koń siwy ma biały lub szary włos i czarną skórę, co jest efektem stopniowego siwienia. Inne maści mają inne kolory skóry i włosów.",
-      "explanation_incorrect": "Gniady ma brązowy włos i czarne kończyny, kasztan ma rudobrązowy, a karosz jest czarny – żaden nie ma białego włosa z czarną skórą.",
-      "last_verified_at": "2026-06-12T15:50:23.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koń siwy zwykle rodzi się ciemniejszy, a wraz z wiekiem przybywa mu białych włosów; skóra pozostaje zazwyczaj ciemna.",
+      "explanation_incorrect": "Gniada, kasztanowata i kara to inne maści; białe odmiany i znaczenia mogą występować także u koni niesiwych."
     },
     {
       "subcategory": "Akwarystyka",
@@ -1144,9 +1014,7 @@
       ],
       "answer": "Paletka",
       "explanation_correct": "Paletka (Symphysodon) to ryba o bocznie spłaszczonym, dyskowatym ciele, bardzo popularna w akwarystyce. Inne ryby mają bardziej wydłużone kształty.",
-      "explanation_incorrect": "Gupik, karaś i mieczyk mają typowy, wydłużony kształt ryby – żaden nie jest płaski i dyskowaty.",
-      "last_verified_at": "2026-06-12T15:50:23.177Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gupik i mieczyk są bardziej wydłużone; karaś także ma bocznie spłaszczone ciało, lecz nie jest paletką."
     },
     {
       "subcategory": "Felinologia",
@@ -1173,10 +1041,8 @@
         "Prosiak"
       ],
       "answer": "Wieprz",
-      "explanation_correct": "Wieprz to wykastrowany samiec świni, hodowany mięsa. Knur to samiec niekastrowany, locha to samica, a prosiak to młode.",
-      "explanation_incorrect": "Knur to samiec rozpłodowy, locha to matka, a prosiak to młode – żaden z nich nie jest wykastrowanym samcem.",
-      "last_verified_at": "2026-06-12T15:50:23.178Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wieprz to wykastrowany samiec świni. Knur to samiec niekastrowany, locha to samica, a prosię to młode.",
+      "explanation_incorrect": "Knur to samiec rozpłodowy, locha to matka, a prosiak to młode – żaden z nich nie jest wykastrowanym samcem."
     },
     {
       "subcategory": "Kynologia",
@@ -1188,14 +1054,12 @@
         "Maltańczyk"
       ],
       "answer": "Chihuahua",
-      "explanation_correct": "Chihuahua to najmniejsza rasa psa na świecie, wywodząca się z Meksyku. Yorkshire terrier jest z Anglii, pokin z Chin, a maltańczyk nie jest z Meksyku.",
-      "explanation_incorrect": "Yorkshire terrier, Pekin i Maltańczyk pochodzą z innych regionów i nie są związane z Meksykiem.",
-      "last_verified_at": "2026-06-12T15:50:23.178Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chihuahua to mała rasa psa wywodząca się z Meksyku; wielkość dorosłych osobników jest zmienna.",
+      "explanation_incorrect": "Yorkshire terrier, Pekin i Maltańczyk pochodzą z innych regionów i nie są związane z Meksykiem."
     },
     {
       "subcategory": "Ptaki domowe",
-      "question": "Jaka gęś hodowana jest w Polsce i ma charakterystyczne upierzenie?",
+      "question": "Która polska gęś hodowlana nosi nazwę związaną z Kołudą Wielką?",
       "options": [
         "Gęś kołudzka",
         "Gęś gęgawa",
@@ -1203,14 +1067,12 @@
         "Gęś kanadyjska"
       ],
       "answer": "Gęś kołudzka",
-      "explanation_correct": "Gęś kołudzka to polska rasa gęsi domowej, wyhodowana w Kołudzie, ceniona za mięso i puch. Gęgawa to dzika gęś, a pozostałe są obce.",
-      "explanation_incorrect": "Gęś gęgawa to dziko żyjący gatunek w Polsce, ale nie hodowlany; śnieżna i kanadyjska to gęsi obce dla Polski.",
-      "last_verified_at": "2026-06-12T15:50:23.178Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Biała kołudzka jest polską gęsią hodowlaną, znaną m.in. z produkcji mięsa.",
+      "explanation_incorrect": "Gęgawa jest gatunkiem dziko żyjącym i przodkiem wielu gęsi domowych; pozostałe to inne gatunki."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która z tych ras psów ma fioletowy język?",
+      "question": "Która rasa psa z Chin ma w nazwie powtórzone słowo i znana jest z niebieskoczarnego języka?",
       "options": [
         "Chow chow",
         "Shar pei",
@@ -1219,9 +1081,7 @@
       ],
       "answer": "Chow chow",
       "explanation_correct": "Chow chow to rasa psa pochodząca z Chin, charakteryzująca się niebiesko-czarnym lub fioletowym językiem.",
-      "explanation_incorrect": "Shar pei ma również ciemny język, ale najczęściej jest niebiesko-czarny, a nie fioletowy. Samojed i Akita mają różowe języki.",
-      "last_verified_at": "2026-06-12T15:50:23.179Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Shar pei także może mieć niebieskoczarny język; cecha nie jest wyłączna dla chow chow."
     },
     {
       "subcategory": "Pszczelarstwo",
@@ -1234,13 +1094,11 @@
       ],
       "answer": "Truteń",
       "explanation_correct": "Trutnie rozwijają się z niezapłodnionych jaj i są jedynymi samcami w pszczelej rodzinie.",
-      "explanation_incorrect": "Robotnica i królowa to samice, a 'grot' nie jest terminem związanym z kastami pszczół.",
-      "last_verified_at": "2026-06-12T15:50:43.330Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Robotnice i matka są samicami; „grot” nie jest nazwą samca pszczoły."
     },
     {
       "subcategory": "Akwarystyka",
-      "question": "Która ryba labiryntowa buduje gniazda z piany?",
+      "question": "Która z tych ryb labiryntowych obejmuje gatunki budujące gniazda z piany?",
       "options": [
         "Gupik",
         "Gurami",
@@ -1248,29 +1106,25 @@
         "Barbus"
       ],
       "answer": "Gurami",
-      "explanation_correct": "Gurami to ryba z rodziny błędnikowatych, która buduje gniazda z piany dla ochrony ikry.",
-      "explanation_incorrect": "Gupik, neon i barbus nie są rybami labiryntowymi i nie budują gniazd piankowych.",
-      "last_verified_at": "2026-06-12T15:50:23.179Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Samce niektórych gurami budują gniazda z pęcherzyków powietrza, w których opiekują się ikrą.",
+      "explanation_incorrect": "Gupik, neon i barbus nie są gurami ani rybami labiryntowymi."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa ma charakterystyczną 'lwią grzywę' i jest małej wielkości?",
+      "question": "Która mała rasa psa pochodząca z Chin nosi nazwę nawiązującą do Pekinu?",
       "options": [
         "Pekińczyk",
         "Lhasa apso",
         "Szpic miniaturowy",
-        "Pomeranian"
+        "Basset hound"
       ],
       "answer": "Pekińczyk",
       "explanation_correct": "Pekińczyk to mała rasa psa o obfitej, gęstej sierści przypominającej lwią grzywę, pochodząca z Chin.",
-      "explanation_incorrect": "Lhasa apso ma długą sierść, ale nie tworzy tak wyrazistej grzywy. Szpic miniaturowy i pomeranian mają puszystą sierść, ale nie 'lwią' strukturę.",
-      "last_verified_at": "2026-06-12T15:50:23.179Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lhasa apso, szpic miniaturowy i basset hound to inne rasy; szpic miniaturowy jest również nazywany pomeranianem."
     },
     {
       "subcategory": "Felinologia",
-      "question": "Która rasa kota jest znana z orientalnego, długiego i smukłego wyglądu?",
+      "question": "Która rasa kota ma nazwę pochodzącą od dawnej nazwy Etiopii — Abisynii?",
       "options": [
         "Kot abisyński",
         "Kot syjamski",
@@ -1278,10 +1132,8 @@
         "Kot maine coon"
       ],
       "answer": "Kot abisyński",
-      "explanation_correct": "Kot abisyński ma smukłe ciało, duże uszy i krótką, przylegającą sierść, co nadaje mu orientalny wygląd.",
-      "explanation_incorrect": "Kot syjamski też jest orientalny, ale pyta o rasę; maine coon jest duży i masywny, perski ma krótki nos i długą sierść.",
-      "last_verified_at": "2026-06-12T15:50:23.179Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nazwa kota abisyńskiego nawiązuje do Abisynii; rasa ma krótką sierść z charakterystycznym pręgowaniem włosa.",
+      "explanation_incorrect": "Kot syjamski również ma smukłą sylwetkę, lecz jego nazwa nawiązuje do Syjamu."
     },
     {
       "subcategory": "Rolnictwo",
@@ -1300,7 +1152,7 @@
     },
     {
       "subcategory": "Hodowla koni",
-      "question": "Która rasa koni gorącokrwistych pochodzi z Pustyni?",
+      "question": "Która rasa koni jest historycznie związana z Półwyspem Arabskim?",
       "options": [
         "Koń arabski",
         "Koń pełnej krwi",
@@ -1308,14 +1160,12 @@
         "Koń andaluzyjski"
       ],
       "answer": "Koń arabski",
-      "explanation_correct": "Koń arabski to gorącokrwista rasa pochodząca z Półwyspu Arabskiego, znana z wytrzymałości i elegancji.",
-      "explanation_incorrect": "Pełna krew angielska pochodzi z Anglii, fryzyjski z Holandii, andaluzyjski z Hiszpanii.",
-      "last_verified_at": "2026-06-12T15:50:23.180Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koń arabski jest rasą historycznie związaną z Półwyspem Arabskim, cenioną m.in. za wytrzymałość.",
+      "explanation_incorrect": "Pełna krew angielska pochodzi z Anglii, fryzyjski z Holandii, andaluzyjski z Hiszpanii."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Który terier jest największy?",
+      "question": "Który z wymienionych terierów jest zwykle największy?",
       "options": [
         "Airedale terrier",
         "Fox terrier",
@@ -1323,29 +1173,25 @@
         "Scottish terrier"
       ],
       "answer": "Airedale terrier",
-      "explanation_correct": "Airedale terrier jest największym z terierów, osiągając wagę do 30 kg i wysokość do 61 cm.",
-      "explanation_incorrect": "Fox terrier, Jack Russell i Scottish terrier są znacznie mniejsze, ważą do 8-10 kg.",
-      "last_verified_at": "2026-06-12T15:50:23.180Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Airedale terrier należy do największych ras terierów; rozmiary różnią się między osobnikami.",
+      "explanation_incorrect": "Fox terrier, Jack Russell terrier i Scottish terrier są zazwyczaj mniejsze."
     },
     {
       "subcategory": "Herpetologia domowa",
-      "question": "Który gekon potrafi wspinać się po gładkich powierzchniach, takich jak szkło?",
+      "question": "Który gekon ma przylgi na palcach i wywodzi się z Nowej Kaledonii?",
       "options": [
         "Gekon orzęsiony",
         "Gekon lamparci",
-        "Gekon tygrysi",
-        "Gekon diurnus"
+        "Agama brodata",
+        "Wąż zbożowy"
       ],
       "answer": "Gekon orzęsiony",
-      "explanation_correct": "Gekon orzęsiony (Correlophus ciliatus) ma palce z przyssawkami (lamellae) umożliwiającymi wspinaczkę po szkle.",
-      "explanation_incorrect": "Gekon lamparci nie ma tak efektywnych przyssawek, tygrysi i diurnus to inne gatunki o gorszych zdolnościach wspinaczkowych.",
-      "last_verified_at": "2026-06-12T15:50:23.180Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gekon orzęsiony ma na palcach struktury z mikroskopijnymi włoskami, które umożliwiają przyleganie do wielu powierzchni.",
+      "explanation_incorrect": "Inne gatunki gekonów również mogą wspinać się po szkle; agama i wąż nie są gekonami."
     },
     {
       "subcategory": "Ptaki ozdobne",
-      "question": "Która duża papuga ma kolorowe, jaskrawe pióra?",
+      "question": "Jak nazywa się grupa dużych, często jaskrawo ubarwionych papug pochodzących z Ameryki?",
       "options": [
         "Ara",
         "Kakadu",
@@ -1353,25 +1199,21 @@
         "Nimfa"
       ],
       "answer": "Ara",
-      "explanation_correct": "Ara to duża papuga z rodziny papugowatych, charakteryzująca się intensywnym ubarwieniem w kolorach czerwonym, niebieskim, żółtym i zielonym.",
-      "explanation_incorrect": "Kakadu często jest biała z żółtym czubem, żako jest szara z czerwonym ogonem, nimfa jest mniejsza i bledsza.",
-      "last_verified_at": "2026-06-12T15:50:23.181Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ary obejmują różne gatunki papug z Ameryki, często o intensywnym ubarwieniu.",
+      "explanation_incorrect": "Kakadu i nimfy pochodzą z rejonu Australazji, a żako z Afryki; także inne papugi mogą mieć jaskrawe barwy."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która angielska rasa psa jest tradycyjnie używana do polowań na lisy?",
+      "question": "Która angielska rasa psa gończego ma w nazwie nawiązanie do lisa i tradycyjnie pracowała w sforach?",
       "options": [
         "Beagle",
         "Foxhound",
         "Pointer",
         "Setter"
       ],
-      "answer": "Beagle",
-      "explanation_correct": "Beagle to rasa psów gończych wyhodowana w Anglii do polowania na lisy i zające, pracująca w sforze.",
-      "explanation_incorrect": "Foxhound też jest myśliwskim, ale jest większy; Pointer i Setter to wyżły do polowania na ptaki.",
-      "last_verified_at": "2026-06-12T15:50:23.181Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Foxhound",
+      "explanation_correct": "Foxhound angielski był tradycyjnie wykorzystywany w polowaniach na lisy; beagle kojarzony jest przede wszystkim z polowaniem na zające.",
+      "explanation_incorrect": "Beagle to również pies gończy, ale nazwa foxhound odnosi się do lisa (fox)."
     },
     {
       "subcategory": "Felinologia",
@@ -1383,10 +1225,8 @@
         "Sfinks"
       ],
       "answer": "Devon rex",
-      "explanation_correct": "Devon rex to rasa kota o charakterystycznym, krótkim, falistym futrze (szorstkowłosa) spowodowanym mutacją genetyczną.",
-      "explanation_incorrect": "Maine coon ma długie, proste futro; Ragdoll długie, puszyste; Sfinks nie ma futra.",
-      "last_verified_at": "2026-06-12T15:50:23.181Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Devon rex to rasa kota z krótką, falistą sierścią. Jej struktura wynika ze zmian genetycznych.",
+      "explanation_incorrect": "Pozostałe rasy mają inny typ okrywy włosowej; sfinks może mieć delikatny meszek."
     },
     {
       "subcategory": "Rolnictwo",
@@ -1398,59 +1238,51 @@
         "Jarlica"
       ],
       "answer": "Jagnię",
-      "explanation_correct": "Jagnię to młoda owca (lub baran) w wieku do 6-12 miesięcy, przed osiągnięciem dojrzałości płciowej.",
-      "explanation_incorrect": "Owca to dorosła samica, baran to dorosły samiec, jarlica to owca w wieku przejściowym (młodzież).",
-      "last_verified_at": "2026-06-12T15:50:23.182Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jagnię to młode owcy domowej; granice wieku w klasyfikacjach hodowlanych mogą się różnić.",
+      "explanation_incorrect": "Owca bywa nazwą samicy lub gatunku, baran jest dorosłym samcem, a jarlica młodą samicą owcy."
     },
     {
       "subcategory": "Akwarystyka",
-      "question": "Która ryba uważana jest za najstarszą udomowioną rybę akwariową na świecie?",
+      "question": "Która popularna ryba ozdobna została udomowiona w Chinach ponad tysiąc lat temu?",
       "options": [
         "Złota rybka",
-        "Karp",
+        "Skalar",
         "Gupik",
         "Neon"
       ],
       "answer": "Złota rybka",
-      "explanation_correct": "Złota rybka (Carassius auratus) jest udomowiona od ponad 1000 lat w Chinach, co czyni ją najstarszą rybą domową.",
-      "explanation_incorrect": "Karp jest hodowany od dawna, ale głównie jako ryba konsumpcyjna; gupik i neon to gatunki nowsze w akwarystyce.",
-      "last_verified_at": "2026-06-12T15:50:23.182Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Złota rybka ma długą historię hodowli ozdobnej w Chinach.",
+      "explanation_incorrect": "Skalar, gupik i neon mają inne pochodzenie; karpie również hodowano bardzo dawno temu."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa ma umaszczenie typu merle z niebieskimi plamami?",
+      "question": "Która z wymienionych ras psów pasterskich występuje w umaszczeniu blue merle?",
       "options": [
         "Owczarek australijski",
-        "Border collie",
-        "Dalmatyńczyk",
-        "Siberian husky"
+        "Mops",
+        "Bokser",
+        "Buldog francuski"
       ],
       "answer": "Owczarek australijski",
-      "explanation_correct": "Owczarek australijski często występuje w umaszczeniu merle, z niebieskimi lub szarymi plamami na czarno-białym tle.",
-      "explanation_incorrect": "Border collie ma merle, ale jest rzadsze; dalmatyńczyk ma plamy, ale nie merle; husky nie ma plam.",
-      "last_verified_at": "2026-06-12T15:50:23.182Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Owczarki australijskie występują w różnych umaszczeniach, w tym blue merle.",
+      "explanation_incorrect": "Wzór merle występuje także u innych ras, np. border collie; nie jest cechą wyłączną owczarka australijskiego."
     },
     {
       "subcategory": "Jedwabnictwo",
-      "question": "Która gąsienica produkuje nici używane do wyrobu jedwabiu?",
+      "question": "Który udomowiony motyl wytwarza kokon z nici wykorzystywanej do produkcji jedwabiu morwowego?",
       "options": [
         "Jedwabnik morwowy",
-        "Jedwabnik dębowy",
-        "Błyszczka",
-        "Przepilecznica"
+        "Motyl monarcha",
+        "Paź królowej",
+        "Bielinek kapustnik"
       ],
       "answer": "Jedwabnik morwowy",
-      "explanation_correct": "Jedwabnik morwowy to gąsienica motyla Bombyx mori, której przędza służy do produkcji naturalnego jedwabiu.",
-      "explanation_incorrect": "Jedwabnik dębowy produkuje jedwab, ale jest innego typu; pozostałe nie są używane w jedwabnictwie.",
-      "last_verified_at": "2026-06-12T15:50:23.182Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gąsienica jedwabnika morwowego (Bombyx mori) przędzie kokon wykorzystywany w jedwabnictwie.",
+      "explanation_incorrect": "Istnieją też inne jedwabniki, np. dębowe, których kokony dają inne rodzaje jedwabiu."
     },
     {
       "subcategory": "Kynologia",
-      "question": "Który pies ma twarz przypominającą małpkę?",
+      "question": "Której niemieckiej rasie małych psów nazwa nawiązuje do małpy?",
       "options": [
         "Affenpinscher",
         "Griffon brukselski",
@@ -1458,14 +1290,12 @@
         "Mops"
       ],
       "answer": "Affenpinscher",
-      "explanation_correct": "Affenpinscher to mały pies o wyrazistej, małpiej twarzy z odstającymi wąsami i brwiami.",
-      "explanation_incorrect": "Griffon ma podobny wygląd, ale oryginalny 'małpi' opis dotyczy affenpinscher; Boston terrier i mops mają krótkie pyski, ale nie tak charakterystyczne.",
-      "last_verified_at": "2026-06-12T15:50:23.183Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nazwa affenpinscher zawiera niemieckie słowo „Affe”, oznaczające małpę.",
+      "explanation_incorrect": "Gryfonik brukselski także może mieć podobny wyraz pyska; pytanie dotyczy znaczenia nazwy."
     },
     {
       "subcategory": "Gryzonie",
-      "question": "Który chomik ma złote futro?",
+      "question": "Który gatunek chomika jest również nazywany chomikiem złotym?",
       "options": [
         "Chomik syryjski",
         "Chomik dżungarski",
@@ -1473,10 +1303,8 @@
         "Chomik chiński"
       ],
       "answer": "Chomik syryjski",
-      "explanation_correct": "Chomik syryjski to największy chomik domowy, zazwyczaj o złocisto-brązowym futrze.",
-      "explanation_incorrect": "Chomik dżungarski jest szarobrązowy, Roborowskiego jasnobrązowy, chiński myszaty.",
-      "last_verified_at": "2026-06-12T15:50:23.183Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chomik syryjski bywa nazywany złotym; odmiany hodowlane mają różne kolory futra.",
+      "explanation_incorrect": "Także inne chomiki mogą mieć jasne lub złociste futro, ale nie są chomikiem syryjskim."
     },
     {
       "subcategory": "Felinologia",
@@ -1495,7 +1323,7 @@
     },
     {
       "subcategory": "Kynologia",
-      "question": "Która rasa psa pochodzi z Francji i była używana jako pies pasterski?",
+      "question": "Która francuska rasa psa pasterskiego o długiej sierści jest także nazywana owczarkiem z Brie?",
       "options": [
         "Briard",
         "Beauceron",
@@ -1503,10 +1331,8 @@
         "Owczarek belgijski"
       ],
       "answer": "Briard",
-      "explanation_correct": "Briard to francuski pies pasterski o długiej, falistej sierści, historycznie używany do pilnowania owiec.",
-      "explanation_incorrect": "Beauceron też francuski, ale o krótszej sierści; szetlandzki i belgijski pochodzą z innych krajów.",
-      "last_verified_at": "2026-06-12T15:50:23.184Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Briard to francuski pies pasterski o długiej sierści; inną francuską rasą pasterską jest krótkowłosy beauceron.",
+      "explanation_incorrect": "Beauceron także pochodzi z Francji i był wykorzystywany do pracy pasterskiej."
     }
   ]
 }
