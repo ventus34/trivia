@@ -2,7 +2,7 @@
   "id": "kultura_i_folklor_lokalny_pl",
   "name": "Kultura i Folklor Lokalny",
   "language": "pl",
-  "description": "Pytania z zakresu: Folklor Filipiński, Kultura Hinduska, Folklor Amerykański...",
+  "description": "Wierzenia, obrzędy, sztuka ludowa i tradycje społeczności z różnych stron świata.",
   "created_at": "2026-06-12T15:15:29.149Z",
   "last_verified_at": "2026-06-12T15:15:28.515Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -13,19 +13,17 @@
       "question": "Które stworzenie z folkloru filipińskiego potrafi odrywać górną część ciała?",
       "options": [
         "Manananggal",
-        "Aswang",
+        "Bakunawa",
         "Tikbalang",
         "Kapre"
       ],
       "answer": "Manananggal",
       "explanation_correct": "Manananggal to wampiryczne stworzenie, które odrywa górną połowę ciała, aby polować na ofiary.",
-      "explanation_incorrect": "Aswang to ogólne określenie potworów, Tikbalang to istota z końską głową, a Kapre to olbrzym.",
-      "last_verified_at": "2026-06-12T15:15:08.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Manananggal bywa zaliczany do szerszej kategorii aswang; tikbalang i kapre są innymi istotami w filipińskich opowieściach."
     },
     {
       "subcategory": "Kultura Hinduska",
-      "question": "Który tradycyjny instrument strunowy używany jest w klasycznej muzyce hinduskiej?",
+      "question": "Który szarpany instrument strunowy jest kojarzony z klasyczną muzyką hindustańską północnych Indii?",
       "options": [
         "Sitar",
         "Sarangi",
@@ -34,9 +32,7 @@
       ],
       "answer": "Sitar",
       "explanation_correct": "Sitar to instrument strunowy szarpany, będący jednym z najważniejszych w klasycznej muzyce hinduskiej.",
-      "explanation_incorrect": "Sarangi to instrument smyczkowy, Tabla to perkusyjny, a Harmonium to dęty klawiszowy.",
-      "last_verified_at": "2026-06-12T15:15:08.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sarangi również jest instrumentem strunowym używanym w muzyce indyjskiej, ale gra się na nim smyczkiem. Tabla jest perkusyjna, a fisharmonia klawiszowa."
     },
     {
       "subcategory": "Folklor Amerykański",
@@ -49,13 +45,11 @@
       ],
       "answer": "Diabeł z Jersey",
       "explanation_correct": "Diabeł z Jersey to legendarna istota z końskim łbem, skrzydłami i ogonem, spotykana w Pine Barrens.",
-      "explanation_incorrect": "Potwór z Flatwoods ma obcą formę, Chupacabra jest ssakiem, a Mothman ma skrzydła i czerwone oczy.",
-      "last_verified_at": "2026-06-12T15:15:08.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Flatwoods Monster, chupacabra i Mothman są innymi postaciami z opowieści; nie są potwierdzonymi gatunkami zwierząt."
     },
     {
       "subcategory": "Kuchnia Regionalna Polski",
-      "question": "Który twardy wędzony ser owczy pochodzi z Podhala?",
+      "question": "Który wędzony ser z Podhala ma charakterystyczny wrzecionowaty kształt?",
       "options": [
         "Oscypek",
         "Bundz",
@@ -63,14 +57,12 @@
         "Redykołka"
       ],
       "answer": "Oscypek",
-      "explanation_correct": "Oscypek to wędzony ser owczy w kształcie wrzeciona, produkowany tradycyjnie w regionie Podhala.",
-      "explanation_incorrect": "Bundz to ser niedojrzały, bryndza jest miękka, a redykołka to mały ser w kształcie zwierząt.",
-      "last_verified_at": "2026-06-12T15:15:08.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oscypek to wędzony ser o charakterystycznym kształcie; chroniona nazwa dopuszcza określony udział mleka krowiego obok owczego.",
+      "explanation_incorrect": "Redykołka również może być wędzona, lecz ma inne typowe formy; bundz i bryndza to inne sery."
     },
     {
       "subcategory": "Tradycje Świąteczne",
-      "question": "Które włoskie ciasto drożdżowe z bakaliami jest tradycyjnie spożywane w okresie świątecznym?",
+      "question": "Które włoskie ciasto drożdżowe z bakaliami jest tradycyjnie spożywane na Boże Narodzenie?",
       "options": [
         "Panettone",
         "Pandoro",
@@ -79,9 +71,7 @@
       ],
       "answer": "Panettone",
       "explanation_correct": "Panettone to włoskie ciasto drożdżowe z bakaliami, wypiekane głównie na Boże Narodzenie.",
-      "explanation_incorrect": "Pandoro jest maślane bez bakalii, Colomba to ciasto wielkanocne, a tiramisù to deser bez drożdży.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pandoro, colomba i tiramisù to inne włoskie wypieki lub desery; ich skład zależy od receptury."
     },
     {
       "subcategory": "Folklor Kornwalijski",
@@ -93,14 +83,12 @@
         "Boggarts"
       ],
       "answer": "Knockers",
-      "explanation_correct": "Knockers to kornwalijskie skrzaty kopalniane, które pukaniem ostrzegają górników przed niebezpieczeństwem.",
-      "explanation_incorrect": "Pixies to szkodliwe duchy z Devonu, Leprechauny to irlandzcy szewcy, a Boggarts to psotne stwory z Anglii.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Knockers to postacie kornwalijskich opowieści o kopalniach; w niektórych wersjach pukaniem ostrzegały górników.",
+      "explanation_incorrect": "Pixies, leprechauny i boggarty występują w innych tradycjach i opowieściach; ich cechy nie są jednolite."
     },
     {
       "subcategory": "Kultura Aborygeńska",
-      "question": "Który tradycyjny instrument dęty Aborygenów australijskich wykonany jest z eukaliptusa?",
+      "question": "Jak nazywa się długi instrument dęty niektórych rdzennych społeczności północnej Australii, często wykonywany z wydrążonego drewna?",
       "options": [
         "Didgeridoo",
         "Clapsticks",
@@ -108,10 +96,8 @@
         "Gumleaf"
       ],
       "answer": "Didgeridoo",
-      "explanation_correct": "Didgeridoo to długi, dęty instrument z pnia eukaliptusa, wydający głęboki, dronujący dźwięk.",
-      "explanation_incorrect": "Clapsticks to instrumenty perkusyjne, bullroarer wydaje dźwięk wirowania, a gumleaf to liść używany jako piszczałka.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Didgeridoo jest instrumentem dętym związanym szczególnie z rdzennymi społecznościami północnej Australii; bywa wykonywany z naturalnie wydrążonego eukaliptusa.",
+      "explanation_incorrect": "Clapsticks są instrumentem uderzanym, bullroarer wydaje dźwięk podczas wirowania, a na liściu gumleaf także można grać."
     },
     {
       "subcategory": "Folklor Rosyjski",
@@ -123,25 +109,21 @@
         "Weles"
       ],
       "answer": "Kościej Nieśmiertelny",
-      "explanation_correct": "Kościej to potężny czarnoksiężnik, którego dusza ukryta jest w jaju, co czyni go nieśmiertelnym.",
-      "explanation_incorrect": "Baba Jaga to wiedźma, Rusłan to bohater, a Weles to bóg podziemi – żaden z nich nie jest królem-czarnoksiężnikiem.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kościej Nieśmiertelny to postać baśni wschodniosłowiańskich, której śmierć bywa ukryta w szeregu przedmiotów i stworzeń; szczegóły różnią się między wersjami.",
+      "explanation_incorrect": "Baba Jaga to wiedźma, Rusłan to bohater, a Weles to bóg podziemi – żaden z nich nie jest królem-czarnoksiężnikiem."
     },
     {
       "subcategory": "Tradycje Sufickie",
-      "question": "Jak nazywają się członkowie bractwa sufickiego wykonujący ekstatyczny taniec obrotowy?",
+      "question": "Jak nazywa się sufickie bractwo znane z ceremonii sema, podczas której uczestnicy wirują?",
       "options": [
-        "Wirujący derwisze",
         "Mewlewi",
-        "Szyici",
-        "Kalenderczycy"
+        "Starożytni Spartanie",
+        "Wikingowie",
+        "Legioniści rzymscy"
       ],
-      "answer": "Wirujący derwisze",
-      "explanation_correct": "Wirujący derwisze to członkowie zakonu mewlewiego, którzy poprzez wirowanie dążą do ekstazy mistycznej.",
-      "explanation_incorrect": "Mewlewi to nazwa zakonu, szyici to odłam islamu, a kalenderczycy to inny zakon – nie tańczą w ten sposób.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mewlewi",
+      "explanation_correct": "Mewlewi są związani z ceremonią sema, obejmującą muzykę i wirowanie derwiszów.",
+      "explanation_incorrect": "Określenie „wirujący derwisze” odnosi się do uczestników tej tradycji; pozostałe grupy nie są nazwą bractwa."
     },
     {
       "subcategory": "Folklor Chiński",
@@ -153,14 +135,12 @@
         "Jiangshi"
       ],
       "answer": "Nian",
-      "explanation_correct": "Nian to bestia, która co roku atakowała wioski; odstraszano ją głośnymi dźwiękami i czerwienią.",
-      "explanation_incorrect": "Qilin to łagodny jednorożec, smok jest symbolem szczęścia, a jiangshi to skaczący zombie.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W jednej z popularnych chińskich opowieści noworocznych bestię Nian odstrasza się hałasem i czerwienią.",
+      "explanation_incorrect": "Qilin, smoki i jiangshi występują w innych opowieściach; przedstawienia i znaczenia różnią się między tradycjami."
     },
     {
       "subcategory": "Kultura Flamandzka",
-      "question": "Które dzwonnice z regionu Flandrii wpisane są na listę UNESCO?",
+      "question": "Jak po francusku nazywa się miejska dzwonnica, taka jak te wpisane na listę UNESCO w Belgii i Francji?",
       "options": [
         "Beffroi",
         "Katedra w Brugii",
@@ -168,44 +148,38 @@
         "Wieża Eiffla"
       ],
       "answer": "Beffroi",
-      "explanation_correct": "Beffroi to średniowieczne dzwonnice w miastach Flandrii, wpisane na listę światowego dziedzictwa UNESCO.",
-      "explanation_incorrect": "Katedra w Brugii to kościół, ratusz w Lowanium to budynek administracyjny, a wieża Eiffla to konstrukcja paryska.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Beffrois to miejskie dzwonnice, których grupa w Belgii i Francji jest wpisana na listę światowego dziedzictwa.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą zespołu dzwonnic wpisanych jako „Beffrois of Belgium and France”."
     },
     {
       "subcategory": "Folklor Ukraiński",
-      "question": "Który instrument strunowy szarpany jest symbolem narodowym Ukrainy?",
+      "question": "Który szarpany instrument o wielu strunach jest związany z ukraińską tradycją muzyczną?",
       "options": [
         "Bandura",
-        "Kobza",
-        "Cymbały",
-        "Torban"
+        "Trąbka",
+        "Bęben",
+        "Flet"
       ],
       "answer": "Bandura",
       "explanation_correct": "Bandura to tradycyjny instrument strunowy szarpany, łączący cechy lutni i harfy, silnie kojarzony z kulturą ukraińską.",
-      "explanation_incorrect": "Kobza to starszy instrument, ale bandura jest bardziej rozpowszechniona; cymbały to instrument perkusyjny, torban to basowa odmiana.",
-      "last_verified_at": "2026-06-12T15:15:08.516Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Trąbka i flet są instrumentami dętymi, a bęben perkusyjnym. Kobza i torban również należą do ukraińskich tradycji strunowych."
     },
     {
       "subcategory": "Sztuka Ludowa Węgier",
-      "question": "Który słynny haft floralny pochodzi z regionu Kalocsa na Węgrzech?",
+      "question": "Z którą węgierską społecznością z okolic Mezőkövesd wiąże się haft z motywami kwiatowymi wpisany na listę UNESCO?",
       "options": [
-        "Haft kalocsański",
-        "Haft matyó",
-        "Haft mezőkövesdi",
-        "Haft sárközi"
+        "Matyó",
+        "Masajowie",
+        "Inuici",
+        "Kaszubi"
       ],
-      "answer": "Haft kalocsański",
-      "explanation_correct": "Haft kalocsański to bogaty, kolorowy haft z motywami kwiatowymi, charakterystyczny dla miasta Kalocsa.",
-      "explanation_incorrect": "Haft matyó pochodzi z okolic Mezőkövesd, haft mezőkövesdi to ten sam co matyó, a sárközi ma inne wzory.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Matyó",
+      "explanation_correct": "Haft społeczności Matyó z okolic Mezőkövesd wpisano na listę niematerialnego dziedzictwa UNESCO.",
+      "explanation_incorrect": "Masajowie, Inuici i Kaszubi to inne społeczności, niezwiązane z tradycją haftu Matyó."
     },
     {
       "subcategory": "Folklor Perski",
-      "question": "Który ptak z folkloru perskiego przypomina feniksa?",
+      "question": "Jak nazywa się wielki ptak z perskiego „Szahname”, który wychowuje Zala?",
       "options": [
         "Simurg",
         "Huma",
@@ -213,25 +187,21 @@
         "Paszmin"
       ],
       "answer": "Simurg",
-      "explanation_correct": "Simurg to mityczny ptak w perskiej mitologii, często przedstawiany jako ogromny, mądry i podobny do feniksa.",
-      "explanation_incorrect": "Huma to ptak szczęścia, Roc to gigantyczny ptak z baśni arabskich, a Paszmin to wełna, nie ptak.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Simurg (Simorgh) jest mitycznym ptakiem, który w „Szahname” opiekuje się Zalem.",
+      "explanation_incorrect": "Huma i Roc są innymi legendarnymi ptakami; pytanie wskazuje historię Zala."
     },
     {
       "subcategory": "Tradycje Tybetańskie",
-      "question": "Jak nazywają się tybetańskie flagi z modlitwami rozwieszane na wietrze?",
+      "question": "Jak nazywa się motyw „konia wiatru” obecny na wielu tybetańskich flagach modlitewnych?",
       "options": [
         "Lungta",
-        "Tibetan prayer flags",
-        "Mani",
-        "Stupa"
+        "Stupa",
+        "Mandala",
+        "Jak"
       ],
       "answer": "Lungta",
-      "explanation_correct": "Lungta, czyli 'konie wiatru', to flagi z modlitwami i mantrami, które roznoszą błogosławieństwa na wietrze.",
-      "explanation_incorrect": "Mani to kamienie z wyrytymi modlitwami, stupa to budowla sakralna, a 'Tibetan prayer flags' to ogólny angielski termin.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lungta oznacza konia wiatru i jest ważnym motywem na tybetańskich flagach modlitewnych.",
+      "explanation_incorrect": "Stupa to budowla sakralna, mandala symboliczny diagram, a jak to zwierzę; „tibetan prayer flags” jest angielską nazwą flag."
     },
     {
       "subcategory": "Folklor Afrykański",
@@ -250,37 +220,33 @@
     },
     {
       "subcategory": "Kultura Serbska",
-      "question": "Jak nazywa się serbskie rodzinne święto ku czci patrona?",
+      "question": "Jak nazywa się serbskie rodzinne święto ku czci świętego patrona?",
       "options": [
         "Slava",
-        "Krsna Slava",
-        "Đurđevdan",
-        "Vaskrs"
+        "Wielkanoc",
+        "Ramadan",
+        "Adwent"
       ],
       "answer": "Slava",
-      "explanation_correct": "Slava to wyjątkowe serbskie święto, podczas którego rodzina czci swojego świętego patrona, obchodzone hucznie i religijnie.",
-      "explanation_incorrect": "Krsna Slava to inna nazwa, ale Slava jest podstawowa; Đurđevdan to Dzień Świętego Jerzego, Vaskrs to Wielkanoc.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Slava, także krsna slava, jest rodzinną uroczystością ku czci świętego patrona, wpisaną na listę niematerialnego dziedzictwa UNESCO.",
+      "explanation_incorrect": "Krsna slava jest inną nazwą tej tradycji; pozostałe odpowiedzi nie są jej nazwą."
     },
     {
       "subcategory": "Folklor Hiszpański",
-      "question": "Która postać z folkloru hiszpańskiego używana jest do straszenia dzieci?",
+      "question": "Jak nazywa się hiszpańskojęzyczne straszydło, którego nazwa jest też słowem oznaczającym kokos?",
       "options": [
         "El Coco",
-        "El Hombre del Saco",
-        "La Llorona",
-        "El Chupacabra"
+        "Czerwony Kapturek",
+        "Kopciuszek",
+        "Pinokio"
       ],
       "answer": "El Coco",
-      "explanation_correct": "El Coco (lub Coco) to straszydło, którym straszy się dzieci, aby były grzeczne, często przedstawiane jako potwór z workiem.",
-      "explanation_incorrect": "El Hombre del Saco to podobna postać, ale El Coco jest bardziej ikoniczny; La Llorona to płacząca kobieta, a Chupacabra to zwierzę.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "El Coco to nazwa straszydła pojawiającego się w opowieściach dla dzieci w różnych krajach hiszpańskojęzycznych.",
+      "explanation_incorrect": "Czerwony Kapturek, Kopciuszek i Pinokio to inne postacie opowieści."
     },
     {
       "subcategory": "Tradycje Indiańskie",
-      "question": "Która ozdobna tarcza pochodząca z tradycji indiańskich chroni przed złymi snami?",
+      "question": "Jak nazywa się pleciona obręcz związana z tradycją Ojibwe, która według wierzeń ma chronić przed złymi snami?",
       "options": [
         "Łapacz snów",
         "Pióropusz",
@@ -288,25 +254,21 @@
         "Kalumet"
       ],
       "answer": "Łapacz snów",
-      "explanation_correct": "Łapacz snów to ręcznie wykonany przedmiot z obręczy, siatki i piór, który według wierzeń zatrzymuje złe sny.",
-      "explanation_incorrect": "Pióropusz to nakrycie głowy, tomahawk to topór, a kalumet to fajka pokoju – nie chronią przed snami.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Łapacze snów są szczególnie związane z tradycją Anishinaabe/Ojibwe; ich formy i znaczenia różnią się w społecznościach rdzennych.",
+      "explanation_incorrect": "Pióropusz, tomahawk i fajki ceremonialne mają inne funkcje; nie należy traktować tradycji rdzennych ludów jako jednolitych."
     },
     {
       "subcategory": "Folklor Kurpiowski",
-      "question": "Jaka jest regionalna nazwa piwa jałowcowego z regionu Kurpiowskiego?",
+      "question": "Jak nazywa się kurpiowski napój wyrabiany z jałowca, tradycyjnie nazywany piwem?",
       "options": [
         "Piwo kozicowe",
-        "Piwo jałowcowe",
-        "Miodówka",
-        "Nalewka jałowcowa"
+        "Barszcz czerwony",
+        "Kawa zbożowa",
+        "Sok pomarańczowy"
       ],
       "answer": "Piwo kozicowe",
-      "explanation_correct": "Piwo kozicowe to tradycyjny napój Kurpiów warzony na jałowcu, znany od wieków.",
-      "explanation_incorrect": "Piwo jałowcowe to ogólna nazwa, miodówka to miód pitny, a nalewka to alkohol macerowany – nie piwo.",
-      "last_verified_at": "2026-06-12T15:15:08.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Piwo kozicowe to kurpiowski napój na bazie jałowca, określany też jako piwo jałowcowe.",
+      "explanation_incorrect": "Piwo jałowcowe może być inną nazwą tego napoju; pozostałe odpowiedzi są innymi napojami."
     },
     {
       "subcategory": "Kultura Koreańska",
@@ -318,10 +280,8 @@
         "Cheongsam"
       ],
       "answer": "Hanbok",
-      "explanation_correct": "Hanbok to tradycyjny strój koreański, charakteryzujący się jaskrawymi kolorami i prostymi liniami, noszony od wieków przez obie płcie.",
-      "explanation_incorrect": "Kimono to strój japoński, Ao dai wietnamski, a Cheongsam chiński – wszystkie należą do innych kultur Azji Wschodniej.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hanbok to koreański strój tradycyjny noszony w różnych formach przez kobiety i mężczyzn; kolory i kroje zależą od kontekstu.",
+      "explanation_incorrect": "Kimono wiąże się z Japonią, áo dài z Wietnamem, a cheongsam z Chinami."
     },
     {
       "subcategory": "Folklor Angielski",
@@ -333,29 +293,25 @@
         "Billy the Kid"
       ],
       "answer": "Robin Hood",
-      "explanation_correct": "Robin Hood to angielski banita z legend, który według podań okradał bogatych i dawał biednym, działając z lasu Sherwood.",
-      "explanation_incorrect": "Janosik to zbójnik słowacki, Django to postać z westernów, a Billy the Kid to amerykański przestępca – żaden nie jest związany z Sherwood.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Robin Hood to postać angielskich opowieści związanych m.in. z Sherwood; znane wątki legendy różniły się między wersjami i epokami.",
+      "explanation_incorrect": "Janosik to zbójnik słowacki, Django to postać z westernów, a Billy the Kid to amerykański przestępca – żaden nie jest związany z Sherwood."
     },
     {
       "subcategory": "Tradycje Baskijskie",
-      "question": "Jak nazywa się baskijski sport polegający na odbijaniu piłki od ściany?",
+      "question": "Jak nazywa się baskijska gra w piłkę, w której zawodnicy używają długiego kosza cesta do rzucania piłki?",
       "options": [
-        "Pelota",
         "Jai alai",
-        "Frontenis",
-        "Squash"
+        "Szachy",
+        "Curling",
+        "Warcaby"
       ],
-      "answer": "Pelota",
-      "explanation_correct": "Pelota to tradycyjny sport baskijski, w którym gracze odbijają piłkę od ściany (frontonu) za pomocą ręki lub rakiety.",
-      "explanation_incorrect": "Jai alai to odmiana peloty, Frontenis również, a squash to sport brytyjski, nie baskijski.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Jai alai",
+      "explanation_correct": "Jai alai to odmiana peloty, w której używa się charakterystycznej zakrzywionej cesty do chwytania i rzucania piłki.",
+      "explanation_incorrect": "Pelota obejmuje wiele odmian, w tym jai alai i frontenis; pozostałe odpowiedzi są innymi grami."
     },
     {
       "subcategory": "Folklor Jidysz",
-      "question": "Która istota z folkloru jidysz jest złym duchem dręczącym żywych?",
+      "question": "Jak nazywa się w żydowskich opowieściach duch zmarłego, który przylgnął do żywej osoby?",
       "options": [
         "Dybuk",
         "Shedim",
@@ -363,14 +319,12 @@
         "Widmo"
       ],
       "answer": "Dybuk",
-      "explanation_correct": "Dybuk w wierzeniach żydowskich to dusza zmarłego, która opętała żywą osobę, powodując cierpienia i wymagając egzorcyzmów.",
-      "explanation_incorrect": "Shedim to ogólnie demony, Latający Holender to statek widmo, a Widmo to zjawisko, nie duch opętujący.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dybuk to w tradycji żydowskiej duch zmarłego, który może opętać żywą osobę; szczegóły opowieści są zróżnicowane.",
+      "explanation_incorrect": "Shedim to ogólnie demony, Latający Holender to statek widmo, a Widmo to zjawisko, nie duch opętujący."
     },
     {
       "subcategory": "Kultura Hawajska",
-      "question": "Która hawajska tradycyjna uczta obejmuje pieczenie świni w ziemi?",
+      "question": "Jak nazywa się hawajska uczta, na której mogą być podawane potrawy przygotowane w piecu ziemnym imu?",
       "options": [
         "Lu'au",
         "Hawaiian barbecue",
@@ -378,14 +332,12 @@
         "Imu"
       ],
       "answer": "Lu'au",
-      "explanation_correct": "Lu'au to tradycyjne hawajskie przyjęcie, podczas którego podaje się wieprzowinę pieczoną w ziemi (kalua) i inne potrawy.",
-      "explanation_incorrect": "Kalua pig to samo danie, ale nie nazwa uczty; Imu to piec ziemny; Hawaiian barbecue to termin ogólny.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Luʻau to hawajska uczta; imu to piec ziemny, a kalua opisuje sposób przygotowania potrawy.",
+      "explanation_incorrect": "Kalua pig jest daniem, imu jest piecem, a pozostała nazwa jest ogólnym określeniem."
     },
     {
       "subcategory": "Folklor Bałkański",
-      "question": "Jak nazywa się rumuńska istota z folkloru bałkańskiego, będąca pierwowzorem nowoczesnego wampira?",
+      "question": "Jak nazywają się w rumuńskich wierzeniach niespokojne istoty lub duchy zmarłych, czasem łączone z wampirami?",
       "options": [
         "Strigoi",
         "Dhampir",
@@ -393,10 +345,8 @@
         "Bebok"
       ],
       "answer": "Strigoi",
-      "explanation_correct": "Strigoi to niespokojne dusze zmarłych, które według wierzeń wychodzą z grobów, by pić krew i dręczyć żywych.",
-      "explanation_incorrect": "Dhampir to potomek wampira i człowieka; Licho i Bebok to stwory z mitologii słowiańskiej.",
-      "last_verified_at": "2026-06-12T15:15:28.514Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Strigoi występują w rumuńskich wierzeniach w różnych wersjach, m.in. jako niebezpieczne duchy zmarłych.",
+      "explanation_incorrect": "Dhampir, licho i bebok pochodzą z innych opowieści; nowoczesny obraz wampira powstał pod wpływem wielu tradycji."
     },
     {
       "subcategory": "Rzemiosło Środkowoazjatyckie",
@@ -409,24 +359,20 @@
       ],
       "answer": "Jurta",
       "explanation_correct": "Jurta to przenośny, okrągły namiot używany przez ludy koczownicze w Azji Środkowej, wykonany z drewna i filcu.",
-      "explanation_incorrect": "Wigwam i teepee to namioty Indian Ameryki Północnej, a chata to budowla stała – nie są to namioty koczowników azjatyckich.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wigwam i tipi to różne konstrukcje rdzennych ludów Ameryki Północnej; nie są nazwą środkowoazjatyckiej jurty."
     },
     {
       "subcategory": "Folklor Francuski",
-      "question": "Która legendarna bestia terroryzowała Gévaudan we Francji?",
+      "question": "Jak nazywało się zwierzę lub zwierzęta odpowiedzialne za serię śmiertelnych ataków w XVIII-wiecznym Gévaudan?",
       "options": [
-        "Smok",
-        "Wilkołak",
-        "Bazyliszek",
-        "Harpia"
+        "Bestia z Gévaudan",
+        "Potwór z Loch Ness",
+        "Baba Jaga",
+        "Yeti"
       ],
-      "answer": "Wilkołak",
-      "explanation_correct": "Bestia z Gévaudan w francuskiej legendzie była ogromnym wilkołakiem lub wilkiem, który w XVIII wieku zabijał ludzi w regionie Gévaudan.",
-      "explanation_incorrect": "Smok, bazyliszek i harpia to mityczne bestie z innych legend – żadna nie jest bezpośrednio związana z francuską Gévaudan.",
-      "last_verified_at": "2026-06-12T15:15:08.518Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Bestia z Gévaudan",
+      "explanation_correct": "„Bestia z Gévaudan” to nazwa używana dla sprawcy lub sprawców historycznych ataków we Francji; ich dokładna natura pozostaje przedmiotem dyskusji.",
+      "explanation_incorrect": "Pozostałe postacie pochodzą z innych tradycji; nie ma podstaw, by uznać historyczną bestię za wilkołaka."
     },
     {
       "subcategory": "Kultura Wietnamska",
@@ -460,18 +406,16 @@
     },
     {
       "subcategory": "Mitologia Rzymska",
-      "question": "Które rzymskie duchy opiekuńcze chroniły ognisko domowe?",
+      "question": "Które z wymienionych rzymskich bóstw były czczone jako domowi opiekunowie?",
       "options": [
-        "Penaty",
         "Lary",
-        "Geniusz",
-        "Mani"
+        "Jowisz",
+        "Mars",
+        "Neptun"
       ],
       "answer": "Lary",
-      "explanation_correct": "Lary w mitologii rzymskiej były duchami opiekuńczymi domu, rodziny i ogniska domowego, składano im ofiary podczas domowych rytuałów.",
-      "explanation_incorrect": "Penaty opiekowały się spiżarnią, Geniusz był duchem opiekuńczym jednostki, a Mani to duchy zmarłych – wszystkie pełniły inne funkcje.",
-      "last_verified_at": "2026-06-12T15:15:08.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lary były rzymskimi bóstwami opiekuńczymi; kult domowy obejmował również inne postacie, m.in. Penaty.",
+      "explanation_incorrect": "Jowisz, Mars i Neptun to inni bogowie. Penaty również związane były z opieką nad domem."
     },
     {
       "subcategory": "Tradycje Meksykańskie",
@@ -484,28 +428,24 @@
       ],
       "answer": "Aksamitka",
       "explanation_correct": "Aksamitka (Cempasúchil) to złocisty kwiat używany podczas Día de Muertos w Meksyku do dekoracji ołtarzy i grobów.",
-      "explanation_incorrect": "Czeremcha, słonecznik i goździk to kwiaty o innych znaczeniach – żaden nie jest ściśle związany z meksykańskim świętem zmarłych.",
-      "last_verified_at": "2026-06-12T15:15:08.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Czeremcha jest rośliną drzewiastą; słonecznik i goździk także są kwiatami, ale opis dotyczy aksamitki."
     },
     {
       "subcategory": "Folklor Islandzki",
-      "question": "Jak nazywa się ukryty lud w islandzkim folklorze żyjący w kamieniach?",
+      "question": "Jak po islandzku określa się „ukrytych ludzi” znanych z miejscowego folkloru?",
       "options": [
-        "Elfy",
         "Huldufólk",
-        "Trolle",
-        "Duchy gór"
+        "Samurajowie",
+        "Faraonowie",
+        "Legioniści"
       ],
       "answer": "Huldufólk",
-      "explanation_correct": "Huldufólk to w islandzkich wierzeniach 'ukryci ludzie', z wyglądu podobni do ludzi, zamieszkujący wzgórza i kamienie.",
-      "explanation_incorrect": "Elfy to ogólne określenie, trolle to inne stworzenia, a duchy gór to szersza kategoria – Huldufólk to specyficzne islandzkie wierzenie.",
-      "last_verified_at": "2026-06-12T15:15:08.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Huldufólk oznacza po islandzku „ukrytych ludzi”; w opowieściach bywa łączone z elfami i konkretnymi miejscami w krajobrazie.",
+      "explanation_incorrect": "Elfy są pojęciem częściowo pokrywającym się z huldufólk; pozostałe odpowiedzi nie są islandzką nazwą tej grupy."
     },
     {
       "subcategory": "Kultura Arabska",
-      "question": "Który pojemnik do parzenia kawy z długą rączką pochodzi z kultury arabskiej?",
+      "question": "Jak nazywa się małe naczynie z długą rączką używane m.in. do przygotowania kawy po turecku?",
       "options": [
         "Dżezwa",
         "Filtr kroplowy",
@@ -513,10 +453,8 @@
         "Moka"
       ],
       "answer": "Dżezwa",
-      "explanation_correct": "Dżezwa to metalowy dzbanek z długą rączką używany do parzenia kawy po turecku lub arabsku.",
-      "explanation_incorrect": "Filtr, ekspres i moka to nowoczesne lub europejskie metody parzenia kawy – żaden nie jest tradycyjnym arabskim naczyniem.",
-      "last_verified_at": "2026-06-12T15:15:08.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dżezwa, zwana po turecku cezve, jest naczyniem do przyrządzania kawy; podobne tradycje występują w wielu krajach.",
+      "explanation_incorrect": "Filtr, ekspres i moka mają inną konstrukcję i sposób użycia."
     },
     {
       "subcategory": "Folklor Słowiański",
@@ -528,10 +466,8 @@
         "Lalka Witrażowa"
       ],
       "answer": "Motanka",
-      "explanation_correct": "Motanka to słowiańska lalka wykonana z nici i tkanin, bez twarzy, używana jako amulet ochronny dla domu i rodziny.",
-      "explanation_incorrect": "Matrioszka to rosyjska lalka z twarzą, szmacianka to ogólna lalka, a witrażowa to współczesna – nie pełnią funkcji ochronnej bez twarzy.",
-      "last_verified_at": "2026-06-12T15:15:08.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Motanka to lalka wykonywana m.in. z tkanin i nici, w niektórych tradycjach o znaczeniu ochronnym; wygląd i funkcje różnią się regionalnie.",
+      "explanation_incorrect": "Matrioszka to rosyjska lalka z twarzą, szmacianka to ogólna lalka, a witrażowa to współczesna – nie pełnią funkcji ochronnej bez twarzy."
     },
     {
       "subcategory": "Tradycje Austriackie",
@@ -543,10 +479,8 @@
         "Fustanella"
       ],
       "answer": "Lederhosen",
-      "explanation_correct": "Lederhosen to skórzane spodnie do kolan na szelkach, noszone w Bawarii i Austrii jako strój ludowy.",
-      "explanation_incorrect": "Dirndl to sukienka kobieca, kilt to szkocka spódnica, a fustanella to grecka spódniczka – żadne nie są męskimi spodniami.",
-      "last_verified_at": "2026-06-12T15:15:08.519Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lederhosen to skórzane spodnie związane m.in. z tradycyjnymi strojami Bawarii i Austrii; ich krój i szelki bywają różne.",
+      "explanation_incorrect": "Dirndl to sukienka kobieca, kilt to szkocka spódnica, a fustanella to grecka spódniczka – żadne nie są męskimi spodniami."
     },
     {
       "subcategory": "Folklor Japoński",
@@ -559,9 +493,7 @@
       ],
       "answer": "Kitsune",
       "explanation_correct": "Kitsune to lis w japońskiej mitologii, który może mieć do 9 ogonów, znany ze swojej inteligencji i magicznych umiejętności.",
-      "explanation_incorrect": "Tanuki to jenot, Inari to bóstwo lisów, a Okami to wilk – żaden nie jest lisem o wielu ogonach.",
-      "last_verified_at": "2026-06-12T15:15:08.520Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tanuki to jenot lub postać jenotopodobna, Inari jest bóstwem związanym m.in. z lisami, a ōkami oznacza wilka."
     },
     {
       "subcategory": "Kultura Grecka",
@@ -574,9 +506,7 @@
       ],
       "answer": "Fustanella",
       "explanation_correct": "Fustanella to plisowana spódniczka noszona przez greckich ewzonów (gwardię narodową), symbol walki o niepodległość.",
-      "explanation_incorrect": "Kilt to szkocki strój, sarong i pareo to stroje azjatyckie – żaden nie jest greckim strojem wojskowym.",
-      "last_verified_at": "2026-06-12T15:15:08.520Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kilt jest szkockim strojem, sarong występuje w różnych kulturach Azji Południowo-Wschodniej, a pareo w Polinezji."
     },
     {
       "subcategory": "Folklor Góralski",
@@ -589,13 +519,11 @@
       ],
       "answer": "Ciupaga",
       "explanation_correct": "Ciupaga to tradycyjna góralska siekierka na długim trzonku, używana jako narzędzie, broń i laska do podpierania się.",
-      "explanation_incorrect": "Topór i siekiera to typowe narzędzia robotnicze, a kilof służy do prac ziemnych; ciupaga jako jedyna łączy te funkcje z rolą laski.",
-      "last_verified_at": "2026-06-12T15:15:28.514Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Topór i siekiera również są narzędziami; ciupaga jest szczególną formą siekierki z długim trzonkiem kojarzoną z kulturą góralską."
     },
     {
       "subcategory": "Obrzędy Słowiańskie",
-      "question": "Które słowiańskie święto wiosny polega na topieniu kukły?",
+      "question": "Jak nazywa się kukła symbolizująca zimę, którą w polskim zwyczaju topi się lub pali na powitanie wiosny?",
       "options": [
         "Noc Kupały",
         "Marzanna",
@@ -603,10 +531,8 @@
         "Dziady"
       ],
       "answer": "Marzanna",
-      "explanation_correct": "Marzanna to słowiański zwyczaj topienia lub palenia kukły symbolizującej zimę, aby przywitać wiosnę.",
-      "explanation_incorrect": "Noc Kupały to święto przesilenia letniego, Dożynki to święto plonów, Dziady to zaduszki – żadne nie wiąże się z topieniem kukły.",
-      "last_verified_at": "2026-06-12T15:15:22.463Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Marzanna jest nazwą kukły związanej ze zwyczajem żegnania zimy; przebieg obrzędu różni się lokalnie.",
+      "explanation_incorrect": "Noc Kupały, dożynki i dziady odnoszą się do innych świąt lub obrzędów."
     },
     {
       "subcategory": "Kultura Fińska",
@@ -625,7 +551,7 @@
     },
     {
       "subcategory": "Folklor Baskijski",
-      "question": "Która bogini jest uważana za główną postać w mitologii baskijskiej, zwaną Panią jaskiń?",
+      "question": "Jak nazywa się postać z baskijskich wierzeń związana m.in. z jaskiniami i pogodą?",
       "options": [
         "Mari",
         "Amalur",
@@ -633,25 +559,21 @@
         "Eguzki"
       ],
       "answer": "Mari",
-      "explanation_correct": "Mari to główna bogini w mitologii baskijskiej, utożsamiana z ziemią i naturą, często przebywająca w jaskiniach.",
-      "explanation_incorrect": "Amalur to ziemia, Ilargi to księżyc, Eguzki to słońce – wszystkie są postaciami, ale nie główną boginią.",
-      "last_verified_at": "2026-06-12T15:15:22.463Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mari jest ważną postacią baskijskich opowieści, związaną m.in. z górami, jaskiniami i pogodą.",
+      "explanation_incorrect": "Amalur oznacza Matkę Ziemię, a Ilargi i Eguzki odnoszą się do księżyca i słońca; wierzenia różnią się regionalnie."
     },
     {
       "subcategory": "Tradycje Japońskie",
-      "question": "Jak nazywa się japońska ceremonia parzenia sproszkowanej herbaty?",
+      "question": "Jak nazywa się japońska praktyka przygotowywania i podawania herbaty matcha, znana także jako sadō?",
       "options": [
         "Chanoyu",
-        "Sencha",
-        "Matcha",
-        "Sadō"
+        "Origami",
+        "Ikebana",
+        "Shodō"
       ],
       "answer": "Chanoyu",
-      "explanation_correct": "Chanoyu to japońska ceremonia parzenia sproszkowanej herbaty matcha, będąca rytuałem estetycznym i duchowym.",
-      "explanation_incorrect": "Sencha to herbata liściasta, matcha to sam proszek, a sadō to droga herbaty – ogólna koncepcja.",
-      "last_verified_at": "2026-06-12T15:15:22.463Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chanoyu oznacza japońską praktykę herbacianą; sadō lub chadō to inne określenia związane z „drogą herbaty”.",
+      "explanation_incorrect": "Origami, ikebana i shodō to inne japońskie sztuki; sadō nie jest odrębną błędną odpowiedzią."
     },
     {
       "subcategory": "Folklor Chilijski",
@@ -670,22 +592,20 @@
     },
     {
       "subcategory": "Kultura Marokańska",
-      "question": "Jak nazywa się tradycyjne marokańskie skórzane obuwie bez pięty?",
+      "question": "Jak nazywa się tradycyjne marokańskie skórzane obuwie bez pięty, znane po francusku jako babouche?",
       "options": [
         "Babusze",
-        "Babouche",
-        "Slippers",
-        "Fezy"
+        "Kalosze",
+        "Łyżwy",
+        "Raki"
       ],
       "answer": "Babusze",
-      "explanation_correct": "Babusze (lub babouche) to tradycyjne marokańskie pantofle wykonane ze skóry, bez pięty, często ozdobione.",
-      "explanation_incorrect": "Babouche to francuska pisownia, slippers to ogólne określenie, fezy to nakrycia głowy.",
-      "last_verified_at": "2026-06-12T15:15:22.464Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Babusze, po francusku babouches, to pantofle kojarzone m.in. z Marokiem.",
+      "explanation_incorrect": "Kalosze, łyżwy i raki są innymi rodzajami obuwia lub wyposażenia; babouche jest francuską nazwą babuszy."
     },
     {
       "subcategory": "Folklor Polinezyjski",
-      "question": "Który bóg w mitologii polinezyjskiej jest bogiem morza i oceanów?",
+      "question": "Które bóstwo morza jest znane w tradycji maoryskiej?",
       "options": [
         "Tangaroa",
         "Tāne",
@@ -693,10 +613,8 @@
         "Tū"
       ],
       "answer": "Tangaroa",
-      "explanation_correct": "Tangaroa jest bogiem morza w mitologii polinezyjskiej, ojcem ryb i stworzeń morskich.",
-      "explanation_incorrect": "Tāne to bóg lasów, Rongo bóg rolnictwa, Tū bóg wojny – wszyscy są ważnymi bogami, ale nie morza.",
-      "last_verified_at": "2026-06-12T15:15:22.464Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tangaroa jest ważnym bóstwem związanym z morzem w tradycji Maorysów; imiona i opowieści w Polinezji różnią się między społecznościami.",
+      "explanation_incorrect": "Tāne, Rongo i Tū są innymi postaciami tradycji maoryskiej."
     },
     {
       "subcategory": "Tradycje Żydowskie",
@@ -708,10 +626,8 @@
         "Jom Kipur"
       ],
       "answer": "Chanuka",
-      "explanation_correct": "Chanuka to żydowskie święto świateł, upamiętniające cud oliwy, obchodzone przez osiem dni poprzez zapalanie świec w menorze.",
-      "explanation_incorrect": "Purim to święto losów, Pascha to święto wyjścia z Egiptu, Jom Kipur to dzień pojednania – żadne nie trwa osiem dni.",
-      "last_verified_at": "2026-06-12T15:15:22.464Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chanuka upamiętnia ponowne poświęcenie Świątyni i w tradycji także cud oliwy; świece zapala się przez osiem dni na chanukiji.",
+      "explanation_incorrect": "Purim, Pesach i Jom Kipur są innymi świętami; czas trwania Pesach różni się między Izraelem a diasporą."
     },
     {
       "subcategory": "Folklor Australijski",
@@ -723,29 +639,25 @@
         "Rainbow Serpent"
       ],
       "answer": "Bunyip",
-      "explanation_correct": "Bunyip to mityczne stworzenie z australijskiego folkloru, zamieszkujące bagna i zbiorniki wodne, opisywane jako groźne.",
-      "explanation_incorrect": "Yowie to australijski yeti, Drop Bear to żartobliwy stwór, a Rainbow Serpent to tęczowy wąż – wszystkie z mitologii, ale nie bagniste.",
-      "last_verified_at": "2026-06-12T15:15:22.464Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bunyip to istota pojawiająca się w opowieściach rdzennych społeczności Australii, wiązana w niektórych wersjach z wodą i bagnami.",
+      "explanation_incorrect": "Yowie i Tęczowy Wąż należą do innych opowieści, a drop bear jest współczesną żartobliwą postacią."
     },
     {
       "subcategory": "Kultura Inków",
-      "question": "Jaki system zapisu informacji za pomocą sznurków stosowali Inkowie?",
+      "question": "Jak nazywał się stosowany przez Inków system sznurków i węzłów służący m.in. do zapisu danych liczbowych?",
       "options": [
         "Kipu",
-        "Quipu",
-        "Khipu",
-        "Węzełki"
+        "Papirus",
+        "Alfabet grecki",
+        "Druk blokowy"
       ],
       "answer": "Kipu",
-      "explanation_correct": "Kipu to system zapisu za pomocą sznurków i węzłów używany przez Inków do przechowywania danych liczbowych i tekstowych.",
-      "explanation_incorrect": "Quipu i khipu to alternatywne pisownie, ale poprawna w języku polskim jest 'kipu'. Węzełki to opis, nie nazwa.",
-      "last_verified_at": "2026-06-12T15:15:22.464Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kipu, zapisywane także quipu lub khipu, służyło m.in. do przechowywania danych liczbowych; możliwość zapisu narracji jest badana.",
+      "explanation_incorrect": "Quipu i khipu są alternatywnymi pisowniami tej samej nazwy; pozostałe opcje oznaczają inne nośniki lub systemy."
     },
     {
       "subcategory": "Folklor Szwajcarski",
-      "question": "Który legendarny łucznik jest w Szwajcarii symbolem wolności?",
+      "question": "Który legendarny szwajcarski bohater miał trafić z kuszy w jabłko ustawione na głowie syna?",
       "options": [
         "Wilhelm Tell",
         "Robin Hood",
@@ -753,10 +665,8 @@
         "William Wallace"
       ],
       "answer": "Wilhelm Tell",
-      "explanation_correct": "Wilhelm Tell to legendarny bohater szwajcarski, który według podania strzelił z kuszy w jabłko na głowie syna, symbolizując walkę o wolność.",
-      "explanation_incorrect": "Robin Hood to angielski banita, Legolas to postać z fikcji, William Wallace to szkocki bohater – wszyscy są postaciami historycznymi lub literackimi, ale nie szwajcarskimi.",
-      "last_verified_at": "2026-06-12T15:15:22.465Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wilhelm Tell jest bohaterem szwajcarskiej legendy i symbolem walki o wolność.",
+      "explanation_incorrect": "Robin Hood, Legolas i William Wallace są postaciami innych opowieści lub historii."
     },
     {
       "subcategory": "Sztuka Ludowa Chin",
@@ -765,13 +675,11 @@
         "Jianzhi",
         "Origami",
         "Kirigami",
-        "Wycinanka"
+        "Ceramika"
       ],
       "answer": "Jianzhi",
       "explanation_correct": "Jianzhi to chińska sztuka wycinania papieru, tworząca dekoracyjne wzory, często używana podczas świąt.",
-      "explanation_incorrect": "Origami to składanie papieru (czasem wycinane), kirigami to wycinanie i składanie, wycinanka to polskie określenie – nie chińska nazwa.",
-      "last_verified_at": "2026-06-12T15:15:22.465Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Origami polega głównie na składaniu, a kirigami łączy składanie i wycinanie; ceramika powstaje z materiałów wypalanych, a nie z papieru."
     },
     {
       "subcategory": "Folklor Słowiański",
@@ -783,14 +691,12 @@
         "Strzyga"
       ],
       "answer": "Domowik",
-      "explanation_correct": "Domowik to słowiański duch domowy opiekujący się domem i rodziną, często niewidzialny, żyjący za piecem.",
-      "explanation_incorrect": "Rusałka to wodna nimfa, Baba Jaga to wiedźma, Strzyga to demon – wszystkie to postacie słowiańskie, ale nie opiekuńcze duchy domowe.",
-      "last_verified_at": "2026-06-12T15:15:22.465Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Domowik to duch domowy występujący w wielu wschodniosłowiańskich opowieściach; jego zachowanie i miejsce zamieszkania różnią się między wersjami.",
+      "explanation_incorrect": "Rusałka to wodna nimfa, Baba Jaga to wiedźma, Strzyga to demon – wszystkie to postacie słowiańskie, ale nie opiekuńcze duchy domowe."
     },
     {
       "subcategory": "Tradycje Tajskie",
-      "question": "Jaki tajski festiwal polega na puszczaniu lampionów na wodę?",
+      "question": "Podczas którego tajskiego święta uczestnicy puszczają na wodę ozdobne pływające krathongi?",
       "options": [
         "Loy Krathong",
         "Songkran",
@@ -798,10 +704,8 @@
         "Phi Ta Khon"
       ],
       "answer": "Loy Krathong",
-      "explanation_correct": "Loy Krathong to tajskie święto, podczas którego puszcza się na wodę lampiony (krathongi) wykonane z liści bananowca, aby oddać cześć bogom wody.",
-      "explanation_incorrect": "Songkran to nowy rok wodny, Yi Peng to festiwal lampionów na niebie, Phi Ta Khon to festiwal duchów – wszystkie to tajskie święta, ale inne.",
-      "last_verified_at": "2026-06-12T15:15:22.465Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Loi Krathong to święto, podczas którego na wodę wypuszcza się ozdobne łódeczki lub tratwy, często ze świecą i kwiatami.",
+      "explanation_incorrect": "Yi Peng wiąże się m.in. z lampionami wypuszczanymi w powietrze; pozostałe święta mają inne zwyczaje."
     },
     {
       "subcategory": "Folklor Indonezyjski",
@@ -814,13 +718,11 @@
       ],
       "answer": "Wayang kulit",
       "explanation_correct": "Wayang kulit to tradycyjny indonezyjski teatr cieni, w którym używa się płaskich, skórzanych lalek, oświetlonych od tyłu.",
-      "explanation_incorrect": "Wayang golek to teatr lalek drewnianych, wayang wong to teatr z aktorami, wayang klitik to płaskie drewniane kukły – wszystkie to formy wayang, ale nie skórzane.",
-      "last_verified_at": "2026-06-12T15:15:22.465Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wayang golek używa przestrzennych lalek drewnianych, wayang wong aktorów, a wayang klitik płaskich lalek drewnianych."
     },
     {
       "subcategory": "Kultura Boliwijska",
-      "question": "Jaki tradycyjny melonik noszą kobiety (Cholity) w Boliwii?",
+      "question": "Jak nazywa się melonik stanowiący element tradycyjnego stroju wielu boliwijskich cholitas?",
       "options": [
         "Bombín",
         "Sombrero",
@@ -828,10 +730,8 @@
         "Topór"
       ],
       "answer": "Bombín",
-      "explanation_correct": "Bombín to boliwijski melonik, będący elementem stroju Cholit (rdzennych kobiet), spopularyzowany w regionie.",
-      "explanation_incorrect": "Sombrero to szeroki kapelusz meksykański, fedora to kapelusz z rondem, topór to narzędzie – żaden z tych nie jest boliwijskim melonikiem.",
-      "last_verified_at": "2026-06-12T15:15:22.465Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bombín to hiszpańska nazwa melonika noszonego przez wiele boliwijskich cholitas, zwłaszcza w regionie andyjskim.",
+      "explanation_incorrect": "Sombrero to szeroki kapelusz meksykański, fedora to kapelusz z rondem, topór to narzędzie – żaden z tych nie jest boliwijskim melonikiem."
     },
     {
       "subcategory": "Folklor Perski",
@@ -859,9 +759,7 @@
       ],
       "answer": "Nisse",
       "explanation_correct": "Nisse (w Norwegii i Danii) lub Tomte (w Szwecji) to opiekuńcze skrzaty domowe mieszkające w gospodarstwach.",
-      "explanation_incorrect": "Banshee to duch z folkloru irlandzkiego, goblin to postać z mitologii germańskiej, a troll to duża, często groźna istota nordycka.",
-      "last_verified_at": "2026-06-12T15:15:28.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Banshee występuje w opowieściach irlandzkich, a gobliny i trolle pojawiają się w rozmaitych europejskich tradycjach."
     },
     {
       "subcategory": "Folklor Kanadyjski",
@@ -880,33 +778,29 @@
     },
     {
       "subcategory": "Sztuka Ludowa Meksyku",
-      "question": "Jak nazywa się meksykańska czaszka z cukru przygotowywana na święto zmarłych?",
+      "question": "Jak po hiszpańsku określa się cukrową czaszkę przygotowywaną na meksykański Día de Muertos?",
       "options": [
-        "Calavera",
         "Calavera de azúcar",
-        "Skull",
-        "Panes de muerto"
+        "Pan de muerto",
+        "Tamal",
+        "Piñata"
       ],
-      "answer": "Calavera",
-      "explanation_correct": "Calavera to ozdobna czaszka, często wykonana z cukru, używana podczas obchodów Dnia Zmarłych w Meksyku.",
-      "explanation_incorrect": "Calavera de azúcar to pełna nazwa, ale samo 'Calavera' jest poprawne. Skull to angielskie słowo, Panes de muerto to chleb.",
-      "last_verified_at": "2026-06-12T15:15:22.466Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Calavera de azúcar",
+      "explanation_correct": "Calavera de azúcar oznacza cukrową czaszkę; słowo calavera samo w sobie znaczy czaszkę.",
+      "explanation_incorrect": "Pan de muerto to pieczywo, a tamal i piñata oznaczają inne potrawy lub przedmioty."
     },
     {
       "subcategory": "Kultura Kaszubska",
-      "question": "Jak nazywają się tradycyjne kaszubskie tabakiery wykonane z rogu?",
+      "question": "Jak nazywa się pojemnik na tabakę, tradycyjnie wykonywany na Kaszubach także z rogu?",
       "options": [
-        "Rogawki",
         "Tabakiera",
-        "Róg",
-        "Kaszubskie rogi"
+        "Latarnia",
+        "Skrzypce",
+        "Konewka"
       ],
-      "answer": "Rogawki",
-      "explanation_correct": "Rogawki to kaszubskie, ręcznie wykonane tabakiery z rogu, często ozdobione, używane do przechowywania tabaki.",
-      "explanation_incorrect": "Tabakiera to ogólne określenie, róg to materiał, Kaszuubskie rogi to opis – nie są konkretną nazwą.",
-      "last_verified_at": "2026-06-12T15:15:22.466Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Tabakiera",
+      "explanation_correct": "Tabakiery kaszubskie wykonywano m.in. z rogu; spotyka się też określenie „rożek”.",
+      "explanation_incorrect": "Latarnia, skrzypce i konewka służą innym celom."
     },
     {
       "subcategory": "Kultura Chińska",
@@ -918,10 +812,8 @@
         "Taniec Żurawia"
       ],
       "answer": "Taniec Lwa",
-      "explanation_correct": "Taniec lwa wymaga dwóch tancerzy naśladujących ruchy zwierzęcia i różni się od tańca smoka, który angażuje wielu ludzi trzymających tyczki.",
-      "explanation_incorrect": "Pozostałe tańce nie są głównymi rytualnymi występami podczas obchodów Lunar New Year tak jak taniec lwa.",
-      "last_verified_at": "2026-06-12T15:15:28.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W popularnej odmianie chińskiego tańca lwa jedną figurą kieruje dwóch tancerzy; istnieją różne regionalne warianty.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą opisanego tańca lwa; noworoczne zwyczaje mogą obejmować różne występy."
     },
     {
       "subcategory": "Folklor Nordycki",
@@ -963,10 +855,8 @@
         "Mazzik"
       ],
       "answer": "Golem",
-      "explanation_correct": "Golem to istota z gliny ożywiona przez rabina za pomocą mistycznej formuły, mająca chronić społeczność żydowską.",
-      "explanation_incorrect": "Dibbuk to duch, Jentyl to imię, a Mazzik to demon – żadna z tych istot nie jest glinianym olbrzymem.",
-      "last_verified_at": "2026-06-12T15:15:22.466Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Golem jest istotą formowaną z materii, często gliny, i ożywianą w żydowskich opowieściach; szczegóły i motywy różnią się między wersjami.",
+      "explanation_incorrect": "Dibbuk to duch, Jentyl to imię, a Mazzik to demon – żadna z tych istot nie jest glinianym olbrzymem."
     },
     {
       "subcategory": "Kultura Tybetańska",
@@ -1015,22 +905,20 @@
     },
     {
       "subcategory": "Kultura Indii",
-      "question": "Jak nazywa się symboliczna kropka noszona na czole w kulturze Indii?",
+      "question": "Jak nazywa się ozdobny znak noszony na środku czoła w tradycjach Azji Południowej?",
       "options": [
         "Bindi",
-        "Tilaka",
+        "Sari",
         "Kohl",
-        "Kumkum"
+        "Bransoleta"
       ],
       "answer": "Bindi",
-      "explanation_correct": "Bindi to czerwona kropka noszona na czole przez Hinduski, symbolizująca małżeństwo lub ochronę.",
-      "explanation_incorrect": "Tilaka to szerszy znak, kohl to eyeliner, kumkum to proszek – bindi jest najbardziej właściwym określeniem kropki.",
-      "last_verified_at": "2026-06-12T15:15:22.467Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bindi jest znakiem noszonym na czole; może mieć znaczenie religijne, społeczne lub dekoracyjne, zależnie od osoby i kontekstu.",
+      "explanation_incorrect": "Tilaka jest innym znakiem na czole i określenia mogą się nakładać; kohl to kosmetyk, a sari jest ubiorem."
     },
     {
       "subcategory": "Folklor Niemiecki",
-      "question": "Kto w folklorze niemieckim jest antagonistą św. Mikołaja karzącym dzieci?",
+      "question": "Jak nazywa się rogata postać z tradycji alpejskich, która towarzyszy św. Mikołajowi i straszy niegrzeczne dzieci?",
       "options": [
         "Krampus",
         "St. Nikolaus",
@@ -1038,10 +926,8 @@
         "Hans Trapp"
       ],
       "answer": "Krampus",
-      "explanation_correct": "Krampus to rogata, futrzasta postać karząca niegrzeczne dzieci podczas adwentu, przeciwieństwo św. Mikołaja.",
-      "explanation_incorrect": "Knecht Ruprecht też karze, ale Krampus jest bardziej znany; St. Nikolaus jest dobry, Hans Trapp to lokalna postać.",
-      "last_verified_at": "2026-06-12T15:15:22.467Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krampus jest postacią alpejskich tradycji mikołajkowych; w wielu wersjach towarzyszy św. Mikołajowi.",
+      "explanation_incorrect": "Knecht Ruprecht i Hans Trapp także występują w regionalnych tradycjach związanych ze św. Mikołajem, ale mają inne nazwy i przedstawienia."
     },
     {
       "subcategory": "Tradycje Portugalskie",
@@ -1054,24 +940,20 @@
       ],
       "answer": "Fado",
       "explanation_correct": "Fado to portugalski gatunek muzyczny charakteryzujący się melancholijnym nastrojem i tematem straty.",
-      "explanation_incorrect": "Flamenco to hiszpański taniec, tango argentyńskie, a saudade to samo uczucie – nie gatunek pieśni.",
-      "last_verified_at": "2026-06-12T15:15:22.467Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Flamenco obejmuje śpiew, muzykę i taniec, tango ma rozmaite formy muzyczne i taneczne, a saudade jest pojęciem związanym z tęsknotą."
     },
     {
       "subcategory": "Folklor Alaski",
-      "question": "Jak w folklorze Alaski nazywa się wielka mityczna orka porywająca ludzi?",
+      "question": "Jak nazywa się tradycyjna łódź Inuitów, od której pochodzi słowo „kajak”?",
       "options": [
-        "Akhlut",
-        "Orca",
-        "Sasquatch",
-        "Qallupilluk"
+        "Qajaq",
+        "Sanie bobslejowe",
+        "Rower",
+        "Lokomotywa"
       ],
-      "answer": "Akhlut",
-      "explanation_correct": "Akhlut to mityczne stworzenie przypominające wielką orkę, które porywa ludzi do wody w wierzeniach Inuitów.",
-      "explanation_incorrect": "Orca to prawdziwe zwierzę, Sasquatch to legenda z Ameryki Płn., a Qallupilluk to inny potwór – nie jest orką.",
-      "last_verified_at": "2026-06-12T15:15:22.467Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Qajaq",
+      "explanation_correct": "Qajaq jest nazwą tradycyjnej łodzi Inuitów; europejskie słowo „kajak” pochodzi z pokrewnej rodziny nazw.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają tej tradycyjnej łodzi."
     },
     {
       "subcategory": "Kultura Polinezyjska",
@@ -1083,10 +965,8 @@
         "Kapu"
       ],
       "answer": "Mana",
-      "explanation_correct": "Mana to nadprzyrodzona siła obecna w ludziach, przedmiotach i naturze, będąca podstawą religii polinezyjskiej.",
-      "explanation_incorrect": "Tabu i kapu oznaczają zakaz, a aumakua to duch opiekuńczy – nie są siłą wszechświata.",
-      "last_verified_at": "2026-06-12T15:15:22.467Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mana to pojęcie występujące w różnych tradycjach Oceanii; jego znaczenie i kontekst zależą od konkretnej społeczności.",
+      "explanation_incorrect": "Tabu i kapu są związane z zakazem lub ograniczeniem, a ʻaumākua z hawajską tradycją duchów opiekuńczych."
     },
     {
       "subcategory": "Folklor Śląski",
@@ -1099,9 +979,7 @@
       ],
       "answer": "Skarbnik",
       "explanation_correct": "Skarbnik to śląski duch kopalniany, który opiekuje się górnikami i strzeże podziemnych skarbów.",
-      "explanation_incorrect": "Krasnolud to ogólnie skandynawski, Utopenec to duch wodny, a błędny ognik to zwodnicze światło – nie są związane z kopalniami.",
-      "last_verified_at": "2026-06-12T15:15:22.467Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Krasnoludy występują w różnych tradycjach europejskich, utopiec jest duchem wodnym, a błędny ognik zjawiskiem znanym z ludowych opowieści."
     },
     {
       "subcategory": "Tradycje Afrykańskie",
@@ -1114,9 +992,7 @@
       ],
       "answer": "Kente",
       "explanation_correct": "Kente to ręcznie tkana tkanina z Ghany, charakteryzująca się bogatymi geometrycznymi wzorami i symbolicznymi kolorami.",
-      "explanation_incorrect": "Ankara to bawełna nadrukowana, batik to technika indonezyjska, a bogolan to tkanina z Mali – wszystkie różne od kente.",
-      "last_verified_at": "2026-06-12T15:15:22.468Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ankara to określenie tkanin z nadrukiem, batik jest techniką barwienia, a bogolan wiąże się m.in. z Mali; pytanie dotyczy tkanej tkaniny kente."
     },
     {
       "subcategory": "Folklor Japoński",
@@ -1144,9 +1020,7 @@
       ],
       "answer": "Popol Vuh",
       "explanation_correct": "Popol Vuh to księga K'iche' Majów zawierająca mity o stworzeniu i historię przodków.",
-      "explanation_incorrect": "Chilam Balam to księgi proroctw, a kodeksy drezdeński i madrycki to kalendarze – nie są mitologią stworzenia.",
-      "last_verified_at": "2026-06-12T15:15:22.468Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Księgi Chilam Balam i kodeksy majańskie zawierają różnorodne treści, także mitologiczne i kalendarzowe; nie są Popol Vuh."
     },
     {
       "subcategory": "Folklor Amerykański",
@@ -1174,9 +1048,7 @@
       ],
       "answer": "Futhark",
       "explanation_correct": "Futhark to alfabet runiczny używany przez ludy germańskie, szczególnie w Skandynawii.",
-      "explanation_incorrect": "Cuneiform to pismo klinowe, Ogham to celtyckie, a Glagolitic to słowiańskie – wszystkie różne od run.",
-      "last_verified_at": "2026-06-12T15:15:22.468Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ogham występował m.in. w Irlandii, głagolica jest związana z tradycją słowiańską, a cuneiform oznacza pismo klinowe."
     },
     {
       "subcategory": "Folklor Słowiański",
@@ -1188,10 +1060,8 @@
         "Ondyna"
       ],
       "answer": "Rusałka",
-      "explanation_correct": "Rusałka to słowiańska nimfa wodna, która wabi i topi ludzi, szczególnie młodych mężczyzn.",
-      "explanation_incorrect": "Syrena to grecka, Nereida też grecka, a Ondyna to germańska – nie są słowiańskie.",
-      "last_verified_at": "2026-06-12T15:15:22.468Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rusałka to postać słowiańskich opowieści; jej związek z wodą, roślinnością i zachowaniem wobec ludzi różni się regionalnie.",
+      "explanation_incorrect": "Syrena to grecka, Nereida też grecka, a Ondyna to germańska – nie są słowiańskie."
     },
     {
       "subcategory": "Sztuka Ludowa Rosji",
@@ -1225,18 +1095,16 @@
     },
     {
       "subcategory": "Kultura Kurpiowska",
-      "question": "Jak nazywa się tradycyjna ozdoba sufitowa w kulturze kurpiowskiej?",
+      "question": "Jak nazywają się kurpiowskie ozdoby podwieszane pod sufitem, wykonywane m.in. ze słomy i bibuły?",
       "options": [
-        "Kierzec",
-        "Pająk",
-        "Świat",
-        "Gwiozda"
+        "Kierce",
+        "Narty",
+        "Konewki",
+        "Podkowy"
       ],
-      "answer": "Kierzec",
-      "explanation_correct": "Kierzec to ręcznie wykonana ozdoba sufitowa z bibuły, słomy i nici, typowa dla kurpiowskich izb.",
-      "explanation_incorrect": "Pająk i świat to inne ozdoby ludowe, ale w innych regionach; gwiozda to kurpiowska ozdoba choinkowa, nie sufitowa.",
-      "last_verified_at": "2026-06-12T15:15:22.468Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kierce",
+      "explanation_correct": "Kierce są kurpiowskimi ozdobami wnętrz; bywają zaliczane do regionalnych odmian pająków.",
+      "explanation_incorrect": "Kierce bywają też nazywane pająkami; pozostałe odpowiedzi oznaczają inne przedmioty."
     },
     {
       "subcategory": "Sztuka Ludowa Meksyku",
@@ -1249,9 +1117,7 @@
       ],
       "answer": "Alebrijes",
       "explanation_correct": "Alebrijes to kolorowe, fantastyczne rzeźby zwierzęce, często łączące cechy różnych stworzeń, wywodzące się ze sztuki kartonażu.",
-      "explanation_incorrect": "Huichol to technika mozaiki z koralików, retablo to malowidło wotywne, a milagros to metalowe wota – nie są to rzeźby zwierzęce.",
-      "last_verified_at": "2026-06-12T15:15:22.469Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Huichol to nazwa używana wobec społeczności Wixáritari, nie nazwa samej techniki; retablos i milagros są innymi formami sztuki lub przedmiotów wotywnych."
     },
     {
       "subcategory": "Folklor Japoński",
@@ -1278,44 +1144,38 @@
         "Sevillanas"
       ],
       "answer": "Zapateado",
-      "explanation_correct": "Zapateado to rytmiczne uderzanie butami o podłogę, stanowiące podstawę rytmiczną flamenco, wywodzące się z tańców andaluzyjskich.",
-      "explanation_incorrect": "Flamenco puro, bulerías i sevillanas to style flamenco, a nie konkretna technika stepowania.",
-      "last_verified_at": "2026-06-12T15:15:22.469Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zapateado to rytmiczna praca stóp, występująca we flamenco i innych tradycjach tanecznych.",
+      "explanation_incorrect": "Bulerías i sevillanas są formami lub stylami tanecznymi, a nie samą nazwą opisanej pracy stóp."
     },
     {
       "subcategory": "Mitologia Skandynawska",
       "question": "Jak nazywa się mityczny jesion wspierający światy w mitologii skandynawskiej?",
       "options": [
         "Yggdrasil",
-        "Mímameiðr",
         "Bifröst",
-        "Hvergelmir"
+        "Hvergelmir",
+        "Mjölnir"
       ],
       "answer": "Yggdrasil",
-      "explanation_correct": "Yggdrasil to kosmiczny jesion, którego gałęzie i korzenie łączą dziewięć światów w nordyckiej kosmologii.",
-      "explanation_incorrect": "Mímameiðr to drzewo związane z Mimirem, Bifröst to tęczowy most, a Hvergelmir to źródło – żaden nie jest jesionem podtrzymującym światy.",
-      "last_verified_at": "2026-06-12T15:15:22.469Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Yggdrasil to kosmiczny jesion związany w mitologii nordyckiej ze światem bogów i innymi krainami.",
+      "explanation_incorrect": "Mímameiðr jest nazwą innego drzewa, które bywa przez badaczy utożsamiane z Yggdrasilem; Bifröst to most, a Hvergelmir źródło."
     },
     {
       "subcategory": "Zwyczaje Kaszubskie",
-      "question": "Jak nazywa się tradycyjny instrument perkusyjny na Kaszubach?",
+      "question": "Który kaszubski instrument wytwarza dźwięk przez pocieranie włosia przymocowanego do membrany beczułkowatego pudła?",
       "options": [
         "Burczybas",
-        "Diabelskie skrzypce",
-        "Bębenek obręczowy",
-        "Kołatka"
+        "Flet poprzeczny",
+        "Fortepian",
+        "Trąbka"
       ],
       "answer": "Burczybas",
-      "explanation_correct": "Burczybas to kaszubski instrument perkusyjny, przypominający bębenek, często używany podczas obrzędów i wesel.",
-      "explanation_incorrect": "Diabelskie skrzypce, bębenek obręczowy i kołatka to inne instrumenty, ale nie są one specyficznie kaszubskie.",
-      "last_verified_at": "2026-06-12T15:15:22.469Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Burczybas jest kaszubskim bębnem pocieranym; dźwięk powstaje przez pocieranie włosia połączonego z membraną.",
+      "explanation_incorrect": "Diabelskie skrzypce również są związane z muzyką kaszubską, ale mają inną konstrukcję."
     },
     {
       "subcategory": "Folklor Irlandzki",
-      "question": "Jak nazywa się mityczny zwiastun śmierci w folklorze irlandzkim?",
+      "question": "Która postać irlandzkiego folkloru jest kobiecym duchem zwiastującym śmierć przez lament?",
       "options": [
         "Banshee",
         "Leprechaun",
@@ -1323,10 +1183,8 @@
         "Dullahan"
       ],
       "answer": "Banshee",
-      "explanation_correct": "Banshee to żeński duch, który płaczem lub zawodzeniem zapowiada śmierć członka rodziny w irlandzkiej tradycji.",
-      "explanation_incorrect": "Leprechaun to samotny szewc, púca to zmiennokształtny duch, a dullahan to bezgłowy jeździec – żaden nie jest wyspecjalizowanym zwiastunem śmierci.",
-      "last_verified_at": "2026-06-12T15:15:22.469Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Banshee jest kobiecą postacią, której zawodzenie w opowieściach zapowiada śmierć.",
+      "explanation_incorrect": "Dullahan również bywa zwiastunem śmierci, lecz jest przedstawiany jako bezgłowy jeździec."
     },
     {
       "subcategory": "Heraldyka Polska",
@@ -1338,25 +1196,21 @@
         "Topór"
       ],
       "answer": "Abdank",
-      "explanation_correct": "Herb Abdank (Awdaniec) przedstawia srebrne łękawicę przypominającą literę 'W' i należy do najstarszych polskich znaków rodowych.",
-      "explanation_incorrect": "Jastrzębiec ma podkowę z krzyżem, Leliwa półksiężyc i gwiazdę, a Topór przedstawia topór bojowy.",
-      "last_verified_at": "2026-06-12T15:15:28.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Abdank, zwany też Awdaniec, przedstawia srebrną łękawicę przypominającą literę W na czerwonym polu.",
+      "explanation_incorrect": "Jastrzębiec ma podkowę z krzyżem, Leliwa półksiężyc i gwiazdę, a Topór przedstawia topór bojowy."
     },
     {
       "subcategory": "Kultura Aborygeńska",
-      "question": "Jak w wierzeniach aborygeńskich nazywa się czas powstania świata?",
+      "question": "Jak bywa nazywany po angielsku zespół opowieści i praw przodków w niektórych rdzennych tradycjach Australii?",
       "options": [
-        "Czas snu",
-        "Tjukurpa",
-        "Altjira",
-        "Dawny czas"
+        "The Dreaming",
+        "Industrial Revolution",
+        "Renaissance",
+        "Ice Hockey"
       ],
-      "answer": "Czas snu",
-      "explanation_correct": "Czas snu (Dreamtime) to okres mityczny, w którym duchy przodków ukształtowały świat, ludzi i prawa w aborygeńskiej kosmologii.",
-      "explanation_incorrect": "Tjukurpa to lokalna nazwa czasu snu u Pitjantjatjara, ale w kontekście ogólnym częściej używa się „czas snu”; altjira to duch, a „dawny czas” to opis, nie termin.",
-      "last_verified_at": "2026-06-12T15:15:22.469Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "The Dreaming",
+      "explanation_correct": "„The Dreaming” to angielskie określenie stosowane wobec niektórych rdzennych tradycji Australii. W poszczególnych językach i społecznościach istnieją własne pojęcia, np. Tjukurpa, których znaczenie nie sprowadza się wyłącznie do przeszłego czasu.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą opisanych tradycji; Tjukurpa jest pojęciem związanym m.in. z Aṉangu."
     },
     {
       "subcategory": "Folklor Luizjany",
@@ -1368,10 +1222,8 @@
         "Queen Zara"
       ],
       "answer": "Marie Laveau",
-      "explanation_correct": "Marie Laveau (1801-1881) była najbardziej znaną praktykującą voodoo w Nowym Orleanie, często nazywaną królową voodoo.",
-      "explanation_incorrect": "Mama Céleste to postać z literatury, Nina Simone to piosenkarka, a Queen Zara nie ma związku z voodoo – tylko Marie Laveau jest autentyczną historyczną postacią.",
-      "last_verified_at": "2026-06-12T15:15:22.470Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Marie Laveau była historyczną praktykującą nowoorleańskiego voodoo, nazywaną w wielu relacjach jego królową.",
+      "explanation_incorrect": "Nina Simone była piosenkarką; pozostałe opcje nie są nazwą opisanej postaci z Nowego Orleanu."
     },
     {
       "subcategory": "Tradycje Świąteczne",
@@ -1383,10 +1235,8 @@
         "Festa de l'ós"
       ],
       "answer": "Caganer",
-      "explanation_correct": "Caganer to katalońska figurka przedstawiająca osobę w pozycji defekującej, ukryta w szopce, symbolizująca płodność i szczęście.",
-      "explanation_incorrect": "Tió de Nadal to bożonarodzeniowy pieniek, pastorets to pastuszkowie, a festa de l'ós to święto niedźwiedzia – żaden nie jest defekującą postacią.",
-      "last_verified_at": "2026-06-12T15:15:22.470Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Caganer to figurka postaci w pozycji defekującej, umieszczana w katalońskich szopkach; interpretacje jej znaczenia są różne.",
+      "explanation_incorrect": "Tió de Nadal to bożonarodzeniowy pieniek, Els Pastorets to przedstawienia związane z Bożym Narodzeniem, a Festa de l’ós jest świętem niedźwiedzia."
     },
     {
       "subcategory": "Mitologia Grecka",
@@ -1398,10 +1248,8 @@
         "Kokytos"
       ],
       "answer": "Lete",
-      "explanation_correct": "Lete to rzeka zapomnienia w podziemnym świecie, z której dusze piją, by stracić pamięć o poprzednim życiu.",
-      "explanation_incorrect": "Styks to rzeka nienawiści, Acheron – rzeka bólu, Kokytos – lamentu – wszystkie pełnią inne funkcje w Hadesie.",
-      "last_verified_at": "2026-06-12T15:15:22.470Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lete jest w greckich opowieściach rzeką lub wodą zapomnienia w świecie zmarłych; opisy jej roli różnią się między źródłami.",
+      "explanation_incorrect": "Styks to rzeka nienawiści, Acheron – rzeka bólu, Kokytos – lamentu – wszystkie pełnią inne funkcje w Hadesie."
     },
     {
       "subcategory": "Folklor Słowiański",
@@ -1420,7 +1268,7 @@
     },
     {
       "subcategory": "Sztuka Innuicka",
-      "question": "Jak nazywa się kamienny drogowskaz rzeźbiony przez Inuitów?",
+      "question": "Jak nazywa się ułożony z kamieni znacznik używany przez Inuitów m.in. do wskazywania miejsc lub drogi?",
       "options": [
         "Inuksuk",
         "Tupilak",
@@ -1428,29 +1276,25 @@
         "Ulu"
       ],
       "answer": "Inuksuk",
-      "explanation_correct": "Inuksuk to ułożony z kamieni znacznik lub drogowskaz, używany przez Inuitów do nawigacji i oznaczania ważnych miejsc.",
-      "explanation_incorrect": "Tupilak to figurka z kości, qajaq to kajak, a ulu to nóż – żaden nie jest kamiennym drogowskazem.",
-      "last_verified_at": "2026-06-12T15:15:22.470Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Inuksuk to kamienna konstrukcja o różnych formach i zastosowaniach, m.in. służąca jako znak w terenie.",
+      "explanation_incorrect": "Qajaq jest łodzią, ulu nożem, a tupilak określa inne przedmioty lub istoty w określonych tradycjach."
     },
     {
       "subcategory": "Kultura Maoryska",
-      "question": "Jak nazywa się tradycyjny tatuaż twarzy Maorysów?",
+      "question": "Jak nazywa się maoryska tradycja trwałego zdobienia skóry związana m.in. z tożsamością i pochodzeniem?",
       "options": [
-        "Ta moko",
-        "Kirituhi",
-        "Moko kauae",
-        "Kowhaiwhai"
+        "Tā moko",
+        "Origami",
+        "Kowhaiwhai",
+        "Kilt"
       ],
-      "answer": "Ta moko",
-      "explanation_correct": "Ta moko to tradycyjny maoryski tatuaż twarzy, odzwierciedlający status społeczny, pochodzenie i osiągnięcia noszącego.",
-      "explanation_incorrect": "Kirituhi to tatuaż dla nie-Maorysów, moko kauae to tatuaż na brodzie kobiet, a kowhaiwhai to wzór malarski – tylko ta moko ogólnie określa tatuaż twarzy.",
-      "last_verified_at": "2026-06-12T15:15:22.470Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Tā moko",
+      "explanation_correct": "Tā moko to maoryska tradycja tatuowania i znakowania skóry. Moko kauae jest szczególną formą związaną z brodą i dolną częścią twarzy.",
+      "explanation_incorrect": "Kōwhaiwhai to wzory malarskie, origami jest sztuką składania papieru, a kilt częścią stroju; moko kauae jest formą moko."
     },
     {
       "subcategory": "Folklor Brazylijski",
-      "question": "Jak w folklorze brazylijskim nazywa się stworzenie z jednym okiem i czerwoną czapką?",
+      "question": "Która postać brazylijskiego folkloru bywa przedstawiana jako psotny chłopiec o jednej nodze i w czerwonej czapce?",
       "options": [
         "Saci-pererê",
         "Curupira",
@@ -1458,10 +1302,8 @@
         "Mula sem cabeça"
       ],
       "answer": "Saci-pererê",
-      "explanation_correct": "Saci-pererê to legendarny chłopiec jednonogi, z jednym okiem i w czerwonej czapce, który psoci i płata figle.",
-      "explanation_incorrect": "Curupira ma twarz skierowaną do tyłu i włosy ognia, Caipora to opiekun zwierząt, Mula sem cabeça to koń bez głowy – żaden nie ma jednego oka i czerwonej czapki.",
-      "last_verified_at": "2026-06-12T15:15:22.470Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Saci-pererê jest często przedstawiany jako jednonogi psotnik w czerwonej czapce; opowieści mają wiele wariantów.",
+      "explanation_incorrect": "Curupira jest często przedstawiany ze stopami skierowanymi do tyłu; Caipora i Mula sem cabeça są innymi postaciami."
     },
     {
       "subcategory": "Tradycje Weselne",
@@ -1480,7 +1322,7 @@
     },
     {
       "subcategory": "Rzemiosło Polskie",
-      "question": "Jak nazywają się koronki wytwarzane w Beskidzie Śląskim?",
+      "question": "Jak nazywa się tradycyjna koronka szydełkowa związana z miejscowością Koniaków w Beskidzie Śląskim?",
       "options": [
         "Koronki koniakowskie",
         "Koronki haftowane",
@@ -1488,25 +1330,21 @@
         "Koronki klockowe"
       ],
       "answer": "Koronki koniakowskie",
-      "explanation_correct": "Koronki koniakowskie to ręcznie wykonywane koronki szydełkowe z miejscowości Koniaków, słynące z finezyjnych wzorów.",
-      "explanation_incorrect": "Haftowane, siatkowe i klockowe to ogólne techniki koronkarskie, nie specyficzne dla Beskidu Śląskiego.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Koronki koniakowskie są ręcznie wykonywane szydełkiem i związane z tradycją Koniakowa.",
+      "explanation_incorrect": "Koronki klockowe i siatkowe są innymi określeniami technik; pytanie wskazuje tradycję Koniakowa."
     },
     {
       "subcategory": "Folklor Luizjany",
-      "question": "Jak w wierzeniach Cajunów nazywa się wilkołak?",
+      "question": "Jak w tradycjach Luizjany nazywa się postać wilkołaka określana także jako loup-garou?",
       "options": [
         "Rougarou",
-        "Loup-garou",
-        "Lutin",
-        "Feu follet"
+        "Krasnolud",
+        "Feniks",
+        "Pegaz"
       ],
       "answer": "Rougarou",
-      "explanation_correct": "Rougarou to legendarne stworzenie z folkloru Cajunów, podobne do wilkołaka, które poluje na niegrzeczne dzieci.",
-      "explanation_incorrect": "Loup-garou to francuski termin ogólny na wilkołaka, lutin to chochlik, a feu follet to błędny ognik – żaden nie jest lokalną nazwą w Luizjanie.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rougarou to postać z opowieści Luizjany, związana z francuską tradycją loup-garou; szczegóły legend różnią się.",
+      "explanation_incorrect": "Loup-garou bywa używane również w Luizjanie; pozostałe odpowiedzi oznaczają inne istoty."
     }
   ]
 }

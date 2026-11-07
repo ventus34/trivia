@@ -50,6 +50,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Orchestral Gaming Soundtracks (EN):** przegląd 100 pytań, korekty 56 pozycji; szczegóły i źródła w [raporcie](audits/2026-11-06-orchestral-gaming-soundtracks-en.md).
 
+- **Kultura i Folklor Lokalny (PL):** przegląd 100 pytań i opisu, korekty 81 pozycji oraz aktualizacja opisu w indeksie; szczegóły i źródła w [raporcie](audits/2026-11-06-kultura-i-folklor-lokalny-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
