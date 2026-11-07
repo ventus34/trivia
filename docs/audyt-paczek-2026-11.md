@@ -100,6 +100,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Afrykańska Przygoda (PL):** uzupełniono przegląd wszystkich 80 pytań i wyjaśnień; poprawiono 35 pozycji. Szczegóły i ograniczenia w [raporcie](audits/2026-11-07-afrykanska-przygoda-uzupelnienie.md).
 
+- **Mythical Artifacts in Pop Culture (EN):** przegląd 100 pytań, korekty 58 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-mythical-artifacts-in-pop-culture-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
