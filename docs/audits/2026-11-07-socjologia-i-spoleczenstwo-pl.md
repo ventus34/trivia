@@ -1,0 +1,9 @@
+# Audyt: Socjologia i Społeczeństwo
+
+Odczytano opis i 100 pytań wraz z odpowiedziami i wyjaśnieniami. Zmieniono 62 pozycje: 1, 3–4, 6, 8, 10, 12–14, 16–17, 21, 23–27, 29–31, 34–36, 39, 43–45, 47–49, 51, 57–61, 63–68, 71–72, 74, 76, 80, 82, 84, 86–95, 97–98 i 100. Liczba pytań i opis pozostały bez zmian; z edytowanych pozycji usunięto wcześniejsze znaczniki automatycznej weryfikacji.
+
+Poprawiono m.in. definicję równowagi Nasha i współczynnika dzietności całkowitej oraz opis efektu widza. Zastąpiono pytania z odpowiedziami synonimicznymi lub nakładającymi się, w tym o społeczeństwo postindustrialne, stygmatyzację, konsumpcję ostentacyjną i pracę zdalną. Ograniczono uogólnienia o starzeniu, uzależnieniu, ruchach społecznych, rodzinie i rdzennych tradycjach; doprecyzowano współautorstwo „Manifestu komunistycznego”. W części nowych pytań dystraktory są łatwe i wymagają dalszej redakcji poziomu trudności.
+
+Wybrane źródła: [WHO: ageizm](https://www.who.int/news-room/questions-and-answers/item/ageing-ageism), [ONZ: współczynnik dzietności całkowitej](https://data.un.org/Glossary.aspx?q=Total+fertility+rate+%28live+births+per+woman%29), [OpenStax: czynniki socjalizacji](https://openstax.org/books/introduction-sociology-3e/pages/5-3-agents-of-socialization), [OpenStax: efekt widza i dyfuzja odpowiedzialności](https://openstax.org/books/psychology-2e/pages/12-6-aggression), [Stanford Encyclopedia: teoria gier](https://plato.stanford.edu/archives/sum2026/entries/epistemic-game/).
+
+Odczyt całej paczki i wybrane źródła nie oznaczają niezależnego potwierdzenia każdej tezy. Teorie społeczne są interpretacjami o różnym stopniu potwierdzenia, a nie uniwersalnymi prawami; pozostają powtórzenia oraz tematy do dalszej kontroli. Automatyczny audyt sprawdza strukturę, nie poprawność merytoryczną.

@@ -1,0 +1,14 @@
+# Audyt: Military Tech Crossovers (EN)
+
+Przejrzano opis oraz komplet 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 81 pozycji: 1–5, 7, 9, 11–13, 15–21, 23, 25–29, 31–32, 34–47, 49, 51–55, 57, 59–61, 63–68, 70–75, 78–81, 83, 85–93 i 95–100. Usunięto wcześniejsze znaczniki automatycznej weryfikacji ze zmienionych rekordów; liczba pytań i opis pozostają bez zmian.
+
+Najważniejsze zmiany:
+
+- Oddzielono pierwotny cel ARPANET-u (współdzielenie zasobów) od odrębnych badań nad siecią odporną na zniszczenie. Poprawiono genezę CCD, rolę pierwszych obliczeń ENIAC-a oraz błędne przypisanie wynalezienia folii Mylar NASA.
+- Zastąpiono niepotwierdzone twierdzenia o początkach satelitów pogodowych, pierwszym zastosowaniu wyświetlaczy LCD, laserach chirurgicznych i wczesnych zamkach błyskawicznych. Uwzględniono wkład American Bantam oraz Forda w historię jeepa i wiele źródeł rozwoju rakiet.
+- Doprecyzowano ograniczenia materiałów balistycznych, systemów światłowodowych, suszonego osocza, środków dezynfekcyjnych oraz klejów medycznych; nie sugeruje się stosowania zwykłego kleju do ran ani nieograniczonego przechowywania osocza. Wyjaśniono różnicę między środkiem owadobójczym i repelentem.
+- Poprawiono pytania z nakładającymi się odpowiedziami, m.in. dotyczące brytyjskich płaszczy, aparatury szyfrującej, polimerów, obrazowania medycznego i naprowadzania laserowego. Niektóre nowe dystraktory są łatwiejsze od poprzednich.
+
+Wybrane źródła: [DARPA: historia ARPANET-u](https://www.darpa.mil/about/innovation-timeline/arpanet), [NASA: ARPANET i współdzielenie zasobów](https://ntrs.nasa.gov/citations/19920002477), [Nobel Prize: CCD](https://www.nobelprize.org/prizes/physics/2009/illustrated-information/), [Computer History Museum: CCD jako pamięć](https://www.computerhistory.org/storageengine/bubbles-ccds-other-forgotten-memories/), [Smithsonian: historia jeepa](https://www.americanhistory.si.edu/explore/stories/little-jeep-could), [NASA: TIROS-1](https://www.nasa.gov/image-article/tiros-nations-first-weather-satellite/), [NASA: materiał Mylar i izolacja](https://spinoff.nasa.gov/Spinoff2018/pdf/Spinoff2018.pdf), [MIT Lemelson: Slinky](https://lemelson-dev.mit.edu/resources/richard-james), [Smithsonian: Red Vet Pet i Coppertone](https://ocean.si.edu/ecosystems/coral-reefs/sunscreen-environment), [U.S. Army: aerozole owadobójcze](https://achh.army.mil/history/book-wwii-malaria-chapterii/).
+
+Ograniczenia: zakres obejmuje odczyt całej paczki oraz wybrane sprawdzenia źródłowe, a nie niezależne potwierdzenie każdej historycznej tezy. Część pytań dotyczy ogólnych pojęć technicznych i medycznych bez bezpośredniego dowodu związku z zastosowaniem wojskowym. Pozostają powtórzenia tematów oraz uproszczone dystraktory; paczka wymaga dalszej redakcji różnorodności. Audyt automatyczny sprawdza strukturę i klucze, nie prawdziwość faktów.

@@ -86,6 +86,12 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Wulkany i Geologia (PL):** przegląd 100 pytań, korekty 56 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-wulkany-i-geologia-pl.md).
 
+- **Socjologia i Społeczeństwo (PL):** przegląd 100 pytań, korekty 62 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-socjologia-i-spoleczenstwo-pl.md).
+
+- **Królowie i Królowe Polski (PL):** przegląd 100 pytań, korekty 51 pozycji; [raport](audits/2026-11-07-krolowie-i-krolowe-polski-pl.md).
+- **Military Tech Crossovers (EN):** przegląd 100 pytań, korekty 81 pozycji; [raport](audits/2026-11-07-military-tech-crossovers-en.md).
+- **The Chemistry of Taste & Flavor (EN):** przegląd 100 pytań, korekty 58 pozycji; [raport](audits/2026-11-07-the-chemistry-of-taste-flavor-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

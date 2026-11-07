@@ -10,7 +10,7 @@
   "questions": [
     {
       "subcategory": "Sweetness",
-      "question": "Which monosaccharide is predominantly found in fruit and determines its inherent sweetness?",
+      "question": "Which monosaccharide is commonly called fruit sugar?",
       "options": [
         "Glucose",
         "Fructose",
@@ -18,10 +18,8 @@
         "Sucrose"
       ],
       "answer": "Fructose",
-      "explanation_correct": "Fructose is a simple ketonic monosaccharide commonly referred to as fruit sugar.",
-      "explanation_incorrect": "Glucose, galactose, and sucrose are other sugars, but they are not the primary sugar inherent in the chemical profile of most fruits.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fructose is a monosaccharide commonly called fruit sugar; fruits also contain glucose and sucrose in proportions that vary by fruit.",
+      "explanation_incorrect": "Glucose and galactose are other monosaccharides, while sucrose is a disaccharide."
     },
     {
       "subcategory": "Sweetness",
@@ -55,22 +53,20 @@
     },
     {
       "subcategory": "Sweetness",
-      "question": "By what common name is the disaccharide sucrose widely known in culinary chemistry?",
+      "question": "What disaccharide is the principal component of refined table sugar?",
       "options": [
-        "Table sugar",
-        "Brown sugar",
-        "Castor sugar",
-        "Powdered sugar"
+        "Sucrose",
+        "Glucose",
+        "Fructose",
+        "Lactose"
       ],
-      "answer": "Table sugar",
-      "explanation_correct": "Sucrose is naturally occurring and is extracted from sugarcane or sugar beets to produce table sugar.",
-      "explanation_incorrect": "Brown, castor, and powdered sugars are processed or textured variations of sucrose rather than the scientific common name for the disaccharide itself.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sucrose",
+      "explanation_correct": "Table sugar consists predominantly of sucrose, usually extracted from sugarcane or sugar beet.",
+      "explanation_incorrect": "Brown, caster and powdered sugars also commonly contain sucrose; the other options are different sugars."
     },
     {
       "subcategory": "Umami",
-      "question": "Which amino acid is widely recognized as the primary contributor to the umami taste profile?",
+      "question": "Which amino acid forms the glutamate in the seasoning monosodium glutamate (MSG)?",
       "options": [
         "Aspartic acid",
         "Glutamic acid",
@@ -79,9 +75,7 @@
       ],
       "answer": "Glutamic acid",
       "explanation_correct": "Glutamic acid is an amino acid that triggers the umami taste receptors on the human tongue.",
-      "explanation_incorrect": "The other amino acids listed do not bind to the G-protein coupled receptors responsible for detecting the umami taste.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Aspartate can also contribute to umami; the question identifies glutamate, a particularly well-known umami compound."
     },
     {
       "subcategory": "Umami",
@@ -100,18 +94,16 @@
     },
     {
       "subcategory": "Umami",
-      "question": "Which nucleotide is responsible for synergistically enhancing the taste of glutamate?",
+      "question": "Which nucleotide abbreviated IMP can enhance glutamate’s umami taste through synergy?",
       "options": [
-        "Guanylic acid",
         "Inosine monophosphate",
         "Adenosine monophosphate",
-        "Cytidine monophosphate"
+        "Cytidine monophosphate",
+        "Uridine monophosphate"
       ],
       "answer": "Inosine monophosphate",
       "explanation_correct": "Inosine monophosphate (IMP) is a 5'-ribonucleotide that works synergistically with glutamate to intensify umami.",
-      "explanation_incorrect": "The other options are nucleotides that do not exhibit the same synergistic effect with glutamate in flavor chemistry.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Guanylate (GMP) also synergistically enhances glutamate; the question specifies IMP."
     },
     {
       "subcategory": "Umami",
@@ -175,7 +167,7 @@
     },
     {
       "subcategory": "Sourness",
-      "question": "Which specific acid is found in high concentrations in grapes and is essential to winemaking acidity?",
+      "question": "Which acid found in grapes can form potassium bitartrate crystals during winemaking?",
       "options": [
         "Tartaric acid",
         "Citric acid",
@@ -183,10 +175,8 @@
         "Glycolic acid"
       ],
       "answer": "Tartaric acid",
-      "explanation_correct": "Tartaric acid is the predominant acid found in grapes and it remains stable during the winemaking process.",
-      "explanation_incorrect": "Citric acid and others appear in grapes, but tartaric acid is the fingerprint acid of the fruit.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tartaric acid is a major grape acid important to wine acidity; its concentration and effects can change during winemaking.",
+      "explanation_incorrect": "Malic acid is also an important grape acid; tartaric acid is particularly characteristic of grapes."
     },
     {
       "subcategory": "Sourness",
@@ -205,18 +195,16 @@
     },
     {
       "subcategory": "Bitterness",
-      "question": "What is the primary alkaloid compound responsible for the bitter flavor of coffee?",
+      "question": "Which bitter alkaloid found in coffee is also a stimulant?",
       "options": [
-        "Theobromine",
         "Caffeine",
-        "Chlorogenic acid",
-        "Trigonelline"
+        "Citric acid",
+        "Sucrose",
+        "Sodium chloride"
       ],
       "answer": "Caffeine",
-      "explanation_correct": "Caffeine is a methylxanthine alkaloid that serves as the main bitter agent in coffee.",
-      "explanation_incorrect": "While others are present in coffee, caffeine is the primary compound responsible for the bitterness profile.",
-      "last_verified_at": "2026-06-12T16:35:41.595Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Caffeine is a bitter alkaloid and stimulant present in coffee. Coffee bitterness also comes from other compounds, including products formed during roasting.",
+      "explanation_incorrect": "Caffeine is not the sole source of coffee bitterness; the other choices are not the specified alkaloid."
     },
     {
       "subcategory": "Bitterness",
@@ -235,7 +223,7 @@
     },
     {
       "subcategory": "Bitterness",
-      "question": "What class of bitter compounds is extracted from the flowers of the hop plant during beer brewing?",
+      "question": "Which compounds in hops are converted during boiling into iso-alpha acids that contribute bitterness to beer?",
       "options": [
         "Humulones",
         "Flavanols",
@@ -243,10 +231,8 @@
         "Limonoids"
       ],
       "answer": "Humulones",
-      "explanation_correct": "Humulones, or alpha acids, provide the signature bitterness to beer.",
-      "explanation_incorrect": "Flavanols and terpenes are present in other plants but do not provide the specific bitterness of beer hops.",
-      "last_verified_at": "2026-06-12T16:35:41.595Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Humulones are hop alpha acids; during boiling they can isomerize into iso-alpha acids that contribute beer bitterness.",
+      "explanation_incorrect": "Other hop constituents also affect beer flavor and aroma, but humulones are the alpha acids in the question."
     },
     {
       "subcategory": "Bitterness",
@@ -280,7 +266,7 @@
     },
     {
       "subcategory": "Saltiness",
-      "question": "Which alkali metal ion is specifically detected by human taste receptors as being salty?",
+      "question": "Which alkali metal ion is a major contributor to the salty taste of table salt?",
       "options": [
         "Potassium",
         "Lithium",
@@ -288,10 +274,8 @@
         "Magnesium"
       ],
       "answer": "Sodium",
-      "explanation_correct": "Sodium ions directly stimulate the ion channels in the taste buds that signal saltiness.",
-      "explanation_incorrect": "Although others may have salty-bitter metallic notes, sodium is the direct activator for saltiness.",
-      "last_verified_at": "2026-06-12T16:35:41.595Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sodium ions contribute to salt taste through taste transduction mechanisms, including ion channels.",
+      "explanation_incorrect": "Other ions, including potassium and lithium, can also taste salty, sometimes with other qualities."
     },
     {
       "subcategory": "Pungency",
@@ -304,9 +288,7 @@
       ],
       "answer": "Capsaicin",
       "explanation_correct": "Capsaicin is a chemical compound that causes the sensation of burning in tissues, which is the definition of chili pepper pungency.",
-      "explanation_incorrect": "Piperine, gingerol, and sinigrin cause pungency in black pepper, ginger, and mustard, respectively.",
-      "last_verified_at": "2026-06-12T16:35:41.595Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Piperine contributes to black pepper pungency and gingerols to fresh ginger. Sinigrin is a mustard glucosinolate that can yield pungent isothiocyanates when broken down."
     },
     {
       "subcategory": "Pungency",
@@ -333,10 +315,8 @@
         "Zingerone"
       ],
       "answer": "Gingerol",
-      "explanation_correct": "Gingerol is the active pungent component found in fresh ginger.",
-      "explanation_incorrect": "While shogaol and zingerone are related compounds formed during cooking or drying, gingerol is the major compound in the fresh state.",
-      "last_verified_at": "2026-06-12T16:36:47.061Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gingerols, especially 6-gingerol, contribute to fresh ginger pungency; shogaols can become more prominent after drying or heating.",
+      "explanation_incorrect": "While shogaol and zingerone are related compounds formed during cooking or drying, gingerol is the major compound in the fresh state."
     },
     {
       "subcategory": "Pungency",
@@ -348,10 +328,8 @@
         "Propanethial S-oxide"
       ],
       "answer": "Allyl isothiocyanate",
-      "explanation_correct": "Allyl isothiocyanate is produced by wasabi plants to defend against herbivores and provides its unique pungency.",
-      "explanation_incorrect": "Allicin and diallyl disulfide are garlic-derived, while propanethial S-oxide causes tearing from onions.",
-      "last_verified_at": "2026-06-12T16:36:47.061Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Allyl isothiocyanate forms from glucosinolates when plant tissue is damaged and contributes to the pungency of wasabi and related plants.",
+      "explanation_incorrect": "Allicin and diallyl disulfide are garlic-derived, while propanethial S-oxide causes tearing from onions."
     },
     {
       "subcategory": "Cooling",
@@ -364,9 +342,7 @@
       ],
       "answer": "Menthol",
       "explanation_correct": "Menthol binds to TRPM8 ion channels that detect cold, inducing a cooling sensation.",
-      "explanation_incorrect": "Eucalyptol, camphor, and thymol also have cooling properties but are fundamentally different compounds found in distinct plants.",
-      "last_verified_at": "2026-06-12T16:36:47.061Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other compounds can also produce cooling sensations; menthol is the monoterpene alcohol specified in the question."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -385,7 +361,7 @@
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "What volatile compound is frequently used in industrial food processing to impart a buttery sensory profile?",
+      "question": "Which compound is also known as 2,3-butanedione and has a buttery aroma?",
       "options": [
         "Diacetyl",
         "Acetylpropionyl",
@@ -394,13 +370,11 @@
       ],
       "answer": "Diacetyl",
       "explanation_correct": "Diacetyl, or 2,3-butanedione, is a natural byproduct of fermentation that creates a distinct butter-like flavor.",
-      "explanation_incorrect": "Acetylpropionyl and acetoin have buttery notes but are less potent, and butyric acid has a pervasive rancid smell.",
-      "last_verified_at": "2026-06-12T16:36:47.061Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Acetoin and acetylpropionyl can also have buttery notes; 2,3-butanedione is diacetyl."
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "Which aromatic aldehyde is the primary component characteristic of the scent and taste of almonds?",
+      "question": "Which aromatic aldehyde is associated especially with a bitter-almond aroma?",
       "options": [
         "Benzaldehyde",
         "Vanillin",
@@ -408,10 +382,8 @@
         "Salicylaldehyde"
       ],
       "answer": "Benzaldehyde",
-      "explanation_correct": "Benzaldehyde provides the iconic bitter almond aroma found in many culinary extracts.",
-      "explanation_incorrect": "Vanillin, cinnamaldehyde, and salicylaldehyde provide vanilla, cinnamon, and distinct medicinal profiles respectively.",
-      "last_verified_at": "2026-06-12T16:36:47.061Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Benzaldehyde contributes a characteristic bitter-almond-like aroma; almond flavor contains multiple compounds.",
+      "explanation_incorrect": "Vanillin, cinnamaldehyde, and salicylaldehyde provide vanilla, cinnamon, and distinct medicinal profiles respectively."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -438,10 +410,8 @@
         "Pentyl acetate"
       ],
       "answer": "Isoamyl acetate",
-      "explanation_correct": "Isoamyl acetate is the ester primarily responsible for the aroma profile of bananas.",
-      "explanation_incorrect": "Ethyl butyrate typically mimics pineapple or orange, methyl anthranilate mimics grapes, and pentyl acetate is similar but less characteristic of banana.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Isoamyl acetate contributes a banana-like fruity aroma; actual banana aroma is a mixture of volatile compounds.",
+      "explanation_incorrect": "Other esters can have fruity aromas too; isoamyl acetate is widely used as a banana-like flavor note."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -475,7 +445,7 @@
     },
     {
       "subcategory": "Physiology",
-      "question": "What are the small, fleshy projections on the tongue surface that house the taste buds?",
+      "question": "What are the tongue surface structures, some types of which contain taste buds?",
       "options": [
         "Papillae",
         "Microvilli",
@@ -483,14 +453,12 @@
         "Vomeronasal organs"
       ],
       "answer": "Papillae",
-      "explanation_correct": "Papillae are the structures on the tongue that contain the taste buds used to perceive flavor.",
-      "explanation_incorrect": "Microvilli are part of the taste cell, turbinates are in the nose, and the vomeronasal organ is a pheromone-detecting structure.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Taste buds occur in several types of papillae, including fungiform, foliate and circumvallate papillae; filiform papillae generally lack taste buds.",
+      "explanation_incorrect": "Microvilli project from taste cells; papillae are the larger surface structures."
     },
     {
       "subcategory": "Physiology",
-      "question": "Which muscular organ serves as the primary sensory tool for distinguishing flavors through its taste bud clusters?",
+      "question": "Which muscular organ in the mouth contains many taste buds?",
       "options": [
         "Tongue",
         "Pharynx",
@@ -499,13 +467,11 @@
       ],
       "answer": "Tongue",
       "explanation_correct": "The tongue is the main sensory organ in the mouth containing various receptors for taste perception.",
-      "explanation_incorrect": "While the pharynx, epiglottis, and palate have taste receptors, they are secondary in function to the tongue.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Taste buds also occur in other sites, including parts of the palate and epiglottis; the tongue is the muscular organ specified."
     },
     {
       "subcategory": "Physiology",
-      "question": "Which sensory process is integrated with taste to contribute to the overall perception of flavor?",
+      "question": "Which sense detects volatile aroma molecules and combines with taste and other sensations to create flavor?",
       "options": [
         "Olfaction",
         "Gustation",
@@ -513,14 +479,12 @@
         "Proprioception"
       ],
       "answer": "Olfaction",
-      "explanation_correct": "Olfaction, or the sense of smell, provides most of the complex flavor information during eating.",
-      "explanation_incorrect": "Gustation is purely taste, somatosensation relates to texture/touch, and proprioception relates to body position.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Olfaction detects odor molecules; taste, smell and somatosensory signals together contribute to flavor.",
+      "explanation_incorrect": "Somatosensation, such as touch and chemesthesis, also contributes to flavor, while gustation is taste."
     },
     {
       "subcategory": "Physiology",
-      "question": "Which cranial nerve is responsible for transmitting taste sensations from the anterior two-thirds of the tongue?",
+      "question": "Which branch of the facial nerve carries taste information from much of the anterior two-thirds of the tongue?",
       "options": [
         "Chorda tympani",
         "Glossopharyngeal nerve",
@@ -528,14 +492,12 @@
         "Trigeminal nerve"
       ],
       "answer": "Chorda tympani",
-      "explanation_correct": "The chorda tympani, a branch of the facial nerve, carries taste sensory information from the front of the tongue.",
-      "explanation_incorrect": "The glossopharyngeal handles the posterior tongue, the vagus the throat, and the trigeminal handles touch and temperature.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The chorda tympani is a branch of the facial nerve that carries taste from much of the anterior tongue.",
+      "explanation_incorrect": "The glossopharyngeal and vagus nerves carry taste from other regions, while the trigeminal nerve carries general sensory information."
     },
     {
       "subcategory": "Flavor Compounds",
-      "question": "Which aldehyde is a key volatile compound associated with the characteristic 'green' scent of mown grass?",
+      "question": "Which green-leaf volatile is also called (Z)-3-hexenal and is associated with cut-grass aroma?",
       "options": [
         "Cis-3-hexenal",
         "Trans-2-hexenal",
@@ -544,9 +506,7 @@
       ],
       "answer": "Cis-3-hexenal",
       "explanation_correct": "Cis-3-hexenal is a highly volatile compound released by damaged plant tissues to create a green, grassy smell.",
-      "explanation_incorrect": "Trans-2-hexenal, non-1-enal, and hexanal also have green notes but differ in chemical potency and association.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other aldehydes, including hexanal and trans-2-hexenal, can also contribute green or grassy notes."
     },
     {
       "subcategory": "Flavor Compounds",
@@ -573,10 +533,8 @@
         "Sulfur dioxide"
       ],
       "answer": "Hydrogen sulfide",
-      "explanation_correct": "Hydrogen sulfide is a colorless gas with a pungent, rotten-egg smell produced by decaying matter.",
-      "explanation_incorrect": "Carbon dioxide is odorless, ammonia has a sharp, pungent odor, and sulfur dioxide has a stinging, burnt-match scent.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hydrogen sulfide can smell like rotten eggs at low concentrations, but the sense of smell can rapidly fatigue and is not a reliable safety warning.",
+      "explanation_incorrect": "Carbon dioxide is odorless; ammonia and sulfur dioxide have different characteristic odors. Never rely on smell to detect hazardous hydrogen sulfide."
     },
     {
       "subcategory": "Flavor Compounds",
@@ -595,18 +553,16 @@
     },
     {
       "subcategory": "Flavor Compounds",
-      "question": "Which unsaturated aldehyde is considered the primary compound responsible for the fresh flavor of cucumbers?",
+      "question": "Which compound, specifically 2,6-nonadienal, is associated with cucumber aroma?",
       "options": [
         "Nonadienal",
-        "Nonenal",
-        "Hexenal",
-        "Octadienal"
+        "Benzaldehyde",
+        "Vanillin",
+        "Eugenol"
       ],
       "answer": "Nonadienal",
-      "explanation_correct": "2,6-Nonadienal is the major volatile component found in cucumbers, providing their classic fresh aroma.",
-      "explanation_incorrect": "Nonenal, hexenal, and octadienal contribute to different vegetable or fruity aroma profiles and lack the specific profile of cucumber.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "2,6-Nonadienal contributes a characteristic cucumber-like odor, together with other volatiles.",
+      "explanation_incorrect": "Nonenal can also contribute to cucumber aroma; benzaldehyde, vanillin and eugenol are associated with different aroma notes."
     },
     {
       "subcategory": "Physiology",
@@ -679,13 +635,11 @@
       ],
       "answer": "Linalool",
       "explanation_correct": "Linalool is a naturally occurring terpene found in many flowers and spice plants, including lavender.",
-      "explanation_incorrect": "Menthol, citral, and eucalyptol produce distinct cooling or citrus aromas unrelated to lavender.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Essential oil composition varies by plant and cultivar; linalool is one of several compounds associated with lavender aroma."
     },
     {
       "subcategory": "Aromatics",
-      "question": "What specific compound is recognized as the major contributor to the scent profile of roses?",
+      "question": "Which terpene alcohol can contribute a floral note to rose oil?",
       "options": [
         "Geraniol",
         "Vanillin",
@@ -693,14 +647,12 @@
         "Cinnamaldehyde"
       ],
       "answer": "Geraniol",
-      "explanation_correct": "Geraniol is a primary component of rose oil and provides its classic sweet, floral fragrance.",
-      "explanation_incorrect": "Vanillin, limonene, and cinnamaldehyde contribute to vanilla, citrus, and cinnamon aromas respectively.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Geraniol is one of several aroma compounds found in rose oil; relative proportions vary among roses.",
+      "explanation_incorrect": "Rose fragrance is a mixture; geraniol is the listed terpene alcohol associated with floral aromas."
     },
     {
       "subcategory": "Aromatics",
-      "question": "Which specific aldehyde is primarily responsible for the distinct aroma of fresh coriander or cilantro?",
+      "question": "Which aldehyde, including the isomer (E)-2-decenal, can contribute to cilantro leaf aroma?",
       "options": [
         "Decenal",
         "Hexanal",
@@ -708,10 +660,8 @@
         "Acetone"
       ],
       "answer": "Decenal",
-      "explanation_correct": "E-2-Decenal is identified as a major chemical component that gives cilantro its characteristic pungency.",
-      "explanation_incorrect": "Hexanal produces green grass notes, benzaldehyde provides almond notes, and acetone is a solvent.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Decenals are among several aldehydes contributing to cilantro aroma; the composition varies with plant and conditions.",
+      "explanation_incorrect": "Cilantro aroma is a mixture of compounds, not a single molecule."
     },
     {
       "subcategory": "Fermentation",
@@ -738,10 +688,8 @@
         "PCA"
       ],
       "answer": "TCA",
-      "explanation_correct": "2,4,6-Trichloroanisole (TCA) is a compound formed by fungal action on wood treatments, resulting in a musty aroma.",
-      "explanation_incorrect": "SO2 is an antioxidant preservative, and TBA or PCA are different chemical classes not primarily responsible for wine cork taint.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "2,4,6-Trichloroanisole (TCA) can cause musty cork taint and may arise from microbial transformation of chlorophenols in cork or winery materials.",
+      "explanation_incorrect": "SO2 is an antioxidant preservative, and TBA or PCA are different chemical classes not primarily responsible for wine cork taint."
     },
     {
       "subcategory": "Flavor Compounds",
@@ -760,7 +708,7 @@
     },
     {
       "subcategory": "Aromatics",
-      "question": "What chemical compound, also found in star anise, is responsible for the characteristic flavor of licorice?",
+      "question": "Which aromatic compound found in star anise is associated with an anise-like flavor often used in licorice candy?",
       "options": [
         "Anethole",
         "Coumarin",
@@ -768,10 +716,8 @@
         "Thymol"
       ],
       "answer": "Anethole",
-      "explanation_correct": "Anethole is a phenylpropanoid that provides the distinct sweet, licorice-like flavor.",
-      "explanation_incorrect": "Coumarin, eugenol, and thymol produce different aromatic profiles such as vanilla, clove, and thyme.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Anethole gives anise and star anise a characteristic sweet, licorice-like aroma. Licorice root itself contains other compounds, including glycyrrhizin.",
+      "explanation_incorrect": "Licorice confectionery varies in ingredients; anethole is associated especially with anise-like aroma."
     },
     {
       "subcategory": "Chemistry",
@@ -805,7 +751,7 @@
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "Which sulfur-containing compound is recognized as the key molecule in the aroma of black truffles?",
+      "question": "Which sulfur-containing compound, also called bis(methylthio)methane, contributes to black truffle aroma?",
       "options": [
         "Bis-methylthiomethane",
         "Methanethiol",
@@ -813,14 +759,12 @@
         "Allyl methyl sulfide"
       ],
       "answer": "Bis-methylthiomethane",
-      "explanation_correct": "Bis-methylthiomethane is the primary aromatic compound responsible for the intense and earthy truffle scent.",
-      "explanation_incorrect": "The other options are sulfur compounds that produce different odors like rotten eggs or cabbage but do not represent the truffle profile.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bis(methylthio)methane is one of the sulfur-containing volatiles associated with black truffle aroma; the overall scent is a mixture.",
+      "explanation_incorrect": "Dimethyl sulfide and other sulfur volatiles may also contribute to truffle aroma, depending on species and sample."
     },
     {
       "subcategory": "Sourness",
-      "question": "Which specific acid provides the sharp, tangy tartness commonly found in commercial colas and soda?",
+      "question": "Which acid is commonly used to acidify many cola beverages?",
       "options": [
         "Acetic acid",
         "Citric acid",
@@ -829,9 +773,7 @@
       ],
       "answer": "Phosphoric acid",
       "explanation_correct": "Phosphoric acid is a common food additive used to provide a sharp acidic flavor to soft drinks.",
-      "explanation_incorrect": "Acetic, citric, and malic acids are commonly found in vinegar and fruits, but are not the primary acid used in cola.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other acids, including citric acid, can be used in soft drinks; formulations differ."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -850,22 +792,20 @@
     },
     {
       "subcategory": "Sweetness",
-      "question": "What common ingredient, abbreviated as HFCS, is a liquid sweetener derived from starch processed via enzymatic conversion?",
+      "question": "What does the acronym HFCS stand for in food ingredient lists?",
       "options": [
-        "HFS",
-        "HFCS",
-        "HFSN",
-        "HCFS"
+        "High-fructose corn syrup",
+        "Highly fermented cane sugar",
+        "Hydrolyzed fruit cellulose syrup",
+        "High-fiber cereal starch"
       ],
-      "answer": "HFCS",
-      "explanation_correct": "High-fructose corn syrup is an artificial sweetener produced by converting corn starch into glucose and then fructose.",
-      "explanation_incorrect": "The other acronyms are incorrect variations of the industry standard initials for the corn-derived sweetener.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "High-fructose corn syrup",
+      "explanation_correct": "HFCS is made from corn starch; some glucose is enzymatically converted to fructose, producing a mixture of fructose and glucose.",
+      "explanation_incorrect": "The other expansions are not the standard meaning of HFCS."
     },
     {
       "subcategory": "Umami",
-      "question": "Which Japanese scientist was the first to identify the umami taste and isolate the compound responsible, MSG?",
+      "question": "Which Japanese scientist identified glutamate as a source of the taste he called umami in 1908?",
       "options": [
         "Kikunae Ikeda",
         "Akio Morita",
@@ -873,14 +813,12 @@
         "Susumu Tonegawa"
       ],
       "answer": "Kikunae Ikeda",
-      "explanation_correct": "In 1908, Kikunae Ikeda identified glutamate as the chemical responsible for the savory taste of dashi broth.",
-      "explanation_incorrect": "The other individuals had careers in electronics, physics, and immunology, not in sensory flavor research.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kikunae Ikeda identified glutamate in kombu broth as a source of umami; monosodium glutamate was later developed as a seasoning.",
+      "explanation_incorrect": "The other individuals had careers in electronics, physics, and immunology, not in sensory flavor research."
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "Which chemical ketone is predominantly associated with the sharp, pungent flavor profile of blue-veined cheeses?",
+      "question": "Which methyl ketone, also known as 2-heptanone, can contribute to blue cheese aroma?",
       "options": [
         "Heptan-2-one",
         "Nonan-2-one",
@@ -888,14 +826,12 @@
         "Decan-2-one"
       ],
       "answer": "Heptan-2-one",
-      "explanation_correct": "Heptan-2-one is a methyl ketone formed by the oxidation of fatty acids, giving blue cheese its characteristic piquancy.",
-      "explanation_incorrect": "The other ketones exist, but they do not provide the exact flavor profile associated with the mold in blue cheese.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "2-Heptanone is one of several methyl ketones contributing to blue cheese aroma; different cheeses contain varying mixtures.",
+      "explanation_incorrect": "2-Nonanone can also contribute to blue cheese aroma; the question specifically asks for 2-heptanone."
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "What is the primary aromatic compound traditionally associated with the unique flavor profile of raspberries?",
+      "question": "Which compound is named for a fruit and contributes to raspberry aroma?",
       "options": [
         "Raspberry ketone",
         "Ethyl acetate",
@@ -903,10 +839,8 @@
         "Methyl anthranilate"
       ],
       "answer": "Raspberry ketone",
-      "explanation_correct": "Raspberry ketone is a natural phenolic compound that makes up the characteristic scent of red raspberries.",
-      "explanation_incorrect": "Ethyl acetate, isoamyl acetate, and methyl anthranilate are esters associated with fruit flavors like banana or grape, not raspberry.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Raspberry ketone contributes to raspberry aroma, which also depends on many other volatiles.",
+      "explanation_incorrect": "Raspberry aroma is a mixture, and its sensory character is not determined by one compound alone."
     },
     {
       "subcategory": "Astringency",
@@ -919,9 +853,7 @@
       ],
       "answer": "Tannins",
       "explanation_correct": "Tannins are large polyphenolic compounds that bind to salivary proteins, causing the characteristic dry, puckering sensation in the mouth.",
-      "explanation_incorrect": "While other listed compounds are polyphenols, they contribute primarily to color or health functionality rather than significant astringency.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Some other polyphenols can also affect astringency; tannins are especially associated with protein binding and a drying mouthfeel."
     },
     {
       "subcategory": "Astringency",
@@ -955,18 +887,16 @@
     },
     {
       "subcategory": "Sweetness",
-      "question": "Which sugar alcohol is commonly used in sugar-free gum due to its cooling effect and inability to be fermented by oral bacteria?",
+      "question": "Which sugar alcohol, made from xylose, is commonly used in sugar-free gum?",
       "options": [
         "Xylitol",
-        "Sorbitol",
-        "Erythritol",
-        "Mannitol"
+        "Sucrose",
+        "Glucose",
+        "Lactose"
       ],
       "answer": "Xylitol",
-      "explanation_correct": "Xylitol is a polyol frequently utilized in confectionery for its sweetness equivalence to sucrose and its dental health benefits.",
-      "explanation_incorrect": "While the other options are also sugar alcohols, xylitol is uniquely noted for its specific usage in gum and its distinct cooling sensation.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Xylitol is a sugar alcohol used in gum; it can produce a cooling sensation and is not readily fermented by many oral bacteria.",
+      "explanation_incorrect": "Other polyols, including sorbitol, erythritol and mannitol, are also used in sugar-free gum and can have cooling effects."
     },
     {
       "subcategory": "Sweetness",
@@ -985,7 +915,7 @@
     },
     {
       "subcategory": "Flavor Compounds",
-      "question": "Which ester is predominantly synthesized to provide the characteristic aroma profile associated with fresh pineapple?",
+      "question": "Which ester is commonly associated with a pineapple-like fruity aroma?",
       "options": [
         "Ethyl butyrate",
         "Isoamyl acetate",
@@ -993,14 +923,12 @@
         "Ethyl hexanoate"
       ],
       "answer": "Ethyl butyrate",
-      "explanation_correct": "Ethyl butyrate is a well-known fruit ester that imparts a distinct pineapple-like fruity aroma.",
-      "explanation_incorrect": "The other esters listed are typically associated with different fruits, such as bananas or grapes.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ethyl butyrate is associated with fruity aromas including pineapple; real pineapple aroma contains many volatile compounds.",
+      "explanation_incorrect": "Other esters, including ethyl hexanoate, can also contribute fruity and pineapple-like notes."
     },
     {
       "subcategory": "Flavor Compounds",
-      "question": "Which aldehyde is naturally produced in plants and serves as a primary marker for the characteristic scent of freshly cut green apples?",
+      "question": "Which aldehyde is a green-leaf volatile associated with grassy notes and can occur in apples?",
       "options": [
         "Hexanal",
         "Benzaldehyde",
@@ -1008,10 +936,8 @@
         "Vanillin"
       ],
       "answer": "Hexanal",
-      "explanation_correct": "Hexanal is a green leaf volatile that provides the fresh, grassy, and crisp apple aroma.",
-      "explanation_incorrect": "Benzaldehyde and vanillin provide almond and vanilla scents, respectively, while cinnamaldehyde provides the scent of cinnamon.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hexanal can contribute a green, grassy odor to foods; apple aroma consists of many volatiles that vary by cultivar and ripeness.",
+      "explanation_incorrect": "Benzaldehyde and vanillin provide almond and vanilla scents, respectively, while cinnamaldehyde provides the scent of cinnamon."
     },
     {
       "subcategory": "Physiology",
@@ -1039,9 +965,7 @@
       ],
       "answer": "PTC",
       "explanation_correct": "Phenylthiocarbamide (PTC) is used to categorize ‘tasters’ and ‘non-tasters’ based on variations in a specific bitterness receptor gene.",
-      "explanation_incorrect": "Quinine and naringin are bitter compounds, but PTC is uniquely utilized for studying the genetics of taste perception.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "PTC and the related compound PROP are both used in studies of variation in bitter-taste sensitivity."
     },
     {
       "subcategory": "Sweetness",
@@ -1060,7 +984,7 @@
     },
     {
       "subcategory": "Umami",
-      "question": "Which traditional Japanese liquid preparation is a primary source of oceanic umami flavor due to its balance of glutamates and nucleotides?",
+      "question": "Which Japanese stock can be prepared using kombu and dried bonito flakes?",
       "options": [
         "Dashi",
         "Miso",
@@ -1068,14 +992,12 @@
         "Mirin"
       ],
       "answer": "Dashi",
-      "explanation_correct": "Dashi is a soup stock created from kelp and bonito flakes, forming the fundamental umami base of Japanese cuisine.",
-      "explanation_incorrect": "Miso and shoyu are fermented products that contain umami, but Dashi is explicitly the classic broth associated with this flavor profile.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "One form of dashi combines kombu and dried bonito; other types use different ingredients, including mushrooms or other fish.",
+      "explanation_incorrect": "Miso and shoyu also contribute umami, but the question describes a common type of dashi."
     },
     {
       "subcategory": "Aromatics",
-      "question": "Which phenolic monoterpene is the primary aromatic compound contributing to the distinct, pungent scent profile of fresh thyme?",
+      "question": "Which phenolic monoterpene is named after thyme and can contribute to the aroma of thyme oil?",
       "options": [
         "Thymol",
         "Linalool",
@@ -1083,14 +1005,12 @@
         "Carvacrol"
       ],
       "answer": "Thymol",
-      "explanation_correct": "Thymol is a major constituent in thyme oil responsible for its characteristic antiseptic and spicy aroma.",
-      "explanation_incorrect": "Linalool is common in lavender, menthol in mint, and carvacrol is more prominent in oregano, though related.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Thymol can be a major constituent of thyme oil, although composition varies by plant and chemotype.",
+      "explanation_incorrect": "Carvacrol and linalool can also occur in thyme; thymol is the compound named in the question."
     },
     {
       "subcategory": "Aromatics",
-      "question": "Which phenylpropene compound is a significant contributor to the sweet, spicy aroma profile of basil leaves?",
+      "question": "Which compound, also called methyl chavicol, can contribute an anise-like note to some basil varieties?",
       "options": [
         "Estragole",
         "Anethole",
@@ -1098,14 +1018,12 @@
         "Safrole"
       ],
       "answer": "Estragole",
-      "explanation_correct": "Estragole, also known as methyl chavicol, is highly concentrated in basil and contributes to its herbal, anise-like scent.",
-      "explanation_incorrect": "Anethole represents anise, eugenol represents cloves, and safrole has a distinct root-beer-like aroma profile.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Estragole (methyl chavicol) occurs in some basil varieties; proportions of aroma compounds vary by cultivar.",
+      "explanation_incorrect": "Basil may also contain eugenol and other aroma compounds; methyl chavicol is another name for estragole."
     },
     {
       "subcategory": "Aromatics",
-      "question": "Which cyclic monoterpene is the dominant volatile compound in rosemary that contributes to its camphoraceous and pine-like aroma?",
+      "question": "Which oxygen-containing terpene, also called 1,8-cineole, can contribute to rosemary aroma?",
       "options": [
         "Eucalyptol",
         "Limonene",
@@ -1113,10 +1031,8 @@
         "Camphene"
       ],
       "answer": "Eucalyptol",
-      "explanation_correct": "Eucalyptol, also known as 1,8-cineole, is a key component in rosemary oil providing its fresh, cooling, and herbaceous aroma.",
-      "explanation_incorrect": "Limonene is citrus-like, while pinene and camphene are woodier resins not as central to the specific rosemary scent as eucalyptol.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Eucalyptol is 1,8-cineole, an oxygen-containing terpene that can contribute to rosemary aroma; composition differs between plants.",
+      "explanation_incorrect": "Pinene and camphene can also contribute to rosemary scent; 1,8-cineole is eucalyptol."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -1128,14 +1044,12 @@
         "Ammonia"
       ],
       "answer": "Trimethylamine",
-      "explanation_correct": "Trimethylamine (TMA) is formed by the bacterial reduction of trimethylamine oxide, signaling that fish spoilage has occurred.",
-      "explanation_incorrect": "Putrescine and cadaverine are associated with general tissue decay, and ammonia is too pungent/sharp without the distinct fishy character.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Trimethylamine can form when bacteria reduce trimethylamine oxide in marine fish and contributes to fishy odors. Odor alone cannot reliably establish food safety.",
+      "explanation_incorrect": "Putrescine and cadaverine are associated with general tissue decay, and ammonia is too pungent/sharp without the distinct fishy character."
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "Which heterocyclic pyrazine compound is specifically identified as the key aroma contributor for the 'toasted' scent of hot popcorn?",
+      "question": "Which compound is a pyrazine that can contribute roasted, nutty aroma notes?",
       "options": [
         "Acetylpyrazine",
         "Methoxypyrazine",
@@ -1143,14 +1057,12 @@
         "Pyrrole"
       ],
       "answer": "Acetylpyrazine",
-      "explanation_correct": "Acetylpyrazine provides the intense toasted, nutty flavor note associated with popped corn grains.",
-      "explanation_incorrect": "Methoxypyrazines are vegetal, while pyridine and pyrrole compounds contribute differently to scorched or burnt scents.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Acetylpyrazine can contribute roasted and nutty notes in foods; popcorn aroma arises from a mixture, including other compounds.",
+      "explanation_incorrect": "Many volatiles contribute to popcorn aroma; acetylpyrazine is the named pyrazine in the options."
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "What class of heterocyclic aromatic compounds containing sulfur is crucial for producing the savory, characteristic 'meaty' flavors in roasted proteins?",
+      "question": "Which class contains sulfur and can contribute to roasted or savory food aromas?",
       "options": [
         "Thiophenes",
         "Furans",
@@ -1158,14 +1070,12 @@
         "Esters"
       ],
       "answer": "Thiophenes",
-      "explanation_correct": "Thiophenes and other sulfur-containing heterocycles are essential for the specific savory and meaty aromas produced during the Maillard reaction.",
-      "explanation_incorrect": "Furans provide more caramel-like notes, lactones are often creamy or fruity, and esters provide fruity aromas.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Thiophenes are sulfur-containing heterocycles found among compounds formed during heating; meaty aromas arise from complex mixtures.",
+      "explanation_incorrect": "Furans, lactones and esters can contribute other food aromas but are not sulfur-containing thiophenes."
     },
     {
       "subcategory": "Sweetness",
-      "question": "Which high-intensity dipeptide sweetener is commonly utilized in diet carbonated beverages for its ability to mimic sucrose flavor profiles?",
+      "question": "Which high-intensity sweetener is the methyl ester of a dipeptide made from aspartic acid and phenylalanine?",
       "options": [
         "Aspartame",
         "Sucralose",
@@ -1173,10 +1083,8 @@
         "Acesulfame K"
       ],
       "answer": "Aspartame",
-      "explanation_correct": "Aspartame is an aspartic acid/phenylalanine dipeptide commonly added to soft drinks for its clean, sugar-like sweetness.",
-      "explanation_incorrect": "Sucralose and saccharin are chlorinated/synthetic sweeteners, and Acesulfame K is often used in blends, but aspartame is the classic aspartic acid derivative.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aspartame is the methyl ester of the dipeptide L-aspartyl-L-phenylalanine.",
+      "explanation_incorrect": "Sucralose, saccharin and acesulfame potassium are different sweeteners and do not have this dipeptide structure."
     },
     {
       "subcategory": "Physiology",
@@ -1203,10 +1111,8 @@
         "Parosmia"
       ],
       "answer": "Dysgeusia",
-      "explanation_correct": "Dysgeusia is characterized by a persistent bad or metallic taste which interferes with the accuracy of flavor perception.",
-      "explanation_incorrect": "Ageusia and hypogeusia refer to the loss or reduction of taste levels, while parosmia refers to a distorted sense of smell.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dysgeusia is a distortion or alteration of taste; a metallic or unpleasant taste is one possible presentation.",
+      "explanation_incorrect": "Ageusia and hypogeusia refer to loss or reduction of taste, while parosmia is a distorted sense of smell."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -1255,7 +1161,7 @@
     },
     {
       "subcategory": "Physiology",
-      "question": "What term is used to describe individuals who possess a much higher density of fungiform papillae on their tongue?",
+      "question": "Which term is commonly used for people who perceive some taste stimuli, especially certain bitter compounds, more intensely than average?",
       "options": [
         "Supertasters",
         "Hypergeusics",
@@ -1263,14 +1169,12 @@
         "Nontasters"
       ],
       "answer": "Supertasters",
-      "explanation_correct": "Supertasters have a higher density of taste buds, leading to an increased sensitivity to flavors, especially bitterness.",
-      "explanation_incorrect": "Nontasters have fewer buds, while hypergeusia and hypogeusia are clinical terms for distorted or reduced taste ability.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The term supertaster is used for heightened responses to particular taste stimuli; sensitivity and papilla counts vary and do not provide a universal classification.",
+      "explanation_incorrect": "Nontaster describes reduced perception of certain test compounds; taste sensitivity is stimulus-dependent."
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "Which cyclic terpene is the primary hydrocarbon component responsible for the characteristic scent of lemon oil?",
+      "question": "Which hydrocarbon is abundant in lemon peel oil and is also common in other citrus oils?",
       "options": [
         "Limonene",
         "Pinene",
@@ -1278,14 +1182,12 @@
         "Camphene"
       ],
       "answer": "Limonene",
-      "explanation_correct": "Limonene is a monoterpene found in the oils of citrus fruit peels and provides a classic citrus scent.",
-      "explanation_incorrect": "Pinene, myrcene, and camphene are also terpenes but are more associated with pine or herbal aromas.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Limonene is abundant in citrus peel oils, but lemon aroma also depends on smaller amounts of other compounds, including citral.",
+      "explanation_incorrect": "Pinene, myrcene, and camphene are also terpenes but are more associated with pine or herbal aromas."
     },
     {
       "subcategory": "Sweetness",
-      "question": "Which unit of measurement is the standard for quantifying the capsaicin concentration and heat intensity of chili peppers?",
+      "question": "What scale expresses the pungency of chili peppers in Scoville heat units?",
       "options": [
         "Scoville scale",
         "Brix scale",
@@ -1293,10 +1195,8 @@
         "Mohs scale"
       ],
       "answer": "Scoville scale",
-      "explanation_correct": "The Scoville scale measures the dilution required for the capsaicin to be undetectable by taste testers.",
-      "explanation_incorrect": "The Brix scale measures sugar, the pH scale measures acidity, and the Mohs scale measures mineral hardness.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Scoville scale originated in sensory dilution testing; capsaicinoids can also be measured instrumentally and reported as Scoville heat units.",
+      "explanation_incorrect": "Brix measures soluble solids, pH indicates acidity, and Mohs ranks mineral scratch hardness."
     },
     {
       "subcategory": "Flavor Chemistry",
@@ -1323,10 +1223,8 @@
         "Vanillin"
       ],
       "answer": "Sotolon",
-      "explanation_correct": "Sotolon is a powerful aroma compound that changes from a maple/caramel scent at low concentrations to a curry/nutty scent at higher ones.",
-      "explanation_incorrect": "Furaneol is associated with strawberries/pineapple, maltol provides a toasted bread/sugar aroma, and vanillin is characteristic of vanilla.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sotolon can evoke maple-like notes at lower concentrations and curry-like notes at higher concentrations; sensory description depends on concentration and context.",
+      "explanation_incorrect": "Furaneol is associated with strawberries/pineapple, maltol provides a toasted bread/sugar aroma, and vanillin is characteristic of vanilla."
     },
     {
       "subcategory": "Chemistry",
@@ -1339,13 +1237,11 @@
       ],
       "answer": "Esters",
       "explanation_correct": "Esters are volatile molecules frequently synthesized by fruits and are characterized by their sweet or fruity odors.",
-      "explanation_incorrect": "Aldehydes, ketones, and phenols generally provide sharper, more pungent, or medicinal and woody scents.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Aldehydes, ketones and phenols can also have fruity, floral or other aromas; esters are a broad family commonly associated with fruity notes."
     },
     {
       "subcategory": "Sweetness",
-      "question": "Which naturally occurring monosaccharide is the most prevalent sugar found in berries and many fruits?",
+      "question": "Which monosaccharide is often sweeter than glucose and is present alongside other sugars in many fruits?",
       "options": [
         "Fructose",
         "Glucose",
@@ -1353,14 +1249,12 @@
         "Sucrose"
       ],
       "answer": "Fructose",
-      "explanation_correct": "Fructose, or fruit sugar, is a ketonic monosaccharide that provides higher perceived sweetness than simple sugars like glucose.",
-      "explanation_incorrect": "Glucose, galactose, and sucrose have different chemical structures and sweetening intensities.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fructose is a monosaccharide commonly called fruit sugar. The relative amounts of fructose, glucose and sucrose vary between fruits.",
+      "explanation_incorrect": "Glucose is also common in fruit; relative sweetness and the proportions of fruit sugars depend on conditions and the fruit."
     },
     {
       "subcategory": "Aromatics",
-      "question": "Which volatile isomer is the primary constituent of caraway seeds, dictating their specific herbal flavor profile?",
+      "question": "Which compound occurs as stereoisomers with aromas associated with caraway and spearmint?",
       "options": [
         "Carvone",
         "Anethole",
@@ -1368,10 +1262,8 @@
         "Menthol"
       ],
       "answer": "Carvone",
-      "explanation_correct": "Carvone is a terpene that exists as two isomers, with the dextrorotatory form providing the caraway scent.",
-      "explanation_incorrect": "Anethole, eugenol, and menthol correspond to anise, clove, and mint flavors.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Carvone has two enantiomers: (+)-carvone is associated with caraway, while (−)-carvone is associated with spearmint.",
+      "explanation_incorrect": "Anethole, eugenol and menthol are different aroma compounds."
     },
     {
       "subcategory": "Aromatics",
@@ -1413,10 +1305,8 @@
         "GPR120"
       ],
       "answer": "T2R",
-      "explanation_correct": "The T2R family consists of approximately 25 different TAS2R genes responsible for sensing a wide range of bitter compounds.",
-      "explanation_incorrect": "The T1R group relates to sweet and umami sensing, while CD36 is a fatty acid receptor.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "T2R receptors are encoded by the TAS2R gene family and detect many bitter compounds.",
+      "explanation_incorrect": "T1R receptors participate in sweet and umami detection; CD36 and GPR120 are associated with fatty-acid sensing, not the T2R family."
     },
     {
       "subcategory": "Physiology",
@@ -1450,7 +1340,7 @@
     },
     {
       "subcategory": "Flavor Chemistry",
-      "question": "What compound class of degraded hop acids is primarily responsible for the undesirable 'light-struck' or skunky flavor in beer?",
+      "question": "Which hop-derived compounds can break down in light and contribute precursors to the skunky odor of light-struck beer?",
       "options": [
         "Isohumulones",
         "Esters",
@@ -1458,14 +1348,12 @@
         "Ketones"
       ],
       "answer": "Isohumulones",
-      "explanation_correct": "Isohumulones are hop-derived molecules that, when exposed to UV light, break down to form the skunky sulfur compounds.",
-      "explanation_incorrect": "Esters, thiols, and ketones are beer flavor compounds but are not the specific precursors for light-induced skunking.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Light can break down iso-alpha acids (isohumulones), ultimately forming the sulfur compound 3-methyl-2-butene-1-thiol responsible for the skunky note.",
+      "explanation_incorrect": "The odorant itself is a thiol; the question asks for its hop-derived precursors, not the sulfur compound produced."
     },
     {
       "subcategory": "Fermentation",
-      "question": "Which organic compound is the primary metabolic byproduct of the fermentation process responsible for the sourness of sourdough bread?",
+      "question": "Which acid is produced by lactic acid bacteria in sourdough fermentation and contributes to sourness?",
       "options": [
         "Lactic acid",
         "Acetic acid",
@@ -1473,10 +1361,8 @@
         "Malic acid"
       ],
       "answer": "Lactic acid",
-      "explanation_correct": "Lactic acid bacteria in the sourdough starter ferment sugars into lactic acid, which lowers the pH and adds tanginess.",
-      "explanation_incorrect": "Acetic, citric, and malic acids are present in other fermented foods but are not the primary bread sourdough acid.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lactic acid bacteria can produce lactic acid in sourdough; acetic acid also contributes to sourness, with proportions depending on the starter and process.",
+      "explanation_incorrect": "Acetic acid can also contribute to sourdough flavor; both acids may be produced during fermentation."
     },
     {
       "subcategory": "Aromatics",
@@ -1489,9 +1375,7 @@
       ],
       "answer": "Geosmin",
       "explanation_correct": "Geosmin is a byproduct of certain bacteria inhabiting soil and is perceived by humans at extremely low concentrations.",
-      "explanation_incorrect": "Menthol, linalool, and camphor are essential oils associated with mint, florals, and medicinal aromas respectively.",
-      "last_verified_at": "2026-06-12T16:36:47.064Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Menthol, linalool and camphor are aroma compounds, not essential oils themselves; geosmin is associated with an earthy odor."
     },
     {
       "subcategory": "Sweetness",
