@@ -34,13 +34,11 @@
       ],
       "answer": "Shinkansen",
       "explanation_correct": "Shinkansen to nazwa japońskiej sieci pociągów 'pocisków', znanych z ogromnej prędkości i punktualności.",
-      "explanation_incorrect": "Maglev to technologia lewitacji magnetycznej, Nozomi to typ pociągu, a TGV jest systemem francuskim.",
-      "last_verified_at": "2026-06-12T15:25:43.068Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Maglev to technologia lewitacji magnetycznej, Nozomi to nazwa rodzaju połączenia na wybranych liniach Shinkansen, a TGV jest systemem francuskim."
     },
     {
       "subcategory": "Napęd alternatywny",
-      "question": "Który pierwiastek chemiczny jest podstawowym paliwem wykorzystywanym w ogniwach paliwowych napędzających nowoczesne pojazdy elektryczne?",
+      "question": "Który pierwiastek jest paliwem w wodorowych ogniwach paliwowych stosowanych w samochodach elektrycznych?",
       "options": [
         "wodór",
         "lit",
@@ -48,10 +46,8 @@
         "tlen"
       ],
       "answer": "wodór",
-      "explanation_correct": "Ogniwa paliwowe generują prąd w wyniku reakcji utleniania wodoru, z której produktem ubocznym jest czysta woda.",
-      "explanation_incorrect": "Lit stosuje się w bateriach akumulatorowych, hel jest gazem szlachetnym niepalnym, a tlen służy jedynie jako utleniacz.",
-      "last_verified_at": "2026-06-12T15:24:26.214Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ogniwo paliwowe wytwarza energię elektryczną z wodoru i tlenu; produktami reakcji są woda i ciepło.",
+      "explanation_incorrect": "Lit stosuje się w bateriach akumulatorowych, hel jest gazem szlachetnym niepalnym, a tlen służy jedynie jako utleniacz."
     },
     {
       "subcategory": "Historia motoryzacji",
@@ -70,7 +66,7 @@
     },
     {
       "subcategory": "Sporty motorowe",
-      "question": "Jak nazywa się słynny rajd terenowy, którego współczesne edycje odbywają się na piaskach Arabii Saudyjskiej?",
+      "question": "Który słynny rajd terenowy w 2020 roku po raz pierwszy odbył się w Arabii Saudyjskiej?",
       "options": [
         "Rajd Dakar",
         "Rajd Safari",
@@ -78,10 +74,8 @@
         "Rajd Akropolu"
       ],
       "answer": "Rajd Dakar",
-      "explanation_correct": "Od 2020 roku Rajd Dakar odbywa się w całości na terytorium Arabii Saudyjskiej.",
-      "explanation_incorrect": "Rajd Safari odbywa się w Kenii, a Rajdy Monte Carlo i Akropolu to wyścigi drogowe typu WRC.",
-      "last_verified_at": "2026-06-12T15:24:26.214Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rajd Dakar, wcześniej rozgrywany m.in. w Afryce i Ameryce Południowej, przeniesiono do Arabii Saudyjskiej w 2020 roku.",
+      "explanation_incorrect": "Rajd Safari odbywa się w Kenii, a Rajdy Monte Carlo i Akropolu to wyścigi drogowe typu WRC."
     },
     {
       "subcategory": "Eksploatacja",
@@ -90,13 +84,11 @@
         "drogomierz",
         "prędkościomierz",
         "obrotomierz",
-        "tachograf"
+        "termometr"
       ],
       "answer": "drogomierz",
-      "explanation_correct": "Drogomierz (często mylony z licznikiem) wskazuje sumę przebytej przez pojazd drogi od momentu produkcji.",
-      "explanation_incorrect": "Prędkościomierz wskazuje chwilową szybkość, obrotomierz mierzy obroty wału korbowego, a tachograf rejestruje czas pracy kierowcy.",
-      "last_verified_at": "2026-06-12T15:24:26.214Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Drogomierz wskazuje przebytą odległość; osobny licznik dzienny można zwykle zerować.",
+      "explanation_incorrect": "Prędkościomierz wskazuje prędkość, obrotomierz obroty silnika, a termometr temperaturę."
     },
     {
       "subcategory": "Systemy bezpieczeństwa",
@@ -108,10 +100,8 @@
         "SRS"
       ],
       "answer": "ABS",
-      "explanation_correct": "Anti-lock Braking System (ABS) pozwala na zachowanie sterowności pojazdu w trakcie hamowania awaryjnego.",
-      "explanation_incorrect": "ESP to system stabilizacji toru jazdy, ASR zapobiega poślizgowi kół przy ruszaniu, a SRS oznacza poduszki powietrzne.",
-      "last_verified_at": "2026-06-12T15:24:38.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "ABS ogranicza blokowanie kół podczas hamowania, co pomaga kierowcy zachować możliwość kierowania pojazdem.",
+      "explanation_incorrect": "ESP to system stabilizacji toru jazdy, ASR zapobiega poślizgowi kół przy ruszaniu, a SRS oznacza poduszki powietrzne."
     },
     {
       "subcategory": "Komunikacja miejska",
@@ -119,14 +109,12 @@
       "options": [
         "tramwaj",
         "trolejbus",
-        "autobus",
-        "metro"
+        "autobus spalinowy",
+        "prom"
       ],
       "answer": "tramwaj",
       "explanation_correct": "Tramwaj to lekki pojazd szynowy przeznaczony do transportu miejskiego, pobierający energię przez pantograf z trakcji.",
-      "explanation_incorrect": "Trolejbus ma sieć napowietrzną, ale porusza się na oponach, a metro porusza się po szynach, lecz zazwyczaj zasilane jest z tzw. trzeciej szyny.",
-      "last_verified_at": "2026-06-12T15:24:38.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Trolejbus korzysta z sieci napowietrznej, ale porusza się na kołach po jezdni; autobus i prom nie są tramwajami."
     },
     {
       "subcategory": "Lotnictwo",
@@ -134,18 +122,16 @@
       "options": [
         "lotnisko",
         "port morski",
-        "lądowisko",
+        "dworzec kolejowy",
         "hangar"
       ],
       "answer": "lotnisko",
-      "explanation_correct": "Lotnisko to kompletny obiekt z drogami startowymi i terminalami umożliwiający regularny ruch lotniczy.",
-      "explanation_incorrect": "Lądowisko to miejsce o mniejszych wymaganiach infrastrukturalnych, a hangar to budynek do przechowywania statków powietrznych.",
-      "last_verified_at": "2026-06-12T15:24:38.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lotnisko to obszar przystosowany do startów, lądowań i ruchu naziemnego statków powietrznych; jego infrastruktura nie musi obejmować terminalu.",
+      "explanation_incorrect": "Port morski obsługuje statki, dworzec kolejowy pociągi, a hangar jest budynkiem dla statków powietrznych."
     },
     {
       "subcategory": "Podzespoły silnika",
-      "question": "Który element układu zapłonowego w silniku benzynowym generuje impuls elektryczny wewnątrz komory spalania?",
+      "question": "Który element układu zapłonowego silnika benzynowego wytwarza iskrę w komorze spalania?",
       "options": [
         "świeca zapłonowa",
         "akumulator",
@@ -154,9 +140,7 @@
       ],
       "answer": "świeca zapłonowa",
       "explanation_correct": "Przeskok iskry na elektrodach świecy inicjuje proces spalania mieszanki paliwowo-powietrznej.",
-      "explanation_incorrect": "Cewka podnosi napięcie, akumulator magazynuje energię, a rozrusznik służy do uruchomienia silnika.",
-      "last_verified_at": "2026-06-12T15:24:38.649Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cewka podnosi napięcie, akumulator magazynuje energię, a rozrusznik służy do uruchomienia silnika."
     },
     {
       "subcategory": "Żegluga",
@@ -199,13 +183,11 @@
       ],
       "answer": "bieżnik",
       "explanation_correct": "Bieżnik zapewnia przyczepność i odpowiada za bezpieczne prowadzenie pojazdu na mokrej nawierzchni.",
-      "explanation_incorrect": "Kord to element konstrukcyjny wewnątrz opony, a felga to metalowa szkielet koła.",
-      "last_verified_at": "2026-06-12T15:24:38.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kord jest elementem konstrukcyjnym wewnątrz opony, a felga stanowi część koła, na której osadzona jest opona."
     },
     {
       "subcategory": "Aerodynamika",
-      "question": "Który element nadwozia jest stosowany w celu zwiększenia docisku aerodynamicznego osi tylnej do nawierzchni?",
+      "question": "Który element nadwozia może zmniejszać siłę unoszącą lub zwiększać docisk aerodynamiczny tylnej osi?",
       "options": [
         "spoiler",
         "zderzak",
@@ -213,10 +195,8 @@
         "próg"
       ],
       "answer": "spoiler",
-      "explanation_correct": "Spoiler zmienia przepływ powietrza nad pojazdem, co generuje siłę docisku poprawiającą trakcję przy wysokich prędkościach.",
-      "explanation_incorrect": "Zderzaki i progi pełnią głównie role ochronne oraz estetyczne.",
-      "last_verified_at": "2026-06-12T15:24:38.650Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odpowiednio zaprojektowany spoiler zmienia przepływ powietrza wokół pojazdu; jego działanie zależy od konstrukcji i prędkości.",
+      "explanation_incorrect": "Zderzaki i progi pełnią głównie role ochronne oraz estetyczne."
     },
     {
       "subcategory": "Transport wodny",
@@ -243,10 +223,8 @@
         "Mustang"
       ],
       "answer": "Model T",
-      "explanation_correct": "Wprowadzenie linii montażowej w 1908 roku dla Modelu T zrewolucjonizowało przemysł, czyniąc auto dostępnym dla mas.",
-      "explanation_incorrect": "Inne modele Forda, jak Mustang czy Thunderbird, powstały dekady później, a Model A był następcą 'T-tki'.",
-      "last_verified_at": "2026-06-12T15:25:43.068Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Model T pojawił się w 1908 roku, a ruchomą linię montażową w zakładzie Forda Highland Park wprowadzono w 1913 roku.",
+      "explanation_incorrect": "Inne modele Forda, jak Mustang czy Thunderbird, powstały dekady później, a Model A był następcą 'T-tki'."
     },
     {
       "subcategory": "Napęd alternatorów",
@@ -312,16 +290,14 @@
       "subcategory": "Kolejnictwo",
       "question": "Jak nazywa się element konstrukcyjny toru kolejowego umożliwiający pociągom przejście z jednego toru na drugi?",
       "options": [
-        "Semaphor",
+        "Semafor",
         "Zwrotnica",
         "Podkład",
         "Nastawnia"
       ],
       "answer": "Zwrotnica",
-      "explanation_correct": "Zwrotnica jest ruchomą częścią rozjazdu, która fizycznie zmienia tor jasdy taboru kolejowego.",
-      "explanation_incorrect": "Semafor to sygnał świetlny, a nastawnia to budynek służący do sterowania ruchem.",
-      "last_verified_at": "2026-06-12T15:24:38.651Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zwrotnica jest ruchomą częścią rozjazdu, która kieruje tabor na wybrany tor.",
+      "explanation_incorrect": "Semafor przekazuje sygnały kolejowe, a nastawnia to miejsce sterowania ruchem."
     },
     {
       "subcategory": "Aerodynamika",
@@ -400,22 +376,20 @@
     },
     {
       "subcategory": "Transport wodny",
-      "question": "Która część konstrukcyjna statku, stanowiąca oś szkieletu kadłuba, zapewnia jednostce stabilność i przeciwdziała dryfowaniu?",
+      "question": "Jak nazywa się podłużny element konstrukcji stanowiący podstawę szkieletu kadłuba statku?",
       "options": [
         "Kil",
         "Rufa",
-        "Burt",
+        "Burta",
         "Pokład"
       ],
       "answer": "Kil",
-      "explanation_correct": "Kil, czyli stępka, to najniższa część kadłuba, która nadaje statkowi sztywność podłużną.",
-      "explanation_incorrect": "Rufa to tylna część jednostki, a burta to boczna ściana kadłuba.",
-      "last_verified_at": "2026-06-12T15:24:38.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kil, czyli stępka, jest podłużnym elementem konstrukcyjnym kadłuba; nie należy utożsamiać każdej stępki z kilem balastowym jachtu.",
+      "explanation_incorrect": "Rufa to tylna część jednostki, a burta to boczna ściana kadłuba."
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Który pierwiastek chemiczny z grupy gazów szlachetnych jest wykorzystywany w samochodowych reflektorach wysokoprężnych?",
+      "question": "Który gaz szlachetny jest stosowany w samochodowych lampach wyładowczych zwanych reflektorami ksenonowymi?",
       "options": [
         "Argon",
         "Hel",
@@ -424,13 +398,11 @@
       ],
       "answer": "Ksenon",
       "explanation_correct": "Lampy ksenonowe emitują bardzo jasne, białe światło dzięki łukowi elektrycznemu w atmosferze tego gazu.",
-      "explanation_incorrect": "Argon stosuje się w zwykłych żarówkach, a neon głównie w reklamach świetlnych.",
-      "last_verified_at": "2026-06-12T15:24:38.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Argon stosuje się w zwykłych żarówkach, a neon głównie w reklamach świetlnych."
     },
     {
       "subcategory": "Komunikacja miejska",
-      "question": "Jak nazywa się pasażerski pojazd drogowy, który posiada napęd elektryczny, lecz w przeciwieństwie do tramwaju nie porusza się po szynach?",
+      "question": "Jak nazywa się pasażerski pojazd drogowy z napędem elektrycznym, który zwykle pobiera prąd z dwuprzewodowej sieci napowietrznej?",
       "options": [
         "Autobus hybrydowy",
         "Trolejbus",
@@ -439,24 +411,20 @@
       ],
       "answer": "Trolejbus",
       "explanation_correct": "Trolejbus czerpie energię z dwuprzewodowej sieci trakcyjnej za pomocą odbieraków (pałąków).",
-      "explanation_incorrect": "Autobus hybrydowy ma własne źródło energii, a metro kursuje po wydzielonych szlakach szynowych.",
-      "last_verified_at": "2026-06-12T15:24:38.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Autobus hybrydowy ma własne źródło energii, a metro kursuje po wydzielonych szlakach szynowych."
     },
     {
       "subcategory": "Opony",
-      "question": "Który materiał o polimerowej strukturze stanowi kluczowy surowiec przy produkcji mieszanek do opon samochodowych?",
+      "question": "Który materiał jest podstawowym elastycznym składnikiem mieszanek stosowanych do produkcji opon?",
       "options": [
-        "Lateks",
         "Kauczuk",
-        "Krzemionka",
-        "Poliuretan"
+        "Stal",
+        "Szkło",
+        "Ceramika"
       ],
       "answer": "Kauczuk",
       "explanation_correct": "Kauczuk naturalny i syntetyczny poddawany procesowi wulkanizacji nadaje oponie elastyczność i wytrzymałość.",
-      "explanation_incorrect": "Wulkanizacja to proces obróbki, a krzemionka jest tylko dodatkiem poprawiającym przyczepność.",
-      "last_verified_at": "2026-06-12T15:24:38.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stal może wzmacniać konstrukcję opony, natomiast podstawowym elastycznym składnikiem mieszanki jest kauczuk."
     },
     {
       "subcategory": "Technika lotnicza",
@@ -468,10 +436,8 @@
         "radiolatarnia"
       ],
       "answer": "czarna skrzynka",
-      "explanation_correct": "Czarna skrzynka składa się z rejestratora parametrów lotu (FDR) i rejestratora rozmów (CVR), a jej obudowa ma zazwyczaj kolor pomarańczowy.",
-      "explanation_incorrect": "Żyroskop to urządzenie do wskazywania orientacji, a radiolatarnia służy do nawigacji.",
-      "last_verified_at": "2026-06-12T15:24:38.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Potoczna nazwa obejmuje rejestratory parametrów lotu (FDR) i rozmów w kabinie (CVR); mogą być oddzielnymi urządzeniami. Ich obudowy są zwykle pomarańczowe.",
+      "explanation_incorrect": "Żyroskop to urządzenie do wskazywania orientacji, a radiolatarnia służy do nawigacji."
     },
     {
       "subcategory": "Kolejnictwo",
@@ -528,10 +494,8 @@
         "próżnia"
       ],
       "answer": "turbulencja",
-      "explanation_correct": "Turbulencja to chaotyczny ruch płynu wynikający z nierówności terenu lub różnic temperatur mas powietrza.",
-      "explanation_incorrect": "Przepływ laminarny jest gładki i uporządkowany, co stanowi przeciwieństwo turbulencji.",
-      "last_verified_at": "2026-06-12T15:24:38.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Turbulencja to nieuporządkowany ruch powietrza. Może powstawać m.in. wskutek ukształtowania terenu, konwekcji lub zmian prędkości wiatru.",
+      "explanation_incorrect": "Przepływ laminarny jest gładki i uporządkowany, co stanowi przeciwieństwo turbulencji."
     },
     {
       "subcategory": "Klasyczna motoryzacja",
@@ -588,10 +552,8 @@
         "rozjazd"
       ],
       "answer": "rondo",
-      "explanation_correct": "Rondo jest uznawane za jedno z najbezpieczniejszych typów skrzyżowań dzięki wymuszeniu redukcji prędkości.",
-      "explanation_incorrect": "Estakada to budowla nadziemna, a nawrotka to miejsce służące tylko do zmiany kierunku jazdy o 180 stopni.",
-      "last_verified_at": "2026-06-12T15:24:38.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rondo to skrzyżowanie z ruchem wokół wyspy centralnej; organizacja ruchu i pierwszeństwo wynikają z oznakowania.",
+      "explanation_incorrect": "Estakada to budowla nadziemna, a nawrotka to miejsce służące tylko do zmiany kierunku jazdy o 180 stopni."
     },
     {
       "subcategory": "Historia motoryzacji",
@@ -648,10 +610,8 @@
         "napęd pneumatyczny"
       ],
       "answer": "napęd hybrydowy",
-      "explanation_correct": "Napęd hybrydowy optymalizuje zużycie paliwa poprzez przełączanie się między silnikiem spalinowym a elektrycznym.",
-      "explanation_incorrect": "Napęd wodorowy opiera się na ogniwach paliwowych, a pneumatyczny wykorzystuje sprężone powietrze.",
-      "last_verified_at": "2026-06-12T15:24:38.655Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W napędzie hybrydowym silnik spalinowy współpracuje z napędem elektrycznym; sposób ich współpracy zależy od konstrukcji.",
+      "explanation_incorrect": "Wodór może zasilać ogniwo paliwowe lub silnik spalinowy; napęd pneumatyczny wykorzystuje sprężone powietrze."
     },
     {
       "subcategory": "Logistyka",
@@ -664,9 +624,7 @@
       ],
       "answer": "kontener morski",
       "explanation_correct": "Kontener morski pozwala na łatwy przeładunek między statkiem, pociągiem a ciężarówką bez wypakowywania towaru.",
-      "explanation_incorrect": "Paleta euro jest drewnianą podstawą pod ładunek, a cysterna służy wyłącznie do przewozu płynów.",
-      "last_verified_at": "2026-06-12T15:24:38.655Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Paleta euro stanowi podstawę pod ładunek, a cysterna jest zbiornikiem do przewozu określonych ładunków, np. cieczy lub gazów."
     },
     {
       "subcategory": "Wzornictwo i bezpieczeństwo",
@@ -685,7 +643,7 @@
     },
     {
       "subcategory": "Historia motoryzacji",
-      "question": "Który wynalazca opatentował w 1888 roku pierwszą praktyczną oponę pneumatyczną do roweru?",
+      "question": "Który wynalazca opatentował w 1888 roku oponę pneumatyczną opracowaną do roweru?",
       "options": [
         "Charles Goodyear",
         "John Boyd Dunlop",
@@ -694,9 +652,7 @@
       ],
       "answer": "John Boyd Dunlop",
       "explanation_correct": "John Boyd Dunlop stworzył pompowaną oponę, aby zwiększyć komfort jazdy na rowerze swojego syna.",
-      "explanation_incorrect": "Goodyear odkrył proces wulkanizacji gumy, a Michelin rozwinął koncepcję opon wymiennych.",
-      "last_verified_at": "2026-06-12T15:24:38.655Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Goodyear jest związany z wulkanizacją gumy, Michelin z rozwojem opon zdejmowanych, a Thomson opatentował wcześniejszą oponę pneumatyczną w 1845 roku."
     },
     {
       "subcategory": "Bezpieczeństwo pojazdów",
@@ -705,13 +661,11 @@
         "pasy biodrowe",
         "pasy sześciopunktowe",
         "pasy trzypunktowe",
-        "pasy inercyjne"
+        "pasy czteropunktowe"
       ],
       "answer": "pasy trzypunktowe",
       "explanation_correct": "Pasy trzypunktowe zostały wprowadzone do seryjnej produkcji przez Volvo w 1959 roku i są dzisiaj standardem bezpieczeństwa.",
-      "explanation_incorrect": "Pasy biodrowe posiadają tylko dwa punkty mocowania, a pasy sześciopunktowe stosowane są głównie w sporcie motorowym.",
-      "last_verified_at": "2026-06-12T15:24:38.656Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pasy biodrowe posiadają tylko dwa punkty mocowania, a pasy sześciopunktowe stosowane są głównie w sporcie motorowym."
     },
     {
       "subcategory": "Kolejnictwo",
@@ -784,9 +738,7 @@
       ],
       "answer": "ekodukt",
       "explanation_correct": "Ekodukt to rodzaj zielonego mostu porośniętego roślinnością, który redukuje fragmentację siedlisk leśnych.",
-      "explanation_incorrect": "Wiadukt służy do przeprowadzania dróg nad przeszkodami, a przepust pozwala na przepływ wody pod drogą.",
-      "last_verified_at": "2026-06-12T15:24:38.656Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wiadukt przeprowadza drogę lub tor nad przeszkodą; przepust pod drogą również może służyć zwierzętom, lecz nie jest zielonym mostem nad nią."
     },
     {
       "subcategory": "Lotnictwo",
@@ -858,14 +810,12 @@
         "fading"
       ],
       "answer": "aquaplaning",
-      "explanation_correct": "Aquaplaning (akwaplanacja) występuje, gdy bieżnik nie nadąża z odprowadzaniem wody, co prowadzi do utraty panowania nad pojazdem.",
-      "explanation_incorrect": "Understeering to podsterowność (wyrzucanie przodu auta), a fading to spadek skuteczności hamulców pod wpływem ciepła.",
-      "last_verified_at": "2026-06-12T15:24:38.657Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aquaplaning występuje, gdy warstwa wody oddziela oponę od nawierzchni, ograniczając możliwość kierowania i hamowania.",
+      "explanation_incorrect": "Understeering to podsterowność (wyrzucanie przodu auta), a fading to spadek skuteczności hamulców pod wpływem ciepła."
     },
     {
       "subcategory": "Historia lotnictwa",
-      "question": "W pobliżu której miejscowości na wschodnim wybrzeżu USA bracia Wright dokonali w 1903 roku pierwszego udanego lotu samolotem?",
+      "question": "W pobliżu której miejscowości bracia Wright wykonali w 1903 roku pionierski kontrolowany lot samolotem z napędem?",
       "options": [
         "Cape Canaveral",
         "Kitty Hawk",
@@ -874,9 +824,7 @@
       ],
       "answer": "Kitty Hawk",
       "explanation_correct": "Piaszczyste wydmy Kitty Hawk w Karolinie Północnej zapewniały odpowiednie warunki wietrzne dla pionierskich lotów samolotem Wright Flyer.",
-      "explanation_incorrect": "Cape Canaveral znane jest z lotów kosmicznych, a Dayton było rodzinnym miastem braci Wright, gdzie prowadzili warsztat.",
-      "last_verified_at": "2026-06-12T15:24:38.657Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cape Canaveral znane jest z lotów kosmicznych, a Dayton było rodzinnym miastem braci Wright, gdzie prowadzili warsztat."
     },
     {
       "subcategory": "Układ wydechowy",
@@ -904,9 +852,7 @@
       ],
       "answer": "Wagon sypialny",
       "explanation_correct": "Wagon sypialny (WL) zapewnia wyższy standard niż kuszetka, oferując gotowe miejsca do spania.",
-      "explanation_incorrect": "Kuszetka (Bc) to wagon z miejscami do leżenia o niższym standardzie, gdzie pasażer sam przygotowuje miejsce.",
-      "last_verified_at": "2026-06-12T15:25:43.069Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kuszetka oferuje miejsca do leżenia, zwykle w przedziałach o prostszym wyposażeniu niż wagon sypialny."
     },
     {
       "subcategory": "Historia motoryzacji",
@@ -927,16 +873,14 @@
       "subcategory": "Żegluga morska",
       "question": "Które urządzenie służy na statku do pionowej zmiany położenia oraz stabilizacji kotwicy?",
       "options": [
-        "Kabestan",
+        "Kompas",
         "Kluza",
         "Winda kotwiczna",
         "Pachoł"
       ],
       "answer": "Winda kotwiczna",
       "explanation_correct": "Winda kotwiczna to mechanizm służący do podciągania i opuszczania kotwicy oraz łańcucha.",
-      "explanation_incorrect": "Kabestan służy głównie do wybierania lin, kluza jest otworem w burcie, a pachoł to element do cumowania.",
-      "last_verified_at": "2026-06-12T15:24:38.658Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kluza jest otworem lub prowadnicą łańcucha, pachoł służy do mocowania lin, a kompas do nawigacji."
     },
     {
       "subcategory": "Lotnictwo komercyjne",
@@ -955,7 +899,7 @@
     },
     {
       "subcategory": "Eksploatacja pojazdów",
-      "question": "Jaki związek chemiczny jest głównym składnikiem płynów zapobiegających zamarzaniu w układach chłodzenia?",
+      "question": "Który związek jest często stosowany w płynach zapobiegających zamarzaniu układów chłodzenia?",
       "options": [
         "Etanol",
         "Glikol etylenowy",
@@ -964,9 +908,7 @@
       ],
       "answer": "Glikol etylenowy",
       "explanation_correct": "Glikol etylenowy obniża temperaturę krzepnięcia wody i podwyższa temperaturę wrzenia chłodziwa.",
-      "explanation_incorrect": "Alkohole takie jak etanol czy metanol zbyt szybko parują i są zbyt łatwopalne dla układów chłodzenia.",
-      "last_verified_at": "2026-06-12T15:24:38.658Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Etanol, izopropanol i metanol nie są typowym podstawowym składnikiem współczesnych samochodowych płynów chłodniczych; stosuje się też m.in. glikol propylenowy."
     },
     {
       "subcategory": "Transport szynowy",
@@ -1000,7 +942,7 @@
     },
     {
       "subcategory": "Aerodynamika",
-      "question": "Które zjawisko fizyczne generuje największy opór powietrza działający na pojazd przy dużych prędkościach?",
+      "question": "Jak nazywa się składowa oporu powietrza związana z różnicą ciśnień przed pojazdem i za nim?",
       "options": [
         "Tarcie powierzchniowe",
         "Opór czołowy",
@@ -1008,10 +950,8 @@
         "Opór falowy"
       ],
       "answer": "Opór czołowy",
-      "explanation_correct": "Opór czołowy wynika z różnicy ciśnień przed i za pojazdem zależnej od powierzchni czołowej.",
-      "explanation_incorrect": "Opór indukowany dotyczy siły nośnej, a falowy występuje przy prędkościach naddźwiękowych.",
-      "last_verified_at": "2026-06-12T15:24:38.659Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Opór czołowy, nazywany także oporem kształtu, wynika z rozkładu ciśnień wokół pojazdu.",
+      "explanation_incorrect": "Opór indukowany dotyczy siły nośnej, a falowy występuje przy prędkościach naddźwiękowych."
     },
     {
       "subcategory": "Budowa silnika",
@@ -1030,7 +970,7 @@
     },
     {
       "subcategory": "Transport miejski",
-      "question": "Jak nazywa się wydzielony pas jezdni przeznaczony wyłącznie dla pojazdów komunikacji miejskiej?",
+      "question": "Jak nazywa się wydzielony pas jezdni przeznaczony przede wszystkim dla autobusów komunikacji zbiorowej?",
       "options": [
         "Kontrapas",
         "Buspas",
@@ -1038,10 +978,8 @@
         "Pas awaryjny"
       ],
       "answer": "Buspas",
-      "explanation_correct": "Buspasy mają na celu uprzywilejowanie transportu zbiorowego w zagęszczonym ruchu miejskim.",
-      "explanation_incorrect": "Kontrapas służy rowerom pod prąd, a pasy awaryjne służą do postoju w sytuacjach kryzysowych.",
-      "last_verified_at": "2026-06-12T15:24:38.659Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Buspas usprawnia przejazd autobusów; w zależności od przepisów i oznakowania mogą z niego korzystać także inne uprawnione pojazdy.",
+      "explanation_incorrect": "Kontrapas służy rowerom pod prąd, a pasy awaryjne służą do postoju w sytuacjach kryzysowych."
     },
     {
       "subcategory": "Przemysł oponiarski",
@@ -1060,7 +998,7 @@
     },
     {
       "subcategory": "Nawigacja morska",
-      "question": "Które pojęcie określa stały kąt między południkiem a linią symetrii statku, wskazujący kierunek płynięcia?",
+      "question": "Jak nazywa się kąt między kierunkiem północy a osią podłużną statku, określający jego orientację?",
       "options": [
         "Namiar",
         "Kurs",
@@ -1068,10 +1006,8 @@
         "Znos"
       ],
       "answer": "Kurs",
-      "explanation_correct": "Kurs to kąt wyznaczający zamierzony lub aktualny kierunek ruchu jednostki względem północy.",
-      "explanation_incorrect": "Namiar to kąt na konkretny obiekt, a dryf to zboczenie z trasy pod wpływem wiatru.",
-      "last_verified_at": "2026-06-12T15:24:38.659Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kurs określa orientację osi podłużnej jednostki względem przyjętego kierunku północy. Faktyczna droga nad dnem może się różnić wskutek wiatru i prądu.",
+      "explanation_incorrect": "Namiar to kąt na konkretny obiekt, a dryf to zboczenie z trasy pod wpływem wiatru."
     },
     {
       "subcategory": "Motocykle",
@@ -1090,7 +1026,7 @@
     },
     {
       "subcategory": "Transport intermodalny",
-      "question": "Jak nazywa się potężne urządzenie portowe poruszające się po szynach, przeznaczone do ładowania jednostek pływających?",
+      "question": "Jak nazywa się urządzenie portowe przeznaczone do przeładunku kontenerów między nabrzeżem a statkiem?",
       "options": [
         "Wózek widłowy",
         "Suwnica nabrzeżna",
@@ -1099,9 +1035,7 @@
       ],
       "answer": "Suwnica nabrzeżna",
       "explanation_correct": "STS (Ship-to-Shore) to kluczowy element wyposażenia współczesnych terminali kontenerowych.",
-      "explanation_incorrect": "Pozostałe urządzenia służą do transportu bliskiego lub prac budowlanych.",
-      "last_verified_at": "2026-06-12T15:24:38.660Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Reachstacker i wózek widłowy przemieszczają ładunki na placu, a żuraw wieżowy służy zwykle do prac budowlanych."
     },
     {
       "subcategory": "Infrastruktura lotnicza",
@@ -1114,13 +1048,11 @@
       ],
       "answer": "Droga kołowania",
       "explanation_correct": "Droga kołowania (taxiway) to wyznaczona ścieżka umożliwiająca bezpieczny ruch naziemny statków powietrznych.",
-      "explanation_incorrect": "Droga startowa służy wyłącznie do procedur startu i lądowania przy dużych prędkościach.",
-      "last_verified_at": "2026-06-12T15:24:38.660Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Droga startowa jest przeznaczona do startów i lądowań; w określonych sytuacjach samoloty mogą też po niej kołować."
     },
     {
       "subcategory": "Bezpieczeństwo czynne",
-      "question": "Jak określa się system elektroniczny zapobiegający boksowaniu kół podczas ruszania lub przyspieszania?",
+      "question": "Jak określa się system elektroniczny ograniczający poślizg napędzanych kół podczas ruszania lub przyspieszania?",
       "options": [
         "ABS",
         "ESP",
@@ -1129,9 +1061,7 @@
       ],
       "answer": "Kontrola trakcji",
       "explanation_correct": "Kontrola trakcji (ASR/TCS) redukuje moment obrotowy lub hamuje koło, które straciło przyczepność.",
-      "explanation_incorrect": "ABS zapobiega blokowaniu kół przy hamowaniu, a ESP stabilizuje tor jazdy w zakrętach.",
-      "last_verified_at": "2026-06-12T15:24:38.660Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "ABS zapobiega blokowaniu kół przy hamowaniu, a ESP stabilizuje tor jazdy w zakrętach."
     },
     {
       "subcategory": "Napędy alternatywne",
@@ -1144,9 +1074,7 @@
       ],
       "answer": "Rekuperacja",
       "explanation_correct": "Rekuperacja pozwala zamienić energię ruchu na energię elektryczną, ładując akumulatory podczas zwalniania.",
-      "explanation_incorrect": "Indukcja to metoda bezprzewodowego ładowania, a konwekcja to sposób przekazywania ciepła.",
-      "last_verified_at": "2026-06-12T15:24:38.660Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Indukcja elektromagnetyczna opisuje powstawanie napięcia wskutek zmian pola magnetycznego; konwekcja jest sposobem przekazywania ciepła."
     },
     {
       "subcategory": "Kolejnictwo",
@@ -1159,24 +1087,20 @@
       ],
       "answer": "Maglev",
       "explanation_correct": "Maglev (Magnetic Levitation) porusza się bez kontaktu z szyną, co eliminuje tarcie toczne.",
-      "explanation_incorrect": "TGV i Shinkansen to koleje konwencjonalne poruszające się na stalowych kołach i szynach.",
-      "last_verified_at": "2026-06-12T15:24:38.660Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "TGV i eksploatowane linie Shinkansen wykorzystują koła na szynach; technologię maglev rozwija się również w Japonii."
     },
     {
       "subcategory": "Aerodynamika",
-      "question": "Jak nazywają się powierzchnie sterowe zwiększające siłę nośną, wysuwane z przedniej krawędzi płata?",
+      "question": "Jak nazywają się wysuwane elementy przedniej krawędzi skrzydła, które pomagają zwiększyć siłę nośną przy małych prędkościach?",
       "options": [
         "Lotki",
-        "Sloty",
+        "Skrzela (slaty)",
         "Ster wysokości",
-        "Klapy"
+        "Szczeliny (sloty)"
       ],
-      "answer": "Sloty",
-      "explanation_correct": "Sloty (skrzela) poprawiają charakterystykę opływu powietrza przy niskich prędkościach.",
-      "explanation_incorrect": "Klapy znajdują się na krawędzi spływu (z tyłu), a lotki służą do przechylania samolotu.",
-      "last_verified_at": "2026-06-12T15:24:38.660Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Skrzela (slaty)",
+      "explanation_correct": "Skrzela, czyli slaty, są ruchomymi elementami krawędzi natarcia. Po ich wysunięciu może powstać szczelina poprawiająca opływ skrzydła.",
+      "explanation_incorrect": "Slot to szczelina, a slat to element skrzydła. Lotki służą głównie do sterowania przechyleniem, ster wysokości do sterowania pochyleniem."
     },
     {
       "subcategory": "Historia motoryzacji",
@@ -1233,25 +1157,21 @@
         "Krawężnik oporowy"
       ],
       "answer": "Bariera ochronna",
-      "explanation_correct": "Bariery ochronne są projektowane tak, aby odkształcać się i absorbować energię kinetyczną uderzającego pojazdu.",
-      "explanation_incorrect": "Ekrany tłumią hałas, pachołki wyznaczają tor jazdy, a krawężniki ograniczają jezdnię.",
-      "last_verified_at": "2026-06-12T15:24:38.661Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bariery ochronne ograniczają skutki zjechania z drogi, m.in. przekierowując pojazd; niektóre pochłaniają część energii przez odkształcenie.",
+      "explanation_incorrect": "Ekrany tłumią hałas, pachołki wyznaczają tor jazdy, a krawężniki ograniczają jezdnię."
     },
     {
       "subcategory": "Eksploatacja",
-      "question": "Jaki rodzaj medium roboczego krąży w hydraulicznych układach wspomagania kierownicy?",
+      "question": "Jakie medium przenosi ciśnienie w hydraulicznym układzie wspomagania kierownicy?",
       "options": [
-        "Płyn hamulcowy",
+        "Powietrze w oponach",
         "Płyn hydrauliczny",
-        "Olej przekładniowy",
-        "Płyn chłodniczy"
+        "Paliwo",
+        "Płyn do spryskiwaczy"
       ],
       "answer": "Płyn hydrauliczny",
-      "explanation_correct": "Płyn hydrauliczny w układzie wspomagania przenosi ciśnienie z pompy na mechanizm zwrotniczy.",
-      "explanation_incorrect": "Płyn hamulcowy służy do zatrzymywania auta, a olej przekładniowy smaruje skrzynię biegów.",
-      "last_verified_at": "2026-06-12T15:24:38.661Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odpowiedni dla danego układu płyn hydrauliczny przenosi ciśnienie z pompy na mechanizm wspomagania.",
+      "explanation_incorrect": "Paliwo zasila silnik, a płyn do spryskiwaczy służy do czyszczenia szyb."
     },
     {
       "subcategory": "Konstrukcja podwozia",
@@ -1300,7 +1220,7 @@
     },
     {
       "subcategory": "Motocykle",
-      "question": "Jak nazywa się boczny wózek montowany do motocykla, umożliwiający przewóz pasażera obok kierowcy?",
+      "question": "Jak nazywa się nadwozie bocznego wózka motocyklowego, w którym podróżuje pasażer?",
       "options": [
         "Kapsuła",
         "Koleba",
@@ -1308,10 +1228,8 @@
         "Rydwan"
       ],
       "answer": "Gondola",
-      "explanation_correct": "Gondola to techniczna nazwa nadwozia wózka bocznego, który montuje się do ramy motocykla.",
-      "explanation_incorrect": "Koleba to rodzaj wywrotki, a rydwan to pojazd starożytny ciągnięty przez zwierzęta.",
-      "last_verified_at": "2026-06-12T15:24:38.662Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gondola to nadwozie wózka bocznego, w którym znajduje się miejsce dla pasażera.",
+      "explanation_incorrect": "Koleba to rodzaj wywrotki, a rydwan to pojazd starożytny ciągnięty przez zwierzęta."
     },
     {
       "subcategory": "Wyścigi samochodowe",
@@ -1324,9 +1242,7 @@
       ],
       "answer": "Pit stop",
       "explanation_correct": "Pit stop to postój w trakcie wyścigu, podczas którego mechanicy mogą wymienić koła lub wykonać inne czynności serwisowe.",
-      "explanation_incorrect": "Paddock to zaplecze techniczne, Grid to pola startowe, a Parc Ferme to zamknięty parking po wyścigu.",
-      "last_verified_at": "2026-06-12T15:24:38.662Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Paddock to zaplecze techniczne, grid to pola startowe, a parc fermé to strefa, w której obowiązują ograniczenia dotyczące obsługi pojazdów."
     },
     {
       "subcategory": "Technika lotnicza",
@@ -1338,14 +1254,12 @@
         "Przerywacz"
       ],
       "answer": "Rewerzor ciągu",
-      "explanation_correct": "Rewerzor pozwala na skierowanie gazów wylotowych do przodu, co generuje siłę hamującą.",
-      "explanation_incorrect": "Spoilery i klapy znajdują się na skrzydłach i służą do sterowania siłą nośną.",
-      "last_verified_at": "2026-06-12T15:24:38.662Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rewersor przekierowuje część przepływu silnika tak, by wytworzyć siłę przeciwną do kierunku ruchu i pomóc w hamowaniu.",
+      "explanation_incorrect": "Spoilery i klapy znajdują się na skrzydłach i służą do sterowania siłą nośną."
     },
     {
       "subcategory": "Off-road",
-      "question": "Jak nazywa się rura wyprowadzona ponad dach samochodu terenowego, pozwalająca na brodzenie w głębokiej wodzie?",
+      "question": "Jak nazywa się wyprowadzony wysoko wlot powietrza do silnika samochodu terenowego?",
       "options": [
         "Wyciągarka",
         "Intercooler",
@@ -1353,14 +1267,12 @@
         "Spoiler dachowy"
       ],
       "answer": "Snorkel",
-      "explanation_correct": "Snorkel chroni silnik przed zassaniem wody do cylindrów podczas pokonywania przeszkód wodnych.",
-      "explanation_incorrect": "Wyciągarka służy do wyciągania auta z błota, a intercooler do chłodzenia powietrza doładowanego.",
-      "last_verified_at": "2026-06-12T15:24:38.662Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Snorkel podnosi wlot powietrza i ogranicza ryzyko zassania wody. Sam nie gwarantuje bezpiecznego brodzenia ani szczelności pojazdu.",
+      "explanation_incorrect": "Wyciągarka służy do wyciągania auta z błota, a intercooler do chłodzenia powietrza doładowanego."
     },
     {
       "subcategory": "Historia motoryzacji",
-      "question": "Która marka jako pierwsza wprowadziła do komercyjnej sprzedaży oponę pneumatyczną z wymienną dętką?",
+      "question": "Która marka opracowała w 1891 roku zdejmowaną oponę pneumatyczną, ułatwiającą naprawę roweru?",
       "options": [
         "Dunlop",
         "Michelin",
@@ -1368,10 +1280,8 @@
         "Pirelli"
       ],
       "answer": "Michelin",
-      "explanation_correct": "Bracia Michelin opatentowali to rozwiązanie w 1891 roku, co umożliwiło szybką naprawę kapcia.",
-      "explanation_incorrect": "Dunlop opatentował pierwszą oponę pneumatyczną, ale to Michelin wprowadził system wymiennej dętki.",
-      "last_verified_at": "2026-06-12T15:24:38.663Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bracia Michelin opracowali zdejmowaną oponę pneumatyczną, która ułatwiła naprawę przebicia.",
+      "explanation_incorrect": "Dunlop opatentował oponę pneumatyczną w 1888 roku; wcześniejszy patent na oponę pneumatyczną uzyskał Robert William Thomson."
     },
     {
       "subcategory": "Bezpieczeństwo pojazdów",
@@ -1413,10 +1323,8 @@
         "Zwrotnica"
       ],
       "answer": "Kozioł oporowy",
-      "explanation_correct": "Kozioł oporowy zapobiega wypadnięciu pociągu poza krawędź torowiska w przypadku błędu maszynisty.",
-      "explanation_incorrect": "Rozjazdy służą do zmiany toru, a semafory do sygnalizowania sygnałów świetlnych.",
-      "last_verified_at": "2026-06-12T15:24:38.663Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kozioł oporowy znajduje się na końcu ślepego toru i ma zatrzymać lub ograniczyć ruch taboru; jego skuteczność zależy m.in. od prędkości i konstrukcji.",
+      "explanation_incorrect": "Rozjazdy służą do zmiany toru, a semafory do sygnalizowania sygnałów świetlnych."
     },
     {
       "subcategory": "Budowa silnika",
@@ -1488,14 +1396,12 @@
         "Gęstość"
       ],
       "answer": "Liczba oktanowa",
-      "explanation_correct": "Im wyższa liczba oktanowa, tym benzyna jest bardziej odporna na samozapłon pod wpływem sprężania.",
-      "explanation_incorrect": "Liczba cetanowa dotyczy oleju napędowego, a lepkość określa opory przepływu cieczy.",
-      "last_verified_at": "2026-06-12T15:24:38.664Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liczba oktanowa opisuje odporność benzyny na spalanie stukowe w silniku o zapłonie iskrowym.",
+      "explanation_incorrect": "Liczba cetanowa dotyczy oleju napędowego, a lepkość określa opory przepływu cieczy."
     },
     {
       "subcategory": "Off-road i budowa kół",
-      "question": "Jak nazywa się pierścień przykręcany do felgi, który mechanicznie dociska stopkę opony, zapobiegając jej zsunięciu przy niskim ciśnieniu?",
+      "question": "Jak nazywa się pierścień przykręcany do felgi, który dociska stopkę opony i ogranicza ryzyko jej zsunięcia przy niskim ciśnieniu?",
       "options": [
         "Dystans",
         "Kołpak",
@@ -1504,9 +1410,7 @@
       ],
       "answer": "Beadlock",
       "explanation_correct": "Beadlocki są stosowane w jeździe terenowej, by umożliwić jazdę na bardzo niskim ciśnieniu dla lepszej przyczepności.",
-      "explanation_incorrect": "Dystanse poszerzają rozstaw kół, a kołpaki pełnią jedynie funkcję estetyczną.",
-      "last_verified_at": "2026-06-12T15:24:38.664Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dystanse poszerzają rozstaw kół, a kołpaki pełnią jedynie funkcję estetyczną."
     }
   ]
 }
