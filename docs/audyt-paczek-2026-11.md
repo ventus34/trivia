@@ -96,6 +96,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Kulinarne Wynalazki Europy (PL):** przegląd 100 pytań, korekty 54 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-kulinarne-wynalazki-europy-pl.md).
 
+- **Wielka Ucieczka: Survival (PL):** przegląd 100 pytań, korekty 78 pozycji; źródła, niezależna kontrola wybranych porad i ograniczenia w [raporcie](audits/2026-11-07-wielka-ucieczka-survival-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

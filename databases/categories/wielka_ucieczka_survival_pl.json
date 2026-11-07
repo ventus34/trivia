@@ -4,8 +4,6 @@
   "language": "pl",
   "description": "Pytania z zakresu: Narzędzia tnące, Higiena, Woda, Sprzęt, Survival zimowy, Psychologia...",
   "created_at": "2026-06-12T15:46:51.730Z",
-  "last_verified_at": "2026-06-12T15:46:51.098Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
@@ -19,28 +17,24 @@
       ],
       "answer": "Piła strunowa",
       "explanation_correct": "Piła strunowa to cienki drut z oplotem ściernym, który pozwala na przecinanie drewna i mieści się w małej kieszeni.",
-      "explanation_incorrect": "Drut kolczasty służy do ogrodzeń, a nie do tworzenia narzędzi tnących.",
-      "last_verified_at": "2026-06-12T15:46:51.096Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Piła łańcuchowa, kabłąkowa i szablasta mają inną budowę niż elastyczna piła strunowa."
     },
     {
       "subcategory": "Higiena",
-      "question": "Jaki naturalny środek antyseptyczny pozyskuje się z drzew iglastych?",
+      "question": "Czym można przepłukać drobne, powierzchowne skaleczenie?",
       "options": [
-        "Żywica",
-        "Sok klonowy",
-        "Olejek eteryczny",
-        "Lateks"
+        "Czystą bieżącą wodą",
+        "Żywicą z drzewa",
+        "Błotem",
+        "Paliwem turystycznym"
       ],
-      "answer": "Żywica",
-      "explanation_correct": "Żywica drzew iglastych ma właściwości antyseptyczne i przyspiesza gojenie ran.",
-      "explanation_incorrect": "Pozostałe substancje nie mają silnego działania antyseptycznego typowego dla żywicy.",
-      "last_verified_at": "2026-06-12T15:46:28.054Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Czystą bieżącą wodą",
+      "explanation_correct": "Drobne skaleczenie można przepłukać czystą bieżącą wodą i osłonić czystym opatrunkiem. Przy poważnym krwawieniu najpierw tamuje się krwotok i wzywa pomoc.",
+      "explanation_incorrect": "Żywica, błoto i paliwo nie są odpowiednimi środkami do oczyszczania ran."
     },
     {
       "subcategory": "Woda",
-      "question": "Która metoda usuwa zanieczyszczenia mechaniczne z wody?",
+      "question": "Który proces polega na przepuszczaniu wody przez materiał zatrzymujący cząstki?",
       "options": [
         "Destylacja",
         "Filtracja",
@@ -48,40 +42,34 @@
         "Wrzenie"
       ],
       "answer": "Filtracja",
-      "explanation_correct": "Filtracja polega na przepuszczaniu wody przez porowaty materiał, który zatrzymuje cząstki stałe.",
-      "explanation_incorrect": "Pozostałe metody usuwają głównie mikroorganizmy lub zmieniają stan skupienia, a nie zanieczyszczenia mechaniczne.",
-      "last_verified_at": "2026-06-12T15:46:28.055Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Filtracja może usuwać cząstki stałe, ale skuteczność zależy od filtra. Samo przefiltrowanie nie gwarantuje usunięcia drobnoustrojów ani zanieczyszczeń chemicznych.",
+      "explanation_incorrect": "Chlorowanie i wrzenie służą przede wszystkim do dezynfekcji; destylacja wykorzystuje parowanie i skraplanie."
     },
     {
       "subcategory": "Sprzęt",
       "question": "Jakiego sprzętu używa się do ochrony zapałek przed wilgocią?",
       "options": [
         "Pojemnik wodoszczelny",
-        "Folia termiczna",
-        "Torba próżniowa",
-        "Pudełko plastikowe"
+        "Gwizdek",
+        "Termometr",
+        "Kompas"
       ],
       "answer": "Pojemnik wodoszczelny",
       "explanation_correct": "Pojemnik wodoszczelny zapobiega dostawaniu się wilgoci do wnętrza, chroniąc zapałki przed zamoknięciem.",
-      "explanation_incorrect": "Pozostałe opcje nie zapewniają tak skutecznej ochrony przed wodą jak dedykowany pojemnik wodoszczelny.",
-      "last_verified_at": "2026-06-12T15:46:28.055Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gwizdek, termometr i kompas nie są pojemnikami na zapałki."
     },
     {
       "subcategory": "Survival zimowy",
-      "question": "Jaką jama wykopana w śniegu służy do noclegu?",
+      "question": "Jak nazywa się jama wykopana w śniegu, wykorzystywana jako schronienie?",
       "options": [
         "Nora śnieżna",
         "Igloo",
         "Wydma",
-        "Zasp"
+        "Zaspa"
       ],
       "answer": "Nora śnieżna",
-      "explanation_correct": "Nora śnieżna to jama wykopana w śniegu, która zapewnia schronienie przed wiatrem i niskimi temperaturami.",
-      "explanation_incorrect": "Pozostałe to formy śnieżne, ale nie są one jamami wykopywanymi na nocleg.",
-      "last_verified_at": "2026-06-12T15:46:28.055Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nora śnieżna jest wykopana w śniegu i może osłonić przed wiatrem. Budowa wiąże się m.in. z ryzykiem zawalenia i wymaga wiedzy o warunkach oraz wentylacji.",
+      "explanation_incorrect": "Igloo buduje się z bloków śniegu; wydma i zaspa nie oznaczają wykopanej jamy."
     },
     {
       "subcategory": "Psychologia",
@@ -94,28 +82,24 @@
       ],
       "answer": "STOP",
       "explanation_correct": "STOP to akronim od Stop, Think, Observe, Plan – metoda opanowania i zaplanowania działań w kryzysie.",
-      "explanation_incorrect": "Pozostałe skrótowce mają inne znaczenia (SOS – sygnał alarmowy, FIRST – pierwsza pomoc, HELP – wezwanie pomocy).",
-      "last_verified_at": "2026-06-12T15:46:28.055Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "SOS jest sygnałem alarmowym; pozostałe słowa nie oznaczają opisanej tu metody STOP."
     },
     {
       "subcategory": "Rozpalanie ognia",
-      "question": "Jakie narzędzie krzesze iskry o temperaturze około 3000 stopni Celsjusza?",
+      "question": "Jak nazywa się pręt ze stopu ferrocerowego, z którego zeskrobuje się gorące iskry?",
       "options": [
-        "Krzesiwo magnezowe",
-        "Zapalniczka",
+        "Krzesiwo ferrocerowe",
         "Soczewka",
-        "Hutnicza iskra"
+        "Termometr",
+        "Kompas"
       ],
-      "answer": "Krzesiwo magnezowe",
-      "explanation_correct": "Krzesiwo magnezowe tworzy iskry o bardzo wysokiej temperaturze, zdolne do zapalenia łatwopalnych materiałów.",
-      "explanation_incorrect": "Pozostałe źródła ognia dają niższe temperatury lub nie generują iskier bezpośrednio.",
-      "last_verified_at": "2026-06-12T15:46:28.055Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Krzesiwo ferrocerowe",
+      "explanation_correct": "Krzesiwo ferrocerowe wytwarza iskry wskutek zeskrobywania drobin stopu. Niektóre zestawy zawierają także osobny element magnezowy.",
+      "explanation_incorrect": "Soczewka, termometr i kompas nie są prętami ferrocerowymi do krzesania iskier."
     },
     {
       "subcategory": "Botanika jadalna",
-      "question": "Która roślina o jadalnych kłączach rośnie nad wodą?",
+      "question": "Która roślina wodno-błotna ma charakterystyczne brązowe, cylindryczne kwiatostany?",
       "options": [
         "Pałka wodna",
         "Mniszek lekarski",
@@ -123,10 +107,8 @@
         "Szczaw"
       ],
       "answer": "Pałka wodna",
-      "explanation_correct": "Pałka wodna (rogóż) ma jadalne kłącza i rośnie w wilgotnych środowiskach nad wodą.",
-      "explanation_incorrect": "Pozostałe rośliny nie mają jadalnych kłączy i nie rosną typowo nad wodą.",
-      "last_verified_at": "2026-06-12T15:46:28.056Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pałka wodna rośnie zwykle w płytkiej wodzie i na terenach podmokłych. Wygląd opisany w pytaniu nie jest podstawą do spożywania dzikiej rośliny.",
+      "explanation_incorrect": "Mniszek, pokrzywa i szczaw nie tworzą typowych dla pałki cylindrycznych kwiatostanów."
     },
     {
       "subcategory": "Ekwipunek",
@@ -139,9 +121,7 @@
       ],
       "answer": "Folia NRC",
       "explanation_correct": "Folia NRC (termiczna) jest wykonana z materiału odbijającego promieniowanie cieplne, chroniąc przed wychłodzeniem.",
-      "explanation_incorrect": "Pozostałe koce nie mają właściwości odbijania ciepła – są przeznaczone głównie do izolacji lub wygody.",
-      "last_verified_at": "2026-06-12T15:46:28.056Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Folia NRC jest metalizowaną folią ratunkową; pozostałe odpowiedzi oznaczają inne rodzaje koców."
     },
     {
       "subcategory": "Liny",
@@ -175,18 +155,16 @@
     },
     {
       "subcategory": "Nawigacja naturalna",
-      "question": "Po której stronie pnia drzewa mech rośnie najgęściej?",
+      "question": "Który zestaw służy do wyznaczania kierunku w terenie?",
       "options": [
-        "Północna",
-        "Południowa",
-        "Wschodnia",
-        "Zachodnia"
+        "Mapa i kompas",
+        "Termometr i barometr",
+        "Gwizdek i latarka",
+        "Kubek i menażka"
       ],
-      "answer": "Północna",
-      "explanation_correct": "Mech preferuje cień i wilgotne środowisko, dlatego rośnie najgęściej po stronie północnej drzewa w strefie półkuli północnej.",
-      "explanation_incorrect": "Pozostałe strony są bardziej nasłonecznione, przez co mech tam jest rzadszy.",
-      "last_verified_at": "2026-06-12T15:46:42.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Mapa i kompas",
+      "explanation_correct": "Mapa i kompas pomagają orientować się w terenie, jeśli potrafimy ich używać. Rozmieszczenie mchu na drzewie nie jest niezawodnym wskaźnikiem północy.",
+      "explanation_incorrect": "Termometr, gwizdek i menażka nie zastępują mapy i kompasu w nawigacji."
     },
     {
       "subcategory": "Ochrona przed owadami",
@@ -205,7 +183,7 @@
     },
     {
       "subcategory": "Rozpalanie ognia",
-      "question": "Jak nazywa się nasycone żywicą drewno sosnowe, które łatwo rozpala się nawet gdy jest mokre?",
+      "question": "Jak nazywa się drewno sosnowe nasycone żywicą, wykorzystywane jako rozpałka?",
       "options": [
         "Smolne szczapy",
         "Kora brzozy",
@@ -213,14 +191,12 @@
         "Węgiel drzewny"
       ],
       "answer": "Smolne szczapy",
-      "explanation_correct": "Smolne szczapy (fatwood) to drewno z pni starych sosen nasycone żywicą, która jest doskonałym paliwem.",
-      "explanation_incorrect": "Pozostałe materiały nie charakteryzują się tak wysoką zawartością naturalnej żywicy ułatwiającej zapłon.",
-      "last_verified_at": "2026-06-12T15:46:51.096Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Smolne szczapy, znane też jako fatwood, to bogate w żywicę drewno sosnowe wykorzystywane jako rozpałka.",
+      "explanation_incorrect": "Kora brzozy, trotyl i węgiel drzewny nie są nasyconym żywicą drewnem sosnowym."
     },
     {
       "subcategory": "Kuchnia polowa",
-      "question": "Która metoda pieczenia mięsa bezpośrednio nad ogniem jest stosowana w kuchni polowej?",
+      "question": "Jak nazywa się obracany pręt, na który nadziewa się mięso podczas pieczenia nad ogniem?",
       "options": [
         "Rożen",
         "Grill",
@@ -229,9 +205,7 @@
       ],
       "answer": "Rożen",
       "explanation_correct": "Rożen to pręt, na którym nadziewa się mięso i obraca nad ogniem, zapewniając równomierne pieczenie.",
-      "explanation_incorrect": "Pozostałe metody wymagają dodatkowych narzędzi (grill, folia, patelnia) lub nie są bezpośrednio nad ogniem.",
-      "last_verified_at": "2026-06-12T15:46:42.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Grill jest urządzeniem do pieczenia, a folia i patelnia nie są obracanym prętem."
     },
     {
       "subcategory": "Hydracja",
@@ -239,14 +213,12 @@
       "options": [
         "Odwodnienie",
         "Nawodnienie",
-        "Dehydratacja",
+        "Termoregulacja",
         "Hipotermia"
       ],
       "answer": "Odwodnienie",
       "explanation_correct": "Odwodnienie to stan, w którym organizm traci więcej wody niż przyjmuje, prowadząc do zaburzeń funkcji życiowych.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do innych stanów (nawodnienie – uzupełnienie wody, hipotermia – wychłodzenie).",
-      "last_verified_at": "2026-06-12T15:46:42.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe terminy odnoszą się do innych stanów (nawodnienie – uzupełnienie wody, hipotermia – wychłodzenie)."
     },
     {
       "subcategory": "Zagrożenia",
@@ -259,9 +231,7 @@
       ],
       "answer": "Powódź błyskawiczna",
       "explanation_correct": "Powódź błyskawiczna następuje nagle, często po intensywnych opadach, z gwałtownym wzrostem poziomu wody.",
-      "explanation_incorrect": "Pozostałe typy powodzi rozwijają się wolniej i nie są tak bezpośrednio niebezpieczne w kontekście nagłości.",
-      "last_verified_at": "2026-06-12T15:46:42.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Powódź błyskawiczna wyróżnia się nagłym przebiegiem; inne wezbrania również mogą być niebezpieczne."
     },
     {
       "subcategory": "Rozpalanie ognia",
@@ -280,48 +250,42 @@
     },
     {
       "subcategory": "Przechowywanie żywności",
-      "question": "Jak chroni się jedzenie przed dzikimi zwierzętami w terenie?",
+      "question": "Jak przechowywać żywność na terenie niedźwiedzi, jeśli miejscowe przepisy wymagają odpornego na niedźwiedzie pojemnika?",
       "options": [
-        "Wieszanie na gałęzi",
-        "Zakopywanie w ziemi",
-        "Przechowywanie w plecaku",
-        "Spalanie resztek"
+        "W wymaganym pojemniku odpornym na niedźwiedzie",
+        "W otwartym plecaku przy namiocie",
+        "Zakopaną płytko w ziemi",
+        "Rozłożoną przy ognisku"
       ],
-      "answer": "Wieszanie na gałęzi",
-      "explanation_correct": "Wieszanie jedzenia wysoko na gałęzi uniemożliwia dostęp większości zwierząt, które nie potrafią sięgnąć tak wysoko.",
-      "explanation_incorrect": "Pozostałe metody są mniej skuteczne – zakopywanie może przyciągać zwierzęta, a przechowywanie w plecaku naraża na bezpośredni kontakt.",
-      "last_verified_at": "2026-06-12T15:46:42.113Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "W wymaganym pojemniku odpornym na niedźwiedzie",
+      "explanation_correct": "Użyj pojemnika odpowiedniego dla danego terenu i przestrzegaj lokalnych przepisów. Gdzie są dostępne, stosuj również wyznaczone szafki; samo zawieszenie jedzenia nie zawsze wystarcza.",
+      "explanation_incorrect": "Otwarty plecak, płytki dół i żywność przy ognisku nie spełniają wymogu odpowiedniego pojemnika."
     },
     {
       "subcategory": "Tkaniny",
-      "question": "Która wełna zachowuje właściwości grzewcze nawet po zamoczeniu?",
+      "question": "Z jakiego zwierzęcia pochodzi wełna merino?",
       "options": [
-        "Wełna merynosa",
-        "Wełna syntetyczna",
-        "Wełna alpaki",
-        "Wełna angorska"
+        "Z owcy merynos",
+        "Z alpaki",
+        "Z kozy angorskiej",
+        "Z królika angorskiego"
       ],
-      "answer": "Wełna merynosa",
-      "explanation_correct": "Wełna merynosa jest naturalnie hydrofobowa i nadal izoluje, nawet gdy jest mokra, co czyni ją idealną w trudnych warunkach.",
-      "explanation_incorrect": "Pozostałe wełny tracą większość właściwości izolacyjnych po nasiąknięciu wodą.",
-      "last_verified_at": "2026-06-12T15:46:42.113Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Z owcy merynos",
+      "explanation_correct": "Merino to wełna pozyskiwana od owiec merynosów. Wilgotna wełna może nadal izolować, ale mokra odzież zwiększa ryzyko wychłodzenia.",
+      "explanation_incorrect": "Alpaka, koza angorska i królik angorski dają inne rodzaje włókna."
     },
     {
       "subcategory": "Pierwsza pomoc",
-      "question": "Która metoda jest stosowana do unieruchamiania złamanej kończyny?",
+      "question": "Jak nazywa się element używany do podtrzymania i unieruchomienia uszkodzonej kończyny?",
       "options": [
-        "Unieruchomienie",
-        "Bandażowanie",
-        "Szynowanie",
-        "Taping"
+        "Szyna",
+        "Gwizdek",
+        "Kompas",
+        "Latarka"
       ],
-      "answer": "Szynowanie",
-      "explanation_correct": "Szynowanie polega na zastosowaniu szyny w celu unieruchomienia kończyny po złamaniu, co minimalizuje ryzyko dalszych uszkodzeń.",
-      "explanation_incorrect": "Unieruchomienie jest ogólnym pojęciem, a nie konkretną metodą; bandażowanie i taping służą do stabilizacji stawów lub opatrywania ran, a nie unieruchamiania złamań.",
-      "last_verified_at": "2026-06-12T15:46:42.113Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Szyna",
+      "explanation_correct": "Szyna może służyć do ograniczenia ruchu uszkodzonej kończyny. Nie nastawiaj ani nie prostuj złamania; w razie poważnego urazu wezwij pomoc i postępuj według wskazówek dyspozytora.",
+      "explanation_incorrect": "Gwizdek, kompas i latarka nie służą do unieruchomienia kończyny."
     },
     {
       "subcategory": "Sygnalizacja",
@@ -334,39 +298,33 @@
       ],
       "answer": "Pomarańczowy",
       "explanation_correct": "Pomarańczowy dym jest dobrze widoczny na tle nieba i neutralnego otoczenia, co czyni go standardem w sygnalizacji dziennej.",
-      "explanation_incorrect": "Czerwony, biały i zielony są mniej kontrastowe w różnych warunkach oświetleniowych i mogą być mylone z innymi zjawiskami.",
-      "last_verified_at": "2026-06-12T15:46:42.114Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pomarańczowy dym jest stosowany jako morski sygnał alarmowy w ciągu dnia."
     },
     {
       "subcategory": "Nawigacja",
-      "question": "Który przyrząd nawigacyjny służy do pomiaru kąta wzniesienia słońca nad horyzontem?",
+      "question": "Jak nazywa się przyrząd tradycyjnej nawigacji morskiej mierzący kąt między ciałem niebieskim a horyzontem?",
       "options": [
         "Kompas",
         "Sekstant",
         "GPS",
-        "Teodolit"
+        "Barometr"
       ],
       "answer": "Sekstant",
       "explanation_correct": "Sekstant mierzy kąt między ciałem niebieskim a horyzontem, co jest kluczowe do określenia pozycji.",
-      "explanation_incorrect": "Kompas mierzy azymut magnetyczny, GPS korzysta z satelitów, a teodolit służy do pomiarów geodezyjnych.",
-      "last_verified_at": "2026-06-12T15:46:42.114Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kompas wskazuje kierunek, GPS korzysta z satelitów, a barometr mierzy ciśnienie."
     },
     {
       "subcategory": "Obuwie",
       "question": "Jak nazywają się ochraniacze na cholewki butów, chroniące przed dostawaniem się śniegu?",
       "options": [
         "Stuptuty",
-        "Getry",
         "Nagolenniki",
-        "Ocieplacze"
+        "Rękawice",
+        "Ocieplacze na dłonie"
       ],
       "answer": "Stuptuty",
       "explanation_correct": "Stuptuty to specjalne pokrowce zakładane na buty i nogawki, uszczelniające przed śniegiem i błotem.",
-      "explanation_incorrect": "Getry są dłuższe i bardziej ochronne, nagolenniki chronią goleń, a ocieplacze służą głównie do ogrzewania.",
-      "last_verified_at": "2026-06-12T15:46:42.114Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nagolenniki i rękawice nie są ochraniaczami zakładanymi na buty i nogawki."
     },
     {
       "subcategory": "Survival miejski",
@@ -393,10 +351,8 @@
         "Plachta"
       ],
       "answer": "Bivy bag",
-      "explanation_correct": "Bivy bag (bivouac sack) to wodoodporny, oddychający worek zakładany na śpiwór, który chroni przed wilgocią i kondensacją.",
-      "explanation_incorrect": "Poncho to odzież przeciwdeszczowa, Gore-Tex to materiał, a plachta to duży arkusz do budowy schronienia.",
-      "last_verified_at": "2026-06-12T15:46:42.115Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bivy bag to pokrowiec biwakowy na śpiwór, który może chronić przed wilgocią z zewnątrz. Wewnątrz może jednak zbierać się skroplona para wodna.",
+      "explanation_incorrect": "Poncho i płachta mają inne zastosowania, a Gore-Tex to nazwa materiału, nie rodzaju worka."
     },
     {
       "subcategory": "Oświetlenie",
@@ -415,22 +371,20 @@
     },
     {
       "subcategory": "Paliwo",
-      "question": "Która substancja pozyskiwana z żywicy iglastej jest używana jako sucha rozpałka w survivalu?",
+      "question": "Jak nazywa się krucha pozostałość po destylacji żywicy sosnowej, używana m.in. do kalafoniowania smyczków?",
       "options": [
         "Kalafonia",
-        "Bursztyn",
         "Krzemień",
-        "Grafit"
+        "Grafit",
+        "Wapień"
       ],
       "answer": "Kalafonia",
-      "explanation_correct": "Kalafonia to stała żywica pozostała po destylacji terpentyny, jest bardzo łatwopalna.",
-      "explanation_incorrect": "Bursztyn to żywica kopalna (trudnopalna), krzemień to minerał, a grafit to forma węgla niebędąca rozpałką.",
-      "last_verified_at": "2026-06-12T15:46:51.097Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kalafonia jest stałą pozostałością po destylacji żywicy, używaną m.in. przez muzyków.",
+      "explanation_incorrect": "Krzemień, grafit i wapień nie są produktem destylacji żywicy."
     },
     {
       "subcategory": "Survival morski",
-      "question": "Które urządzenie umożliwia odsalanie wody morskiej do użytku pitnego w sytuacjach przetrwania na morzu?",
+      "question": "Który odsalacz oddziela sól od wody za pomocą membrany i odwróconej osmozy?",
       "options": [
         "Destylator",
         "Osmotyczny odsalacz",
@@ -438,10 +392,8 @@
         "Elektrolizer"
       ],
       "answer": "Osmotyczny odsalacz",
-      "explanation_correct": "Osmotyczny odsalacz wykorzystuje zasadę odwróconej osmozy do oddzielenia soli od wody, produkując wodę pitną.",
-      "explanation_incorrect": "Destylator destyluje wodę, ale wymaga ogrzewania, pompa filtrująca usuwa zanieczyszczenia, ale nie sól, a elektrolizer rozkłada wodę na wodór i tlen.",
-      "last_verified_at": "2026-06-12T15:46:42.115Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Osmotyczny odsalacz wykorzystuje membranę odwróconej osmozy. Wodę można odsolić także przez destylację; przydatność do picia zależy od urządzenia i zanieczyszczeń.",
+      "explanation_incorrect": "Destylator stosuje parowanie i skraplanie, a elektrolizer nie jest membranowym odsalaczem."
     },
     {
       "subcategory": "Obrona",
@@ -453,10 +405,8 @@
         "CS gas"
       ],
       "answer": "Bear spray",
-      "explanation_correct": "Bear spray to specjalny preparat na bazie kapsaicyny, stworzony do bezpiecznego odstraszania niedźwiedzi i innych dużych zwierząt.",
-      "explanation_incorrect": "Gaz łzawiący jest bardziej agresywny dla ludzi, Mace to marka, a CS gas to gaz bojowy, nie przeznaczony do zwierząt.",
-      "last_verified_at": "2026-06-12T15:46:42.116Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bear spray to specjalistyczny środek odstraszający niedźwiedzie. Jego użycie zależy od sytuacji i lokalnych zasad; nie gwarantuje bezpieczeństwa.",
+      "explanation_incorrect": "Preparat przeznaczony na niedźwiedzie nie jest tym samym co każdy gaz obronny dla ludzi. Dobieraj środek zgodnie z lokalnymi przepisami i instrukcją."
     },
     {
       "subcategory": "Nawigacja",
@@ -475,7 +425,7 @@
     },
     {
       "subcategory": "Terenoznawstwo",
-      "question": "Która metoda wykorzystuje zegarek analogowy do wyznaczania azymutu na podstawie położenia słońca?",
+      "question": "Która metoda wykorzystuje zegarek analogowy i słońce do przybliżonego określenia kierunku?",
       "options": [
         "Metoda zegarkowa",
         "Metoda cienia",
@@ -483,10 +433,8 @@
         "Metoda kąta"
       ],
       "answer": "Metoda zegarkowa",
-      "explanation_correct": "Metoda zegarkowa polega na wskazaniu na tarczy zegarka kierunku na słońce i wyliczeniu azymutu jako przybliżonego południka.",
-      "explanation_incorrect": "Metoda cienia to inna technika, ale nie wymaga zegarka, pozostałe są ogólnymi terminami nawigacyjnymi.",
-      "last_verified_at": "2026-06-12T15:46:42.116Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Metoda zegarkowa pozwala oszacować kierunek, ale jej dokładność zależy m.in. od położenia i czasu. Nie zastępuje mapy i kompasu.",
+      "explanation_incorrect": "Metoda cienia wykorzystuje ruch cienia; pozostałe nazwy nie opisują tej metody zegarkowej."
     },
     {
       "subcategory": "Kuchnia polowa",
@@ -513,25 +461,21 @@
         "Flesz"
       ],
       "answer": "Lightstick",
-      "explanation_correct": "Lightstick to chemiczna pałeczka świecąca po zgięciu, używana jako bezpieczne, wodoodporne źródło światła.",
-      "explanation_incorrect": "Żarówka i diody wymagają zasilania, flesz to urządzenie do szybkich błysków.",
-      "last_verified_at": "2026-06-12T15:46:42.117Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lightstick to jednorazowa pałeczka świecąca dzięki reakcji chemicznej, uruchamianej zwykle przez zgięcie.",
+      "explanation_incorrect": "Żarówka i diody wymagają zasilania, flesz to urządzenie do szybkich błysków."
     },
     {
       "subcategory": "Pierwsza pomoc",
-      "question": "Która pozycja ciała jest zalecana dla osoby z podejrzeniem urazu kręgosłupa przed przybyciem pomocy?",
+      "question": "Co należy zrobić przy podejrzeniu urazu kręgosłupa, gdy poszkodowany jest przytomny i oddycha?",
       "options": [
-        "Pozycja boczna",
-        "Pozycja zastana",
-        "Pozycja wysoka",
-        "Pozycja na plecach z nogami podniesionymi"
+        "Wezwać pomoc i ograniczyć ruch poszkodowanego",
+        "Posadzić go na siłę",
+        "Zachęcić go do chodzenia",
+        "Odwrócić mu głowę"
       ],
-      "answer": "Pozycja zastana",
-      "explanation_correct": "Pozycja zastana polega na pozostawieniu poszkodowanego w pozycji, w której go zastano, bez poruszania, aby uniknąć dalszych uszkodzeń rdzenia kręgowego.",
-      "explanation_incorrect": "Pozycja boczna bezpieczna służy do oddychania, pozycja wysoka do wstrząsów, a pozycja z nogami podniesionymi do omdleń.",
-      "last_verified_at": "2026-06-12T15:46:42.117Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wezwać pomoc i ograniczyć ruch poszkodowanego",
+      "explanation_correct": "Wezwij pomoc pod numerem 112 i ogranicz ruch poszkodowanego. Kontroluj oddech i postępuj według wskazówek dyspozytora; ratowanie życia ma pierwszeństwo.",
+      "explanation_incorrect": "Nie zmuszaj poszkodowanego do siadania ani chodzenia i nie poruszaj jego głową bez potrzeby."
     },
     {
       "subcategory": "Sygnalizacja",
@@ -544,9 +488,7 @@
       ],
       "answer": "X",
       "explanation_correct": "Znak 'X' jest międzynarodowym sygnałem oznaczającym potrzebę pomocy medycznej (Require Medical Assistance).",
-      "explanation_incorrect": "V oznacza ogólną prośbę o pomoc, I to potrzeba lekarstw, a LL to sygnał 'wszystko w porządku'.",
-      "last_verified_at": "2026-06-12T15:46:51.097Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W kodzie ziemia–powietrze litera X oznacza potrzebę pomocy medycznej; V oznacza prośbę o pomoc."
     },
     {
       "subcategory": "Budowa ogniska",
@@ -580,22 +522,20 @@
     },
     {
       "subcategory": "Woda",
-      "question": "Jaki słodki płyn można pozyskać z pni brzozy na wiosnę?",
+      "question": "Jak tradycyjnie nazywa się sok brzozowy pozyskiwany wczesną wiosną?",
       "options": [
-        "Sok",
         "Oskoła",
         "Miód",
-        "Syrop"
+        "Ocet",
+        "Nektar"
       ],
       "answer": "Oskoła",
       "explanation_correct": "Oskoła to sok brzozowy wypływający z naciętych pni brzozy wczesną wiosną, bogaty w wodę i składniki odżywcze.",
-      "explanation_incorrect": "Sok to ogólne pojęcie, miód pochodzi od pszczół, a syrop jest gęsty i słodki, ale nie jest naturalnie pozyskiwany z brzozy.",
-      "last_verified_at": "2026-06-12T15:46:42.118Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Miód, ocet i nektar nie są tradycyjną nazwą soku brzozowego."
     },
     {
       "subcategory": "Zimno",
-      "question": "Który termin określa najlżejszy stopień uszkodzenia tkanek przez zimno, objawiający się drętwieniem i bladością?",
+      "question": "Jak nazywa się powierzchowne wychłodzenie skóry powodujące bladość lub drętwienie, bez trwałego uszkodzenia tkanek?",
       "options": [
         "Odmrożonko (frostnip)",
         "Hipotermia",
@@ -603,14 +543,12 @@
         "Martwica"
       ],
       "answer": "Odmrożonko (frostnip)",
-      "explanation_correct": "Odmrożonko to powierzchowny stan, który ustępuje po ogrzaniu i nie powoduje trwałych uszkodzeń.",
-      "explanation_incorrect": "Hipotermia to wychłodzenie całego ciała, a zgorzel i martwica to stany nieodwracalne.",
-      "last_verified_at": "2026-06-12T15:46:51.097Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odmrożonko (frostnip) jest łagodnym, odwracalnym skutkiem zimna. Podejrzenie głębszego odmrożenia wymaga pomocy medycznej.",
+      "explanation_incorrect": "Hipotermia to wychłodzenie całego ciała, a zgorzel i martwica to stany nieodwracalne."
     },
     {
       "subcategory": "Nawigacja",
-      "question": "Która gwiazda jest najczęściej używana do wyznaczania kierunku północnego na nocnym niebie?",
+      "question": "Która gwiazda pomaga wyznaczyć północ, gdy jest widoczna na półkuli północnej?",
       "options": [
         "Gwiazda Polarna",
         "Syriusz",
@@ -619,13 +557,11 @@
       ],
       "answer": "Gwiazda Polarna",
       "explanation_correct": "Gwiazda Polarna znajduje się blisko północnego bieguna niebieskiego, co czyni ją niezawodnym punktem orientacyjnym na półkuli północnej.",
-      "explanation_incorrect": "Syriusz, Wega i Betelgeza to jasne gwiazdy, ale nie wskazują one bieguna północnego.",
-      "last_verified_at": "2026-06-12T15:46:42.118Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Syriusz, Wega i Betelgeza to jasne gwiazdy, ale nie wskazują one bieguna północnego."
     },
     {
       "subcategory": "Hipotermia",
-      "question": "Który materiał tekstylny traci właściwości izolacyjne po zamoczeniu, co czyni go niebezpiecznym w warunkach hipotermii?",
+      "question": "Który materiał chłonie dużo wody i wolno schnie, przez co mokra odzież z niego może sprzyjać wychłodzeniu?",
       "options": [
         "Bawełna",
         "Wełna",
@@ -633,14 +569,12 @@
         "Nylon"
       ],
       "answer": "Bawełna",
-      "explanation_correct": "Bawełna wchłania wodę i nie izoluje, gdy jest mokra, co przyspiesza wychłodzenie organizmu.",
-      "explanation_incorrect": "Wełna, poliester i nylon zachowują częściową izolację nawet po zmoczeniu.",
-      "last_verified_at": "2026-06-12T15:46:42.118Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bawełna chłonie wodę i powoli schnie. Mokra odzież może zwiększać utratę ciepła; inne materiały również mogą tracić izolacyjność po zamoczeniu.",
+      "explanation_incorrect": "Wełna i materiały syntetyczne często sprawdzają się lepiej w wilgoci, choć żadna mokra odzież nie gwarantuje ochrony przed zimnem."
     },
     {
       "subcategory": "Sygnalizacja",
-      "question": "Jakie międzynarodowe hasło jest używane do wzywania pomocy w sytuacjach zagrożenia życia?",
+      "question": "Jakie słowo wypowiada się w radiowej łączności głosowej przy bezpośrednim zagrożeniu życia?",
       "options": [
         "Mayday",
         "Help",
@@ -649,24 +583,20 @@
       ],
       "answer": "Mayday",
       "explanation_correct": "Mayday to standardowy sygnał radiowy oznaczający bezpośrednie zagrożenie życia, używany w lotnictwie i żegludze.",
-      "explanation_incorrect": "SOS to sygnał alfabetem Morse'a, Help to ogólne wołanie, a Pan-Pan oznacza pilną, ale nie krytyczną sytuację.",
-      "last_verified_at": "2026-06-12T15:46:42.118Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "SOS to sygnał w alfabecie Morse’a, a Pan-Pan oznacza pilność bez bezpośredniego zagrożenia życia."
     },
     {
       "subcategory": "Ogień",
-      "question": "Jaki materiał jest używany do podtrzymania żaru podczas rozpalania ognia metodami tarciowymi?",
+      "question": "Jak nazywa się suchy materiał, który łatwo przyjmuje iskrę lub żar podczas rozpalania ognia?",
       "options": [
         "Hubka",
-        "Trawa",
-        "Kora",
-        "Mech"
+        "Popiół",
+        "Kamień",
+        "Lód"
       ],
       "answer": "Hubka",
-      "explanation_correct": "Hubka to suchy, łatwopalny materiał (np. spleśniałe drewno), który łatwo przyjmuje iskrę i podtrzymuje żar.",
-      "explanation_incorrect": "Trawa, kora i mech mogą być używane jako podpałka, ale hubka jest dedykowana do przenoszenia żaru.",
-      "last_verified_at": "2026-06-12T15:46:42.119Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hubka to drobny, suchy i łatwopalny materiał, który może przyjąć iskrę lub żar.",
+      "explanation_incorrect": "Popiół, kamień i lód nie są hubką."
     },
     {
       "subcategory": "Budowa schronienia",
@@ -685,7 +615,7 @@
     },
     {
       "subcategory": "Woda",
-      "question": "Jakie urządzenie umożliwia odzyskiwanie wody pitnej z pary wodnej w wyniku kondensacji?",
+      "question": "Jakie urządzenie pozwala zbierać wodę z pary wodnej przez skraplanie z użyciem energii słonecznej?",
       "options": [
         "Destylarka słoneczna",
         "Pompa wodna",
@@ -693,14 +623,12 @@
         "Filtr ceramiczny"
       ],
       "answer": "Destylarka słoneczna",
-      "explanation_correct": "Destylarka słoneczna wykorzystuje parowanie i kondensację pod wpływem słońca do zbierania czystej wody.",
-      "explanation_incorrect": "Pompa wodna i filtr ceramiczny oczyszczają wodę, ale nie odzyskują jej z pary.",
-      "last_verified_at": "2026-06-12T15:46:42.119Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Destylarka słoneczna zbiera skroploną parę wodną. Nie gwarantuje usunięcia wszystkich substancji lotnych ani bezpieczeństwa wody o nieznanym składzie.",
+      "explanation_incorrect": "Pompa przenosi wodę, a filtr ceramiczny ją filtruje; żadne z tych urządzeń nie zbiera skroplonej pary."
     },
     {
       "subcategory": "Pierwsza pomoc",
-      "question": "Która opaska uciskowa jest używana w taktycznej pomocy medycznej do tamowania krwotoków?",
+      "question": "Jak nazywa się opaska przeznaczona do tamowania zagrażającego życiu krwotoku z kończyny?",
       "options": [
         "Staza taktyczna",
         "Opaska elastyczna",
@@ -708,14 +636,12 @@
         "Gaza"
       ],
       "answer": "Staza taktyczna",
-      "explanation_correct": "Staza taktyczna (tourniquet) to opaska uciskowa stosowana w ratownictwie bojowym do zatrzymania silnego krwotoku.",
-      "explanation_incorrect": "Opaska elastyczna służy do stabilizacji, kompresa i gaza do opatrywania, ale nie uciskają tętnicy.",
-      "last_verified_at": "2026-06-12T15:46:42.120Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Staza taktyczna, czyli opaska uciskowa, służy do tamowania zagrażającego życiu krwotoku z kończyny. Wezwij pomoc i stosuj ucisk bezpośredni lub opaskę zgodnie z przeszkoleniem i wskazówkami dyspozytora.",
+      "explanation_incorrect": "Gaza i opatrunki mogą służyć do ucisku rany, ale nie są opaską uciskową typu tourniquet."
     },
     {
       "subcategory": "Narzędzia",
-      "question": "Jaki rodzaj noża posiada głownię sięgającą przez całą rękojeść, co zwiększa jego wytrzymałość?",
+      "question": "Jak określa się konstrukcję noża, w której metalowy trzpień przechodzi przez całą długość i szerokość rękojeści?",
       "options": [
         "Full tang",
         "Hidden tang",
@@ -723,25 +649,21 @@
         "Rattail tang"
       ],
       "answer": "Full tang",
-      "explanation_correct": "Nóż typu full tang ma głownię stanowiącą jeden kawałek stali na całej długości rękojeści, co zapewnia maksymalną trwałość.",
-      "explanation_incorrect": "Hidden tang i partial tang mają głownię tylko częściowo przechodzącą przez rękojeść, co zmniejsza wytrzymałość.",
-      "last_verified_at": "2026-06-12T15:46:42.120Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Full tang oznacza konstrukcję, w której trzpień stanowi przedłużenie głowni i sięga przez całą rękojeść. Wytrzymałość zależy także od wykonania i materiałów.",
+      "explanation_incorrect": "Hidden tang i partial tang opisują inne konstrukcje trzpienia."
     },
     {
       "subcategory": "Rośliny trujące",
-      "question": "Która roślina o czarnych, kępiastych jagodach jest silnie trująca i powoduje paraliż układu nerwowego?",
+      "question": "Co zrobić po podejrzeniu połknięcia nieznanej, potencjalnie trującej rośliny?",
       "options": [
-        "Pokrzyk wilcza jagoda",
-        "Konwalia majowa",
-        "Cis pospolity",
-        "Bieluń dziędzierzawa"
+        "Pilnie wezwać pomoc i nie wywoływać wymiotów",
+        "Wywołać wymioty",
+        "Poczekać do następnego dnia",
+        "Zjeść więcej rośliny"
       ],
-      "answer": "Pokrzyk wilcza jagoda",
-      "explanation_correct": "Pokrzyk wilcza jagoda (Atropa belladonna) zawiera alkaloidy, które po spożyciu wywołują paraliż, halucynacje i śmierć.",
-      "explanation_incorrect": "Konwalia i cis są trujące, ale mają inne objawy, bieluń też jest trujący, ale ma białe, duże kwiaty.",
-      "last_verified_at": "2026-06-12T15:46:42.120Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pilnie wezwać pomoc i nie wywoływać wymiotów",
+      "explanation_correct": "Pilnie wezwij pomoc, np. pod numerem 112, i postępuj zgodnie z zaleceniami dyspozytora. Nie wywołuj wymiotów ani nie podawaj jedzenia i picia bez zalecenia medycznego.",
+      "explanation_incorrect": "Wywoływanie wymiotów może być niebezpieczne, a objawy zatrucia mogą pojawić się z opóźnieniem."
     },
     {
       "subcategory": "Orientacja",
@@ -760,7 +682,7 @@
     },
     {
       "subcategory": "Schronienie",
-      "question": "Jakie tradycyjne schronienie budowane z bloków lodu jest znane z kultur arktycznych?",
+      "question": "Jakie tradycyjne schronienie z bloków ubitego śniegu jest znane z kultur arktycznych?",
       "options": [
         "Iglu",
         "Szałas",
@@ -768,14 +690,12 @@
         "Jurta"
       ],
       "answer": "Iglu",
-      "explanation_correct": "Iglu to kopułowe schronienie z lodu, budowane przez Inuitów, które zapewnia izolację termiczną w ekstremalnym mrozie.",
-      "explanation_incorrect": "Szałas i tent to lekkie konstrukcje, jurta to namiot koczowników, ale żaden nie jest z lodu.",
-      "last_verified_at": "2026-06-12T15:46:42.121Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Iglu to kopułowe schronienie z bloków ubitego śniegu, budowane m.in. przez Inuitów.",
+      "explanation_incorrect": "Szałas i jurta nie są kopułowymi schronieniami z bloków śniegu."
     },
     {
       "subcategory": "Węzły",
-      "question": "Który węzeł jest najprostszym sposobem na połączenie dwóch liny o tej samej grubości, mimo ryzyka rozwiązania przy braku napięcia?",
+      "question": "Jak nazywa się węzeł tradycyjnie używany do związania końców bandaża?",
       "options": [
         "Węzeł płaski",
         "Ósemka",
@@ -783,14 +703,12 @@
         "Wyblinka"
       ],
       "answer": "Węzeł płaski",
-      "explanation_correct": "Węzeł płaski służy do łączenia lin tej samej grubości, ale nie powinien być stosowany przy dużych obciążeniach ratowniczych.",
-      "explanation_incorrect": "Ósemka służy do pętli, Prusik do wspinaczki, a wyblinka do mocowania liny do pala.",
-      "last_verified_at": "2026-06-12T15:46:51.097Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Węzeł płaski bywa używany do związania bandaża. Nie jest odpowiedni jako niezawodne połączenie lin do asekuracji lub ratownictwa.",
+      "explanation_incorrect": "Pozostałe nazwy oznaczają inne węzły lub sploty."
     },
     {
       "subcategory": "Botanika",
-      "question": "Które drzewo liściaste ma korę, która pali się nawet w stanie mokrym, co czyni je cennym w survivalu?",
+      "question": "Które drzewo liściaste jest znane z jasnej, łatwo łuszczącej się kory wykorzystywanej jako rozpałka?",
       "options": [
         "Brzoza",
         "Dąb",
@@ -798,10 +716,8 @@
         "Świerk"
       ],
       "answer": "Brzoza",
-      "explanation_correct": "Kora brzozy zawiera oleiste substancje, które pozwalają jej płonąć nawet po zamoczeniu, idealne do rozpalania ognia.",
-      "explanation_incorrect": "Dąb, sosna i świerk mają korę trudną do spalenia, gdy jest mokra.",
-      "last_verified_at": "2026-06-12T15:46:42.121Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kora brzozy jest tradycyjnie używana jako rozpałka. Nie zdzieraj kory z żywych drzew i przestrzegaj miejscowych zasad rozpalania ognia.",
+      "explanation_incorrect": "Sosna i świerk są drzewami iglastymi; dąb nie ma charakterystycznej jasnej kory brzozy."
     },
     {
       "subcategory": "Ochrona ciała",
@@ -820,33 +736,29 @@
     },
     {
       "subcategory": "Pasywny ratunek",
-      "question": "Jaki przedmiot jest używany w terenie do odbijania promieni słonecznych w celu zwrócenia uwagi ekip ratunkowych?",
+      "question": "Jak nazywa się lusterko przeznaczone specjalnie do wysyłania błysków sygnałowych?",
       "options": [
         "Lusterko sygnałowe",
-        "Kompas",
-        "Latarka",
-        "Gwizdek"
+        "Gwizdek",
+        "Termometr",
+        "Menażka"
       ],
       "answer": "Lusterko sygnałowe",
       "explanation_correct": "Lusterko sygnałowe odbija słońce tworząc jaskrawy błysk widoczny z dużej odległości, służąc jako sygnał alarmowy.",
-      "explanation_incorrect": "Kompas nie odbija światła, latarka emituje własne światło, gwizdek wydaje dźwięk – żaden nie odbija promieni słonecznych.",
-      "last_verified_at": "2026-06-12T15:46:42.121Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gwizdek, termometr i menażka nie są lusterkami sygnałowymi."
     },
     {
       "subcategory": "Przetrwanie na morzu",
-      "question": "Które zjawisko optyczne nad morzem tworzy iluzję wody, która okazuje się niebem, myląc rozbitków?",
+      "question": "Jak nazywa się złudzenie optyczne wywołane załamaniem światła w warstwach powietrza o różnej temperaturze?",
       "options": [
-        "Fatamergana",
+        "Fatamorgana",
         "Zorza polarna",
         "Tęcza",
         "Halo słoneczne"
       ],
-      "answer": "Fatamergana",
-      "explanation_correct": "Fatamergana (miraż) to efekt załamania światła, który sprawia, że odległe obiekty wydają się unosić nad horyzontem, myląc nawigatorów.",
-      "explanation_incorrect": "Zorza, tęcza i halo są zjawiskami meteorologicznymi, ale nie tworzą iluzji wody.",
-      "last_verified_at": "2026-06-12T15:46:42.122Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Fatamorgana",
+      "explanation_correct": "Fatamorgana, czyli miraż, powstaje na skutek załamania światła w warstwach powietrza o różnej temperaturze. Może zmieniać pozorne położenie i kształt odległych obiektów.",
+      "explanation_incorrect": "Zorza polarna, tęcza i halo powstają wskutek innych zjawisk fizycznych."
     },
     {
       "subcategory": "Noże",
@@ -865,18 +777,16 @@
     },
     {
       "subcategory": "Uzdatnianie wody",
-      "question": "Jaki związek chemiczny jest aktywnym składnikiem w tabletkach do odkażania wody pitnej?",
+      "question": "Który związek jest stosowany jako składnik niektórych tabletek do dezynfekcji wody?",
       "options": [
-        "Chlor",
-        "Jod",
-        "Srebro",
-        "Węgiel"
+        "Dwutlenek chloru",
+        "Dwutlenek krzemu",
+        "Węglan wapnia",
+        "Tlenek żelaza"
       ],
-      "answer": "Chlor",
-      "explanation_correct": "Chlor (np. podchloryn sodu) jest często używany w tabletkach do dezynfekcji wody przez zabijanie bakterii i wirusów.",
-      "explanation_incorrect": "Jod i srebro też są używane, ale chlor jest najpowszechniejszy w takich tabletkach; węgiel jest używany w filtrach.",
-      "last_verified_at": "2026-06-12T15:46:42.122Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dwutlenek chloru",
+      "explanation_correct": "Dwutlenek chloru występuje w niektórych środkach do dezynfekcji wody. Stosuj produkt zgodnie z instrukcją; dezynfekcja nie usuwa toksycznych substancji chemicznych.",
+      "explanation_incorrect": "Pozostałe związki nie są opisanym składnikiem dezynfekującym."
     },
     {
       "subcategory": "Sygnalizacja SOS",
@@ -895,18 +805,16 @@
     },
     {
       "subcategory": "Węzły",
-      "question": "Który węzeł tworzy pętlę, która nie zaciska się pod obciążeniem, często używany w ratownictwie?",
+      "question": "Który węzeł jest znany po angielsku jako bowline?",
       "options": [
-        "Ratowniczy",
-        "Kluczka",
-        "Pętla ósemkowa",
-        "Węzeł żeglarski"
+        "Węzeł ratowniczy",
+        "Prusik",
+        "Wyblinka",
+        "Węzeł płaski"
       ],
-      "answer": "Ratowniczy",
-      "explanation_correct": "Węzeł ratowniczy (bowline) tworzy stałą, niezaciskającą się pętlę, używany do ewakuacji i asekuracji.",
-      "explanation_incorrect": "Kluczka się zaciska, ósemkowa jest zbyt bezpieczna do szybkiego rozwiązania, żeglarski ma inne zastosowanie.",
-      "last_verified_at": "2026-06-12T15:46:42.122Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Węzeł ratowniczy",
+      "explanation_correct": "Węzeł ratowniczy (bowline) tworzy stałą pętlę. Zastosowanie w asekuracji lub ratownictwie wymaga odpowiedniego sprzętu i przeszkolenia.",
+      "explanation_incorrect": "Prusik, wyblinka i węzeł płaski są innymi węzłami."
     },
     {
       "subcategory": "Sygnalizacja",
@@ -940,48 +848,42 @@
     },
     {
       "subcategory": "Obuwie",
-      "question": "Jak nazywają się doraźne raki wykonane z drutu, zwiększające przyczepność na lodzie?",
+      "question": "Jak nazywa się sprzęt zakładany na buty, wyposażony w metalowe zęby do poruszania się w warunkach zimowych?",
       "options": [
-        "Raki improwizowane",
-        "Kolce wspinaczkowe",
-        "Haki lodowe",
-        "Czujniki ślizgowe"
+        "Raki",
+        "Stuptuty",
+        "Kije trekkingowe",
+        "Getry"
       ],
-      "answer": "Raki improwizowane",
-      "explanation_correct": "Raki improwizowane to doraźne nakładki z drutu lub kolców na buty, które zwiększają przyczepność na lodzie i śniegu.",
-      "explanation_incorrect": "Kolce wspinaczkowe stosuje się w skałach, haki lodowe do asekuracji, a czujniki ślizgowe nie istnieją w tym kontekście.",
-      "last_verified_at": "2026-06-12T15:46:42.123Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Raki",
+      "explanation_correct": "Raki są sprzętem z metalowymi zębami. Dobór sprzętu zależy od terenu i warunków, a bezpieczne użycie wymaga umiejętności.",
+      "explanation_incorrect": "Stuptuty i getry osłaniają buty i nogawki; kije nie są zakładane na buty."
     },
     {
       "subcategory": "Narzędzia",
       "question": "Które narzędzie to krótka siekiera do prac obozowych, idealna do cięcia gałęzi?",
       "options": [
         "Toporek",
-        "Siekiera ręczna",
         "Maczeta",
-        "Piła składana"
+        "Piła składana",
+        "Świder"
       ],
       "answer": "Toporek",
       "explanation_correct": "Toporek to lekka, krótka siekiera przeznaczona do precyzyjnych prac obozowych, takich jak przycinanie gałęzi i rozłupywanie drobnego drewna.",
-      "explanation_incorrect": "Siekiera ręczna jest większa, maczeta służy do cięcia roślinności, a piła składana do przecinania – żadne nie jest krótką siekierą.",
-      "last_verified_at": "2026-06-12T15:46:42.123Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Maczeta, piła i świder mają inne zastosowania i budowę niż krótka siekiera."
     },
     {
       "subcategory": "Odzież",
       "question": "Jak nazywa się metoda ubierania się w wiele warstw odzieży, izolująca przed zimnem?",
       "options": [
         "Metoda cebulki",
-        "Metoda termiczna",
-        "Metoda warstwowa",
-        "Metoda kaskadowa"
+        "Metoda kompasowa",
+        "Metoda cienia",
+        "Metoda zegarkowa"
       ],
       "answer": "Metoda cebulki",
       "explanation_correct": "Metoda cebulki to technika noszenia kilku warstw odzieży, które zatrzymują ciepło i umożliwiają regulację temperatury w zmiennym klimacie.",
-      "explanation_incorrect": "Metoda termiczna jest ogólnym pojęciem, warstwowa opisuje układ, a kaskadowa dotyczy przepływu – nie są to nazwy tej konkretnej techniki.",
-      "last_verified_at": "2026-06-12T15:46:42.124Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Metoda cienia i zegarkowa służą orientacji, a nie opisują ubierania warstwowego."
     },
     {
       "subcategory": "Pierwsza pomoc",
@@ -993,25 +895,21 @@
         "Bandaż"
       ],
       "answer": "Temblak",
-      "explanation_correct": "Temblak to opaska trójkątna lub materiałowa podtrzymująca przedramię i ramię, unieruchamiająca kończynę po urazie.",
-      "explanation_incorrect": "Opaska elastyczna służy do ucisku, szyna usztywnia, a bandaż owija – żadna nie podtrzymuje ramienia w pozycji uniesionej.",
-      "last_verified_at": "2026-06-12T15:46:42.124Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Temblak podtrzymuje uszkodzoną kończynę górną i może ograniczać jej ruch. Przy poważnym urazie wezwij pomoc i stosuj się do wskazówek dyspozytora.",
+      "explanation_incorrect": "Opaska elastyczna służy do ucisku, szyna usztywnia, a bandaż owija – żadna nie podtrzymuje ramienia w pozycji uniesionej."
     },
     {
       "subcategory": "Botanika",
       "question": "Jak nazywają się jadalne nasiona drzew iglastych, np. sosny?",
       "options": [
         "Orzeszki piniowe",
-        "Orzeszki sosnowe",
-        "Nasiona iglaste",
-        "Szyszki jadalne"
+        "Żołędzie",
+        "Kasztany",
+        "Orzechy włoskie"
       ],
       "answer": "Orzeszki piniowe",
       "explanation_correct": "Orzeszki piniowe to nasiona niektórych sosen (np. sosny pinii), bogate w tłuszcze i białko, często zbierane w survivalu.",
-      "explanation_incorrect": "Orzeszki sosnowe to potoczna nazwa, ale nieprecyzyjna, nasiona iglaste to ogół, a szyszki jadalne to nie nasiona – odpowiedzi te nie są dokładne.",
-      "last_verified_at": "2026-06-12T15:46:42.124Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Żołędzie, kasztany i orzechy włoskie nie są nasionami sosny."
     },
     {
       "subcategory": "Nawigacja",
@@ -1023,10 +921,8 @@
         "Metoda gwiazd"
       ],
       "answer": "Metoda cienia",
-      "explanation_correct": "Metoda cienia polega na ustawieniu patyka i zaznaczaniu końca cienia w odstępie czasu – wyznacza linię wschód-zachód i kierunki świata.",
-      "explanation_incorrect": "Metoda słońca jest ogólna, busola wymaga narzędzia, a metoda gwiazd działa nocą – nie opierają się na cieniu.",
-      "last_verified_at": "2026-06-12T15:46:42.124Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Metoda cienia wykorzystuje zmiany położenia końca cienia do przybliżonej orientacji. Wynik zależy od miejsca, czasu i warunków; mapa i kompas są pewniejsze.",
+      "explanation_incorrect": "Metoda słońca jest ogólna, busola wymaga narzędzia, a metoda gwiazd działa nocą – nie opierają się na cieniu."
     },
     {
       "subcategory": "Woda",
@@ -1038,40 +934,34 @@
         "Filtracja rosy"
       ],
       "answer": "Zbieranie rosy",
-      "explanation_correct": "Zbieranie rosy to technika zbierania wilgoci z powierzchni roślin (np. trawy) za pomocą szmatki lub gąbki, aby zdobyć wodę pitną.",
-      "explanation_incorrect": "Kondensacja trawy nie jest powszechną nazwą, odparowanie usuwa wodę, a filtracja rosy nie dotyczy zbierania – tylko zbieranie rosy jest poprawne.",
-      "last_verified_at": "2026-06-12T15:46:42.125Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zbieranie rosy polega na zbieraniu kropli z powierzchni roślin. Woda może być skażona biologicznie lub chemicznie i nie jest automatycznie bezpieczna do picia.",
+      "explanation_incorrect": "Kondensacja trawy nie jest powszechną nazwą, odparowanie usuwa wodę, a filtracja rosy nie dotyczy zbierania – tylko zbieranie rosy jest poprawne."
     },
     {
       "subcategory": "Ogień",
       "question": "Jak nazywają się ponacinane w wiórki szczapy drewna ułatwiające rozpalanie ognia?",
       "options": [
         "Pierzaste patyki",
-        "Puch drewniany",
-        "Rozpałka",
-        "Szczapy ogniowe"
+        "Kamienie rzeczne",
+        "Wilgotna glina",
+        "Metalowe śruby"
       ],
       "answer": "Pierzaste patyki",
       "explanation_correct": "Pierzaste patyki to gałęzie ponacinane w cienkie wiórki na końcu, które łatwo się zapalają od iskry lub płomienia.",
-      "explanation_incorrect": "Puch drewniany to inna nazwa, ale nieprecyzyjna, rozpałka to ogólny termin, a szczapy ogniowe nie są standardowym określeniem.",
-      "last_verified_at": "2026-06-12T15:46:42.125Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kamienie, glina i śruby nie są ponacinanym drewnem."
     },
     {
       "subcategory": "Spanie",
       "question": "Która mata izolująca jest przeznaczona pod śpiwór, aby odciąć od zimnego podłoża?",
       "options": [
         "Karimata",
-        "Podkładka piankowa",
-        "Mata bambusowa",
-        "Kołdra termiczna"
+        "Plecak",
+        "Latarka",
+        "Gwizdek"
       ],
       "answer": "Karimata",
-      "explanation_correct": "Karimata to lekka, składana mata wykonana z pianki polietylenowej, izolująca śpiącego od zimnego gruntu w warunkach biwakowych.",
-      "explanation_incorrect": "Podkładka piankowa to ogólna nazwa, mata bambusowa jest twarda, a kołdra termiczna nie izoluje od podłoża – tylko karimata jest typowym określeniem.",
-      "last_verified_at": "2026-06-12T15:46:42.125Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Karimata to lekka mata pod śpiwór, często wykonana z pianki; ogranicza utratę ciepła do podłoża.",
+      "explanation_incorrect": "Plecak, latarka i gwizdek nie są matami izolacyjnymi."
     },
     {
       "subcategory": "Żywność",
@@ -1090,22 +980,20 @@
     },
     {
       "subcategory": "Płyny",
-      "question": "Jaki roztwór soli i cukru jest stosowany przeciw odwodnieniu w survivalu?",
+      "question": "Jak nazywa się przygotowany według zaleceń roztwór glukozy i soli używany do doustnego nawadniania?",
       "options": [
-        "Elektrolity",
-        "Sól fizjologiczna",
-        "Napój izotoniczny",
-        "Roztwór cukru"
+        "Doustny płyn nawadniający (ORS)",
+        "Sól fizjologiczna do infuzji",
+        "Sam roztwór cukru",
+        "Woda morska"
       ],
-      "answer": "Elektrolity",
-      "explanation_correct": "Elektrolity to roztwór soli mineralnych (zwykle sód, potas) i cukrów, uzupełniający płyny i sole tracone w wyniku odwodnienia.",
-      "explanation_incorrect": "Sól fizjologiczna to tylko NaCl, napój izotoniczny jest komercyjny, a roztwór cukru nie zawiera soli – elektrolity łączą obie składniki.",
-      "last_verified_at": "2026-06-12T15:46:42.126Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Doustny płyn nawadniający (ORS)",
+      "explanation_correct": "ORS zawiera wodę, glukozę i sole w określonych proporcjach. Przy ciężkim odwodnieniu lub pogorszeniu stanu potrzebna jest pilna pomoc medyczna.",
+      "explanation_incorrect": "Sama woda z cukrem i woda morska nie są prawidłowym doustnym płynem nawadniającym."
     },
     {
       "subcategory": "Nawigacja",
-      "question": "Który kierunek świata to miejsce, w którym słońce góruje w południe na półkuli północnej?",
+      "question": "Po której stronie nieba znajduje się słońce w chwili górowania obserwowanego z Polski?",
       "options": [
         "Południe",
         "Północ",
@@ -1113,70 +1001,60 @@
         "Zachód"
       ],
       "answer": "Południe",
-      "explanation_correct": "Na półkuli północnej słońce w południe jest na południu, co pozwala orientować się w terenie bez kompasu.",
-      "explanation_incorrect": "Północ jest przeciwna, wschód to wschód słońca, zachód to zachód – żaden nie wskazuje górowania słońca w południe.",
-      "last_verified_at": "2026-06-12T15:46:42.126Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Polsce słońce góruje po południowej stronie nieba. Górowanie nie musi przypadać o godzinie 12:00 czasu urzędowego.",
+      "explanation_incorrect": "Z Polski słońce w chwili górowania nie znajduje się na północy, wschodzie ani zachodzie."
     },
     {
       "subcategory": "Narzędzia",
-      "question": "Jak nazywa się mała łopatka do kopania dołów w lesie, wykorzystywana przez survivalowców?",
+      "question": "Jak nazywa się niewielka, pierwotnie wojskowa łopatka do kopania?",
       "options": [
         "Saperka",
-        "Łopatka polowa",
-        "Szpadel",
-        "Rydel"
+        "Kompas",
+        "Toporek",
+        "Latarka"
       ],
       "answer": "Saperka",
-      "explanation_correct": "Saperka to kompaktowa łopatka o niewielkich rozmiarach, pierwotnie wojskowa, idealna do kopania jam, rowów i dołów w terenie.",
-      "explanation_incorrect": "Łopatka polowa jest ogólna, szpadel jest duży, a rydel to narzędzie ogrodnicze – żadne nie jest precyzyjnie małą saperką.",
-      "last_verified_at": "2026-06-12T15:46:42.126Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Saperka to niewielka łopatka wywodząca się z wyposażenia wojskowego. Kopanie w terenie może podlegać miejscowym przepisom.",
+      "explanation_incorrect": "Kompas, toporek i latarka nie są niewielką łopatką."
     },
     {
       "subcategory": "Sztuka przetrwania",
-      "question": "Które ognisko długo płonące, ułożone wzdłuż kłody, służy do ogrzewania w zimne noce?",
+      "question": "Jak nazywa się ognisko z kilku dużych kłód ułożonych równolegle, znane także jako ognisko syberyjskie?",
       "options": [
         "Nodia",
-        "Ognisko syberyjskie",
-        "Ognisko gwiaździste",
-        "Ognisko refleksyjne"
+        "Wigwam",
+        "Studnia",
+        "Gwiazda"
       ],
       "answer": "Nodia",
-      "explanation_correct": "Nodia to ognisko z dwóch lub więcej kłód ułożonych równolegle, płonących przez całą noc, zapewniające stałe ciepło i światło.",
-      "explanation_incorrect": "Ognisko syberyjskie to inna nazwa, ale nieprecyzyjna, gwiaździste układa się promieniście, a refleksyjne używa kamieni – tylko nodia jest właściwą nazwą.",
-      "last_verified_at": "2026-06-12T15:46:42.126Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nodia to ognisko budowane z dużych, równolegle ułożonych kłód. Ogień wymaga nadzoru i przestrzegania lokalnych zasad.",
+      "explanation_incorrect": "Wigwam, studnia i gwiazda to inne układy ogniska."
     },
     {
       "subcategory": "Ochrona wzroku",
       "question": "Jak nazywa się choroba oczu spowodowana odbiciem promieni UV od śniegu?",
       "options": [
         "Ślepota śnieżna",
-        "Zaćma UV",
-        "Zapalenie rogówki",
-        "Krótkowzroczność"
+        "Krótkowzroczność",
+        "Jaskra",
+        "Daltonizm"
       ],
       "answer": "Ślepota śnieżna",
-      "explanation_correct": "Ślepota śnieżna to oparzenie rogówki i spojówek przez nadmierne promieniowanie UV odbite od śniegu, powodujące ból i przejściową utratę wzroku.",
-      "explanation_incorrect": "Zaćma UV jest długotrwała, zapalenie rogówki ma inne przyczyny, a krótkowzroczność to wada refrakcji – nie są to choroby od śniegu.",
-      "last_verified_at": "2026-06-12T15:46:42.127Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ślepota śnieżna to uszkodzenie powierzchni oka wskutek nadmiernego promieniowania UV, na przykład odbitego od śniegu; może powodować ból i przejściowe zaburzenia widzenia.",
+      "explanation_incorrect": "Ślepota śnieżna jest związana z uszkodzeniem powierzchni oka przez UV; pozostałe odpowiedzi oznaczają inne schorzenia lub wady wzroku."
     },
     {
       "subcategory": "Węzły",
-      "question": "Który węzeł jest stosowany do cumowania łodzi, łatwy do rozwiązania pod obciążeniem?",
+      "question": "Jak nazywa się węzeł żeglarski znany jako wyblinka?",
       "options": [
         "Wyblinka",
-        "Buchta",
-        "Ósemka",
-        "Żeglarski"
+        "Prusik",
+        "Węzeł płaski",
+        "Pętla ósemkowa"
       ],
       "answer": "Wyblinka",
-      "explanation_correct": "Wyblinka to węzeł cumowniczy, który tworzy pętlę, nie zaciska się i można go łatwo rozwiązać nawet pod obciążeniem.",
-      "explanation_incorrect": "Buchta to rodzaj zwoju, ósemka służy do asekuracji, a węzeł żeglarski jest nieprecyzyjny – tylko wyblinka jest standardowym węzłem cumowniczym.",
-      "last_verified_at": "2026-06-12T15:46:42.127Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wyblinka jest węzłem wiązanym wokół przedmiotu, używanym m.in. w żeglarstwie. Pod obciążeniem może się zacisnąć, a jej przydatność zależy od warunków.",
+      "explanation_incorrect": "Prusik, węzeł płaski i pętla ósemkowa są innymi węzłami."
     },
     {
       "subcategory": "Zagrożenia",
@@ -1203,10 +1081,8 @@
         "Sześć kropek"
       ],
       "answer": "Trzy kropki, trzy kreski, trzy kropki",
-      "explanation_correct": "SOS składa się z trzech krótkich sygnałów, trzech długich i trzech krótkich nadawanych bez przerw.",
-      "explanation_incorrect": "Pozostałe sekwencje nie odpowiadają literom S-O-S w kodzie Morse'a.",
-      "last_verified_at": "2026-06-12T15:46:51.098Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SOS to trzy krótkie, trzy długie i trzy krótkie sygnały, nadawane jako jeden znak ratunkowy.",
+      "explanation_incorrect": "Pozostałe sekwencje nie odpowiadają literom S-O-S w kodzie Morse'a."
     },
     {
       "subcategory": "Węzły",
@@ -1218,40 +1094,34 @@
         "Talerz"
       ],
       "answer": "Prusik",
-      "explanation_correct": "Węzeł Prusik pozwala na przesuwanie go po linie i blokuje się pod obciążeniem, jest podstawą technik wspinaczkowych.",
-      "explanation_incorrect": "Barytka i talerz to węzły pomocnicze, ale nie służą do wspinaczki; ósemka to węzeł wiązany na końcu liny asekuracyjnej.",
-      "last_verified_at": "2026-06-12T15:46:42.127Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Prusik to węzeł zaciskowy używany w technikach linowych. Jego działanie zależy od doboru linek i warunków; wspinaczka wymaga przeszkolenia i odpowiedniego sprzętu.",
+      "explanation_incorrect": "Barytka i talerz to węzły pomocnicze, ale nie służą do wspinaczki; ósemka to węzeł wiązany na końcu liny asekuracyjnej."
     },
     {
       "subcategory": "Schronienie",
-      "question": "Jak nazywa się płachta biwakowa zastępująca namiot?",
+      "question": "Jak po angielsku nazywa się płachta biwakowa rozpinana jako zadaszenie?",
       "options": [
-        "Plachta",
         "Tarp",
-        "Brido",
-        "Sling"
+        "Sling",
+        "Carabiner",
+        "Backpack"
       ],
       "answer": "Tarp",
-      "explanation_correct": "Tarp to lekka, nieprzemakalna płachta rozpinana nad biwakiem, popularna w survivalu i bushcrafcie.",
-      "explanation_incorrect": "Plachta to ogólne określenie, ale nie jest terminem technicznym; brido i sling to inne akcesoria biwakowe.",
-      "last_verified_at": "2026-06-12T15:46:42.128Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tarp to angielska nazwa płachty biwakowej rozpinanej jako zadaszenie.",
+      "explanation_incorrect": "Sling oznacza pętlę lub taśmę, carabiner karabinek, a backpack plecak."
     },
     {
       "subcategory": "Zwierzęta",
-      "question": "Jaka jest podstawowa zasada zachowania przy spotkaniu niedźwiedzia?",
+      "question": "Jak należy zazwyczaj zachować się, gdy zauważony niedźwiedź dostrzega człowieka, ale się nie zbliża?",
       "options": [
-        "Brak kontaktu wzrokowego",
-        "Biegnij szybko",
-        "Patrz w oczy",
-        "Wydaj głośne dźwięki"
+        "Zachować spokój i powoli się oddalić",
+        "Biec jak najszybciej",
+        "Podejść po zdjęcie",
+        "Zagrodzić mu drogę"
       ],
-      "answer": "Brak kontaktu wzrokowego",
-      "explanation_correct": "Unikanie bezpośredniego kontaktu wzrokowego zmniejsza ryzyko sprowokowania drapieżnika, niedźwiedź może uznać to za zagrożenie.",
-      "explanation_incorrect": "Patrzenie w oczy może być odebrane jako agresja, bieganie prowokuje do pościgu, a głośne dźwięki mogą płoszyć, ale nie są regułą.",
-      "last_verified_at": "2026-06-12T15:46:42.128Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Zachować spokój i powoli się oddalić",
+      "explanation_correct": "Zachowaj spokój, daj niedźwiedziowi drogę odejścia i powoli się wycofaj; nie uciekaj biegiem. Gdy zwierzę się zbliża, postępowanie może być inne i zależy od sytuacji oraz lokalnych zaleceń.",
+      "explanation_incorrect": "Bieg może wywołać pościg, a podchodzenie lub blokowanie drogi zwiększa ryzyko."
     },
     {
       "subcategory": "Opanowanie",
@@ -1263,10 +1133,8 @@
         "Zatrzymanie oddechu"
       ],
       "answer": "Oddech pudełkowy",
-      "explanation_correct": "Oddech pudełkowy polega na rytmicznym wdechu, zatrzymaniu, wydechu i pauzie, co uspokaja układ nerwowy.",
-      "explanation_incorrect": "Przyspieszony oddech i hiperwentylacja zwiększają stres, a zatrzymanie oddechu może prowadzić do paniki.",
-      "last_verified_at": "2026-06-12T15:46:42.128Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oddech pudełkowy to rytmiczny wdech, pauza, wydech i kolejna pauza. Niektórym osobom może pomóc się uspokoić.",
+      "explanation_incorrect": "Oddech pudełkowy to ćwiczenie rytmiczne; hiperwentylacja nie jest jego elementem."
     },
     {
       "subcategory": "Transport wody",
@@ -1293,10 +1161,8 @@
         "Brykiet"
       ],
       "answer": "Heksamina",
-      "explanation_correct": "Heksamina to paliwo stałe w tabletkach, bezpieczne i wydajne w małych kuchenkach turystycznych.",
-      "explanation_incorrect": "Benzyna i gaz są paliwami ciekłymi/lotnymi, nie stałymi; brykiet jest używany w grillach, nie w przenośnych maszynkach.",
-      "last_verified_at": "2026-06-12T15:46:42.129Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Heksamina jest paliwem stałym w tabletkach do niektórych kuchenek. Spalanie paliw może wytwarzać niebezpieczny tlenek węgla; nie używaj kuchenek w namiocie ani innych zamkniętych pomieszczeniach.",
+      "explanation_incorrect": "Benzyna jest cieczą, a gaz nie jest paliwem stałym. Również inne paliwa stałe występują w turystyce."
     },
     {
       "subcategory": "Nawigacja",
@@ -1309,28 +1175,24 @@
       ],
       "answer": "Północ magnetyczna",
       "explanation_correct": "Kompas wskazuje północ magnetyczną, która różni się od geograficznej o kąt deklinacji.",
-      "explanation_incorrect": "Północ geograficzna jest punktem stałym na mapie, topograficzna nie istnieje, biegunowa to złe określenie.",
-      "last_verified_at": "2026-06-12T15:46:42.129Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kompas wskazuje kierunek magnetyczny; północ geograficzna i północ siatki mapy mogą się od niego różnić."
     },
     {
       "subcategory": "Ekwipunek",
-      "question": "Jak nazywa się przenośna kuchenka opalana drewnem?",
+      "question": "Jak nazywa się przenośna kuchenka przystosowana do spalania drobnego drewna?",
       "options": [
+        "Kuchenka na drewno",
         "Kuchenka gazowa",
-        "Kuchenka survivalowa",
         "Kuchenka spirytusowa",
-        "Piec kempingowy"
+        "Kuchenka elektryczna"
       ],
-      "answer": "Kuchenka survivalowa",
-      "explanation_correct": "Kuchenka survivalowa to mały, przenośny piecyk na drewno, używany w terenie do gotowania.",
-      "explanation_incorrect": "Kuchenka gazowa i spirytusowa używają innych paliw, piec kempingowy to zwykle większe urządzenie.",
-      "last_verified_at": "2026-06-12T15:46:42.129Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kuchenka na drewno",
+      "explanation_correct": "Kuchenka na drewno to przenośne urządzenie przeznaczone do spalania drewna. Używaj wyłącznie paliwa przewidzianego przez producenta i przestrzegaj lokalnych przepisów.",
+      "explanation_incorrect": "Pozostałe kuchenki korzystają z innych źródeł energii."
     },
     {
       "subcategory": "Botanika",
-      "question": "Który gatunek mchu wchłania krew?",
+      "question": "Który rodzaj mchu ma dużą zdolność pochłaniania wody i był historycznie używany w opatrunkach?",
       "options": [
         "Torfowiec",
         "Bielistka",
@@ -1338,40 +1200,34 @@
         "Płonnik"
       ],
       "answer": "Torfowiec",
-      "explanation_correct": "Torfowiec (Sphagnum) ma właściwości chłonne i antyseptyczne, dawniej używany jako opatrunek.",
-      "explanation_incorrect": "Bielistka, rokietnik i płonnik to inne mchy, ale nie mają właściwości chłonięcia krwi w sposób celowany.",
-      "last_verified_at": "2026-06-12T15:46:42.130Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Torfowiec (Sphagnum) jest chłonny i ma historyczne zastosowania opatrunkowe. Mech z terenu nie jest sterylny; do ran używa się czystych opatrunków.",
+      "explanation_incorrect": "Właśnie torfowiec jest znany z tej historycznej roli; nie należy przykładać dzikich roślin do ran."
     },
     {
       "subcategory": "Ochrona przed upałem",
-      "question": "Jak nazywa się chusta osłaniająca głowę i kark przed słońcem?",
+      "question": "Jak nazywa się tradycyjna bliskowschodnia chusta zwana też kefiją?",
       "options": [
         "Arafatka",
-        "Bandana",
         "Kapelusz",
-        "Komin"
+        "Rękawica",
+        "Skarpeta"
       ],
       "answer": "Arafatka",
-      "explanation_correct": "Arafatka to wielofunkcyjna chusta noszona na głowie i szyi, chroni przed słońcem i piaskiem.",
-      "explanation_incorrect": "Bandana jest mniejsza, kapelusz to sztywny nakrycie, komin to dzianina bez możliwości wiązania.",
-      "last_verified_at": "2026-06-12T15:46:42.130Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Arafatka, czyli kefija, to chusta noszona m.in. na głowie i szyi.",
+      "explanation_incorrect": "Kapelusz, rękawica i skarpeta nie są kefiją."
     },
     {
       "subcategory": "Noże",
-      "question": "Która geometria ostrza ułatwia rąbanie?",
+      "question": "Jak nazywa się szlif noża z wyraźnym pojedynczym skosem prowadzącym do krawędzi tnącej, popularny w nożach bushcraftowych?",
       "options": [
         "Szlif skandynawski",
-        "Szlif prosty",
         "Szlif wklęsły",
-        "Szlif płaski"
+        "Szlif dłutowy jednostronny",
+        "Szlif soczewkowy"
       ],
       "answer": "Szlif skandynawski",
-      "explanation_correct": "Szlif skandynawski ma krawędź dochodzącą do samego ostrza, co zapewnia doskonałe właściwości do rąbania i strugania.",
-      "explanation_incorrect": "Szlif prosty i płaski są mniej ostre, wklęsły osłabia ostrze przy uderzeniach.",
-      "last_verified_at": "2026-06-12T15:46:42.130Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szlif skandynawski ma zazwyczaj wyraźny skos prowadzący do krawędzi tnącej. Przydatność do rąbania zależy od całej geometrii i konstrukcji noża.",
+      "explanation_incorrect": "Szlif wklęsły i soczewkowy mają odmienne profile; dłutowy jest jednostronny."
     },
     {
       "subcategory": "Schronienie",
@@ -1390,7 +1246,7 @@
     },
     {
       "subcategory": "Woda",
-      "question": "Jak nazywa się metoda oczyszczania wody promieniami UV?",
+      "question": "Jak nazywa się metoda wykorzystująca światło słoneczne do ograniczania liczby drobnoustrojów w wodzie?",
       "options": [
         "Metoda SODIS",
         "Metoda Boyle'a",
@@ -1398,14 +1254,12 @@
         "Chlorowanie"
       ],
       "answer": "Metoda SODIS",
-      "explanation_correct": "Metoda SODIS polega na wystawieniu wody w butelce PET na słońce, promienie UV niszczą patogeny.",
-      "explanation_incorrect": "Metoda Boyle'a to prawo fizyczne, destylacja wymaga gotowania, chlorowanie używa chemikaliów.",
-      "last_verified_at": "2026-06-12T15:46:42.131Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "SODIS wykorzystuje światło słoneczne i wymaga odpowiednich warunków, w tym przejrzystej wody i dostatecznej ekspozycji. Nie usuwa toksycznych chemikaliów.",
+      "explanation_incorrect": "Destylacja opiera się na parowaniu i skraplaniu, a chlorowanie na chemicznej dezynfekcji."
     },
     {
       "subcategory": "Rybołówstwo",
-      "question": "Jak nazywa się prosta pułapka na ryby przy brzegu?",
+      "question": "Jak nazywa się rybacka pułapka sieciowa z gardzielą, przez którą wpływają ryby?",
       "options": [
         "Żak",
         "Wędka",
@@ -1413,29 +1267,25 @@
         "Podrywka"
       ],
       "answer": "Żak",
-      "explanation_correct": "Żak to kosz rybacki umieszczany w wodzie, do którego ryby wchodzą przez lejek, używany od wieków.",
-      "explanation_incorrect": "Wędka i sieć to sprzęt aktywny, podrywka to siatka na ręcznym stelażu.",
-      "last_verified_at": "2026-06-12T15:46:42.131Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żak to rodzaj sieciowej pułapki rybackiej z gardzielami. Jego używanie podlega miejscowym przepisom.",
+      "explanation_incorrect": "Wędka i podrywka to inne rodzaje sprzętu rybackiego."
     },
     {
       "subcategory": "Łowiectwo",
-      "question": "Jaki rodzaj wnyku stosuje się na małą zwierzynę?",
+      "question": "Jaka zasada biwakowania pomaga ograniczyć ślady pozostawiane w przyrodzie?",
       "options": [
-        "Sidła",
-        "Mata",
-        "Dół",
-        "Siatka"
+        "Zabranie ze sobą odpadków",
+        "Pozostawienie jedzenia dla zwierząt",
+        "Niszczenie roślin przy obozowisku",
+        "Wyrzucenie śmieci do strumienia"
       ],
-      "answer": "Sidła",
-      "explanation_correct": "Sidła to pętle wykonane z linki lub drutu, które zaciskają się wokół ofiary, typowe dla małej zwierzyny.",
-      "explanation_incorrect": "Mata i dół to pułapki inne, siatka służy do ptaków lub ryb, nie do ssaków.",
-      "last_verified_at": "2026-06-12T15:46:42.131Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Zabranie ze sobą odpadków",
+      "explanation_correct": "Zabieranie odpadków i przestrzeganie lokalnych zasad pomaga chronić teren oraz zwierzęta.",
+      "explanation_incorrect": "Pozostawianie jedzenia, niszczenie roślin i wyrzucanie śmieci szkodzą przyrodzie."
     },
     {
       "subcategory": "Transport",
-      "question": "Jak nazywa się ręcznie robione sanie z gałęzi?",
+      "question": "Jak nazywa się tradycyjna włóka z długich drągów, ciągnięta po ziemi do transportu ładunku?",
       "options": [
         "Trawois",
         "Sanki",
@@ -1443,25 +1293,21 @@
         "Płozy"
       ],
       "answer": "Trawois",
-      "explanation_correct": "Trawois to proste sanie transportowe wykonane z gałęzi i sznurka, używane przez rdzennych mieszkańców Ameryki.",
-      "explanation_incorrect": "Sanki to ogólne określenie, rydwan to pojazd kołowy, płozy to element sań, nie całość.",
-      "last_verified_at": "2026-06-12T15:46:42.131Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Trawois to włóka z drągów używana przez niektóre ludy rdzenne Ameryki Północnej; może być ciągnięta przez człowieka lub zwierzę.",
+      "explanation_incorrect": "Rydwan i sanki są innymi środkami transportu, a płozy to element konstrukcyjny."
     },
     {
       "subcategory": "Psychologia",
-      "question": "Jak nazywa się zjawisko utraty woli walki o życie?",
+      "question": "Co oznacza litera P w metodzie STOP: Stop, Think, Observe, Plan?",
       "options": [
-        "Rezygnacja",
-        "Depresja",
+        "Planowanie",
         "Panika",
-        "Apata"
+        "Pośpiech",
+        "Porzucenie sprzętu"
       ],
-      "answer": "Rezygnacja",
-      "explanation_correct": "W survivalu rezygnacja to stan psychiczny, w którym ofiara przestaje walczyć o przetrwanie, często prowadzący do śmierci.",
-      "explanation_incorrect": "Depresja i apatia są zaburzeniami, panika to skrajny lęk, ale nie rezygnacja z walki.",
-      "last_verified_at": "2026-06-12T15:46:42.132Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Planowanie",
+      "explanation_correct": "Plan oznacza zaplanowanie kolejnych działań po zatrzymaniu się, przemyśleniu i obserwacji sytuacji.",
+      "explanation_incorrect": "W tym skrótowcu P oznacza Plan, czyli planowanie."
     },
     {
       "subcategory": "Ewakuacja",
@@ -1484,29 +1330,25 @@
       "options": [
         "Deklinacja magnetyczna",
         "Inklinacja",
-        "Azmut",
+        "Azymut",
         "Błąd kompasu"
       ],
       "answer": "Deklinacja magnetyczna",
       "explanation_correct": "Deklinacja magnetyczna to kąt między kierunkiem północy geograficznej a magnetycznej, uwzględniany w nawigacji.",
-      "explanation_incorrect": "Inklinacja to nachylenie igły magnetycznej, azymut to kąt do celu, błąd kompasu to pojęcie ogólne.",
-      "last_verified_at": "2026-06-12T15:46:42.132Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Inklinacja to nachylenie igły magnetycznej, azymut to kąt do celu, błąd kompasu to pojęcie ogólne."
     },
     {
       "subcategory": "Ochrona stóp",
-      "question": "Jak nazywa się smarowanie stóp tłuszczem przeciw pęcherzom?",
+      "question": "Co pomaga ograniczyć ryzyko pęcherzy podczas długiego marszu?",
       "options": [
-        "Wazelinowanie",
-        "Hartowanie",
-        "Masowanie",
-        "Garbowanie"
+        "Dobrze dopasowane buty i suche skarpety",
+        "Zbyt ciasne buty",
+        "Pozostawienie mokrych skarpet",
+        "Ignorowanie otarć"
       ],
-      "answer": "Wazelinowanie",
-      "explanation_correct": "Wazelinowanie stóp zmniejsza tarcie i wilgoć, zapobiegając powstawaniu pęcherzy podczas marszu.",
-      "explanation_incorrect": "Hartowanie to zabiegi w skórach, masowanie nie chroni przed pęcherzami, garbowanie to proces chemiczny.",
-      "last_verified_at": "2026-06-12T15:46:42.132Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dobrze dopasowane buty i suche skarpety",
+      "explanation_correct": "Dobrze dopasowane obuwie i zmiana mokrych skarpet mogą zmniejszać ryzyko pęcherzy, choć go nie eliminują.",
+      "explanation_incorrect": "Ciasne buty, wilgoć i ignorowanie otarć mogą sprzyjać powstawaniu pęcherzy."
     }
   ]
 }
