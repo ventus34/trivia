@@ -62,6 +62,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Mass Production & Food Factories (EN):** przegląd 100 pytań, korekty 70 pozycji; szczegóły i ograniczenia w [raporcie](audits/2026-11-07-mass-production-food-factories-en.md).
 
+- **Pionierzy Lotnictwa (PL):** przegląd 100 pytań, korekty 65 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-pionierzy-lotnictwa-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
