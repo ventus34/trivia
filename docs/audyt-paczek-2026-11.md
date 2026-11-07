@@ -48,6 +48,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o mitologii nordyckiej i celtyckiej
 
 Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zmieniając odpowiednio 71 i 47 rekordów. Wybrane źródła i ograniczenia opisano w raportach; nie wszystkie tezy potwierdzono źródłowo.
 
+- **Orchestral Gaming Soundtracks (EN):** przegląd 100 pytań, korekty 56 pozycji; szczegóły i źródła w [raporcie](audits/2026-11-06-orchestral-gaming-soundtracks-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
