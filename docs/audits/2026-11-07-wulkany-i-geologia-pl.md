@@ -1,0 +1,9 @@
+# Audyt: Wulkany i Geologia
+
+Przejrzano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 56 pozycji: 1, 3, 5, 8, 10–14, 18–19, 27–28, 31, 33–39, 41–44, 47–49, 51, 53–55, 57–58, 62–63, 65, 67, 69, 71–72, 74–75, 77–78, 82, 84–90, 92–93 i 99. Liczba pytań oraz opis pozostały bez zmian; z edytowanych rekordów usunięto stare znaczniki automatycznej weryfikacji.
+
+Usunięto wieloznaczne odpowiedzi dotyczące uskoków Kalifornii, law, gejzerów, fumaroli, skal czasu geologicznego i źródeł drgań. Poprawiono rozróżnienie magnitudy i intensywności trzęsienia, popiołu i tefry, osadowych oraz metamorficznych skał, płyt litosfery i skorupy. Zaznaczono, że ptaki są żyjącą linią dinozaurów, plamy gorąca występują również przy granicach płyt, a wulkan Kibo jest uśpiony. Ograniczono kategoryczne stwierdzenia o zjawiskach naturalnych i pochodzeniu skał.
+
+Wybrane źródła: [USGS: popiół wulkaniczny](https://volcanoes.usgs.gov/volcanic_ash/ash_particle_size.html), [USGS: magnituda i intensywność](https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli), [USGS: plamy gorąca](https://www.usgs.gov/faqs/what-a-hotspot-and-how-do-you-know-its-there), [USGS: kaldera](https://volcanoes.usgs.gov/vsc/glossary/caldera.html), [USGS: obsydian](https://volcanoes.usgs.gov/vsc/glossary/obsidian.html), [Polski Instytut Geologiczny: budowa Sudetów](https://geojournals.pgi.gov.pl/asgp/article/view/25944), [Smithsonian: Kilimandżaro](https://volcano.si.edu/volcano.cfm?vn=222150), [Międzynarodowa Komisja Stratygrafii: tabela chronostratygraficzna](https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf).
+
+Źródłowo sprawdzono wybrane problemy, nie wszystkie tezy. Datowania i klasyfikacje geologiczne mogą być aktualizowane; pozostają powtórzenia i różny poziom trudności odpowiedzi. Kontrola struktury nie jest weryfikacją poprawności merytorycznej.
