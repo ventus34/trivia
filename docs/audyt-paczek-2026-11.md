@@ -56,6 +56,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Applied Science and Everyday Tech (EN):** przegląd 100 pytań, korekty 55 pozycji; szczegóły, źródła i ograniczenia w [raporcie](audits/2026-11-07-applied-science-and-everyday-tech-en.md).
 
+- **Absurd Physics: Monster Trucks & Mechs (EN):** przegląd 100 pytań, korekty 70 pozycji; zakres, źródła i ograniczenia w [raporcie](audits/2026-11-07-absurd-physics-monster-trucks-mechs-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

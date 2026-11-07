@@ -25,7 +25,7 @@
     },
     {
       "subcategory": "Monster Truck Suspensions",
-      "question": "Which specific element gas is most frequently utilized within high-performance pressurized shock absorbers?",
+      "question": "What gas does Monster Jam say is used to charge the shock absorbers on its trucks?",
       "options": [
         "Oxygen",
         "Nitrogen",
@@ -33,14 +33,12 @@
         "Argon"
       ],
       "answer": "Nitrogen",
-      "explanation_correct": "Nitrogen is used because it is an inert, dry gas that resists moisture and remains stable under extreme temperature fluctuations.",
-      "explanation_incorrect": "Oxygen is highly reactive, while Helium and Argon are not standard choices for pressurized automotive dampening systems.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Monster Jam describes its trucks as using nitrogen-charged shocks.",
+      "explanation_incorrect": "Nitrogen is used as the shock gas in the trucks described by Monster Jam."
     },
     {
       "subcategory": "Mech Balance",
-      "question": "Which type of internal sensor is responsible for monitoring and correcting a bipedal platform's equilibrium?",
+      "question": "Which sensor measures angular velocity to help a robot control its balance?",
       "options": [
         "Gyroscopic sensor",
         "Proximity sensor",
@@ -49,24 +47,20 @@
       ],
       "answer": "Gyroscopic sensor",
       "explanation_correct": "A gyroscopic sensor detects angular velocity, providing data crucial for real-time adjustments to maintain balance.",
-      "explanation_incorrect": "Proximity and ultrasonic sensors detect distance, while pressure sensors measure force, none of which directly sense orientation.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gyroscopes measure angular velocity; other sensors can also contribute useful information to balance control."
     },
     {
       "subcategory": "Monster Truck Tires",
-      "question": "Which tire manufacturer was responsible for producing the original rubber compounds for the iconic Bigfoot vehicle?",
+      "question": "According to Monster Jam, which company supplies the 66-inch tires used on its trucks?",
       "options": [
+        "BKT",
         "Firestone",
-        "Goodyear",
         "Michelin",
         "Bridgestone"
       ],
-      "answer": "Firestone",
-      "explanation_correct": "Firestone provided the massive agricultural tires that defined the early aesthetic and capabilities of the original Bigfoot truck.",
-      "explanation_incorrect": "Goodyear, Michelin, and Bridgestone are tire giants, but they were not the original supplier for the first Bigfoot iteration.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "BKT",
+      "explanation_correct": "Monster Jam lists BKT tires with a 66-inch overall diameter on its trucks.",
+      "explanation_incorrect": "The question concerns the supplier listed by Monster Jam, not the tires originally fitted to Bigfoot."
     },
     {
       "subcategory": "Giant Robot Propulsion",
@@ -115,7 +109,7 @@
     },
     {
       "subcategory": "Human-Mech Interface",
-      "question": "What is the descriptor for a control system that bridges human neurological impulses directly to machine actuators?",
+      "question": "What is a system that can use signals from the nervous system to control an external device called?",
       "options": [
         "Neural interface",
         "Haptic array",
@@ -123,14 +117,12 @@
         "Synthetic proxy link"
       ],
       "answer": "Neural interface",
-      "explanation_correct": "A neural interface directly interprets brain signal patterns to command external hardware systems.",
-      "explanation_incorrect": "Haptic array refers to touch feedback, while the other terms are generic descriptors of mechanical connections.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A neural interface can use signals from the brain or other parts of the nervous system to control external devices.",
+      "explanation_incorrect": "Haptic systems provide touch-related interaction; the other options are not the standard name for this interface."
     },
     {
       "subcategory": "Monster Truck Materials",
-      "question": "Which alloy is preferred for modern high-performance monster truck roll cages due to its high strength-to-weight ratio?",
+      "question": "Which chromium-molybdenum alloy is commonly used in strong, relatively light racing chassis tubes?",
       "options": [
         "Chromoly steel",
         "Aluminum 6061",
@@ -138,10 +130,8 @@
         "Cast iron"
       ],
       "answer": "Chromoly steel",
-      "explanation_correct": "Chromoly (chromium-molybdenum) steel is chosen for its superior weldability and ability to handle extreme stress loads.",
-      "explanation_incorrect": "Aluminum and carbon fiber are usually too brittle or costly for impact-heavy roll cages, while cast iron is far too heavy.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chromoly is a family of chromium-molybdenum steels used in racing chassis tubing.",
+      "explanation_incorrect": "Aluminum is a different metal, carbon fiber is a composite, and cast iron is not chromoly steel."
     },
     {
       "subcategory": "Mech Energy Sources",
@@ -154,9 +144,7 @@
       ],
       "answer": "Fusion reactor",
       "explanation_correct": "Fusion reactors generate energy by combining light nuclei, promising high output levels suitable for large mechs.",
-      "explanation_incorrect": "Fission relies on splitting atoms, combustion uses fuels, and electrochemical cells are batteries, all lacking fusion's density.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Fission splits nuclei; combustion and electrochemical cells release energy through chemical processes. A practical mech power source would depend on many engineering constraints."
     },
     {
       "subcategory": "Monster Truck Physics",
@@ -175,7 +163,7 @@
     },
     {
       "subcategory": "Giant Robot Locomotion",
-      "question": "What specific physical model provides the mathematical framework for understanding the mechanics of a stable bipedal gait?",
+      "question": "Which simplified model is often used to analyze the balance and motion of a walking biped?",
       "options": [
         "Inverted pendulum",
         "Simple harmonic oscillator",
@@ -183,14 +171,12 @@
         "Torsional spring model"
       ],
       "answer": "Inverted pendulum",
-      "explanation_correct": "The inverted pendulum is the standard biomechanical model for human-like walking, where a pivot supports an unstable mass.",
-      "explanation_incorrect": "Simple harmonic motion describes back-and-forth movement, while the others are common engineering configurations for static or stationary systems.",
-      "last_verified_at": "2026-06-12T16:39:50.855Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An inverted pendulum is one simplified model used to study aspects of bipedal balance and walking.",
+      "explanation_incorrect": "The other options describe different mechanical models; bipedal walking can also be modeled in other ways."
     },
     {
       "subcategory": "Monster Truck Competition",
-      "question": "Which major regulatory organization serves as the primary sanctioning body for professional arena-based truck competitions?",
+      "question": "Which of these is a monster-truck racing and freestyle event series?",
       "options": [
         "Monster Jam",
         "NASCAR",
@@ -198,25 +184,21 @@
         "IndyCar"
       ],
       "answer": "Monster Jam",
-      "explanation_correct": "Monster Jam operates the most prominent standardized series for competitive monster truck racing and freestyle events.",
-      "explanation_incorrect": "NASCAR, Formula One, and IndyCar are specific to different categories of conventional automotive asphalt racing.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Monster Jam is an event series featuring monster-truck racing and freestyle competitions.",
+      "explanation_incorrect": "NASCAR, Formula One and IndyCar organize or describe other forms of motorsport."
     },
     {
       "subcategory": "Mech Heat Management",
-      "question": "What fluid type is circulated through a mech's closed loops to prevent thermal overload of internal computer and motor systems?",
+      "question": "In a liquid-cooled robotic system, what fluid carries heat from components to a radiator?",
       "options": [
         "Coolant",
-        "Hydraulic fluid",
-        "Lubricating oil",
-        "Distilled water"
+        "Steel",
+        "Wood",
+        "Dry sand"
       ],
       "answer": "Coolant",
-      "explanation_correct": "Coolant is designed to transfer thermal energy away from sensitive components to dissipation units like radiators.",
-      "explanation_incorrect": "Hydraulic fluid moves mechanical parts, lubrication reduces friction, and distilled water lacks the anti-corrosive properties required for industrial cooling.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A liquid coolant carries heat from components to a radiator, where some of it is released.",
+      "explanation_incorrect": "Water can be used as a coolant in some systems; the correct option names the fluid by its cooling role."
     },
     {
       "subcategory": "Monster Truck Maneuvers",
@@ -235,7 +217,7 @@
     },
     {
       "subcategory": "Mech Joint Design",
-      "question": "Which design configuration is required to allow a robotic limb segment to rotate freely in three distinct planes?",
+      "question": "Which idealized joint permits rotation about three axes, like a human shoulder?",
       "options": [
         "Ball and socket",
         "Hinge joint",
@@ -243,14 +225,12 @@
         "Universal shaft"
       ],
       "answer": "Ball and socket",
-      "explanation_correct": "The ball and socket joint provides the highest degree of rotational freedom, replicating complex biological limb movement.",
-      "explanation_incorrect": "A hinge joint is restricted to one plane, while the others are generally used for unidirectional force transfer.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An ideal ball-and-socket joint allows rotational movement about three axes.",
+      "explanation_incorrect": "A hinge has one rotational degree of freedom; real joints can have additional limits on their range."
     },
     {
       "subcategory": "Monster Truck Safety",
-      "question": "What essential safety component allows an event official to immediately terminate the engine power of a vehicle from a distance?",
+      "question": "What remote safety device lets an event official stop a monster truck engine from a distance?",
       "options": [
         "Kill switch",
         "Ignition interlock",
@@ -258,10 +238,8 @@
         "Electronic throttle relay"
       ],
       "answer": "Kill switch",
-      "explanation_correct": "A remote kill switch is a mandated safety device that instantly severs the ignition circuit to halt a vehicle in emergencies.",
-      "explanation_incorrect": "Ignition interlocks are for ignition activation, while fuel valves and relays are specific mechanical/electronic parts within the engine system.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A remote ignition interrupter, commonly called a remote kill switch, lets an official stop the engine.",
+      "explanation_incorrect": "The other choices do not specifically identify a remotely operated engine shutoff."
     },
     {
       "subcategory": "Mecha Aerodynamics",
@@ -274,9 +252,7 @@
       ],
       "answer": "Aerodynamic drag",
       "explanation_correct": "Aerodynamic drag is the resistance force generated as an object moves through a fluid like air.",
-      "explanation_incorrect": "Friction occurs at contact points, Gravity is a constant downward force, and Centrifugal resistance is a result of turning.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gravity acts toward the attracting body; centrifugal force is an apparent force in a rotating frame. Drag opposes motion relative to the air."
     },
     {
       "subcategory": "Monster Truck Drivetrain",
@@ -310,7 +286,7 @@
     },
     {
       "subcategory": "Monster Truck Wheels",
-      "question": "What is the specific component used to mechanically fasten the tire sidewall to the wheel rim?",
+      "question": "What wheel device mechanically clamps the tire bead to the rim?",
       "options": [
         "Beadlock",
         "Lug nut",
@@ -318,14 +294,12 @@
         "Valve stem"
       ],
       "answer": "Beadlock",
-      "explanation_correct": "A beadlock creates a physical barrier that prevents the tire from separating from the rim under low pressure or high torque.",
-      "explanation_incorrect": "Lug nuts, hubcaps, and valve stems are standard wheel accessories that do not serve the purpose of retaining the tire bead.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A beadlock clamps a tire bead to the rim to help prevent it unseating under demanding conditions.",
+      "explanation_incorrect": "Lug nuts, hubcaps, and valve stems are standard wheel accessories that do not serve the purpose of retaining the tire bead."
     },
     {
       "subcategory": "Mecha Power Transmission",
-      "question": "Which electronic component is utilized to convert electrical current directly into linear mechanical motion within a mecha actuator?",
+      "question": "Which electromechanical device uses a coil to pull a plunger in a linear direction?",
       "options": [
         "Solenoid",
         "Transistor",
@@ -334,24 +308,20 @@
       ],
       "answer": "Solenoid",
       "explanation_correct": "Solenoids use an electromagnetic coil to pull a plunger, resulting in direct linear displacement.",
-      "explanation_incorrect": "Transistors, capacitors, and rheostats are electronic components used for signal processing or power storage, not mechanical linear motion.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Transistors, capacitors, and rheostats are electronic components used for signal processing or power storage, not mechanical linear motion."
     },
     {
       "subcategory": "Monster Truck Aerodynamics",
-      "question": "What aerodynamic structure is occasionally installed on the back of a monster truck body to influence airflow and provide downforce?",
+      "question": "What aerodynamic device on the rear of a vehicle can be shaped to generate downforce?",
       "options": [
         "Rear wing",
-        "Diffuser",
-        "Front splitter",
-        "Side skirt"
+        "Steering wheel",
+        "Brake pedal",
+        "Seatbelt"
       ],
       "answer": "Rear wing",
       "explanation_correct": "A rear wing is an aerodynamic device designed to generate downward force on the rear axle to improve traction.",
-      "explanation_incorrect": "Diffusers, splitters, and side skirts are aerodynamic aids primarily used in lower-profile racing vehicles rather than monster trucks.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "The other parts control or restrain occupants and are not aerodynamic wings. A truck’s bodywork need not generate useful downforce."
     },
     {
       "subcategory": "Mech Locomotion",
@@ -363,10 +333,8 @@
         "Monopedal"
       ],
       "answer": "Hexapedal",
-      "explanation_correct": "Hexapedal movement refers to mechanics modeled after creatures with six legs, providing superior stability.",
-      "explanation_incorrect": "Bipedal, quadrupedal, and monopedal refer to two, four, and one-legged movement respectively.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hexapodal locomotion uses six legs, as in insects. Stability depends on the gait and design.",
+      "explanation_incorrect": "Bipedal, quadrupedal and monopedal describe two, four and one leg respectively."
     },
     {
       "subcategory": "Monster Truck Safety",
@@ -378,10 +346,8 @@
         "Fire suit"
       ],
       "answer": "HANS device",
-      "explanation_correct": "The HANS device is engineered to reduce head and neck movement during deceleration to prevent severe injury.",
-      "explanation_incorrect": "While roll cages, harnesses, and suits are safety critical, they do not function to stabilize the neck specifically.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A HANS device is a head and neck restraint designed to reduce potentially harmful relative motion during an impact.",
+      "explanation_incorrect": "While roll cages, harnesses, and suits are safety critical, they do not function to stabilize the neck specifically."
     },
     {
       "subcategory": "Mecha Exoskeletons",
@@ -400,7 +366,7 @@
     },
     {
       "subcategory": "Monster Truck Engines",
-      "question": "Which material is favored for monster truck engine blocks due to its high strength-to-weight ratio to improve performance?",
+      "question": "Which metal can be used for a relatively lightweight engine block?",
       "options": [
         "Aluminum",
         "Cast iron",
@@ -408,10 +374,8 @@
         "Titanium"
       ],
       "answer": "Aluminum",
-      "explanation_correct": "Aluminum is significantly lighter than iron, which helps decrease the weight of the massive engine assembly.",
-      "explanation_incorrect": "Cast iron and steel are much heavier, and titanium is typically too costly for standard performance engine blocks.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aluminum alloys can be used for engine blocks; they are less dense than cast iron.",
+      "explanation_incorrect": "Engine blocks can also be made from cast iron; the choice depends on the design and operating loads."
     },
     {
       "subcategory": "Mech Navigation",
@@ -456,7 +420,7 @@
     },
     {
       "subcategory": "Monster Truck Exhaust",
-      "question": "What is the common term for the signature vertical exhaust pipes that rise above the monster truck body?",
+      "question": "What racing slang refers to a set of short individual exhaust pipes without a collector?",
       "options": [
         "Zoomies",
         "Headers",
@@ -464,14 +428,12 @@
         "Mufflers"
       ],
       "answer": "Zoomies",
-      "explanation_correct": "Zoomies are short, open-ended exhaust pipes that vent gases directly upwards without lengthy piping or silencing components.",
-      "explanation_incorrect": "Headers, collectors, and mufflers are parts of an exhaust system, but do not describe the specific vertical pipe configuration.",
-      "last_verified_at": "2026-06-12T16:39:50.856Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zoomies are individual short exhaust pipes, often routed upward on competition vehicles.",
+      "explanation_incorrect": "Headers may feed a collector; a muffler reduces exhaust noise. Exhaust layouts vary between trucks."
     },
     {
       "subcategory": "Mech Hydraulics",
-      "question": "What circular rubber seal is used to prevent high-pressure hydraulic fluid from leaking at the pistons?",
+      "question": "Which circular seal can be used to help contain fluid in hydraulic equipment?",
       "options": [
         "O-ring",
         "C-clip",
@@ -480,13 +442,11 @@
       ],
       "answer": "O-ring",
       "explanation_correct": "O-rings are circular seals designed for mechanical joints to contain fluid under high pressure.",
-      "explanation_incorrect": "C-clips are fasteners, washers spread pressure, and gaskets are typically flat seals for static surfaces.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other types of seals exist for hydraulic systems; a C-clip is a fastener and a washer generally distributes load."
     },
     {
       "subcategory": "Monster Truck Torque",
-      "question": "Which unit is standardly used to express the immense rotational force produced by monster truck engines?",
+      "question": "Which unit commonly used in the United States expresses engine torque?",
       "options": [
         "Foot-pounds",
         "Horsepower",
@@ -494,10 +454,8 @@
         "Newtons"
       ],
       "answer": "Foot-pounds",
-      "explanation_correct": "Foot-pounds are the conventional imperial units for measuring torque, or twisting force.",
-      "explanation_incorrect": "Horsepower is a unit of power, while joules measure energy and newtons measure force, not rotation.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Torque is commonly expressed in pound-feet (lb-ft), also called foot-pounds, or in newton-metres.",
+      "explanation_incorrect": "Horsepower measures power; newtons measure force. Joules measure energy, despite sharing base dimensions with newton-metres."
     },
     {
       "subcategory": "Mecha Weaponry",
@@ -509,14 +467,12 @@
         "Harpoon"
       ],
       "answer": "Railgun",
-      "explanation_correct": "A railgun accelerates conductive projectiles along two parallel rails using electromagnetic forces.",
-      "explanation_incorrect": "Flame throwers, mortars, and harpoons rely on chemical combustion, gravity/ballistics, and mechanical propulsion, not magnetism.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A railgun uses electromagnetic forces between conductors to accelerate a projectile along parallel rails.",
+      "explanation_incorrect": "The other weapons are not named for acceleration along electromagnetic rails."
     },
     {
       "subcategory": "Monster Truck Drivetrain",
-      "question": "Which internal component enables power distribution between the engine, transmission, and axles in four-wheel drive monster trucks?",
+      "question": "In a conventional four-wheel-drive layout, which component distributes drive from the transmission to front and rear axles?",
       "options": [
         "Transfer case",
         "Transmission",
@@ -524,10 +480,8 @@
         "Driveshaft"
       ],
       "answer": "Transfer case",
-      "explanation_correct": "The transfer case directs power from the transmission to both the front and rear axles simultaneously.",
-      "explanation_incorrect": "Transmissions shift gears, differentials distribute torque at wheels, and driveshafts are simply the rods that transfer rotation.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A transfer case can route power from a transmission toward the front and rear axles.",
+      "explanation_incorrect": "Driveshafts transmit rotation and differentials allow differences in wheel speed. Drivetrain layouts vary."
     },
     {
       "subcategory": "Mech Anatomy",
@@ -554,10 +508,8 @@
         "Surface tension"
       ],
       "answer": "Kinetic energy",
-      "explanation_correct": "Motion creates kinetic energy, which must be dissipated by shocks and springs upon landing a jump.",
-      "explanation_incorrect": "Potential energy is stored energy; static pressure and surface tension are unrelated to impact dissipation physics.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kinetic energy is transferred and transformed during landing: springs temporarily store some energy and dampers dissipate energy as heat.",
+      "explanation_incorrect": "Potential energy changes during the jump; pressure and surface tension are not the primary descriptions of impact energy here."
     },
     {
       "subcategory": "Mecha Computing",
@@ -576,18 +528,16 @@
     },
     {
       "subcategory": "Monster Truck Seats",
-      "question": "What safety-rated seating system is specifically engineered to minimize driver movement and internal trauma during crashes?",
+      "question": "Which racing seat typically includes side and head supports designed to help contain the driver in a crash?",
       "options": [
         "Containment seat",
-        "Bucket seat",
-        "Bench seat",
-        "Reclining seat"
+        "Park bench",
+        "Office stool",
+        "Hammock"
       ],
       "answer": "Containment seat",
-      "explanation_correct": "Containment seats are designed with high sides and head supports to keep a driver secure during violent impacts.",
-      "explanation_incorrect": "Bucket, bench, and reclining seats provide comfort or minimal retention, but lack the structural intensity required for monster truck safety.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Containment seats use side and head supports to help restrain the driver alongside a suitable harness.",
+      "explanation_incorrect": "A containment seat is a type of racing seat; a generic bucket seat can also have significant side support."
     },
     {
       "subcategory": "Mech Mobility",
@@ -599,10 +549,8 @@
         "Range variance"
       ],
       "answer": "Degrees of freedom",
-      "explanation_correct": "Degrees of freedom defines the range of motion in different directions allowed by a mechanical joint.",
-      "explanation_incorrect": "Flexibility ratio, articulation index, and range variance are not standard engineering terms for defined mechanical movement axes.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Degrees of freedom are the number of independent motions or coordinates needed to describe a joint’s movement; they do not give the size of its motion range.",
+      "explanation_incorrect": "Range of motion describes how far a joint can move, whereas degrees of freedom count independent motions."
     },
     {
       "subcategory": "Monster Truck Cooling",
@@ -611,13 +559,11 @@
         "Radiator",
         "Condenser",
         "Intercooler",
-        "Heat exchanger"
+        "Fuel pump"
       ],
       "answer": "Intercooler",
       "explanation_correct": "An intercooler dissipates heat from the intake air compressed by a turbocharger or supercharger.",
-      "explanation_incorrect": "A radiator serves the primary engine coolant circuit, while a condenser is typically found in HVAC or refrigeration systems.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "An intercooler is a type of heat exchanger used to cool compressed intake air; a radiator usually cools engine coolant."
     },
     {
       "subcategory": "Mecha Sensors",
@@ -634,18 +580,16 @@
     },
     {
       "subcategory": "Monster Truck Transmission",
-      "question": "Which heavy-duty three-speed automatic transmission is commonly adapted for use in custom monster trucks?",
+      "question": "Which GM automatic transmission is commonly known as the Turbo 400?",
       "options": [
+        "TH400",
         "Powerglide",
-        "Turbo 400",
-        "C6 transmission",
-        "Torqueflite"
+        "Ford C6",
+        "Manual gearbox"
       ],
-      "answer": "Turbo 400",
-      "explanation_correct": "The Turbo 400 is a legendary GM transmission favored for handling high torque and weight.",
-      "explanation_incorrect": "Powerglides are strictly two-speed, and C6 transmissions are specific to Ford engineering.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "TH400",
+      "explanation_correct": "TH400 is an abbreviation for the GM Turbo-Hydramatic 400, a three-speed automatic transmission.",
+      "explanation_incorrect": "Powerglide and C6 are other transmission designs; a manual gearbox is a different type of transmission."
     },
     {
       "subcategory": "Mech Aesthetics",
@@ -694,7 +638,7 @@
     },
     {
       "subcategory": "Monster Truck Pit",
-      "question": "Which critical workshop device is utilized to adjust tire pressure to accommodate varying track textures?",
+      "question": "Which device supplies compressed air to inflate a truck tire?",
       "options": [
         "Impact wrench",
         "Hydraulic press",
@@ -702,10 +646,8 @@
         "Pneumatic jack"
       ],
       "answer": "Air compressor",
-      "explanation_correct": "An air compressor generates the pressurized air flow required to fill oversized tires.",
-      "explanation_incorrect": "Impact wrenches are used for lug nuts and jacks elevate the chassis, neither provides the pneumatic capacity for pressure regulation.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An air compressor supplies compressed air for inflating tires; a gauge and regulator help set pressure.",
+      "explanation_incorrect": "An impact wrench turns fasteners and a jack lifts a vehicle; a compressor supplies air."
     },
     {
       "subcategory": "Mech Propulsion",
@@ -732,14 +674,12 @@
         "Internal bracing"
       ],
       "answer": "Roll cage",
-      "explanation_correct": "A roll cage provides a high-strength structural barrier preventing cockpit deformation during extreme landings or flips.",
-      "explanation_incorrect": "Crumple zones are designed for energy absorption in passenger vehicles, not for structural survival in high-impact competition.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A roll cage is a protective structure designed to preserve space around the driver in a rollover.",
+      "explanation_incorrect": "Crumple zones absorb energy, while a cage protects the occupant space. A cage can be integrated with a vehicle’s frame."
     },
     {
       "subcategory": "Mecha Power",
-      "question": "What component is used in advanced mechs to generate electrical power through a steady chemical reaction?",
+      "question": "What device converts fuel supplied continuously into electricity by electrochemical reactions?",
       "options": [
         "Battery bank",
         "Fuel cell",
@@ -747,10 +687,8 @@
         "Supercapacitor"
       ],
       "answer": "Fuel cell",
-      "explanation_correct": "A fuel cell converts the chemical energy of a fuel directly into electricity for silent, efficient power.",
-      "explanation_incorrect": "Batteries store rather than generate energy, and combustion engines rely on mechanical kinetic energy conversion.",
-      "last_verified_at": "2026-06-12T16:39:50.857Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A fuel cell produces electricity electrochemically while supplied with fuel and an oxidant.",
+      "explanation_incorrect": "Batteries also use electrochemical reactions, but generally store their reactants internally rather than relying on continuously supplied fuel."
     },
     {
       "subcategory": "Monster Truck Friction",
@@ -769,7 +707,7 @@
     },
     {
       "subcategory": "Mech Vision",
-      "question": "Which system provides the pilot with a complete 360-degree situational view of the environment?",
+      "question": "Which type of camera is designed to capture a panoramic view around a robot?",
       "options": [
         "Omnidirectional camera",
         "Stereoscopic visor",
@@ -777,10 +715,8 @@
         "Phased-array radar"
       ],
       "answer": "Omnidirectional camera",
-      "explanation_correct": "An omnidirectional or 360-degree camera captures the entire surrounding area into a coherent feed.",
-      "explanation_incorrect": "Stereoscopic systems aid depth perception, while radar sensors detect range and location, not visual coverage.",
-      "last_verified_at": "2026-06-12T16:39:50.858Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An omnidirectional camera can capture a panoramic view around a robot; coverage depends on its design and placement.",
+      "explanation_incorrect": "Stereoscopic vision provides depth information; radar measures using radio waves rather than visual imagery."
     },
     {
       "subcategory": "Monster Truck Mechanics",
@@ -799,22 +735,20 @@
     },
     {
       "subcategory": "Mecha Joints",
-      "question": "Which type of rotary actuator is commonly used for precise, controlled motion in joints?",
+      "question": "Which type of rotary motor system commonly uses position feedback to control a robot joint?",
       "options": [
-        "Pneumatic ram",
-        "Stepper motor",
         "Servo motor",
-        "Linear actuator"
+        "Pneumatic cylinder",
+        "Handwheel",
+        "Fixed bracket"
       ],
       "answer": "Servo motor",
       "explanation_correct": "Servo motors incorporate feedback loops that allow for constant monitoring and adjustment of positional accuracy.",
-      "explanation_incorrect": "Stepper motors move in discrete increments without native feedback, while linear actuators deal effectively only in longitudinal motion.",
-      "last_verified_at": "2026-06-12T16:39:50.858Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A servo uses feedback for control. Some stepper systems also use feedback, but a fixed bracket does not provide motion."
     },
     {
       "subcategory": "Monster Truck Design",
-      "question": "Before building a full-sized machine, what type of object is created for design validation and prototyping?",
+      "question": "What physical object built at a reduced size can be used to inspect a proposed vehicle shape?",
       "options": [
         "CAD assembly",
         "Wireframe",
@@ -822,10 +756,8 @@
         "Blueprint rendering"
       ],
       "answer": "Scale model",
-      "explanation_correct": "A scale model allows engineers to test physics, weight distribution, and clearances in a reduced size.",
-      "explanation_incorrect": "CAD assemblies and wireframes are digital planning tools rather than physical prototyping objects.",
-      "last_verified_at": "2026-06-12T16:39:50.858Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A scale model is a physical representation of a design at a reduced or enlarged scale.",
+      "explanation_incorrect": "CAD assemblies, wireframes and blueprint renderings are design representations; results from small-scale physical tests require proper scaling."
     },
     {
       "subcategory": "Mech Computing",
@@ -837,10 +769,8 @@
         "Expert system"
       ],
       "answer": "Machine learning",
-      "explanation_correct": "Machine learning enables a system to 'learn' patterns and optimize performance without being explicitly programmed.",
-      "explanation_incorrect": "Expert systems operate based on predefined rules, and heuristics are simple rules-of-thumb rather than adaptive learning models.",
-      "last_verified_at": "2026-06-12T16:39:50.858Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Machine learning methods can use data to improve a model or policy for a task; their design and objectives are still programmed by people.",
+      "explanation_incorrect": "Expert systems often apply predefined rules; the described data-driven adaptation is an example of machine learning."
     },
     {
       "subcategory": "Monster Truck Competitor",
@@ -859,18 +789,16 @@
     },
     {
       "subcategory": "Mecha Defense",
-      "question": "What type of armor plating is specifically designed to detonate upon enemy contact to disrupt incoming projectiles?",
+      "question": "Which type of armor uses explosive charges to disrupt an incoming projectile?",
       "options": [
-        "Composite armor",
-        "Reactive armor",
+        "Explosive reactive armor",
         "Ceramic plating",
-        "Spaced armor"
+        "Spaced armor",
+        "Steel sheet"
       ],
-      "answer": "Reactive armor",
-      "explanation_correct": "Reactive armor uses small explosive charges that fire outward when struck to dissipate energy.",
-      "explanation_incorrect": "Composite and ceramic armors are passive layers meant to absorb impact, not explosive countermeasures.",
-      "last_verified_at": "2026-06-12T16:39:50.858Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Explosive reactive armor",
+      "explanation_correct": "Explosive reactive armor uses explosive elements that react to a strike; designs and effectiveness depend on the threat.",
+      "explanation_incorrect": "Reactive armor also includes non-explosive designs. The other listed armor types do not by themselves specify explosive elements."
     },
     {
       "subcategory": "Monster Truck Stability",
@@ -917,7 +845,7 @@
     },
     {
       "subcategory": "Mecha Armor",
-      "question": "Which metallic element is commonly incorporated into heavy plating for its high strength-to-weight ratio?",
+      "question": "Which metal is known for a high strength-to-weight ratio and can be used in aerospace structures?",
       "options": [
         "Titanium",
         "Aluminum",
@@ -925,14 +853,12 @@
         "Beryllium"
       ],
       "answer": "Titanium",
-      "explanation_correct": "Titanium is favored in structural engineering for being both lightweight and exceptionally durable.",
-      "explanation_incorrect": "These metals are either too soft, prone to corrosion, or brittle compared to structural titanium.",
-      "last_verified_at": "2026-06-12T16:39:50.859Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Titanium alloys can offer high strength relative to their density, though alloy choice depends on the application.",
+      "explanation_incorrect": "Aluminum, magnesium and beryllium also have engineering uses; material performance depends on the particular alloy and design."
     },
     {
       "subcategory": "Monster Truck Fuel",
-      "question": "What is the primary alcohol-based fuel used by high-performance competition vehicles?",
+      "question": "According to Monster Jam, which alcohol fuels its trucks?",
       "options": [
         "Methanol",
         "Ethanol",
@@ -940,25 +866,21 @@
         "Propanol"
       ],
       "answer": "Methanol",
-      "explanation_correct": "Methanol is standard in professional monster truck racing for its high heat energy dissipation and performance.",
-      "explanation_incorrect": "While other alcohols exist, they do not provide the same chemical property profile required for high-torque engine output.",
-      "last_verified_at": "2026-06-12T16:39:50.859Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Monster Jam says its trucks use methanol fuel.",
+      "explanation_incorrect": "The question concerns the fuel named by Monster Jam; different racing series can use different fuels."
     },
     {
       "subcategory": "Mech Control Systems",
-      "question": "Which mathematical control algorithm is employed for maintaining precise joint motor positioning?",
+      "question": "In motor control, what does the abbreviation PID stand for?",
       "options": [
-        "PID controller",
-        "LQR control",
-        "Fuzzy logic",
-        "Neural network"
+        "Proportional-Integral-Derivative",
+        "Power-Input-Drive",
+        "Position-Impulse-Direction",
+        "Pressure-Inertia-Damping"
       ],
-      "answer": "PID controller",
-      "explanation_correct": "Proportional-Integral-Derivative control is the industry standard for closed-loop motion stabilization.",
-      "explanation_incorrect": "The other options are either analytical mathematical frameworks or AI-based models not used for basic motor position feedback.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Proportional-Integral-Derivative",
+      "explanation_correct": "A PID controller combines proportional, integral and derivative terms to compute a control signal.",
+      "explanation_incorrect": "Other control methods, including LQR and neural controllers, can also be used depending on the system."
     },
     {
       "subcategory": "Monster Truck History",
@@ -970,14 +892,12 @@
         "King Kong"
       ],
       "answer": "Bigfoot",
-      "explanation_correct": "Bigfoot is universally credited as the original monster truck built by Bob Chandler in the late 1970s.",
-      "explanation_incorrect": "These vehicles were later additions to the sport that gained fame after the original archetype was established.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bob Chandler’s Bigfoot is widely recognized as an early pioneer of the monster-truck genre.",
+      "explanation_incorrect": "The other trucks also have distinct histories; Bigfoot is associated with the genre’s early development."
     },
     {
       "subcategory": "Mech Actuators",
-      "question": "Which motor type is utilized when precise, stepped rotational movement is required for limb articulation?",
+      "question": "Which motor type is designed to rotate in discrete steps when driven by a suitable controller?",
       "options": [
         "Stepper motor",
         "Servo motor",
@@ -985,14 +905,12 @@
         "Universal motor"
       ],
       "answer": "Stepper motor",
-      "explanation_correct": "Stepper motors divide a full rotation into a series of discrete, equal steps.",
-      "explanation_incorrect": "Other motors rely on continuous rotation or complex encoders to manage specific position indexing.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A stepper motor divides rotation into discrete steps, although missed steps and other positioning errors are possible.",
+      "explanation_incorrect": "Other motor types can also be positioned precisely using appropriate controls and feedback."
     },
     {
       "subcategory": "Monster Truck Traction",
-      "question": "What specific tread design is implemented on massive tires to maximize grip during arena performance?",
+      "question": "What name describes a V-shaped agricultural tire tread pattern?",
       "options": [
         "Chevron tread",
         "Block tread",
@@ -1000,10 +918,8 @@
         "Siped tread"
       ],
       "answer": "Chevron tread",
-      "explanation_correct": "The V-shaped chevron pattern is designed to clear mud and provide superior biting force in soft dirt.",
-      "explanation_incorrect": "These other patterns are typically found on road tires or industrial implements not suited for arena performance.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A chevron tread uses angled bars forming a V-shaped pattern, often used for traction on soft ground.",
+      "explanation_incorrect": "Tire designs vary by application; a chevron is named for its V-shaped pattern."
     },
     {
       "subcategory": "Mech Resilience",
@@ -1015,29 +931,25 @@
         "Ductility"
       ],
       "answer": "Toughness",
-      "explanation_correct": "Toughness represents the total energy a material can absorb before rupture occurs.",
-      "explanation_incorrect": "Hardness refers to surface indentation resistance, while elasticity and ductility refer to reversible or permanent deformation without rupture.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Material toughness describes the energy absorbed per unit volume before fracture, represented by the area under the stress–strain curve.",
+      "explanation_incorrect": "Hardness refers to surface indentation resistance, while elasticity and ductility refer to reversible or permanent deformation without rupture."
     },
     {
       "subcategory": "Monster Truck Chassis",
-      "question": "What is the industry-standard structural design used to build the main chassis framework?",
+      "question": "What kind of framework made from metal tubes can form a monster truck chassis?",
       "options": [
         "Tube frame",
-        "Monocoque",
-        "Unibody",
-        "Space frame"
+        "Unibody shell",
+        "Solid wood block",
+        "Inflatable balloon"
       ],
       "answer": "Tube frame",
-      "explanation_correct": "A tube frame made of chromoly steel provides high strength and a mount point for the suspension.",
-      "explanation_incorrect": "Monocoque and unibody designs are commonly found in passenger cars, not the custom steel frames required for rough terrain.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tubular frames use interconnected metal tubes to support vehicle loads and mount components.",
+      "explanation_incorrect": "Some tube frames are also called space frames; the terms can overlap."
     },
     {
       "subcategory": "Mecha Sight",
-      "question": "What optical technology is utilized for high-resolution distance sensing and spatial mapping?",
+      "question": "Which sensor technology can build a 3D map by measuring the travel time of emitted laser light?",
       "options": [
         "LiDAR",
         "SONAR",
@@ -1045,10 +957,8 @@
         "Infrared"
       ],
       "answer": "LiDAR",
-      "explanation_correct": "LiDAR uses targeted laser pulses to calculate distances and create 3D maps of the environment.",
-      "explanation_incorrect": "SONAR uses sound waves, RADAR uses radio waves, and Infrared measures heat signatures, none of which provide the same mapping precision.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "LiDAR uses light, often laser pulses, to measure distance and build spatial maps.",
+      "explanation_incorrect": "Sonar uses sound and radar uses radio waves. Infrared is a range of wavelengths and can also be used in some optical sensors."
     },
     {
       "subcategory": "Monster Truck Torque",
@@ -1060,10 +970,8 @@
         "Helical gears"
       ],
       "answer": "Planetary gears",
-      "explanation_correct": "Planetary gear sets allow for compact, high-ratio reductions necessary to turn massive tires.",
-      "explanation_incorrect": "Other gear types fail to handle the high rotational torque required by the immense drivetrain loads.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Planetary gear sets provide compact gear reduction and can multiply output torque at wheel hubs.",
+      "explanation_incorrect": "Other gear types are used for different drivetrain designs; their suitability depends on their design and loads."
     },
     {
       "subcategory": "Mech Stability",
@@ -1080,7 +988,7 @@
     },
     {
       "subcategory": "Monster Truck Steering",
-      "question": "What steering configuration allows for independent control of front and rear wheel angles?",
+      "question": "What steering arrangement allows both the front and rear wheels to steer?",
       "options": [
         "Four-wheel steer",
         "Ackermann steering",
@@ -1088,29 +996,25 @@
         "Hydraulic steer"
       ],
       "answer": "Four-wheel steer",
-      "explanation_correct": "Four-wheel steering systems provide a tighter turning radius by manipulating both axle sets.",
-      "explanation_incorrect": "These alternatives are general mechanical systems that do not specifically describe the dual-axle control configuration.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Four-wheel steering can steer both axles. Independent rear-steering control depends on the design.",
+      "explanation_incorrect": "Ackermann geometry, rack-and-pinion mechanisms and hydraulic assistance describe other steering features and can be combined with four-wheel steering."
     },
     {
       "subcategory": "Mecha Materials",
-      "question": "Which synthetic fiber is primarily utilized to fabricate high-strength, low-weight cockpit safety protection?",
+      "question": "Which of these materials is an aramid fiber used in protective equipment?",
       "options": [
         "Kevlar",
         "Carbon fiber",
         "Fiberglass",
-        "Dyneema"
+        "Steel"
       ],
       "answer": "Kevlar",
-      "explanation_correct": "Kevlar is a high-tensile strength aramid fiber used for ballistics and impact shielding.",
-      "explanation_incorrect": "These other materials are rigid or have lower heat and impact resistance compared to the specific fiber used in pilot cells.",
-      "last_verified_at": "2026-06-12T16:39:50.860Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kevlar is a trademark for an aramid fiber used in some protective and structural applications.",
+      "explanation_incorrect": "Carbon fiber and fiberglass are different fiber materials; performance depends on the construction and application."
     },
     {
       "subcategory": "Monster Truck Engines",
-      "question": "Which component is traditionally employed in internal combustion engines to manage the air-fuel mixture?",
+      "question": "Which traditional engine component uses airflow through a venturi to mix fuel with intake air?",
       "options": [
         "Carburetor",
         "Fuel injector",
@@ -1118,10 +1022,8 @@
         "Turbocharger"
       ],
       "answer": "Carburetor",
-      "explanation_correct": "The carburetor uses mechanical airflow to draw fuel into the engine, formerly ubiquitous in early designs.",
-      "explanation_incorrect": "Superchargers and fuel injection are alternative methods of compression or delivery that serve different functional roles than the carburetor.",
-      "last_verified_at": "2026-06-12T16:39:50.861Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A carburetor meters and mixes fuel with air using airflow and pressure differences.",
+      "explanation_incorrect": "Fuel injectors also deliver fuel, but are not the traditional venturi-based device described."
     },
     {
       "subcategory": "Mech Manipulation",
@@ -1149,13 +1051,11 @@
       ],
       "answer": "Gravity",
       "explanation_correct": "Gravity provides the constant downward acceleration that governs the flight trajectory and landing velocity.",
-      "explanation_incorrect": "The other forces describe energy states or resistance, but are not the force creating the downward pull on the chassis.",
-      "last_verified_at": "2026-06-12T16:39:50.861Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gravity accelerates the vehicle downward during flight. Air resistance can also affect the trajectory."
     },
     {
       "subcategory": "Mecha Power",
-      "question": "What unit of measure is standard for Quantifying the total battery energy capacity used for electric propulsion?",
+      "question": "Which unit is commonly used to express the energy capacity of an electric vehicle battery?",
       "options": [
         "Watt-hours",
         "Amperes",
@@ -1163,25 +1063,21 @@
         "Volts"
       ],
       "answer": "Watt-hours",
-      "explanation_correct": "Watt-hours calculate the total electrical energy stored in battery systems over time.",
-      "explanation_incorrect": "Amperes and volts represent charge rate and potential, whereas Joules is rarely used for labeling commercial battery capacity.",
-      "last_verified_at": "2026-06-12T16:39:50.861Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Watt-hours or kilowatt-hours express stored energy. A watt-hour equals 3,600 joules.",
+      "explanation_incorrect": "Joules also measure energy but battery packs are commonly labeled in watt-hours; amperes and volts measure current and electric potential."
     },
     {
       "subcategory": "Monster Truck Braking",
-      "question": "What specialized braking mechanism is applied directly to the driveshaft instead of the individual wheels?",
+      "question": "What is a brake mounted at a differential pinion or driveshaft instead of at a wheel often called?",
       "options": [
-        "Pinion brakes",
-        "Drum brakes",
-        "Disc brakes",
-        "Regenerative brakes"
+        "Pinion brake",
+        "Parking sensor",
+        "Radiator cap",
+        "Seatbelt"
       ],
-      "answer": "Pinion brakes",
-      "explanation_correct": "Pinion brakes are positioned on the driveshaft to utilize the gear reduction in the differential for braking power.",
-      "explanation_incorrect": "These other systems are usually applied at the wheel level rather than the transmission drivetrain level.",
-      "last_verified_at": "2026-06-12T16:39:50.861Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pinion brake",
+      "explanation_correct": "A pinion brake acts on the driveline near a differential input, rather than directly at an individual wheel.",
+      "explanation_incorrect": "A pinion brake may itself use a disc; disc and drum describe brake construction, not necessarily mounting location."
     },
     {
       "subcategory": "Mech Kinematics",
@@ -1194,9 +1090,7 @@
       ],
       "answer": "Forward kinematics",
       "explanation_correct": "Forward kinematics uses geometry to determine the position of end effectors given known joint angles.",
-      "explanation_incorrect": "Inverse kinematics calculates required angles for a desired end position, while the others are unrelated motion calculations.",
-      "last_verified_at": "2026-06-12T16:39:50.861Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Inverse kinematics seeks joint configurations for a desired end pose; differential kinematics relates joint velocities to end-effector velocity."
     },
     {
       "subcategory": "Monster Truck Physics",
@@ -1223,14 +1117,12 @@
         "Projector"
       ],
       "answer": "Head-up display",
-      "explanation_correct": "A head-up display projects information directly into the pilot's line of sight without requiring them to look down.",
-      "explanation_incorrect": "While monitors, lenses, and projectors are display elements, they do not function as the specific HUD system described.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A head-up display presents information in the pilot’s forward field of view; the display technology and mounting can vary.",
+      "explanation_incorrect": "A head-up display describes how information is presented, while projectors and lenses can be components of display systems."
     },
     {
       "subcategory": "Monster Truck Fueling",
-      "question": "What specialized container is used in a monster truck to store high-octane fuel safely?",
+      "question": "What is the name for a crash-resistant container designed to store racing fuel?",
       "options": [
         "Storage bin",
         "Fuel cell",
@@ -1238,10 +1130,8 @@
         "Reservoir"
       ],
       "answer": "Fuel cell",
-      "explanation_correct": "Fuel cells are specialized, crash-resistant containers designed to prevent explosive leaks in racing vehicles.",
-      "explanation_incorrect": "Storage bins, tankers, and reservoirs are generic storage terms that lack the specific safety construction required for racing fuel.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A racing fuel cell is a safety-oriented fuel container designed to reduce leakage risk after impact.",
+      "explanation_incorrect": "A racing fuel cell stores fuel; an electrochemical fuel cell is a different device that produces electricity."
     },
     {
       "subcategory": "Mech Cybernetics",
@@ -1254,13 +1144,11 @@
       ],
       "answer": "Cyborg",
       "explanation_correct": "A cyborg is an entity that incorporates both organic biological and mechanical robotic components.",
-      "explanation_incorrect": "Androids, automatons, and synthetics refer to fully artificial beings without biological components.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "An android is a humanlike artificial being, while an automaton is a self-operating machine. Fictional uses of these terms vary."
     },
     {
       "subcategory": "Monster Truck Ignition",
-      "question": "What primary engine ignition component generates high-voltage electricity for a monster truck's spark plugs?",
+      "question": "What ignition device uses a rotating magnet to generate electrical pulses for spark plugs?",
       "options": [
         "Alternator",
         "Magneto",
@@ -1268,14 +1156,12 @@
         "Starter"
       ],
       "answer": "Magneto",
-      "explanation_correct": "A magneto is an electrical generator that uses permanent magnets to produce high-voltage pulses to fire spark plugs without a battery.",
-      "explanation_incorrect": "Alternators, distributors, and starters serve different roles in electrical power generation and engine cranking.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A magneto generates ignition pulses using magnets and coils, without requiring a battery for the spark.",
+      "explanation_incorrect": "Not every ignition system uses a magneto; an alternator supplies electrical power and a distributor routes ignition pulses."
     },
     {
       "subcategory": "Mecha Cooling",
-      "question": "Which mecha cooling component is responsible for dissipating engine heat into the ambient air?",
+      "question": "Which component transfers heat from hot engine coolant to the surrounding air?",
       "options": [
         "Radiator",
         "Heat sink",
@@ -1283,14 +1169,12 @@
         "Coolant pump"
       ],
       "answer": "Radiator",
-      "explanation_correct": "A radiator uses airflow to remove heat from the coolant fluid circulating through an engine.",
-      "explanation_incorrect": "Heat sinks, condensers, and pumps manage thermal transfer, but the radiator is the primary airborne heat dissipator.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A radiator transfers heat from circulating coolant to air passing over its surface.",
+      "explanation_incorrect": "A radiator is a type of heat exchanger. Heat sinks can also dissipate heat to air, but the question specifies engine coolant."
     },
     {
       "subcategory": "Monster Truck Impact",
-      "question": "What material category characterizes the vehicles typically crushed by a monster truck in a display?",
+      "question": "What are vehicles placed for a monster truck to drive over in a car-crushing demonstration typically made from?",
       "options": [
         "Soft plastic",
         "Scrap metal",
@@ -1298,10 +1182,8 @@
         "Reinforced concrete"
       ],
       "answer": "Scrap metal",
-      "explanation_correct": "Monster trucks are designed to crush passenger vehicles composed primarily of scrap steel and aluminum.",
-      "explanation_incorrect": "Plastic, wood, and concrete are not the standard composition materials used in vehicles chosen for crushing demonstrations.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Passenger vehicles include steel and other metals, and discarded vehicles are often called scrap cars.",
+      "explanation_incorrect": "Vehicles also contain plastic, glass and other materials; their precise composition varies."
     },
     {
       "subcategory": "Mech Articulation",
@@ -1320,7 +1202,7 @@
     },
     {
       "subcategory": "Monster Truck Steering",
-      "question": "What substance is essential in a monster truck to provide the necessary pressure for steering assistance?",
+      "question": "Which fluid transmits pressure in a hydraulic power-steering system?",
       "options": [
         "Brake fluid",
         "Hydraulic fluid",
@@ -1328,70 +1210,60 @@
         "Coolant"
       ],
       "answer": "Hydraulic fluid",
-      "explanation_correct": "Hydraulic fluid transmits the power generated by steering pumps to the steering rack to allow easy turning.",
-      "explanation_incorrect": "Brake fluid, oil, and coolant are specialized fluids for braking, lubrication, and cooling systems respectively.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hydraulic steering uses pressurized fluid to transmit force from a pump to a steering actuator.",
+      "explanation_incorrect": "Fluid specifications vary by system; some vehicles use electric power steering instead."
     },
     {
       "subcategory": "Mecha Robotics",
-      "question": "What is the primary engineering branch that combines electronics, mechanics, and systems design for moving robots?",
+      "question": "What engineering field integrates mechanical engineering, electronics and control systems?",
       "options": [
-        "Cybernetics",
         "Mechatronics",
-        "Robotics",
-        "Automation"
+        "Botany",
+        "Geology",
+        "Linguistics"
       ],
       "answer": "Mechatronics",
-      "explanation_correct": "Mechatronics specifically bridge the gap between mechanical systems, electronics, and computing.",
-      "explanation_incorrect": "While robotics and automation are related, mechatronics is the formal engineering discipline describing this holistic integration.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mechatronics combines mechanical systems, electronics, control and computing.",
+      "explanation_incorrect": "Robotics is a related field that also draws on these disciplines; mechatronics names the integration described."
     },
     {
       "subcategory": "Monster Truck Wheels",
-      "question": "What is the standard wheel rim diameter used on modern monster trucks?",
+      "question": "According to Monster Jam, what is the approximate overall diameter of its BKT monster truck tires?",
       "options": [
-        "Eighteen inches",
-        "Twenty inches",
-        "Twenty-five inches",
-        "Thirty inches"
+        "66 inches",
+        "25 inches",
+        "12 inches",
+        "8 inches"
       ],
-      "answer": "Twenty-five inches",
-      "explanation_correct": "Standard monster truck monster tires are fitted to wheels measuring 25 inches in diameter.",
-      "explanation_incorrect": "Other rim sizes do not align with the standard design parameters for full-size monster truck competition.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "66 inches",
+      "explanation_correct": "Monster Jam lists its BKT tires as 66 inches in overall diameter.",
+      "explanation_incorrect": "Overall tire diameter and wheel rim diameter are different measurements."
     },
     {
       "subcategory": "Mech Terrain",
-      "question": "What term defines a mecha's capability to traverse varied surface conditions like soil, rock, or mud?",
+      "question": "What common term describes a vehicle designed to travel across a variety of terrain types?",
       "options": [
         "All-terrain",
-        "High-mobility",
-        "Super-traction",
-        "Multi-surface"
+        "Airborne-only",
+        "Stationary",
+        "Submersible-only"
       ],
       "answer": "All-terrain",
-      "explanation_correct": "All-terrain describes a machine designed to operate efficiently across a wide variety of ground conditions.",
-      "explanation_incorrect": "High-mobility, super-traction, and multi-surface are descriptors, but not the technical classification for earth-traversing capability.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "All-terrain describes a vehicle designed for different kinds of ground.",
+      "explanation_incorrect": "All-terrain is a common description rather than a guarantee that a vehicle can traverse every surface."
     },
     {
       "subcategory": "Monster Truck Sound",
-      "question": "What exhaust component is intended to reduce noise, though rarely used in professional monster truck competition?",
+      "question": "Which exhaust component is designed to reduce engine noise?",
       "options": [
-        "Resonator",
         "Muffler",
-        "Tailpipe",
-        "Catalytic converter"
+        "Seatbelt",
+        "Clutch pedal",
+        "Wheel hub"
       ],
       "answer": "Muffler",
-      "explanation_correct": "A muffler is a device designed to dampen acoustic noise from an engine, which is generally bypassed in racing.",
-      "explanation_incorrect": "Resonators, tailpipes, and converters manage sound frequency or emissions but are not the primary noise-canceling block.",
-      "last_verified_at": "2026-06-12T16:40:08.009Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A muffler reduces sound transmitted through the exhaust system.",
+      "explanation_incorrect": "Resonators can also alter or reduce exhaust noise. The remaining listed options have other functions."
     },
     {
       "subcategory": "Mecha Software",
@@ -1410,7 +1282,7 @@
     },
     {
       "subcategory": "Monster Truck Start",
-      "question": "Which visual signal indicates the official commencement of a monster truck race?",
+      "question": "What color commonly signals the start of a motorsport race when a starting light system is used?",
       "options": [
         "Yellow flag",
         "Green light",
@@ -1418,85 +1290,73 @@
         "Blue flare"
       ],
       "answer": "Green light",
-      "explanation_correct": "A green light is the standardized signal for starting competition in most motor sports.",
-      "explanation_incorrect": "Yellow, red, and blue signs indicate cautions, stops, or other specialized warnings in an arena.",
-      "last_verified_at": "2026-06-12T16:40:08.010Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A green starting light commonly indicates that a race may begin; event-specific procedures vary.",
+      "explanation_incorrect": "Yellow and red signals often indicate caution and stop conditions, depending on the competition rules."
     },
     {
       "subcategory": "Mecha Structural Safety",
-      "question": "What safety component is designed to break under extreme stress to prevent catastrophic damage to a mecha's structure?",
+      "question": "Which sacrificial mechanical pin is designed to break at a specified load and protect other components?",
       "options": [
         "Shear pin",
-        "Safety valve",
-        "Weak link",
-        "Fuse"
+        "Radiator cap",
+        "Spark plug",
+        "Bearing race"
       ],
       "answer": "Shear pin",
-      "explanation_correct": "A shear pin is designed to sacrifice itself and break when a specific torque or force limit is exceeded.",
-      "explanation_incorrect": "Valves, links, and fuses serve electrical or bypass purposes, whereas shear pins are strictly mechanical safety breaks.",
-      "last_verified_at": "2026-06-12T16:40:08.010Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A shear pin is designed to fail in shear above a selected load, protecting other parts.",
+      "explanation_incorrect": "A shear pin is one kind of mechanical weak link; the other listed parts serve different roles."
     },
     {
       "subcategory": "Monster Truck Surface",
-      "question": "Which material is most commonly used to cover the arena floor for monster truck events?",
+      "question": "What loose earth material is commonly used to construct ramps on indoor monster truck arena floors?",
       "options": [
-        "Sand",
-        "Clay",
         "Dirt",
-        "Gravel"
+        "Glass",
+        "Liquid nitrogen",
+        "Ice cream"
       ],
       "answer": "Dirt",
-      "explanation_correct": "Performance arenas use large quantities of dirt to provide traction and absorb impact.",
-      "explanation_incorrect": "Sand, clay, and gravel offer uneven stability compared to the balanced compaction provided by event dirt.",
-      "last_verified_at": "2026-06-12T16:40:08.010Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Monster-truck arenas commonly use dirt to construct their driving surfaces and ramps.",
+      "explanation_incorrect": "Dirt can contain a mixture of materials including sand and clay; the exact composition varies."
     },
     {
       "subcategory": "Mecha Energy",
-      "question": "What type of energy storage relies on the rotational momentum of a spinning mass in a mecha?",
+      "question": "What form of energy is stored in a rotating flywheel?",
       "options": [
         "Kinetic energy",
-        "Flywheel energy",
-        "Thermal energy",
-        "Potential energy"
+        "Chemical energy",
+        "Nuclear energy",
+        "Electrochemical energy"
       ],
-      "answer": "Flywheel energy",
-      "explanation_correct": "Flywheel energy storage uses the inertia of a heavy, spinning wheel to store mechanical potential.",
-      "explanation_incorrect": "Kinetic, thermal, and potential energy are broader physics concepts rather than the specific component storage method.",
-      "last_verified_at": "2026-06-12T16:40:08.010Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kinetic energy",
+      "explanation_correct": "A flywheel stores rotational kinetic energy; for moment of inertia I and angular speed ω, the energy is ½Iω².",
+      "explanation_incorrect": "The stored energy is due to rotation, not a chemical or nuclear reaction."
     },
     {
       "subcategory": "Monster Truck Physics",
-      "question": "What force directed toward the center of a curve allows a monster truck to maintain its turning trajectory?",
+      "question": "What is the name for the net force directed toward the center of a vehicle’s curved path?",
       "options": [
-        "Inertial force",
         "Centripetal force",
-        "Gravity",
-        "Frictional force"
+        "Momentum",
+        "Velocity",
+        "Mass"
       ],
       "answer": "Centripetal force",
-      "explanation_correct": "Centripetal force is the net inward force required to keep an object moving in a curved path.",
-      "explanation_incorrect": "Inertia, gravity, and friction are forces at play, but they do not specifically define the inward turning resultant.",
-      "last_verified_at": "2026-06-12T16:40:08.010Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Centripetal force is the inward net force required for curved motion. Tire-road friction can supply it.",
+      "explanation_incorrect": "Friction may provide part or all of the centripetal force; momentum, velocity and mass are not forces."
     },
     {
       "subcategory": "Mecha Prototyping",
-      "question": "What lightweight, durable material is standard for creating rapid structural prototypes for mecha limbs?",
+      "question": "Which lightweight metal can be machined into prototype robot components?",
       "options": [
-        "Cast iron",
         "Aluminum",
-        "Carbon fiber",
-        "Steel"
+        "Paper",
+        "Cardboard",
+        "Rubber"
       ],
-      "answer": "Carbon fiber",
-      "explanation_correct": "Carbon fiber is favored in engineering prototypes for its high strength-to-weight ratio and ease of molding.",
-      "explanation_incorrect": "Iron, aluminum, and steel are common but much heavier and harder to rapidly iterate compared to composites.",
-      "last_verified_at": "2026-06-12T16:40:08.010Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Aluminum",
+      "explanation_correct": "Aluminum alloys are often machinable and relatively light, making them useful for some prototypes.",
+      "explanation_incorrect": "Prototype material depends on process, loads and cost; carbon fiber is not inherently the easiest material for rapid iteration."
     }
   ]
 }
