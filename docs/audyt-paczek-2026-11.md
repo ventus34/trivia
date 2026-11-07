@@ -58,6 +58,10 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Absurd Physics: Monster Trucks & Mechs (EN):** przegląd 100 pytań, korekty 70 pozycji; zakres, źródła i ograniczenia w [raporcie](audits/2026-11-07-absurd-physics-monster-trucks-mechs-en.md).
 
+- **Meble i Design Wnętrz (PL):** przegląd 100 pytań, korekty 48 pozycji; zakres, wybrane źródła i ograniczenia w [raporcie](audits/2026-11-07-meble-i-design-wnetrz-pl.md).
+
+- **Mass Production & Food Factories (EN):** przegląd 100 pytań, korekty 70 pozycji; szczegóły i ograniczenia w [raporcie](audits/2026-11-07-mass-production-food-factories-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

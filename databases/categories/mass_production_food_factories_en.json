@@ -10,7 +10,7 @@
   "questions": [
     {
       "subcategory": "Automation",
-      "question": "Which robot type is commonly utilized for high-speed picking and placing of food items?",
+      "question": "Which type of parallel robot is widely used for high-speed picking of lightweight food items?",
       "options": [
         "Delta robot",
         "SCARA robot",
@@ -19,13 +19,11 @@
       ],
       "answer": "Delta robot",
       "explanation_correct": "Delta robots are parallel robots known for their extreme speed and precision in light-load picking tasks.",
-      "explanation_incorrect": "SCARA, Gantry, and Articulated robots are typically used for heavier assembly or palletizing tasks rather than high-speed food picking.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "SCARA, gantry, and articulated robots can also be used for picking and packing; the question specifies the parallel delta design."
     },
     {
       "subcategory": "Sanitation",
-      "question": "Which cleaning method is utilized in food factories to sanitize equipment without requiring dismantling?",
+      "question": "What is the name for circulating cleaning solutions through fixed pipes and vessels without routinely dismantling them?",
       "options": [
         "Clean-In-Place",
         "Dry steam cleaning",
@@ -33,10 +31,8 @@
         "Manual scrubbing"
       ],
       "answer": "Clean-In-Place",
-      "explanation_correct": "Clean-In-Place (CIP) systems circulate cleaning solutions through pipes and vessels entirely internally.",
-      "explanation_incorrect": "These alternatives either involve physical labor, specialized physical energy, or require the equipment to be taken apart.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Clean-in-place (CIP) circulates cleaning solutions through equipment. Cleaning and sanitizing are distinct operations that can be combined in a validated system.",
+      "explanation_incorrect": "Other cleaning or sanitation methods may also work without dismantling; CIP specifically describes cleaning the equipment in place."
     },
     {
       "subcategory": "Oil Production",
@@ -55,7 +51,7 @@
     },
     {
       "subcategory": "Oil Production",
-      "question": "Which machine is standard for crushing seeds to extract their natural oils?",
+      "question": "Which machine mechanically extracts oil from seeds by squeezing them in a barrel?",
       "options": [
         "Screw press",
         "Hammer mill",
@@ -64,39 +60,33 @@
       ],
       "answer": "Screw press",
       "explanation_correct": "A screw press uses high mechanical pressure to force oil out of seeds through a perforated barrel.",
-      "explanation_incorrect": "Hammer, ball, and disc mills are grinding tools used for pulverizing materials rather than extracting liquid oils.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A screw press mechanically expels oil; other mills may prepare or grind seeds before extraction."
     },
     {
       "subcategory": "Bakery",
-      "question": "Which cold-cutting technology is increasingly used in industrial bakeries to score bread dough with extreme precision and zero physical contact?",
+      "question": "Which machine divides a continuous sheet of dough into shapes using rotating cutting tools?",
       "options": [
-        "Waterjet cutter",
-        "Laser engraver",
-        "Plasma torch",
-        "Sandblasting"
+        "Rotary cutter",
+        "Cooling tunnel",
+        "Metal detector",
+        "Case palletizer"
       ],
-      "answer": "Waterjet cutter",
-      "explanation_correct": "High-pressure waterjet cutters provide precise, clean cuts on dough without any mechanical blade contact, reducing sticking.",
-      "explanation_incorrect": "Lasers and plasma torches would generate heat and char the dough, while sandblasting is not a food-grade cutting method.",
-      "last_verified_at": "2026-06-12T16:36:36.195Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Rotary cutter",
+      "explanation_correct": "A rotary cutter uses rotating tools to cut shapes from a moving sheet of dough.",
+      "explanation_incorrect": "Cooling tunnels cool products, metal detectors inspect for metal, and palletizers stack packages."
     },
     {
       "subcategory": "Frozen Food",
-      "question": "What is the name of the fluidizing bed technology used for the rapid individual freezing of small food items like peas?",
+      "question": "What does IQF stand for in a freezer used to freeze individual pieces of food?",
       "options": [
-        "IQF freezer",
-        "Spiral freezer",
-        "Blast chiller",
-        "Plate freezer"
+        "Individually quick frozen",
+        "Internally quality filtered",
+        "Industrial quantity finished",
+        "Intensive quartz filtration"
       ],
-      "answer": "IQF freezer",
-      "explanation_correct": "IQF stands for Individually Quick Frozen, describing a technology where product particles are frozen while kept in motion.",
-      "explanation_incorrect": "Spiral, blast, and plate freezers are methods for freezing bulk or packaged products but do not fluidize the product bed.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Individually quick frozen",
+      "explanation_correct": "IQF refers to individually quick frozen food; fluidized-bed equipment is one way to freeze separate small pieces.",
+      "explanation_incorrect": "The other expansions are not the meaning of IQF. Individual quick freezing can use different equipment designs."
     },
     {
       "subcategory": "Sugar",
@@ -115,18 +105,16 @@
     },
     {
       "subcategory": "Labeling",
-      "question": "Which adhesive method is the standard for high-speed bottle labeling in beverage manufacturing?",
+      "question": "Which type of adhesive is heated to a molten state and solidifies as it cools?",
       "options": [
         "Hot melt",
-        "Pressure sensitive",
-        "Cold glue",
-        "Water-activated"
+        "Water",
+        "Carbon dioxide",
+        "Dry nitrogen"
       ],
       "answer": "Hot melt",
-      "explanation_correct": "Hot melt adhesives provide near-instant bonding necessary for high-speed labeling lines.",
-      "explanation_incorrect": "Pressure-sensitive and cold glue methods are typically too slow or complex for high-speed automated bottling lines.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hot-melt adhesives are applied molten and bond as they cool; labeling lines can also use cold glue or pressure-sensitive labels.",
+      "explanation_incorrect": "The other options are not hot-melt adhesives."
     },
     {
       "subcategory": "Meat Processing",
@@ -138,14 +126,12 @@
         "Xenon"
       ],
       "answer": "Carbon dioxide",
-      "explanation_correct": "Carbon dioxide inhibits the growth of aerobic bacteria and molds, extending the shelf life of raw meat.",
-      "explanation_incorrect": "Helium, Argon, and Xenon are inert gases that do not provide the antimicrobial benefits needed for food storage.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Carbon dioxide can inhibit the growth of some spoilage microorganisms in modified-atmosphere packaging. The gas mix depends on the product and desired color.",
+      "explanation_incorrect": "Packaging gas mixtures vary; nitrogen or oxygen may also be used depending on the food and process."
     },
     {
       "subcategory": "Brewing",
-      "question": "What is the industry term for the large tank used during the primary stage of beer production?",
+      "question": "What is the vessel in which yeast converts wort sugars into alcohol during beer production?",
       "options": [
         "Fermenter",
         "Distillation column",
@@ -154,9 +140,7 @@
       ],
       "answer": "Fermenter",
       "explanation_correct": "A fermenter is a vessel designed specifically for yeast to convert wort sugars into alcohol.",
-      "explanation_incorrect": "Distillation columns separate alcohols, evaporators remove water, and clarifiers remove solid particles.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Distillation columns separate alcohols, evaporators remove water, and clarifiers remove solid particles."
     },
     {
       "subcategory": "Chocolate",
@@ -175,18 +159,16 @@
     },
     {
       "subcategory": "Fruit Processing",
-      "question": "Which enzyme is frequently used to chemically peel citrus fruits in food processing?",
+      "question": "Which enzyme group can help break down pectin during industrial citrus peeling?",
       "options": [
-        "Cellulase",
+        "Pectinase",
         "Amylase",
         "Protease",
         "Lipase"
       ],
-      "answer": "Cellulase",
-      "explanation_correct": "Cellulase breaks down the pectin or cellulose bonds in the albedo layer of citrus, allowing for easy peeling.",
-      "explanation_incorrect": "Amylase, protease, and lipase target carbohydrates, proteins, and fats respectively, not the plant structural layers.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pectinase",
+      "explanation_correct": "Pectinases act on pectin in plant tissues and can aid enzymatic peeling.",
+      "explanation_incorrect": "Amylases act on starch, proteases on proteins, and lipases on fats."
     },
     {
       "subcategory": "Mill",
@@ -199,24 +181,20 @@
       ],
       "answer": "Roller mill",
       "explanation_correct": "Roller mills use crushing and shearing actions through steel rolls to produce uniform flour particle sizes.",
-      "explanation_incorrect": "Impact, cone, and jaw crushers are heavy-duty mining equipment not suitable for flour milling.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Roller mills are widely used in wheat flour production. Other milling technologies, including impact mills, can also produce flour."
     },
     {
       "subcategory": "Cheese",
-      "question": "Which specific enzyme is utilized to coagulate milk in large-scale cheese production?",
+      "question": "Which milk-clotting enzyme is a principal active component of traditional calf rennet?",
       "options": [
-        "Rennet",
+        "Chymosin",
         "Lactase",
-        "Pepsin",
-        "Chymosin"
+        "Amylase",
+        "Lipase"
       ],
-      "answer": "Rennet",
-      "explanation_correct": "Rennet contains enzymes that cause milk to curdle, separating solids from liquids.",
-      "explanation_incorrect": "Lactase is for sugar breakdown, while pepsin and chymosin are general proteases not always optimized for specific dairy coagulation.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Chymosin",
+      "explanation_correct": "Chymosin is a milk-clotting protease present in calf rennet and is also commercially produced using fermentation.",
+      "explanation_incorrect": "Lactase acts on lactose; amylase and lipase target starch and fats. Rennet is a preparation that can contain chymosin and other enzymes."
     },
     {
       "subcategory": "Poultry",
@@ -243,10 +221,8 @@
         "Drum drying"
       ],
       "answer": "Lyophilization",
-      "explanation_correct": "Lyophilization, or freeze-drying, removes moisture by sublimation, preserving the delicate flavors of the coffee.",
-      "explanation_incorrect": "Spray, drum, and standard dehydration involve heat that would degrade the quality of artisan coffee products.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lyophilization, or freeze-drying, removes water from frozen material primarily by sublimation under reduced pressure.",
+      "explanation_incorrect": "Spray drying and drum drying are different drying methods, and dehydration is a broad term that includes many processes."
     },
     {
       "subcategory": "Seafood",
@@ -265,37 +241,33 @@
     },
     {
       "subcategory": "Condiments",
-      "question": "What machine serves as a high-shear mixer to create stable emulsions in mayonnaise production?",
+      "question": "What name describes a machine designed to disperse oil droplets in water when making mayonnaise?",
       "options": [
-        "Emulsifier",
-        "Homogenizer",
-        "Colloid mill",
-        "Static mixer"
+        "Emulsifying mixer",
+        "Bottle labeler",
+        "Metal detector",
+        "Case palletizer"
       ],
-      "answer": "Emulsifier",
-      "explanation_correct": "The emulsifier (or emulsifying mixer) creates the high shear required to disperse oil droplets within a water-based liquid.",
-      "explanation_incorrect": "Homogenizers and colloid mills are related, but 'emulsifier' is the standard terminology for this specific culinary mixer.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Emulsifying mixer",
+      "explanation_correct": "An emulsifying mixer disperses one liquid in another. Colloid mills and homogenizers can also be used to make emulsions.",
+      "explanation_incorrect": "The other machines are for labeling, inspection, or handling packages."
     },
     {
       "subcategory": "Canning",
-      "question": "Which individual is credited with the invention of the double seam method for canning?",
+      "question": "What is the name for the interlocking joint commonly used to attach a metal end to a food can?",
       "options": [
-        "Max Ams",
-        "Nicholas Appert",
-        "Louis Pasteur",
-        "Henry Heinz"
+        "Double seam",
+        "Welded zipper",
+        "Bottle crown",
+        "Paper fold"
       ],
-      "answer": "Max Ams",
-      "explanation_correct": "Max Ams developed the double seaming process, which became the global standard for hermetically sealing cans.",
-      "explanation_incorrect": "Appert pioneered canning principles, Pasteur studied pasteurization, and Heinz was a food industrialist.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Double seam",
+      "explanation_correct": "A double seam joins the can end and body by mechanically interlocking their metal edges.",
+      "explanation_incorrect": "A bottle crown is a type of bottle closure; the other terms do not describe the standard interlocking can seam."
     },
     {
       "subcategory": "Packaging",
-      "question": "What type of plastic is the industry-standard material for manufacturing beverage bottles?",
+      "question": "Which plastic is widely used for clear beverage bottles, including many carbonated-drink bottles?",
       "options": [
         "PET",
         "PVC",
@@ -304,13 +276,11 @@
       ],
       "answer": "PET",
       "explanation_correct": "PET (Polyethylene Terephthalate) is the standard plastic due to its clarity, strength, and barrier properties.",
-      "explanation_incorrect": "PVC is rarely used for beverages, while HDPE and LDPE are usually for opaque containers like milk jugs or bags.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other plastics such as HDPE are used for some drinks, including milk; PET is common for clear beverage bottles."
     },
     {
       "subcategory": "Beverages",
-      "question": "Which process is the industry standard for removing alcohol from beer without using high heat that would degrade the flavor?",
+      "question": "Which method can remove alcohol from beer at reduced pressure and relatively low temperatures?",
       "options": [
         "Vacuum distillation",
         "Centrifugation",
@@ -318,10 +288,8 @@
         "Carbonation"
       ],
       "answer": "Vacuum distillation",
-      "explanation_correct": "Vacuum distillation lowers the boiling point of alcohol, allowing it to be removed at temperatures low enough to preserve beer flavor.",
-      "explanation_incorrect": "Centrifugation separates solids, flash pasteurization is for sterilization, and carbonation adds fizz.",
-      "last_verified_at": "2026-06-12T16:36:36.195Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Vacuum distillation lowers boiling temperatures and can be used to remove alcohol from beer; flavor changes are still possible.",
+      "explanation_incorrect": "Membrane processes are another option. Flash pasteurization reduces microbes rather than sterilizing the beer."
     },
     {
       "subcategory": "Bakery",
@@ -340,7 +308,7 @@
     },
     {
       "subcategory": "Packaging",
-      "question": "Which individual is identified as the founder of the aseptic packaging system widely used for milk?",
+      "question": "Who founded the packaging company Tetra Pak?",
       "options": [
         "Ruben Rausing",
         "Henrik Lund",
@@ -348,14 +316,12 @@
         "Gustaf de Laval"
       ],
       "answer": "Ruben Rausing",
-      "explanation_correct": "Ruben Rausing founded Tetra Pak and pioneered the aseptic packaging method that revolutionized milk storage.",
-      "explanation_incorrect": "The other individuals are associated with various Swedish industrial inventions but did not invent the aseptic milk packaging system.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ruben Rausing founded Tetra Pak. Its packaging technologies were developed by teams, including Erik Wallenberg’s contribution to the tetrahedral carton design.",
+      "explanation_incorrect": "Erik Wallenberg contributed to carton design; aseptic processing and packaging have a broader development history than a single inventor."
     },
     {
       "subcategory": "Confectionery",
-      "question": "What is the name of the machine used to polish chocolate and remove bitterness through a long grinding process?",
+      "question": "Which machine kneads and aerates chocolate mass for an extended period to develop texture and flavor?",
       "options": [
         "Conching machine",
         "Temperer",
@@ -363,29 +329,25 @@
         "Winnowing machine"
       ],
       "answer": "Conching machine",
-      "explanation_correct": "The conching machine surfaces and aerates liquid chocolate to refine texture and dissipate volatile acids.",
-      "explanation_incorrect": "Temperers, melangeurs, and winnowing machines perform different roles like stabilization, coarse grinding, or hull removal.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Conching mixes and aerates chocolate, improving flow and texture and allowing some volatile acids to dissipate.",
+      "explanation_incorrect": "A temperer controls cocoa-butter crystals; a melangeur can grind ingredients, while winnowing separates cocoa nibs from shells."
     },
     {
       "subcategory": "Safety",
-      "question": "What is the industry-standard management system used to identify and control safety risks during food production?",
+      "question": "What does HACCP stand for in food safety management?",
       "options": [
-        "HACCP",
-        "ISO 9001",
-        "GMP",
-        "SQF"
+        "Hazard Analysis and Critical Control Points",
+        "Hazard Assessment and Consumer Compliance Plan",
+        "Heat Application and Cold Chain Protocol",
+        "High Accuracy Container Control Program"
       ],
-      "answer": "HACCP",
-      "explanation_correct": "Hazard Analysis and Critical Control Points (HACCP) is the systematic approach to food safety.",
-      "explanation_incorrect": "ISO 9001, GMP, and SQF refer to general quality guidelines or certification standards rather than the specific hazard-focused hazard assessment protocol.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Hazard Analysis and Critical Control Points",
+      "explanation_correct": "HACCP is a systematic approach to identifying and controlling significant food-safety hazards.",
+      "explanation_incorrect": "GMP and SQF also support food safety, but HACCP specifically stands for Hazard Analysis and Critical Control Points."
     },
     {
       "subcategory": "Canning",
-      "question": "Which material serves as the standard internal coating for aluminum cans to prevent corrosion and flavor leaching?",
+      "question": "Which material has commonly been used as an internal protective coating in food and beverage cans?",
       "options": [
         "Epoxy resin",
         "Teflon",
@@ -393,10 +355,8 @@
         "Silicone"
       ],
       "answer": "Epoxy resin",
-      "explanation_correct": "Epoxy resins are applied to the interior liner of cans to act as a barrier between the acidic food or drink and the metal.",
-      "explanation_incorrect": "Teflon, polyethylene, and silicone do not offer the same chemical adhesion and protective barriers for metal-canned food preservation.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Epoxy coatings have been widely used as barriers between metal cans and their contents. Alternative coatings are also used and rules vary by jurisdiction.",
+      "explanation_incorrect": "Can linings vary by product and manufacturer; polyethylene and other materials can also be used in suitable packaging applications."
     },
     {
       "subcategory": "Dairy",
@@ -408,10 +368,8 @@
         "Standardization"
       ],
       "answer": "Homogenization",
-      "explanation_correct": "Homogenization forces milk through a small valve to disrupt fat globules, preventing cream separation.",
-      "explanation_incorrect": "The other processes relate to the physical separation of milk components or adjustment of fat levels, not the reduction of globule size.",
-      "last_verified_at": "2026-06-12T16:35:41.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Homogenization reduces milk fat globule sizes, helping slow the separation of cream.",
+      "explanation_incorrect": "The other processes relate to the physical separation of milk components or adjustment of fat levels, not the reduction of globule size."
     },
     {
       "subcategory": "Dairy",
@@ -423,10 +381,8 @@
         "Irradiation"
       ],
       "answer": "Pasteurization",
-      "explanation_correct": "Pasteurization uses controlled heat to kill pathogens without destroying the product's nutritional or taste quality.",
-      "explanation_incorrect": "Sterilization is a more intense process, while cooling and irradiation serve different purposes within the dairy supply chain.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "High-temperature, short-time pasteurization uses controlled heating to reduce pathogens and spoilage organisms. It does not make milk sterile and may cause small changes in quality.",
+      "explanation_incorrect": "Sterilization is a distinct, more intensive process; cooling and irradiation are different treatments."
     },
     {
       "subcategory": "Automated Sorting",
@@ -460,7 +416,7 @@
     },
     {
       "subcategory": "Freezing",
-      "question": "Which technique for freezing individual food items uses liquid nitrogen or carbon dioxide for near-instant chilling?",
+      "question": "Which freezing method can use liquid nitrogen or carbon dioxide as a cryogen?",
       "options": [
         "Cryogenic freezing",
         "Blast chilling",
@@ -468,10 +424,8 @@
         "Air-blast freezing"
       ],
       "answer": "Cryogenic freezing",
-      "explanation_correct": "Cryogenic freezing involves direct application of extremely cold liquified gases like nitrogen to freeze products instantly.",
-      "explanation_incorrect": "Blast chilling and air-blast use cold air, which is slower, while plate freezing relies on conduction with cold metal surfaces.",
-      "last_verified_at": "2026-06-12T16:36:36.196Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cryogenic freezing uses very cold cryogens such as liquid nitrogen or carbon dioxide to remove heat rapidly; freezing still takes time.",
+      "explanation_incorrect": "Air-blast freezing uses cold air; plate freezing transfers heat through cold surfaces."
     },
     {
       "subcategory": "Bottling",
@@ -493,15 +447,13 @@
       "question": "What is the technical term for the industrial room used to control humidity and temperature for dough rising?",
       "options": [
         "Proofing cabinet",
-        "Incubator",
-        "Fermentation chamber",
-        "Holding oven"
+        "Metal detector",
+        "Pallet jack",
+        "Bottle capper"
       ],
       "answer": "Proofing cabinet",
       "explanation_correct": "A proofing cabinet creates the optimal controlled environment for yeast activity and dough expansion.",
-      "explanation_incorrect": "An incubator and fermentation chamber are lab-scale terms, and a holding oven lacks the humidity controls required for proofing.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Fermentation chambers can also be used for proofing; the other listed equipment does not control the dough-proofing environment."
     },
     {
       "subcategory": "Food Science",
@@ -550,18 +502,16 @@
     },
     {
       "subcategory": "Sweets",
-      "question": "What is the process of applying a thin, protective coating to nuts or candies by rotating them in a drum?",
+      "question": "Which process coats small candies by tumbling them in a rotating pan while applying successive layers?",
       "options": [
         "Panning",
-        "Dragee",
-        "Coating",
-        "Enrobing"
+        "Filtration",
+        "Pasteurization",
+        "Freezing"
       ],
       "answer": "Panning",
       "explanation_correct": "Panning involves tumbling sweets in a rotating vessel while spraying them with syrup or chocolate to build uniform layers.",
-      "explanation_incorrect": "Enrobing is a curtain-pouring method, while the other terms describe the result rather than the machine-based process.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A dragee is a coated confection; enrobing is another coating process with a different typical arrangement."
     },
     {
       "subcategory": "Flavoring",
@@ -573,14 +523,12 @@
         "Convection drying"
       ],
       "answer": "Spray drying",
-      "explanation_correct": "Spray drying atomizes the liquid into a hot gas stream to evaporate moisture, leaving behind a dry micro-encapsulated powder.",
-      "explanation_incorrect": "The other methods are used for deep water removal in foods rather than encapsulating aromatics in carrier powders.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Spray drying can produce flavor powders by atomizing an emulsion or solution containing flavor and carrier material into heated air.",
+      "explanation_incorrect": "Other drying and encapsulation methods are also possible; the suitable process depends on the ingredients and desired product."
     },
     {
       "subcategory": "Packaging",
-      "question": "Which inert gas is typically injected into snack bags during packaging to replace oxygen and prevent oxidation?",
+      "question": "Which gas is commonly used to flush snack bags and reduce the oxygen around the product?",
       "options": [
         "Nitrogen",
         "Argon",
@@ -588,14 +536,12 @@
         "Neon"
       ],
       "answer": "Nitrogen",
-      "explanation_correct": "Nitrogen flush is used to displace oxygen, preventing the rancidity of oils in snack foods like potato chips.",
-      "explanation_incorrect": "Argon, helium, and neon are noble gases that are either too expensive or not suitable for basic shelf-life extension in large-scale packaging.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nitrogen is often used to displace oxygen in snack packages and help slow oxidation of fats.",
+      "explanation_incorrect": "Other gases can also be used in food packaging; the choice depends on the product and packaging process."
     },
     {
       "subcategory": "Cereals",
-      "question": "What specific piece of equipment is a large, rotating cylinder used to toast cereals like corn flakes?",
+      "question": "Which piece of equipment heats cereal by tumbling it in a rotating drum?",
       "options": [
         "Rotary oven",
         "Flash dryer",
@@ -603,14 +549,12 @@
         "Tunnel roaster"
       ],
       "answer": "Rotary oven",
-      "explanation_correct": "A rotary oven uses a rotating drum to ensure even heat distribution for toasting large volumes of grain-based cereal products.",
-      "explanation_incorrect": "Fluid bed dryers and tunnel roasters utilize different mechanisms for heat transfer not suitable for the precise rotation required for flakes.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A rotary drum oven or roaster tumbles product while exposing it to heat.",
+      "explanation_incorrect": "Other equipment, including fluid-bed and tunnel systems, can also heat or toast cereals using different mechanisms."
     },
     {
       "subcategory": "Quality Control",
-      "question": "Which specific device is standard in food processing lines to identify foreign metal particles in packaged products?",
+      "question": "Which device can use electromagnetic fields to detect metallic contaminants in food on a processing line?",
       "options": [
         "Metal detector",
         "Spectrometer",
@@ -619,9 +563,7 @@
       ],
       "answer": "Metal detector",
       "explanation_correct": "A metal detector uses electromagnetic fields to identify conductive material passing through the conveyor.",
-      "explanation_incorrect": "Spectrometers analyze light or chemical properties, while magnetic separators are typically used for bulk powder extraction rather than final inspection.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "X-ray inspection can also detect many metal contaminants and some other dense materials; magnetic separators remove only certain magnetic metals."
     },
     {
       "subcategory": "Safety",
@@ -633,10 +575,8 @@
         "Ionization"
       ],
       "answer": "Pascalization",
-      "explanation_correct": "Pascalization, also known as High Pressure Processing (HPP), uses pressure rather than heat to inactivate microbes.",
-      "explanation_incorrect": "Pasteurization traditionally uses heat, Lyophilization is freeze-drying, and Ionization uses radiation.",
-      "last_verified_at": "2026-06-12T16:36:36.196Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "High-pressure processing can inactivate many microbes with pressure. Its effectiveness depends on the organism and conditions; bacterial spores can be pressure-resistant.",
+      "explanation_incorrect": "Pasteurization commonly uses heat, lyophilization is freeze-drying, and irradiation uses ionizing radiation."
     },
     {
       "subcategory": "Confectionery",
@@ -660,13 +600,11 @@
         "Rotary cutter",
         "Sheeter",
         "Laminator",
-        "Die-punch"
+        "Cooling tunnel"
       ],
       "answer": "Rotary cutter",
       "explanation_correct": "A rotary cutter features a rotating drum with blades that stamp patterns onto a passing dough sheet.",
-      "explanation_incorrect": "A sheeter is used only for flattening dough, and a laminator is used for layering fats for puff pastry.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A sheeter forms a sheet and a laminator layers dough; other types of die-cutting machine may also cut shapes."
     },
     {
       "subcategory": "Pasta",
@@ -685,7 +623,7 @@
     },
     {
       "subcategory": "Beverage",
-      "question": "What is the professional term for the process of adding essential nutrients, such as vitamins, back into food products that have been processed?",
+      "question": "What is the broad term for deliberately adding vitamins or minerals to a food to increase its nutrient content?",
       "options": [
         "Fortification",
         "Preservation",
@@ -693,14 +631,12 @@
         "Standardization"
       ],
       "answer": "Fortification",
-      "explanation_correct": "Fortification compensates for nutrients lost during processing or increases the content of essential vitamins to improve public health.",
-      "explanation_incorrect": "Homogenization stabilizes emulsions, and standardization keeps chemical compositions uniform.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fortification adds essential nutrients to food. Restoration of nutrients lost during processing is often called enrichment or restoration, depending on context.",
+      "explanation_incorrect": "Preservation, homogenization and standardization have different purposes."
     },
     {
       "subcategory": "Sugar",
-      "question": "Which botanical source provides the majority of the raw material for industrial white sugar production in temperate regions?",
+      "question": "Which crop is a major source of sucrose for sugar production in temperate climates?",
       "options": [
         "Sugar beet",
         "Sugar cane",
@@ -709,9 +645,7 @@
       ],
       "answer": "Sugar beet",
       "explanation_correct": "Sugar beets are a primary crop for industrial sugar production, especially in Europe and North America.",
-      "explanation_incorrect": "Sugar cane is the primary source in tropical regions, whereas corn provides syrup, not sucrose.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sugar cane is a major sugar crop in warmer regions; different regions produce sugar from different crops."
     },
     {
       "subcategory": "Warehousing",
@@ -730,7 +664,7 @@
     },
     {
       "subcategory": "Condiments",
-      "question": "What is the primary organic acid produced during the fermentation of alcohol to create commercial vinegar?",
+      "question": "Which organic acid gives vinegar much of its characteristic sourness?",
       "options": [
         "Acetic acid",
         "Citric acid",
@@ -738,25 +672,21 @@
         "Malic acid"
       ],
       "answer": "Acetic acid",
-      "explanation_correct": "Acetic acid is the primary component that gives vinegar its sour taste and pungent smell.",
-      "explanation_incorrect": "Citric and malic acids are typically found in fruits, while lactic acid is a byproduct of dairy fermentation.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Acetic acid is the main acid in vinegar; commercial processes commonly use acetic acid bacteria to oxidize ethanol.",
+      "explanation_incorrect": "Citric, lactic and malic acids occur in other fermented foods or fruits; vinegar is characterized by acetic acid."
     },
     {
       "subcategory": "Snacks",
       "question": "What is the name of the rotating drum mechanism used in mass production to evenly coat snacks with topical seasonings?",
       "options": [
         "Tumbler",
-        "Coater",
-        "Agitator",
-        "Separator"
+        "Metal detector",
+        "Thermometer",
+        "Pallet jack"
       ],
       "answer": "Tumbler",
       "explanation_correct": "A tumbler slowly spins chips in a cylinder while seasoning is sprayed or dusted to ensure uniform coverage.",
-      "explanation_incorrect": "Coaters usually involve liquid baths (like chocolate), and agitators are stationary mixing paddles.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A tumbler may also be called a coating drum; the other listed items perform different functions."
     },
     {
       "subcategory": "Vegetable Processing",
@@ -768,14 +698,12 @@
         "Pickling"
       ],
       "answer": "Blanching",
-      "explanation_correct": "Blanching prevents product degradation by neutralizing enzymes that cause loss of color, flavor, and texture.",
-      "explanation_incorrect": "Pasteurization eliminates pathogens, and smoking is a preservation method involving combustion gases.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Blanching uses brief heat treatment, often in hot water or steam, to inactivate enzymes that can degrade quality.",
+      "explanation_incorrect": "Pasteurization reduces harmful microorganisms; smoking and pickling are different treatments."
     },
     {
       "subcategory": "Soft Drinks",
-      "question": "Which machine controls the precise volumetric mixing of syrup and carbonated water to ensure uniformity in soft drink production?",
+      "question": "What type of machine controls the ratio of syrup to water when mixing soft drinks?",
       "options": [
         "Proportioner",
         "Homogenizer",
@@ -783,14 +711,12 @@
         "Centrifuge"
       ],
       "answer": "Proportioner",
-      "explanation_correct": "A proportioner (or brix controller) monitors and adjusts the ratio of syrup to water in real-time.",
-      "explanation_incorrect": "Homogenizers break down fat globules, and filters remove particulates.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A proportioner controls ingredient ratios to keep the beverage consistent. Some systems also monitor soluble solids using Brix measurements.",
+      "explanation_incorrect": "Homogenizers and filters perform different functions; a Brix measurement can help monitor product consistency."
     },
     {
       "subcategory": "Bread Making",
-      "question": "What is the name of the heavy-duty industrial mixing tool that utilizes a specific geometry to handle high volumes of bread dough?",
+      "question": "Which dough mixer has a spiral-shaped kneading tool, often used with a rotating bowl?",
       "options": [
         "Spiral mixer",
         "Planetary mixer",
@@ -799,24 +725,20 @@
       ],
       "answer": "Spiral mixer",
       "explanation_correct": "The spiral mixer is highly efficient at kneading large masses of dough by rotating a hook through a revolving bowl.",
-      "explanation_incorrect": "Planetary mixers are typically for smaller, varied applications, while horizontal mixers use rotating bars.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other mixer types can also process large amounts of dough; the question identifies the spiral tool."
     },
     {
       "subcategory": "Canning",
-      "question": "What is the industrial pressure vessel known as that is essential for commercial food sterilization on a massive scale?",
+      "question": "What is one name for a pressurized vessel used to thermally process sealed food containers?",
       "options": [
         "Retort",
-        "Autoclave",
-        "Holding tank",
-        "Digester"
+        "Conveyor belt",
+        "Metal detector",
+        "Bottle labeler"
       ],
       "answer": "Retort",
-      "explanation_correct": "A retort is a specialized pressure cooker used to heat-sterilize sealed cans and pouches.",
-      "explanation_incorrect": "Autoclaves are laboratory-scale units, and digesters are used for chemical processing rather than preservation.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A food retort uses controlled heat and pressure to process sealed foods; this can achieve commercial sterility under a validated process.",
+      "explanation_incorrect": "Retorts may also be called autoclaves. The other listed equipment does not perform the described heat treatment."
     },
     {
       "subcategory": "Egg Processing",
@@ -843,40 +765,34 @@
         "Root vegetable"
       ],
       "answer": "Cochineal insect",
-      "explanation_correct": "Carmine is a pigment obtained from the pulverized bodies of female Dactylopius coccus cacti insects.",
-      "explanation_incorrect": "Sea algae provide agar/carrageenan, while root vegetables like beets provide betanin.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Carmine is derived from cochineal insects, Dactylopius coccus, which feed on cacti.",
+      "explanation_incorrect": "Red algae and beets can yield other food ingredients or pigments; carmine comes from cochineal."
     },
     {
       "subcategory": "Fruit",
       "question": "Which gaseous hydrocarbon is widely used in storage facilities to precisely control the ripening process of harvested bananas?",
       "options": [
         "Ethylene",
-        "Methane",
-        "Propane",
-        "Acetylene"
+        "Nitrogen",
+        "Oxygen",
+        "Carbon dioxide"
       ],
       "answer": "Ethylene",
       "explanation_correct": "Ethylene is a natural plant hormone that triggers the metabolic processes leading to ripening.",
-      "explanation_incorrect": "Methane and propane are hydrocarbons used mainly as fuel, and acetylene is used for welding.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ethylene is a natural ripening signal. Other gases can affect produce storage, and some alternative chemicals can also affect ripening."
     },
     {
       "subcategory": "Safety",
-      "question": "What is the industrial inspection technique that utilizes high-energy waves to detect non-food objects like bone fragments in meat?",
+      "question": "Which inspection technique uses X-rays to help detect dense foreign objects in packaged meat?",
       "options": [
         "Radiography",
-        "Spectroscopy",
-        "Sonography",
-        "Tomography"
+        "Thermometry",
+        "Magnetic stirring",
+        "Weighing"
       ],
       "answer": "Radiography",
       "explanation_correct": "Radiography (X-ray) systems penetrate meat to distinguish between tissue density and harder debris.",
-      "explanation_incorrect": "Spectroscopy identifies molecular composition, and sonography is sound-based.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Radiography uses X-rays; some low-density bones or other contaminants can be difficult to detect, depending on the system and product."
     },
     {
       "subcategory": "Packaging",
@@ -885,13 +801,11 @@
         "Stretch wrap",
         "Shrink wrap",
         "Bubble wrap",
-        "Plastic film"
+        "Cardboard"
       ],
       "answer": "Stretch wrap",
       "explanation_correct": "Stretch wrap is tension-based film that secures goods on a pallet via mechanical wrapping cycles.",
-      "explanation_incorrect": "Shrink wrap requires heat to conform to the object, and bubble wrap is used for protective cushioning.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stretch wrap is a plastic film. Shrink wrap instead uses heat to shrink; bubble wrap provides cushioning."
     },
     {
       "subcategory": "Milk Production",
@@ -913,45 +827,39 @@
       "question": "What is the specific component in an industrial ice cream freezer responsible for scraping the frozen mix off the internal cylinder walls?",
       "options": [
         "Dasher",
-        "Agitator",
-        "Impeller",
-        "Screw"
+        "Barometer",
+        "Bottle cap",
+        "Pallet jack"
       ],
       "answer": "Dasher",
-      "explanation_correct": "The dasher is the rotating mechanism that scrapes frozen layers from the freezer barrel wall to maintain heat transfer.",
-      "explanation_incorrect": "Agitators, impellers, and screws refer to general mixing or material movement devices that do not specifically perform the scraping function in this context.",
-      "last_verified_at": "2026-06-12T16:35:41.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A dasher is a rotating assembly that incorporates air and commonly carries scraper blades to remove frozen material from the barrel wall.",
+      "explanation_incorrect": "The dasher is a type of agitator; its scraper blades maintain contact with the freezing surface."
     },
     {
       "subcategory": "Bottling",
-      "question": "Which industrial device is utilized in beverage plants to remove air from containers prior to filling with carbonated liquids?",
+      "question": "What device removes dissolved air or oxygen from a beverage or its process water?",
       "options": [
         "Deaerator",
-        "Evacuator",
-        "Extractor",
-        "Purifier"
+        "Bottle labeler",
+        "Case palletizer",
+        "Metal detector"
       ],
       "answer": "Deaerator",
-      "explanation_correct": "The deaerator removes dissolved air to prevent foaming and oxidation of the finished beverage.",
-      "explanation_incorrect": "Evacuators, extractors, and purifiers are general terms for non-specific removal equipment that do not accurately describe this precise bottling stage.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A deaerator removes dissolved gases from a liquid, helping reduce unwanted oxidation and foaming.",
+      "explanation_incorrect": "Removing dissolved gas from liquid differs from evacuating the headspace of a container."
     },
     {
       "subcategory": "Meat Processing",
-      "question": "What is the industry term for the specialized meat processing machine designed to remove the outer epidermis from primal or sub-primal cuts?",
+      "question": "Which machine is designed to remove the skin or rind from a cut of meat?",
       "options": [
         "Skinner",
-        "De-rinder",
-        "Peeler",
-        "Stripper"
+        "Metal detector",
+        "Checkweigher",
+        "Bottle capper"
       ],
       "answer": "Skinner",
-      "explanation_correct": "A skinner is a specialized industrial machine equipped with blades to efficiently strip the hide or skin from meat.",
-      "explanation_incorrect": "De-rinders are specific to fat removal, while peelers and strippers are generally used in fruit or wire processing.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Skinning or derinding machines use blades to remove skin or rind from cuts of meat.",
+      "explanation_incorrect": "A derinder is a type of skin-removal machine; the other listed devices have different functions."
     },
     {
       "subcategory": "Flavoring",
@@ -979,39 +887,33 @@
       ],
       "answer": "Whey",
       "explanation_correct": "Whey is the liquid remnant of the coagulation process once the solid curd has been removed.",
-      "explanation_incorrect": "Rennet is the coagulant enzyme, lactose is a milk sugar, and brine is a salt solution for curing.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rennet is a milk-clotting preparation containing enzymes; lactose is a milk sugar and brine is a salt solution."
     },
     {
       "subcategory": "Bakery",
-      "question": "In the context of industrial baking, what is the name for the continuous sheet of dough as it enters a mechanical cutting or shaping station?",
+      "question": "What term can describe a continuous sheet of dough traveling through a processing line?",
       "options": [
-        "Continuous web",
-        "Dough strip",
-        "Extrusion sheet",
-        "Conveyor layer"
+        "Dough web",
+        "Bottle neck",
+        "Pallet wrap",
+        "Metal seam"
       ],
-      "answer": "Continuous web",
-      "explanation_correct": "The continuous web is the industry technical term for the unbroken, wide sheet of dough being processed.",
-      "explanation_incorrect": "The other terms are descriptive but do not represent the standard industry terminology for mechanized production lines.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dough web",
+      "explanation_correct": "A continuous sheet of dough can be called a dough web as it moves through sheeting and cutting equipment.",
+      "explanation_incorrect": "The other terms refer to packaging or container features."
     },
     {
       "subcategory": "Cereals",
-      "question": "What is the technical term for the process of coating food items, such as cereals, in a uniform layer of sugar glaze during mass production?",
+      "question": "What is the general term for applying a thin sugar glaze to a food product?",
       "options": [
-        "Enrobing",
         "Glazing",
-        "Dusting",
-        "Spraying"
+        "Freezing",
+        "Filtering",
+        "Winnowing"
       ],
-      "answer": "Enrobing",
-      "explanation_correct": "Enrobing is the process of coating the entirety of a product's surface in a film of syrup or icing.",
-      "explanation_incorrect": "Glazing, dusting, and spraying describe individual steps or manual techniques rather than the full enrobing mechanical process.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Glazing",
+      "explanation_correct": "Glazing applies a coating such as syrup or icing. Enrobing and spraying are related coating methods.",
+      "explanation_incorrect": "Freezing, filtering and winnowing serve different purposes."
     },
     {
       "subcategory": "Packaging",
@@ -1045,7 +947,7 @@
     },
     {
       "subcategory": "Margarine",
-      "question": "What chemical process is applied to liquid vegetable oils in the food industry to achieve a solid state, as seen in margarine production?",
+      "question": "Which chemical reaction adds hydrogen to some unsaturated bonds in vegetable oils and can increase their melting range?",
       "options": [
         "Hydrogenation",
         "Emulsification",
@@ -1053,10 +955,8 @@
         "Pasteurization"
       ],
       "answer": "Hydrogenation",
-      "explanation_correct": "Hydrogenation adds hydrogen atoms to unsaturated fatty acids, increasing their melting point and creating a solid texture.",
-      "explanation_incorrect": "The other processes relate to mixing, separating, or heat-treating but do not solidify oils through reaction.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hydrogenation adds hydrogen to unsaturated bonds and can increase melting range; the result depends on process conditions.",
+      "explanation_incorrect": "Margarine can also use fractionated or interesterified fats; not all margarine relies on hydrogenation."
     },
     {
       "subcategory": "Quality Control",
@@ -1075,7 +975,7 @@
     },
     {
       "subcategory": "Pasta",
-      "question": "What is the specific type of flour traditionally required for the industrial production of high-quality extruded pasta?",
+      "question": "Which wheat ingredient is traditionally used for many types of dried extruded pasta?",
       "options": [
         "Durum semolina",
         "Soft wheat flour",
@@ -1083,10 +983,8 @@
         "Rye meal"
       ],
       "answer": "Durum semolina",
-      "explanation_correct": "Durum semolina, derived from hard wheat, is essential for pasta because of its high protein and gluten content that maintains structural shape.",
-      "explanation_incorrect": "The other flours lack the required protein strength and gluten characteristics to withstand the stress of industrial extrusion.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Durum wheat semolina is traditionally used in many dried pasta products; other flours and grains can be used for different products.",
+      "explanation_incorrect": "Pasta can also be made from other flours or starches, but durum semolina is a common traditional ingredient."
     },
     {
       "subcategory": "Brewing",
@@ -1105,33 +1003,29 @@
     },
     {
       "subcategory": "Frozen Food",
-      "question": "Which substance is commonly used as a liquid cooling medium in the industrial immersion freezing of food products?",
+      "question": "Which salt-water solution can be used as a liquid medium in certain food-freezing systems?",
       "options": [
         "Brine",
-        "Glycol",
-        "Liquid nitrogen",
-        "Dry ice"
+        "Dry ice",
+        "Paper pulp",
+        "Dry sand"
       ],
       "answer": "Brine",
       "explanation_correct": "Brine (a salt solution) is frequently used in immersion tasks due to its ability to reach sub-zero temperatures without freezing itself.",
-      "explanation_incorrect": "Cryogens like nitrogen and dry ice use direct evaporation, while glycol is usually a secondary refrigerant for heat exchangers, not direct immersion.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Liquid nitrogen may also be used in immersion freezing; the question asks specifically for a salt-water solution."
     },
     {
       "subcategory": "Vegetable Processing",
-      "question": "What is the name of the industrial machinery using a vibrating screen surface to sift debris and contaminants from vegetable harvests?",
+      "question": "Which equipment uses vibration and a perforated surface to separate produce from smaller debris?",
       "options": [
-        "Shaker table",
-        "Separator conveyor",
-        "Vibratory sifter",
-        "Sort tray"
+        "Vibrating screen",
+        "Bottle capper",
+        "Metal detector",
+        "Pallet jack"
       ],
-      "answer": "Shaker table",
-      "explanation_correct": "A shaker table uses oscillations to agitate produce, causing debris to fall through a perforated surface while moving the product forward.",
-      "explanation_incorrect": "The other options act as descriptive labels for general processing equipment rather than accepted industrial terminology.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Vibrating screen",
+      "explanation_correct": "Vibrating screens or shaker tables can separate material by size as produce moves across a perforated surface.",
+      "explanation_incorrect": "A shaker table can also describe such equipment; the other options perform different tasks."
     },
     {
       "subcategory": "Grain",
@@ -1143,25 +1037,21 @@
         "Scouring"
       ],
       "answer": "Dehulling",
-      "explanation_correct": "Dehulling specifically refers to the removal of the pericarp or husk of a seed or kernel.",
-      "explanation_incorrect": "Milling is size reduction, winnowing relates to wind separation, and scouring refers to surface cleaning.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dehulling removes the hull or husk from certain seeds or grains; the exact layers removed depend on the crop and equipment.",
+      "explanation_incorrect": "Milling can include several processing operations; winnowing separates lighter material from grain using air."
     },
     {
       "subcategory": "Frying",
-      "question": "What primary piece of equipment is designed to move food continuously through hot oil for deep-frying in high-volume settings?",
+      "question": "Which machine can continuously convey food through hot oil in a high-volume frying line?",
       "options": [
-        "Immersion fryer",
-        "Batch cooker",
-        "Conveyor kettle",
-        "Oil bath"
+        "Continuous conveyor fryer",
+        "Bottle capper",
+        "Metal detector",
+        "Freezer"
       ],
-      "answer": "Immersion fryer",
-      "explanation_correct": "An immersion fryer utilizes a conveyor to submerge product in oil continuously as it passes through the machine.",
-      "explanation_incorrect": "Batch cookers are not continuous; oil baths and kettles are generic vessels rather than high-volume industrial machines.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Continuous conveyor fryer",
+      "explanation_correct": "A continuous fryer transports food through heated oil using a conveyor system.",
+      "explanation_incorrect": "Batch fryers can also cook food in oil, but do not continuously convey product through the oil."
     },
     {
       "subcategory": "Honey",
@@ -1188,10 +1078,8 @@
         "Water vapor"
       ],
       "answer": "Carbon dioxide",
-      "explanation_correct": "Yeast consumes sugar and produces carbon dioxide, which creates pockets of air that expand during baking.",
-      "explanation_incorrect": "Nitrogen is inert; oxygen is consumed by yeast during respiration; water vapor is a thermal expansion effect, not a primary metabolic byproduct.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Yeast produces carbon dioxide during fermentation; the gas collects in bubbles retained by the dough structure.",
+      "explanation_incorrect": "The bubbles contain gas rather than just air; water vapor can also expand during baking."
     },
     {
       "subcategory": "Tea",
@@ -1204,9 +1092,7 @@
       ],
       "answer": "CTC process",
       "explanation_correct": "CTC stands for Crush, Tear, Curl, a method designed to process tea leaves for uniform oxidation and brewing.",
-      "explanation_incorrect": "Orthodox rolling is a manual or low-stress machine method; the others are incorrect terminology.",
-      "last_verified_at": "2026-06-12T16:35:41.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Orthodox rolling is another tea-processing method and can also be mechanized; CTC specifically means crush, tear, curl."
     },
     {
       "subcategory": "Packaging",
@@ -1225,18 +1111,16 @@
     },
     {
       "subcategory": "Water",
-      "question": "Which membrane filtration process is standard for producing purified bottled water by forcing liquid through a semi-permeable film?",
+      "question": "Which filtration process uses pressure to push water through a membrane and remove many dissolved salts?",
       "options": [
         "Reverse osmosis",
-        "Ultrafiltration",
-        "Nanofiltration",
-        "Microfiltration"
+        "Distillation",
+        "Pasteurization",
+        "Evaporation"
       ],
       "answer": "Reverse osmosis",
       "explanation_correct": "Reverse osmosis is widely used to remove ions and impurities from water at a molecular level.",
-      "explanation_incorrect": "While other methods also filter water, they operate on different pore size scales or pressure requirements.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nanofiltration is another membrane process that can remove some dissolved salts; the other listed options are not membrane filtration."
     },
     {
       "subcategory": "Canning",
@@ -1255,18 +1139,16 @@
     },
     {
       "subcategory": "Egg Processing",
-      "question": "In industrial egg processing facilities, what is the primary machine used to crack shells at high speed?",
+      "question": "What is the general name of a machine designed to crack eggs and collect their contents for industrial processing?",
       "options": [
-        "Centrifugal breaker",
-        "Pneumatic piercer",
-        "Hydraulic press",
-        "Mechanical slicer"
+        "Egg breaker",
+        "Bottle capper",
+        "Flour sifter",
+        "Palletizer"
       ],
-      "answer": "Centrifugal breaker",
-      "explanation_correct": "Centrifugal breakers use force to rapidly strip the contents of the shell for further processing.",
-      "explanation_incorrect": "The other terms represent mechanisms that are not structurally optimized for rapid shell removal.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Egg breaker",
+      "explanation_correct": "An egg-breaking machine opens shells so the contents can be collected; different industrial designs use different mechanisms.",
+      "explanation_incorrect": "The other devices perform unrelated processing and packaging functions."
     },
     {
       "subcategory": "Starch",
@@ -1308,10 +1190,8 @@
         "Foaming"
       ],
       "answer": "Overrun",
-      "explanation_correct": "Overrun is the measurement of the volume of ice cream compared to the volume of the original mix.",
-      "explanation_incorrect": "These terms refer to descriptive processes or physical phenomena rather than the specific quantitative industry metric.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Overrun is the increase in volume relative to the volume of the original mix, commonly expressed as a percentage.",
+      "explanation_incorrect": "Aeration is the process of adding air; overrun measures the resulting relative volume increase."
     },
     {
       "subcategory": "Coffee",
@@ -1324,9 +1204,7 @@
       ],
       "answer": "Pulper",
       "explanation_correct": "A pulper is designed to remove the skin and pulp of coffee cherries early in processing.",
-      "explanation_incorrect": "The other options are terms for agricultural machinery used for harvesting or processing cereals and grains.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A huller may be used later to remove dried layers around coffee beans; a pulper removes outer skin from the fresh fruit."
     },
     {
       "subcategory": "Safety",
@@ -1338,14 +1216,12 @@
         "Laser light"
       ],
       "answer": "UV-C light",
-      "explanation_correct": "UV-C light is effective at destroying the DNA of bacteria and viruses on manufacturing surfaces.",
-      "explanation_incorrect": "Infrared, visible, and standard laser lights lack the necessary wavelength for pathogen sterilization.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "UV-C can inactivate microorganisms on exposed surfaces by damaging nucleic acids. Effectiveness depends on dose, exposure and shielding.",
+      "explanation_incorrect": "UV-C is one surface-disinfection method; it does not guarantee sterilization of shaded or contaminated surfaces."
     },
     {
       "subcategory": "Preservation",
-      "question": "Which chemical compound is widely added to cured meats for color stabilization and botulism prevention?",
+      "question": "Which compound is widely added to cured meats to help stabilize color and inhibit growth of the bacterium that causes botulism?",
       "options": [
         "Sodium nitrite",
         "Potassium sorbate",
@@ -1353,10 +1229,8 @@
         "Ascorbic acid"
       ],
       "answer": "Sodium nitrite",
-      "explanation_correct": "Sodium nitrite is the primary additive used to preserve the safety and pink color of cured meat products.",
-      "explanation_incorrect": "Other substances listed are preservatives used for shelf-life extension in different food categories.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sodium nitrite contributes to cured-meat color and helps control Clostridium botulinum as part of a validated preservation process.",
+      "explanation_incorrect": "Different preservatives and processing controls have different roles; nitrite alone does not guarantee food safety."
     },
     {
       "subcategory": "Fruit",
@@ -1368,10 +1242,8 @@
         "Spray drying"
       ],
       "answer": "Vacuum drying",
-      "explanation_correct": "Vacuum drying allows for evaporation of water from fruit at lower temperatures, preserving nutritional quality.",
-      "explanation_incorrect": "While other methods remove water, they rely on higher heat or sublimation rather than just vacuum-based vapor reduction.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Vacuum drying reduces pressure so water can evaporate at lower temperatures; the effects on quality depend on conditions.",
+      "explanation_incorrect": "Freeze-drying also uses reduced pressure, but removes frozen water mainly by sublimation."
     },
     {
       "subcategory": "Soup",
@@ -1390,18 +1262,16 @@
     },
     {
       "subcategory": "Butchery",
-      "question": "In industrial meat processing, what powerful cutting tool is required to split heavy animal carcasses along the vertebrae?",
+      "question": "Which industrial saw can be used to cut carcass sections through bone and tissue?",
       "options": [
         "Band saw",
-        "Circular saw",
-        "Reciprocating saw",
-        "Jigsaw"
+        "Bottle capper",
+        "Thermometer",
+        "Pallet jack"
       ],
       "answer": "Band saw",
       "explanation_correct": "A band saw provides the continuous, high-speed cutting action capable of splitting large carcasses efficiently.",
-      "explanation_incorrect": "The other tools lack the industrial stability or cutting depth required for deep sections of bone and tissue.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other powered saw designs, including reciprocating and circular saws, can also be used for carcass splitting."
     },
     {
       "subcategory": "Juice",
@@ -1420,18 +1290,16 @@
     },
     {
       "subcategory": "Traceability",
-      "question": "What is the common optical machine-readable indicator used in factories to track product inventory?",
+      "question": "What is the name of a one-dimensional optical code of parallel bars commonly printed on consumer packaging?",
       "options": [
-        "Barcode",
-        "QR code",
+        "Linear barcode",
         "RFID tag",
-        "Hologram"
+        "Temperature sensor",
+        "Thermometer"
       ],
-      "answer": "Barcode",
-      "explanation_correct": "The barcode provides a universally recognized standard for high-speed tracking during distribution.",
-      "explanation_incorrect": "RFID is an electronic transmission method, while QR codes and holograms serve different authentication or data storage needs.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Linear barcode",
+      "explanation_correct": "A linear barcode encodes data using a pattern of bars and spaces that an optical scanner can read.",
+      "explanation_incorrect": "A QR code is also an optical barcode, but is two-dimensional. RFID uses radio communication."
     },
     {
       "subcategory": "Salt",
@@ -1440,13 +1308,11 @@
         "Solution mining",
         "Open-pit mining",
         "Quarrying",
-        "Brine extraction"
+        "Hand harvesting"
       ],
       "answer": "Solution mining",
       "explanation_correct": "Solution mining involves dissolving salt deposits underground and pumping the brine to the surface for evaporation.",
-      "explanation_incorrect": "The other terms represent surface extraction techniques or general commodity descriptions rather than a precise mining method.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Brine extraction can describe part of solution mining; open-pit mining and quarrying are surface extraction methods."
     },
     {
       "subcategory": "Flavoring",
@@ -1458,10 +1324,8 @@
         "Supercritical fluid extraction"
       ],
       "answer": "Cold pressing",
-      "explanation_correct": "Cold pressing mechanically crushes the rind to release oils without degrading their quality with heat.",
-      "explanation_incorrect": "The other options involve heat or solvents, which alter the chemical properties of the oils.",
-      "last_verified_at": "2026-06-12T16:36:47.062Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cold pressing mechanically releases oil from the citrus peel, commonly with limited heating compared with distillation.",
+      "explanation_incorrect": "Other extraction methods use different physical conditions; solvent and supercritical-fluid methods are not necessarily high-temperature methods."
     },
     {
       "subcategory": "Automation",
@@ -1488,10 +1352,8 @@
         "Tempering"
       ],
       "answer": "Aging",
-      "explanation_correct": "Aging (dry-aging) involves hanging meat in controlled conditions to reduce moisture and allow enzymes to break down connective tissue.",
-      "explanation_incorrect": "Curing specifically refers to the addition of salts or nitrites; smoking adds flavor via smoke, and tempering is the controlled adjustment of temperature.",
-      "last_verified_at": "2026-06-12T16:38:22.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dry aging holds meat under controlled conditions while naturally occurring enzymes alter the proteins and moisture evaporates.",
+      "explanation_incorrect": "Curing uses salt and sometimes nitrite; smoking exposes the product to smoke. These processes have different purposes and may be combined."
     },
     {
       "subcategory": "Packaging",
@@ -1504,9 +1366,7 @@
       ],
       "answer": "Liquid packaging board",
       "explanation_correct": "Liquid packaging board is specifically treated or layered with plastic to prevent seepage and structural breakdown.",
-      "explanation_incorrect": "The other options refer to dry storage materials, shipping cartons, or stationary-grade papers which cannot hold liquids.",
-      "last_verified_at": "2026-06-12T16:36:47.063Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other paperboards and laminates can also be engineered for liquid packaging; liquid packaging board is designed for that application."
     }
   ]
 }
