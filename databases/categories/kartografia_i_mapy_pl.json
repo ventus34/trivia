@@ -89,14 +89,12 @@
       "options": [
         "Legenda",
         "Skala",
-        "Naglówek",
+        "Nagłówek",
         "Siatka"
       ],
       "answer": "Legenda",
       "explanation_correct": "Legenda wyjaśnia znaczenie wszystkich znaków mapowych.",
-      "explanation_incorrect": "Skala to stosunek odległości, nagłówek tytuł, siatka to linie współrzędnych.",
-      "last_verified_at": "2026-06-12T15:09:13.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Skala to stosunek odległości, nagłówek tytuł, siatka to linie współrzędnych."
     },
     {
       "subcategory": "Nawigacja",
@@ -130,7 +128,7 @@
     },
     {
       "subcategory": "Geodezja",
-      "question": "Która bryła najlepiej oddaje kształt Ziemi?",
+      "question": "Jak nazywa się powierzchnia ekwipotencjalna pola ciężkości Ziemi zbliżona do średniego poziomu mórz?",
       "options": [
         "Geoida",
         "Elipsoida",
@@ -138,14 +136,12 @@
         "Kula"
       ],
       "answer": "Geoida",
-      "explanation_correct": "Geoida to powierzchnia równego potencjału, najdokładniej opisująca kształt Ziemi.",
-      "explanation_incorrect": "Elipsoida jest przybliżeniem, sfera i kula są zbyt uproszczone.",
-      "last_verified_at": "2026-06-12T15:09:13.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Geoida jest powierzchnią ekwipotencjalną przybliżającą średni poziom mórz, przedłużoną umownie pod kontynentami.",
+      "explanation_incorrect": "Elipsoida to wygładzony model matematyczny; kula jest jeszcze prostszym przybliżeniem."
     },
     {
       "subcategory": "Typy map",
-      "question": "Która mapa wiernie oddaje ukształtowanie terenu?",
+      "question": "Który rodzaj mapy przedstawia między innymi rzeźbę terenu?",
       "options": [
         "Fizyczna",
         "Polityczna",
@@ -153,25 +149,21 @@
         "Klimatyczna"
       ],
       "answer": "Fizyczna",
-      "explanation_correct": "Mapa fizyczna przedstawia rzeźbę za pomocą barw hipsometrycznych.",
-      "explanation_incorrect": "Mapa polityczna pokazuje granice, historyczna zmiany, klimatyczna pogodę.",
-      "last_verified_at": "2026-06-12T15:09:13.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mapa fizyczna przedstawia m.in. rzeźbę terenu, często z użyciem barw hipsometrycznych.",
+      "explanation_incorrect": "Mapa polityczna akcentuje granice, historyczna wydarzenia i zmiany w czasie, a klimatyczna cechy klimatu."
     },
     {
       "subcategory": "Kartometria",
       "question": "Jak nazywa się stosunek odległości na mapie do odległości rzeczywistej?",
       "options": [
         "Skala",
-        "Podziałka",
         "Legenda",
-        "Odchylenie"
+        "Tytuł",
+        "Róża wiatrów"
       ],
       "answer": "Skala",
-      "explanation_correct": "Skala to liczbowy stosunek redukcji wymiarów.",
-      "explanation_incorrect": "Podziałka to graficzna skala, legenda objaśnia symbole, odchylenie to błąd.",
-      "last_verified_at": "2026-06-12T15:09:13.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Skala wyraża stosunek odległości na mapie do odpowiadającej jej odległości w terenie, w tych samych jednostkach.",
+      "explanation_incorrect": "Podziałka liniowa jest graficzną formą skali; legenda, tytuł i róża wiatrów pełnią inne funkcje."
     },
     {
       "subcategory": "Odwzorowania",
@@ -190,18 +182,16 @@
     },
     {
       "subcategory": "Elementy siatki",
-      "question": "Który południk wyznacza zmianę daty?",
+      "question": "Jak nazywa się umowna granica, po której przekroczeniu zmienia się data kalendarzowa?",
       "options": [
         "Linia zmiany daty",
         "Południk zerowy",
-        "Południk 180°",
-        "Antypody"
+        "Równik",
+        "Zwrotnik Raka"
       ],
       "answer": "Linia zmiany daty",
-      "explanation_correct": "Linia zmiany daty to umowna granica, wzdłuż której zmienia się data.",
-      "explanation_incorrect": "Południk zerowy to Greenwich, 180° jest podstawą linii, antypody to punkty przeciwległe.",
-      "last_verified_at": "2026-06-12T15:09:13.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Międzynarodowa linia zmiany daty przebiega w przybliżeniu wzdłuż południka 180°, z odchyleniami.",
+      "explanation_incorrect": "Południk zerowy, równik i zwrotnik Raka nie wyznaczają tej granicy."
     },
     {
       "subcategory": "Teledetekcja",
@@ -235,7 +225,7 @@
     },
     {
       "subcategory": "Mapy tematyczne",
-      "question": "Która metoda prezentacji danych na mapie polega na barwnych płaszczyznach?",
+      "question": "Która metoda przedstawia dane statystyczne dla jednostek administracyjnych za pomocą stopniowanego zabarwienia?",
       "options": [
         "Kartogram",
         "Kartodiagram",
@@ -243,14 +233,12 @@
         "Izolinie"
       ],
       "answer": "Kartogram",
-      "explanation_correct": "Kartogram przedstawia średnią wartość dla obszarów za pomocą barw.",
-      "explanation_incorrect": "Kartodiagram to diagramy, metoda punktowa to kropki, izolinie to linie.",
-      "last_verified_at": "2026-06-12T15:09:13.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kartogram pokazuje wartości przypisane obszarom, zwykle wskaźniki względne, przez odpowiednie barwy lub desenie.",
+      "explanation_incorrect": "Kartodiagram to diagramy, metoda punktowa to kropki, izolinie to linie."
     },
     {
       "subcategory": "Historia kartografii",
-      "question": "Jak nazywa się średniowieczne mapy świata w kształcie koła?",
+      "question": "Jak nazywa się średniowieczne schematyczne mapy świata przedstawiające trzy kontynenty w układzie litery T wpisanej w O?",
       "options": [
         "Mapy typu TO",
         "Portolany",
@@ -259,9 +247,7 @@
       ],
       "answer": "Mapy typu TO",
       "explanation_correct": "Mapy typu TO (T-O) przedstawiały trzy kontynenty w kole.",
-      "explanation_incorrect": "Portolany to mapy wybrzeży, mappa mundi to ogólna nazwa, Ptolemeusz to starożytność.",
-      "last_verified_at": "2026-06-12T15:09:13.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Portolany to mapy wybrzeży, mappa mundi to ogólna nazwa, Ptolemeusz to starożytność."
     },
     {
       "subcategory": "Współrzędne",
@@ -274,9 +260,7 @@
       ],
       "answer": "Równik",
       "explanation_correct": "Równik ma długość ok. 40 075 km, największą ze wszystkich równoleżników.",
-      "explanation_incorrect": "Zwrotniki i koła podbiegunowe są krótsze z powodu spłaszczenia Ziemi.",
-      "last_verified_at": "2026-06-12T15:09:13.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Równoleżniki położone dalej od równika mają mniejszy obwód; nie jest to skutkiem samego spłaszczenia Ziemi."
     },
     {
       "subcategory": "Kartografia morska",
@@ -370,18 +354,16 @@
     },
     {
       "subcategory": "Mapy nieba",
-      "question": "Jaka nazwa opisuje mapę przedstawiającą gwiazdozbiory?",
+      "question": "Jak nazywa się dziedzina zajmująca się opisywaniem i mapowaniem nieba, w tym gwiazdozbiorów?",
       "options": [
-        "Nebulografia",
         "Uranografia",
-        "Astrografia",
-        "Kosmo-grafia"
+        "Hydrografia",
+        "Kartografia gleb",
+        "Batymetria"
       ],
       "answer": "Uranografia",
       "explanation_correct": "Uranografia to dziedzina kartografii zajmująca się mapami nieba, w tym gwiazdozbiorów.",
-      "explanation_incorrect": "Pozostałe terminy są rzadziej używane lub odnoszą się do ogólnych map kosmicznych.",
-      "last_verified_at": "2026-06-12T15:09:13.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hydrografia i batymetria dotyczą wód; kartografia gleb przedstawia pokrywę glebową."
     },
     {
       "subcategory": "Meteorologia",
@@ -405,13 +387,11 @@
         "Dolina",
         "Wzniesienie",
         "Depresja",
-        "Stożek"
+        "Jaskinia"
       ],
       "answer": "Wzniesienie",
       "explanation_correct": "Wzniesienie to każda wypukła forma terenu, np. wzgórze, góra.",
-      "explanation_incorrect": "Dolina jest formą wklęsłą, depresja – terenem poniżej poziomu morza, stożek to forma wulkaniczna.",
-      "last_verified_at": "2026-06-12T15:09:13.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dolina i depresja są obniżeniami, a jaskinia jest naturalną pustką w skałach."
     },
     {
       "subcategory": "Plany miast",
@@ -438,10 +418,8 @@
         "Ptolomeusz"
       ],
       "answer": "Imago Mundi",
-      "explanation_correct": "Imago Mundi (ok. 600 r. p.n.e.) to gliniana tabliczka z wyobrażeniem świata babilońskiego, najstarsza znana mapa.",
-      "explanation_incorrect": "Tabula Peutingeriana to rzymska mapa dróg, a Ptolomeusz to osoba.",
-      "last_verified_at": "2026-06-12T15:09:13.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Imago Mundi to babilońska tabliczka z wyobrażeniem świata, zwykle datowana na pierwsze tysiąclecie p.n.e.; należy do najstarszych zachowanych map świata.",
+      "explanation_incorrect": "Tabula Peutingeriana przedstawia sieć dróg; Ptolemeusz był geografem. Starsze mapy niewielkich obszarów również się zachowały."
     },
     {
       "subcategory": "Odwzorowania konturowe",
@@ -454,9 +432,7 @@
       ],
       "answer": "Odwzorowanie wiernopowierzchniowe",
       "explanation_correct": "Odwzorowanie wiernopowierzchniowe (równopolowe) zachowuje proporcje pól kosztem innych zniekształceń.",
-      "explanation_incorrect": "Wiernokątne zachowuje kąty, wiernoodległościowe – odległości, a wiernokształtne – kształty (termin nieużywany).",
-      "last_verified_at": "2026-06-12T15:09:13.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wiernokątne zachowuje lokalnie kąty; wiernoodległościowe zachowuje wybrane odległości, a żadne odwzorowanie całej Ziemi na płaszczyznę nie zachowuje wszystkich właściwości."
     },
     {
       "subcategory": "Teledetekcja",
@@ -520,7 +496,7 @@
     },
     {
       "subcategory": "Astronomia",
-      "question": "Jak nazywa się wielki krąg na sferze niebieskiej przechodzący przez bieguny?",
+      "question": "Jak nazywa się wielki krąg sfery niebieskiej przechodzący przez oba bieguny niebieskie i zenit obserwatora?",
       "options": [
         "Równik niebieski",
         "Południk niebieski",
@@ -529,9 +505,7 @@
       ],
       "answer": "Południk niebieski",
       "explanation_correct": "Południk niebieski łączy bieguny niebieskie i przechodzi przez zenit, służy do określania współrzędnych.",
-      "explanation_incorrect": "Równik niebieski biegnie prostopadle do osi, ekliptyka to droga Słońca, horyzont – płaszczyzna obserwatora.",
-      "last_verified_at": "2026-06-12T15:09:13.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Równik niebieski biegnie prostopadle do osi, ekliptyka to droga Słońca, horyzont – płaszczyzna obserwatora."
     },
     {
       "subcategory": "Globusy",
@@ -580,7 +554,7 @@
     },
     {
       "subcategory": "Sprzęt",
-      "question": "Jaki przyrząd służy do wyznaczania kierunków w terenie?",
+      "question": "Który przyrząd z igłą magnetyczną służy do wyznaczania kierunku w terenie?",
       "options": [
         "Teodolit",
         "Busola",
@@ -589,24 +563,20 @@
       ],
       "answer": "Busola",
       "explanation_correct": "Busola to prosty przyrząd magnetyczny do określania kierunku względem północy magnetycznej.",
-      "explanation_incorrect": "Teodolit mierzy kąty, niwelator różnice wysokości, GPS – współrzędne.",
-      "last_verified_at": "2026-06-12T15:09:24.620Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Teodolit służy m.in. do pomiaru kątów, niwelator do pomiarów wysokościowych, a GPS do wyznaczania położenia."
     },
     {
       "subcategory": "Odwzorowania",
       "question": "Które odwzorowanie azymutalne zachowuje proporcje pól powierzchni na całej półkuli?",
       "options": [
         "Odwzorowanie Merkatora",
-        "Odwzorowanie Lamberta",
+        "Azymutalne równopolowe Lamberta",
         "Odwzorowanie Winkel-Tripel",
-        "Odwzorowanie Gnomoniczne"
+        "Odwzorowanie gnomoniczne"
       ],
-      "answer": "Odwzorowanie Lamberta",
+      "answer": "Azymutalne równopolowe Lamberta",
       "explanation_correct": "Odwzorowanie azymutalne równopowierzchniowe Lamberta wiernie zachowuje relacje pól powierzchni.",
-      "explanation_incorrect": "Merkator to odwzorowanie walcowe, a Winkel-Tripel jest odwzorowaniem umownym.",
-      "last_verified_at": "2026-06-12T15:10:41.119Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Merkator to odwzorowanie walcowe, a Winkel-Tripel jest odwzorowaniem umownym."
     },
     {
       "subcategory": "Geofizyka",
@@ -685,7 +655,7 @@
     },
     {
       "subcategory": "Geometria Ziemi",
-      "question": "Jaka linia na mapie globusowej reprezentuje najkrótszą odległość między dwoma punktami na kuli ziemskiej?",
+      "question": "Jak nazywa się krótszy łuk koła wielkiego łączący dwa punkty na modelu Ziemi jako kuli?",
       "options": [
         "Loksodroma",
         "Ortodroma",
@@ -693,10 +663,8 @@
         "Południk"
       ],
       "answer": "Ortodroma",
-      "explanation_correct": "Ortodroma to linia najkrótszej drogi na sferze, zwana także wielkim kołem.",
-      "explanation_incorrect": "Loksodroma przecina południki pod stałym kątem, równoleżnik to małe koło, południk to linia stałej długości geograficznej.",
-      "last_verified_at": "2026-06-12T15:09:24.621Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ortodroma jest najkrótszym łukiem koła wielkiego łączącym dwa punkty na sferze.",
+      "explanation_incorrect": "Loksodroma przecina południki pod stałym kątem. Południk i równoleżnik to linie współrzędnych; równik również jest kołem wielkim."
     },
     {
       "subcategory": "Nawigacja",
@@ -723,10 +691,8 @@
         "Aerotriangulacja"
       ],
       "answer": "Ortofotomapa",
-      "explanation_correct": "Ortofotomapa to zdjęcie lotnicze ortorektyfikowane, spełniające warunki mapy.",
-      "explanation_incorrect": "Fotoplan to wstępny plan zdjęć, stereogram służy do pomiarów 3D, aerotriangulacja to metoda georeferencji.",
-      "last_verified_at": "2026-06-12T15:09:24.621Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ortofotomapa powstaje ze zdjęć poddanych ortorektyfikacji, która ogranicza przesunięcia wynikające m.in. z rzeźby i perspektywy.",
+      "explanation_incorrect": "Fotoplan to inny rodzaj opracowania zdjęć, stereogram umożliwia widzenie przestrzenne, a aerotriangulacja służy wyznaczaniu położenia zdjęć."
     },
     {
       "subcategory": "Kartografia polska",
@@ -775,18 +741,16 @@
     },
     {
       "subcategory": "Typy projekcji",
-      "question": "Które odwzorowanie kartograficzne przedstawia południki jako linie proste zbiegające się w biegunie?",
+      "question": "W którym typie odwzorowania normalnego południki są prostymi zbiegającymi się, a równoleżniki łukami współśrodkowych okręgów?",
       "options": [
         "Odwzorowanie walcowe",
         "Odwzorowanie stożkowe",
-        "Odwzorowanie azymutalne",
-        "Odwzorowanie eliptyczne"
+        "Odwzorowanie sinusoidalne",
+        "Odwzorowanie Mollweidego"
       ],
       "answer": "Odwzorowanie stożkowe",
       "explanation_correct": "W odwzorowaniu stożkowym południki są prostymi zbiegającymi się w biegunie, a równoleżniki łukami.",
-      "explanation_incorrect": "W walcowym południki są równoległe, w azymutalnym są prostymi zbiegającymi się w środku, eliptyczne to rodzaj azymutalnego.",
-      "last_verified_at": "2026-06-12T15:09:24.621Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W normalnym walcowym południki są równoległe. W odwzorowaniach sinusoidalnym i Mollweidego większość południków jest zakrzywiona."
     },
     {
       "subcategory": "Morfologia",
@@ -820,18 +784,16 @@
     },
     {
       "subcategory": "Geodezja",
-      "question": "Jaką metodą pomiarową określa się różnice wysokości między punktami terenu?",
+      "question": "Która metoda wyznacza różnice wysokości za pomocą poziomej celowej niwelatora i odczytów na łatach?",
       "options": [
         "Tachymetria",
-        "Niwelacja",
-        "GPS",
-        "Fotogrametria"
+        "Niwelacja geometryczna",
+        "Kompas magnetyczny",
+        "Planimetrowanie"
       ],
-      "answer": "Niwelacja",
-      "explanation_correct": "Niwelacja to pomiary wysokościowe, np. przy użyciu niwelatora.",
-      "explanation_incorrect": "Tachymetria mierzy odległości i kąty, GPS określa położenie, fotogrametria ze zdjęć.",
-      "last_verified_at": "2026-06-12T15:09:24.622Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Niwelacja geometryczna",
+      "explanation_correct": "Niwelacja geometryczna wykorzystuje poziomą celową i odczyty na łatach do określania różnic wysokości.",
+      "explanation_incorrect": "Tachymetria również może wyznaczać wysokości, ale wykorzystuje inny zestaw pomiarów; kompas i planimetr służą innym celom."
     },
     {
       "subcategory": "Eksploracja",
@@ -850,7 +812,7 @@
     },
     {
       "subcategory": "Atlasy",
-      "question": "Który wydawca opublikował 'Theatrum Orbis Terrarum' Orteliusa w 1570 roku?",
+      "question": "Kto drukował tekst pierwszego wydania atlasu „Theatrum Orbis Terrarum” Abrahama Orteliusa z 1570 roku?",
       "options": [
         "Gerard Mercator",
         "Abraham Ortelius",
@@ -858,10 +820,8 @@
         "Jan Janssonius"
       ],
       "answer": "Gilles Coppens",
-      "explanation_correct": "Gilles Coppens z Antwerpii był wydawcą pierwszego wydania atlasu Orteliusa.",
-      "explanation_incorrect": "Mercator tworzył mapy, Ortelius był autorem, Janssonius późniejszy wydawca.",
-      "last_verified_at": "2026-06-12T15:09:24.622Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tekst pierwszych wydań w 1570 roku drukował Gillis (Gilles) Coppens van Diest w Antwerpii; Ortelius był autorem i wydawcą.",
+      "explanation_incorrect": "Ortelius przygotował atlas; w późniejszych latach jego wydania drukował m.in. Christoffel Plantin."
     },
     {
       "subcategory": "Grawimetria",
@@ -910,7 +870,7 @@
     },
     {
       "subcategory": "Chronometria",
-      "question": "Jakie urządzenie służyło do precyzyjnego pomiaru długości geograficznej na morzu?",
+      "question": "Który przyrząd zachowywał czas odniesienia potrzebny do wyznaczania długości geograficznej na morzu?",
       "options": [
         "Chronometry okrętowe",
         "Sekstant",
@@ -918,10 +878,8 @@
         "Busola żyroskopowa"
       ],
       "answer": "Chronometry okrętowe",
-      "explanation_correct": "Chronometry okrętowe były precyzyjnymi zegarami używanymi do określania długości geograficznej na statkach.",
-      "explanation_incorrect": "Sekstant służy do pomiaru wysokości ciał niebieskich, a kompas i busola do wyznaczania kierunku.",
-      "last_verified_at": "2026-06-12T15:09:24.622Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chronometr okrętowy utrzymywał czas odniesienia; porównanie go z czasem lokalnym wyznaczanym na podstawie obserwacji pomagało obliczyć długość.",
+      "explanation_incorrect": "Sekstant mógł służyć do niezbędnych obserwacji ciał niebieskich; kompas i busola wyznaczają kierunek."
     },
     {
       "subcategory": "Skala",
@@ -948,10 +906,8 @@
         "Mapa hydrograficzna"
       ],
       "answer": "Mapa morfodynamiczna",
-      "explanation_correct": "Mapa morfodynamiczna obrazuje dynamikę procesów kształtujących powierzchnię Ziemi w czasie rzeczywistym.",
-      "explanation_incorrect": "Mapa hipsometryczna pokazuje ukształtowanie pionowe, a geologiczna budowę skalną.",
-      "last_verified_at": "2026-06-12T15:10:41.120Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mapa morfodynamiczna przedstawia procesy kształtujące rzeźbę terenu i ich dynamikę; nie musi pokazywać danych w czasie rzeczywistym.",
+      "explanation_incorrect": "Mapa hipsometryczna pokazuje ukształtowanie pionowe, a geologiczna budowę skalną."
     },
     {
       "subcategory": "Astronawigacja",
@@ -985,7 +941,7 @@
     },
     {
       "subcategory": "Historia",
-      "question": "Który chiński wynalazek odegrał kluczową rolę w rozwoju kartografii?",
+      "question": "Który przyrząd z igłą magnetyczną, rozwinięty w Chinach, ułatwił nawigatorom orientację względem kierunków?",
       "options": [
         "Kompas",
         "Papier",
@@ -994,24 +950,20 @@
       ],
       "answer": "Kompas",
       "explanation_correct": "Kompas umożliwił nawigację i orientację map, rewolucjonizując kartografię morską.",
-      "explanation_incorrect": "Papier i druk ułatwiły produkcję map, ale kompas był kluczowy dla kierunków.",
-      "last_verified_at": "2026-06-12T15:09:24.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Papier i druk również były ważne dla rozpowszechniania map, ale nie są opisanym przyrządem nawigacyjnym."
     },
     {
       "subcategory": "Siatka",
-      "question": "Linia na mapie łącząca punkty o tej samej szerokości geograficznej to:",
+      "question": "Jak nazywa się ogólnie linia łącząca punkty o tej samej szerokości geograficznej?",
       "options": [
         "Równoleżnik",
         "Południk",
-        "Izolinia",
-        "Równik"
+        "Izobara",
+        "Izobata"
       ],
       "answer": "Równoleżnik",
       "explanation_correct": "Równoleżnik to okrąg łączący punkty o jednakowej szerokości geograficznej, równoległy do równika.",
-      "explanation_incorrect": "Południk łączy punkty o tej samej długości, izolinia to dowolna linia stałej wartości, a równik to konkretny równoleżnik.",
-      "last_verified_at": "2026-06-12T15:09:24.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Równik i zwrotniki są szczególnymi równoleżnikami; południki wyznaczają długość geograficzną, a izobary i izobaty inne wielkości."
     },
     {
       "subcategory": "Hydrografia",
@@ -1068,10 +1020,8 @@
         "Antroponim"
       ],
       "answer": "Endonim",
-      "explanation_correct": "Endonim to nazwa miejscowa w języku lokalnym, np. Warszawa, a nie Warszawa (egzonim).",
-      "explanation_incorrect": "Egonim nie istnieje, toponim to ogólnie nazwa miejscowa, a antroponim to imię osoby.",
-      "last_verified_at": "2026-06-12T15:09:24.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Endonim to lokalna nazwa w odpowiednim języku, np. „Warszawa” po polsku; angielskie „Warsaw” jest egzonimem.",
+      "explanation_incorrect": "Toponim jest ogólną nazwą obiektu geograficznego, a antroponim nazwą osoby."
     },
     {
       "subcategory": "Pomiary laserowe",
@@ -1135,7 +1085,7 @@
     },
     {
       "subcategory": "Geologia",
-      "question": "Mapa ukazująca budowę wewnętrzną Ziemi oraz rodzaje skał to:",
+      "question": "Który rodzaj mapy przedstawia rozmieszczenie utworów skalnych i elementy budowy geologicznej?",
       "options": [
         "Mapa geologiczna",
         "Mapa glebowa",
@@ -1144,9 +1094,7 @@
       ],
       "answer": "Mapa geologiczna",
       "explanation_correct": "Mapa geologiczna przedstawia rozmieszczenie utworów skalnych, ich wiek i struktury.",
-      "explanation_incorrect": "Mapa glebowa dotyczy pokrywy glebowej, tektoniczna struktur, a hydrogeologiczna wód podziemnych.",
-      "last_verified_at": "2026-06-12T15:09:24.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mapa glebowa dotyczy pokrywy glebowej, tektoniczna struktur, a hydrogeologiczna wód podziemnych."
     },
     {
       "subcategory": "Kartometria",
@@ -1210,18 +1158,16 @@
     },
     {
       "subcategory": "Sztuka",
-      "question": "Które dzieło kartograficzne na swojej stronie tytułowej często przedstawia postać trzymającą globus?",
+      "question": "Jak nazywa się uporządkowany zbiór map wydany jako książka lub publikacja?",
       "options": [
         "Atlas",
-        "Globe",
+        "Globus",
         "Mapa ścienna",
         "Planisfera"
       ],
       "answer": "Atlas",
-      "explanation_correct": "Atlas to zbiór map, a na jego stronach tytułowych często pojawia się alegoryczna postać Atlasa dźwigającego globus.",
-      "explanation_incorrect": "Globus to trójwymiarowy model Ziemi, mapa ścienna jest pojedynczą mapą na ścianie, a planisfera to płaska reprezentacja sfery niebieskiej.",
-      "last_verified_at": "2026-06-12T15:09:24.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Atlas to uporządkowany zbiór map, często obejmujący wybrany obszar lub temat.",
+      "explanation_incorrect": "Globus jest modelem przestrzennym, mapa ścienna pojedynczą mapą, a planisfera przedstawieniem sfery na płaszczyźnie."
     },
     {
       "subcategory": "Meteorologia",
@@ -1240,18 +1186,16 @@
     },
     {
       "subcategory": "Kartografia cyfrowa",
-      "question": "Które oprogramowanie umożliwia wirtualną podróż po kuli ziemskiej z wykorzystaniem zdjęć satelitarnych?",
+      "question": "Który produkt Google jest znany jako wirtualny globus umożliwiający przeglądanie zdjęć powierzchni Ziemi?",
       "options": [
-        "Google Maps",
         "Google Earth",
-        "OpenStreetMap",
-        "Bing Maps"
+        "Edytor tekstu",
+        "Kalkulator",
+        "Odtwarzacz muzyki"
       ],
       "answer": "Google Earth",
       "explanation_correct": "Google Earth to wirtualny globus, który pozwala oglądać Ziemię z perspektywy satelitarnej i odbywać wirtualne podróże.",
-      "explanation_incorrect": "Google Maps to mapa internetowa, OpenStreetMap to otwarty projekt mapowy, a Bing Maps to podobne narzędzie firmy Microsoft.",
-      "last_verified_at": "2026-06-12T15:09:24.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Edytor tekstu, kalkulator i odtwarzacz muzyki nie są wirtualnymi globusami."
     },
     {
       "subcategory": "Odwzorowania",
@@ -1273,15 +1217,13 @@
       "question": "Które urządzenie służy do pomiaru głębokości dna morskiego za pomocą fal dźwiękowych?",
       "options": [
         "Echosonda",
-        "Sonar",
-        "Batymetr",
-        "Hydrofon"
+        "Kompas magnetyczny",
+        "Termometr",
+        "Barometr"
       ],
       "answer": "Echosonda",
       "explanation_correct": "Echosonda wysyła impuls dźwiękowy i mierzy czas jego powrotu, co pozwala określić głębokość.",
-      "explanation_incorrect": "Sonar to szersze pojęcie, batymetr to przyrząd do pomiaru głębi, a hydrofon rejestruje dźwięki podwodne.",
-      "last_verified_at": "2026-06-12T15:09:24.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Echosonda jest rodzajem sonaru; kompas, termometr i barometr służą do innych pomiarów."
     },
     {
       "subcategory": "Słynne mapy",
@@ -1348,15 +1290,13 @@
       "question": "Który element graficzny na mapie w formie małego rysunku przedstawia rzeczywisty obiekt?",
       "options": [
         "Piktogram",
-        "Sygnatura",
+        "Izobara",
         "Legenda",
         "Kartusz"
       ],
       "answer": "Piktogram",
       "explanation_correct": "Piktogram to stylizowany rysunek symbolizujący obiekt, np. drzewo, kościół.",
-      "explanation_incorrect": "Sygnatura to bardziej abstrakcyjny znak, legenda to objaśnienie znaków, a kartusz to ozdobna ramka mapy.",
-      "last_verified_at": "2026-06-12T15:09:24.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Piktogram może być rodzajem sygnatury obrazkowej; legenda objaśnia znaki, a kartusz jest ozdobną oprawą."
     },
     {
       "subcategory": "Oceanografia",
@@ -1420,48 +1360,42 @@
     },
     {
       "subcategory": "Ekologia",
-      "question": "Który typ mapy tematycznej przedstawia obszar występowania określonego gatunku?",
+      "question": "Który termin określa mapę przedstawiającą zasięg wybranego gatunku lub innego zjawiska?",
       "options": [
-        "Zasięgowa",
-        "Geobotaniczna",
-        "Faunistyczna",
-        "Ekologiczna"
+        "Mapa zasięgowa",
+        "Mapa polityczna",
+        "Mapa drogowa",
+        "Mapa batymetryczna"
       ],
-      "answer": "Zasięgowa",
+      "answer": "Mapa zasięgowa",
       "explanation_correct": "Mapa zasięgowa (arealowa) przedstawia granice występowania danego gatunku lub zjawiska.",
-      "explanation_incorrect": "Mapa geobotaniczna zajmuje się roślinnością, faunistyczna zwierzętami, a ekologiczna całymi ekosystemami.",
-      "last_verified_at": "2026-06-12T15:09:24.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mapa zasięgowa może być zarazem mapą faunistyczną lub geobotaniczną; pozostałe odpowiedzi akcentują inne zagadnienia."
     },
     {
       "subcategory": "Elementy mapy",
-      "question": "Który układ linii na mapie tworzą południki i równoleżniki?",
+      "question": "Jak nazywa się obraz południków i równoleżników na płaskiej mapie?",
       "options": [
         "Siatka geograficzna",
         "Siatka kartograficzna",
         "Siatka kilometrowa",
         "Siatka triangulacyjna"
       ],
-      "answer": "Siatka geograficzna",
-      "explanation_correct": "Siatka geograficzna to system południków i równoleżników służący do określania współrzędnych geograficznych.",
-      "explanation_incorrect": "Siatka kartograficzna to siatka odwzorowania, kilometrowa to siatka w układzie współrzędnych płaskich, a triangulacyjna to sieć punktów pomiarowych.",
-      "last_verified_at": "2026-06-12T15:09:24.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Siatka kartograficzna",
+      "explanation_correct": "Siatka kartograficzna przedstawia na płaszczyźnie siatkę geograficzną w wybranym odwzorowaniu.",
+      "explanation_incorrect": "Siatka geograficzna jest układem południków i równoleżników na globusie lub modelu Ziemi; siatka kilometrowa opiera się na współrzędnych płaskich."
     },
     {
       "subcategory": "Wojskowość",
-      "question": "Która mapa jest przeznaczona do planowania działań wojennych?",
+      "question": "Która mapa zawiera informacje wykorzystywane do planowania operacji wojskowej?",
       "options": [
         "Mapa operacyjna",
-        "Mapa sztabowa",
-        "Mapa taktyczna",
-        "Mapa strategiczna"
+        "Mapa gwiazdozbiorów",
+        "Mapa smaków",
+        "Mapa szlaków rowerowych"
       ],
       "answer": "Mapa operacyjna",
       "explanation_correct": "Mapa operacyjna to szczegółowa mapa używana przez dowództwo do planowania i prowadzenia operacji wojskowych.",
-      "explanation_incorrect": "Mapa sztabowa jest przeznaczona dla sztabu, taktyczna dla niższych szczebli, a strategiczna dla ogólnego planowania.",
-      "last_verified_at": "2026-06-12T15:09:24.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mapy sztabowe, taktyczne i strategiczne również wspierają planowanie wojskowe; pozostałe opcje nie są nazwą tej mapy."
     },
     {
       "subcategory": "Leśnictwo",
@@ -1495,18 +1429,16 @@
     },
     {
       "subcategory": "Magnetyzm",
-      "question": "Która linia na mapie magnetycznej łączy punkty o zerowej deklinacji?",
+      "question": "Jak nazywa się szczególny rodzaj izogony, na którym deklinacja magnetyczna wynosi zero?",
       "options": [
         "Linia agoniczna",
-        "Izogona",
-        "Izopora",
-        "Izoklina"
+        "Izobara",
+        "Izoterma",
+        "Izobata"
       ],
       "answer": "Linia agoniczna",
       "explanation_correct": "Linia agoniczna to izogona, wzdłuż której deklinacja magnetyczna wynosi 0°.",
-      "explanation_incorrect": "Izogona to ogólnie linia jednakowej deklinacji, izopora jednakowej zmiany w czasie, a izoklina jednakowego nachylenia pola magnetycznego.",
-      "last_verified_at": "2026-06-12T15:09:24.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Linia agoniczna jest izogoną; izobara dotyczy ciśnienia, izoterma temperatury, a izobata głębokości."
     }
   ]
 }
