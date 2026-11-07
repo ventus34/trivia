@@ -18,10 +18,8 @@
         "Carbonation"
       ],
       "answer": "Pasteurization",
-      "explanation_correct": "Pasteurization uses controlled heating to kill pathogens and extend shelf life while maintaining product quality.",
-      "explanation_incorrect": "Sterilization aims to kill all microorganisms, while irradiation and carbonation use different physical principles.",
-      "last_verified_at": "2026-06-12T16:40:08.015Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pasteurization uses a controlled time and temperature to reduce pathogens and spoilage microbes; pasteurized milk usually still requires refrigeration.",
+      "explanation_incorrect": "Sterilization aims at a much greater degree of microbial inactivation; irradiation and carbonation are different treatments."
     },
     {
       "subcategory": "Thermal Processing",
@@ -33,14 +31,12 @@
         "Antoine Lavoisier"
       ],
       "answer": "Louis Pasteur",
-      "explanation_correct": "Louis Pasteur discovered that heating wine to a specific temperature killed the bacteria causing spoilage.",
-      "explanation_incorrect": "Appert pioneered canning, while the others were primarily focused on microbiology and chemistry respectively.",
-      "last_verified_at": "2026-06-12T16:41:03.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Louis Pasteur investigated heat treatment to reduce microbial spoilage of wine; the required conditions depend on the product and treatment.",
+      "explanation_incorrect": "Appert pioneered canning, while the others were primarily focused on microbiology and chemistry respectively."
     },
     {
       "subcategory": "Thermal Processing",
-      "question": "Which term describes the sterilization process involving containers heated in a water bath or steam, named after its inventor?",
+      "question": "What term, named for Nicolas Appert, refers to heat preservation of food in sealed containers?",
       "options": [
         "Appertization",
         "Tyndallization",
@@ -48,10 +44,8 @@
         "Refining"
       ],
       "answer": "Appertization",
-      "explanation_correct": "Appertization is an archaic but accurate term for the industrial canning method developed by Nicolas Appert.",
-      "explanation_incorrect": "Tyndallization is a fractional heat process, while the other terms are not specific to this canning technique.",
-      "last_verified_at": "2026-06-12T16:41:03.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Appertization refers to heat treatment of food sealed in containers; commercial processes are designed for the food and target hazards.",
+      "explanation_incorrect": "Tyndallization is an intermittent heating process; the other terms do not name Appert’s preservation method."
     },
     {
       "subcategory": "Thermal Processing",
@@ -63,10 +57,8 @@
         "Convection"
       ],
       "answer": "Flash pasteurization",
-      "explanation_correct": "Flash pasteurization (HTST) utilizes a very short exposure at high heat to achieve microbial safety without extensive thermal damage.",
-      "explanation_incorrect": "Blast chilling is a storage method, and the others do not describe this precise rapid thermal cycle.",
-      "last_verified_at": "2026-06-12T16:41:03.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Flash or high-temperature short-time pasteurization uses controlled heating followed by cooling; the time and temperature depend on the food and required pathogen reduction.",
+      "explanation_incorrect": "Blast chilling is a storage method, and the others do not describe this precise rapid thermal cycle."
     },
     {
       "subcategory": "Thermal Processing",
@@ -78,10 +70,8 @@
         "Unlimited Heating Thermal"
       ],
       "answer": "Ultra High Temperature",
-      "explanation_correct": "UHT processing treats food at roughly 135–150 degrees Celsius for a few seconds to achieve shelf stability.",
-      "explanation_incorrect": "The other options are incorrect interpretations of the established food industry acronym UHT.",
-      "last_verified_at": "2026-06-12T16:41:03.623Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ultra-high-temperature processing uses very high heat for a short time. Shelf stability also depends on appropriate aseptic packaging and handling.",
+      "explanation_incorrect": "The other options are incorrect interpretations of the established food industry acronym UHT."
     },
     {
       "subcategory": "Dehydration",
@@ -115,7 +105,7 @@
     },
     {
       "subcategory": "Dehydration",
-      "question": "In the context of food preservation, which of the following is the most common commercial dried product made from pomaceous fruits like apples?",
+      "question": "Which dried product is made by slicing and dehydrating a pome fruit?",
       "options": [
         "Apple rings",
         "Apricot halves",
@@ -123,10 +113,8 @@
         "Grape clusters"
       ],
       "answer": "Apple rings",
-      "explanation_correct": "Apple rings are the standard commercial form of dried pomaceous fruit, produced by slicing the fruit transversely before dehydration.",
-      "explanation_incorrect": "While other fruits are dried, apricot halves are stone fruits, and grapes are berries; apple rings specifically represent the pomaceous category in this form.",
-      "last_verified_at": "2026-06-12T16:41:48.750Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dried apple rings are made from apples, a type of pome fruit.",
+      "explanation_incorrect": "Apricots and plums are stone fruits; grapes are berries."
     },
     {
       "subcategory": "Dehydration",
@@ -139,9 +127,7 @@
       ],
       "answer": "Freeze drying",
       "explanation_correct": "Freeze drying removes moisture by turning ice directly into vapor without a liquid phase.",
-      "explanation_incorrect": "Air, vacuum, and oven drying typically involve evaporation or rely on heat to remove liquid water.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Freeze drying uses sublimation of frozen water; other drying methods can remove water differently depending on conditions."
     },
     {
       "subcategory": "Dehydration",
@@ -175,18 +161,16 @@
     },
     {
       "subcategory": "Fermentation",
-      "question": "What is the common culinary product resulting from the fermentation of cabbage in a brine solution?",
+      "question": "Which food is traditionally made by fermenting shredded cabbage with salt?",
       "options": [
         "Sauerkraut",
-        "Kimchi",
-        "Pickle",
-        "Relish"
+        "Fresh lettuce",
+        "Apple pie",
+        "Plain yogurt"
       ],
       "answer": "Sauerkraut",
-      "explanation_correct": "Sauerkraut is produced by the fermentation of shredded cabbage by lactic acid bacteria.",
-      "explanation_incorrect": "Kimchi involves varied spices and vegetables, while pickles and relishes usually involve vinegar infusion.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sauerkraut is traditionally produced when lactic acid bacteria ferment salted shredded cabbage.",
+      "explanation_incorrect": "Kimchi can also contain fermented cabbage; the listed foods are not the named preparation."
     },
     {
       "subcategory": "Fermentation",
@@ -199,9 +183,7 @@
       ],
       "answer": "Kimchi",
       "explanation_correct": "Kimchi is a staple in Korean cuisine consisting of seasoned vegetables that have undergone lacto-fermentation.",
-      "explanation_incorrect": "Sauerkraut is purely cabbage and salt, while miso and natto are soy-based products.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kimchi has many regional recipes and fermentation practices; sauerkraut is another cabbage ferment, while miso and natto commonly involve soybeans."
     },
     {
       "subcategory": "Fermentation",
@@ -243,10 +225,8 @@
         "Citric acid"
       ],
       "answer": "Acetic acid",
-      "explanation_correct": "Acetic acid is the chemical agent in vinegar that lowers pH, preventing the growth of harmful bacteria.",
-      "explanation_incorrect": "While other acids are used in food, acetic acid is unique to the vinegar-based preservation process.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Acetic acid is the principal acid in vinegar. A validated acidity and processing method can inhibit microbial growth, but acidification does not automatically kill every pathogen or spore.",
+      "explanation_incorrect": "Other acids also lower pH and are used in food preservation; the question concerns vinegar."
     },
     {
       "subcategory": "Chemical Preservation",
@@ -258,14 +238,12 @@
         "Blanching"
       ],
       "answer": "Curing",
-      "explanation_correct": "Curing uses salt to draw moisture out of cells, creating an inhospitable environment for spoilage bacteria.",
-      "explanation_incorrect": "Glazing is a surface finish, pickling uses vinegar, and blanching is a thermal process.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Salt curing can reduce water activity and inhibit some microorganisms. Safety depends on the complete process, product and storage conditions.",
+      "explanation_incorrect": "Pickling may also use salt or brine; curing here refers to the named use of salt in meat and fish."
     },
     {
       "subcategory": "Chemical Preservation",
-      "question": "What is the technical term for the practice of using high concentrations of sugar to reduce water activity in fruit preservation, such as in jam production?",
+      "question": "What is the term for removing some water from fruit by immersion in a concentrated sugar solution?",
       "options": [
         "Osmotic dehydration",
         "Clarification",
@@ -273,10 +251,8 @@
         "Hydrogenation"
       ],
       "answer": "Osmotic dehydration",
-      "explanation_correct": "Osmotic dehydration uses sugar to draw moisture out of fruit cells through osmosis, inhibiting microbial growth.",
-      "explanation_incorrect": "Clarification removes impurities from liquids, while emulsification and hydrogenation involve fat and oil processing.",
-      "last_verified_at": "2026-06-12T16:41:48.750Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Osmotic dehydration moves water from fruit into concentrated syrup; processing and storage requirements depend on the final product.",
+      "explanation_incorrect": "Clarification, emulsification and hydrogenation describe other processes."
     },
     {
       "subcategory": "Chemical Preservation",
@@ -288,10 +264,8 @@
         "Potassium sorbate"
       ],
       "answer": "Sodium nitrite",
-      "explanation_correct": "Sodium nitrite is specific to cured meats for preventing botulism and maintaining the cured color.",
-      "explanation_incorrect": "The other options are either generic salts or different types of food preservatives/mold inhibitors.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sodium nitrite helps develop cured color and contributes to control of C. botulinum as part of a validated curing process; it is not a guarantee of safety on its own.",
+      "explanation_incorrect": "Salt also contributes to preservation; the question concerns the additive specifically associated with cured color and botulism control."
     },
     {
       "subcategory": "Chemical Preservation",
@@ -310,7 +284,7 @@
     },
     {
       "subcategory": "Modern Technology",
-      "question": "Which high-pressure processing technique is commonly used to pasteurize food products without heat?",
+      "question": "Which process uses very high pressure to reduce microorganisms in foods with limited heating?",
       "options": [
         "Pascalization",
         "Homogenization",
@@ -318,14 +292,12 @@
         "Filtration"
       ],
       "answer": "Pascalization",
-      "explanation_correct": "Pascalization, or high-pressure processing, utilizes intense pressure to neutralize microorganisms. It maintains food quality by avoiding high thermal damage.",
-      "explanation_incorrect": "Homogenization is for emulsion stability, evaporation concentrates liquids, and filtration removes solids, none of which utilize high pressure for microbial safety as a primary mechanism.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "High-pressure processing, or pascalization, can inactivate many vegetative microorganisms. Standard pressure treatment alone may not destroy resistant spores.",
+      "explanation_incorrect": "Homogenization can also use high pressure, but its principal role is altering particle size or emulsion stability."
     },
     {
       "subcategory": "Modern Technology",
-      "question": "Pulsed light preservation techniques in the food industry typically rely on which part of the electromagnetic spectrum?",
+      "question": "In broad-spectrum pulsed-light treatment, which component is especially important for microbial inactivation?",
       "options": [
         "Ultraviolet light",
         "Infrared radiation",
@@ -333,14 +305,12 @@
         "Radio waves"
       ],
       "answer": "Ultraviolet light",
-      "explanation_correct": "Pulsed light systems use brief, high-intensity flashes of light, predominantly in the ultraviolet range, to kill surface microbes.",
-      "explanation_incorrect": "Infrared and radio waves are used for heating, while the visible spectrum is generally ineffective at sterilizing surfaces compared to UV emissions.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pulsed light can contain ultraviolet, visible and infrared wavelengths; ultraviolet energy is an important contributor to microbial inactivation.",
+      "explanation_incorrect": "Pulsed-light lamps need not emit ultraviolet alone; treatment effectiveness depends on the spectrum and the exposed surface."
     },
     {
       "subcategory": "Modern Technology",
-      "question": "Which technology uses high-frequency sound waves to disrupt the cell membranes of microorganisms in liquid foods?",
+      "question": "Which treatment uses high-frequency sound waves and cavitation to help inactivate microorganisms in some liquid foods?",
       "options": [
         "Ultrasonication",
         "Microwaving",
@@ -348,10 +318,8 @@
         "Electroporation"
       ],
       "answer": "Ultrasonication",
-      "explanation_correct": "Ultrasonication works through acoustic cavitation, creating local pressure fluctuations that collapse bubbles and damage microbial cell walls.",
-      "explanation_incorrect": "Irradiation uses ionizing particles, while electroporation uses electric fields to achieve similar outcomes; microwaving is primarily a thermal processing method.",
-      "last_verified_at": "2026-06-12T16:41:03.624Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ultrasonication can generate acoustic cavitation that damages cells. Effectiveness depends on conditions and often improves when combined with other treatments.",
+      "explanation_incorrect": "Electroporation uses electric fields; microwaving mainly heats food. Neither is the described acoustic method."
     },
     {
       "subcategory": "Modern Technology",
@@ -378,10 +346,8 @@
         "Chlorination"
       ],
       "answer": "Ozonation",
-      "explanation_correct": "Ozonation uses ozone, a powerful oxidizing agent, to effectively sanitize water and surface areas of food items.",
-      "explanation_incorrect": "Carbonation refers to CO2 saturation, nitrogen flushing removes oxygen, and chlorination uses a chemical salt, all distinct from the usage of reactive oxygen.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ozonation uses ozone, a reactive allotrope of oxygen, to help sanitize water or food-contact surfaces under suitable controlled conditions.",
+      "explanation_incorrect": "Carbonation uses carbon dioxide, nitrogen flushing displaces oxygen, and chlorination uses chlorine-based disinfectants."
     },
     {
       "subcategory": "Packaging",
@@ -393,10 +359,8 @@
         "Vapor barriers"
       ],
       "answer": "Oxygen scavengers",
-      "explanation_correct": "Oxygen scavengers are active components that react with residual internal gases to prevent oxidation and extend shelf life.",
-      "explanation_incorrect": "Desiccants absorb moisture, ethylene receptors would block ripening hormones, and vapor barriers prevent moisture loss but do not actively remove gases.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oxygen scavengers absorb or react with residual oxygen inside packaging, helping reduce oxidation and some aerobic spoilage.",
+      "explanation_incorrect": "Desiccants absorb moisture; barriers limit transfer through packaging, while ethylene absorbers target a different gas."
     },
     {
       "subcategory": "Packaging",
@@ -408,14 +372,12 @@
         "Barcodes"
       ],
       "answer": "Time-Temperature Indicators",
-      "explanation_correct": "Time-Temperature Indicators (TTIs) physically or chemically respond to duration and heat exposure to verify food safety.",
-      "explanation_incorrect": "RFID, QR codes, and barcodes serve as information trackers rather than reactive sensors that monitor the environment in real time.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Time-temperature indicators respond to temperature exposure over time. They provide a handling signal but cannot alone prove that food is safe.",
+      "explanation_incorrect": "RFID systems may be combined with sensors; ordinary printed QR codes and barcodes identify or link information."
     },
     {
       "subcategory": "Packaging",
-      "question": "Which transparent thermoplastic material is the most common polymer utilized for flexible food packaging?",
+      "question": "Which polymer is commonly used in flexible food bags and films?",
       "options": [
         "Polyethylene",
         "Polystyrene",
@@ -423,14 +385,12 @@
         "Polycarbonate"
       ],
       "answer": "Polyethylene",
-      "explanation_correct": "Polyethylene is the standard material for transparent bags and films due to its flexibility, chemical resistance, and low cost.",
-      "explanation_incorrect": "Polystyrene is typically rigid, polyurethane is used for foams or elastomers, and polycarbonate is a heavy-duty hard plastic.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Polyethylene is widely used in food bags and flexible films; other polymers are also used.",
+      "explanation_incorrect": "Polystyrene, polyurethane and polycarbonate have other common applications and are not the polyethylene named here."
     },
     {
       "subcategory": "Packaging",
-      "question": "Which metallic household product creates an absolute barrier to light and moisture in food packaging?",
+      "question": "Which household packaging material is a thin metal sheet used to shield food from light?",
       "options": [
         "Aluminum foil",
         "Copper film",
@@ -438,14 +398,12 @@
         "Tin coating"
       ],
       "answer": "Aluminum foil",
-      "explanation_correct": "Aluminum foil provides an excellent barrier against oxygen, light, odors, and moisture penetration for various food items.",
-      "explanation_incorrect": "Copper is not used for direct contact packaging, steel is for cans rather than foils, and tin is used as an inert coating (plating) on steel.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aluminum foil provides a strong light and moisture barrier when intact. Pinholes, folds and imperfect seals can compromise a package.",
+      "explanation_incorrect": "Other metals can be used in packaging; household aluminum foil is the material described."
     },
     {
       "subcategory": "Packaging",
-      "question": "Which specialized packaging structure allows for the long-term storage of shelf-stable, pasteurized liquid foods without refrigeration?",
+      "question": "Which multilayer package is often used for commercially sterile milk filled under aseptic conditions?",
       "options": [
         "Aseptic carton",
         "Laminate pouch",
@@ -453,29 +411,25 @@
         "Glass jar"
       ],
       "answer": "Aseptic carton",
-      "explanation_correct": "Aseptic cartons consist of multi-layer materials shielding contents from light and oxygen, allowing shelf-stable storage post-sterilization.",
-      "explanation_incorrect": "Laminate pouches, plastic jugs, and glass jars require additional sterilization or different handling techniques unless specifically designed for aseptic conditions.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aseptic cartons can protect commercially sterile food filled and sealed under aseptic conditions; shelf stability depends on both processing and packaging.",
+      "explanation_incorrect": "Other containers can also be used for aseptic packaging when suitably designed and processed."
     },
     {
       "subcategory": "Additives",
-      "question": "Which general prefix identifies chemical preservatives in the European Union's food additive numbering system?",
+      "question": "Which EU additive number is an example of a preservative in the E200–E299 range?",
       "options": [
-        "E Two Hundred",
-        "E Three Hundred",
-        "E Four Hundred",
-        "E Five Hundred"
+        "E200 (sorbic acid)",
+        "E100 (curcumin)",
+        "E300 (ascorbic acid)",
+        "E500 (sodium carbonates)"
       ],
-      "answer": "E Two Hundred",
-      "explanation_correct": "In the E-number code system, the group starting with 200 through 299 is specifically reserved for food preservatives.",
-      "explanation_incorrect": "The 300 series are antioxidants, 400 series are stabilizers/thickeners, and 500 series are acidity regulators.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "E200 (sorbic acid)",
+      "explanation_correct": "E200 is sorbic acid, a preservative. E-number ranges group substances broadly, but some additives have more than one function.",
+      "explanation_incorrect": "The other examples are commonly associated with coloring, antioxidant or raising-agent functions."
     },
     {
       "subcategory": "Additives",
-      "question": "Which additive is commonly utilized in bread-making to prevent the growth of mold and rope-forming bacteria?",
+      "question": "Which calcium salt of propionic acid is used as a preservative in some baked goods?",
       "options": [
         "Calcium propionate",
         "Sodium nitrate",
@@ -483,14 +437,12 @@
         "Ascorbic acid"
       ],
       "answer": "Calcium propionate",
-      "explanation_correct": "Calcium propionate is widely favored in the baking industry as a highly effective, safe antimicrobial against molds in wheat products.",
-      "explanation_incorrect": "Sodium nitrate is used for meats, potassium sorbate for acidic foods, and ascorbic acid as a dough conditioner.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Calcium propionate can inhibit mold and some rope-forming bacteria in baked goods; permitted uses and levels depend on applicable rules and good manufacturing practice.",
+      "explanation_incorrect": "Potassium sorbate is another food preservative, but it is not the calcium salt of propionic acid."
     },
     {
       "subcategory": "Additives",
-      "question": "Which compound is the most frequently selected preservative for inhibiting microbes in acidic beverages like soft drinks?",
+      "question": "Which preservative can be used to inhibit yeasts and molds in acidic soft drinks?",
       "options": [
         "Sodium benzoate",
         "Sodium chloride",
@@ -498,10 +450,8 @@
         "Sodium citrate"
       ],
       "answer": "Sodium benzoate",
-      "explanation_correct": "Sodium benzoate functions optimally in low-pH environments to inhibit the growth of yeasts and molds in carbonated soft drinks.",
-      "explanation_incorrect": "Sodium chloride is a seasoning, glutamate is a flavor enhancer, and citrate is a buffering agent or flavor balancer.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sodium benzoate can inhibit yeasts and molds in acidic foods and beverages when used at appropriate concentrations and within applicable rules.",
+      "explanation_incorrect": "Sodium chloride is a seasoning, glutamate is a flavor enhancer, and citrate is a buffering agent or flavor balancer."
     },
     {
       "subcategory": "Additives",
@@ -509,18 +459,16 @@
       "options": [
         "Sulfur dioxide",
         "Carbon dioxide",
-        "Nitrus oxide",
+        "Nitrous oxide",
         "Methane gas"
       ],
       "answer": "Sulfur dioxide",
       "explanation_correct": "Sulfur dioxide is the standard additive in wine to serve as both an antioxidant and antimicrobial agent to protect quality.",
-      "explanation_incorrect": "Carbon dioxide is for carbonation, nitrus oxide is used in aerosol dispensing, and methane is a byproduct of decay.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Carbon dioxide and nitrous oxide have different food uses; methane is not the antioxidant described here."
     },
     {
       "subcategory": "Additives",
-      "question": "What is the name of the resinous substance produced by honeybees that has been used historically for its antimicrobial, preservative properties?",
+      "question": "What resinous substance collected and modified by honeybees has been studied for antimicrobial properties?",
       "options": [
         "Propolis",
         "Beeswax",
@@ -528,10 +476,8 @@
         "Pollen"
       ],
       "answer": "Propolis",
-      "explanation_correct": "Propolis is a sticky natural mixture bees gather; it contains bioactive compounds that serve as potent preservatives against fungal and bacterial threats.",
-      "explanation_incorrect": "Beeswax is a structural material, Royal Jelly is a nutrient-dense food for larvae, and pollen is a protein source, none acting as primary preservatives.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Propolis is a resinous mixture collected and modified by honeybees. Its antimicrobial properties are studied, but composition and effectiveness vary; it is not a substitute for a validated preservation process.",
+      "explanation_incorrect": "Beeswax is a structural material, Royal Jelly is a nutrient-dense food for larvae, and pollen is a protein source, none acting as primary preservatives."
     },
     {
       "subcategory": "Ancient Methods",
@@ -543,10 +489,8 @@
         "Aged lard"
       ],
       "answer": "Bog butter",
-      "explanation_correct": "Bog butter refers to historical caches of butter buried in wetlands to preserve it through the anaerobic and cold conditions.",
-      "explanation_incorrect": "Soured, fermented, and aged products do not involve the specific archaeological practice of subterranean peat-based preservation.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bog butter is a term for archaeological deposits of butter or other fatty substances found buried in peat; reasons for burial are debated.",
+      "explanation_incorrect": "Soured, fermented, and aged products do not involve the specific archaeological practice of subterranean peat-based preservation."
     },
     {
       "subcategory": "Ancient Methods",
@@ -558,14 +502,12 @@
         "Smoking"
       ],
       "answer": "Confit",
-      "explanation_correct": "Confit is a preservation technique where meat is cooked in fat and cooled, which creates an air-tight seal against contaminants.",
-      "explanation_incorrect": "Curing uses salt, pickling uses acids, and smoking uses drying and wood compounds, none of which utilize fat immersion for a seal.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Confit traditionally involves cooking and storing food in fat. A fat covering alone does not guarantee safety or prevent botulism; appropriate refrigeration and a validated process remain important.",
+      "explanation_incorrect": "Curing, pickling and smoking use other preservation mechanisms; some preparations combine methods."
     },
     {
       "subcategory": "Ancient Methods",
-      "question": "Which traditional food made of dried lean meat, rendered fat, and berries was used by North American plains tribes for long-term survival?",
+      "question": "Which traditional food associated with Indigenous peoples of North America combines dried meat and rendered fat, sometimes with berries?",
       "options": [
         "Pemmican",
         "Jerky",
@@ -573,10 +515,8 @@
         "Charqui"
       ],
       "answer": "Pemmican",
-      "explanation_correct": "Pemmican is a nutrient-dense, shelf-stable mixture of dried meat (powdered) and fat, designed specifically for portability and long shelf life.",
-      "explanation_incorrect": "Jerky, biltong, and charqui are types of dried meat, but they lack the specific inclusion of animal fat used in the pemmican formula.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pemmican combines dried meat and rendered fat; berries may be added in some preparations.",
+      "explanation_incorrect": "Jerky, biltong and charqui are dried-meat traditions with different recipes; pemmican is identified by the mixture described."
     },
     {
       "subcategory": "Ancient Methods",
@@ -588,10 +528,8 @@
         "Worcestershire"
       ],
       "answer": "Garum",
-      "explanation_correct": "Garum was an anchovy-based salt-fermented sauce that was ubiquitous in ancient Roman cuisine and storage.",
-      "explanation_incorrect": "Miso and soy sauce are soybean-based ferments, and Worcestershire is a modern mixture, appearing long after the decline of Roman culinary traditions.",
-      "last_verified_at": "2026-06-12T16:41:03.625Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Garum was a fermented fish sauce used in Roman cooking. Recipes and fish species varied, so it was not necessarily made only from anchovies.",
+      "explanation_incorrect": "Miso and soy sauce are soybean-based ferments, and Worcestershire is a modern mixture, appearing long after the decline of Roman culinary traditions."
     },
     {
       "subcategory": "Ancient Methods",
@@ -610,18 +548,16 @@
     },
     {
       "subcategory": "Dairy Preservation",
-      "question": "What primary processed dairy item is formed through the coagulation of the milk protein casein?",
+      "question": "Which dairy product is commonly made by coagulating milk into curds and separating some whey?",
       "options": [
         "Cheese",
-        "Yogurt",
-        "Cream",
-        "Butter"
+        "Milk powder",
+        "Ghee",
+        "Whey powder"
       ],
       "answer": "Cheese",
       "explanation_correct": "Cheese is produced by coagulating casein protein into solid curds.",
-      "explanation_incorrect": "Yogurt, cream, and butter are other dairy states but do not involve the protein coagulation process used in cheesemaking.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Yogurt also involves acid coagulation of milk proteins; the question describes curds and whey used in cheese production."
     },
     {
       "subcategory": "Dairy Preservation",
@@ -629,14 +565,12 @@
       "options": [
         "Rennet",
         "Lipase",
-        "Protease",
-        "Amylase"
+        "Amylase",
+        "Lactase"
       ],
       "answer": "Rennet",
       "explanation_correct": "Rennet contains chymosin, an enzyme that specifically causes milk to separate into solids and whey.",
-      "explanation_incorrect": "Lipase, protease, and amylase are biochemical enzymes but are not the specific primary agents for milk coagulation.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Rennet contains proteases, notably chymosin. Lipase acts on fats, amylase on starch and lactase on lactose."
     },
     {
       "subcategory": "Dairy Preservation",
@@ -655,7 +589,7 @@
     },
     {
       "subcategory": "Dairy Preservation",
-      "question": "Which shelf-stable product is produced by evaporating moisture from liquid dairy until only dehydrated solids remain?",
+      "question": "Which shelf-stable dairy ingredient is made by removing most of the water from whole or skim milk?",
       "options": [
         "Milk powder",
         "Condensed milk",
@@ -664,9 +598,7 @@
       ],
       "answer": "Milk powder",
       "explanation_correct": "Milk powder is the result of industrial spray drying or roller drying to remove almost all water content.",
-      "explanation_incorrect": "Condensed and evaporated milks retain significant moisture content compared to dehydrated powder.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dried whey is also a dehydrated dairy product but is made from whey rather than whole or skim milk."
     },
     {
       "subcategory": "Dairy Preservation",
@@ -685,7 +617,7 @@
     },
     {
       "subcategory": "Sugar Preservation",
-      "question": "Which structural polysaccharide found in plant cell walls is essential for the gelling process in fruit preserves?",
+      "question": "Which plant-cell-wall polysaccharide commonly helps fruit jams and jellies set?",
       "options": [
         "Pectin",
         "Starch",
@@ -693,10 +625,8 @@
         "Gelatin"
       ],
       "answer": "Pectin",
-      "explanation_correct": "Pectin acts as the gelling agent that causes fruit mixtures to set when combined with sugar and acid.",
-      "explanation_incorrect": "Starch, cellulose, and gelatin are structural or gelling materials but do not serve as the standard gelling agent used in fruit jams.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pectin can form a gel under suitable conditions. Different pectins and recipes require different amounts of sugar, acid or calcium.",
+      "explanation_incorrect": "Starch, cellulose, and gelatin are structural or gelling materials but do not serve as the standard gelling agent used in fruit jams."
     },
     {
       "subcategory": "Sugar Preservation",
@@ -708,10 +638,8 @@
         "Compote"
       ],
       "answer": "Marmalade",
-      "explanation_correct": "Marmalade is distinguished by the inclusion of citrus rinds boiled in sugar until softened.",
-      "explanation_incorrect": "Chutney, conserve, and compote lack the specific citrus peel and sugar saturation definition of marmalade.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Citrus marmalade is a fruit preserve often made with peel, pulp, sugar and water; definitions can differ by region.",
+      "explanation_incorrect": "Chutney, conserve, and compote lack the specific citrus peel and sugar saturation definition of marmalade."
     },
     {
       "subcategory": "Sugar Preservation",
@@ -723,40 +651,34 @@
         "Petroleum jelly"
       ],
       "answer": "Paraffin wax",
-      "explanation_correct": "Paraffin wax was traditionally poured over the surface of jams to create an airtight seal while cooling.",
-      "explanation_incorrect": "Beeswax, silicone, and petroleum jelly serve different purposes and are not the standard food-safe airtight sealants for preserves.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Paraffin was historically used to cover some jellies. It is no longer recommended for sealing jams or jellies because mold can contaminate the product.",
+      "explanation_incorrect": "Current home-preservation guidance recommends tested processing and appropriate self-sealing jars rather than a wax seal."
     },
     {
       "subcategory": "Sugar Preservation",
       "question": "What is the name for fruit pieces that have been repeatedly saturated in sugar syrup until they are preserved and translucent?",
       "options": [
         "Candied fruit",
-        "Dried fruit",
-        "Glazed fruit",
-        "Crystallized fruit"
+        "Fresh fruit",
+        "Frozen fish",
+        "Roasted nuts"
       ],
       "answer": "Candied fruit",
-      "explanation_correct": "Candied fruit undergoes a gradual sugar infusion which replaces the fruit's moisture.",
-      "explanation_incorrect": "Dried, glazed, and crystallized fruits involve different moisture removal or coating methods without total sugar saturation.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Candied fruit is infused with concentrated sugar syrup; it may also be described as glacé, glazed or crystallized depending on preparation and usage.",
+      "explanation_incorrect": "The other choices do not describe fruit preserved by sugar infusion."
     },
     {
       "subcategory": "Sugar Preservation",
-      "question": "What highly concentrated solution of sugar in water or fruit juice is used to preserve liquids?",
+      "question": "What is the name for a concentrated sugar solution used in some fruit-preservation recipes?",
       "options": [
         "Syrup",
-        "Nectar",
-        "Cordial",
-        "Extract"
+        "Brine",
+        "Vinegar",
+        "Cooking oil"
       ],
       "answer": "Syrup",
-      "explanation_correct": "Syrup is a high-viscosity liquid defined by a high sugar-to-water ratio that inhibits bacterial growth.",
-      "explanation_incorrect": "Nectar, cordial, and extracts represent lower sugar concentrations or different chemical compositions.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sugar syrup is a solution of sugar in water. Sugar can reduce water activity, but concentration, processing and storage determine safety.",
+      "explanation_incorrect": "Brine is a salt solution; vinegar and oil are different ingredients."
     },
     {
       "subcategory": "Scientific Indicators",
@@ -768,10 +690,8 @@
         "Water activity"
       ],
       "answer": "pH level",
-      "explanation_correct": "The pH level measures the hydrogen ion concentration, which determines the acidity necessary to hinder pathogen development.",
-      "explanation_incorrect": "Brix, salinity, and water activity measure sugar, salt, and availability of water, respectively, not acidity.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "pH measures acidity on a logarithmic scale. Lower pH can inhibit particular pathogens, but safety depends on the organism and processing conditions.",
+      "explanation_incorrect": "Brix, salinity, and water activity measure sugar, salt, and availability of water, respectively, not acidity."
     },
     {
       "subcategory": "Scientific Indicators",
@@ -799,24 +719,20 @@
       ],
       "answer": "Maillard reaction",
       "explanation_correct": "The Maillard reaction is a chemical process between amino acids and sugars that creates complex flavors and colors.",
-      "explanation_incorrect": "Caramelization, hydrolysis, and fermentation involve different chemical pathways not dependent on amino sugar interaction.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Caramelization primarily involves reactions of sugars; hydrolysis and fermentation involve different processes."
     },
     {
       "subcategory": "Scientific Indicators",
       "question": "Which specific enzyme is responsible for the rapid darkening of fruits and vegetables upon exposure to oxygen?",
       "options": [
         "Polyphenol oxidase",
-        "Lipoxygenase",
-        "Catalase",
-        "Laccase"
+        "Amylase",
+        "Lactase",
+        "Pepsin"
       ],
       "answer": "Polyphenol oxidase",
       "explanation_correct": "Polyphenol oxidase catalyzes the oxidation of phenolic compounds into quinones, which polymerize to create brown pigments.",
-      "explanation_incorrect": "Lipoxygenase, catalase, and laccase are enzymes but do not serve as the primary drivers of enzymatic fruit browning.",
-      "last_verified_at": "2026-06-12T16:41:03.626Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Some laccases can also oxidize phenolics; amylase, lactase and pepsin have other principal substrates."
     },
     {
       "subcategory": "Scientific Indicators",
@@ -828,14 +744,12 @@
         "Calorimeters"
       ],
       "answer": "Biosensors",
-      "explanation_correct": "Biosensors integrate biological sensing elements to detect chemical signals indicating potential food spoilage.",
-      "explanation_incorrect": "Spectrometers, chromatographs, and calorimeters are large lab instruments not typically utilized as integrated food packaging tools.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A biosensor combines a biological recognition element with a transducer to detect a target. Such systems are studied for food-quality and safety monitoring.",
+      "explanation_incorrect": "Spectrometry and chromatography can also detect contaminants; the question specifically describes biological recognition."
     },
     {
       "subcategory": "Meat Preservation",
-      "question": "What chemical compound is commonly known as saltpetre and used extensively in the curing of meats?",
+      "question": "Which compound is traditionally known as saltpetre and has been used in curing meat?",
       "options": [
         "Potassium nitrate",
         "Sodium chloride",
@@ -843,10 +757,8 @@
         "Sodium benzoate"
       ],
       "answer": "Potassium nitrate",
-      "explanation_correct": "Potassium nitrate is the traditional chemical known as saltpetre used to cure meat and stabilize color.",
-      "explanation_incorrect": "Sodium chloride is standard table salt, while calcium carbonate and sodium benzoate do not serve as traditional meat curing agents.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Potassium nitrate is traditionally called saltpetre. In some curing processes nitrate is reduced to nitrite, which contributes to curing reactions; the result depends on the process.",
+      "explanation_incorrect": "Sodium chloride is standard table salt, while calcium carbonate and sodium benzoate do not serve as traditional meat curing agents."
     },
     {
       "subcategory": "Meat Preservation",
@@ -858,14 +770,12 @@
         "Capicola"
       ],
       "answer": "Bresaola",
-      "explanation_correct": "Bresaola is an air-dried, salted beef product originating from the Valtellina valley in Italy.",
-      "explanation_incorrect": "Prosciutto, pancetta, and capicola are all pork products, while bresaola is strictly made of beef.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bresaola della Valtellina is an Italian salt-cured, air-dried beef product; the term bresaola can also appear in other regional preparations.",
+      "explanation_incorrect": "Prosciutto, pancetta, and capicola are all pork products, while bresaola is strictly made of beef."
     },
     {
       "subcategory": "Meat Preservation",
-      "question": "Which high-quality Spanish cured ham is produced primarily from pigs raised under specific pasture-fed conditions?",
+      "question": "Which of these dry-cured hams is associated with Spain?",
       "options": [
         "Serrano ham",
         "Black Forest ham",
@@ -873,10 +783,8 @@
         "Parma ham"
       ],
       "answer": "Serrano ham",
-      "explanation_correct": "Serrano ham is a dry-cured ham from Spain characterized by its specific processing and aging timeline.",
-      "explanation_incorrect": "Black Forest, Westphalian, and Parma hams are different geographical varieties of cured pork products.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Serrano is a Spanish dry-cured ham. Pasture and breed claims apply to particular products and specifications, not all serrano ham.",
+      "explanation_incorrect": "Black Forest and Westphalian hams are associated with Germany, and Parma ham with Italy."
     },
     {
       "subcategory": "Meat Preservation",
@@ -910,7 +818,7 @@
     },
     {
       "subcategory": "Smoking",
-      "question": "Which specific chemical compounds found in wood smoke are primarily responsible for the antimicrobial properties that help preserve food?",
+      "question": "Which group of compounds in wood smoke can contribute antimicrobial and antioxidant effects in smoked foods?",
       "options": [
         "Phenols",
         "Carbonyls",
@@ -918,10 +826,8 @@
         "Acidols"
       ],
       "answer": "Phenols",
-      "explanation_correct": "Phenols derived from the thermal degradation of lignin are the main antimicrobial and antioxidant components in smoke.",
-      "explanation_incorrect": "Carbonyls primarily contribute to flavor and color, while alkanes and acidols are not the primary active antimicrobial agents in this context.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some phenolic compounds in smoke have antioxidant and antimicrobial effects. Preservation also depends on salt, drying, temperature and other factors.",
+      "explanation_incorrect": "Carbonyls primarily contribute to flavor and color, while alkanes and acidols are not the primary active antimicrobial agents in this context."
     },
     {
       "subcategory": "Smoking",
@@ -933,10 +839,8 @@
         "Kiln smoking"
       ],
       "answer": "Cold smoking",
-      "explanation_correct": "Cold smoking involves low temperatures, usually between 20°C and 30°C, which allows for curing without protein denaturation.",
-      "explanation_incorrect": "Hot smoking involves higher temperatures that cook the food; liquid smoking is an application method rather than a thermal process.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cold smoking exposes food to smoke at relatively low temperatures, typically without cooking it. Smoking alone does not ensure the food is safe; appropriate controls and storage are needed.",
+      "explanation_incorrect": "Hot smoking involves higher temperatures that cook the food; liquid smoking is an application method rather than a thermal process."
     },
     {
       "subcategory": "Smoking",
@@ -948,10 +852,8 @@
         "Tartare"
       ],
       "answer": "Jerky",
-      "explanation_correct": "Jerky is a shelf-stable meat product preserved by dehydration and occasionally wood smoke.",
-      "explanation_incorrect": "Confit is preserved in fat, pancetta is a salt-cured pork belly, and tartare is raw meat.",
-      "last_verified_at": "2026-06-12T16:41:48.750Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jerky is dried meat. Properly validated heating and drying, handling and storage are important because drying or smoking alone does not ensure pathogen destruction.",
+      "explanation_incorrect": "Confit is preserved in fat, pancetta is a salt-cured pork belly, and tartare is raw meat."
     },
     {
       "subcategory": "Smoking",
@@ -963,10 +865,8 @@
         "Nitrosamines"
       ],
       "answer": "Polycyclic aromatic hydrocarbons",
-      "explanation_correct": "Polycyclic aromatic hydrocarbons (PAHs) are potentially carcinogenic substances formed when smoke deposits on food surfaces during combustion.",
-      "explanation_incorrect": "The other substances listed are either industrial pollutants or unrelated chemical classes not typically linked to smoking combustion.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Polycyclic aromatic hydrocarbons can form during incomplete combustion and deposit on smoked foods; some are carcinogenic.",
+      "explanation_incorrect": "Nitrosamines are a different class of concern in some cured foods; PAHs are the compounds described in the question."
     },
     {
       "subcategory": "Smoking",
@@ -985,7 +885,7 @@
     },
     {
       "subcategory": "Microbiology",
-      "question": "Which potent neurotoxin produced by Clostridium bacteria must be prevented during the home canning process due to its lethal nature?",
+      "question": "Which neurotoxin can be produced if Clostridium botulinum spores survive and bacteria grow in improperly canned low-acid food?",
       "options": [
         "Botulinum toxin",
         "Aflatoxin",
@@ -993,10 +893,8 @@
         "Saxitoxin"
       ],
       "answer": "Botulinum toxin",
-      "explanation_correct": "Botulinum toxin is produced by Clostridium botulinum in anaerobic, low-acid conditions, making it a critical safety concern in canning.",
-      "explanation_incorrect": "Aflatoxins are fungal in origin, enterotoxins are typically associated with staphylococcal infections, and saxitoxin is a paralytic shellfish poison.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Botulinum toxin can form when suitable bacteria grow under favorable low-oxygen conditions. Validated canning procedures and acidity controls are essential.",
+      "explanation_incorrect": "Aflatoxins are produced by some molds, while saxitoxin is associated with shellfish poisoning."
     },
     {
       "subcategory": "Microbiology",
@@ -1008,10 +906,8 @@
         "Xerophiles"
       ],
       "answer": "Halophiles",
-      "explanation_correct": "Halophiles are organisms that thrive in high-salt environments, often used as an indicator for salt-cured food spoilage.",
-      "explanation_incorrect": "Acidophiles thrive in low pH, barophiles in high pressure, and xerophiles in arid, low-moisture environments.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Halophiles grow best at elevated salt concentrations; salt-tolerant organisms can also cause spoilage in salty foods.",
+      "explanation_incorrect": "Acidophiles thrive in low pH, barophiles in high pressure, and xerophiles in arid, low-moisture environments."
     },
     {
       "subcategory": "Microbiology",
@@ -1024,9 +920,7 @@
       ],
       "answer": "Psychrotrophs",
       "explanation_correct": "Psychrotrophs are capable of surviving and multiplying at refrigerator temperatures, which allows them to degrade food quality over time.",
-      "explanation_incorrect": "Thermophiles prefer high heat, while mesophiles prefer moderate temperatures; neither thrives in refrigerated conditions.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Psychrotrophs can grow at refrigeration temperatures even when their optimum is warmer; the other terms describe different temperature preferences."
     },
     {
       "subcategory": "Microbiology",
@@ -1038,10 +932,8 @@
         "Acidophiles"
       ],
       "answer": "Thermophiles",
-      "explanation_correct": "Thermophiles possess heat-stable enzymes that allow them to endure high temperatures that would destroy most other bacteria.",
-      "explanation_incorrect": "The other categories are defined by their preferences for cold, high pH, or low pH, respectively.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Thermophiles are organisms whose growth is favored at relatively high temperatures. Some food-relevant species form resistant spores, but heat resistance varies by organism and process.",
+      "explanation_incorrect": "The other categories are defined by their preferences for cold, high pH, or low pH, respectively."
     },
     {
       "subcategory": "Microbiology",
@@ -1068,14 +960,12 @@
         "Whey"
       ],
       "answer": "Brine",
-      "explanation_correct": "Brine is a high-concentration solution of salt in water which inhibits spoilage microbes while promoting beneficial lactic acid bacteria.",
-      "explanation_incorrect": "Syrup is sugar-based, must is used in winemaking, and whey is a dairy byproduct.",
-      "last_verified_at": "2026-06-12T16:41:03.627Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brine is a salt solution. Depending on concentration, food, fermentation and temperature, it can select for salt-tolerant microbes; safety requires an appropriate tested method.",
+      "explanation_incorrect": "Syrup is sugar-based, must is used in winemaking, and whey is a dairy byproduct."
     },
     {
       "subcategory": "Pickling",
-      "question": "What is the overarching chemical process, involving a decrease in pH, that prevents spoilage in pickled goods?",
+      "question": "What process lowers pH and can contribute to preservation of pickled foods?",
       "options": [
         "Acidification",
         "Oxidation",
@@ -1083,10 +973,8 @@
         "Esterification"
       ],
       "answer": "Acidification",
-      "explanation_correct": "Acidification involves lowering the pH of the food environment, which is inhibitory to the majority of foodborne pathogens.",
-      "explanation_incorrect": "Oxidation degrades quality, carbonation is the addition of gas, and esterification is a reaction between acids and alcohols.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Acidification lowers pH and can inhibit susceptible pathogens. Adequate acidity, processing and storage depend on the food and cannot be assumed from the word “pickled”.",
+      "explanation_incorrect": "Oxidation degrades quality, carbonation is the addition of gas, and esterification is a reaction between acids and alcohols."
     },
     {
       "subcategory": "Pickling",
@@ -1099,9 +987,7 @@
       ],
       "answer": "Mango",
       "explanation_correct": "Raw or green mango is widely used in Indian cuisine for making complex, spice-heavy pickles due to its acidity and structure.",
-      "explanation_incorrect": "The other fruits are rarely used in traditional pickling due to the high sugars or textures that do not suit the maturation process.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Other fruits can also be pickled; the question refers to the widely used unripe mango."
     },
     {
       "subcategory": "Pickling",
@@ -1128,25 +1014,21 @@
         "Artichoke"
       ],
       "answer": "Gherkin",
-      "explanation_correct": "A gherkin is a small variety of cucumber harvested specifically for pickling due to its ability to remain crunchy.",
-      "explanation_incorrect": "Zucchini, squash, and artichokes have different physiological structures and are not synonymous with small pickling cucumbers.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gherkin commonly refers to a small cucumber used for pickling; usage also varies by region.",
+      "explanation_incorrect": "Zucchini, squash, and artichokes have different physiological structures and are not synonymous with small pickling cucumbers."
     },
     {
       "subcategory": "Water Activity",
       "question": "What is the abbreviated symbol used in food science to denote water activity?",
       "options": [
-        "Aw",
+        "a_w",
         "pH",
         "RH",
         "Eh"
       ],
-      "answer": "Aw",
-      "explanation_correct": "Aw stands for 'Activity of water' and is the standard measure of the equilibrium relative humidity of a product.",
-      "explanation_incorrect": "pH measures acidity, RH measures relative humidity of air, and Eh measures redox potential.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "a_w",
+      "explanation_correct": "Water activity a_w is the ratio of the food’s equilibrium water-vapor pressure to that of pure water at the same temperature. It equals equilibrium relative humidity divided by 100.",
+      "explanation_incorrect": "pH measures acidity, RH is relative humidity expressed as a percentage, and Eh denotes redox potential."
     },
     {
       "subcategory": "Water Activity",
@@ -1158,10 +1040,8 @@
         "Structural water"
       ],
       "answer": "Free water",
-      "explanation_correct": "Free water is the component of a food's total water content that serves as a solvent and supports chemical reactions and microbial growth.",
-      "explanation_incorrect": "Bound water is held by chemical bonds and is unavailable to support microbial life.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "“Free water” is a simplified way to describe water available for reactions and microbial growth; water activity is the more useful equilibrium measure for assessing availability.",
+      "explanation_incorrect": "Water in food can be held with different strengths, so a simple free-versus-bound division is an approximation."
     },
     {
       "subcategory": "Water Activity",
@@ -1180,18 +1060,16 @@
     },
     {
       "subcategory": "Water Activity",
-      "question": "What physical force is responsible for the movement of water out of cells when food is surrounded by a highly concentrated solute, reducing its water activity?",
+      "question": "What process causes water to move across a semipermeable membrane toward a more concentrated solution?",
       "options": [
-        "Osmotic pressure",
+        "Osmosis",
         "Capillary action",
         "Surface tension",
         "Gravitational force"
       ],
-      "answer": "Osmotic pressure",
-      "explanation_correct": "Osmotic pressure draws water out of microbial cells in a salt or sugar-heavy environment, dehydrating and inhibiting them.",
-      "explanation_incorrect": "Capillary action, surface tension, and gravitation do not drive the moisture balance in cell-based food preservation methods.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Osmosis",
+      "explanation_correct": "Osmosis is net water movement across a semipermeable membrane driven by a difference in water chemical potential; salt or sugar can lower water activity.",
+      "explanation_incorrect": "Capillary action, surface tension and gravity are distinct physical effects."
     },
     {
       "subcategory": "Water Activity",
@@ -1203,10 +1081,8 @@
         "Vegetable oil"
       ],
       "answer": "Pure water",
-      "explanation_correct": "Pure water is the reference point for measurement, with a water activity of exactly 1.0 on a scale from 0 to 1.",
-      "explanation_incorrect": "Brine and sugar solutions have solutes that lower Aw below 1.0, and oil does not contain free water.",
-      "last_verified_at": "2026-06-12T16:41:03.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pure water is the reference, with a water activity of 1 at the specified temperature.",
+      "explanation_incorrect": "Dissolved salts or sugars generally lower water activity; measured values depend on the sample and conditions."
     },
     {
       "subcategory": "Canning",
@@ -1233,25 +1109,21 @@
         "Expansion zone"
       ],
       "answer": "Headspace",
-      "explanation_correct": "Headspace is the precise term for the depth of the void remaining at the top of a jar, which is critical for creating a proper vacuum seal.",
-      "explanation_incorrect": "While the other terms describe the location of air, they are not standard industry terminology used in home or commercial food preservation protocols.",
-      "last_verified_at": "2026-06-12T16:41:11.835Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Headspace is the space between the top of the food and the inside of the lid. The recommended amount varies by food and tested canning method.",
+      "explanation_incorrect": "While the other terms describe the location of air, they are not standard industry terminology used in home or commercial food preservation protocols."
     },
     {
       "subcategory": "Canning",
-      "question": "Which material is traditionally utilized for the sealing ring on standard glass canning jars to ensure an airtight closure?",
+      "question": "What component of a two-piece canning lid forms a seal against the jar rim?",
       "options": [
-        "Rubber",
-        "Polyethylene",
-        "Silicone",
-        "Neoprene"
+        "Sealing compound",
+        "Paper label",
+        "Metal screw band alone",
+        "Cardboard disk"
       ],
-      "answer": "Rubber",
-      "explanation_correct": "Traditional canning jar lids use a rubber gasket compound that softens during heating and hardens to create a vacuum seal as the jar cools.",
-      "explanation_incorrect": "Polyethylene, silicone, and neoprene are modern synthetic alternatives, but the historical and canonical material used in standard metal lids is rubber.",
-      "last_verified_at": "2026-06-12T16:41:11.835Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Sealing compound",
+      "explanation_correct": "A sealing compound on the lid contacts the jar rim; the band holds the lid during processing while a vacuum forms on cooling.",
+      "explanation_incorrect": "Different canning systems use different gaskets; a paper label or cardboard disk is not the sealing component described."
     },
     {
       "subcategory": "Canning",
@@ -1270,7 +1142,7 @@
     },
     {
       "subcategory": "Canning",
-      "question": "Which chemical compound was historically used as an internal lining in metal food cans but has since been largely phased out due to health concerns?",
+      "question": "Which chemical was used to make some epoxy resin linings for metal food cans?",
       "options": [
         "BPA",
         "PVC",
@@ -1278,40 +1150,34 @@
         "PFOA"
       ],
       "answer": "BPA",
-      "explanation_correct": "Bisphenol A (BPA) was widely used in epoxy linings for metal cans to prevent corrosion.",
-      "explanation_incorrect": "PVC, PTFE, and PFOA are polymers used in other industrial or culinary applications but were not the primary focus of can lining controversy.",
-      "last_verified_at": "2026-06-12T16:41:11.835Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bisphenol A (BPA) is used in making some epoxy resins used in food-contact materials. Regulations and manufacturer formulations vary by jurisdiction and date.",
+      "explanation_incorrect": "PVC and PTFE are polymers, while PFOA is a separate chemical; they are not the bisphenol used to make the specified epoxy."
     },
     {
       "subcategory": "Irradiation",
-      "question": "Which radioactive isotope is most frequently utilized in industrial irradiation to eliminate spoilage-causing bacteria?",
+      "question": "Which radioactive isotope is used as a source of gamma rays in some food irradiation facilities?",
       "options": [
         "Cobalt sixty",
-        "Cesium one thirty-seven",
-        "Iodine one thirty-one",
-        "Strontium ninety"
+        "Nitrogen fourteen",
+        "Oxygen sixteen",
+        "Carbon twelve"
       ],
       "answer": "Cobalt sixty",
-      "explanation_correct": "Cobalt-60 is a common source of intense gamma radiation used within commercial food irradiation facilities.",
-      "explanation_incorrect": "The other isotopes listed have different primary medical or industrial uses rather than wide-scale application in food irradiation.",
-      "last_verified_at": "2026-06-12T16:41:11.835Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cobalt-60 is one gamma-ray source used in food irradiation; the FDA also identifies cesium-137 as a possible source.",
+      "explanation_incorrect": "Cesium-137 can also provide gamma rays for irradiation; nitrogen-14, oxygen-16 and carbon-12 are stable isotopes."
     },
     {
       "subcategory": "Irradiation",
-      "question": "What is the standard color of the Radura symbol used globally to indicate that a food product has undergone irradiation?",
+      "question": "What is the name of the international symbol used to identify irradiated food?",
       "options": [
-        "Green",
-        "Blue",
-        "Red",
-        "Yellow"
+        "Radura",
+        "Recycling loop",
+        "Organic leaf",
+        "Fairtrade mark"
       ],
-      "answer": "Green",
-      "explanation_correct": "The Radura symbol, which looks like a stylized flower inside a circle, is required to be colored green by international standards.",
-      "explanation_incorrect": "Blue, red, and yellow are often associated with other safety or warning labels, but not the specific food irradiation standard.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Radura",
+      "explanation_correct": "The Radura symbol identifies irradiated foods; specific labeling requirements vary by jurisdiction.",
+      "explanation_incorrect": "Other symbols communicate different information; color and format are subject to applicable labeling rules."
     },
     {
       "subcategory": "Irradiation",
@@ -1323,14 +1189,12 @@
         "Radio waves"
       ],
       "answer": "Gamma rays",
-      "explanation_correct": "Short-wavelength gamma rays are chosen for irradiation because they possess sufficient energy to penetrate and ionize food without making it radioactive.",
-      "explanation_incorrect": "Microwaves, infrared, and radio waves do not have the high-energy ionizing capacity required for the level of sterilization provided by gamma rays.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gamma rays are one ionizing source used for food irradiation. Approved sources can also include X-rays and electron beams; irradiation does not make the food radioactive.",
+      "explanation_incorrect": "Microwaves, infrared and radio waves are non-ionizing; a particular irradiation dose need not sterilize food."
     },
     {
       "subcategory": "Irradiation",
-      "question": "What is the primary technical objective of applying high-level irradiation to food products?",
+      "question": "What can sufficiently high-dose food irradiation be designed to achieve?",
       "options": [
         "Sterilization",
         "Dehydration",
@@ -1338,14 +1202,12 @@
         "Ripening"
       ],
       "answer": "Sterilization",
-      "explanation_correct": "The main goal of high-dose irradiation is to eliminate harmful microorganisms, effectively sterilizing the product.",
-      "explanation_incorrect": "Dehydration, fermentation, and ripening are distinct processes that do not involve radioactive bombardment.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A sufficiently high and validated irradiation dose can achieve commercial sterilization in suitable products; many ordinary treatments instead reduce microbial counts.",
+      "explanation_incorrect": "Dehydration, fermentation and ripening are different processes. Radiation need not make food radioactive."
     },
     {
       "subcategory": "Irradiation",
-      "question": "Which common kitchen ingredient is frequently treated with irradiation to preserve its flavor and reduce microbial contamination?",
+      "question": "Which dried spice is among foods that may be irradiated to reduce microbial contamination?",
       "options": [
         "Paprika",
         "Salt",
@@ -1353,10 +1215,8 @@
         "Flour"
       ],
       "answer": "Paprika",
-      "explanation_correct": "Irradiation is highly effective for spices, including paprika, because it sterilizes them without the negative degradation associated with heat treatment.",
-      "explanation_incorrect": "Salt, sugar, and flour do not typically require irradiation because their low moisture content or structural properties inherently limit microbial growth.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Spices such as paprika may be irradiated to reduce microbial contamination. The result depends on the dose and is not necessarily complete sterilization.",
+      "explanation_incorrect": "FDA permits irradiation of certain foods, including spices, under specified conditions; low moisture does not guarantee absence of microbes."
     },
     {
       "subcategory": "Cooling",
@@ -1368,10 +1228,8 @@
         "Smoker"
       ],
       "answer": "Refrigerator",
-      "explanation_correct": "A refrigerator maintains temperatures between roughly 1-4 degrees Celsius, which lowers the metabolic rate of food-spoiling pathogens.",
-      "explanation_incorrect": "Dehydrators, pressure cookers, and smokers are used for water removal and thermal cooking processes, respectively.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Refrigerators slow the growth of many microbes, though some pathogens can still grow at refrigeration temperatures. Recommended temperature limits depend on local guidance.",
+      "explanation_incorrect": "Dehydrators remove moisture, pressure cookers use heat, and smokers expose foods to smoke."
     },
     {
       "subcategory": "Cooling",
@@ -1383,14 +1241,12 @@
         "Safety window"
       ],
       "answer": "Danger zone",
-      "explanation_correct": "The 'danger zone' is the critical temperature range where microorganisms reproduce at their peak rate.",
-      "explanation_incorrect": "The other terms are generic identifiers that do not correspond to the specific food safety term defined by health regulatory bodies.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The danger zone is a range in which many bacteria can grow rapidly. Exact guidance varies by authority, and growth depends on the organism, food and time.",
+      "explanation_incorrect": "Cold and hot holding, time limits and thorough cooking are separate controls; the range is not where every microorganism grows at its optimum."
     },
     {
       "subcategory": "Cooling",
-      "question": "What is the term for a commercial storage method that utilizes temperatures far below standard freezing to preserve high-value items?",
+      "question": "Which food-freezing technique uses an extremely cold cryogen such as liquid nitrogen or carbon dioxide?",
       "options": [
         "Cryogenic freezing",
         "Flash freezing",
@@ -1398,14 +1254,12 @@
         "Sub-zero conservation"
       ],
       "answer": "Cryogenic freezing",
-      "explanation_correct": "Cryogenic freezing uses materials like liquid nitrogen to achieve extremely low temperatures, often below -150 Celsius.",
-      "explanation_incorrect": "Flash freezing and blast freezing occur at higher temperatures, and cold chain storage refers to a logistical system rather than a specific cooling technology.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cryogenic freezing uses very cold substances such as liquid nitrogen or carbon dioxide for rapid cooling and freezing.",
+      "explanation_incorrect": "Flash freezing describes speed rather than one unique refrigerant; cold chain describes temperature-controlled logistics."
     },
     {
       "subcategory": "Cooling",
-      "question": "What is the most commonly utilized substance in cryogenic food freezing to achieve near-instantaneous temperature drops?",
+      "question": "Which liquefied gas is used as a cryogen in some commercial food-freezing systems?",
       "options": [
         "Liquid nitrogen",
         "Solid carbon dioxide",
@@ -1413,14 +1267,12 @@
         "Compressed argon"
       ],
       "answer": "Liquid nitrogen",
-      "explanation_correct": "Liquid nitrogen is the standard refrigerant in cryogenic preservation because of its extremely low boiling point and safety for food processing.",
-      "explanation_incorrect": "Solid CO2 is slower, helium is too expensive/complex, and argon is inert but inefficient in this specific transition context.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liquid nitrogen is one cryogen used for commercial food freezing; carbon dioxide is another. Proper equipment and ventilation are necessary.",
+      "explanation_incorrect": "Carbon dioxide is also used in freezing systems, so nitrogen is not the only possible refrigerant."
     },
     {
       "subcategory": "Cooling",
-      "question": "What fast-acting cooling technique uses high-velocity cold air to rapidly lower the temperature of food to stop bacterial growth?",
+      "question": "Which process uses rapidly circulated very cold air to freeze food?",
       "options": [
         "Blast freezing",
         "Cold tempering",
@@ -1428,10 +1280,8 @@
         "Deep refrigerating"
       ],
       "answer": "Blast freezing",
-      "explanation_correct": "Blast freezing utilizes powerful fans to circulate sub-zero air quickly across food surface areas.",
-      "explanation_incorrect": "The other terms are colloquial or descriptors of processes that do not characterize the specific mechanical high-velocity cold air technique known as blast freezing.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Blast freezing circulates cold air to freeze food quickly. Freezing greatly slows microbial growth but does not reliably kill all pathogens.",
+      "explanation_incorrect": "Blast chilling uses fast-moving cold air for cooling rather than necessarily freezing the product."
     },
     {
       "subcategory": "Atmospheric Modification",
@@ -1450,7 +1300,7 @@
     },
     {
       "subcategory": "Atmospheric Modification",
-      "question": "In modified atmosphere packaging, which inert gas is most frequently injected to displace oxygen and prevent oxidation?",
+      "question": "Which relatively inert gas is commonly used to displace oxygen in modified-atmosphere food packaging?",
       "options": [
         "Nitrogen",
         "Argon",
@@ -1458,10 +1308,8 @@
         "Neon"
       ],
       "answer": "Nitrogen",
-      "explanation_correct": "Nitrogen is preferred for its chemical inertness and ability to fill package headspace without reactivity.",
-      "explanation_incorrect": "Argon, helium, and neon are noble gases that are either too expensive or lack the specific commercial widespread utility of nitrogen for packaging.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nitrogen can displace oxygen and fill package headspace, slowing some oxidation; the chosen gas mixture depends on the food.",
+      "explanation_incorrect": "Other gases, including carbon dioxide and argon, can also be used in particular packaging systems."
     },
     {
       "subcategory": "Atmospheric Modification",
@@ -1473,14 +1321,12 @@
         "Hydrogen"
       ],
       "answer": "Carbon dioxide",
-      "explanation_correct": "Carbon dioxide effectively acts as a preservative by creating a slightly acidic environment on the surface of perishable foods.",
-      "explanation_incorrect": "Oxygen promotes biological growth, and methane and hydrogen are flammable or irrelevant to current food preservation technologies.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Carbon dioxide can inhibit certain bacteria and molds in modified-atmosphere packaging. Its effects depend on the food, gas mixture and storage temperature.",
+      "explanation_incorrect": "Oxygen can support aerobic growth but may be intentionally used for some foods; gas packaging is not a substitute for refrigeration when required."
     },
     {
       "subcategory": "Atmospheric Modification",
-      "question": "What process involves drawing air out of a package to create an environment that inhibits microbial life through the absence of oxygen?",
+      "question": "What packaging process removes much of the air from a pouch before sealing?",
       "options": [
         "Vacuum packaging",
         "Atmospheric stripping",
@@ -1488,14 +1334,12 @@
         "Gas flushing"
       ],
       "answer": "Vacuum packaging",
-      "explanation_correct": "Vacuum packaging removes internal air to prevent aerobic decomposition and lipid oxidation inside sealed pouches.",
-      "explanation_incorrect": "While gas flushing removes oxygen, vacuum packaging is defined explicitly by the physical extraction of air to form a tight seal.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Vacuum packaging removes much of the air, which can slow oxidation and some aerobic spoilage. It does not prevent all microbial growth: some pathogens grow without oxygen.",
+      "explanation_incorrect": "Gas flushing is another packaging method; perishable vacuum-packed foods may still require refrigeration or other controls."
     },
     {
       "subcategory": "Atmospheric Modification",
-      "question": "Which plant hormone is technically considered a trace gas that triggers the ripening process in fruit?",
+      "question": "Which gaseous plant hormone can promote ripening in many fruits?",
       "options": [
         "Ethylene",
         "Gibberellin",
@@ -1503,10 +1347,8 @@
         "Cytokinin"
       ],
       "answer": "Ethylene",
-      "explanation_correct": "Ethylene is the gaseous hormone secreted by fruit that acts as a signal for maturation and ripening.",
-      "explanation_incorrect": "Gibberellin, auxin, and cytokinin are plant growth regulators that generally do not function in the gaseous state as a primary ripening trigger in storage.",
-      "last_verified_at": "2026-06-12T16:41:11.836Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ethylene is a gaseous plant hormone that promotes ripening in many fruits; species differ in their response.",
+      "explanation_incorrect": "Gibberellins, auxins and cytokinins are other plant hormones with different roles."
     }
   ]
 }

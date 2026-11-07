@@ -70,6 +70,12 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Zabytki Techniki (PL):** przegląd 100 pytań, korekty 72 pozycji; szczegóły i zagadnienia do dalszego sprawdzenia w [raporcie](audits/2026-11-07-zabytki-techniki-pl.md).
 
+- **Powiedzenia, Przysłowia i Skrzydlate Słowa (PL):** przegląd 100 pytań, korekty 42 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md).
+
+- **Sim Racing vs. Real Motorsport (EN):** przegląd 100 pytań, korekty 68 pozycji i synchronizacja opisu; [raport](audits/2026-11-07-sim-racing-vs-real-motorsport-en.md).
+- **Religie Świata (PL):** przegląd 100 pytań, korekty 67 pozycji; [raport](audits/2026-11-07-religie-swiata-pl.md).
+- **The Science of Food Preservation (EN):** przegląd 100 pytań, korekty 79 pozycji; [raport](audits/2026-11-07-the-science-of-food-preservation-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

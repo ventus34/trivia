@@ -2,7 +2,7 @@
   "id": "sim_racing_vs_real_motorsport_en",
   "name": "Sim-Racing vs. Real Motorsport",
   "language": "en",
-  "description": "Questions covering: Braking Physics, Hardware, Braking Technique, Real World Mechanics...",
+  "description": "Braking techniques, physics, equipment and telemetry in sim racing and real motorsport.",
   "created_at": "2026-06-12T16:42:50.340Z",
   "last_verified_at": "2026-06-12T16:39:22.985Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -48,25 +48,21 @@
         "trail braking"
       ],
       "answer": "trail braking",
-      "explanation_correct": "Trail braking allows for better balance by keeping weight on the front tires while initiating turn-in.",
-      "explanation_incorrect": "Threshold braking focuses on stopping, while left-foot braking is simply the act of using the left foot on the middle pedal.",
-      "last_verified_at": "2026-06-12T16:37:16.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Trail braking means progressively releasing brake pressure as steering is applied, changing the balance of forces during corner entry.",
+      "explanation_incorrect": "Left-foot braking describes the foot used; it can also be combined with trail braking. Threshold braking focuses on braking near the grip limit."
     },
     {
       "subcategory": "Real World Mechanics",
-      "question": "What is the primary component in a brake system responsible for converting movement into heat through physical contact?",
+      "question": "In a disc brake, which components are pressed against the rotor to create friction?",
       "options": [
+        "brake pads",
         "brake fluid",
-        "friction material",
-        "caliper piston",
-        "steel rotor"
+        "wheel bearings",
+        "brake reservoir"
       ],
-      "answer": "friction material",
-      "explanation_correct": "The friction material (brake pads) is specifically engineered to generate heat and catch the rotor.",
-      "explanation_incorrect": "Fluid transmits force, pistons actuate the pads, and rotors are the surface intended to be clamped.",
-      "last_verified_at": "2026-06-12T16:37:16.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "brake pads",
+      "explanation_correct": "Brake pads clamp against the rotor. Friction at their interface converts kinetic energy to heat in both the pads and rotor.",
+      "explanation_incorrect": "Fluid transmits pressure, while the reservoir and wheel bearings have different roles."
     },
     {
       "subcategory": "Sim Racing Technology",
@@ -78,10 +74,8 @@
         "hydraulic damper"
       ],
       "answer": "haptic motor",
-      "explanation_correct": "Haptic motors provide the physical feedback signals necessary to alert the driver when tires are losing grip.",
-      "explanation_incorrect": "Solenoids and pressure regulators are components of actual mechanical braking systems rather than feedback actuators.",
-      "last_verified_at": "2026-06-12T16:37:16.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some pedal sets use a haptic motor to provide vibrations based on in-game telemetry or events such as ABS activation.",
+      "explanation_incorrect": "A haptic motor can create tactile feedback; the details depend on the hardware and simulator."
     },
     {
       "subcategory": "Vehicle Dynamics",
@@ -93,25 +87,21 @@
         "rear lift"
       ],
       "answer": "nose dive",
-      "explanation_correct": "Nose dive is the result of weight transfer putting a higher moment on the front uprights.",
-      "explanation_incorrect": "Camber gain is related to suspension geometry, while spring bind is a mechanical failure state.",
-      "last_verified_at": "2026-06-12T16:37:16.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Under braking, longitudinal load transfers forward and front suspension compression can make the car pitch nose-down.",
+      "explanation_incorrect": "Camber gain describes a change in wheel angle; rear suspension extension may accompany nose dive but is a separate motion."
     },
     {
       "subcategory": "Brake Systems",
-      "question": "Which material is favored in top-tier motorsport for its ability to withstand extreme temperatures without significant warping?",
+      "question": "Which brake disc material is used in Formula 1 for its high-temperature performance?",
       "options": [
-        "cast iron",
-        "stainless steel",
-        "carbon ceramic",
-        "aluminum alloy"
+        "carbon-carbon composite",
+        "wood",
+        "ordinary plastic",
+        "rubber"
       ],
-      "answer": "carbon ceramic",
-      "explanation_correct": "Carbon ceramic rotors are highly heat-resistant and durable under extreme racing deceleration.",
-      "explanation_incorrect": "Cast iron and steel are conventional materials prone to thermal fatigue compared to ceramic composites.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "carbon-carbon composite",
+      "explanation_correct": "Formula 1 uses carbon-carbon friction components that are designed to work within suitable temperature ranges.",
+      "explanation_incorrect": "Carbon-carbon and carbon-ceramic brakes are different materials; other motorsport categories may use cast iron or other designs."
     },
     {
       "subcategory": "Braking Physics",
@@ -123,14 +113,12 @@
         "understeer"
       ],
       "answer": "wheel lockup",
-      "explanation_correct": "Wheel lockup occurs when rotating force is lost entirely because traction is exceeded by braking force.",
-      "explanation_incorrect": "Hydroplaning relates to water, while understeer is a path error rather than a rotational state.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wheel lockup occurs when a wheel stops rotating while the vehicle is still moving, causing the tire to slide.",
+      "explanation_incorrect": "Hydroplaning concerns loss of contact in water; understeer describes a cornering response."
     },
     {
       "subcategory": "Sim Racing Software",
-      "question": "What is the name for the mathematical algorithm inside racing sims that simulates how heat builds and dissipates within a brake disc?",
+      "question": "What type of model can simulate how brake components heat up and cool down in a racing simulator?",
       "options": [
         "friction coefficient",
         "thermal model",
@@ -138,14 +126,12 @@
         "fluid dynamics"
       ],
       "answer": "thermal model",
-      "explanation_correct": "A thermal model simulates thermodynamic energy transfer between pad and rotor in real-time.",
-      "explanation_incorrect": "Friction coefficient is a constant within the formula, not the calculation itself.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A thermal model estimates heat generation and transfer between components and their environment.",
+      "explanation_incorrect": "Friction coefficient is a material and operating-condition dependent quantity; it is not itself a thermal model."
     },
     {
       "subcategory": "Driver Inputs",
-      "question": "What is the specific driving technique regarding pedal usage common to both karting and modern circuit racing?",
+      "question": "Which braking technique can be used in both karts and circuit cars without using the right foot for the brake?",
       "options": [
         "heel-and-toe",
         "left-foot braking",
@@ -153,14 +139,12 @@
         "engine braking"
       ],
       "answer": "left-foot braking",
-      "explanation_correct": "Using the left foot for braking is required when the transmission does not require clutch pedal use for corner entry.",
-      "explanation_incorrect": "Heel-and-toe is for manual shifting, while rev-matching is a timing synchronization technique.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Left-foot braking is common in karts and many race cars, though it is not required in every vehicle or situation.",
+      "explanation_incorrect": "Heel-and-toe is a technique for downshifting with a manual transmission; left-foot braking identifies the foot used."
     },
     {
       "subcategory": "Brake Hardware",
-      "question": "What is the primary substance used within closed hydraulic lines to transfer pedal force to the calipers?",
+      "question": "Which type of brake fluid is commonly used in automotive hydraulic brake systems specifying DOT 3 or DOT 4 fluid?",
       "options": [
         "silicone sealant",
         "mineral oil",
@@ -168,10 +152,8 @@
         "synthetic solvent"
       ],
       "answer": "glycol-based fluid",
-      "explanation_correct": "Most standard racing brakes utilize glycol-ether mixtures due to their high boiling points.",
-      "explanation_incorrect": "Mineral oil is common in bicycle hydraulics, while silicone is rarely used in high-heat racing environments.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "DOT 3 and DOT 4 brake fluids are typically glycol-ether based. Always use the fluid specified for the particular system.",
+      "explanation_incorrect": "Other hydraulic systems may use mineral oil or silicone-based fluid; they must not be substituted without checking the manufacturer’s specification."
     },
     {
       "subcategory": "Vehicle Setup",
@@ -190,33 +172,29 @@
     },
     {
       "subcategory": "Braking Issues",
-      "question": "What safety-critical issue happens when the friction material in brakes overheats, leading to a sudden loss of stopping efficiency?",
+      "question": "What is the general term for reduced braking effectiveness associated with excessive brake temperature?",
       "options": [
-        "pad glazing",
         "brake fade",
-        "caliper seize",
-        "fluid boiling"
+        "tire rotation",
+        "wheel alignment",
+        "steering ratio"
       ],
       "answer": "brake fade",
-      "explanation_correct": "Brake fade is the phenomenon where efficiency drops as temperatures exceed the operating range of the pads or fluid.",
-      "explanation_incorrect": "Pad glazing occurs due to improper bedding, while caliper seizing is a mechanical failure.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brake fade describes reduced braking effectiveness associated with heat; causes can include changes at the friction surfaces or boiling fluid.",
+      "explanation_incorrect": "Fluid boiling and pad overheating are distinct mechanisms that can both impair braking."
     },
     {
       "subcategory": "Simulation Accuracy",
-      "question": "What feeling is typically transmitted through the steering wheel and pedal set when an ABS system activates?",
+      "question": "When some real-car ABS systems modulate pressure, what can a driver feel through the brake pedal?",
       "options": [
-        "vibration",
-        "pulsation",
-        "oscillation",
-        "stiffness"
+        "pedal pulsation",
+        "a permanent increase in fuel level",
+        "a change in seat height",
+        "an increase in tire diameter"
       ],
-      "answer": "pulsation",
-      "explanation_correct": "Pulsation is the physical effect of the ABS computer rapidly modulating line pressure.",
-      "explanation_incorrect": "Vibration is a general state, while oscillation refers to a specific harmonic frequency.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "pedal pulsation",
+      "explanation_correct": "Pressure modulation can cause pedal pulsation or vibration, although feedback varies across systems.",
+      "explanation_incorrect": "Pulsation is one possible tactile cue; other sensations and audible cues vary by vehicle."
     },
     {
       "subcategory": "Terminology",
@@ -250,18 +228,16 @@
     },
     {
       "subcategory": "Aerodynamics",
-      "question": "What aerodynamic-based device exists on some high-performance supercars to provide extra deceleration stability at high speeds?",
+      "question": "What is the name for a movable surface deployed primarily to increase aerodynamic drag and assist deceleration?",
       "options": [
-        "active wing",
-        "rear diffuser",
         "air brake",
-        "splitter"
+        "tire valve",
+        "brake pad",
+        "flywheel"
       ],
       "answer": "air brake",
-      "explanation_correct": "An air brake increases aerodynamic drag to assist the mechanical friction brakes during high-speed stopping.",
-      "explanation_incorrect": "Splitters and diffusers manage downforce, while wings control pitch stability.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An air brake increases drag to aid deceleration; some active wings can serve this function.",
+      "explanation_incorrect": "An active wing can also operate as an air brake, depending on its design and position."
     },
     {
       "subcategory": "Sim Racing Calibration",
@@ -273,10 +249,8 @@
         "sensitivity"
       ],
       "answer": "gamma curve",
-      "explanation_correct": "The gamma curve controls the software-side input response to provide a more precise feel at lower pedal positions.",
-      "explanation_incorrect": "Deadzone and saturation settings are for input range limits, not for the response shape.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A gamma or response curve changes the mapping between pedal input and output. The exact effect depends on the software and curve settings.",
+      "explanation_incorrect": "Deadzone and saturation set parts of the active input range; the response curve controls how input maps to output."
     },
     {
       "subcategory": "Braking Mechanics",
@@ -295,7 +269,7 @@
     },
     {
       "subcategory": "Vehicle Physics",
-      "question": "What refers to the dynamic weight movement shifting from the rear onto the front tires during a braking maneuver?",
+      "question": "What describes the increase in front axle load and corresponding reduction in rear axle load during deceleration?",
       "options": [
         "roll center",
         "longitudinal load transfer",
@@ -303,10 +277,8 @@
         "steering geometry"
       ],
       "answer": "longitudinal load transfer",
-      "explanation_correct": "Longitudinal load transfer describes weight shifting forward under deceleration.",
-      "explanation_incorrect": "Lateral acceleration implies side-to-side force, while roll center is a suspension pivot point.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Longitudinal load transfer changes the vertical loads on the axles during braking; the car’s center of mass does not physically move between the axles.",
+      "explanation_incorrect": "Lateral load transfer occurs side to side, while suspension geometry affects the vehicle’s response."
     },
     {
       "subcategory": "Sim Racing Pedals",
@@ -348,10 +320,8 @@
         "rolling resistance"
       ],
       "answer": "slip ratio",
-      "explanation_correct": "Slip ratio is defined as the normalized difference between ground speed and tire rotation speed.",
-      "explanation_incorrect": "Camber thrust, lateral grip, and rolling resistance are forces or behaviors, not a percentage metric of tire longitudinal speed.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Longitudinal slip ratio compares wheel circumferential speed with vehicle speed using a normalized difference; definitions and sign conventions vary.",
+      "explanation_incorrect": "Camber thrust and lateral grip concern other tire behaviors rather than this longitudinal speed relationship."
     },
     {
       "subcategory": "Braking Mechanics",
@@ -385,7 +355,7 @@
     },
     {
       "subcategory": "Aerodynamics",
-      "question": "Which aeronautical-based driver system closes instantly when the brake pedal is depressed to ensure maximum vehicle drag?",
+      "question": "In the Formula 1 DRS system used before 2026, what adjustable rear-wing system reduced drag on permitted sections and closed when the driver braked?",
       "options": [
         "KERS",
         "DRS",
@@ -393,10 +363,8 @@
         "VVT"
       ],
       "answer": "DRS",
-      "explanation_correct": "The Drag Reduction System opens a flap on the rear wing to reduce drag and must close during braking for stability.",
-      "explanation_incorrect": "KERS, ABS, and VVT represent energy storage, electronic braking, and engine timing respectively.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "DRS opened a rear-wing flap to reduce drag; in the previous F1 ruleset, braking deactivated it.",
+      "explanation_incorrect": "KERS recovered energy, ABS modulated brake pressure, and VVT changes engine valve timing."
     },
     {
       "subcategory": "Braking Physics",
@@ -408,40 +376,34 @@
         "oxidization"
       ],
       "answer": "heat soak",
-      "explanation_correct": "Heat soak refers to the condition where braking components reach a temperature equilibrium that reduces their ability to shed further heat.",
-      "explanation_incorrect": "Thermal fatigue, scaling, and oxidization are structural or chemical issues rather than thermodynamic states.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Heat soak describes heat accumulating in or spreading through components when heat input and dissipation are out of balance; component temperature need not be at equilibrium.",
+      "explanation_incorrect": "Thermal fatigue refers to damage associated with repeated temperature cycles."
     },
     {
       "subcategory": "Driver Technique",
-      "question": "What is the specific degradation of the tire carcass caused by prolonged locking of the wheels during hard braking?",
+      "question": "What tire damage can occur when a locked wheel slides along the track and wears one part of the tread?",
       "options": [
-        "edge tearing",
-        "surface overheating",
-        "pressure spiking",
-        "carcass shearing"
+        "flat spotting",
+        "tire rotation",
+        "wheel balancing",
+        "tread inflation"
       ],
-      "answer": "surface overheating",
-      "explanation_correct": "Locking the wheels creates intense, localized friction that causes the rubber surface to overheat and degrade.",
-      "explanation_incorrect": "Tearing, spiking, and shearing involve structural damage or pressure changes rather than localized thermal surface buildup.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "flat spotting",
+      "explanation_correct": "A locked tire sliding against the surface can wear a localized flat spot, sometimes causing vibration.",
+      "explanation_incorrect": "The extent of wear depends on the duration of the skid and the tire and track conditions."
     },
     {
       "subcategory": "Braking Components",
-      "question": "In a floating brake caliper system, what is the metallic frame called that secures the pads in position while allowing movement?",
+      "question": "What bracket in many floating disc-brake designs supports the pads and guides the caliper?",
       "options": [
-        "piston base",
-        "carrier",
-        "mounting bracket",
-        "floating bush"
+        "caliper carrier",
+        "brake fluid reservoir",
+        "steering wheel",
+        "air filter"
       ],
-      "answer": "carrier",
-      "explanation_correct": "The carrier provides the structural path for the brake pads to slide or remain stationary relative to the disc.",
-      "explanation_incorrect": "Bases, brackets, and bushes are alternative mounting hardware that do not fulfill the specific function of housing the pads.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "caliper carrier",
+      "explanation_correct": "A caliper carrier, also called a caliper mounting bracket, supports the pads and guides the sliding assembly in many designs.",
+      "explanation_incorrect": "Carrier and mounting bracket can refer to the same component; the other options serve different functions."
     },
     {
       "subcategory": "Sim Racing Hardware",
@@ -483,10 +445,8 @@
         "surface priming"
       ],
       "answer": "bedding in",
-      "explanation_correct": "Bedding in is essential to ensure pad material is evenly deposited on the rotor for consistent frictional performance.",
-      "explanation_incorrect": "Tempering, heat cycling, and priming are related to metallurgy or wear, not the transfer of pad material onto the rotor surface.",
-      "last_verified_at": "2026-06-12T16:37:16.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bedding-in procedures condition the pad and rotor surfaces, often creating an even transfer layer. The recommended procedure depends on the pad manufacturer.",
+      "explanation_incorrect": "Heat cycling can be part of bedding in; tempering is a separate heat-treatment process."
     },
     {
       "subcategory": "Sim Racing Immersion",
@@ -513,10 +473,8 @@
         "slip streaming"
       ],
       "answer": "hydroplaning",
-      "explanation_correct": "Hydroplaning occurs when water build-up prevents the tire from touching the track, resulting in a total loss of effective braking.",
-      "explanation_incorrect": "Fade, stall, and slip streaming are mechanical or aerodynamic issues unrelated to liquid surface lifting.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hydroplaning occurs when water reduces or separates the tire’s contact with the road; it may be partial or complete.",
+      "explanation_incorrect": "A tire need not lose all road contact before wet conditions reduce braking grip."
     },
     {
       "subcategory": "Hardware Tech",
@@ -528,14 +486,12 @@
         "linear spring pedals"
       ],
       "answer": "hydraulic sim pedals",
-      "explanation_correct": "Hydraulic sim pedals mimic traditional vehicle systems to offer a realistic, pressure-based feel.",
-      "explanation_incorrect": "Pneumatic, load cell, and linear spring systems typically use air or solid state sensors rather than fluid-based master/slave cylinders.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hydraulic sim pedals can use a fluid-filled cylinder to create resistance or measure pressure; their construction varies.",
+      "explanation_incorrect": "Some hydraulic pedals also use load cells or pressure sensors, so sensing method and pedal mechanism can overlap."
     },
     {
       "subcategory": "Driver Habits",
-      "question": "What is the act of lightly pressing the brake pedal while accelerating or maintenance-driving, used to position pads closer to the rotor surface?",
+      "question": "What is the term for keeping a small amount of brake pressure applied while the vehicle continues to move?",
       "options": [
         "dragging",
         "pumping",
@@ -543,10 +499,8 @@
         "heel-and-toeing"
       ],
       "answer": "dragging",
-      "explanation_correct": "Dragging involves applying minimal pressure to ensure that the brake pads remain in close proximity to the rotor, reducing travel distance for the next hard entry.",
-      "explanation_incorrect": "Pumping, trailbraking, and heel-and-toeing are techniques used for modulation, turning, or gear matching.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brake dragging means maintaining some brake application while the vehicle moves. Its purpose and consequences vary with context.",
+      "explanation_incorrect": "Trail braking, heel-and-toe and pedal pumping describe different techniques, though braking techniques may overlap."
     },
     {
       "subcategory": "Braking Forces",
@@ -558,10 +512,8 @@
         "vortex generation"
       ],
       "answer": "downforce",
-      "explanation_correct": "Downforce increases the vertical load on the tires, creating the extra friction required for deeper, harder braking.",
-      "explanation_incorrect": "Lift, ground effect, and vortices relate to aerodynamic balance or turbulence rather than direct vertical grip generation for braking.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Downforce increases aerodynamic load on the tires, which can increase the tire forces available at speed.",
+      "explanation_incorrect": "Ground effect and vortices can help generate downforce, but downforce names the resulting downward aerodynamic force."
     },
     {
       "subcategory": "Race Engineering",
@@ -573,25 +525,21 @@
         "mechanical advantage"
       ],
       "answer": "pedal ratio",
-      "explanation_correct": "The pedal ratio determines how much force the driver must apply to move the hydraulic plunger a specific distance.",
-      "explanation_incorrect": "Piston ratio, clearance, and mechanical advantage are general terms that do not specifically define the pedal-to-master link.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pedal ratio is the mechanical leverage ratio determined by the relative distances from the pedal pivot to the foot and pushrod.",
+      "explanation_incorrect": "Pedal ratio describes a specific mechanical advantage; master-cylinder piston sizes and other factors also affect the system."
     },
     {
       "subcategory": "Sim Racing Software",
-      "question": "What specific data set is used by simulation physics engines to look up the expected coefficients of friction based on temperature and pressure inputs?",
+      "question": "What data structure can a simulation use to store precomputed friction values at different temperatures?",
       "options": [
         "lookup table",
-        "regression set",
-        "scalar value",
-        "physics array"
+        "windshield",
+        "safety helmet",
+        "gear lever"
       ],
       "answer": "lookup table",
-      "explanation_correct": "Lookup tables store pre-calculated friction values that the simulation engine queries in real-time.",
-      "explanation_incorrect": "Regression sets, scalars, and arrays are mathematical methods or data types, but are not the standard term for these engine friction maps.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A lookup table can store values indexed by temperature or other variables. Simulation engines may also use equations or other models.",
+      "explanation_incorrect": "A lookup table retrieves precomputed values; it can be implemented using an array or another suitable data structure."
     },
     {
       "subcategory": "Chassis Management",
@@ -604,24 +552,20 @@
       ],
       "answer": "stability control",
       "explanation_correct": "Stability control uses automated braking to counteract understeer or oversteer when the car drifts off-course.",
-      "explanation_incorrect": "Traction control, torque vectoring, and brake assist focus on acceleration, power distribution, and power boosting rather than chassis stability.",
-      "last_verified_at": "2026-06-12T16:37:16.442Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stability control can use wheel-speed and other sensors along with selective braking; traction control and torque vectoring can also use brakes in some systems."
     },
     {
       "subcategory": "Braking Systems",
-      "question": "Which specific component is characterized by two pistons within a single housing to provide redundancy in F1 braking circuits?",
+      "question": "According to Formula 1’s 2014 brake-by-wire technical explanation, what provided separate front and rear hydraulic circuits?",
       "options": [
-        "tandem master cylinder",
-        "dual bias valve",
-        "split reservoir",
-        "servo unit"
+        "two separate master cylinders",
+        "one shared tire valve",
+        "a single wheel bearing",
+        "a fuel injector"
       ],
-      "answer": "tandem master cylinder",
-      "explanation_correct": "Tandem master cylinders are utilized to ensure that if one circuit fails, the other can still operate.",
-      "explanation_incorrect": "These alternatives represent either single-system components or valve configurations that serve different hydraulic functions.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "two separate master cylinders",
+      "explanation_correct": "Formula 1 described separate front and rear master cylinders, providing two hydraulic circuits; electronic rear control worked alongside the hydraulics.",
+      "explanation_incorrect": "Some road cars use a tandem master cylinder, but the cited F1 explanation describes two separate cylinders."
     },
     {
       "subcategory": "Terminology",
@@ -640,7 +584,7 @@
     },
     {
       "subcategory": "Braking Physics",
-      "question": "The transmission of heat from the brake disc to the wheel rim through the air gap is primarily driven by which physical phenomenon?",
+      "question": "Which heat-transfer mechanism can carry energy from a hot brake disc to another surface across a gap without a material medium?",
       "options": [
         "thermal radiation",
         "convective cooling",
@@ -648,14 +592,12 @@
         "adiabatic expansion"
       ],
       "answer": "thermal radiation",
-      "explanation_correct": "Thermal radiation allows heat to transfer across a gap without direct contact.",
-      "explanation_incorrect": "Conduction requires physical contact, while convection relates to fluid movement around the components.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Thermal radiation carries energy as electromagnetic waves and can cross a vacuum or air gap.",
+      "explanation_incorrect": "In an actual wheel assembly, convection through air and conduction through connected parts can also transfer heat."
     },
     {
       "subcategory": "Telemetry",
-      "question": "Which telemetry channel directly records the hydraulic force exerted on the system when a driver engages the brake pedal?",
+      "question": "Which telemetry channel measures hydraulic pressure in a brake circuit?",
       "options": [
         "Brake Pressure",
         "Brake Travel",
@@ -663,25 +605,21 @@
         "Wheel Speed"
       ],
       "answer": "Brake Pressure",
-      "explanation_correct": "Brake pressure (often measured at the master cylinder) provides the most accurate data on driver effort and system load.",
-      "explanation_incorrect": "Brake travel measures distance moved, while deceleration rate is a calculation of speed loss over time.",
-      "last_verified_at": "2026-06-12T16:38:22.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A pressure transducer can log brake hydraulic pressure. Pressure is not itself a force and does not directly measure pedal effort in every system.",
+      "explanation_incorrect": "Pedal travel measures movement; deceleration and wheel speed describe vehicle or wheel motion."
     },
     {
       "subcategory": "Pit Strategy",
-      "question": "What is the common race engineering term for the procedure of replacing pads or discs during a long-distance competition?",
+      "question": "During an endurance race pit stop, what does a brake change involve?",
       "options": [
-        "brake change",
-        "rotor swap",
-        "pad service",
-        "caliper maintenance"
+        "replacing brake components",
+        "adding fuel to the engine oil",
+        "rotating the steering wheel",
+        "changing the driver’s helmet"
       ],
-      "answer": "brake change",
-      "explanation_correct": "Brake change is the standard industry term for servicing the braking hardware in a pit lane environment.",
-      "explanation_incorrect": "These descriptors are overly specific or technical variations that do not match the standard terminology used in endurance racing.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "replacing brake components",
+      "explanation_correct": "A brake change may involve replacing pads, discs or assemblies, depending on the vehicle and pit-stop procedure.",
+      "explanation_incorrect": "Pad service or a rotor swap can be more specific names for work included in a brake change."
     },
     {
       "subcategory": "Real World Safety",
@@ -715,33 +653,29 @@
     },
     {
       "subcategory": "Simulation Physics",
-      "question": "Which process in a vehicle simulation uses real-time environment data to adjust the cooling efficiency and mechanical grip of the braking system?",
+      "question": "Which environmental property influences convective cooling of a brake disc?",
       "options": [
-        "atmospheric modeling",
-        "thermodynamic indexing",
-        "environmental calibration",
-        "density mapping"
+        "airflow around the disc",
+        "the color of the driver’s helmet",
+        "the number painted on the car",
+        "the position of the rear-view mirror"
       ],
-      "answer": "atmospheric modeling",
-      "explanation_correct": "Atmospheric modeling accounts for altitude and air density, which directly impacts the efficiency of brake cooling.",
-      "explanation_incorrect": "These terms are either pseudo-scientific or relate to other engine-management simulated processes.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "airflow around the disc",
+      "explanation_correct": "Airflow and air properties affect convective heat transfer; simulations may model these effects at different levels of detail.",
+      "explanation_incorrect": "No single atmospheric-modeling method is universal across simulators."
     },
     {
       "subcategory": "Vehicle Dynamics",
-      "question": "What dynamic behavior occurs when the rear axles reach their slip limit before the front, often leading to a loss of vehicle control?",
+      "question": "What handling response occurs when the rear tires lose lateral grip relative to the front tires in a corner?",
       "options": [
-        "rear-end instability",
-        "front-axle wash",
-        "over-rotation",
-        "brake bias shift"
+        "oversteer",
+        "understeer",
+        "neutral buoyancy",
+        "hydrostatic pressure"
       ],
-      "answer": "rear-end instability",
-      "explanation_correct": "Rear-end instability is the result of premature rear wheel lock, causing the rear of the car to lose traction.",
-      "explanation_incorrect": "Other options denote either front-end issues or are components of the braking system rather than the resulting instability.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "oversteer",
+      "explanation_correct": "Oversteer is a tendency for the vehicle to rotate more than intended; loss of rear lateral grip can cause it.",
+      "explanation_incorrect": "Rear instability and over-rotation are related descriptions; understeer is the opposite tendency."
     },
     {
       "subcategory": "Braking Components",
@@ -760,37 +694,33 @@
     },
     {
       "subcategory": "Sim Racing Modding",
-      "question": "Which aftermarket hardware modification is used by sim-racers to increase the resistance and tactile feel of budget pedal sets?",
+      "question": "Which modification changes pedal resistance by replacing or adding a mechanical spring?",
       "options": [
-        "spring mod",
-        "load cell upgrade",
-        "travel limiter",
-        "tension kit"
+        "spring modification",
+        "screen calibration",
+        "speaker upgrade",
+        "gear indicator"
       ],
-      "answer": "spring mod",
-      "explanation_correct": "A spring mod is a common, inexpensive modification for entry-level racing pedals.",
-      "explanation_incorrect": "Load cells represent a fundamental hardware change, while other terms are not standard industry terminology for pedal modifications.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "spring modification",
+      "explanation_correct": "A spring modification changes the mechanical resistance felt at the pedal; its effect depends on the spring and pedal design.",
+      "explanation_incorrect": "Load-cell upgrades and elastomer changes can also affect pedal feel, but are different modifications."
     },
     {
       "subcategory": "Braking Geometry",
-      "question": "Which fundamental vehicle measurement dictates how much weight is transferred to the front tires during heavy braking?",
+      "question": "At a fixed mass and deceleration, what happens to longitudinal load transfer when the center of gravity is raised while wheelbase stays the same?",
       "options": [
-        "cg height",
-        "wheelbase length",
-        "track width",
-        "roll center"
+        "it increases",
+        "it always becomes zero",
+        "it cannot change",
+        "it reverses the direction of braking"
       ],
-      "answer": "cg height",
-      "explanation_correct": "Center of gravity (CG) height determines the moment arm that controls forward weight transfer during deceleration.",
-      "explanation_incorrect": "These options relate to horizontal geometry rather than the vertical weight transfer leverage caused by braking.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "it increases",
+      "explanation_correct": "In a simple level-ground model, longitudinal load transfer is proportional to center-of-gravity height and inversely proportional to wheelbase.",
+      "explanation_incorrect": "Both center-of-gravity height and wheelbase affect the amount of longitudinal load transfer."
     },
     {
       "subcategory": "Electronic Aids",
-      "question": "What technology is utilized in modern hybrid race cars to manage rear braking force electronically instead of through traditional hydraulic lines?",
+      "question": "What system electronically controls part of rear braking in a hybrid race car and can coordinate it with energy recovery?",
       "options": [
         "brake-by-wire",
         "digital pressure modulation",
@@ -798,55 +728,47 @@
         "active fluid regulation"
       ],
       "answer": "brake-by-wire",
-      "explanation_correct": "Brake-by-wire is an electronic system that replaces or supplements the hydraulic connection to the rear brakes.",
-      "explanation_incorrect": "The other options are descriptive but do not represent the correct industry-standard term for this specific technology.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brake-by-wire can electronically control rear hydraulic braking alongside regenerative braking; implementation varies by vehicle.",
+      "explanation_incorrect": "Brake-by-wire does not necessarily eliminate hydraulic lines or the hydraulic actuation of the calipers."
     },
     {
       "subcategory": "Braking Technique",
-      "question": "What describes the deliberate technique of using deceleration to manipulate a vehicle's balance for improved corner entry?",
+      "question": "What term describes changes in vertical tire loads as a car accelerates, brakes or corners?",
       "options": [
-        "weight transfer management",
-        "center of gravity shifting",
-        "dynamic load optimization",
-        "chassis pitch control"
+        "load transfer",
+        "gear selection",
+        "fuel injection",
+        "valve timing"
       ],
-      "answer": "weight transfer management",
-      "explanation_correct": "Weight transfer management is the strategic use of deceleration to load the front tires for better steering bite.",
-      "explanation_incorrect": "These alternatives refer to general physics or theoretical vehicle concepts rather than the specific technique of balancing a car under braking.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "load transfer",
+      "explanation_correct": "Load transfer changes the vertical forces on tires when a vehicle accelerates, brakes or corners.",
+      "explanation_incorrect": "Drivers manage the car’s balance using inputs; the physical process is called load transfer."
     },
     {
       "subcategory": "Sim Racing Rig",
-      "question": "What structural element in a sim-racing cockpit provides the mount for the brake and throttle pedal assembly?",
+      "question": "What rig component supports and mounts the pedal set in a sim-racing cockpit?",
       "options": [
         "pedal deck",
-        "chassis spine",
-        "base plate",
-        "mount frame"
+        "monitor bezel",
+        "headphone cable",
+        "speaker grille"
       ],
       "answer": "pedal deck",
       "explanation_correct": "The pedal deck is the dedicated plate or frame for securing pedal hardware.",
-      "explanation_incorrect": "These represent other parts of the rig, such as the seat mounting or the central support structure.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A pedal deck may also be called a pedal base plate; names vary by manufacturer."
     },
     {
       "subcategory": "Brake Cooling",
-      "question": "What internal structural feature of performance brake rotors facilitates airflow to prevent overheating?",
+      "question": "What internal feature allows air to pass between the two faces of a ventilated brake disc?",
       "options": [
-        "internal cooling vanes",
-        "radiating channels",
-        "breezeway conduits",
-        "vented air tunnels"
+        "cooling vanes",
+        "seat belts",
+        "spark plugs",
+        "clutch plates"
       ],
-      "answer": "internal cooling vanes",
-      "explanation_correct": "Internal cooling vanes act as centrifugal pumps to push air through the rotor to dissipate heat.",
-      "explanation_incorrect": "These phrases are synonymous in function but lack the correct engineering terminology used for performance rotors.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "cooling vanes",
+      "explanation_correct": "A ventilated rotor has internal passages and vanes that help move air through the disc.",
+      "explanation_incorrect": "Cooling channels and vent passages are alternative descriptions; actual cooling varies with disc geometry and airflow."
     },
     {
       "subcategory": "Braking Issues",
@@ -858,25 +780,21 @@
         "pad tapering"
       ],
       "answer": "brake judder",
-      "explanation_correct": "Brake judder is a vibratory effect caused by uneven pad material deposition on the rotor surface.",
-      "explanation_incorrect": "Glazing describes a change in pad texture from overheating, while warping is a physical deformation of the metal.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brake judder is a vibration felt during braking. Uneven friction deposits or disc thickness variation are among its possible causes.",
+      "explanation_incorrect": "Judder has multiple possible causes; pad deposits do not prove that the rotor is warped."
     },
     {
       "subcategory": "Race Engineering",
-      "question": "What is the common practice for adjusting the thermal intake of brake ducts to optimize rotor temperature?",
+      "question": "What is one term for partly covering a brake cooling duct to reduce airflow?",
       "options": [
-        "blanking",
-        "venting",
-        "shrouding",
-        "taping"
+        "blanking the duct",
+        "opening the throttle",
+        "changing the gear",
+        "balancing a wheel"
       ],
-      "answer": "blanking",
-      "explanation_correct": "Blanking involves covering parts of the brake duct to reduce airflow and increase operation temperature.",
-      "explanation_incorrect": "Other options are common pit-lane tasks or components but do not accurately describe the act of adjusting airflow throughput.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "blanking the duct",
+      "explanation_correct": "Blanking a duct reduces its opening and can reduce cooling airflow. Teams adjust cooling to suit the vehicle and conditions.",
+      "explanation_incorrect": "Taping or blocking are also ways to describe covering an opening; the other choices refer to different operations."
     },
     {
       "subcategory": "Physical Forces",
@@ -904,9 +822,7 @@
       ],
       "answer": "return spring",
       "explanation_correct": "A return spring ensures the pedal does not hang and provides a baseline pedal feel for the driver.",
-      "explanation_incorrect": "The other options do not exist as traditional return mechanisms in standard brake pedal assemblies.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Return mechanisms vary by pedal design; a spring is a common way to return the pedal toward its rest position."
     },
     {
       "subcategory": "Brake Components",
@@ -918,10 +834,8 @@
         "copper piping"
       ],
       "answer": "braided steel hoses",
-      "explanation_correct": "Braided steel hoses are preferred in motorsport to prevent expansion under pressure, ensuring consistent pedal feel.",
-      "explanation_incorrect": "Copper, nylon, and silicone materials lack the structural integrity or heat resistance required for high-pressure automotive braking systems.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some performance brake hoses use a flexible inner hose reinforced by a stainless-steel braid, limiting expansion compared with some rubber hoses.",
+      "explanation_incorrect": "Brake lines and hoses differ by application; materials must meet the relevant pressure and vehicle specifications."
     },
     {
       "subcategory": "Electronic Aids",
@@ -948,10 +862,8 @@
         "load cells"
       ],
       "answer": "hydraulic cylinders",
-      "explanation_correct": "Hydraulic cylinders use fluid pressure to mimic the exact force distribution found in real-world racing brake systems.",
-      "explanation_incorrect": "Potentiometers, load cells, and hall effect sensors measure position or force electronically without utilizing liquid pressurization.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hydraulic pedal mechanisms can use pressurized fluid to provide resistance. Their feel and sensing arrangement depend on the product.",
+      "explanation_incorrect": "Hydraulic mechanisms may be combined with load cells or pressure sensors; the categories are not mutually exclusive."
     },
     {
       "subcategory": "Braking Performance",
@@ -963,10 +875,8 @@
         "Camber thrust"
       ],
       "answer": "Friction circle",
-      "explanation_correct": "The friction circle (or traction circle) illustrates the total grip available to be shared between braking, accelerating, and cornering.",
-      "explanation_incorrect": "Slip angle refers to the direction of travel vs wheel orientation, and the contact patch is the physical area touching the road.",
-      "last_verified_at": "2026-06-12T16:38:22.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The friction circle is a simplified way to visualize the tradeoff between longitudinal and lateral tire forces. Real tire force limits can be asymmetric and load-dependent.",
+      "explanation_incorrect": "Slip angle and contact patch are related tire concepts, not the simplified force diagram described."
     },
     {
       "subcategory": "Tire Dynamics",
@@ -979,9 +889,7 @@
       ],
       "answer": "flat spotting",
       "explanation_correct": "Flat spotting occurs when a tire skids against the track surface, removing rubber from one distinct section of the tread.",
-      "explanation_incorrect": "Glazing and judder refer to brake pad surface state, while general degradation refers to uniform wear over time.",
-      "last_verified_at": "2026-06-12T16:37:16.443Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Judder is a vibration that can have several causes; tire wear is a broader category that includes localized flat spots."
     },
     {
       "subcategory": "Race Engineering",
@@ -1009,13 +917,11 @@
       ],
       "answer": "brake ducts",
       "explanation_correct": "Brake ducts are dedicated aerodynamic passages designed to cool rotating assemblies.",
-      "explanation_incorrect": "Diffusers, sidepods, and NACA vents manage aerodynamic downforce and engine cooling efficiency.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A brake duct may incorporate a NACA-style inlet; inlet shape and the function of the duct are not mutually exclusive."
     },
     {
       "subcategory": "Sim Racing Terminology",
-      "question": "In sim racing, what describes a segment of pedal travel that results in zero software response or sensor input?",
+      "question": "In sim racing, what is an input range deliberately ignored by software even if the sensor registers movement?",
       "options": [
         "dead zone",
         "input latency",
@@ -1023,10 +929,8 @@
         "interpolation error"
       ],
       "answer": "dead zone",
-      "explanation_correct": "A dead zone is a software configuration that ignores input signals within a certain range to account for sensor noise.",
-      "explanation_incorrect": "Latency, clipping, and interpolation refer to signal timing, signal range saturation, and processing calculations respectively.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A dead zone is an input range ignored by software or hardware; the sensor may still register movement or a signal.",
+      "explanation_incorrect": "Latency concerns timing, while clipping concerns values reaching a maximum range."
     },
     {
       "subcategory": "Braking Management",
@@ -1063,15 +967,13 @@
       "question": "What process in modern hybrid race cars recovers kinetic energy during braking and converts it into electricity?",
       "options": [
         "regenerative braking",
-        "kinetic harvesting",
-        "electric deceleration",
-        "eddy current drag"
+        "headlight adjustment",
+        "gear indication",
+        "seat cooling"
       ],
       "answer": "regenerative braking",
       "explanation_correct": "Regenerative braking uses an electric motor-generator to provide resistance while capturing energy to recharge onboard batteries.",
-      "explanation_incorrect": "Harvesting, electric deceleration, and eddy current drag are either non-technical or relate to different physical braking methods.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kinetic energy harvesting is a broader description that can include regenerative braking; the other phrases do not name the specific method as directly."
     },
     {
       "subcategory": "Sim Racing Ergonomics",
@@ -1120,22 +1022,20 @@
     },
     {
       "subcategory": "Brake Materials",
-      "question": "Which material characteristic is added to brake pads to maintain friction during high-temperature race conditions?",
+      "question": "What material family is used in some high-temperature racing brake friction components?",
       "options": [
-        "semi-metallic compounds",
-        "organic resin binders",
-        "ceramic insulating fibers",
-        "asbestos alternatives"
+        "carbon-carbon composite",
+        "untreated cardboard",
+        "candle wax",
+        "ice"
       ],
-      "answer": "semi-metallic compounds",
-      "explanation_correct": "Semi-metallic pads contain metal shavings that improve performance at high temperatures compared to organic pads.",
-      "explanation_incorrect": "Organic binders, insulators, or asbestos alternatives either soften or lack the required performance for high-heat racing.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "carbon-carbon composite",
+      "explanation_correct": "Carbon-carbon friction components are used in some high-temperature racing applications. Pad and disc materials vary by class and operating requirements.",
+      "explanation_incorrect": "Other racing classes use different friction materials, including metallic formulations; no one compound is universal."
     },
     {
       "subcategory": "Sim Racing Software",
-      "question": "What simulation feature accounts for reduced braking performance due to gradual material degradation over a long race?",
+      "question": "What simulation model can represent the gradual thinning of brake friction material during use?",
       "options": [
         "pad wear model",
         "friction degradation map",
@@ -1143,10 +1043,8 @@
         "caliper temperature variable"
       ],
       "answer": "pad wear model",
-      "explanation_correct": "A pad wear model simulates the physical thinning of the brake material over the course of a race.",
-      "explanation_incorrect": "Degradation maps, fade simulations, and temperature variables are factors within a broader logic system rather than the model itself.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A pad-wear model can represent loss of friction material over time or use, depending on the simulation.",
+      "explanation_incorrect": "Thermal fade and friction maps can also affect braking performance but are not necessarily wear models."
     },
     {
       "subcategory": "Braking Geometry",
@@ -1173,25 +1071,21 @@
         "mushy spring"
       ],
       "answer": "spongy pedal",
-      "explanation_correct": "A spongy pedal is the classic symptom of air cavitation, where the fluid is compressed instead of pushing the pistons.",
-      "explanation_incorrect": "Fading, soft bite, and mushy spring describe issues with heat, friction coefficient, or mechanical return stiffness.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A spongy pedal can occur when trapped air bubbles compress under pressure; other faults may also cause abnormal pedal feel.",
+      "explanation_incorrect": "The bubbles compress much more readily than brake fluid. Air in the circuit is not the same claim as cavitation."
     },
     {
       "subcategory": "Hardware Maintenance",
-      "question": "Which type of lubricant is recommended for the moving joints and pivots of sim racing pedal assemblies?",
+      "question": "What should a sim-racing owner consult before lubricating a pedal pivot?",
       "options": [
-        "lithium grease",
-        "silicone oil",
-        "dry graphite",
-        "penetrating solvent"
+        "the manufacturer’s maintenance instructions",
+        "the in-game lap counter",
+        "the tire-compound menu",
+        "the monitor brightness setting"
       ],
-      "answer": "lithium grease",
-      "explanation_correct": "Lithium grease provides thick, long-lasting lubrication for metal-on-metal or plastic pivot points in pedal assemblies.",
-      "explanation_incorrect": "Silicone oil is too thin, dry graphite may be insufficient for high-tension joints, and solvent could damage plastic components.",
-      "last_verified_at": "2026-06-12T16:37:16.444Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "the manufacturer’s maintenance instructions",
+      "explanation_correct": "Recommended lubricants vary with the pedal, materials and bearing type. Follow the manufacturer’s instructions.",
+      "explanation_incorrect": "A lubricant suitable for one assembly may damage or be unsuitable for another."
     },
     {
       "subcategory": "Race Strategy",
@@ -1203,10 +1097,8 @@
         "Engine braking"
       ],
       "answer": "Threshold braking",
-      "explanation_correct": "Threshold braking involves modulating the pedal to stay at the maximum possible deceleration without triggering ABS or locking wheels.",
-      "explanation_incorrect": "Cadence braking is an older technique of pumping the pedal on slippery surfaces, unlike the sustained pressure of threshold braking.",
-      "last_verified_at": "2026-06-12T16:38:22.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Threshold braking aims to brake close to the tire’s peak available grip without sustained lockup; the best slip level depends on tire and surface.",
+      "explanation_incorrect": "ABS activation can vary by system and is not a universal definition of threshold braking."
     },
     {
       "subcategory": "Braking Physics",
@@ -1225,7 +1117,7 @@
     },
     {
       "subcategory": "Data Logging",
-      "question": "Which term describes the visual representation of brake pressure over the duration of a lap?",
+      "question": "What graph of logged data can show brake pressure over a lap?",
       "options": [
         "brake telemetry",
         "gear mapping",
@@ -1233,14 +1125,12 @@
         "steering trace"
       ],
       "answer": "brake telemetry",
-      "explanation_correct": "Brake telemetry tracks pressure inputs to help drivers optimize their braking efficiency.",
-      "explanation_incorrect": "Gear, throttle, and steering traces visualize different driver inputs unrelated to brake line pressure.",
-      "last_verified_at": "2026-06-12T16:39:01.722Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brake telemetry can record and display pressure or input against time or lap distance, depending on available sensors.",
+      "explanation_incorrect": "A brake input trace and a hydraulic-pressure trace are not necessarily the same measurement."
     },
     {
       "subcategory": "Brake Design",
-      "question": "What is the specific term for rotors that feature small holes to dissipate heat and vent gas?",
+      "question": "What term describes brake rotors with holes drilled through the braking surface?",
       "options": [
         "drilled rotors",
         "ventilated rotors",
@@ -1248,10 +1138,8 @@
         "ceramic rotors"
       ],
       "answer": "drilled rotors",
-      "explanation_correct": "Drilled rotors use holes through the disc face to expel heat and gases.",
-      "explanation_incorrect": "Ventilated, floating, and ceramic rotors refer to internal cooling fins, mounting styles, or material composition.",
-      "last_verified_at": "2026-06-12T16:39:01.722Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Drilled rotors have holes through the braking surface. Their cooling and durability depend on design and operating conditions.",
+      "explanation_incorrect": "A drilled rotor can also be ventilated, floating or made from a composite; these describe different features."
     },
     {
       "subcategory": "Brake Design",
@@ -1264,39 +1152,33 @@
       ],
       "answer": "slotted rotors",
       "explanation_correct": "Slots cut into the rotor surface help clear dust and debris from the brake pad interface.",
-      "explanation_incorrect": "Dimpled, carbon, and solid rotors use different methods or materials that do not perform the same mechanical clearing function.",
-      "last_verified_at": "2026-06-12T16:39:01.722Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Slotted, vented and material descriptions can overlap in one rotor; slots describe grooves in its surface."
     },
     {
       "subcategory": "Sim Racing Hardware",
-      "question": "What material is frequently used for high-end sim racing pedal faces to ensure improved grip?",
+      "question": "Which metal is used for some sim-racing pedal faces and may be anodized?",
       "options": [
-        "anodized aluminum",
-        "brushed stainless",
-        "carbon fiber",
-        "injection-molded plastic"
+        "aluminum",
+        "wood pulp",
+        "wool",
+        "glass fiber insulation"
       ],
-      "answer": "anodized aluminum",
-      "explanation_correct": "Anodized aluminum provides a durable, grippy, and lightweight surface for racing pedal modules.",
-      "explanation_incorrect": "Other materials are either too slippery, brittle, or lack the industrial aesthetic typically found in high-end sim hardware.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "aluminum",
+      "explanation_correct": "Aluminum pedal faces may be anodized for surface protection or appearance; texture and grip depend on the design.",
+      "explanation_incorrect": "Stainless steel, plastics and other materials can also be used for pedal faces."
     },
     {
       "subcategory": "Braking Technique",
-      "question": "Which technique involves the simultaneous use of braking and accelerating to balance chassis pitch?",
+      "question": "What general phrase describes applying brake and throttle together for part of a maneuver?",
       "options": [
         "overlapping inputs",
-        "left-foot braking",
-        "trail braking",
-        "heel-and-toe"
+        "turning off the display",
+        "shifting to neutral",
+        "changing tire diameter"
       ],
       "answer": "overlapping inputs",
-      "explanation_correct": "Overlapping inputs balances the car's weight between the front and rear to maintain grip during transitional moments.",
-      "explanation_incorrect": "Trailing, left-foot, and heel-and-toe are specific engagement methods rather than the act of combined pedal usage.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Overlapping inputs means applying both controls at the same time. The effect on balance depends on the car and maneuver.",
+      "explanation_incorrect": "Left-foot braking or heel-and-toe may involve overlapping inputs, depending on how the driver uses the pedals."
     },
     {
       "subcategory": "Brake Fluids",
@@ -1308,29 +1190,25 @@
         "specific gravity"
       ],
       "answer": "boiling point",
-      "explanation_correct": "A high boiling point prevents the brake fluid from turning into gas, which would result in a spongy brake pedal.",
-      "explanation_incorrect": "Viscosity, flash point, and gravity do not measure the fluid's ability to maintain hydraulic integrity under race heat.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A higher boiling point helps brake fluid resist vapor formation at elevated temperatures, but no fluid is immune to boiling.",
+      "explanation_incorrect": "Wet and dry boiling points differ because fluid can absorb moisture; viscosity and flash point measure other properties."
     },
     {
       "subcategory": "Sim Racing Software",
-      "question": "Which common simulator software feature automatically modulates pedal pressure to prevent lock-ups for new users?",
+      "question": "Which simulated system modulates braking to reduce wheel lockup, if enabled and modeled by the game?",
       "options": [
-        "brake assist",
-        "traction control",
-        "stability control",
-        "anti-lock brakes"
+        "anti-lock brakes",
+        "cruise control",
+        "windshield wipers",
+        "headlights"
       ],
-      "answer": "brake assist",
-      "explanation_correct": "Brake assist explicitly handles the braking effort for beginners to keep them on the track.",
-      "explanation_incorrect": "Traction and stability systems control torque and balance, while full ABS is a different vehicle system entirely.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "anti-lock brakes",
+      "explanation_correct": "Simulated ABS can modulate brake force to limit wheel lockup. Its availability and behavior depend on the car and game.",
+      "explanation_incorrect": "A game’s brake assist may intervene in different ways; it should not be treated as a universal synonym for ABS."
     },
     {
       "subcategory": "Vehicle Setup",
-      "question": "What piece of equipment allows a racer to manually adjust fluid pressure bias between front and rear brakes?",
+      "question": "Which adjustable valve can change hydraulic pressure sent to a brake circuit in some vehicles?",
       "options": [
         "proportioning valve",
         "master cylinder",
@@ -1338,10 +1216,8 @@
         "caliper bridge"
       ],
       "answer": "proportioning valve",
-      "explanation_correct": "A proportioning valve regulates the pressure to prevent rear lock-up by limiting the force sent to the rear calipers.",
-      "explanation_incorrect": "The master cylinder, booster, and bridge support pressure generation rather than bias adjustment.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An adjustable proportioning valve can limit pressure to a circuit, commonly the rear; other vehicles adjust brake balance by different mechanisms.",
+      "explanation_incorrect": "Not every car uses a proportioning valve: balance bars and electronic systems are other approaches."
     },
     {
       "subcategory": "Brake Components",
@@ -1375,33 +1251,29 @@
     },
     {
       "subcategory": "Sim Racing Hardware",
-      "question": "What synthetic material is used inside SIM pedal assemblies to mimic the feel of a real hydraulic brake?",
+      "question": "What broad class of elastic materials includes the rubber-like compression blocks used in some sim pedal sets?",
       "options": [
         "elastomers",
-        "polyurethane resin",
-        "silicone rubber",
-        "synthetic foam"
+        "ceramics",
+        "dry sand",
+        "glass sheets"
       ],
       "answer": "elastomers",
-      "explanation_correct": "Elastomers provide progressive resistance, closely simulating the pressure feedback of racing car brakes.",
-      "explanation_incorrect": "While rubber or foam may be used, elastomer is the standardized industry term for these compression-based damping components.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elastomers deform under load and recover shape; some pedal sets use stacks of them to provide resistance.",
+      "explanation_incorrect": "Silicone rubber and polyurethane can be elastomers, so those material names are not mutually exclusive with the answer."
     },
     {
       "subcategory": "Brake Maintenance",
       "question": "Which maintenance task is required to remove trapped bubbles from the brake hydraulic circuit?",
       "options": [
         "bleeding",
-        "flushing",
-        "cycling",
-        "rebuilding"
+        "wheel balancing",
+        "tire rotation",
+        "headlight alignment"
       ],
       "answer": "bleeding",
-      "explanation_correct": "Bleeding forces air out of the system to ensure only incompressible fluid remains in the lines.",
-      "explanation_incorrect": "Flushing, cycling, and rebuilding are broader maintenance steps that do not specifically resolve air-trap issues.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bleeding a hydraulic brake system removes trapped air. Brake fluid is only slightly compressible compared with air bubbles.",
+      "explanation_incorrect": "A fluid flush may include bleeding; wheel balancing and tire rotation are different maintenance tasks."
     },
     {
       "subcategory": "Braking Strategy",
@@ -1420,7 +1292,7 @@
     },
     {
       "subcategory": "Brake Mechanics",
-      "question": "What wearable friction component is clamped against the rotor to stop a vehicle?",
+      "question": "Which replaceable friction component is pressed against a disc brake rotor?",
       "options": [
         "brake pad",
         "brake shoe",
@@ -1428,10 +1300,8 @@
         "rotor hub"
       ],
       "answer": "brake pad",
-      "explanation_correct": "Brake pads are the sacrificial friction material that makes contact with both sides of the rotor.",
-      "explanation_incorrect": "Shoes are usually drum-brake items, and liners or hubs are support or structural parts.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brake pads carry friction material that contacts the disc rotor when the caliper applies force.",
+      "explanation_incorrect": "Brake shoes are commonly associated with drum brakes; pad designs and caliper layouts vary."
     },
     {
       "subcategory": "Sim Racing Pedals",
@@ -1450,7 +1320,7 @@
     },
     {
       "subcategory": "Brake Physics",
-      "question": "What status must carbon brakes reach before they provide sufficient stopping power?",
+      "question": "What temperature range is a carbon brake designed to reach for its intended friction performance?",
       "options": [
         "operating temperature",
         "friction threshold",
@@ -1458,10 +1328,8 @@
         "static state"
       ],
       "answer": "operating temperature",
-      "explanation_correct": "Carbon materials require significant heat before the chemical bonds allow for optimal friction.",
-      "explanation_incorrect": "While other terms refer to heat, 'operating temperature' is the specific term for the range of effectiveness for this material.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Carbon brake friction varies with temperature, and the useful operating range depends on material and system design.",
+      "explanation_incorrect": "The requirement is an operating temperature range, not a claim about chemical bonds switching on at one fixed temperature."
     },
     {
       "subcategory": "Braking Technique",
@@ -1480,18 +1348,16 @@
     },
     {
       "subcategory": "Tire Interaction",
-      "question": "What phenomenon occurs when a tire carcass deforms slightly during intense deceleration?",
+      "question": "What general term describes deformation of tire tread blocks as forces act on them?",
       "options": [
-        "tire squirm",
         "tread flex",
-        "lateral expansion",
-        "camber thrust"
+        "engine knock",
+        "brake fluid boiling",
+        "gear ratio"
       ],
-      "answer": "tire squirm",
-      "explanation_correct": "Tire squirm refers to the momentary deformation of the tire tread under longitudinal load.",
-      "explanation_incorrect": "Flex, expansion, and thrust describe vertical or lateral deviations unrelated to this specific longitudinal braking deformation.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "tread flex",
+      "explanation_correct": "Tread flex or tread squirm describes deformation of the tread under load; tire behavior depends on the construction and applied forces.",
+      "explanation_incorrect": "Tire squirm and tread flex can overlap in meaning; the other options describe unrelated mechanisms."
     },
     {
       "subcategory": "Sim Racing Hardware",
@@ -1503,10 +1369,8 @@
         "load cell"
       ],
       "answer": "hall effect sensor",
-      "explanation_correct": "Hall effect sensors use magnetic proximity to determine movement, providing wear-free accuracy.",
-      "explanation_incorrect": "Potentiometers use contact wipers prone to wear, while encoders and load cells use different physical principles.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A Hall-effect sensor uses a magnetic field to detect position without a sliding electrical contact; reliability depends on the implementation.",
+      "explanation_incorrect": "Potentiometers typically use a moving contact; optical encoders and load cells use different sensing principles."
     }
   ]
 }
