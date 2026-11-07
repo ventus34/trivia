@@ -82,6 +82,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 - **Kosmos i Futurologia (PL):** przegląd 100 pytań, korekty 63 pozycji; [raport](audits/2026-11-07-kosmos-i-futurologia-pl.md).
 - **The Evolution of Flight Sims (EN):** przegląd 100 pytań, korekty 71 pozycji; [raport](audits/2026-11-07-the-evolution-of-flight-sims-en.md).
 
+- **Malarstwo i Wielcy Mistrzowie (PL):** przegląd 100 pytań, korekty 29 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-07-malarstwo-i-wielcy-mistrzowie-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
