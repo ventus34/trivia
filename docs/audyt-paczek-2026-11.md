@@ -201,6 +201,15 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Music Mixtape (EN):** przegląd 100 pytań, korekty 47 rekordów; [raport](audits/2026-11-08-music-mixtape-en.md).
 
+- **Militaria, Weapons & Military Vehicles (EN):** przegląd 100 pytań i korekty 73 rekordów; [raport](audits/2026-11-08-militaria-weapons-military-vehicles-en.md).
+- **Pioneers and Milestones of Science (EN):** przegląd 100 pytań i korekty 79 rekordów; [raport](audits/2026-11-08-pioneers-and-milestones-of-science-en.md).
+
+- **Militaria, broń i pojazdy wojskowe (PL):** przegląd 100 pytań i korekty 46 rekordów; [raport](audits/2026-11-08-militaria-bron-i-pojazdy-pl.md).
+
+- **Paradoksy i Teorie Naukowe (PL):** przegląd 100 pytań i korekty 79 rekordów; [raport](audits/2026-11-08-paradoksy-i-teorie-naukowe-pl.md).
+
+- **Pionierzy i Kroki Milowe Nauki (PL):** przegląd 100 pytań i korekty 83 rekordów; [raport](audits/2026-11-08-pionierzy-i-kroki-milowe-nauki-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

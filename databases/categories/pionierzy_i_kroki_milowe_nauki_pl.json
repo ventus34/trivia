@@ -10,7 +10,7 @@
   "questions": [
     {
       "subcategory": "Przypadkowe odkrycia",
-      "question": "Który szkocki naukowiec odkrył penicylinę, zauważając, że pleśń na zanieczyszczonej szalce Petriego zabiła otaczające ją bakterie?",
+      "question": "Który szkocki naukowiec odkrył penicylinę, badając zahamowanie wzrostu bakterii wokół pleśni na szalce?",
       "options": [
         "Alexander Fleming",
         "Louis Pasteur",
@@ -18,7 +18,7 @@
         "Joseph Lister"
       ],
       "answer": "Alexander Fleming",
-      "explanation_correct": "Alexander Fleming odkrył w 1928 roku, że pleśń Penicillium notatum wytwarza substancję niszczącą bakterie gronkowca, co zapoczątkowało erę antybiotyków.",
+      "explanation_correct": "Fleming zaobserwował w 1928 roku zahamowanie wzrostu gronkowców wokół pleśni i nazwał substancję penicyliną. Jej późniejsze oczyszczenie i zastosowanie kliniczne wymagało pracy kolejnych zespołów.",
       "explanation_incorrect": "Pasteur opracował pasteryzację i szczepionki, Koch odkrył prątki gruźlicy, a Lister wprowadził zasady antyseptyki w chirurgii.",
       "last_verified_at": "2026-06-12T15:30:43.424Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -34,13 +34,13 @@
       ],
       "answer": "Fizyka oraz Chemia",
       "explanation_correct": "Maria Skłodowska-Curie otrzymała Nobla z fizyki (wraz z mężem Piotrem i Henrim Becquerelem) za badania nad promieniotwórczością oraz z chemii za odkrycie radu i polonu.",
-      "explanation_incorrect": "Pozostałe kombinacje dziedzin są błędne. Skłodowska-Curie jest jedyną osobą wyróżnioną Noblem w dwóch różnych naukach ścisłych.",
+      "explanation_incorrect": "Pozostałe kombinacje nie odpowiadają nagrodom Skłodowskiej-Curie: w 1903 roku otrzymała Nobla z fizyki, a w 1911 z chemii.",
       "last_verified_at": "2026-06-12T15:30:43.424Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Który słynny eksperyment fizyczny (związany z przepuszczaniem światła przez szczeliny) udowodnił falową naturę światła?",
+      "question": "Które doświadczenie z interferencją światła dostarczyło ważnego argumentu za jego falowym opisem?",
       "options": [
         "Doświadczenie Younga (Double-slit experiment)",
         "Doświadczenie Michelsona-Morleya",
@@ -48,14 +48,14 @@
         "Eksperyment Millikana"
       ],
       "answer": "Doświadczenie Younga (Double-slit experiment)",
-      "explanation_correct": "Tomasz Young w 1801 roku przepuścił światło przez dwie blisko położone szczeliny, obserwując na ekranie prążki interferencyjne, co potwierdziło falową naturę światła.",
-      "explanation_incorrect": "Michelson-Morley wykluczył istnienie eteru, Cavendish zmierzył stałą grawitacji, a Millikan wyznaczył ładunek elementarny elektronu.",
+      "explanation_correct": "Thomas Young badał interferencję światła na początku XIX wieku. Obserwowane prążki stanowiły ważny argument za falowym opisem światła; współczesna fizyka opisuje je także kwantowo.",
+      "explanation_incorrect": "Michelson i Morley badali możliwy wpływ ruchu Ziemi na propagację światła, Cavendish oddziaływanie grawitacyjne, a Millikan ładunek elektryczny.",
       "last_verified_at": "2026-06-12T15:30:43.424Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Która XIX-wieczna matematyczka jest uznawana za pierwszą programistkę w historii, dzięki stworzeniu algorytmu dla maszyny analitycznej Babbage'a?",
+      "question": "Która XIX-wieczna matematyczka opublikowała opis obliczania liczb Bernoulliego dla maszyny analitycznej Babbage’a?",
       "options": [
         "Ada Lovelace",
         "Rosalind Franklin",
@@ -63,8 +63,8 @@
         "Grace Hopper"
       ],
       "answer": "Ada Lovelace",
-      "explanation_correct": "Ada Lovelace napisała instrukcję obliczania liczb Bernoullego na maszynie analitycznej Charlesa Babbage'a, przewidując, że komputery będą mogły przetwarzać nie tylko liczby, ale i muzykę czy grafikę.",
-      "explanation_incorrect": "Rosalind Franklin badała strukturę DNA, Mary Anning była pionierką paleontologii, a Grace Hopper stworzyła pierwszy kompilator i język COBOL.",
+      "explanation_correct": "Ada Lovelace opublikowała w 1843 roku obszerny komentarz do opisu maszyny analitycznej. Jej tabela obliczeń bywa uznawana za wczesny program; pracowała we współpracy z Babbage’em.",
+      "explanation_incorrect": "Franklin badała strukturę DNA, Anning skamieniałości, a Grace Hopper rozwijała kompilatory i uczestniczyła w rozwoju języków programowania.",
       "last_verified_at": "2026-06-12T15:30:43.424Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -94,7 +94,7 @@
       ],
       "answer": "Kuchenka mikrofalowa",
       "explanation_correct": "Spencer pracował nad radarami w firmie Raytheon. Po roztopieniu czekolady przetestował mikrofale na ziarnach kukurydzy (tworząc popcorn), co doprowadziło do opatentowania kuchenki mikrofalowej.",
-      "explanation_incorrect": "Lodówka, toster i zmywarka powstały w wyniku planowych prac inżynieryjnych i nie wykorzystują fal elektromagnetycznych w ten sposób.",
+      "explanation_incorrect": "Lodówka, toster i zmywarka służą do innych celów; Spencer jest związany z rozwojem gotowania mikrofalowego.",
       "last_verified_at": "2026-06-12T15:30:43.425Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -109,7 +109,7 @@
       ],
       "answer": "Zjawisko fotoelektryczne (Photoelectric effect)",
       "explanation_correct": "Einstein otrzymał Nagrodę Nobla za rok 1921 za zasługi dla fizyki teoretycznej, a w szczególności za odkrycie prawa rządzącego zjawiskiem fotoelektrycznym, które pomogło rozwinąć mechanikę kwantową.",
-      "explanation_incorrect": "Teoria względności była wówczas uznawana przez Komitet Noblowski za zbyt kontrowersyjną i słabo zweryfikowaną eksperymentalnie.",
+      "explanation_incorrect": "Nagroda wymienia szczególnie prawo efektu fotoelektrycznego. Nie należy utożsamiać jej oficjalnego uzasadnienia z teorią względności.",
       "last_verified_at": "2026-06-12T15:30:43.425Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -123,14 +123,14 @@
         "Habituacja"
       ],
       "answer": "Warunkowanie klasyczne (Classical conditioning)",
-      "explanation_correct": "Pawłow wykazał, że powiązanie bodźca obojętnego (dźwięk dzwonka) z bodźcem bezwarunkowym (podanie jedzenia) wywołuje u psów bodziec warunkowy (ślinienie się na sam dźwięk).",
+      "explanation_correct": "Pawłow badał, jak bodziec wcześniej obojętny po skojarzeniu z pokarmem może wywoływać ślinienie. Dźwięk jest wtedy bodźcem warunkowym, a ślinienie reakcją warunkową.",
       "explanation_incorrect": "Warunkowanie instrumentalne badał B.F. Skinner, wpojenie opisał Konrad Lorenz, a habituacja to wygasanie reakcji na powtarzający się bodziec.",
       "last_verified_at": "2026-06-12T15:30:43.425Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Która chemiczka wykonała słynne 'Fotografię 51', kluczowe zdjęcie rentgenowskie, które pozwoliło ustalić strukturę podwójnej helisy DNA?",
+      "question": "Która chemiczka wraz z Raymondem Goslingiem wykonała dyfrakcyjną Fotografię 51 DNA?",
       "options": [
         "Rosalind Franklin",
         "Marie Curie",
@@ -138,7 +138,7 @@
         "Barbara McClintock"
       ],
       "answer": "Rosalind Franklin",
-      "explanation_correct": "Rosalind Franklin wykonała zdjęcie dyfrakcyjne cząsteczki DNA, które bez jej wiedzy zostało pokazane Watsonowi i Crickowi, ułatwiając im stworzenie modelu podwójnej helisy.",
+      "explanation_correct": "Rosalind Franklin i Raymond Gosling wykonali obraz dyfrakcyjny DNA w 1952 roku. Fotografia pokazana Watsonowi bez wiedzy Franklin była jedną z przesłanek dla modelu podwójnej helisy.",
       "explanation_incorrect": "Dorothy Hodgkin badała strukturę insuliny, Barbara McClintock odkryła transposony (skaczące geny), a Curie badała rad.",
       "last_verified_at": "2026-06-12T15:30:43.425Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -153,7 +153,7 @@
         "Wielki konflikt miedziany"
       ],
       "answer": "Wojna prądów (War of the Currents)",
-      "explanation_correct": "Wojna prądów toczyła się między prądem stałym (DC) promowanym przez Edisona a prądem przemiennym (AC) rozwijanym przez Teslę i George'a Westinghouse'a. Ostatecznie wygrał prąd przemienny.",
+      "explanation_correct": "Spór dotyczył systemów prądu stałego promowanych przez Edisona i przemiennego rozwijanych m.in. przez Westinghouse’a i Teslę. Prąd przemienny zdominował ówczesną dystrybucję, choć prąd stały nadal ma wiele zastosowań.",
       "explanation_incorrect": "Pozostałe nazwy są fikcyjnymi określeniami tego konfliktu.",
       "last_verified_at": "2026-06-12T15:30:43.425Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -168,14 +168,14 @@
         "Bakelit"
       ],
       "answer": "Teflon (PTFE)",
-      "explanation_correct": "Roy Plunkett w 1938 roku rozciął pusty cylinder po gazie i znalazł w środku biały, niezwykle śliski proszek – politetrafluoroetylen (PTFE), zarejestrowany później jako Teflon.",
+      "explanation_correct": "W 1938 roku Roy Plunkett i współpracownicy znaleźli biały polimer w butli z tetrafluoroetylenem. Otrzymany PTFE został później wprowadzony pod nazwą Teflon.",
       "explanation_incorrect": "Nylon wynaleziono planowo w firmie DuPont, Kevlar opracowała Stephanie Kwolek, a Bakelit to wczesny twardy plastik.",
       "last_verified_at": "2026-06-12T15:30:43.425Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Który słynny eksperyment z 1887 roku, polegający na pomiarze prędkości światła za pomocą interferometru, wykluczył istnienie hipotetycznego eteru kosmicznego?",
+      "question": "Które doświadczenie z 1887 roku szukało wpływu ruchu Ziemi przez hipotetyczny eter na propagację światła?",
       "options": [
         "Doświadczenie Michelsona-Morleya",
         "Eksperyment Fizeau",
@@ -183,7 +183,7 @@
         "Doświadczenie Rutherforda"
       ],
       "answer": "Doświadczenie Michelsona-Morleya",
-      "explanation_correct": "Eksperyment Michelsona-Morleya wykazał, że prędkość światła jest stała we wszystkich kierunkach i nie zależy od ruchu Ziemi, co obaliło teorię o eterze jako nośniku światła.",
+      "explanation_correct": "Michelson i Morley nie wykryli oczekiwanej różnicy w czasie przebiegu światła w dwóch kierunkach. Wynik ograniczył ówczesne modele eteru; sam nie dowodził wszystkich aspektów szczególnej teorii względności.",
       "explanation_incorrect": "Fizeau mierzył prędkość światła w płynącej wodzie, Young badał interferencję falową, a Rutherford odkrył jądro atomowe.",
       "last_verified_at": "2026-06-12T15:30:43.426Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -198,8 +198,8 @@
         "Mae Jemison"
       ],
       "answer": "Katherine Johnson",
-      "explanation_correct": "Katherine Johnson pracowała jako 'ludzki komputer' w NASA, obliczając trajektorię lotu m.in. dla misji Mercury i Apollo 11. John Glenn odmówił startu, dopóki Johnson nie zweryfikowała osobiście obliczeń komputera IBM.",
-      "explanation_incorrect": "Vaughan była pierwszą czarnoskórą kierowniczką w NASA, Jackson była pierwszą inżynierką NASA, a Jemison to pierwsza czarnoskóra astronautka w kosmosie.",
+      "explanation_correct": "Katherine Johnson wykonywała obliczenia trajektorii misji Mercury i pracowała także nad programem Apollo. Przed lotem Glenna na jego prośbę sprawdziła komputerowe obliczenia.",
+      "explanation_incorrect": "Vaughan była pionierską kierowniczką, Jackson pierwszą afroamerykańską inżynierką NASA, a Jemison pierwszą czarnoskórą kobietą w kosmosie.",
       "last_verified_at": "2026-06-12T15:30:43.426Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -213,7 +213,7 @@
         "Jean-Baptiste Lamarck"
       ],
       "answer": "Alfred Russel Wallace",
-      "explanation_correct": "Wallace wysłał w 1858 roku do Darwina esej opisujący teorię doboru naturalnego. Skłoniło to Darwina do wspólnej prezentacji teorii przed Towarzystwem Linneuszowym i opublikowania książki rok później.",
+      "explanation_correct": "Wallace wysłał Darwinowi w 1858 roku esej o doborze naturalnym. Prace obu badaczy przedstawiono wspólnie Towarzystwu Linneuszowemu; książka Darwina ukazała się w 1859 roku.",
       "explanation_incorrect": "Huxley był nazywany 'Buldogiem Darwina' z powodu żarliwej obrony teorii, Mendel badał genetykę groszku, a Lamarck twierdził, że cechy nabyte za życia są dziedziczone.",
       "last_verified_at": "2026-06-12T15:30:43.426Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -235,16 +235,16 @@
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Dlaczego Rosalind Franklin nie otrzymała Nagrody Nobla w 1962 roku wraz z Watsonem, Crickiem i Wilkinsem za odkrycie struktury DNA?",
+      "question": "W którym roku zmarła Rosalind Franklin, współautorka Fotografii 51 DNA?",
       "options": [
-        "Zmarła przed przyznaniem nagrody, a Nobel nie jest przyznawany pośmiertnie",
-        "Komitet uznał jej wkład za zbyt mały",
-        "Odmówiła przyjęcia nagrody z powodów osobistych",
-        "Jej badania zostały utajnione przez brytyjski rząd"
+        "1958",
+        "1953",
+        "1962",
+        "1974"
       ],
-      "answer": "Zmarła przed przyznaniem nagrody, a Nobel nie jest przyznawany pośmiertnie",
-      "explanation_correct": "Franklin zmarła na raka jajnika w 1958 roku. Statut Nagrody Nobla zabrania nominowania osób zmarłych, przez co nagrodę otrzymali tylko żyjący współbadacze.",
-      "explanation_incorrect": "Jej wkład był olbrzymi, ale to ograniczenie formalne komitetu (oraz fakt, że nagrodę można podzielić na max 3 osoby) zadecydowało o braku wyróżnienia.",
+      "answer": "1958",
+      "explanation_correct": "Franklin zmarła w 1958 roku, przed Noblem przyznanym Watsonowi, Crickowi i Wilkinsowi w 1962 roku. Nie da się z tego ustalić, czy zostałaby uhonorowana, gdyby żyła.",
+      "explanation_incorrect": "Zakaz przyznawania Nobla pośmiertnie w dzisiejszej formie wprowadzono w 1974 roku; wcześniej zdarzały się pośmiertne nagrody.",
       "last_verified_at": "2026-06-12T15:30:43.426Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -258,7 +258,7 @@
         "Kwarki"
       ],
       "answer": "Jądro atomowe (Atomic nucleus)",
-      "explanation_correct": "Większość cząstek przechodziła przez folię, ale niektóre odbijały się pod dużymi kątami. Dowiodło to, że masa atomu skupia się w małym, gęstym, dodatnio naładowanym jądrze.",
+      "explanation_correct": "Rutherford zinterpretował wyniki rozpraszania cząstek alfa, uzyskane przez Hansa Geigera i Ernesta Marsdena, jako dowód małego, dodatnio naładowanego jądra skupiającego większość masy atomu.",
       "explanation_incorrect": "Elektron odkrył J.J. Thomson, neutron James Chadwick, a kwarki wykazano teoretycznie i doświadczalnie znacznie później.",
       "last_verified_at": "2026-06-12T15:30:43.427Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -273,14 +273,14 @@
         "Irene Joliot-Curie"
       ],
       "answer": "Lise Meitner",
-      "explanation_correct": "Lise Meitner wraz ze swoim siostrzeńcem Otto Frischem podała pierwsze teoretyczne wyjaśnienie procesu rozszczepienia jądra uranu. Pominięcie jej przez Komitet Noblowski uchodzi za jeden z największych błędów w historii tej nagrody.",
+      "explanation_correct": "Lise Meitner i Otto Frisch wyjaśnili rozszczepienie uranu po wynikach chemicznych Otto Hahna i Fritza Strassmanna. Nobla z chemii za 1944 rok przyznano Hahnowi; pominięcie Meitner jest szeroko dyskutowane.",
       "explanation_incorrect": "Noddack pierwsza sugerowała rozbicie jądra atomowego, Wu badała brak zachowania parzystości (doświadczenie Wu), a Joliot-Curie otrzymała Nobla za odkrycie sztucznej promieniotwórczości.",
       "last_verified_at": "2026-06-12T15:30:43.427Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Jak nazywano XIX-wieczny, pełen kradzieży i sabotowania wykopalisk spór paleobotaniczny i paleontologiczny między Edwardem Copem a Othnielem Marshem w USA?",
+      "question": "Jak nazywano XIX-wieczną rywalizację paleontologów Edwarda Cope’a i Othniela Marsha?",
       "options": [
         "Wojna o kości (Bone Wars)",
         "Bitwa o skamieliny",
@@ -288,14 +288,14 @@
         "Spór o ewolucję gadów"
       ],
       "answer": "Wojna o kości (Bone Wars)",
-      "explanation_correct": "Wojna o kości doprowadziła do odkrycia i opisania ponad 130 gatunków dinozaurów (m.in. Triceratops, Stegosaurus, Diplodocus), ale zrujnowała finansowo i towarzysko obu uczonych z powodu ich wrogich metod.",
-      "explanation_incorrect": "Pozostałe określenia nie są oficjalnymi nazwami tego słynnego wyścigu paleontologicznego.",
+      "explanation_correct": "Wojna o kości była intensywną rywalizacją o skamieniałości zachodniej części USA. Doprowadziła do wielu odkryć, ale wiązała się także z pochopnymi publikacjami i sporami.",
+      "explanation_incorrect": "Pozostałe określenia nie są utrwaloną nazwą tej rywalizacji.",
       "last_verified_at": "2026-06-12T15:30:43.427Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przypadkowe odkrycia",
-      "question": "Które ważne urządzenie medyczne zostało wynalezione, gdy Wilson Greatbatch przez przypadek zamontował niewłaściwy opornik w rejestratorze rytmu serca, wywołując regularne impulsy elektryczne?",
+      "question": "Który inżynier rozwinął wszczepialny stymulator serca po obserwacji impulsów powstałych w układzie z niewłaściwym opornikiem?",
       "options": [
         "Wszczepialny stymulator serca (Pacemaker)",
         "Defibrylator",
@@ -303,8 +303,8 @@
         "Płuco-serce"
       ],
       "answer": "Wszczepialny stymulator serca (Pacemaker)",
-      "explanation_correct": "Greatbatch sięgnął po opornik o wartości 1 megaoma zamiast 10 kiloomów. Obwód zaczął generować impulsy elektryczne trwające 1,8 milisekundy z przerwami co sekundę, co idealnie symulowało bicie serca.",
-      "explanation_incorrect": "Defibrylator i EKG powstały w drodze planowych badań nad elektrycznością serca prowadzonych przez innych uczonych.",
+      "explanation_correct": "Wilson Greatbatch współtworzył praktyczny wszczepialny stymulator; historia jego obwodu obejmuje przypadkowy dobór opornika. Wcześniejsze stymulatory opracowywali także inni badacze.",
+      "explanation_incorrect": "Defibrylator, elektrokardiograf i płuco-serce pełnią inne funkcje medyczne.",
       "last_verified_at": "2026-06-12T15:30:43.427Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -325,22 +325,22 @@
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Który organ psów musiał operacyjnie zmodyfikować Iwan Pawłow, aby dokładnie zbadać ilość wydzielanych soków trawiennych pod wpływem bodźców?",
+      "question": "Które gruczoły wydzielające ślinę badał Pawłow, zbierając ich wydzielinę w doświadczeniach nad trawieniem?",
       "options": [
-        "Ślinianki oraz żołądek (Salivary glands and stomach)",
-        "Przełyk",
-        "Trzustka",
-        "Jelito cienkie"
+        "Ślinianki",
+        "Nadnercza",
+        "Tarczyca",
+        "Przysadka mózgowa"
       ],
-      "answer": "Ślinianki oraz żołądek (Salivary glands and stomach)",
-      "explanation_correct": "Pawłow chirurgicznie wyprowadził przewody ślinianek i stworzył przetokę żołądkową na zewnątrz ciała psów, co pozwalało na bezpośrednie zbieranie soków bez mieszania ich z jedzeniem.",
-      "explanation_incorrect": "Pozostałe organy nie były wyprowadzane jako zewnętrzne przetoki do zbierania prób w tym eksperymencie.",
+      "answer": "Ślinianki",
+      "explanation_correct": "Pawłow stosował techniki umożliwiające zbieranie wydzielin ślinianek; badał także soki innych narządów układu pokarmowego.",
+      "explanation_incorrect": "Nadnercza, tarczyca i przysadka nie są śliniankami; w innych badaniach Pawłow wykorzystywał również przetoki narządów trawiennych.",
       "last_verified_at": "2026-06-12T15:30:43.428Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Które przełomowe zachowanie szympansów zaobserwowała Jane Goodall w Gombe w Tanzanii, obalając pogląd, że tylko ludzie potrafią tworzyć i używać narzędzi?",
+      "question": "Które zachowanie szympansów w Gombe zaobserwowała Jane Goodall podczas zdobywania termitów?",
       "options": [
         "Używanie i modyfikowanie źdźbeł trawy do łowienia termitów",
         "Rozbijanie orzechów kamieniami",
@@ -348,23 +348,23 @@
         "Polowanie na inne ssaki za pomocą gałęzi"
       ],
       "answer": "Używanie i modyfikowanie źdźbeł trawy do łowienia termitów",
-      "explanation_correct": "Goodall zaobserwowała, jak szympans David Greybeard obrywał liście z gałązek, by włożyć je do termitiery. Odkrycie to skłoniło Louisa Leakeya do stwierdzenia: 'Musimy zdefiniować na nowo narzędzie, człowieka, albo uznać szympansów za ludzi'.",
-      "explanation_incorrect": "Rozbijanie orzechów, gąbki z liści i polowania gałęziami to zachowania zaobserwowane u szympansów później przez innych badaczy.",
+      "explanation_correct": "Goodall obserwowała szympansy wykorzystujące i modyfikujące źdźbła lub gałązki do wyławiania termitów z gniazd.",
+      "explanation_incorrect": "Inne populacje szympansów również wykazują zachowania narzędziowe; obserwacja z Gombe dotyczyła m.in. wyławiania termitów.",
       "last_verified_at": "2026-06-12T15:30:43.428Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Uśmiercenie którego dużego zwierzęcia (słonicy Topsy) za pomocą prądu przemiennego sfilmował i nagłośnił Thomas Edison w ramach kampanii przeciwko Tesli i Westinghouse'owi?",
+      "question": "Jak nazywał się spór o systemy dystrybucji energii elektrycznej kojarzony z Edisonem i Westinghouse’em?",
       "options": [
-        "Słonica indyjska (Elephant)",
-        "Koń wyścigowy",
-        "Orka",
-        "Bizon"
+        "Wojna prądów",
+        "Wojna stuletnia",
+        "Wojna róż",
+        "Wojna o kości"
       ],
-      "answer": "Słonica indyjska (Elephant)",
-      "explanation_correct": "W 1903 roku Edison pomógł w uśmierceniu agresywnej słonicy Topsy w Luna Parku na Coney Island, korzystając z prądu przemiennego o napięciu 6600 V, aby dowieść niebezpieczeństwa tej technologii.",
-      "explanation_incorrect": "Edison testował prąd na bezdomnych psach i kotach, ale największym zwierzęciem biorącym udział w tej demonstracji była słonica.",
+      "answer": "Wojna prądów",
+      "explanation_correct": "Wojna prądów dotyczyła m.in. dystrybucji prądu stałego i przemiennego pod koniec XIX wieku. Film z 1903 roku pokazujący słonicę Topsy nie dowodzi, że Edison kierował jej uśmierceniem w ramach tej kampanii.",
+      "explanation_incorrect": "Pozostałe określenia odnoszą się do innych konfliktów i rywalizacji.",
       "last_verified_at": "2026-06-12T15:30:43.428Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -385,7 +385,7 @@
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Który eksperyment z 1952 roku (wykorzystujący bakteriofagi znakowane radioaktywnie) ostatecznie udowodnił, że to DNA, a nie białka, jest nośnikiem informacji genetycznej?",
+      "question": "Który eksperyment z 1952 roku wykorzystał znakowane bakteriofagi, by zbadać rolę DNA jako materiału genetycznego?",
       "options": [
         "Eksperyment Hershey-Chase",
         "Eksperyment Griffitha",
@@ -393,8 +393,8 @@
         "Doświadczenie Avery'ego-MacLeoda-McCarty'ego"
       ],
       "answer": "Eksperyment Hershey-Chase",
-      "explanation_correct": "Alfred Hershey i Martha Chase wykazali, że gdy wirus (bakteriofag) infekuje bakterię, wprowadza do niej swoje radioaktywne DNA (fosfor-32), podczas gdy białkowy pancerz (siarka-35) pozostaje na zewnątrz.",
-      "explanation_incorrect": "Griffith odkrył transformację bakteryjną, Meselson-Stahl udowodnił semikonserwatywność replikacji, a Avery kontynuował pracę Griffitha na bakteriach bez użycia wirusów.",
+      "explanation_correct": "Hershey i Chase znakowali DNA fosforem-32, a białka siarką-35. Wyniki wykazały, że DNA faga wnika do bakterii i bierze udział w tworzeniu potomnych wirusów.",
+      "explanation_incorrect": "Griffith badał transformację, Avery wraz ze współpracownikami wcześniej wskazał DNA jako czynnik transformujący, a Meselson i Stahl badali replikację.",
       "last_verified_at": "2026-06-12T15:30:43.428Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -423,7 +423,7 @@
         "Rachel Carson"
       ],
       "answer": "Barbara McClintock",
-      "explanation_correct": "McClintock odkryła transpozony badając wzory ubarwienia ziaren kukurydzy. Jej teoria była ignorowana przez dekady, dopóki nauka nie potwierdziła istnienia skaczących genów u innych organizmów.",
+      "explanation_correct": "McClintock badała wzory ubarwienia kukurydzy i wykazała istnienie ruchomych elementów genetycznych. W 1983 roku otrzymała za to Nagrodę Nobla z fizjologii lub medycyny.",
       "explanation_incorrect": "Stevens odkryła chromosomy płci X i Y, Franklin badała DNA, a Carson to pionierka ochrony środowiska (autorka 'Milczącej wiosny').",
       "last_verified_at": "2026-06-12T15:30:43.429Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -438,7 +438,7 @@
         "Grzegorz XV"
       ],
       "answer": "Urban VIII",
-      "explanation_correct": "Urban VIII (dawny przyjaciel Galileusza Maffeo Barberini) poczuł się znieważony, ponieważ Galileusz umieścił jego argumenty w ustach postaci o imieniu Simplicio (Prostaczek), broniącej geocentryzmu.",
+      "explanation_correct": "Proces Galileusza odbył się za pontyfikatu Urbana VIII po publikacji Dialogu. Powody konfliktu i interpretacja postaci Simplicia są złożone i dyskutowane przez historyków.",
       "explanation_incorrect": "Klemens VIII skazał Giordano Bruno, Paweł V ostrzegał Galileusza w 1616 roku, a Grzegorz XV panował krótko przed procesem.",
       "last_verified_at": "2026-06-12T15:30:43.429Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -468,14 +468,14 @@
         "Empatię u ludzi"
       ],
       "answer": "Posłuszeństwo wobec autorytetów (Obedience)",
-      "explanation_correct": "Eksperyment Milgrama badał posłuszeństwo ludzi wobec autorytetu (naukowca w kitlu nakazującego kontynuowanie wstrząsów), co miało pomóc zrozumieć uległość wobec zbrodniczych rozkazów w czasie II wojny światowej.",
+      "explanation_correct": "Milgram badał posłuszeństwo wobec poleceń eksperymentatora w sytuacji, w której uczestnicy wierzyli, że aplikują innej osobie wstrząsy. Metody i interpretacja badania są przedmiotem dyskusji.",
       "explanation_incorrect": "Konformizm badał Solomon Asch, deindywiduację analizował Philip Zimbardo w eksperymencie więziennym, a poziom empatii nie był celem tego badania.",
       "last_verified_at": "2026-06-12T15:30:43.429Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Który brytyjski astronom (Arthur Eddington) potwierdził ogólną teorię względności Einsteina, fotografując ugięcie światła gwiazd podczas zaćmienia Słońca w 1919 roku?",
+      "question": "Który brytyjski astronom był związany z obserwacjami zaćmienia Słońca w 1919 roku, stanowiącymi wczesny test ogólnej teorii względności?",
       "options": [
         "Arthur Eddington",
         "Edwin Hubble",
@@ -483,14 +483,14 @@
         "Fred Hoyle"
       ],
       "answer": "Arthur Eddington",
-      "explanation_correct": "Eddington zorganizował wyprawy na wyspę Książęcą i do Brazylii. Zdjęcia zaćmienia wykazały, że grawitacja Słońca ugina światło odległych gwiazd dokładnie o wartość przewidzianą przez Einsteina.",
+      "explanation_correct": "Eddington uczestniczył w organizacji wypraw na wyspę Książęcą i do Sobralu. Wyniki pomiaru ugięcia światła były zgodne w granicach niepewności z przewidywaniami Einsteina.",
       "explanation_incorrect": "Hubble wykazał rozszerzanie wszechświata, Lemaitre sformułował hipotezę Wielkiego Wybuchu, a Hoyle był przeciwnikiem tej teorii.",
       "last_verified_at": "2026-06-12T15:30:43.430Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Która XVIII-wieczna astronomka była pierwszą kobietą, która odkryła kometę i jako pierwsza kobieta w historii otrzymała wynagrodzenie za pracę naukową od króla Anglii?",
+      "question": "Która astronomka odkryła kilka komet i otrzymała wynagrodzenie od Jerzego III jako asystentka Williama Herschela?",
       "options": [
         "Caroline Herschel",
         "Maria Mitchell",
@@ -499,13 +499,13 @@
       ],
       "answer": "Caroline Herschel",
       "explanation_correct": "Caroline Herschel pracowała ze swoim bratem Williamem (odkrywcą Urana). Samodzielnie odkryła osiem komet i otrzymała pensję od króla Jerzego III jako asystentka brata.",
-      "explanation_incorrect": "Mitchell to pierwsza amerykańska astronomka, Somerville to autorka książek popularnonaukowych, a Fleming sklasyfikowała tysiące gwiazd (Harvard Computers).",
+      "explanation_incorrect": "Mitchell, Somerville i Fleming były innymi ważnymi postaciami nauki; opisana praca dotyczy Caroline Herschel.",
       "last_verified_at": "2026-06-12T15:30:43.430Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "O odkrycie którego pierwiastka (będącego podstawą teorii spalania) toczył się spór między Josephem Priestleyem a Antoine'em Lavoisierem?",
+      "question": "Który gaz wyizolował Joseph Priestley, a Antoine Lavoisier powiązał ze spalaniem?",
       "options": [
         "Tlen (Oxygen)",
         "Wodór",
@@ -513,8 +513,8 @@
         "Węgiel"
       ],
       "answer": "Tlen (Oxygen)",
-      "explanation_correct": "Priestley wyizolował gaz w 1774 roku i nazwał go 'zdephlogistonowanym powietrzem'. Lavoisier powtórzył badania, nazwał pierwiastek tlenem (oxygen) i obalił starożytną teorię flogistonu.",
-      "explanation_incorrect": "Wodór nazwał Cavendish, azot wyizolował Daniel Rutherford, a węgiel znali starożytni.",
+      "explanation_correct": "Priestley wyizolował tlen w 1774 roku; Carl Wilhelm Scheele uzyskał go niezależnie, a Lavoisier wyjaśnił jego znaczenie w spalaniu i nadał mu nazwę. Teoria flogistonu była wcześniejszą nowożytną koncepcją.",
+      "explanation_incorrect": "Wodór badał Cavendish i później nazwał Lavoisier; azot wyizolował Daniel Rutherford.",
       "last_verified_at": "2026-06-12T15:30:43.430Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -528,7 +528,7 @@
         "Stewia"
       ],
       "answer": "Sacharyna (Saccharin)",
-      "explanation_correct": "Fahlberg pracował na Uniwersytecie Johnsa Hopkinsa w 1879 roku. Podczas kolacji poczuł, że chleb ma wyjątkowo słodki smak. Wrócił do laboratorium i skosztował zawartości kolb, odkrywając sacharynę.",
+      "explanation_correct": "Fahlberg pracował z pochodnymi smoły węglowej w laboratorium Constantina Remsena w 1879 roku. Historia odkrycia sacharyny obejmuje zauważenie słodkiego smaku po pracy w laboratorium.",
       "explanation_incorrect": "Aspartam odkrył przypadkowo James Schlatter w 1965 roku, ksylitol to alkohol cukrowy pozyskiwany z brzozy, a stewia to słodzik naturalny.",
       "last_verified_at": "2026-06-12T15:30:43.430Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -550,16 +550,16 @@
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Z jakiego powodu przyznanie Nagrody Nobla Barbarze McClintock za odkrycie transpozonów nastąpiło dopiero w 1983 roku, prawie 40 lat po jej badaniach?",
+      "question": "Która amerykańska genetyczka otrzymała w 1983 roku Nobla za odkrycie ruchomych elementów genetycznych?",
       "options": [
-        "Środowisko naukowe początkowo odrzuciło jej odkrycie jako błąd lub specyfikę kukurydzy",
-        "Jej praca została utracona podczas pożaru laboratorium",
-        "Złożyła wniosek o patent, który blokował przyznanie nagrody",
-        "Nagroda była blokowana z powodów politycznych zimnej wojny"
+        "Barbara McClintock",
+        "Rosalind Franklin",
+        "Dorothy Hodgkin",
+        "Nettie Stevens"
       ],
-      "answer": "Środowisko naukowe początkowo odrzuciło jej odkrycie jako błąd lub specyfikę kukurydzy",
-      "explanation_correct": "Koncepcja genów poruszających się po chromosomach stała w sprzeczności z ówczesnym dogmatem o stałości genomu. Dopiero odkrycie transpozonów u bakterii i drożdży w latach 70. wykazało uniwersalność jej teorii.",
-      "explanation_incorrect": "Jej notatki nie ucierpiały, McClintock nie patentowała swoich prac, a polityka nie miała wpływu na decyzję.",
+      "answer": "Barbara McClintock",
+      "explanation_correct": "McClintock badała ruchome elementy chromosomowe kukurydzy. Uznanie znaczenia jej prac rozwijało się przez kolejne dziesięciolecia.",
+      "explanation_incorrect": "Pozostałe badaczki wniosły istotny wkład w naukę, lecz Nobel z 1983 roku za ruchome elementy genetyczne przypadł McClintock.",
       "last_verified_at": "2026-06-12T15:30:43.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -574,13 +574,13 @@
       ],
       "answer": "Jocelyn Bell Burnell",
       "explanation_correct": "Jocelyn Bell Burnell zauważyła na wykresach radioteleskopu regularne impulsy o okresie 1,33 sekundy, żartobliwie nazwane początkowo LGM-1 (Little Green Men). Nobel trafił jednak do Hewisha i Ryle'a.",
-      "explanation_incorrect": "Rubin udowodniła istnienie ciemnej materii, Burbidge badała nukleosyntezę, a Leavitt odkryła zależność okres-jasność dla cefeid.",
+      "explanation_incorrect": "Vera Rubin dostarczyła ważnych dowodów na istnienie ciemnej materii, Burbidge badała nukleosyntezę, a Leavitt zależność okres–jasność cefeid.",
       "last_verified_at": "2026-06-12T15:30:43.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Z którym niemieckim chemikiem (Lotharem Meyerem) Dmitrij Mendelejew toczył spór o pierwszeństwo w sformułowaniu układu okresowego pierwiastków?",
+      "question": "Który niemiecki chemik niezależnie rozwijał klasyfikację okresową pierwiastków w epoce Mendelejewa?",
       "options": [
         "Julius Lothar Meyer",
         "Robert Bunsen",
@@ -588,8 +588,8 @@
         "Friedrich Wöhler"
       ],
       "answer": "Julius Lothar Meyer",
-      "explanation_correct": "Obaj niezależnie stworzyli układ okresowy pod koniec lat 60. XIX wieku. Mendelejew opublikował go pierwszy w 1869 roku i odważnie przewidział istnienie nieodkrytych jeszcze pierwiastków, co dało mu sławę.",
-      "explanation_incorrect": "Bunsen wynalazł palnik, Liebig rozwinął nawozy chemiczne, a Wöhler obalił witalizm syntezą mocznika.",
+      "explanation_correct": "Julius Lothar Meyer i Dmitrij Mendelejew niezależnie rozwijali klasyfikacje okresowe. Ich publikacje miały wcześniejsze wersje; Mendelejew pozostawił miejsca na brakujące pierwiastki i przewidywał ich właściwości.",
+      "explanation_incorrect": "Bunsen, Liebig i Wöhler byli innymi niemieckimi chemikami; klasyfikację okresową rozwijał Meyer.",
       "last_verified_at": "2026-06-12T15:30:43.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -610,22 +610,22 @@
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "W którym amerykańskim uniwersytecie (Case Western Reserve) Albert Michelson i Edward Morley przeprowadzili swój słynny eksperyment ze światłem?",
+      "question": "W jakim mieście Michelson i Morley przeprowadzili słynny eksperyment interferometryczny w 1887 roku?",
       "options": [
-        "Case School of Applied Science / Western Reserve University",
-        "Harvard University",
-        "MIT",
-        "Princeton University"
+        "Cleveland",
+        "Boston",
+        "Princeton",
+        "Waszyngton"
       ],
-      "answer": "Case School of Applied Science / Western Reserve University",
-      "explanation_correct": "Eksperyment przeprowadzono w Cleveland w Ohio w laboratoriach uczelni, które później połączyły się w Case Western Reserve University.",
-      "explanation_incorrect": "Pozostałe elitarne uczelnie nie były bezpośrednim miejscem przeprowadzenia tego konkretnego pomiaru w 1887 roku.",
+      "answer": "Cleveland",
+      "explanation_correct": "Doświadczenie przeprowadzono w Cleveland w instytucjach, których późniejsze połączenie utworzyło Case Western Reserve University.",
+      "explanation_incorrect": "Eksperyment z 1887 roku odbył się w Cleveland, a nie w pozostałych wymienionych miastach.",
       "last_verified_at": "2026-06-12T15:30:43.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "W którym roku zmarła Rosalind Franklin, co uniemożliwiło jej otrzymanie Nagrody Nobla w 1962 roku?",
+      "question": "W którym roku zmarła Rosalind Franklin, współautorka badań struktury DNA?",
       "options": [
         "1958",
         "1953",
@@ -640,7 +640,7 @@
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Która XIX-wieczna brytyjska kolekcjonerka skamielin odkryła pierwszy kompletny szkielet ichtiozaura i plezjozaura, pracując na klifach Lyme Regis?",
+      "question": "Która brytyjska kolekcjonerka skamieniałości odkryła w Lyme Regis ważne okazy ichtiozaura i plezjozaura?",
       "options": [
         "Mary Anning",
         "Caroline Herschel",
@@ -648,14 +648,14 @@
         "Elizabeth Philpot"
       ],
       "answer": "Mary Anning",
-      "explanation_correct": "Mary Anning zbierała skamieniałości w pasie jurajskim Lyme Regis. Jej odkrycia zrewolucjonizowały wczesną paleontologię i geologię, mimo że jako kobieta z klasy robotniczej nie mogła należeć do Londyńskiego Towarzystwa Geologicznego.",
+      "explanation_correct": "Mary Anning oraz jej rodzina znajdowali skamieniałości na wybrzeżu Dorset. Jej odkrycia, w tym niemal kompletny plezjozaur, miały duże znaczenie dla wczesnej paleontologii.",
       "explanation_incorrect": "Herschel była astronomką, Somerville fizyczką, a Philpot to przyjaciółka Mary Anning specjalizująca się w skamieniałościach ryb.",
       "last_verified_at": "2026-06-12T15:30:43.431Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Jak nazywała się fikcyjna postać (reprezentująca zwolenników geocentryzmu) w książce Galileusza, której imię papież Urban VIII zinterpretował jako osobistą obelgę?",
+      "question": "Jak nazywa się postać broniąca poglądów arystotelesowskich w Dialogu Galileusza?",
       "options": [
         "Simplicio (Prostaczek)",
         "Salviati",
@@ -663,14 +663,14 @@
         "Filip"
       ],
       "answer": "Simplicio (Prostaczek)",
-      "explanation_correct": "Simplicio w dialogu broni arystotelesowskiej wizji wszechświata. Jego imię kojarzyło się z łacińskim słowem 'prosty' lub 'głupiec', a fakt, że wypowiadał argumenty papieża, doprowadził Urbana VIII do wściekłości.",
+      "explanation_correct": "Simplicio przedstawia argumenty zwolenników tradycyjnej kosmologii. Związki tej postaci z argumentami Urbana VIII i ich odbiór są przedmiotem interpretacji historyków.",
       "explanation_incorrect": "Salviati reprezentuje poglądy Galileusza (heliocentryzm), Sagredo to bezstronny moderator dyskusji, a Filip to imię fikcyjne.",
       "last_verified_at": "2026-06-12T15:30:43.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przypadkowe odkrycia",
-      "question": "Jaka technologia zasilania (baterie litowe) została zastosowana przez Greatbatcha, co pozwoliło stymulatorom serca na pracę przez ponad dekadę bez wymiany?",
+      "question": "Jakiego rodzaju baterie pomogły wydłużyć czas pracy wielu wszczepialnych stymulatorów serca?",
       "options": [
         "Litowo-jodowa (Lithium-iodide)",
         "Niklowo-kadmowa",
@@ -678,29 +678,29 @@
         "Rtęciowa"
       ],
       "answer": "Litowo-jodowa (Lithium-iodide)",
-      "explanation_correct": "Greatbatch opracował stymulator z baterią litowo-jodową, zastępując krótkotrwałe baterie rtęciowe, co wyeliminowało potrzebę częstych operacji chirurgicznych u pacjentów.",
-      "explanation_incorrect": "Baterie rtęciowe działały tylko 2 lata, niklowo-kadmowe wymagały ładowania bezprzewodowego, a cynkowe były zbyt niestabilne.",
+      "explanation_correct": "Baterie litowo-jodowe poprawiły trwałość źródeł zasilania stymulatorów w porównaniu z wcześniejszymi rozwiązaniami. Rzeczywisty czas pracy zależy od urządzenia i ustawień.",
+      "explanation_incorrect": "Wczesne stymulatory używały również baterii rtęciowych; pozostałe odpowiedzi nie wskazują rozwiązania opisanego w pytaniu.",
       "last_verified_at": "2026-06-12T15:30:43.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Jak nazywa się reakcja fizjologiczna (np. wydzielanie śliny pod wpływem zapachu jedzenia), która przebiega bez konieczności uprzedniego uczenia się?",
+      "question": "Jak nazywa się niewyuczona reakcja, taka jak wydzielanie śliny na pokarm w jamie ustnej?",
       "options": [
-        "Odruch bezwarunkowy (Unconditioned reflex)",
+        "Odruch bezwarunkowy",
         "Odruch warunkowy",
         "Reakcja wyuczona",
-        "Odruch autonomiczny"
+        "Habituacja"
       ],
-      "answer": "Odruch bezwarunkowy (Unconditioned reflex)",
-      "explanation_correct": "Odruch bezwarunkowy to wrodzona reakcja organizmu (np. ślinienie się na widok jedzenia), wywołana bezpośrednio przez bodziec bezwarunkowy.",
-      "explanation_incorrect": "Odruch warunkowy powstaje dopiero w wyniku uczenia się i kojarzenia bodźców (np. ślinienie się na dzwonek). Reakcja autonomiczna to szersze pojęcie układu nerwowego.",
+      "answer": "Odruch bezwarunkowy",
+      "explanation_correct": "Odruch bezwarunkowy jest niewyuczoną reakcją na bodziec bezwarunkowy. Reakcja na sam widok lub zapach pokarmu może zależeć od wcześniejszego uczenia się.",
+      "explanation_incorrect": "Odruch warunkowy i reakcja wyuczona wymagają doświadczenia; habituacja oznacza osłabienie reakcji wskutek powtarzania bodźca.",
       "last_verified_at": "2026-06-12T15:30:43.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Który badacz z King's College London otrzymał Nagrodę Nobla wraz z Watsonem i Crickiem, jako szef laboratorium i bezpośredni współpracownik Rosalind Franklin?",
+      "question": "Który badacz związany z King’s College London otrzymał Nobla z Watsonem i Crickiem w 1962 roku?",
       "options": [
         "Maurice Wilkins",
         "Max Perutz",
@@ -708,8 +708,8 @@
         "Lawrence Bragg"
       ],
       "answer": "Maurice Wilkins",
-      "explanation_correct": "Maurice Wilkins badał DNA metodą krystalografii rentgenowskiej. Pokazał on Watsonowi zdjęcie rentgenowskie (Foto 51) wykonane przez Franklin, co przyspieszyło opracowanie modelu podwójnej helisy.",
-      "explanation_incorrect": "Perutz i Kendrew otrzymali Nobla z chemii w tym samym roku za badania nad mioglobiną, a Bragg był szefem laboratorium Cavendisha.",
+      "explanation_correct": "Maurice Wilkins badał DNA metodami rentgenowskimi i pokazał Watsonowi Fotografię 51 wykonaną przez Rosalind Franklin i Raymonda Goslinga.",
+      "explanation_incorrect": "Perutz i Kendrew otrzymali Nobla z chemii w 1962 roku za badania struktur białek, a Bragg kierował laboratorium Cavendisha.",
       "last_verified_at": "2026-06-12T15:30:43.432Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -738,14 +738,14 @@
         "Akademia Leopoldina"
       ],
       "answer": "Towarzystwo Królewskie w Londynie (Royal Society)",
-      "explanation_correct": "Newton jako prezes Royal Society powołał komisję do zbadania sporu o rachunek różniczkowy, a następnie potajemnie sam napisał raport końcowy komisji korzystny dla siebie.",
+      "explanation_correct": "Newton był prezesem Royal Society, które powołało komisję badającą spór o pierwszeństwo rachunku. Raport komisji był stronniczy i Newton odegrał ważną rolę w jego przygotowaniu.",
       "explanation_incorrect": "Akademia Francuska to konkurent brytyjskiego towarzystwa, a pozostałe organizacje zajmowały się innymi dziedzinami nauk.",
       "last_verified_at": "2026-06-12T15:30:43.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przypadkowe odkrycia",
-      "question": "Z którego rodzaju rośliny pozyskiwany jest naturalny lateks, który Goodyear poddał procesowi wulkanizacji?",
+      "question": "Które drzewo jest głównym współczesnym źródłem naturalnego kauczuku?",
       "options": [
         "Kauczukowiec brazylijski",
         "Fikus sprężysty",
@@ -754,7 +754,7 @@
       ],
       "answer": "Kauczukowiec brazylijski",
       "explanation_correct": "Hevea brasiliensis to główne źródło naturalnego kauczuku, zbieranego w formie mleczka z naciętej kory.",
-      "explanation_incorrect": "Fikus i niektóre mniszki produkują lateks, ale nie są to komercyjne źródła gumy używanej przez Goodyeara.",
+      "explanation_incorrect": "Inne rośliny, w tym niektóre mniszki i fikusy, również wytwarzają lateks; Hevea brasiliensis jest głównym źródłem handlowym.",
       "last_verified_at": "2026-06-12T15:31:43.300Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -768,7 +768,7 @@
         "Korek w płynie"
       ],
       "answer": "Karteczki samoprzylepne (Post-it)",
-      "explanation_correct": "Spencer Silver z firmy 3M poszukiwał super-mocnego kleju do samolotów. Stworzony przez niego słaby klej akrylowy nie niszczył papieru, co po latach wykorzystano do produkcji żółtych karteczek Post-it.",
+      "explanation_correct": "Spencer Silver opracował w 3M klej o niewielkiej przyczepności. Art Fry rozwinął pomysł zakładek do śpiewnika, co przyczyniło się do powstania karteczek Post-it.",
       "explanation_incorrect": "Pozostałe artykuły biurowe powstały w wyniku planowych prac i z użyciem innych substancji chemicznych.",
       "last_verified_at": "2026-06-12T15:30:43.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -777,20 +777,20 @@
       "subcategory": "Przełomowe eksperymenty",
       "question": "Co wykazano w słynnym eksperymencie Millera-Ureya z 1952 roku, w którym symulowano warunki panujące na pra-Ziemi przy użyciu iskier elektrycznych i prostych gazów?",
       "options": [
-        "Syntezę związków organicznych (aminokwasów) z substancji nieorganicznych",
+        "Syntezę aminokwasów z prostych substancji w modelowym układzie",
         "Powstanie pierwszych żywych komórek bakteryjnych",
         "Samorzutną replikację cząsteczek RNA",
         "Opad radioaktywny wczesnej atmosfery"
       ],
-      "answer": "Syntezę związków organicznych (aminokwasów) z substancji nieorganicznych",
-      "explanation_correct": "Eksperyment dowiódł, że podstawowe cegiełki życia (aminokwasy) mogą samorzutnie powstawać w warunkach wczesnej atmosfery (woda, metan, amoniak, wodór) pod wpływem wyładowań atmosferycznych.",
+      "answer": "Syntezę aminokwasów z prostych substancji w modelowym układzie",
+      "explanation_correct": "Eksperyment wytworzył aminokwasy i inne związki organiczne z prostych substancji w zaproponowanym modelu wczesnego środowiska Ziemi. Rzeczywisty skład pradawnej atmosfery pozostaje przedmiotem badań.",
       "explanation_incorrect": "Eksperyment nie stworzył żywych komórek ani replikującego się RNA (co bada hipoteza świata RNA).",
       "last_verified_at": "2026-06-12T15:30:43.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Jaka metoda fizyczna pozwoliła Rosalind Franklin na wykonanie 'Fotografii 51' cząsteczki DNA?",
+      "question": "Jaką metodą Rosalind Franklin i Raymond Gosling uzyskali Fotografię 51 DNA?",
       "options": [
         "Krystalografia rentgenowska",
         "Mikroskopia elektronowa",
@@ -798,8 +798,8 @@
         "Rezonans magnetyczny"
       ],
       "answer": "Krystalografia rentgenowska",
-      "explanation_correct": "Krystalografia rentgenowska polega na analizie wzorów dyfrakcyjnych promieni X przechodzących przez próbkę materiału.",
-      "explanation_incorrect": "Mikroskopia elektronowa i NMR to nowoczesne metody obrazowania, które nie były używane do odkrycia struktury DNA w 1953 roku.",
+      "explanation_correct": "Fotografia 51 to obraz dyfrakcji promieniowania rentgenowskiego na uporządkowanych włóknach DNA, uzyskany przez Franklin i Goslinga.",
+      "explanation_incorrect": "Mikroskopia elektronowa, spektrometria mas i rezonans magnetyczny są innymi metodami badawczymi niż dyfrakcja rentgenowska.",
       "last_verified_at": "2026-06-12T15:31:43.301Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -820,7 +820,7 @@
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Z którym brytyjskim fizykiem (Robertem Hooke'iem) Isaac Newton toczył spór o naturę światła oraz prawo powszechnego ciążenia, co doprowadziło do usunięcia wizerunków rywala z Royal Society?",
+      "question": "Z którym angielskim uczonym Newton spierał się m.in. o optykę i prawo odwrotnych kwadratów?",
       "options": [
         "Robert Hooke",
         "Edmund Halley",
@@ -828,8 +828,8 @@
         "Robert Boyle"
       ],
       "answer": "Robert Hooke",
-      "explanation_correct": "Hooke uważał, że to on podsunął Newtonowi pomysł prawa odwrotnych kwadratów dla grawitacji. Po śmierci Hooke'a Newton przejął bibliotekę Royal Society i rzekomo zniszczył jedyny portret rywala.",
-      "explanation_incorrect": "Halley był przyjacielem Newtona finansującym Principia, Huygens to holenderski twórca teorii falowej, a Boyle współpracował z Hooke'iem nad gazami.",
+      "explanation_correct": "Robert Hooke i Isaac Newton spierali się o optykę oraz rolę Hooke’a w badaniach grawitacji. Opowieść o zniszczeniu portretu Hooke’a przez Newtona nie ma potwierdzenia.",
+      "explanation_incorrect": "Halley, Huygens i Boyle byli innymi uczonymi epoki; wskazany spór dotyczył Hooke’a.",
       "last_verified_at": "2026-06-12T15:30:43.433Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -843,14 +843,14 @@
         "Fuksyna"
       ],
       "answer": "Mowina (Fiolet Perkina)",
-      "explanation_correct": "Perkin w 1856 roku próbował zsyntetyzować chininę z aniline. Zamiast tego uzyskał ciemny osad, który po rozpuszczeniu w alkoholu zafarbował jedwab na piękny, intensywny fioletowy kolor (mowinę).",
+      "explanation_correct": "W 1856 roku Perkin, badając związki pochodzące ze smoły węglowej w kontekście syntezy chininy, otrzymał barwnik znany później jako mowina.",
       "explanation_incorrect": "Ultramaryna i indygo to barwniki naturalne używane od starożytności, a fuksyna powstała później.",
       "last_verified_at": "2026-06-12T15:30:43.434Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Jakim kluczowym medium (cieczą/ciałem stałym) napełniono koryto z rtęcią, na którym unosiła się kamienna płyta z interferometrem w eksperymencie Michelsona-Morleya, by wyeliminować drgania?",
+      "question": "W jakiej cieczy unosił się kamienny stół interferometru Michelsona i Morleya z 1887 roku?",
       "options": [
         "Rtęć (Mercury)",
         "Ołów",
@@ -858,14 +858,14 @@
         "Woda ciężka"
       ],
       "answer": "Rtęć (Mercury)",
-      "explanation_correct": "Interferometr zamontowano na ciężkiej płycie z piaskowca unoszącej się w korycie z płynną rtęcią. Pozwalało to na beztarciowy obrót aparatu o 360 stopni i tłumiło drgania z otoczenia.",
-      "explanation_incorrect": "Gliceryna i ołów nie mają odpowiedniego napięcia powierzchniowego i gęstości, a woda nie tłumiłaby drgań w ten sposób.",
+      "explanation_correct": "Ciężki stół z interferometrem unosił się w korycie z rtęcią, co umożliwiało jego płynny obrót podczas pomiarów.",
+      "explanation_incorrect": "W tym doświadczeniu użyto rtęci, nie ołowiu, gliceryny ani ciężkiej wody.",
       "last_verified_at": "2026-06-12T15:30:43.434Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Która chińsko-amerykańska fizyczka (nazywana 'Pierwszą Damą Fizyki') przeprowadziła eksperyment z kobaltem-60 obalający prawo zachowania parzystości, za co Nobla otrzymali tylko jej koledzy Yang i Lee?",
+      "question": "Która fizyczka przeprowadziła wraz z zespołem eksperyment z kobaltem-60 wykazujący naruszenie parzystości?",
       "options": [
         "Chien-Shiung Wu",
         "Tu Youyou",
@@ -873,29 +873,29 @@
         "Dorothy Hodgkin"
       ],
       "answer": "Chien-Shiung Wu",
-      "explanation_correct": "Chien-Shiung Wu wykazała w 1956 roku, że rozpady słabe kobaltu-60 wykazują asymetrię (naruszenie parzystości). Nobel z fizyki w 1957 roku trafił do teoretyków Chen Ning Yanga i Tsung-Dao Lee, omijając eksperymentatorkę.",
+      "explanation_correct": "Chien-Shiung Wu i współpracownicy przeprowadzili doświadczenie wykazujące naruszenie parzystości w oddziaływaniu słabym. Nagrodę Nobla z fizyki w 1957 roku otrzymali teoretycy Yang i Lee.",
       "explanation_incorrect": "Tu Youyou odkryła artemizynę przeciw malarii (Nobel 2015), Sabin badała układ limfatyczny, a Hodgkin to noblistka z chemii.",
       "last_verified_at": "2026-06-12T15:30:43.434Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "O istnienie czego w przyrodzie (odrzucanego przez Kartezjusza jako niemożliwe logicznie) spierał się z nim Blaise Pascal, dowodząc tego za pomocą rury z rtęcią na szczycie góry?",
+      "question": "Który przyrodnik zorganizował porównanie wskazań barometru u podnóża i na szczycie Puy de Dôme w 1648 roku?",
       "options": [
-        "Próżnia (Vacuum)",
-        "Eter kosmiczny",
-        "Grawitacja ziemska",
-        "Niewidzialne powietrze"
+        "Blaise Pascal",
+        "René Descartes",
+        "Isaac Newton",
+        "Robert Boyle"
       ],
-      "answer": "Próżnia (Vacuum)",
-      "explanation_correct": "Kartezjusz twierdził, że przestrzeń to materia (plenum) i próżnia nie może istnieć. Pascal, powtarzając doświadczenie Torricellego na szczycie góry Puy de Dôme, dowiódł istnienia próżni i ciśnienia atmosferycznego.",
-      "explanation_incorrect": "Eter i grawitacja nie były osiami tego sporu filozoficznego, a powietrze badano jako czynnik wywołujący ciśnienie, lecz spór dotyczył samej próżni.",
+      "answer": "Blaise Pascal",
+      "explanation_correct": "Blaise Pascal zaproponował doświadczenie, a jego szwagier Florin Périer wykonał pomiary na Puy de Dôme. Różnica wskazań wspierała wyjaśnienie roli ciśnienia atmosferycznego.",
+      "explanation_incorrect": "Descartes, Newton i Boyle byli uczonymi tej epoki; pomiary na górze wykonał Périer na prośbę Pascala.",
       "last_verified_at": "2026-06-12T15:30:43.434Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przypadkowe odkrycia",
-      "question": "Czyją dłoń (z widocznym pierścieniem) uwiecznił Wilhelm Röntgen na pierwszym w historii zdjęciu rentgenowskim w 1895 roku?",
+      "question": "Czyją dłoń z pierścieniem przedstawia słynne zdjęcie rentgenowskie wykonane przez Wilhelma Röntgena w 1895 roku?",
       "options": [
         "Swojej żony Anny Berthy (Anna Bertha Röntgen)",
         "Swojej córki",
@@ -903,8 +903,8 @@
         "Swojego psa"
       ],
       "answer": "Swojej żony Anny Berthy (Anna Bertha Röntgen)",
-      "explanation_correct": "Röntgen naświetlił dłoń swojej żony Anny Berthy. Na widok zdjęcia kości i pierścienia wypowiedziała ona słynne słowa: 'Widziałam swoją własną śmierć!'.",
-      "explanation_incorrect": "Röntgen nie naświetlał dłoni córki ani psa do tej pierwszej, oficjalnej publikacji, a asystenci pomagali w innych testach.",
+      "explanation_correct": "Słynne wczesne zdjęcie przedstawia dłoń Anny Berthy Röntgen. Nie trzeba zakładać, że było pierwszym obrazem rentgenowskim w historii.",
+      "explanation_incorrect": "Na znanym zdjęciu znajduje się dłoń żony Röntgena z widocznym pierścieniem.",
       "last_verified_at": "2026-06-12T15:30:43.434Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -925,7 +925,7 @@
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Za wprowadzenie której stałej fizycznej (reprezentującej najmniejszą porcję energii) Max Planck otrzymał Nagrodę Nobla w 1918 roku?",
+      "question": "Jaką stałą, oznaczaną literą h, wprowadził Max Planck w opisie promieniowania ciała doskonale czarnego?",
       "options": [
         "Stała Plancka (h)",
         "Stała Boltzmanna",
@@ -933,8 +933,8 @@
         "Stała Rydberga"
       ],
       "answer": "Stała Plancka (h)",
-      "explanation_correct": "Wprowadzenie stałej Plancka (h = 6,626 x 10^-34 J·s) w 1900 roku pozwoliło na rozwiązanie problemu promieniowania ciała doskonałego czarnego i dało początek fizyce kwantowej.",
-      "explanation_incorrect": "Stała Boltzmanna wiąże energię z temperaturą, stała grawitacji pochodzi od Newtona, a Rydberga opisuje widma atomowe.",
+      "explanation_correct": "Stała Plancka h wiąże energię kwantu z częstotliwością przez zależność E = hν. Sama stała nie jest najmniejszą porcją energii.",
+      "explanation_incorrect": "Stała Boltzmanna łączy skalę energii i temperatury, stała grawitacji opisuje siłę grawitacji, a stała Rydberga występuje w opisie widm.",
       "last_verified_at": "2026-06-12T15:30:43.435Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -948,14 +948,14 @@
         "Ada Yonath"
       ],
       "answer": "Dorothy Hodgkin",
-      "explanation_correct": "Dorothy Crowfoot Hodgkin była pionierką badań strukturalnych białek. Po latach pracy ustaliła również trójwymiarową strukturę insuliny.",
+      "explanation_correct": "Dorothy Crowfoot Hodgkin ustaliła metodą dyfrakcji rentgenowskiej struktury m.in. penicyliny i witaminy B12; później jej zespół ustalił także strukturę insuliny.",
       "explanation_incorrect": "Franklin zmarła przed Noblem, Curie badała rad, a Ada Yonath otrzymała Nobla za strukturę rybosomu w 2009 roku.",
       "last_verified_at": "2026-06-12T15:30:43.435Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Jak nazywa się niemiecki astronom (autor praw ruchu planet), który poparł heliocentryzm Galileusza i ulepszył jego lunetę, wprowadzając dwie soczewki skupiające?",
+      "question": "Który astronom opisał konstrukcję lunety z dwiema soczewkami skupiającymi, zwanej lunetą Keplera?",
       "options": [
         "Johannes Kepler",
         "Tycho Brahe",
@@ -963,14 +963,14 @@
         "Giordano Bruno"
       ],
       "answer": "Johannes Kepler",
-      "explanation_correct": "Johannes Kepler korespondował z Galileuszem. Choć Galileusz ignorował jego teorię o eliptycznych orbitach planet, Kepler zbudował lunetę (teleskop Keplerowski) dającą szersze pole widzenia niż luneta Galileusza.",
-      "explanation_incorrect": "Brahe był zwolennikiem własnego geocentryczno-heliocentrycznego modelu, Kopernik zmarł przed wynalezieniem lunety, a Bruno spłonął na stosie.",
+      "explanation_correct": "Johannes Kepler opisał układ dwóch soczewek skupiających w Dioptrice z 1611 roku. Konstrukcja ta stała się podstawą późniejszych lunet astronomicznych.",
+      "explanation_incorrect": "Brahe proponował własny model kosmosu, Kopernik żył przed wynalezieniem lunety, a Bruno był filozofem.",
       "last_verified_at": "2026-06-12T15:30:43.435Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przypadkowe odkrycia",
-      "question": "Który szwajcarski chemik przypadkowo odkrył psychoaktywne działanie dietyloamidu kwasu lizergowego (LSD), gdy odrobina substancji wchłonęła się przez jego skórę w laboratorium w 1943 roku?",
+      "question": "Który szwajcarski chemik zsyntetyzował LSD i w 1943 roku zaobserwował jego psychoaktywne działanie?",
       "options": [
         "Albert Hofmann",
         "Arthur Stoll",
@@ -978,29 +978,29 @@
         "Felix Hoffmann"
       ],
       "answer": "Albert Hofmann",
-      "explanation_correct": "Hofmann zsyntetyzował LSD-25 w 1938 roku. Pięć lat później, podczas ponownych prac, przypadkowo zanieczyścił opuszkę palca i doświadczył halucynacji, co skłoniło go do przeprowadzenia słynnego testu z jazdą na rowerze (Bicycle Day).",
+      "explanation_correct": "Albert Hofmann zsyntetyzował LSD-25 w 1938 roku. W 1943 roku zaobserwował jego działanie podczas prac laboratoryjnych; dokładna droga przypadkowej ekspozycji nie jest pewna.",
       "explanation_incorrect": "Stoll był szefem Hofmanna, Shulgin badał MDMA i fenetylaminy, a Felix Hoffmann zsyntetyzował aspirinę.",
       "last_verified_at": "2026-06-12T15:30:43.435Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Jaki napis widniał na generatorze wstrząsów w eksperymencie Milgrama przy najwyższym poziomie napięcia (450 V)?",
+      "question": "Jak oznaczono dwa najwyższe przełączniki na generatorze wstrząsów w klasycznym badaniu Milgrama?",
       "options": [
-        "XXX (Niebezpieczeństwo: ciężki wstrząs)",
-        "ŚMIERTELNE NIEBEZPIECZEŃSTWO",
+        "XXX",
         "OSTROŻNIE",
-        "STOP"
+        "STOP",
+        "BRAK ZASILANIA"
       ],
-      "answer": "XXX (Niebezpieczeństwo: ciężki wstrząs)",
-      "explanation_correct": "Generator wstrząsów posiadał przełączniki od 15 do 450 V. Ostatnie przełączniki oznaczono napisami informującymi o zagrożeniu, a dwa ostatnie (435 i 450 V) po prostu symbolem 'XXX'.",
-      "explanation_incorrect": "Pozostałe napisy nie były oficjalnymi etykietami na makiecie urządzenia używanego w 1961 roku.",
+      "answer": "XXX",
+      "explanation_correct": "Dwa ostatnie poziomy, 435 i 450 V, oznaczono symbolem XXX. Wstrząsy przekazywane rzekomemu uczniowi były pozorowane.",
+      "explanation_incorrect": "„Danger: Severe Shock” było osobnym oznaczeniem niższej grupy przełączników; dwa najwyższe oznaczono XXX.",
       "last_verified_at": "2026-06-12T15:30:43.436Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Jak nazywa się wybitny brytyjski fizyk, dyrektor Laboratorium Cavendisha w Cambridge, który wspierał Watsona i Cricka i sam był najmłodszym laureatem Nobla w historii?",
+      "question": "Który dyrektor Laboratorium Cavendisha otrzymał w 1915 roku Nobla z fizyki wraz ze swoim ojcem?",
       "options": [
         "William Lawrence Bragg",
         "Ernest Rutherford",
@@ -1008,14 +1008,14 @@
         "Niels Bohr"
       ],
       "answer": "William Lawrence Bragg",
-      "explanation_correct": "William Lawrence Bragg otrzymał Nagrodę Nobla z fizyki wraz z ojcem w wieku 25 lat (w 1915 roku) za analizę kryształów metodą dyfrakcji rentgenowskiej. Jako szef laboratorium w Cambridge wspierał modelowanie DNA.",
-      "explanation_incorrect": "Rutherford i Thomson kierowali laboratorium Cavendisha we wcześniejszych dekadach, a Bohr kierował własnym instytutem w Kopenhadze.",
+      "explanation_correct": "William Lawrence Bragg miał 25 lat, gdy otrzymał wspólnie z ojcem Nobla za analizę struktur krystalicznych za pomocą promieni rentgenowskich. Później kierował laboratorium Cavendisha.",
+      "explanation_incorrect": "Rutherford i Thomson kierowali Cavendishem w innych okresach, a Bohr pracował w Kopenhadze. Bragg był młodym laureatem, lecz później pojawili się młodsi.",
       "last_verified_at": "2026-06-12T15:30:43.436Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Z jakiego powodu Mary Anning musiała samodzielnie szukać i sprzedawać skamieniałości, narażając życie na osuwających się klifach Lyme Regis?",
+      "question": "Dlaczego Mary Anning i jej rodzina zbierali i sprzedawali skamieniałości na klifach Lyme Regis po śmierci ojca?",
       "options": [
         "Utrzymanie ubogiej rodziny po nagłej śmierci ojca",
         "Wytyczne od brytyjskiej akademii nauk",
@@ -1023,7 +1023,7 @@
         "Chęć zdobycia dyplomu uniwersyteckiego"
       ],
       "answer": "Utrzymanie ubogiej rodziny po nagłej śmierci ojca",
-      "explanation_correct": "Ojciec Mary, stolarz Richard Anning, zmarł młodo, pozostawiając rodzinę w głębokich długach. Zbieranie i sprzedaż 'ciekawostek' (skamielin) turystom było jedynym źródłem dochodu rodziny.",
+      "explanation_correct": "Po śmierci ojca Mary Anning i jej rodzina zarabiali m.in. na zbieraniu i sprzedaży skamieniałości. Praca na klifach Lyme Regis wiązała się z ryzykiem osuwisk.",
       "explanation_incorrect": "Mary Anning nie otrzymała funduszy rządowych, była panną przez całe życie i nie miała wstępu na uniwersytety.",
       "last_verified_at": "2026-06-12T15:30:43.436Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1038,7 +1038,7 @@
         "Został rozstrzelany przez gwardię"
       ],
       "answer": "Został ścięty na gilotynie",
-      "explanation_correct": "Lavoisier był udziałowcem prywatnej firmy pobierającej podatki (Ferme générale). Z powodu tej działalności rewolucjoniści skazali go na śmierć. Sędzia miał odrzucić prośbę o ułaskawienie słowami: 'Republika nie potrzebuje uczonych'.",
+      "explanation_correct": "Lavoisier należał do Ferme générale, prywatnej organizacji poboru podatków. Skazano go i zgilotynowano w 1794 roku; przypisywane sędziemu słowa o niepotrzebnych uczonych nie są pewnym cytatem.",
       "explanation_incorrect": "Mimo starań przyjaciół, Lavoisier nie zdołał uciec ani nie zmarł śmiercią naturalną w celi.",
       "last_verified_at": "2026-06-12T15:30:43.436Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1053,7 +1053,7 @@
         "Wydziela się kwas siarkowy utwardzający masę"
       ],
       "answer": "Powstają mostki siarkowe łączące łańcuchy polimerów (Cross-linking)",
-      "explanation_correct": "Atomy siarki tworzą wiązania poprzeczne (mostki disiarczkowe) między długimi łańcuchami poliizoprenu, co ogranicza ich przesuwanie się i nadaje gumie elastyczność powrotną.",
+      "explanation_correct": "Siarka tworzy różnego rodzaju mostki siarkowe między łańcuchami kauczuku. Usieciowanie ogranicza ich przesuwanie i zmienia elastyczność oraz trwałość materiału.",
       "explanation_incorrect": "Depolimeryzacja zniszczyłaby gumę, uwodornienie nasyca wiązania bez siarki, a kwas siarkowy nie jest czynnikiem sieciującym.",
       "last_verified_at": "2026-06-12T15:30:43.436Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1084,13 +1084,13 @@
       ],
       "answer": "Tanganika (Tanganyika)",
       "explanation_correct": "Gombe leży w zachodniej Tanzanii, bezpośrednio nad brzegiem głębokiego jeziora Tanganika.",
-      "explanation_incorrect": "Jezioro Wiktorii, Niasa i Alberta leżą w innych częściach Wielkich Rowów Afrykańskich.",
+      "explanation_incorrect": "Gombe znajduje się nad Tanganiką; pozostałe jeziora leżą w innych częściach Afryki Wschodniej.",
       "last_verified_at": "2026-06-12T15:30:43.437Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Jak brzmi słynne zdanie Newtona z listu do Hooke'a: 'Jeśli widziałem dalej, to tylko stojąc na ramionach olbrzymów', które przez wielu historyków uznawane jest za złośliwy żart z niskiego wzrostu rywala?",
+      "question": "Jakiego obrazu użył Newton w liście do Hooke’a, pisząc o korzystaniu z dorobku poprzedników?",
       "options": [
         "Stojąc na ramionach olbrzymów (Shoulders of giants)",
         "Z pomocą wielkich umysłów",
@@ -1098,8 +1098,8 @@
         "Stojąc u szczytu góry"
       ],
       "answer": "Stojąc na ramionach olbrzymów (Shoulders of giants)",
-      "explanation_correct": "Zdanie 'If I have seen further it is by standing on the sholders of Giants' uchodzi za klasyczny wyraz skromności, ale ponieważ Hooke był mocno zgarbiony i niskiego wzrostu, list mógł mieć ironiczny podtekst.",
-      "explanation_incorrect": "Pozostałe opcje to błędne wersje tego słynnego cytatu.",
+      "explanation_correct": "Newton napisał o „staniu na ramionach olbrzymów”, używając znanej już wcześniej metafory. Domysł, że była osobistą drwiną z Hooke’a, jest niepewny.",
+      "explanation_incorrect": "W tym liście Newton użył metafory ramion olbrzymów; pozostałe opcje są parafrazami lub innymi obrazami.",
       "last_verified_at": "2026-06-12T15:30:43.437Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1113,14 +1113,14 @@
         "Metan radioaktywny"
       ],
       "answer": "Heksafluorek uranu (Uranium hexafluoride)",
-      "explanation_correct": "Heksafluorek uranu (UF6) używany do wzbogacania uranu metodą dyfuzji gazowej niszczył wszelkie uszczelki. Teflon okazał się jedynym materiałem całkowicie odpornym na jego korozyjne działanie.",
+      "explanation_correct": "Heksafluorek uranu był używany w procesie dyfuzji gazowej. PTFE stosowano w uszczelnieniach ze względu na odporność chemiczną; nie był jedynym materiałem przydatnym w instalacjach.",
       "explanation_incorrect": "Pozostałe gazy nie były kluczowym medium wymagającym wdrożenia tajnego wówczas teflonu w projekcie bombowym.",
       "last_verified_at": "2026-06-12T15:30:43.437Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Jaki stosunek cech dominujących do recesywnych (np. kwiaty czerwone do białych) zaobserwował Mendel w drugim pokoleniu (F2) swoich krzyżówek grochu?",
+      "question": "Jaki przybliżony stosunek fenotypów dominującego do recesywnego przewiduje prosta krzyżówka dwóch heterozygot dla jednej cechy?",
       "options": [
         "Trzy do jednego (3:1)",
         "Dziewięć do trzech do trzech do jednego (9:3:3:1)",
@@ -1128,8 +1128,8 @@
         "Dwa do jednego (2:1)"
       ],
       "answer": "Trzy do jednego (3:1)",
-      "explanation_correct": "Mendel wykazał, że cecha recesywna ujawnia się w pokoleniu F2 w stosunku 3:1 (trzy rośliny o cechach dominujących na jedną o cechach recesywnych).",
-      "explanation_incorrect": "Stosunek 9:3:3:1 dotyczy krzyżówek dwucechowych (dihybrydowych), a pozostałe stosunki nie są prawem Mendla dla pokolenia F2.",
+      "explanation_correct": "Przy pełnej dominacji i odpowiednich założeniach krzyżówka Aa × Aa daje oczekiwany stosunek fenotypów 3:1. W rzeczywistych próbach wyniki mogą odbiegać od proporcji oczekiwanej.",
+      "explanation_incorrect": "Stosunek 9:3:3:1 może wystąpić w krzyżówce dwucechowej przy niezależnej segregacji; pozostałe nie są wynikiem tej konkretnej krzyżówki.",
       "last_verified_at": "2026-06-12T15:30:43.437Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1144,13 +1144,13 @@
       ],
       "answer": "Został potrącony przez wóz konny na ulicy w Paryżu",
       "explanation_correct": "Piotr Curie szedł ulicą Rue Dauphine w strugach deszczu, poślizgnął się i wpadł bezpośrednio pod koła ciężkiego wozu konnego, co spowodowało natychmiastową śmierć z powodu zmiażdżenia czaszki.",
-      "explanation_incorrect": "Piotr miał objawy choroby popromiennej, ale jego śmierć była nagłym wypadkiem komunikacyjnym.",
+      "explanation_incorrect": "Pierre Curie zginął w wypadku drogowym w Paryżu; promieniowanie nie było bezpośrednią przyczyną jego śmierci.",
       "last_verified_at": "2026-06-12T15:30:43.438Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Który owad (wyjęty z przekaźnika komputera Harvard Mark II przez Grace Hopper) spopularyzował termin 'bug' (błąd) i 'debugging' (odbugowywanie)?",
+      "question": "Jaki owad został odnaleziony w przekaźniku komputera Harvard Mark II przez zespół pracujący z Grace Hopper?",
       "options": [
         "Ćma (Moth)",
         "Karaluch",
@@ -1158,7 +1158,7 @@
         "Chrabąszcz"
       ],
       "answer": "Ćma (Moth)",
-      "explanation_correct": "W 1947 roku zespół Grace Hopper znalazł ćmę zablokowaną w przekaźniku numer 70. Owad został wklejony do dziennika laboratoryjnego z notatką: 'Pierwszy rzeczywisty przypadek znalezienia błędu'.",
+      "explanation_correct": "W 1947 roku ćmę wklejono do dziennika maszyny Mark II. Terminu „bug” używano na oznaczenie usterek już wcześniej; anegdota go spopularyzowała.",
       "explanation_incorrect": "Pozostałe owady nie były sprawcami tej awarii komputera lampowego.",
       "last_verified_at": "2026-06-12T15:30:43.438Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1173,14 +1173,14 @@
         "Mechanika klasyczna"
       ],
       "answer": "Mechanika kwantowa",
-      "explanation_correct": "Spór dotyczył probabilistycznej natury mikroświata, którą Einstein odrzucał, wierząc w ścisły determinizm.",
+      "explanation_correct": "Einstein i Bohr dyskutowali o interpretacji mechaniki kwantowej, jej probabilistycznym charakterze i kompletności opisu rzeczywistości.",
       "explanation_incorrect": "Teoria względności była dziełem Einsteina, a termodynamika i mechanika klasyczna nie budziły tak fundamentalnych sporów między tymi uczonymi.",
       "last_verified_at": "2026-06-12T15:31:43.301Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Z którymi dwoma badaczami (którzy wyizolowali i masowo wyprodukowali lek) Alexander Fleming podzielił Nagrodę Nobla w 1945 roku?",
+      "question": "Z którymi badaczami Alexander Fleming podzielił Nobla z 1945 roku za penicylinę?",
       "options": [
         "Howard Florey oraz Ernst Chain",
         "Louis Pasteur oraz Robert Koch",
@@ -1188,7 +1188,7 @@
         "Gerhard Domagk oraz Selman Waksman"
       ],
       "answer": "Howard Florey oraz Ernst Chain",
-      "explanation_correct": "Florey i Chain z uniwersytetu w Oksfordzie wyczyścili niestabilną penicylinę Fleminga i opracowali metody jej masowej produkcji przemysłowej, co uratowało tysiące rannych żołnierzy.",
+      "explanation_correct": "Howard Florey i Ernst Chain wraz ze współpracownikami rozwinęli oczyszczanie i zastosowanie penicyliny. Produkcję na wielką skalę rozwijały także zespoły przemysłowe.",
       "explanation_incorrect": "Pasteur i Koch to dawni mikrobiolodzy, Jenner stworzył szczepionkę na ospę, Salk na polio, a Domagk i Waksman odkryli inne leki przeciwbakteryjne.",
       "last_verified_at": "2026-06-12T15:30:43.438Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1204,7 +1204,7 @@
       ],
       "answer": "Aktor (podstawiony współpracownik eksperymentatora)",
       "explanation_correct": "Wstrząsy były udawane, a 'uczeń' krzyczący za ścianą był aktorem. Badany (nauczyciel) był przekonany, że zadaje prawdziwy ból koledze.",
-      "explanation_incorrect": "Uczestnicy badania byli wyłącznie w roli katów (nauczycieli) i nie otrzymywali wstrząsów, podobnie jak Milgram czy zwierzęta.",
+      "explanation_incorrect": "Badany nauczyciel wierzył, że podaje wstrząsy współpracownikowi eksperymentatora. W niektórych wersjach uczestnik otrzymywał niewielki próbny wstrząs.",
       "last_verified_at": "2026-06-12T15:30:43.438Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1218,23 +1218,23 @@
         "Vera Rubin"
       ],
       "answer": "Henrietta Swan Leavitt",
-      "explanation_correct": "Leavitt sklasyfikowała cefeidy w Obłokach Magellana w 1912 roku, tworząc pierwszą 'świecę standardową' do wyznaczania odległości poza Drogą Mleczną.",
+      "explanation_correct": "Leavitt odkryła zależność okres–jasność cefeid w Obłokach Magellana. Po kalibracji zależność ta umożliwiła wyznaczanie odległości astronomicznych, w tym odległości do innych galaktyk.",
       "explanation_incorrect": "Cannon opracowała harwardzki system klasyfikacji widmowej gwiazd, Payne wykazała, że gwiazdy składają się głównie z wodoru, a Rubin zbadała rotację galaktyk.",
       "last_verified_at": "2026-06-12T15:30:43.438Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Co według przekazów historycznych stało się z jedynym oficjalnym portretem Roberta Hooke'a, gdy Isaac Newton objął prezesurę w Royal Society?",
+      "question": "W którym towarzystwie naukowym Robert Hooke pełnił od 1662 roku funkcję kuratora eksperymentów?",
       "options": [
-        "Zaginął bez śladu lub został celowo zniszczony przez Newtona",
-        "Został przekazany rodzinie Hooke'a",
-        "Spłonął w Wielkim Pożarze Londynu",
-        "Zdeponowano go w archiwum w Oxfordzie"
+        "Royal Society w Londynie",
+        "NASA",
+        "Towarzystwo Linneuszowe",
+        "CERN"
       ],
-      "answer": "Zaginął bez śladu lub został celowo zniszczony przez Newtona",
-      "explanation_correct": "Po śmierci Hooke'a i przeprowadzce Royal Society pod wodzą Newtona, portret Hooke'a zniknął. Wielu historyków uważa, że Newton kazał go spalić lub wyrzucić, by wymazać pamięć o swoim rywalu.",
-      "explanation_incorrect": "Wielki Pożar Londynu wydarzył się w 1666 roku, przed śmiercią Hooke'a. Pozostałe opcje to domysły niepoparte faktami.",
+      "answer": "Royal Society w Londynie",
+      "explanation_correct": "Hooke był kuratorem eksperymentów Royal Society. Nie zachował się potwierdzony portret Hooke’a, a opowieść o zniszczeniu go przez Newtona nie jest udowodniona.",
+      "explanation_incorrect": "NASA i CERN powstały w XX wieku, a Towarzystwo Linneuszowe po śmierci Hooke’a.",
       "last_verified_at": "2026-06-12T15:30:43.439Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1248,8 +1248,8 @@
         "Cyklaminian"
       ],
       "answer": "Aspartam",
-      "explanation_correct": "Schlatter pracował nad lekiem na wrzody w 1965 roku. Po zsyntetyzowaniu peptydowego związku pośredniego (aspartylofenyloalaniny) poczuł słodki smak po polizaniu palca przy podnoszeniu papieru wagi.",
-      "explanation_incorrect": "Sacharynę odkrył Fahlberg w 1879, sukralozę Shashikant Phadnis w 1976 (pomylił słowa 'test' i 'taste'), a cyklaminian Sveda w 1937 roku.",
+      "explanation_correct": "James Schlatter odkrył słodki smak aspartamu w 1965 roku podczas prac nad związkiem pośrednim do badań farmaceutycznych.",
+      "explanation_incorrect": "Sacharyna, sukraloza i cyklaminiany to inne substancje słodzące o odrębnych historiach odkrycia.",
       "last_verified_at": "2026-06-12T15:30:43.439Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1285,7 +1285,7 @@
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Który słynny dinozaur (reprezentujący błąd Marsh'a polegający na nałożeniu czaszki innego gatunku na szkielet) stał się symbolem pośpiechu Wojny o kości?",
+      "question": "Jakiego zauropoda Marsh nazwał w 1879 roku, a którego nazwę później długo traktowano jako synonim apatozaura?",
       "options": [
         "Brontozaur (Apatosaurus/Brontosaurus)",
         "Triceratops",
@@ -1293,8 +1293,8 @@
         "Tyranozaur"
       ],
       "answer": "Brontozaur (Apatosaurus/Brontosaurus)",
-      "explanation_correct": "Marsh opisał Brontozaura, łącząc szkielet Apatosaura z czaszką Camarasaurusa. Błąd ten sprostowano dopiero po latach, a nazwa Brontosaurus na długo zniknęła z nauki na rzecz Apatosaurusa.",
-      "explanation_incorrect": "Triceratops i Stegozaur zostały opisane poprawnie, a Tyranozaura odkrył później Barnum Brown.",
+      "explanation_correct": "Marsh opisał Brontosaurusa w 1879 roku. Przez długi czas nazwę uznawano za synonim Apatosaurusa; jej odrębność została później ponownie zaproponowana i jest dyskutowana.",
+      "explanation_incorrect": "Marsh nazwał również Stegosaurusa i Triceratopsa; pytanie dotyczy opisanego w 1879 roku zauropoda. Tyranozaura nazwano później.",
       "last_verified_at": "2026-06-12T15:30:43.439Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1308,7 +1308,7 @@
         "Szkło borokrzemowe"
       ],
       "answer": "Szkło bezpieczne (laminowane)",
-      "explanation_correct": "Benedictus zauważył, że kolba pękła, ale zachowała swój kształt, bo warstewka tworzywa utrzymała odłamki szkła. Opatentował tę strukturę jako 'Triplex' – pierwszą bezpieczną szybę warstwową.",
+      "explanation_correct": "Bénédictus zauważył, że warstwa pozostała w kolbie utrzymała odłamki szkła. To doświadczenie zainspirowało go do opracowania szkła warstwowego Triplex.",
       "explanation_incorrect": "Szkło hartowane utwardza się termicznie, kwarcowe to stopiona krzemionka, a borokrzemowe zawiera tlenek boru (np. naczynia Pyrex).",
       "last_verified_at": "2026-06-12T15:30:43.440Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1319,12 +1319,12 @@
       "options": [
         "Mikser/Blender (Waring blender)",
         "Sokowirówka",
-        "Kuchenka mikrofalowa (nie istniała)",
+        "Kuchenka mikrofalowa",
         "Toster"
       ],
       "answer": "Mikser/Blender (Waring blender)",
       "explanation_correct": "Użyli oni blendera kuchennego firmy Waring. Szybkie obroty ostrzy wywołały siły ścinające, które oderwały zewnętrzne osłonki bakteriofagów od komórek bakterii E. coli bez rozrywania samych bakterii.",
-      "explanation_incorrect": "Sokowirówka nie dałaby odpowiednich sił ścinających, a pozostałe urządzenia nie były stosowane w tym eksperymencie.",
+      "explanation_incorrect": "Blender wykorzystano do oddzielenia osłonek fagów od bakterii; pozostałych urządzeń nie użyto w opisanym etapie doświadczenia.",
       "last_verified_at": "2026-06-12T15:32:23.182Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1339,7 +1339,7 @@
       ],
       "answer": "Henri Becquerel",
       "explanation_correct": "Henri Becquerel otrzymał połowę nagrody za odkrycie spontanicznej promieniotwórczości, a małżeństwo Curie otrzymało drugą połowę za badania nad tym zjawiskiem.",
-      "explanation_incorrect": "Poincare był teoretykiem, Langevin kochankiem Marii po śmierci Piotra, a Perrin otrzymał Nobla z fizyki znacznie później (1926).",
+      "explanation_incorrect": "Poincaré, Langevin i Perrin byli innymi francuskimi uczonymi; nagrodę z 1903 roku Curie dzielili z Becquerelem.",
       "last_verified_at": "2026-06-12T15:32:23.182Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1369,13 +1369,13 @@
       ],
       "answer": "Siarka",
       "explanation_correct": "Siarka tworzy stabilne wiązania (mostki siarkowe) między łańcuchami polimerowymi kauczuku, co nadaje gumie elastyczność i wytrzymałość.",
-      "explanation_incorrect": "Węgiel, krzem i fosfor nie posiadają zdolności do sieciowania kauczuku naturalnego w procesie wulkanizacji.",
+      "explanation_incorrect": "W procesie Goodyeara stosowano siarkę do tworzenia wiązań między łańcuchami; istnieją też inne metody sieciowania elastomerów.",
       "last_verified_at": "2026-06-12T15:35:44.541Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przełomowe eksperymenty",
-      "question": "Które z praw sformułowanych przez Mendla głosi, że w gametach znajduje się tylko jeden allel z danej pary genów?",
+      "question": "Która zasada opisuje rozdzielanie się dwóch alleli danego genu podczas powstawania gamet?",
       "options": [
         "Prawo czystości gamet (I prawo Mendla)",
         "Prawo niezależnego dziedziczenia cech (II prawo Mendla)",
@@ -1383,23 +1383,23 @@
         "Prawo sprzężenia genów"
       ],
       "answer": "Prawo czystości gamet (I prawo Mendla)",
-      "explanation_correct": "I prawo Mendla (prawo czystości gamet / segregacji) głosi, że każdy organizm posiada dwa czynniki dziedziczne dla danej cechy, które rozdzielają się podczas powstawania komórek rozrodczych.",
-      "explanation_incorrect": "II prawo Mendla dotyczy dziedziczenia dwóch różnych cech, prawo dominacji opisuje ujawnianie cechy dominującej, a sprzężenie genów opisał Thomas Hunt Morgan.",
+      "explanation_correct": "Prawo segregacji mówi, że dwie kopie genu u diploidalnego osobnika rozdzielają się podczas tworzenia gamet, które zwykle otrzymują po jednej kopii.",
+      "explanation_incorrect": "Niezależna segregacja dotyczy odpowiednio niesprzężonych genów; geny położone blisko siebie na chromosomie mogą być sprzężone.",
       "last_verified_at": "2026-06-12T15:32:23.182Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historie Nagród Nobla",
-      "question": "Jak nazywa się podstawowa, niepodzielna porcja energii elektromagnetycznej, którą Max Planck wprowadził do fizyki teoretycznej?",
+      "question": "Jak nazywa się cząstka będąca kwantem promieniowania elektromagnetycznego?",
       "options": [
-        "Kwant",
         "Foton",
         "Elektronowolt",
-        "Gluon"
+        "Gluon",
+        "Neutron"
       ],
-      "answer": "Kwant",
-      "explanation_correct": "Planck założył, że energia nie jest emitowana w sposób ciągły, lecz w małych porcjach zwanych kwantami, co zapoczątkowało mechanikę kwantową.",
-      "explanation_incorrect": "Foton to konkretny kwant światła (pojęcie Einsteina), elektronowolt to jednostka, a gluon to cząstka przenosząca oddziaływania silne.",
+      "answer": "Foton",
+      "explanation_correct": "Foton jest kwantem promieniowania elektromagnetycznego. Jego energia wynosi E = hν, gdzie h to stała Plancka, a ν częstotliwość.",
+      "explanation_incorrect": "Elektronowolt jest jednostką energii, gluon cząstką oddziaływania silnego, a neutron składnikiem jąder atomowych.",
       "last_verified_at": "2026-06-12T15:35:44.541Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1414,7 +1414,7 @@
       ],
       "answer": "Harvard Mark II",
       "explanation_correct": "Zdarzenie miało miejsce we wrześniu 1947 roku; ćma została znaleziona w przekaźniku nr 70 i wklejona do dziennika operacyjnego zespołu.",
-      "explanation_incorrect": "ENIAC i Colossus były w pełni elektronicznymi maszynami bez tak dużej liczby przekaźników mechanicznych.",
+      "explanation_incorrect": "ENIAC, UNIVAC I i Colossus były innymi wczesnymi komputerami; odnaleziona ćma znajdowała się w przekaźniku Mark II. Słowo „bug” stosowano wcześniej.",
       "last_verified_at": "2026-06-12T15:35:44.541Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1428,7 +1428,7 @@
         "Prąd indukcyjny"
       ],
       "answer": "Prąd przemienny (Alternating current - AC)",
-      "explanation_correct": "Edison chciał zdyskredytować prąd przemienny (AC) Tesli i Westinghouse'a, twierdząc, że wysokie napięcia zabiją użytkowników domowych, i promując prąd stały (DC).",
+      "explanation_correct": "W rywalizacji systemów Edison promował prąd stały i krytykował przesył prądu przemiennego. Niebezpieczeństwo porażenia zależy od napięcia, prądu, czasu i warunków kontaktu; oba typy mogą być niebezpieczne.",
       "explanation_incorrect": "Prąd stały (DC) był technologią Edisona, którą prezentował jako bezpieczną, a pozostałe to pojęcia poboczne.",
       "last_verified_at": "2026-06-12T15:32:23.183Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1443,7 +1443,7 @@
         "Aktywacja kleju wodą"
       ],
       "answer": "Formowanie mikrosfer ułatwiających wielokrotne odklejanie (Microspheres)",
-      "explanation_correct": "Klej składał się z mikroskopijnych kulek akrylowych, które stykały się z papierem tylko na małej powierzchni, zapewniając wystarczającą przyczepność do zawieszenia, ale ułatwiając bezśladowe usunięcie.",
+      "explanation_correct": "Klej Silvera zawierał akrylowe mikrosfery zapewniające ograniczoną powierzchnię kontaktu i możliwość wielokrotnego odklejania. Efekt zależy od podłoża; nie zawsze gwarantuje brak śladów.",
       "explanation_incorrect": "Klej nie paruje, nie reaguje destrukcyjnie z tlenem ani nie wymaga zwilżania wodą (jak znaczki pocztowe).",
       "last_verified_at": "2026-06-12T15:32:23.183Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1480,7 +1480,7 @@
     },
     {
       "subcategory": "Kobiety w nauce",
-      "question": "Który nawyk żywieniowy szympansów (zaobserwowany przez Jane Goodall) obalił tezę, że szympansy są wyłącznie wegetarianami?",
+      "question": "Jakie zachowanie szympansów zaobserwowała Jane Goodall, badając zdobywanie przez nie mięsa małp?",
       "options": [
         "Polowanie i jedzenie mięsa innych ssaków (np. małp colobus)",
         "Zjadanie owadów (termitów)",
@@ -1488,23 +1488,23 @@
         "Zgryzanie kory drzewnej"
       ],
       "answer": "Polowanie i jedzenie mięsa innych ssaków (np. małp colobus)",
-      "explanation_correct": "Goodall zaobserwowała szympansy polujące w grupach i zjadające mięso mniejszych małp (np. gerezy rudawej / colobus), co dowiodło, że są one wszystkożercami.",
-      "explanation_incorrect": "Zjadanie owadów i jaj również było znane, ale to aktywne polowanie na ssaki zszokowało społeczność zoologów.",
+      "explanation_correct": "Goodall obserwowała szympansy polujące na mniejsze ssaki i jedzące ich mięso. Jedzą również pokarm zwierzęcy taki jak owady lub jaja, zależnie od dostępności.",
+      "explanation_incorrect": "Owady i jaja także są pokarmem pochodzenia zwierzęcego, ale pytanie dotyczy zdobywania mięsa ssaków.",
       "last_verified_at": "2026-06-12T15:32:23.183Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Słynne spory naukowe",
-      "question": "Co robili Cope i Marsh pod koniec swoich wypraw badawczych, aby uniemożliwić rywalowi zebranie pozostałych w ziemi skamieniałości?",
+      "question": "Którzy paleontolodzy rywalizowali w XIX-wiecznej „wojnie o kości” w Stanach Zjednoczonych?",
       "options": [
-        "Wysadzali stanowiska wykopaliska za pomocą dynamitu",
-        "Zasypywali kości solą",
-        "Zalewali stanowiska betonem",
-        "Palili drewniane szalunki"
+        "Edward Cope i Othniel Marsh",
+        "Charles Darwin i Alfred Wallace",
+        "James Watson i Francis Crick",
+        "Isaac Newton i Robert Hooke"
       ],
-      "answer": "Wysadzali stanowiska wykopaliska za pomocą dynamitu",
-      "explanation_correct": "Gdy ekipy paleontologów opuszczały teren wykopaliska na zimę, często wysadzały lub zasypywały pozostałości dynamitem, aby konkurent nie mógł zebrać cennych skamielin w ich nieobecność.",
-      "explanation_incorrect": "Sól, beton i ogień nie były używane w tym celu; głównym narzędziem destrukcji był dynamit.",
+      "answer": "Edward Cope i Othniel Marsh",
+      "explanation_correct": "Cope i Marsh prowadzili intensywną rywalizację o odkrycia i opis kopalnych kręgowców. Opowieści o regularnym wysadzaniu przez nich stanowisk wymagają ostrożności źródłowej.",
+      "explanation_incorrect": "Pozostałe pary są znane z innych badań lub sporów; wojna o kości dotyczyła Cope’a i Marsha.",
       "last_verified_at": "2026-06-12T15:32:23.184Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }

@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **180** pozycji ma raport deklarujący przegląd całości paczki.
+- **185** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **45** pozycji nie ma dedykowanego raportu merytorycznego.
+- **40** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -137,8 +137,8 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 114 | `medycyna_ludzkie_cialo_pl` | Medycyna i Ludzkie Ciało | [2026-11-08-medycyna-ludzkie-cialo-pl.md](2026-11-08-medycyna-ludzkie-cialo-pl.md)<br>[2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | PEŁNY ODCZYT deklarowany. Przeczytano 105 pytań, warianty, klucze, oba wyjaśnienia i opis. W pierwszym przeglądzie poprawiono 80 rekordów: 2, 6, 8–25, 27–32, 34–37, 39–46, 48–49, 51, 53, 55–60, 62–63, 65–76, 78–80,… |
 | 115 | `melee_weapons_armor_en` | Melee Weapons & Armor | [2026-11-08-melee-weapons-armor-en.md](2026-11-08-melee-weapons-armor-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis; po przerwaniu pracy subagenta zapisane korekty uzupełniono, a wybrane twierdzenia potwierdzono w źródłach muzealnych. |
 | 116 | `might_and_magic_en` | Might and Magic | [2026-11-08-might-and-magic-en.md](2026-11-08-might-and-magic-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 70 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
-| 117 | `militaria_bro_i_pojazdy_wojskowe_pl` | Militaria, broń i pojazdy wojskowe | — | BRAK dedykowanego raportu merytorycznego. |
-| 118 | `militaria_weapons_military_vehicles_en` | Militaria, Weapons & Military Vehicles | — | BRAK dedykowanego raportu merytorycznego. |
+| 117 | `militaria_bro_i_pojazdy_wojskowe_pl` | Militaria, broń i pojazdy wojskowe | [2026-11-08-militaria-bron-i-pojazdy-pl.md](2026-11-08-militaria-bron-i-pojazdy-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 46 rekordów; wybrane fakty sprawdzono źródłowo. |
+| 118 | `militaria_weapons_military_vehicles_en` | Militaria, Weapons & Military Vehicles | [2026-11-08-militaria-weapons-military-vehicles-en.md](2026-11-08-militaria-weapons-military-vehicles-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 73 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 119 | `military_tech_crossovers_en` | Military Tech Crossovers | [2026-11-07-military-tech-crossovers-en.md](2026-11-07-military-tech-crossovers-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz komplet 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 81 pozycji: 1–5, 7, 9, 11–13, 15–21, 23, 25–29, 31–32, 34–47, 49, 51–55, 57, 59–61, 63–68, 70–75, 78–81, 83, 85–93… |
 | 120 | `mistrzowie_animacji_pl` | Mistrzowie Animacji | [2026-11-08-mistrzowie-animacji-pl.md](2026-11-08-mistrzowie-animacji-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 60 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 121 | `mitologia_egipska_pl` | Mitologia egipska | [2026-11-07-mitologia-egipska-pl.md](2026-11-07-mitologia-egipska-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 128 pytań, wszystkie opcje, odpowiedzi i oba wyjaśnienia oraz opis paczki. Liczba pytań i opis pozostały bez zmian. Zmieniono 71 pozycji: 2, 3, 8–10, 14, 19, 21–23, 25–26, 30,… |
@@ -163,12 +163,12 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 140 | `ogrody_i_architektura_krajobrazu_pl` | Ogrody i Architektura Krajobrazu | [2026-11-06-ogrody-i-architektura-krajobrazu-pl.md](2026-11-06-ogrody-i-architektura-krajobrazu-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień paczki `ogrody_i_architektura_krajobrazu_pl` oraz opis. Zmieniono 65 rekordów: 2–4, 6, 8–10, 12–15, 17–18, 20–26, 28, 30–31, 33–34, 38–44,… |
 | 141 | `orchestral_gaming_soundtracks_en` | Orchestral Gaming Soundtracks | [2026-11-06-orchestral-gaming-soundtracks-en.md](2026-11-06-orchestral-gaming-soundtracks-en.md) | PEŁNY ODCZYT deklarowany. Sprawdzono treść 100 pytań; zmieniono 56 pozycji: 2–7, 12, 15, 19–20, 22–24, 27–28, 31–33, 35–38, 41, 43, 45–48, 51–54, 56–57, 59–60, 62, 66–67, 69–71, 74, 76, 78, 81–82, 86–87, 89, 91,… |
 | 142 | `otaku_culture_en` | Otaku Culture | [2026-11-08-otaku-culture-en.md](2026-11-08-otaku-culture-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 49 rekordów; wybrane fakty sprawdzono źródłowo. |
-| 143 | `paradoksy_i_teorie_naukowe_pl` | Paradoksy i Teorie Naukowe | — | BRAK dedykowanego raportu merytorycznego. |
+| 143 | `paradoksy_i_teorie_naukowe_pl` | Paradoksy i Teorie Naukowe | [2026-11-08-paradoksy-i-teorie-naukowe-pl.md](2026-11-08-paradoksy-i-teorie-naukowe-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 79 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 144 | `parki_narodowe_wiata_pl` | Parki Narodowe Świata | [2026-11-06-parki-narodowe-swiata-pl.md](2026-11-06-parki-narodowe-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `parki_narodowe_wiata_pl`. Zmieniono 68 rekordów: 3–7, 9, 11–14, 16, 18–20, 22–24, 27, 29–31, 32–35, 37–38, 40–41, 43–44,… |
 | 145 | `physics_and_cosmology_en` | Physics and Cosmology | [physics-and-cosmology-en-2026-11-05.md](physics-and-cosmology-en-2026-11-05.md) | PEŁNY ODCZYT deklarowany. Zakres: wszystkie 100 pytań i objaśnień w `databases/categories/physics_and_cosmology_en.json`, ocena spójności odpowiedzi i ogólnej poprawności merytorycznej. Opis paczki odpowiada jej… |
 | 146 | `physics_engines_in_gaming_en` | Physics Engines in Gaming | [2026-11-08-physics-engines-in-gaming-en.md](2026-11-08-physics-engines-in-gaming-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 67 rekordów; wybrane fakty sprawdzono źródłowo. |
-| 147 | `pioneers_and_milestones_of_science_en` | Pioneers and Milestones of Science | — | BRAK dedykowanego raportu merytorycznego. |
-| 148 | `pionierzy_i_kroki_milowe_nauki_pl` | Pionierzy i Kroki Milowe Nauki | — | BRAK dedykowanego raportu merytorycznego. |
+| 147 | `pioneers_and_milestones_of_science_en` | Pioneers and Milestones of Science | [2026-11-08-pioneers-and-milestones-of-science-en.md](2026-11-08-pioneers-and-milestones-of-science-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 79 rekordów; wybrane fakty sprawdzono źródłowo. |
+| 148 | `pionierzy_i_kroki_milowe_nauki_pl` | Pionierzy i Kroki Milowe Nauki | [2026-11-08-pionierzy-i-kroki-milowe-nauki-pl.md](2026-11-08-pionierzy-i-kroki-milowe-nauki-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 83 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 149 | `pionierzy_lotnictwa_pl` | Pionierzy Lotnictwa | [2026-11-07-pionierzy-lotnictwa-pl.md](2026-11-07-pionierzy-lotnictwa-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i komplet 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 65 pozycji: 2–6, 8–11, 13, 15–16, 18, 20, 22, 24–27, 29–30, 32–34, 36, 38–40, 44–45, 48–49, 51, 53–56, 59, 61–63,… |
 | 150 | `pitkowy_miks_pl` | Piątkowy Miks | — | BRAK dedykowanego raportu merytorycznego. |
 | 151 | `podre_i_turystyka_pl` | Podróże i Turystyka | — | BRAK dedykowanego raportu merytorycznego. |

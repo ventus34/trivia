@@ -10,16 +10,16 @@
   "questions": [
     {
       "subcategory": "Broń biała",
-      "question": "Jak nazywa się tradycyjny japoński miecz długi o zakrzywionej głowni?",
+      "question": "Jak nazywa się tradycyjny japoński miecz o zakrzywionej głowni, noszony przez samurajów jako dłuższy miecz pary daishō?",
       "options": [
         "Katana",
         "Wakizashi",
-        "Tanto",
-        "Nodachi"
+        "Tantō",
+        "Yari"
       ],
       "answer": "Katana",
-      "explanation_correct": "Katana to japoński miecz o długości głowni powyżej 60 cm, noszony tradycyjnie przez samurajów.",
-      "explanation_incorrect": "Wakizashi i Tanto to broń krótsza, natomiast Nodachi to miecz dwuręczny o znacznie większych rozmiarach.",
+      "explanation_correct": "Katana była dłuższym mieczem w zestawie daishō, noszonym z krótszym wakizashi.",
+      "explanation_incorrect": "Wakizashi to krótszy miecz, tantō to sztylet, a yari to włócznia.",
       "last_verified_at": "2026-06-12T15:23:39.834Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -85,7 +85,7 @@
     },
     {
       "subcategory": "Broń strzelecka",
-      "question": "Kto był głównym konstruktorem radzieckiego karabinka automatycznego przyjętego do uzbrojenia w 1947 roku?",
+      "question": "Któremu radzieckiemu konstruktorowi przypisuje się karabinek AK, wybrany pod koniec lat 40. XX wieku?",
       "options": [
         "Siergiej Simonow",
         "Michaił Kałasznikow",
@@ -93,7 +93,7 @@
         "Wasilij Diegtiariow"
       ],
       "answer": "Michaił Kałasznikow",
-      "explanation_correct": "Michaił Kałasznikow stworzył AK-47, który stał się najbardziej rozpowszechnioną bronią palną na świecie.",
+      "explanation_correct": "Michaił Kałasznikow kierował pracami nad karabinkiem AK, znanym również jako AK-47; opracowanie było pracą zespołową.",
       "explanation_incorrect": "Simonow, Dragunow i Diegtiariow to również znani projektanci, ale odpowiadają za inne typy broni (SKS, SWD, DP).",
       "last_verified_at": "2026-06-12T15:22:40.194Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -130,7 +130,7 @@
     },
     {
       "subcategory": "Pojazdy gąsienicowe",
-      "question": "Który brytyjski czołg ciężki z okresu II wojny światowej charakteryzował się bardzo grubym opancerzeniem i zdolnością pokonywania trudnego terenu?",
+      "question": "Który brytyjski czołg piechoty z okresu II wojny światowej nosił nazwę premiera Winstona Churchilla?",
       "options": [
         "Cromwell",
         "Matilda II",
@@ -138,8 +138,8 @@
         "Churchill"
       ],
       "answer": "Churchill",
-      "explanation_correct": "Churchill był kluczowym brytyjskim czołgiem wsparcia piechoty, znanym z dużej odporności na ogień przeciwnika.",
-      "explanation_incorrect": "Cromwell był czołgiem szybkim, a Matilda i Valentine to wcześniejsze konstrukcje wsparcia piechoty.",
+      "explanation_correct": "Churchill był brytyjskim czołgiem piechoty, znanym z grubego pancerza i dobrych zdolności terenowych.",
+      "explanation_incorrect": "Cromwell był czołgiem pościgowym, a Matilda II i Valentine były innymi brytyjskimi czołgami piechoty.",
       "last_verified_at": "2026-06-12T15:22:40.194Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -160,31 +160,31 @@
     },
     {
       "subcategory": "Amunicja",
-      "question": "Jak ogólnie nazywa się pocisk posiadający własny napęd oraz system naprowadzania umożliwiający korektę toru lotu?",
+      "question": "Jak nazywa się pocisk rakietowy posiadający system naprowadzania?",
       "options": [
-        "Pocisk balistyczny",
-        "Granat nasadkowy",
         "Rakieta kierowana",
-        "Pocisk niekierowany"
+        "Pocisk niekierowany",
+        "Granat ręczny",
+        "Pocisk moździerzowy"
       ],
       "answer": "Rakieta kierowana",
-      "explanation_correct": "Rakiety kierowane mogą namierzać cele za pomocą radaru, lasera lub podczerwieni.",
-      "explanation_incorrect": "Pociski balistyczne poruszają się po trajektorii po wyłączeniu napędu, a granaty nie posiadają systemów naprowadzania.",
+      "explanation_correct": "Rakieta kierowana posiada układ naprowadzania; niektóre pociski balistyczne również mają systemy korygowania lotu.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają ogólnie rakiety wyposażonej w układ naprowadzania.",
       "last_verified_at": "2026-06-12T15:23:39.834Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Ochrona balistyczna",
-      "question": "Z jakiego wysokowytrzymałego włókna sztucznego wykonuje się wkłady do współczesnych hełmów i kamizelek kuloodpornych?",
+      "question": "Które włókno aramidowe jest używane m.in. w osłonach balistycznych?",
       "options": [
         "Kevlar",
-        "Nylon",
-        "Dyneema",
-        "Grafen"
+        "Bawełna",
+        "Jedwab",
+        "Len"
       ],
       "answer": "Kevlar",
-      "explanation_correct": "Kevlar to poliamid o bardzo wysokiej wytrzymałości na rozciąganie, opatentowany przez firmę DuPont.",
-      "explanation_incorrect": "Nylon jest zbyt elastyczny, a grafen nie jest jeszcze powszechnie stosowany w masowej produkcji osłon.",
+      "explanation_correct": "Kevlar jest nazwą handlową włókna aramidowego stosowanego m.in. w hełmach i kamizelkach. W osłonach używa się również innych materiałów, w tym Dyneemy.",
+      "explanation_incorrect": "Bawełna, jedwab i len są włóknami naturalnymi, a nie nazwą wskazanego aramidu.",
       "last_verified_at": "2026-06-12T15:22:40.195Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -220,7 +220,7 @@
     },
     {
       "subcategory": "Lotnictwo bezzałogowe",
-      "question": "Która bezzałogowa maszyna stała się jedną z najbardziej rozpoznawalnych nazw amerykańskich dronów rozpoznawczo-uderzeniowych?",
+      "question": "Jak nazywał się amerykański bezzałogowiec MQ-1 wykorzystywany do rozpoznania i zadań uderzeniowych?",
       "options": [
         "Global Hawk",
         "Reaper",
@@ -229,7 +229,7 @@
       ],
       "answer": "Predator",
       "explanation_correct": "MQ-1 Predator był szeroko wykorzystywany w misjach bojowych i wywiadowczych na początku XXI wieku.",
-      "explanation_incorrect": "Reaper to nowszy następca Predatora, Global Hawk służy tylko do zwiadu, a Bayraktar jest dronem tureckim.",
+      "explanation_incorrect": "MQ-9 Reaper jest późniejszą konstrukcją, Global Hawk służy głównie do rozpoznania, a Bayraktar to turecka rodzina bezzałogowców.",
       "last_verified_at": "2026-06-12T15:22:40.195Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -250,7 +250,7 @@
     },
     {
       "subcategory": "Okręty podwodne",
-      "question": "Jaki silnik o spalaniu zewnętrznym jest najczęściej wykorzystywany w systemach napędu niezależnego od powietrza (AIP) na okrętach podwodnych?",
+      "question": "Który silnik o spalaniu zewnętrznym stosowano w niektórych systemach napędu niezależnego od powietrza na okrętach podwodnych?",
       "options": [
         "Silnik Diesla",
         "Turbina gazowa",
@@ -259,7 +259,7 @@
       ],
       "answer": "Silnik Stirlinga",
       "explanation_correct": "Silnik Stirlinga pozwala na cichą pracę i wytwarzanie energii bez dostępu tlenu atmosferycznego.",
-      "explanation_incorrect": "Silniki Diesla wymagają dopływu powietrza, a turbiny gazowe są zbyt głośne dla skrytych działań podwodnych.",
+      "explanation_incorrect": "Diesel, turbina gazowa i silnik Wankla mają inną zasadę działania; w systemach AIP stosuje się także inne technologie.",
       "last_verified_at": "2026-06-12T15:22:40.195Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -295,7 +295,7 @@
     },
     {
       "subcategory": "Sztuka wojenna",
-      "question": "Komu przypisuje się autorstwo najstarszego i najbardziej znanego traktatu o strategii militarnej pt. 'Sztuka wojny'?",
+      "question": "Któremu starożytnemu chińskiemu autorowi tradycja przypisuje traktat strategiczny „Sztuka wojny”?",
       "options": [
         "Sun Tzu",
         "Clausewitz",
@@ -303,7 +303,7 @@
         "Atila"
       ],
       "answer": "Sun Tzu",
-      "explanation_correct": "Sun Tzu był starożytnym chińskim generałem, którego nauki do dziś są studiowane w akademiach wojskowych.",
+      "explanation_correct": "„Sztukę wojny” tradycyjnie przypisuje się Sun Zi (Sun Tzu); szczegóły autorstwa i datowania są przedmiotem badań.",
       "explanation_incorrect": "Clausewitz pisał w XIX wieku, a Machiavelli w renesansie – ich dzieła powstały znacznie później niż tekst chiński.",
       "last_verified_at": "2026-06-12T15:22:40.196Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -318,7 +318,7 @@
         "Gribeauval"
       ],
       "answer": "Canon de 75",
-      "explanation_correct": "Wprowadzona w 1897 roku, była pierwszą nowoczesną armatą z oporopowrotnikiem olejowo-powietrznym.",
+      "explanation_correct": "Francuska armata 75 mm wz. 1897 zasłynęła szybkostrzelnością dzięki skutecznemu oporopowrotnikowi hydropneumatycznemu.",
       "explanation_incorrect": "Pozostałe opcje to inne francuskie modele artylerii lub dawne systemy konstrukcyjne bez nowoczesnych mechanizmów powrotnych.",
       "last_verified_at": "2026-06-12T15:22:40.196Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -370,7 +370,7 @@
     },
     {
       "subcategory": "Fortyfikacje",
-      "question": "Jak nazywa się system bunkrów i zapór zbudowany przez Niemców w celu ochrony wschodniej granicy Rzeszy?",
+      "question": "Jak nazywa się niemiecki system fortyfikacji z lat 30. XX wieku w okolicach Międzyrzecza?",
       "options": [
         "Wał Pomorski",
         "Linia Mołotowa",
@@ -379,13 +379,13 @@
       ],
       "answer": "Międzyrzecki Rejon Umocniony",
       "explanation_correct": "MRU posiada jeden z największych systemów podziemnych korytarzy w Europie.",
-      "explanation_incorrect": "Linia Mołotowa to pas umocnień radzieckich z początku lat 40. XX wieku.",
+      "explanation_incorrect": "Wał Pomorski i linia Mołotowa są innymi systemami umocnień, a Festung Breslau oznaczał obszar obronny Wrocławia.",
       "last_verified_at": "2026-06-12T15:22:40.197Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Broń biologiczna",
-      "question": "Bakteria wywołująca którą chorobę od dekad jest rozważana jako jeden z najgroźniejszych czynników w broni biologicznej?",
+      "question": "Jaką chorobę wywołuje bakteria Bacillus anthracis, historycznie rozważana jako czynnik broni biologicznej?",
       "options": [
         "Dżuma",
         "Cholera",
@@ -393,8 +393,8 @@
         "Tężec"
       ],
       "answer": "Wąglik",
-      "explanation_correct": "Laseczka wąglika (Bacillus anthracis) tworzy przetrwalniki, które mogą przetrwać w glebie i powietrzu przez dziesięciolecia.",
-      "explanation_incorrect": "Choć dżuma i cholera były testowane jako broń, to wąglik jest uznawany za najbardziej efektywny militarnie ze względu na odporność zarodników.",
+      "explanation_correct": "Bacillus anthracis wywołuje wąglik i może tworzyć przetrwalniki przeżywające wiele lat w glebie.",
+      "explanation_incorrect": "Dżumę, cholerę i tężec wywołują inne bakterie.",
       "last_verified_at": "2026-06-12T15:22:40.197Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -415,16 +415,16 @@
     },
     {
       "subcategory": "Balistyka",
-      "question": "Jak nazywa się urządzenie montowane na końcu lufy, mające na celu skierowanie gazów prochowych w przeciwną stronę?",
+      "question": "Jak nazywa się urządzenie na wylocie lufy służące głównie do ograniczania odrzutu?",
       "options": [
-        "Tłumik płomienia",
         "Hamulec wylotowy",
-        "Osłabiacz",
-        "Kompensator podrzutu"
+        "Kolba",
+        "Celownik",
+        "Magazynek"
       ],
       "answer": "Hamulec wylotowy",
-      "explanation_correct": "Mechanizm ten znacząco redukuje energię odrzutu broni palnej, co ułatwia prowadzenie ognia.",
-      "explanation_incorrect": "Tłumik płomienia służy głównie do ograniczania błysku po wystrzale.",
+      "explanation_correct": "Hamulec wylotowy wykorzystuje gazy wylotowe, aby ograniczyć odrzut; niektóre urządzenia pełnią także inne funkcje.",
+      "explanation_incorrect": "Kolba, celownik i magazynek są innymi elementami broni.",
       "last_verified_at": "2026-06-12T15:22:40.197Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -460,16 +460,16 @@
     },
     {
       "subcategory": "Broń biała",
-      "question": "Który typ XVII-wiecznego pałasza charakteryzował się rozbudowanym koszem z ażurowymi tarczkami chroniącymi dłoń?",
+      "question": "Jak nazywa się rapier z XVII wieku o rozbudowanej oprawie dłoni, z charakterystycznymi ażurowymi płytkami?",
       "options": [
-        "Rapier",
-        "Franciska",
         "Pappenheimer",
-        "Szamszir"
+        "Franciska",
+        "Szamszir",
+        "Katana"
       ],
       "answer": "Pappenheimer",
-      "explanation_correct": "Pappenheimer to ciężki rapier lub pałasz o charakterystycznej oprawie, nazwany od nazwiska Gottfrieda von Pappenheima.",
-      "explanation_incorrect": "Szamszir to szabla perska, franciska to topór do rzucania, a rapier to lżejsza broń kłująca.",
+      "explanation_correct": "Pappenheimer to rodzaj rapiera lub pałasza o rozbudowanej oprawie, kojarzony z nazwiskiem Gottfrieda von Pappenheima.",
+      "explanation_incorrect": "Szamszir jest szablą, franciska toporem, a katana japońskim mieczem.",
       "last_verified_at": "2026-06-12T15:23:39.834Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -505,16 +505,16 @@
     },
     {
       "subcategory": "Artyleria",
-      "question": "Jak brzmi popularna nazwa radzieckiego systemu wyrzutni rakietowych BM-8, BM-13 i BM-31 montowanych na ciężarówkach?",
+      "question": "Jaką popularną nazwę nosiła radziecka wyrzutnia rakietowa BM-13 z okresu II wojny światowej?",
       "options": [
         "Katiusza",
-        "Andriusza",
         "Grad",
-        "Smerch"
+        "Smerch",
+        "Patriot"
       ],
       "answer": "Katiusza",
-      "explanation_correct": "Katiusze były groźną bronią psychologiczną ze względu na charakterystyczny dźwięk startujących pocisków i ogromną siłę ognia powierzchniowego.",
-      "explanation_incorrect": "Grad i Smerch to powojenne systemy rakietowe, a Andriusza to rzadsza nazwa dla ciężkich wyrzutni BM-31.",
+      "explanation_correct": "BM-13 była jedną z wyrzutni znanych jako katiusze; niektóre inne konstrukcje miały także osobne przydomki.",
+      "explanation_incorrect": "Grad i Smerch to późniejsze systemy rakietowe, a Patriot jest amerykańskim systemem obrony powietrznej.",
       "last_verified_at": "2026-06-12T15:22:40.198Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -559,7 +559,7 @@
       ],
       "answer": "Trebusz",
       "explanation_correct": "Trebusz (trebuchet) pozwalał na miotanie znacznie cięższych pocisków niż machiny oparte na sile sprężystości lub skrętu.",
-      "explanation_incorrect": "Balista działała na zasadzie kuszy, a onager i katapulta wykorzystywały energię skręconych włókien (napęd torcyjny).",
+      "explanation_incorrect": "Balista i onager używały zwykle energii skręconych wiązek; słowo katapulta bywa ogólną nazwą różnych machin miotających.",
       "last_verified_at": "2026-06-12T15:22:50.211Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -619,7 +619,7 @@
       ],
       "answer": "Fosgen",
       "explanation_correct": "Fosgen to silnie toksyczny związek chemiczny, który w niskich stężeniach wydziela zapach siana lub skoszonej trawy.",
-      "explanation_incorrect": "Sarin i tabun to gazy paralityczno-drgawkowe, a iperyt to środek parzący o zapachu musztardy.",
+      "explanation_incorrect": "Sarin i tabun należą do środków paralityczno-drgawkowych, a iperyt jest środkiem parzącym. Zapach nie jest wiarygodnym sposobem rozpoznawania substancji.",
       "last_verified_at": "2026-06-12T15:22:50.212Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -640,7 +640,7 @@
     },
     {
       "subcategory": "Śmigłowce bojowe",
-      "question": "Który amerykański śmigłowiec szturmowy zyskał miano 'latającego czołgu'?",
+      "question": "Jak nazywa się amerykański śmigłowiec szturmowy oznaczony AH-64?",
       "options": [
         "UH-60 Black Hawk",
         "CH-47 Chinook",
@@ -679,7 +679,7 @@
       ],
       "answer": "Długi łuk walijski",
       "explanation_correct": "Długi łuk walijski (longbow) wykonywany był z elastycznego cisu i stanowił kluczową broń Anglików w wojnie stuletniej.",
-      "explanation_incorrect": "Kusze były mechaniczne, a łuki refleksyjne budowano z wielu warstw różnych surowców.",
+      "explanation_incorrect": "Kusza genueńska i gastrafetes były innymi konstrukcjami miotającymi; łuki refleksyjne mogły powstawać z różnych materiałów.",
       "last_verified_at": "2026-06-12T15:22:50.213Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -709,13 +709,13 @@
       ],
       "answer": "Asdic",
       "explanation_correct": "Asdic to brytyjska nazwa aktywnego sonaru stosowanego powszechnie podczas II wojny światowej.",
-      "explanation_incorrect": "Radar służy do wykrywania obiektów w powietrzu, Enigma to maszyna szyfrująca, a Loran to system nawigacyjny.",
+      "explanation_incorrect": "Radar wykrywa obiekty za pomocą fal radiowych, Enigma była maszyną szyfrującą, a LORAN systemem nawigacyjnym.",
       "last_verified_at": "2026-06-12T15:22:50.213Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Amunicja",
-      "question": "Jak nazywa się pocisk artyleryjski wypełniony kulistymi lotkami, rozrywający się w powietrzu nad celem?",
+      "question": "Jak nazywa się pocisk artyleryjski zawierający kulki, uwalniane nad celem za pomocą zapalnika czasowego?",
       "options": [
         "Kartacz",
         "Granat",
@@ -723,14 +723,14 @@
         "Pocisk kumulacyjny"
       ],
       "answer": "Szrapnel",
-      "explanation_correct": "Szrapnel raził siłę żywą za pomocą ołowianych kul wyrzucanych z pocisku po detonacji zapalnika czasowego.",
+      "explanation_correct": "Szrapnel zawierał kulki uwalniane z pocisku w powietrzu i przeznaczone do rażenia na dalszym odcinku lotu.",
       "explanation_incorrect": "Kartacz rozpadał się tuż po opuszczeniu lufy, a pocisk kumulacyjny służy do przebijania pancerza.",
       "last_verified_at": "2026-06-12T15:22:50.213Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pojazdy pancerne",
-      "question": "Jakie oznaczenie nosił polski prototypowy czołg lekki, zaprojektowany z wykorzystaniem technologii stealth?",
+      "question": "Jaką nazwę nosił pokazany w 2013 roku polski projekt koncepcyjny wozu wsparcia ogniowego o ograniczonej wykrywalności?",
       "options": [
         "PT-91",
         "PL-01",
@@ -738,8 +738,8 @@
         "K2PL"
       ],
       "answer": "PL-01",
-      "explanation_correct": "PL-01 był polskim konceptem wozu wsparcia ogniowego o futurystycznym wyglądzie redukującym sygnaturę termiczną.",
-      "explanation_incorrect": "PT-91 to modernizacja T-72, Anders to platforma gąsienicowa, a K2PL to polski wariant czołgu Black Panther.",
+      "explanation_correct": "PL-01 był projektem koncepcyjnym przedstawionym w postaci makiety, a nie seryjnym czołgiem.",
+      "explanation_incorrect": "PT-91 jest modernizacją T-72, Anders to inna polska platforma gąsienicowa, a K2PL oznacza projekt wariantu K2.",
       "last_verified_at": "2026-06-12T15:22:50.213Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -753,7 +753,7 @@
         "F-117 Nighthawk"
       ],
       "answer": "B-2 Spirit",
-      "explanation_correct": "B-2 Spirit to najdroższy bombowiec świata, który dzięki specyficznej geometrii jest niemal niewidoczny dla radarów.",
+      "explanation_correct": "B-2 Spirit jest bombowcem w układzie latającego skrzydła, zaprojektowanym z myślą o zmniejszeniu wykrywalności radarowej.",
       "explanation_incorrect": "B-52 i B-1B mają klasyczną budowę, a F-117 jest samolotem szturmowym, nie bombowcem strategicznym.",
       "last_verified_at": "2026-06-12T15:22:50.213Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -775,7 +775,7 @@
     },
     {
       "subcategory": "Artyleria",
-      "question": "Jak nazywa się zgrubienie na lufie armaty czołgowej służące do usuwania gazów powylotowych?",
+      "question": "Jak nazywa się zgrubienie na lufie armaty czołgowej służące do ograniczenia przedostawania się gazów do przedziału bojowego?",
       "options": [
         "Hamulec wylotowy",
         "Przedmuchiwacz lufy",
@@ -805,7 +805,7 @@
     },
     {
       "subcategory": "Pojazdy transportowe",
-      "question": "Który uniwersalny samochód terenowy był głównym pojazdem Armii USA przed wprowadzeniem modelu HMMWV (Humvee)?",
+      "question": "Jak nazywał się lekki amerykański samochód terenowy z okresu II wojny światowej znany jako Jeep?",
       "options": [
         "Land Rover",
         "Willys MB",
@@ -813,7 +813,7 @@
         "Gaz-67"
       ],
       "answer": "Willys MB",
-      "explanation_correct": "Willys MB, znany jako Jeep, stał się ikoną II wojny światowej jako lekki pojazd rozpoznawczo-transportowy.",
+      "explanation_correct": "Willys MB był jednym z pojazdów znanych jako Jeep podczas II wojny światowej; przed HMMWV używano później także innych modeli, m.in. M151.",
       "explanation_incorrect": "Dodge WC był większą ciężarówką, a Land Rover i GAZ to konstrukcje brytyjskie i radzieckie.",
       "last_verified_at": "2026-06-12T15:22:50.214Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -829,7 +829,7 @@
       ],
       "answer": "StG 44",
       "explanation_correct": "Sturmgewehr 44 (StG 44) zrewolucjonizował pole walki, wprowadzając koncepcję ognia selektywnego na nabój pośredni.",
-      "explanation_incorrect": "AK-47 powstał później wzorując się na StG 44, a M1 Garand był karabinem samopowtarzalnym.",
+      "explanation_incorrect": "AK-47 powstał później jako odrębna konstrukcja; M1 Garand był karabinem samopowtarzalnym, a FG 42 miał inne założenia i amunicję.",
       "last_verified_at": "2026-06-12T15:22:50.214Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -874,7 +874,7 @@
       ],
       "answer": "Balista",
       "explanation_correct": "Balista była dwuramienną machiną miotającą wykorzystującą energię sprężystości skrętnej pęków ścięgien.",
-      "explanation_incorrect": "Trebusz i onager wykorzystywały siłę odśrodkową lub dźwignię, a taran służył do niszczenia bram.",
+      "explanation_incorrect": "Onager również był machiną wykorzystującą energię skrętną, ale miał jedno ramię; trebusz używał dźwigni, a taran służył do uderzania w przeszkody.",
       "last_verified_at": "2026-06-12T15:22:50.215Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -948,7 +948,7 @@
         "TK-3"
       ],
       "answer": "7TP",
-      "explanation_correct": "7TP był podstawowym polskim czołgiem lekkim we wrześniu 1939 roku, napędzanym silnikiem wysokoprężnym. Posiadał wieżę z armatą Bofors kalibru 37 mm.",
+      "explanation_correct": "7TP był polskim czołgiem lekkim z silnikiem wysokoprężnym. Istniały odmiany dwuwieżowe z karabinami maszynowymi i jednowieżowe z armatą 37 mm.",
       "explanation_incorrect": "TKS i TK-3 to tankietki, a 4TP pozostał jedynie prototypem czołgu rozpoznawczego.",
       "last_verified_at": "2026-06-12T15:22:50.215Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -963,7 +963,7 @@
         "FAMAS"
       ],
       "answer": "FN FAL",
-      "explanation_correct": "FN FAL (Fusil Automatique Léger) był używany przez ponad 90 krajów, głównie z paktu NATO. Charakteryzował się dużą siłą ognia dzięki amunicji 7,62 x 51 mm.",
+      "explanation_correct": "Belgijski FN FAL był szeroko używany przez liczne państwa, w tym część członków NATO. Używał naboju 7,62 × 51 mm.",
       "explanation_incorrect": "G3 to konstrukcja niemiecka, FAMAS francuska, a SIG 510 szwajcarska.",
       "last_verified_at": "2026-06-12T15:22:50.215Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -985,7 +985,7 @@
     },
     {
       "subcategory": "Taktyka",
-      "question": "Jakim terminem określa się niemiecką doktrynę wojenną opartą na gwałtownym uderzeniu sił pancernych i lotnictwa?",
+      "question": "Jakim terminem określa się w historiografii szybkie działania manewrowe kojarzone z niemieckimi kampaniami początku II wojny światowej?",
       "options": [
         "Sitzkrieg",
         "Kampfgruppe",
@@ -993,14 +993,14 @@
         "Blitzkrieg"
       ],
       "answer": "Blitzkrieg",
-      "explanation_correct": "Blitzkrieg, czyli wojna błyskawiczna, zakładała przełamanie frontu i szybkie okrążenie przeciwnika zanim zdoła on zorganizować obronę. Doktryna ta odniosła wielkie sukcesy w pierwszej fazie II wojny światowej.",
+      "explanation_correct": "Blitzkrieg, czyli wojna błyskawiczna, to określenie szybkich działań łączących różne rodzaje wojsk. Historycy dyskutują, na ile stanowił odrębną formalną doktrynę.",
       "explanation_incorrect": "Sitzkrieg to 'dziwna wojna', a pozostałe terminy dotyczą odpowiednio grup bojowych i strategii wyniszczenia.",
       "last_verified_at": "2026-06-12T15:22:50.216Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Lotnictwo wojskowe",
-      "question": "Który brytyjski czterosilnikowy samolot był podstawowym ciężkim bombowcem strategicznym RAF podczas II wojny światowej?",
+      "question": "Który brytyjski czterosilnikowy bombowiec RAF przenosił bombę Grand Slam i uczestniczył w ataku na zapory w 1943 roku?",
       "options": [
         "Handley Page Halifax",
         "Avro Lancaster",
@@ -1009,7 +1009,7 @@
       ],
       "answer": "Avro Lancaster",
       "explanation_correct": "Lancaster był najbardziej znanym bombowcem brytyjskim, zdolnym do przenoszenia najcięższych bomb, takich jak 'Grand Slam'. Brał udział w słynnej operacji niszczenia zapór w Zagłębiu Ruhry.",
-      "explanation_incorrect": "Pozostałe maszyny również były bombowcami, ale Lancaster uznawany jest za najskuteczniejszą konstrukcję RAF w tej klasie.",
+      "explanation_incorrect": "Halifax i Stirling były również ciężkimi bombowcami RAF; Wellington był samolotem dwusilnikowym.",
       "last_verified_at": "2026-06-12T15:22:50.216Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1030,7 +1030,7 @@
     },
     {
       "subcategory": "Broń artyleryjska",
-      "question": "Jaką nazwę nosiła rzymska machina miotająca typu neurobalistycznego, wyrzucająca pociski za pomocą energii skręconych włókien?",
+      "question": "Jak nazywała się rzymska jednoramienna machina miotająca wykorzystująca energię skręconych włókien?",
       "options": [
         "Onager",
         "Taran",
@@ -1038,7 +1038,7 @@
         "Wieża oblężnicza"
       ],
       "answer": "Onager",
-      "explanation_correct": "Onager był jednoramienną katapultą, która swoją nazwę zawdzięczała silnemu odrzutowi przypominającemu kopnięcie dzikiego osła. Służył do miotania ciężkich kamieni w mury obronne.",
+      "explanation_correct": "Onager był jednoramienną machiną miotającą. Inne machiny rzymskie, w tym skorpion, także wykorzystywały energię skrętną.",
       "explanation_incorrect": "Taran służył do rozbijania bram, skorpion był lekką balistą, a wieża oblężnicza konstrukcją transportową.",
       "last_verified_at": "2026-06-12T15:22:50.216Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1060,7 +1060,7 @@
     },
     {
       "subcategory": "Oporządzenie",
-      "question": "Który przyrząd pozwala na widzenie w ciemnościach dzięki wzmacnianiu światła szczątkowego lub rejestracji promieniowania IR?",
+      "question": "Jak nazywa się przyrząd umożliwiający obserwację nocą przez wzmacnianie słabego światła?",
       "options": [
         "Dalmierz",
         "Peryskop",
@@ -1069,7 +1069,7 @@
       ],
       "answer": "Noktowizor",
       "explanation_correct": "Noktowizor przetwarza światło gwiazd lub księżyca na obraz widoczny dla oka, umożliwiając skrytą obserwację nocną. Pierwsze prototypy pojawiły się już w trakcie II wojny światowej.",
-      "explanation_incorrect": "Termowizor rejestruje ciepło ciał, a nie światło odbite; dalmierz służy do pomiaru odległości.",
+      "explanation_incorrect": "Termowizor rejestruje promieniowanie cieplne; dalmierz mierzy odległość, a peryskop umożliwia obserwację zza osłony.",
       "last_verified_at": "2026-06-12T15:22:50.217Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1090,16 +1090,16 @@
     },
     {
       "subcategory": "Broń prochowa",
-      "question": "Która wczesna ręczna broń palna z przełomu XIV i XV wieku charakteryzowała się metalowym hakiem pod lufą służącym do amortyzacji odrzutu?",
+      "question": "Jak nazywała się wczesna broń palna z hakiem pod lufą, którą można było oprzeć o mur?",
       "options": [
-        "Muszkiet",
-        "Arquebus",
         "Hakownica",
-        "Garłacz"
+        "Łuk",
+        "Szabla",
+        "Kusza"
       ],
       "answer": "Hakownica",
-      "explanation_correct": "Hakownica była ciężką bronią palną, którą zaczepiano o mury lub specjalne podpory za pomocą haka. Pozwalało to strzelcowi uniknąć skutków silnego odrzutu dużej lufy.",
-      "explanation_incorrect": "Muszkiet i arkebuz były lżejsze i późniejsze technologicznie, a garłacz służył do walki na bliskim dystansie.",
+      "explanation_correct": "Hakownica była wczesną bronią palną z hakiem pomagającym oprzeć ją o przeszkodę. Nazewnictwo wczesnej broni palnej bywa niejednolite.",
+      "explanation_incorrect": "Łuk, kusza i szabla nie są nazwami opisanej broni palnej.",
       "last_verified_at": "2026-06-12T15:22:50.217Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1120,16 +1120,16 @@
     },
     {
       "subcategory": "Broń drzewcowa",
-      "question": "Która długa broń drzewcowa była podstawowym orężem uderzeniowym polskiej husarii podczas szarży?",
+      "question": "Jak nazywała się długa broń drzewcowa używana w szarży polskiej husarii?",
       "options": [
-        "Dzida",
-        "Pika",
-        "Kopia",
-        "Lanca"
+        "Kopia husarska",
+        "Szabla",
+        "Topór",
+        "Pistolet"
       ],
-      "answer": "Kopia",
-      "explanation_correct": "Kopia husarska była wyjątkowo długa (nawet do 5-6 metrów) i pusta w środku, co czyniło ją lekką, choć jednorazową. Pozwalała na przebicie przeciwnika zanim ten mógł się zbliżyć.",
-      "explanation_incorrect": "Pika była bronią piechoty, lanca była używana przez ułanów w późniejszych wiekach, a dzida to termin ogólny.",
+      "answer": "Kopia husarska",
+      "explanation_correct": "Kopia husarska była długą bronią drzewcową przeznaczoną do szarży. Terminy kopia i lanca mogą się znaczeniowo nakładać.",
+      "explanation_incorrect": "Szabla, topór i pistolet nie są nazwami tej długiej broni drzewcowej.",
       "last_verified_at": "2026-06-12T15:22:50.217Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1143,7 +1143,7 @@
         "Sigaba"
       ],
       "answer": "Lorenz",
-      "explanation_correct": "Maszyna Lorenza była znacznie bardziej skomplikowana od Enigmy i służyła do szyfrowania depesz strategicznych. Brytyjczycy złamali jej kod w Bletchley Park przy użyciu komputera Colossus.",
+      "explanation_correct": "Lorenz SZ 40/42 służył do szyfrowania dalekopisowych depesz strategicznych. Kryptolodzy w Bletchley Park złamali system, a później wspomagał ich komputer Colossus.",
       "explanation_incorrect": "Enigma była maszyną wirnikową niższego szczebla, a Sigaba to system amerykański.",
       "last_verified_at": "2026-06-12T15:22:50.217Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1158,7 +1158,7 @@
         "Helepolis"
       ],
       "answer": "Sambuca",
-      "explanation_correct": "Sambuca była rodzajem krytej drabiny lub pomostu hydraulicznego umieszczanego na połączonych okrętach. Jej nazwa pochodzi od podobieństwa instrumentu muzycznego o tej samej nazwie.",
+      "explanation_correct": "Sambuca była machiną oblężniczą w formie drabiny lub pomostu montowanego na jednostkach pływających; nazwa nawiązywała do instrumentu muzycznego.",
       "explanation_incorrect": "Corvus służył do abordażu, Testudo (żółw) to formacja piechoty, a Helepolis to wielka wieża oblężnicza.",
       "last_verified_at": "2026-06-12T15:22:50.218Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1188,7 +1188,7 @@
         "Challenger"
       ],
       "answer": "Centurion",
-      "explanation_correct": "Centurion wszedł do służby tuż po II wojnie światowej i wyznaczył standardy dla nowoczesnych czołgów (MB T). Brał udział w licznych konfliktach, m.in. na Bliskim Wschodzie.",
+      "explanation_correct": "Centurion wszedł do służby pod koniec II wojny światowej i był później używany przez liczne armie, m.in. na Bliskim Wschodzie.",
       "explanation_incorrect": "Cromwell to czołg z II wojny światowej, a Chieftain i Challenger to modele późniejszych generacji.",
       "last_verified_at": "2026-06-12T15:22:50.218Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1270,7 +1270,7 @@
     },
     {
       "subcategory": "Lotnictwo wojskowe",
-      "question": "Który niemiecki bombowiec średni o charakterystycznym przeszklonym nosie był podstawowym samolotem Luftwaffe podczas bitwy o Anglię?",
+      "question": "Który niemiecki bombowiec średni nosił oznaczenie He 111?",
       "options": [
         "Heinkel He 111",
         "Junkers Ju 88",
@@ -1278,8 +1278,8 @@
         "Focke-Wulf Fw 200"
       ],
       "answer": "Heinkel He 111",
-      "explanation_correct": "Heinkel He 111 stał się symbolem niemieckich nalotów bombowych pierwszej połowy II wojny światowej.",
-      "explanation_incorrect": "Ju 88 i Do 17 pełniły podobne role, ale miały inną konstrukcję kadłuba i nosa.",
+      "explanation_correct": "Heinkel He 111 był dwusilnikowym niemieckim bombowcem używanym m.in. podczas bitwy o Anglię.",
+      "explanation_incorrect": "Ju 88 i Do 17 były innymi niemieckimi bombowcami, a Fw 200 służył m.in. do rozpoznania dalekiego zasięgu.",
       "last_verified_at": "2026-06-12T15:22:50.219Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1338,7 +1338,7 @@
         "ORP Jastrząb"
       ],
       "answer": "ORP Orzeł",
-      "explanation_correct": "ORP Orzeł przedostał się bez map do Wielkiej Brytanii, co było jednym z najbardziej spektakularnych wyczynów PMW.",
+      "explanation_correct": "ORP Orzeł uciekł z internowania w Tallinnie i dotarł do Wielkiej Brytanii, nawigując m.in. z wykorzystaniem improwizowanych materiałów.",
       "explanation_incorrect": "Wilk również dopłynął do Anglii, ale nie brał udziału w tak dramatycznej ucieczce z internowania.",
       "last_verified_at": "2026-06-12T15:22:50.220Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1353,7 +1353,7 @@
         "Mi-28 Havoc"
       ],
       "answer": "Mi-24 Hind",
-      "explanation_correct": "Mi-24 unikalnie łączy cechy śmigłowca szturmowego ze zdolnością do przewożenia ośmiu żołnierzy desantu.",
+      "explanation_correct": "Mi-24 łączył uzbrojenie śmigłowca szturmowego z możliwością przewożenia desantu; przydomek „latający czołg” stosowano do różnych maszyn.",
       "explanation_incorrect": "Ka-50 i Mi-28 to nowsze konstrukcje stricte szturmowe, nieposiadające kabiny transportowej.",
       "last_verified_at": "2026-06-12T15:22:50.220Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1368,14 +1368,14 @@
         "Jatagan"
       ],
       "answer": "Kris",
-      "explanation_correct": "Kris posiada charakterystyczną strukturę stali (pamor) i głownię o falistym kształcie zwanym 'luk'.",
+      "explanation_correct": "Kris ma asymetryczną nasadę i często wzorzystą strukturę stali zwaną pamor; jego głownia może być falista albo prosta.",
       "explanation_incorrect": "Kukri pochodzi z Nepalu, Tanto z Japonii, a Jatagan z Turcji.",
       "last_verified_at": "2026-06-12T15:22:50.220Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Lotnictwo wojskowe",
-      "question": "Jak nazywa się figura akrobacji lotniczej, będąca połączeniem połowy pętli i połowy beczki?",
+      "question": "Która figura akrobacyjna składa się z połowy pętli w górę i półobrotu wokół osi podłużnej?",
       "options": [
         "Pętla Immelmanna",
         "Przewrót",
@@ -1383,7 +1383,7 @@
         "Kobra Pugaczowa"
       ],
       "answer": "Pętla Immelmanna",
-      "explanation_correct": "Została spopularyzowana przez asa myśliwskiego I wojny światowej jako manewr bojowy.",
+      "explanation_correct": "Współczesny Immelmann obejmuje pół pętli w górę i pół beczki osiowej; historyczne określenia manewru ewoluowały.",
       "explanation_incorrect": "Świeca to pionowe wznoszenie samolotu do momentu utraty prędkości.",
       "last_verified_at": "2026-06-12T15:22:50.220Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1405,16 +1405,16 @@
     },
     {
       "subcategory": "Fortyfikacje",
-      "question": "Jak w architekturze obronnej nazywa się wolnostojące dzieło fortyfikacyjne na planie trójkąta, umieszczane w fosie przed frontem bastionu?",
+      "question": "Jak nazywa się dzieło fortyfikacyjne przeznaczone do prowadzenia ognia wzdłuż fosy?",
       "options": [
         "Kaponiera",
-        "Ravelin",
         "Barbakan",
-        "Skaza"
+        "Donżon",
+        "Palisada"
       ],
-      "answer": "Ravelin",
-      "explanation_correct": "Ravelin służył do osłony kurtyny (łącznika między bastionami) oraz do krzyżowego ostrzału przedpola.",
-      "explanation_incorrect": "Kaponiera służy do obrony fosy, a barbakan to element osłaniający bramę miejską.",
+      "answer": "Kaponiera",
+      "explanation_correct": "Kaponiera to dzieło umożliwiające ostrzał wzdłuż fosy, inaczej niż rawelin osłaniający front twierdzy.",
+      "explanation_incorrect": "Barbakan osłaniał bramę, donżon był wieżą, a palisada była ogrodzeniem z pali.",
       "last_verified_at": "2026-06-12T15:22:50.220Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1473,14 +1473,14 @@
         "Elektroliza"
       ],
       "answer": "Demagnetyzacja",
-      "explanation_correct": "Demagnetyzacja (degaussing) polega na przepuszczaniu prądu przez cewki wokół kadłuba, co neutralizuje jego magnetyzm.",
-      "explanation_incorrect": "Dekontaminacja to usuwanie skaleń, a elektroliza jest procesem chemicznym.",
+      "explanation_correct": "Demagnetyzacja lub kompensacja magnetyczna zmniejsza sygnaturę magnetyczną okrętu i może ograniczać zagrożenie ze strony min magnetycznych.",
+      "explanation_incorrect": "Dekontaminacja to usuwanie skażeń, a elektroliza jest procesem elektrochemicznym.",
       "last_verified_at": "2026-06-12T15:22:50.221Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Balistyka",
-      "question": "Który element amunicji podkalibrowej otacza pocisk, zapewniając uszczelnienie w lufie, a po jej opuszczeniu odpada pod wpływem oporu powietrza?",
+      "question": "Jak nazywa się element amunicji podkalibrowej, który otacza pocisk w lufie i oddziela się po wystrzale?",
       "options": [
         "Płaszcz",
         "Sabot",
@@ -1488,14 +1488,14 @@
         "Zapalnik"
       ],
       "answer": "Sabot",
-      "explanation_correct": "Sabot pozwala na wystrzeliwanie lekkiego pocisku o małym przekroju za pomocą ładunku miotającego w lufie o większej średnicy.",
+      "explanation_correct": "Sabot prowadzi pocisk mniejszego kalibru w przewodzie lufy i oddziela się po opuszczeniu lufy.",
       "explanation_incorrect": "Płaszcz to cienka warstwa metalu na rdzeniu pocisku, a łuska zawiera ładunek miotający.",
       "last_verified_at": "2026-06-12T15:22:50.221Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Taktyka historyczna",
-      "question": "Jak nazywał się zwarty szyk bojowy macedońskiej piechoty, w którym żołnierze tworzyli ścianę tarcz i las wystawionych do przodu włóczni?",
+      "question": "Jak nazywał się zwarty szyk piechoty macedońskiej, wyposażonej w długie włócznie zwane sarisami?",
       "options": [
         "Testudo",
         "Klin",
