@@ -224,6 +224,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Popkulturowy Kocioł (PL):** przegląd 100 pytań i korekty 42 rekordów; [raport](audits/2026-11-08-popkulturowy-kocio-pl.md).
 
+- **Sci-Fi Predictions That Came True (EN):** przegląd 100 pytań i korekty 75 rekordów; ograniczenia zgodności tematu opisano w [raporcie](audits/2026-11-08-sci-fi-predictions-that-came-true-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

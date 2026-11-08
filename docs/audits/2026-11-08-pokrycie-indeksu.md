@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **192** pozycji ma raport deklarujący przegląd całości paczki.
+- **193** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **33** pozycji nie ma dedykowanego raportu merytorycznego.
+- **32** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -186,7 +186,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 163 | `rolnictwo_i_agrokultura_pl` | Rolnictwo i Agrokultura | [rolnictwo-i-agrokultura-pl-2026-11-05.md](rolnictwo-i-agrokultura-pl-2026-11-05.md) | PEŁNY ODCZYT deklarowany. Przejrzano 84 pytania wraz z odpowiedziami i objaśnieniami w `databases/categories/rolnictwo_i_agrokultura_pl.json`; opis pasuje do zakresu. Numery pozycji liczone są od 1. Przegląd… |
 | 164 | `roman_mythology_legends_en` | Roman Mythology & Legends | [2026-11-08-roman-mythology-legends-en.md](2026-11-08-roman-mythology-legends-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis; skorygowano legendy oraz wybrane powtórzenia. |
 | 165 | `rycerze_i_wojownicy_pl` | Rycerze i wojownicy | — | BRAK dedykowanego raportu merytorycznego. |
-| 166 | `sci_fi_predictions_that_came_true_en` | Sci-Fi Predictions That Came True | — | BRAK dedykowanego raportu merytorycznego. |
+| 166 | `sci_fi_predictions_that_came_true_en` | Sci-Fi Predictions That Came True | [2026-11-08-sci-fi-predictions-that-came-true-en.md](2026-11-08-sci-fi-predictions-that-came-true-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 75 rekordów; większość pytań nie wskazuje konkretnego utworu science fiction. |
 | 167 | `scientific_paradoxes_and_theories_en` | Scientific Paradoxes and Theories | — | BRAK dedykowanego raportu merytorycznego. |
 | 168 | `sery_wiata_i_nabia_pl` | Sery Świata i Nabiał | [2026-11-08-sery-swiata-i-nabial-pl.md](2026-11-08-sery-swiata-i-nabial-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-08. Przeczytano opis oraz wszystkie 100 pytań, opcji, kluczy i obu wyjaśnień. Opis i liczba pytań pozostały bez zmian. Zmieniono 97 rekordów: wszystkie oprócz pozycji 3, 15 i… |
 | 169 | `sim_racing_vs_real_motorsport_en` | Sim-Racing vs. Real Motorsport | [2026-11-07-sim-racing-vs-real-motorsport-en.md](2026-11-07-sim-racing-vs-real-motorsport-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i wszystkie 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono opis, aby wskazywał dominującą w paczce tematykę hamowania, oraz 68 rekordów: 3–11, 13–14, 17–18, 20, 23, 26–29,… |

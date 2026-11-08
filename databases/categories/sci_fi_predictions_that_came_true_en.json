@@ -2,7 +2,7 @@
   "id": "sci_fi_predictions_that_came_true_en",
   "name": "Sci-Fi Predictions That Came True",
   "language": "en",
-  "description": "Questions covering: Data Storage, Cybernetics, Military, Retail, Optics, Communication, Physics...",
+  "description": "Questions about real-world technologies and ideas often associated with science fiction.",
   "created_at": "2026-06-12T16:42:48.683Z",
   "last_verified_at": "2026-06-12T16:19:56.517Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -25,7 +25,7 @@
     },
     {
       "subcategory": "Cybernetics",
-      "question": "Which specific device is a modern commercial application of a brain-computer interface (BCI) designed to help paralyzed people control computers with their thoughts?",
+      "question": "Which company has tested the investigational N1 brain-computer interface in people with paralysis?",
       "options": [
         "Neuralink",
         "Bluetooth implant",
@@ -33,10 +33,8 @@
         "Robotic graft"
       ],
       "answer": "Neuralink",
-      "explanation_correct": "Neuralink is a high-bandwidth BCI that uses electrodes implanted in the brain to transmit neural signals to external hardware.",
-      "explanation_incorrect": "While cochlear implants exist for hearing, they do not provide general-purpose control of external computing hardware via brain activity.",
-      "last_verified_at": "2026-06-12T16:19:56.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Neuralink’s N1 implant is being studied as a way to control external devices. The company describes its devices as investigational, not approved for general sale.",
+      "explanation_incorrect": "The other options are not the company conducting the N1 study."
     },
     {
       "subcategory": "Military",
@@ -55,7 +53,7 @@
     },
     {
       "subcategory": "Retail",
-      "question": "Which retail innovation, described in works like 'The Sleeper Awakes', allows for the automated purchase of goods using digital scanning and payment without a human cashier?",
+      "question": "What retail system lets shoppers scan and pay for purchases themselves at a checkout terminal?",
       "options": [
         "Self-checkout",
         "Vending machine",
@@ -63,10 +61,8 @@
         "Automated teller"
       ],
       "answer": "Self-checkout",
-      "explanation_correct": "Self-checkout systems fulfill the sci-fi vision of a fully automated retail experience where the consumer manages the entire transaction.",
-      "explanation_incorrect": "While vending machines are older, self-checkouts represent the complex, multi-item automated transaction systems predicted in modern sci-fi.",
-      "last_verified_at": "2026-06-12T16:19:56.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Self-checkout lets shoppers scan and pay at a terminal; staff assistance can still be needed.",
+      "explanation_incorrect": "Vending machines dispense individual items, while a digital kiosk or automated teller has a broader or different purpose."
     },
     {
       "subcategory": "Optics",
@@ -94,13 +90,11 @@
       ],
       "answer": "Pager",
       "explanation_correct": "The pager was a wireless telecommunications device used to receive short, numeric or text messages.",
-      "explanation_incorrect": "Transceivers and walkie-talkies facilitate two-way voice communication, while Telex machines were stationary office hardware.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Some pagers also send messages. Transceivers and walkie-talkies are two-way radio devices, and telex is a messaging system rather than a typical portable pager."
     },
     {
       "subcategory": "Physics",
-      "question": "Which energy generation process derives power from the binding forces within the atom's core?",
+      "question": "What type of power plant generates electricity from energy released by nuclear fission?",
       "options": [
         "Nuclear power",
         "Geothermal power",
@@ -108,10 +102,8 @@
         "Chemical combustion"
       ],
       "answer": "Nuclear power",
-      "explanation_correct": "Nuclear power plants harvest energy released from atomic reactions, specifically fission, to produce heat for electricity.",
-      "explanation_incorrect": "The other methods rely on tectonic heat, mechanical water motion, or molecular chemical bonds for energy production.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nuclear power plants use energy released by fission to produce heat and generate electricity.",
+      "explanation_incorrect": "Geothermal and hydroelectric plants use heat or water movement; chemical combustion releases energy from chemical reactions."
     },
     {
       "subcategory": "Astronomy",
@@ -120,13 +112,11 @@
         "Spacecraft",
         "High-altitude balloon",
         "Supersonic jet",
-        "Orbital glider"
+        "Sailboat"
       ],
       "answer": "Spacecraft",
-      "explanation_correct": "Spacecraft are engineered to withstand the vacuum of space while navigating deep space for scientific research.",
-      "explanation_incorrect": "Balloons, jets, and gliders are limited to Earth's atmosphere and do not reach space-faring capabilities.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A spacecraft can operate beyond Earth’s atmosphere; some spacecraft explore planets, while others orbit Earth.",
+      "explanation_incorrect": "High-altitude balloons and ordinary jets operate in the atmosphere; sailboats travel on water. Spacecraft include orbital vehicles and planetary probes."
     },
     {
       "subcategory": "Security",
@@ -154,13 +144,11 @@
       ],
       "answer": "Hovercraft",
       "explanation_correct": "A hovercraft maintains a pressurized air cushion below its hull to glide above various surfaces.",
-      "explanation_incorrect": "Hydrofoils and Ekranoplans rely on different hydrodynamic lift principles, while tanks utilize tracks on rigid surfaces.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hydrofoils use lift generated in water; ekranoplans use aerodynamic ground effect. Amphibious tanks use tracks rather than an air cushion."
     },
     {
       "subcategory": "Communication",
-      "question": "What is the universal term for the digital transmission of letters and messages between networked computer users?",
+      "question": "What is the common term for store-and-forward messages sent between email addresses on computer networks?",
       "options": [
         "Electronic mail",
         "Instant messaging",
@@ -168,10 +156,8 @@
         "Voice over IP"
       ],
       "answer": "Electronic mail",
-      "explanation_correct": "Electronic mail is the standardized method for sending stored-and-forwarded text communications over global networks.",
-      "explanation_incorrect": "Instant messaging is for real-time chat, Usenet is a forum system, and VoIP focuses on voice audio signals.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Electronic mail, or email, sends messages between addresses using network mail systems.",
+      "explanation_incorrect": "Instant messaging is usually conversational; Usenet is a discussion system and VoIP carries voice over IP."
     },
     {
       "subcategory": "Robotics",
@@ -184,9 +170,7 @@
       ],
       "answer": "Android",
       "explanation_correct": "An android is a humanoid robot designed to mimic human morphology and behavior.",
-      "explanation_incorrect": "Cyborgs involve biological parts, automata are generally mechanical, and animatronics are typically controlled remotely for entertainment.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "A cyborg combines biological and technological components. An automaton is a broader term, and an animatronic figure need not be autonomous."
     },
     {
       "subcategory": "Environment",
@@ -214,13 +198,11 @@
       ],
       "answer": "Streaming service",
       "explanation_correct": "Streaming services provide immediate playback of data that is delivered in small, continuous packets over a network.",
-      "explanation_incorrect": "Cloud storage is for archiving, RSS delivers text feeds, and peer-to-peer sharing usually requires full download completion.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cloud storage, RSS and peer-to-peer networks have other primary roles, though some can also deliver or enable streamed media."
     },
     {
       "subcategory": "Finance",
-      "question": "Which form of digital medium operates as a secure, decentralized financial system using encrypted ledgers?",
+      "question": "What is the name for digital assets such as Bitcoin that use a decentralized blockchain ledger?",
       "options": [
         "Cryptocurrency",
         "Electronic purse",
@@ -228,14 +210,12 @@
         "Virtualized bond"
       ],
       "answer": "Cryptocurrency",
-      "explanation_correct": "Cryptocurrency uses blockchain technology to maintain a transparent, encrypted ledger of transactions without a central authority.",
-      "explanation_incorrect": "Electronic purses, vouchers, and virtualized bonds are typically tied to centralized government or corporate oversight.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bitcoin is a cryptocurrency maintained through a distributed blockchain. Transactions are generally publicly visible, not necessarily encrypted.",
+      "explanation_incorrect": "Electronic purses, vouchers and bonds do not specifically name the Bitcoin-style asset category."
     },
     {
       "subcategory": "Medicine",
-      "question": "What medical device performs the mechanical function of pumping blood through the circulatory system in the absence of a biological organ?",
+      "question": "What mechanical device is intended to replace the pumping function of the whole heart?",
       "options": [
         "Artificial heart",
         "Ventricular pump",
@@ -243,10 +223,8 @@
         "Pacemaker"
       ],
       "answer": "Artificial heart",
-      "explanation_correct": "An artificial heart replaces the biological organ's function by mechanically circulating blood throughout the body.",
-      "explanation_incorrect": "Pumps, stents, and pacemakers assist the existing heart's function rather than entirely replacing its pumping capacity.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A total artificial heart mechanically replaces the pumping function of the heart. Implantable assist devices may instead support a remaining heart.",
+      "explanation_incorrect": "A ventricular assist device supports one or both ventricles; stents and pacemakers serve different functions."
     },
     {
       "subcategory": "Physics",
@@ -258,14 +236,12 @@
         "Searchlight"
       ],
       "answer": "Laser",
-      "explanation_correct": "A laser generates a focused, monochromatic light beam using the principle of light amplification by stimulated emission of radiation.",
-      "explanation_incorrect": "LEDs, incandescent lamps, and searchlights produce non-coherent, divergent light through different physical processes.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A laser amplifies light through stimulated emission and can produce a highly coherent, narrowly directed beam. Real lasers are not perfectly monochromatic.",
+      "explanation_incorrect": "LEDs, incandescent lamps, and searchlights produce non-coherent, divergent light through different physical processes."
     },
     {
       "subcategory": "Information",
-      "question": "Which primary web tool revolutionized the retrieval of information by organizing the internet into a searchable keyword index?",
+      "question": "Which search engine was founded by Larry Page and Sergey Brin?",
       "options": [
         "Google",
         "Lycos",
@@ -273,10 +249,8 @@
         "Yahoo"
       ],
       "answer": "Google",
-      "explanation_correct": "Google became the dominant search engine that utilized sophisticated keyword indexing to make the internet navigable.",
-      "explanation_incorrect": "While others like Lycos or Yahoo were predecessors, they did not reach the same level of global information indexing dominance.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Larry Page and Sergey Brin founded Google, which became a widely used web search engine.",
+      "explanation_incorrect": "Lycos, AltaVista and Yahoo are other web services or search engines."
     },
     {
       "subcategory": "Space Habitation",
@@ -303,10 +277,8 @@
         "Bathysphere"
       ],
       "answer": "Nuclear submarine",
-      "explanation_correct": "Nuclear submarines utilize uranium-fueled reactors to provide power for indefinite underwater missions.",
-      "explanation_incorrect": "Rovers, older diesel U-boats, and bathyspheres lack the endurance and power generation capabilities of modern nuclear-powered underwater ships.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A nuclear reactor provides energy without atmospheric oxygen, enabling long submerged operations. Supplies, maintenance and crew needs still limit endurance.",
+      "explanation_incorrect": "A bathysphere and deep-sea rover serve different roles; “U-boat” usually refers to a German submarine, many of which were diesel-electric."
     },
     {
       "subcategory": "Communication",
@@ -318,14 +290,12 @@
         "Pager"
       ],
       "answer": "Flip phone",
-      "explanation_correct": "The design of the portable Star Trek communicator was the primary inspiration for the consumer flip phone of the 1990s.",
-      "explanation_incorrect": "Other listed items lacked the specific form factor or original design intent found in the Star Trek series.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The folding Star Trek communicator resembles later flip phones. Similarity alone does not prove it was the sole inspiration for every model.",
+      "explanation_incorrect": "Smartwatches, tablets and pagers have different typical designs and functions."
     },
     {
       "subcategory": "Information Technology",
-      "question": "Which modern platform fulfills the concept of the 'Galactic Encyclopedia' often described in 20th-century speculative fiction?",
+      "question": "Which collaboratively edited online encyclopedia is operated by the Wikimedia Foundation?",
       "options": [
         "Wikipedia",
         "Britannica Online",
@@ -333,10 +303,8 @@
         "LexisNexis"
       ],
       "answer": "Wikipedia",
-      "explanation_correct": "Wikipedia functions as the massive, crowd-sourced, and easily accessible digital repository once envisioned by science fiction authors.",
-      "explanation_incorrect": "While others are databases, they lack the specific crowd-sourced and open-access model predicted in early literature.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wikipedia is a collaboratively edited online encyclopedia. Its scale offers a modern analogy to imagined universal reference works.",
+      "explanation_incorrect": "Britannica Online, Google Scholar and LexisNexis are different reference or search services."
     },
     {
       "subcategory": "Robotics",
@@ -348,14 +316,12 @@
         "Droid"
       ],
       "answer": "Robot",
-      "explanation_correct": "The term 'robot' was coined in Karel Čapek’s 1920 play R.U.R. to describe artificial workers.",
-      "explanation_incorrect": "The other terms either predate the widespread adoption of the word or refer to different subcategories of fictional entities.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Karel Čapek popularized “robot” in his play R.U.R.; he credited his brother Josef Čapek with suggesting the word.",
+      "explanation_incorrect": "Automaton predates the play; cyborg and droid have different meanings or origins."
     },
     {
       "subcategory": "Biology",
-      "question": "What 20th-century scientific field, hinted at in Huxley's dystopian literature, allows for the manual manipulation of hereditary material?",
+      "question": "What term describes directly modifying an organism’s genetic material?",
       "options": [
         "Genetic engineering",
         "Nuclear physics",
@@ -363,10 +329,8 @@
         "Cloning"
       ],
       "answer": "Genetic engineering",
-      "explanation_correct": "Genetic engineering involves the direct manipulation of an organism's genes, a core theme in Brave New World.",
-      "explanation_incorrect": "The other options refer to broad scientific domains or specific outcomes rather than the process of hereditary manipulation described.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Genetic engineering directly alters genetic material. Fictional depictions of controlled reproduction, such as Brave New World, are related themes but not identical techniques.",
+      "explanation_incorrect": "Synthetic biology is a broader engineering field; cloning copies genetic material or organisms, and nuclear physics studies atomic nuclei."
     },
     {
       "subcategory": "Space Travel",
@@ -385,22 +349,20 @@
     },
     {
       "subcategory": "Augmented Reality",
-      "question": "Which wearable peripheral provides a digital overlay on the user's real-world environment?",
+      "question": "Which wearable device can place digital information in the wearer’s view of the real world?",
       "options": [
         "Smart glasses",
-        "VR goggles",
-        "Head-up display",
-        "Pulse tracker"
+        "Pulse tracker",
+        "Keyboard",
+        "External hard drive"
       ],
       "answer": "Smart glasses",
-      "explanation_correct": "Smart glasses are designed to project information into the wearer's line of sight, creating an augmented reality experience.",
-      "explanation_incorrect": "VR goggles isolate the user from reality, while the other items provide data without digital visual integration.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some smart glasses overlay digital information on the wearer’s view; their capabilities differ by product.",
+      "explanation_incorrect": "The other choices do not describe a wearable visual display. A head-up display can also overlay information but is not necessarily wearable."
     },
     {
       "subcategory": "Military Technology",
-      "question": "Which unmanned aerial technology has evolved from sci-fi remote-piloted warfare to mainstream photography and surveillance?",
+      "question": "What is a common name for an unmanned aircraft used for photography or surveillance?",
       "options": [
         "Drone",
         "Helicopter",
@@ -408,14 +370,12 @@
         "Satellites"
       ],
       "answer": "Drone",
-      "explanation_correct": "Drones are autonomous or remote-piloted aircraft that have transitioned from military design to consumer use.",
-      "explanation_incorrect": "The other items are crewed aircraft, types of ordnance, or orbital platforms, not remotely piloted aerial vehicles.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A drone is a common term for an uncrewed aircraft that may be remotely piloted or autonomous.",
+      "explanation_incorrect": "Helicopters can also be uncrewed; missiles and satellites are different categories. “Drone” is the general term requested."
     },
     {
       "subcategory": "Artificial Intelligence",
-      "question": "What software interface, predicted by Turing-era computing fiction, enables human-like textual interaction?",
+      "question": "What software application is designed to conduct a conversation through text or voice?",
       "options": [
         "Chatbot",
         "Operating system",
@@ -423,10 +383,8 @@
         "Search engine"
       ],
       "answer": "Chatbot",
-      "explanation_correct": "A chatbot is an AI application designed to conduct human-like conversations, a concept long explored in science fiction.",
-      "explanation_incorrect": "Operating systems and other tools focus on functional operation and data retrieval rather than autonomous human-like conversation.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A chatbot is software that conducts conversational interaction; implementations range from scripted systems to AI models.",
+      "explanation_incorrect": "Operating systems, command lines and search engines have broader primary purposes."
     },
     {
       "subcategory": "Surveillance",
@@ -438,14 +396,12 @@
         "Radar system"
       ],
       "answer": "CCTV camera",
-      "explanation_correct": "Closed-circuit television (CCTV) cameras create the watchful network environment famously depicted by the 'telescreens' in 1984.",
-      "explanation_incorrect": "The other sensors detect movement or biological signatures, but do not provide the continuous visual observation of CCTV.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "CCTV cameras can provide video surveillance, a partial analogy to the surveillance depicted by Orwell’s telescreens. The fictional screens also display broadcasts.",
+      "explanation_incorrect": "Biometric scanners, motion sensors and radar have different primary sensing functions."
     },
     {
       "subcategory": "Home Automation",
-      "question": "Which home appliance uses linguistic processing to control the domestic smart environment?",
+      "question": "Which voice-controlled home device typically combines a speaker, microphone and virtual assistant?",
       "options": [
         "Smart speaker",
         "Digital thermostat",
@@ -453,14 +409,12 @@
         "Smart hub"
       ],
       "answer": "Smart speaker",
-      "explanation_correct": "A smart speaker acts as a voice-controlled interface for home automation systems.",
-      "explanation_incorrect": "Other devices act as hubs or control points but typically lack the dedicated voice-to-linguistic processing interface for interaction.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A smart speaker can accept voice commands and control compatible devices, depending on its setup.",
+      "explanation_incorrect": "Thermostats, routers and smart hubs serve different primary functions, although some hubs also support voice assistants."
     },
     {
       "subcategory": "Literature",
-      "question": "Which portable handheld device allows for the storage and digital rendering of thousands of books?",
+      "question": "What dedicated portable device is designed primarily for reading digital books?",
       "options": [
         "E-reader",
         "Laptop",
@@ -468,10 +422,8 @@
         "Smartphone"
       ],
       "answer": "E-reader",
-      "explanation_correct": "The e-reader was the specific device long predicted to replace physical paper-based books.",
-      "explanation_incorrect": "Laptops and smartphones have multi-functional uses and are not purpose-built media devices for literature.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An e-reader is designed primarily for reading digital books; many models use electronic-paper displays.",
+      "explanation_incorrect": "Laptops, smartphones and some consoles can also display books, but are multipurpose devices."
     },
     {
       "subcategory": "Medicine",
@@ -490,7 +442,7 @@
     },
     {
       "subcategory": "Biometrics",
-      "question": "Which biometric recognition technology uses the unique patterns of the eye for authentication?",
+      "question": "Which eye-based biometric method identifies a person using patterns in the colored ring surrounding the pupil?",
       "options": [
         "Iris scanner",
         "Retinal scan",
@@ -498,14 +450,12 @@
         "Fingerprint reader"
       ],
       "answer": "Iris scanner",
-      "explanation_correct": "An iris scanner captures the highly complex and stable patterns within the human eye to verify identity.",
-      "explanation_incorrect": "A retinal scan maps blood vessels in the back of the eye, which is a different, less common consumer technology.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An iris scanner analyzes the patterned iris, the colored ring around the pupil.",
+      "explanation_incorrect": "Retinal scanning also uses the eye, but examines the retina at the back. Face and fingerprint systems use different features."
     },
     {
       "subcategory": "Computing",
-      "question": "Which category of computing hardware describes a portable device entirely controlled by a touch interface?",
+      "question": "What portable computer category is commonly built around a touchscreen and a slate-like form?",
       "options": [
         "Tablet computer",
         "Notebook PC",
@@ -513,10 +463,8 @@
         "Smart display"
       ],
       "answer": "Tablet computer",
-      "explanation_correct": "Tablet computers popularized the slate-style, touch-first interaction model predicted for decades.",
-      "explanation_incorrect": "Notebooks rely on physical keyboards, while the other options refer to limited-use devices.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tablet computers commonly use touch-first interfaces, although keyboards, styluses and other controls may also be supported.",
+      "explanation_incorrect": "Notebooks typically include a keyboard; handheld consoles and smart displays are other categories that can also use touchscreens."
     },
     {
       "subcategory": "Transportation",
@@ -528,10 +476,8 @@
         "Connected vehicle"
       ],
       "answer": "Self-driving car",
-      "explanation_correct": "A self-driving car uses artificial intelligence and sensor fusion to operate without human input.",
-      "explanation_incorrect": "Electric and connected vehicles describe powertrain and communication features, not necessarily autonomy.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Self-driving cars use sensors and computing to perform driving tasks. Capabilities and required human supervision vary by system.",
+      "explanation_incorrect": "Electric and connected vehicles describe powertrain or connectivity, not necessarily autonomy; automated transit can also operate autonomously."
     },
     {
       "subcategory": "Communication",
@@ -543,10 +489,8 @@
         "VoIP"
       ],
       "answer": "Video conferencing",
-      "explanation_correct": "Modern video conferencing software fulfills the sci-fi dream of real-time face-to-face visual communication over distance.",
-      "explanation_incorrect": "Streaming and VoIP are technologies that enable video conferencing, but aren't the primary term for the interaction.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Video conferencing allows people to communicate using live video and audio; it resembles fictional visual telephone calls.",
+      "explanation_incorrect": "Streaming and VoIP are broader delivery or communication technologies that may support conferencing."
     },
     {
       "subcategory": "Language",
@@ -558,14 +502,12 @@
         "Speech synthesis"
       ],
       "answer": "Machine translation",
-      "explanation_correct": "Machine translation is the field that powers tools to instantly render one language into another.",
-      "explanation_incorrect": "NLP is the broader study of language, whereas machine translation is the specific application used for conversion.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Machine translation converts text or speech between languages, though quality and latency vary and it is not a perfect universal translator.",
+      "explanation_incorrect": "NLP is the broader study of language, whereas machine translation is the specific application used for conversion."
     },
     {
       "subcategory": "Electronics",
-      "question": "Which modern wrist-worn wearable combines health tracking with computing capabilities?",
+      "question": "What is a wrist-worn computer commonly called?",
       "options": [
         "Smartwatch",
         "Pedometer",
@@ -573,14 +515,12 @@
         "Chronometer"
       ],
       "answer": "Smartwatch",
-      "explanation_correct": "The smartwatch is a wearable computer that integrates health sensors with mobile, interconnected capabilities.",
-      "explanation_incorrect": "Pedometers and fitness bands lack the full general-purpose computing capabilities of a smartwatch.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A smartwatch is a wrist-worn computing device that often includes health tracking, communications and apps.",
+      "explanation_incorrect": "Pedometers and fitness bands may also track activity; a chronometer is a timekeeping device."
     },
     {
       "subcategory": "Credit",
-      "question": "Which financial instrument replaced physical cash with a plastic card, allowing for universal credit transactions?",
+      "question": "Which payment card typically lets its holder borrow from a line of credit to make purchases?",
       "options": [
         "Credit card",
         "Debit card",
@@ -588,14 +528,12 @@
         "Contactless token"
       ],
       "answer": "Credit card",
-      "explanation_correct": "The credit card changed global finance by enabling electronic, delayed-payment transactions.",
-      "explanation_incorrect": "Debit cards draw from existant funds, and other tokens are not 'universal' credit instruments.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A credit card lets its holder borrow under a credit agreement; payment systems and acceptance vary.",
+      "explanation_incorrect": "Debit cards generally draw from an account, while prepaid cards use funds loaded in advance."
     },
     {
       "subcategory": "Space Travel",
-      "question": "What type of vehicle is specifically designed to facilitate a manned descent onto an extraterrestrial body?",
+      "question": "What type of spacecraft is designed to land astronauts on the Moon?",
       "options": [
         "Moon lander",
         "Space shuttle",
@@ -603,10 +541,8 @@
         "Lunar rover"
       ],
       "answer": "Moon lander",
-      "explanation_correct": "A moon lander is a specialized craft designed for the landing portion of a crewed lunar expedition.",
-      "explanation_incorrect": "The other options refer to orbiters, transport vehicles, or surface transport that occurs only after a landing.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A lunar lander is designed for landing on the Moon, as with the Apollo lunar module.",
+      "explanation_incorrect": "A lunar rover travels on the surface, while the Space Shuttle and orbital capsules have other principal designs."
     },
     {
       "subcategory": "Nuclear Physics",
@@ -618,10 +554,8 @@
         "Dirty bomb"
       ],
       "answer": "Atomic bomb",
-      "explanation_correct": "H.G. Wells coined the term 'atomic bomb' in his 1914 novel, describing weapons of unimaginable destructive power.",
-      "explanation_incorrect": "The other options refer to specific variants or radiological devices that were categorized later in historical military development.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "H. G. Wells described “atomic bombs” in his 1914 novel The World Set Free, decades before nuclear weapons were built; his fictional mechanism differed from real bombs.",
+      "explanation_incorrect": "The other options refer to specific variants or radiological devices that were categorized later in historical military development."
     },
     {
       "subcategory": "Entertainment",
@@ -634,9 +568,7 @@
       ],
       "answer": "Virtual reality",
       "explanation_correct": "Virtual reality allows users to experience a computer-generated environment as if it were authentic.",
-      "explanation_incorrect": "The other options involve overlaying digital elements onto the real world rather than creating a fully immersive simulated environment.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Augmented and mixed reality generally combine digital and physical environments; extended reality is an umbrella term that can include VR."
     },
     {
       "subcategory": "Medicine",
@@ -648,10 +580,8 @@
         "Exoskeletal frame"
       ],
       "answer": "Bionic limb",
-      "explanation_correct": "Bionic limbs integrate mechanical components with the human nervous system to provide functional replacement for missing body parts.",
-      "explanation_incorrect": "The other options refer to structural reinforcements or external supportive structures rather than integrated functional replacements.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some bionic prostheses use sensors and powered components to assist people with limb loss; not all connect directly to nerves.",
+      "explanation_incorrect": "Cartilage, bone and exoskeletal frames are different biomedical technologies."
     },
     {
       "subcategory": "Information",
@@ -663,10 +593,8 @@
         "The Cloud"
       ],
       "answer": "Cyberspace",
-      "explanation_correct": "Gibson pioneered the term to describe the conceptual space where electronic data exists.",
-      "explanation_incorrect": "The other terms represent specific network layers or modern conceptual iterations rather than the original literary construct.",
-      "last_verified_at": "2026-06-12T16:19:15.348Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gibson coined “cyberspace” in the 1982 story Burning Chrome and popularized it in the 1984 novel Neuromancer.",
+      "explanation_incorrect": "The other terms represent specific network layers or modern conceptual iterations rather than the original literary construct."
     },
     {
       "subcategory": "Food Science",
@@ -685,7 +613,7 @@
     },
     {
       "subcategory": "Energy",
-      "question": "What renewable energy source, envisioned by early sci-fi as massive collectors orbiting the planet, is now a primary energy sector?",
+      "question": "Which renewable energy technology converts sunlight into electricity, including with photovoltaic panels?",
       "options": [
         "Solar power",
         "Wind energy",
@@ -693,14 +621,12 @@
         "Tidal current"
       ],
       "answer": "Solar power",
-      "explanation_correct": "Solar power technology has matured to leverage sunlight as a primary electrical power source.",
-      "explanation_incorrect": "The other options rely on terrestrial movement or earth-bound atmospheric phenomena.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Solar panels convert sunlight to electricity. Orbital solar power has been proposed and tested in limited demonstrations, but terrestrial solar power is the established sector.",
+      "explanation_incorrect": "Wind, geothermal and tidal energy draw on different energy sources."
     },
     {
       "subcategory": "Surveillance",
-      "question": "What security standard, once exclusively a feature of futuristic surveillance thrillers, is now ubiquitous in modern mobile devices?",
+      "question": "Which biometric technique identifies or verifies a person using facial features?",
       "options": [
         "Facial recognition",
         "Retinal scanning",
@@ -708,29 +634,25 @@
         "Vein pattern analysis"
       ],
       "answer": "Facial recognition",
-      "explanation_correct": "Facial recognition uses biometric mapping of facial features to verify an individual's identity.",
-      "explanation_incorrect": "The others are highly specific, niche biometrics generally not used for standard consumer device authentication.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Facial recognition analyzes facial features and is used in some mobile-device authentication systems.",
+      "explanation_incorrect": "Retinal scanning, iris mapping and vein analysis use other biometric features."
     },
     {
       "subcategory": "Manufacturing",
-      "question": "What additive manufacturing process, long ago hypothesized as a rapid fabricator device, is now standard practice in prototyping?",
+      "question": "What broad term describes creating a physical object by adding material layer by layer under computer control?",
       "options": [
         "3D printing",
-        "Sintering",
-        "Cold spray deposition",
-        "Laminated object manufacturing"
+        "Subtractive milling",
+        "Casting in a mold",
+        "Hand carving"
       ],
       "answer": "3D printing",
-      "explanation_correct": "3D printing constructs objects by successively adding material layers under computer control.",
-      "explanation_incorrect": "While related, these other methods are specific industrial sub-processes or distinct metallurgical techniques.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "3D printing is an umbrella term for additive manufacturing methods that build objects from digital designs.",
+      "explanation_incorrect": "Milling and carving remove material, while casting uses a mold. Some sintering and laminated-object processes are forms of additive manufacturing."
     },
     {
       "subcategory": "Military",
-      "question": "What weaponized light technology, once a hallmark of space opera weaponry, has been successfully tested for modern defense applications?",
+      "question": "What directed-energy technology uses high-energy light and has been tested for defense applications?",
       "options": [
         "Laser cannon",
         "Plasma rifle",
@@ -738,14 +660,12 @@
         "Particle beam generator"
       ],
       "answer": "Laser cannon",
-      "explanation_correct": "Modern militaries now utilize high-energy lasers for terminal guidance and point-defense interception.",
-      "explanation_incorrect": "Plasma rifles and particle beams remain theoretical science fiction concepts lacking current technical viability.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "High-energy laser systems have been tested for defensive uses. They are not the same as fictional handheld plasma weapons.",
+      "explanation_incorrect": "Plasma rifles and ion pulse emitters are different concepts; particle beams are not lasers."
     },
     {
       "subcategory": "Space Science",
-      "question": "What space-based infrastructure, pioneered as relay stations in early science fiction literature, now manages the world's telecommunications?",
+      "question": "What orbital device relays communications signals between locations on Earth?",
       "options": [
         "Communications satellite",
         "Space station",
@@ -753,14 +673,12 @@
         "Navigation beacon"
       ],
       "answer": "Communications satellite",
-      "explanation_correct": "Arthur C. Clarke famously described these orbital relays before they became the backbone of modern global networks.",
-      "explanation_incorrect": "Space stations and navigation beacons serve different primary functions compared to standard communications relays.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Communications satellites relay signals. Arthur C. Clarke described geostationary relay satellites in a 1945 nonfiction article; most international internet data travels through submarine cables.",
+      "explanation_incorrect": "Space stations and navigation beacons have other principal purposes; “orbital platform” is a broader term."
     },
     {
       "subcategory": "Web",
-      "question": "What global digital infrastructure, envisioned by writers like H.G. Wells as a 'World Brain', officially debuted in the late 20th century as a network of networks?",
+      "question": "What is the global network of interconnected computer networks called?",
       "options": [
         "The Internet",
         "The Intranet",
@@ -768,14 +686,12 @@
         "The Metaverse"
       ],
       "answer": "The Internet",
-      "explanation_correct": "The Internet is the global system of interconnected computer networks that provides the backbone for worldwide digital communication.",
-      "explanation_incorrect": "The intranet and extranet are private or restricted variations, and the metaverse is a user-experience layer rather than a network infrastructure.",
-      "last_verified_at": "2026-06-12T16:19:56.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Internet connects many networks worldwide. H. G. Wells’s World Brain was a proposed global knowledge resource, not a technical plan for today’s Internet.",
+      "explanation_incorrect": "Intranets and extranets are restricted networks; metaverse describes a kind of virtual environment."
     },
     {
       "subcategory": "Social Media",
-      "question": "What real-time broadcasting technology, once depicted as personal media transmission, now dominates digital social interaction?",
+      "question": "What term describes broadcasting video over the internet as it happens?",
       "options": [
         "Live streaming",
         "Video conferencing",
@@ -783,74 +699,64 @@
         "Telepresence broadcast"
       ],
       "answer": "Live streaming",
-      "explanation_correct": "Live streaming allows for the instantaneous broadcast of personal content to global audiences.",
-      "explanation_incorrect": "These alternatives are either two-way communication tools or asynchronous media formats.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Live streaming distributes video in real time or near real time, often to an audience.",
+      "explanation_incorrect": "Video conferencing is typically interactive, podcasts are often prerecorded, and telepresence is a broader concept."
     },
     {
       "subcategory": "Aerospace",
-      "question": "What vehicle design, conceived in sci-fi to transition between orbit and land, became the workhorse of real-world orbital transit?",
+      "question": "What NASA vehicle flew astronauts to orbit and returned to land on a runway?",
       "options": [
         "Space shuttle",
-        "Orbital plane",
-        "Single-stage rocket",
-        "Re-entry capsule"
+        "Lunar rover",
+        "Sounding balloon",
+        "Space telescope"
       ],
       "answer": "Space shuttle",
-      "explanation_correct": "The Space Shuttle was the first partially reusable orbital vehicle to realize sci-fi dreams of frequent transit.",
-      "explanation_incorrect": "Capsules were the standard pre-shuttle, and the other concepts were not successfully deployed as reusable launch systems.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "NASA’s Space Shuttle used a reusable winged orbiter and reusable boosters; its external tank was discarded.",
+      "explanation_incorrect": "A lunar rover, balloon and space telescope do not perform the shuttle’s orbital transport role."
     },
     {
       "subcategory": "Medicine",
-      "question": "What medical breakthrough, once considered the pinnacle of unnatural biological interference in fiction, is now a common reproductive treatment?",
+      "question": "What fertility treatment involves fertilizing an egg outside the body and transferring a resulting embryo to the uterus?",
       "options": [
-        "Test tube baby",
+        "In vitro fertilization (IVF)",
         "Artificial womb",
-        "Embryo selection",
-        "Gamete harvest"
+        "Cardiac bypass",
+        "Dialysis"
       ],
-      "answer": "Test tube baby",
-      "explanation_correct": "In vitro fertilization resulted in the first successful human births outside the body, mirroring early sci-fi anxieties.",
-      "explanation_incorrect": "Artificial wombs remain largely speculative, and embryo selection or harvest are processes within the broader IVF lifecycle.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "In vitro fertilization (IVF)",
+      "explanation_correct": "IVF involves fertilization in a laboratory and may involve transferring an embryo to a uterus. The resulting pregnancy and birth occur in the body.",
+      "explanation_incorrect": "An artificial womb is a different concept; cardiac bypass and dialysis are unrelated treatments."
     },
     {
       "subcategory": "Navigation",
-      "question": "What global positioning utility, once described as a series of orbiting reference points in fiction, is now standard for navigation?",
+      "question": "What is the name of the U.S. satellite navigation system commonly abbreviated GPS?",
       "options": [
-        "GPS",
+        "Global Positioning System",
         "GLONASS",
         "Galileo",
-        "BDS"
+        "BeiDou"
       ],
-      "answer": "GPS",
-      "explanation_correct": "GPS (Global Positioning System) utilizes a constellation of satellites to provide precise geolocation to users worldwide.",
-      "explanation_incorrect": "The others are foreign regional counterparts developed independently from the original conceptual realization of common satellite navigation.",
-      "last_verified_at": "2026-06-12T16:19:56.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Global Positioning System",
+      "explanation_correct": "GPS is the U.S. Global Positioning System, a satellite navigation constellation.",
+      "explanation_incorrect": "GLONASS, Galileo and BeiDou are other satellite navigation systems with global coverage."
     },
     {
       "subcategory": "Automotive",
-      "question": "Which transportation technology, commonly featured as the noiseless, clean vehicle of the future, is currently replacing internal combustion engines?",
+      "question": "What kind of car uses an electric motor and draws its driving energy from a rechargeable battery?",
       "options": [
-        "Electric car",
-        "Hydrogen fuel cell vehicle",
-        "Compressed air vehicle",
-        "Magnetic levitation transport"
+        "Battery-electric car",
+        "Conventional gasoline car",
+        "Steam locomotive",
+        "Sailboat"
       ],
-      "answer": "Electric car",
-      "explanation_correct": "The electric car has transitioned from a sci-fi novelty to a mainstream automotive reality.",
-      "explanation_incorrect": "Hydrogen vehicles utilize a different fuel pathway, while maglev is a train-based rail technology, not a standard road vehicle.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Battery-electric car",
+      "explanation_correct": "Battery-electric cars use rechargeable batteries to power electric motors. Electric cars existed long before modern science fiction.",
+      "explanation_incorrect": "A gasoline car uses an internal combustion engine; the other choices are not battery-electric road cars."
     },
     {
       "subcategory": "Genetics",
-      "question": "What biological process, which captured the public imagination through sci-fi stories of identical replicas, was first achieved in mammals in 1996?",
+      "question": "What process produced Dolly, the sheep born in 1996 that was cloned from an adult cell?",
       "options": [
         "Cloning",
         "Genetic splicing",
@@ -858,25 +764,21 @@
         "Gene editing"
       ],
       "answer": "Cloning",
-      "explanation_correct": "Cloning refers to the creation of a genetically identical copy of a biological organism.",
-      "explanation_incorrect": "The other options involve modifying or manipulating DNA rather than creating an exact organismal duplicate.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dolly was the first mammal cloned from an adult somatic cell. Other mammals had already been cloned from embryonic cells.",
+      "explanation_incorrect": "Gene editing, splicing and stem-cell alteration describe other kinds of biological techniques."
     },
     {
       "subcategory": "Public Safety",
-      "question": "Which life-saving piece of medical hardware, often seen providing automated intervention in science fiction emergencies, is now a public access fixture?",
+      "question": "What portable emergency device can analyze a heart rhythm and advise or deliver a shock when appropriate?",
       "options": [
-        "Defibrillator",
+        "Automated external defibrillator",
         "Pacemaker",
-        "Ventilator",
-        "Dialysis machine"
+        "Dialysis machine",
+        "Thermometer"
       ],
-      "answer": "Defibrillator",
-      "explanation_correct": "Automated External Defibrillators have become standard safety equipment in many public venues.",
-      "explanation_incorrect": "The other devices are generally specialized clinical equipment not intended for public access emergency resuscitation.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Automated external defibrillator",
+      "explanation_correct": "An automated external defibrillator (AED) analyzes rhythm and provides prompts; a shock is advised only for certain rhythms.",
+      "explanation_incorrect": "Pacemakers, dialysis machines and thermometers serve different medical functions."
     },
     {
       "subcategory": "Computing",
@@ -910,22 +812,20 @@
     },
     {
       "subcategory": "Privacy",
-      "question": "Which government-implemented system evaluates citizens based on public profile tracking and behavioral data?",
+      "question": "What broad name is used for Chinese government initiatives involving compliance records and public trust?",
       "options": [
-        "Social credit",
-        "Tax scoring",
-        "Electoral rank",
-        "Universal rating"
+        "Social credit system",
+        "Global positioning system",
+        "Domain name system",
+        "Electronic mail"
       ],
-      "answer": "Social credit",
-      "explanation_correct": "Social credit systems aggregate public data and behavioral tracking to assign scores to individuals. These systems function to influence or monitor societal compliance.",
-      "explanation_incorrect": "Tax scoring, electoral rank, and universal rating are not standardized systems used to monitor public behavior in the way social credit models operate.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Social credit system",
+      "explanation_correct": "China’s social credit system comprises varied record-keeping and enforcement initiatives. It is not a single universal citizen score.",
+      "explanation_incorrect": "The other options refer to navigation, internet naming and electronic messaging."
     },
     {
       "subcategory": "News",
-      "question": "What digital mechanism delivers a continuous, personalized stream of curated content based on user preference?",
+      "question": "What term describes a stream of posts or stories displayed by an online platform?",
       "options": [
         "RSS feed",
         "Bulletin board",
@@ -933,10 +833,8 @@
         "Headline scroll"
       ],
       "answer": "News feed",
-      "explanation_correct": "Modern digital news consumption is structured through algorithmically sorted streams known as news feeds. These platforms prioritize content based on individual engagement history.",
-      "explanation_incorrect": "RSS feeds are legacy delivery protocols, bulletin boards are static forums, and headline scrolls are linear tickers, none of which utilize personal algorithmic curation.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A news feed presents a stream of items; some platforms rank content using personalization algorithms, while others use different ordering.",
+      "explanation_incorrect": "RSS is a syndication format that can also be used to build personalized feeds; bulletin boards and tickers are different formats."
     },
     {
       "subcategory": "Gaming",
@@ -948,40 +846,34 @@
         "Cyberspace hub"
       ],
       "answer": "Metaverse",
-      "explanation_correct": "The metaverse represents an interconnected virtual environment where 3D interaction and social presence are possible.",
-      "explanation_incorrect": "Simulation realm, virtual cockpit, and cyberspace hub are either technical components or general descriptors rather than the standard industry term for persistent virtual spaces.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The metaverse is a broad, contested term for persistent shared virtual environments; implementations vary and a single interconnected metaverse is not established.",
+      "explanation_incorrect": "Simulation realm, virtual cockpit, and cyberspace hub are either technical components or general descriptors rather than the standard industry term for persistent virtual spaces."
     },
     {
       "subcategory": "Urbanism",
-      "question": "Which large-scale enclosed ecosystem serves as a controlled environment modeled to simulate Earth's natural life-support systems?",
+      "question": "What is the name of the enclosed research facility in Arizona used to study interconnected ecosystems?",
       "options": [
-        "Biosphere",
-        "Terrarium pod",
-        "Ecoville",
-        "Arboretum dome"
+        "Biosphere 2",
+        "International Space Station",
+        "Large Hadron Collider",
+        "Hubble Space Telescope"
       ],
-      "answer": "Biosphere",
-      "explanation_correct": "The Biosphere refers to experimental structures designed to replicate entire planetary ecosystems in isolation.",
-      "explanation_incorrect": "Terrarium pods, ecovilles, and arboretum domes are smaller localized gardens or habitats that do not function as full systemic life-support experiments.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Biosphere 2",
+      "explanation_correct": "Biosphere 2 is a large enclosed experimental facility built to study ecological systems and life-support interactions.",
+      "explanation_incorrect": "The other choices are space or particle-physics research facilities."
     },
     {
       "subcategory": "Defense",
-      "question": "What autonomous hardware device is designed to monitor and defend a specific perimeter without direct human operation?",
+      "question": "What name is used for an automated defensive machine that monitors a guarded area?",
       "options": [
         "Sentry robot",
-        "Combat drone",
-        "Patrol vehicle",
-        "Guard turret"
+        "Refrigerator",
+        "E-reader",
+        "Thermometer"
       ],
       "answer": "Sentry robot",
-      "explanation_correct": "Sentry robots are automated defensive systems capable of identifying and responding to incoming threats along a fixed line or zone.",
-      "explanation_incorrect": "Combat drones and patrol vehicles are mobile platforms, while guard turrets are static components often lacking the autonomous AI found in sentry robots.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A sentry robot is an automated system intended to monitor or guard an area; its sensors and level of autonomy vary.",
+      "explanation_incorrect": "The other choices are not defensive robotic systems. An automated guard turret can also perform a sentry function."
     },
     {
       "subcategory": "Agriculture",
@@ -1000,18 +892,16 @@
     },
     {
       "subcategory": "Automation",
-      "question": "Which technology enables 'just walk out' shopping by using cameras and sensors to automatically bill customers as they leave a store?",
+      "question": "What is Amazon’s name for the cashierless retail technology used in some Amazon Go stores?",
       "options": [
-        "Autonomous retail",
-        "Self-checkout",
-        "Digital kiosk",
-        "Express lane"
+        "Just Walk Out",
+        "OpenStreetMap",
+        "FaceTime",
+        "Kindle"
       ],
-      "answer": "Autonomous retail",
-      "explanation_correct": "Autonomous retail stores, like Amazon Go, use computer vision to eliminate the need for any checkout process at all.",
-      "explanation_incorrect": "Self-checkout still requires a manual scanning step, while kiosks and express lanes involve traditional point-of-sale interactions.",
-      "last_verified_at": "2026-06-12T16:19:56.517Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Just Walk Out",
+      "explanation_correct": "Just Walk Out is a retail technology using sensors and software to identify purchases without a conventional checkout; implementation varies by store.",
+      "explanation_incorrect": "OpenStreetMap, FaceTime and Kindle are unrelated products or services."
     },
     {
       "subcategory": "Neuroscience",
@@ -1030,7 +920,7 @@
     },
     {
       "subcategory": "Transport",
-      "question": "What high-speed vehicle utilizes magnetic forces to glide above tracks, effectively eliminating friction?",
+      "question": "What kind of train uses magnetic levitation to travel above a guideway?",
       "options": [
         "Rail-flyer",
         "Maglev train",
@@ -1038,14 +928,12 @@
         "Induction coach"
       ],
       "answer": "Maglev train",
-      "explanation_correct": "Magnetic levitation, or Maglev, trains use repulsion to remain suspended above the guideway to achieve high-speed transit.",
-      "explanation_incorrect": "Rail-flyers, vacuum tube pods, and induction coaches are descriptive or futuristic concepts that do not define the established Maglev standard.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Maglev systems use magnetic forces to levitate and guide trains, reducing wheel-to-rail contact friction. Air resistance still applies.",
+      "explanation_incorrect": "The other choices are not the standard name for magnetic-levitation trains."
     },
     {
       "subcategory": "Optics",
-      "question": "What is the three-dimensional light projection created through laser interference patterns?",
+      "question": "What is the name of a recording that uses light interference to reproduce a three-dimensional appearance?",
       "options": [
         "Stereogram",
         "Hologram",
@@ -1053,14 +941,12 @@
         "Prism display"
       ],
       "answer": "Hologram",
-      "explanation_correct": "A hologram is a recording of a light field rather than an image formed by a lens, providing depth in 3D.",
-      "explanation_incorrect": "Stereograms rely on eye-focusing, visigraphs are outdated recording devices, and prism displays are simple light refraction tools.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A hologram records an interference pattern that can reconstruct a light field when appropriately illuminated; it is not necessarily a free-floating projection.",
+      "explanation_incorrect": "A stereogram encodes depth differently; prism displays use refraction and visigraph is not the term requested."
     },
     {
       "subcategory": "Advertising",
-      "question": "What data-driven strategy uses historical browsing and demographic indicators to display custom ads?",
+      "question": "What term describes tailoring marketing messages or advertisements to an individual’s interests or behavior?",
       "options": [
         "Automated sales",
         "Personalized marketing",
@@ -1068,10 +954,8 @@
         "Dynamic advertising"
       ],
       "answer": "Personalized marketing",
-      "explanation_correct": "Personalized marketing identifies consumer preferences via digital footprints to deliver tailored advertisements.",
-      "explanation_incorrect": "Automated sales, audience profiling, and dynamic advertising are broader business concepts that do not exclusively refer to the specific ad-targeting cycle.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Personalized marketing uses information about audiences or individuals to tailor messages. Audience profiling may be one part of that process.",
+      "explanation_incorrect": "Automated sales and audience profiling are related practices; the question asks for the broader tailored-marketing term."
     },
     {
       "subcategory": "Biology",
@@ -1113,10 +997,8 @@
         "Remote processing"
       ],
       "answer": "Cloud computing",
-      "explanation_correct": "Cloud computing delivers storage and computational power over the web rather than relying on local hardware.",
-      "explanation_incorrect": "Web storage and remote processing are features of cloud systems, and server clusters are the underlying infrastructure, not the conceptual service model.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cloud computing offers on-demand access to shared computing resources over a network; infrastructure and service models vary.",
+      "explanation_incorrect": "Storage and remote processing can be cloud services, while a server cluster is a possible underlying component."
     },
     {
       "subcategory": "Medicine",
@@ -1128,10 +1010,8 @@
         "Pulse monitor"
       ],
       "answer": "Tricorder",
-      "explanation_correct": "Originating from science fiction, the tricorder is the recognized inspiration for portable diagnostic devices that analyze health data instantly.",
-      "explanation_incorrect": "Bio-reader, health scanner, and pulse monitor are too generic or limited in scope compared to the multi-functional nature of the iconic fictional term.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The tricorder is a multifunctional fictional Star Trek instrument often compared with portable diagnostic devices. Real devices vary in purpose and capability.",
+      "explanation_incorrect": "Bio-reader, health scanner, and pulse monitor are too generic or limited in scope compared to the multi-functional nature of the iconic fictional term."
     },
     {
       "subcategory": "Politics",
@@ -1143,10 +1023,8 @@
         "All-sight tower"
       ],
       "answer": "Panopticon",
-      "explanation_correct": "The Panopticon is a architectural surveillance design where a single watchman can view every prisoner without the prisoner knowing if they are being observed.",
-      "explanation_incorrect": "Central watch, vantage node, and all-sight tower are purely descriptive phrases that lack the historical and philosophical baggage of the actual design term.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Panopticon is a proposed institutional design associated with Jeremy Bentham, in which a central observer may watch occupants who cannot tell when they are being observed.",
+      "explanation_incorrect": "Central watch, vantage node, and all-sight tower are purely descriptive phrases that lack the historical and philosophical baggage of the actual design term."
     },
     {
       "subcategory": "Space Travel",
@@ -1158,10 +1036,8 @@
         "Exploration craft"
       ],
       "answer": "Mars rover",
-      "explanation_correct": "A Mars rover is a robotic vehicle designed to land and autonomously traverse the surface of Mars to conduct scientific research.",
-      "explanation_incorrect": "Space probe refers to any unmanned vessel, while red planet lab and exploration craft are not standard types of planetary surface surface rovers.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A Mars rover is a robotic surface vehicle that can conduct scientific investigations. It is commanded from Earth and can perform some tasks autonomously.",
+      "explanation_incorrect": "Space probe is a broader category; the other phrases are not specific names for a Mars surface rover."
     },
     {
       "subcategory": "Robotics",
@@ -1195,18 +1071,16 @@
     },
     {
       "subcategory": "Finance",
-      "question": "Which piece of banking hardware allows customers to perform financial transactions including cash withdrawals without a teller?",
+      "question": "What does ATM stand for in banking?",
       "options": [
-        "Bank terminal",
-        "ATM",
-        "Cash point",
-        "Transaction unit"
+        "Automated teller machine",
+        "Automatic transfer modem",
+        "Account tracking mechanism",
+        "Access token manager"
       ],
-      "answer": "ATM",
-      "explanation_correct": "The automated teller machine (ATM) is the standard device for autonomous banking and cash dispensing.",
-      "explanation_incorrect": "Bank terminal, cash point, and transaction unit describe the function but are not the specific, universally recognized abbreviation for the device.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Automated teller machine",
+      "explanation_correct": "An automated teller machine enables banking transactions such as cash withdrawals. It is also called a cashpoint.",
+      "explanation_incorrect": "The other phrases are not the banking expansion of ATM."
     },
     {
       "subcategory": "Surveillance",
@@ -1233,10 +1107,8 @@
         "Cluster bomb"
       ],
       "answer": "Smart bomb",
-      "explanation_correct": "Smart bombs utilize guidance systems to increase the likelihood of hitting a specific target while minimizing collateral damage.",
-      "explanation_incorrect": "The other options refer to non-precise, high-volume, or autonomous flight systems not classified as traditional smart bombs.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A smart bomb generally uses guidance to improve targeting accuracy. Guidance alone cannot guarantee avoidance of collateral damage.",
+      "explanation_incorrect": "Cruise missiles can also be precision-guided, but are powered missiles rather than the guided bomb described."
     },
     {
       "subcategory": "Medicine",
@@ -1255,7 +1127,7 @@
     },
     {
       "subcategory": "Communication",
-      "question": "Which portable electronic device uses AI to translate spoken languages in real time directly to the user's ear?",
+      "question": "What wireless audio accessory can play translated speech generated by a connected phone or app directly into the wearer’s ears?",
       "options": [
         "Smart earbuds",
         "Digital translator pen",
@@ -1263,10 +1135,8 @@
         "Voice-recognition microphone"
       ],
       "answer": "Smart earbuds",
-      "explanation_correct": "Smart earbuds integrate wireless connectivity and AI software to offer live language translation between two speakers.",
-      "explanation_incorrect": "Translating pens and microphones lack the wireless audio delivery system required for seamless, simultaneous conversation.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Some smart earbuds work with a connected phone and translation software; capabilities, latency and language support vary.",
+      "explanation_incorrect": "A translation pen, handheld interpreter and microphone are different devices that can also assist with translation."
     },
     {
       "subcategory": "Lifestyle",
@@ -1293,14 +1163,12 @@
         "Statistical anomaly"
       ],
       "answer": "Algorithmic bias",
-      "explanation_correct": "Algorithmic bias occurs when computer systems reflect the prejudices present in the training data used to build them.",
-      "explanation_incorrect": "The other terms refer to hardware failure, database security issues, or natural statistical variation.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Algorithmic bias can arise from training data, design choices, deployment or other factors and produce systematically skewed outcomes.",
+      "explanation_incorrect": "The other terms refer to hardware failure, database security issues, or natural statistical variation."
     },
     {
       "subcategory": "Aerospace",
-      "question": "Which specialized aircraft is defined by its ability to take off and land vertically, often utilized for agile aviation operations?",
+      "question": "What colloquial name is used for a jet aircraft capable of vertical takeoff and landing, such as the Harrier?",
       "options": [
         "Jump jet",
         "Seaplane",
@@ -1308,10 +1176,8 @@
         "Helicopter"
       ],
       "answer": "Jump jet",
-      "explanation_correct": "A jump jet is a colloquial term for an aircraft capable of vertical takeoff and landing (VTOL).",
-      "explanation_incorrect": "Seaplanes and gliders rely on water or runway space, while helicopters are a distinct class of rotorcraft.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Harrier is a jet aircraft capable of vertical or short takeoff and landing and is commonly called a jump jet.",
+      "explanation_incorrect": "Helicopters also take off vertically but use rotors; seaplanes and gliders are other aircraft types."
     },
     {
       "subcategory": "Social",
@@ -1353,10 +1219,8 @@
         "Invasive endoscopy"
       ],
       "answer": "Organ transplant",
-      "explanation_correct": "An organ transplant is a life-saving procedure where a damaged or failing organ is replaced with a healthy one from a donor.",
-      "explanation_incorrect": "Biopsies and endoscopies are diagnostic, and plastic surgery is generally reconstructive or cosmetic, not life-saving replacement.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Organ transplantation replaces a failing organ with a donor organ. The goal is often life-saving or quality-of-life improvement, depending on the transplant.",
+      "explanation_incorrect": "Biopsies and endoscopies are diagnostic, and plastic surgery is generally reconstructive or cosmetic, not life-saving replacement."
     },
     {
       "subcategory": "Warfare",
@@ -1368,14 +1232,12 @@
         "Combat vest"
       ],
       "answer": "Exoskeleton",
-      "explanation_correct": "An exoskeleton provides mechanical support to the user, allowing them to carry heavy loads or perform tasks with increased power.",
-      "explanation_incorrect": "Harnesses, vests, and pressure suits are protective or specialized clothing but do not provide autonomous mechanical power.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "An exoskeleton is a wearable structure that may provide mechanical support. Some are powered and others are passive.",
+      "explanation_incorrect": "Harnesses, pressure suits and vests primarily serve other protective or support roles."
     },
     {
       "subcategory": "Computing",
-      "question": "Which widely recognized virtual assistant software was the first to popularize voice-based interactive search queries on mobile devices?",
+      "question": "What is Apple’s voice assistant, introduced on the iPhone 4S in 2011, called?",
       "options": [
         "Siri",
         "Alexa",
@@ -1383,10 +1245,8 @@
         "Google Assistant"
       ],
       "answer": "Siri",
-      "explanation_correct": "Siri was integrated into consumer smartphones in 2011, making it the most prominent early example of a voice-controlled virtual assistant.",
-      "explanation_incorrect": "While others perform similar functions, they were released or popularized later in the voice-assistant market.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Apple integrated Siri into the iPhone 4S in 2011.",
+      "explanation_incorrect": "Alexa, Cortana and Google Assistant are assistants associated with other companies."
     },
     {
       "subcategory": "Optics",
@@ -1394,14 +1254,12 @@
       "options": [
         "Heads-up display",
         "Liquid crystal display",
-        "Retinal projection",
-        "Virtual desktop"
+        "Virtual desktop",
+        "Audio speaker"
       ],
       "answer": "Heads-up display",
       "explanation_correct": "A heads-up display presents information without forcing the user to change their viewpoint from the physical surroundings.",
-      "explanation_incorrect": "Standard displays and desktops require gaze shifting, and retinal projection is a specific hardware method rather than the name of the display category.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "An LCD is a display technology, a virtual desktop is a computing environment, and a speaker produces sound. Retinal projection can also present information in a user’s field of view."
     },
     {
       "subcategory": "Information",
@@ -1428,10 +1286,8 @@
         "Mining drill"
       ],
       "answer": "EOD robot",
-      "explanation_correct": "Explosive Ordnance Disposal (EOD) robots are specifically engineered to handle hazardous devices from a safe distance.",
-      "explanation_incorrect": "Drones are primarily for observation, while rovers and drills are for transport or excavation.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Explosive ordnance disposal robots let operators remotely inspect or manipulate hazardous objects, reducing direct exposure; they do not guarantee safety.",
+      "explanation_incorrect": "Drones are primarily for observation, while rovers and drills are for transport or excavation."
     },
     {
       "subcategory": "Biology",
@@ -1465,7 +1321,7 @@
     },
     {
       "subcategory": "Travel",
-      "question": "Which popular consumer software revolutionized individual travel by combining GPS technology with real-time dynamic pathfinding algorithms?",
+      "question": "Which mapping service is developed by Google?",
       "options": [
         "Google Maps",
         "MapQuest",
@@ -1473,29 +1329,25 @@
         "Satellite imagery"
       ],
       "answer": "Google Maps",
-      "explanation_correct": "Google Maps integrated mobile routing and real-time pathfinding, becoming the standard tool for digital navigation.",
-      "explanation_incorrect": "MapQuest was an earlier web tool, while GPS and satellite imagery are the technologies upon which apps rely, not the navigational services themselves.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Google Maps provides mapping and navigation, including routes and traffic information in supported areas.",
+      "explanation_incorrect": "MapQuest is a separate mapping service; GPS and satellite imagery are supporting technologies."
     },
     {
       "subcategory": "Communication",
-      "question": "What identifier has become the 'personal number for life' for most individuals living in the modern digital age?",
+      "question": "What nine-digit identifier does the U.S. Social Security Administration assign to track an individual’s earnings and benefits?",
       "options": [
-        "Mobile number",
         "Social Security number",
-        "Digital signature ID",
-        "Passport number"
+        "Mobile number",
+        "Passport number",
+        "Internet Protocol address"
       ],
-      "answer": "Mobile number",
-      "explanation_correct": "The mobile number serves as a primary, persistent identity token used to authenticate accounts and contact individuals worldwide.",
-      "explanation_incorrect": "SSNs and passports are government-issued identity documents, not primary communication links for daily personal interaction.",
-      "last_verified_at": "2026-06-12T16:19:15.349Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Social Security number",
+      "explanation_correct": "A U.S. Social Security number identifies Social Security records. It is not assigned to every person worldwide and is not proof of identity by itself.",
+      "explanation_incorrect": "A mobile number, passport number and IP address serve different purposes and can change."
     },
     {
       "subcategory": "Architecture",
-      "question": "Which specific architectural structure holds the current record as the tallest building ever constructed, demonstrating modern engineering feats?",
+      "question": "Which completed building was the world’s tallest by architectural height in 2026?",
       "options": [
         "Burj Khalifa",
         "Shanghai Tower",
@@ -1503,10 +1355,8 @@
         "One World Trade Center"
       ],
       "answer": "Burj Khalifa",
-      "explanation_correct": "Located in Dubai, the Burj Khalifa is the world's tallest building, reaching a height of over 800 meters.",
-      "explanation_incorrect": "The other towers are significant examples of modern high-rise architecture but remain shorter than the record-holding structure.",
-      "last_verified_at": "2026-06-12T16:19:15.350Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Burj Khalifa in Dubai is listed at 828 meters and led the 2026 completed-building ranking.",
+      "explanation_incorrect": "Shanghai Tower, Taipei 101 and One World Trade Center are shorter completed buildings; rankings may change."
     }
   ]
 }
