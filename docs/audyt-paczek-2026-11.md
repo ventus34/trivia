@@ -120,6 +120,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Zjawiska Paranormalne (PL):** przegląd 94 pytań, korekty 82 pozycji i niezależna kontrola wybranych relacji; [raport](audits/2026-11-08-zjawiska-paranormalne-pl.md).
 
+- **Teatr i Sceny Świata (PL):** przegląd 68 pytań, korekty 55 pozycji; [raport](audits/2026-11-08-teatr-i-sceny-swiata-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
