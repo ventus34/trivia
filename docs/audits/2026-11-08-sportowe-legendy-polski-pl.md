@@ -1,0 +1,19 @@
+# Przegląd paczki sportowe_legendy_polski_pl
+
+Data: 2026-11-08. Zakres: opis oraz wszystkie 100 pytań, cztery warianty, klucze i oba wyjaśnienia. Zachowano 100 pytań i nie zmieniono opisu. Kontrola strukturalna objęła liczbę i unikalność wariantów, obecność klucza w wariantach oraz niepuste treści i wyjaśnienia. Numery poniżej oznaczają pozycje w tablicy, liczone od 1.
+
+Poprawiono pozycje: 1, 3–9, 11–12, 17–18, 20, 22, 25–27, 29, 31–35, 37, 39–40, 42, 44, 46–47, 49, 52–55, 58, 60, 66–68, 70, 72–73, 76, 78–81, 83–86, 88–90, 93–96, 98–100. Obejmują one korekty faktów, doprecyzowanie pytań i porządkowanie wyjaśnień. W szczególności poprawiono igrzyska i dorobek Andrzeja Wrońskiego, Karoliny Naji, Waldemara Baszanowskiego i czwórki wioślarskiej; usunięto przypisanie Bartoszowi Kurkowi udziału w MŚ 2014; doprecyzowano sukcesy wioślarskie Roberta Sycza i Tomasza Kucharskiego, wyniki Sylwii Gruchały i Heleny Rakoczy oraz przebieg meczu Polska–Anglia w 1973 r. Przy pytaniu o Naje zawężono odpowiedź do wymienionych wariantów, ponieważ w Tokio te same dwa medale zdobyła także Anna Puławska.
+
+Wybrane źródła weryfikacji:
+
+- [PKOl: Irena Szewińska](https://olimpijski.pl/irena-szewinska-kirszenstein/), [Andrzej Wroński](https://olimpijski.pl/olimpijczycy/andrzej-wronski/), [Karolina Naja](https://olimpijski.pl/olimpijczycy/karolina-naja/), [Waldemar Baszanowski](https://olimpijski.pl/olimpijczycy/waldemar-romuald-baszanowski/), [Helena Rakoczy](https://olimpijski.pl/olimpijczycy/helena-rakoczy-krzynowek/) i [Sylwia Gruchała](https://olimpijski.pl/olimpijczycy/sylwia-gruchala/) — biografie i wyniki olimpijskie.
+- [PZLA: rekord Józefa Szmidta](https://pzla.pl/aktualnosci/14625-65-lat-temu-jozef-szmidt-ustanowil-rekord-swiata-w-trojskoku) i [tabele statystyczne PZLA](https://statystyka.pzla.pl/stat.php?All=1&Gen=top10&Ile=10&K%5B%5D=2&Plec=M&kat=0) — nazwisko i oficjalny wynik Mariana Woronina.
+- [IHF: laureaci nagrody zawodnika roku](https://archive.ihf.info/en-us/thegame/allthepreviousworldhandballplayers.aspx) — Sławomir Szmal.
+- [World Rowing: nominowani do nagród za 2009 rok](https://worldrowing.com/2012/01/27/world-rowing-announces-2009-award-finalists/) i [PZTW: złoto Sycza i Kucharskiego](https://www.pztw.pl/aktualnosci/wiadomosci/1271-20-lat-od-zlota-olimpijskiego-sycza-i-kucharskiego-w-sydney) — wyniki i skład osad.
+- [FIVB: Bartosz Kurek](https://www.fivb.com/kurek-still-powering-polands-golden-generation/) — nieobecność w kadrze na MŚ 2014.
+- [FIS: wyniki Małgorzaty Tlałki](https://www.fis-ski.com/DB/general/athlete-biography.html?competitorid=40939&sectorcode=al&type=result) oraz [Wimbledon: Iga Świątek](https://www.wimbledon.com/en_GB/players/overview/wta326408) — wyniki narciarskie i tenisowe.
+- [World Athletics: finał skoku o tyczce, Stambuł 2012](https://worldathletics.org/results/iaaf-world-indoor-championships/2012/iaaf-world-indoor-championships-2012-7033295/men/pole-vault/final/result) i [artykuł o Pawle Wojciechowskim](https://worldathletics.org/news/news/new-polish-hero-bracing-for-successful-future).
+- [PZPN: Polska–Anglia 1973](https://www.laczynaspilka.pl/biblioteka/mecze/polska-anglia-20-06061973) i [Polska–Haiti 1974](https://www.laczynaspilka.pl/biblioteka/mecze/polska-haiti-70-19061974) — przebieg spotkań; źródło podaje różne przypisania pierwszego gola w meczu z Anglią, dlatego nie rozstrzygano ich w odpowiedzi.
+- [Magazyn Olimpijski PKOl, nr 4/2021](https://olimpijski.pl/wp-content/uploads/2022/01/Magazyn_Olimpijski_04_2021.pdf) — późniejsze wręczenie Tomaszowi Zielińskiemu medalu za Londyn 2012 po zmianie klasyfikacji.
+
+Ograniczenia: źródła powyżej dokumentują wybrane istotne korekty, a nie stanowią osobnej weryfikacji każdego twierdzenia w paczce. Osiągnięcia sportowe i klasyfikacje mogą się zmienić po dacie przeglądu, zwłaszcza w wyniku dyskwalifikacji lub kolejnych zawodów.

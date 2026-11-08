@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **203** pozycji ma raport deklarujący przegląd całości paczki.
+- **204** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **22** pozycji nie ma dedykowanego raportu merytorycznego.
+- **21** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -195,7 +195,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 172 | `smart_materials_composites_en` | Smart Materials & Composites | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) | PEŁNY ODCZYT deklarowany. Zakres: indeks 172, `smart_materials_composites_en`, 100 pytań. Przeczytano wszystkie pytania i wyjaśnienia; poniższe poprawki dotyczą stwierdzonych błędów lub niejednoznaczności. Nie… |
 | 173 | `socjologia_i_spoeczestwo_pl` | Socjologia i Społeczeństwo | [2026-11-07-socjologia-i-spoleczenstwo-pl.md](2026-11-07-socjologia-i-spoleczenstwo-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis i 100 pytań wraz z odpowiedziami i wyjaśnieniami. Zmieniono 62 pozycje: 1, 3–4, 6, 8, 10, 12–14, 16–17, 21, 23–27, 29–31, 34–36, 39, 43–45, 47–49, 51, 57–61, 63–68, 71–72,… |
 | 174 | `sodycze_i_desery_pl` | Słodycze i Desery | [2026-11-07-slodycze-i-desery-pl.md](2026-11-07-slodycze-i-desery-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis oraz 100 pytań, odpowiedzi i wyjaśnień; zmieniono 53 pozycje: 3, 6, 8, 10, 12–13, 15, 17–19, 21, 23, 25, 28, 30, 33–35, 38, 40–43, 47–48, 50–51, 53, 56–58, 60, 64, 66, 69,… |
-| 175 | `sportowe_legendy_polski_pl` | Sportowe Legendy Polski | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
+| 175 | `sportowe_legendy_polski_pl` | Sportowe Legendy Polski | [2026-11-08-sportowe-legendy-polski-pl.md](2026-11-08-sportowe-legendy-polski-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 62 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 176 | `sporty_motorowe_pl` | Sporty Motorowe | [2026-11-06-sporty-motorowe-pl.md](2026-11-06-sporty-motorowe-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, zestawów odpowiedzi i wyjaśnień oraz opis paczki `sporty_motorowe_pl`. Zmieniono 75 rekordów: 1–6, 9, 12–13, 15, 17, 19, 22–23, 25–26, 28–29, 31, 33–34, 36–42, 44,… |
 | 177 | `sporty_wiata_pl` | Sporty Świata | [2026-11-08-sporty-wiata-pl.md](2026-11-08-sporty-wiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 69 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 178 | `sporty_zimowe_pl` | Sporty Zimowe | [2026-11-06-sporty-zimowe-pl.md](2026-11-06-sporty-zimowe-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, zestawów odpowiedzi i wyjaśnień w paczce `sporty_zimowe_pl` oraz opis. Zmieniono 66 rekordów: 1, 3, 4, 6, 7, 9, 12, 15, 16, 17, 18, 21, 23, 25, 27, 29, 30, 33, 34,… |
