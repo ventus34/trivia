@@ -194,6 +194,9 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Otaku Culture (EN):** przegląd 100 pytań i korekty 49 rekordów; [raport](audits/2026-11-08-otaku-culture-en.md).
 
+- **Nauka Stosowana i Codzienna Technologia (PL):** przegląd 100 pytań, korekty 80 rekordów; [raport](audits/2026-11-08-nauka-stosowana-i-codzienna-technologia-pl.md).
+- **Odkrycia geograficzne (PL):** przegląd 119 pytań, korekty 89 rekordów; [raport](audits/2026-11-08-odkrycia-geograficzne-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

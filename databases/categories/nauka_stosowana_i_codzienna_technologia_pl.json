@@ -12,20 +12,20 @@
       "subcategory": "Codzienna technologia",
       "question": "Jaka metoda matematyczna (wykorzystująca pomiar czasu dotarcia sygnału z minimum czterech satelitów) służy do wyznaczania pozycji w systemie GPS?",
       "options": [
-        "Trilateracja (Trilateration)",
-        "Triangulacja",
-        "Multilateracja",
-        "Interpolacja liniowa"
+        "Trilateracja (wyznaczanie pozycji z odległości)",
+        "Triangulacja oparta na kątach",
+        "Interpolacja liniowa",
+        "Kompresja stratna"
       ],
-      "answer": "Trilateracja (Trilateration)",
-      "explanation_correct": "GPS wykorzystuje trilaterację, czyli mierzenie odległości od znanych punktów (satelitów) na podstawie czasu podróży sygnału radiowego, a nie pomiar kątów (jak w triangulacji).",
-      "explanation_incorrect": "Triangulacja polega na pomiarze kątów, multilateracja mierzy różnicę czasu dotarcia sygnału (TDOA), a interpolacja to metoda przybliżania wartości funkcji.",
+      "answer": "Trilateracja (wyznaczanie pozycji z odległości)",
+      "explanation_correct": "Odbiornik wyznacza pozycję z pomiarów czasu propagacji sygnałów i pozycji satelitów, jednocześnie szacując błąd własnego zegara. Metodę opisuje się jako trilaterację lub multilaterację.",
+      "explanation_incorrect": "Triangulacja opiera się na kątach, interpolacja przybliża wartości pośrednie, a kompresja zmniejsza rozmiar danych.",
       "last_verified_at": "2026-06-12T15:28:44.009Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jaki pierwiastek chemiczny z grupy półprzewodników (najczęściej w postaci arsenku galu) stanowi podstawę działania diod LED emitujących światło?",
+      "question": "Który pierwiastek występuje w półprzewodnikach arsenek galu (GaAs) i azotek galu (GaN), używanych w diodach LED?",
       "options": [
         "Gal (Gallium)",
         "Krzem",
@@ -34,7 +34,7 @@
       ],
       "answer": "Gal (Gallium)",
       "explanation_correct": "Arsenek galu (GaAs) i inne związki galu (np. azotek galu) są kluczowymi półprzewodnikami o prostej przerwie wzbronionej, co umożliwia wydajną emisję światła (rekombinację promienistą).",
-      "explanation_incorrect": "Krzem i german to półprzewodniki o skośnej przerwie wzbronionej (słabo świecą), a ind jest domieszką, a nie głównym składnikiem klasycznych diod.",
+      "explanation_incorrect": "Krzem i german są innymi półprzewodnikami. Ind również bywa składnikiem materiałów diod LED, np. InGaN, ale nie występuje w podanych wzorach GaAs i GaN.",
       "last_verified_at": "2026-06-12T15:28:44.009Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -48,14 +48,14 @@
         "Akustyczna (SAW)"
       ],
       "answer": "Pojemnościowa (Capacitive)",
-      "explanation_correct": "Ekrany pojemnościowe pokryte są warstwą przewodzącą prąd. Dotknięcie palcem (który przewodzi prąd) zakłóca pole elektrostatyczne ekranu, co rejestruje kontroler.",
+      "explanation_correct": "Palec wpływa na pole elektryczne i pojemność elektrod czujnika; kontroler wykrywa tę zmianę. Często używa się przezroczystych warstw przewodzących.",
       "explanation_incorrect": "Ekrany rezystancyjne wymagają dociśnięcia dwóch warstw folii, ekrany podczerwone śledzą przerwanie wiązek światła, a akustyczne używają fal ultradźwiękowych.",
       "last_verified_at": "2026-06-12T15:28:44.009Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fizyka w domu",
-      "question": "Cząsteczki którego związku chemicznego w żywności są najefektywniej pobudzane do rotacji przez mikrofale, powodując tarcie i ogrzewanie potraw?",
+      "question": "Która substancja w wielu wilgotnych potrawach silnie pochłania energię mikrofal dzięki polarności cząsteczek?",
       "options": [
         "Woda (H2O / dipol)",
         "Tłuszcz",
@@ -63,8 +63,8 @@
         "Białko"
       ],
       "answer": "Woda (H2O / dipol)",
-      "explanation_correct": "Cząsteczka wody jest dipolem elektrycznym. Zmienne pole elektromagnetyczne o częstotliwości 2,45 GHz zmusza ją do rotacji miliony razy na sekundę, generując ciepło.",
-      "explanation_incorrect": "Tłuszcze i cukry (jak skrobia) oraz białka również absorbują energię, ale znacznie słabiej z powodu mniejszej polarności cząsteczek.",
+      "explanation_correct": "Cząsteczki wody reagują na zmienne pole elektryczne. Ich ruch i oddziaływania z otoczeniem powodują zamianę części energii pola na ciepło; ogrzewanie zależy też od składu i temperatury potrawy.",
+      "explanation_incorrect": "Tłuszcze, skrobia i białka mogą również uczestniczyć w pochłanianiu i przekazywaniu energii; wilgotna żywność zawiera zwykle dużo polarnej wody.",
       "last_verified_at": "2026-06-12T15:28:44.009Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -78,8 +78,8 @@
         "Tlen"
       ],
       "answer": "Fluor (Fluorine)",
-      "explanation_correct": "Teflon to politetrafluoroetylen (PTFE). Silne wiązania węgiel-fluor tworzą ochronną powłokę wokół łańcucha węglowego, czyniąc go obojętnym chemicznie i bardzo śliskim.",
-      "explanation_incorrect": "Chlor występuje w PVC, krzem w silikonach, a tlen w poliestrach; żadne z nich nie wykazuje tak niskiego współczynnika tarcia.",
+      "explanation_correct": "Teflon to politetrafluoroetylen (PTFE). Wiązania C–F i struktura fluorowanej powierzchni przyczyniają się do jego dużej odporności chemicznej i małego tarcia.",
+      "explanation_incorrect": "Chlor występuje m.in. w PVC, krzem w silikonach, a tlen w poliestrach; nie są to atomy otaczające łańcuch PTFE.",
       "last_verified_at": "2026-06-12T15:28:44.009Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -93,14 +93,14 @@
         "Efekt Halla"
       ],
       "answer": "Indukcja elektromagnetyczna Faradaya",
-      "explanation_correct": "Cewka pod płytą wytwarza szybkozmienne pole magnetyczne. Indukuje ono prądy wirowe (prądy Foucaulta) w ferromagnetycznym dnie garnka, co rozgrzewa naczynie oporem elektrycznym.",
+      "explanation_correct": "Cewka pod płytą wytwarza zmienne pole magnetyczne, które indukuje prądy w przewodzącym dnie. Straty elektryczne i magnetyczne ogrzewają naczynie; popularne płyty są projektowane przede wszystkim do naczyń ferromagnetycznych.",
       "explanation_incorrect": "Efekt Joule'a-Thomsona dotyczy rozprężania gazów, zjawisko Seebecka generuje napięcie z różnicy temperatur, a efekt Halla mierzy napięcie poprzeczne w polu magnetycznym.",
       "last_verified_at": "2026-06-12T15:28:44.009Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jaki związek chemiczny (ulegający gwałtownemu rozkładowi na azot i sód pod wpływem ciepła) napełnia poduszki powietrzne w autach w ułamku sekundy?",
+      "question": "Która substancja była używana w niektórych starszych generatorach gazu poduszek powietrznych jako źródło azotu?",
       "options": [
         "Azydek sodu (NaN3 / Sodium azide)",
         "Proch strzelniczy",
@@ -108,8 +108,8 @@
         "Nitrogliceryna"
       ],
       "answer": "Azydek sodu (NaN3 / Sodium azide)",
-      "explanation_correct": "Zapalnik elektryczny podgrzewa azydek sodu (NaN3), wywołując reakcję rozkładu uwalniającą ogromne ilości nietoksycznego gazowego azotu napełniającego worek.",
-      "explanation_incorrect": "Proch i nitrogliceryna są zbyt niszczycielskie i uwalniają toksyczne gazy, a węglan sodu (soda kalcynowana) nie rozkłada się wybuchowo.",
+      "explanation_correct": "W części starszych konstrukcji stosowano azydek sodu, który podczas uruchomienia wytwarza azot. Inne generatory korzystają z innych materiałów.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie wskazują azydku sodu. Skład generatorów poduszek różni się zależnie od konstrukcji.",
       "last_verified_at": "2026-06-12T15:28:54.087Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -123,7 +123,7 @@
         "Strefy ciche"
       ],
       "answer": "Wzorce wyszukiwania / pozycji (Finder patterns)",
-      "explanation_correct": "Wzorce wyszukiwania (Finder patterns) pomagają skanerowi rozpoznać kod QR, określić jego szerokość, wysokość oraz kąt nachylenia pod jakim jest czytany.",
+      "explanation_correct": "Trzy wzorce wyszukiwania pomagają czytnikowi wykryć położenie, orientację i skalę standardowego kodu QR.",
       "explanation_incorrect": "Wzorce wyrównania (mniejsze kwadraty) korygują zniekształcenia perspektywy, moduły to czarne kropki niosące dane, a strefa cicha to pusta ramka wokół kodu.",
       "last_verified_at": "2026-06-12T15:28:54.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -138,29 +138,29 @@
         "Amorficzne ciało stałe"
       ],
       "answer": "Ciekły kryształ (Liquid crystal)",
-      "explanation_correct": "Ciekłe kryształy płyną jak ciecz, ale ich cząsteczki zachowują porządek orientacyjny. Pod wpływem napięcia elektrycznego zmieniają układ, obracając płaszczyznę polaryzacji światła.",
+      "explanation_correct": "Ciekłe kryształy mają uporządkowanie orientacyjne, a jednocześnie zachowują płynność. Pole elektryczne zmienia ich ustawienie i sposób, w jaki warstwa współdziała ze światłem oraz polaryzatorami.",
       "explanation_incorrect": "Plazma świeci własnym światłem (ekrany plazmowe), kondensat istnieje w ultraniskich temperaturach, a ciała amorficzne (szkło) nie reagują na pole elektryczne w ten sposób.",
       "last_verified_at": "2026-06-12T15:28:54.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Dlaczego wkładanie metalowych przedmiotów o ostrych krawędziach (np. widelców) do mikrofalówki wywołuje niebezpieczne iskrzenie?",
+      "question": "Dlaczego metalowy widelec w kuchence mikrofalowej może wywołać iskrzenie?",
       "options": [
-        "Gromadzenie się ładunków elektrycznych na ostrych krawędziach wywołuje jonizację powietrza (wyładowanie koronowe)",
+        "Silne pole elektryczne przy ostrych krawędziach może jonizować powietrze i powodować wyładowania",
         "Metale odbijają mikrofale z powrotem do magnetronu powodując jego eksplozję",
         "Pole magnetyczne topi metal w ułamku sekundy",
         "Widelce rezonują mechanicznie z częstotliwością fal"
       ],
-      "answer": "Gromadzenie się ładunków elektrycznych na ostrych krawędziach wywołuje jonizację powietrza (wyładowanie koronowe)",
+      "answer": "Silne pole elektryczne przy ostrych krawędziach może jonizować powietrze i powodować wyładowania",
       "explanation_correct": "Mikrofale indukują w metalach prądy elektryczne. Na ostrych końcach widelca ładunki gromadzą się w dużym zagęszczeniu, co wywołuje lokalną jonizację powietrza i przeskok iskry.",
-      "explanation_incorrect": "Odbicie fal szkodzi urządzeniu, ale nie wywołuje bezpośrednio iskier na widelcu, metale nie topią się tak szybko, a rezonans mechaniczny nie zachodzi.",
+      "explanation_incorrect": "Ostre krawędzie mogą wzmacniać lokalne pole elektryczne i sprzyjać wyładowaniom. Należy używać naczyń dopuszczonych przez producenta urządzenia.",
       "last_verified_at": "2026-06-12T15:28:54.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zjawiska atmosferyczne",
-      "question": "Jaki rzeczywisty kształt przybierają spadające, duże krople deszczu pod wpływem oporu powietrza i napięcia powierzchniowego, wbrew powszechnemu rysunkowi 'łzy'?",
+      "question": "Jaki przybliżony kształt mogą mieć większe stabilne krople deszczu podczas spadania?",
       "options": [
         "Kształt bułki do hamburgera (płaski dół, zaokrąglona góra)",
         "Idealna kula",
@@ -169,7 +169,7 @@
       ],
       "answer": "Kształt bułki do hamburgera (płaski dół, zaokrąglona góra)",
       "explanation_correct": "Napięcie powierzchniowe dąży do kształtu kuli, ale opór powietrza spycha dolną część kropli ku górze, spłaszczając ją na kształt bułki do hamburgera.",
-      "explanation_incorrect": "Idealna kula występuje u małych kropel, wydłużona elipsa nie powstaje z powodu kierunku oporu, a płaski dysk uległby rozpadom na mniejsze kropelki.",
+      "explanation_incorrect": "Małe krople są prawie kuliste; bardzo duże mogą odkształcać się i rozpadać. Kształt nie przypomina rysunkowej łzy.",
       "last_verified_at": "2026-06-12T15:28:54.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -183,7 +183,7 @@
         "Załamanie fali (refrakcja)"
       ],
       "answer": "Interferencja destruktywna (Destructive interference)",
-      "explanation_correct": "Słuchawki ANC rejestrują hałas zewnętrzny za pomocą mikrofonów i generują identyczny dźwięk przesunięty w fazie o 180 stopni (antyfaza), co wygasza falę hałasu.",
+      "explanation_correct": "Mikrofony i układ sterujący wytwarzają sygnał o odpowiedniej amplitudzie i fazie, który ogranicza hałas przy uchu przez interferencję. Tłumienie nie jest idealne i zależy od częstotliwości oraz warunków.",
       "explanation_incorrect": "Dudnienie powstaje z fal o zbliżonej częstotliwości, dyfrakcja to ugięcie fali na przeszkodzie, a refrakcja to zmiana kierunku fali przy przejściu przez ośrodek.",
       "last_verified_at": "2026-06-12T15:28:54.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -199,13 +199,13 @@
       ],
       "answer": "Hamowanie rekuperacyjne (Regenerative braking)",
       "explanation_correct": "Hamowanie rekuperacyjne zamienia energię kinetyczną pojazdu na prąd elektryczny, który ładuje akumulatory, stawiając jednocześnie opór mechaniczny spowalniający auto.",
-      "explanation_incorrect": "Hamowanie rezystancyjne marnuje prąd na opornikach grzejnych, wiroprądowe używa magnesów bez odzysku prądu, a indukcja zwrotna to zjawisko fizyczne, nie układ hamowania.",
+      "explanation_incorrect": "W hamowaniu rezystancyjnym energia elektryczna jest rozpraszana w opornikach jako ciepło; pozostałe określenia nie opisują wskazanego odzysku energii do akumulatora.",
       "last_verified_at": "2026-06-12T15:28:54.089Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Inżynieria materiałowa",
-      "question": "Jaka struktura czystego węgla (ułożona w cienkie, płaskie arkusze o wiązaniach heksagonalnych) decyduje o niezwykłej wytrzymałości włókien węglowych?",
+      "question": "Jak nazywa się płaska sześciokątna sieć atomów węgla, której podobne fragmenty występują w strukturze wielu włókien węglowych?",
       "options": [
         "Struktura grafenowa",
         "Diament",
@@ -213,7 +213,7 @@
         "Fullereny"
       ],
       "answer": "Struktura grafenowa",
-      "explanation_correct": "Włókna węglowe składają się z warstw atomów węgla ułożonych w heksagonalną sieć (grafen), które są zorientowane wzdłuż osi włókna, zapewniając ogromną wytrzymałość.",
+      "explanation_correct": "We włóknach węglowych obszary o sieci podobnej do grafenu są częściowo uporządkowane i orientowane wzdłuż włókna; właściwości zależą również od ich struktury i wad.",
       "explanation_incorrect": "Diament ma strukturę trójwymiarową (tetraedryczną), lonsdaleit to heksagonalna odmiana diamentu, a fullereny to struktury sferyczne.",
       "last_verified_at": "2026-06-12T15:29:35.666Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -229,7 +229,7 @@
       ],
       "answer": "Dwutlenek węgla (CO2 / Carbon dioxide)",
       "explanation_correct": "Drożdże rozkładają cukry na etanol i dwutlenek węgla. Gazowy CO2 zostaje uwięziony przez siatkę glutenową w cieście, co powoduje jego spulchnienie i wzrost.",
-      "explanation_incorrect": "Tlen jest zużywany na początku rozrostu, etanol paruje podczas pieczenia (jest cieczą, nie gazem spulchniającym), a metan nie powstaje w tym procesie.",
+      "explanation_incorrect": "Etanol również powstaje podczas fermentacji, ale głównym gazem spulchniającym ciasto jest dwutlenek węgla. Metan nie jest typowym produktem fermentacji piekarskiej.",
       "last_verified_at": "2026-06-12T15:28:54.089Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -237,13 +237,13 @@
       "subcategory": "Zjawiska atmosferyczne",
       "question": "Które dwa zjawiska optyczne zachodzące wewnątrz kropli wody są odpowiedzialne za powstanie tęczy?",
       "options": [
-        "Załamanie (refrakcja) i całkowite wewnętrzne odbicie (Refraction and internal reflection)",
+        "Załamanie i wewnętrzne odbicie światła",
         "Załamanie i dyfrakcja",
         "Odbicie i polaryzacja",
         "Interferencja i rozproszenie"
       ],
-      "answer": "Załamanie (refrakcja) i całkowite wewnętrzne odbicie (Refraction and internal reflection)",
-      "explanation_correct": "Światło załamuje się przy wejściu do kropli (rozszczepiając się na barwy), odbija się od jej wewnętrznej ściany tylnej, a następnie ponownie załamuje przy wyjściu.",
+      "answer": "Załamanie i wewnętrzne odbicie światła",
+      "explanation_correct": "Światło załamuje się i rozszczepia na barwy przy wejściu do kropli, częściowo odbija od jej tylnej powierzchni i ponownie załamuje przy wyjściu. Odbicie to nie musi być całkowite.",
       "explanation_incorrect": "Dyfrakcja wywołuje inne zjawiska (np. wieńce), polaryzacja nie rozszczepia barw, a interferencja daje pasy światła, a nie widmo barwne tęczy.",
       "last_verified_at": "2026-06-12T15:28:54.089Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -258,7 +258,7 @@
         "Polaryzacja kołowa"
       ],
       "answer": "Całkowite wewnętrzne odbicie (Total internal reflection)",
-      "explanation_correct": "Światłowód ma rdzeń o wyższym współczynniku załamania niż płaszcz wokół niego. Światło padające pod odpowiednim kątem ulega całkowitemu odbiciu, nie opuszczając rdzenia.",
+      "explanation_correct": "W prostym modelu promieniowym rdzeń ma wyższy współczynnik załamania niż płaszcz. Promienie padające pod odpowiednim kątem ulegają całkowitemu wewnętrznemu odbiciu; rzeczywiste włókna wykazują także straty.",
       "explanation_incorrect": "Rozproszenie Rayleigha powoduje straty sygnału w światłowodzie, załamanie wypuściłoby światło na zewnątrz, a polaryzacja nie wpływa na uwięzienie fali.",
       "last_verified_at": "2026-06-12T15:28:54.089Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -274,13 +274,13 @@
       ],
       "answer": "Odwrotny efekt piezoelektryczny (Inverse piezoelectric effect)",
       "explanation_correct": "Przyłożenie napięcia do kryształu piezoelektrycznego powoduje jego gwałtowne wygięcie. Zmniejsza to objętość komory z tuszem i wypycha mikro-kroplę przez dyszę na papier.",
-      "explanation_incorrect": "Efekt termoelektryczny dotyczy prądu z ciepła, fotoelektryczny uwalnia elektrony pod wpływem światła, a magnetostrykcja odkształca magnesy.",
+      "explanation_incorrect": "Efekt termoelektryczny wiąże zjawiska elektryczne z przepływem ciepła, fotoelektryczny z oddziaływaniem światła, a magnetostrykcja z odkształceniem materiału wskutek namagnesowania.",
       "last_verified_at": "2026-06-12T15:28:54.089Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Inżynieria materiałowa",
-      "question": "Jaki składnik gazowy (stanowiący ponad 99% objętości) decyduje o niezwykle niskiej gęstości i świetnej izolacyjności aerożeli?",
+      "question": "Co wypełnia większość objętości wielu aerożeli i przyczynia się do ich małej gęstości?",
       "options": [
         "Powietrze (Air / gas pocket)",
         "Próżnia",
@@ -288,14 +288,14 @@
         "Argon"
       ],
       "answer": "Powietrze (Air / gas pocket)",
-      "explanation_correct": "Aerożel powstaje przez zastąpienie płynnego składnika żelu gazem (powietrzem) bez kurczenia struktury. Pory są mniejsze niż droga wolna cząsteczek powietrza, co blokuje przewodzenie ciepła.",
-      "explanation_incorrect": "Aerożel nie zawiera próżni (nie wytrzymałby ciśnienia atmosferycznego bez uszkodzeń porów), a hel i argon są za drogie w produkcji masowej.",
+      "explanation_correct": "Aerożel zawiera bardzo porowatą sieć stałą, której pory zwykle wypełnia gaz. Małe rozmiary porów ograniczają przewodzenie ciepła przez gaz, choć go nie eliminują.",
+      "explanation_incorrect": "W zwykłych warunkach pory aerożelu mogą być wypełnione powietrzem; nie jest wymagane wypełnienie helem ani argonem.",
       "last_verified_at": "2026-06-12T15:28:54.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Jaki lotny związek siarki (czynnik łzawiący uwalniany po uszkodzeniu komórek cebuli) reaguje z wodą na powierzchni oka, tworząc kwas siarkowy?",
+      "question": "Jaki lotny związek siarki powstaje po uszkodzeniu komórek cebuli i drażni oczy?",
       "options": [
         "S-tlenek tiopropanalu (Syn-propanethial-S-oxide)",
         "Siarczek diallilu",
@@ -303,14 +303,14 @@
         "Kwas siarkowodorowy"
       ],
       "answer": "S-tlenek tiopropanalu (Syn-propanethial-S-oxide)",
-      "explanation_correct": "Enzym alliinaza rozkłada aminokwasy cebuli, tworząc kwas sulfenowy, który przekształca się w lotny S-tlenek tiopropanalu. W kontakcie ze łzami tworzy on drażniący kwas.",
+      "explanation_correct": "Po przecięciu cebuli reakcje enzymatyczne prowadzą do powstania lotnego syn-propanotialu-S-tlenku. Drażni on zakończenia nerwowe w oku i powoduje łzawienie; nie trzeba zakładać powstawania kwasu siarkowego.",
       "explanation_incorrect": "Siarczek diallilu odpowiada za zapach czosnku, allicyna to antybiotyk z czosnku, a siarkowodór pachnie zgniłymi jajami i nie powstaje z cebuli w ten sposób.",
       "last_verified_at": "2026-06-12T15:28:54.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zjawiska atmosferyczne",
-      "question": "Dlaczego podczas burzy widzimy błyskawicę ułamek sekundy po wyładowaniu, a grzmot dociera do nas z opóźnieniem kilku sekund?",
+      "question": "Dlaczego grzmot dochodzi do obserwatora później niż światło błyskawicy?",
       "options": [
         "Prędkość światła (ok. 300 000 km/s) jest wielokrotnie większa niż prędkość dźwięku w powietrzu (ok. 340 m/s)",
         "Dźwięk odbija się od chmur spowalniając swój ruch",
@@ -319,7 +319,7 @@
       ],
       "answer": "Prędkość światła (ok. 300 000 km/s) jest wielokrotnie większa niż prędkość dźwięku w powietrzu (ok. 340 m/s)",
       "explanation_correct": "Światło dociera do nas niemal natychmiast, natomiast dźwięk potrzebuje około 3 sekund na przebycie każdego kilometra odległości od burzy.",
-      "explanation_incorrect": "Odbicia dźwięku wywołują echo, a nie całe opóźnienie, oba zjawiska powstają jednocześnie, a różnice w percepcji zmysłowej wynoszą milisekundy.",
+      "explanation_incorrect": "Różnica wynika przede wszystkim z prędkości rozchodzenia się światła i dźwięku; dokładne opóźnienie zależy od odległości i warunków atmosferycznych.",
       "last_verified_at": "2026-06-12T15:28:54.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -334,7 +334,7 @@
       ],
       "answer": "NFC (Near Field Communication)",
       "explanation_correct": "NFC działa na częstotliwości 13,56 MHz na odległość do kilku centymetrów. Czytnik generuje pole magnetyczne, które indukuje prąd w antenie karty, zasilając jej chip.",
-      "explanation_incorrect": "Bluetooth i Wi-Fi to technologie mikrofalowe dalekiego zasięgu oparte na falach radiowych UHF, a IrDA wymaga optycznej widoczności linii nadajnik-odbiornik.",
+      "explanation_incorrect": "Bluetooth i Wi-Fi również wykorzystują fale radiowe, lecz mają inne zastosowania i protokoły. IrDA używa podczerwieni.",
       "last_verified_at": "2026-06-12T15:28:54.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -348,8 +348,8 @@
         "Nikiel, kobalt i tytan"
       ],
       "answer": "Platyna, pallad i rod (Platinum, palladium, rhodium)",
-      "explanation_correct": "Platyna i pallad odpowiadają za utlenianie tlenku węgla i węglowodorów, a rod redukuje szkodliwe tlenki azotu (NOx) do wolnego azotu i tlenu.",
-      "explanation_incorrect": "Złoto i srebro mają niską aktywność katalityczną dla spalin, iryd i osm są zbyt rzadkie i lotne w tlenkach, a nikiel i kobalt są za mało wydajne w wysokich temperaturach.",
+      "explanation_correct": "W katalizatorach samochodowych platyna i pallad wspomagają utlenianie tlenku węgla i węglowodorów; rod sprzyja redukcji tlenków azotu. Skład spalin i warunki pracy wpływają na przebieg reakcji.",
+      "explanation_incorrect": "Pozostałe zestawy nie są typową kombinacją platyny, palladu i rodu używaną w trójfunkcyjnych katalizatorach.",
       "last_verified_at": "2026-06-12T15:28:54.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -370,16 +370,16 @@
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Jaki składnik kwasowy (np. wodorowinian potasu / cream of tartar) dodaje się do sody oczyszczonej, aby stworzyć proszek do pieczenia niewymagający kwaśnych dodatków w cieście?",
+      "question": "Który składnik, obok wodorowęglanu sodu, jest przykładem suchego składnika kwasowego proszku do pieczenia?",
       "options": [
-        "Wodorowinian potasu / kwaśne sole fosforanowe (Acid salt / cream of tartar)",
-        "Kwas cytrynowy",
-        "Kwas octowy",
-        "Chlorek sodu"
+        "Wodorowinian potasu",
+        "Chlorek sodu",
+        "Skrobia kukurydziana",
+        "Wodorotlenek sodu"
       ],
-      "answer": "Wodorowinian potasu / kwaśne sole fosforanowe (Acid salt / cream of tartar)",
-      "explanation_correct": "Soda (wodorowęglan sodu) potrzebuje kwasu do wydzielenia dwutlenku węgla. Proszek do pieczenia zawiera sodę oraz suchy kwas (sól kwasową), który aktywuje się dopiero po kontakcie z wodą i temperaturą.",
-      "explanation_incorrect": "Kwas cytrynowy i octowy są płynami w warunkach kuchennych (lub zbyt szybko chłoną wilgoć), a chlorek sodu to sól kuchenna o odczynie obojętnym.",
+      "answer": "Wodorowinian potasu",
+      "explanation_correct": "Wodorowinian potasu jest jedną z substancji kwasowych mogących reagować z sodą i uwalniać CO2. Proszki mogą zawierać też inne kwasy lub sole kwasowe.",
+      "explanation_incorrect": "Skrobia pełni zwykle funkcję wypełniacza lub środka osuszającego, sól kuchenna nie jest składnikiem kwasowym, a wodorotlenek sodu jest zasadą.",
       "last_verified_at": "2026-06-12T15:28:54.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -394,7 +394,7 @@
       ],
       "answer": "Benjamin Franklin",
       "explanation_correct": "Franklin zaproponował użycie zaostrzonych żelaznych prętów na dachach budynków, połączonych metalowym przewodem z ziemią, co pozwala na bezpieczne odprowadzenie ładunku wyładowania.",
-      "explanation_incorrect": "Faraday opisał indukcję i klatkę ekranującą, Volta stworzył pierwszą baterię chemiczną, a Edison patentował żarówkę i prąd stały.",
+      "explanation_incorrect": "Faraday badał m.in. indukcję, Volta zbudował stos galwaniczny, a Edison rozwijał m.in. systemy oświetlenia elektrycznego.",
       "last_verified_at": "2026-06-12T15:28:54.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -430,7 +430,7 @@
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jaki radioaktywny izotop (syntetyczny aktynowiec emitujący cząstki alfa) jonizuje powietrze w komórce pomiarowej domowych czujników dymu?",
+      "question": "Który izotop promieniotwórczy występuje w wielu jonizacyjnych czujnikach dymu?",
       "options": [
         "Ameryk-241 (Americium-241)",
         "Rad-226",
@@ -439,7 +439,7 @@
       ],
       "answer": "Ameryk-241 (Americium-241)",
       "explanation_correct": "Ameryk-241 emituje cząstki alfa, które jonizują powietrze w komorze, umożliwiając przepływ niewielkiego prądu. Dym ogranicza ten prąd, co uruchamia alarm.",
-      "explanation_incorrect": "Rad-226 był używany dawniej (zbyt niebezpieczny z racji emisji gamma), uran ma zbyt długi czas rozpadu, a pluton-239 to materiał rozszczepialny do celów militarnych.",
+      "explanation_incorrect": "Rodzaj źródła opisany w pytaniu to ameryk-241; istnieją też optyczne czujniki dymu, które nie potrzebują takiego źródła.",
       "last_verified_at": "2026-06-12T15:28:54.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -454,7 +454,7 @@
       ],
       "answer": "Nikiel i tytan (Nickel and titanium)",
       "explanation_correct": "Nitinol (Nickel Titanium Naval Ordnance Laboratory) to stop niklu i tytanu o niemal równych proporcjach atomowych, wykazujący przemianę martenzytyczną wywołaną temperaturą.",
-      "explanation_incorrect": "Miedź i cynk tworzą mosiądz, żelazo i chrom to stal nierdzewna, a glin i magnez to lekkie stopy duraluminiowe.",
+      "explanation_incorrect": "Miedź i cynk tworzą mosiądz; stal nierdzewna opiera się na żelazie z dodatkiem chromu, a stopy aluminium i magnezu należą do innej grupy.",
       "last_verified_at": "2026-06-12T15:28:54.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -505,7 +505,7 @@
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "W jaki charakterystyczny kształt wycinany jest kryształ kwarcu w zegarku, aby oscylował z częstotliwością 32 768 Hz?",
+      "question": "Jaki kształt ma często rezonator kwarcowy 32 768 Hz w zegarku?",
       "options": [
         "Widełki stroikowe (Tuning fork shape)",
         "Płaski dysk",
@@ -513,8 +513,8 @@
         "Dwupiramida"
       ],
       "answer": "Widełki stroikowe (Tuning fork shape)",
-      "explanation_correct": "Kształt kamertonu (widełek) zapewnia stabilność częstotliwości i minimalną zależność od zmian temperatury, co pozwala na precyzyjny podział drgań na sekundy.",
-      "explanation_incorrect": "Dyski i sześciany wibrują w innych trybach i częstotliwościach stosowanych w nadajnikach radiowych, a dwupiramida to naturalny kształt kryształu kwarcu.",
+      "explanation_correct": "W zegarkach często stosuje się rezonator w kształcie miniaturowych widełek stroikowych. Ich częstotliwość nominalną wygodnie podzielić przez 2 piętnaście razy.",
+      "explanation_incorrect": "Rezonatory kwarcowe mogą mieć inne kształty, ale widełki stroikowe są charakterystyczne dla wielu zegarków.",
       "last_verified_at": "2026-06-12T15:28:54.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -529,7 +529,7 @@
       ],
       "answer": "Wiązania wodorowe (Hydrogen bonds)",
       "explanation_correct": "Kevlar to poliamid. Długie, sztywne łańcuchy polimerowe układają się równolegle i są powiązane gęstą siecią wiązań wodorowych między grupami karbonylowymi i aminowymi.",
-      "explanation_incorrect": "Wiązania disiarczkowe stabilizują białka (np. keratynę), oddziaływania van der Waalsa są za słabe, a wiązania jonowe nie występują w poliamidach.",
+      "explanation_incorrect": "Oddziaływania van der Waalsa także występują między łańcuchami, ale w opisywanej strukturze ważną rolę odgrywają wiązania wodorowe między grupami amidowymi.",
       "last_verified_at": "2026-06-12T15:28:54.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -559,7 +559,7 @@
       ],
       "answer": "Około 30 000 K",
       "explanation_correct": "Gwałtowny przepływ ładunku elektrycznego jonizuje powietrze i tworzy plazmę o temperaturze dochodzącej do 30 000 K. Powoduje to nagłe rozprężenie powietrza słyszane jako grzmot.",
-      "explanation_incorrect": "6000 K to temperatura powierzchni Słońca, 100 000 K to wartości w głębi wybuchów termojądrowych, a 1000 K to temperatura płomienia ogniska.",
+      "explanation_incorrect": "Kanał pioruna może osiągać temperatury rzędu dziesiątek tysięcy kelwinów; 6000 K to w przybliżeniu temperatura powierzchni Słońca.",
       "last_verified_at": "2026-06-12T15:28:54.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -573,7 +573,7 @@
         "Lampy elektronowe"
       ],
       "answer": "Kondensatory MOS (Metal-Oxide-Semiconductor capacitors)",
-      "explanation_correct": "Matryca CCD to matryca kondensatorów polowych MOS. Światło wybija elektrony (zjawisko fotoelektryczne), które gromadzą się w 'studniach potencjału' poszczególnych pikseli.",
+      "explanation_correct": "W matrycy CCD światło tworzy w półprzewodniku pary elektron–dziura. Ładunek gromadzi się w studniach potencjału i jest kolejno przesuwany do odczytu.",
       "explanation_incorrect": "Rezystory nie gromadzą ładunku, tranzystory bipolarne wzmacniają prąd, a lampy to technologia przedpółprzewodnikowa.",
       "last_verified_at": "2026-06-12T15:28:54.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -589,13 +589,13 @@
       ],
       "answer": "2,4 GHz (pasmo ISM)",
       "explanation_correct": "Bluetooth działa w nielicencjonowanym paśmie ISM (Industrial, Scientific, and Medical) o częstotliwości około 2,4 GHz, używając metody przeskakiwania częstotliwości (FHSS) do unikania zakłóceń.",
-      "explanation_incorrect": "Pasmo 5 GHz jest używane przez nowsze Wi-Fi, a 868 MHz i 433 MHz to pasma niskich częstotliwości dla pilotów i czujników meteorologicznych.",
+      "explanation_incorrect": "Wi-Fi korzysta m.in. z pasm 2,4 i 5 GHz. Pasma 433 i 868 MHz bywają używane przez inne urządzenia radiowe, zależnie od regionu.",
       "last_verified_at": "2026-06-12T15:28:54.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Inżynieria materiałowa",
-      "question": "Z jakiej organicznej substancji pozyskanej z marchewki (benzoesanu cholesterylu) Friedrich Reinitzer wyizolował w 1888 roku pierwsze ciekłe kryształy?",
+      "question": "Jaką substancję badał Friedrich Reinitzer w 1888 roku, obserwując zjawisko ciekłego kryształu?",
       "options": [
         "Pochodne cholesterolu (Benzoesan cholesterylu)",
         "Betakaroten",
@@ -603,7 +603,7 @@
         "Likopen"
       ],
       "answer": "Pochodne cholesterolu (Benzoesan cholesterylu)",
-      "explanation_correct": "Austriacki botanik Friedrich Reinitzer badał benzoesan cholesterylu. Zauważył, że substancja ta ma dwie temperatury topnienia: najpierw mętnieje w 145,5°C, stając się ciekłym kryształem, a w 178,5°C staje się klarowna.",
+      "explanation_correct": "Reinitzer obserwował pośrednią, mętną fazę benzoesanu cholesterylu pomiędzy ciałem stałym a klarowną cieczą. Nie oznacza to, że substancję pozyskano z marchewki.",
       "explanation_incorrect": "Betakaroten i luteina to barwniki roślinne, a likopen nadaje kolor pomidorom; żadne z nich nie było substancją wyjściową dla tego odkrycia.",
       "last_verified_at": "2026-06-12T15:28:54.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -618,7 +618,7 @@
         "Białka i enzymy"
       ],
       "answer": "Cukry redukujące i aminokwasy (Reducing sugars and amino acids)",
-      "explanation_correct": "Reakcja Maillarda zachodzi najintensywniej w temperaturze 140-165 stopni Celsjusza. Grupa karbonylowa cukru reaguje z grupą aminową aminokwasu, inicjując kaskadę reakcji.",
+      "explanation_correct": "Grupa karbonylowa cukru redukującego reaguje z grupą aminową, rozpoczynając złożoną serię przemian. Szybkość zależy od temperatury, czasu, wody i pH; reakcja może zachodzić również poniżej 140°C.",
       "explanation_incorrect": "Reakcja tłuszczu z wodą to hydroliza, skrobia z kwasami ulega rozkładowi na glukozę, a enzymy ulegają denaturacji (stają się nieaktywne) w wysokich temperaturach.",
       "last_verified_at": "2026-06-12T15:28:54.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -633,7 +633,7 @@
         "Humus leśny"
       ],
       "answer": "Petrychor (Petrichor)",
-      "explanation_correct": "Petrychor (ukuty od greckich słów 'petra' - kamień i 'ichor' - krew bogów) powstaje, gdy deszcz uwalnia uwięzione w glebie pęcherzyki geosminy (produkowanej przez bakterie) i olejów.",
+      "explanation_correct": "Petrychor jest zapachem związanym m.in. ze związkami obecnymi w glebie, w tym geosminą, oraz substancjami pochodzenia roślinnego. Krople mogą wzbudzać aerozol przenoszący cząsteczki zapachowe.",
       "explanation_incorrect": "Ozon burzowy pachnie metalicznie i powstaje przy wyładowaniach, geosmina to sam związek chemiczny (a nie zapach jako zjawisko), a humus to warstwa gleby.",
       "last_verified_at": "2026-06-12T15:28:54.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -648,8 +648,8 @@
         "Poliwęglan"
       ],
       "answer": "Poliester / polistyren-akrylan (Polyester / styrene-acrylic copolymer)",
-      "explanation_correct": "Toner to drobny proszek zawierający pigment oraz polimer termoplastyczny. Fuzer rozgrzewa bęben dociskowy do ok. 180°C, roztapiając poliester i wtłaczając go we włókna papieru.",
-      "explanation_incorrect": "Polietylen ma za szeroki zakres temperatur topnienia, teflon nie topi się w temperaturze pracy drukarki, a poliwęglan jest zbyt twardy.",
+      "explanation_correct": "Toner zawiera m.in. pigment i polimer termoplastyczny, taki jak poliester lub kopolimer styrenowo-akrylowy. Utrwalacz ogrzewa i dociska toner do papieru.",
+      "explanation_incorrect": "Rodzaj żywicy i dodatków zależy od konstrukcji tonera; odpowiedź podaje materiały stosowane w wielu tonerach.",
       "last_verified_at": "2026-06-12T15:28:54.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -663,7 +663,7 @@
         "Wzmacniacz operacyjny"
       ],
       "answer": "Dzielnik częstotliwości / przerzutnik T (Frequency divider / T flip-flop)",
-      "explanation_correct": "Rezonator wibruje z częstotliwością 32 768 Hz (2 do potęgi 15). Łańcuch 15 przerzutników typu T dzieli tę częstotliwość przez dwa w każdym stopniu, dając dokładnie 1 Hz (jeden impuls na sekundę).",
+      "explanation_correct": "Nominalna częstotliwość 32 768 Hz wynosi 2 do potęgi 15, więc 15 stopni dzielących przez dwa daje nominalnie 1 Hz. Rzeczywista dokładność zależy m.in. od rezonatora i temperatury.",
       "explanation_incorrect": "Kondensator służy do dostrajania obwodu, mikroprocesor nie jest potrzebny do tak prostego podziału, a wzmacniacz zwiększa siłę sygnału, nie dzieląc go.",
       "last_verified_at": "2026-06-12T15:28:54.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -678,14 +678,14 @@
         "Zjawisko Barkhausena"
       ],
       "answer": "Efekt Meissnera (Meissner effect)",
-      "explanation_correct": "Efekt Meissnera polega na tym, że nadprzewodnik zachowuje się jak idealny diamagnetyk. Wypychając pole magnetyczne na zewnątrz, tworzy siłę odpychającą zdolną do lewitacji magnesu.",
+      "explanation_correct": "Efekt Meissnera to wypieranie pola magnetycznego przy przejściu w stan nadprzewodzący. Nadprzewodniki II rodzaju w pewnych warunkach dopuszczają wnikanie pola w postaci wirów, które mogą być zakotwiczone.",
       "explanation_incorrect": "Zjawisko Josephsona dotyczy tunelowania par Coopera, efekt naskórkowości płynięcia prądu przy powierzchni przewodnika, a Barkhausen skokowych zmian namagnesowania.",
       "last_verified_at": "2026-06-12T15:28:54.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Które białko hemowe (odpowiedzialne za magazynowanie tlenu w mięśniach) nadaje surowemu mięsu czerwoną barwę, a po upieczeniu utlenia się do brunatnej metmioglobiny?",
+      "question": "Które białko wiążące tlen w mięśniach istotnie wpływa na barwę surowego i gotowanego mięsa?",
       "options": [
         "Mioglobina",
         "Hemoglobina",
@@ -693,7 +693,7 @@
         "Aktyna"
       ],
       "answer": "Mioglobina",
-      "explanation_correct": "Mioglobina zawiera żelazo; pod wpływem temperatury żelazo utlenia się z Fe2+ do Fe3+, co zmienia barwę mięsa z czerwonej na szarobrunatną.",
+      "explanation_correct": "Mioglobina i jej różne postacie wpływają na kolor mięsa. Ogrzewanie zmienia strukturę i stan barwników; barwa zależy też od tlenu, pH i warunków przechowywania.",
       "explanation_incorrect": "Hemoglobina transportuje tlen we krwi, kolagen to białko strukturalne tkanki łącznej, a aktyna odpowiada za skurcz mięśni.",
       "last_verified_at": "2026-06-12T15:29:35.667Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -709,7 +709,7 @@
       ],
       "answer": "Światło ulega dwukrotnemu wewnętrznemu odbiciu wewnątrz kropli wody (Double reflection)",
       "explanation_correct": "Dwukrotne odbicie światła od ścianek kropli odwraca bieg promieni barwnych. Ponieważ część światła ucieka przy każdym odbiciu, tęcza wtórna jest znacznie ciemniejsza.",
-      "explanation_incorrect": "Kryształy lodu wywołują zjawisko halo, kąt załamania zależy od gęstości wody (bardzo podobny), a cień nie ma barw.",
+      "explanation_incorrect": "Halo powstaje na kryształkach lodu; tęcze pierwotna i wtórna powstają na kroplach wody, lecz różnią się liczbą odbić wewnętrznych.",
       "last_verified_at": "2026-06-12T15:28:54.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -754,7 +754,7 @@
       ],
       "answer": "Samuel Kistler",
       "explanation_correct": "Samuel Stephens Kistler suszył żele krzemionkowe w stanie nadkrytycznym rozpuszczalnika, co pozwoliło uniknąć silnego napięcia powierzchniowego niszczącego mikrostruktury żelu.",
-      "explanation_incorrect": "Goodyear wulkanizował gumę, Baekeland wynalazł bakelit (pierwszy plastik), a Kwolek opracowała Kevlar.",
+      "explanation_incorrect": "Goodyear pracował nad wulkanizacją gumy, Baekeland nad bakelitem, jednym z pierwszych w pełni syntetycznych tworzyw, a Kwolek nad Kevlarem.",
       "last_verified_at": "2026-06-12T15:28:54.095Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -775,16 +775,16 @@
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Który japoński inżynier (laureat Nobla 2014) opracował wydajną niebieską diodę LED z azotku galu, co umożliwiło stworzenie białego światła LED i nowoczesnych ekranów?",
+      "question": "Która trójka otrzymała Nagrodę Nobla z fizyki w 2014 roku za wydajne niebieskie diody LED?",
       "options": [
-        "Shuji Nakamura",
-        "Isamu Akasaki",
-        "Hiroshi Amano",
-        "Leo Esaki"
+        "Isamu Akasaki, Hiroshi Amano i Shuji Nakamura",
+        "Andre Geim i Konstantin Nowosiołow",
+        "John Bardeen, Walter Brattain i William Shockley",
+        "Leo Esaki, Ivar Giaever i Brian Josephson"
       ],
-      "answer": "Shuji Nakamura",
-      "explanation_correct": "Shuji Nakamura pracując w firmie Nichia dokonał przełomu w hodowli kryształów azotku galu (GaN), za co otrzymał Nagrodę Nobla wraz z Akasakim i Amano.",
-      "explanation_incorrect": "Akasaki i Amano współpracowali nad podobnymi badaniami (podzielili Nobla), a Leo Esaki otrzymał Nobla w 1973 roku za diodę tunelową.",
+      "answer": "Isamu Akasaki, Hiroshi Amano i Shuji Nakamura",
+      "explanation_correct": "Nagrodę podzielili Akasaki, Amano i Nakamura za wkład w wydajne niebieskie diody LED, które umożliwiły nowe źródła białego światła.",
+      "explanation_incorrect": "Pozostałe zestawy tworzą laureaci wyróżnieni za inne odkrycia w fizyce.",
       "last_verified_at": "2026-06-12T15:28:54.095Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -798,7 +798,7 @@
         "Pirograwerowanie"
       ],
       "answer": "Wymiana jonowa (Ion exchange)",
-      "explanation_correct": "Szkło glinokrzemianowe zanurza się w stopionej soli potasowej. Większe jony potasu wypychają jony sodu z powierzchni szkła, co tworzy silne naprężenia ściskające zapobiegające pęknięciom.",
+      "explanation_correct": "Podczas wymiany jonowej jony potasu z kąpieli zastępują część jonów sodu przy powierzchni szkła. Powstałe naprężenia ściskające pomagają utrudnić rozwój pęknięć, ale nie czynią szkła nietłukącym.",
       "explanation_incorrect": "Anodowanie to elektrochemiczne tworzenie tlenku na metalach (np. aluminium), galwanizacja nakłada metal, a hartowanie termiczne używa powietrza do chłodzenia, co nie działa tak precyzyjnie przy cienkim szkle.",
       "last_verified_at": "2026-06-12T15:28:54.096Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -813,8 +813,8 @@
         "Pasmo 10,6 GHz"
       ],
       "answer": "Pasmo 2,45 GHz",
-      "explanation_correct": "Częstotliwość 2,45 GHz (długość fali ok. 12,2 cm) została wybrana, ponieważ nie rezonuje zbyt silnie na samej powierzchni wody, co pozwala na wnikanie fal w głąb potrawy na kilka centymetrów.",
-      "explanation_incorrect": "915 MHz jest używane w niektórych mikrofalówkach przemysłowych, 5,8 GHz rezonuje za płytko, a 10,6 GHz to częstotliwości radarowe.",
+      "explanation_correct": "Domowe kuchenki mikrofalowe często pracują w pobliżu 2,45 GHz w paśmie ISM. Pochłanianie i głębokość wnikania zależą od składu potrawy; nie jest to szczególna częstotliwość rezonansu cząsteczki wody.",
+      "explanation_incorrect": "915 MHz stosuje się również w niektórych urządzeniach przemysłowych; 2,45 GHz jest typowe dla domowych kuchenek.",
       "last_verified_at": "2026-06-12T15:28:54.096Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -835,7 +835,7 @@
     },
     {
       "subcategory": "Fizyka w domu",
-      "question": "Która właściwość fizyczna dna naczynia kuchennego (wykazująca silne oddziaływanie z magnesem) jest niezbędna, aby garnek działał na płycie indukcyjnej?",
+      "question": "Jaką właściwość mają zwykle dna naczyń zalecanych do typowych domowych płyt indukcyjnych, sprawdzaną magnesem?",
       "options": [
         "Ferromagnetyzm (Ferromagnetism)",
         "Diamagnetyzm",
@@ -843,29 +843,29 @@
         "Przewodnictwo nadprzewodzące"
       ],
       "answer": "Ferromagnetyzm (Ferromagnetism)",
-      "explanation_correct": "Dno naczynia musi być ferromagnetykiem (np. ze stali lub żeliwa). Zmienne pole magnetyczne płyty wywołuje w nim straty histerezy magnetycznej i prądy wirowe, co generuje ciepło.",
-      "explanation_incorrect": "Naczynia z aluminium lub miedzi są diamagnetykami / paramagnetykami; pole magnetyczne przez nie przenika i kuchenka nie zacznie grzać mimo dobrego przewodnictwa elektrycznego.",
+      "explanation_correct": "Typowe płyty i zalecane naczynia często wykorzystują ferromagnetyczne dno stalowe lub żeliwne. Pole indukuje w nim prądy i straty ogrzewające garnek; istnieją także konstrukcje przystosowane do innych metali.",
+      "explanation_incorrect": "Przydatność naczynia zależy od konstrukcji i wymagań producenta płyty; dla wielu modeli prostym sprawdzianem jest przyciąganie magnesu.",
       "last_verified_at": "2026-06-12T15:28:54.096Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Który związek chemiczny (często azotan potasu KNO3) dodaje się do poduszki powietrznej, aby zneutralizować wysoce reaktywny i toksyczny metaliczny sód powstający podczas wybuchu azydku?",
+      "question": "Jaki gaz zwykle kojarzy się z napełnianiem poduszki w starszych generatorach wykorzystujących azydek sodu?",
       "options": [
-        "Azotan potasu / tlenek krzemu (KNO3 / SiO2 / Oxidizer and sand)",
-        "Siarczan sodu",
-        "Wodorotlenek wapnia",
-        "Chlorek potasu"
+        "Azot",
+        "Chlor",
+        "Ozon",
+        "Dwutlenek siarki"
       ],
-      "answer": "Azotan potasu / tlenek krzemu (KNO3 / SiO2 / Oxidizer and sand)",
-      "explanation_correct": "Azotan potasu reaguje z sodem, uwalniając dodatkowy azot i tworząc tlenki potasu i sodu. Te z kolei łączą się z krzemionką (SiO2), tworząc bezpieczne, obojętne szkło krzemianowe.",
-      "explanation_incorrect": "Siarczan, wodorotlenek i chlorek nie mają właściwości utleniających i zeszkliwiających potrzebnych do szybkiej reakcji z wolnym sodem w wysokiej temperaturze.",
+      "answer": "Azot",
+      "explanation_correct": "W starszych generatorach opartych na azydku sodu podczas reakcji powstaje azot napełniający poduszkę. Konstrukcje i stosowane substancje różnią się między modelami.",
+      "explanation_incorrect": "Pozostałe gazy nie są odpowiedzią opisującą produkty działania wspomnianych starszych generatorów.",
       "last_verified_at": "2026-06-12T15:28:54.096Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jaki algorytm korekcji błędów matematycznych (stosowany również w płytach CD) pozwala na odczytanie kodu QR nawet przy zniszczeniu 30% jego powierzchni?",
+      "question": "Jakie kody korekcyjne pomagają odczytać kod QR mimo częściowego uszkodzenia danych?",
       "options": [
         "Kodowanie Reeda-Solomona (Reed-Solomon codes)",
         "Kodowanie Hamminga",
@@ -873,8 +873,8 @@
         "Algorytm Huffmana"
       ],
       "answer": "Kodowanie Reeda-Solomona (Reed-Solomon codes)",
-      "explanation_correct": "Kody Reeda-Solomona to wielomianowe kody korekcyjne. Dodają one nadmiarowe dane do kodu QR, co pozwala na odtworzenie utraconych pikseli.",
-      "explanation_incorrect": "Kody Hamminga wykrywają i poprawiają pojedyncze bity (za mało dla zniszczonego obrazu), CRC32 tylko wykrywa błędy (nie poprawia), a Huffman to metoda kompresji.",
+      "explanation_correct": "Kod QR wykorzystuje kody Reeda–Solomona. Możliwość odzyskania zależy od poziomu korekcji, rozmieszczenia uszkodzeń i tego, czy czytnik potrafi odnaleźć kod.",
+      "explanation_incorrect": "CRC zwykle wykrywa błędy, a Huffman służy do kompresji. Kody Hamminga są inną rodziną kodów korekcyjnych.",
       "last_verified_at": "2026-06-12T15:28:54.096Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -888,14 +888,14 @@
         "Faza dyskotyczna"
       ],
       "answer": "Nematyk (Nematic phase)",
-      "explanation_correct": "W fazie nematycznej (od greckiego 'nema' - nić) wydłużone cząsteczki wykazują porządek kierunkowy (jednowymiarowy). Pod wpływem pola elektrycznego nematyki łatwo obracają się, blokując światło.",
+      "explanation_correct": "W fazie nematycznej cząsteczki mają przeciętny kierunek ułożenia, ale nie tworzą regularnych warstw. Pole zmienia ich orientację, a układ z polaryzatorami moduluje światło.",
       "explanation_incorrect": "Faza smektyczna ma dodatkowo porządek warstwowy, cholesteryk ma strukturę helikalną, a faza dyskotyczna składa się z cząsteczek w kształcie dysków.",
       "last_verified_at": "2026-06-12T15:28:54.097Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Jak nazywa się parametr fizyczny określający głębokość, na której moc mikrofal spada do około 37% wartości wejściowej, co tłumaczy zimne wnętrza podgrzewanych potraw?",
+      "question": "Jak nazywa się umowna głębokość, na której moc fali w pochłaniającym materiale spada do 1/e wartości początkowej?",
       "options": [
         "Głębokość wnikania (Penetration depth / skin depth)",
         "Współczynnik dyfuzji termicznej",
@@ -903,8 +903,8 @@
         "Długość fali granicznej"
       ],
       "answer": "Głębokość wnikania (Penetration depth / skin depth)",
-      "explanation_correct": "Głębokość wnikania fal o częstotliwości 2,45 GHz w wodnistą żywność wynosi około 1-2 cm. Wnętrze większych potraw ogrzewa się powoli przez przewodnictwo cieplne, a nie fale.",
-      "explanation_incorrect": "Dyfuzja termiczna określa prędkość przepływu ciepła klasycznego, przenikalność wpływa na siłę oddziaływania z polem, a fala graniczna to pojęcie z falowodów.",
+      "explanation_correct": "Głębokość wnikania zależy od częstotliwości i właściwości materiału. W żywności występuje zarówno bezpośrednie pochłanianie mikrofal w jej wnętrzu, jak i przepływ ciepła.",
+      "explanation_incorrect": "Dyfuzyjność cieplna opisuje rozchodzenie się ciepła, a przenikalność dielektryczna wpływa na propagację pola i straty w materiale.",
       "last_verified_at": "2026-06-12T15:28:54.097Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -918,14 +918,14 @@
         "Polaryzacja eliptyczna pionowa"
       ],
       "answer": "Silna polaryzacja liniowa, styczna do łuku (Linearly polarized, tangential)",
-      "explanation_correct": "Odbicie wewnątrz kropli zachodzi pod kątem ok. 42°, co jest bliskie kątowi Brewstera dla wody (53°). Powoduje to, że światło tęczy jest spolaryzowane liniowo w kierunku stycznym do łuku (ponad 90%).",
+      "explanation_correct": "Światło tęczy jest częściowo spolaryzowane, w przybliżeniu stycznie do łuku. Jego stopień polaryzacji zależy od geometrii i warunków obserwacji; kąt widzenia tęczy nie jest kątem padania na wewnętrzną powierzchnię kropli.",
       "explanation_incorrect": "Odbicie od wody nie tworzy polaryzacji kołowej ani eliptycznej w tych warunkach, a brak polaryzacji jest błędnym założeniem (okulary polaryzacyjne wygaszają tęczę).",
       "last_verified_at": "2026-06-12T15:28:54.097Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Który system aktywnej redukcji szumów (ANC) umieszcza mikrofon wewnątrz muszli słuchawkowej przy uchu, aby korygować błędy na bieżąco (sprzężenie zwrotne)?",
+      "question": "Która architektura ANC wykorzystuje mikrofon przy uchu do sprzężenia zwrotnego, bez dodatkowego mikrofonu feedforward?",
       "options": [
         "Układ ze sprzężeniem zwrotnym (Feedback ANC)",
         "Układ ze sprzężeniem w przód (Feedforward)",
@@ -933,14 +933,14 @@
         "Układ adaptacyjny pasywny"
       ],
       "answer": "Układ ze sprzężeniem zwrotnym (Feedback ANC)",
-      "explanation_correct": "Feedback ANC mierzy dźwięk, który rzeczywiście dociera do ucha użytkownika (wewnątrz muszli), i redukuje pozostałe zniekształcenia, świetnie radząc sobie z niskimi tonami.",
+      "explanation_correct": "Feedback ANC wykorzystuje mikrofon wewnątrz muszli do pomiaru pozostałego dźwięku i korekcji sygnału. Hybrydowe systemy łączą feedback z mikrofonem zewnętrznym.",
       "explanation_incorrect": "Feedforward ANC ma mikrofon na zewnątrz muszli (szybciej reaguje na nagłe hałasy), układ hybrydowy łączy oba rozwiązania, a pasywny układ nie korzysta z zasilanych mikrofonów.",
       "last_verified_at": "2026-06-12T15:28:54.097Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Który typ silnika elektrycznego (wykorzystujący magnesy neodymowe w wirniku) dominuje we współczesnych autach elektrycznych o wysokiej wydajności?",
+      "question": "Jak nazywa się silnik, którego wirnik ma magnesy trwałe i obraca się synchronicznie z polem stojana?",
       "options": [
         "Silnik synchroniczny z magnesami trwałymi (PMSM / Permanent magnet synchronous motor)",
         "Silnik indukcyjny asynchroniczny (klatkowy)",
@@ -948,8 +948,8 @@
         "Silnik krokowej reluctancji"
       ],
       "answer": "Silnik synchroniczny z magnesami trwałymi (PMSM / Permanent magnet synchronous motor)",
-      "explanation_correct": "PMSM cechuje się najwyższą sprawnością i gęstością mocy. Wirnik obraca się synchronicznie z polem magnetycznym stojana dzięki silnemu polu magnesów trwałych.",
-      "explanation_incorrect": "Silniki indukcyjne (asynchroniczne) są tańsze i stosowane np. przez Teslę w tańszych modelach na przedniej osi, szczotkowe zużywają się zbyt szybko, a reluktancyjne mają mniejszy moment obrotowy.",
+      "explanation_correct": "Silnik synchroniczny z magnesami trwałymi (PMSM) jest jednym z typów stosowanych w pojazdach elektrycznych; jego charakterystyka zależy od projektu i warunków pracy.",
+      "explanation_incorrect": "Silnik indukcyjny działa asynchronicznie, szczotkowy korzysta z komutatora mechanicznego, a reluktancyjny wykorzystuje inny mechanizm wytwarzania momentu.",
       "last_verified_at": "2026-06-12T15:28:54.097Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -978,8 +978,8 @@
         "Neutralizują zapachy i jednocześnie spulchniają ciasto"
       ],
       "answer": "Uwalniają gaz dwukrotnie: raz po zmieszaniu z płynem, a drugi raz pod wpływem wysokiej temperatury w piekarniku",
-      "explanation_correct": "Pierwsze spulchnienie zachodzi po uwodnieniu soli kwaśnej (np. fosforanu jednowapniowego). Drugie, silniejsze, następuje po rozgrzaniu w piekarniku dzięki trudniej rozpuszczalnym solom kwaśnym (np. SAPP).",
-      "explanation_incorrect": "Zawartość sody jest taka sama, mąka bezglutenowa zależy od innych hydrokoloidów, a neutralizacja zapachów nie jest funkcją podwójnego działania.",
+      "explanation_correct": "Proszek dwufazowy uwalnia część CO2 po zwilżeniu, a dalszą część podczas ogrzewania. Szybkość zależy od składu zastosowanych soli kwasowych.",
+      "explanation_incorrect": "Określenie dotyczy etapów uwalniania gazu, a nie podwójnej zawartości sody czy neutralizacji zapachów.",
       "last_verified_at": "2026-06-12T15:28:54.098Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -993,8 +993,8 @@
         "Wyładowania ze strefy czystego nieba"
       ],
       "answer": "Wyładowania wewnątrzchmurowe / chmura-chmura (Intra-cloud / IC)",
-      "explanation_correct": "Około 75-80% wszystkich piorunów to wyładowania wewnątrzchmurowe (IC). Wyładowania doziemne (CG) stanowią jedynie 20-25% aktywności burzowej.",
-      "explanation_incorrect": "Wyładowania chmura-ziemia są bardziej niebezpieczne i spektakularne, ale znacznie rzadsze, a pozostałe typy to rzadkie anomalie.",
+      "explanation_correct": "Wyładowania w chmurach i między nimi stanowią dużą część aktywności burzowej, zazwyczaj większą niż wyładowania doziemne. Ich udziały zmieniają się w zależności od burzy i regionu.",
+      "explanation_incorrect": "Wyładowania doziemne są rzadsze niż cała grupa wyładowań w chmurach i między nimi, lecz są szczególnie istotne dla bezpieczeństwa na ziemi.",
       "last_verified_at": "2026-06-12T15:28:54.098Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1008,14 +1008,14 @@
         "Trzy"
       ],
       "answer": "Sześć (6)",
-      "explanation_correct": "Konstelacja GPS składa się z satelitów rozmieszczonych równomiernie na 6 płaszczyznach orbitalnych, co gwarantuje, że z każdego punktu na Ziemi widoczne jest co najmniej 6 satelitów jednocześnie.",
+      "explanation_correct": "Podstawowa konstelacja GPS jest rozłożona na sześć płaszczyzn orbitalnych. Jej układ ma zapewnić widoczność co najmniej czterech satelitów z niemal każdego punktu Ziemi.",
       "explanation_incorrect": "Cztery, dwanaście i trzy to liczby nieodpowiadające geometrii orbitalnej wybranej dla pełnego pokrycia radiowego w tym systemie.",
       "last_verified_at": "2026-06-12T15:28:54.098Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jak nazywa się parametr określający sprawność diody LED, będący stosunkiem całkowitej mocy wyjściowej światła do pobranej energii elektrycznej?",
+      "question": "Jak nazywa się stosunek mocy optycznej emitowanej przez diodę LED do pobieranej przez nią mocy elektrycznej?",
       "options": [
         "Sprawność energetyczna / sprawność wall-plug (Wall-plug efficiency)",
         "Wydajność kwantowa wewnętrzna",
@@ -1023,7 +1023,7 @@
         "Współczynnik mocy"
       ],
       "answer": "Sprawność energetyczna / sprawność wall-plug (Wall-plug efficiency)",
-      "explanation_correct": "Sprawność 'wall-plug' (WPE) uwzględnia wszystkie straty energii: elektryczne, cieplne oraz optyczne, określając ile prądu z gniazdka realnie zamienia się w światło.",
+      "explanation_correct": "Sprawność wall-plug to stosunek wypromieniowanej mocy optycznej do mocy elektrycznej pobieranej przez urządzenie; nie należy jej mylić ze skutecznością świetlną w lumenach na wat.",
       "explanation_incorrect": "Wewnętrzna wydajność kwantowa mierzy tylko generowanie fotonów z elektronów (pomijając straty ucieczki światła z kryształu), jasność to miara optyczna, a współczynnik mocy to parametr sieci AC.",
       "last_verified_at": "2026-06-12T15:28:54.098Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1039,13 +1039,13 @@
       ],
       "answer": "Fale Rayleigha (Rayleigh surface waves)",
       "explanation_correct": "Ekrany SAW (Surface Acoustic Wave) wysyłają ultradźwiękowe fale Rayleigha po powierzchni szkła. Dotknięcie ekranu pochłania część energii fali, co pozwala na lokalizację punktu dotyku.",
-      "explanation_incorrect": "Fale Love'a występują tylko w obecności warstwy powierzchniowej o innych właściwościach, a fale P i S to fale objętościowe (rozchodzące się wewnątrz materiału, a nie na powierzchni).",
+      "explanation_incorrect": "Fale Love’a są innym rodzajem fal powierzchniowych, a fale P i S są falami objętościowymi. W opisywanym rozwiązaniu wykorzystuje się fale Rayleigha.",
       "last_verified_at": "2026-06-12T15:28:54.098Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Dlaczego w większości kuchenek mikrofalowych talerz z jedzeniem musi się obracać podczas pracy urządzenia?",
+      "question": "Po co w wielu kuchenkach mikrofalowych obraca się talerz z potrawą?",
       "options": [
         "Fale elektromagnetyczne tworzą w komorze fale stojące z naprzemiennymi węzłami i strzałkami (gorącymi i zimnymi punktami)",
         "Rotacja wspomaga równomierne parowanie wody z powierzchni",
@@ -1053,7 +1053,7 @@
         "Silnik obrotowy chłodzi magnesy magnetronu"
       ],
       "answer": "Fale elektromagnetyczne tworzą w komorze fale stojące z naprzemiennymi węzłami i strzałkami (gorącymi i zimnymi punktami)",
-      "explanation_correct": "Mikrofale odbijają się od metalowych ścianek, tworząc fale stojące. Węzły fali to punkty bez energii (zimne), a strzałki to punkty przegrzania (gorące); obracanie potrawy przemieszcza ją przez te strefy.",
+      "explanation_correct": "Rozkład pola mikrofalowego w komorze jest nierównomierny. Obracanie przesuwa potrawę przez obszary o różnym natężeniu pola i pomaga równomierniej ją ogrzać, choć nie eliminuje zimnych miejsc.",
       "explanation_incorrect": "Parowanie wody zachodzi bez rotacji, siła odśrodkowa jest znikoma przy obrotach rzędu kilku na minutę, a silnik chłodzący magnetron jest niezależny od talerza.",
       "last_verified_at": "2026-06-12T15:28:54.099Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1075,7 +1075,7 @@
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jak nazywa się czas potrzebny procesorowi słuchawek na przetworzenie hałasu i wygenerowanie fali wygaszającej, który musi być krótszy niż kilkanaście mikrosekund?",
+      "question": "Jak nazywa się opóźnienie między odebraniem sygnału przez mikrofon ANC a wytworzeniem sygnału korygującego?",
       "options": [
         "Opóźnienie przetwarzania / latencja (Processing latency)",
         "Czas narastania",
@@ -1083,7 +1083,7 @@
         "Okres próbkowania"
       ],
       "answer": "Opóźnienie przetwarzania / latencja (Processing latency)",
-      "explanation_correct": "Zbyt duża latencja (powyżej 20-30 mikrosekund) powoduje, że fala wygaszająca dociera do ucha zbyt późno i zamiast wyciszyć hałas, może go wzmocnić lub wywołać zniekształcenia.",
+      "explanation_correct": "Latencja wprowadza przesunięcie fazowe zależne od częstotliwości. Dopuszczalne opóźnienie zależy od projektu, geometrii i pasma pracy; nie ma jednego progu dla wszystkich słuchawek.",
       "explanation_incorrect": "Czas narastania to parametr elektroniki analogowej, dekoherencja dotyczy fizyki kwantowej, a okres próbkowania to odstęp między pobieraniem próbek danych.",
       "last_verified_at": "2026-06-12T15:28:54.099Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1099,13 +1099,13 @@
       ],
       "answer": "Grafit (Graphite anode)",
       "explanation_correct": "Grafit ma strukturę warstwową. Jony litu wnikają pomiędzy warstwy węgla w procesie tzw. interkalacji podczas ładowania akumulatora.",
-      "explanation_incorrect": "Diament jest izolatorem elektrycznym, sadza zwiększa przewodnictwo przewodów, a węgiel aktywny ma za niską gęstość i nie porządkuje jonów litu w ten sposób.",
+      "explanation_incorrect": "Diament, sadza i węgiel aktywny nie są grafitem; materiały anod różnią się między konstrukcjami i mogą zawierać także inne składniki.",
       "last_verified_at": "2026-06-12T15:28:54.099Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Inżynieria materiałowa",
-      "question": "Jaki organiczny polimer syntetyczny (skrót PAN) stanowi podstawowy surowiec (prekursor) do produkcji ponad 90% włókien węglowych na świecie?",
+      "question": "Który polimer o skrócie PAN jest częstym prekursorem włókien węglowych?",
       "options": [
         "Poliakrylonitryl (Polyacrylonitrile)",
         "Polistyren",
@@ -1113,14 +1113,14 @@
         "Polipropylen"
       ],
       "answer": "Poliakrylonitryl (Polyacrylonitrile)",
-      "explanation_correct": "Włókna PAN są ciągnione, a następnie poddawane utlenianiu i karbonizacji w temperaturach powyżej 1000°C w atmosferze obojętnej, co usuwa inne pierwiastki niż węgiel.",
-      "explanation_incorrect": "Polistyren to styropian, poliuretan to gąbki, a polipropylen to worki i rury; żaden z nich nie ulega ustrukturyzowanej karbonizacji o wysokiej sprawności.",
+      "explanation_correct": "Włókna PAN stabilizuje się w podwyższonej temperaturze, a następnie karbonizuje w atmosferze ograniczającej dostęp tlenu. Szczegóły procesu zależą od producenta.",
+      "explanation_incorrect": "Polistyren, poliuretan i polipropylen są innymi polimerami; skrót PAN oznacza poliakrylonitryl.",
       "last_verified_at": "2026-06-12T15:28:54.099Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia i jedzenie",
-      "question": "Do jakiej temperatury (w przybliżeniu) należy podgrzać sacharozę, aby wywołać karmelizację — proces rozpadu cukrów bez udziału aminokwasów?",
+      "question": "Jaka orientacyjna temperatura jest często podawana dla karmelizacji suchej sacharozy?",
       "options": [
         "Około 160 stopni Celsjusza",
         "Około 100 stopni Celsjusza",
@@ -1128,14 +1128,14 @@
         "Około 80 stopni Celsjusza"
       ],
       "answer": "Około 160 stopni Celsjusza",
-      "explanation_correct": "Karmelizacja sacharozy zachodzi powyżej 160°C. Cukier topi się, ulega dehydratacji, izomeryzacji i rozpada na związki takie jak karmelan i diacetyl nadające zapach.",
-      "explanation_incorrect": "100°C to temperatura wrzenia wody (za niska dla karmelu), 80°C to temperatura pasteryzacji, a 250°C to temperatura spalania węgla (cukier uległby całkowitemu zwęgleniu).",
+      "explanation_correct": "Dla sacharozy często podaje się okolice 160°C, lecz przemiany cukru zależą od czasu, wody, pH i sposobu ogrzewania; nie zachodzą jako pojedynczy sztywny próg.",
+      "explanation_incorrect": "Podane wartości 80°C i 100°C są niższe niż typowa orientacyjna temperatura karmelizacji suchej sacharozy; przy 250°C cukier szybko ciemnieje i może się przypalić.",
       "last_verified_at": "2026-06-12T15:28:54.099Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zjawiska atmosferyczne",
-      "question": "Które wyładowania atmosferyczne chmura-ziemia (dodatnie czy ujemne) są statystycznie rzadsze, ale niosą wielokrotnie większy prąd i napięcie, będąc głównym sprawcą pożarów lasów?",
+      "question": "Który typ doziemnego wyładowania atmosferycznego jest zwykle rzadszy: dodatni czy ujemny?",
       "options": [
         "Dodatnie wyładowania doziemne (+CG / Positive lightning)",
         "Ujemne wyładowania doziemne (-CG)",
@@ -1143,8 +1143,8 @@
         "Błyskawice kuliste"
       ],
       "answer": "Dodatnie wyładowania doziemne (+CG / Positive lightning)",
-      "explanation_correct": "Wyładowania dodatnie (+CG) stanowią poniżej 5% błyskawic. Powstają w górnej, dodatnio naelektryzowanej części chmury burzowej (kowadle) i uderzają w ziemię z ogromną siłą.",
-      "explanation_incorrect": "Ujemne wyładowania stanowią 95% doziemnych, są słabsze, wewnątrzchmurowe nie uderzają w ziemię, a błyskawica kulista to rzadkie, słabo zbadane zjawisko świetlne.",
+      "explanation_correct": "Dodatnie wyładowania doziemne występują zwykle rzadziej od ujemnych. Ich prąd i czas trwania bywają duże, ale poszczególne wyładowania bardzo się różnią.",
+      "explanation_incorrect": "Ujemne doziemne są zazwyczaj częstsze. Wyładowania wewnątrzchmurowe nie należą do doziemnych.",
       "last_verified_at": "2026-06-12T15:28:54.100Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1174,7 +1174,7 @@
       ],
       "answer": "Granat ytrowo-glinowy domieszkowany cerem (Ce:YAG)",
       "explanation_correct": "Luminofor Ce:YAG pochłania część niebieskiego światła diody i emituje szerokie pasmo światła żółto-zielonego. Mieszanina pozostałego światła niebieskiego i żółtego daje światło białe.",
-      "explanation_incorrect": "Fluoresceina to barwnik organiczny ulegający degradacji, siarczek cynku to luminofor fosforescencyjny (świeci po naświetleniu), a tlenek tytanu to biały pigment bez luminescencji.",
+      "explanation_incorrect": "Ce:YAG jest jednym z luminoforów stosowanych do konwersji niebieskiego światła LED; inne materiały także mogą wykazywać luminescencję zależnie od składu i domieszek.",
       "last_verified_at": "2026-06-12T15:28:54.100Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1189,7 +1189,7 @@
       ],
       "answer": "Tlenek indu i cyny (Indium tin oxide / ITO)",
       "explanation_correct": "ITO łączy w sobie unikalne cechy: jest przewodnikiem elektrycznym (dzięki cynie) i jest optycznie przezroczysty w cienkich warstwach, co pozwala na nakładanie go na wyświetlacze.",
-      "explanation_incorrect": "Tlenek tytanu jest białą, nieprzezroczystą farbą, tlenek cynku z glinem to alternatywa (ale rzadziej stosowana), a tlenek krzemu to szkło (izolator).",
+      "explanation_incorrect": "Tlenek cynku domieszkowany glinem również może być przezroczystym przewodnikiem, ale skrót ITO oznacza tlenek indu i cyny. Tlenek krzemu jest izolatorem.",
       "last_verified_at": "2026-06-12T15:28:54.100Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1219,22 +1219,22 @@
       ],
       "answer": "Około 6 mm",
       "explanation_correct": "Gdy kropla osiąga średnicę ok. 6 mm, opór powietrza spycha jej dno tak mocno, że przybiera kształt worka, który pęka, tworząc mgłę mniejszych kropel.",
-      "explanation_incorrect": "2 mm to średnica stabilnych, średnich kropel deszczu, 1 mm to mżawka, a 15 mm to rozmiar, którego żadna kropla nie osiąga z powodu rozpadu.",
+      "explanation_incorrect": "Większe krople stają się coraz mniej stabilne, a dokładny moment rozpadu zależy od warunków. Krople o średnicach około 1–2 mm są na ogół stabilniejsze.",
       "last_verified_at": "2026-06-12T15:28:54.101Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Dlaczego wczesne układy ANC z lat 80. i 90. opierały się na elektronice analogowej, a nie na cyfrowych procesorach sygnałowych (DSP)?",
+      "question": "Jaka własność przetwarzania sygnału w słuchawkach ANC ma znaczenie dla odpowiedniego dopasowania fazy dźwięku korygującego?",
       "options": [
-        "Filtry analogowe nie wprowadzają opóźnień cyfrowych (latencji przetworników ADC/DAC)",
-        "Elektronika cyfrowa była zakazana w lotnictwie",
-        "Układy analogowe zużywały znacznie więcej prądu podwyższając jakość",
-        "Fale dźwiękowe nie mogą być zapisane w postaci cyfrowej"
+        "Opóźnienie toru przetwarzania",
+        "Kolor obudowy",
+        "Numer seryjny",
+        "Rodzaj opakowania"
       ],
-      "answer": "Filtry analogowe nie wprowadzają opóźnień cyfrowych (latencji przetworników ADC/DAC)",
-      "explanation_correct": "Przetwarzanie cyfrowe wymaga czasu na konwersję analogowo-cyfrową (ADC) i cyfrowo-analogową (DAC). Dawne procesory były zbyt wolne i opóźniały sygnał wygaszający.",
-      "explanation_incorrect": "Lotnictwo chętnie korzysta z cyfryzacji, zasilanie nie poprawia jakości w ten sposób, a dźwięk można bez problemu zapisać cyfrowo (np. płyty CD).",
+      "answer": "Opóźnienie toru przetwarzania",
+      "explanation_correct": "Opóźnienie zmienia fazę sygnału zależnie od częstotliwości. Dotyczy zarówno torów analogowych, jak i cyfrowych; w cyfrowych źródłem opóźnienia są m.in. przetworniki i obliczenia.",
+      "explanation_incorrect": "Kolor, numer seryjny i opakowanie nie wyznaczają opóźnienia toru sygnałowego ANC.",
       "last_verified_at": "2026-06-12T15:28:54.101Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1248,8 +1248,8 @@
         "Erb"
       ],
       "answer": "Dysproz (Dysprosium)",
-      "explanation_correct": "Dysproz (Dy) zastępuje część neodymu w sieci krystalicznej NdFeB. Zwiększa to tzw. koercję magnetyczną stopu, chroniąc magnes przed utratą właściwości w temp. powyżej 100°C.",
-      "explanation_incorrect": "Lantan i cer nie poprawiają stabilności temperaturowej magnesów, a erb jest używany jako dopasowanie do wzmacniaczy światłowodowych (EDFA).",
+      "explanation_correct": "Dodatek dysprozu do niektórych magnesów NdFeB zwiększa ich koercję i odporność na rozmagnesowanie w podwyższonej temperaturze; wymagania zależą od zastosowania.",
+      "explanation_incorrect": "Dysproz jest jednym z dodatków stosowanych dla zwiększenia koercji. Wpływ pozostałych pierwiastków zależy od składu i mikrostruktury magnesu.",
       "last_verified_at": "2026-06-12T15:28:54.101Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1263,7 +1263,7 @@
         "W atmosferze tlenu"
       ],
       "answer": "W atmosferze azotu (Nitrogen atmosphere)",
-      "explanation_correct": "Karbonizację prowadzi się w temperaturze 1000-1500°C w strumieniu azotu. Brak tlenu uniemożliwia zapalenie się węgla, a wysoka temperatura rozrywa inne wiązania organiczne.",
+      "explanation_correct": "Karbonizację włókien PAN prowadzi się zwykle w atmosferze obojętnego gazu, np. azotu, w podwyższonej temperaturze. Warunki zależą od etapu i producenta.",
       "explanation_incorrect": "Próżnia jest trudniejsza w utrzymaniu ciągłym na taśmie produkcyjnej, dwutlenek węgla reaguje z węglem w wysokich temperaturach (reakcja Boudouarda), a tlen spaliłby włókno.",
       "last_verified_at": "2026-06-12T15:28:54.101Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1278,8 +1278,8 @@
         "Denaturacja"
       ],
       "answer": "Kleikowanie skrobi (Starch gelatinization)",
-      "explanation_correct": "Skrobia (amyloza i amylopektyna) w temperaturze pow. 60°C chłonie wodę, ziarna pęcznieją i pękają, uwalniając łańcuchy polimerowe tworzące lepki zol (kleik skrobiowy).",
-      "explanation_incorrect": "Koagulacja i denaturacja dotyczą białek, a karmelizacja to proces rozpadu cukrów prostych.",
+      "explanation_correct": "Podczas ogrzewania skrobi w wodzie ziarna chłoną wodę, pęcznieją i tracą uporządkowanie. Temperatura i stopień rozpadu ziaren zależą od rodzaju skrobi oraz warunków.",
+      "explanation_incorrect": "Kleikowanie dotyczy ziaren skrobi; koagulacja i denaturacja opisują inne przemiany, a karmelizacja to złożone przemiany ogrzewanych cukrów.",
       "last_verified_at": "2026-06-12T15:28:54.101Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1308,14 +1308,14 @@
         "Potas"
       ],
       "answer": "Cez / Rubid (Cesium / Rubidium)",
-      "explanation_correct": "Satelity GPS przenoszą stabilne zegary atomowe oparte na rezonansie atomów cezu-133 (standard sekundy) oraz rubidu, co gwarantuje błąd pomiaru czasu poniżej kilku nanosekund na dobę.",
-      "explanation_incorrect": "Sód, lit i potas mają inne częstotliwości przejść nadsubtelnych, które są mniej stabilne lub trudniejsze do precyzyjnego pomiaru laserowego.",
+      "explanation_correct": "Satelity GPS używają bardzo stabilnych zegarów atomowych, w tym rubidowych lub cezowych zależnie od generacji satelity. Poprawki zegara są monitorowane i przekazywane odbiornikom.",
+      "explanation_incorrect": "Pytanie dotyczy technologii używanej w satelitach GPS, a nie stwierdzenia, że innych pierwiastków nie można użyć jako wzorców czasu.",
       "last_verified_at": "2026-06-12T15:28:54.102Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jakie nanocząsteczki półprzewodnikowe (kropki kwantowe) nakłada się na diody LED w nowoczesnych ekranach telewizorów, aby uzyskać czystą czerwień i zieleń?",
+      "question": "Jak nazywają się nanocząstki półprzewodnikowe stosowane w części ekranów do przekształcania niebieskiego światła w czerwień i zieleń?",
       "options": [
         "Kropki kwantowe (Quantum dots)",
         "Luminofory organiczne",
@@ -1323,8 +1323,8 @@
         "Kryształy krzemowe"
       ],
       "answer": "Kropki kwantowe (Quantum dots)",
-      "explanation_correct": "Kropki kwantowe emitują światło o ściśle określonej barwie zależnej od rozmiaru nanocząsteczki (zjawisko uwięzienia kwantowego), co pozwala na pokrycie szerokiej gamy barw (QLED).",
-      "explanation_incorrect": "Luminofory organiczne ulegają szybkiej degradacji pod wpływem światła UV, barwniki są filtrami (pochłaniają światło zamiast je emitować), a krzem nie wykazuje silnej luminescencji.",
+      "explanation_correct": "Kropki kwantowe mogą emitować światło o barwie zależnej m.in. od rozmiaru cząstek. W części wyświetlaczy są umieszczone w warstwie konwersyjnej podświetlenia.",
+      "explanation_incorrect": "Kropki kwantowe to wskazane nanocząstki. Inne luminofory i barwniki mają różne zastosowania, ale nie są synonimami tej nazwy.",
       "last_verified_at": "2026-06-12T15:28:54.102Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1369,13 +1369,13 @@
       ],
       "answer": "Niemal idealne kule (Spherical)",
       "explanation_correct": "Dla małych kropel siły napięcia powierzchniowego są znacznie większe niż opór powietrza, co zmusza ciecz do przybrania kuli o minimalnej powierzchni.",
-      "explanation_incorrect": "Kształt bułki występuje u kropel większych (2-5 mm), dyski ulegają rozpadowi, a szpiczasta łza to mit graficzny.",
+      "explanation_incorrect": "Większe krople mogą się spłaszczać, a jeszcze większe rozpadać. Małe krople nie przybierają charakterystycznego szpicu rysunkowej łzy.",
       "last_verified_at": "2026-06-12T15:28:54.102Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Który układ ANC wykorzystuje dwa mikrofony (jeden na zewnątrz i jeden wewnątrz muszli), łącząc zalety sprzężenia zwrotnego i w przód?",
+      "question": "Który układ ANC łączy mikrofon zewnętrzny ze sprzężeniem zwrotnym z mikrofonu przy uchu?",
       "options": [
         "Układ hybrydowy (Hybrid ANC)",
         "Układ adaptacyjny",
@@ -1383,14 +1383,14 @@
         "Układ symetryczny"
       ],
       "answer": "Układ hybrydowy (Hybrid ANC)",
-      "explanation_correct": "Hybrydowe ANC tłumi zarówno wysokie tony (dzięki zewnętrznemu mikrofonowi), jak i koryguje błędy niskich tonów (dzięki mikrofonowi wewnętrznemu), oferując najlepsze tłumienie.",
-      "explanation_incorrect": "Układ adaptacyjny to algorytm, a nie architektura mikrofonów, a różnicowy i symetryczny to inne tryby transmisji sygnałów.",
+      "explanation_correct": "Hybrydowe ANC łączy architekturę feedforward i feedback. Faktyczna skuteczność i pasmo tłumienia zależą od konstrukcji słuchawek i ich dopasowania.",
+      "explanation_incorrect": "Określenie adaptacyjny opisuje sposób dostosowania algorytmu i może dotyczyć różnych architektur.",
       "last_verified_at": "2026-06-12T15:28:54.102Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jaki związek chemiczny (LFP) zastępuje drogi kobalt w katodach nowoczesnych, tańszych i trwalszych akumulatorów aut elektrycznych?",
+      "question": "Jaki materiał katodowy oznacza skrót LFP w akumulatorach litowo-jonowych?",
       "options": [
         "Litowo-żelazowo-fosforanowy (LiFePO4 / Lithium iron phosphate)",
         "Tlenek manganu",
@@ -1398,14 +1398,14 @@
         "Tytanian litu"
       ],
       "answer": "Litowo-żelazowo-fosforanowy (LiFePO4 / Lithium iron phosphate)",
-      "explanation_correct": "Akumulatory LFP (litowo-żelazowo-fosforanowe) są bezpieczniejsze (odporne na samozapłon) i wytrzymują więcej cykli ładowania, choć mają nieco mniejszą gęstość energii niż ogniwa NMC.",
-      "explanation_incorrect": "Tlenek manganu występuje w ogniwach alkalicznych, siarczek niklu to nieaktywny minerał, a tytanian litu (LTO) stosuje się na anodach, nie na katodach.",
+      "explanation_correct": "LFP to fosforan litowo-żelazowy LiFePO4, niezawierający kobaltu. Ogniwa LFP często mają długą żywotność i niższą gęstość energii niż NMC, ale ich bezpieczeństwo zależy także od konstrukcji i warunków użytkowania.",
+      "explanation_incorrect": "Tlenki manganu mogą być materiałami elektrod innych ogniw, a tytanian litu stosuje się jako materiał anody. LFP oznacza fosforan litowo-żelazowy.",
       "last_verified_at": "2026-06-12T15:28:54.103Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Inżynieria materiałowa",
-      "question": "W jakim przedziale temperatur (w przybliżeniu) przeprowadza się ostateczny etap karbonizacji włókien w celu usunięcia zanieczyszczeń organicznych?",
+      "question": "Jaki zakres temperatur jest typowy dla jednego z etapów karbonizacji włókien PAN?",
       "options": [
         "Od 1000 do 1500 stopni Celsjusza",
         "Od 100 do 300 stopni Celsjusza",
@@ -1413,8 +1413,8 @@
         "Od 500 do 700 stopni Celsjusza"
       ],
       "answer": "Od 1000 do 1500 stopni Celsjusza",
-      "explanation_correct": "Karbonizacja w temperaturze 1000-1500°C usuwa z włókien PAN atomy azotu, tlenu i wodoru, pozostawiając strukturę składającą się w ponad 90% z czystego węgla.",
-      "explanation_incorrect": "100-300°C to etap wstępnej stabilizacji (utleniania), 3000-4000°C to temperatura łuku elektrycznego (włókna uległyby uszkodzeniu bez grafitowania), a 500-700°C to za niska temperatura do pełnego usunięcia azotu.",
+      "explanation_correct": "Karbonizacja włókien PAN może przebiegać w przybliżeniu w zakresie 1000–1500°C w atmosferze obojętnej. Parametry oraz późniejsza obróbka zależą od rodzaju włókna.",
+      "explanation_incorrect": "Stabilizacja włókien odbywa się w niższych temperaturach; konkretne zakresy karbonizacji i grafityzacji zależą od procesu.",
       "last_verified_at": "2026-06-12T15:28:54.103Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1428,8 +1428,8 @@
         "Celuloza"
       ],
       "answer": "Amyloza (Amylose)",
-      "explanation_correct": "Liniowe cząsteczki amylozy łatwo asocjują i tworzą gęstą sieć wiązań wodorowych w procesie tzw. retrogradacji, co unieruchamia cząsteczki wody i tworzy stabilny żel.",
-      "explanation_incorrect": "Amylopektyna ma strukturę rozgałęzioną i słabiej żeluje (tworzy zole o wysokiej lepkości), glikogen to magazyn zwierzęcy, a celuloza jest nierozpuszczalna.",
+      "explanation_correct": "Amyloza może po schłodzeniu tworzyć sieć przez asocjację łańcuchów i wiązania wodorowe. Amylopektyna również ulega retrogradacji, zwykle wolniej; wynik zależy od rodzaju skrobi i warunków.",
+      "explanation_incorrect": "Amylopektyna jest rozgałęziona; glikogen jest polisacharydem zapasowym zwierząt, a celuloza buduje ściany komórkowe roślin.",
       "last_verified_at": "2026-06-12T15:28:54.103Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1465,16 +1465,16 @@
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Jak nazywa się typ wyświetlaczy (OLED), w których warstwa emisyjna diod wykonana jest ze związków organicznych, co eliminuje potrzebę podświetlenia tła?",
+      "question": "Jak nazywa się technologia, w której organiczne diody świecą samodzielnie i nie wymagają osobnego podświetlenia?",
       "options": [
-        "OLED (Organic Light-Emitting Diode)",
-        "QLED",
-        "AMOLED aktywny",
-        "Mini-LED"
+        "OLED",
+        "Tradycyjny LCD",
+        "Mini-LED LCD",
+        "E-papier elektroforetyczny"
       ],
-      "answer": "OLED (Organic Light-Emitting Diode)",
+      "answer": "OLED",
       "explanation_correct": "OLED używa warstw organicznych półprzewodników (polimerów lub małych cząsteczek). Każdy piksel świeci samodzielnie, co pozwala uzyskać idealną czerń przez całkowite wyłączenie piksela.",
-      "explanation_incorrect": "QLED używa klasycznych ciekłych kryształów i kropek kwantowych, Mini-LED to mniejsze diody podświetlenia LCD, a AMOLED to odmiana techniczna OLED z aktywną matrycą.",
+      "explanation_incorrect": "LCD, w tym wersje z podświetleniem mini-LED, korzysta z odrębnego źródła światła. E-papier elektroforetyczny działa na innej zasadzie; AMOLED to odmiana OLED z aktywną matrycą.",
       "last_verified_at": "2026-06-12T15:28:54.104Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1488,23 +1488,23 @@
         "Dolomit"
       ],
       "answer": "Piasek kwarcowy (Silicon dioxide / SiO2)",
-      "explanation_correct": "Dwutlenek krzemu (SiO2) to podstawowy czynnik szkłotwórczy. Tworzy on amorficzną trójwymiarową sieć szklaną podczas topnienia i szybkiego schładzania.",
-      "explanation_incorrect": "Tlenek glinu to dodatek modyfikujący, soda zmniejsza temperaturę topnienia, a dolomit stabilizuje strukturę przed działaniem wody.",
+      "explanation_correct": "Krzemionka SiO2 jest podstawowym składnikiem szkłotwórczym wielu szkieł glinokrzemianowych, obok składników dostarczających m.in. tlenku glinu.",
+      "explanation_incorrect": "Tlenek glinu i inne dodatki również wpływają na właściwości szkła; piasek kwarcowy dostarcza przede wszystkim krzemionki.",
       "last_verified_at": "2026-06-12T15:28:54.104Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Codzienna technologia",
-      "question": "Dlaczego magnetron w kuchence mikrofalowej wymaga dwóch stałych magnesów pierścieniowych wokół bloku anody?",
+      "question": "Jaką funkcję pełni pole magnesów w magnetronie kuchenki mikrofalowej?",
       "options": [
-        "Pole magnetyczne zakrzywia tory elektronów w kołowe orbity wokół katody, wymuszając ich rezonans",
-        "Magnesy chłodzą komorę wnękową za pomocą indukcji magnetycznej",
-        "Magnesy filtrują zanieczyszczenia z sieci zasilającej",
-        "Magnesy zapobiegają ucieczce mikrofal do otoczenia"
+        "Zakrzywia tory elektronów, umożliwiając pobudzanie rezonatorów",
+        "Chłodzi wnęki rezonansowe",
+        "Filtruje zasilanie sieciowe",
+        "Uszczelnia drzwi kuchenki"
       ],
-      "answer": "Pole magnetyczne zakrzywia tory elektronów w kołowe orbity wokół katody, wymuszając ich rezonans",
-      "explanation_correct": "Siła Lorentza pochodząca od stałych magnesów zakrzywia tory elektronów. Zamiast lecieć bezpośrednio do anody, elektrony krążą wokół katody, pobudzając wnęki rezonansowe.",
-      "explanation_incorrect": "Magnesy nie chłodzą wnęk, nie filtrują prądu sieciowego i nie zapobiegają ucieczce fal (co leży w gestii klatki Faradaya i falowodu).",
+      "answer": "Zakrzywia tory elektronów, umożliwiając pobudzanie rezonatorów",
+      "explanation_correct": "Stałe pole magnetyczne wraz z polem elektrycznym wpływa na ruch elektronów wokół katody; ich oddziaływanie z wnękami anody pozwala wzbudzać mikrofale.",
+      "explanation_incorrect": "Magnesy nie pełnią wymienionych funkcji chłodzenia, filtrowania zasilania ani uszczelniania drzwi.",
       "last_verified_at": "2026-06-12T15:28:54.104Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }
