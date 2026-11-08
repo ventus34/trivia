@@ -141,6 +141,10 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Historia Polskich Elektronarzędzi (PL):** uzupełniono częściowy przegląd wszystkich 100 pytań, zmieniając 34 pozycje i niezależnie sprawdzając wybrane zasady bezpieczeństwa; [raport](audits/2026-11-08-historia-polskich-elektronarzedzi-uzupelnienie-pl.md).
 
+- **Klimat i Zjawiska (PL):** przegląd 100 pytań, korekty 79 pozycji i niezależna kontrola wybranych zagadnień meteorologicznych; [raport](audits/2026-11-08-klimat-i-zjawiska-pl.md).
+- **Literatura (PL):** przegląd 100 pytań, korekty 87 pozycji i niezależna kontrola wybranych twierdzeń; [raport](audits/2026-11-08-literatura-pl.md).
+- **The History of Beverages (EN):** przegląd 100 pytań, korekty 99 pozycji i niezależna kontrola wybranych tez; [raport](audits/2026-11-08-the-history-of-beverages-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
