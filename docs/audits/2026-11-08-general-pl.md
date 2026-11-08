@@ -23,3 +23,13 @@ Najważniejsze poprawki:
 - [FIFA: wyniki mundialu 2026](https://www.fifa.com/en/articles/final-tournament-standings).
 
 Ograniczenia: odczyt całej paczki i powyższe źródła nie oznaczają niezależnego potwierdzenia wszystkich tez. W szczególności nadal potrzebna jest systematyczna weryfikacja pozostałych szczegółów, porównań rekordów, nazw i bliskich powtórzeń; dane dynamiczne wymagają aktualizacji w czasie. Automatyczny audyt kontroluje strukturę i wybrane typy błędów, nie prawdziwość każdego twierdzenia.
+
+## Redakcja wskazanych bliskich powtórzeń
+
+W osobnym przeglądzie zastąpiono treść 27 rekordów: **69, 298, 330, 351, 403, 408, 439, 441–443, 447, 450, 455, 458, 463, 467, 469, 487, 492, 495–496, 499, 503, 507, 547, 551–552**. Numeracja odnosi się do kolejności w tablicy, począwszy od 1. Zachowano 578 pytań i opis. Pytania o Szwecję i liczbę wysp (69, 443) zastąpiono jednoznacznymi pytaniami o przynależność Gotlandii i Svalbardu.
+
+Z wytypowanych grup pozostawiono po jednym pytaniu o ten sam zasadniczy fakt: 60 (Ottawa), 59 (Bajkał), 70 (Aconcagua), 83 (Kolorado i Wielki Kanion), 92 (Ural), 104 (symbol złota), 111 (pH czystej wody), 113 (twardość diamentu), 114 (pierścienie Saturna), 123 (azot w atmosferze), 126 (status Plutona), 133 (herc), 155 („Krzyk”), 157 (IX symfonia), 162 („Dawid”), 179 („Trwałość pamięci”), 193 (nawierzchnia Wimbledonu), 194 (dystans maratonu), 202 (czas meczu), 323 (fotosynteza), 328 (Newton) i 333 („Rok 1984”). Poprzednia lista błędnie wskazywała nr 51 jako pytanie o Ottawę; jest nim nr 60.
+
+Wybrane źródła dla nowej redakcji: [NASA: Uran](https://science.nasa.gov/Uranus/facts/) (495), [NASA: Ceres](https://science.nasa.gov/dwarf-planets/ceres/facts/) (499), [ITF: punktacja tenisowa](https://www.itftennis.com/en/about-us/organisation/tennis-glossary/) (351, 463), [IFAB: rzut rożny](https://www.theifab.com/laws/latest/the-corner-kick/) (467).
+
+Ograniczenia: źródła potwierdzają wybrane fakty, nie wszystkie nowe pytania; redakcja obejmuje tylko wskazane grupy. Pozostałe bliskie powtórzenia w paczce wymagają odrębnego przeglądu, a wspólna odpowiedź nie musi oznaczać powtórzenia pytanego faktu.

@@ -159,7 +159,7 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Kino i Film (PL):** przegląd 100 pytań, korekty 30 rekordów i synchronizacja opisu; [raport](audits/2026-11-08-kino-i-film-pl.md).
 
-- **Wiedza Ogólna (PL):** przegląd 578 pytań, korekty 150 rekordów; pozostają bliskie powtórzenia. [Raport](audits/2026-11-08-general-pl.md).
+- **Wiedza Ogólna (PL):** przegląd 578 pytań, korekty 150 rekordów oraz redakcja 27 pytań z wybranych grup powtórzeń; inne podobne pytania pozostają. [Raport](audits/2026-11-08-general-pl.md).
 - **Kultura Otaku (PL):** przegląd 100 pytań, korekty 50 rekordów i synchronizacja opisu; [raport](audits/2026-11-08-kultura-otaku-pl.md).
 
 - **Klasyka Komedii i Sitcomów (PL):** przegląd 100 pytań, korekty 45 rekordów i synchronizacja opisu; [raport](audits/2026-11-08-klasyka-komedii-i-sitcomow-pl.md).
