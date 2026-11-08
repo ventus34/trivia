@@ -4,13 +4,11 @@
   "language": "pl",
   "description": "Pytania z zakresu: Architektura stolicy, Inżynieria kolejowa, Hydroenergetyka, Gospodarka morska...",
   "created_at": "2026-06-12T17:19:11.284Z",
-  "last_verified_at": "2026-06-12T17:17:05.039Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Architektura stolicy",
-      "question": "Który budynek pozostawał najwyższą konstrukcją w Polsce w całym okresie trwania PRL?",
+      "question": "Który z tych budynków w Warszawie oddano do użytku w 1955 roku i był najwyższym budynkiem w Polsce w kolejnych dekadach PRL?",
       "options": [
         "Hotel Warszawa",
         "Pałac Kultury i Nauki",
@@ -18,14 +16,12 @@
         "Błękitny Wieżowiec"
       ],
       "answer": "Pałac Kultury i Nauki",
-      "explanation_correct": "Pałac Kultury i Nauki, oddany do użytku w 1955 roku, był najwyższym budynkiem w PRL.",
-      "explanation_incorrect": "Pozostałe wieżowce powstały później lub są niższe od PKiN.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pałac Kultury i Nauki otwarto w 1955 roku. Nie był najwyższą konstrukcją każdego rodzaju: wyższe były niektóre maszty radiowe.",
+      "explanation_incorrect": "Pozostałe wieżowce powstały później lub są niższe od PKiN."
     },
     {
       "subcategory": "Inżynieria kolejowa",
-      "question": "Który obiekt warszawskiego węzła kolejowego stał się ikoną modernizmu po otwarciu w 1975 roku?",
+      "question": "Który warszawski dworzec kolejowy otwarto w 1975 roku?",
       "options": [
         "Warszawa Wschodnia",
         "Warszawa Centralna",
@@ -33,10 +29,8 @@
         "Warszawa Gdańska"
       ],
       "answer": "Warszawa Centralna",
-      "explanation_correct": "Dworzec Centralny wyróżniał się innowacyjną konstrukcją dachu typu 'nadwieszonego'.",
-      "explanation_incorrect": "Pozostałe wymienione dworce nie posiadały tak nowatorskiej architektury dachu w swoim czasie.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dworzec Warszawa Centralna, zaprojektowany przez zespół kierowany przez Arseniusza Romanowicza, otwarto w 1975 roku.",
+      "explanation_incorrect": "Pozostałe odpowiedzi również są dworcami Warszawy, ale nie tym otwartym w 1975 roku."
     },
     {
       "subcategory": "Hydroenergetyka",
@@ -55,18 +49,16 @@
     },
     {
       "subcategory": "Gospodarka morska",
-      "question": "Jaki specjalistyczny port morski w Gdańsku powstał jako sztuczna wyspa w latach 70. XX wieku?",
+      "question": "Jak nazywa się głębokowodna część portu w Gdańsku, budowana w latach 70. XX wieku?",
       "options": [
-        "Port Gdańsk",
         "Port Północny",
-        "Port Wewnętrzny",
-        "Terminal Kontenerowy"
+        "Port lotniczy",
+        "Kanał Augustowski",
+        "Dworzec Centralny"
       ],
       "answer": "Port Północny",
-      "explanation_correct": "Port Północny powstał na terenach odzyskanych z morza w latach 1970–1975.",
-      "explanation_incorrect": "Pozostałe nazwy dotyczą starszych części portu lub są określeniami ogólnymi.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Port Północny jest zewnętrzną, głębokowodną częścią portu w Gdańsku, rozbudowaną w latach 70.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie oznaczają tej części portu morskiego."
     },
     {
       "subcategory": "Urbanistyka socrealistyczna",
@@ -79,9 +71,7 @@
       ],
       "answer": "Nowa Huta",
       "explanation_correct": "Nowa Huta została zaprojektowana jako miasto idealne dla robotników Huty im. Lenina.",
-      "explanation_incorrect": "Pozostałe dzielnice powstały później lub miały inny charakter urbanistyczny.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mistrzejowice i Bieńczyce także należą do obszaru historycznej Nowej Huty, lecz pytanie dotyczy nazwy całego zespołu urbanistycznego."
     },
     {
       "subcategory": "Inżynieria mostowa",
@@ -93,14 +83,12 @@
         "Warta"
       ],
       "answer": "Słudwia",
-      "explanation_correct": "Most w Maurzycach nad rzeką Słudwią był pierwszym na świecie drogowym mostem spawany (inz. Stefan Bryła).",
-      "explanation_incorrect": "Pozostałe rzeki są znacznie większe, a historyczny most spawany powstał nad niewielką Słudwią.",
-      "last_verified_at": "2026-06-12T17:17:05.039Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Most w Maurzycach nad Słudwią, zaprojektowany przez Stefana Bryłę, był pionierskim drogowym mostem spawanym. Powstał przed okresem PRL.",
+      "explanation_incorrect": "Pozostałe rzeki są znacznie większe, a historyczny most spawany powstał nad niewielką Słudwią."
     },
     {
       "subcategory": "Hutnictwo",
-      "question": "Pod jaką nazwą znany był największy zakład metalurgiczny zbudowany w latach 70. w Dąbrowie Górniczej?",
+      "question": "Jak nazywał się wielki kombinat metalurgiczny zbudowany w latach 70. w Dąbrowie Górniczej?",
       "options": [
         "Huta Warszawa",
         "Huta Katowice",
@@ -109,13 +97,11 @@
       ],
       "answer": "Huta Katowice",
       "explanation_correct": "Huta Katowice była sztandarową inwestycją dekady Edwarda Gierka.",
-      "explanation_incorrect": "Pozostałe huty to zakłady o znacznie mniejszej skali lub o znacznie starszej metryce.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe huty to zakłady o znacznie mniejszej skali lub o znacznie starszej metryce."
     },
     {
       "subcategory": "Radiokomunikacja",
-      "question": "W jakiej miejscowości stał przed 1991 rokiem najwyższy na świecie maszt radiowy?",
+      "question": "W której miejscowości koło Gąbina stał maszt radiowy, który zawalił się w 1991 roku?",
       "options": [
         "Gąbin",
         "Konstantynów",
@@ -124,9 +110,7 @@
       ],
       "answer": "Konstantynów",
       "explanation_correct": "Maszt radiowy w Konstantynowie koło Gąbina mierzył 646 metrów przed zawaleniem w 1991 roku.",
-      "explanation_incorrect": "Raszyn i Solec Kujawski to inne lokalizacje emiterów radiowych o mniejszych wysokościach.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Raszyn i Solec Kujawski to inne lokalizacje emiterów radiowych o mniejszych wysokościach."
     },
     {
       "subcategory": "Transport lotniczy",
@@ -149,18 +133,16 @@
       "options": [
         "Górnośląski Okręg Przemysłowy",
         "Legnicko-Głogowski Okręg Miedziowy",
-        "Zagłębie Miedziowe Lubin",
-        "Łużycki Okręg Surowcowy"
+        "Łódzki Okręg Przemysłowy",
+        "Centralny Okręg Przemysłowy"
       ],
       "answer": "Legnicko-Głogowski Okręg Miedziowy",
       "explanation_correct": "LGOM to oficjalna nazwa okręgu eksploatacji rud miedzi powstałego w PRL.",
-      "explanation_incorrect": "Pozostałe określenia są geograficznie lub historycznie niedokładne w kontekście skali wydobycia w tej epoce.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy odnoszą się do innych okręgów przemysłowych."
     },
     {
       "subcategory": "Przemysł motoryzacyjny",
-      "question": "Które warszawskie przedsiębiorstwo było głównym producentem polskiej motoryzacji w czasach PRL?",
+      "question": "Która warszawska fabryka produkowała samochody osobowe Warszawa i Syrena?",
       "options": [
         "Fabryka Samochodów Ciężarowych",
         "Fabryka Samochodów Osobowych",
@@ -168,14 +150,12 @@
         "Fabryka Silników S-21"
       ],
       "answer": "Fabryka Samochodów Osobowych",
-      "explanation_correct": "FSO przy ul. Stalingradzkiej produkowało m.in. Warszawy i Syreny.",
-      "explanation_incorrect": "FSC produkowało samochody dostawcze, a Ursus ciągniki rolnicze.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fabryka Samochodów Osobowych na Żeraniu produkowała m.in. samochody Warszawa i Syrena.",
+      "explanation_incorrect": "FSC produkowało samochody dostawcze, a Ursus ciągniki rolnicze."
     },
     {
       "subcategory": "Energetyka węglowa",
-      "question": "Wskaż największą elektrownię opalaną węglem brunatnym, główny filar energetyki zawodowej PRL.",
+      "question": "Która elektrownia opalana węglem brunatnym powstała w pobliżu Bełchatowa w czasach PRL?",
       "options": [
         "Elektrownia Turów",
         "Elektrownia Bełchatów",
@@ -183,14 +163,12 @@
         "Elektrownia Adamów"
       ],
       "answer": "Elektrownia Bełchatów",
-      "explanation_correct": "Elektrownia Bełchatów powstała jako największy kompleks energetyczny epoki.",
-      "explanation_incorrect": "Pozostałe elektrownie mają znacznie mniejszą moc zainstalowaną niż obiekt w Bełchatowie.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elektrownia Bełchatów rozpoczęła wytwarzanie energii w latach 80. i była rozbudowywana kolejnymi blokami.",
+      "explanation_incorrect": "Pozostałe elektrownie to inne zakłady wykorzystujące węgiel brunatny."
     },
     {
       "subcategory": "Sztuka i technika",
-      "question": "Który malarz stworzył słynne mozaiki zdobiące halę główną dworca Warszawa Centralna?",
+      "question": "Który malarz zaprojektował dekoracje mozaikowe stacji Warszawa Śródmieście?",
       "options": [
         "Edward Dwurnik",
         "Wojciech Fangor",
@@ -198,14 +176,12 @@
         "Tadeusz Kantor"
       ],
       "answer": "Wojciech Fangor",
-      "explanation_correct": "Wojciech Fangor jest autorem charakterystycznych abstrakcyjnych dekoracji ściennych na tym dworcu.",
-      "explanation_incorrect": "Pozostali artyści nie brali udziału w tym konkretnym projekcie wystroju wnętrz.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wojciech Fangor współtworzył projekt wystroju i mozaik stacji Warszawa Śródmieście, a nie hali Dworca Centralnego.",
+      "explanation_incorrect": "Pozostali artyści nie są autorami wskazanego projektu dekoracji stacji."
     },
     {
       "subcategory": "Hydrologia",
-      "question": "Jaki kanał żeglowny, zbudowany w latach 30. i intensywnie eksploatowany w PRL, łączy Wisłę z systemem Odry?",
+      "question": "Który kanał żeglowny, oficjalnie otwarty w 1939 roku, łączy Gliwice z Odrą?",
       "options": [
         "Kanał Bydgoski",
         "Kanał Gliwicki",
@@ -213,14 +189,12 @@
         "Kanał Elbląski"
       ],
       "answer": "Kanał Gliwicki",
-      "explanation_correct": "Kanał Gliwicki jest kluczową śródlądową drogą wodną łączącą regiony przemysłowe z rzekami głównymi.",
-      "explanation_incorrect": "Pozostałe kanały pełnią inne funkcje lub mają inną orientację geograficzną.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kanał Gliwicki łączy port w Gliwicach z Odrą. Oficjalnie otwarto go w 1939 roku, a pełną zdolność techniczną osiągnął później.",
+      "explanation_incorrect": "Kanał Bydgoski jest częścią połączenia dorzeczy Wisły i Odry; pozostałe kanały leżą w innych częściach Polski."
     },
     {
       "subcategory": "Budownictwo okrętowe",
-      "question": "Który zakład okrętowy był w latach 70. głównym ośrodkiem budowy wielkich masowców w Szczecinie?",
+      "question": "Która stocznia w Szczecinie budowała w okresie PRL statki handlowe?",
       "options": [
         "Stocznia Gdańska",
         "Stocznia Szczecińska",
@@ -229,13 +203,11 @@
       ],
       "answer": "Stocznia Szczecińska",
       "explanation_correct": "Stocznia Szczecińska specjalizowała się w budowie dużych jednostek transportowych.",
-      "explanation_incorrect": "Gdańsk zajmował się inną specyfiką produkcji, a pozostałe stocznie miały mniejszy potencjał tonażowy.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy dotyczą zakładów stoczniowych w Gdańsku."
     },
     {
       "subcategory": "Inżynieria lądowa",
-      "question": "Kto był głównym projektantem i koordynatorem budowy Trasy Łazienkowskiej w Warszawie?",
+      "question": "Który architekt kierował zespołem opracowującym koncepcję warszawskiej Trasy Łazienkowskiej?",
       "options": [
         "Stanisław Jankowski",
         "Józef Sigalin",
@@ -243,14 +215,12 @@
         "Jerzy Sołtan"
       ],
       "answer": "Józef Sigalin",
-      "explanation_correct": "Józef Sigalin kierował pracami nad jedną z największych arterii komunikacyjnych Warszawy.",
-      "explanation_incorrect": "Pozostali to znani architekci, lecz nie oni pełnili rolę głównego inżyniera tego projektu.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Józef Sigalin kierował zespołem, który opracował koncepcję przebiegu trasy.",
+      "explanation_incorrect": "Pozostali byli architektami, ale nie kierowali tym zespołem."
     },
     {
       "subcategory": "Kolejnictwo",
-      "question": "Jak nazywała się najważniejsza linia kolejowa PRL, kluczowa dla transportu węgla ze Śląska do portów?",
+      "question": "Jak nazywa się linia kolejowa budowana w międzywojniu do przewozu węgla ze Śląska w kierunku Gdyni?",
       "options": [
         "Linia Hutnicza Szerokotorowa",
         "Magistrala Węglowa",
@@ -258,10 +228,8 @@
         "Linia Podsudecka"
       ],
       "answer": "Magistrala Węglowa",
-      "explanation_correct": "Magistrala Węglowa łączyła bezpośrednio rybnicki okręg z portem w Gdyni.",
-      "explanation_incorrect": "LHS służyła do komunikacji ze wschodem, a inne linie nie posiadały takiego znaczenia dla transportu surowca do portów.",
-      "last_verified_at": "2026-06-12T17:16:15.652Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Magistrala Węglowa powstała przede wszystkim w dwudziestoleciu międzywojennym; była ważna dla transportu w PRL.",
+      "explanation_incorrect": "LHS służyła do komunikacji ze wschodem, a inne linie nie posiadały takiego znaczenia dla transportu surowca do portów."
     },
     {
       "subcategory": "Przemysł chemiczny",
@@ -280,7 +248,7 @@
     },
     {
       "subcategory": "Górnictwo siarki",
-      "question": "W jakiej miejscowości koło Sandomierza zlokalizowano wielką kopalnię odkrywkową siarki?",
+      "question": "W której części dzisiejszego Tarnobrzega działała odkrywkowa kopalnia siarki?",
       "options": [
         "Machów",
         "Jeziórko",
@@ -289,9 +257,7 @@
       ],
       "answer": "Machów",
       "explanation_correct": "Kopalnia Machów była jednym z największych zakładów wydobycia siarki w tej części Europy.",
-      "explanation_incorrect": "Grzybów zajmował się głównie wydobyciem otworowym, a pozostałe to mniejsze lub inne ośrodki.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W Jeziórku i Grzybowie wydobywano siarkę metodą otworową; Starachowice są innym ośrodkiem przemysłowym."
     },
     {
       "subcategory": "Architektura sportowa",
@@ -303,14 +269,12 @@
         "Hala Wola"
       ],
       "answer": "Spodek",
-      "explanation_correct": "Katowicki Spodek zyskał miano unikalnego obiektu o konstrukcji inżynierskiej typu namiotowego.",
-      "explanation_incorrect": "Pozostałe obiekty to hale typu klasycznego, nieposiadające unikalnego kształtu spodka.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Spodek otwarto w 1971 roku; jego charakterystyczny dach wykorzystuje konstrukcję linową.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne obiekty sportowe."
     },
     {
       "subcategory": "Infrastruktura drogowa",
-      "question": "Która warszawska trasa drogowa, oddana do użytku w 1974 roku, była najbardziej spektakularną inwestycją komunikacyjną dekady Gierka?",
+      "question": "Którą warszawską trasę z mostem przez Wisłę otwarto w 1974 roku?",
       "options": [
         "Trasa Łazienkowska",
         "Trasa Toruńska",
@@ -319,43 +283,37 @@
       ],
       "answer": "Trasa Łazienkowska",
       "explanation_correct": "Trasa Łazienkowska z Mostem Łazienkowskim była symbolem nowoczesności Warszawy w latach 70.",
-      "explanation_incorrect": "Wisłostrada powstała w tym samym czasie, ale to Trasa Łazienkowska była główną arterią łączącą brzegi Wisły.",
-      "last_verified_at": "2026-06-12T17:17:05.039Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Trasa W-Z została otwarta wcześniej, a pozostałe nazwy oznaczają inne warszawskie arterie."
     },
     {
       "subcategory": "Inżynieria okrętowa",
-      "question": "Jaką nazwę nosiła specjalistyczna klasa statków budowanych w polskich stoczniach w czasach PRL, przeznaczona do transportu sypkich ładunków masowych, głównie węgla i rudy?",
+      "question": "Jak nazywa się statek przystosowany do przewozu zarówno rudy, jak i węgla?",
       "options": [
         "Kontenerowiec",
         "Rudowęglowiec",
-        "Masowiec",
-        "Ro-ro"
+        "Zbiornikowiec",
+        "Prom pasażerski"
       ],
       "answer": "Rudowęglowiec",
-      "explanation_correct": "Rudowęglowce były kluczowym elementem polskiej floty handlowej wspierającej gospodarkę eksportową PRL.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do nowszych lub bardziej ogólnych typów statków niebędących specyficznym produktem epoki PRL w typie 'rudowęglowca'.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rudowęglowiec jest rodzajem masowca przystosowanym do przewozu rudy i węgla.",
+      "explanation_incorrect": "Kontenerowiec przewozi kontenery, zbiornikowiec przewozi ładunki w zbiornikach, a prom przede wszystkim pasażerów lub pojazdy."
     },
     {
       "subcategory": "Chemia",
-      "question": "Które duże zakłady chemiczne zlokalizowane nad Odrą stały się symbolem polskiego przemysłu nawozowego po rozbudowie w latach 60. i 70. XX wieku?",
+      "question": "Które zakłady chemiczne i nawozowe powstały w Policach nad Odrą?",
       "options": [
         "Zakłady Chemiczne Police",
         "Zakłady Azotowe Puławy",
         "Zakłady Chemiczne Dwory",
-        "Zakłady Chemiczne Rokita"
+        "Zakłady Azotowe Tarnów"
       ],
       "answer": "Zakłady Chemiczne Police",
       "explanation_correct": "Zakłady w Policach zostały ulokowane nad Odrą ze względu na dostęp do drogi wodnej i portu.",
-      "explanation_incorrect": "Puławy, Dwory i Rokita to główne zakłady chemiczne kraju, lecz zlokalizowane w innych regionach geograficznych.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Puławy, Dwory i Tarnów to zakłady położone w innych miejscowościach."
     },
     {
       "subcategory": "Urbanistyka",
-      "question": "Które śląskie miasto w czasach PRL stało się wzorcowym przykładem budowy nowoczesnego miasta przemysłowego od podstaw?",
+      "question": "Które miasto śląskie zostało w PRL znacząco rozbudowane jako planowane Nowe Tychy?",
       "options": [
         "Tychy",
         "Jastrzębie-Zdrój",
@@ -363,14 +321,12 @@
         "Jaworzno"
       ],
       "answer": "Tychy",
-      "explanation_correct": "Tychy były planowane jako nowoczesna jednostka urbanistyczna z pełną infrastrukturą towarzyszącą przemysłowi.",
-      "explanation_incorrect": "Pozostałe miasta mają znacznie starszy rodowód lub ich rozwój w PRL miał inny charakter urbanistyczny.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nowe Tychy były planowaną powojenną rozbudową istniejącego wcześniej miasta.",
+      "explanation_incorrect": "Pozostałe miasta mają własną historię i były rozwijane w odmienny sposób."
     },
     {
       "subcategory": "Transport miejski",
-      "question": "Jaka marka pojazdów, kojarzona głównie z autobusami, produkowana była w zakładach w Jelczu i stanowiła podstawę komunikacji miejskiej w PRL?",
+      "question": "Jaka marka autobusów była produkowana w Jelczu?",
       "options": [
         "Jelcz",
         "Autosan",
@@ -378,14 +334,12 @@
         "Star"
       ],
       "answer": "Jelcz",
-      "explanation_correct": "Marka Jelcz, powstała w wyniku kooperacji z firmami zachodnimi, stała się fundamentem seryjnej produkcji trolejbusów i autobusów.",
-      "explanation_incorrect": "Autosan i San to producenci autobusów, a Star był znaną marką samochodów ciężarowych.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Autobusy marki Jelcz produkowano w Jelczańskich Zakładach Samochodowych, m.in. na licencji Berlieta.",
+      "explanation_incorrect": "Autosan i San były związane z Sanokiem, a Star był marką pojazdów produkowanych w Starachowicach."
     },
     {
       "subcategory": "Budownictwo przemysłowe",
-      "question": "Która fabryka w Gorzowie Wielkopolskim była w czasach PRL największym producentem włókien sztucznych w Polsce?",
+      "question": "Który zakład w Gorzowie Wielkopolskim produkował włókna syntetyczne i taśmy magnetyczne?",
       "options": [
         "Stilon",
         "Wiskord",
@@ -394,13 +348,11 @@
       ],
       "answer": "Stilon",
       "explanation_correct": "Stilon był gigantem polskiego przemysłu chemicznego, produkującym m.in. taśmy magnetyczne i włókna.",
-      "explanation_incorrect": "Wiskord, Chemitex i Elana to inne przedsiębiorstwa przemysłu chemicznego i włókienniczego funkcjonujące w PRL.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wiskord, Chemitex i Elana to inne przedsiębiorstwa przemysłu chemicznego i włókienniczego funkcjonujące w PRL."
     },
     {
       "subcategory": "Inżynieria hydrotechniczna",
-      "question": "Budowa jakiej zapory wodnej na Dunajcu była jedną z największych inwestycji hydrotechnicznych w historii PRL, zakończoną jednak po zmianie ustroju?",
+      "question": "Który zbiornik na Dunajcu powstał po budowie zapory w Niedzicy, zakończonej po 1989 roku?",
       "options": [
         "Jezioro Czorsztyńskie",
         "Zapora w Solinie",
@@ -408,14 +360,12 @@
         "Zbiornik Goczałkowicki"
       ],
       "answer": "Jezioro Czorsztyńskie",
-      "explanation_correct": "Budowa zbiornika czorsztyńskiego trwała dekady i była sztandarowym projektem inżynieryjnym późnego PRL.",
-      "explanation_incorrect": "Pozostałe zbiorniki powstały w innych okresach lub posiadały inną lokalizację geograficzną.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zapora w Niedzicy utworzyła Jezioro Czorsztyńskie; prace rozpoczęto w PRL i ukończono po zmianie ustroju.",
+      "explanation_incorrect": "Pozostałe zbiorniki powstały w innych okresach lub posiadały inną lokalizację geograficzną."
     },
     {
       "subcategory": "Przemysł zbrojeniowy",
-      "question": "Która huta w powiecie gliwickim była głównym ośrodkiem produkcji czołgów dla potrzeb Układu Warszawskiego?",
+      "question": "Które zakłady w Łabędach koło Gliwic produkowały m.in. czołgi?",
       "options": [
         "Bumar-Łabędy",
         "Huta Kościuszko",
@@ -423,14 +373,12 @@
         "Huta Stalowa Wola"
       ],
       "answer": "Bumar-Łabędy",
-      "explanation_correct": "Zakłady Mechaniczne 'Bumar-Łabędy' były głównym centrum produkcji broni pancernej w bloku wschodnim.",
-      "explanation_incorrect": "Pozostałe huty zajmowały się głównie hutnictwem stali ogólnego przeznaczenia lub produkcją innych komponentów militarnych.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zakłady Mechaniczne Bumar-Łabędy produkowały pojazdy pancerne; nie były jedynym takim ośrodkiem w bloku wschodnim.",
+      "explanation_incorrect": "Pozostałe odpowiedzi odnoszą się do innych zakładów przemysłowych."
     },
     {
       "subcategory": "Budownictwo mostowe",
-      "question": "Jak nazywa się most w Warszawie, oddany do użytku w 1959 roku, będący pierwszym po wojnie mostem, którego konstrukcja była innowacją inżynieryjną tamtych lat?",
+      "question": "Który dwupoziomowy most w Warszawie oddano do użytku w 1959 roku?",
       "options": [
         "Most Gdański",
         "Most Poniatowskiego",
@@ -439,13 +387,11 @@
       ],
       "answer": "Most Gdański",
       "explanation_correct": "Most Gdański jest dwupoziomową konstrukcją, oddaną do użytku w 1959 roku jako ważny węzeł komunikacyjny stolicy.",
-      "explanation_incorrect": "Pozostałe mosty zostały albo odbudowane, albo wybudowane później, lub mają inną charakterystykę techniczną.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe mosty zostały albo odbudowane, albo wybudowane później, lub mają inną charakterystykę techniczną."
     },
     {
       "subcategory": "Infrastruktura kulturalna",
-      "question": "Jaką nazwę otrzymał amfiteatr w Opolu, wybudowany w latach 60. XX wieku specjalnie na potrzebny krajowego festiwalu piosenki?",
+      "question": "Jaką nazwę nosi opolski amfiteatr otwarty w 1963 roku, związany z festiwalem polskiej piosenki?",
       "options": [
         "Amfiteatr Tysiąclecia",
         "Amfiteatr Opolski",
@@ -454,13 +400,11 @@
       ],
       "answer": "Amfiteatr Tysiąclecia",
       "explanation_correct": "Amfiteatr Tysiąclecia został otwarty w 1963 roku i stał się sercem polskiej estrady.",
-      "explanation_incorrect": "Pozostałe nazwy nie są historycznymi nazwami własnymi tego obiektu.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy nie są historycznymi nazwami własnymi tego obiektu."
     },
     {
       "subcategory": "Kopalnictwo miedzi",
-      "question": "Które miasto na Dolnym Śląsku stało się symbolem i stolicą przemysłu wydobywczego miedzi w czasach PRL?",
+      "question": "W którym mieście Dolnego Śląska mieści się siedziba KGHM, związanego z wydobyciem miedzi?",
       "options": [
         "Lubin",
         "Legnica",
@@ -469,13 +413,11 @@
       ],
       "answer": "Lubin",
       "explanation_correct": "Odkrycie złóż miedzi w okolicach Lubina całkowicie zmieniło strukturę gospodarczą regionu.",
-      "explanation_incorrect": "Pozostałe miasta również należą do Zagłębia Miedziowego, ale to Lubin pełnił rolę głównego środka wydobywczego i administracyjnego.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Legnica, Polkowice i Głogów również są związane z zagłębiem miedziowym, ale siedziba KGHM mieści się w Lubinie."
     },
     {
       "subcategory": "Przemysł maszynowy",
-      "question": "Jaką nazwę nosiło zjednoczenie i główna fabryka obrabiarek w Pruszkowie w czasach sterowanej centralnie gospodarki?",
+      "question": "Który zakład w Pruszkowie był związany z produkcją obrabiarek?",
       "options": [
         "Ponar-Pruszków",
         "Fabryka Obrabiarek Famarol",
@@ -483,25 +425,21 @@
         "PZL Wola"
       ],
       "answer": "Ponar-Pruszków",
-      "explanation_correct": "Ponar-Pruszków był kluczowym producentem obrabiarek w ramach zjednoczenia przemysłu maszynowego PRL.",
-      "explanation_incorrect": "HCP był zlokalizowany w Poznaniu, a pozostałe nazwy odnoszą się do innych marek z innych branż.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ponar-Pruszków był producentem obrabiarek, związanym ze zjednoczeniem przemysłu obrabiarkowego.",
+      "explanation_incorrect": "HCP był zlokalizowany w Poznaniu, a pozostałe nazwy odnoszą się do innych marek z innych branż."
     },
     {
       "subcategory": "Rolnictwo",
-      "question": "Który kombinat zajmował się seryjną produkcją kombajnów zbożowych (np. Bizon), stając się fundamentem mechanizacji rolnictwa w PRL?",
+      "question": "Która płocka fabryka produkowała kombajny zbożowe Bizon?",
       "options": [
         "Fabryka Maszyn Żniwnych",
-        "Ursus",
-        "Agromet",
-        "Fabryka Maszyn Rolniczych"
+        "Fabryka Samochodów Osobowych",
+        "Stocznia Gdańska",
+        "Huta Katowice"
       ],
       "answer": "Fabryka Maszyn Żniwnych",
-      "explanation_correct": "Fabryka Maszyn Żniwnych w Płocku była głównym dostawcą technologii zbioru dla polskich PGR-ów.",
-      "explanation_incorrect": "Ursus produkował ciągniki, a pozostałe nazwy były mniej precyzyjnym określeniem dla tego konkretnego zakładu produkcyjnego.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fabryka Maszyn Żniwnych w Płocku produkowała kombajny Bizon wykorzystywane w polskim rolnictwie.",
+      "explanation_incorrect": "Pozostałe zakłady zajmowały się innymi rodzajami produkcji."
     },
     {
       "subcategory": "Architektura biurowa",
@@ -520,7 +458,7 @@
     },
     {
       "subcategory": "Inżynieria sanitarna",
-      "question": "Jaka oczyszczalnia ścieków, będąca jedną z największych inwestycji sanitarnych epoki, obsługuje lewobrzeżną Warszawę?",
+      "question": "Która oczyszczalnia ścieków w Warszawie rozpoczęła pracę w 1991 roku?",
       "options": [
         "Oczyszczalnia Czajka",
         "Oczyszczalnia Południe",
@@ -528,10 +466,8 @@
         "Oczyszczalnia Wisła"
       ],
       "answer": "Oczyszczalnia Czajka",
-      "explanation_correct": "Czajka to kluczowa warszawska inwestycja sanitarna projektowana i realizowana w ramach modernizacji infrastruktury.",
-      "explanation_incorrect": "Pozostałe nazwy są albo fikcyjne, albo odnoszą się do znacznie mniejszych lub mniej znaczących obiektów.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oczyszczalnia Czajka została uruchomiona w 1991 roku; po późniejszej rozbudowie przyjmuje ścieki z obu brzegów Wisły.",
+      "explanation_incorrect": "Oczyszczalnia Południe jest osobnym obiektem; pozostałe nazwy nie oznaczają Czajki."
     },
     {
       "subcategory": "Transport lotniczy",
@@ -543,29 +479,25 @@
         "PZL Rzeszów"
       ],
       "answer": "PZL Mielec",
-      "explanation_correct": "PZL Mielec stanowił najważniejszy ośrodek polskiego przemysłu lotniczego w okresie powojennym.",
-      "explanation_incorrect": "Świdnik specjalizował się w śmigłowcach, Okęcie w samolotach pasażerskich i rolniczych, a Rzeszów w silnikach.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zakład w Mielcu produkował m.in. licencyjne odrzutowce Lim i polskie samoloty szkolne TS-11 Iskra.",
+      "explanation_incorrect": "Świdnik kojarzy się ze śmigłowcami, Okęcie z samolotami lekkimi, a Rzeszów m.in. z silnikami lotniczymi."
     },
     {
       "subcategory": "Leśnictwo i technika",
       "question": "Jak nazywa się kolejka leśna w Bieszczadach, której infrastruktura została odrestaurowana i zrewitalizowana jako atrakcja techniczna?",
       "options": [
         "Bieszczadzka Kolejka Leśna",
-        "Kolejka Wąskotorowa",
-        "Leśna Kolej Wąskotorowa",
-        "Bieszczadzka Kolej Parkowa"
+        "Metro Warszawskie",
+        "Centralna Magistrala Kolejowa",
+        "Gdańska Kolej Linowa"
       ],
       "answer": "Bieszczadzka Kolejka Leśna",
       "explanation_correct": "Bieszczadzka Kolejka Leśna służyła pierwotnie do wywozu drewna, stanowiąc kluczowy element inżynierii leśnej.",
-      "explanation_incorrect": "Pozostałe nazwy nie są poprawnymi nazwami własnymi tego systemu transportowego.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy nie są poprawnymi nazwami własnymi tego systemu transportowego."
     },
     {
       "subcategory": "Budownictwo sportowe",
-      "question": "Jak nazywa się stadion w Chorzowie, wybudowany w latach 50. XX wieku jako największy obiekt sportowy w Polsce?",
+      "question": "Jak nazywa się stadion w Chorzowie otwarty w 1956 roku?",
       "options": [
         "Stadion Śląski",
         "Stadion Dziesięciolecia",
@@ -574,13 +506,11 @@
       ],
       "answer": "Stadion Śląski",
       "explanation_correct": "Stadion Śląski był gigantem inżynierii sportowej okresu PRL, często nazywany Kotłem Czarownic.",
-      "explanation_incorrect": "Stadion Dziesięciolecia był budowany w Warszawie, a pozostałe odpowiedzi to albo nazwy własne innych obiektów, albo określenia ogólne.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stadion Dziesięciolecia znajdował się w Warszawie; pozostałe nazwy dotyczą innych obiektów."
     },
     {
       "subcategory": "Inżynieria transportu",
-      "question": "Który wszechobecny w PRL furgon dostawczy był produkowany w Lubelskiej Fabryce Samochodów Ciężarowych?",
+      "question": "Który samochód dostawczy produkowano w Lubelskiej Fabryce Samochodów Ciężarowych?",
       "options": [
         "Żuk",
         "Nysa",
@@ -589,9 +519,7 @@
       ],
       "answer": "Żuk",
       "explanation_correct": "Żuk był podstawowym autem dostawczym wykorzystywanym niemal w każdej gałęzi gospodarki PRL.",
-      "explanation_incorrect": "Nysa była furgonem osobowo-dostawczym, Tarpan autem rolniczym, a Warszawa samochodem osobowym.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nysa była furgonem osobowo-dostawczym, Tarpan autem rolniczym, a Warszawa samochodem osobowym."
     },
     {
       "subcategory": "Przemysł papierniczy",
@@ -604,43 +532,37 @@
       ],
       "answer": "Zakłady Celulozy i Papieru w Świeciu",
       "explanation_correct": "Budowa kombinatu w Świeciu rozpoczęła się w latach 60. i była jedną z największych inwestycji branżowych w PRL.",
-      "explanation_incorrect": "Frantschach to nazwa późniejszego, zagranicznego inwestora, który przejął zakłady po transformacji.",
-      "last_verified_at": "2026-06-12T17:17:05.039Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą wskazanych zakładów w Świeciu."
     },
     {
       "subcategory": "Inżynieria wyciągowa",
-      "question": "W którym roku oddano do użytku po gruntownej modernizacji kolej linową na Kasprowy Wierch w czasach PRL?",
+      "question": "W którym roku otwarto kolej linową na Kasprowy Wierch?",
       "options": [
-        "1968",
+        "1936",
         "1955",
         "1974",
         "1980"
       ],
-      "answer": "1968",
-      "explanation_correct": "Pierwsza wielka powojenna modernizacja kolei linowej na Kasprowy Wierch zakończyła się w 1968 roku.",
-      "explanation_incorrect": "Pozostałe daty nie wiążą się z kluczowymi etapami modernizacji tej infrastruktury w epoce PRL.",
-      "last_verified_at": "2026-06-12T17:17:05.039Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "1936",
+      "explanation_correct": "Kolej na Kasprowy Wierch otwarto w 1936 roku, jeszcze przed PRL; była później modernizowana.",
+      "explanation_incorrect": "Pozostałe lata nie są rokiem otwarcia tej kolei."
     },
     {
       "subcategory": "Technika kosmiczna",
-      "question": "Jaki był pierwszy polski przyrząd naukowy umieszczony na pokładzie rakiety pionierskiej w ramach badań atmosfery?",
+      "question": "Jak nazywała się polska seria rakiet wykorzystywanych do badań górnych warstw atmosfery?",
       "options": [
-        "Spektrometr słoneczny",
-        "Radiometr, termometr",
-        "Licznik Geigera",
-        "Magnetometr"
+        "Meteor",
+        "Sojuz",
+        "Saturn V",
+        "Ariane 5"
       ],
-      "answer": "Spektrometr słoneczny",
-      "explanation_correct": "Polska wczesna technologia kosmiczna często wykorzystywała spektrometry do badania promieniowania słonecznego.",
-      "explanation_incorrect": "Pozostałe wymienione instrumenty nie stanowiły pionierskiego wkładu w ramach polskich rakiet badawczych tamtego okresu.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Meteor",
+      "explanation_correct": "Polskie rakiety badawcze serii Meteor wykorzystywano w badaniach atmosfery w latach 60. i 70.",
+      "explanation_incorrect": "Pozostałe nazwy odnoszą się do innych rodzin rakiet."
     },
     {
       "subcategory": "Architektura hotelowa",
-      "question": "Jak nazywa się modernistyczny budynek hotelowy wzniesiony w Krakowie, charakteryzujący się usytuowaniem tuż nad brzegiem Wisły?",
+      "question": "Który modernistyczny hotel w Krakowie powstał nad Wisłą według projektu Janusza Ingardena?",
       "options": [
         "Hotel Forum",
         "Hotel Cracovia",
@@ -649,13 +571,11 @@
       ],
       "answer": "Hotel Forum",
       "explanation_correct": "Hotel Forum został zaprojektowany przez Janusza Ingardena i oddany do użytku w 1988 roku.",
-      "explanation_incorrect": "Hotel Cracovia reprezentuje odrębny styl architektoniczny i znajduje się w innej części miasta.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hotel Cracovia reprezentuje odrębny styl architektoniczny i znajduje się w innej części miasta."
     },
     {
       "subcategory": "Górnictwo soli",
-      "question": "Która kopalnia soli w Polsce, uruchomiona w czasach PRL, stała się kluczowym ośrodkiem wydobywczym metody otworowej?",
+      "question": "Która kopalnia soli kamiennej rozpoczęła wydobycie w 1956 roku i stosuje podziemną metodę górniczą?",
       "options": [
         "Kopalnia Soli Kłodawa",
         "Kopalnia Soli Wieliczka",
@@ -663,25 +583,21 @@
         "Kopalnia Soli Sieroszowice"
       ],
       "answer": "Kopalnia Soli Kłodawa",
-      "explanation_correct": "Kopalnia Soli Kłodawa rozpoczęła wydobycie w 1956 roku, stając się największym producentem soli kamiennej w kraju.",
-      "explanation_incorrect": "Wieliczka i Bochnia to historyczne kopalnie, natomiast Sieroszowice skupiają się na wydobyciu miedzi i soli potasowych.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kopalnia Soli Kłodawa rozpoczęła wydobycie w 1956 roku. Stosuje tradycyjne górnictwo podziemne, a nie eksploatację otworową.",
+      "explanation_incorrect": "Wieliczka i Bochnia mają znacznie starszą historię; Sieroszowice są częścią obszaru górnictwa miedzi i soli."
     },
     {
       "subcategory": "Przemysł szklarski",
-      "question": "Jaka instytucja przemysłowa w Sandomierzu zajmowała się produkcją szkła okiennego w okresie gospodarki planowej?",
+      "question": "Co produkowała działająca w Sandomierzu Huta Szkła Okiennego?",
       "options": [
-        "Huta Szkła Okiennego",
-        "Sandomierska Huta Szkła",
-        "Huta Szkła Kryształowego",
-        "Zakłady Szklarskie Wisła"
+        "Szkło okienne",
+        "Kombajny zbożowe",
+        "Lokomotywy",
+        "Statki morskie"
       ],
-      "answer": "Huta Szkła Okiennego",
-      "explanation_correct": "Sandomierska Huta Szkła Okiennego była jednym z kluczowych zakładów dostarczających surowiec dla budownictwa mieszkaniowego.",
-      "explanation_incorrect": "Pozostałe nazwy nie odnoszą się do historycznej, głównej jednostki produkcyjnej w tym mieście.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Szkło okienne",
+      "explanation_correct": "Sandomierska Huta Szkła Okiennego była związana z przemysłem szklarskim.",
+      "explanation_incorrect": "Pozostałe odpowiedzi należą do innych gałęzi przemysłu."
     },
     {
       "subcategory": "Infrastruktura radiowa",
@@ -693,59 +609,51 @@
         "Nadajnik Gliwice"
       ],
       "answer": "Radiostacja Gliwicka",
-      "explanation_correct": "Radiostacja Gliwicka, zbudowana w 1935 roku, jest najwyższą drewnianą konstrukcją na świecie.",
-      "explanation_incorrect": "Pozostałe opcje są nazwami opisowymi lub potocznymi, niebędącymi oryginalną nazwą obiektu.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Radiostację w Gliwicach wzniesiono w latach 30. XX wieku. Jej drewniana wieża jest znanym zabytkiem techniki.",
+      "explanation_incorrect": "Pozostałe sformułowania są ogólnymi określeniami urządzeń nadawczych."
     },
     {
       "subcategory": "Budownictwo przemysłowe",
-      "question": "Która cementownia powstała w ramach wsparcia budowy Nowej Huty jako kluczowy zakład przemysłowy regionu?",
+      "question": "Która cementownia w Nowej Hucie wykorzystywała żużel z pobliskiego kombinatu metalurgicznego?",
       "options": [
         "Cementownia Nowa Huta",
-        "Cementownia Kraków",
-        "Cementownia Małopolska",
-        "Cementownia Przemysłowa"
+        "Fabryka Samochodów Osobowych",
+        "Stocznia Szczecińska",
+        "Zakłady Azotowe Puławy"
       ],
       "answer": "Cementownia Nowa Huta",
-      "explanation_correct": "Cementownia Nowa Huta (później działająca pod innymi nazwami) została zbudowana dla zabezpieczenia potrzeb wielkiego placu budowy.",
-      "explanation_incorrect": "Pozostałe nazwy są fikcyjnymi określeniami regionalnymi zakładów cementowych.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cementownia Nowa Huta powstała w 1959 roku i wykorzystywała m.in. żużel wielkopiecowy z huty.",
+      "explanation_incorrect": "Pozostałe obiekty działały w innych branżach."
     },
     {
       "subcategory": "Inżynieria wodna",
-      "question": "Jaka droga wodna w Warszawie została wybudowana w latach 50. XX wieku w celu połączenia Wisły z terenami północnej Pragi?",
+      "question": "Który kanał w Warszawie łączy Wisłę z Jeziorem Zegrzyńskim?",
       "options": [
         "Kanał Żerański",
-        "Kanał Warszawski",
-        "Kanał Wisła-Bug",
-        "Praska Droga Wodna"
+        "Kanał Gliwicki",
+        "Kanał Augustowski",
+        "Kanał Elbląski"
       ],
       "answer": "Kanał Żerański",
-      "explanation_correct": "Kanał Żerański został oddany do użytku w 1951 roku jako część planu sześcioletniego.",
-      "explanation_incorrect": "Pozostałe projekty kanałowe w tej lokalizacji nigdy nie zostały urzeczywistnione.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kanał Żerański wraz ze śluzą i zbiornikiem zegrzyńskim tworzy połączenie wodne oddane do użytku w 1963 roku.",
+      "explanation_incorrect": "Pozostałe kanały znajdują się w innych regionach Polski."
     },
     {
       "subcategory": "Architektura handlowa",
-      "question": "Jaką nazwę nosił słynny warszawski dom towarowy, rozpoznawalny dzięki charakterystycznemu neonowi „Globus” na dachu?",
+      "question": "Jak potocznie nazywano warszawski Centralny Dom Towarowy, zbudowany po wojnie?",
       "options": [
         "Smyk",
         "Sezam",
         "Junior",
-        "Warszawiak"
+        "Okrąglak"
       ],
       "answer": "Smyk",
-      "explanation_correct": "Dom towarowy Cedet, powszechnie znany jako Smyk, był ikoną warszawskiego handlu PRL.",
-      "explanation_incorrect": "Inne wymienione domy towarowe powstały w innym czasie lub posiadały inne elementy identyfikacji wizualnej.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Centralny Dom Towarowy, późniejszy Cedet, przez lata kojarzono ze sklepem Smyk.",
+      "explanation_incorrect": "Sezam i Junior były innymi domami handlowymi, a Okrąglak stoi w Poznaniu."
     },
     {
       "subcategory": "Przemysł elektroniczny",
-      "question": "Które przedsiębiorstwo w Piasecznie było głównym polskim producentem lamp kineskopowych w czasach PRL?",
+      "question": "Które zakłady w Piasecznie produkowały kineskopy do telewizorów?",
       "options": [
         "Polkolor",
         "Unitra-Kineskopy",
@@ -753,10 +661,8 @@
         "Eksport-Kineskop"
       ],
       "answer": "Polkolor",
-      "explanation_correct": "Zakłady Kineskopowe Polkolor powstały w wyniku współpracy z firmą RCA w latach 70. XX wieku.",
-      "explanation_incorrect": "Pozostałe nazwy nie są historycznymi nazwami własnymi tego zakładu produkcyjnego.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zakłady Kineskopowe Polkolor produkowały w Piasecznie m.in. kineskopy do telewizorów kolorowych.",
+      "explanation_incorrect": "Pozostałe nazwy nie są historycznymi nazwami własnymi tego zakładu produkcyjnego."
     },
     {
       "subcategory": "Inżynieria kolejowa",
@@ -774,34 +680,30 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Inżynieria lądowa",
-      "question": "Jak nazywano estakadę będącą kluczowym elementem inżynieryjnym na trasie Łazienkowskiej w Warszawie?",
+      "subcategory": "Architektura handlowa",
+      "question": "Kto zaprojektował poznański dom towarowy Okrąglak?",
       "options": [
-        "Estakada Klepackiego",
-        "Estakada Warszawska",
-        "Trasa Mostowa",
-        "Wiadukt Łazienkowski"
+        "Marek Leykam",
+        "Stefan Bryła",
+        "Wojciech Fangor",
+        "Jan Matejko"
       ],
-      "answer": "Estakada Klepackiego",
-      "explanation_correct": "Konstrukcja estakady była innowacyjnym projektem inżynierskim tamtego okresu.",
-      "explanation_incorrect": " Pozostałe określenia są pomyłkami nazewniczymi dotyczącymi infrastruktury drogowej tego typu.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Marek Leykam",
+      "explanation_correct": "Autorem projektu architektonicznego Okrąglaka był Marek Leykam; konstrukcję opracował Stanisław Zalewski.",
+      "explanation_incorrect": "Bryła był inżynierem konstruktorem, a Fangor i Matejko byli malarzami."
     },
     {
       "subcategory": "Przemysł spożywczy",
-      "question": "Jaką nazwę nosiły zakłady koncentratów spożywczych we Włocławku, marka mocno rozpoznawalna w PRL?",
+      "question": "Z jaką branżą były związane włocławskie zakłady Kujawianka?",
       "options": [
-        "Kujawianka",
-        "Włocławianka",
-        "Pomidor-Pol",
-        "Koncentraty Włocławek"
+        "Cukierniczą",
+        "Stoczniową",
+        "Lotniczą",
+        "Wydobycia miedzi"
       ],
-      "answer": "Kujawianka",
-      "explanation_correct": "Zakłady Przemysłu Koncentratów Spożywczych w swojej ofercie posiadały produkty pod marką Kujawianka.",
-      "explanation_incorrect": "Pozostałe nazwy nie są oficjalnymi nazwami zakładu produkującego koncentraty w tym mieście.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Cukierniczą",
+      "explanation_correct": "Kujawianka była nazwą spółdzielczych zakładów cukierniczych we Włocławku.",
+      "explanation_incorrect": "Pozostałe odpowiedzi odnoszą się do innych branż."
     },
     {
       "subcategory": "Architektura modernistyczna",
@@ -820,18 +722,16 @@
     },
     {
       "subcategory": "Transport autobusowy",
-      "question": "Pod jaką nazwą znany był produkowany w Polsce na licencji francuskiej autobus miejski?",
+      "question": "Jak nazywał się produkowany w Polsce na licencji francuskiej autobus miejski PR100?",
       "options": [
         "Jelcz-Berliet",
-        "Autobus miejski PRL",
-        "Jelcz-Francuz",
-        "Polbus-Berliet"
+        "Autosan H9",
+        "San H100",
+        "Ikarus 280"
       ],
       "answer": "Jelcz-Berliet",
       "explanation_correct": "Model PR100 produkowany w Jelczańskich Zakładach Samochodowych był owocem licencji firmy Berliet.",
-      "explanation_incorrect": "Pozostałe nazwy są błędnymi modyfikacjami nazw własnych pojazdu.",
-      "last_verified_at": "2026-06-12T17:16:15.653Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Autosan i San były związane z Sanokiem, natomiast Ikarus był marką węgierską."
     },
     {
       "subcategory": "Inżynieria jądrowa",
@@ -843,10 +743,8 @@
         "Reaktor Polska-1"
       ],
       "answer": "Reaktor Maria",
-      "explanation_correct": "Reaktor MARIA jest jedynym w Polsce działającym reaktorem badawczym.",
-      "explanation_incorrect": "Ewa był pierwszym reaktorem, natomiast reszta nazw jest nieprawidłowa.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Reaktor badawczy MARIA uruchomiono w Świerku w 1974 roku; był następcą pierwszego polskiego reaktora EWA.",
+      "explanation_incorrect": "EWA była pierwszym polskim reaktorem badawczym; pozostałe nazwy nie oznaczają reaktora MARIA."
     },
     {
       "subcategory": "Chemia polimerów",
@@ -858,10 +756,8 @@
         "Polimer-Toruń"
       ],
       "answer": "Elana",
-      "explanation_correct": "Zakłady Włókien Sztucznych ELANA były gigantem produkcji poliestrów w PRL.",
-      "explanation_incorrect": "Reszta nazw nie odnosi się do historycznego przedsiębiorstwa z Torunia.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elana była toruńskim zakładem produkującym włókna syntetyczne, w tym poliestrowe.",
+      "explanation_incorrect": "Reszta nazw nie odnosi się do historycznego przedsiębiorstwa z Torunia."
     },
     {
       "subcategory": "Przemysł wydobywczy",
@@ -873,10 +769,8 @@
         "Piaseczno-Złoże"
       ],
       "answer": "Jeziórko",
-      "explanation_correct": "Kopalnia w Jeziórku była największą kopalnią siarki na świecie, wykorzystującą metodę podziemnego wytopu.",
-      "explanation_incorrect": "Pozostałe wybory są próbą stworzenia nazw pokrewnych, nieistniejących w kontekście metody otworowej.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Jeziórku prowadzono wydobycie siarki metodą otworową, polegającą na podziemnym wytopie.",
+      "explanation_incorrect": "Pozostałe wybory są próbą stworzenia nazw pokrewnych, nieistniejących w kontekście metody otworowej."
     },
     {
       "subcategory": "Architektura dydaktyczna",
@@ -895,7 +789,7 @@
     },
     {
       "subcategory": "Budownictwo mostowe",
-      "question": "Który warszawski most, odbudowany po wojnie w rekordowym czasie w 1946 roku, stał się symbolem odbudowy kraju?",
+      "question": "Który warszawski most przez Wisłę odbudowano i otwarto ponownie w 1946 roku?",
       "options": [
         "Most Poniatowskiego",
         "Most Łazienkowski",
@@ -904,9 +798,7 @@
       ],
       "answer": "Most Poniatowskiego",
       "explanation_correct": "Odbudowa mostu Poniatowskiego była kluczowym projektem odbudowy zniszczonej infrastruktury Warszawy.",
-      "explanation_incorrect": "Pozostałe wymienione mosty powstały lub zostały odbudowane w innych okresach czasowych.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe wymienione mosty powstały lub zostały odbudowane w innych okresach czasowych."
     },
     {
       "subcategory": "Przemysł zbrojeniowy",
@@ -925,7 +817,7 @@
     },
     {
       "subcategory": "Energetyka",
-      "question": "Pod jaką nazwą funkcjonowała niedokończona elektrownia jądrowa, w której planowano wykorzystać infrastrukturę zintegrowaną z elektrownią szczytowo-pompową w Żarnowcu?",
+      "question": "Jak nazywała się elektrownia jądrowa budowana nad Jeziorem Żarnowieckim, której nie ukończono?",
       "options": [
         "Elektrownia Żarnowiec",
         "Elektrownia Pomorska",
@@ -933,44 +825,38 @@
         "Elektrownia Bałtyk"
       ],
       "answer": "Elektrownia Żarnowiec",
-      "explanation_correct": "Projekt budowy elektrowni jądrowej w Żarnowcu był najważniejszą inwestycją energetyczną PRL, ostatecznie przerwaną.",
-      "explanation_incorrect": "Pozostałe nazwy są fikcyjnymi lokacjami lub nie odnoszą się do tego konkretnego obiektu nuklearnego.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Budowę Elektrowni Jądrowej Żarnowiec przerwano w 1990 roku.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają tej niedokończonej elektrowni."
     },
     {
       "subcategory": "Infrastruktura morska",
-      "question": "Jaka jest potoczna nazwa obiektu nawigacyjnego w Świnoujściu, który w okresie PRL był poddawany licznym modernizacjom technicznym?",
+      "question": "Jak nazywa się latarnia morska stojąca w Świnoujściu?",
       "options": [
-        "Latarnia Świnoujście",
-        "Latarnia Młyn",
-        "Latarnia Stawa",
-        "Latarnia Baltic"
+        "Latarnia morska Świnoujście",
+        "Latarnia morska Rozewie",
+        "Latarnia morska Kołobrzeg",
+        "Latarnia morska Stilo"
       ],
-      "answer": "Latarnia Świnoujście",
-      "explanation_correct": "Latarnia Świnoujście to najwyższa latarnia w Polsce, gruntownie modernizowana w PRL.",
-      "explanation_incorrect": "Pozostałe opcje odnoszą się do innych obiektów nabrzeżnych lub nazw handlowych.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Latarnia morska Świnoujście",
+      "explanation_correct": "Latarnia morska Świnoujście znajduje się przy ujściu Świny; w okolicy stoi także znak nawigacyjny Stawa Młyny.",
+      "explanation_incorrect": "Pozostałe latarnie znajdują się w innych miejscowościach polskiego wybrzeża."
     },
     {
       "subcategory": "Architektura teatralna",
-      "question": "Jaki warszawski budynek teatralny, zniszczony w czasie wojny, został po niemal dwóch dekadach prac budowlanych oddany do użytku w 1965 roku?",
+      "question": "Który odbudowany gmach teatralny w Warszawie otwarto ponownie w 1965 roku?",
       "options": [
         "Teatr Wielki",
-        "Teatr Narodowy",
         "Teatr Polski",
-        "Teatr Kameralny"
+        "Teatr Kamienica",
+        "Teatr Muzyczny Roma"
       ],
       "answer": "Teatr Wielki",
-      "explanation_correct": "Odbudowa Teatru Wielkiego trwała od lat 50. i była jedną z największych inwestycji kulturalnych PRL.",
-      "explanation_incorrect": "Pozostałe teatry w tym czasie istniały lub nie przechodziły o tak dużej skali rekonstrukcji.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odbudowany po wojnie Teatr Wielki otwarto ponownie w 1965 roku.",
+      "explanation_incorrect": "Pozostałe nazwy odnoszą się do innych teatrów warszawskich."
     },
     {
       "subcategory": "Transport szynowy",
-      "question": "Jak nazywał się zielonogórski producent wagonów kolejowych, który był istotnym węzłem przemysłowym gospodarki planowej w PRL?",
+      "question": "Który zakład w Zielonej Górze produkował wagony kolejowe?",
       "options": [
         "Zastal",
         "Pafawag",
@@ -978,14 +864,12 @@
         "Kolwag"
       ],
       "answer": "Zastal",
-      "explanation_correct": "Zastal (Zielonogórskie Zakłady Budowy Maszyn i Konstrukcji Stalowych) był potentatem w produkcji taboru.",
-      "explanation_incorrect": "Pafawag miał siedzibę w innym mieście, a pozostałe nazwy są błędne.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zastal był zielonogórskim zakładem przemysłowym związanym m.in. z produkcją wagonów.",
+      "explanation_incorrect": "Pafawag miał siedzibę w innym mieście, a pozostałe nazwy są błędne."
     },
     {
       "subcategory": "Inżynieria lądowa",
-      "question": "W którym polskim mieście powstał w 1957 roku pierwszy w kraju sztuczny tor łyżwiarski 'Toropol'?",
+      "question": "W którym mieście otwarto w 1961 roku sztuczne lodowisko Toropol?",
       "options": [
         "Opole",
         "Warszawa",
@@ -993,25 +877,21 @@
         "Zakopane"
       ],
       "answer": "Opole",
-      "explanation_correct": "Sztuczne lodowisko Toropol w Opolu było pionierskim obiektem sportowym wczesnego PRL-u.",
-      "explanation_incorrect": "Warszawa posiada Tor Stegny, ale jest on znacznie młodszy niż opolski prekursor.",
-      "last_verified_at": "2026-06-12T17:17:05.039Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Toropol otwarto w Opolu w 1961 roku. Wcześniej działały m.in. Torwar w Warszawie i Torkat w Katowicach.",
+      "explanation_incorrect": "W pozostałych miastach znajdują się inne obiekty sportowe."
     },
     {
       "subcategory": "Infrastruktura naukowa",
-      "question": "Jaki instrument badawczy znajdujący się w Obserwatorium Astronomicznym na Piwnicach, o średnicy czaszy 15 metrów, stał się symbolem polskiej radioastronomii?",
+      "question": "Jak oznaczono 15-metrowy radioteleskop w Piwnicach koło Torunia, zbudowany w latach 70. XX wieku?",
       "options": [
-        "Radioteleskop RT-4",
-        "Teleskop UMK",
-        "Radioteleskop Toruń",
-        "Antena Kosmiczna"
+        "RT-3",
+        "RT-4",
+        "EN57",
+        "EWA"
       ],
-      "answer": "Radioteleskop RT-4",
-      "explanation_correct": "RT-4 to antena o średnicy 15 metrów oddana do użytku w latach 70. XX wieku.",
-      "explanation_incorrect": "Pozostałe nazwy nie są oznaczeniami technicznymi tego konkretnego urządzenia.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "RT-3",
+      "explanation_correct": "Radioteleskop 15-metrowy nosi oznaczenia RT-3 lub RT15; większy RT-4 ma średnicę 32 metrów.",
+      "explanation_incorrect": "RT-4 to późniejszy radioteleskop o średnicy 32 metrów; pozostałe nazwy oznaczają inne urządzenia."
     },
     {
       "subcategory": "Urbanistyka",
@@ -1038,59 +918,51 @@
         "Szczecinpłyt"
       ],
       "answer": "Polspan",
-      "explanation_correct": "Polspan był jednym z największych zakładów branży płyt wiórowych w Europie Środkowej tamtego okresu.",
-      "explanation_incorrect": "Pozostałe nazwy są zmyślonymi nazwami firm produkcyjnych.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Polspan był zakładem w Szczecinku związanym z produkcją płyt drewnopochodnych.",
+      "explanation_incorrect": "Pozostałe nazwy są zmyślonymi nazwami firm produkcyjnych."
     },
     {
       "subcategory": "Inżynieria mostowa",
-      "question": "Jaka tymczasowa przeprawa mostowa w Warszawie, zbudowana w 1945 roku jako most pontonowy, przetrwała w użyciu aż do roku 2000?",
+      "question": "Jak nazywała się tymczasowa przeprawa przez Wisłę w Warszawie otwarta w 1985 roku i zamknięta w 2000 roku?",
       "options": [
         "Most Syreny",
-        "Most Warszawski",
-        "Most tymczasowy",
-        "Most Wojskowy"
+        "Most Gdański",
+        "Most Poniatowskiego",
+        "Most Łazienkowski"
       ],
       "answer": "Most Syreny",
-      "explanation_correct": "Most Syreny pełnił funkcję przeprawy przez Wisłę przez ponad 50 lat od zakończenia wojny.",
-      "explanation_incorrect": "Pozostałe nazwy to ogólne określenia konstrukcji, a nie nazwa własna obiektu.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Most Syreny zbudowano w 1985 roku na czas remontu mostu Poniatowskiego. Zamknięto go w 2000 roku.",
+      "explanation_incorrect": "Pozostałe mosty były odrębnymi stałymi przeprawami przez Wisłę."
     },
     {
       "subcategory": "Elektronika użytkowa",
-      "question": "Jaka była flagowa marka polskich kalkulatorów produkowanych przez wrocławskie zakłady elektroniczne w PRL?",
+      "question": "Jak nazywały się wrocławskie zakłady elektroniczne produkujące komputery w PRL?",
       "options": [
         "Elwro",
-        "Merkury",
-        "Kalko",
-        "Numera"
+        "Polkolor",
+        "Fablok",
+        "Ursus"
       ],
       "answer": "Elwro",
-      "explanation_correct": "Zakłady Elektroniczne Elwro w pełni zdominowały rynek komputerów i kalkulatorów w PRL.",
-      "explanation_incorrect": "Pozostałe opcje nie są nazwami polskich producentów elektroniki tego okresu.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elwro było wrocławskim producentem komputerów, w tym szkolnego modelu Elwro 800 Junior.",
+      "explanation_incorrect": "Pozostałe zakłady działały w innych miastach i branżach."
     },
     {
       "subcategory": "Geologia wydobywcza",
-      "question": "Jak oznaczono złoże ropy naftowej na szelfie Bałtyku, którego eksploatację rozpoczęto w PRL pod koniec lat 70.?",
+      "question": "Jak oznaczono złoże ropy naftowej na polskim obszarze Bałtyku, z którego pierwszą ropę wydobyto w 1992 roku?",
       "options": [
-        "Pole B3",
-        "Złoże Bałtyk",
-        "Pole Naftowe 1",
-        "Złoże Morskie"
+        "B3",
+        "Śniardwy",
+        "Bełchatów",
+        "Lubin"
       ],
-      "answer": "Pole B3",
-      "explanation_correct": "Pole B3 jest najważniejszym złożem ropy naftowej eksploatowanym przez Polskę na Bałtyku.",
-      "explanation_incorrect": "Pozostałe pozycje nie są oficjalnymi oznaczeniami geologicznymi pól naftowych.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "B3",
+      "explanation_correct": "Pierwsza ropa ze złoża B3 popłynęła w 1992 roku, po zakończeniu PRL.",
+      "explanation_incorrect": "Śniardwy są jeziorem, Bełchatów kojarzy się z węglem brunatnym, a Lubin ze złożami miedzi."
     },
     {
       "subcategory": "Inżynieria miejska",
-      "question": "Jaki dworzec autobusowy w Kielcach, słynący z charakterystycznej betonowej kopuły w kształcie UFO, jest unikatem architektury PRL?",
+      "question": "Który dworzec autobusowy w Kielcach jest znany z okrągłej bryły przypominającej UFO?",
       "options": [
         "Dworzec PKS Kielce",
         "Dworzec Miejski",
@@ -1098,14 +970,12 @@
         "Dworzec Centralny"
       ],
       "answer": "Dworzec PKS Kielce",
-      "explanation_correct": "Ten dworzec o unikalnej konstrukcji powstał w latach 80. i stał się ikoną modernizmu.",
-      "explanation_incorrect": "Pozostałe opcje to generyczne nazwy dworców bez związku z architekturą UFO.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Charakterystyczny dworzec autobusowy PKS w Kielcach otwarto w latach 80.",
+      "explanation_incorrect": "Pozostałe opcje to generyczne nazwy dworców bez związku z architekturą UFO."
     },
     {
       "subcategory": "Kolejnictwo",
-      "question": "Jaki elektryczny zespół trakcyjny, produkowany przez wrocławski Pafawag, stał się najpopularniejszym pociągiem pasażerskim w dziejach PKP?",
+      "question": "Jak oznaczono elektryczny zespół trakcyjny produkowany przez wrocławski Pafawag od 1962 roku?",
       "options": [
         "EN57",
         "EW50",
@@ -1113,10 +983,8 @@
         "ET22"
       ],
       "answer": "EN57",
-      "explanation_correct": "EN57 jest najliczniej produkowanym pojazdem szynowym w Polsce, wprowadzonym do eksploatacji w 1962 roku.",
-      "explanation_incorrect": "Pozostałe oznaczenia odnoszą się do innych typów lokomotyw lub pociągów o mniejszym znaczeniu.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "EN57 produkowano przez wiele dekad we Wrocławiu; stał się charakterystycznym pojazdem polskich kolei regionalnych.",
+      "explanation_incorrect": "EW50 i ED72 to inne zespoły trakcyjne, a ET22 jest lokomotywą."
     },
     {
       "subcategory": "Architektura mieszkalna",
@@ -1135,7 +1003,7 @@
     },
     {
       "subcategory": "Przemysł włókienniczy",
-      "question": "Jak nazywało się znane w całym kraju przedsiębiorstwo z Białegostoku, specjalizujące się w produkcji tkanin wełnianych?",
+      "question": "Który białostocki kombinat był związany z przemysłem bawełnianym?",
       "options": [
         "Fasty",
         "Włókniarze",
@@ -1143,14 +1011,12 @@
         "Tkaninbud"
       ],
       "answer": "Fasty",
-      "explanation_correct": "Białostocki Kombinat Przemysłu Bawełnianego 'Fasty' był jednym z najważniejszych zakładów w regionie.",
-      "explanation_incorrect": "Pozostałe opcje są nazwami błędnymi lub nieistniejącymi w tym kontekście.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Białostocki Kombinat Przemysłu Bawełnianego Fasty produkował wyroby bawełniane.",
+      "explanation_incorrect": "Pozostałe opcje są nazwami błędnymi lub nieistniejącymi w tym kontekście."
     },
     {
       "subcategory": "Hydrotechnika",
-      "question": "Pod jaką nazwą znany jest zespół obiektów hydrotechnicznych na Wiśle we Włocławku, który powstał w wyniku budowy zapory w latach 60. i 70.?",
+      "question": "Jak nazywa się stopień wodny na Wiśle, oddany do użytku we Włocławku w 1970 roku?",
       "options": [
         "Zapora we Włocławku",
         "Stopień Wodny Wisła",
@@ -1158,59 +1024,51 @@
         "Węzeł Włocławski"
       ],
       "answer": "Zapora we Włocławku",
-      "explanation_correct": "Zapora we Włocławku jest częścią kaskady dolnej Wisły, największą zaporą na tej rzece.",
-      "explanation_incorrect": "Pozostałe są niepoprawnymi nazwami własnymi tej konstrukcji.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stopień wodny we Włocławku obejmuje zaporę, elektrownię wodną i śluzę. Nie zrealizowano całego planu kaskady dolnej Wisły.",
+      "explanation_incorrect": "Pozostałe są niepoprawnymi nazwami własnymi tej konstrukcji."
     },
     {
       "subcategory": "Budownictwo przemysłowe",
-      "question": "Jaka była oficjalna nazwa huty przetwarzającej aluminium w Koninie, kluczowego zakładu polskiej metalurgii kolorowej w PRL?",
+      "question": "Która huta aluminium powstała w Koninie?",
       "options": [
         "Huta Konin",
-        "Aluminia",
-        "Huta Aluminium",
-        "Kopalnia Konin"
+        "Huta Katowice",
+        "Huta Stalowa Wola",
+        "Huta Pokój"
       ],
       "answer": "Huta Konin",
-      "explanation_correct": "Huta aluminium w Koninie (dziś Impexmetal) była jedynym tego typu zakładem w kraju.",
-      "explanation_incorrect": "Pozostałe opcje są nieprecyzyjne lub nie odnoszą się do nazwy własnej zakładu.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Huta Aluminium Konin była ważnym zakładem polskiego przemysłu metali nieżelaznych.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne zakłady przemysłowe."
     },
     {
       "subcategory": "Telekomunikacja",
-      "question": "Gdzie powstała w PRL pierwsza polska stacja satelitarna, umożliwiająca łączność międzykontynentalną zgodnie ze standardami Intersputnik?",
+      "question": "W jakiej miejscowości koło Kielc działała naziemna stacja łączności satelitarnej?",
       "options": [
         "Psary",
-        "Centrum Kosmiczne",
-        "Stacja Kosmos",
-        "Radio Polska"
+        "Konstantynów",
+        "Gąbin",
+        "Raszyn"
       ],
       "answer": "Psary",
-      "explanation_correct": "W Psarach koło Kielc uruchomiono pierwszą w kraju stację naziemną łączności satelitarnej w 1974 roku.",
-      "explanation_incorrect": "Pozostałe opcje nie są lokalizacjami ani nazwami własnymi tego systemu.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Psarach koło Kielc działała stacja naziemna służąca łączności satelitarnej.",
+      "explanation_incorrect": "Pozostałe miejscowości nie są lokalizacją tej stacji w Psarach."
     },
     {
       "subcategory": "Kopalnictwo",
-      "question": "Jak nazywała się kopalnia węgla brunatnego, która była głównym źródłem paliwa dla Elektrowni Adamów w okresie PRL?",
+      "question": "Która kopalnia węgla brunatnego dostarczała paliwo elektrowni Adamów?",
       "options": [
         "Kopalnia Adamów",
-        "Kopalnia Wielkopolska",
-        "Kopalnia Węgla",
-        "Kopalnia Turek"
+        "Kopalnia Bełchatów",
+        "Kopalnia Turów",
+        "Kopalnia Bogdanka"
       ],
       "answer": "Kopalnia Adamów",
       "explanation_correct": "Kopalnia Adamów stanowiła jeden z głównych filarów polskiego górnictwa węgla brunatnego.",
-      "explanation_incorrect": "Pozostałe opcje nie są nazwami własnymi kopalni tego rejonu.",
-      "last_verified_at": "2026-06-12T17:16:15.654Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bełchatów i Turów zaopatrywały inne elektrownie, a Bogdanka wydobywa węgiel kamienny."
     },
     {
       "subcategory": "Inżynieria drogowa",
-      "question": "Jak potocznie nazywano nowoczesną drogę szybkiego ruchu łączącą Warszawę z Katowicami, oddaną do użytku w epoce Edwarda Gierka?",
+      "question": "Jak potocznie nazywano modernizowaną w latach 70. trasę drogową Warszawa–Katowice?",
       "options": [
         "Gierkówka",
         "Autostrada Wolności",
@@ -1219,13 +1077,11 @@
       ],
       "answer": "Gierkówka",
       "explanation_correct": "Gierkówka to potoczna nazwa trasy Warszawa-Katowice zmodernizowanej w latach 70. XX wieku.",
-      "explanation_incorrect": "Pozostałe nazwy dotyczą innych dróg lub są nazwami współczesnymi niemającymi związku z inwestycją z lat 70.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy dotyczą innych dróg lub są nazwami współczesnymi niemającymi związku z inwestycją z lat 70."
     },
     {
       "subcategory": "Urbanistyka",
-      "question": "Który z gdańskich budynków mieszkalnych charakteryzuje się falistą linią elewacji oraz został zaprojektowany z myślą o efektywnym wykorzystaniu prefabrykatów?",
+      "question": "Jak nazywa się typ gdańskich długich bloków mieszkalnych o falującej linii zabudowy?",
       "options": [
         "Falowiec",
         "Wieżowiec",
@@ -1233,10 +1089,8 @@
         "Punktowiec"
       ],
       "answer": "Falowiec",
-      "explanation_correct": "Falowiec w Gdańsku jest unikalnym w skali kraju budynkiem o falistej konstrukcji.",
-      "explanation_incorrect": "Pozostałe określenia to typy budynków, jednak nie odnoszą się do konkretnego obiektu o falistym kształcie w Gdańsku.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Falowce to charakterystyczne długie budynki mieszkalne o falującej linii, występujące m.in. w Gdańsku.",
+      "explanation_incorrect": "Pozostałe określenia to typy budynków, jednak nie odnoszą się do konkretnego obiektu o falistym kształcie w Gdańsku."
     },
     {
       "subcategory": "Elektronika",
@@ -1255,7 +1109,7 @@
     },
     {
       "subcategory": "Transport morski",
-      "question": "Który polski transatlantyk, zwodowany w latach 60., był największym statkiem pasażerskim w historii Polskiej Marynarki Handlowej?",
+      "question": "Jak nazywał się transatlantyk kupiony przez Polskie Linie Oceaniczne w 1968 roku, wcześniej znany jako Maasdam?",
       "options": [
         "TSS Stefan Batory",
         "MS Piłsudski",
@@ -1263,44 +1117,38 @@
         "TSS Chopin"
       ],
       "answer": "TSS Stefan Batory",
-      "explanation_correct": "TSS Stefan Batory był flagowym transatlantykiem PRL-u.",
-      "explanation_incorrect": "MS Batory to wcześniejszy transatlantyk, a pozostałe nazwy są albo fikcyjne, albo odnoszą się do innych jednostek.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "TSS Stefan Batory zbudowano w Holandii w 1952 roku jako Maasdam; w 1968 roku kupiły go Polskie Linie Oceaniczne.",
+      "explanation_incorrect": "MS Batory i MS Piłsudski były wcześniejszymi polskimi transatlantykami."
     },
     {
       "subcategory": "Inżynieria miejska",
-      "question": "Jaka budowla inżynieryjna przeprowadziła ruch kołowy oraz tramwajowy pod warszawską Starówką w ramach odbudowy stolicy?",
+      "question": "Który warszawski tunel drogowo-tramwajowy otwarto w 1949 roku jako element Trasy W-Z?",
       "options": [
         "Tunel Trasy W-Z",
-        "Tunel pod Wisłostradą",
-        "Tunel pod Placem Zamkowym",
-        "Tunel Powiśla"
+        "Tunel Wisłostrady",
+        "Tunel w Świnoujściu",
+        "Tunel pod Ursynowem"
       ],
       "answer": "Tunel Trasy W-Z",
       "explanation_correct": "Tunel Trasy W-Z był kluczowym elementem inżynieryjnym w powojennej Warszawie.",
-      "explanation_incorrect": "Pozostałe opcje sugerują tunele, które albo nie istnieją, albo pełnią inne funkcje komunikacyjne w mieście.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tunel Wisłostrady, tunel pod Świną i tunel pod Ursynowem są innymi przeprawami."
     },
     {
       "subcategory": "Budownictwo mieszkalne",
-      "question": "Jak określano powszechną w PRL technologię wznoszenia budynków mieszkalnych z gotowych elementów betonowych?",
+      "question": "Jak potocznie nazywano technologię budowy bloków z dużych prefabrykowanych płyt betonowych?",
       "options": [
         "Wielka płyta",
-        "Beton modułowy",
-        "Prefabrykat betonowy",
-        "Technologia blokowa"
+        "Cegła suszona",
+        "Ściana z bali drewnianych",
+        "Mur z kamienia polnego"
       ],
       "answer": "Wielka płyta",
       "explanation_correct": "Wielka płyta to potoczne określenie systemów budownictwa z gotowych prefabrykatów.",
-      "explanation_incorrect": "Pozostałe określenia są błędnymi opisami technicznymi lub potocznymi nieużywanymi w odniesieniu do tej technologii.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne materiały lub sposoby budowy."
     },
     {
       "subcategory": "Przemysł maszynowy",
-      "question": "Które zakłady mechaniczne, zlokalizowane pod Warszawą, były głównym producentem ciągników rolniczych w czasach gospodarki planowej?",
+      "question": "Które zakłady produkowały ciągniki rolnicze w Ursusie, dziś dzielnicy Warszawy?",
       "options": [
         "Ursus",
         "Stalowa Wola",
@@ -1309,28 +1157,24 @@
       ],
       "answer": "Ursus",
       "explanation_correct": "Zakłady Mechaniczne Ursus to legenda polskiego przemysłu ciągnikowego.",
-      "explanation_incorrect": "Inne firmy zajmowały się produkcją samochodów, maszyn budowlanych lub elektronarzędzi.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Inne firmy zajmowały się produkcją samochodów, maszyn budowlanych lub elektronarzędzi."
     },
     {
       "subcategory": "Energetyka jądrowa",
-      "question": "Jak nazywała się niedokończona elektrownia jądrowa budowana w województwie pomorskim, której budowę wstrzymano w 1990 roku?",
+      "question": "Nad jakim jeziorem powstała działająca elektrownia szczytowo-pompowa sąsiadująca z niedokończoną elektrownią jądrową?",
       "options": [
-        "Elektrownia Jądrowa Żarnowiec",
-        "Elektrownia Gdańska",
-        "Siłownia Atomowa Kaszuby",
-        "Reaktor Północny"
+        "Żarnowieckim",
+        "Śniardwy",
+        "Mamry",
+        "Solina"
       ],
-      "answer": "Elektrownia Jądrowa Żarnowiec",
-      "explanation_correct": "Elektrownia Jądrowa Żarnowiec była jedyną realizowaną inwestycją atomową w Polsce w tamtym okresie.",
-      "explanation_incorrect": "Pozostałe opcje są nieprawdziwymi lub nieistniejącymi nazwami projektów.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Żarnowieckim",
+      "explanation_correct": "Elektrownia szczytowo-pompowa Żarnowiec wykorzystuje Jezioro Żarnowieckie oraz górny zbiornik; jest odrębną inwestycją od niedokończonej elektrowni jądrowej.",
+      "explanation_incorrect": "Pozostałe zbiorniki nie są dolnym zbiornikiem tej elektrowni."
     },
     {
       "subcategory": "Inżynieria mostowa",
-      "question": "Który most w Płocku, oddany do użytku w 1963 roku, był w momencie otwarcia najdłuższym mostem w Polsce?",
+      "question": "Który most drogowo-kolejowy w Płocku, wzniesiony przed wojną, otwarto ponownie po odbudowie w 1950 roku?",
       "options": [
         "Most Legionów Piłsudskiego",
         "Most Solidarności",
@@ -1338,29 +1182,25 @@
         "Most im. Armii Krajowej"
       ],
       "answer": "Most Legionów Piłsudskiego",
-      "explanation_correct": "Most Legionów Piłsudskiego w Płocku był inżynieryjnym osiągnięciem tamtych lat.",
-      "explanation_incorrect": "Pozostałe nazwy należą do mostów wybudowanych znacznie później lub w innych lokalizacjach.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Most Legionów Józefa Piłsudskiego zbudowano w latach 1937–1938; po wojennych zniszczeniach ponownie otwarto go w 1950 roku.",
+      "explanation_incorrect": "Pozostałe nazwy należą do mostów wybudowanych znacznie później lub w innych lokalizacjach."
     },
     {
       "subcategory": "Kopalnie węgla",
-      "question": "Jaka kopalnia węgla kamiennego, której wydobycie sięga głębokości ponad 1000 metrów, była jedną z najgłębszych w Polsce?",
+      "question": "Jak nazywa się kopalnia węgla kamiennego w Ornontowicach, której budowę rozpoczęto w okresie PRL?",
       "options": [
         "Kopalnia Budryk",
-        "KWK Wujek",
-        "KWK Murcki",
-        "KWK Halemba"
+        "Kopalnia Soli Kłodawa",
+        "Kopalnia Węgla Brunatnego Turów",
+        "Kopalnia Soli Bochnia"
       ],
       "answer": "Kopalnia Budryk",
-      "explanation_correct": "Kopalnia Budryk znana jest z eksploatacji złóż na bardzo dużych głębokościach.",
-      "explanation_incorrect": "Pozostałe kopalnie są znanymi zakładami, ale nie dzierżą rekordu głębokości na skalę Kopalni Budryk.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Budowę kopalni Budryk rozpoczęto w okresie PRL, a jej uruchomienie nastąpiło już po zmianie ustroju.",
+      "explanation_incorrect": "Pozostałe kopalnie wydobywają inne surowce lub leżą w innych miejscowościach."
     },
     {
       "subcategory": "Przemysł rafineryjny",
-      "question": "Jak potocznie nazywano duże zakłady przetwórstwa ropy naftowej w Płocku w czasach PRL?",
+      "question": "Jak potocznie określano płockie zakłady rafineryjno-petrochemiczne powstałe w PRL?",
       "options": [
         "Petrochemia Płock",
         "Rafineria Polska",
@@ -1368,14 +1208,12 @@
         "Orlen-Płock"
       ],
       "answer": "Petrochemia Płock",
-      "explanation_correct": "Petrochemia Płock była oficjalną i powszechnie używaną nazwą zakładu przez dekady.",
-      "explanation_incorrect": "Pozostałe opcje są nazwami współczesnymi, nieistniejącymi wówczas, lub nieprawidłowo skróconymi.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Płockie zakłady rafineryjne i petrochemiczne nazywano potocznie Petrochemią Płock.",
+      "explanation_incorrect": "Pozostałe opcje są nazwami współczesnymi, nieistniejącymi wówczas, lub nieprawidłowo skróconymi."
     },
     {
       "subcategory": "Kolejnictwo",
-      "question": "Jaka trasa kolejowa o znaczeniu strategicznym połączyła Grodzisk Mazowiecki z Zawierciem, umożliwiając szybki transport?",
+      "question": "Jak nazywa się magistrala kolejowa łącząca okolice Grodziska Mazowieckiego z Zawierciem?",
       "options": [
         "Centralna Magistrala Kolejowa",
         "Trasa Północ-Południe",
@@ -1384,9 +1222,7 @@
       ],
       "answer": "Centralna Magistrala Kolejowa",
       "explanation_correct": "Centralna Magistrala Kolejowa to kluczowa arteria komunikacyjna PRL-u.",
-      "explanation_incorrect": "Magistrala Węglowa istniała wcześniej, a pozostałe nazwy są opisowe.",
-      "last_verified_at": "2026-06-12T17:16:24.607Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Magistrala Węglowa istniała wcześniej, a pozostałe nazwy są opisowe."
     },
     {
       "subcategory": "Architektura sakralna",
@@ -1420,7 +1256,7 @@
     },
     {
       "subcategory": "Wodociągi",
-      "question": "Co stanowi główne źródło wody dla stolicy, a którego system wodociągowy rozbudowano w PRL nad Jeziorem Zegrzyńskim?",
+      "question": "Jak nazywa się warszawski wodociąg, którego ujęcie korzysta z wody Jeziora Zegrzyńskiego?",
       "options": [
         "Wodociąg Północny",
         "Ujęcie Warszawskie",
@@ -1428,14 +1264,12 @@
         "Stacja Uzdatniania Centralna"
       ],
       "answer": "Wodociąg Północny",
-      "explanation_correct": "Wodociąg Północny to kluczowa inwestycja wodociągowa Warszawy z czasów PRL.",
-      "explanation_incorrect": "Pozostałe nazwy nie są formalnymi nazwami tego systemu przesyłowego.",
-      "last_verified_at": "2026-06-12T17:16:24.608Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wodociąg Północny korzysta z ujęcia w Wieliszewie nad Jeziorem Zegrzyńskim i jest jednym ze źródeł zaopatrzenia Warszawy.",
+      "explanation_incorrect": "Pozostałe nazwy nie są formalnymi nazwami tego systemu przesyłowego."
     },
     {
       "subcategory": "Obrona cywilna",
-      "question": "Jak określano sieć obiektów ochronnych wybudowanych pod nowohuckimi osiedlami na wypadek konfliktu jądrowego?",
+      "question": "Jak nazywa się sieć podziemnych obiektów ochrony cywilnej w Nowej Hucie?",
       "options": [
         "Schrony Nowej Huty",
         "Bunkry Ludowe",
@@ -1443,25 +1277,21 @@
         "System Ochrony Miejskiej"
       ],
       "answer": "Schrony Nowej Huty",
-      "explanation_correct": "Schrony Nowej Huty stanowią unikatowy w skali kraju system ochrony cywilnej.",
-      "explanation_incorrect": "Pozostałe propozycje to nazwy nieoficjalne lub błędne.",
-      "last_verified_at": "2026-06-12T17:16:24.608Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pod nowohuckimi osiedlami powstawały schrony i inne obiekty ochrony cywilnej.",
+      "explanation_incorrect": "Pozostałe odpowiedzi nie są nazwą tych obiektów."
     },
     {
       "subcategory": "Gazownictwo",
-      "question": "Który gazociąg tranzytowy, biegnący przez terytorium Polski, został wybudowany w celu transportu surowca z ZSRR do Europy?",
+      "question": "Który rurociąg tłoczył ropę naftową ze Związku Radzieckiego do Polski i innych krajów Europy Środkowej?",
       "options": [
-        "Gazociąg Jamal",
-        "Gazociąg Przyjaźń",
-        "Magistrala Gazowa Polski",
-        "Gazociąg Północny"
+        "Rurociąg Przyjaźń",
+        "Gazociąg Jamalski",
+        "Kanał Gliwicki",
+        "Magistrala Węglowa"
       ],
-      "answer": "Gazociąg Jamal",
-      "explanation_correct": "Gazociąg Jamal-Europa to kluczowa inwestycja przesyłowa realizowana w ramach współpracy z ZSRR.",
-      "explanation_incorrect": "Gazociąg Przyjaźń służy do transportu ropy, a pozostałe nazwy są błędne.",
-      "last_verified_at": "2026-06-12T17:16:24.608Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Rurociąg Przyjaźń",
+      "explanation_correct": "Rurociąg Przyjaźń służy do przesyłu ropy; jego polski odcinek uruchomiono w czasach PRL. Gazociąg jamalski powstał po rozpadzie ZSRR.",
+      "explanation_incorrect": "Gazociąg Jamalski przesyła gaz, kanał jest drogą wodną, a magistrala kolejowa służy przewozom pociągów."
     },
     {
       "subcategory": "Przemysł lekki",
@@ -1480,33 +1310,29 @@
     },
     {
       "subcategory": "Telekomunikacja",
-      "question": "Jaki znany poznański wieżowiec telekomunikacyjny, ukończony w latach 70., dominował w panoramie miasta?",
+      "question": "Jak nazywa się wieżowiec Uniwersytetu Ekonomicznego w Poznaniu, budowany od 1979 do 1991 roku?",
       "options": [
         "Collegium Altum",
-        "Wieża Poznania",
-        "Budynek Telekom",
-        "Altum Poznańskie"
+        "Pałac Kultury i Nauki",
+        "Spodek",
+        "Okrąglak"
       ],
       "answer": "Collegium Altum",
-      "explanation_correct": "Collegium Altum to charakterystyczny budynek w Poznaniu, pełniący dawniej m.in. funkcje telekomunikacyjne.",
-      "explanation_incorrect": "Pozostałe nazwy nie są oficjalnymi określeniami tego poznańskiego budynku.",
-      "last_verified_at": "2026-06-12T17:16:24.608Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Collegium Altum jest budynkiem dydaktycznym poznańskiej uczelni ekonomicznej; budowę ukończono w 1991 roku.",
+      "explanation_incorrect": "Pozostałe nazwy oznaczają inne obiekty."
     },
     {
       "subcategory": "Architektura wystawowa",
-      "question": "Jak nazywa się poznańska hala widowiskowo-sportowa, której konstrukcja dachu swoim kształtem przypomina iglicę?",
+      "question": "Jak nazywa się okrągła hala widowiskowo-sportowa w Poznaniu, otwarta w 1974 roku?",
       "options": [
         "Hala Arena",
-        "Hala Widowiskowa Poznań",
-        "Arena Sportów",
-        "Halowa Iglica"
+        "Spodek",
+        "Torwar",
+        "Hala Stulecia"
       ],
       "answer": "Hala Arena",
-      "explanation_correct": "Hala Arena w Poznaniu jest budowlą o charakterystycznym, iglicowym przekryciu.",
-      "explanation_incorrect": "Pozostałe opcje nie odnoszą się do nazwy własnej tego konkretnego obiektu.",
-      "last_verified_at": "2026-06-12T17:16:24.608Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Poznańska Arena to hala widowiskowo-sportowa z charakterystycznym okrągłym przekryciem.",
+      "explanation_incorrect": "Spodek znajduje się w Katowicach, Torwar w Warszawie, a Hala Stulecia we Wrocławiu."
     }
   ]
 }
