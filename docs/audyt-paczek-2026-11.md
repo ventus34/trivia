@@ -184,6 +184,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Kultura Gier i Ciekawostki (PL):** przegląd 100 pytań, korekty 68 rekordów; [raport](audits/2026-11-08-kultura-gier-i-ciekawostki-pl.md).
 - **Mistrzowie Animacji (PL):** przegląd 100 pytań i korekty 60 rekordów; [raport](audits/2026-11-08-mistrzowie-animacji-pl.md).
 
+- **Muzyka Współczesna i Listy Przebojów (PL):** przegląd 100 pytań i korekty 44 rekordów; [raport](audits/2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

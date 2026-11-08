@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **171** pozycji ma raport deklarujący przegląd całości paczki.
+- **172** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **54** pozycji nie ma dedykowanego raportu merytorycznego.
+- **53** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -152,7 +152,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 129 | `muzyka_klasyczna_i_opera_pl` | Muzyka Klasyczna i Opera | [2026-11-06-muzyka-klasyczna-i-opera-pl.md](2026-11-06-muzyka-klasyczna-i-opera-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, odpowiedzi i wyjaśnień w paczce `muzyka_klasyczna_i_opera_pl` oraz jej opis. Zmieniono 47 rekordów: 2, 4, 6, 11–12, 15–21, 23–24, 26–28, 30, 32, 34–35, 40,… |
 | 130 | `muzyka_klasyczna_pl` | Muzyka Klasyczna | [2026-11-08-muzyka-klasyczna-pl.md](2026-11-08-muzyka-klasyczna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 44 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 131 | `muzyka_popularna_pl` | Muzyka Popularna | [2026-11-06-muzyka-popularna-pl.md](2026-11-06-muzyka-popularna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 200 pytań i odpowiedzi paczki `muzyka_popularna_pl`. Zmieniono 26 rekordów: 3, 13, 19, 25, 26, 39, 51, 55, 68, 81, 98, 109, 126, 143, 145, 149, 153, 156, 160, 187, 190, 193,… |
-| 132 | `muzyka_wspczesna_i_listy_przebojw_pl` | Muzyka Współczesna i Listy Przebojów | — | BRAK dedykowanego raportu merytorycznego. |
+| 132 | `muzyka_wspczesna_i_listy_przebojw_pl` | Muzyka Współczesna i Listy Przebojów | [2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md](2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 44 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 133 | `mythical_artifacts_in_pop_culture_en` | Mythical Artifacts in Pop Culture | [2026-11-07-mythical-artifacts-in-pop-culture-en.md](2026-11-07-mythical-artifacts-in-pop-culture-en.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-07. Przeczytano wszystkie 100 pytań, wariantów odpowiedzi i wyjaśnień oraz opis paczki. Opis odzwierciedla tematykę; liczba pytań pozostaje bez zmian. Numery oznaczają… |
 | 134 | `napoje_alkohole_i_koneserzy_pl` | Napoje, Alkohole i Koneserzy | — | BRAK dedykowanego raportu merytorycznego. |
 | 135 | `nauka_pl` | Nauka | — | BRAK dedykowanego raportu merytorycznego. |
