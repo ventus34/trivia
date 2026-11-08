@@ -153,6 +153,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Mitologia słowiańska (PL), uzupełnienie:** zastąpiono 18 powtarzających się pytań; zakres, źródła i ograniczenia w [raporcie](audits/2026-11-07-mitologia-slowianska-pl.md).
 
+- **Melee Weapons & Armor (EN):** przegląd 100 pytań, zmiany w 99 pozycjach oraz wybrane źródła muzealne; [raport](audits/2026-11-08-melee-weapons-armor-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

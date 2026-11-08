@@ -4,39 +4,33 @@
   "language": "en",
   "description": "Questions covering: Swords, Polearms, Armor Materials, Blunt Weapons, Ancient Spears, Shields...",
   "created_at": "2026-06-12T14:49:41.777Z",
-  "last_verified_at": "2026-06-12T14:45:49.174Z",
-  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Swords",
-      "question": "Which Japanese curved blade is known by this name?",
+      "question": "Which Japanese sword type was commonly worn as the longer sword in a katana-and-wakizashi pair?",
       "options": [
         "katana",
         "wakizashi",
-        "tachi",
-        "naginata"
+        "naginata",
+        "yari"
       ],
       "answer": "katana",
-      "explanation_correct": "A katana is the classic Japanese curved sword associated with samurai. It is distinct from other Japanese edged weapons by its length and single-edged blade.",
-      "explanation_incorrect": "The other options are different Japanese weapons or sword types, not the specific curved blade named here.",
-      "last_verified_at": "2026-06-12T14:41:01.312Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A katana and a wakizashi could form a daishō, a Japanese long-and-short sword pairing.",
+      "explanation_incorrect": "The wakizashi is the shorter sword in this pairing; naginata and yari are pole weapons."
     },
     {
       "subcategory": "Polearms",
-      "question": "Which Swiss infantry polearm is described here?",
+      "question": "Which polearm associated with Swiss infantry commonly combined an axe blade, a top point and a rear hook?",
       "options": [
         "halberd",
         "pike",
-        "billhook",
-        "spear"
+        "buckler",
+        "rapier"
       ],
       "answer": "halberd",
-      "explanation_correct": "A halberd is a combined axe-and-spear pole weapon historically used by infantry. It was especially prominent in Swiss and German military traditions.",
-      "explanation_incorrect": "The other options are pole weapons too, but they are not the Swiss infantry weapon in question.",
-      "last_verified_at": "2026-06-12T14:41:01.312Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A halberd typically combined an axe blade, a point and a hook on a shaft and was associated with Swiss and other European infantry.",
+      "explanation_incorrect": "A pike is a long spear; a buckler is a small shield and a rapier is a sword."
     },
     {
       "subcategory": "Armor Materials",
@@ -48,29 +42,25 @@
         "scale armor"
       ],
       "answer": "chainmail",
-      "explanation_correct": "Chainmail is armor constructed from many interlinked metal rings. It was widely used for flexible body protection.",
-      "explanation_incorrect": "The other options are different armor constructions and do not use linked rings as their defining feature.",
-      "last_verified_at": "2026-06-12T14:41:01.312Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Mail, also called chain mail, is armor made from interlinked metal rings.",
+      "explanation_incorrect": "Lamellar, brigandine and scale armor use plates rather than interlinked rings as their defining construction."
     },
     {
       "subcategory": "Blunt Weapons",
-      "question": "Which spiked-headed club is being described?",
+      "question": "What is the general name for a hand weapon with a heavy striking head on a handle?",
       "options": [
         "mace",
-        "club",
-        "flail",
-        "morning star"
+        "rapier",
+        "buckler",
+        "helmet"
       ],
       "answer": "mace",
-      "explanation_correct": "A mace is a blunt weapon with a heavy head that may be spiked. It is designed to deliver crushing strikes.",
-      "explanation_incorrect": "The other options are related melee weapons, but they are not the specific spiked-headed club named here.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A mace is a striking weapon with a weighted head; examples have many shapes, including flanged or spiked heads.",
+      "explanation_incorrect": "A morning star is a related spiked club or mace, while a rapier, buckler and helmet are different kinds of object."
     },
     {
       "subcategory": "Ancient Spears",
-      "question": "Which Greek long spear was used by ancient infantry formations?",
+      "question": "Which exceptionally long spear was used by the ancient Macedonian phalanx?",
       "options": [
         "sarissa",
         "dory",
@@ -78,14 +68,12 @@
         "hasta"
       ],
       "answer": "sarissa",
-      "explanation_correct": "The sarissa was the exceptionally long spear used by Macedonian phalanxes. Its length allowed dense spear walls in formation fighting.",
-      "explanation_incorrect": "The other options are either different spear types or non-spear weapons from antiquity.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The sarissa was a long pike associated with the Macedonian phalanx.",
+      "explanation_incorrect": "A dory was another Greek spear, a xiphos a sword, and hasta a Latin term for a spear."
     },
     {
       "subcategory": "Shields",
-      "question": "What is the name of the iconic, large, rectangular shield used by legionnaires in the Roman army?",
+      "question": "Which Latin term is used for a large shield carried by Roman legionaries, including the curved rectangular form known from the imperial period?",
       "options": [
         "Scutum",
         "Parma",
@@ -93,29 +81,25 @@
         "Aspis"
       ],
       "answer": "Scutum",
-      "explanation_correct": "The scutum was a large, semi-cylindrical rectangular shield used by Roman legionnaires to form defensive formations like the testudo.",
-      "explanation_incorrect": "Parma and clipeus were smaller, rounder shields, and the aspis was a traditional Greek concave shield.",
-      "last_verified_at": "2026-06-12T14:42:22.215Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Scutum denotes a Roman shield; forms varied over time, including the familiar curved rectangular shield.",
+      "explanation_incorrect": "Parma and clipeus are other shield terms, and aspis is associated with ancient Greek shields."
     },
     {
       "subcategory": "Axes",
-      "question": "Which single-handed throwing axe fits this description?",
+      "question": "Which axe is especially associated with early medieval Frankish warriors?",
       "options": [
         "francisca",
-        "battle axe",
-        "hatchet",
-        "tomahawk"
+        "katana",
+        "gladius",
+        "buckler"
       ],
       "answer": "francisca",
-      "explanation_correct": "The francisca was a Frankish throwing axe used in warfare. It was small enough to be thrown effectively with one hand.",
-      "explanation_incorrect": "The other options are axes or axe-like tools, but they are not the specific historical throwing axe named here.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The francisca is an axe type associated with early medieval Franks, including examples interpreted as throwing axes.",
+      "explanation_incorrect": "Axes of other cultures could also be thrown; the remaining options are swords or a shield."
     },
     {
       "subcategory": "Daggers",
-      "question": "Which Indian punch dagger is described here?",
+      "question": "What is the name of the South Asian thrusting dagger with a distinctive transverse grip?",
       "options": [
         "katar",
         "kirpan",
@@ -123,14 +107,12 @@
         "baselard"
       ],
       "answer": "katar",
-      "explanation_correct": "A katar is an Indian thrusting dagger with a distinctive H-shaped grip. It is designed for punching-style stabs.",
-      "explanation_incorrect": "The other options are blades or knives, but they are not the Indian punch dagger in question.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The katar is a South Asian dagger with a transverse handgrip between side bars.",
+      "explanation_incorrect": "A kirpan, pesh-kabz and baselard are different edged-weapon terms."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which ancient Greek helmet style is famous for its large eye slits and fixed nose guard?",
+      "question": "Which ancient Greek helmet type typically enclosed much of the head, with eye openings and a projecting nasal guard?",
       "options": [
         "Corinthian helmet",
         "Boeotian helmet",
@@ -138,14 +120,12 @@
         "Chalcidian helmet"
       ],
       "answer": "Corinthian helmet",
-      "explanation_correct": "The Corinthian style offered great protection but impaired hearing and vision significantly.",
-      "explanation_incorrect": "Boeotian and Phrygian helmets usually left the face open for better situational awareness.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A Corinthian helmet typically covered much of the head and face, leaving openings for the eyes and mouth and a nasal guard.",
+      "explanation_incorrect": "Other Greek helmets had varied shapes; some Chalcidian examples also include nasal guards."
     },
     {
       "subcategory": "Plate Armor",
-      "question": "Which armored hand covering is described here?",
+      "question": "What is the name of an armored glove protecting the hand?",
       "options": [
         "gauntlet",
         "vambrace",
@@ -153,44 +133,38 @@
         "greave"
       ],
       "answer": "gauntlet",
-      "explanation_correct": "A gauntlet is a protective armored glove or hand covering. It was commonly used as part of plate armor.",
-      "explanation_incorrect": "The other options are armor pieces too, but they protect other body parts rather than the hand.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A gauntlet is a protective glove, which could be made of plates, mail or other materials.",
+      "explanation_incorrect": "A vambrace covers the forearm, a cuirass the torso, and a greave the lower leg."
     },
     {
       "subcategory": "Mounted Combat",
       "question": "Which mounted combat weapon is designed for a cavalry charge and thrusting from horseback?",
       "options": [
         "lance",
-        "spear",
-        "halberd",
-        "trident"
+        "buckler",
+        "helmet",
+        "gauntlet"
       ],
       "answer": "lance",
-      "explanation_correct": "A lance is the classic cavalry weapon used for thrusting during a mounted charge. It is built for reach and impact from horseback.",
-      "explanation_incorrect": "The other options are polearms or spears not specifically defined by cavalry charge use. They are not the standard mounted thrusting weapon.",
-      "last_verified_at": "2026-06-12T14:41:01.313Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A lance is a long thrusting weapon associated with mounted combat, including cavalry charges.",
+      "explanation_incorrect": "A lance is a kind of spear; bucklers, helmets and gauntlets are defensive equipment."
     },
     {
       "subcategory": "Japanese Polearms",
-      "question": "Which Japanese polearm features a blade mounted along a shaft?",
+      "question": "Which Japanese polearm is traditionally associated with a curved blade mounted on a shaft?",
       "options": [
         "naginata",
-        "yari",
-        "bisento",
-        "spear"
+        "katana",
+        "wakizashi",
+        "tanto"
       ],
       "answer": "naginata",
-      "explanation_correct": "A naginata is a Japanese polearm with a curved blade attached to a shaft. It was used for sweeping and cutting attacks.",
-      "explanation_incorrect": "The other options are either different Japanese polearms or generic spears. They do not specifically describe the blade-on-shaft design of a naginata.",
-      "last_verified_at": "2026-06-12T14:41:01.314Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A naginata is a Japanese pole weapon with a blade mounted on a shaft; forms varied over time.",
+      "explanation_incorrect": "A bisentō is another Japanese bladed polearm; the listed alternatives are shorter blades or swords."
     },
     {
       "subcategory": "Medieval Swords",
-      "question": "Which medieval sword is known for its large two-handed form?",
+      "question": "Which German term is commonly used for a very large two-handed sword of the 16th century?",
       "options": [
         "zweihander",
         "arming sword",
@@ -198,10 +172,8 @@
         "rapier"
       ],
       "answer": "zweihander",
-      "explanation_correct": "A zweihander is a very large sword intended for two-handed use. It is associated with late medieval and Renaissance warfare.",
-      "explanation_incorrect": "The other options are smaller or differently shaped swords. They are not the large two-handed type described here.",
-      "last_verified_at": "2026-06-12T14:41:01.314Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Zweihänder means “two-hander” and is commonly applied to large German two-handed swords of the Renaissance.",
+      "explanation_incorrect": "Arming sword, falchion and rapier describe other sword categories; classification and dating vary."
     },
     {
       "subcategory": "Armor Components",
@@ -219,94 +191,82 @@
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
-      "subcategory": "Siege Defense",
-      "question": "What siege-defense material was used as a heated alternative to pouring liquids on attackers?",
+      "subcategory": "Japanese Swords",
+      "question": "What is the Japanese term for the guard fitted between a sword blade and its grip?",
       "options": [
-        "hot sand",
-        "boiling oil",
-        "melted wax",
-        "ash"
+        "tsuba",
+        "sode",
+        "kabuto",
+        "greave"
       ],
-      "answer": "hot sand",
-      "explanation_correct": "Hot sand was sometimes used in defense of fortifications as a burning or scalding deterrent. It could be poured on attackers in place of liquids.",
-      "explanation_incorrect": "The other options are materials, but they are not the specific substitute described. Hot sand is the intended answer.",
-      "last_verified_at": "2026-06-12T14:41:01.314Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "tsuba",
+      "explanation_correct": "A tsuba is a Japanese sword guard; examples vary widely in shape and decoration.",
+      "explanation_incorrect": "Sode are shoulder guards, kabuto is a helmet, and greave is a term for lower-leg armor."
     },
     {
       "subcategory": "Swords",
-      "question": "Which ancient Greek short sword was commonly carried by infantry?",
+      "question": "Which ancient Greek sword is commonly described as a short, straight, double-edged blade?",
       "options": [
         "xiphos",
-        "kopis",
-        "gladius",
-        "machaira"
+        "dory",
+        "sarissa",
+        "aspis"
       ],
       "answer": "xiphos",
-      "explanation_correct": "The xiphos was a short, straight sword used in ancient Greece. It was a common sidearm for hoplites.",
-      "explanation_incorrect": "The other options are swords from different traditions or forms. They are not the specific Greek short sword named here.",
-      "last_verified_at": "2026-06-12T14:41:01.314Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The xiphos is a short sword associated with ancient Greek warfare; examples and terminology varied.",
+      "explanation_incorrect": "Kopis and machaira are other Greek blade terms; dory and sarissa are spears, and aspis is a shield."
     },
     {
       "subcategory": "Polearms",
-      "question": "Which medieval infantry spear was especially associated with very long reach formations?",
+      "question": "What is the common name for a very long infantry spear used in dense formations?",
       "options": [
         "pike",
-        "javelin",
-        "spear",
-        "partisan"
+        "buckler",
+        "gauntlet",
+        "dagger"
       ],
       "answer": "pike",
-      "explanation_correct": "A pike is a very long thrusting spear used by infantry in dense formations. It was designed for reach and battlefield control.",
-      "explanation_incorrect": "The other options are shorter throwing or thrusting weapons, or different polearms. They are not the long infantry spear indicated here.",
-      "last_verified_at": "2026-06-12T14:41:01.314Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A pike is a long infantry spear, associated with formations of pikemen in several periods.",
+      "explanation_incorrect": "A buckler, gauntlet and dagger are not long infantry spears."
     },
     {
       "subcategory": "Axes",
-      "question": "Which single-handed Viking axe is characterized by a hooked lower blade edge?",
+      "question": "What is an axe with a lower blade edge extending below its socket commonly called?",
       "options": [
         "bearded axe",
-        "battle axe",
-        "hatchet",
-        "francisca"
+        "rapier",
+        "bascinet",
+        "buckler"
       ],
       "answer": "bearded axe",
-      "explanation_correct": "A bearded axe has an extended lower blade that resembles a beard. This shape gives it a distinctive grip and cutting profile.",
-      "explanation_incorrect": "The other options are axes or throwing axes, but they do not match the distinctive hooked-blade form. They are not the single-handed Viking bearded axe.",
-      "last_verified_at": "2026-06-12T14:41:01.314Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A bearded axe has a blade that extends down below the eye, forming a characteristic “beard”; the form is not exclusive to Vikings.",
+      "explanation_incorrect": "A rapier is a sword, a bascinet a helmet and a buckler a shield."
     },
     {
-      "subcategory": "Daggers",
-      "question": "Which Scottish companion dagger has a basket hilt style of protection?",
+      "subcategory": "Sword Hilts",
+      "question": "What kind of sword hilt encloses the hand in a cage-like guard, as on some Scottish broadswords?",
       "options": [
-        "dirk",
-        "sgian-dubh",
-        "main-gauche",
-        "bollock dagger"
+        "basket hilt",
+        "disc pommel",
+        "straight quillon",
+        "blade fuller"
       ],
-      "answer": "dirk",
-      "explanation_correct": "The dirk is a Scottish dagger associated with side carry and companion use. In this context, it refers to the traditional Scottish dagger form.",
-      "explanation_incorrect": "The other options are daggers or knife types, but not the one identified by this Scottish companion-dagger description. They do not match the target term.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "basket hilt",
+      "explanation_correct": "A basket hilt uses bars or plates around the hand; some Scottish broadswords have this form.",
+      "explanation_incorrect": "A pommel, quillon and fuller are other parts or features of edged weapons."
     },
     {
       "subcategory": "Clubs",
       "question": "Which Japanese studded war club is known for its iron or metal protrusions?",
       "options": [
-        "kanabo",
-        "club",
-        "morning star",
-        "tonfa"
+        "kanabō",
+        "tanto",
+        "naginata",
+        "yari"
       ],
-      "answer": "kanabo",
-      "explanation_correct": "A kanabo is a Japanese war club often reinforced with metal studs or spikes. It is associated with heavy crushing blows.",
-      "explanation_incorrect": "The other options are generic clubs or different weapons. They are not the studded Japanese war club specified here.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "kanabō",
+      "explanation_correct": "Kanabō is a Japanese club or staff weapon, sometimes strengthened with metal studs.",
+      "explanation_incorrect": "Tetsubō is a related term for an iron staff or club; the listed alternatives are a dagger or polearms."
     },
     {
       "subcategory": "Armor",
@@ -318,14 +278,12 @@
         "pauldron"
       ],
       "answer": "cuirass",
-      "explanation_correct": "A cuirass is a body armor piece designed to protect the torso, typically formed of front and back metal plates. It is distinct from limb armor and mail garments.",
-      "explanation_incorrect": "A hauberk is a mail shirt, while greaves and pauldrons protect the legs and shoulders, not the torso.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A cuirass protects the torso and can consist of breastplate and backplate; cuirasses have been made from different materials.",
+      "explanation_incorrect": "A hauberk is a mail shirt, while greaves and pauldrons protect the lower legs and shoulders."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which medieval helmet has a pointed top and a nasal guard?",
+      "question": "What is the name for an early medieval helmet whose bowl is constructed from sections joined by a metal framework?",
       "options": [
         "spangenhelm",
         "bascinet",
@@ -333,40 +291,34 @@
         "sallet"
       ],
       "answer": "spangenhelm",
-      "explanation_correct": "A spangenhelm is a segmented medieval helmet often characterized by a pointed crown and a nasal guard. It was widely used in early medieval Europe.",
-      "explanation_incorrect": "A bascinet, great helm, and sallet are different helmet forms without that characteristic segmented pointed structure.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A spangenhelm is a helmet built with a framework of bands joining sections of the bowl. Some examples have nasal guards.",
+      "explanation_incorrect": "Nasal guards and pointed shapes occur on other helmet types too; segmented construction is the clue here."
     },
     {
       "subcategory": "Shields",
-      "question": "Which small round shield was often used in fist fighting?",
+      "question": "What is a small hand-held shield often used with a sword called?",
       "options": [
         "buckler",
-        "tower shield",
+        "pavise",
         "kite shield",
-        "target"
+        "great helm"
       ],
       "answer": "buckler",
-      "explanation_correct": "A buckler is a small round shield designed for close combat and weapon deflection. It is commonly associated with sword-and-buckler fighting.",
-      "explanation_incorrect": "A tower shield, kite shield, and target are larger shield types with different uses and shapes.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A buckler is a small shield held in the hand, known from sword-and-buckler fencing.",
+      "explanation_incorrect": "Targes and other shields can also be small and round; pavises and kite shields are different forms, while a great helm is a helmet."
     },
     {
       "subcategory": "Swords",
-      "question": "Which curved cavalry sword originated in the Middle East?",
+      "question": "What broad European term is commonly used for certain curved swords associated with the Islamic world?",
       "options": [
         "scimitar",
         "rapier",
-        "falchion",
-        "longsword"
+        "great helm",
+        "pavise"
       ],
       "answer": "scimitar",
-      "explanation_correct": "A scimitar is a curved single-edged sword associated with cavalry and Middle Eastern weapon traditions. Its distinctive curve sets it apart from straight swords.",
-      "explanation_incorrect": "A rapier, falchion, and longsword are different sword forms, typically straighter or differently shaped and used.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Scimitar is a broad European term applied to a range of curved swords; the forms and their origins vary.",
+      "explanation_incorrect": "A falchion is also often curved; a rapier is a sword of another form, while a great helm and pavise are defensive equipment."
     },
     {
       "subcategory": "Polearms",
@@ -378,25 +330,21 @@
         "partisan"
       ],
       "answer": "yari",
-      "explanation_correct": "A yari is a Japanese spear used in warfare by samurai and ashigaru. It is a straight thrusting polearm rather than a bladed pole weapon.",
-      "explanation_incorrect": "A naginata is a pole weapon with a curved blade, while a halberd and partisan are non-Japanese polearms of different forms.",
-      "last_verified_at": "2026-06-12T14:41:01.315Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Yari is a Japanese term for a spear; yari heads can have different shapes and numbers of edges.",
+      "explanation_incorrect": "A naginata is a bladed polearm; halberd and partisan are European polearm terms."
     },
     {
       "subcategory": "Daggers",
-      "question": "Which Italian Renaissance dagger is made for stabbing?",
+      "question": "Which slender dagger type is especially associated with Italy and primarily designed for thrusting?",
       "options": [
         "stiletto",
-        "dirk",
-        "main-gauche",
-        "kris"
+        "buckler",
+        "pavise",
+        "greave"
       ],
       "answer": "stiletto",
-      "explanation_correct": "A stiletto is a slim dagger designed primarily for thrusting and piercing. It is especially associated with Italian Renaissance weaponry.",
-      "explanation_incorrect": "A dirk, main-gauche, and kris are different dagger types with other shapes, origins, or intended uses.",
-      "last_verified_at": "2026-06-12T14:41:01.316Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A stiletto is a narrow dagger strongly associated with thrusting and Italian weapon traditions.",
+      "explanation_incorrect": "Other daggers can also be used for thrusting; the listed alternatives are defensive equipment."
     },
     {
       "subcategory": "Armor",
@@ -408,10 +356,8 @@
         "hauberk"
       ],
       "answer": "gambeson",
-      "explanation_correct": "A gambeson is a quilted padded garment worn as armor or beneath other armor to absorb impact. It served as both standalone protection and underlayer.",
-      "explanation_incorrect": "A brigandine, cuirass, and hauberk are different armor forms made of plates or mail rather than padded cloth.",
-      "last_verified_at": "2026-06-12T14:41:01.316Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A gambeson is a padded or quilted garment used as protection, sometimes under other armor and sometimes on its own.",
+      "explanation_incorrect": "Brigandine incorporates plates; cuirass and hauberk are different forms of torso armor."
     },
     {
       "subcategory": "Helmets",
@@ -423,10 +369,8 @@
         "bascinet"
       ],
       "answer": "kabuto",
-      "explanation_correct": "A kabuto is the traditional Japanese helmet worn by samurai. It often features a prominent crest and complex construction.",
-      "explanation_incorrect": "A morion, sallet, and bascinet are European helmet types, not Japanese samurai helmets.",
-      "last_verified_at": "2026-06-12T14:41:01.316Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Kabuto is a Japanese helmet term. Surviving examples vary in shape, materials and decoration.",
+      "explanation_incorrect": "Morion, sallet and bascinet are European helmet terms."
     },
     {
       "subcategory": "Shields",
@@ -438,29 +382,25 @@
         "targe"
       ],
       "answer": "pavise",
-      "explanation_correct": "A pavise is a large shield used to protect missile troops, especially crossbowmen, during reloading. It was often set on the ground for cover.",
-      "explanation_incorrect": "A buckler, heater shield, and targe are smaller or differently shaped shields not typically used as standing cover for crossbowmen.",
-      "last_verified_at": "2026-06-12T14:41:01.316Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A pavise is a large shield associated with protecting missile troops, including crossbowmen, while they loaded or shot.",
+      "explanation_incorrect": "Bucklers, heater shields and targes are different shield forms; use and size varied."
     },
     {
       "subcategory": "Axes",
-      "question": "Which long-shafted Danish war axe was common in medieval warfare?",
+      "question": "Which long-handled broad-bladed axe is associated with Scandinavian and other northern European warriors in the Viking Age?",
       "options": [
         "Dane axe",
-        "bearded axe",
-        "francisca",
-        "pollaxe"
+        "rapier",
+        "pavise",
+        "stiletto"
       ],
       "answer": "Dane axe",
-      "explanation_correct": "The Dane axe is a long-handled battle axe associated with Viking and early medieval warfare. It is known for its broad blade and two-handed use.",
-      "explanation_incorrect": "A bearded axe, francisca, and pollaxe are different axe types with different blade shapes, sizes, or combat roles.",
-      "last_verified_at": "2026-06-12T14:41:01.316Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Dane axe is a long-hafted axe associated with Viking Age and early medieval warfare.",
+      "explanation_incorrect": "Other axes could also have long handles; the listed alternatives are a sword, shield and dagger."
     },
     {
       "subcategory": "Swords",
-      "question": "What is the name of the standard short sword used by the Roman infantry?",
+      "question": "What Latin term is commonly used for a short sword associated with Roman infantry?",
       "options": [
         "Gladius",
         "Spatha",
@@ -468,10 +408,8 @@
         "Falchion"
       ],
       "answer": "Gladius",
-      "explanation_correct": "The gladius was the primary weapon of the Roman legionnaire, designed for stabbing in close-quarters combat.",
-      "explanation_incorrect": "The spatha was a longer sword; the xiphos is Greek; the falchion is a medieval cutting sword.",
-      "last_verified_at": "2026-06-12T14:42:22.215Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Gladius is Latin for sword and is commonly used for the short sword associated with Roman infantry in several periods.",
+      "explanation_incorrect": "A spatha is a longer sword; a xiphos is Greek, and a falchion is a later European blade."
     },
     {
       "subcategory": "Swords",
@@ -483,14 +421,12 @@
         "targe"
       ],
       "answer": "kukri",
-      "explanation_correct": "A kukri is a distinctive Nepalese blade with a forward-curving profile. It is both a traditional tool and a weapon.",
-      "explanation_incorrect": "The other options are a polearm, a dagger, and a shield, so they do not fit this description.",
-      "last_verified_at": "2026-06-12T14:41:01.316Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A kukri, or khukuri, is a forward-curving Nepalese knife used both as a tool and a weapon.",
+      "explanation_incorrect": "Bardiche is a polearm, sgian-dubh a Scottish knife, and targe a shield."
     },
     {
       "subcategory": "Axes",
-      "question": "Which term refers to a single-edged utility axe?",
+      "question": "Which light axe is associated with Indigenous peoples of North America and has served as a tool as well as a weapon?",
       "options": [
         "tomahawk",
         "morning star",
@@ -498,10 +434,8 @@
         "bascinet"
       ],
       "answer": "tomahawk",
-      "explanation_correct": "A tomahawk is a light axe originally associated with Native American use. It could serve as a tool or weapon.",
-      "explanation_incorrect": "The other options are a blunt weapon, a flexible weapon, and a helmet rather than an axe.",
-      "last_verified_at": "2026-06-12T14:41:01.317Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tomahawk is a term for a light axe associated with Indigenous North American peoples; forms and uses varied.",
+      "explanation_incorrect": "A morning star is a spiked striking weapon, a flail has a flexible connection, and a bascinet is a helmet."
     },
     {
       "subcategory": "Polearms",
@@ -513,29 +447,25 @@
         "targe"
       ],
       "answer": "bill",
-      "explanation_correct": "The bill was a versatile polearm developed from the billhook, featuring a hook, a spike, and a blade.",
-      "explanation_incorrect": "The gladius is a short sword, the kukri is a knife, and the targe is a shield.",
-      "last_verified_at": "2026-06-12T14:41:01.317Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A bill is a polearm associated with English infantry and related to agricultural billhooks; historical heads varied in their points and hooks.",
+      "explanation_incorrect": "The gladius is a short sword, the kukri is a knife, and the targe is a shield."
     },
     {
       "subcategory": "Polearms",
-      "question": "Which term refers to a spear-axe combination?",
+      "question": "Which polearm has a long, axe-like blade fixed to a shaft and is associated with eastern and northern Europe?",
       "options": [
         "bardiche",
-        "tomahawk",
-        "sgian-dubh",
-        "flail"
+        "rapier",
+        "buckler",
+        "stiletto"
       ],
       "answer": "bardiche",
-      "explanation_correct": "A bardiche is a pole weapon with a long axe-like blade mounted on a shaft. It combines features of a spear and axe-like cutting edge.",
-      "explanation_incorrect": "The other options are an axe, a dagger, and a flexible weapon rather than this polearm.",
-      "last_verified_at": "2026-06-12T14:41:01.317Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A bardiche has a long axe-like blade mounted to a shaft. It is a poleaxe-like cutting weapon, not necessarily a spear-axe combination.",
+      "explanation_incorrect": "A rapier and stiletto are blades, while a buckler is a shield."
     },
     {
       "subcategory": "Daggers",
-      "question": "Which term refers to a Scottish broad dagger?",
+      "question": "What small knife is traditionally worn with Scottish Highland dress?",
       "options": [
         "sgian-dubh",
         "kukri",
@@ -543,10 +473,8 @@
         "targe"
       ],
       "answer": "sgian-dubh",
-      "explanation_correct": "A sgian-dubh is a traditional Scottish knife worn with Highland dress. It is a small dagger rather than a larger blade.",
-      "explanation_incorrect": "The other options are a curved blade, a polearm, and a shield, so they do not match the description.",
-      "last_verified_at": "2026-06-12T14:41:01.317Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A sgian-dubh is a small Scottish knife often worn in a stocking with Highland dress.",
+      "explanation_incorrect": "A kukri is a Nepalese knife, a bill a polearm, and a targe a shield."
     },
     {
       "subcategory": "Blunt Weapons",
@@ -558,10 +486,8 @@
         "bascinet"
       ],
       "answer": "morgenstern",
-      "explanation_correct": "A morgenstern, or morning star, is a club or mace-like weapon fitted with spikes. It is classified as a blunt weapon with added penetrating points.",
-      "explanation_incorrect": "The other options are an axe, a polearm, and a helmet, which are not spiked clubs.",
-      "last_verified_at": "2026-06-12T14:41:01.317Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Morning star, or Morgenstern, can refer to a spiked club or mace; historical terminology is not always consistent.",
+      "explanation_incorrect": "Tomahawk is an axe, bardiche a polearm, and bascinet a helmet."
     },
     {
       "subcategory": "Flexible Weapons",
@@ -573,14 +499,12 @@
         "gladius"
       ],
       "answer": "flail",
-      "explanation_correct": "A flail is a flexible weapon made from a handle connected to one or more striking weights by a chain or strap. Its defining feature is that hinged connection.",
-      "explanation_incorrect": "The other options are a polearm, a shield, and a sword, so they are not chain weapons.",
-      "last_verified_at": "2026-06-12T14:41:01.318Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A military flail generally has a handle linked to a striking head by a flexible connection; historical examples and uses are debated.",
+      "explanation_incorrect": "Bill is a polearm, targe a shield, and gladius a sword."
     },
     {
       "subcategory": "Shields",
-      "question": "Which term refers to a small round shield?",
+      "question": "What is the name of a round shield especially associated with Scottish Highlanders?",
       "options": [
         "targe",
         "kukri",
@@ -588,14 +512,12 @@
         "sgian-dubh"
       ],
       "answer": "targe",
-      "explanation_correct": "A targe is a round shield associated especially with Scottish warfare. It was designed for close defense and protection.",
-      "explanation_incorrect": "The other options are a blade, a spiked weapon, and a dagger, not shields.",
-      "last_verified_at": "2026-06-12T14:41:01.318Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A targe is a shield term; Scottish Highland targes were typically round.",
+      "explanation_incorrect": "A kukri and sgian-dubh are knives, while a Morgenstern is a spiked striking weapon."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which term refers to a great helm variant?",
+      "question": "Which of these is a late medieval European helmet type that could be fitted with a visor and mail aventail?",
       "options": [
         "bascinet",
         "flail",
@@ -603,10 +525,8 @@
         "tomahawk"
       ],
       "answer": "bascinet",
-      "explanation_correct": "A bascinet is a medieval helmet that developed from earlier great helm traditions. It became a common European military helmet in the late Middle Ages.",
-      "explanation_incorrect": "The other options are a flexible weapon, a polearm, and an axe, so they are not helmets.",
-      "last_verified_at": "2026-06-12T14:41:01.318Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A bascinet is a medieval helmet that could be worn with a visor and mail aventail; forms evolved over time.",
+      "explanation_incorrect": "A bascinet was not simply a variant descended from the great helm; the other options are weapons."
     },
     {
       "subcategory": "Body Armor",
@@ -618,10 +538,8 @@
         "greave"
       ],
       "answer": "faulds",
-      "explanation_correct": "Faulds are articulated metal plates that hang from a cuirass to protect the hips and upper thighs. They form a skirt-like section of armor.",
-      "explanation_incorrect": "A pauldron protects the shoulder, a vambrace protects the forearm, and a greave protects the shin. None of them are skirt-style hip armor.",
-      "last_verified_at": "2026-06-12T14:41:01.318Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Faulds are overlapping plates forming a skirt-like defense below the waist of a cuirass; separate tassets could cover the thighs.",
+      "explanation_incorrect": "A pauldron protects the shoulder, a vambrace the forearm, and a greave the lower leg."
     },
     {
       "subcategory": "Body Armor",
@@ -633,10 +551,8 @@
         "greave"
       ],
       "answer": "pauldron",
-      "explanation_correct": "A pauldron is a plate armor component designed to cover and protect the shoulder. It is commonly used in medieval and Renaissance armor.",
-      "explanation_incorrect": "Faulds protect the hips, a vambrace covers the forearm, and a greave covers the shin. Those pieces are located on different parts of the body.",
-      "last_verified_at": "2026-06-12T14:41:01.318Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A pauldron is plate armor worn over the shoulder; construction and coverage varied.",
+      "explanation_incorrect": "Faulds protect the waist and hips, a vambrace the forearm, and a greave the lower leg."
     },
     {
       "subcategory": "Arm Protection",
@@ -648,10 +564,8 @@
         "faulds"
       ],
       "answer": "vambrace",
-      "explanation_correct": "A vambrace is the armor piece that protects the forearm. It often extends from the elbow toward the wrist.",
-      "explanation_incorrect": "A pauldron covers the shoulder, a greave covers the shin, and faulds protect the hips. None of those are forearm armor.",
-      "last_verified_at": "2026-06-12T14:41:01.318Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A vambrace is an armor defense for the forearm.",
+      "explanation_incorrect": "A pauldron covers the shoulder, a greave the lower leg, and faulds the waist and hips."
     },
     {
       "subcategory": "Leg Protection",
@@ -663,14 +577,12 @@
         "faulds"
       ],
       "answer": "greave",
-      "explanation_correct": "A greave is a piece of armor that protects the shin or lower leg. It is part of leg armor used in many historical armor sets.",
-      "explanation_incorrect": "A vambrace protects the forearm, a pauldron protects the shoulder, and faulds protect the hips. Those are different armor locations.",
-      "last_verified_at": "2026-06-12T14:41:01.319Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A greave protects the lower leg, including the shin.",
+      "explanation_incorrect": "A vambrace protects the forearm, a pauldron the shoulder, and faulds the waist and hips."
     },
     {
       "subcategory": "Japanese Weapons",
-      "question": "What is the Japanese staff weapon called?",
+      "question": "What is a long Japanese wooden staff commonly called?",
       "options": [
         "bo",
         "katana",
@@ -678,25 +590,21 @@
         "yari"
       ],
       "answer": "bo",
-      "explanation_correct": "A bō is a straight wooden staff used as a martial arts weapon. It is typically long and unbladed.",
-      "explanation_incorrect": "A katana is a sword, a naginata is a polearm with a blade, and a yari is a spear. They are different weapon types from a straight staff.",
-      "last_verified_at": "2026-06-12T14:41:01.319Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Bō is a Japanese term for a staff, commonly a long wooden martial-arts staff.",
+      "explanation_incorrect": "A katana is a sword, a naginata a bladed polearm, and a yari a spear."
     },
     {
       "subcategory": "Japanese Swords",
-      "question": "What is the name of the short Japanese sword?",
+      "question": "Which Japanese short sword is commonly paired with a katana in a daishō?",
       "options": [
         "wakizashi",
-        "katana",
-        "tanto",
-        "nodachi"
+        "tachi",
+        "nodachi",
+        "naginata"
       ],
       "answer": "wakizashi",
-      "explanation_correct": "A wakizashi is a short Japanese sword traditionally worn alongside a katana. It was commonly used as a companion blade.",
-      "explanation_incorrect": "A katana is longer, a tanto is usually a dagger, and a nodachi is a large field sword. Those are not the standard short sword.",
-      "last_verified_at": "2026-06-12T14:41:01.319Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A wakizashi is a Japanese short sword often paired with a katana; other historical long-and-short combinations existed.",
+      "explanation_incorrect": "Tantō are shorter daggers that can also form part of some sword pairings; the listed alternatives are other weapons."
     },
     {
       "subcategory": "European Swords",
@@ -708,29 +616,25 @@
         "falchion"
       ],
       "answer": "rapier",
-      "explanation_correct": "A rapier is a slender sword associated with thrusting attacks and civilian fencing. Its design emphasizes point work over heavy cutting.",
-      "explanation_incorrect": "A broadsword, sabre, and falchion are more strongly associated with cutting or slashing. They are not primarily thrusting swords.",
-      "last_verified_at": "2026-06-12T14:41:01.319Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A rapier is a slender European sword strongly associated with thrusting and civilian fencing, though many examples can also cut.",
+      "explanation_incorrect": "The other names describe sword categories commonly associated with different blade forms; individual examples vary."
     },
     {
       "subcategory": "Ancient Greek Weapons",
-      "question": "What is the Ancient Greek curved sword called?",
+      "question": "Which ancient Greek term is used for a forward-curving cutting sword?",
       "options": [
         "kopis",
-        "xiphos",
         "dory",
-        "makhaira"
+        "sarissa",
+        "aspis"
       ],
       "answer": "kopis",
-      "explanation_correct": "The kopis is an Ancient Greek sword known for its forward-curving blade. It was effective for powerful cutting strikes.",
-      "explanation_incorrect": "A xiphos is a straight sword, a dory is a spear, and makhaira is a broader category of cutting blade. Those do not match the specific Greek curved sword named here.",
-      "last_verified_at": "2026-06-12T14:41:01.319Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Kopis is a Greek term associated with a forward-curving cutting blade.",
+      "explanation_incorrect": "Makhaira is a broader Greek blade term that can overlap in usage; dory and sarissa are spears and aspis is a shield."
     },
     {
       "subcategory": "Polearms",
-      "question": "What is the name of a specialty spear designed to prevent a large animal from sliding up the shaft?",
+      "question": "Which hunting spear type is often shown with a crossbar behind the blade?",
       "options": [
         "boar spear",
         "javelin",
@@ -738,10 +642,8 @@
         "partisan"
       ],
       "answer": "boar spear",
-      "explanation_correct": "The cross-guards (lugs) on a boar spear prevented an injured animal from reaching the hunter.",
-      "explanation_incorrect": "Javelins are for throwing, while halberds and partisans are complex infantry weapons.",
-      "last_verified_at": "2026-06-12T14:43:04.426Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Some boar spears have a crossbar or lugs behind the spearhead, a feature associated with boar hunting.",
+      "explanation_incorrect": "Other polearms can also have projecting elements; the question refers to the hunting spear type."
     },
     {
       "subcategory": "Daggers",
@@ -753,14 +655,12 @@
         "bollock dagger"
       ],
       "answer": "dirk",
-      "explanation_correct": "The dirk is a long, traditional Scottish dagger associated with Highlanders.",
-      "explanation_incorrect": "Claymore is a type of sword, while the sgian-dubh is a small knife worn in the sock, and a bollock dagger is a different historical type.",
-      "last_verified_at": "2026-06-12T14:45:49.174Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A dirk is a long dagger strongly associated with Scottish Highland dress and history.",
+      "explanation_incorrect": "A claymore is a sword term, a sgian-dubh is a smaller knife, and a bollock dagger is another dagger type."
     },
     {
       "subcategory": "Armor Materials",
-      "question": "Which term refers to a hardened leather armor made by boiling and stiffening hides?",
+      "question": "What historical term refers to leather hardened for protective objects, including some armor?",
       "options": [
         "cuir bouilli",
         "brigandine",
@@ -768,70 +668,60 @@
         "buff coat"
       ],
       "answer": "cuir bouilli",
-      "explanation_correct": "Cuir bouilli is leather hardened by boiling or otherwise heat-treating it to make it stiff. It was used for armor and protective equipment.",
-      "explanation_incorrect": "The other options are different armor types or materials, not boiled hardened leather. They do not name that specific treatment-based leather armor.",
-      "last_verified_at": "2026-06-12T14:43:04.426Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
-    },
-    {
-      "subcategory": "Shields",
-      "question": "Which term names a small parrying shield used in close combat?",
-      "options": [
-        "buckler",
-        "targe",
-        "rondel",
-        "heater"
-      ],
-      "answer": "buckler",
-      "explanation_correct": "A buckler is a small, round shield held in the hand and used for parrying strikes.",
-      "explanation_incorrect": "A rondel is a dagger, while the targe and heater are types of larger shields.",
-      "last_verified_at": "2026-06-12T14:45:49.174Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Cuir bouilli literally means “boiled leather”, but historical hardening processes varied and did not necessarily involve boiling water.",
+      "explanation_incorrect": "Brigandine and lamellar describe plate constructions; buff coat is a different leather garment."
     },
     {
       "subcategory": "Helmet Types",
-      "question": "What is the name of a pointed, conical helmet popular in the 11th century?",
+      "question": "Which medieval helmet type has a wide brim and is also called a chapel-de-fer?",
       "options": [
-        "nasal helm",
-        "bascinet",
-        "sallet",
-        "great helm"
+        "kettle hat",
+        "gauntlet",
+        "greave",
+        "cuisse"
       ],
-      "answer": "nasal helm",
-      "explanation_correct": "Often seen in the Bayeux Tapestry, it features a single iron bar covering the nose.",
-      "explanation_incorrect": "Bascinets and sallets appeared much later in the 14th and 15th centuries.",
-      "last_verified_at": "2026-06-12T14:43:04.426Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "kettle hat",
+      "explanation_correct": "A kettle hat or chapel-de-fer is a brimmed helmet used in medieval Europe.",
+      "explanation_incorrect": "A gauntlet, greave and cuisse protect other parts of the body."
     },
     {
-      "subcategory": "Japanese Polearms",
-      "question": "Which early Japanese polearm is characterized as a simple straight-bladed, dual-edged spear?",
+      "subcategory": "Helmet Types",
+      "question": "What is a helmet with a projecting metal strip protecting the nose commonly called?",
       "options": [
-        "hoko",
+        "nasal helm",
+        "cuirass",
+        "greave",
+        "gauntlet"
+      ],
+      "answer": "nasal helm",
+      "explanation_correct": "A nasal helmet has a projecting guard over the nose; such helmets appear in the Bayeux Tapestry and elsewhere.",
+      "explanation_incorrect": "A cuirass protects the torso, a greave the lower leg, and a gauntlet the hand. Other helmet types can also have nasal guards."
+    },
+    {
+      "subcategory": "Japanese Swords",
+      "question": "Which Japanese sword was traditionally suspended with its cutting edge facing downward?",
+      "options": [
+        "tachi",
         "naginata",
         "yari",
-        "bisento"
+        "kabuto"
       ],
-      "answer": "hoko",
-      "explanation_correct": "The hoko was a heavy, straight, two-edged spear used in early Japanese history before the emergence of the single-edged yari.",
-      "explanation_incorrect": "The naginata and bisento are curved, sword-like polearms, while the yari is traditionally a single-edged spear.",
-      "last_verified_at": "2026-06-12T14:45:49.174Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "tachi",
+      "explanation_correct": "A tachi is a Japanese slung sword, traditionally suspended with its cutting edge facing down.",
+      "explanation_incorrect": "A naginata is a polearm, a yari is a spear, and kabuto is a helmet."
     },
     {
       "subcategory": "Chinese Weapons",
-      "question": "Which Chinese weapon is known by the name for a pair of hook swords?",
+      "question": "What does the Chinese term shuang gou commonly refer to?",
       "options": [
-        "shuang gou",
-        "guan dao",
-        "dao",
-        "jian"
+        "paired hook swords",
+        "a round shield",
+        "a helmet",
+        "a mail shirt"
       ],
-      "answer": "shuang gou",
-      "explanation_correct": "Shuang gou literally refers to paired hook swords used in Chinese martial traditions. The name identifies the hooked-blade weapon set.",
-      "explanation_incorrect": "The other options are Chinese weapons, but they are not hook swords. They belong to the same general category without matching the specific name.",
-      "last_verified_at": "2026-06-12T14:43:04.427Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "paired hook swords",
+      "explanation_correct": "Shuang gou is a term used for a pair of Chinese hook swords.",
+      "explanation_incorrect": "Guan dao, dao and jian are other Chinese weapon terms; the listed alternatives are defensive items."
     },
     {
       "subcategory": "Indian Weapons",
@@ -843,14 +733,12 @@
         "pata"
       ],
       "answer": "urumi",
-      "explanation_correct": "Urumi is a flexible, whip-like sword from India, usually made of steel. It is notable for its thin, bendable blade.",
-      "explanation_incorrect": "The other options are Indian swords or weapons, but they are not flexible whip-swords. They are different in form and use.",
-      "last_verified_at": "2026-06-12T14:43:04.427Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Urumi is a flexible-bladed sword associated particularly with traditions of southern India.",
+      "explanation_incorrect": "Khanda, talwar and pata denote other South Asian sword forms."
     },
     {
       "subcategory": "Sword Parts",
-      "question": "What is the hand-protecting crosspiece on a sword called?",
+      "question": "What is the name of the sword fitting between grip and blade that can help protect the hand?",
       "options": [
         "guard",
         "pommel",
@@ -858,10 +746,8 @@
         "ricasso"
       ],
       "answer": "guard",
-      "explanation_correct": "The guard is the crosspiece that protects the wielder's hand on a sword. It sits between the blade and the grip.",
-      "explanation_incorrect": "The other options are also sword parts, but they are not the crosspiece that protects the hand. They serve different structural roles.",
-      "last_verified_at": "2026-06-12T14:43:04.427Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A guard separates the grip from the blade and may protect the hand; guards have many shapes besides a simple cross.",
+      "explanation_incorrect": "The pommel is at the grip end; the blade and ricasso are other parts of the weapon."
     },
     {
       "subcategory": "Armor Parts",
@@ -873,14 +759,12 @@
         "vambrace"
       ],
       "answer": "cuisse",
-      "explanation_correct": "A cuisse is the armor piece that protects the thigh. It was commonly part of medieval and early modern plate armor.",
-      "explanation_incorrect": "The other options are armor components, but they protect different body parts. They are not the thigh plate.",
-      "last_verified_at": "2026-06-12T14:43:04.427Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A cuisse is a defense for the thigh, commonly part of a plate armor harness.",
+      "explanation_incorrect": "A greave covers the lower leg, a pauldron the shoulder, and a vambrace the forearm."
     },
     {
       "subcategory": "Siege Defense Weapons",
-      "question": "Which weapon was a long-handled wall hook used for capturing or controlling opponents?",
+      "question": "What name is given to a pole device with an open-ended head used to restrain a person?",
       "options": [
         "man catcher",
         "halberd",
@@ -888,10 +772,8 @@
         "poleaxe"
       ],
       "answer": "man catcher",
-      "explanation_correct": "A man catcher is a long-handled device with a hook or cage designed to seize a person. It was used for restraining rather than cutting or thrusting.",
-      "explanation_incorrect": "The other options are pole weapons, but they are not designed primarily as catching tools. They are different offensive or utility weapons.",
-      "last_verified_at": "2026-06-12T14:43:04.427Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A man catcher is a long-shafted restraining device known in several historical forms.",
+      "explanation_incorrect": "Halberds, billhooks and poleaxes are other pole weapons or tools, not names of the described restraining device."
     },
     {
       "subcategory": "Mesoamerican Weapons",
@@ -903,10 +785,8 @@
         "macehualtin"
       ],
       "answer": "macuahuitl",
-      "explanation_correct": "The macuahuitl is a Mesoamerican club edged with sharp obsidian blades. It was used as a cutting weapon in pre-Columbian warfare.",
-      "explanation_incorrect": "The other options are Mesoamerican terms or weapons, but they are not the obsidian-edged club. They refer to different weapon forms or unrelated words.",
-      "last_verified_at": "2026-06-12T14:43:04.427Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A macuahuitl was a Mesoamerican wooden weapon fitted with sharp obsidian edges.",
+      "explanation_incorrect": "An atlatl is a spear thrower; a tepoztopilli is a pole weapon, and macehualtin refers to commoners."
     },
     {
       "subcategory": "European Swords",
@@ -918,40 +798,34 @@
         "seax"
       ],
       "answer": "longsword",
-      "explanation_correct": "A longsword is a medieval European sword designed for versatile two-handed or hand-and-a-half use. It is distinct from shorter or more specialized blades.",
-      "explanation_incorrect": "The other options are different sword types or blade forms, not the standard medieval longsword. They do not match the same weapon category or form.",
-      "last_verified_at": "2026-06-12T14:43:04.428Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A longsword is a term for a European sword commonly used with two hands; terminology and forms vary by period.",
+      "explanation_incorrect": "Rapier, falchion and seax name other sword or blade forms."
     },
     {
-      "subcategory": "Japanese Swords",
-      "question": "Which Japanese short companion sword was commonly worn alongside a katana?",
+      "subcategory": "Japanese Armor",
+      "question": "Which Japanese armor term denotes a full-face mask?",
       "options": [
-        "tantō",
-        "wakizashi",
-        "naginata",
-        "odachi"
+        "sōmen",
+        "sode",
+        "kabuto",
+        "haidate"
       ],
-      "answer": "tantō",
-      "explanation_correct": "A tantō is a Japanese short blade, often used as a dagger or short companion weapon. It is shorter than a wakizashi and not a pole weapon or long sword.",
-      "explanation_incorrect": "The other options include a short sword, pole weapon, and greatsword-like blade. They are not the specific short companion sword named in the question.",
-      "last_verified_at": "2026-06-12T14:43:04.428Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "sōmen",
+      "explanation_correct": "Sōmen is a full-face mask; Japanese armor also included half masks such as menpō.",
+      "explanation_incorrect": "Sode are shoulder guards, kabuto is a helmet, and haidate protects the thighs."
     },
     {
       "subcategory": "Polearms",
-      "question": "Which Swiss-inspired polearm features a distinct combination of a hammer and a long spike?",
+      "question": "What is the name of a long European pole weapon associated with a hammer head and top spike and named after a Swiss city?",
       "options": [
         "lucerne hammer",
-        "glaive",
-        "partisan",
-        "bec de corbin"
+        "rapier",
+        "buckler",
+        "basinet"
       ],
       "answer": "lucerne hammer",
-      "explanation_correct": "Named after a Swiss city, this weapon was highly effective against plate armor.",
-      "explanation_incorrect": "The glaive and partisan are bladed weapons rather than hammers.",
-      "last_verified_at": "2026-06-12T14:43:04.428Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Lucerne hammer is a historical pole weapon whose head can combine a hammer and spike; forms and catalog terminology vary.",
+      "explanation_incorrect": "A bec de corbin is a related hammer or pole weapon, so weapon names should not be distinguished solely by the presence of a spike."
     },
     {
       "subcategory": "Blunt Weapons",
@@ -963,10 +837,8 @@
         "military flail"
       ],
       "answer": "goedendag",
-      "explanation_correct": "A goedendag is a medieval Flemish weapon combining a club-like shaft with a spike. It is closely associated with infantry use in the Low Countries.",
-      "explanation_incorrect": "The other options are blunt weapons too, but they are different forms and names. They are not the specific Flemish spiked club.",
-      "last_verified_at": "2026-06-12T14:43:04.428Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The goedendag is a club-like pole weapon with a spike, associated with medieval Flemish infantry.",
+      "explanation_incorrect": "Mace, morning star and flail describe other categories of striking weapons."
     },
     {
       "subcategory": "Axes",
@@ -978,25 +850,21 @@
         "francisca"
       ],
       "answer": "labrys",
-      "explanation_correct": "A labrys is a double-headed axe associated with ancient Crete and broader ancient symbolism. Its blades are typically shown in a crescent-like form.",
-      "explanation_incorrect": "The other options are axes, but they are different in style, size, or historical usage. They do not match the distinctive double-headed crescent form.",
-      "last_verified_at": "2026-06-12T14:43:04.428Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A labrys is a double-headed axe associated with ancient Crete and other ancient contexts.",
+      "explanation_incorrect": "The other options name different axe forms; double-headed axes occur in multiple cultures."
     },
     {
       "subcategory": "Spears",
-      "question": "Which Roman throwing spear was designed to bend after impact?",
+      "question": "What was the Roman heavy javelin commonly carried by infantry called?",
       "options": [
         "pilum",
-        "hasta",
-        "sagaris",
-        "angon"
+        "gladius",
+        "scutum",
+        "galea"
       ],
       "answer": "pilum",
-      "explanation_correct": "A pilum was a Roman heavy javelin intended to disable shields and often bend on impact. It was a standard Roman infantry missile weapon.",
-      "explanation_incorrect": "The other options are spears or spear-like weapons from different cultures or roles. They do not match the Roman heavy javelin described.",
-      "last_verified_at": "2026-06-12T14:43:04.428Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A pilum was a Roman heavy javelin; some examples bent on impact, though whether this was an intended feature is debated.",
+      "explanation_incorrect": "A gladius is a sword, a scutum a shield, and a galea a helmet."
     },
     {
       "subcategory": "Daggers",
@@ -1008,29 +876,25 @@
         "baselard"
       ],
       "answer": "ballock dagger",
-      "explanation_correct": "Popular across Europe from the 14th century, the name refers to the PH-shaped grip base.",
-      "explanation_incorrect": "The sgian-dubh and dirk are traditional Scottish items with different hilt constructions.",
-      "last_verified_at": "2026-06-12T14:43:04.429Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A ballock or bollock dagger has two rounded lobes at the base of its grip and was used in northern Europe over several centuries.",
+      "explanation_incorrect": "Sgian-dubh, dirk and baselard refer to other blade types or hilt forms."
     },
     {
       "subcategory": "Shields",
-      "question": "Which small round shield is associated with Italian Renaissance fencing?",
+      "question": "Which Italian term is used for a round shield, including examples made of steel in the Renaissance?",
       "options": [
         "rotella",
-        "buckler",
-        "targe",
-        "adarga"
+        "stiletto",
+        "rapier",
+        "bascinet"
       ],
       "answer": "rotella",
-      "explanation_correct": "A rotella is a small round shield used especially in Renaissance Italy. It is specifically associated with fencing and civilian sword-and-shield combat.",
-      "explanation_incorrect": "The other options are shields, but they are different shapes, sizes, or regional types. They do not match the small round Italian shield in the question.",
-      "last_verified_at": "2026-06-12T14:43:04.429Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A rotella is an Italian round shield; historical examples vary in size and use.",
+      "explanation_incorrect": "Bucklers and targes are also round shields, so roundness alone does not exclude them."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which helmet variant has a face opening shaped like a frog's mouth?",
+      "question": "Which helmet is associated with European jousting and has a projecting, frog-mouth-like shape?",
       "options": [
         "frog-mouth helm",
         "great helm",
@@ -1038,25 +902,21 @@
         "bascinet"
       ],
       "answer": "frog-mouth helm",
-      "explanation_correct": "A frog-mouth helm is a tournament-style helmet with a wide horizontal vision slit resembling a frog's mouth. It is a specific variant of the great helm.",
-      "explanation_incorrect": "The other options are helmets, but they are different forms and periods. They do not match the distinctive great-helm variant described.",
-      "last_verified_at": "2026-06-12T14:43:04.429Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A frog-mouth helm is a specialized jousting helmet with a projecting face and narrow vision opening.",
+      "explanation_incorrect": "Great helms, sallets and bascinets are other helmet types; terminology and construction vary."
     },
     {
       "subcategory": "Body Armor",
-      "question": "Which form of body protection consists of many small plates sewn or laced to a backing?",
+      "question": "What form of armor uses small overlapping scales attached to a backing?",
       "options": [
         "scale armor",
         "mail armor",
-        "lamellar armor",
-        "brigandine"
+        "helmet",
+        "greatsword"
       ],
       "answer": "scale armor",
-      "explanation_correct": "Scale armor consists of overlapping plates that resemble the skin of a fish or reptile.",
-      "explanation_incorrect": "Mail armor is made of interlocking rings, while brigandine is riveted under cloth.",
-      "last_verified_at": "2026-06-12T14:43:04.429Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Scale armor uses overlapping scales attached to a backing. Lamellar also uses small plates but typically laces them to one another.",
+      "explanation_incorrect": "Brigandine also uses plates on a backing, often riveted inside fabric; mail uses interlinked rings."
     },
     {
       "subcategory": "Arm Protection",
@@ -1068,44 +928,38 @@
         "cuisse"
       ],
       "answer": "rerebrace",
-      "explanation_correct": "A rerebrace is the armor worn over the upper arm, between the shoulder armor and the elbow defense. It is part of a plate harness.",
-      "explanation_incorrect": "The other options refer to different armor parts: vambrace for the forearm, cuirass for the torso, and cuisse for the thigh.",
-      "last_verified_at": "2026-06-12T14:43:04.429Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A rerebrace protects the upper arm between the shoulder and elbow defenses.",
+      "explanation_incorrect": "A vambrace protects the forearm, a cuirass the torso, and a cuisse the thigh."
     },
     {
       "subcategory": "Leg Protection",
-      "question": "What is the term for the plate armor piece specifically protecting the thigh?",
+      "question": "Which term describes a plate armor defense for the knee?",
       "options": [
-        "cuisse",
+        "poleyn",
         "greave",
         "gauntlet",
         "gorget"
       ],
-      "answer": "cuisse",
-      "explanation_correct": "The cuisse is the plate armor component that covers the thigh.",
-      "explanation_incorrect": "A greave protects the lower leg, a gauntlet the hand, and a gorget the neck.",
-      "last_verified_at": "2026-06-12T14:45:49.174Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "poleyn",
+      "explanation_correct": "A poleyn is a knee defense; examples could have articulated plates and a side wing.",
+      "explanation_incorrect": "Greaves cover the lower legs, gauntlets the hands, and gorgets the neck."
     },
     {
-      "subcategory": "Hand Weapons",
-      "question": "Which term describes a sword with a guard enclosing the hand like a cage?",
+      "subcategory": "Arm Protection",
+      "question": "What is the term for a plate armor defense protecting the elbow?",
       "options": [
-        "basket-hilt",
-        "langets",
-        "quillon",
-        "ricasso"
+        "couter",
+        "cuisse",
+        "greave",
+        "sallet"
       ],
-      "answer": "basket-hilt",
-      "explanation_correct": "A basket-hilt sword has a guard that surrounds and protects the wielder's hand. It is especially associated with certain European swords, such as Scottish broadswords.",
-      "explanation_incorrect": "The other options are sword parts or related fittings: langets, quillon, and ricasso are not the full guarded hilt.",
-      "last_verified_at": "2026-06-12T14:43:04.429Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "couter",
+      "explanation_correct": "A couter is an elbow defense; it could be articulated with other arm armor.",
+      "explanation_incorrect": "A cuisse protects the thigh, a greave the lower leg, and a sallet is a helmet."
     },
     {
       "subcategory": "Japanese Polearms",
-      "question": "Which Japanese pole weapon features a forked head used for restraining a person or horse?",
+      "question": "Which Japanese pole device has a forked head and was used to help restrain people?",
       "options": [
         "sasumata",
         "naginata",
@@ -1113,10 +967,8 @@
         "bisento"
       ],
       "answer": "sasumata",
-      "explanation_correct": "A sasumata is a Japanese pole weapon with a forked metal head. It was traditionally used to catch, pin, or control a target.",
-      "explanation_incorrect": "The other options are different Japanese pole weapons: a naginata is a curved-bladed polearm, a yari is a spear, and a bisento is a sword-like polearm.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A sasumata is a Japanese fork-headed pole implement used historically for restraint.",
+      "explanation_incorrect": "A naginata is a bladed polearm, and yari is a spear; bisentō denotes another bladed pole weapon."
     },
     {
       "subcategory": "Horse Armor",
@@ -1128,10 +980,8 @@
         "croupiere"
       ],
       "answer": "chanfron",
-      "explanation_correct": "A chanfron is the armored defense placed over a horse's head and face. It is part of medieval horse barding.",
-      "explanation_incorrect": "The other options protect different parts of the horse: crinet for the neck, peytral for the chest, and croupiere for the hindquarters.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A chanfron is the defense covering a horse’s head or face as part of horse armor.",
+      "explanation_incorrect": "A crinet protects the neck, a peytral the chest, and a crupper the hindquarters."
     },
     {
       "subcategory": "Japanese Swords",
@@ -1143,40 +993,34 @@
         "tachi"
       ],
       "answer": "shōtō",
-      "explanation_correct": "Shōtō means the shorter sword in the daishō pairing, typically paired with a katana. It contrasts with the longer blade in the set.",
-      "explanation_incorrect": "The other options are other sword types or lengths: uchigatana, nodachi, and tachi are not the specific term for the shorter companion blade.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Shōtō is a Japanese term for a short sword, in contrast to the longer sword in a daishō.",
+      "explanation_incorrect": "A wakizashi is often the short member of such a pair; the listed terms denote other sword types."
     },
     {
       "subcategory": "Polearms",
-      "question": "Which European polearm combines an axe blade, a spike, and a hook?",
+      "question": "Which European polearm is commonly fitted with an axe or hammer head and a top spike and associated with armored foot combat?",
       "options": [
         "pollaxe",
-        "halberd",
-        "partisan",
-        "glaive"
+        "rapier",
+        "buckler",
+        "stiletto"
       ],
       "answer": "pollaxe",
-      "explanation_correct": "A pollaxe is a polearm designed with multiple striking features, commonly including an axe blade, a spike, and a hook. It was used in infantry combat.",
-      "explanation_incorrect": "The other options are polearms too, but they do not specifically match this combination of axe, spike, and hook.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A pollaxe is a pole weapon with a head combining features such as an axe, hammer, beak or spike; historical examples vary.",
+      "explanation_incorrect": "Halberds can also combine an axe blade, point and hook, so that combination alone cannot distinguish them."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which term names the conical Norman helmet with a projecting nose guard?",
+      "question": "Which term is used for a curtain of mail attached to a bascinet to protect the neck?",
       "options": [
-        "nasal helm",
-        "great helm",
-        "barbute",
-        "sallet"
+        "camail",
+        "sabatons",
+        "cuisse",
+        "pommel"
       ],
-      "answer": "nasal helm",
-      "explanation_correct": "A nasal helm is a medieval helmet characterized by a nasal guard protecting the face. It is commonly associated with Norman-era equipment.",
-      "explanation_incorrect": "The other options are different helmet styles: great helm, barbute, and sallet do not specifically denote the Norman conical helmet with a nasal guard.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "camail",
+      "explanation_correct": "A camail or aventail is a mail defense hanging from a helmet to cover the neck and shoulders.",
+      "explanation_incorrect": "Sabatons cover feet, a cuisse covers a thigh, and a pommel is a hilt fitting."
     },
     {
       "subcategory": "Ancient Armor",
@@ -1188,70 +1032,60 @@
         "lorica plumata"
       ],
       "answer": "lorica segmentata",
-      "explanation_correct": "Lorica segmentata is the Roman body armor formed from segmented iron strips. It is one of the best-known types of Roman military armor.",
-      "explanation_incorrect": "The other options are different Roman armor types: hamata is mail, squamata is scale armor, and plumata combines scales with mail.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Lorica segmentata is a modern term for Roman body armor made from articulated metal strips.",
+      "explanation_incorrect": "Lorica hamata denotes mail, squamata scale armor, and plumata a form of feathered mail."
     },
     {
-      "subcategory": "Shields",
-      "question": "What is the term for a small, round shield held in a fist grip rather than worn on the arm?",
+      "subcategory": "Armor Materials",
+      "question": "What term refers to mail defenses worn over the legs in medieval Europe?",
       "options": [
-        "buckler",
-        "tower shield",
-        "scutum",
-        "target"
+        "chausses",
+        "gauntlets",
+        "gorget",
+        "pauldron"
       ],
-      "answer": "buckler",
-      "explanation_correct": "Measuring between 8 and 18 inches, the buckler was used more for active parrying than static blocking.",
-      "explanation_incorrect": "Tower shields and scutums are much larger and strapped to the forearm.",
-      "last_verified_at": "2026-06-12T14:43:04.430Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "chausses",
+      "explanation_correct": "Mail chausses were leg defenses worn by medieval mounted warriors.",
+      "explanation_incorrect": "Gauntlets, gorgets and pauldrons protect hands, neck and shoulders respectively."
     },
     {
       "subcategory": "Daggers",
-      "question": "Which historical dagger features a hilt with two rounded lobes, popularized in Northern Europe?",
+      "question": "What alternative name has sometimes been used for the historical bollock dagger?",
       "options": [
-        "bollock dagger",
-        "stiletto",
-        "dirk",
-        "seax"
+        "kidney dagger",
+        "Japanese tantō",
+        "Roman gladius",
+        "Scottish targe"
       ],
-      "answer": "bollock dagger",
-      "explanation_correct": "Known also as a kidney dagger to Victorian historians, it was a common sidearm for several centuries.",
-      "explanation_incorrect": "The stiletto was for piercing mail, while the seax was a single-edged Germanic blade.",
-      "last_verified_at": "2026-06-12T14:43:04.431Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "kidney dagger",
+      "explanation_correct": "“Kidney dagger” is a later euphemistic name for the dagger with two rounded lobes at the hilt.",
+      "explanation_incorrect": "Tantō is a Japanese dagger, gladius a Roman sword term, and targe a shield."
     },
     {
       "subcategory": "Blunt Weapons",
-      "question": "Which Japanese club-like weapon was studded with metal spikes?",
+      "question": "Which Japanese term can denote an iron or metal-reinforced staff or club?",
       "options": [
         "tetsubō",
-        "kanabō",
-        "nunchaku",
-        "kusarigama"
+        "naginata",
+        "yari",
+        "wakizashi"
       ],
       "answer": "tetsubō",
-      "explanation_correct": "The tetsubō is a Japanese club or staff weapon sometimes described as being reinforced or studded with metal. It is associated with heavy blunt-force use.",
-      "explanation_incorrect": "The other options are Japanese weapons too, but they are not the spiked club described in the blueprint.",
-      "last_verified_at": "2026-06-12T14:43:04.431Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tetsubō can refer to an iron or metal-reinforced club or staff; kanabō is a related term.",
+      "explanation_incorrect": "Kanabō and tetsubō can overlap, while naginata, yari and wakizashi refer to other weapons."
     },
     {
       "subcategory": "Swords",
-      "question": "Which curved single-edged sword is associated with the Ottoman world?",
+      "question": "Which sword name is especially associated with Ottoman Turkish curved sabres?",
       "options": [
         "kilij",
-        "scimitar",
-        "talwar",
-        "shamshir"
+        "rapier",
+        "gladius",
+        "wakizashi"
       ],
       "answer": "kilij",
-      "explanation_correct": "The kilij is a Turkish sword form linked to the Ottoman world. It is known for its distinct curved blade.",
-      "explanation_incorrect": "The other options are related curved swords, but they are not the specific Ottoman sword named in the blueprint.",
-      "last_verified_at": "2026-06-12T14:43:04.431Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Kilij is a term for a curved sword associated with Ottoman and other Turkish traditions.",
+      "explanation_incorrect": "Scimitar is a broad term that can include related curved swords; the listed alternatives come from other traditions."
     },
     {
       "subcategory": "Armor Components",
@@ -1263,14 +1097,12 @@
         "vambrace"
       ],
       "answer": "besagew",
-      "explanation_correct": "A besagew is a round plate worn to protect the armpit area in armor. It helps cover a vulnerable gap between defenses.",
-      "explanation_incorrect": "The other options are armor pieces, but they protect different parts of the body rather than the armpit gap.",
-      "last_verified_at": "2026-06-12T14:43:04.431Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A besagew is a protective disc associated with covering the armpit region in plate armor.",
+      "explanation_incorrect": "A pauldron covers the shoulder, a cuisse the thigh, and a vambrace the forearm."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which knightly helmet is characterized by a high, pointed dome and a flat-topped appearance?",
+      "question": "What is the common modern name for a great helm with a tall conical or pointed crown?",
       "options": [
         "sugarloaf helm",
         "bascinet",
@@ -1278,14 +1110,12 @@
         "sallet"
       ],
       "answer": "sugarloaf helm",
-      "explanation_correct": "It evolved from the cylindrical great helm but added a pointed top to deflect strikes.",
-      "explanation_incorrect": "The barbute and sallet are later styles with more contoured shapes.",
-      "last_verified_at": "2026-06-12T14:43:04.431Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "“Sugarloaf helm” is a modern descriptive term for a pointed form of great helm; surviving examples vary.",
+      "explanation_incorrect": "A pointed crown is not flat-topped; bascinet, barbute and sallet describe other helmet forms."
     },
     {
       "subcategory": "Ancient Greek Armor",
-      "question": "Which ancient Greek cuirass was bell-shaped and named for a body part?",
+      "question": "Which modern term names an ancient Greek bronze cuirass with a flared lower edge resembling a bell?",
       "options": [
         "bell cuirass",
         "linothorax",
@@ -1293,74 +1123,64 @@
         "thorax"
       ],
       "answer": "bell cuirass",
-      "explanation_correct": "The bell cuirass is an ancient Greek bronze breastplate with a bell-like lower shape. Its name refers to that distinctive form.",
-      "explanation_incorrect": "The other options are forms of ancient armor, but they are not the bell-shaped bronze cuirass specified in the blueprint.",
-      "last_verified_at": "2026-06-12T14:43:04.431Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "“Bell cuirass” describes the flared shape of a type of ancient Greek bronze body armor.",
+      "explanation_incorrect": "Linothorax refers to a different type of body armor; muscle cuirasses imitate an anatomical torso."
     },
     {
       "subcategory": "Polearms",
-      "question": "Which Japanese pole weapon has a straight spear-like blade and a crossbar?",
+      "question": "What is a Japanese spear with a main blade and two side blades arranged in a cross commonly called?",
       "options": [
         "jumonji yari",
-        "naginata",
-        "yari",
-        "hoko yari"
+        "katana",
+        "kabuto",
+        "wakizashi"
       ],
       "answer": "jumonji yari",
-      "explanation_correct": "The jumonji yari is a Japanese spear with a main blade and side crossbar blades. Its name refers to the cross-shaped arrangement.",
-      "explanation_incorrect": "The other options are Japanese polearms or spears, but they do not have the crossbar design of the jumonji yari.",
-      "last_verified_at": "2026-06-12T14:43:04.432Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Jūmonji-yari is a cross-shaped yari with a central blade and lateral projections.",
+      "explanation_incorrect": "A jūmonji-yari is itself a type of yari; katana, kabuto and wakizashi are swords or a helmet."
     },
     {
       "subcategory": "Shields",
-      "question": "What is the name for the massive infantry shields used to provide total-body coverage in battle?",
+      "question": "What broad modern term is used for a very large shield intended to protect much of the body?",
       "options": [
         "tower shield",
-        "aspis",
-        "buckler",
-        "pavise"
+        "gauntlet",
+        "greave",
+        "dagger"
       ],
       "answer": "tower shield",
-      "explanation_correct": "Tower shields, like the Roman scutum, offered maximum protection for organized rank-and-file units.",
-      "explanation_incorrect": "The pavise was usually a freestanding shield for archers, and the buckler is very small.",
-      "last_verified_at": "2026-06-12T14:43:04.432Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "“Tower shield” is a broad modern description for a large shield, not a single standardized historical type or a guarantee of total coverage.",
+      "explanation_incorrect": "A pavise can also be a large shield; gauntlet and greave are armor pieces, and a dagger is a blade."
     },
     {
       "subcategory": "Maces & Hammers",
-      "question": "Which horseman's war hammer has a rear spike?",
+      "question": "What French term means “crow’s beak” and is used for certain historical hammer-like weapons?",
       "options": [
         "bec de corbin",
-        "war pick",
-        "maul",
-        "lucerne hammer"
+        "rapier",
+        "buckler",
+        "cuisse"
       ],
       "answer": "bec de corbin",
-      "explanation_correct": "The bec de corbin is a medieval horseman's hammer with a beak-like rear spike. It was designed to concentrate force against armor.",
-      "explanation_incorrect": "The other options are blunt or piercing weapons, but they are not the specific horseman's hammer with a rear spike named here.",
-      "last_verified_at": "2026-06-12T14:43:04.432Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Bec de corbin literally means “crow’s beak” and is applied to certain beaked hammer or pole weapons; the exact historical usage varies.",
+      "explanation_incorrect": "A war pick and a Lucerne hammer may also have beak-like projections, so the rear spike alone is not diagnostic."
     },
     {
-      "subcategory": "Armor Materials",
-      "question": "Which armor material is made from interlinked metal rings?",
+      "subcategory": "Shields",
+      "question": "What was one purpose of painting identifying symbols on medieval shields?",
       "options": [
-        "mail",
-        "lamellar",
-        "scale armor",
-        "brigandine"
+        "To help distinguish combatants",
+        "To make the shield invisible",
+        "To replace the need for a grip",
+        "To turn the shield into a helmet"
       ],
-      "answer": "mail",
-      "explanation_correct": "Mail is armor made from many interlinked metal rings. It is also called chain mail in common usage.",
-      "explanation_incorrect": "The other options are armor types made in different ways, but they are not the ring-linked material described in the blueprint.",
-      "last_verified_at": "2026-06-12T14:43:04.433Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "To help distinguish combatants",
+      "explanation_correct": "Painted devices helped observers distinguish combatants whose faces could be hidden by helmets.",
+      "explanation_incorrect": "The painted devices did not make shields invisible or replace their handles."
     },
     {
       "subcategory": "Japanese swords",
-      "question": "Which term refers to the short companion sword in Japanese sword tradition?",
+      "question": "What Japanese term refers to a matched long-and-short sword pair?",
       "options": [
         "daishō",
         "katana",
@@ -1368,70 +1188,60 @@
         "tachi"
       ],
       "answer": "daishō",
-      "explanation_correct": "Daishō is the term for the paired long and short swords carried by samurai, with the shorter one serving as the companion blade. It is a specific historical term from Japanese sword culture.",
-      "explanation_incorrect": "The other options are individual Japanese sword types or a related pairing concept, but not the requested term. They do not name the short companion sword by that exact designation.",
-      "last_verified_at": "2026-06-12T14:43:04.433Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Daishō denotes a long-and-short sword pairing, often a katana with a wakizashi; the pair is not a single short sword.",
+      "explanation_incorrect": "Katana, wakizashi and tachi are names for individual swords."
     },
     {
       "subcategory": "Roman armor",
-      "question": "What is the name of the Roman muscle cuirass style?",
+      "question": "What is a muscle cuirass designed to imitate?",
       "options": [
-        "lorica musculata",
-        "lorica segmentata",
-        "lorica hamata",
-        "lorica plumata"
+        "An idealized human torso",
+        "A bird’s wing",
+        "A horse’s hoof",
+        "A fish tail"
       ],
-      "answer": "lorica musculata",
-      "explanation_correct": "Lorica musculata is the Roman cuirass modeled with an idealized muscular torso. It is the standard term for this decorative body armor style.",
-      "explanation_incorrect": "The other options are Roman armor types made from segments, mail, or feather-like scales. They are different constructions rather than the muscle cuirass style.",
-      "last_verified_at": "2026-06-12T14:43:04.433Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "An idealized human torso",
+      "explanation_correct": "A muscle cuirass is shaped to suggest the musculature of a human torso; forms were used in Greek and Roman contexts.",
+      "explanation_incorrect": "Segmented armor, mail and scale armor use different structural principles."
     },
     {
-      "subcategory": "Polearms",
-      "question": "Which term names the Japanese glaive-like weapon?",
+      "subcategory": "Japanese armor",
+      "question": "What Japanese armor term denotes a half-mask protecting the lower face?",
       "options": [
-        "bisentō",
-        "naginata",
-        "yari",
-        "kusarigama"
+        "menpō",
+        "sode",
+        "kabuto",
+        "haidate"
       ],
-      "answer": "bisentō",
-      "explanation_correct": "Bisentō is a Japanese polearm with a large blade, often described as glaive-like. It belongs to the family of bladed pole weapons.",
-      "explanation_incorrect": "The other options are related Japanese weapons, but they are not the same term. They refer to a spear, a standard glaive-like polearm, or a sickle-and-chain weapon.",
-      "last_verified_at": "2026-06-12T14:43:04.433Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "menpō",
+      "explanation_correct": "A menpō is a Japanese facial defense, typically covering the nose and face below the eyes.",
+      "explanation_incorrect": "Sode protect shoulders, kabuto is a helmet, and haidate protects thighs."
     },
     {
       "subcategory": "Helmets",
-      "question": "Which Ottoman conical helmet is called this?",
+      "question": "What is the name of the Ottoman helmet type with a high rounded or conical bowl and projecting nasal bar?",
       "options": [
         "çiçak",
-        "kulah",
-        "tophelm",
-        "sallet"
+        "rapier",
+        "buckler",
+        "cuisse"
       ],
       "answer": "çiçak",
-      "explanation_correct": "Çiçak is the Ottoman term for a conical helmet. It is a specific helmet form associated with Ottoman military equipment.",
-      "explanation_incorrect": "The other options are helmet names from different traditions or broader helmet types. They do not match the Ottoman conical helmet term.",
-      "last_verified_at": "2026-06-12T14:43:04.434Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Çiçak is a term used for a helmet associated with Ottoman military equipment; designs and transliterations vary.",
+      "explanation_incorrect": "Other Ottoman helmets also have conical forms; rapier, buckler and cuisse are different objects."
     },
     {
       "subcategory": "Daggers",
-      "question": "What is the term for the Scottish long dagger?",
+      "question": "What did the historical English word “dudgeon” refer to when describing some dagger handles?",
       "options": [
-        "dudgeon",
-        "dirk",
-        "sgian dubh",
-        "bollock dagger"
+        "Boxwood root",
+        "Whale bone",
+        "Obsidian",
+        "Cotton cloth"
       ],
-      "answer": "dudgeon",
-      "explanation_correct": "Dudgeon refers to a long Scottish dagger, especially one associated with the Scottish tradition of dagger forms. It is the exact term requested here.",
-      "explanation_incorrect": "The other options are dagger-related terms, but they do not specifically name the long Scottish dagger in the blueprint. They refer to different Scottish blades or dagger shapes.",
-      "last_verified_at": "2026-06-12T14:43:04.434Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Boxwood root",
+      "explanation_correct": "Dudgeon could denote boxwood root used for carved dagger handles; it should not be treated as a synonym for the Scottish dirk.",
+      "explanation_incorrect": "A dirk is a Scottish dagger, while dudgeon has a historical association with boxwood used for hilts."
     },
     {
       "subcategory": "Shields",
@@ -1443,10 +1253,8 @@
         "kraal"
       ],
       "answer": "isihlangu",
-      "explanation_correct": "Isihlangu is the large Zulu shield traditionally made from cowhide. It is the proper name for that specific shield type.",
-      "explanation_incorrect": "The other options are not shields of the same type: they are a club, a spear, or a settlement enclosure. None names the Zulu cowhide shield.",
-      "last_verified_at": "2026-06-12T14:43:04.434Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Isihlangu is a large shield associated with Zulu warriors and traditionally made of hide.",
+      "explanation_incorrect": "A knobkerrie is a club, an assegai is a spear term, and kraal is a settlement or enclosure."
     },
     {
       "subcategory": "Axes",
@@ -1458,25 +1266,21 @@
         "chakram"
       ],
       "answer": "tabar",
-      "explanation_correct": "Tabar is the term for an Indian battle axe. It is a historical weapon name used in South Asian contexts.",
-      "explanation_incorrect": "The other options are different Indian weapons or bladed implements, but not an axe. They refer to swords or a throwing weapon.",
-      "last_verified_at": "2026-06-12T14:43:04.434Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tabar is an axe term used across Persianate and South Asian contexts; it is not exclusive to India.",
+      "explanation_incorrect": "Khanda and talwar are sword terms; chakram is a throwing ring."
     },
     {
       "subcategory": "Medieval swords",
-      "question": "Which term refers to the single-edged falchion variant?",
+      "question": "Which German word means “knife” and is used for a class of single-edged weapons?",
       "options": [
         "messer",
-        "broadsword",
-        "cutlass",
-        "rapier"
+        "greave",
+        "gauntlet",
+        "pavise"
       ],
       "answer": "messer",
-      "explanation_correct": "Messer is a single-edged sword form often treated as a falchion-like medieval weapon. It is the requested variant name.",
-      "explanation_incorrect": "The other options are sword types, but they are not the specific single-edged falchion variant named in the blueprint. They represent different blade profiles and historical usages.",
-      "last_verified_at": "2026-06-12T14:43:04.435Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Messer literally means “knife” and is used for a range of single-edged weapons; the category overlaps with, but is not simply a variant of, the falchion.",
+      "explanation_incorrect": "Greave and gauntlet are armor pieces, and a pavise is a shield."
     },
     {
       "subcategory": "Japanese armor",
@@ -1488,25 +1292,21 @@
         "haidate"
       ],
       "answer": "sode",
-      "explanation_correct": "Sode are the large shoulder guards used in Japanese armor, often box-like in appearance. They protect the shoulders and upper arms.",
-      "explanation_incorrect": "The other options are Japanese armor pieces for the torso, arms, or thighs. They are not the shoulder armor component asked for here.",
-      "last_verified_at": "2026-06-12T14:43:04.435Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Sode are shoulder guards used in Japanese armor; their construction and size varied.",
+      "explanation_incorrect": "Dō protects the torso, kote the arms, and haidate the thighs."
     },
     {
       "subcategory": "Blunt weapons",
-      "question": "Which term refers to a knobbed wooden war club?",
+      "question": "What is a simple short, heavy wooden club commonly called?",
       "options": [
         "cudgel",
-        "mace",
-        "quarterstaff",
-        "flail"
+        "greave",
+        "rapier",
+        "pavise"
       ],
       "answer": "cudgel",
-      "explanation_correct": "A cudgel is a short, blunt wooden club, often with a knobbed striking end. It fits the description of a knobbed wooden war club.",
-      "explanation_incorrect": "The other options are blunt weapons or striking tools, but they are not the same as a simple knobbed wooden club. They differ in construction, length, or attachments.",
-      "last_verified_at": "2026-06-12T14:43:04.435Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A cudgel is a short, heavy club, usually made of wood; it is not necessarily fitted with a knob.",
+      "explanation_incorrect": "A greave is leg armor, a rapier a sword, and a pavise a shield."
     }
   ]
 }

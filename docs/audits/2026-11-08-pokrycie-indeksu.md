@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **152** pozycji ma raport deklarujący przegląd całości paczki.
+- **153** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **72** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **71** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -135,7 +135,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 112 | `medycyna_i_ludzkie_ciao_pl` | Medycyna i Ludzkie Ciało | [2026-11-08-medycyna-i-ludzkie-cialo-pl.md](2026-11-08-medycyna-i-ludzkie-cialo-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 105 pytań i opis, przenosząc sprawdzone poprawki z niemal identycznej osobnej paczki; obie nadal mają powtórzenia. |
 | 113 | `medycyna_i_psychologia_pl` | Medycyna i Psychologia | [2026-11-08-medycyna-i-psychologia-pl.md](2026-11-08-medycyna-i-psychologia-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, wszystkie opcje, oba wyjaśnienia i opis. Liczba pytań i opis pozostały bez zmian. W pierwszym przeglądzie zmieniono 62 pozycje: 1–5, 7–11, 16–17, 19, 21–26, 28–30,… |
 | 114 | `medycyna_ludzkie_cialo_pl` | Medycyna i Ludzkie Ciało | [2026-11-08-medycyna-ludzkie-cialo-pl.md](2026-11-08-medycyna-ludzkie-cialo-pl.md)<br>[2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | PEŁNY ODCZYT deklarowany. Przeczytano 105 pytań, warianty, klucze, oba wyjaśnienia i opis. W pierwszym przeglądzie poprawiono 80 rekordów: 2, 6, 8–25, 27–32, 34–37, 39–46, 48–49, 51, 53, 55–60, 62–63, 65–76, 78–80,… |
-| 115 | `melee_weapons_armor_en` | Melee Weapons & Armor | — | BRAK dedykowanego raportu merytorycznego. |
+| 115 | `melee_weapons_armor_en` | Melee Weapons & Armor | [2026-11-08-melee-weapons-armor-en.md](2026-11-08-melee-weapons-armor-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis; po przerwaniu pracy subagenta zapisane korekty uzupełniono, a wybrane twierdzenia potwierdzono w źródłach muzealnych. |
 | 116 | `might_and_magic_en` | Might and Magic | — | BRAK dedykowanego raportu merytorycznego. |
 | 117 | `militaria_bro_i_pojazdy_wojskowe_pl` | Militaria, broń i pojazdy wojskowe | — | BRAK dedykowanego raportu merytorycznego. |
 | 118 | `militaria_weapons_military_vehicles_en` | Militaria, Weapons & Military Vehicles | — | BRAK dedykowanego raportu merytorycznego. |
