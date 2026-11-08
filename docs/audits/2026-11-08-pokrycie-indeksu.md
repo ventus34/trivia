@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **169** pozycji ma raport deklarujący przegląd całości paczki.
+- **171** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **56** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **54** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -117,7 +117,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 94 | `kulinarny_szlak_przypraw_pl` | Kulinarny Szlak Przypraw | [2026-11-06-kulinarny-szlak-przypraw-pl.md](2026-11-06-kulinarny-szlak-przypraw-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień paczki `kulinarny_szlak_przypraw_pl` oraz jej opis. Zmieniono 88 rekordów: 1–6, 8–19, 21–28, 30–34, 36–41, 43–58, 61, 63, 65–67, 69–89, 91–96… |
 | 95 | `kultowe_marki_i_reklama_pl` | Kultowe Marki i Reklama | [2026-11-08-kultowe-marki-i-reklama-pl.md](2026-11-08-kultowe-marki-i-reklama-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-08. Przeczytano opis oraz wszystkie 100 pytań, wariantów, kluczy i obu wyjaśnień. Zmieniono wszystkie 100 rekordów, w tym poprawki redakcyjne i metadane. Liczba pytań i opis… |
 | 96 | `kultowe_zabawki_i_gry_pl` | Kultowe Zabawki i Gry | [2026-11-06-kultowe-zabawki-i-gry-pl.md](2026-11-06-kultowe-zabawki-i-gry-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `kultowe_zabawki_i_gry_pl`. Zmieniono 71 rekordów: 1–12, 14–15, 17–18, 20, 22, 25, 27–28, 30–36, 39–43, 45–48, 50–51, 53,… |
-| 97 | `kultura_gier_i_ciekawostki_pl` | Kultura Gier i Ciekawostki | [2026-11-05-kultura-gier-opis.md](2026-11-05-kultura-gier-opis.md) (opis/terminologia, bez audytu pytań) | BRAK audytu merytorycznego; raport dotyczy opisu i ujednolicenia terminu w podkategoriach. |
+| 97 | `kultura_gier_i_ciekawostki_pl` | Kultura Gier i Ciekawostki | [2026-11-08-kultura-gier-i-ciekawostki-pl.md](2026-11-08-kultura-gier-i-ciekawostki-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 68 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 98 | `kultura_i_folklor_lokalny_pl` | Kultura i Folklor Lokalny | [2026-11-06-kultura-i-folklor-lokalny-pl.md](2026-11-06-kultura-i-folklor-lokalny-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz komplet 100 pytań, odpowiedzi i wyjaśnień. Numery poniżej oznaczają kolejność pytań w pliku. Zmieniono opis i 81 pozycji: 1–15, 17–28, 31–40, 42–43, 45–55, 57, 59–61,… |
 | 99 | `kultura_otaku_pl` | Kultura Otaku | [2026-11-08-kultura-otaku-pl.md](2026-11-08-kultura-otaku-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 50 rekordów, wybrane tezy sprawdzono źródłowo. |
 | 100 | `ladami_historii_pl` | Śladami historii | [2026-11-08-ladami-historii-pl.md](2026-11-08-ladami-historii-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 45 rekordów; wybrane fakty sprawdzono źródłowo. |
@@ -140,7 +140,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 117 | `militaria_bro_i_pojazdy_wojskowe_pl` | Militaria, broń i pojazdy wojskowe | — | BRAK dedykowanego raportu merytorycznego. |
 | 118 | `militaria_weapons_military_vehicles_en` | Militaria, Weapons & Military Vehicles | — | BRAK dedykowanego raportu merytorycznego. |
 | 119 | `military_tech_crossovers_en` | Military Tech Crossovers | [2026-11-07-military-tech-crossovers-en.md](2026-11-07-military-tech-crossovers-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz komplet 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 81 pozycji: 1–5, 7, 9, 11–13, 15–21, 23, 25–29, 31–32, 34–47, 49, 51–55, 57, 59–61, 63–68, 70–75, 78–81, 83, 85–93… |
-| 120 | `mistrzowie_animacji_pl` | Mistrzowie Animacji | — | BRAK dedykowanego raportu merytorycznego. |
+| 120 | `mistrzowie_animacji_pl` | Mistrzowie Animacji | [2026-11-08-mistrzowie-animacji-pl.md](2026-11-08-mistrzowie-animacji-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 60 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 121 | `mitologia_egipska_pl` | Mitologia egipska | [2026-11-07-mitologia-egipska-pl.md](2026-11-07-mitologia-egipska-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 128 pytań, wszystkie opcje, odpowiedzi i oba wyjaśnienia oraz opis paczki. Liczba pytań i opis pozostały bez zmian. Zmieniono 71 pozycji: 2, 3, 8–10, 14, 19, 21–23, 25–26, 30,… |
 | 122 | `mitologia_nordycka_pl` | Mitologia nordycka | [2026-11-07-mitologia-nordycka-pl.md](2026-11-07-mitologia-nordycka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 59 rekordów: 1, 3, 7–8, 11–12, 14, 16–18, 20–23, 25, 27–31, 33, 35–36, 38–39, 44–45, 47, 50–51, 53–57, 60, 63–65, 70–72,… |
 | 123 | `mitologia_sowiaska_pl` | Mitologia słowiańska | [2026-11-07-mitologia-slowianska-pl.md](2026-11-07-mitologia-slowianska-pl.md) | PEŁNY ODCZYT deklarowany. Paczka zawiera 100 pytań; liczby nie zmieniono. Numery oznaczają kolejność w pliku, liczoną od 1. Opis paczki pozostawiono bez zmian. Usunięto metadane wcześniejszej weryfikacji całej… |

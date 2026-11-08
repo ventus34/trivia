@@ -2,10 +2,8 @@
   "id": "kultura_gier_i_ciekawostki_pl",
   "name": "Kultura Gier i Ciekawostki",
   "language": "pl",
-  "description": "Pytania z zakresu: Słynne błędy i Easter Eggi, Kulisy branży i tworzenia gier...",
+  "description": "Pytania o historię gier, twórców, e-sport, społeczności oraz sekrety i błędy w grach.",
   "created_at": "2026-06-12T15:20:12.154Z",
-  "last_verified_at": "2026-06-12T15:20:11.344Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
@@ -18,10 +16,8 @@
         "Warp Zone X"
       ],
       "answer": "Minus World (Świat -1)",
-      "explanation_correct": "Minus World (oficjalnie wyświetlany jako Świat -1) to zapętlony podwodny poziom, z którego nie ma wyjścia, stanowiący jeden z najsłynniejszych błędów w historii gier.",
-      "explanation_incorrect": "Level 256 dotyczy błędu w Pac-Manie, a pozostałe opcje są zmyślonymi nazwami.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Minus World to zapętlony poziom podwodny osiągany przez błąd w wersji na NES; wyświetlana nazwa przypomina World -1.",
+      "explanation_incorrect": "Level 256 dotyczy błędu w Pac-Manie, a pozostałe opcje są zmyślonymi nazwami."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -34,9 +30,7 @@
       ],
       "answer": "Krowi Poziom (Secret Cow Level)",
       "explanation_correct": "Plotka o krowim poziomie w Diablo I była tak popularna, że Blizzard stworzył go w Diablo II. Wejście otwiera się za pomocą Nogi Wirta i Księgi Portalu Miejskiego w Kostce Horadrimów.",
-      "explanation_incorrect": "Poziom z jednorożcami (Kaprysgrad) występuje w Diablo III, a leże rzeźnika i krypta to standardowe lokacje.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Poziom z jednorożcami występuje w Diablo III. Pozostałe nazwy nie są tytułem sekretnego poziomu krów w Diablo II."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -48,14 +42,12 @@
         "Okrągły talerz obiadowy"
       ],
       "answer": "Pizza z wyciętym jednym kawałkiem",
-      "explanation_correct": "Iwatani wpadł na pomysł postaci Pac-Mana w 1979 roku, gdy spojrzał na pizzę, z której zabrano jeden kawałek.",
-      "explanation_incorrect": "Pozostałe odpowiedzi to błędne teorie, które nie były wskazywane przez autora gry.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Iwatani opowiadał o pizzy z brakującym kawałkiem jako inspiracji; wskazywał także na uproszczony japoński znak oznaczający usta.",
+      "explanation_incorrect": "Pizza jest znaną anegdotą podawaną przez twórcę; nie jest jedynym wskazywanym źródłem inspiracji."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Jak w historii bijatyk określa się spektakularny moment z turnieju EVO 2004, w którym Daigo Uehara sparował wszystkie ciosy Chun-Li i wygrał rundę?",
+      "question": "Jak nazwano słynny moment turnieju EVO 2004, gdy Daigo Umehara sparował superatak Chun-Li i wygrał rundę?",
       "options": [
         "Evo Moment 37",
         "The Beast Parry",
@@ -63,10 +55,8 @@
         "Street Fighter Clash"
       ],
       "answer": "Evo Moment 37",
-      "explanation_correct": "Evo Moment 37 to legendarny moment w e-sporcie, w którym Daigo Uehara (grający Kenem) u skraju porażki sparował 15 uderzeń Chun-Li (sterowanej przez Justina Wonga).",
-      "explanation_incorrect": "Pozostałe nazwy są nieoficjalne lub zmyślone, choć Daigo jest znany jako 'The Beast'.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Evo Moment 37 Daigo Umehara, grając Kenem, sparował 15 uderzeń Chun-Li Justina Wonga i wyprowadził zwycięski kontratak.",
+      "explanation_incorrect": "Pozostałe nazwy są nieoficjalne lub zmyślone, choć Daigo jest znany jako 'The Beast'."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -93,29 +83,25 @@
         "Europa Universalis"
       ],
       "answer": "Civilization",
-      "explanation_correct": "Mit o 'Nuklearnym Gandhim' stał się tak popularny wśród fanów Civilization, że twórcy dodali tę cechę jako Easter Egg w nowszych częściach gry.",
-      "explanation_incorrect": "Choć inne serie mają swoje anegdoty, legenda o atomowej agresji pacyfistycznego przywódcy dotyczy wyłącznie serii Sid Meier's Civilization.",
-      "last_verified_at": "2026-06-12T15:15:28.515Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Legenda o przepełnieniu zmiennej w pierwszej Civilization została zakwestionowana przez Sida Meiera. Gandhi i broń jądrowa stały się później rozpoznawalnym żartem serii.",
+      "explanation_incorrect": "Choć inne serie mają swoje anegdoty, legenda o atomowej agresji pacyfistycznego przywódcy dotyczy wyłącznie serii Sid Meier's Civilization."
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
-      "question": "Jak nazywa się najdłużej ukazujący się w Polsce drukowany magazyn o grach wideo, wydawany od 1996 roku?",
+      "question": "W którym roku zadebiutował polski magazyn CD-Action?",
       "options": [
-        "CD-Action",
-        "Secret Service",
-        "Top Secret",
-        "Reset"
+        "1996",
+        "1990",
+        "2002",
+        "2010"
       ],
-      "answer": "CD-Action",
-      "explanation_correct": "CD-Action zadebiutował w kwietniu 1996 roku i jako jedyny z kultowych polskich magazynów z tamtego okresu przetrwał do dziś na rynku drukowanym.",
-      "explanation_incorrect": "Secret Service, Top Secret oraz Reset zostały zamknięte lub wychodzą nieregularnie jako projekty retro.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "1996",
+      "explanation_correct": "Pierwszy numer CD-Action ukazał się w kwietniu 1996 roku.",
+      "explanation_incorrect": "1996 to rok debiutu CD-Action."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Na jakiej znanej licencji komiksowej miała pierwotnie powstać gra Donkey Kong, zanim Shigeru Miyamoto zmuszony był stworzyć własne postacie?",
+      "question": "Które postacie komiksowe rozważano przy projektowaniu gry, z której powstał Donkey Kong?",
       "options": [
         "Popeye",
         "Myszka Miki",
@@ -123,10 +109,8 @@
         "Pac-Man"
       ],
       "answer": "Popeye",
-      "explanation_correct": "Nintendo planowało grę o Popeye'u, ale straciło prawa do postaci. Miyamoto zastąpił Popeye'a Jumpmanem (późniejszym Mario), Olive Oyl Pauline, a Bluto gorylem Donkey Kongiem.",
-      "explanation_incorrect": "Pozostałe licencje nie były rozważane na etapie przedprodukcyjnym gry Donkey Kong.",
-      "last_verified_at": "2026-06-12T15:15:22.471Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Shigeru Miyamoto mówił o pierwotnym pomyśle gry z Popeye’em; gdy nie dało się użyć tej postaci w tytule, powstały oryginalne postacie. Nie pamiętał dokładnego powodu zmiany.",
+      "explanation_incorrect": "Popeye jest licencją kojarzoną z wczesnymi planami Nintendo dotyczącymi Donkey Konga."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -138,10 +122,8 @@
         "NullPoke"
       ],
       "answer": "MissingNo.",
-      "explanation_correct": "MissingNo. (skrót od Missing Number) to forma zastępcza dla nieistniejącego pokemona, która po złapaniu mogła powielać przedmioty lub psuć zapis gry.",
-      "explanation_incorrect": "Mewthree to fanowska legenda, a Glitchon i NullPoke to zmyślone nazwy.",
-      "last_verified_at": "2026-06-12T15:15:22.472Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "MissingNo. (Missing Number) to zastępczy wpis dla nieprawidłowych danych Pokémonów. Spotkanie go może zmienić liczbę przedmiotów, a interakcje z nim mogą powodować inne zakłócenia.",
+      "explanation_incorrect": "Mewthree to fanowska legenda, a Glitchon i NullPoke to zmyślone nazwy."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -183,10 +165,8 @@
         "W wyniku błędu silnika renderującego cienie"
       ],
       "answer": "Aby zamaskować ograniczony dystans rysowania grafiki przez konsolę PS1",
-      "explanation_correct": "Ograniczenia sprzętowe PlayStation uniemożliwiały renderowanie otwartego miasta w pełnej rozdzielczości. Mgła ukrywała doczytywanie się obiektów (pop-in), potęgując uczucie klaustrofobii.",
-      "explanation_incorrect": "Pozostałe odpowiedzi to popularne mity. Wpływ Carpentera był istotny dla klimatu, ale decyzja o mgle była czysto techniczna.",
-      "last_verified_at": "2026-06-12T15:15:22.472Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mgła ograniczała widoczność dalekich obiektów na PlayStation, a zarazem współtworzyła atmosferę grozy.",
+      "explanation_incorrect": "Mgła pomagała ukryć ograniczenia dystansu rysowania; pasowała również do zamierzonego klimatu gry."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
@@ -198,10 +178,8 @@
         "Chovy"
       ],
       "answer": "Faker",
-      "explanation_correct": "Faker (reprezentujący drużynę T1) jest powszechnie uznawany za najlepszego gracza w historii League of Legends, słynącego z niesamowitego refleksu i taktycznego myślenia.",
-      "explanation_incorrect": "Ruler to strzelec (AD Carry), a ShowMaker i Chovy to inni wybitni koreańscy midlanerzy nowszej generacji.",
-      "last_verified_at": "2026-06-12T15:15:22.472Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Faker, czyli Lee Sang-hyeok, jest wielokrotnym mistrzem świata League of Legends i zawodnikiem znanym z występów w T1.",
+      "explanation_incorrect": "Ruler to strzelec (AD Carry), a ShowMaker i Chovy to inni wybitni koreańscy midlanerzy nowszej generacji."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -220,7 +198,7 @@
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Stworzenie którego kultowego przeciwnika w grze Minecraft było efektem błędu w kodzie podczas próby wymodelowania świni przez Notch'a?",
+      "question": "Który przeciwnik z Minecrafta powstał z nieudanego modelu świni stworzonego przez Notcha?",
       "options": [
         "Creeper",
         "Enderman",
@@ -228,10 +206,8 @@
         "Skeleton"
       ],
       "answer": "Creeper",
-      "explanation_correct": "Notch pomylił wysokość z szerokością trójwymiarowego modelu świni, co zaowocowało dziwną, wysoką i chudą postacią na czterech nóżkach. Notch dodał jej zieloną teksturę i zdolność wybuchania.",
-      "explanation_incorrect": "Enderman, Zombie Pigman i Szkielet były projektowane intencjonalnie od podstaw.",
-      "last_verified_at": "2026-06-12T15:15:22.472Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Markus Persson (Notch) opowiadał, że nietypowy model świni stał się punktem wyjścia do stworzenia creepera.",
+      "explanation_incorrect": "Enderman, Zombie Pigman i Szkielet były projektowane intencjonalnie od podstaw."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -259,24 +235,20 @@
       ],
       "answer": "Smuggler",
       "explanation_correct": "Smuggler to postać kultowa dla polskich czytelników prasy growej, znana z ciętego języka, ironicznego humoru oraz zaciekłej obrony swojej tożsamości.",
-      "explanation_incorrect": "Eld, Mac Abra i Qnik to pseudonimy innych, jawnych redaktorów magazynu CD-Action.",
-      "last_verified_at": "2026-06-12T15:15:22.473Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe pseudonimy należały do innych osób związanych z redakcją."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Dlaczego twórca gry Tetris, Aleksiej Pażytnow, przez pierwszych kilka lat od wydania gry nie otrzymywał z niej żadnych zysków (tantiem)?",
+      "question": "Dlaczego Aleksiej Pażytnow początkowo nie otrzymywał tantiem z zagranicznych licencji na Tetrisa?",
       "options": [
-        "Prawa autorskie należały do rządu Związku Radzieckiego",
-        "Gra została skradziona przez amerykańskie korporacje",
-        "Autor podpisał umowę zrzekającą się zysków",
-        "Tantiemy zablokowała amerykańska cenzura zimnowojenna"
+        "Prawami do komercyjnej eksploatacji zarządzały instytucje ZSRR",
+        "Nie istniała żadna wersja gry poza ZSRR",
+        "Gra była od początku własnością Nintendo",
+        "Gra nie odniosła sukcesu poza ZSRR"
       ],
-      "answer": "Prawa autorskie należały do rządu Związku Radzieckiego",
-      "explanation_correct": "Pażytnow stworzył grę pracując dla Akademii Nauk ZSRR, przez co prawa na mocy komunistycznego prawa należały do państwa reprezentowanego przez agencję ELORG.",
-      "explanation_incorrect": "Nintendo i inne firmy licencjonowały Tetris legalnie od rządu ZSRR, a Pażytnow odzyskał prawa dopiero w latach 90.",
-      "last_verified_at": "2026-06-12T15:15:22.473Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Prawami do komercyjnej eksploatacji zarządzały instytucje ZSRR",
+      "explanation_correct": "Pażytnow stworzył grę w radzieckiej instytucji naukowej, a jej zagraniczne licencjonowanie kontrolował państwowy ELORG. Dopiero w latach 90. zaczął zarabiać na prawach do Tetrisa.",
+      "explanation_incorrect": "Tetris odniósł międzynarodowy sukces, ale początkowo autor nie otrzymywał należności z zagranicznych licencji."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -289,9 +261,7 @@
       ],
       "answer": "Dark Souls",
       "explanation_correct": "Giantdad to zoptymalizowany pod PvP build postaci w grze Dark Souls (z maską Ojca i zbroją Olbrzyma), który stał się memem wyśmiewającym specyficzny styl gry.",
-      "explanation_incorrect": "Żadna z pozostałych gier nie posiada mechaniki ekwipunku pozwalającej na odtworzenie tego buildu ani nie jest źródłem tego memu.",
-      "last_verified_at": "2026-06-12T15:15:22.473Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe gry nie są źródłem memu Giantdad."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -318,29 +288,25 @@
         "Bisu"
       ],
       "answer": "BoxeR",
-      "explanation_correct": "Lim Yo-hwan, znany jako BoxeR, zrewolucjonizował mikrozarządzanie jednostkami Terran (zwłaszcza kroplami Marines i Medyków), czyniąc z pro-gamingu sport narodowy w Korei.",
-      "explanation_incorrect": "Flash to najwybitniejszy gracz SC2/BW ery późniejszej, Jaedong to mistrz rasy Zerg, a Bisu gra Protossami.",
-      "last_verified_at": "2026-06-12T15:15:22.473Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lim Yo-hwan, znany jako BoxeR, był wybitnym zawodnikiem StarCrafta, grającym Terranami i przyczyniającym się do popularności e-sportu w Korei.",
+      "explanation_incorrect": "Flash jest znany przede wszystkim z Brood War; Jaedong grał Zergami, a Bisu Protossami."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Jaki błąd dewelopera Toby'ego Garda doprowadził do powstania nienaturalnie dużego biustu Lary Croft w pierwszej części gry Tomb Raider z 1996 roku?",
+      "question": "Kto zaprojektował postać Lary Croft we wczesnym etapie prac nad pierwszym Tomb Raiderem?",
       "options": [
-        "Przypadkowe przesunięcie suwaka skali o 150% zamiast o 50%",
-        "Błąd konwersji modelu 3D z Amigi na PC",
-        "Żart innego programisty, który zamienił plik modelu",
-        "Ograniczenia wielokątów zmuszające do uproszczenia klatki piersiowej"
+        "Toby Gard",
+        "Shigeru Miyamoto",
+        "Sid Meier",
+        "Hideo Kojima"
       ],
-      "answer": "Przypadkowe przesunięcie suwaka skali o 150% zamiast o 50%",
-      "explanation_correct": "Toby Gard dostosowywał wymiary modelu Lary Croft w programie graficznym i przez przypadek przesunął skalę klatki piersiowej do 150%. Reszta zespołu deweloperskiego przekonała go, by tak zostawić.",
-      "explanation_incorrect": "Pozostałe odpowiedzi to nieprawdziwe teorie; zmiana była spowodowana bezpośrednio błędem suwaka skali.",
-      "last_verified_at": "2026-06-12T15:15:22.473Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Toby Gard",
+      "explanation_correct": "Toby Gard był projektantem Lary Croft. Historia o przypadkowym powiększeniu jej biustu wywodzi się z żartu i nie stanowi wiarygodnie potwierdzonego faktu.",
+      "explanation_incorrect": "Pozostali projektanci są znani z innych gier i serii."
     },
     {
       "subcategory": "Memy i wirale growe",
-      "question": "Z jakiej japońskiej gry zręcznościowej (Zero Wing) pochodzi kultowy błąd tłumaczeniowy: 'All your base are belong to us'?",
+      "question": "Z której gry pochodzi słynne błędnie przetłumaczone zdanie 'All your base are belong to us'?",
       "options": [
         "Zero Wing",
         "Contra",
@@ -349,9 +315,7 @@
       ],
       "answer": "Zero Wing",
       "explanation_correct": "Gra Zero Wing na konsolę Sega Mega Drive zawierała fatalne angielskie tłumaczenie w intrze kinowym, co na początku lat 2000. wywołało falę remiksów i animacji flashowych.",
-      "explanation_incorrect": "Contra, R-Type i Gradius to inne słynne strzelanki z tamtych lat, lecz ich tłumaczenia były poprawne.",
-      "last_verified_at": "2026-06-12T15:15:22.473Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe tytuły to inne gry, a wskazane zdanie pochodzi z angielskiej wersji Zero Wing."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -363,10 +327,8 @@
         "Zdecydowały o tym badania fokusowe przeprowadzone w USA"
       ],
       "answer": "Z powodu ograniczeń pikseli uniemożliwiających narysowanie ust i włosów",
-      "explanation_correct": "Przy rozdzielczości 8x8 pikseli na postać, narysowanie twarzy z ustami i realistycznych włosów w ruchu było niemożliwe. Czapka omijała animację włosów, a wąsy definiowały nos na twarzy.",
-      "explanation_incorrect": "Pozostałe przyczyny są zmyślone; decyzja wynikała wyłącznie z ograniczeń grafiki 8-bitowej.",
-      "last_verified_at": "2026-06-12T15:15:22.474Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przy niewielkich sprite’ach wąsy pomagały odróżnić twarz i nos, a czapka upraszczała przedstawienie włosów w ruchu.",
+      "explanation_incorrect": "Charakterystyczne detale pomagają czytelnie przedstawić postać przy niskiej rozdzielczości grafiki."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
@@ -379,13 +341,11 @@
       ],
       "answer": "Z Finlandii",
       "explanation_correct": "Serral, grający rasą Zerg, pochodzi z Finlandii. W 2018 roku zdominował scenę StarCrafta II, wygrywając turniej WCS Global Finals.",
-      "explanation_incorrect": "Szwecja, Niemcy i Kanada również mają świetnych graczy (jak Snute czy Scarlett), ale Serral pochodzi z Finlandii.",
-      "last_verified_at": "2026-06-12T15:15:22.474Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Serral pochodzi z Finlandii; kanadyjska zawodniczka Scarlett również gra w StarCrafta II."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
-      "question": "Który Easter Egg ukryli twórcy gry Wiedźmin 3: Dziki Gon w dodatku Krew i Wino na szczycie góry, dostępny tylko za pomocą kamery swobodnej na komputerach PC?",
+      "question": "Co przedstawia ukryte zdjęcie zespołu deweloperskiego, odnalezione poza dostępnym obszarem dodatku Krew i Wino do Wiedźmina 3?",
       "options": [
         "Zdjęcie grupowe zespołu deweloperskiego CD Projekt RED",
         "Model kartonowego dinozaura",
@@ -394,13 +354,11 @@
       ],
       "answer": "Zdjęcie grupowe zespołu deweloperskiego CD Projekt RED",
       "explanation_correct": "W dodatku Krew i Wino, na szczycie góry poza mapą (na którą Geralt nie może wejść), deweloperzy umieścili sztalugę ze zdjęciem grupowym pracowników studia.",
-      "explanation_incorrect": "Żadne inne modele ani teksty nie zostały tam umieszczone przez twórców.",
-      "last_verified_at": "2026-06-12T15:15:22.474Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zdjęcie przedstawia pracowników zespołu CD Projekt RED."
     },
     {
       "subcategory": "Memy i wirale growe",
-      "question": "Z jaką postacią niezależną (Solaire z Astory) powiązany jest słynny gest i okrzyk 'Chwalmy Słońce' (Praise the Sun) w serii Dark Souls?",
+      "question": "Z którą postacią Dark Souls gracze kojarzą okrzyk 'Praise the Sun'?",
       "options": [
         "Solaire z Astory (Solaire of Astora)",
         "Cebulowy Rycerz (Siegmeyer)",
@@ -408,10 +366,8 @@
         "Artorias"
       ],
       "answer": "Solaire z Astory (Solaire of Astora)",
-      "explanation_correct": "Solaire z Astory to przyjazny rycerz szukający własnego 'słońca', który uczy gracza gestu polegającego na wzniesieniu ramion do góry i staniu na palcach.",
-      "explanation_incorrect": "Siegmeyer (Cebulak) często drzemie i wzdycha, Patches to oszust zrzucający graczy w przepaść, a Artorias to tragiczny boss.",
-      "last_verified_at": "2026-06-12T15:15:22.474Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Solaire z Astory jest rycerzem czczącym słońce i jednym z najbardziej rozpoznawalnych bohaterów serii.",
+      "explanation_incorrect": "Siegmeyer (Cebulak) często drzemie i wzdycha, Patches to oszust zrzucający graczy w przepaść, a Artorias to tragiczny boss."
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
@@ -453,10 +409,8 @@
         "Black Screen of Death"
       ],
       "answer": "Czerwony Krąg Śmierci (Red Ring of Death)",
-      "explanation_correct": "RRoD (Red Ring of Death) oznaczał ogólny błąd sprzętowy konsoli Xbox 360, najczęściej wywołany pękaniem lutów pod procesorem z powodu przegrzania.",
-      "explanation_incorrect": "Error 74 to specyficzny podbłąd wideo, a pozostałe nazwy są nieoficjalne.",
-      "last_verified_at": "2026-06-12T15:15:22.474Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Red Ring of Death to potoczna nazwa sygnalizowanego czerwonymi diodami ogólnego błędu sprzętowego Xboxa 360. Przyczyny usterek mogły być różne.",
+      "explanation_incorrect": "Error 74 to specyficzny podbłąd wideo, a pozostałe nazwy są nieoficjalne."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
@@ -513,10 +467,8 @@
         "Tom Hall"
       ],
       "answer": "John Romero",
-      "explanation_correct": "Gracze korzystający z kodu przechodzenia przez ściany (idclip) mogą wejść do wnętrza głowy demona, gdzie znajduje się sprit głowy Johna Romero na palu. Strzelanie do niej zadaje obrażenia bossowi.",
-      "explanation_incorrect": "John Carmack był głównym programistą silnika, Adrian grafikiem, a Tom Hall projektantem poziomów, ale to głowa Romero została ukryta.",
-      "last_verified_at": "2026-06-12T15:15:22.475Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Za końcowym bossem ukryto głowę Johna Romero na palu; można ją zobaczyć po użyciu kodu przenikania przez ściany. Trafienie tego obiektu powoduje obrażenia bossa.",
+      "explanation_incorrect": "John Carmack był głównym programistą silnika, Adrian grafikiem, a Tom Hall projektantem poziomów, ale to głowa Romero została ukryta."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
@@ -528,10 +480,8 @@
         "DreamLeague"
       ],
       "answer": "The International",
-      "explanation_correct": "The International (TI) organizowany przez Valve gromadził pule nagród przekraczające 40 milionów dolarów dzięki temu, że 25% przychodów z Battle Passa trafiało do puli turniejowej.",
-      "explanation_incorrect": "Pozostałe turnieje mają stałe pule nagród fundowane przez organizatorów lub sponsorów.",
-      "last_verified_at": "2026-06-12T15:15:22.475Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pula The International 2021 przekroczyła 40 mln dolarów; 25% wpływów ze sprzedaży Battle Passa zasilało pulę.",
+      "explanation_incorrect": "Pozostałe turnieje są odrębnymi wydarzeniami i nie są turniejem The International."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -550,7 +500,7 @@
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
-      "question": "Które zwierzę (pies o imieniu Mira) okazuje się kontrolować wszystkie wydarzenia zza konsoli sterowniczej w słynnym żartobliwym zakończeniu gry Silent Hill 2?",
+      "question": "Jakie zwierzę siedzi przy pulpicie kontrolnym w żartobliwym zakończeniu Dog Ending w Silent Hill 2?",
       "options": [
         "Pies (Shiba Inu)",
         "Kot",
@@ -558,10 +508,8 @@
         "Obcy (Kosmita)"
       ],
       "answer": "Pies (Shiba Inu)",
-      "explanation_correct": "W zakończeniu 'Dog Ending' James otwiera drzwi kluczem psa i odkrywa psa rasy Shiba Inu o imieniu Mira, słuchającego wesołej muzyki przed pulpitem kontrolnym z ekranami.",
-      "explanation_incorrect": "Koty, małpy lub kosmiczni obcy nie są sprawcami tego konkretnego zakończenia, choć kosmici mają własne zakończenie UFO.",
-      "last_verified_at": "2026-06-12T15:15:22.475Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W żartobliwym Dog Ending James odkrywa psa Mirę przy pulpicie sterującym; jest to gag, nie wyjaśnienie całej fabuły.",
+      "explanation_incorrect": "Koty, małpy lub kosmiczni obcy nie są sprawcami tego konkretnego zakończenia, choć kosmici mają własne zakończenie UFO."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -580,7 +528,7 @@
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
-      "question": "Jak nazywały się największe w branży coroczne targi gier wideo odbywające się w Los Angeles, których organizacja została ostatecznie zakończona w 2023 roku?",
+      "question": "Jak nazywały się targi gier organizowane przez ESA, których zakończenie ogłoszono w 2023 roku?",
       "options": [
         "E3 (Electronic Entertainment Expo)",
         "Gamescom",
@@ -588,10 +536,8 @@
         "PAX"
       ],
       "answer": "E3 (Electronic Entertainment Expo)",
-      "explanation_correct": "Targi E3 były organizowane przez stowarzyszenie ESA od 1995 roku. Po pandemii i wycofaniu się gigantów branży, imprezę oficjalnie zamknięto pod koniec 2023 roku.",
-      "explanation_incorrect": "Gamescom odbywa się w Niemczech, Tokyo Game Show w Japonii, a PAX to seria festiwali dla graczy w USA i Australii.",
-      "last_verified_at": "2026-06-12T15:16:21.801Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "E3 organizowano od 1995 roku; ESA ogłosiła zakończenie wydarzenia w grudniu 2023 roku.",
+      "explanation_incorrect": "Gamescom odbywa się w Niemczech, Tokyo Game Show w Japonii, a PAX to seria festiwali dla graczy w USA i Australii."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -610,7 +556,7 @@
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Jak nazywała się postać z Tomb Raidera w pierwotnym zamyśle Toby'ego Garda, zanim zmieniono jej nazwisko i narodowość na brytyjską, by uniknąć problemów z prawami autorskimi?",
+      "question": "Jak nazywała się wczesna wersja bohaterki Tomb Raidera przed przyjęciem nazwiska Lara Croft?",
       "options": [
         "Laura Cruz (pochodzenia południowoamerykańskiego)",
         "Jane Vance (pochodzenia amerykańskiego)",
@@ -618,10 +564,8 @@
         "Lara Croft była od początku brytyjską arystokratką"
       ],
       "answer": "Laura Cruz (pochodzenia południowoamerykańskiego)",
-      "explanation_correct": "Bohaterka miała nazywać się Laura Cruz i być charyzmatyczną najemniczką z Ameryki Południowej. Studio Eidos nalegało jednak na bardziej brytyjski klimat, co zaowocowało wyborem nazwiska Croft z książki telefonicznej.",
-      "explanation_incorrect": "Pozostałe opcje są nieprawdziwe. Lara Croft przeszła metamorfozę z Laury Cruz.",
-      "last_verified_at": "2026-06-12T15:16:21.801Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "We wczesnym etapie projektowania bohaterka występowała jako Laura Cruz; później przyjęła nazwisko Lara Croft.",
+      "explanation_incorrect": "Pozostałe opcje są nieprawdziwe. Lara Croft przeszła metamorfozę z Laury Cruz."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -640,7 +584,7 @@
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
-      "question": "Która klasa postaci w kultowej sieciowej strzelance drużynowej została dodana do gry w wyniku błędu programistycznego, który błędnie nakładał kolory drużyny przeciwnej?",
+      "question": "Która klasa z Team Fortress potrafi przebierać się za członka drużyny przeciwnika?",
       "options": [
         "Szpieg (Spy)",
         "Skaut (Scout)",
@@ -648,14 +592,12 @@
         "Inżynier (Engineer)"
       ],
       "answer": "Szpieg (Spy)",
-      "explanation_correct": "W oryginalnym modzie Team Fortress do Quake'a błąd kodu czasami powodował, że gracz wyglądał dla wrogów jak sojusznik. Twórcy uznali tę mechanikę maskowania za genialną i stworzyli klasę Szpiega.",
-      "explanation_incorrect": "Pozostałe klasy były planowane i projektowane w tradycyjny sposób od początku prac nad modem.",
-      "last_verified_at": "2026-06-12T15:16:21.801Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szpieg (Spy) wykorzystuje przebrania i infiltrację; historia o powstaniu pomysłu z błędu koloru drużyny jest anegdotą.",
+      "explanation_incorrect": "Pozostałe klasy pełnią inne role w Team Fortress."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Jak brzmi pseudonim Jonathana Wendela, amerykańskiego mistrza gier takich jak Quake i Painkiller, uznawanego za pierwszą globalną gwiazdę e-sportu z własną marką sprzętu komputerowego?",
+      "question": "Jakiego pseudonimu używa Jonathan Wendel, zawodnik gier Quake i Painkiller?",
       "options": [
         "Fatal1ty",
         "Thresh",
@@ -663,29 +605,25 @@
         "Cooller"
       ],
       "answer": "Fatal1ty",
-      "explanation_correct": "Fatal1ty wygrał dziesiątki mistrzostw na przełomie lat 90. i 2000. Jako jeden z pierwszych podpisał wysokie kontrakty sponsorskie i wypuścił podzespoły ze swoim logo.",
-      "explanation_incorrect": "Thresh (Dennis Fong) to mistrz Quake'a I który wygrał Ferrari Carmacka, a Rapha i Cooller to mistrzowie późniejszych edycji Quake.",
-      "last_verified_at": "2026-06-12T15:16:21.801Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jonathan Wendel występował pod pseudonimem Fatal1ty i rozwijał również własną markę sprzętu.",
+      "explanation_incorrect": "Thresh (Dennis Fong) to mistrz Quake'a I który wygrał Ferrari Carmacka, a Rapha i Cooller to mistrzowie późniejszych edycji Quake."
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
-      "question": "Który słynny żart primaaprilisowy w polskiej prasie growej (zainicjowany przez CD-Action) wywołał falę pytań o solucję i kody do nieistniejącej, polskiej gry RPG 'Kajko i Kokosz'?",
+      "question": "Jak nazywa się polska gra przygodowa, której demo dołączono do CD-Action w latach 90.?",
       "options": [
-        "Recenzja nieistniejącej gry 'Kajko i Kokosz: W krainie borostworów'",
-        "Zapowiedź polskiego klona Fallouta",
-        "Płytka CD rzekomo zawierająca wersję demo gry Wiedźmin 1",
-        "Artykuł o darmowym rozdawnictwie konsol Pegasus"
+        "Kajko i Kokosz w krainie Borostworów",
+        "Wiedźmin 3: Dziki Gon",
+        "Cyberpunk 2077",
+        "Gothic 3"
       ],
-      "answer": "Recenzja nieistniejącej gry 'Kajko i Kokosz: W krainie borostworów'",
-      "explanation_correct": "W kwietniu 1999 roku CD-Action opublikowało obszerny test-żart nieistniejącego erpega. Czytelnicy dzwonili do redakcji z pretensjami, że gra nigdzie nie jest dostępna w sprzedaży.",
-      "explanation_incorrect": "Pozostałe żarty nie miały takiej skali oddziaływania i nie dotyczyły Kajka i Kokosza.",
-      "last_verified_at": "2026-06-12T15:16:21.801Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kajko i Kokosz w krainie Borostworów",
+      "explanation_correct": "Kajko i Kokosz w krainie Borostworów to rzeczywiście wydana gra przygodowa, której wersja demonstracyjna trafiła na płytę CD-Action.",
+      "explanation_incorrect": "Pozostałe tytuły powstały później i nie są wskazaną grą przygodową z lat 90."
     },
     {
       "subcategory": "Memy i wirale growe",
-      "question": "Jakie kultowe danie z kurczaka wspomina Leeroy Jenkins pod koniec legendarnego nagrania po tym, jak zginęła cała jego drużyna?",
+      "question": "Jakie słowa o kurczaku wypowiada Leeroy Jenkins na końcu słynnego nagrania?",
       "options": [
         "Przynajmniej mam kurczaka (At least I have chicken)",
         "Przynajmniej zjadłem obiad",
@@ -693,14 +631,12 @@
         "KFC było lepsze"
       ],
       "answer": "Przynajmniej mam kurczaka (At least I have chicken)",
-      "explanation_correct": "Wypowiadane ze spokojem zdanie 'At least I have chicken' (pl. Przynajmniej mam kurczaka) to puenta całego wideo, nagrana gdy Leeroy wraca do komputera po zrobieniu przekąski.",
-      "explanation_incorrect": "Wypowiedź nie odnosiła się do marki KFC ani innych wersji posiłków.",
-      "last_verified_at": "2026-06-12T15:16:21.801Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Puenta nagrania brzmi 'At least I have chicken' (Przynajmniej mam kurczaka).",
+      "explanation_incorrect": "Wypowiedź nie odnosiła się do marki KFC ani innych wersji posiłków."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Kto był głównym projektantem balansu w grze StarCraft: Brood War, odpowiedzialnym za niemal idealną asymetryczną równowagę trzech ras?",
+      "question": "Który projektant był głównym projektantem dodatku StarCraft: Brood War?",
       "options": [
         "Dustin Browder",
         "Rob Pardo",
@@ -708,10 +644,8 @@
         "Chris Metzen"
       ],
       "answer": "Rob Pardo",
-      "explanation_correct": "Rob Pardo kierował pracami nad balansem jednostek w dodatku Brood War, wprowadzając poprawki, które uczyniły z gry standard e-sportu na ponad dekadę.",
-      "explanation_incorrect": "Dustin Browder projektował StarCrafta II, David Kim balansował późniejsze sezony SC2, a Chris Metzen odpowiadał za fabułę i lore.",
-      "last_verified_at": "2026-06-12T15:16:21.802Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rob Pardo był głównym projektantem dodatku StarCraft: Brood War; nad produkcją i balansem pracował cały zespół.",
+      "explanation_incorrect": "Dustin Browder projektował StarCrafta II, David Kim balansował późniejsze sezony SC2, a Chris Metzen odpowiadał za fabułę i lore."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -760,7 +694,7 @@
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
-      "question": "Który przywódca w serii gier strategicznych Civilization stał się symbolem nuklearnej zagłady z powodu błędu programistycznego z pierwszej części?",
+      "question": "Którego przywódcy dotyczy obalona opowieść o przepełnieniu zmiennej agresji w pierwszej grze Civilization?",
       "options": [
         "Mahatma Gandhi",
         "Napoleon Bonaparte",
@@ -768,10 +702,8 @@
         "Juliusz Cezar"
       ],
       "answer": "Mahatma Gandhi",
-      "explanation_correct": "Mahatma Gandhi, znany z pokojowego aktywizmu, w grze Civilization z powodu błędu przepełnienia zmiennej zyskiwał maksymalny poziom agresji i bez wahania wypowiadał wojny nuklearne.",
-      "explanation_incorrect": "Pozostali przywódcy mieli wysoki współczynnik agresji ustawiony intencjonalnie i nie byli powiązani z tym błędem.",
-      "last_verified_at": "2026-06-12T15:16:21.802Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Według Sida Meiera historia o błędzie zwiększającym agresję Gandhiego jest mitem. Nuklearny Gandhi stał się jednak znanym żartem o serii.",
+      "explanation_incorrect": "Legenda o rzekomym błędzie dotyczy Gandhiego, nie pozostałych przywódców."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -784,13 +716,11 @@
       ],
       "answer": "Odciążenie procesora pozwalało na szybsze renderowanie pozostałych obiektów",
       "explanation_correct": "Tohru Nishikado stworzył grę na autorskim sprzęcie. Procesor nie radził sobie z płynnym ruchem pełnej grupy obcych. Gdy ich liczba malała, procesor szybciej renderował grafikę. Nishikado uznał to za świetną mechanikę i nie zmienił jej.",
-      "explanation_incorrect": "Szybszy ruch nie był zaprogramowany celowo; wynikał z naturalnego działania procesora pod mniejszym obciążeniem.",
-      "last_verified_at": "2026-06-12T15:16:21.802Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Przyspieszanie wiązało się z mniejszą liczbą obiektów do przetworzenia; zostało zachowane jako element rozgrywki."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Która stacja telewizyjna w Korei Południowej (jako pierwsza na świecie) zaczęła nadawać dedykowane programy i ligi z gry StarCraft w 2000 roku?",
+      "question": "Który koreański kanał był znany z transmisji ligi StarCraft o nazwie OnGameNet Starleague?",
       "options": [
         "OnGameNet (OGN)",
         "MBCGame",
@@ -798,10 +728,8 @@
         "KBS World"
       ],
       "answer": "OnGameNet (OGN)",
-      "explanation_correct": "OnGameNet (OGN) uruchomiło słynne rozgrywki Starleague (OSL), tworząc z e-sportu widowisko telewizyjne na żywo z udziałem tysięcy fanów w studiach.",
-      "explanation_incorrect": "MBCGame powstała nieco później, SBS Sports nadawało tradycyjny sport, a KBS World to ogólny kanał informacyjny.",
-      "last_verified_at": "2026-06-12T15:16:21.802Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "OnGameNet, później znany jako OGN, transmitował rozgrywki OnGameNet Starleague.",
+      "explanation_incorrect": "Pozostałe stacje nie były organizatorem ligi OnGameNet Starleague."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -813,10 +741,8 @@
         "NES"
       ],
       "answer": "Sega Mega Drive (Genesis)",
-      "explanation_correct": "Oryginalna wersja arcade z 1989 roku nie miała mówionego intra. Zostało ono dodane w porcie na konsolę Sega Mega Drive w 1991 roku w Europie.",
-      "explanation_incorrect": "Wersje na SNES i NES nie istniały, a wersja na PC Engine CD miała inne intro z dubbingiem japońskim.",
-      "last_verified_at": "2026-06-12T15:16:21.803Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Europejskie wydanie Zero Wing na Sega Mega Drive zawierało angielski tekst w introdukcji, który stał się podstawą memu.",
+      "explanation_incorrect": "Wersje na SNES i NES nie istniały, a wersja na PC Engine CD miała inne intro z dubbingiem japońskim."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -843,14 +769,12 @@
         "Broken Maze"
       ],
       "answer": "Split Screen / Poziom 256",
-      "explanation_correct": "Poziom 256 (Split Screen) powstaje, ponieważ 8-bitowy licznik poziomów ulega przepełnieniu przy próbie załadowania 256. planszy, co powoduje zniekształcenie obrazu i brak owoców niezbędnych do ukończenia poziomu.",
-      "explanation_incorrect": "Pozostałe pojęcia nie określają tego legendarnego błędu na automatach z Pac-Manem.",
-      "last_verified_at": "2026-06-12T15:16:21.803Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Poziom 256 powoduje uszkodzenie prawej części planszy; gracz nie może zebrać wymaganych kropek, by normalnie ją ukończyć.",
+      "explanation_incorrect": "Pozostałe pojęcia nie określają tego legendarnego błędu na automatach z Pac-Manem."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Przeciwko któremu koreańskiemu graczowi (pseudonim Ryu) Faker wykonał legendarną akcję pojedynku 'Zed vs Zed' w finale ligi OGN w 2013 roku?",
+      "question": "Z którym graczem Faker stoczył słynny pojedynek 'Zed vs Zed' w 2013 roku?",
       "options": [
         "Ryu (Yoo Sang-wook)",
         "Crown",
@@ -858,10 +782,8 @@
         "Pawn"
       ],
       "answer": "Ryu (Yoo Sang-wook)",
-      "explanation_correct": "Pojedynek Zeda Fakera u skraju życia przeciwko pełnemu zdrowia Zedowi Ryu (KT Rolster Bullets) jest uznawany za najbardziej kultowe zagranie w historii e-sportowego League of Legends.",
-      "explanation_incorrect": "Crown, Ambition i Pawn to inni znani mistrzowie League of Legends, ale to nie oni brali udział w tym starciu.",
-      "last_verified_at": "2026-06-12T15:16:21.803Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Faker grał Zedem przeciwko Zedowi Ryu (Yoo Sang-wook) w meczu finałowym OGN w 2013 roku.",
+      "explanation_incorrect": "Crown, Ambition i Pawn to inni znani mistrzowie League of Legends, ale to nie oni brali udział w tym starciu."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -880,7 +802,7 @@
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Który holenderski dystrybutor gier (Henk Rogers) odegrał kluczową rolę w zabezpieczeniu praw do Tetrisa dla konsoli Game Boy, podróżując potajemnie do Moskwy w 1989 roku?",
+      "question": "Kto negocjował z radzieckim ELORG prawa do Tetrisa, pomagając zdobyć licencję dla Game Boya?",
       "options": [
         "Henk Rogers",
         "Alexey Pajitnov",
@@ -888,10 +810,8 @@
         "Howard Lincoln"
       ],
       "answer": "Henk Rogers",
-      "explanation_correct": "Henk Rogers udał się do Moskwy bez wizy rządowej, by osobiście negocjować z ELORG. Tam zaprzyjaźnił się z Aleksiejem Pażytnowem i wynegocjował kontrakt na dołączanie Tetrisa do każdego Game Boya.",
-      "explanation_incorrect": "Aleksiej był twórcą gry, Robert Stein reprezentował firmę Mirrorsoft i próbował przejąć prawa, a Howard Lincoln był prawnikiem Nintendo.",
-      "last_verified_at": "2026-06-12T15:16:21.803Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Henk Rogers pojechał do Moskwy w 1989 roku i negocjował prawa do Tetrisa dla konsol Nintendo; zaprzyjaźnił się też z Aleksiejem Pażytnowem.",
+      "explanation_incorrect": "Pażytnow stworzył grę, Robert Stein uczestniczył w innych negocjacjach licencyjnych, a Howard Lincoln był przedstawicielem Nintendo."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -903,14 +823,12 @@
         "Zostanie ojcem"
       ],
       "answer": "Ślub / Ożenek",
-      "explanation_correct": "Według internetowej miejskiej legendy, 'oberwanie strzałą w kolano' miało być dawnym nordyckim określeniem na uklęknięcie przed kobietą i oświadczyny (ślub). Twórcy gry ze studia Bethesda zaprzeczyli temu, wyjaśniając, że to po prostu dosłowne zdanie o kontuzji.",
-      "explanation_incorrect": "Teorie o pasowaniu, więzieniu czy ojcostwie nie zyskały takiej popularności w dyskusjach o lore Skyrim.",
-      "last_verified_at": "2026-06-12T15:16:21.803Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Internetowa teoria głosiła, że strzała w kolano oznacza małżeństwo; nie ma podstaw, by traktować ją jako potwierdzone dawne nordyckie powiedzenie.",
+      "explanation_incorrect": "Teorie o pasowaniu, więzieniu czy ojcostwie nie zyskały takiej popularności w dyskusjach o lore Skyrim."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Jak nazywa się największy na świecie charytatywny maraton speedrunningowy, organizowany dwa razy w roku pod szyldami 'Awesome' i 'Summer'?",
+      "question": "Jak nazywa się cykl charytatywnych maratonów speedrunningowych obejmujący Awesome Games Done Quick i Summer Games Done Quick?",
       "options": [
         "Games Done Quick (GDQ)",
         "Speedrun Expo",
@@ -919,9 +837,7 @@
       ],
       "answer": "Games Done Quick (GDQ)",
       "explanation_correct": "Games Done Quick (GDQ) gromadzi graczy z całego świata przechodzących gry na czas na żywo, zbierając miliony dolarów na fundacje takie jak Prevent Cancer Foundation czy Lekarze bez Granic.",
-      "explanation_incorrect": "ESA to europejski odpowiednik wydarzenia, a pozostałe nazwy nie dotyczą tego konkretnego maratonu.",
-      "last_verified_at": "2026-06-12T15:16:21.803Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "ESA to europejski odpowiednik wydarzenia, a pozostałe nazwy nie dotyczą tego konkretnego maratonu."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -948,10 +864,8 @@
         "UFO"
       ],
       "answer": "Odrodzenie (Rebirth)",
-      "explanation_correct": "Zakończenie 'Odrodzenie' (Rebirth) wymaga zebrania m.in. Białego Chryzanteum i Księgi Wspomnień, po czym James płynie łodzią z ciałem żony na wyspę, by odprawić rytuał starożytnych bogów.",
-      "explanation_incorrect": "In Water i Leave to standardowe zakończenia psychologiczne gry, a UFO to tradycyjny żart science-fiction.",
-      "last_verified_at": "2026-06-12T15:16:21.804Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W oryginalnej grze Rebirth wymaga czterech przedmiotów; w zakończeniu James płynie łodzią z ciałem Mary i mówi o rytuale.",
+      "explanation_incorrect": "In Water i Leave są innymi zakończeniami, a UFO jest żartobliwym zakończeniem."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
@@ -1000,18 +914,16 @@
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Jaką barwę ma charakterystyczna mgła spowijająca miasteczko w grze Silent Hill 2, co miało odróżniać ją od mgły z pierwszej części gry?",
+      "question": "Jak nazywa się bohater Silent Hill 2, który przyjeżdża do miasteczka po otrzymaniu listu od Mary?",
       "options": [
-        "Lekko żółtawa/mleczna (Off-white/Yellowish)",
-        "Czarna",
-        "Czerwona",
-        "Niebieska"
+        "James Sunderland",
+        "Harry Mason",
+        "Leon Kennedy",
+        "Alan Wake"
       ],
-      "answer": "Lekko żółtawa/mleczna (Off-white/Yellowish)",
-      "explanation_correct": "Deweloperzy z Team Silent nadali mgle w Silent Hill 2 lekko żółtawy, organiczny odcień (przypominający stary papier lub smog), aby wywołać podświadomy niepokój i odróżnić ją od czystej szarości z PS1.",
-      "explanation_incorrect": "Mgła nie była czarna ani niebieska, a czerwona pojawia się tylko w specyficznych lokacjach 'innego świata' (Otherworld).",
-      "last_verified_at": "2026-06-12T15:16:21.804Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "James Sunderland",
+      "explanation_correct": "James Sunderland przybywa do Silent Hill po otrzymaniu listu od żony Mary.",
+      "explanation_incorrect": "Harry Mason jest bohaterem pierwszego Silent Hill, a pozostali bohaterowie pochodzą z innych serii."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -1024,24 +936,20 @@
       ],
       "answer": "Intel 8080",
       "explanation_correct": "Automat ze Space Invaders korzystał z 8-bitowego procesora Intel 8080 taktowanego zegarem 2 MHz, co ograniczało możliwości jednoczesnego ruchu i dźwięku.",
-      "explanation_incorrect": "MOS 6502 napędzał NES i Apple II, Z80 był używany w Pac-Manie, a Motorola 68000 to procesor 16-bitowy (np. Sega Genesis).",
-      "last_verified_at": "2026-06-12T15:16:21.804Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "MOS 6502 jest spokrewniony z procesorem NES i był używany w Apple II; Pac-Man używał Z80, a Sega Genesis procesora Motorola 68000."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Którą profesjonalną koreańską organizację e-sportową założył BoxeR w 2004 roku, do dziś pozostającą gigantem sceny LoL i StarCraft?",
+      "question": "Której drużyny StarCrafta członkiem był BoxeR przed przejęciem sponsora SK Telecom i powstaniem nazwy SK Telecom T1?",
       "options": [
-        "SK Telecom T1 (T1)",
+        "Orion",
         "KT Rolster",
         "Samsung Galaxy",
         "CJ Entus"
       ],
-      "answer": "SK Telecom T1 (T1)",
-      "explanation_correct": "BoxeR założył zespół Orion (później sponsorowany przez SK Telecom i przemianowany na SKT T1), którego członkiem stał się m.in. Faker.",
-      "explanation_incorrect": "KT Rolster to odwieczny rywal T1, a Samsung Galaxy i CJ Entus to inne zasłużone, lecz zlikwidowane lub przekształcone kluby.",
-      "last_verified_at": "2026-06-12T15:16:21.805Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Orion",
+      "explanation_correct": "BoxeR był związany z drużyną Orion, która po uzyskaniu sponsora SK Telecom przyjęła nazwę SK Telecom T1.",
+      "explanation_incorrect": "Pozostałe nazwy to inne organizacje e-sportowe."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -1053,10 +961,8 @@
         "Pierścień wilka oraz Pierścień lwa"
       ],
       "answer": "Pierścień faworyzacji i ochrony oraz Pierścień Havela",
-      "explanation_correct": "Zestaw ten pozwala na uzyskanie 'mid-rolla' (lub fast-rolla przy bardzo wysokiej Wytrzymałości) mimo noszenia pełnej zbroi Olbrzyma i Zweihandera.",
-      "explanation_incorrect": "Pierścień faworyzacji i ochrony (FaP) oraz Havel's Ring to jedyne przedmioty zwiększające udźwig wystarczająco dla tego buildu.",
-      "last_verified_at": "2026-06-12T15:20:11.344Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ring of Favor and Protection zwiększa m.in. maksymalne obciążenie, a Havel’s Ring dodatkowo podnosi udźwig; pomaga to zachować szybki unik w typowym buildzie.",
+      "explanation_incorrect": "Klasyczny zestaw Giantdad kojarzony jest z pierścieniem Havela i pierścieniem faworyzacji i ochrony."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -1068,25 +974,21 @@
         "Al Alcorn"
       ],
       "answer": "Howard Scott Warshaw",
-      "explanation_correct": "Howard Scott Warshaw, twórca hitów takich jak Yar's Revenge, podjął się niemożliwego zadania stworzenia gry E.T. w 5 tygodni. Pośpiech zaowocował grą pełną błędów i frustrującej mechaniki wpadania do jam.",
-      "explanation_incorrect": "Nolan Bushnell to założyciel Atari, Warren Robinett stworzył Adventure, a Al Alcorn zaprojektował Ponga.",
-      "last_verified_at": "2026-06-12T15:16:21.805Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Howard Scott Warshaw stworzył E.T. na Atari 2600 w wyjątkowo krótkim czasie, około pięciu tygodni przed planowanym sezonem świątecznym.",
+      "explanation_incorrect": "Nolan Bushnell to założyciel Atari, Warren Robinett stworzył Adventure, a Al Alcorn zaprojektował Ponga."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Co oznacza kategoria speedrunu 'Any%' w przeciwieństwie do kategorii '100%'?",
+      "question": "Co zwykle oznacza kategoria speedrunu Any%?",
       "options": [
-        "Ukończenie gry w jak najkrótszym czasie przy użyciu dowolnych ułatwień i bez zbierania wszystkich sekretów",
-        "Ukończenie gry wyłącznie przy użyciu błędów przechodzenia przez ściany",
-        "Ukończenie gry na najniższym poziomie trudności",
-        "Rozegranie losowo wybranych poziomów gry"
+        "Jak najszybsze ukończenie gry bez wymogu zdobycia 100%",
+        "Ukończenie wyłącznie z błędami przechodzenia przez ściany",
+        "Ukończenie wyłącznie na najniższym poziomie trudności",
+        "Rozegranie losowo wybranych poziomów"
       ],
-      "answer": "Ukończenie gry w jak najkrótszym czasie przy użyciu dowolnych ułatwień i bez zbierania wszystkich sekretów",
-      "explanation_correct": "Kategoria Any% stawia za cel dotarcie do ekranu końcowego jak najszybciej, pozwalając na pomijanie zadań pobocznych, sekretów i przedmiotów kolekcjonerskich.",
-      "explanation_incorrect": "Pozostałe odpowiedzi to niepoprawne interpretacje reguł speedrunningu.",
-      "last_verified_at": "2026-06-12T15:16:21.805Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Jak najszybsze ukończenie gry bez wymogu zdobycia 100%",
+      "explanation_correct": "Any% oznacza jak najszybsze osiągnięcie celu bez wymogu pełnego ukończenia; dozwolone techniki określa regulamin konkretnej gry.",
+      "explanation_incorrect": "Any% nie wymaga konkretnego błędu ani poziomu trudności; obowiązują reguły danej społeczności."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -1098,14 +1000,12 @@
         "Cake Rooms"
       ],
       "answer": "Nory Ratmana (Rattmann Dens)",
-      "explanation_correct": "Kryjówki należały do Douga Rattmanna (Ratmana) – schizofrenicznego naukowca, który przetrwał atak GLaDOS i pomagał Chell malując graffiti wskazujące drogę ucieczki.",
-      "explanation_incorrect": "Pozostałe nazwy są nieoficjalne lub nie pasują do fabuły gry Portal.",
-      "last_verified_at": "2026-06-12T15:16:21.805Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kryjówki Ratmana zawierają graffiti i ślady pobytu Douga Rattmanna, badacza związanego z Aperture Science.",
+      "explanation_incorrect": "Pozostałe nazwy są nieoficjalne lub nie pasują do fabuły gry Portal."
     },
     {
       "subcategory": "Memy i wirale growe",
-      "question": "Kto jest postacią chowano w trumnie podczas sceny z memem 'Press F to pay respects' w grze Call of Duty: Advanced Warfare?",
+      "question": "Kogo chowano podczas sceny znanej z memu 'Press F to pay respects' w Call of Duty: Advanced Warfare?",
       "options": [
         "Will Irons (syn Jonathana Ironsa)",
         "Cormack",
@@ -1114,9 +1014,7 @@
       ],
       "answer": "Will Irons (syn Jonathana Ironsa)",
       "explanation_correct": "Gracz wciela się w Jacka Mitchella, który kładzie rękę na trumnie swojego przyjaciela Willa Ironsa, poległego podczas misji w Seulu.",
-      "explanation_incorrect": "Cormack i Gideon to dowódcy, którzy żyją w tym momencie gry, a Jonathan Irons to główny czarny charakter.",
-      "last_verified_at": "2026-06-12T15:16:21.805Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cormack i Gideon to dowódcy, którzy żyją w tym momencie gry, a Jonathan Irons to główny czarny charakter."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
@@ -1143,10 +1041,8 @@
         "Kucanie przed pociskami"
       ],
       "answer": "Skakanie nad przeszkodami (Jumping)",
-      "explanation_correct": "Donkey Kong był pierwszą grą, w której postać mogła skakać w powietrzu nad przeszkodami (beczkami), co stworzyło podwaliny pod gatunek gier platformowych.",
-      "explanation_incorrect": "Wspinaczka i kucanie były obecne w innych grach, ale to skok zdefiniował postać Jumpmana.",
-      "last_verified_at": "2026-06-12T15:16:21.805Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W Donkey Kongu Jumpman przeskakuje beczki i inne przeszkody. Skakanie było już obecne w niektórych wcześniejszych grach.",
+      "explanation_incorrect": "Wspinaczka i kucanie były obecne w innych grach, ale to skok zdefiniował postać Jumpmana."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
@@ -1165,7 +1061,7 @@
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
-      "question": "Jak nazywał się kultowy polski magazyn o grach (1990-1996), wydawany przez wydawnictwo Bajtek, znany z poczucia humoru, rubryki 'Jestem Gracza' oraz redaktorów takich jak Kopalny czy Borek?",
+      "question": "Jak nazywał się polski magazyn o grach wydawany w latach 90., z którym związany był redaktor Marcin 'Borek' Borkowski?",
       "options": [
         "Top Secret",
         "Gambler",
@@ -1173,14 +1069,12 @@
         "Reset"
       ],
       "answer": "Top Secret",
-      "explanation_correct": "Top Secret był pierwszym profesjonalnym polskim czasopismem dedykowanym wyłącznie grom wideo, wyznaczając trendy w redagowaniu prasy growej w Polsce.",
-      "explanation_incorrect": "Gambler zadebiutował w 1993, Secret Service również w 1993, a Reset w 1997 roku.",
-      "last_verified_at": "2026-06-12T15:16:21.806Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Top Secret było ważnym polskim magazynem o grach; Borek pełnił w nim funkcję redaktora naczelnego i używał również pseudonimu Kopalny.",
+      "explanation_incorrect": "Gambler zadebiutował w 1993, Secret Service również w 1993, a Reset w 1997 roku."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
-      "question": "Zabicie którego potwora w Krowim Poziomie w grze Diablo II (przed patchem 2.4) uniemożliwiało graczowi ponowne otwarcie portalu na tym samym poziomie trudności?",
+      "question": "W klasycznym Diablo II zabicie którego bossa mogło przed zmianą zasad zablokować ponowne otwarcie Krowiego Poziomu na danym poziomie trudności?",
       "options": [
         "Krowi Król (Cow King)",
         "Krowia Królowa",
@@ -1188,10 +1082,8 @@
         "Rzeźnik"
       ],
       "answer": "Krowi Król (Cow King)",
-      "explanation_correct": "Krowi Król (Cow King) to boss lokacji. Jeśli gracz go zabił, gra blokowała mu możliwość łączenia Nogi Wirta z księgą portalu w Kostce Horadrimów na danym poziomie trudności.",
-      "explanation_incorrect": "Krowia Królowa nie istnieje w grze, a Wirt i Rzeźnik nie są bossami Krowiego Poziomu.",
-      "last_verified_at": "2026-06-12T15:16:21.806Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W klasycznym Diablo II zaliczenie zabicia Krowiego Króla mogło zablokować otwarcie kolejnego portalu na danym poziomie trudności; w Diablo II: Resurrected zasadę zmieniono.",
+      "explanation_incorrect": "Krowia Królowa nie istnieje w grze, a Wirt i Rzeźnik nie są bossami Krowiego Poziomu."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -1218,14 +1110,12 @@
         "Muzyka była odtwarzana bez zmian"
       ],
       "answer": "Taktowanie muzyki przyspieszało wraz z ruchem kosmitów",
-      "explanation_correct": "Taktowanie czterodźwiękowego motywu basowego było powiązane z częstotliwością odświeżania pozycji obcych, przez co muzyka naturalnie przyspieszała, budując kultowe poczucie paniki i pośpiechu u gracza.",
-      "explanation_incorrect": "Muzyka nie zwalniała ani nie wyciszała się; jej przyspieszenie było kluczem do sukcesu gry.",
-      "last_verified_at": "2026-06-12T15:16:21.806Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czterodźwiękowy motyw towarzyszący marszowi kosmitów przyspieszał wraz z akcją, zwiększając napięcie.",
+      "explanation_incorrect": "Motyw stawał się szybszy, a nie wolniejszy lub całkowicie wyłączony."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Jak nazywa się czerwony duszek w grze Pac-Man, którego algorytm nakazuje mu bezpośrednie i nieustanne ściganie gracza?",
+      "question": "Który duszek Pac-Mana w trybie pościgu celuje bezpośrednio w pole zajmowane przez gracza?",
       "options": [
         "Blinky (Shadow)",
         "Pinky (Speedy)",
@@ -1233,10 +1123,8 @@
         "Clyde (Pokey)"
       ],
       "answer": "Blinky (Shadow)",
-      "explanation_correct": "Blinky (czerwony) jako jedyny duszek celuje bezpośrednio w pole, na którym stoi Pac-Man. Inne duszki próbują go flankować lub poruszają się losowo.",
-      "explanation_incorrect": "Pinky celuje w pola przed Pac-Manem, Inky współdziała z pozycją Blinky'ego, a Clyde porusza się losowo gdy zbliży się do gracza.",
-      "last_verified_at": "2026-06-12T15:16:21.806Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Blinky w trybie pościgu wybiera pole Pac-Mana jako cel; duszki zmieniają zachowanie zależnie od trybu gry.",
+      "explanation_incorrect": "Pinky celuje przed Pac-Manem, Inky uwzględnia pozycję Blinky’ego, a Clyde zmienia cel zależnie od odległości."
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
@@ -1293,25 +1181,21 @@
         "Aktywny ruch jednostek (Active Player Movement)"
       ],
       "answer": "Akcje na minutę (Actions Per Minute)",
-      "explanation_correct": "APM (Actions Per Minute) mierzy liczbę kliknięć myszką i uderzeń w klawiaturę w ciągu minuty. Zawodowcy osiągają średnio od 300 do ponad 400 APM.",
-      "explanation_incorrect": "Pozostałe rozwinięcia akronimu są niepoprawne w terminologii gier strategicznych.",
-      "last_verified_at": "2026-06-12T15:16:21.807Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "APM oznacza liczbę akcji na minutę; sposób liczenia zależy od gry i używanego narzędzia.",
+      "explanation_incorrect": "Pozostałe rozwinięcia akronimu są niepoprawne w terminologii gier strategicznych."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "W której fazie rozwoju gry Minecraft powstał Creeper w wyniku błędu programistycznego przy tworzeniu modelu świni?",
+      "question": "W której wczesnej wersji Minecrafta pojawił się Creeper?",
       "options": [
-        "Survival Test (Alpha)",
+        "Survival Test",
         "Beta 1.8",
-        "Wersja 1.0 (Full Release)",
+        "Wersja 1.0",
         "Indev"
       ],
-      "answer": "Survival Test (Alpha)",
-      "explanation_correct": "Creeper powstał w 2009 roku w fazie Survival Test, gdy Notch pomylił wymiary długości i wysokości ciała świni.",
-      "explanation_incorrect": "Pozostałe etapy to późniejsze wersje rozwojowe, w których Creeper był już w pełni zaimplementowaną postacią.",
-      "last_verified_at": "2026-06-12T15:20:11.344Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Survival Test",
+      "explanation_correct": "Creeper pojawił się w 2009 roku w etapie Survival Test, przed wydaniem Indev i późniejszymi wersjami beta.",
+      "explanation_incorrect": "Pozostałe etapy pojawiły się później niż Survival Test."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -1330,7 +1214,7 @@
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Który duszek w grze Pac-Man (pomarańczowy Clyde) porzuca ściganie gracza i ucieka do swojego narożnika, gdy znajdzie się zbyt blisko niego?",
+      "question": "Który duszek Pac-Mana w trybie pościgu celuje we własny narożnik, gdy zbliży się do gracza?",
       "options": [
         "Clyde (Pokey)",
         "Blinky (Shadow)",
@@ -1338,40 +1222,34 @@
         "Inky (Bashful)"
       ],
       "answer": "Clyde (Pokey)",
-      "explanation_correct": "Algorytm Clyde'a mierzy odległość od Pac-Mana. Jeśli wynosi ona więcej niż 8 pól, Clyde idzie wprost na gracza. Jeśli zbliży się bardziej, przełącza się w tryb powrotu do dolnego lewego rogu.",
-      "explanation_incorrect": "Pozostałe duszki mają stałe algorytmy pościgowe i nie uciekają przed graczem w ten sposób.",
-      "last_verified_at": "2026-06-12T15:16:21.807Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Clyde kieruje się ku Pac-Manowi, dopóki jest dostatecznie daleko; po zbliżeniu się zmienia cel na swój narożnik.",
+      "explanation_incorrect": "Blinky, Pinky i Inky mają odmienne reguły wyznaczania celu w trybie pościgu."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Jaki cios Ken w wykonaniu Daigo wyprowadził natychmiast po sparowaniu super-ataku Chun-Li, aby zadać obrażenia i zakończyć walkę?",
+      "question": "Którego Super Art użył Ken Daigo Umehary, kończąc kontratak po parowaniu w Evo Moment 37?",
       "options": [
-        "Kopnięcie z wyskoku, silna pięść i Shoryuken (Smoczy Cios) zakończony Shippu Jinraikyaku",
-        "Zwykły rzut postaci",
-        "Słabe kopnięcie i Hadouken",
-        "Super-atak bez parowania ciosu z powietrza"
+        "Shippu Jinraikyaku",
+        "Hadouken",
+        "Shinku Hadoken",
+        "Houyoku-sen"
       ],
-      "answer": "Kopnięcie z wyskoku, silna pięść i Shoryuken (Smoczy Cios) zakończony Shippu Jinraikyaku",
-      "explanation_correct": "Daigo musiał sparować ostatnie uderzenie Chun-Li w powietrzu (co wymagało skoku), a następnie wyprowadził kopnięcie, silny cios ręką, Shoryuken i połączył go z Super Art Ken'a, niszcząc pasek życia Wonga.",
-      "explanation_incorrect": "Zwykły rzut lub Hadouken nie zadałyby wystarczających obrażeń do wygrania pojedynku.",
-      "last_verified_at": "2026-06-12T15:16:21.807Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Shippu Jinraikyaku",
+      "explanation_correct": "Po sparowaniu ataku Chun-Li Daigo wyprowadził kombinację zakończoną Super Art Kena: Shippu Jinraikyaku.",
+      "explanation_incorrect": "Houyoku-sen był superatakiem Chun-Li Justina Wonga; pozostałe ruchy nie zakończyły tej akcji."
     },
     {
       "subcategory": "Memy i wirale growe",
-      "question": "W jakiej produkcji studia Bethesda strażnicy miejscy masowo powtarzają kultową kwestię o strzale w kolanie?",
+      "question": "Jak w angielskiej wersji Skyrim strażnik kończy zdanie 'I used to be an adventurer like you, then I took...'?",
       "options": [
-        "The Elder Scrolls V: Skyrim",
-        "The Elder Scrolls IV: Oblivion",
-        "Fallout 4",
-        "Starfield"
+        "an arrow in the knee",
+        "a sword to the shoulder",
+        "a potion for the road",
+        "a dragon to the castle"
       ],
-      "answer": "The Elder Scrolls V: Skyrim",
-      "explanation_correct": "Dialog: 'I used to be an adventurer like you, then I took an arrow in the knee' stał się wiralowym memem krótko po premierze gry w 2011 roku.",
-      "explanation_incorrect": "W Oblivionie, Falloutcie czy Starfieldzie ten konkretny dialog nie występuje jako powtarzalna kwestia NPC.",
-      "last_verified_at": "2026-06-12T15:20:11.344Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "an arrow in the knee",
+      "explanation_correct": "Kwestia strażnika kończy się słowami 'an arrow in the knee' i stała się internetowym memem.",
+      "explanation_incorrect": "Pozostałe frazy nie są zakończeniem tej znanej kwestii strażnika."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -1398,25 +1276,21 @@
         "Leon"
       ],
       "answer": "Tony",
-      "explanation_correct": "Bohaterem prototypu RE4 miał być Tony – policjant obdarzony nadludzkimi cechami fizycznymi. Gdy zmieniono koncepcję gry na DMC, postać przeprojektowano i nazwano Dante.",
-      "explanation_incorrect": "Dante i Vergil to ostateczne imiona braci z DMC, a Leon to protagonista ostatecznej wersji Resident Evil 4.",
-      "last_verified_at": "2026-06-12T15:16:21.807Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "We wczesnej koncepcji bohater miał nazywać się Tony; projekt ostatecznie rozwinął się w Devil May Cry z Dantem.",
+      "explanation_incorrect": "Dante i Vergil to ostateczne imiona braci z DMC, a Leon to protagonista ostatecznej wersji Resident Evil 4."
     },
     {
       "subcategory": "Kultowe media i prasa o grach",
-      "question": "Z jakiej słynnej dyscypliny sportowej i zamiłowania do muzyki metalowej znany był redaktor Eld (Maciej Kuc) na łamach CD-Action?",
+      "question": "Jak nazywa się papierowy magazyn o grach, w którym pojawia się rubryka Action Redaction?",
       "options": [
-        "Piłka nożna i koszykówka",
-        "Hokej i wioślarstwo",
-        "Skoki narciarskie",
-        "Kolarstwo szosowe"
+        "CD-Action",
+        "Secret Service",
+        "Top Secret",
+        "Gambler"
       ],
-      "answer": "Piłka nożna i koszykówka",
-      "explanation_correct": "Eld słynął z zamiłowania do piłki nożnej (kibic m.in. ligi angielskiej) oraz koszykówki NBA, a także recenzowania gier sportowych z serii FIFA czy NBA Live obok klimatów muzyki heavymetalowej.",
-      "explanation_incorrect": "Hokej, skoki i kolarstwo nie były głównymi tematami felietonów Elda w CD-Action.",
-      "last_verified_at": "2026-06-12T15:16:21.807Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "CD-Action",
+      "explanation_correct": "Action Redaction to rubryka korespondencji z czytelnikami magazynu CD-Action.",
+      "explanation_incorrect": "Pozostałe nazwy to inne polskie pisma o grach."
     },
     {
       "subcategory": "Memy i wirale growe",
@@ -1428,25 +1302,21 @@
         "Klawisz Enter"
       ],
       "answer": "Klawisz F",
-      "explanation_correct": "Memicznym klawiszem jest literka 'F', będąca domyślnym przyciskiem interakcji (use/action) na klawiaturze PC w grze Call of Duty.",
-      "explanation_incorrect": "Klawisze E, spacja i Enter są powszechnie używane do interakcji w innych grach, ale to 'F' zyskał status memu.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W wersji na PC polecenie 'Press F to pay respects' używa litery F; scena stała się popularnym memem.",
+      "explanation_incorrect": "Klawisze E, spacja i Enter są powszechnie używane do interakcji w innych grach, ale to 'F' zyskał status memu."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Co oznacza określenie 'Glitchless' w regulaminach turniejów i rekordów speedrunowych?",
+      "question": "Co zwykle oznacza kategoria speedrunu Glitchless?",
       "options": [
-        "Ukończenie gry bez wykorzystywania błędów programistycznych (glitchy) kodów i luk w teksturach",
-        "Gra bez żadnej straty punktów zdrowia",
-        "Zakaz używania kontrolerów z funkcją turbo",
-        "Zakaz pomijania przerywników filmowych"
+        "Ograniczenie wykorzystywania błędów zgodnie z regulaminem danej gry",
+        "Ukończenie gry bez straty zdrowia",
+        "Zakaz używania wszystkich kontrolerów",
+        "Zakaz pomijania wszystkich przerywników"
       ],
-      "answer": "Ukończenie gry bez wykorzystywania błędów programistycznych (glitchy) kodów i luk w teksturach",
-      "explanation_correct": "Kategoria 'Glitchless' wymaga przechodzenia gry w sposób zgodny z intencjami twórców, zabraniając m.in. przechodzenia przez ściany (wall-clip) czy psucia skryptów gry.",
-      "explanation_incorrect": "Gra bez obrażeń to 'No-hit', a turbo-kontrolery i przerywniki regulowane są osobnymi przepisami.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Ograniczenie wykorzystywania błędów zgodnie z regulaminem danej gry",
+      "explanation_correct": "Glitchless ogranicza dozwolone błędy i techniki; szczegółowe definicje i wyjątki ustala społeczność danej gry.",
+      "explanation_incorrect": "Brak obrażeń określa się np. jako no-hit; osobne przepisy mogą dotyczyć sprzętu i przerywników."
     },
     {
       "subcategory": "Słynne błędy i Easter Eggi",
@@ -1459,28 +1329,24 @@
       ],
       "answer": "Jonathan Coulton",
       "explanation_correct": "Piosenkę napisał Jonathan Coulton, a zaśpiewała ją aktorka Ellen McLain podkładająca głos pod sztuczną inteligencję GLaDOS.",
-      "explanation_incorrect": "Ellen McLain to wokalistka i aktorka dubbingowa GLaDOS, Kelly Bailey to kompozytor ścieżki dźwiękowej Half-Life, a Harry Callahan to zmyślone nazwisko.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ellen McLain wykonuje utwór i użycza głosu GLaDOS; Kelly Bailey komponował muzykę do Half-Life."
     },
     {
       "subcategory": "Kulisy branży i tworzenia gier",
-      "question": "Na kogo w rzeczywistości patrzy James Sunderland w lustrze podczas kultowej sceny otwierającej grę Silent Hill 2, co fani odkryli po rozjaśnieniu tekstur w grze?",
+      "question": "Kogo James Sunderland poszukuje w Silent Hill 2 po otrzymaniu listu?",
       "options": [
-        "Bezpośrednio na gracza (przełamując czwartą ścianę)",
-        "Na zmarłą żonę Mary",
-        "Na potwora Pyramid Head",
-        "Na swoje alter ego, czarny charakter gry"
+        "Żony Mary",
+        "Córki Cheryl",
+        "Brata Henry’ego",
+        "Doktor Kaufmann"
       ],
-      "answer": "Bezpośrednio na gracza (przełamując czwartą ścianę)",
-      "explanation_correct": "Po rozjaśnieniu cieni w scenie otwierającej w łazience widać, że oczy Jamesa w lustrze nie patrzą na jego własne odbicie, lecz są skierowane wprost w obiektyw kamery, czyli na siedzącego przed ekranem gracza.",
-      "explanation_incorrect": "James nie patrzy na Mary ani na Pyramid Heada w tej scenie, a teorii o złym alter ego nie potwierdzono w ten sposób.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Żony Mary",
+      "explanation_correct": "James otrzymuje list od żony Mary i przyjeżdża do Silent Hill, choć sądził, że Mary zmarła.",
+      "explanation_incorrect": "Cheryl to córka Harry’ego Masona z pierwszego Silent Hill; James szuka Mary."
     },
     {
       "subcategory": "Memy i wirale growe",
-      "question": "Jak brzmi słynne, gramatycznie błędne zdanie kapitana statku z intra Zero Wing na widok wybuchu, będące częścią memu 'All your base'?",
+      "question": "Jak brzmi błędne angielskie zdanie o bombie, wypowiedziane w intrze Zero Wing?",
       "options": [
         "Ktoś ustawił nam bombę (Somebody set up us the bomb)",
         "Otrzymaliśmy sygnał wojenny",
@@ -1488,14 +1354,12 @@
         "Dla wielkiej sprawiedliwości (For great justice)"
       ],
       "answer": "Ktoś ustawił nam bombę (Somebody set up us the bomb)",
-      "explanation_correct": "Zdanie brzmi 'Somebody set up us the bomb' (pl. Ktoś ustawił nam bombę), co miało znaczyć, że podłożono ładunek wybuchowy.",
-      "explanation_incorrect": "We get signal, All your base oraz For great justice to inne cytaty z tej samej sceny, ale nie dotyczą wybuchu na statku.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W angielskim intrze pada zdanie 'Somebody set up us the bomb', oznaczające, że podłożono ładunek.",
+      "explanation_incorrect": "We get signal, All your base oraz For great justice to inne cytaty z tej samej sceny, ale nie dotyczą wybuchu na statku."
     },
     {
       "subcategory": "Kamienie milowe speedrunów i esportu",
-      "question": "Z wyboru którego bohatera (Ryze czy Azir) słynie Faker, uchodzącego za jego podpis i symbol, na cześć którego otrzymał oficjalną skórkę mistrzowską?",
+      "question": "Która postać League of Legends otrzymała mistrzowską skórkę SKT T1 Ryze upamiętniającą występ Fakera na Worlds 2015?",
       "options": [
         "Ryze",
         "Yasuo",
@@ -1503,10 +1367,8 @@
         "LeBlanc"
       ],
       "answer": "Ryze",
-      "explanation_correct": "Ryze (Zbuntowany Mag) to kultowa postać Fakera. Wygrał nim niezliczone mecze mistrzowskie, a jego styl gry tą postacią zdefiniował taktyki drużynowe T1.",
-      "explanation_incorrect": "Zed słynie z pojedynku z Ryu, Yasuo nie jest jego podpisem, a LeBlanc to postać kojarzona z jego wczesną dominacją, ale Ryze jest jego symbolem.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ryze otrzymał skórkę SKT T1 Ryze związaną ze zwycięstwem drużyny Fakera w mistrzostwach świata 2015.",
+      "explanation_incorrect": "Pozostali bohaterowie nie są postacią zwaną Ryze w nazwie tej skórki."
     }
   ]
 }
