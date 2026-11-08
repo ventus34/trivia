@@ -216,6 +216,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Popkultura i Gry (PL):** przegląd 160 pytań i korekty 63 rekordów; [raport](audits/2026-11-08-popkultura-pl.md).
 
+- **Średniowiecze i Rycerstwo (PL):** przegląd 99 pytań i korekty 74 rekordów; [raport](audits/2026-11-08-redniowiecze-i-rycerstwo-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

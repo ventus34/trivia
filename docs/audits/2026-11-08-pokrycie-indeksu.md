@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **188** pozycji ma raport deklarujący przegląd całości paczki.
+- **189** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **37** pozycji nie ma dedykowanego raportu merytorycznego.
+- **36** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -179,7 +179,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 156 | `popkulturowy_kocio_pl` | Popkulturowy Kocioł | — | BRAK dedykowanego raportu merytorycznego. |
 | 157 | `powiedzenia_przysowia_i_skrzydlate_sowa_pl` | Powiedzenia, Przysłowia i Skrzydlate Słowa | [2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md](2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 42 pozycje: 1, 5–9, 13–15, 17, 19, 23, 26–28, 31, 33, 36–39, 43, 45, 52–53, 55, 57, 59, 62, 68–69, 74, 76, 78, 82, 84, 88,… |
 | 158 | `prawo_i_systemy_sprawiedliwoci_pl` | Prawo i Systemy Sprawiedliwości | — | BRAK dedykowanego raportu merytorycznego. |
-| 159 | `redniowiecze_i_rycerstwo_pl` | Średniowiecze i Rycerstwo | — | BRAK dedykowanego raportu merytorycznego. |
+| 159 | `redniowiecze_i_rycerstwo_pl` | Średniowiecze i Rycerstwo | [2026-11-08-redniowiecze-i-rycerstwo-pl.md](2026-11-08-redniowiecze-i-rycerstwo-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 99 pytań, poprawiono 74 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 160 | `religie_wiata_pl` | Religie Świata | [2026-11-07-religie-swiata-pl.md](2026-11-07-religie-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i wszystkie 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 67 rekordów: 2–5, 7–8, 10, 12–15, 17–19, 21–23, 25–27, 29, 32–37, 40–41, 43, 45, 48, 50–51, 53–55, 58–59, 61–62,… |
 | 161 | `retro_tech_revival_en` | Retro-Tech Revival | [retro-tech-revival-en-2026-11-06.md](retro-tech-revival-en-2026-11-06.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań i objaśnień w `databases/categories/retro_tech_revival_en.json`, porównano opis z zakresem paczki i zmodyfikowano 49 rekordów: 3, 8–11, 13, 16–17, 19, 22, 25–27,… |
 | 162 | `role_playing_games_en` | Role-Playing Games | [2026-11-08-role-playing-games-en.md](2026-11-08-role-playing-games-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 109 pytań, poprawiono 54 rekordy; wybrane fakty sprawdzono źródłowo. |
