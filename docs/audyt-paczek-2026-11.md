@@ -220,6 +220,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Polskie Ślady na Mapie Europy (PL):** przegląd 100 pytań i korekty 68 rekordów; [raport](audits/2026-11-08-polskie-slady-na-mapie-europy-pl.md).
 
+- **Ziołolecznictwo i Medycyna Ludowa (PL):** przegląd 100 pytań, korekty 90 rekordów; [raport](audits/2026-11-08-ziololecznictwo-i-medycyna-ludowa-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
@@ -228,6 +230,3 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 ## Przeglądy częściowe
 
 - `teatr_telewizji_i_kultowe_spektakle_pl`: przejrzano 100 pytań i poprawiono 43 rekordy. W kolejnym etapie sprawdzono i zmieniono wszystkie 27 pozycji z listy priorytetowej (wcześniejszy komunikat błędnie podawał 28). Dalszej kontroli wymagają pozostałe szczegóły, opis i powtórzenia; zakres oraz źródła podano w [raporcie częściowym](audits/2026-11-07-teatr-telewizji-i-kultowe-spektakle-pl.md).
-
-
-- `zioolecznictwo_i_medycyna_ludowa_pl`: wstępnie przejrzano 100 pytań i objaśnień; poprawiono pozycje 7, 9, 16, 18, 21, 23, 34, 43, 44, 46, 52, 60, 63, 64, 69, 70, 72, 73 i 75. Usunięto dwuznaczności, poprawiono błędny klucz „ziele św. Jana”, nazwę johimby i literówki oraz ograniczono niepoparte twierdzenia medyczne. Pozostałe pytania wymagają dalszej weryfikacji merytorycznej i medycznej; wstępny odczyt nie oznacza ich zatwierdzenia. Źródła: [EMA — glistnik](https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-chelidonium-majus-l-herba_en.pdf), [MedlinePlus — bieluń](https://medlineplus.gov/ency/article/002881.htm), [NCCIH — ostropest](https://www.nccih.nih.gov/health/milk-thistle), [NCCIH — żurawina](https://www.nccih.nih.gov/health/cranberry?nav=tw), [NCI — jemioła](https://www.cancer.gov/about-cancer/treatment/cam/hp/mistletoe-pdq), [NCCIH — kurkumina](https://www.nccih.nih.gov/health/cancer-and-complementary-health-approaches-what-you-need-to-know), [EMA — pokrzywa](https://www.ema.europa.eu/en/medicines/herbal/urticae-folium), [EMA — skrzyp](https://www.ema.europa.eu/en/medicines/herbal/equiseti-herba), [NCCIH — detoks](https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know), [GIS — johimba](https://www.gov.pl/web/gis/komunikat-nie-dla-johimby-lekarskiej-i-przesli-w-zywnosci), [NCCIH — miłorząb](https://www.nccih.nih.gov/health/ginkgo/index.html).

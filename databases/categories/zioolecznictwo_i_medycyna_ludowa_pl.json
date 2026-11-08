@@ -2,15 +2,13 @@
   "id": "zioolecznictwo_i_medycyna_ludowa_pl",
   "name": "Ziołolecznictwo i Medycyna Ludowa",
   "language": "pl",
-  "description": "Pytania z zakresu: Zioła na trawienie, Zioła na uspokojenie, Zioła moczopędne...",
+  "description": "Pytania o roślinach leczniczych, tradycyjnych zastosowaniach ziół, surowcach farmakognostycznych, produktach naturalnych oraz historii i metodach medycyny ludowej. Uwzględniono także ograniczenia skuteczności i bezpieczeństwo.",
   "created_at": "2026-06-12T17:19:10.050Z",
-  "last_verified_at": "2026-06-12T17:12:04.822Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Zioła na trawienie",
-      "question": "Która roślina zielna jest powszechnie stosowana w medycynie naturalnej w celu łagodzenia wzdęć i dolegliwości kolkowych?",
+      "question": "Której rośliny owoce są tradycyjnie stosowane przy łagodnych, skurczowych dolegliwościach przewodu pokarmowego, takich jak wzdęcia?",
       "options": [
         "Koper włoski",
         "Lubczyk ogrodowy",
@@ -18,10 +16,8 @@
         "Pietruszka zwyczajna"
       ],
       "answer": "Koper włoski",
-      "explanation_correct": "Koper włoski zawiera olejki eteryczne, które rozkurczają mięśnie gładkie przewodu pokarmowego.",
-      "explanation_incorrect": "Pozostałe wymienione rośliny pełnią inne funkcje kulinarne lub lecznicze i nie są pierwszym wyborem przy redukcji wzdęć.",
-      "last_verified_at": "2026-06-12T17:11:14.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Owoce kopru włoskiego mają w UE status tradycyjnego surowca stosowanego objawowo przy łagodnych skurczowych dolegliwościach trawiennych. To zastosowanie opiera się głównie na długotrwałej tradycji; nie dowodzi skuteczności w kolce ani nie zastępuje diagnostyki.",
+      "explanation_incorrect": "Pozostałe rośliny nie są koprem włoskim. Sam tradycyjny sposób użycia nie oznacza, że każde zioło skutecznie leczy wzdęcia."
     },
     {
       "subcategory": "Zioła na uspokojenie",
@@ -33,14 +29,12 @@
         "Szałwia lekarska"
       ],
       "answer": "Melisa lekarska",
-      "explanation_correct": "Melisa lekarska jest ceniona za swoje kojące działanie na układ nerwowy i charakterystyczny aromat.",
-      "explanation_incorrect": "Pozostałe zioła posiadają inne profile aromatyczne i farmakologiczne, mimo wspólnej przynależności do rodziny jasnotowatych.",
-      "last_verified_at": "2026-06-12T17:11:14.215Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Melisa lekarska (Melissa officinalis) ma cytrynowy zapach i jest tradycyjnie używana w preparatach na łagodne objawy stresu i wspomagających sen. Zakres działania zależy od konkretnego preparatu.",
+      "explanation_incorrect": "Pozostałe gatunki różnią się zapachem i nazwą. Nie należy wnioskować o skuteczności leczniczej wyłącznie z przynależności do tej samej rodziny."
     },
     {
       "subcategory": "Zioła moczopędne",
-      "question": "Która pospolita roślina o barwnym, żółtym kwiecie jest szeroko wykorzystywana w ziołolecznictwie ze względu na swoje działanie moczopędne?",
+      "question": "Która pospolita roślina o żółtych kwiatach ma liście tradycyjnie stosowane w preparatach zwiększających ilość wydalanego moczu przy łagodnych dolegliwościach dróg moczowych?",
       "options": [
         "Mniszek lekarski",
         "Jaskier ostry",
@@ -48,14 +42,12 @@
         "Dziewanna wielkokwiatowa"
       ],
       "answer": "Mniszek lekarski",
-      "explanation_correct": "Mniszek lekarski, zwłaszcza jego liście, wykazuje działanie silnie moczopędne dzięki wysokiej zawartości potasu.",
-      "explanation_incorrect": "Jaskier jest rośliną trującą, a wrotycz i dziewanna mają zupełnie inne spektrum zastosowań leczniczych.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liść mniszka lekarskiego ma tradycyjne zastosowanie jako środek zwiększający wydalanie moczu. Nie ma podstaw, by określać jego działanie jako „silne”; EMA wskazuje, że zastosowanie to opiera się na tradycji, a nie na przekonujących badaniach klinicznych.",
+      "explanation_incorrect": "Jaskier ostry jest toksyczny, a pozostałe rośliny nie odpowiadają pytaniu o tradycyjne zastosowanie liścia mniszka. Mniszek może być niewskazany przy niektórych chorobach nerek, serca i dróg żółciowych."
     },
     {
       "subcategory": "Zioła przeciwzapalne",
-      "question": "Który kwiat o pomarańczowo-żółtych płatkach jest znany w ziołolecznictwie z silnych właściwości kojących skórę i przyspieszających gojenie ran?",
+      "question": "Który kwiat o pomarańczowo-żółtych płatkach jest tradycyjnie stosowany w preparatach na niewielkie stany zapalne skóry i drobne rany?",
       "options": [
         "Nagietek lekarski",
         "Rumianek pospolity",
@@ -63,14 +55,12 @@
         "Kwiat bzu czarnego"
       ],
       "answer": "Nagietek lekarski",
-      "explanation_correct": "Nagietek zawiera triterpeny i flawonoidy, które działają przeciwzapalnie na skórę i błony śluzowe.",
-      "explanation_incorrect": "Inne wymienione rośliny mogą łagodzić podrażnienia, ale to nagietek jest uznawany za kluczowy surowiec w dermatologii ziołowej.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kwiat nagietka ma w UE tradycyjne zastosowanie w łagodzeniu niewielkich stanów zapalnych skóry i jako środek pomocniczy przy drobnych ranach. Dane kliniczne nie uzasadniają określenia go jako silnego środka ani gwarancji przyspieszenia gojenia.",
+      "explanation_incorrect": "Pozostałe rośliny mają odrębne zastosowania. Tradycyjne użycie nagietka nie jest równoznaczne z potwierdzoną skutecznością w poważnych ranach lub chorobach skóry."
     },
     {
       "subcategory": "Antyseptyka naturalna",
-      "question": "Jak nazywa się oleista ciecz uzyskiwana z żywicy drzew iglastych, dawniej powszechnie stosowana jako środek antyseptyczny w medycynie ludowej?",
+      "question": "Jak nazywa się lotna ciecz otrzymywana przez destylację żywicy drzew iglastych, używana dawniej w niektórych praktykach ludowych?",
       "options": [
         "Gliceryna",
         "Terpentyna",
@@ -78,14 +68,12 @@
         "Olejek kamforowy"
       ],
       "answer": "Terpentyna",
-      "explanation_correct": "Terpentyna pozyskiwana z żywicy drzew iglastych ma właściwości odkażające i rozgrzewające.",
-      "explanation_incorrect": "Substancje takie jak gliceryna czy parafina nie wykazują właściwości antybakteryjnych charakterystycznych dla surowych żywic drzewnych.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Terpentyna jest mieszaniną otrzymywaną z żywicy drzew iglastych. Miała historyczne zastosowania, ale nie jest domowym środkiem antyseptycznym: może drażnić, a połknięcie grozi zatruciem.",
+      "explanation_incorrect": "Pozostałe substancje nie są destylatem żywicy iglastej. Dawne użycie terpentyny nie potwierdza jej bezpieczeństwa ani przydatności jako leku."
     },
     {
       "subcategory": "Zioła na gardło",
-      "question": "Która roślina jest ceniona w fitoterapii ze względu na zawartość garbników o działaniu ściągającym i przeciwbakteryjnym w schorzeniach gardła?",
+      "question": "Które zioło jest źródłem liści tradycyjnie używanych w płukankach przy niewielkich stanach zapalnych jamy ustnej i gardła?",
       "options": [
         "Szałwia lekarska",
         "Tymianek pospolity",
@@ -93,10 +81,8 @@
         "Bazylia pospolita"
       ],
       "answer": "Szałwia lekarska",
-      "explanation_correct": "Szałwia lekarska zawiera garbniki oraz olejki eteryczne (tujon), które skutecznie ograniczają rozwój drobnoustrojów w gardle.",
-      "explanation_incorrect": "Choć tymianek również działa odkażająco, to szałwia jest klasycznym surowcem stosowanym jako płukanka przy stanach zapalnych jamy ustnej.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liść szałwii ma tradycyjne zastosowanie w płukankach na niewielkie dolegliwości jamy ustnej i gardła. Nie należy przypisywać skuteczności płukanki samemu tujonowi ani przedstawiać jej jako udowodnionego środka przeciwbakteryjnego.",
+      "explanation_incorrect": "Tymianek również ma tradycyjne zastosowania, ale nie jest szałwią. Inne wymienione rośliny nie zmieniają tego rozróżnienia; przy nasilonych lub utrzymujących się objawach potrzebna jest ocena medyczna."
     },
     {
       "subcategory": "Leki z drzew",
@@ -108,14 +94,12 @@
         "Kora sosny"
       ],
       "answer": "Kora wierzby",
-      "explanation_correct": "Kora wierzby zawiera salicynę, z której w organizmie powstają związki salicylowe.",
-      "explanation_incorrect": "Pozostałe wymienione surowce nie są znane z tradycyjnego stosowania jako źródło salicyny.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kora wierzby zawiera salicynę, która w organizmie jest przekształcana do kwasu salicylowego. Kwas acetylosalicylowy (aspiryna) jest odrębnym związkiem; kory wierzby nie należy traktować jako równoważnej dawki aspiryny.",
+      "explanation_incorrect": "Pozostałe kory nie są typowym źródłem salicyny. Preparaty z kory wierzby mają ograniczone, określone zastosowania i mogą być niewskazane dla części osób."
     },
     {
       "subcategory": "Zioła na sen",
-      "question": "W jaki sposób, w języku potocznym, nazywamy surowiec roślinny pozyskiwany z kozłka lekarskiego, ceniony za działanie nasenne?",
+      "question": "Jak potocznie nazywa się preparaty sporządzane z korzenia kozłka lekarskiego, tradycyjnie używane przy łagodnym napięciu nerwowym i trudnościach z zasypianiem?",
       "options": [
         "Waleriana",
         "Melisa",
@@ -123,10 +107,8 @@
         "Chmiel"
       ],
       "answer": "Waleriana",
-      "explanation_correct": "Waleriana to powszechna nazwa preparatów i wyciągów z korzenia kozłka lekarskiego, działających uspokajająco.",
-      "explanation_incorrect": "Pozostałe zioła, mimo właściwości relaksujących, wywodzą się z zupełnie innych gatunków botanicznych.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "„Waleriana” to potoczna nazwa preparatów z kozłka lekarskiego (Valeriana officinalis). Część preparatów ma status tradycyjnych; nie każdy ekstrakt ma tę samą skuteczność, a korzeń kozłka nie jest środkiem doraźnym.",
+      "explanation_incorrect": "Melisa, szałwia i chmiel to inne rośliny. Waleriana nie jest osobnym gatunkiem botanicznym."
     },
     {
       "subcategory": "Medycyna ludowa",
@@ -138,14 +120,12 @@
         "Jasnota biała"
       ],
       "answer": "Glistnik jaskółcze ziele",
-      "explanation_correct": "Pomarańczowy sok glistnika tradycyjnie stosowano na brodawki; skuteczność kliniczna nie została jednak wystarczająco potwierdzona.",
-      "explanation_incorrect": "Podbiał, krwawnik i jasnota nie odpowiadają opisowi rośliny z pomarańczowym sokiem.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pomarańczowy sok glistnika był tradycyjnie nakładany na brodawki, ale skuteczność takiego zabiegu nie jest dobrze potwierdzona. Glistnik może podrażniać skórę, a przyjęcie doustne wiązano z uszkodzeniem wątroby; nie należy go stosować jako samodzielnego leczenia.",
+      "explanation_incorrect": "Opis barwy soku i kwiatu wskazuje na glistnik. Tradycyjny zwyczaj nie stanowi dowodu skuteczności ani bezpieczeństwa."
     },
     {
       "subcategory": "Zioła na odporność",
-      "question": "Jak nazywa się gatunek purpurowego kwiatu, który jest jednym z najpopularniejszych ziół stosowanych w celu stymulacji układu odpornościowego?",
+      "question": "Jak nazywa się gatunek jeżówki o purpurowych kwiatach, którego różne preparaty są promowane przy przeziębieniu?",
       "options": [
         "Jeżówka purpurowa",
         "Chaber bławatek",
@@ -153,14 +133,12 @@
         "Aster alpejski"
       ],
       "answer": "Jeżówka purpurowa",
-      "explanation_correct": "Jeżówka purpurowa (Echinacea) zawiera alkamidy i polisacharydy, które wspomagają odporność nieswoistą organizmu.",
-      "explanation_incorrect": "Chabry i astry to rośliny ozdobne o innym składzie chemicznym, nieposiadające uznanych właściwości immunomodulujących.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jeżówka purpurowa (Echinacea purpurea) jest jednym z gatunków używanych w suplementach. Wyniki badań zależą od preparatu; nie wykazano, by jeżówka pobudzała odporność w sposób uzasadniający ogólne obietnice zapobiegania chorobom.",
+      "explanation_incorrect": "Pozostałe rośliny nie są gatunkami jeżówki purpurowej. Różnice botaniczne nie dowodzą jednak, że preparaty jeżówki skutecznie zapobiegają przeziębieniom."
     },
     {
       "subcategory": "Zioła sercowe",
-      "question": "Który kolczasty krzew o czerwonych owocach jest w ziołolecznictwie ceniony jako wsparcie dla układu krwionośnego i pracy serca?",
+      "question": "Który kolczasty krzew o czerwonych owocach jest źródłem liści i kwiatów używanych tradycyjnie przy łagodnych, przemijających dolegliwościach sercowych związanych z nerwowością?",
       "options": [
         "Głóg",
         "Dzika róża",
@@ -168,29 +146,25 @@
         "Berberys"
       ],
       "answer": "Głóg",
-      "explanation_correct": "Głóg zawiera flawonoidy i procyjanidyny, które poprawiają ukrwienie mięśnia sercowego i regulują ciśnienie tętnicze.",
-      "explanation_incorrect": "Pozostałe krzewy są źródłem witamin (róża) lub działają ściągająco (tarnina), ale nie mają bezpośredniego wpływu na układ sercowy.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście i kwiaty głogu mają w UE tradycyjne zastosowanie przy przemijających dolegliwościach, takich jak kołatanie serca związane z nerwowością, dopiero po wykluczeniu poważnej przyczyny przez lekarza. Nie wykazano, że głóg poprawia ukrwienie mięśnia sercowego lub reguluje ciśnienie w sposób opisany w pierwotnym twierdzeniu.",
+      "explanation_incorrect": "Pozostałe krzewy nie są głogiem. Objawów sercowych nie należy samodzielnie leczyć ziołami; ból w klatce piersiowej, duszność lub obrzęki wymagają pilnej oceny."
     },
     {
-      "subcategory": "Leki osłonowe",
-      "question": "Jak nazywają się nasiona, które pod wpływem wody pęcznieją i wytwarzają dużą ilość śluzu, stosowane jako lek osłonowy dla żołądka?",
+      "subcategory": "Nasiona śluzowe",
+      "question": "Które nasiona po namoczeniu wydzielają śluz roślinny i są tradycyjnie stosowane jako łagodny środek zwiększający objętość stolca?",
       "options": [
         "Siemię lniane",
-        "Nasiona chia",
+        "Nasiona sezamu",
         "Nasiona słonecznika",
         "Pestki dyni"
       ],
       "answer": "Siemię lniane",
-      "explanation_correct": "Śluz zawarty w siemieniu lnianym powleka błonę śluzową przewodu pokarmowego, chroniąc ją przed podrażnieniami.",
-      "explanation_incorrect": "Pozostałe nasiona są cenione w diecie głównie jako źródło tłuszczów i białka, a nie za właściwości osłonowe śluzu.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Siemię lniane po kontakcie z wodą tworzy śluz. Preparaty z nasion mają tradycyjne zastosowanie m.in. przy łagodnych dolegliwościach trawiennych i zaparciach; nie ma podstaw do obiecywania, że osłaniają lub leczą żołądek.",
+      "explanation_incorrect": "Pozostałe nasiona nie są siemieniem lnianym. Siemię należy przyjmować z odpowiednią ilością płynu i z dala od niektórych leków, których wchłanianie może opóźniać."
     },
     {
       "subcategory": "Zioła na drogi żółciowe",
-      "question": "Która roślina o niebieskich kwiatach, często występująca jako chwast polny, jest znana ze wspomagania wydzielania żółci?",
+      "question": "Która roślina o niebieskich kwiatach ma korzeń tradycyjnie stosowany jako gorzki surowiec przy łagodnych dolegliwościach trawiennych?",
       "options": [
         "Cykoria podróżnik",
         "Chaber bławatek",
@@ -198,10 +172,8 @@
         "Ostrożeń warzywny"
       ],
       "answer": "Cykoria podróżnik",
-      "explanation_correct": "Cykoria podróżnik wykazuje silne działanie żółciopędne dzięki zawartości substancji gorzkich.",
-      "explanation_incorrect": "Chaber i żmijowiec są roślinami ozdobnymi lub miododajnymi, niebędącymi surowcami żółciopędnymi.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Korzeń cykorii podróżnik jest gorzkim surowcem zielarskim. Tradycyjne zastosowanie nie potwierdza, że cykoria „silnie” pobudza wydzielanie żółci ani że leczy choroby dróg żółciowych.",
+      "explanation_incorrect": "Pozostałe rośliny nie odpowiadają opisowi cykorii. Przy chorobach pęcherzyka lub dróg żółciowych samodzielne stosowanie preparatów żółciopędnych może być niewłaściwe."
     },
     {
       "subcategory": "Fitoterapia kofeiny",
@@ -213,14 +185,12 @@
         "Kakaowiec"
       ],
       "answer": "Yerba mate",
-      "explanation_correct": "Yerba mate, czyli ostrokrzew paragwajski, jest bogata w mateinę (kofeinę) i składniki mineralne.",
-      "explanation_incorrect": "Kawa i herbata to rośliny pochodzące z innych regionów świata i mają inną charakterystykę przetwórczą.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Yerba mate to napar z ostrokrzewu paragwajskiego (Ilex paraguariensis), zawierający kofeinę. „Mateina” nie jest inną substancją niż kofeina, a zawartość składników zależy od produktu i sposobu parzenia.",
+      "explanation_incorrect": "Pozostałe napoje pochodzą z innych roślin. Yerba mate, podobnie jak kawa i herbata, może dostarczać kofeiny."
     },
     {
       "subcategory": "Leki wykrztuśne",
-      "question": "Jak nazywa się korzeń o wyjątkowo słodkim smaku, który w ziołolecznictwie wykorzystuje się jako skuteczny środek wykrztuśny?",
+      "question": "Który słodki korzeń jest składnikiem niektórych tradycyjnych preparatów stosowanych jako środek wykrztuśny przy kaszlu związanym z przeziębieniem?",
       "options": [
         "Lukrecja",
         "Imbir",
@@ -228,10 +198,8 @@
         "Lubczyk"
       ],
       "answer": "Lukrecja",
-      "explanation_correct": "Lukrecja zawiera glicyryzynę, która upłynnia wydzielinę śluzową w drogach oddechowych, ułatwiając odkrztuszanie.",
-      "explanation_incorrect": "Imbir i chrzan działają rozgrzewająco, a lubczyk stymulująco, jednak to lukrecja posiada specyficzne działanie wykrztuśne.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Korzeń lukrecji ma tradycyjne zastosowanie w preparatach wykrztuśnych. Nie wykazano, że glicyryzyna po prostu „upłynnia” śluz; nadmierne lub długotrwałe spożycie lukrecji może podnosić ciśnienie i obniżać stężenie potasu.",
+      "explanation_incorrect": "Lukrecja jest rozpoznawalna po słodkim korzeniu. Tradycyjny status preparatu nie oznacza skuteczności w każdym kaszlu ani bezpieczeństwa przy dużych dawkach."
     },
     {
       "subcategory": "Zioła na wątrobę",
@@ -250,7 +218,7 @@
     },
     {
       "subcategory": "Adaptogeny",
-      "question": "Który korzeń rośliny, nazywany w ajurwedzie 'siłą konia', jest obecnie jednym z najpopularniejszych adaptogenów na świecie?",
+      "question": "Który korzeń rośliny używanej w Ajurwedzie pochodzi z krzewu, którego sanskrycka nazwa bywa tłumaczona jako „zapach konia”?",
       "options": [
         "Ashwagandha",
         "Żeń-szeń",
@@ -258,10 +226,8 @@
         "Dzięgiel chiński"
       ],
       "answer": "Ashwagandha",
-      "explanation_correct": "Ashwagandha (witania ospała) jest uważana za adaptogen o silnych właściwościach antystresowych.",
-      "explanation_incorrect": "Żeń-szeń to inny adaptogen, ale nie nazywa się go 'siłą konia', co jest dosłownym tłumaczeniem nazwy z sanskrytu.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ashwagandha to witania ospała (Withania somnifera); nazwę łączy się z zapachem korzenia, a tradycja ajurwedyjska wiąże ją z siłą. Badania nad stresem są ograniczone i nie uzasadniają określenia jej jako silnego środka antystresowego. Opisywano też możliwe uszkodzenia wątroby i interakcje lekowe.",
+      "explanation_incorrect": "Żeń-szeń, lukrecja i dzięgiel chiński to inne rośliny. Popularne określenie „adaptogen” nie jest gwarancją skuteczności ani bezpieczeństwa."
     },
     {
       "subcategory": "Zioła na nerki",
@@ -273,14 +239,12 @@
         "Gryka zwyczajna"
       ],
       "answer": "Skrzyp polny",
-      "explanation_correct": "Skrzyp polny zawiera związki krzemu. Ziele skrzypu ma tradycyjne zastosowanie w łagodnych dolegliwościach dróg moczowych.",
-      "explanation_incorrect": "Pozostałe rośliny nie posiadają tak wysokiej koncentracji biodostępnej krzemionki.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ziele skrzypu zawiera związki krzemu i ma tradycyjne zastosowanie przy łagodnych dolegliwościach układu moczowego. Nie ma wystarczających dowodów, że poprawia stan włosów; zawartość krzemu nie oznacza automatycznie jego wysokiej biodostępności.",
+      "explanation_incorrect": "Pozostałe rośliny nie są skrzypem. Nie należy wyciągać wniosków o skuteczności dla włosów lub nerek wyłącznie z obecności danego składnika."
     },
     {
       "subcategory": "Medycyna klasztorna",
-      "question": "Członkowie którego zakonu słyną z wielowiekowej tradycji produkcji ziołowych likierów leczniczych opartych na klasztornych recepturach?",
+      "question": "Z jakim zakonem łączy się nazwa francuskiego likieru ziołowego Bénédictine?",
       "options": [
         "Benedyktyni",
         "Franciszkanie",
@@ -288,14 +252,12 @@
         "Jezuici"
       ],
       "answer": "Benedyktyni",
-      "explanation_correct": "Benedyktyni odegrali kluczową rolę w europejskim zielarstwie i historii produkcji eliksirów ziołowych.",
-      "explanation_incorrect": "Choć inne zakony także zajmowały się medycyną, to benedyktyni stali się ikoną w produkcji likierów ziołowych.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nazwa marki Bénédictine nawiązuje do benedyktynów i legendy o dawnym klasztornym eliksirze. Współczesny likier stworzył Alexandre Le Grand w 1863–1864 r.; opowieść o średniowiecznej recepturze jest elementem historii marki.",
+      "explanation_incorrect": "Pytanie dotyczy skojarzenia i historii nazwy marki, a nie dowodu, że zakonnicy do dziś wytwarzają lek ziołowy."
     },
     {
       "subcategory": "Zioła przeciwgorączkowe",
-      "question": "Który surowiec roślinny o miodowym zapachu jest powszechnie stosowany w medycynie domowej jako środek napotny i przeciwgorączkowy?",
+      "question": "Który surowiec roślinny jest tradycyjnie używany w naparach przy objawach przeziębienia i kojarzy się z miodowym aromatem?",
       "options": [
         "Kwiat lipy",
         "Rumianek",
@@ -303,10 +265,8 @@
         "Dziewanna"
       ],
       "answer": "Kwiat lipy",
-      "explanation_correct": "Kwiat lipy zawiera flawonoidy i związki śluzowe, które zwiększają potliwość i łagodzą objawy przeziębienia.",
-      "explanation_incorrect": "Mimo że bez czarny również działa napotnie, to kwiat lipy jest surowcem o najbardziej charakterystycznym miodowym aromacie.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kwiat lipy ma tradycyjne zastosowanie w łagodzeniu objawów przeziębienia. Nie ma podstaw, by twierdzić, że napar obniża gorączkę przez zwiększanie potliwości; nie zastępuje leczenia ani konsultacji przy wysokiej lub utrzymującej się gorączce.",
+      "explanation_incorrect": "Kwiat bzu czarnego również ma tradycyjne zastosowanie przy przeziębieniu, dlatego pytanie wskazuje na lipę jej charakterystycznym aromatem, a nie na wyłączność działania napotnego."
     },
     {
       "subcategory": "Rośliny trujące w medycynie",
@@ -325,7 +285,7 @@
     },
     {
       "subcategory": "Zioła na oczy",
-      "question": "Która roślina polna o drobnych kwiatach jest tradycyjnie stosowana w okładach na zmęczone i podrażnione oczy?",
+      "question": "Jak nazywa się roślina, której używano tradycyjnie w ludowych preparatach określanych jako „świetlik” na zmęczone oczy?",
       "options": [
         "Świetlik lekarski",
         "Chaber bławatek",
@@ -333,10 +293,8 @@
         "Krwawnik pospolity"
       ],
       "answer": "Świetlik lekarski",
-      "explanation_correct": "Świetlik lekarski zawiera garbniki i flawonoidy, które działają przeciwzapalnie na spojówki.",
-      "explanation_incorrect": "Inne wymienione zioła mają właściwości lecznicze, ale nie są uznawane za typowe remedium okulistyczne.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Świetlik lekarski ma historię stosowania w ludowych preparatach do oczu, ale skuteczność takiego zastosowania nie została dobrze potwierdzona. Nie należy wkraplać do oka ani przykładać do niego niesterylnych naparów lub okładów, które mogą podrażnić oko albo wprowadzić zakażenie.",
+      "explanation_incorrect": "Pozostałe rośliny nie są świetlikiem. Tradycyjne użycie nie czyni okładów bezpiecznym ani skutecznym leczeniem okulistycznym."
     },
     {
       "subcategory": "Medycyna Ajurwedyjska",
@@ -355,7 +313,7 @@
     },
     {
       "subcategory": "Zioła na problemy skórne",
-      "question": "Która roślina o fioletowych kwiatach i lepkich, szorstkich liściach jest tradycyjnie stosowana w maściach na regenerację tkanek?",
+      "question": "Która roślina o fioletowych kwiatach i szorstkich liściach jest źródłem surowca stosowanego w niektórych maściach na niewielkie siniaki i skręcenia?",
       "options": [
         "Żywokost lekarski",
         "Dziurawiec zwyczajny",
@@ -363,14 +321,12 @@
         "Mniszek lekarski"
       ],
       "answer": "Żywokost lekarski",
-      "explanation_correct": "Żywokost zawiera alantoinę, która przyspiesza podziały komórkowe i procesy gojenia skóry.",
-      "explanation_incorrect": "Inne wymienione gatunki nie posiadają tak wysokiej koncentracji alantoiny wspomagającej regenerację.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Korzeń żywokostu występuje w niektórych preparatach na niewielkie siniaki i skręcenia; EMA uznaje to zastosowanie za tradycyjne. Preparaty powinny być stosowane wyłącznie na nieuszkodzoną skórę i krótko. Żywokost zawiera alkaloidy pirolizydynowe szkodliwe dla wątroby po przyjęciu doustnym.",
+      "explanation_incorrect": "Pozostałe gatunki nie są żywokostem. Nie należy stosować żywokostu na otwarte rany ani spożywać go w celu przyspieszania gojenia."
     },
     {
       "subcategory": "Etnobotanika",
-      "question": "Jak nazywa się tradycyjny napar z Amazonii sporządzany z kory Banisteriopsis caapi oraz liści Psychotria viridis?",
+      "question": "Jak nazywa się psychoaktywny wywar rytualny z Amazonii sporządzany m.in. z Banisteriopsis caapi i liści Psychotria viridis?",
       "options": [
         "Ayahuasca",
         "Mate",
@@ -378,14 +334,12 @@
         "Kava"
       ],
       "answer": "Ayahuasca",
-      "explanation_correct": "Ayahuasca to rytualny wywar używany przez plemiona Amazonii, mający znaczenie kultowe i medyczne.",
-      "explanation_incorrect": "Pozostałe napoje są naparami ziołowymi, ale nie odpowiadają opisowi składników ani tradycji Amazonii.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ayahuasca jest psychoaktywnym wywarem używanym w niektórych tradycjach religijnych Amazonii. Nie jest ustalonym domowym lekiem; może wywołać silne działania niepożądane i niebezpieczne interakcje z lekami.",
+      "explanation_incorrect": "Składniki i nazwa wskazują na ayahuaskę. Jej użycie rytualne nie dowodzi bezpieczeństwa ani skuteczności medycznej."
     },
     {
       "subcategory": "Zioła na trawienie",
-      "question": "Która roślina o intensywnie gorzkim smaku jest od wieków stosowana w fitoterapii jako środek pobudzający wydzielanie soków trawiennych?",
+      "question": "Które gorzkie ziele ma tradycyjne zastosowanie przy przejściowym braku apetytu i łagodnych dolegliwościach trawiennych?",
       "options": [
         "Piołun",
         "Bylica pospolita",
@@ -393,10 +347,8 @@
         "Drapacz lekarski"
       ],
       "answer": "Piołun",
-      "explanation_correct": "Absyntyna zawarta w piołunie jest jednym z najbardziej gorzkich związków, efektywnie stymulując trawienie.",
-      "explanation_incorrect": "Pozostałe rośliny mają inne zastosowania zielarskie lub są mniej efektywne w stymulacji trawienia.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ziele piołunu zawiera gorzką absyntynę i ma ograniczone, tradycyjne zastosowanie przy łagodnych dolegliwościach trawiennych. Nie potwierdzono, że skutecznie stymuluje trawienie ani zwalcza pasożyty; preparaty muszą spełniać wymogi bezpieczeństwa dotyczące tujonu.",
+      "explanation_incorrect": "Piołun jest gorzkim surowcem zielarskim, ale jego gorzki smak nie dowodzi skuteczności. Wrotycz i inne toksyczne rośliny nie powinny być stosowane do samodzielnego odrobaczania."
     },
     {
       "subcategory": "Olejek eteryczny",
@@ -414,8 +366,8 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Zioła przeciwcukrzycowe",
-      "question": "Które liście krzewu są w medycynie naturalnej stosowane w celu hamowania wchłaniania węglowodanów w przewodzie pokarmowym?",
+      "subcategory": "Rośliny badane w zaburzeniach glikemii",
+      "question": "Liście którego krzewu są badane jako źródło związku DNJ, hamującego enzym α-glukozydazę w badaniach laboratoryjnych?",
       "options": [
         "Morwa biała",
         "Ginkgo biloba",
@@ -423,10 +375,8 @@
         "Leszczyna pospolita"
       ],
       "answer": "Morwa biała",
-      "explanation_correct": "Liście morwy białej zawierają alkaloidy, które hamują enzymy rozkładające cukry złożone.",
-      "explanation_incorrect": "Pozostałe rośliny nie wykazują specyficznego działania hamującego alfa-glukozydazę w takim stopniu.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście morwy białej zawierają m.in. 1-deoksynojirimycynę (DNJ), badaną pod kątem wpływu na trawienie węglowodanów. Wyniki laboratoryjne nie dowodzą, że suplement z morwy skutecznie leczy cukrzycę lub bezpiecznie zastępuje leki.",
+      "explanation_incorrect": "Pozostałe rośliny nie są źródłem DNJ charakterystycznego dla liści morwy. Nie należy zmieniać leczenia cukrzycy na podstawie twierdzeń o suplementach."
     },
     {
       "subcategory": "Medycyna Chińska",
@@ -445,7 +395,7 @@
     },
     {
       "subcategory": "Zioła na układ krążenia",
-      "question": "Która roślina o szerokich liściach, z rodziny czosnkowatych, jest ceniona za swoje właściwości przeciwmiażdżycowe?",
+      "question": "Która roślina z rodziny czosnkowatych ma szerokie liście i jest badana pod kątem wpływu na profil lipidowy, choć nie jest potwierdzonym lekiem przeciwmiażdżycowym?",
       "options": [
         "Czosnek niedźwiedzi",
         "Czosnek wonny",
@@ -453,10 +403,8 @@
         "Cebula siedmiolatka"
       ],
       "answer": "Czosnek niedźwiedzi",
-      "explanation_correct": "Czosnek niedźwiedzi wykazuje silne działanie obniżające ciśnienie i poprawiające profil lipidowy krwi.",
-      "explanation_incorrect": "Inne wymienione rośliny choć należą do tej samej rodziny, nie są utożsamiane z tą rośliną leśną.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czosnek niedźwiedzi to leśna roślina z rodzaju Allium o szerokich liściach. Brakuje podstaw do twierdzenia, że silnie obniża ciśnienie lub poprawia profil lipidowy; nie należy przedstawiać go jako leczenia miażdżycy.",
+      "explanation_incorrect": "Pozostałe odpowiedzi to inne rośliny z rodziny czosnkowatych, lecz opis morfologiczny wskazuje na czosnek niedźwiedzi."
     },
     {
       "subcategory": "Leki przeciwbólowe",
@@ -468,14 +416,12 @@
         "Pokrzyk wilcza jagoda"
       ],
       "answer": "Mak lekarski",
-      "explanation_correct": "Morfina została wyizolowana z niedojrzałych makówek maku lekarskiego w XIX wieku.",
-      "explanation_incorrect": "Pozostałe wymienione rośliny również są źródłem alkaloidów, ale innego rodzaju i przeznaczenia.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Morfina została wyizolowana na początku XIX wieku z opium, czyli wysuszonego mleczka maku lekarskiego. To silnie działający opioidowy lek, a nie domowy surowiec zielarski.",
+      "explanation_incorrect": "Pozostałe rośliny zawierają inne związki. Sam fakt, że substancja pochodzi z rośliny, nie oznacza, że jej używanie jest bezpieczne."
     },
     {
       "subcategory": "Zioła na rany",
-      "question": "Która powszechna roślina łąkowa, ze względu na zawartość śluzów, jest często stosowana jako doraźny okład na drobne skaleczenia i otarcia?",
+      "question": "Która roślina łąkowa ma liście przykładane dawniej w medycynie ludowej jako okład na drobne otarcia?",
       "options": [
         "Babka lancetowata",
         "Podbiał pospolity",
@@ -483,10 +429,8 @@
         "Krwawnik pospolity"
       ],
       "answer": "Babka lancetowata",
-      "explanation_correct": "Liście babki lancetowatej są tradycyjnie przykładane do ran, by złagodzić ból i przyspieszyć gojenie dzięki substancjom śluzowym.",
-      "explanation_incorrect": "Inne wymienione rośliny również mają właściwości lecznicze, ale nie są tradycyjnym 'plastrem' roślinnym.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście babki lancetowatej tradycyjnie przykładano na drobne otarcia. Skuteczność takiego okładu nie jest dobrze potwierdzona, a niesterylne liście mogą zanieczyścić ranę; do rany należy używać czystych, odpowiednich materiałów.",
+      "explanation_incorrect": "Inne wymienione rośliny nie odpowiadają temu ludowemu skojarzeniu. Nie należy traktować świeżych liści jako sterylnego opatrunku."
     },
     {
       "subcategory": "Medycyna ludowa",
@@ -498,14 +442,12 @@
         "Żagiew łuskowata"
       ],
       "answer": "Czyreń brzozowy",
-      "explanation_correct": "Czyreń brzozowy znany był z właściwości antybakteryjnych i użyteczności w rozpalaniu ognia.",
-      "explanation_incorrect": "Inne grzyby są jadalne lub niejadalne, ale nie posiadają tradycji użycia jako hubka znanej medycyny ludowej.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czyreń brzozowy był używany jako hubka do krzesania ognia, a także pojawiał się w tradycjach ludowych. Nie ma podstaw, by przypisywać mu klinicznie potwierdzone działanie przeciwbakteryjne lub zalecać go jako lek.",
+      "explanation_incorrect": "Pozostałe grzyby nie są typowym źródłem hubki opisywanym w tym kontekście. Historyczne zastosowanie nie potwierdza leczniczej skuteczności."
     },
     {
-      "subcategory": "Zioła na anemię",
-      "question": "Która silnie parząca roślina jest tradycyjnie wykorzystywana w ziołolecznictwie, między innymi przy łagodnych dolegliwościach dróg moczowych?",
+      "subcategory": "Zioła na drogi moczowe",
+      "question": "Która parząca roślina ma liście tradycyjnie stosowane w niektórych preparatach zwiększających ilość wydalanego moczu?",
       "options": [
         "Pokrzywa zwyczajna",
         "Szczaw zwyczajny",
@@ -513,14 +455,12 @@
         "Szpinak"
       ],
       "answer": "Pokrzywa zwyczajna",
-      "explanation_correct": "Liście pokrzywy tradycyjnie wykorzystywano w preparatach wspomagających wydalanie moczu.",
-      "explanation_incorrect": "Szczaw, jarmuż i szpinak nie mają charakterystycznych parzących włosków pokrzywy.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście pokrzywy mają tradycyjne zastosowanie przy łagodnych dolegliwościach układu moczowego. Nie jest to potwierdzone leczenie zakażenia dróg moczowych ani niedokrwistości.",
+      "explanation_incorrect": "Szczaw, jarmuż i szpinak nie mają parzących włosków charakterystycznych dla pokrzywy. Sama zawartość składników odżywczych nie czyni ich lekami na anemię."
     },
     {
       "subcategory": "Fitoterapia łupieżu",
-      "question": "Który korzeń rośliny dwuletniej, popularnie wykorzystywany w preparatach kosmetycznych, jest stosowany w medycynie ludowej na schorzenia skóry głowy?",
+      "question": "Który korzeń rośliny dwuletniej pojawia się w tradycyjnych i kosmetycznych preparatach do pielęgnacji skóry głowy?",
       "options": [
         "Łopian",
         "Mniszek lekarski",
@@ -528,14 +468,12 @@
         "Marchew zwyczajna"
       ],
       "answer": "Łopian",
-      "explanation_correct": "Olej z korzenia łopianu wykazuje działanie przeciwłupieżowe i odżywcze dla cebulek włosowych.",
-      "explanation_incorrect": "Pozostałe wymienione korzenie nie wykazują tak silnego ukierunkowania na leczenie łupieżu.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Korzeń łopianu jest składnikiem niektórych tradycyjnych i kosmetycznych preparatów. Brakuje wiarygodnych dowodów, że olej z łopianu leczy łupież lub odżywia cebulki włosów.",
+      "explanation_incorrect": "Pozostałe korzenie nie są łopianem. Tradycyjne zastosowanie kosmetyczne nie potwierdza leczenia chorób skóry głowy."
     },
     {
-      "subcategory": "Zioła na przeziębienie",
-      "question": "Który owoc, będący w istocie jadalnym owocem rzekomym krzewu, jest jednym z najbogatszych źródeł naturalnej witaminy C?",
+      "subcategory": "Owoce o dużej zawartości witaminy C",
+      "question": "Owoce którego krzewu są często bogate w witaminę C, choć jej zawartość zależy od gatunku, dojrzałości i przetworzenia?",
       "options": [
         "Dzika róża",
         "Bez czarny",
@@ -543,10 +481,8 @@
         "Jarzębina pospolita"
       ],
       "answer": "Dzika róża",
-      "explanation_correct": "Owoce dzikiej róży są cenione w medycynie ludowej jako środek wzmacniający odporność przy przeziębieniu.",
-      "explanation_incorrect": "Pozostałe owoce również mają właściwości prozdrowotne, ale zawartość witaminy C w nich jest znacznie niższa.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Owoce dzikiej róży mogą zawierać dużo witaminy C, ale jej ilość jest zmienna i zmniejsza się m.in. podczas przetwarzania. Nie dowodzi to, że owoce róży zapobiegają przeziębieniu lub „wzmacniają odporność”.",
+      "explanation_incorrect": "Pozostałe owoce także dostarczają składników odżywczych, a ich zawartość witaminy C zależy od gatunku i sposobu przygotowania."
     },
     {
       "subcategory": "Medycyna starożytna",
@@ -558,14 +494,12 @@
         "Balsam peruwiański"
       ],
       "answer": "Mirra",
-      "explanation_correct": "Mirra była używana w starożytności jako środek antyseptyczny i wonny środek leczniczy.",
-      "explanation_incorrect": "Inne wymienione substancje to żywice, ale nie posiadają dokładnie takiej samej charakterystyki historycznej jak mirra.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mirra to wonna żywica z drzew rodzaju Commiphora, używana historycznie jako kadzidło i w różnych praktykach medycznych. Ten fakt historyczny nie potwierdza skuteczności mirry jako środka antyseptycznego.",
+      "explanation_incorrect": "Olibanum, benzoes i balsam peruwiański to inne surowce żywiczne lub balsamiczne; nie są mirrą."
     },
     {
       "subcategory": "Zioła na stres",
-      "question": "Jak nazywa się roślina wysokogórska, określana mianem 'złotego korzenia', stosowana w celu zwiększenia odporności na stres?",
+      "question": "Która roślina wysokogórska, nazywana „złotym korzeniem”, ma w UE tradycyjne zastosowanie przy objawach stresu, takich jak zmęczenie i wyczerpanie?",
       "options": [
         "Różeniec górski",
         "Dzięgiel litwor",
@@ -573,10 +507,8 @@
         "Arcydzięgiel"
       ],
       "answer": "Różeniec górski",
-      "explanation_correct": "Różeniec górski jest adaptogenem, który pomaga organizmowi radzić sobie z negatywnymi skutkami stresu.",
-      "explanation_incorrect": "Pozostałe rośliny mają inne właściwości terapeutyczne, niebędące typowymi dla adaptogenów przeciwstresowych.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Różeniec górski jest nazywany „złotym korzeniem”. Tradycyjny zakres zastosowania nie dowodzi, że zwiększa odporność na stres lub zapobiega jego skutkom u każdego; dane kliniczne są ograniczone.",
+      "explanation_incorrect": "Pozostałe rośliny nie są różeńcem górskim. Określenie „adaptogen” samo w sobie nie stanowi dowodu skuteczności."
     },
     {
       "subcategory": "Metody aplikacji",
@@ -603,10 +535,8 @@
         "Sok"
       ],
       "answer": "Odwar",
-      "explanation_correct": "Odwar stosuje się do twardych części roślin, aby przez długotrwałe gotowanie wydobyć substancje trudno rozpuszczalne.",
-      "explanation_incorrect": "Inne wymienione metody są przeznaczone do części miękkich roślin lub wymagają krótszego czasu przygotowania.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odwar to wodny preparat otrzymywany przez gotowanie surowca, często twardszych części roślin, takich jak kora lub korzeń. Nie każdą roślinę należy gotować: ogrzewanie może niszczyć niektóre składniki, dlatego sposób przygotowania zależy od surowca.",
+      "explanation_incorrect": "Napar zalewa się gorącą wodą, a macerat sporządza bez gotowania; dobór metody zależy od konkretnego surowca."
     },
     {
       "subcategory": "Zioła na gardło",
@@ -614,18 +544,16 @@
       "options": [
         "Prawoślaz lekarski",
         "Dziewanna wielkokwiatowa",
-        "Ślaz dziki",
+        "Rumianek pospolity",
         "Podbiał pospolity"
       ],
       "answer": "Prawoślaz lekarski",
-      "explanation_correct": "Prawoślaz lekarski jest bogaty w związki śluzowe, które powlekają błony śluzowe dróg oddechowych.",
-      "explanation_incorrect": "Pozostałe rośliny również działają osłonowo, jednak nie są głównymi gatunkami charakteryzującymi się omawianymi cechami morfologicznymi w tym kontekście.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Korzeń prawoślazu lekarskiego zawiera śluzy i ma tradycyjne zastosowanie w łagodzeniu podrażnień jamy ustnej i gardła. Jest to zastosowanie tradycyjne, a nie dowód leczenia zakażenia.",
+      "explanation_incorrect": "Dziewanna i podbiał mają odrębne tradycyjne zastosowania. Rumianek nie jest prawoślazem; podobieństwo łagodzącego zastosowania nie oznacza tożsamości surowców."
     },
     {
       "subcategory": "Zioła przyprawowe",
-      "question": "Wymień roślinę przyprawową powszechnie stosowaną w medycynie ludowej w celu ułatwienia trawienia tłustych potraw.",
+      "question": "Która przyprawa kuchenna jest tradycyjnie dodawana do cięższych potraw i bywa używana w ludowych naparach trawiennych?",
       "options": [
         "Majeranek",
         "Lubczyk",
@@ -633,14 +561,12 @@
         "Melisa"
       ],
       "answer": "Majeranek",
-      "explanation_correct": "Majeranek zawiera olejki eteryczne, które stymulują wydzielanie soków trawiennych i żółci.",
-      "explanation_incorrect": "Inne zioła wymienione w grupie mają odmienne zastosowania, głównie aromatyczne lub uspokajające.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Majeranek jest przyprawą i surowcem stosowanym w niektórych tradycjach kulinarnych i zielarskich. Nie ma podstaw, by twierdzić, że jego olejek skutecznie pobudza wydzielanie soków trawiennych i żółci.",
+      "explanation_incorrect": "Pozostałe przyprawy mają inne typowe zastosowania kulinarne. Tradycyjne użycie nie dowodzi skuteczności leczniczej."
     },
     {
-      "subcategory": "Afrodyzjaki naturalne",
-      "question": "Z kory jakiego afrykańskiego drzewa pozyskuje się alkaloid o działaniu uznawanym za afrodyzjak, nazywany johimbiną?",
+      "subcategory": "Rośliny i alkaloidy",
+      "question": "Z kory jakiego afrykańskiego drzewa pozyskuje się johimbinę, związek historycznie stosowany jako afrodyzjak, ale obarczony poważnym ryzykiem?",
       "options": [
         "Johimba lekarska",
         "Kakaowiec",
@@ -648,14 +574,12 @@
         "Kawa"
       ],
       "answer": "Johimba lekarska",
-      "explanation_correct": "Johimbina jest alkaloidem występującym w korze johimby lekarskiej (Pausinystalia yohimbe).",
-      "explanation_incorrect": "Pozostałe rośliny zawierają głównie kofeinę lub teobrominę, które mają inne działanie stymulujące.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kora Pausinystalia yohimbe zawiera johimbinę. Tradycyjne zastosowanie jako afrodyzjaku nie dowodzi skuteczności; johimbe wiązano z zaburzeniami ciśnienia i rytmu serca, zawałami oraz drgawkami.",
+      "explanation_incorrect": "Pozostałe rośliny nie są źródłem johimbiny. Suplementów z johimbe nie należy przedstawiać jako bezpiecznych środków na sprawność seksualną."
     },
     {
-      "subcategory": "Zioła detoksykujące",
-      "question": "Która roślina, znana z liści o smaku przypominającym ogórek, jest wykorzystywana w ziołolecznictwie?",
+      "subcategory": "Cechy i zastosowania tradycyjne",
+      "question": "Która roślina ma liście o smaku przypominającym świeży ogórek?",
       "options": [
         "Ogórecznik",
         "Mniszek lekarski",
@@ -663,10 +587,8 @@
         "Krwawnik"
       ],
       "answer": "Ogórecznik",
-      "explanation_correct": "Liście ogórecznika lekarskiego mają charakterystyczny zapach i smak, przypominający świeżego ogórka.",
-      "explanation_incorrect": "Pozostałe zioła detoksykujące nie posiadają charakterystycznego, ogórkowego aromatu.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście ogórecznika lekarskiego mają charakterystyczny, ogórkowy smak. Pytanie dotyczy cechy kulinarnej, nie „detoksykacji”: ogórecznik może zawierać alkaloidy pirolizydynowe, dlatego nie należy zalecać regularnego doustnego stosowania niekontrolowanych preparatów.",
+      "explanation_incorrect": "Pozostałe rośliny nie mają tak charakterystycznego ogórkowego smaku. „Detoks” nie jest potwierdzonym wskazaniem dla tych ziół."
     },
     {
       "subcategory": "Rośliny oleiste",
@@ -678,14 +600,12 @@
         "Len zwyczajny"
       ],
       "answer": "Rącznik pospolity",
-      "explanation_correct": "Olej rycynowy otrzymuje się z nasion rącznika pospolitego (Ricinus communis).",
-      "explanation_incorrect": "Z pozostałych roślin tłoczy się inne rodzaje olejów roślinnych.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Olej rycynowy otrzymuje się z nasion rącznika pospolitego. Surowe nasiona zawierają toksyczną rycynę; olej farmaceutyczny jest oczyszczany i nie wolno zastępować go surowymi nasionami.",
+      "explanation_incorrect": "Pozostałe rośliny dostarczają innych olejów. Nie należy spożywać nasion rącznika ani samodzielnie pozyskiwać z nich preparatów."
     },
     {
-      "subcategory": "Zioła na pamięć",
-      "question": "Jak nazywa się długowieczne drzewo, którego liście w kształcie wachlarza są stosowane w preparatach poprawiających koncentrację?",
+      "subcategory": "Rośliny stosowane w suplementach",
+      "question": "Którego drzewa liście w kształcie wachlarza są używane w standaryzowanych ekstraktach, które bywają reklamowane na pamięć i koncentrację?",
       "options": [
         "Miłorząb japoński",
         "Sosna wydmowa",
@@ -693,14 +613,12 @@
         "Kryptomeria"
       ],
       "answer": "Miłorząb japoński",
-      "explanation_correct": "Liście miłorzębu mają charakterystyczny wachlarzowaty kształt. Wpływ jego preparatów na sprawność poznawczą zdrowych osób pozostaje niepewny.",
-      "explanation_incorrect": "Pozostałe drzewa nie są stosowane w lecznictwie ze względu na właściwości nootropowe.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście miłorzębu mają charakterystyczny kształt wachlarza. Nie ma rozstrzygających dowodów, że suplementy z miłorzębu poprawiają koncentrację u zdrowych osób.",
+      "explanation_incorrect": "Opis liści wskazuje na miłorząb japoński (Ginkgo biloba). Reklamowanie ekstraktu jako środka na pamięć nie jest równoznaczne z potwierdzoną skutecznością."
     },
     {
       "subcategory": "Medycyna ludowa",
-      "question": "Wskaż warzywo, którego liście w medycynie ludowej tradycyjnie wykorzystuje się jako zimny okład na stłuczenia i obrzęki.",
+      "question": "Którego warzywa liście stosowano tradycyjnie jako chłodny okład na obrzęki lub stłuczenia?",
       "options": [
         "Kapusta biała",
         "Sałata rzymska",
@@ -708,14 +626,12 @@
         "Brokuł"
       ],
       "answer": "Kapusta biała",
-      "explanation_correct": "Liście kapusty są stosowane w medycynie ludowej ze względu na właściwości przeciwzapalne i chłodzące.",
-      "explanation_incorrect": "Inne wymienione warzywa nie posiadają tradycyjnego zastosowania w okładach leczniczych.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście kapusty bywają stosowane jako ludowy chłodny okład. Nie ma podstaw, by przypisywać im potwierdzone działanie przeciwzapalne lub leczenie stłuczeń; poważny uraz wymaga oceny medycznej.",
+      "explanation_incorrect": "Pozostałe warzywa nie są tak typowo kojarzone z tym zwyczajem. Okład nie powinien zastępować diagnostyki urazu."
     },
     {
-      "subcategory": "Antybiotyki roślinne",
-      "question": "Jak nazywa się główna organiczna substancja siarkowa występująca w czosnku, odpowiadająca za jego antybakteryjne właściwości?",
+      "subcategory": "Związki roślinne",
+      "question": "Jak nazywa się związek siarkowy powstający po rozdrobnieniu czosnku, gdy alliinę przekształca enzym alliinaza?",
       "options": [
         "Allicyna",
         "Inulina",
@@ -723,13 +639,11 @@
         "Mentol"
       ],
       "answer": "Allicyna",
-      "explanation_correct": "Allicyna powstaje po rozdrobnieniu czosnku z aliiny pod wpływem enzymu allinazy.",
-      "explanation_incorrect": "Inne wymienione związki to substancje obecne w innych ziołach lub mające inne właściwości chemiczne.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Po uszkodzeniu tkanek czosnku enzym alliinaza przekształca alliinę, wytwarzając m.in. allicynę. Jej aktywność przeciw drobnoustrojom w warunkach laboratoryjnych nie oznacza, że czosnek jest antybiotykiem do leczenia zakażeń u ludzi.",
+      "explanation_incorrect": "Inulina, eugenol i mentol to inne związki. Określenie „antybiotyk roślinny” wprowadzałoby w błąd co do leczenia infekcji."
     },
     {
-      "subcategory": "Zioła na serce",
+      "subcategory": "Leki nasercowe pochodzenia roślinnego",
       "question": "Z której rośliny, charakteryzującej się okazałymi kwiatostanami, pozyskuje się digoksynę stosowaną w chorobach serca?",
       "options": [
         "Naparstnica wełnista",
@@ -738,10 +652,8 @@
         "Oleander pospolity"
       ],
       "answer": "Naparstnica wełnista",
-      "explanation_correct": "Naparstnica wełnista jest surowcem do produkcji glikozydów nasercowych, w tym digoksyny.",
-      "explanation_incorrect": "Choć inne rośliny też zawierają glikozydy, to właśnie ten gatunek jest przemysłowym źródłem digoksyny.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Naparstnica wełnista jest przemysłowym źródłem digoksyny. Roślina i jej preparaty są toksyczne; digoksyna ma wąski zakres terapeutyczny i stosuje się ją wyłącznie jako precyzyjnie dawkowany lek.",
+      "explanation_incorrect": "Konwalia, miłek i oleander także zawierają glikozydy nasercowe, lecz nie są standardowym przemysłowym źródłem digoksyny. Wszystkie wymienione rośliny mogą być niebezpieczne."
     },
     {
       "subcategory": "Napar ziołowy",
@@ -760,7 +672,7 @@
     },
     {
       "subcategory": "Zioła na menopauzę",
-      "question": "Która roślina, nazywana potocznie 'kobiecym korzeniem', jest powszechnie stosowana w łagodzeniu objawów menopauzy?",
+      "question": "Która roślina jest często stosowana w suplementach reklamowanych na objawy menopauzy, choć skuteczność i bezpieczeństwo wymagają ostrożnej oceny?",
       "options": [
         "Pluskwica groniasta",
         "Koniczyna czerwona",
@@ -768,10 +680,8 @@
         "Niepokalanek mnisi"
       ],
       "answer": "Pluskwica groniasta",
-      "explanation_correct": "Kłącze pluskwicy groniastej zawiera związki łagodzące uderzenia gorąca i wahania nastroju.",
-      "explanation_incorrect": "Inne wymienione rośliny również są stosowane w ginekologii, ale nie noszą nazwy 'kobiecego korzenia'.",
-      "last_verified_at": "2026-06-12T17:11:25.796Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pluskwica groniasta (Actaea racemosa) jest składnikiem suplementów przeznaczonych na objawy menopauzy. Wyniki badań są niespójne, a u osób stosujących komercyjne produkty zgłaszano rzadkie, czasem poważne uszkodzenia wątroby.",
+      "explanation_incorrect": "Pozostałe rośliny również bywają reklamowane na objawy menopauzy, ale ta odpowiedź identyfikuje pluskwicę. Nie należy obiecywać, że jej kłącze łagodzi uderzenia gorąca lub wahania nastroju."
     },
     {
       "subcategory": "Medycyna ludowa",
@@ -790,7 +700,7 @@
     },
     {
       "subcategory": "Zioła na stawy",
-      "question": "Która afrykańska roślina, znana jako 'czarci pazur', znajduje zastosowanie w leczeniu stanów zapalnych stawów?",
+      "question": "Która afrykańska roślina, znana jako „czarci pazur”, ma tradycyjne zastosowanie przy niewielkich bólach stawów?",
       "options": [
         "Hakorośl rozesłana",
         "Boswelia",
@@ -798,10 +708,8 @@
         "Imbir"
       ],
       "answer": "Hakorośl rozesłana",
-      "explanation_correct": "Hakorośl rozesłana (Harpagophytum procumbens) zawiera harpagozydy o działaniu przeciwbólowym.",
-      "explanation_incorrect": "Pozostałe zioła również działają przeciwzapalnie, ale nie są tożsame z nazwą 'czarci pazur'.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hakorośl rozesłana (Harpagophytum procumbens) zawiera harpagozydy. Preparaty mają tradycyjne zastosowanie przy określonych dolegliwościach bólowych, ale nie można z tego wnioskować o pewnym działaniu przeciwbólowym ani leczeniu zapalenia stawów.",
+      "explanation_incorrect": "Pozostałe rośliny nie noszą nazwy „czarci pazur”. Składniki roślinne nie zastępują rozpoznania przy przewlekłym bólu."
     },
     {
       "subcategory": "Farmakognozja",
@@ -820,7 +728,7 @@
     },
     {
       "subcategory": "Zioła na drogi oddechowe",
-      "question": "Która przyprawa kuchenna, będąca częstym składnikiem syropów na kaszel, posiada silne działanie wykrztuśne?",
+      "question": "Która przyprawa jest składnikiem niektórych tradycyjnych preparatów na kaszel produktywny związany z przeziębieniem?",
       "options": [
         "Tymianek",
         "Cynamon",
@@ -828,14 +736,12 @@
         "Gałka muszkatołowa"
       ],
       "answer": "Tymianek",
-      "explanation_correct": "Tymol zawarty w tymianku upłynnia wydzielinę zalegającą w drogach oddechowych.",
-      "explanation_incorrect": "Inne przyprawy mają działanie rozgrzewające lub trawienne, ale nie są głównymi ziołami wykrztuśnymi.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tymianek ma w UE tradycyjne zastosowanie przy kaszlu produktywnym związanym z przeziębieniem. Nie wykazano, że tymol samodzielnie upłynnia wydzielinę; wnioski dotyczą konkretnych preparatów i nie są równoznaczne z mocnym dowodem klinicznym.",
+      "explanation_incorrect": "Inne przyprawy mają odmienne tradycyjne zastosowania. Jeśli kaszel utrzymuje się, nasila lub towarzyszą mu duszność i wysoka gorączka, należy skonsultować się z lekarzem."
     },
     {
-      "subcategory": "Leki naturalne",
-      "question": "Jak nazywa się substancja wytwarzana przez pszczoły, stosowana w medycynie jako naturalny antybiotyk i środek regenerujący?",
+      "subcategory": "Produkty pszczele",
+      "question": "Jak nazywa się żywiczna substancja zbierana przez pszczoły i używana przez nie do uszczelniania ula?",
       "options": [
         "Propolis",
         "Mleczko pszczele",
@@ -843,14 +749,12 @@
         "Pyłek pszczeli"
       ],
       "answer": "Propolis",
-      "explanation_correct": "Propolis, zwany kitem pszczelim, wykazuje szerokie spektrum działania antybakteryjnego.",
-      "explanation_incorrect": "Pozostałe produkty pszczele pełnią inne funkcje i mają inny skład chemiczny.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Propolis, czyli kit pszczeli, służy pszczołom m.in. do uszczelniania ula. Działanie przeciwbakteryjne obserwowane w części badań laboratoryjnych nie czyni propolisu „naturalnym antybiotykiem” do leczenia zakażeń.",
+      "explanation_incorrect": "Mleczko pszczele, wosk i pyłek to inne produkty pszczele o odmiennym składzie i funkcji."
     },
     {
       "subcategory": "Zioła na oparzenia",
-      "question": "Która popularna roślina doniczkowa posiada wewnątrz liści miąższ powszechnie stosowany w łagodzeniu oparzeń?",
+      "question": "Która roślina doniczkowa dostarcza żelu z wnętrza liści, stosowanego miejscowo w niektórych preparatach na niewielkie oparzenia?",
       "options": [
         "Aloes",
         "Kalanchoe",
@@ -858,14 +762,12 @@
         "Grubosz"
       ],
       "answer": "Aloes",
-      "explanation_correct": "Żel aloesowy przyspiesza regenerację naskórka i działa łagodząco na poparzoną skórę.",
-      "explanation_incorrect": "Choć niektóre z tych roślin mają zastosowanie w medycynie ludowej, aloes jest najskuteczniejszy w leczeniu oparzeń.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żel aloesowy badano jako miejscowy środek na oparzenia; wyniki sugerują możliwą korzyść, ale są ograniczone. Nie należy stosować go jako pewnego leczenia poważnych lub rozległych oparzeń; żelu nie należy mylić z lateksem aloesowym.",
+      "explanation_incorrect": "Aloes jest odpowiedzią botaniczną. Zastosowanie miejscowe nie oznacza, że aloes jest najskuteczniejszym środkiem ani że wszystkie produkty z tej rośliny są równoważne."
     },
     {
       "subcategory": "Medycyna ludowa",
-      "question": "Jak nazywa się metoda leczenia naturalnego polegająca na wykorzystaniu pijawek lekarskich w celu poprawy krążenia krwi?",
+      "question": "Jak nazywa się procedura wykorzystująca pijawki lekarskie jako nadzorowane leczenie wspomagające zastoju żylnego, np. po niektórych operacjach rekonstrukcyjnych?",
       "options": [
         "Hirudoterapia",
         "Akupresura",
@@ -873,14 +775,12 @@
         "Osteopatia"
       ],
       "answer": "Hirudoterapia",
-      "explanation_correct": "Hirudoterapia wykorzystuje właściwości hirudiny zawartej w ślinie pijawek do rozrzedzania krwi.",
-      "explanation_incorrect": "Pozostałe metody terapii nie są związane z wykorzystaniem pijawek lekarskich.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hirudoterapia wykorzystuje pijawki lekarskie w wybranych wskazaniach klinicznych pod nadzorem personelu medycznego. Hirudyna działa przeciwkrzepliwie; procedura wiąże się m.in. z ryzykiem krwawienia i zakażenia, a nie jest ogólną metodą „poprawy krążenia”.",
+      "explanation_incorrect": "Akupresura, apiterapia i osteopatia nie polegają na zastosowaniu pijawek. Hirudoterapii nie należy wykonywać samodzielnie."
     },
     {
       "subcategory": "Zioła na pasożyty",
-      "question": "Która roślina o intensywnym zapachu i żółtych kwiatach, używana dawniej przeciw pasożytom, jest znana ze swoich właściwości toksycznych przy niewłaściwym dawkowaniu?",
+      "question": "Która toksyczna roślina o żółtych kwiatach była dawniej używana przeciw pasożytom, lecz nie powinna być stosowana do samodzielnego odrobaczania?",
       "options": [
         "Wrotycz pospolity",
         "Dziurawiec zwyczajny",
@@ -888,14 +788,12 @@
         "Tatarak"
       ],
       "answer": "Wrotycz pospolity",
-      "explanation_correct": "Wrotycz zawiera tujon, substancję wykazującą bardzo silne działanie przeciwpasożytnicze.",
-      "explanation_incorrect": "Inne wymienione rośliny również mają zastosowanie w medycynie, ale nie są głównymi środkami przeciwpasożytniczymi.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wrotycz pospolity zawiera tujon i inne związki mogące wywołać ciężkie działania toksyczne. Historyczne użycie przeciw pasożytom nie potwierdza skuteczności ani bezpieczeństwa; nie należy przyjmować go jako środka przeciwpasożytniczego.",
+      "explanation_incorrect": "Opis kwiatów i dawnego zastosowania wskazuje na wrotycz. Toksyczność nie jest dowodem skutecznego działania leczniczego."
     },
     {
       "subcategory": "Zioła na żyły",
-      "question": "Z nasion jakiego drzewa pozyskuje się ekstrakt z escyną, stosowany w preparatach wzmacniających naczynia krwionośne?",
+      "question": "Z nasion którego drzewa pozyskuje się standaryzowane ekstrakty zawierające escynę, stosowane tradycyjnie do łagodzenia objawów przewlekłej niewydolności żylnej?",
       "options": [
         "Kasztanowiec zwyczajny",
         "Dąb szypułkowy",
@@ -903,10 +801,8 @@
         "Lipa drobnolistna"
       ],
       "answer": "Kasztanowiec zwyczajny",
-      "explanation_correct": "Escyna wyodrębniona z nasion kasztanowca uszczelnia naczynia krwionośne i zmniejsza obrzęki.",
-      "explanation_incorrect": "Pozostałe drzewa nie dostarczają surowców o tak dużej skuteczności w leczeniu żylaków.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ekstrakt z nasion kasztanowca zawiera escynę. Badano go w łagodzeniu niektórych objawów niewydolności żylnej, ale nie „uszczelnia” naczyń w sposób gwarantujący wyleczenie żylaków; surowe nasiona są toksyczne.",
+      "explanation_incorrect": "Pozostałe drzewa nie są źródłem ekstraktu z nasion kasztanowca. Należy odróżnić standaryzowany preparat od surowych nasion."
     },
     {
       "subcategory": "Rośliny aromatyczne",
@@ -918,14 +814,12 @@
         "Tymianek"
       ],
       "answer": "Lawenda",
-      "explanation_correct": "Lawenda jest jedną z najbardziej rozpoznawalnych roślin uprawnych Prowansji, cenioną za właściwości relaksacyjne.",
-      "explanation_incorrect": "Rozmaryn, szałwia i tymianek to popularne zioła, ale nie są tak silnie kojarzone z wizualną ikonografią Prowansji jak lawenda.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lawenda jest jedną z roślin najbardziej kojarzonych z uprawami Prowansji. Jej zapach wykorzystuje się w produktach aromatycznych, lecz samo to nie dowodzi klinicznego działania relaksacyjnego.",
+      "explanation_incorrect": "Rozmaryn, szałwia i tymianek także są uprawiane w regionie, ale lawenda jest jego najbardziej rozpoznawalnym symbolem."
     },
     {
-      "subcategory": "Zioła na gorączkę",
-      "question": "Jak w polskiej tradycji ludowej nazywa się centurię pospolitą, uznawaną dawniej za substytut chininy w zwalczaniu gorączki?",
+      "subcategory": "Nazwy ludowe",
+      "question": "Jak brzmi polska nazwa potoczna centurii pospolitej (Centaurium erythraea)?",
       "options": [
         "Tysiącznik",
         "Piołun",
@@ -933,10 +827,8 @@
         "Goryczka"
       ],
       "answer": "Tysiącznik",
-      "explanation_correct": "Tysiącznik pospolity (centuria) ze względu na swoje gorzkie właściwości nazywany jest historycznie polską chininą.",
-      "explanation_incorrect": "Piołun i wrotycz to rośliny o zupełnie innych właściwościach i zastosowaniach medycznych.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Centuria pospolita jest nazywana także tysiącznikiem. Jej gorzki smak nie czyni jej zamiennikiem chininy i nie oznacza skutecznego leczenia gorączki ani malarii.",
+      "explanation_incorrect": "Piołun, wrotycz i goryczka to inne rośliny. Historyczne lub potoczne określenie nie powinno być utożsamiane z działaniem chininy."
     },
     {
       "subcategory": "Medycyna ludowa",
@@ -948,14 +840,12 @@
         "Moksybusty"
       ],
       "answer": "Bańki lekarskie",
-      "explanation_correct": "Podczas stawiania baniek podciśnienie zasysa skórę do naczynia, pozostawiając charakterystyczne ślady.",
-      "explanation_incorrect": "Pozostałe metody nie polegają na zasysaniu skóry do baniek.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bańki wytwarzają podciśnienie, które zasysa skórę i może pozostawić wybroczyny. To opis mechaniki zabiegu, a nie dowód, że bańki skutecznie leczą infekcje lub inne choroby.",
+      "explanation_incorrect": "Pijawki, akupunktura i moksybustia nie polegają na zasysaniu skóry do naczynia."
     },
     {
       "subcategory": "Zioła na katar",
-      "question": "Który korzeń warzywny o ostrym smaku jest tradycyjnie stosowany w medycynie ludowej przy zatkanym nosie?",
+      "question": "Który ostry korzeń warzywny bywał tradycyjnie wąchany lub stosowany w ludowych praktykach przy uczuciu zatkanego nosa?",
       "options": [
         "Chrzan",
         "Czosnek",
@@ -963,14 +853,12 @@
         "Imbir"
       ],
       "answer": "Chrzan",
-      "explanation_correct": "Chrzan ma ostry zapach i był tradycyjnie używany przy dolegliwościach nosa.",
-      "explanation_incorrect": "Czosnek i cebula są cebulami, a imbir jest kłączem.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chrzan ma ostry zapach, dlatego bywał używany w praktykach ludowych przy zatkanym nosie. Nie ma podstaw do przedstawiania go jako potwierdzonego leku udrażniającego nos; może też podrażniać błony śluzowe.",
+      "explanation_incorrect": "Czosnek i cebula są cebulami, a imbir jest kłączem; odpowiedź wyróżnia korzeń chrzanu. Tradycyjny zwyczaj nie jest dowodem skuteczności."
     },
     {
       "subcategory": "Metody suszenia",
-      "question": "W jakim tradycyjnym pomieszczeniu gospodarczym najczęściej suszono zebrane zioła ze względu na przewiewność?",
+      "question": "W którym z wymienionych pomieszczeń gospodarstwa tradycyjnie suszono zioła, korzystając z przewiewu?",
       "options": [
         "Strych",
         "Spiżarnia",
@@ -978,10 +866,8 @@
         "Obora"
       ],
       "answer": "Strych",
-      "explanation_correct": "Strych był najbardziej przewiewnym i suchym miejscem w dawnym gospodarstwie, idealnym do konserwacji ziół.",
-      "explanation_incorrect": "Piwnica jest zbyt wilgotna, spiżarnia zazwyczaj nie zapewnia odpowiedniej wentylacji, a obora to miejsce zanieczyszczone.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Strych mógł służyć do suszenia ziół, jeśli był suchy i przewiewny. Nie był to jedyny ani zawsze najlepszy sposób; przy suszeniu ważne są warunki i ochrona surowca przed wilgocią oraz zanieczyszczeniem.",
+      "explanation_incorrect": "Piwnica zwykle bywa wilgotna, a obora nie jest odpowiednim czystym miejscem do suszenia surowców. Warunki na strychu zależą od gospodarstwa."
     },
     {
       "subcategory": "Zioła na żołądek",
@@ -993,10 +879,8 @@
         "Chrzan"
       ],
       "answer": "Imbir",
-      "explanation_correct": "Imbir zawiera gingerole, które hamują odruch wymiotny i łagodzą dolegliwości dyspeptyczne.",
-      "explanation_incorrect": "Kurkuma działa głównie przeciwzapalnie, lubczyk polepsza trawienie, ale nie jest głównym środkiem przeciwwymiotnym.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Imbir może łagodzić nudności w niektórych sytuacjach, szczególnie nudności związane z ciążą. Wyników nie można uogólniać na każdy rodzaj nudności; dokładny mechanizm nie sprowadza się do prostego „hamowania odruchu” przez gingerole.",
+      "explanation_incorrect": "Kurkuma, lubczyk i chrzan nie są tym samym surowcem. Skuteczność imbiru zależy od przyczyny nudności i konkretnego preparatu."
     },
     {
       "subcategory": "Medycyna ludowa",
@@ -1008,10 +892,8 @@
         "Miód jodłowy"
       ],
       "answer": "Syrop z sosny",
-      "explanation_correct": "Syrop z pędów sosny bogaty jest w witaminę C i olejki eteryczne działające wykrztuśnie.",
-      "explanation_incorrect": "Wymienione pozostałe produkty nie są standardowymi preparatami o tak utrwalonej w polskiej medycynie ludowej pozycji na kaszel.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Syrop z młodych pędów sosny jest tradycyjnym domowym preparatem na kaszel. Nie ma podstaw, by przypisywać mu wysoką zawartość witaminy C po gotowaniu ani potwierdzone działanie wykrztuśne.",
+      "explanation_incorrect": "Pozostałe nazwy nie są tak typowymi określeniami tego ludowego syropu. Tradycyjne użycie nie potwierdza leczenia infekcji."
     },
     {
       "subcategory": "Zioła na sen",
@@ -1023,14 +905,12 @@
         "Lawenda"
       ],
       "answer": "Chmiel zwyczajny",
-      "explanation_correct": "Szyszki chmielu zawierają związki działające wyciszająco na układ nerwowy.",
-      "explanation_incorrect": "Waleriana i melisa są ziołami uspokajającymi, ale nie są używane w browarnictwie.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szyszki chmielu są składnikiem niektórych tradycyjnych preparatów wspomagających sen, często w połączeniu z kozłkiem. Nie dowodzi to, że sam chmiel jest skutecznym środkiem nasennym.",
+      "explanation_incorrect": "Kozłek, melisa i lawenda nie są roślinami używanymi w piwowarstwie w taki sposób jak chmiel."
     },
     {
-      "subcategory": "Fitoterapia nowotworów (tradycyjna)",
-      "question": "Jak nazywa się półpasożytnicza roślina, która w tradycji ludowej była ceniona za wszechstronne właściwości lecznicze, w tym wspomagające układ krwionośny?",
+      "subcategory": "Rośliny półpasożytnicze i badania",
+      "question": "Jak nazywa się półpasożytnicza roślina, której preparaty badano w onkologii, ale nie wykazano, by leczyły raka?",
       "options": [
         "Jemioła",
         "Bluszcz",
@@ -1038,10 +918,8 @@
         "Borówka"
       ],
       "answer": "Jemioła",
-      "explanation_correct": "Jemioła jest półpasożytem rosnącym na drzewach. Preparaty z jemioły bada się także w onkologii, lecz ich skuteczność nie jest jednoznacznie potwierdzona.",
-      "explanation_incorrect": "Bluszcz, wrzos i borówka nie są półpasożytami rosnącymi na drzewach.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jemioła jest półpasożytem rosnącym na drzewach. Preparaty z jemioły badano w onkologii, lecz dowody nie potwierdzają, że leczą raka; mogą powodować działania niepożądane i nie powinny zastępować terapii onkologicznej.",
+      "explanation_incorrect": "Bluszcz, wrzos i borówka nie są półpasożytami drzew. Sam fakt badań nad preparatem nie oznacza, że wykazano jego skuteczność."
     },
     {
       "subcategory": "Zioła na pęcherz",
@@ -1053,10 +931,8 @@
         "Poziomka"
       ],
       "answer": "Żurawina",
-      "explanation_correct": "Żurawinę badano pod kątem zapobiegania nawracającym zakażeniom układu moczowego; wyniki zależą od populacji i preparatu.",
-      "explanation_incorrect": "Jagody czarne, jeżyny i poziomki nie są tak charakterystycznie kojarzone z tym zastosowaniem.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Produkty z żurawiny mogą zmniejszać ryzyko nawrotów zakażeń u niektórych grup, m.in. u kobiet z nawracającymi zakażeniami; dowody różnią się zależnie od grupy i produktu. Żurawina nie leczy aktywnego zakażenia układu moczowego.",
+      "explanation_incorrect": "Żurawina jest charakterystycznie kojarzona z profilaktyką nawrotów, ale nie należy z tego wyciągać wniosku, że jest środkiem przeciwbakteryjnym lub leczeniem zakażenia."
     },
     {
       "subcategory": "Rośliny przyprawowe",
@@ -1068,13 +944,11 @@
         "Pieprz"
       ],
       "answer": "Goździki",
-      "explanation_correct": "Eugenol zawarty w goździkach ma silne działanie antyseptyczne i znieczulające.",
-      "explanation_incorrect": "Pozostałe przyprawy nie posiadają właściwości znieczulających w stopniu umożliwiającym walkę z bólem zęba.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Goździki zawierają eugenol, używany m.in. w niektórych materiałach stomatologicznych ze względu na miejscowe działanie znieczulające. Nie dowodzi to bezpieczeństwa ani skuteczności samodzielnego przykładania olejku do bolącego zęba; może podrażnić tkanki.",
+      "explanation_incorrect": "Pozostałe przyprawy nie są równie typowym źródłem eugenolu. Ból zęba wymaga oceny stomatologicznej, a olejki eteryczne nie zastępują leczenia."
     },
     {
-      "subcategory": "Zioła na depresję",
+      "subcategory": "Nazwy ludowe",
       "question": "Pod jaką nazwą potoczną w ziołolecznictwie znany jest dziurawiec zwyczajny, tradycyjnie zbierany w dzień letniego przesilenia?",
       "options": [
         "Dziurawiec zwyczajny",
@@ -1083,10 +957,8 @@
         "Ziele św. Antoniego"
       ],
       "answer": "Ziele św. Jana",
-      "explanation_correct": "Dziurawiec nazywany jest zielem św. Jana ze względu na czas jego kwitnienia przypadający na czerwiec.",
-      "explanation_incorrect": "„Dziurawiec zwyczajny” to nazwa gatunku; określenie ludowe nawiązuje do św. Jana.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dziurawiec zwyczajny bywa nazywany zielem św. Jana, od tradycyjnego związku jego kwitnienia z dniem św. Jana. To pytanie dotyczy nazwy ludowej, nie leczenia depresji; dziurawiec może wchodzić w poważne interakcje z lekami.",
+      "explanation_incorrect": "„Dziurawiec zwyczajny” jest nazwą gatunku, a „ziele św. Jana” określeniem ludowym. Nie należy samodzielnie leczyć depresji tym ziołem."
     },
     {
       "subcategory": "Medycyna naturalna",
@@ -1099,13 +971,11 @@
       ],
       "answer": "Aromaterapia",
       "explanation_correct": "Aromaterapia wykorzystuje olejki eteryczne; skuteczność zależy od konkretnego zastosowania i nie powinna być zakładana z góry.",
-      "explanation_incorrect": "Pozostałe pojęcia odnoszą się do szerszego stosowania roślin (fitoterapia), metod energii (homeopatia) lub produktów pszczelich (apiterapia).",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Fitoterapia oznacza stosowanie roślin w celach leczniczych, a apiterapia wykorzystuje produkty pszczele. Homeopatia opiera się na zasadach podobieństwa i skrajnych rozcieńczeń, a nie na „metodach energii”."
     },
     {
-      "subcategory": "Zioła na wzrok",
-      "question": "Jakie leśne owoce, bogate w antocyjany, są tradycyjnie zalecane w medycynie ludowej dla poprawy zdrowia oczu?",
+      "subcategory": "Tradycyjne zastosowania owoców",
+      "question": "Które leśne owoce, zawierające antocyjany, były tradycyjnie zalecane w ludowych praktykach na wzrok, choć korzyść kliniczna nie jest potwierdzona?",
       "options": [
         "Jagoda czernica",
         "Borówka brusznica",
@@ -1113,14 +983,12 @@
         "Jarzębina"
       ],
       "answer": "Jagoda czernica",
-      "explanation_correct": "Czernica zawiera antocyjany poprawiające mikrokrążenie w gałce ocznej.",
-      "explanation_incorrect": "Inne owoce nie mają tak silnego udokumentowanego wpływu na wzrok jak jagoda czernica.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czernica zawiera antocyjany, ale nie wykazano, by poprawiała mikrokrążenie w gałce ocznej lub leczyła wady wzroku. To tradycyjne zalecenie nie jest potwierdzonym działaniem medycznym.",
+      "explanation_incorrect": "Pozostałe owoce mają własne składniki odżywcze, ale nie są tym tradycyjnym skojarzeniem. Żaden owoc nie zastępuje badania wzroku."
     },
     {
-      "subcategory": "Zioła na laktację",
-      "question": "Jak nazywa się przyprawa otrzymywana z owoców biedrzeńca anyżu, tradycyjnie stosowana jako środek mlekopędny?",
+      "subcategory": "Zastosowania tradycyjne w laktacji",
+      "question": "Która przyprawa otrzymywana z owoców biedrzeńca anyżu była tradycyjnie używana jako środek mlekopędny?",
       "options": [
         "Anyż",
         "Koper włoski",
@@ -1128,10 +996,8 @@
         "Kolendra"
       ],
       "answer": "Anyż",
-      "explanation_correct": "Anyż od wieków jest wykorzystywany w medycynie ludowej jako środek mlekopędny.",
-      "explanation_incorrect": "Koper włoski i kminek również wykorzystywano tradycyjnie, ale nie są owocami biedrzeńca anyżu.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Anyż ma tradycję stosowania jako środek mlekopędny, ale nie ma dobrych dowodów, że zwiększa ilość mleka. Skoncentrowanych preparatów nie należy używać w laktacji bez konsultacji, m.in. ze względu na możliwe działania niepożądane.",
+      "explanation_incorrect": "Koper włoski i kminek także były używane w tradycji, ale pochodzą z innych gatunków. Tradycyjne zastosowanie nie potwierdza skuteczności mlekopędnej."
     },
     {
       "subcategory": "Toksykologia naturalna",
@@ -1150,7 +1016,7 @@
     },
     {
       "subcategory": "Medycyna ludowa",
-      "question": "Jaki tłuszcz zwierzęcy był tradycyjnie stosowany w medycynie ludowej do nacierania klatki piersiowej przy infekcjach dróg oddechowych?",
+      "question": "Jaki tłuszcz zwierzęcy był tradycyjnie używany do nacierania klatki piersiowej przy przeziębieniu?",
       "options": [
         "Smalec gęsi",
         "Sadło borsucze",
@@ -1158,14 +1024,12 @@
         "Tran"
       ],
       "answer": "Smalec gęsi",
-      "explanation_correct": "Smalec gęsi jest znany z właściwości rozgrzewających i łagodzących kaszel.",
-      "explanation_incorrect": "Pozostałe tłuszcze nie posiadają takiej samej renomy w tradycji nacierań klatki piersiowej.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Smalec gęsi pojawia się w polskich domowych zwyczajach nacierania. Brakuje dowodów, że takie nacieranie łagodzi infekcję lub kaszel; uczucie ciepła nie leczy przyczyny choroby.",
+      "explanation_incorrect": "Pozostałe tłuszcze nie są tak typowym skojarzeniem z tym zwyczajem. Żadne nacieranie nie powinno opóźniać oceny duszności, wysokiej gorączki lub pogorszenia stanu."
     },
     {
-      "subcategory": "Zioła na odporność",
-      "question": "Jaki krzew, posiadający białe kwiatostany i ciemne owoce, jest fundamentem medycyny ludowej w walce z przeziębieniem?",
+      "subcategory": "Owoce w tradycji przeziębień",
+      "question": "Który krzew o białych kwiatostanach i ciemnych owocach ma owoce tradycyjnie stosowane w domowych preparatach na objawy przeziębienia?",
       "options": [
         "Bez czarny",
         "Kalina koralowa",
@@ -1173,13 +1037,11 @@
         "Jarzębina"
       ],
       "answer": "Bez czarny",
-      "explanation_correct": "Bez czarny jest powszechnie stosowany w walce z wirusami grypy i przeziębienia.",
-      "explanation_incorrect": "Pozostałe krzewy mają inne profile terapeutyczne lub są stosowane w mniejszym zakresie.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bez czarny ma tradycyjne zastosowanie przy przeziębieniu. Badania nad grypą są ograniczone i nie dowodzą, że preparaty zwalczają wirusy; surowe lub niedojrzałe owoce, liście i kora mogą być toksyczne.",
+      "explanation_incorrect": "Opis ciemnych owoców i białych kwiatostanów wskazuje na bez czarny. Tradycyjne użycie nie oznacza, że roślina leczy grypę lub inne zakażenia."
     },
     {
-      "subcategory": "Zioła na reumatyzm",
+      "subcategory": "Tradycyjne okłady",
       "question": "Która roślina oleista była tradycyjnie używana w postaci okładów na stawy, wywołując silne przekrwienie skóry?",
       "options": [
         "Gorczyca",
@@ -1188,10 +1050,8 @@
         "Słonecznik"
       ],
       "answer": "Gorczyca",
-      "explanation_correct": "Nasiona gorczycy drażnią receptory skórne, powodując przekrwienie i ulgę w bólu stawów.",
-      "explanation_incorrect": "Len działa łagodząco, a pozostałe rośliny są głównie źródłem olejów kulinarnych.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nasiona gorczycy mogą drażnić skórę i wywołać zaczerwienienie, ale nie ma podstaw, by uznawać taki okład za leczenie stawów. Długie lub bezpośrednie stosowanie może doprowadzić do podrażnienia albo oparzenia.",
+      "explanation_incorrect": "Len zwykle stosowano w innych rodzajach okładów, a pozostałe rośliny nie pasują do tej praktyki. Zaczerwienienie skóry nie oznacza zmniejszenia zapalenia stawu."
     },
     {
       "subcategory": "Skarby natury",
@@ -1203,14 +1063,12 @@
         "Mleczko pszczele"
       ],
       "answer": "Obnóża",
-      "explanation_correct": "Obnóża to pyłek wymieszany z nektarem, który pszczoły transportują do ula.",
-      "explanation_incorrect": "Pierzga, propolis i mleczko to inne produkty pszczele powstałe w wyniku dalszej obróbki w ulu.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Obnóża to zlepione ładunki pyłku kwiatowego przenoszone przez pszczoły na tylnych odnóżach w koszyczkach. W ulu pyłek może być dalej przetwarzany w pierzgę.",
+      "explanation_incorrect": "Pierzga, propolis i mleczko pszczele to odrębne produkty. Pytanie dotyczy pyłku transportowanego na odnóżach."
     },
     {
       "subcategory": "Zioła na cerę",
-      "question": "Która roślina polna o charakterystycznych niebieskich kwiatach jest tradycyjnie stosowana w pielęgnacji cery jako środek łagodzący?",
+      "question": "Która roślina polna o niebieskich kwiatach była tradycyjnie wykorzystywana w kosmetycznych preparatach do pielęgnacji skóry?",
       "options": [
         "Chaber bławatek",
         "Cytrus pomarańczowy",
@@ -1218,14 +1076,12 @@
         "Ostrożeń warzywny"
       ],
       "answer": "Chaber bławatek",
-      "explanation_correct": "Chaber bławatek jest surowcem zielarskim o właściwościach przeciwzapalnych, cenionym w kosmetyce.",
-      "explanation_incorrect": "Pozostałe gatunki nie posiadają w swoim składzie flawonoidów o tak specyficznym działaniu łagodzącym podrażnienia cery.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chaber bławatek ma tradycję zastosowania w kosmetykach, ale brakuje mocnych dowodów, że jego preparaty leczą stany zapalne lub skutecznie łagodzą podrażnienia skóry.",
+      "explanation_incorrect": "Pozostałe gatunki nie są chabrem bławatkiem. Samo wykorzystanie kosmetyczne nie dowodzi specyficznego działania przeciwzapalnego."
     },
     {
       "subcategory": "Medycyna Tybetańska",
-      "question": "Jak brzmi botaniczna nazwa rośliny, której owoce są znane w dietetyce pod popularną nazwą jagód goji?",
+      "question": "Który z wymienionych gatunków jest jednym ze źródeł owoców sprzedawanych jako jagody goji?",
       "options": [
         "Kolcowój szkarłatny",
         "Berberys zwyczajny",
@@ -1233,14 +1089,12 @@
         "Dzika róża"
       ],
       "answer": "Kolcowój szkarłatny",
-      "explanation_correct": "Lycium barbarum, czyli kolcowój szkarłatny, produkuje owoce sprzedawane jako jagody goji.",
-      "explanation_incorrect": "Pozostałe wymienione owoce jagodowe pochodzą z innych rodzin botanicznych i mają odmienny profil chemiczny.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Owoce Lycium barbarum, czyli kolcowoju szkarłatnego, są sprzedawane jako goji; podobnie wykorzystywany jest także kolcowój chiński (Lycium chinense). Goji nie jest nazwą jednego wyłącznego gatunku.",
+      "explanation_incorrect": "Pozostałe rośliny nie należą do rodzaju Lycium. Odpowiedź wskazuje jeden z gatunków, z których pochodzą owoce goji."
     },
     {
-      "subcategory": "Zioła na poprawę humoru",
-      "question": "Która ceniona przyprawa jest pozyskiwana ze słupków krokusa i tradycyjnie stosowana w medycynie ludowej jako środek poprawiający nastrój?",
+      "subcategory": "Badania nad nastrojem",
+      "question": "Która przyprawa pozyskiwana ze znamion krokusa była przedmiotem niewielkich badań nad wpływem na nastrój?",
       "options": [
         "Szafran",
         "Kurkuma",
@@ -1248,10 +1102,8 @@
         "Cynamon"
       ],
       "answer": "Szafran",
-      "explanation_correct": "Szafran (Crocus sativus) zawiera związki bioaktywne wpływające na nastrój i samopoczucie.",
-      "explanation_incorrect": "Pozostałe przyprawy mają inne zastosowania kulinarne i lecznicze, nie wykazują tak silnego działania antydepresyjnego jak szafran.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Szafran zawiera związki badane w małych próbach klinicznych pod kątem nastroju. Dostępne badania nie wystarczają, by uznać go za skuteczne leczenie depresji lub zastępstwo opieki medycznej.",
+      "explanation_incorrect": "Pozostałe przyprawy nie są znamionami Crocus sativus. Pojedyncze badania nie uzasadniają określenia szafranu jako silnego środka przeciwdepresyjnego."
     },
     {
       "subcategory": "Zioła na ból gardła",
@@ -1263,14 +1115,12 @@
         "Prawoślaz lekarski"
       ],
       "answer": "Dziewanna",
-      "explanation_correct": "Dziewanna zawiera śluzy, które powlekają błony śluzowe gardła, przynosząc ulgę w stanach zapalnych.",
-      "explanation_incorrect": "Inne rośliny choć lecznicze, mają inny skład chemiczny lub nie są typowymi surowcami śluzowymi tej kategorii.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kwiat dziewanny zawiera śluzy i jest tradycyjnie stosowany do łagodzenia podrażnień jamy ustnej i gardła. Nie oznacza to, że napar leczy infekcję lub stan zapalny.",
+      "explanation_incorrect": "Prawoślaz, podbiał i szałwia mają odrębne zastosowania, dlatego pytanie dotyczy dziewanny i jej dużych, kutnerowatych liści."
     },
     {
       "subcategory": "Zioła na nadciśnienie",
-      "question": "Jakie popularne warzywo, będące jednocześnie silnym antyseptykiem, jest powszechnie stosowane w medycynie ludowej do obniżania ciśnienia tętniczego?",
+      "question": "Które popularne warzywo zawiera związki siarkowe, a jego suplementy badano jako możliwe uzupełnienie postępowania u osób z nadciśnieniem?",
       "options": [
         "Czosnek",
         "Cebula",
@@ -1278,14 +1128,12 @@
         "Szczypiorek"
       ],
       "answer": "Czosnek",
-      "explanation_correct": "Czosnek zawiera allicynę, która pomaga w rozszerzaniu naczyń krwionośnych i regulacji ciśnienia.",
-      "explanation_incorrect": "Pozostałe warzywa z rodziny amarylkowatych nie wykazują tak silnego i udokumentowanego działania hipotensyjnego.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Suplementy czosnku mogą nieznacznie obniżać ciśnienie u części osób z nadciśnieniem, lecz dowody są ograniczone i nie dorównują skuteczności leków. Czosnek nie jest „silnym antyseptykiem” ani zamiennikiem leczenia.",
+      "explanation_incorrect": "Pozostałe warzywa nie są czosnkiem. Nie należy odstawiać leków na nadciśnienie na rzecz czosnku; suplementy mogą wchodzić w interakcje, np. zwiększać ryzyko krwawienia."
     },
     {
       "subcategory": "Historyczne postacie",
-      "question": "Którego starożytnego Greka nazywa się 'ojcem medycyny', łącząc jego imię z przysięgą lekarską i wieloma metodami ziołoleczniczymi?",
+      "question": "Którego starożytnego greckiego lekarza zwyczajowo nazywa się „ojcem medycyny” i łączy z tradycją przysięgi lekarskiej?",
       "options": [
         "Hipokrates",
         "Galen z Pergamonu",
@@ -1293,14 +1141,12 @@
         "Arystoteles z Stagiri"
       ],
       "answer": "Hipokrates",
-      "explanation_correct": "Hipokrates z Kos uważany jest za twórcę medycyny opartej na obserwacji, a nie na wierzeniach.",
-      "explanation_incorrect": "Pozostali wymienieni to starożytni filozofowie lub lekarze, ale to Hipokrates zajmuje najważniejsze miejsce w historii medycyny.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hipokrates z Kos jest tradycyjnie nazywany „ojcem medycyny”. Przysięga Hipokratesa należy do tradycji przypisywanej jego szkole, ale nie ma pewności, że napisał ją sam Hipokrates; starożytna medycyna obejmowała także ówczesne teorie przyrodnicze i religijne.",
+      "explanation_incorrect": "Pozostali uczeni byli lekarzami lub filozofami, ale zwyczajowy przydomek wiąże się z Hipokratesem. Nie należy przypisywać mu autorstwa wszystkich metod ani tekstów korpusu hipokratejskiego."
     },
     {
       "subcategory": "Zioła na biegunkę",
-      "question": "Jaki tradycyjny surowiec roślinny pozyskiwany z młodych gałązek leśnych jest stosowany w medycynie ludowej jako środek ściągający przy biegunkach?",
+      "question": "Jaki surowiec z kory dębu zawierający garbniki był tradycyjnie stosowany przy łagodnej, krótkotrwałej biegunce?",
       "options": [
         "Kora dębu",
         "Kora wierzby",
@@ -1308,29 +1154,25 @@
         "Kora brzozy"
       ],
       "answer": "Kora dębu",
-      "explanation_correct": "Kora dębu jest bogata w garbniki, które wykazują silne działanie ściągające i przeciwbiegunkowe.",
-      "explanation_incorrect": "Inne kory drzew mają zupełnie inne działanie, np. kora kruszyny jest środkiem przeczyszczającym.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kora dębu zawiera garbniki i ma tradycyjne zastosowanie przy łagodnej biegunce. Nie należy stosować jej długotrwale ani opóźniać konsultacji przy krwi w stolcu, odwodnieniu, gorączce lub utrzymujących się objawach.",
+      "explanation_incorrect": "Kora kruszyny jest tradycyjnie stosowana jako środek przeczyszczający, a nie kora dębu. Inne kory nie są tym samym surowcem garbnikowym."
     },
     {
-      "subcategory": "Medycyna Wikingów",
-      "question": "W skandynawskiej medycynie ludowej korzeń arcydzięgla, znany jako środek wzmacniający, występuje pod jaką nazwą?",
+      "subcategory": "Nazwy botaniczne",
+      "question": "Jak nazywa się po polsku roślinę Angelica archangelica, której aromatyczny korzeń wykorzystywano w tradycyjnych preparatach?",
       "options": [
-        "Litwor",
+        "Arcydzięgiel litwor",
         "Waleriana",
         "Lubczyk",
         "Dziurawiec"
       ],
-      "answer": "Litwor",
-      "explanation_correct": "Arcydzięgiel litwor (Angelica archangelica) był jedną z najważniejszych roślin leczniczych w tradycji nordyckiej.",
-      "explanation_incorrect": "Pozostałe rośliny nie odpowiadają terminologii stosowanej w odniesieniu do arcydzięgla.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Arcydzięgiel litwor",
+      "explanation_correct": "Angelica archangelica to arcydzięgiel litwor. Pytanie sprawdza nazwę rośliny, a nie skuteczność dawnych preparatów ani użycie przez konkretną grupę historyczną.",
+      "explanation_incorrect": "Waleriana, lubczyk i dziurawiec to inne gatunki; „litwor” jest częścią polskiej nazwy arcydzięgla."
     },
     {
-      "subcategory": "Zioła na apetyt",
-      "question": "Która gorzka skórka owocu cytrusowego jest tradycyjnie stosowana do sporządzania nalewek wspomagających trawienie i apetyt?",
+      "subcategory": "Roślinne surowce gorzkie",
+      "question": "Skórka którego cytrusa jest tradycyjnie używana jako gorzki składnik niektórych nalewek i preparatów trawiennych?",
       "options": [
         "Pomarańcza gorzka",
         "Cytryna zwyczajna",
@@ -1338,14 +1180,12 @@
         "Limonka"
       ],
       "answer": "Pomarańcza gorzka",
-      "explanation_correct": "Skórka pomarańczy gorzkiej zawiera gorzkie związki (auranciamaryna), które pobudzają wydzielanie soków trawiennych.",
-      "explanation_incorrect": "Pozostałe cytrusy mają inne profile smakowe i nie są zaliczane do surowców o tak dużej mocy wzmagającej apetyt.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Skórka pomarańczy gorzkiej jest stosowana jako gorzki surowiec i składnik niektórych preparatów. Nie dowodzi to, że leczy brak apetytu; suplementy z pomarańczy gorzkiej mogą zawierać synefrynę, która wiąże się z ryzykiem sercowo-naczyniowym.",
+      "explanation_incorrect": "Pozostałe cytrusy mają inne profile smakowe, ale ich zastosowania także nie powinny być przedstawiane jako gwarantowane leczenie."
     },
     {
       "subcategory": "Zioła na krzepliwość",
-      "question": "Który pospolity chwast o pierzastych liściach, według legendy używany przez Achillesa, służył dawniej do tamowania krwawiących ran?",
+      "question": "Który chwast o pierzastych liściach łączy się w legendzie z Achillesem i tradycyjnym opatrywaniem ran?",
       "options": [
         "Krwawnik pospolity",
         "Tobołki polne",
@@ -1353,10 +1193,8 @@
         "Pokrzywa zwyczajna"
       ],
       "answer": "Krwawnik pospolity",
-      "explanation_correct": "Krwawnik zawiera achilleinę, która przyspiesza krzepnięcie krwi, stąd jego nazwa i tradycyjne zastosowanie.",
-      "explanation_incorrect": "Tobołki i jasnota mają inne zastosowania, a pokrzywa, choć lecznicza, parzy skórę przy bezpośrednim kontakcie.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krwawnik pospolity jest związany z legendą o Achillesie i historycznym stosowaniem na rany. Nie ma wystarczających podstaw, by twierdzić, że zawarta w nim „achilleina” przyspiesza krzepnięcie; niesterylnych roślin nie należy przykładać do ran.",
+      "explanation_incorrect": "Pozostałe rośliny nie są krwawnikiem. Legenda i użycie ludowe nie potwierdzają skuteczności hemostatycznej."
     },
     {
       "subcategory": "Zioła łagodzące",
@@ -1368,14 +1206,12 @@
         "Tymianek"
       ],
       "answer": "Rumianek pospolity",
-      "explanation_correct": "Kwiaty rumianku zawierają olejek eteryczny o charakterystycznym jabłkowym aromacie, wykorzystywany w stanach skurczowych.",
-      "explanation_incorrect": "Pozostałe zioła mają zupełnie inne aromaty, np. mentolowy lub cytrynowy.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rumianek ma charakterystyczny zapach, często porównywany do jabłek. Jego kwiaty są tradycyjnie stosowane m.in. przy łagodnych dolegliwościach skurczowych, ale nie należy obiecywać leczenia stanów zapalnych.",
+      "explanation_incorrect": "Melisa, mięta i tymianek mają inne typowe aromaty. Aromat pomaga rozpoznać roślinę, ale nie dowodzi jej skuteczności leczniczej."
     },
     {
       "subcategory": "Produkty pszczele",
-      "question": "Który unikalny produkt pszczeli, stanowiący wyłączny pokarm pszczelej królowej, jest stosowany jako środek wzmacniający odporność?",
+      "question": "Który produkt pszczeli jest pokarmem larw królowej i jest reklamowany jako środek „wzmacniający odporność”, choć nie ma na to dobrych dowodów?",
       "options": [
         "Mleczko pszczele",
         "Propolis",
@@ -1383,14 +1219,12 @@
         "Wosk pszczeli"
       ],
       "answer": "Mleczko pszczele",
-      "explanation_correct": "Mleczko pszczele jest wydzieliną pszczół karmicielek i posiada wyjątkowo bogaty skład odżywczy.",
-      "explanation_incorrect": "Pozostałe produkty, choć wartościowe, nie pełnią tej samej funkcji biologicznej co mleczko pszczele.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mleczko pszczele jest wydzieliną pszczół karmicielek i pokarmem larw królowej. Jego skład odżywczy nie oznacza, że wzmacnia odporność człowieka; korzyści zdrowotne nie zostały dobrze potwierdzone.",
+      "explanation_incorrect": "Propolis, pyłek i wosk są innymi produktami pszczelimi. Żaden z nich nie powinien być uznawany za potwierdzony środek wzmacniający odporność."
     },
     {
-      "subcategory": "Zioła na serce",
-      "question": "Jaka wonna bylina leśna, znana ze swojego charakterystycznego zapachu, jest w ziołolecznictwie stosowana jako lek wspomagający pracę serca?",
+      "subcategory": "Rośliny trujące i glikozydy nasercowe",
+      "question": "Która wonna bylina leśna o białych kwiatach zawiera toksyczne glikozydy nasercowe i nie nadaje się do samodzielnego leczenia serca?",
       "options": [
         "Konwalia majowa",
         "Kozłek lekarski",
@@ -1398,14 +1232,12 @@
         "Miłek wiosenny"
       ],
       "answer": "Konwalia majowa",
-      "explanation_correct": "Konwalia zawiera glikozydy nasercowe, które wzmacniają siłę skurczu mięśnia sercowego.",
-      "explanation_incorrect": "Pozostałe rośliny choć mają działanie na układ krążenia, nie pochodzą z lasów liściastych w typowy sposób dla konwalii.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Konwalia majowa zawiera glikozydy nasercowe i jest trująca. Nie jest bezpiecznym domowym lekiem na serce; zatrucie może zaburzać rytm serca.",
+      "explanation_incorrect": "Naparstnica i miłek również zawierają glikozydy nasercowe, ale opis wonnej leśnej byliny o białych kwiatach wskazuje na konwalię. Żadnej z tych roślin nie wolno stosować samodzielnie."
     },
     {
-      "subcategory": "Zioła na stany zapalne",
-      "question": "Która roślina warzywna, tworząca nasiona w charakterystycznych łuszczynach i posiadająca ostry smak, jest wykorzystywana w stanach zapalnych dróg oddechowych?",
+      "subcategory": "Tradycyjne syropy na kaszel",
+      "question": "Która ostra roślina warzywna była tradycyjnie używana w domowych syropach na kaszel?",
       "options": [
         "Rzodkiew czarna",
         "Chrzan pospolity",
@@ -1413,14 +1245,12 @@
         "Kapusta warzywna"
       ],
       "answer": "Rzodkiew czarna",
-      "explanation_correct": "Rzodkiew czarna wykazuje działanie wykrztuśne i bakteriobójcze dzięki zawartości związków siarkowych.",
-      "explanation_incorrect": "Chociaż inne wymienione należą do tej samej rodziny, to rzodkiew czarna jest surowcem o najdłuższej tradycji leczenia stanów zapalnych dróg oddechowych.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Czarna rzodkiew bywa składnikiem ludowych syropów na kaszel. Nie ma podstaw, by przypisywać jej potwierdzone działanie bakteriobójcze lub leczenie zapalenia dróg oddechowych.",
+      "explanation_incorrect": "Chrzan, gorczyca i kapusta są innymi roślinami z tej grupy; tradycyjne zastosowanie nie dowodzi, że czarna rzodkiew zwalcza zakażenie."
     },
     {
       "subcategory": "Farmakognozja",
-      "question": "Jaki surowiec pochodzenia roślinnego, będący pod ochroną, przez lata wykorzystywano w medycynie jako niezwykle silny lek poprawiający pracę serca?",
+      "question": "Która wiosenna roślina z rodziny jaskrowatych zawiera glikozydy nasercowe i była dawniej surowcem farmakognostycznym, lecz nie nadaje się do samoleczenia?",
       "options": [
         "Miłek wiosenny",
         "Naparstnica purpurowa",
@@ -1428,14 +1258,12 @@
         "Kminek zwyczajny"
       ],
       "answer": "Miłek wiosenny",
-      "explanation_correct": "Miłek wiosenny zawiera glikozydy nasercowe o niezwykle silnym i szybkim działaniu.",
-      "explanation_incorrect": "Choć inne wymienione rośliny również wpływają na serce, to miłek był historycznym surowcem farmakognostycznym o największej sile rażenia.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Miłek wiosenny (Adonis vernalis) zawiera glikozydy nasercowe i był dawniej wykorzystywany w farmacji. Ze względu na toksyczność i trudne do przewidzenia dawkowanie nie powinien być używany jako domowy lek na serce.",
+      "explanation_incorrect": "Naparstnica i konwalia również zawierają glikozydy nasercowe, ale opis wiosennej rośliny z rodziny jaskrowatych wskazuje na miłka. Wszystkie wymienione rośliny mogą być toksyczne."
     },
     {
-      "subcategory": "Zioła na tarczycę",
-      "question": "Która morska roślina (glon) jest ceniona w ziołolecznictwie za wyjątkowo wysoką zawartość jodu, wspomagającego funkcjonowanie tarczycy?",
+      "subcategory": "Glony i jod",
+      "question": "Który brunatny glon jest źródłem jodu, którego zawartość w surowcu może znacznie się różnić?",
       "options": [
         "Morszczyn pęcherzykowaty",
         "Listownica",
@@ -1443,14 +1271,12 @@
         "Ulwa sałatowa"
       ],
       "answer": "Morszczyn pęcherzykowaty",
-      "explanation_correct": "Morszczyn jest bogatym źródłem organicznego jodu, kluczowego pierwiastka dla zdrowia tarczycy.",
-      "explanation_incorrect": "Pozostałe wymienione glony nie mają tak wysokiego stężenia jodu, by być rozważane jako surowiec leczniczy dla tarczycy.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Morszczyn pęcherzykowaty może zawierać jod, ale jego stężenie jest zmienne. Nadmiar jodu może zaburzać pracę tarczycy, dlatego morszczyn nie jest bezpiecznym sposobem samodzielnego leczenia jej chorób.",
+      "explanation_incorrect": "Pozostałe glony również mogą zawierać jod, lecz opis tradycyjnego surowca morszczynu wskazuje na pierwszą odpowiedź. Wysoka zawartość składnika nie oznacza korzyści dla tarczycy."
     },
     {
       "subcategory": "Medycyna ludowa",
-      "question": "Jak brzmi medyczna i botaniczna nazwa rośliny, która w tradycji ludowej, ze względu na korzeń o silnym aromacie, nazywana jest tatarkiem?",
+      "question": "Która aromatyczna roślina o kłączu nazywanym w polskiej tradycji „tatarskim zielem” nosi botaniczną nazwę Acorus calamus?",
       "options": [
         "Tatarak zwyczajny",
         "Rumianek",
@@ -1458,14 +1284,12 @@
         "Łopian większy"
       ],
       "answer": "Tatarak zwyczajny",
-      "explanation_correct": "Tatarak zwyczajny (Acorus calamus) wywodzi swoją ludową nazwę 'tatarka' od legendy o przywiezieniu go do Polski przez Tatarów.",
-      "explanation_incorrect": "Pozostałe zioła nie kojarzą się z tą nazwą ani nie mają kłączy o tak charakterystycznym zapachu.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Acorus calamus to tatarak zwyczajny, zwany także tatarskim zielem. Wyjaśnienie nazwy przez sprowadzenie rośliny przez Tatarów jest ludową etymologią, nie pewnym ustaleniem historycznym; niektóre odmiany zawierają β-azaron, dlatego nie należy zalecać doustnego stosowania niekontrolowanych preparatów.",
+      "explanation_incorrect": "Rumianek, nagietek i łopian nie są tatarakiem. Nazwa ludowa nie potwierdza bezpieczeństwa preparatu."
     },
     {
-      "subcategory": "Zioła na trzustkę",
-      "question": "Z jakiego języka wywodzi się międzynarodowa nazwa kozieradki (Fenugreek), oznaczająca w tłumaczeniu 'greckie siano'?",
+      "subcategory": "Nazwy botaniczne",
+      "question": "Z jakiego języka pochodzi łaciński epitet botaniczny kozieradki foenum-graecum, tłumaczony jako „greckie siano”?",
       "options": [
         "Łacina",
         "Greka",
@@ -1473,14 +1297,12 @@
         "Arabski"
       ],
       "answer": "Łacina",
-      "explanation_correct": "Nazwa pochodzi od łacińskiego 'foenum-graecum', co dosłownie oznacza greckie siano.",
-      "explanation_incorrect": "Chociaż roślina była znana w starożytności, terminologia naukowa oparta jest na łacinie.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Trigonella foenum-graecum to botaniczna nazwa kozieradki; człon foenum-graecum pochodzi z łaciny i oznacza „greckie siano”. Sam angielski wyraz „fenugreek” nie jest nazwą łacińską.",
+      "explanation_incorrect": "Pytanie dotyczy łacińskiego epitetu botanicznego, a nie pochodzenia angielskiej nazwy fenugreek."
     },
     {
       "subcategory": "Zioła na hemoroidy",
-      "question": "Jaki północnoamerykański krzew, o charakterystycznych kwiatach, jest tradycyjnie stosowany w medycynie ludowej jako środek na hemoroidy?",
+      "question": "Który północnoamerykański krzew jest źródłem garbnikowych preparatów tradycyjnie stosowanych miejscowo przy niewielkim dyskomforcie związanym z hemoroidami?",
       "options": [
         "Oczar wirginijski",
         "Dziurawiec zwyczajny",
@@ -1488,14 +1310,12 @@
         "Rokitnik"
       ],
       "answer": "Oczar wirginijski",
-      "explanation_correct": "Oczar wirginijski posiada silne właściwości ściągające i przeciwzapalne, skutecznie łagodzące hemoroidy.",
-      "explanation_incorrect": "Inne wymienione krzewy mają właściwości odmienne, np. wzmacniające naczynia, ale nie tak celowo ściągające jak oczar.",
-      "last_verified_at": "2026-06-12T17:11:25.797Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Oczar wirginijski zawiera garbniki i występuje w niektórych tradycyjnych preparatach miejscowych. Nie należy twierdzić, że skutecznie leczy hemoroidy; utrzymujące się krwawienie lub ból wymagają konsultacji.",
+      "explanation_incorrect": "Pozostałe rośliny nie są oczarem wirginijskim. Tradycyjne zastosowanie środka ściągającego nie potwierdza wyleczenia hemoroidów."
     },
     {
       "subcategory": "Leki z natury",
-      "question": "Jaki produkt roślinny, pierwotnie pozyskiwany z australijskiego drzewa Melaleuca, jest uznawany za jeden z najsilniejszych naturalnych antyseptyków?",
+      "question": "Jak nazywa się olejek destylowany z liści Melaleuca alternifolia, promowany do zastosowań miejscowych na skórę?",
       "options": [
         "Olejek herbaciany",
         "Olejek eukaliptusowy",
@@ -1503,10 +1323,8 @@
         "Olejek sandałowy"
       ],
       "answer": "Olejek herbaciany",
-      "explanation_correct": "Olejek herbaciany słynie z szerokiego spektrum działania przeciwbakteryjnego, przeciwwirusowego i przeciwgrzybiczego.",
-      "explanation_incorrect": "Chociaż pozostałe olejki również działają antyseptycznie, żaden nie dorównuje olejkowi herbacianemu pod względem uniwersalności.",
-      "last_verified_at": "2026-06-12T17:12:04.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Olejek herbaciany uzyskuje się z liści Melaleuca alternifolia. Nieliczne dane dotyczą określonych zastosowań skórnych; nie potwierdzają szerokiego działania przeciwwirusowego ani użycia jako uniwersalnego środka antyseptycznego. Olejku nie wolno połykać.",
+      "explanation_incorrect": "Pozostałe olejki pochodzą z innych roślin. Żaden olejek eteryczny nie powinien być traktowany jako uniwersalne leczenie zakażeń."
     }
   ]
 }
