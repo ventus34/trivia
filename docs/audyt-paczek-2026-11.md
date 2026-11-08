@@ -234,6 +234,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Rycerze i wojownicy (PL):** przegląd 100 pytań i korekty 54 rekordów; [raport](audits/2026-11-08-rycerze-i-wojownicy-pl.md).
 - **Słynne Cytaty z Hollywoodzkich Hitów (PL):** przegląd 100 pytań i korekty 46 rekordów; [raport](audits/2026-11-08-synne-cytaty-z-hollywoodzkich-hitw-pl.md).
 
+- **Sporty Świata (PL):** przegląd 100 pytań i korekty 69 rekordów; [raport](audits/2026-11-08-sporty-wiata-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
