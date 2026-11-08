@@ -228,6 +228,12 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Polska Współczesna (PL):** przegląd 100 pytań i korekty 60 rekordów; [raport](audits/2026-11-08-polska-wspczesna-pl.md).
 
+- **Scientific Paradoxes and Theories (EN):** przegląd 100 pytań i korekty 73 rekordów; [raport](audits/2026-11-08-scientific-paradoxes-and-theories-en.md).
+
+- **Piątkowy Miks (PL):** przegląd 100 pytań i korekty 52 rekordów; [raport](audits/2026-11-08-piatkowy-miks-pl.md).
+- **Rycerze i wojownicy (PL):** przegląd 100 pytań i korekty 54 rekordów; [raport](audits/2026-11-08-rycerze-i-wojownicy-pl.md).
+- **Słynne Cytaty z Hollywoodzkich Hitów (PL):** przegląd 100 pytań i korekty 46 rekordów; [raport](audits/2026-11-08-synne-cytaty-z-hollywoodzkich-hitw-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
