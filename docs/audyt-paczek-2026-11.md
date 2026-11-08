@@ -218,6 +218,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Średniowiecze i Rycerstwo (PL):** przegląd 99 pytań i korekty 74 rekordów; [raport](audits/2026-11-08-redniowiecze-i-rycerstwo-pl.md).
 
+- **Polskie Ślady na Mapie Europy (PL):** przegląd 100 pytań i korekty 68 rekordów; [raport](audits/2026-11-08-polskie-slady-na-mapie-europy-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

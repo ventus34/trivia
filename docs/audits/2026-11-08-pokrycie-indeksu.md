@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **189** pozycji ma raport deklarujący przegląd całości paczki.
+- **190** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **36** pozycji nie ma dedykowanego raportu merytorycznego.
+- **35** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -173,7 +173,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 150 | `pitkowy_miks_pl` | Piątkowy Miks | — | BRAK dedykowanego raportu merytorycznego. |
 | 151 | `podre_i_turystyka_pl` | Podróże i Turystyka | [2026-11-08-podroze-i-turystyka-pl.md](2026-11-08-podroze-i-turystyka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 51 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 152 | `polska_wspczesna_pl` | Polska Współczesna | — | BRAK dedykowanego raportu merytorycznego. |
-| 153 | `polskie_lady_na_mapie_europy_pl` | Polskie Ślady na Mapie Europy | — | BRAK dedykowanego raportu merytorycznego. |
+| 153 | `polskie_lady_na_mapie_europy_pl` | Polskie Ślady na Mapie Europy | [2026-11-08-polskie-slady-na-mapie-europy-pl.md](2026-11-08-polskie-slady-na-mapie-europy-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 68 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 154 | `ponad_horyzont_pl` | Ponad horyzont | — | BRAK dedykowanego raportu merytorycznego. |
 | 155 | `popkultura_pl` | Popkultura i Gry (PL) | [2026-11-08-popkultura-pl.md](2026-11-08-popkultura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 160 pytań, poprawiono 63 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 156 | `popkulturowy_kocio_pl` | Popkulturowy Kocioł | — | BRAK dedykowanego raportu merytorycznego. |
