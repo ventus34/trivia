@@ -1,0 +1,18 @@
+# Historia Polskich Elektronarzędzi — uzupełnienie przeglądu 2026-11-08
+
+Po [częściowym przeglądzie z 6 listopada](2026-11-06-historia-polskich-elektronarzedzi-pl.md) przeczytano ponownie wszystkie 100 pytań, wariantów, kluczy, oba wyjaśnienia oraz opis. Zmieniono 34 rekordy: 4, 6, 8, 18, 20, 22, 27, 31–32, 42–43, 52–53, 56–58, 63, 66, 69, 73–74, 78, 80–82, 85–86, 88, 92–94, 96–97 i 100. Liczbę pytań oraz opis zachowano; usunięto stare znaczniki weryfikacji ze zmienionych rekordów i paczki.
+
+Zastąpiono powtarzające się, tautologiczne lub bardzo proste pozycje pytaniami o dobór dopuszczalnej prędkości ściernicy (6), odłączenie zasilania przed zmianą tarczy (20), uszkodzony przewód (52), pewne zamocowanie obrabianego elementu (57), ograniczanie pyłu krzemionkowego (69) i osłonę tarczy (100). Doprecyzowano, że sprzęgło nie usuwa całego ryzyka szarpnięcia (78), a przed blokowaniem wrzeciona należy odłączyć narzędzie i zaczekać na zatrzymanie (80). Usunięto nakładanie opcji — wiertło widiowe może jednocześnie być kręte (94), podobnie różne szlifierki mogą wykonywać ruch oscylacyjny (22). Ograniczono kategoryczne twierdzenia o produkcji i obróbce, wskazano konkretny model PRAg 125GEO (63), poprawiono opis zgrzewarki punktowej (86) i funkcji kondensatora (56). Przy opalarce wspomniano o zagrożeniu pożarem, oparzeniem i emisjami (43).
+
+Wybrane źródła:
+
+- [OSHA: bezpieczne używanie ręcznych elektronarzędzi](https://www.osha.gov/sites/default/files/publications/OSHA3950.pdf) i [OSHA: podstawowe zasady dla narzędzi elektrycznych](https://www.osha.gov/etools/construction/electrical-incidents/power-tools) — odłączenie zasilania i osłony, 20, 52, 80, 100.
+- [Bosch Professional: zasady doboru i wymiany osprzętu szlifierki](https://www.bosch-professional.com/gb/en/proper-use/angle-grinders/module-3/) oraz [OSHA: prędkość ściernicy](https://www.osha.gov/machine-guarding/new-grinder-checklist) — 6 i 80.
+- [CDC/NIOSH: ograniczanie narażenia na pył krzemionkowy](https://www.cdc.gov/niosh/silica/work/index.html) — 58 i 69.
+- [HSE: bezpieczna obsługa maszyn](https://www.hse.gov.uk/work-equipment-machinery/introduction.htm), [OSHA: ręczne i mechaniczne narzędzia](https://www.osha.gov/Publications/osha3080.pdf) — mocowanie elementu i osłony, 57, 73.
+- [Celma: instrukcja z historycznym wykazem modeli](https://celma.com.pl/wp-content/uploads/2013/01/13196125994ea7b0b7136b9.pdf), [Celma: model PRAg 125GEO](https://sklep.celma.com.pl/p/szlifierka-katowa-celma-professional-prag-125geo-750-w), [Celma: WAK-Li 18OBS](https://celma.com.pl/produkty/wiertarko-wkretarka-wak-li-18obs), [Celma: mieszarka PRDa 140AEO](https://celma.com.pl/produkty/mieszarka-prda-140aeo) — 63, 66 i 77.
+- [Profi Europe: producent i siedziba](https://profieurope.eu/kontakt.html), [Fogo: kontakt](https://www.fogo.pl/kontakt) — 81 i 88.
+
+Ograniczenia: przejrzano wszystkie rekordy, lecz nie potwierdzono niezależnie każdego szczegółu historycznego, nazwy wariantu i nazwy własnej. Wybrane pytania są nadal proste; konkretne modele i oferty producentów mogą się zmieniać. Pytania o bezpieczeństwo nie stanowią kompletnej instrukcji pracy: dobór osłon, ochrony osobistej oraz metody ograniczania pyłu zależy od narzędzia, zadania, instrukcji producenta i oceny zagrożeń.
+
+Niezależna kontrola doprecyzowała maksymalne obroty ściernicy (6), kolejność odłączenia przewodu (20), zagrożenie ołowiem w starych farbach (43) oraz dobór odciągu (69). Źródła: [OSHA: narzędzia elektryczne](https://www.osha.gov/etools/construction/electrical-incidents/power-tools), [OSHA: ściernice](https://www.osha.gov/machine-guarding/new-grinder-checklist), [CDC/NIOSH: ołów](https://www.cdc.gov/niosh/lead/risk-factors/index.html).

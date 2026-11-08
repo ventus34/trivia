@@ -139,6 +139,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Traditional Cuisine (EN):** przegląd 100 pytań, korekty 70 pozycji i niezależna kontrola wybranych potraw; [raport](audits/2026-11-08-traditional-cuisine-en.md).
 
+- **Historia Polskich Elektronarzędzi (PL):** uzupełniono częściowy przegląd wszystkich 100 pytań, zmieniając 34 pozycje i niezależnie sprawdzając wybrane zasady bezpieczeństwa; [raport](audits/2026-11-08-historia-polskich-elektronarzedzi-uzupelnienie-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

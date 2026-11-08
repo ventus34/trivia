@@ -55,10 +55,8 @@
         "Indukta"
       ],
       "answer": "Aspa",
-      "explanation_correct": "Wrocławska Aspa była wiodącym wytwórcą zgrzewarek i urządzeń spawalniczych w Polsce.",
-      "explanation_incorrect": "Pozostałe marki kojarzone są głównie z elektronarzędziami ręcznymi lub komponentami.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wrocławska Aspa jest związana z produkcją urządzeń spawalniczych i zgrzewalniczych.",
+      "explanation_incorrect": "Pozostałe marki kojarzone są głównie z elektronarzędziami ręcznymi lub komponentami."
     },
     {
       "subcategory": "Marka",
@@ -74,17 +72,17 @@
       "explanation_incorrect": "Pozostałe propozycje nie są nazwą linii Celma Professional."
     },
     {
-      "subcategory": "Narzędzie",
-      "question": "Jaki symbol nosiła znana dwubiegowa wiertarka bez udaru marki Celma?",
+      "subcategory": "Bezpieczeństwo pracy",
+      "question": "Co trzeba sprawdzić, dobierając ściernicę do szlifierki?",
       "options": [
-        "Celma PRCr",
-        "Celma PRwg",
-        "Zelmer W-1",
-        "Aspa 500"
+        "Czy maksymalne dopuszczalne obroty ściernicy są co najmniej równe maksymalnym obrotom szlifierki",
+        "Czy kolor tarczy odpowiada obudowie",
+        "Czy tarcza jest większa od osłony",
+        "Czy tarcza nie ma żadnych oznaczeń"
       ],
-      "answer": "Celma PRCr",
-      "explanation_correct": "PRCr 10/6 występowała jako dwubiegowa wiertarka bezudarowa, także w wersjach z przystawkami.",
-      "explanation_incorrect": "PRWg oznaczał rodzinę młotków obrotowych, a nie wskazaną wiertarkę PRCr."
+      "answer": "Czy maksymalne dopuszczalne obroty ściernicy są co najmniej równe maksymalnym obrotom szlifierki",
+      "explanation_correct": "Maksymalna dopuszczalna prędkość obrotowa ściernicy nie może być niższa niż maksymalne obroty szlifierki; trzeba sprawdzić też rozmiar, przeznaczenie i instrukcję.",
+      "explanation_incorrect": "Kolor nie potwierdza zgodności. Nie wolno montować osprzętu o niewłaściwym rozmiarze ani z nieczytelnymi oznaczeniami."
     },
     {
       "subcategory": "Technologia",
@@ -101,7 +99,7 @@
     },
     {
       "subcategory": "Producent",
-      "question": "Które zakłady z Bielska-Białej specjalizowały się w produkcji silników i podzespołów dla narzędzi?",
+      "question": "Który producent silników elektrycznych jest związany z Bielskiem-Białą?",
       "options": [
         "Indukta",
         "Celma",
@@ -231,7 +229,7 @@
     },
     {
       "subcategory": "Komponenty",
-      "question": "Jaki metaliczny materiał stosowano w niektórych korpusach dawnych wiertarek?",
+      "question": "Który lekki stop metaliczny stosowano w niektórych odlewanych korpusach dawnych wiertarek?",
       "options": [
         "Stop aluminium",
         "Włókno węglowe",
@@ -239,8 +237,8 @@
         "Stal nierdzewna"
       ],
       "answer": "Stop aluminium",
-      "explanation_correct": "Odlewane stopy aluminium wykorzystywano w korpusach części starszych wiertarek. Nie wszystkie urządzenia miały jednakowe obudowy.",
-      "explanation_incorrect": "Włókno węglowe i polistyren nie są metalami, a stal nierdzewna nie jest stopem aluminium."
+      "explanation_correct": "Stopy aluminium wykorzystywano w niektórych odlewanych korpusach wiertarek; konstrukcje i materiały różniły się między modelami.",
+      "explanation_incorrect": "Włókno węglowe i polistyren nie są metalami; stal nierdzewna jest innym materiałem metalicznym niż stop aluminium."
     },
     {
       "subcategory": "Narzędzie",
@@ -256,17 +254,17 @@
       "explanation_incorrect": "Pozostałe urządzenia są narzędziami mechanicznymi, a nie lutownicami."
     },
     {
-      "subcategory": "Zastosowanie",
-      "question": "Które z wymienionych urządzeń znajdowało się w historycznej produkcji Celmy?",
+      "subcategory": "Bezpieczeństwo pracy",
+      "question": "Co należy zrobić przed wymianą tarczy w przewodowej szlifierce kątowej?",
       "options": [
-        "Wiertarka elektryczna",
-        "Fortepian",
-        "Aparat fotograficzny",
-        "Rower miejski"
+        "Wyłączyć, odłączyć wtyczkę i poczekać na zatrzymanie tarczy",
+        "Zostawić włączony silnik na wolnych obrotach",
+        "Tylko zmniejszyć nacisk na tarczę",
+        "Przytrzymać włącznik taśmą"
       ],
-      "answer": "Wiertarka elektryczna",
-      "explanation_correct": "Wiertarki elektryczne były ważnym produktem zakładów związanych z marką Celma.",
-      "explanation_incorrect": "Pozostałe propozycje nie są wiertarkami elektrycznymi."
+      "answer": "Wyłączyć, odłączyć wtyczkę i poczekać na zatrzymanie tarczy",
+      "explanation_correct": "Przed wymianą osprzętu odłącz narzędzie od źródła zasilania i poczekaj na zatrzymanie części ruchomych. W urządzeniu akumulatorowym usuń akumulator zgodnie z instrukcją.",
+      "explanation_incorrect": "Samo zmniejszenie nacisku nie zabezpiecza przed przypadkowym uruchomieniem; nie należy blokować włącznika."
     },
     {
       "subcategory": "Producent",
@@ -283,7 +281,7 @@
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się urządzenie służące do obróbki wykańczającej płaszczyzn poprzez ruch oscylacyjny stopy?",
+      "question": "Jak nazywa się szlifierka do wykańczania powierzchni z prostokątną stopą wykonującą drobny ruch oscylacyjny?",
       "options": [
         "Szlifierka oscylacyjna",
         "Szlifierka taśmowa",
@@ -291,8 +289,8 @@
         "Szlifierka mimośrodowa"
       ],
       "answer": "Szlifierka oscylacyjna",
-      "explanation_correct": "Szlifierka oscylacyjna wykonuje drobne oscylacje stopy, zwykle po niewielkiej orbicie, a nie prosty ruch tam i z powrotem.",
-      "explanation_incorrect": "Szlifierka taśmowa używa pasa bezkońcowego, a kątowa obracającej się tarczy. Mimośrodowa łączy ruch orbitalny z obrotem talerza."
+      "explanation_correct": "Szlifierka oscylacyjna używa stopy poruszającej się po niewielkiej orbicie. Często ma stopę prostokątną lub trójkątną.",
+      "explanation_incorrect": "Szlifierka mimośrodowa zwykle ma okrągły talerz łączący ruch oscylacyjny i obrót; taśmowa używa pasa, a kątowa tarczy."
     },
     {
       "subcategory": "Model",
@@ -356,7 +354,7 @@
         "Wyrzynarka"
       ],
       "answer": "Zakrętarka udarowa",
-      "explanation_correct": "Zakrętarka udarowa służy do precyzyjnego osadzania śrub za pomocą energii udarowej.",
+      "explanation_correct": "Zakrętarka udarowa wykorzystuje udar obrotowy przy dokręcaniu lub odkręcaniu. Moment zależy od narzędzia i warunków; wymagany moment połączenia należy sprawdzić odpowiednim narzędziem.",
       "explanation_incorrect": "Pozostałe narzędzia służą do szlifowania lub cięcia. Także klucze udarowe wykorzystują udar obrotowy do dokręcania elementów złącznych."
     },
     {
@@ -408,7 +406,7 @@
         "Wtyczka"
       ],
       "answer": "Uchwyt wiertarski",
-      "explanation_correct": "Uchwyt wiertarski mocuje wiertło do wrzeciona urządzenia.",
+      "explanation_correct": "Uchwyt wiertarski zaciska chwyt wiertła i przenosi na nie ruch; występują także inne systemy mocowania, np. SDS.",
       "explanation_incorrect": "Pozostałe elementy nie zaciskają szczęk na wiertle."
     },
     {
@@ -422,9 +420,7 @@
       ],
       "answer": "Mieszarka elektryczna",
       "explanation_correct": "Mieszarka elektryczna charakteryzuje się wysokim momentem obrotowym potrzebnym do pracy z gęstą masą.",
-      "explanation_incorrect": "Młoty i bruzdownice służą do prac wyburzeniowych, a wibratory do zagęszczania mieszanki po wlaniu do formy.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Młot udarowy służy m.in. do kucia, bruzdownica do nacinania rowków, a wibrator do zagęszczania mieszanki betonowej."
     },
     {
       "subcategory": "Producent",
@@ -547,7 +543,7 @@
     },
     {
       "subcategory": "Zabezpieczenie",
-      "question": "Jaki rodzaj izolacji był kluczowy dla podniesienia bezpieczeństwa użytkowania polskich elektronarzędzi w okresie PRL?",
+      "question": "Jaką izolację ma narzędzie elektryczne klasy ochronności II?",
       "options": [
         "Izolacja podwójna",
         "Izolacja gumowa",
@@ -555,8 +551,8 @@
         "Izolacja ceramiczna"
       ],
       "answer": "Izolacja podwójna",
-      "explanation_correct": "Podwójna lub wzmocniona izolacja jest cechą urządzeń klasy II: bezpieczeństwo nie opiera się w nich na podłączeniu przewodu ochronnego.",
-      "explanation_incorrect": "Pozostałe określenia nie oznaczają klasy II z podwójną lub wzmocnioną izolacją."
+      "explanation_correct": "Urządzenie klasy II wykorzystuje podwójną lub wzmocnioną izolację zamiast polegania na przewodzie ochronnym. Właściwe użytkowanie i dobry stan sprzętu pozostają konieczne.",
+      "explanation_incorrect": "Izolacja gumowa, olejowa i ceramiczna opisują materiały lub rozwiązania, nie definiują same w sobie klasy ochronności II."
     },
     {
       "subcategory": "Narzędzie",
@@ -568,10 +564,8 @@
         "Frezarka górnowrzecionowa"
       ],
       "answer": "Opalarka elektryczna",
-      "explanation_correct": "Opalarka generuje wysoką temperaturę powietrza, która zmiękcza starą farbę, ułatwiając jej mechaniczne usunięcie.",
-      "explanation_incorrect": "Wymienione pozostałe urządzenia służą do obróbki materiału przez ścieranie lub skrawanie, a nie poprzez termiczne usuwanie powłok.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Opalarka może zmiękczać niektóre powłoki. Stare farby mogą zawierać ołów: ogrzewanie i skrobanie mogą powodować niebezpieczne emisje lub pył. Uwzględnij też ryzyko pożaru i oparzeń oraz instrukcję i właściwe środki ochrony.",
+      "explanation_incorrect": "Wymienione pozostałe urządzenia służą do obróbki materiału przez ścieranie lub skrawanie, a nie poprzez termiczne usuwanie powłok."
     },
     {
       "subcategory": "Producent",
@@ -680,17 +674,17 @@
       "explanation_incorrect": "Przekładnie pasowa, łańcuchowa i ślimakowa wykorzystują odmienne układy przeniesienia ruchu."
     },
     {
-      "subcategory": "Producent",
-      "question": "Która z wymienionych marek oferuje urządzenia ogrodnicze, w tym pilarki?",
+      "subcategory": "Bezpieczeństwo pracy",
+      "question": "Co należy zrobić z elektronarzędziem o uszkodzonym przewodzie zasilającym?",
       "options": [
-        "NAC",
-        "NOAA",
-        "UNESCO",
-        "NASA"
+        "Wycofać je z użycia i zlecić odpowiednią naprawę",
+        "Owinąć przewód dłonią podczas pracy",
+        "Używać tylko przez kilka minut",
+        "Zanurzyć przewód w wodzie"
       ],
-      "answer": "NAC",
-      "explanation_correct": "NAC oferuje m.in. pilarki i urządzenia ogrodnicze; obecność marki nie przesądza miejsca produkcji każdego modelu.",
-      "explanation_incorrect": "Pozostałe nazwy nie są wskazaną marką urządzeń ogrodniczych."
+      "answer": "Wycofać je z użycia i zlecić odpowiednią naprawę",
+      "explanation_correct": "Uszkodzony przewód może stwarzać ryzyko porażenia. Narzędzie należy wycofać z użycia i oddać do odpowiedniej naprawy.",
+      "explanation_incorrect": "Krótsza praca, dotykanie uszkodzenia lub kontakt z wodą nie usuwają zagrożenia elektrycznego."
     },
     {
       "subcategory": "Narzędzie",
@@ -703,9 +697,7 @@
       ],
       "answer": "Wyrzynarka elektryczna",
       "explanation_correct": "Wyrzynarka pozwala na precyzyjne wycinanie linii krzywych dzięki wąskiemu brzeszczotowi i odpowiedniemu napędowi.",
-      "explanation_incorrect": "Reszta narzędzi służy do cięć prostoliniowych lub planowania powierzchni.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wyrzynarka jest szczególnie przydatna do krzywoliniowego cięcia; inne piły i frezarki mają odmienne zastosowania, choć ich zakresy mogą się częściowo pokrywać."
     },
     {
       "subcategory": "Model",
@@ -746,26 +738,24 @@
       ],
       "answer": "Stojan",
       "explanation_correct": "Stojan jest częścią silnika, która pozostaje w spoczynku i generuje niezbędne do ruchu pole magnetyczne.",
-      "explanation_incorrect": "Wirnik obraca się, wrzeciono kończy układ przeniesienia napędu, a kondensator wspiera rozruch silnika.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wirnik jest częścią obracającą się, wrzeciono przekazuje ruch osprzętowi, a funkcja kondensatora zależy od konstrukcji urządzenia."
     },
     {
-      "subcategory": "Budowa",
-      "question": "Ile szczęk ma typowy samocentrujący uchwyt trójszczękowy do wiertła?",
+      "subcategory": "Bezpieczeństwo pracy",
+      "question": "Jak należy zabezpieczyć obrabiany element przed wierceniem w stacjonarnej wiertarce?",
       "options": [
-        "Trzy",
-        "Jedną",
-        "Pięć",
-        "Dziesięć"
+        "Zamocować go imadłem lub zaciskiem, zabezpieczonym przed obrotem",
+        "Trzymać go w ręce jak najbliżej wiertła",
+        "Pozostawić luźno na stole",
+        "Dociskać wyłącznie przewodem zasilającym"
       ],
-      "answer": "Trzy",
-      "explanation_correct": "Uchwyt trójszczękowy zaciska wiertło trzema szczękami rozmieszczonymi wokół jego osi.",
-      "explanation_incorrect": "Pozostałe liczby nie odpowiadają uchwytowi trójszczękowemu."
+      "answer": "Zamocować go imadłem lub zaciskiem, zabezpieczonym przed obrotem",
+      "explanation_correct": "Element i imadło trzeba odpowiednio zabezpieczyć przed obrotem i wyrzuceniem, dostosowując mocowanie do maszyny i materiału.",
+      "explanation_incorrect": "Trzymanie elementu w dłoni przy obracającym się wiertle może doprowadzić do urazu; przewód nie służy do mocowania."
     },
     {
       "subcategory": "Narzędzie",
-      "question": "Jak nazywa się elektronarzędzie przeznaczone do szlifowania powierzchni betonowych?",
+      "question": "Jak nazywa się urządzenie przeznaczone do szlifowania powierzchni betonowych?",
       "options": [
         "Szlifierka do betonu",
         "Wiertnica diamentowa",
@@ -773,7 +763,7 @@
         "Bruzdniarka betonowa"
       ],
       "answer": "Szlifierka do betonu",
-      "explanation_correct": "Szlifierka do betonu od Celmy to specjalistyczne urządzenie z osłoną przeciwpyłową do wyrównywania wylewek.",
+      "explanation_correct": "Szlifierka do betonu służy do obróbki jego powierzchni. Pył należy ograniczać odpowiednim odciągiem lub metodą przewidzianą dla urządzenia i zadania.",
       "explanation_incorrect": "Wiertnica wykonuje otwory, a bruzdownica nacina rowki. Szlifierka do betonu służy do obróbki powierzchni."
     },
     {
@@ -830,7 +820,7 @@
     },
     {
       "subcategory": "Model",
-      "question": "Który model szlifierki kątowej marki Celma wyposażony był w tarczę o średnicy 125 mm?",
+      "question": "Która rodzina szlifierek kątowych Celmy obejmuje model PRAg 125GEO na tarczę 125 mm?",
       "options": [
         "PRAg 125",
         "PRAr 150",
@@ -838,7 +828,7 @@
         "PRAm 230"
       ],
       "answer": "PRAg 125",
-      "explanation_correct": "PRAg 125 jest oznaczeniem rodziny szlifierek kątowych Celmy przystosowanych do tarczy 125 mm.",
+      "explanation_correct": "Model PRAg 125GEO jest szlifierką kątową z tarczą o średnicy 125 mm; parametry należy sprawdzić dla konkretnej wersji.",
       "explanation_incorrect": "Wskazana w pytaniu rodzina ma oznaczenie PRAg 125; sama nazwa innych modeli nie jest tu podstawą do twierdzenia, że nie istnieją."
     },
     {
@@ -869,7 +859,7 @@
     },
     {
       "subcategory": "Technologia",
-      "question": "Jaki rodzaj akumulatora zastosowano w oferowanej wiertarko-wkrętarce Celma WAK-Li 18OBS?",
+      "question": "Jakiego rodzaju akumulator przewidziano dla wiertarko-wkrętarki Celma WAK-Li 18OBS?",
       "options": [
         "Niklowo-kadmowy",
         "Litowo-jonowy",
@@ -877,7 +867,7 @@
         "Ołowiowo-kwasowy"
       ],
       "answer": "Litowo-jonowy",
-      "explanation_correct": "Producent opisuje WAK-Li 18OBS jako urządzenie z akumulatorami litowo-jonowymi.",
+      "explanation_correct": "W dokumentacji Celmy model WAK-Li 18OBS należy do urządzeń z akumulatorami litowo-jonowymi.",
       "explanation_incorrect": "Pozostałe technologie nie są typem akumulatora podanym dla WAK-Li 18OBS."
     },
     {
@@ -907,17 +897,17 @@
       "explanation_incorrect": "Kolor obudowy i liczba przewodów nie określają dwóch biegów przekładni."
     },
     {
-      "subcategory": "Zastosowanie",
-      "question": "Jak nazywa się urządzenie przeznaczone do wiercenia otworów w stalowych szynach kolejowych?",
+      "subcategory": "Bezpieczeństwo pracy",
+      "question": "Który środek może ograniczać ilość pyłu krzemionkowego podczas szlifowania betonu?",
       "options": [
-        "Wiertarka szynowa",
-        "Lutownica transformatorowa",
-        "Opalarka",
-        "Odkurzacz"
+        "Odciąg przy narzędziu z odpowiednim filtrem",
+        "Zamiatanie suchego pyłu sprężonym powietrzem",
+        "Usunięcie osłony i odciągu",
+        "Praca w zamkniętym pomieszczeniu bez wentylacji"
       ],
-      "answer": "Wiertarka szynowa",
-      "explanation_correct": "Wiertarka szynowa jest przeznaczona do wiercenia w szynach; spotyka się też inne opisowe nazwy takich urządzeń.",
-      "explanation_incorrect": "Pozostałe urządzenia nie są wiertarką do szyn."
+      "answer": "Odciąg przy narzędziu z odpowiednim filtrem",
+      "explanation_correct": "Odciąg przy narzędziu z odpowiednim filtrem, dobrany do pyłu krzemionkowego i zadania, może ograniczać narażenie. Zależnie od warunków potrzebne są także inne zabezpieczenia, w tym właściwa ochrona dróg oddechowych.",
+      "explanation_incorrect": "Wydmuchiwanie lub zamiatanie suchego pyłu może go wzbić. Same zamknięte drzwi ani usunięcie osłony nie chronią dróg oddechowych."
     },
     {
       "subcategory": "Przyrząd",
@@ -968,7 +958,7 @@
         "Szlifierka mimośrodowa"
       ],
       "answer": "Szlifierka dwutarczowa",
-      "explanation_correct": "Szlifierka dwutarczowa to klasyczne narzędzie warsztatowe do ostrzenia narzędzi i obróbki zgrubnej metalu.",
+      "explanation_correct": "Szlifierka dwutarczowa może służyć m.in. do ostrzenia i obróbki metalu; należy używać osłon oraz ściernic zgodnych z maszyną.",
       "explanation_incorrect": "Szlifierka taśmowa wykorzystuje taśmę, a oscylacyjna i mimośrodowa – poruszającą się stopę lub talerz. Szlifierki taśmowe mogą być również stacjonarne."
     },
     {
@@ -982,7 +972,7 @@
       ],
       "answer": "Wapienica",
       "explanation_correct": "Wapienica jest dzielnicą Bielska-Białej i siedzibą fabryki kojarzonej z marką Globus.",
-      "explanation_incorrect": "Pozostałe miejscowości znajdują się w pobliżu, ale nie są miejscem produkcji tych narzędzi."
+      "explanation_incorrect": "Czechowice, Skoczów i Kęty nie są dzielnicą Wapienica w Bielsku-Białej."
     },
     {
       "subcategory": "Narzędzie",
@@ -1033,7 +1023,7 @@
         "Ogranicznik obrotów"
       ],
       "answer": "Sprzęgło przeciążeniowe",
-      "explanation_correct": "Sprzęgło przeciążeniowe może ograniczyć przenoszony moment przy zakleszczeniu wiertła, zmniejszając obciążenie i ryzyko gwałtownej reakcji narzędzia.",
+      "explanation_correct": "Sprzęgło przeciążeniowe ogranicza przenoszony moment w określonych warunkach, ale nie eliminuje ryzyka gwałtownego szarpnięcia. Należy używać narzędzia zgodnie z instrukcją.",
       "explanation_incorrect": "Hamulec, regulacja momentu i ogranicznik obrotów pełnią inne funkcje, choć niektóre narzędzia mogą łączyć kilka zabezpieczeń."
     },
     {
@@ -1059,7 +1049,7 @@
         "Przycisk udaru"
       ],
       "answer": "Blokada wrzeciona",
-      "explanation_correct": "Blokada wrzeciona unieruchamia wał przy wymianie tarczy. Wymianę wykonuje się po odłączeniu zasilania.",
+      "explanation_correct": "Blokada wrzeciona pomaga unieruchomić wał podczas wymiany. Najpierw należy wyłączyć narzędzie, odłączyć zasilanie i zaczekać na całkowite zatrzymanie.",
       "explanation_incorrect": "Pozostałe części nie pełnią tej funkcji blokady wrzeciona."
     },
     {
@@ -1072,10 +1062,8 @@
         "Stanley"
       ],
       "answer": "Fogo",
-      "explanation_correct": "Fogo to renomowany polski producent agregatów prądotwórczych z siedzibą w Wilkowicach.",
-      "explanation_incorrect": "Pozostałe marki są albo zagranicznymi korporacjami narzędziowymi, albo producentami spoza Polski.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fogo to polski producent agregatów prądotwórczych związany z Wilkowicami.",
+      "explanation_incorrect": "Pozostałe marki są albo zagranicznymi korporacjami narzędziowymi, albo producentami spoza Polski."
     },
     {
       "subcategory": "Narzędzie",
@@ -1087,7 +1075,7 @@
         "Tokarka uniwersalna"
       ],
       "answer": "Gwinciarka stacjonarna",
-      "explanation_correct": "Gwinciarka stacjonarna to specjalistyczne narzędzie warsztatowe do obróbki rur w trybie ciągłym.",
+      "explanation_correct": "Gwinciarka do rur jest specjalnie przeznaczona do wykonywania gwintów na rurach; sposób pracy zależy od konstrukcji urządzenia.",
       "explanation_incorrect": "Wymienione alternatywy to obrabiarki ogólnego przeznaczenia, które nie są dedykowane wyłącznie do gwintowania rur."
     },
     {
@@ -1118,16 +1106,16 @@
     },
     {
       "subcategory": "Producent",
-      "question": "Która firma z Wapienicy jest jednym z największych polskich producentów narzędzi skrawających, w tym pił tarczowych?",
+      "question": "Która fabryka w Wapienicy, związana z marką Globus, wytwarza m.in. piły tarczowe?",
       "options": [
-        "Globus",
-        "Dedra",
-        "Yato",
-        "Bass"
+        "Fabryka Pił i Narzędzi Wapienica",
+        "Cieszyńska Fabryka Narzędzi",
+        "Stocznia Gdańska",
+        "Fabryka Samochodów Osobowych"
       ],
-      "answer": "Globus",
-      "explanation_correct": "Fabryka Pił i Narzędzi Wapienica kojarzona z marką Globus wytwarza m.in. piły tarczowe i inne narzędzia skrawające.",
-      "explanation_incorrect": "Pozostałe nazwy nie wskazują fabryki Wapienica kojarzonej z marką Globus."
+      "answer": "Fabryka Pił i Narzędzi Wapienica",
+      "explanation_correct": "Fabryka Pił i Narzędzi Wapienica, kojarzona z marką Globus, produkuje m.in. narzędzia skrawające.",
+      "explanation_incorrect": "Pozostałe zakłady nie są wskazaną fabryką pił w Wapienicy."
     },
     {
       "subcategory": "Narzędzie",
@@ -1140,9 +1128,7 @@
       ],
       "answer": "Wiązarka do zbrojenia",
       "explanation_correct": "Wiązarka do zbrojenia to zautomatyzowane narzędzie znacząco przyspieszające prace konstrukcyjne.",
-      "explanation_incorrect": "Pozostałe urządzenia służą do łączenia stali poprzez stapianie lub jej fizycznego odkształcania, a nie wiązania drutem.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zgrzewarka punktowa łączy metal przez nagrzewanie i docisk, giętarka odkształca materiał, a nożyce służą do cięcia."
     },
     {
       "subcategory": "Kategoria",
@@ -1159,7 +1145,7 @@
     },
     {
       "subcategory": "Producent",
-      "question": "Jaka polska firma specjalizuje się w projektowaniu i produkcji przemysłowych odkurzaczy warsztatowych?",
+      "question": "Które z wymienionych przedsiębiorstw ma polskie korzenie i oferuje profesjonalne odkurzacze?",
       "options": [
         "Profieurope",
         "Karcher",
@@ -1167,10 +1153,8 @@
         "Festool"
       ],
       "answer": "Profieurope",
-      "explanation_correct": "Profieurope to polskie przedsiębiorstwo dostarczające rozwiązania z zakresu filtracji i odsysania pyłów.",
-      "explanation_incorrect": "Karcher, Starmix i Festool to czołowe firmy zagraniczne, często mylnie kojarzone z rodzimą produkcją.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Profieurope to polska marka odkurzaczy i urządzeń do utrzymania czystości.",
+      "explanation_incorrect": "Kärcher, Starmix i Festool są innymi markami; miejsce produkcji poszczególnych modeli może być różne."
     },
     {
       "subcategory": "Narzędzie",
@@ -1222,11 +1206,11 @@
       ],
       "answer": "Żyrafa",
       "explanation_correct": "„Żyrafa” to potoczna nazwa szlifierki do gładzi na długim wysięgniku, ułatwiającym pracę na ścianach i sufitach.",
-      "explanation_incorrect": "Pozostałe nazwy zwierząt nie funkcjonują w polskiej nomenklaturze narzędziowej jako określenia szlifierek."
+      "explanation_incorrect": "W podanym zestawie tylko „żyrafa” jest nazwą opisanego rodzaju szlifierki."
     },
     {
       "subcategory": "Certyfikat",
-      "question": "Co oznacza polski znak bezpieczeństwa B na wyrobie podlegającym certyfikacji?",
+      "question": "Co historycznie potwierdzał polski znak bezpieczeństwa B na wyrobie objętym odpowiednią certyfikacją?",
       "options": [
         "Potwierdzenie zgodności z wymaganiami bezpieczeństwa",
         "Kolor obudowy narzędzia",
@@ -1234,21 +1218,21 @@
         "Kraj wydobycia metalu"
       ],
       "answer": "Potwierdzenie zgodności z wymaganiami bezpieczeństwa",
-      "explanation_correct": "Znak B wiązał się z polską certyfikacją bezpieczeństwa wyrobów; zasady jego stosowania zmieniały się w czasie.",
-      "explanation_incorrect": "Znak bezpieczeństwa nie oznacza koloru, typu akumulatora ani miejsca wydobycia metalu."
+      "explanation_correct": "Znak B wiązał się z oceną zgodności wyrobu z mającymi zastosowanie wymaganiami bezpieczeństwa. Znaczenie i zasady certyfikacji zmieniały się w czasie.",
+      "explanation_incorrect": "Znak nie określa koloru, akumulatora ani pochodzenia surowca; sam znak nie zastępuje oceny aktualnego stanu urządzenia."
     },
     {
       "subcategory": "Osprzęt",
       "question": "Jak nazywa się wiertło z wkładką z węglika spiekanego, stosowane m.in. do muru?",
       "options": [
         "Wiertło widiowe",
-        "Wiertło kobaltowe",
-        "Wiertło kręte",
-        "Wiertło stopniowe"
+        "Papier ścierny",
+        "Grot lutownicy",
+        "Tarcza polerska"
       ],
       "answer": "Wiertło widiowe",
       "explanation_correct": "Wiertło widiowe ma twardą wkładkę z węglika spiekanego, przydatną w materiałach budowlanych.",
-      "explanation_incorrect": "Kobaltowe, kręte i stopniowe oznaczają inne rodzaje lub cechy wierteł."
+      "explanation_incorrect": "Papier ścierny, grot lutownicy i tarcza polerska nie są opisanym wiertłem z wkładką z węglika."
     },
     {
       "subcategory": "Narzędzie",
@@ -1273,7 +1257,7 @@
         "Ze względu na pływy morskie"
       ],
       "answer": "Ze względu na zagrożenie wybuchem",
-      "explanation_correct": "W miejscach zagrożonych wybuchem stosuje się urządzenia o wykonaniu odpowiednim do warunków i klasyfikacji strefy.",
+      "explanation_correct": "W strefach zagrożonych wybuchem stosuje się urządzenia odpowiednie do klasyfikacji strefy i warunków. Samo posiadanie sprzętu nie oznacza, że można go stosować w każdej strefie.",
       "explanation_incorrect": "Kolor, wyświetlanie filmów ani pływy nie są przyczyną wymogu wykonania przeciwwybuchowego."
     },
     {
@@ -1287,9 +1271,7 @@
       ],
       "answer": "Goleszów",
       "explanation_correct": "Goleszów był kluczowym punktem na mapie produkcyjnej Celmy, obsługującym obróbkę wielu komponentów.",
-      "explanation_incorrect": "Pozostałe miejscowości, choć leżą w tym samym regionie, nie pełniły roli głównej bazy produkcyjnej tej firmy.",
-      "last_verified_at": "2026-06-12T17:09:52.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bielsko-Biała, Katowice i Ustroń są innymi miejscowościami niż Goleszów."
     },
     {
       "subcategory": "Narzędzie",
@@ -1318,17 +1300,17 @@
       "explanation_incorrect": "Pozostałe możliwości nie są funkcją regulatora obrotów."
     },
     {
-      "subcategory": "Marka",
-      "question": "Jakie dwie linie elektronarzędzi wymieniano na stronie marki Celma w listopadzie 2026 roku?",
+      "subcategory": "Bezpieczeństwo pracy",
+      "question": "Dlaczego należy stosować właściwą osłonę przy szlifowaniu szlifierką kątową?",
       "options": [
-        "Professional i C-Power",
-        "Hobby i Starlink",
-        "Aero i Ocean",
-        "Apollo i Gemini"
+        "Ogranicza narażenie na kontakt z tarczą i wyrzucane odłamki",
+        "Zwiększa dopuszczalne obroty każdej tarczy",
+        "Eliminuje konieczność ochrony oczu",
+        "Pozwala używać pękniętej tarczy"
       ],
-      "answer": "Professional i C-Power",
-      "explanation_correct": "Na stronie marki wymieniono linie Celma Professional i Celma C-Power.",
-      "explanation_incorrect": "Pozostałe pary nie są wymienionymi na stronie liniami marki."
+      "answer": "Ogranicza narażenie na kontakt z tarczą i wyrzucane odłamki",
+      "explanation_correct": "Osłona ogranicza ekspozycję na ruchomą tarczę i jej odłamki, ale nie zastępuje ochrony oczu oraz pozostałych środków wymaganych dla zadania.",
+      "explanation_incorrect": "Nie wolno używać pękniętej tarczy; osłona nie zwiększa dopuszczalnej prędkości osprzętu i nie zastępuje ochrony oczu."
     }
   ]
 }
