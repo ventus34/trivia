@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **178** pozycji ma raport deklarujący przegląd całości paczki.
+- **180** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **47** pozycji nie ma dedykowanego raportu merytorycznego.
+- **45** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -148,7 +148,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 125 | `moda_i_styl_pl` | Moda i Styl | [2026-11-08-moda-i-styl-pl.md](2026-11-08-moda-i-styl-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 59 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 126 | `money_markets_crises_en` | Money, Markets & Crises | [2026-11-08-money-markets-crises-en.md](2026-11-08-money-markets-crises-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano wszystkie 100 pytań, odpowiedzi, klucze, wyjaśnienia i opis. Opis paczki oraz liczba pytań pozostały bez zmian. W pierwszym przeglądzie poprawiono 65 pozycji: 3–5, 7–10, 12–15,… |
 | 127 | `motoryzacja_i_transport_pl` | Motoryzacja i Transport | [2026-11-07-motoryzacja-i-transport-pl.md](2026-11-07-motoryzacja-i-transport-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis paczki; zmieniono 48 pytań (2, 3, 5–10, 13–14, 16, 21, 27–31, 35, 39, 43–44, 46–47, 52, 57–58, 60, 62, 64, 67, 69, 71, 73–78, 82–83, 87–91, 94, 99–100). Liczba… |
-| 128 | `music_mixtape_en` | Music Mixtape | — | BRAK dedykowanego raportu merytorycznego. |
+| 128 | `music_mixtape_en` | Music Mixtape | [2026-11-08-music-mixtape-en.md](2026-11-08-music-mixtape-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 47 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 129 | `muzyka_klasyczna_i_opera_pl` | Muzyka Klasyczna i Opera | [2026-11-06-muzyka-klasyczna-i-opera-pl.md](2026-11-06-muzyka-klasyczna-i-opera-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, odpowiedzi i wyjaśnień w paczce `muzyka_klasyczna_i_opera_pl` oraz jej opis. Zmieniono 47 rekordów: 2, 4, 6, 11–12, 15–21, 23–24, 26–28, 30, 32, 34–35, 40,… |
 | 130 | `muzyka_klasyczna_pl` | Muzyka Klasyczna | [2026-11-08-muzyka-klasyczna-pl.md](2026-11-08-muzyka-klasyczna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 44 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 131 | `muzyka_popularna_pl` | Muzyka Popularna | [2026-11-06-muzyka-popularna-pl.md](2026-11-06-muzyka-popularna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 200 pytań i odpowiedzi paczki `muzyka_popularna_pl`. Zmieniono 26 rekordów: 3, 13, 19, 25, 26, 39, 51, 55, 68, 81, 98, 109, 126, 143, 145, 149, 153, 156, 160, 187, 190, 193,… |
@@ -166,7 +166,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 143 | `paradoksy_i_teorie_naukowe_pl` | Paradoksy i Teorie Naukowe | — | BRAK dedykowanego raportu merytorycznego. |
 | 144 | `parki_narodowe_wiata_pl` | Parki Narodowe Świata | [2026-11-06-parki-narodowe-swiata-pl.md](2026-11-06-parki-narodowe-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `parki_narodowe_wiata_pl`. Zmieniono 68 rekordów: 3–7, 9, 11–14, 16, 18–20, 22–24, 27, 29–31, 32–35, 37–38, 40–41, 43–44,… |
 | 145 | `physics_and_cosmology_en` | Physics and Cosmology | [physics-and-cosmology-en-2026-11-05.md](physics-and-cosmology-en-2026-11-05.md) | PEŁNY ODCZYT deklarowany. Zakres: wszystkie 100 pytań i objaśnień w `databases/categories/physics_and_cosmology_en.json`, ocena spójności odpowiedzi i ogólnej poprawności merytorycznej. Opis paczki odpowiada jej… |
-| 146 | `physics_engines_in_gaming_en` | Physics Engines in Gaming | — | BRAK dedykowanego raportu merytorycznego. |
+| 146 | `physics_engines_in_gaming_en` | Physics Engines in Gaming | [2026-11-08-physics-engines-in-gaming-en.md](2026-11-08-physics-engines-in-gaming-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 67 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 147 | `pioneers_and_milestones_of_science_en` | Pioneers and Milestones of Science | — | BRAK dedykowanego raportu merytorycznego. |
 | 148 | `pionierzy_i_kroki_milowe_nauki_pl` | Pionierzy i Kroki Milowe Nauki | — | BRAK dedykowanego raportu merytorycznego. |
 | 149 | `pionierzy_lotnictwa_pl` | Pionierzy Lotnictwa | [2026-11-07-pionierzy-lotnictwa-pl.md](2026-11-07-pionierzy-lotnictwa-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i komplet 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 65 pozycji: 2–6, 8–11, 13, 15–16, 18, 20, 22, 24–27, 29–30, 32–34, 36, 38–40, 44–45, 48–49, 51, 53–56, 59, 61–63,… |

@@ -2,15 +2,13 @@
   "id": "music_mixtape_en",
   "name": "Music Mixtape",
   "language": "en",
-  "description": "Questions covering: Portable Audio, Music Duplication, Mixtape Culture, Hip-Hop Distribution...",
+  "description": "Questions about mixtapes, cassette recording, audio equipment and music culture.",
   "created_at": "2026-06-12T14:49:47.665Z",
-  "last_verified_at": "2026-06-12T14:45:49.177Z",
-  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Portable Audio",
-      "question": "Which portable music format uses a magnetic tape housed in a small plastic shell?",
+      "question": "What consumer audio format uses magnetic tape in a small two-reel plastic shell?",
       "options": [
         "Cassette",
         "Reel-to-reel",
@@ -19,9 +17,7 @@
       ],
       "answer": "Cassette",
       "explanation_correct": "A cassette is a compact magnetic tape format enclosed in a plastic case. It was widely used for portable music playback and recording.",
-      "explanation_incorrect": "The other options are different audio formats or playback systems, not the small plastic tape shell described.",
-      "last_verified_at": "2026-06-12T14:43:14.544Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Reel-to-reel tape uses open reels, vinyl is a grooved disc, and an 8-track is a different cartridge format."
     },
     {
       "subcategory": "Music Duplication",
@@ -40,7 +36,7 @@
     },
     {
       "subcategory": "Mixtape Culture",
-      "question": "Who is commonly credited as the person making a music compilation?",
+      "question": "Which music role is commonly associated with selecting and sequencing tracks for a hip-hop mixtape?",
       "options": [
         "DJ",
         "Conductor",
@@ -48,10 +44,8 @@
         "Producer"
       ],
       "answer": "DJ",
-      "explanation_correct": "A DJ often assembles and sequences songs into a compilation or mixtape. The role is closely associated with curation and transition between tracks.",
-      "explanation_incorrect": "The other options are music roles, but they do not specifically refer to creating a compilation in this context.",
-      "last_verified_at": "2026-06-12T14:43:14.545Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A DJ may select, sequence and mix tracks for a mixtape, although many other people can make compilations.",
+      "explanation_incorrect": "A conductor, lyricist or producer may also contribute to music; the DJ role is especially associated with selecting and mixing tracks."
     },
     {
       "subcategory": "Hip-Hop Distribution",
@@ -78,14 +72,12 @@
         "Calcium carbonate"
       ],
       "answer": "Ferric oxide",
-      "explanation_correct": "Ferric oxide has been used as a magnetic coating on audio tape to store sound information. Its magnetic properties make recording possible.",
-      "explanation_incorrect": "The other substances are not magnetic tape coatings and do not function as audio-storage layers.",
-      "last_verified_at": "2026-06-12T14:43:14.545Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ferric oxide is a magnetic iron oxide used in many Type I audio tapes. Other tape formulations use different magnetic materials.",
+      "explanation_incorrect": "The other substances are not magnetic tape coatings and do not function as audio-storage layers."
     },
     {
       "subcategory": "Cassette Hardware",
-      "question": "Which handheld player became iconic for listening to cassette tapes on the go?",
+      "question": "What Sony brand became iconic for portable cassette listening after its 1979 debut?",
       "options": [
         "Walkman",
         "Boom box",
@@ -93,10 +85,8 @@
         "CD changer"
       ],
       "answer": "Walkman",
-      "explanation_correct": "The Walkman is a portable cassette player designed for personal listening. It became a cultural symbol of mobile music playback.",
-      "explanation_incorrect": "The other options are larger or different types of audio devices, not the portable cassette player asked for.",
-      "last_verified_at": "2026-06-12T14:43:14.545Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Sony introduced the Walkman as a personal cassette player in 1979; the brand later also covered other audio formats.",
+      "explanation_incorrect": "The other options are larger or different types of audio devices, not the portable cassette player asked for."
     },
     {
       "subcategory": "Car Audio",
@@ -115,18 +105,16 @@
     },
     {
       "subcategory": "Audio Connectors",
-      "question": "What car-audio input can accept an adapter designed to play tape audio through a device's cable?",
+      "question": "Where is the cassette-shaped end of a car audio adapter inserted?",
       "options": [
+        "Cassette deck",
         "Headphone jack",
         "USB port",
-        "Phono input",
         "MIDI port"
       ],
-      "answer": "Headphone jack",
-      "explanation_correct": "Cassette-shaped audio adapters typically plug into a headphone jack to route sound from a portable player. That jack is the destination for the adapter's cable.",
-      "explanation_incorrect": "The other connectors are different standards and do not match the adapter use described here.",
-      "last_verified_at": "2026-06-12T14:43:14.546Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Cassette deck",
+      "explanation_correct": "The cassette-shaped end goes into the car cassette deck; the cable on a typical adapter connects to the source device’s headphone output.",
+      "explanation_incorrect": "The headphone jack is usually on the source device, while the cassette-shaped adapter goes into the car deck."
     },
     {
       "subcategory": "Recording Process",
@@ -175,7 +163,7 @@
     },
     {
       "subcategory": "Analog Audio Issues",
-      "question": "What is the term for unwanted background noise on analog tape?",
+      "question": "What is the steady high-frequency background noise commonly associated with analog tape?",
       "options": [
         "Hiss",
         "Hum",
@@ -184,39 +172,33 @@
       ],
       "answer": "Hiss",
       "explanation_correct": "Hiss is the steady high-frequency noise commonly heard on analog tape recordings. It is a classic tape artifact.",
-      "explanation_incorrect": "The other options describe different noise types, but they are not the standard term for tape background noise.",
-      "last_verified_at": "2026-06-12T14:43:14.546Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Hum, buzz and crackle are other forms of unwanted noise that may also occur."
     },
     {
       "subcategory": "Tape Maintenance",
-      "question": "What is the cleaning item used to demagnetize a tape deck?",
+      "question": "What tool is designed to remove residual magnetism from a tape deck’s heads?",
       "options": [
-        "Head cleaner",
-        "Lens cleaner",
+        "Head demagnetizer",
+        "Head-cleaning swab",
         "Stylus brush",
         "Anti-static cloth"
       ],
-      "answer": "Head cleaner",
-      "explanation_correct": "A head cleaner is used to clean tape-deck heads and related parts, and demagnetizing tools are often discussed alongside maintenance of the heads. It is the best match for the maintenance item in cassette equipment.",
-      "explanation_incorrect": "The other choices are for different devices or general cleaning tasks, not cassette deck maintenance.",
-      "last_verified_at": "2026-06-12T14:43:14.546Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Head demagnetizer",
+      "explanation_correct": "A head demagnetizer, or degausser, is intended to reduce residual magnetism. Cleaning removes dirt and is a separate maintenance task.",
+      "explanation_incorrect": "A cleaning swab removes residue, while a stylus brush and cloth are not head demagnetizers."
     },
     {
       "subcategory": "Recording Controls",
-      "question": "What is a cassette said to have when the small safety piece has been broken off?",
+      "question": "What does breaking off a cassette’s record-protection tab normally do?",
       "options": [
-        "Removed tab",
-        "Locked tab",
-        "Slotted tab",
-        "Open notch"
+        "Helps prevent recording over that side",
+        "Improves stereo separation",
+        "Increases tape speed",
+        "Reduces tape hiss"
       ],
-      "answer": "Removed tab",
-      "explanation_correct": "A cassette with the safety tab broken or removed can be recorded over again. The missing tab is what disables the write-protect feature.",
-      "explanation_incorrect": "The other options describe tab states that do not match the standard write-protection condition on a cassette.",
-      "last_verified_at": "2026-06-12T14:43:14.547Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Helps prevent recording over that side",
+      "explanation_correct": "The removed tab prevents most recorders from recording on that side. Covering the notch can restore the ability to record.",
+      "explanation_incorrect": "The tab is a mechanical record-protection feature; it does not change tape speed or sound quality."
     },
     {
       "subcategory": "Music Sharing",
@@ -310,7 +292,7 @@
     },
     {
       "subcategory": "Audio Electronics",
-      "question": "What is the common control used to adjust signal level on a stereo or recording device?",
+      "question": "Which control usually adjusts the loudness of a stereo’s output?",
       "options": [
         "Volume knob",
         "Balance knob",
@@ -318,10 +300,8 @@
         "Tuning knob"
       ],
       "answer": "Volume knob",
-      "explanation_correct": "A volume knob controls the loudness or signal level of audio output. It is the standard control for raising or lowering sound.",
-      "explanation_incorrect": "The other options adjust different functions, such as channel balance, low frequencies, or station selection, rather than overall signal level.",
-      "last_verified_at": "2026-06-12T14:43:14.548Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A volume control adjusts output level. Dedicated recording-level controls may be separate.",
+      "explanation_incorrect": "The other options adjust different functions, such as channel balance, low frequencies, or station selection, rather than overall signal level."
     },
     {
       "subcategory": "Home Stereo",
@@ -349,9 +329,7 @@
       ],
       "answer": "FM radio",
       "explanation_correct": "FM radio was a common source for taping songs off the air because of its stereo sound and music-focused programming. Many homemade compilations were recorded from FM broadcasts.",
-      "explanation_incorrect": "The other options are different broadcast or streaming formats, but they were not the classic source associated with making tape recordings from radio.",
-      "last_verified_at": "2026-06-12T14:43:14.548Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "AM broadcasts can also be recorded; FM was a common source of music, often in stereo."
     },
     {
       "subcategory": "Mixtape Culture",
@@ -378,25 +356,21 @@
         "Cassette shell"
       ],
       "answer": "Jewel case",
-      "explanation_correct": "The jewel case has been the standard packaging for CDs since their market release in 1982.",
-      "explanation_incorrect": "Slipcases and sleeves are alternative packaging types, often made of paper or cardboard.",
-      "last_verified_at": "2026-06-12T14:43:14.548Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A jewel case is a hinged plastic case widely used for compact discs; other CD packaging formats also exist.",
+      "explanation_incorrect": "Slipcases and sleeves are alternative packaging types, often made of paper or cardboard."
     },
     {
       "subcategory": "Audio Connectors",
-      "question": "Which connector is a common 1/4-inch plug used on many audio devices?",
+      "question": "Which common audio plug has a nominal diameter of 6.35 mm?",
       "options": [
-        "Quarter-inch jack",
+        "Quarter-inch plug",
         "RCA plug",
         "XLR connector",
         "Mini USB"
       ],
-      "answer": "Quarter-inch jack",
-      "explanation_correct": "A quarter-inch jack is a classic audio plug size used for instruments and stereo equipment. It is commonly associated with 6.35 mm connectors.",
-      "explanation_incorrect": "The other choices are different connector standards used for line-level audio, microphones, or data, not the 1/4-inch stereo plug.",
-      "last_verified_at": "2026-06-12T14:43:14.548Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Quarter-inch plug",
+      "explanation_correct": "The quarter-inch plug is approximately 6.35 mm in diameter and is used in mono and stereo audio connections.",
+      "explanation_incorrect": "RCA, XLR and Mini USB have different connector designs."
     },
     {
       "subcategory": "Recording Practice",
@@ -460,7 +434,7 @@
     },
     {
       "subcategory": "Portable audio formats",
-      "question": "Which portable audio device was the digital successor to cassette players?",
+      "question": "Which portable device typically stores and plays compressed music files such as MP3?",
       "options": [
         "MP3 player",
         "CD player",
@@ -468,14 +442,12 @@
         "Boom box"
       ],
       "answer": "MP3 player",
-      "explanation_correct": "An MP3 player was a common digital replacement for cassette-based portable listening. It stored compressed audio files instead of using magnetic tape.",
-      "explanation_incorrect": "The other options are audio devices, but they are not the specific digital successor described here. They use different media or form factors.",
-      "last_verified_at": "2026-06-12T14:43:14.549Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "An MP3 player stores and plays digital audio files. Portable CD and MiniDisc players are also digital audio devices.",
+      "explanation_incorrect": "A CD player is digital too, but plays optical discs rather than typically relying on stored MP3 files."
     },
     {
       "subcategory": "Home audio media",
-      "question": "Which laser-read storage format was developed by Sony and Philips to replace vinyl records and cassettes?",
+      "question": "Which optical digital-audio disc format was developed by Sony and Philips and launched commercially in 1982?",
       "options": [
         "Compact Disc",
         "MiniDisc",
@@ -483,25 +455,21 @@
         "Cassette tape"
       ],
       "answer": "Compact Disc",
-      "explanation_correct": "The Compact Disc (CD) revolutionized audio by offering digital fidelity and instant track access.",
-      "explanation_incorrect": "MiniDiscs were a later, smaller format, while vinyl and cassettes are analog technologies.",
-      "last_verified_at": "2026-06-12T14:43:14.550Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Compact Disc stores digital audio on an optically read disc and was developed by Sony and Philips.",
+      "explanation_incorrect": "MiniDiscs were a later, smaller format, while vinyl and cassettes are analog technologies."
     },
     {
       "subcategory": "Radio culture",
-      "question": "Which radio band is commonly selected for broadcast listening on the dial?",
+      "question": "What do the letters AM mean in AM radio?",
       "options": [
-        "AM radio",
-        "Shortwave radio",
-        "FM radio",
-        "Satellite radio"
+        "Amplitude modulation",
+        "Analog mastering",
+        "Audio mixing",
+        "Automatic music"
       ],
-      "answer": "AM radio",
-      "explanation_correct": "AM radio is a broadcast band used for standard radio transmissions. It is one of the classic dial settings on traditional radios.",
-      "explanation_incorrect": "The other options are radio services or bands, but they do not match the specific broadcast selector band requested. They differ in transmission method or usage.",
-      "last_verified_at": "2026-06-12T14:43:14.550Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Amplitude modulation",
+      "explanation_correct": "AM means amplitude modulation, a method of encoding information by varying a carrier wave’s amplitude.",
+      "explanation_incorrect": "The other expansions are not what AM means in radio broadcasting."
     },
     {
       "subcategory": "Magnetic tape components",
@@ -550,7 +518,7 @@
     },
     {
       "subcategory": "Consumer audio brands",
-      "question": "Which Japanese electronics company was known for a wide range of consumer audio products?",
+      "question": "Which Japanese electronics company introduced the Walkman in 1979?",
       "options": [
         "Sony",
         "Panasonic",
@@ -558,14 +526,12 @@
         "Toshiba"
       ],
       "answer": "Sony",
-      "explanation_correct": "Sony is a Japanese electronics company strongly associated with consumer audio hardware. It became especially famous for portable music devices.",
-      "explanation_incorrect": "The other companies are also Japanese electronics brands, but they are not the specific one identified here. They are known for different product lines and associations.",
-      "last_verified_at": "2026-06-12T14:43:14.550Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Sony introduced the first Walkman, model TPS-L2, in 1979.",
+      "explanation_incorrect": "Panasonic, Sharp and Toshiba are also Japanese electronics companies; Sony introduced the Walkman."
     },
     {
       "subcategory": "Consumer audio brands",
-      "question": "Which portable audio pioneer brand was especially associated with compact cassette players?",
+      "question": "Which audio brand produced the HS-P02 personal cassette player?",
       "options": [
         "Aiwa",
         "Pioneer",
@@ -573,10 +539,8 @@
         "Kenwood"
       ],
       "answer": "Aiwa",
-      "explanation_correct": "Aiwa was a well-known brand in portable audio and cassette-era electronics. It became associated with compact personal music devices.",
-      "explanation_incorrect": "The other options are audio brands, but they are not the specific portable audio pioneer requested. Their reputations are tied to different product categories or eras.",
-      "last_verified_at": "2026-06-12T14:43:14.551Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Aiwa produced the HS-P02 personal stereo cassette player in the 1980s.",
+      "explanation_incorrect": "Pioneer, JVC and Kenwood are other audio brands."
     },
     {
       "subcategory": "Mixtape aesthetics",
@@ -604,9 +568,7 @@
       ],
       "answer": "Tape case",
       "explanation_correct": "A tape case is the plastic container used to store and protect a cassette. It helps keep the tape from damage and dust.",
-      "explanation_incorrect": "The other options are storage items, but they are not the usual container for a cassette tape. Some are associated with other media or general packaging.",
-      "last_verified_at": "2026-06-12T14:43:14.551Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A cassette case is designed to store the compact cassette; sleeve and envelope are broader packaging terms."
     },
     {
       "subcategory": "Audio connectors",
@@ -625,7 +587,7 @@
     },
     {
       "subcategory": "Recording sources",
-      "question": "Which term refers to music obtained from broadcasts rather than from a purchased recording?",
+      "question": "What term describes the broadcast of a song by a radio station?",
       "options": [
         "Radio airplay",
         "Studio master",
@@ -633,14 +595,12 @@
         "Pressed single"
       ],
       "answer": "Radio airplay",
-      "explanation_correct": "Radio airplay is music heard from broadcast radio programming and can be recorded from those transmissions. It is not the same as a studio master, bootleg, or pressed single.",
-      "explanation_incorrect": "The other options describe different music sources or release forms. They do not specifically mean music taken from broadcasts.",
-      "last_verified_at": "2026-06-12T14:43:14.551Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Radio airplay means the broadcast of a song on radio; a listener may separately make an off-air recording.",
+      "explanation_incorrect": "The other answers describe recordings or release formats rather than the act of broadcasting a song."
     },
     {
       "subcategory": "Compilation culture",
-      "question": "What is the term for a mixtape or music collection assembled by an individual user?",
+      "question": "What term describes a collection of tracks assembled by a listener at home?",
       "options": [
         "Home compilation",
         "Commercial anthology",
@@ -648,10 +608,8 @@
         "Label sampler"
       ],
       "answer": "Home compilation",
-      "explanation_correct": "A home compilation is a music collection put together privately by a listener or user. It differs from commercial or label-produced collections.",
-      "explanation_incorrect": "The other options describe professionally produced or broadcast-based collections. They are not personal user-made compilations.",
-      "last_verified_at": "2026-06-12T14:43:14.551Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A home compilation is a privately assembled collection; a homemade mixtape is one example.",
+      "explanation_incorrect": "The other options describe professionally produced or broadcast-based collections. They are not personal user-made compilations."
     },
     {
       "subcategory": "Magnetic media",
@@ -663,10 +621,8 @@
         "Paper backing"
       ],
       "answer": "Polyester film",
-      "explanation_correct": "Polyester (often Mylar) replaced earlier acetate bases because it is more resistant to humidity and stretching.",
-      "explanation_incorrect": "Paper was used in very early recording history, but it lacks the durability required for modern cassettes.",
-      "last_verified_at": "2026-06-12T14:43:14.552Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Polyester film, often PET, is a common tape backing. Mylar is a trade name for a type of polyester film.",
+      "explanation_incorrect": "Paper was used in very early recording history, but it lacks the durability required for modern cassettes."
     },
     {
       "subcategory": "Portable listening",
@@ -685,7 +641,7 @@
     },
     {
       "subcategory": "Portable audio",
-      "question": "Which prominent battery brand utilized a famous mascot consisting of a pink toy rabbit powered by their battery to advertise longevity in electronics?",
+      "question": "Which battery brand uses the Energizer Bunny mascot in North American advertising?",
       "options": [
         "Duracell",
         "Energizer",
@@ -693,10 +649,8 @@
         "Rayovac"
       ],
       "answer": "Energizer",
-      "explanation_correct": "The Energizer Bunny is one of the most recognizable mascots in advertising, famously contrasting with other long-running (but eventually stopping) battery toys.",
-      "explanation_incorrect": "Duracell utilizes a copper-top design in its branding; Panasonic and Rayovac do not feature the famous rabbit mascot.",
-      "last_verified_at": "2026-06-12T14:45:49.177Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Energizer Bunny is a pink rabbit mascot used in North American advertising. Duracell also uses a pink bunny in other markets.",
+      "explanation_incorrect": "Duracell also has a rabbit mascot, so the question specifies the Energizer Bunny and the advertising region."
     },
     {
       "subcategory": "Analog tape",
@@ -708,10 +662,8 @@
         "Ferro tape"
       ],
       "answer": "Metal tape",
-      "explanation_correct": "Metal (Type IV) tapes offered the highest frequency response and dynamic range of all compact cassette types.",
-      "explanation_incorrect": "Chrome (Type II) and Normal (Type I) tapes have lower coercivity and different magnetic properties.",
-      "last_verified_at": "2026-06-12T14:43:14.552Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Type IV uses metal-particle tape and requires an appropriate recording bias and playback equalization setting. Performance also depends on the deck and tape.",
+      "explanation_incorrect": "Chrome (Type II) and Normal (Type I) tapes have lower coercivity and different magnetic properties."
     },
     {
       "subcategory": "Cassette anatomy",
@@ -730,7 +682,7 @@
     },
     {
       "subcategory": "Cassette anatomy",
-      "question": "What is the protective outer casing of a cassette made of?",
+      "question": "What typically forms the outer body of a compact audio cassette?",
       "options": [
         "Plastic shell",
         "Metal frame",
@@ -738,10 +690,8 @@
         "Cardboard sleeve"
       ],
       "answer": "Plastic shell",
-      "explanation_correct": "A cassette is housed in a plastic shell that protects the tape and internal components. The other options are not the standard cassette body material.",
-      "explanation_incorrect": "The other options are different materials or packaging types, but not the cassette's outer casing. They are not used as the typical shell.",
-      "last_verified_at": "2026-06-12T14:43:17.280Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A compact cassette typically has a plastic shell protecting the tape and internal components.",
+      "explanation_incorrect": "The other options are different materials or packaging types, but not the cassette's outer casing. They are not used as the typical shell."
     },
     {
       "subcategory": "Recording process",
@@ -798,10 +748,8 @@
         "Tape guide"
       ],
       "answer": "Microfiber cloth",
-      "explanation_correct": "A microfiber cloth is commonly used for gentle dusting and cleaning of cassette exteriors. It traps particles without scratching the surface.",
-      "explanation_incorrect": "Isopropyl alcohol is used for internal cleaning, not just exterior dust. A foam pad and a tape guide are unrelated hardware items.",
-      "last_verified_at": "2026-06-12T14:43:17.281Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A soft microfiber cloth can remove dust from the outside of a cassette; avoid scratching or disturbing exposed tape.",
+      "explanation_incorrect": "Isopropyl alcohol can be used on some tape-path parts according to equipment instructions; a tape guide is a component, not a cloth."
     },
     {
       "subcategory": "Personal stereo culture",
@@ -858,10 +806,8 @@
         "Receiver"
       ],
       "answer": "Isopropyl alcohol",
-      "explanation_correct": "Isopropyl alcohol is widely used to clean tape heads and tape paths with swabs. It evaporates quickly and removes residue effectively.",
-      "explanation_incorrect": "A microfiber cloth is for surface dusting, not swabbing mechanisms. College radio and a receiver are not cleaning agents.",
-      "last_verified_at": "2026-06-12T14:43:17.282Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Isopropyl alcohol is often used to clean compatible tape heads and guides. Follow the equipment maker’s instructions; rubber rollers may require a different cleaner.",
+      "explanation_incorrect": "The other answers are not liquid cleaning agents used for this task."
     },
     {
       "subcategory": "Tape mechanics",
@@ -910,7 +856,7 @@
     },
     {
       "subcategory": "Portable Audio",
-      "question": "Which battery type was commonly used to power portable cassette players?",
+      "question": "Which battery size powered many personal cassette players, including numerous Walkman models?",
       "options": [
         "AA battery",
         "AAA battery",
@@ -918,10 +864,8 @@
         "C battery"
       ],
       "answer": "AA battery",
-      "explanation_correct": "AA batteries were widely used in portable audio devices, including many cassette players. Their size and availability made them a common power source.",
-      "explanation_incorrect": "The other choices are different battery sizes or shapes, but they were less typical for standard portable cassette players.",
-      "last_verified_at": "2026-06-12T14:43:17.283Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "AA cells powered many portable cassette players, although other battery sizes and rechargeable packs were also used.",
+      "explanation_incorrect": "AAA, C and 9V batteries were used in some audio equipment too; AA was common in personal cassette players."
     },
     {
       "subcategory": "Magnetic Recording",
@@ -970,7 +914,7 @@
     },
     {
       "subcategory": "Tape Transport",
-      "question": "What is the rotating drive part in a tape transport called?",
+      "question": "What rotating shaft engages a cassette hub to drive its reel?",
       "options": [
         "spindle",
         "idler",
@@ -978,14 +922,12 @@
         "capstan"
       ],
       "answer": "spindle",
-      "explanation_correct": "A spindle is the rotating part that supports or drives a reel in tape transport systems. It is a fundamental mechanical element in cassette mechanisms.",
-      "explanation_incorrect": "The other parts are also related to tape transport, but they are not the rotating drive part named in the question.",
-      "last_verified_at": "2026-06-12T14:43:17.284Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A spindle engages and drives a cassette hub; the capstan and pinch roller regulate tape movement past the heads.",
+      "explanation_incorrect": "An idler transfers motion, a flywheel stabilizes motion, and the capstan drives tape past the heads."
     },
     {
       "subcategory": "Cassette Format",
-      "question": "Which physical audio format, first introduced by Philips in 1963, became the global standard for portable recorded music?",
+      "question": "Which Philips audio format, introduced in 1963, enclosed magnetic tape in a compact two-reel shell?",
       "options": [
         "Compact Cassette",
         "Elcaset",
@@ -993,10 +935,8 @@
         "Reel-to-Reel"
       ],
       "answer": "Compact Cassette",
-      "explanation_correct": "The Compact Cassette dominated the market for decades due to its small size and convenience.",
-      "explanation_incorrect": "Elcaset was a larger failed format, and Microcassettes were mainly used for voice recording and dictation.",
-      "last_verified_at": "2026-06-12T14:43:17.284Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The Compact Cassette became a widely used format for portable and home music recording and playback.",
+      "explanation_incorrect": "Elcaset was a larger failed format, and Microcassettes were mainly used for voice recording and dictation."
     },
     {
       "subcategory": "Recording Levels",
@@ -1008,10 +948,8 @@
         "Barometer"
       ],
       "answer": "VU meter",
-      "explanation_correct": "A VU meter shows average audio level and is commonly used when setting recording levels. It is a standard display in audio equipment.",
-      "explanation_incorrect": "The other meters measure electrical resistance, light, or air pressure, not audio signal level.",
-      "last_verified_at": "2026-06-12T14:43:17.284Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A VU meter indicates an averaged signal level and is used to monitor audio; it does not necessarily capture short peaks.",
+      "explanation_incorrect": "The other meters measure electrical resistance, light, or air pressure, not audio signal level."
     },
     {
       "subcategory": "Mixtape Culture",
@@ -1030,7 +968,7 @@
     },
     {
       "subcategory": "Audio Connectors",
-      "question": "Which connector type is commonly associated with professional audio gear and some cassette decks?",
+      "question": "Which connector with a central pin and surrounding sleeve is common for consumer stereo line-level inputs and outputs?",
       "options": [
         "RCA connector",
         "USB connector",
@@ -1038,10 +976,8 @@
         "HDMI connector"
       ],
       "answer": "RCA connector",
-      "explanation_correct": "RCA connectors are widely used for line-level audio connections on consumer and semi-professional equipment. They are common on cassette decks and related audio gear.",
-      "explanation_incorrect": "The other connectors are used in different contexts, but they are not the plug type identified by the blueprint.",
-      "last_verified_at": "2026-06-12T14:43:17.284Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "RCA connectors are common for unbalanced line-level connections on consumer cassette decks and stereos.",
+      "explanation_incorrect": "XLR is common in professional audio; USB and HDMI are digital connection standards."
     },
     {
       "subcategory": "Cassette Noise Reduction",
@@ -1060,18 +996,16 @@
     },
     {
       "subcategory": "Tape Damage",
-      "question": "What is the common term for a physical deformation where magnetic tape becomes folded or wavy, often causing audio distortion?",
+      "question": "What is a fold or wrinkle in magnetic tape commonly called?",
       "options": [
-        "Crinkle",
         "Crease",
-        "Warp",
-        "Buckling"
+        "Calibration",
+        "Bias",
+        "Equalization"
       ],
-      "answer": "Crinkle",
-      "explanation_correct": "Crinkling often happens when a player's transport mechanism 'eats' the tape, causing physical damage.",
-      "explanation_incorrect": "While creases and buckling are types of damage, 'crinkle' is the most common industry term for this specific texture.",
-      "last_verified_at": "2026-06-12T14:43:17.285Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Crease",
+      "explanation_correct": "A crease is physical deformation of the tape, which can interfere with smooth transport and playback.",
+      "explanation_incorrect": "Calibration, bias and equalization are recording or playback adjustments, not physical folds."
     },
     {
       "subcategory": "Cassette Repair",
@@ -1090,18 +1024,16 @@
     },
     {
       "subcategory": "Portable Players",
-      "question": "Which term describes a portable electronic device that integrates a tape transport with an FM/AM tuner and speakers?",
+      "question": "What type of portable stereo with built-in speakers and a radio-cassette player is also called a ghetto blaster?",
       "options": [
-        "Radio cassette",
         "Boom box",
-        "Walkman",
-        "Recorder"
+        "Personal headphone player",
+        "Turntable",
+        "Cassette adapter"
       ],
-      "answer": "Radio cassette",
-      "explanation_correct": "Radio cassette players (or recorders) were versatile devices that allowed both playback and recording from the airwaves.",
-      "explanation_incorrect": "A Walkman is specifically a personal player for headphones, and 'recorder' is a more general term.",
-      "last_verified_at": "2026-06-12T14:43:17.285Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Boom box",
+      "explanation_correct": "A boom box is a portable radio-cassette stereo with built-in speakers; radio-cassette is a broader description.",
+      "explanation_incorrect": "A personal headphone player lacks the characteristic built-in stereo speakers; the other options are different devices."
     },
     {
       "subcategory": "Audio Signal Issues",
@@ -1120,7 +1052,7 @@
     },
     {
       "subcategory": "Music Sequencing",
-      "question": "What is the final song or section on a mixtape typically called?",
+      "question": "What is the closing section of a song or recording called?",
       "options": [
         "outro",
         "intro",
@@ -1128,10 +1060,8 @@
         "verse"
       ],
       "answer": "outro",
-      "explanation_correct": "An outro is the closing section or final track on a sequence. In a mixtape, it serves as the ending piece.",
-      "explanation_incorrect": "The other options are song sections or placements, but they are not the term for the closing track or ending segment.",
-      "last_verified_at": "2026-06-12T14:43:17.285Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "An outro is a closing section; a final song on a compilation is often called a closing track.",
+      "explanation_incorrect": "The other options are song sections or placements, but they are not the term for the closing track or ending segment."
     },
     {
       "subcategory": "Portable audio",
@@ -1150,7 +1080,7 @@
     },
     {
       "subcategory": "Magnetic recording",
-      "question": "Which German company was behind the original cassette tape formulation?",
+      "question": "Which German chemical company produced magnetic recording tape and sold cassette media under its own name?",
       "options": [
         "BASF",
         "Siemens",
@@ -1158,10 +1088,8 @@
         "Agfa"
       ],
       "answer": "BASF",
-      "explanation_correct": "BASF was the German company associated with the original cassette tape formulation. It played a major role in magnetic tape development.",
-      "explanation_incorrect": "The other companies are German or European electronics and imaging names, but they are not the one linked to the original cassette formulation.",
-      "last_verified_at": "2026-06-12T14:43:17.286Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "BASF manufactured magnetic recording tape and sold consumer cassette media; Philips introduced the Compact Cassette format.",
+      "explanation_incorrect": "The other firms made electronic or recording products, but BASF is the chemical company named in this question."
     },
     {
       "subcategory": "Cassette manufacturing",
@@ -1255,7 +1183,7 @@
     },
     {
       "subcategory": "Music sharing",
-      "question": "Which peer-to-peer service was strongly associated with digital song swapping?",
+      "question": "Which peer-to-peer music-sharing service launched by Shawn Fanning and Sean Parker in 1999 became central to early MP3 swapping?",
       "options": [
         "Napster",
         "Kazaa",
@@ -1263,25 +1191,21 @@
         "LimeWire"
       ],
       "answer": "Napster",
-      "explanation_correct": "Napster was a pioneering peer-to-peer file-sharing service widely associated with music swapping. It became famous for enabling rapid sharing of digital songs.",
-      "explanation_incorrect": "Kazaa, eMule, and LimeWire were also file-sharing services, but they are not the specific service most closely linked to the early music-sharing boom. Napster is the best-known answer here.",
-      "last_verified_at": "2026-06-12T14:43:17.287Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Napster launched in 1999 and became widely known for peer-to-peer music sharing.",
+      "explanation_incorrect": "Kazaa, eMule and LimeWire were also file-sharing services, but were not the service launched by Fanning and Parker."
     },
     {
       "subcategory": "Portable electronics",
-      "question": "Which battery brand is known for the Bunny mascot?",
+      "question": "What is the name of a battery designed to be recharged after use?",
       "options": [
-        "Energizer",
-        "Duracell",
-        "Rayovac",
-        "Panasonic"
+        "Rechargeable battery",
+        "Disposable alkaline battery",
+        "Primary cell",
+        "Non-rechargeable zinc-carbon battery"
       ],
-      "answer": "Energizer",
-      "explanation_correct": "Energizer is the battery brand famously associated with the pink Bunny mascot in advertising. The mascot was used to emphasize long battery life.",
-      "explanation_incorrect": "Duracell, Rayovac, and Panasonic also make batteries, but they are not identified with that specific mascot. They are comparable brands, not the correct one.",
-      "last_verified_at": "2026-06-12T14:43:17.287Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Rechargeable battery",
+      "explanation_correct": "Rechargeable batteries can be recharged when used with a compatible charger; examples include nickel-metal hydride cells.",
+      "explanation_incorrect": "Primary cells are designed for single-use discharge and are not ordinary rechargeable batteries."
     },
     {
       "subcategory": "Headphone technology",
@@ -1324,9 +1248,7 @@
       ],
       "answer": "opening track",
       "explanation_correct": "The opening track is the first song on an album or mix. It is placed at the beginning to start the sequence.",
-      "explanation_incorrect": "A hidden track, title track, and bonus track are different kinds of songs on an album. They do not specifically mean the first track.",
-      "last_verified_at": "2026-06-12T14:43:17.287Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A title, bonus or hidden track can appear in different positions, including first; an opening track is defined by its position."
     },
     {
       "subcategory": "Audio connectors",
@@ -1345,7 +1267,7 @@
     },
     {
       "subcategory": "Tape culture",
-      "question": "What do you call a bootleg concert recording made by an audience member?",
+      "question": "What do you call a person who records a live concert, sometimes for tape-trading communities?",
       "options": [
         "taper",
         "roadie",
@@ -1353,14 +1275,12 @@
         "manager"
       ],
       "answer": "taper",
-      "explanation_correct": "A taper is someone who records live concerts, often informally or unofficially, especially in bootleg and trading scenes. The term is closely tied to live tape culture.",
-      "explanation_incorrect": "A roadie, promoter, and manager are all roles in the music industry, but they are not people who make audience concert recordings. They belong to different concert functions.",
-      "last_verified_at": "2026-06-12T14:43:17.288Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A taper is a person who records a live performance. Such recordings may be authorized or unauthorized.",
+      "explanation_incorrect": "A roadie, promoter and manager have other typical concert roles."
     },
     {
       "subcategory": "Portable Audio Branding",
-      "question": "Which audio-cassette brand was associated with the slogan source in this category?",
+      "question": "Which audio-tape brand used the advertising slogan 'Is it live or is it Memorex?'?",
       "options": [
         "Memorex",
         "Maxell",
@@ -1368,29 +1288,25 @@
         "Sony"
       ],
       "answer": "Memorex",
-      "explanation_correct": "Memorex was the brand tied to a famous slogan campaign in cassette-era advertising. The other options are different audio brands.",
-      "explanation_incorrect": "The distractors are all real media brands, but only Memorex matches the clue's slogan source. The others are not the correct brand for this reference.",
-      "last_verified_at": "2026-06-12T14:43:17.288Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Memorex used the slogan 'Is it live or is it Memorex?' to promote its recording media.",
+      "explanation_incorrect": "Maxell, TDK and Sony are other audio-media brands; the slogan names Memorex."
     },
     {
       "subcategory": "Magnetic Tape Chemistry",
-      "question": "Which material is used as an alternative coating in magnetic tape formulations?",
+      "question": "Which element is added to some iron-oxide magnetic tape formulations to improve recording properties?",
       "options": [
-        "cobalt",
-        "iron",
-        "nickel",
-        "aluminum"
+        "Cobalt",
+        "Neon",
+        "Helium",
+        "Sodium"
       ],
-      "answer": "cobalt",
-      "explanation_correct": "Cobalt has been used in magnetic tape coatings to improve recording properties. The other options are materials, but not the intended alternative coating material here.",
-      "explanation_incorrect": "All choices are chemical elements, but only cobalt fits the tape-coating clue. The others are not the correct formulation component.",
-      "last_verified_at": "2026-06-12T14:43:17.288Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Cobalt",
+      "explanation_correct": "Cobalt modification has been used in iron-oxide tape coatings to change their magnetic properties.",
+      "explanation_incorrect": "The other listed elements are not the cobalt used in cobalt-modified iron-oxide tape."
     },
     {
       "subcategory": "Cassette Mechanism",
-      "question": "What part of a cassette is moved when the eject action is used?",
+      "question": "What part of many cassette decks opens when the eject control is pressed?",
       "options": [
         "door",
         "spindle",
@@ -1398,14 +1314,12 @@
         "hub"
       ],
       "answer": "door",
-      "explanation_correct": "On many cassette designs, eject opens or moves the door that covers the tape. The other parts are internal transport components, not the piece directly moved by eject.",
-      "explanation_incorrect": "The distractors are all cassette mechanism parts, but only the door is the piece associated with eject. The others do not match the described action.",
-      "last_verified_at": "2026-06-12T14:43:17.288Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "The cassette-deck door or holder opens to let the user remove the cassette.",
+      "explanation_incorrect": "Spindles, capstans and hubs belong to the transport; the door or holder provides access."
     },
     {
       "subcategory": "Analog Audio Faults",
-      "question": "Which analog audio defect causes a pitch fluctuation during playback?",
+      "question": "What term describes rapid playback-speed fluctuations that cause pitch variation?",
       "options": [
         "flutter",
         "hiss",
@@ -1413,10 +1327,8 @@
         "wow"
       ],
       "answer": "flutter",
-      "explanation_correct": "Flutter is a rapid pitch variation common in analog tape playback. The other terms refer to different audio issues or a related but distinct type of speed variation.",
-      "explanation_incorrect": "The distractors are all audio artifacts, but only flutter matches the pitch-defect clue. The others describe noise or a different playback problem.",
-      "last_verified_at": "2026-06-12T14:43:17.289Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Flutter is rapid speed variation that produces pitch instability. Slower variation is usually called wow.",
+      "explanation_incorrect": "Wow is the slower related variation; hiss and hum are types of unwanted noise."
     },
     {
       "subcategory": "Home Stereo Components",
@@ -1443,14 +1355,12 @@
         "plastic blister"
       ],
       "answer": "shrink wrap",
-      "explanation_correct": "Shrink wrap is the clear protective film often used to seal tape packaging. The other choices are packaging materials, but they are not the standard outer wrap in this context.",
-      "explanation_incorrect": "The distractors are all packaging forms, but only shrink wrap matches the clue. The others do not describe the typical protective outer covering.",
-      "last_verified_at": "2026-06-12T14:43:17.289Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Shrink wrap is one common clear outer seal for packaged cassettes; packaging varies.",
+      "explanation_incorrect": "Sleeves, blister packs and bubble wrap are other forms of packaging, but shrink wrap is a common clear film seal."
     },
     {
       "subcategory": "Recording Sources",
-      "question": "Which broadcast source type could be used when recording a mixtape from the airwaves?",
+      "question": "Which kind of locally focused radio station can be a source of music recorded off the air?",
       "options": [
         "community radio",
         "satellite TV",
@@ -1458,10 +1368,8 @@
         "audiobook stream"
       ],
       "answer": "community radio",
-      "explanation_correct": "Community radio is a broadcast source that can be recorded for tape compilations. The other options are audio or media sources, but they are not broadcast radio in the same sense.",
-      "explanation_incorrect": "All choices are media sources, but only community radio is a broadcast source type relevant to the clue. The others are not the intended recording source.",
-      "last_verified_at": "2026-06-12T14:43:17.289Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Community radio can broadcast locally oriented programming, including music that listeners may record off the air.",
+      "explanation_incorrect": "Satellite television is also broadcast media, but community radio is the locally focused radio option."
     },
     {
       "subcategory": "Personal Listening",
@@ -1489,24 +1397,20 @@
       ],
       "answer": "closing track",
       "explanation_correct": "The closing track is the song placed at the end of a mixtape. The other options are common music terms, but they do not mean the final position in a sequence.",
-      "explanation_incorrect": "All choices are music terms, but only closing track refers to the last song on a mixtape. The others describe different track functions.",
-      "last_verified_at": "2026-06-12T14:43:17.289Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "A lead single, interlude or title track can appear in different positions; closing track describes the last position."
     },
     {
       "subcategory": "Consumer Media Brands",
-      "question": "Which tape brand is associated with consumer media in this category?",
+      "question": "Which brand did 3M use on consumer magnetic recording tape?",
       "options": [
         "Scotch",
         "Bic",
-        "Kodak",
-        "Verbatim"
+        "Kleenex",
+        "Lego"
       ],
       "answer": "Scotch",
-      "explanation_correct": "Scotch is a well-known brand of consumer tape products, including audio cassettes and recording tape. The other options are brands from other product areas or less fitting media associations.",
-      "explanation_incorrect": "The distractors are all brand names, but only Scotch is the tape brand intended by the clue. The others do not match the consumer media branding reference.",
-      "last_verified_at": "2026-06-12T14:43:17.290Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Scotch was a 3M brand used for recording tape and other tape products.",
+      "explanation_incorrect": "The other names are associated with other product categories, not the Scotch recording-tape brand."
     }
   ]
 }
