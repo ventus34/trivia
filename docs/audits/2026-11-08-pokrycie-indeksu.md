@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **185** pozycji ma raport deklarujący przegląd całości paczki.
+- **187** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **40** pozycji nie ma dedykowanego raportu merytorycznego.
+- **38** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -171,7 +171,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 148 | `pionierzy_i_kroki_milowe_nauki_pl` | Pionierzy i Kroki Milowe Nauki | [2026-11-08-pionierzy-i-kroki-milowe-nauki-pl.md](2026-11-08-pionierzy-i-kroki-milowe-nauki-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 83 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 149 | `pionierzy_lotnictwa_pl` | Pionierzy Lotnictwa | [2026-11-07-pionierzy-lotnictwa-pl.md](2026-11-07-pionierzy-lotnictwa-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i komplet 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 65 pozycji: 2–6, 8–11, 13, 15–16, 18, 20, 22, 24–27, 29–30, 32–34, 36, 38–40, 44–45, 48–49, 51, 53–56, 59, 61–63,… |
 | 150 | `pitkowy_miks_pl` | Piątkowy Miks | — | BRAK dedykowanego raportu merytorycznego. |
-| 151 | `podre_i_turystyka_pl` | Podróże i Turystyka | — | BRAK dedykowanego raportu merytorycznego. |
+| 151 | `podre_i_turystyka_pl` | Podróże i Turystyka | [2026-11-08-podroze-i-turystyka-pl.md](2026-11-08-podroze-i-turystyka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 51 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 152 | `polska_wspczesna_pl` | Polska Współczesna | — | BRAK dedykowanego raportu merytorycznego. |
 | 153 | `polskie_lady_na_mapie_europy_pl` | Polskie Ślady na Mapie Europy | — | BRAK dedykowanego raportu merytorycznego. |
 | 154 | `ponad_horyzont_pl` | Ponad horyzont | — | BRAK dedykowanego raportu merytorycznego. |
@@ -182,7 +182,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 159 | `redniowiecze_i_rycerstwo_pl` | Średniowiecze i Rycerstwo | — | BRAK dedykowanego raportu merytorycznego. |
 | 160 | `religie_wiata_pl` | Religie Świata | [2026-11-07-religie-swiata-pl.md](2026-11-07-religie-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i wszystkie 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 67 rekordów: 2–5, 7–8, 10, 12–15, 17–19, 21–23, 25–27, 29, 32–37, 40–41, 43, 45, 48, 50–51, 53–55, 58–59, 61–62,… |
 | 161 | `retro_tech_revival_en` | Retro-Tech Revival | [retro-tech-revival-en-2026-11-06.md](retro-tech-revival-en-2026-11-06.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań i objaśnień w `databases/categories/retro_tech_revival_en.json`, porównano opis z zakresem paczki i zmodyfikowano 49 rekordów: 3, 8–11, 13, 16–17, 19, 22, 25–27,… |
-| 162 | `role_playing_games_en` | Role-Playing Games | — | BRAK dedykowanego raportu merytorycznego. |
+| 162 | `role_playing_games_en` | Role-Playing Games | [2026-11-08-role-playing-games-en.md](2026-11-08-role-playing-games-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 109 pytań, poprawiono 54 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 163 | `rolnictwo_i_agrokultura_pl` | Rolnictwo i Agrokultura | [rolnictwo-i-agrokultura-pl-2026-11-05.md](rolnictwo-i-agrokultura-pl-2026-11-05.md) | PEŁNY ODCZYT deklarowany. Przejrzano 84 pytania wraz z odpowiedziami i objaśnieniami w `databases/categories/rolnictwo_i_agrokultura_pl.json`; opis pasuje do zakresu. Numery pozycji liczone są od 1. Przegląd… |
 | 164 | `roman_mythology_legends_en` | Roman Mythology & Legends | [2026-11-08-roman-mythology-legends-en.md](2026-11-08-roman-mythology-legends-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis; skorygowano legendy oraz wybrane powtórzenia. |
 | 165 | `rycerze_i_wojownicy_pl` | Rycerze i wojownicy | — | BRAK dedykowanego raportu merytorycznego. |

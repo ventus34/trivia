@@ -210,6 +210,10 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Pionierzy i Kroki Milowe Nauki (PL):** przegląd 100 pytań i korekty 83 rekordów; [raport](audits/2026-11-08-pionierzy-i-kroki-milowe-nauki-pl.md).
 
+- **Role-Playing Games (EN):** przegląd 109 pytań i korekty 54 rekordów; [raport](audits/2026-11-08-role-playing-games-en.md).
+
+- **Podróże i Turystyka (PL):** przegląd 100 pytań i korekty 51 rekordów; [raport](audits/2026-11-08-podroze-i-turystyka-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
