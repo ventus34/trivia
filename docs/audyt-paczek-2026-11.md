@@ -165,6 +165,9 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Klasyka Komedii i Sitcomów (PL):** przegląd 100 pytań, korekty 45 rekordów i synchronizacja opisu; [raport](audits/2026-11-08-klasyka-komedii-i-sitcomow-pl.md).
 - **Kuchnia i Smaki (PL):** przegląd 100 pytań, korekty 85 rekordów; [raport](audits/2026-11-08-kuchnia-i-smaki-pl.md).
 
+- **Śladami historii (PL):** przegląd 100 pytań i korekty 45 rekordów; [raport](audits/2026-11-08-ladami-historii-pl.md).
+- **Media i TV (PL):** przegląd 100 pytań, korekty 42 rekordów, w tym 9 powtórzeń, i synchronizacja opisu; [raport](audits/2026-11-08-media-i-tv-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

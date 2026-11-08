@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **159** pozycji ma raport deklarujący przegląd całości paczki.
+- **161** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **65** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **63** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -120,7 +120,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 97 | `kultura_gier_i_ciekawostki_pl` | Kultura Gier i Ciekawostki | [2026-11-05-kultura-gier-opis.md](2026-11-05-kultura-gier-opis.md) (opis/terminologia, bez audytu pytań) | BRAK audytu merytorycznego; raport dotyczy opisu i ujednolicenia terminu w podkategoriach. |
 | 98 | `kultura_i_folklor_lokalny_pl` | Kultura i Folklor Lokalny | [2026-11-06-kultura-i-folklor-lokalny-pl.md](2026-11-06-kultura-i-folklor-lokalny-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz komplet 100 pytań, odpowiedzi i wyjaśnień. Numery poniżej oznaczają kolejność pytań w pliku. Zmieniono opis i 81 pozycji: 1–15, 17–28, 31–40, 42–43, 45–55, 57, 59–61,… |
 | 99 | `kultura_otaku_pl` | Kultura Otaku | [2026-11-08-kultura-otaku-pl.md](2026-11-08-kultura-otaku-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 50 rekordów, wybrane tezy sprawdzono źródłowo. |
-| 100 | `ladami_historii_pl` | Śladami historii | — | BRAK dedykowanego raportu merytorycznego. |
+| 100 | `ladami_historii_pl` | Śladami historii | [2026-11-08-ladami-historii-pl.md](2026-11-08-ladami-historii-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 45 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 101 | `literatura_dla_dzieci_i_modziey_pl` | Literatura dla Dzieci i Młodzieży | [2026-11-06-literatura-dzieci-i-mlodziezy-pl.md](2026-11-06-literatura-dzieci-i-mlodziezy-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `literatura_dla_dzieci_i_modziey_pl`. Zmieniono 41 rekordów: 1, 2, 3, 7, 9, 11, 13, 14, 17, 20, 21, 22, 28, 29, 34, 35, 38,… |
 | 102 | `literatura_pl` | Literatura | [2026-11-08-literatura-pl.md](2026-11-08-literatura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, warianty, wyjaśnienia i opis; raport dotyczy tej paczki, nie literatury dziecięcej. |
 | 103 | `magia_i_miecz_pl` | Magia i miecz | — | BRAK dedykowanego raportu merytorycznego. |
@@ -129,7 +129,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 106 | `matematyka_i_logika_pl` | Matematyka i Logika | [2026-11-05-mathematics-pl-en.md](2026-11-05-mathematics-pl-en.md) | PEŁNY ODCZYT deklarowany. Zakres: pozycje 106–107 `databases/list.json`: `matematyka_i_logika_pl` i `mathematics_and_logic_en`, po 99 pytań. Przejrzano treść wszystkich pytań, opcji, kluczy i wyjaśnień w obu… |
 | 107 | `mathematics_and_logic_en` | Mathematics and Logic | [2026-11-05-mathematics-pl-en.md](2026-11-05-mathematics-pl-en.md) | PEŁNY ODCZYT deklarowany. Zakres: pozycje 106–107 `databases/list.json`: `matematyka_i_logika_pl` i `mathematics_and_logic_en`, po 99 pytań. Przejrzano treść wszystkich pytań, opcji, kluczy i wyjaśnień w obu… |
 | 108 | `meble_i_design_wntrz_pl` | Meble i Design Wnętrz | [2026-11-07-meble-i-design-wnetrz-pl.md](2026-11-07-meble-i-design-wnetrz-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 48 pozycji: 2–4, 8–9, 11–15, 18, 20, 22, 24, 28–29, 32–33, 36, 38, 41–43, 49, 51–61, 63–64, 69, 77, 79, 81, 84, 88–90,… |
-| 109 | `media_i_tv_pl` | Media i TV | — | BRAK dedykowanego raportu merytorycznego. |
+| 109 | `media_i_tv_pl` | Media i TV | [2026-11-08-media-i-tv-pl.md](2026-11-08-media-i-tv-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 42 rekordy, w tym 9 powtórzeń; opis zsynchronizowano z indeksem. |
 | 110 | `medicine_and_human_body_en` | Medicine and Human Body | [2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | BRAK dedykowanego raportu merytorycznego. Wzmianka o powtórzeniach nie rozstrzyga poprawności treści. |
 | 111 | `medicine_human_body_en` | Medicine and Human Body | [2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | BRAK dedykowanego raportu merytorycznego. Wzmianka o powtórzeniach nie rozstrzyga poprawności treści. |
 | 112 | `medycyna_i_ludzkie_ciao_pl` | Medycyna i Ludzkie Ciało | [2026-11-08-medycyna-i-ludzkie-cialo-pl.md](2026-11-08-medycyna-i-ludzkie-cialo-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 105 pytań i opis, przenosząc sprawdzone poprawki z niemal identycznej osobnej paczki; obie nadal mają powtórzenia. |
