@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **187** pozycji ma raport deklarujący przegląd całości paczki.
+- **188** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **38** pozycji nie ma dedykowanego raportu merytorycznego.
+- **37** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -175,7 +175,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 152 | `polska_wspczesna_pl` | Polska Współczesna | — | BRAK dedykowanego raportu merytorycznego. |
 | 153 | `polskie_lady_na_mapie_europy_pl` | Polskie Ślady na Mapie Europy | — | BRAK dedykowanego raportu merytorycznego. |
 | 154 | `ponad_horyzont_pl` | Ponad horyzont | — | BRAK dedykowanego raportu merytorycznego. |
-| 155 | `popkultura_pl` | Popkultura i Gry (PL) | — | BRAK dedykowanego raportu merytorycznego. |
+| 155 | `popkultura_pl` | Popkultura i Gry (PL) | [2026-11-08-popkultura-pl.md](2026-11-08-popkultura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 160 pytań, poprawiono 63 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 156 | `popkulturowy_kocio_pl` | Popkulturowy Kocioł | — | BRAK dedykowanego raportu merytorycznego. |
 | 157 | `powiedzenia_przysowia_i_skrzydlate_sowa_pl` | Powiedzenia, Przysłowia i Skrzydlate Słowa | [2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md](2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 42 pozycje: 1, 5–9, 13–15, 17, 19, 23, 26–28, 31, 33, 36–39, 43, 45, 52–53, 55, 57, 59, 62, 68–69, 74, 76, 78, 82, 84, 88,… |
 | 158 | `prawo_i_systemy_sprawiedliwoci_pl` | Prawo i Systemy Sprawiedliwości | — | BRAK dedykowanego raportu merytorycznego. |
