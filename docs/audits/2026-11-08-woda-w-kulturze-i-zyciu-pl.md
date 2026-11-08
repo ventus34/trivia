@@ -6,7 +6,7 @@ Paczka: `woda_w_kulturze_i_yciu_pl` (`databases/categories/woda_w_kulturze_i_yci
 
 - Usunięto niejednoznaczności w odpowiedziach, m.in. dotyczące rzygacza i gargulca, wód perfumowanych, filtracji i bentosu. Pytania o mimowolnie pokrywające się pojęcia doprecyzowano albo zastąpiono.
 - Skorygowano wyjaśnienia dotyczące Moneta, chinamp, dymu nad Jeziorem Genewskim, Kanału Kilońskiego i prądów Atlantyku. Oddzielono anegdotę o Archimedesie od ustaleń historycznych.
-- Zastąpiono niepotwierdzony tytuł przypisywany Achmatowej pytaniem o powieść Verne’a. Zaktualizowano pytanie o rekordowy grzybień: obecnie rozpoznanym rekordzistą jest *Victoria boliviana*.
+- Zastąpiono niepotwierdzony tytuł przypisywany Achmatowej pytaniem o powieść Verne’a. Zaktualizowano pytanie o rekordową wiktorię: obecnie rozpoznanym rekordzistą jest *Victoria boliviana*.
 - Wyjaśniono ograniczenia różdżkarstwa, destylacji etanolu i filtrowania wody przez tkaninę. Woda z rosy nie jest automatycznie zdatna do picia. Doprecyzowano fizykę, biologię, astrologię i opis hipotetycznego oceanu Europy.
 - Usunięto znaczniki poprzedniej weryfikacji z edytowanych rekordów i z metadanych całej paczki: wcześniejsza weryfikacja nie obejmowała ich nowej treści.
 
