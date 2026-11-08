@@ -168,6 +168,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Śladami historii (PL):** przegląd 100 pytań i korekty 45 rekordów; [raport](audits/2026-11-08-ladami-historii-pl.md).
 - **Media i TV (PL):** przegląd 100 pytań, korekty 42 rekordów, w tym 9 powtórzeń, i synchronizacja opisu; [raport](audits/2026-11-08-media-i-tv-pl.md).
 
+- **General Knowledge (EN):** przegląd 577 pytań i korekty 102 rekordów; [raport](audits/2026-11-08-general-en.md). Pozostają podobne tematycznie pytania.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

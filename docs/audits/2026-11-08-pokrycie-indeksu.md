@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **161** pozycji ma raport deklarujący przegląd całości paczki.
+- **162** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **63** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **62** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -76,7 +76,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 53 | `gaming_culture_and_trivia_en` | Gaming Culture and Trivia | [2026-11-06-gaming-culture-and-trivia-en.md](2026-11-06-gaming-culture-and-trivia-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i wszystkie 100 rekordów pytań: treść, cztery opcje, odpowiedź, oba wyjaśnienia oraz metadane weryfikacji. Skontrolowano spójność i oczywiste błędy we wszystkich rekordach;… |
 | 54 | `gaming_lore_and_worlds_en` | Gaming Lore and Worlds | [gaming_lore_and_worlds_en.md](gaming_lore_and_worlds_en.md) | PEŁNY ODCZYT deklarowany. Date: 2026-11-06. Reviewed the description and all 100 questions, answer choices, keys, and explanations. Selected disputed claims were checked against the sources below. Question numbers… |
 | 55 | `gatunki_muzyczne_wiata_pl` | Gatunki Muzyczne Świata | [2026-11-06-gatunki-muzyczne-swiata-pl.md](2026-11-06-gatunki-muzyczne-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano treść wszystkich 100 pytań, odpowiedzi i objaśnień oraz opis paczki. Poprawiono pozycje 1, 2, 3, 4, 13, 17, 18, 24, 29, 30, 32, 34, 35, 37, 41, 53, 54, 57, 60, 66, 69, 76, 78,… |
-| 56 | `general_en` | General Knowledge | [2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | BRAK dedykowanego raportu merytorycznego. Wzmianka o powtórzeniach nie rozstrzyga poprawności treści. |
+| 56 | `general_en` | General Knowledge | [2026-11-08-general-en.md](2026-11-08-general-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 577 pytań, poprawiono 102 rekordy; pozostają podobne tematycznie pytania. |
 | 57 | `general_pl` | Wiedza Ogólna | [2026-11-08-general-pl.md](2026-11-08-general-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 578 pytań, poprawiono 150 rekordów; nadal występują bliskie powtórzenia. |
 | 58 | `geografia_pl` | Geografia | [2026-11-05-geografia-pl.md](2026-11-05-geografia-pl.md) | PEŁNY ODCZYT deklarowany. Zakres: `geografia_pl`, pozycja 58 w indeksie; 100 pytań. Przejrzano pytania, warianty odpowiedzi, klucze, wyjaśnienia i opis; wybrane sporne fakty sprawdzono w źródłach poniżej. Nie… |
 | 59 | `geographical_discoveries_en` | Geographical Discoveries | [2026-11-05-geographical-discoveries-en.md](2026-11-05-geographical-discoveries-en.md) | PEŁNY ODCZYT deklarowany. Paczka `databases/categories/geographical_discoveries_en.json`, pozycja 59 w indeksie, 119 pytań. Przeczytano pytania, wszystkie odpowiedzi i oba wyjaśnienia. Poprawiono 29 pozycji (numery… |
