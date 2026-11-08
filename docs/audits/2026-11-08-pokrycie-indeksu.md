@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **153** pozycji ma raport deklarujący przegląd całości paczki.
+- **155** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **71** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **69** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -104,7 +104,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 81 | `jzyki_i_dialekty_wiata_pl` | Języki i Dialekty Świata | [2026-11-08-jezyki-i-dialekty-swiata-pl.md](2026-11-08-jezyki-i-dialekty-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis; wybrane tezy sprawdzono niezależnie. |
 | 82 | `kartografia_i_mapy_pl` | Kartografia i Mapy | [2026-11-07-kartografia-i-mapy-pl.md](2026-11-07-kartografia-i-mapy-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań wraz z odpowiedziami i wyjaśnieniami. Zmieniono 34 pozycje: 6, 9–11, 13, 16–18, 25, 27, 29–30, 35, 39–40, 46, 48, 52, 55, 57, 61, 63, 66–67, 71, 76, 81, 83, 85,… |
 | 83 | `kino_europejskie_pl` | Kino Europejskie | [2026-11-07-kino-europejskie-pl.md](2026-11-07-kino-europejskie-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnień oraz opis paczki. Zmieniono 26 pozycji: 4, 14, 16–17, 26, 31, 34, 43–44, 46, 56–59, 61, 63, 69–70, 78–80, 83, 92, 95–97. Liczba pytań i opis… |
-| 84 | `kino_i_film_pl` | Kino i Film | — | BRAK dedykowanego raportu merytorycznego. |
+| 84 | `kino_i_film_pl` | Kino i Film | [2026-11-08-kino-i-film-pl.md](2026-11-08-kino-i-film-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 30 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 85 | `klasyka_komedii_i_sitcomw_pl` | Klasyka Komedii i Sitcomów | — | BRAK dedykowanego raportu merytorycznego. |
 | 86 | `klasyka_literatury_pl` | Klasyka Literatury | [2026-11-05-klasyka-literatury-pl.md](2026-11-05-klasyka-literatury-pl.md) | PEŁNY ODCZYT deklarowany. Zakres: ręcznie sprawdzono wszystkie 20 pytań paczki `klasyka_literatury_pl`: treść pytania, wskazaną odpowiedź, zgodność odpowiedzi z opcjami oraz oba wyjaśnienia. Przejrzano również… |
 | 87 | `klimat_i_zjawiska_pl` | Klimat i Zjawiska | [2026-11-08-klimat-i-zjawiska-pl.md](2026-11-08-klimat-i-zjawiska-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, warianty, wyjaśnienia i opis; wybrane tezy sprawdzono niezależnie. |
@@ -238,7 +238,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 215 | `wielka_inynieria_prl_u_pl` | Wielka Inżynieria PRL-u | [2026-11-07-wielka-inzynieria-prl-pl.md](2026-11-07-wielka-inzynieria-prl-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, wszystkie opcje, oba wyjaśnienia oraz opis. Zmieniono 86 pozycji: 1–2, 4–8, 10–17, 19–33, 35–50, 52–53, 55–58, 60, 62–67, 69–74, 76–82, 84–92, 95–97, 99–100. Liczbę… |
 | 216 | `wielka_ucieczka_survival_pl` | Wielka Ucieczka: Survival | [2026-11-07-wielka-ucieczka-survival-pl.md](2026-11-07-wielka-ucieczka-survival-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-07. Przejrzano wszystkie 100 pytań, odpowiedzi, klucze, wyjaśnienia i opis. Liczba pytań bez zmian. Numery poniżej oznaczają pozycje w tablicy `questions` (od 1). |
 | 217 | `wielkie_budowle_i_inynieria_pl` | Wielkie Budowle i Inżynieria | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
-| 218 | `woda_w_kulturze_i_yciu_pl` | Woda w Kulturze i Życiu | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
+| 218 | `woda_w_kulturze_i_yciu_pl` | Woda w Kulturze i Życiu | [2026-11-08-woda-w-kulturze-i-zyciu-pl.md](2026-11-08-woda-w-kulturze-i-zyciu-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano opis i 100 pytań, zmieniono 66 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 219 | `wulkany_i_geologia_pl` | Wulkany i Geologia | [2026-11-07-wulkany-i-geologia-pl.md](2026-11-07-wulkany-i-geologia-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 56 pozycji: 1, 3, 5, 8, 10–14, 18–19, 27–28, 31, 33–39, 41–44, 47–49, 51, 53–55, 57–58, 62–63, 65, 67, 69, 71–72, 74–75,… |
 | 220 | `wynalazki_codziennoci_pl` | Wynalazki Codzienności | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
 | 221 | `ycie_codzienne_pl` | Życie codzienne | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |

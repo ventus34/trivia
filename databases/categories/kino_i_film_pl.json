@@ -2,10 +2,8 @@
   "id": "kino_i_film_pl",
   "name": "Kino i Film",
   "language": "pl",
-  "description": "Pytania z zakresu: Komedia, Scenariusz, Aktorstwo, Kino Włoskie, Musical, Fantasy, Kino Polskie...",
+  "description": "Pytania o filmy, twórców i aktorów, gatunki, festiwale oraz technikę filmową.",
   "created_at": "2026-06-12T17:19:10.667Z",
-  "last_verified_at": "2026-06-12T17:14:33.499Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
@@ -25,7 +23,7 @@
     },
     {
       "subcategory": "Scenariusz",
-      "question": "Kto jest współautorem scenariusza do filmu 'Pulp Fiction' z 1994 roku?",
+      "question": "Kto napisał scenariusz filmu 'Pulp Fiction' z 1994 roku?",
       "options": [
         "Quentin Tarantino",
         "Martin Scorsese",
@@ -33,10 +31,8 @@
         "David Fincher"
       ],
       "answer": "Quentin Tarantino",
-      "explanation_correct": "Quentin Tarantino napisał ten scenariusz wraz z Rogerem Avarym.",
-      "explanation_incorrect": "Pozostali twórcy to uznani reżyserzy, których style pracy są odmienne od estetyki tego dzieła.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Scenariusz napisał Quentin Tarantino; autorem historii był wspólnie z Rogerem Avarym.",
+      "explanation_incorrect": "Pozostali reżyserzy nie napisali scenariusza tego filmu."
     },
     {
       "subcategory": "Aktorstwo",
@@ -100,7 +96,7 @@
     },
     {
       "subcategory": "Kino Polskie",
-      "question": "Kto jest twórcą cyklu filmowego pod tytułem 'Dekalog'?",
+      "question": "Kto wyreżyserował cykl filmowy 'Dekalog'?",
       "options": [
         "Krzysztof Kieślowski",
         "Andrzej Wajda",
@@ -108,10 +104,8 @@
         "Agnieszka Holland"
       ],
       "answer": "Krzysztof Kieślowski",
-      "explanation_correct": "Krzysztof Kieślowski zrealizował to monumentalne dzieło oparte na dziesięciu przykazaniach.",
-      "explanation_incorrect": "Wymienieni reżyserzy to polscy mistrzowie kina, ale ich twórczość koncentrowała się na innych zagadnieniach.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Krzysztof Kieślowski wyreżyserował cykl; scenariusze napisał wspólnie z Krzysztofem Piesiewiczem.",
+      "explanation_incorrect": "Wymienieni reżyserzy to polscy mistrzowie kina, ale ich twórczość koncentrowała się na innych zagadnieniach."
     },
     {
       "subcategory": "Dramat",
@@ -168,10 +162,8 @@
         "Madwoman"
       ],
       "answer": "Femme fatale",
-      "explanation_correct": "Femme fatale to archetyp kusicielki, która prowadzi głównego bohatera do zguby.",
-      "explanation_incorrect": "Pozostałe pojęcia opisują odmienne typy kobiecych ról filmowych, niekoniecznie przypisanych do noir.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Femme fatale to archetyp tajemniczej, uwodzicielskiej i potencjalnie niebezpiecznej kobiety, częsty w kinie noir.",
+      "explanation_incorrect": "Pozostałe pojęcia opisują odmienne typy kobiecych ról filmowych, niekoniecznie przypisanych do noir."
     },
     {
       "subcategory": "Kino Skandynawskie",
@@ -198,10 +190,8 @@
         "Universal Studios"
       ],
       "answer": "MGM",
-      "explanation_correct": "Metro-Goldwyn-Mayer (MGM) słynie z ikonicznego lwa o imieniu Leo.",
-      "explanation_incorrect": "Pozostałe studia używają w logotypach innych symboli, takich jak góry, tarcze czy globusy.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Metro-Goldwyn-Mayer (MGM) używa w logo ryczącego lwa, znanego jako Leo; przez lata filmowano różne lwy.",
+      "explanation_incorrect": "Pozostałe studia używają w logotypach innych symboli, takich jak góry, tarcze czy globusy."
     },
     {
       "subcategory": "Oscary",
@@ -250,7 +240,7 @@
     },
     {
       "subcategory": "Kino Niezależne",
-      "question": "Który festiwal kina niezależnego został założony przez aktora Roberta Redforda?",
+      "question": "Który festiwal kina niezależnego jest związany z założonym przez Roberta Redforda Sundance Institute?",
       "options": [
         "Sundance",
         "Cannes",
@@ -258,10 +248,8 @@
         "Telluride"
       ],
       "answer": "Sundance",
-      "explanation_correct": "Festiwal Filmowy Sundance odbywa się w Park City i promuje kino autorskie.",
-      "explanation_incorrect": "Pozostałe festiwale to prestiżowe wydarzenia o innej genezie i charakterze.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sundance Institute, założony przez Redforda w 1981 roku, przejął istniejący już festiwal w 1985 roku.",
+      "explanation_incorrect": "Pozostałe festiwale nie są festiwalem filmowym prowadzonym przez Sundance Institute."
     },
     {
       "subcategory": "Aktorstwo",
@@ -280,7 +268,7 @@
     },
     {
       "subcategory": "Kino Niemieckie",
-      "question": "Który reżyser jest kluczowym przedstawicielem niemieckiego ekspresjonizmu, twórcą filmu 'Nosferatu'?",
+      "question": "Który niemiecki reżyser wyreżyserował niemy film 'Nosferatu' z 1922 roku?",
       "options": [
         "F.W. Murnau",
         "Fritz Lang",
@@ -288,10 +276,8 @@
         "Werner Herzog"
       ],
       "answer": "F.W. Murnau",
-      "explanation_correct": "F.W. Murnau to pionier kina niemego i mistrz ekspresjonistycznej formy wizualnej.",
-      "explanation_incorrect": "Pozostali filmowcy również pracowali w Niemczech, ale ich główny dorobek powstał w innych okresach lub nurtach.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "F.W. Murnau wyreżyserował ekspresjonistyczny film z 1922 roku; późniejszą wersję z 1979 roku wyreżyserował Werner Herzog.",
+      "explanation_incorrect": "Pozostali filmowcy również pracowali w Niemczech, ale ich główny dorobek powstał w innych okresach lub nurtach."
     },
     {
       "subcategory": "Scenografia",
@@ -310,7 +296,7 @@
     },
     {
       "subcategory": "Muzyka Filmowa",
-      "question": "Który kompozytor stworzył ścieżkę dźwiękową do filmu Gladiator w reżyserii Ridleya Scotta?",
+      "question": "Który kompozytor współtworzył z Lisą Gerrard muzykę do filmu 'Gladiator' w reżyserii Ridleya Scotta?",
       "options": [
         "Hans Zimmer",
         "John Williams",
@@ -318,10 +304,8 @@
         "Howard Shore"
       ],
       "answer": "Hans Zimmer",
-      "explanation_correct": "Hans Zimmer stworzył jedną ze swoich najsłynniejszych partytur przy współpracy z Lisą Gerrard.",
-      "explanation_incorrect": "Pozostali kompozytorzy są wybitnymi twórcami, jednak to nie oni odpowiedzialni są za muzykę do tego konkretnego tytułu.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hans Zimmer i Lisa Gerrard współtworzyli muzykę do filmu.",
+      "explanation_incorrect": "Pozostali kompozytorzy są wybitnymi twórcami, jednak to nie oni odpowiedzialni są za muzykę do tego konkretnego tytułu."
     },
     {
       "subcategory": "Horror",
@@ -453,10 +437,8 @@
         "DreamWorks"
       ],
       "answer": "Marvel Studios",
-      "explanation_correct": "Marvel Studios to jednostka produkcyjna odpowiedzialna za spójność wszystkich filmów należących do MCU.",
-      "explanation_incorrect": "DC Films to studio konkurujące z Marvelem, natomiast Pixar i DreamWorks skupiają się na animacji.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Marvel Studios produkuje filmy należące do kinowego uniwersum Marvela (MCU).",
+      "explanation_incorrect": "DC Films to studio konkurujące z Marvelem, natomiast Pixar i DreamWorks skupiają się na animacji."
     },
     {
       "subcategory": "Kino Radzieckie",
@@ -484,9 +466,7 @@
       ],
       "answer": "Studio Ghibli",
       "explanation_correct": "Studio Ghibli jest znane z takich hitów jak Mój sąsiad Totoro czy Spirited Away.",
-      "explanation_incorrect": "Pozostałe studia animacji są ważne w Japonii, ale nie są to domy produkcyjne twórczości Miyazakiego.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe studia również działają w animacji, ale to Ghibli współzałożył Miyazaki, który wcześniej pracował także w innych wytwórniach."
     },
     {
       "subcategory": "Aktorstwo",
@@ -565,7 +545,7 @@
     },
     {
       "subcategory": "Wytwórnie",
-      "question": "Które studio animacji zostało założone m.in. przez Jeffreya Katzenberga w 1994 roku?",
+      "question": "Które studio filmowe założyli w 1994 roku Jeffrey Katzenberg, Steven Spielberg i David Geffen?",
       "options": [
         "DreamWorks",
         "Pixar",
@@ -573,10 +553,8 @@
         "Illumination"
       ],
       "answer": "DreamWorks",
-      "explanation_correct": "DreamWorks Animation zostało założone po odejściu Katzenberga z Disneya.",
-      "explanation_incorrect": "Pozostałe studia mają innych założycieli lub inną historię powstania.",
-      "last_verified_at": "2026-06-12T17:13:12.440Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "DreamWorks SKG założyli Katzenberg, Spielberg i Geffen; DreamWorks Animation stało się odrębną spółką w 2004 roku.",
+      "explanation_incorrect": "Pozostałe studia mają innych założycieli lub inną historię powstania."
     },
     {
       "subcategory": "Aktorstwo",
@@ -640,7 +618,7 @@
     },
     {
       "subcategory": "Kino Polskie",
-      "question": "Jak nazywa się główny męski bohater kultowej polskiej komedii 'Seksmisja'?",
+      "question": "Jak nazywa się bohater komedii 'Seksmisja', którego gra Jerzy Stuhr?",
       "options": [
         "Maksymilian Paradys",
         "Jerzy Ryba",
@@ -649,9 +627,7 @@
       ],
       "answer": "Maksymilian Paradys",
       "explanation_correct": "Maksymilian Paradys, grany przez Jerzego Stuhra, to jeden ze śmiałków biorących udział w eksperymencie hibernacji.",
-      "explanation_incorrect": "Pozostałe imiona i nazwiska to postacie z innych polskich klasyków filmowych lub postacie drugoplanowe.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Albert Starski to drugi z głównych bohaterów; gra go Olgierd Łukaszewicz."
     },
     {
       "subcategory": "Horror",
@@ -663,10 +639,8 @@
         "Slappy"
       ],
       "answer": "Chucky",
-      "explanation_correct": "Chucky jest antagonizmem serii 'Laleczka Chucky', opętanym przez Charlesa Lee Raya.",
-      "explanation_incorrect": "Annabelle czy Billy to znane postaci z innych serii grozy, które nie posiadają tej samej genezy powstania.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chucky jest antagonistą serii 'Laleczka Chucky': lalkę opętał duch Charlesa Lee Raya.",
+      "explanation_incorrect": "Annabelle czy Billy to znane postaci z innych serii grozy, które nie posiadają tej samej genezy powstania."
     },
     {
       "subcategory": "Aktorstwo",
@@ -693,10 +667,8 @@
         "Bong Joon-ho"
       ],
       "answer": "Ang Lee",
-      "explanation_correct": "Ang Lee wyreżyserował ten film, który zdobył liczne Oscary i spopularyzował gatunek wuxia.",
-      "explanation_incorrect": "Pozostali reżyserzy są kluczowymi figurami kina azjatyckiego, ale nie są autorami tego konkretnego dzieła.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ang Lee wyreżyserował ten film, który zdobył cztery Oscary i przybliżył gatunek wuxia międzynarodowej publiczności.",
+      "explanation_incorrect": "Pozostali reżyserzy są kluczowymi figurami kina azjatyckiego, ale nie są autorami tego konkretnego dzieła."
     },
     {
       "subcategory": "Muzyka Filmowa",
@@ -760,7 +732,7 @@
     },
     {
       "subcategory": "Oscary",
-      "question": "W jakim budynku w Los Angeles odbywają się obecnie gale rozdania Oscarów?",
+      "question": "W jakim budynku odbyła się 96. ceremonia rozdania Oscarów w 2024 roku?",
       "options": [
         "Dolby Theatre",
         "Grauman's Chinese Theatre",
@@ -768,10 +740,8 @@
         "Shrine Auditorium"
       ],
       "answer": "Dolby Theatre",
-      "explanation_correct": "Od 2002 roku ceremonia wręczenia nagród Akademii odbywa się w Dolby Theatre (dawniej Kodak Theatre).",
-      "explanation_incorrect": "Podane lokalizacje są symbolami Hollywood, ale nie pełnią obecnie funkcji stałej siedziby Oscarów.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "96. ceremonia Oscarów odbyła się w Dolby Theatre w Hollywood.",
+      "explanation_incorrect": "W 2024 roku Akademia zorganizowała 96. ceremonię w Dolby Theatre."
     },
     {
       "subcategory": "Animacja",
@@ -963,10 +933,8 @@
         "Geena Davis"
       ],
       "answer": "Sigourney Weaver",
-      "explanation_correct": "Sigourney Weaver zagrała porucznik Ellen Ripley w oryginalnej serii 'Obcy', rozpoczynającej się od filmu Ridleya Scotta.",
-      "explanation_incorrect": "Pozostałe aktorki znane są z innych ról w kinie science-fiction lub akcji.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sigourney Weaver zagrała Ellen Ripley, członkinię załogi Nostromo, w oryginalnej serii 'Obcy'.",
+      "explanation_incorrect": "Pozostałe aktorki znane są z innych ról w kinie science-fiction lub akcji."
     },
     {
       "subcategory": "Gatunki",
@@ -1000,7 +968,7 @@
     },
     {
       "subcategory": "Kino Polskie",
-      "question": "Który polski kompozytor stworzył poruszającą ścieżkę dźwiękową do nagrodzonego Oscarem filmu 'Pianista' w reżyserii Romana Polańskiego?",
+      "question": "Który polski kompozytor napisał oryginalną muzykę do filmu 'Pianista' Romana Polańskiego?",
       "options": [
         "Zbigniew Preisner",
         "Jan A.P. Kaczmarek",
@@ -1008,10 +976,8 @@
         "Krzysztof Penderecki"
       ],
       "answer": "Wojciech Kilar",
-      "explanation_correct": "Wojciech Kilar jest autorem muzyki do dramatu 'Pianista' z 2002 roku.",
-      "explanation_incorrect": "Pozostali kompozytorzy wypracowali własne style, ale nie pisali muzyki do tego filmu.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wojciech Kilar skomponował oryginalną muzykę do 'Pianisty'; w filmie ważne miejsce zajmują również utwory Fryderyka Chopina.",
+      "explanation_incorrect": "Pozostali kompozytorzy wypracowali własne style, ale nie pisali muzyki do tego filmu."
     },
     {
       "subcategory": "Komedia",
@@ -1024,13 +990,11 @@
       ],
       "answer": "Monty Python",
       "explanation_correct": "Monty Python to legendarna grupa komediowa odpowiedzialna za satyryczne filmy, w tym 'Żywot Briana'.",
-      "explanation_incorrect": "Pozostałe grupy to również formacje kabaretowe lub telewizyjne, ale nie są autorami tego filmu.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają grupy, która stworzyła 'Żywot Briana'."
     },
     {
       "subcategory": "Przeboje Kinowe",
-      "question": "Który przełomowy pod względem efektów wizualnych film Jamesa Camerona opowiada o losach mieszkańców planety Pandora?",
+      "question": "Który film Jamesa Camerona z 2009 roku opowiada o mieszkańcach księżyca Pandora?",
       "options": [
         "Terminator",
         "Avatar",
@@ -1038,10 +1002,8 @@
         "Titanic"
       ],
       "answer": "Avatar",
-      "explanation_correct": "Avatar z 2009 roku to megaprodukcja Camerona o niebieskoskórych Na'vi z planety Pandora.",
-      "explanation_incorrect": "Titanic to również film Camerona, ale traktuje o katastrofie liniowca, a pozostałe są w innym klimacie.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Akcja filmu Avatar rozgrywa się na Pandorze, księżycu zamieszkałym między innymi przez Na’vi.",
+      "explanation_incorrect": "Titanic to również film Camerona, ale traktuje o katastrofie liniowca, a pozostałe są w innym klimacie."
     },
     {
       "subcategory": "Aktorstwo",
@@ -1060,7 +1022,7 @@
     },
     {
       "subcategory": "Teoria Filmu",
-      "question": "Kto jest uznawany za twórcę tzw. 'efektu Kuleszowa', czyli teorii montażu udowadniającej, że znaczenie ujęcia zależy od kontekstu?",
+      "question": "Od nazwiska którego filmowca pochodzi 'efekt Kuleszowa', ilustrujący wpływ zestawienia ujęć na ich interpretację?",
       "options": [
         "Lew Kuleszow",
         "Siergiej Eisenstein",
@@ -1068,10 +1030,8 @@
         "Wsiewołod Pudowkin"
       ],
       "answer": "Lew Kuleszow",
-      "explanation_correct": "Lew Kuleszow przeprowadził słynny eksperyment montażowy, w którym zestawił tę samą twarz aktora z różnymi obrazami.",
-      "explanation_incorrect": "Eisenstein, Wiertow i Pudowkin to inni wielcy radzieccy filmowcy tamtej epoki, którzy rozwijali własne teorie montażu.",
-      "last_verified_at": "2026-06-12T17:14:20.315Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Efekt nazwano od Lwa Kuleszowa; opisuje, jak kontekst sąsiednich obrazów wpływa na interpretację ujęcia.",
+      "explanation_incorrect": "Eisenstein, Wiertow i Pudowkin to inni wielcy radzieccy filmowcy tamtej epoki, którzy rozwijali własne teorie montażu."
     },
     {
       "subcategory": "Kino Polskie",
@@ -1120,7 +1080,7 @@
     },
     {
       "subcategory": "Kino Awangardowe",
-      "question": "Który surrealistyczny artysta był współtwórcą scenariusza oraz reżyserem awangardowego filmu 'Pies andaluzyjski' wraz z Luisem Buñuelem?",
+      "question": "Który surrealistyczny artysta współtworzył z Luisem Buñuelem scenariusz filmu 'Pies andaluzyjski' z 1929 roku?",
       "options": [
         "Man Ray",
         "Salvador Dalí",
@@ -1128,10 +1088,8 @@
         "Jean Cocteau"
       ],
       "answer": "Salvador Dalí",
-      "explanation_correct": "Salvador Dalí współpracował z Buñuelem przy tworzeniu 'Psa andaluzyjskiego' w 1929 roku.",
-      "explanation_incorrect": "Pozostali artyści byli związani z surrealizmem, ale nie brali udziału w tworzeniu owego dzieła.",
-      "last_verified_at": "2026-06-12T17:13:12.441Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Salvador Dalí i Luis Buñuel napisali scenariusz filmu, który wyreżyserował Buñuel.",
+      "explanation_incorrect": "Pozostali artyści byli związani z surrealizmem, ale nie brali udziału w tworzeniu owego dzieła."
     },
     {
       "subcategory": "Aktorstwo",
@@ -1248,10 +1206,8 @@
         "Przygodowy"
       ],
       "answer": "Western",
-      "explanation_correct": "Western opowiada o życiu pionierów i rewolwerowców w XIX-wiecznej Ameryce.",
-      "explanation_incorrect": "Pozostałe gatunki mają inną tematykę czasu i miejsca akcji.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Western często przedstawia pogranicze zachodniej części Ameryki Północnej, pionierów i rewolwerowców.",
+      "explanation_incorrect": "Western jest gatunkiem szczególnie kojarzonym z Dzikim Zachodem, choć inne gatunki też mogą tam umieszczać akcję."
     },
     {
       "subcategory": "Reżyseria",
@@ -1263,14 +1219,12 @@
         "John Carpenter"
       ],
       "answer": "Steven Spielberg",
-      "explanation_correct": "Steven Spielberg stworzył ten film, który stał się pierwszym hollywoodzkim blockbusterem.",
-      "explanation_incorrect": "Wymienieni reżyserzy również działali w tym okresie, ale nie odpowiadają za ten konkretny film.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Steven Spielberg wyreżyserował 'Szczęki', przełomowy hollywoodzki przebój kasowy.",
+      "explanation_incorrect": "Wymienieni reżyserzy również działali w tym okresie, ale nie odpowiadają za ten konkretny film."
     },
     {
       "subcategory": "Aktorstwo",
-      "question": "Który aktor wcielił się w postać Dona Vito Corleone w filmie 'Ojciec chrzestny'?",
+      "question": "Który aktor zagrał Dona Vito Corleone w filmie 'Ojciec chrzestny' z 1972 roku?",
       "options": [
         "Marlon Brando",
         "Al Pacino",
@@ -1279,13 +1233,11 @@
       ],
       "answer": "Marlon Brando",
       "explanation_correct": "Marlon Brando otrzymał Oscara za kreację ojca rodziny mafijnej w pierwszej części sagi.",
-      "explanation_incorrect": "Pozostali wymienieni aktorzy zagrali w serii, ale w inne role.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Młodego Vito w 'Ojcu chrzestnym II' zagrał Robert De Niro; w filmie z 1972 roku rolę tę zagrał Marlon Brando."
     },
     {
       "subcategory": "Kino Polskie",
-      "question": "Który polski reżyser jest autorem ekranizacji 'Kanału' oraz 'Popiołu i diamentu'?",
+      "question": "Który polski reżyser wyreżyserował filmy 'Kanał' oraz 'Popiół i diament'?",
       "options": [
         "Andrzej Wajda",
         "Krzysztof Kieślowski",
@@ -1294,9 +1246,7 @@
       ],
       "answer": "Andrzej Wajda",
       "explanation_correct": "Andrzej Wajda był czołową postacią polskiej szkoły filmowej i twórcą tych dzieł.",
-      "explanation_incorrect": "Pozostali wymienieni twórcy to wybitni polscy reżyserzy, ale kojarzeni z innymi, późniejszymi lub odmiennymi stylistycznie nurtami.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostali wymienieni twórcy to wybitni polscy reżyserzy, ale kojarzeni z innymi, późniejszymi lub odmiennymi stylistycznie nurtami."
     },
     {
       "subcategory": "Animacja",
@@ -1315,7 +1265,7 @@
     },
     {
       "subcategory": "Technika Filmowa",
-      "question": "Jak nazywa się podstawowe urządzenie optyczno-mechaniczne służące do rejestracji obrazów ruchomych?",
+      "question": "Jak nazywa się urządzenie służące do rejestracji ruchomego obrazu?",
       "options": [
         "Kamera",
         "Rzutnik",
@@ -1324,9 +1274,7 @@
       ],
       "answer": "Kamera",
       "explanation_correct": "Kamera filmowa rejestruje sekwencje obrazów na taśmie lub nośniku cyfrowym.",
-      "explanation_incorrect": "Pozostałe urządzenia służą do projekcji, edycji lub cyfryzacji obrazu, a nie jego pierwotnej rejestracji.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe urządzenia służą do projekcji, edycji lub cyfryzacji obrazu, a nie jego pierwotnej rejestracji."
     },
     {
       "subcategory": "Oscary",
@@ -1338,10 +1286,8 @@
         "Najlepszy scenariusz"
       ],
       "answer": "Najlepsza muzyka",
-      "explanation_correct": "Nagroda za najlepszą muzykę (Best Original Score) honoruje autorów ścieżki dźwiękowej.",
-      "explanation_incorrect": "Dźwięk dotyczy tylko aspektów technicznych miksu i montażu, a nie kompozycji muzycznej.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nagroda za najlepszą muzykę oryginalną (Best Original Score) dotyczy muzyki skomponowanej specjalnie do filmu.",
+      "explanation_incorrect": "Oscar za dźwięk dotyczy pracy nad dźwiękiem filmu, a nie oryginalnej kompozycji muzycznej."
     },
     {
       "subcategory": "Science-Fiction",
@@ -1353,14 +1299,12 @@
         "Millennium Falcon"
       ],
       "answer": "Nostromo",
-      "explanation_correct": "Nostromo to frachtowiec kosmiczny, w którym załoga natrafiła na przerażający organizm.",
-      "explanation_incorrect": "Inne statki pochodzą z innych franczyz science-fiction jak 'Obcy - decydujące starcie', 'Odyseja kosmiczna' czy 'Gwiezdne Wojny'.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Nostromo to frachtowiec, na którego pokład powraca załoga po spotkaniu z nieznanym organizmem na księżycu LV-426.",
+      "explanation_incorrect": "Sulaco pojawia się w kontynuacji 'Obcy – decydujące starcie'; pozostałe statki pochodzą z innych opowieści science fiction."
     },
     {
       "subcategory": "Horror",
-      "question": "Jak nazywa się ikoniczny antagonista serii 'Koszmar z ulicy Wiązów', znany z pazurów zamiast palców?",
+      "question": "Jak nazywa się antagonista serii 'Koszmar z ulicy Wiązów', noszący rękawicę z ostrzami?",
       "options": [
         "Freddy Krueger",
         "Jason Voorhees",
@@ -1369,9 +1313,7 @@
       ],
       "answer": "Freddy Krueger",
       "explanation_correct": "Freddy Krueger posiada charakterystyczną rękawicę z ostrzami i pojawia się w snach swoich ofiar.",
-      "explanation_incorrect": "Pozostałe postacie to znani mordercy z horrorów (slasherów), ale używają innej broni.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe postacie to znani mordercy z horrorów (slasherów), ale używają innej broni."
     },
     {
       "subcategory": "Kino Azjatyckie",
@@ -1458,10 +1400,8 @@
         "Cinéma Vérité"
       ],
       "answer": "Nowa Fala",
-      "explanation_correct": "Francuska Nowa Fala (Nouvelle Vague) odrzuciła tradycyjne reguły filmowania.",
-      "explanation_incorrect": "Neorealizm to nurt włoski, a ekspresjonizm wywodzi się z Niemiec.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Francuska Nowa Fala (Nouvelle Vague) eksperymentowała z narracją i formą filmową, często odchodząc od ówczesnych konwencji.",
+      "explanation_incorrect": "Neorealizm to nurt włoski, a ekspresjonizm wywodzi się z Niemiec."
     },
     {
       "subcategory": "Festiwale",
@@ -1474,9 +1414,7 @@
       ],
       "answer": "Złota Palma",
       "explanation_correct": "Złota Palma to jedno z najbardziej prestiżowych wyróżnień w branży filmowej.",
-      "explanation_incorrect": "Pozostałe nagrody to główne trofea innych renomowanych festiwali, np. w Wenecji lub Berlinie.",
-      "last_verified_at": "2026-06-12T17:14:33.499Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Złoty Lew i Złoty Niedźwiedź to nagrody festiwali w Wenecji i Berlinie; Cezar jest francuską nagrodą filmową."
     },
     {
       "subcategory": "Efekty Specjalne",
