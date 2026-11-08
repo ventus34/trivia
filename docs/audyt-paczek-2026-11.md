@@ -190,6 +190,10 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Od Gumki Recepturki do WD-40 (PL):** przegląd 100 pytań i korekty 64 rekordów; [raport](audits/2026-11-08-od-gumki-do-wd40-pl.md).
 
+- **Napoje, Alkohole i Koneserzy (PL):** przegląd 100 pytań i korekty 66 rekordów; [raport](audits/2026-11-08-napoje-alkohole-i-koneserzy-pl.md).
+
+- **Otaku Culture (EN):** przegląd 100 pytań i korekty 49 rekordów; [raport](audits/2026-11-08-otaku-culture-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

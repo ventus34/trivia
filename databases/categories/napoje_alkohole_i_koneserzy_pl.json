@@ -18,14 +18,14 @@
         "Czwórniak"
       ],
       "answer": "Półtorak",
-      "explanation_correct": "Półtorak to najszlachetniejszy miód pitny, w którym na jedną objętość miodu przypada pół objętości wody.",
+      "explanation_correct": "Półtorak powstaje według tradycyjnych proporcji jednej części miodu na pół części wody.",
       "explanation_incorrect": "Dwójniak ma proporcje 1:1, Trójniak 1:2, a Czwórniak 1:3 – im wyższa cyfra w nazwie, tym mniejszy udział miodu.",
       "last_verified_at": "2026-06-12T15:29:35.663Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Mocne alkohole",
-      "question": "Jak nazywa się grecka wódka anyżowa?",
+      "question": "Jak nazywa się grecki napój spirytusowy o smaku anyżu?",
       "options": [
         "Raki",
         "Ouzo",
@@ -40,7 +40,7 @@
     },
     {
       "subcategory": "Herbata",
-      "question": "Jaki rodzaj herbaty przechodzi proces pełnej fermentacji?",
+      "question": "Który rodzaj herbaty poddaje się silnemu utlenianiu liści?",
       "options": [
         "Herbata biała",
         "Herbata zielona",
@@ -48,8 +48,8 @@
         "Herbata oolong"
       ],
       "answer": "Herbata czarna",
-      "explanation_correct": "Herbata czarna jest w pełni utleniona, co nadaje jej ciemną barwę i intensywny smak.",
-      "explanation_incorrect": "Herbata biała i zielona są niefermentowane lub lekko fermentowane, a oolong jest częściowo fermentowany.",
+      "explanation_correct": "Przy produkcji czarnej herbaty liście poddaje się silnemu utlenianiu enzymatycznemu. Proces ten bywa tradycyjnie nazywany fermentacją.",
+      "explanation_incorrect": "Herbatę zieloną ogrzewa się, aby ograniczyć utlenianie; oolong jest częściowo utleniany, a biała ma inny proces przetwarzania.",
       "last_verified_at": "2026-06-12T15:28:21.910Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -70,31 +70,31 @@
     },
     {
       "subcategory": "Koktajle",
-      "question": "Jaki klasyczny koktajl składa się z ginu i wermutu?",
+      "question": "Jak nazywa się klasyczny koktajl z ginu i wytrawnego wermutu, podawany np. z oliwką lub skórką cytryny?",
       "options": [
-        "Negroni",
         "Martini",
         "Manhattan",
-        "Gibson"
+        "Mojito",
+        "Margarita"
       ],
       "answer": "Martini",
-      "explanation_correct": "Martini to koktajl z ginu i wermutu, często podawany z oliwką lub skórką cytryny.",
-      "explanation_incorrect": "Negroni zawiera gin, wermut i Campari, Manhattan to whisky i wermut, a Gibson to martini z cebulką.",
+      "explanation_correct": "Dry Martini przygotowuje się z ginu i wytrawnego wermutu. Gibson to pokrewna wersja dekorowana cebulką koktajlową.",
+      "explanation_incorrect": "Manhattan bazuje na whiskey, Mojito na rumie, a Margarita na tequili.",
       "last_verified_at": "2026-06-12T15:28:21.910Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Koniak",
-      "question": "Z jakiego regionu Francji pochodzi koniak?",
+      "question": "Z okolic którego francuskiego miasta pochodzi chroniony nazwą koniak?",
       "options": [
-        "Bordeaux",
-        "Burgundia",
-        "Charente",
-        "Szampania"
+        "Cognac",
+        "Dijon",
+        "Reims",
+        "Lyon"
       ],
-      "answer": "Charente",
-      "explanation_correct": "Koniak pochodzi z regionu Charente, a konkretnie z okolic miasta Cognac.",
-      "explanation_incorrect": "Bordeaux słynie z win, Burgundia z win, Szampania z szampana - to nie region koniaku.",
+      "answer": "Cognac",
+      "explanation_correct": "Obszar apelacji Cognac obejmuje okolice miasta Cognac, przede wszystkim departamenty Charente i Charente-Maritime oraz fragmenty sąsiednich departamentów.",
+      "explanation_incorrect": "Dijon, Reims i Lyon leżą poza obszarem apelacji Cognac.",
       "last_verified_at": "2026-06-12T15:28:21.910Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -123,8 +123,8 @@
         "Zacier"
       ],
       "answer": "Gęstwa",
-      "explanation_correct": "Gęstwa to osad drożdżowy, który opada na dno po fermentacji i może być użyty ponownie.",
-      "explanation_incorrect": "Brzeczka to słodki płyn przed fermentacją, chmielina to szyszki chmielu, a zacier to mieszanka słodu z wodą.",
+      "explanation_correct": "Gęstwa drożdżowa to nagromadzone drożdże i inne cząstki po fermentacji; może być odzyskana i użyta ponownie.",
+      "explanation_incorrect": "Brzeczka to płyn przygotowany do fermentacji, chmielina to pozostałość chmielowa, a zacier to mieszanina rozdrobnionego słodu i wody.",
       "last_verified_at": "2026-06-12T15:28:32.578Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -150,11 +150,11 @@
         "Baileys",
         "Amarula",
         "Kahlúa",
-        "Sheridans"
+        "Limoncello"
       ],
       "answer": "Baileys",
       "explanation_correct": "Baileys to irlandzki likier śmietankowy na bazie whiskey, bardzo popularny na całym świecie.",
-      "explanation_incorrect": "Amarula to południowoafrykański likier z owoców maruli, Kahlúa z kawy, a Sheridans to likier dwuwarstwowy.",
+      "explanation_incorrect": "Amarula bazuje na owocach maruli, Kahlúa to likier kawowy, a limoncello jest likierem cytrynowym.",
       "last_verified_at": "2026-06-12T15:28:32.578Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -175,22 +175,22 @@
     },
     {
       "subcategory": "Sok",
-      "question": "Z jakiego owocu tłoczy się moszcz?",
+      "question": "Jak nazywa się świeży sok wyciśnięty z winogron przed fermentacją?",
       "options": [
-        "Jabłko",
-        "Winogrono",
-        "Pomarańcza",
-        "Wiśnia"
+        "Moszcz winogronowy",
+        "Kawa",
+        "Mleko kokosowe",
+        "Napar herbaciany"
       ],
-      "answer": "Winogrono",
-      "explanation_correct": "Moszcz to surowy sok z winogron, używany do produkcji wina.",
-      "explanation_incorrect": "Z pozostałych owoców również robi się soki, ale termin 'moszcz' jest typowo używany dla winogron.",
+      "answer": "Moszcz winogronowy",
+      "explanation_correct": "Moszcz winogronowy to świeży sok uzyskany z winogron; słowo moszcz stosuje się również do soków z innych owoców.",
+      "explanation_incorrect": "Kawa, mleko kokosowe i napar herbaciany powstają z innych surowców.",
       "last_verified_at": "2026-06-12T15:28:32.578Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Mocne alkohole",
-      "question": "Jak nazywa się skandynawska wódka aromatyzowana kminkiem?",
+      "question": "Jak nazywa się skandynawski napój spirytusowy aromatyzowany kminkiem lub koprem?",
       "options": [
         "Wódka czysta",
         "Akvavit",
@@ -198,25 +198,23 @@
         "Gin"
       ],
       "answer": "Akvavit",
-      "explanation_correct": "Akvavit to skandynawski alkohol destylowany z ziemniaków lub zbóż, aromatyzowany kminkiem i koperkiem.",
+      "explanation_correct": "Akvavit to skandynawski napój spirytusowy, którego charakterystyczny aromat pochodzi z kminku lub kopru.",
       "explanation_incorrect": "Wódka czysta nie zawiera aromatów, schnapps może być owocowy, a gin aromatyzowany jałowcem.",
       "last_verified_at": "2026-06-12T15:28:32.579Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kawa",
-      "question": "Jaki napój kawowy składa się z równych części espresso i spienionego mleka?",
+      "question": "Który napój kawowy przygotowuje się z espresso i spienionego mleka?",
       "options": [
-        "Latte",
+        "Herbata zielona",
         "Cappuccino",
         "Americano",
-        "Macchiato"
+        "Kawa po turecku"
       ],
       "answer": "Cappuccino",
-      "explanation_correct": "Cappuccino to włoska kawa z 1/3 espresso, 1/3 mleka i 1/3 pianki mlecznej.",
-      "explanation_incorrect": "Latte ma więcej mleka, Americano to espresso z wodą, a Macchiato to espresso z odrobiną pianki.",
-      "last_verified_at": "2026-06-12T15:28:32.579Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cappuccino łączy espresso ze spienionym mlekiem; proporcje poszczególnych składników różnią się zależnie od receptury.",
+      "explanation_incorrect": "Americano łączy espresso z wodą; herbata i kawa po turecku są innymi napojami."
     },
     {
       "subcategory": "Winiarstwo",
@@ -235,16 +233,16 @@
     },
     {
       "subcategory": "Piwowarstwo",
-      "question": "Jaki gatunek piwa charakteryzuje się ciemną barwą i palonym smakiem?",
+      "question": "Jak nazywa się ciemny styl piwa kojarzony z palonym słodem i nutami kawy lub czekolady?",
       "options": [
-        "Porter",
         "Stout",
-        "Lager",
-        "Ale"
+        "Pilsner",
+        "Saison",
+        "Hefeweizen"
       ],
       "answer": "Stout",
-      "explanation_correct": "Stout to ciemne piwo typu ale o silnym palonym smaku, często z nutami kawy i czekolady.",
-      "explanation_incorrect": "Porter jest również ciemny, ale łagodniejszy; lager i ale to szerokie kategorie, niekoniecznie ciemne.",
+      "explanation_correct": "Stout to zwykle ciemne piwo o palonych nutach. Porter również bywa ciemny i palony, a granice między stylami nie są ścisłe.",
+      "explanation_incorrect": "Pilsner, saison i hefeweizen oznaczają inne style piwa.",
       "last_verified_at": "2026-06-12T15:28:32.579Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -280,16 +278,16 @@
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Jak nazywa się nauka zajmująca się uprawą winorośli i produkcją wina?",
+      "question": "Jak nazywa się nauka o winie i jego produkcji?",
       "options": [
-        "Winiarstwo",
         "Enologia",
         "Ampelografia",
-        "Oenologia"
+        "Astronomia",
+        "Geologia"
       ],
       "answer": "Enologia",
-      "explanation_correct": "Enologia to nauka o winie i jego produkcji, obejmująca również uprawę winorośli.",
-      "explanation_incorrect": "Winiarstwo to bardziej praktyczna działalność, ampelografia to nauka o odmianach winorośli, a oenologia to francuska nazwa enologii.",
+      "explanation_correct": "Enologia, zapisywana także jako oenologia, zajmuje się winem i jego wytwarzaniem; uprawa winorośli jest dziedziną zwaną witikulturą.",
+      "explanation_incorrect": "Ampelografia opisuje odmiany winorośli, a astronomia i geologia zajmują się innymi dziedzinami.",
       "last_verified_at": "2026-06-12T15:28:32.580Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -303,14 +301,14 @@
         "Pisco"
       ],
       "answer": "Cachaça",
-      "explanation_correct": "Cachaça to brazylijski destylat z trzciny cukrowej, podobny do rumu, używany w Caipirinha.",
-      "explanation_incorrect": "Rum pochodzi z Karaibów, tequila z agawy, a pisco z winogron w Peru i Chile.",
+      "explanation_correct": "Cachaça to brazylijski napój spirytusowy otrzymywany z fermentowanego soku trzciny cukrowej i używany w caipirinhy.",
+      "explanation_incorrect": "Rum produkuje się w różnych regionach świata; tequila powstaje z agawy, a pisco z winogron.",
       "last_verified_at": "2026-06-12T15:28:32.580Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Herbata",
-      "question": "Która herbata aromatyzowana jest olejkiem z bergamotki?",
+      "question": "Jak nazywa się herbata aromatyzowana olejkiem z bergamotki?",
       "options": [
         "Earl Grey",
         "Darjeeling",
@@ -318,7 +316,7 @@
         "Oolong"
       ],
       "answer": "Earl Grey",
-      "explanation_correct": "Earl Grey to czarna herbata aromatyzowana olejkiem z bergamotki.",
+      "explanation_correct": "Earl Grey to tradycyjnie czarna herbata aromatyzowana bergamotką; spotyka się także inne warianty.",
       "explanation_incorrect": "Darjeeling, Sencha i Oolong to herbaty niearomatyzowane olejkiem bergamotkowym.",
       "last_verified_at": "2026-06-12T15:28:32.580Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -333,14 +331,14 @@
         "Wiśniówka"
       ],
       "answer": "Krupnik",
-      "explanation_correct": "Krupnik to tradycyjna polska nalewka miodowa z dodatkiem przypraw korzennych.",
-      "explanation_incorrect": "Pozostałe nalewki nie są oparte na miodzie i przyprawach korzennych.",
+      "explanation_correct": "Krupnik to tradycyjny napój alkoholowy z miodem i przyprawami korzennymi.",
+      "explanation_incorrect": "Pigwówka i wiśniówka są kojarzone z owocami, a śliwowica jest destylatem ze śliwek.",
       "last_verified_at": "2026-06-12T15:28:32.580Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Absynt",
-      "question": "Jaki jest główny składnik ziołowy absyntu o działaniu piołunowym?",
+      "question": "Które zioło nadało absyntowi nazwę pochodzącą od łacińskiego Artemisia absinthium?",
       "options": [
         "Piołun",
         "Anyż",
@@ -348,8 +346,8 @@
         "Mięta"
       ],
       "answer": "Piołun",
-      "explanation_correct": "Absynt zawiera piołun (Artemisia absinthium), który nadaje mu charakterystyczny smak i właściwości.",
-      "explanation_incorrect": "Anyż, koper i mięta nie są głównym składnikiem absyntu.",
+      "explanation_correct": "Piołun (Artemisia absinthium) jest jednym z tradycyjnych składników absyntu, obok m.in. anyżu i kopru.",
+      "explanation_incorrect": "Anyż i koper również mogą być ważnymi składnikami absyntu, ale jego nazwa odnosi się do piołunu.",
       "last_verified_at": "2026-06-12T15:28:32.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -358,13 +356,13 @@
       "question": "Który włoski destylat produkowany jest z wytłoków winogronowych?",
       "options": [
         "Grappa",
-        "Limonchello",
+        "Limoncello",
         "Amaretto",
         "Campari"
       ],
       "answer": "Grappa",
       "explanation_correct": "Grappa to włoski destylat z wytłoków winogronowych.",
-      "explanation_incorrect": "Limonchello, Amaretto i Campari to likiery, a nie destylaty z wytłoków.",
+      "explanation_incorrect": "Limoncello, amaretto i Campari są innymi napojami alkoholowymi, a nie grappą z wytłoków winogronowych.",
       "last_verified_at": "2026-06-12T15:28:32.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -379,13 +377,13 @@
       ],
       "answer": "Hefeweizen",
       "explanation_correct": "Hefeweizen to niemieckie piwo pszeniczne, zazwyczaj nieklarowane.",
-      "explanation_incorrect": "Pilsner, Bock i Stout to inne style piwa, niepszeniczne.",
+      "explanation_incorrect": "Pilsner, bock i stout określają inne style, choć receptury i używane zboża mogą się różnić.",
       "last_verified_at": "2026-06-12T15:28:32.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Które węgierskie wino deserowe pochodzi z regionu Tokaj?",
+      "question": "Jak nazywa się słynne słodkie wino tokajskie wytwarzane z osobno zbieranych jagód aszú?",
       "options": [
         "Aszú",
         "Szamorodni",
@@ -393,8 +391,8 @@
         "Chardonnay"
       ],
       "answer": "Aszú",
-      "explanation_correct": "Aszú to słynne węgierskie wino deserowe z regionu Tokaj.",
-      "explanation_incorrect": "Szamorodni to inny typ wina z Tokaju, a Sauvignon Blanc i Chardonnay to szczepy, nie konkretne wina deserowe z tego regionu.",
+      "explanation_correct": "Tokaji Aszú powstaje z użyciem selekcjonowanych jagód aszú porażonych szlachetną pleśnią.",
+      "explanation_incorrect": "Szamorodni to inny typ wina tokajskiego, który może być słodki lub wytrawny; pozostałe nazwy oznaczają odmiany winorośli.",
       "last_verified_at": "2026-06-12T15:28:32.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -415,37 +413,35 @@
     },
     {
       "subcategory": "Kawa",
-      "question": "Co nazywa się wypalanymi ziarnami kawowca przed zmieleniem?",
+      "question": "Jak nazywają się wypalone nasiona kawowca przed zmieleniem?",
       "options": [
         "Ziarna kawy",
-        "Fasola kawowa",
         "Kawa mielona",
-        "Kawa rozpuszczalna"
+        "Kawa rozpuszczalna",
+        "Liście herbaty"
       ],
       "answer": "Ziarna kawy",
       "explanation_correct": "Ziarna kawy to wypalone nasiona kawowca, które następnie się mieli.",
-      "explanation_incorrect": "Fasola kawowa to potoczne, ale nieprecyzyjne określenie; kawa mielona i rozpuszczalna to już produkty przetworzone.",
+      "explanation_incorrect": "Kawa mielona i rozpuszczalna są inaczej przetworzone, a liście herbaty pochodzą z innej rośliny.",
       "last_verified_at": "2026-06-12T15:28:32.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Napoje energetyczne",
-      "question": "Jaki jest główny składnik pobudzający w napojach energetycznych?",
+      "question": "Który związek chemiczny odpowiada za pobudzające działanie kofeinowych napojów energetycznych?",
       "options": [
         "Kofeina",
         "Tauryna",
-        "Guarana",
-        "Żeń-szeń"
+        "Sacharoza",
+        "Woda"
       ],
       "answer": "Kofeina",
-      "explanation_correct": "Kofeina jest głównym składnikiem pobudzającym w napojach energetycznych.",
-      "explanation_incorrect": "Tauryna, guarana i żeń-szeń to dodatkowe składniki, ale nie główny pobudzacz.",
-      "last_verified_at": "2026-06-12T15:28:32.582Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kofeina działa pobudzająco; może pochodzić także ze składników roślinnych, takich jak guarana.",
+      "explanation_incorrect": "Tauryna, sacharoza i woda nie są kofeiną; skład napojów energetycznych jest różny."
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Który francuski region słynie z win Pinot Noir?",
+      "question": "Z którego francuskiego regionu pochodzą słynne czerwone wina Côte de Nuits ze szczepu Pinot Noir?",
       "options": [
         "Burgundia",
         "Bordeaux",
@@ -454,37 +450,37 @@
       ],
       "answer": "Burgundia",
       "explanation_correct": "Burgundia (Bourgogne) jest znana na całym świecie z win szczepu Pinot Noir.",
-      "explanation_incorrect": "Bordeaux słynie z win kupażowanych, w Szampanii dominują wina musujące, Dolina Loary z win białych.",
+      "explanation_incorrect": "Pinot Noir występuje także w Szampanii i Dolinie Loary; Côte de Nuits leży w Burgundii.",
       "last_verified_at": "2026-06-12T15:28:32.582Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Destylacja",
-      "question": "Jakie miedziane urządzenie jest używane do destylacji alkoholu?",
+      "question": "Jak nazywa się tradycyjny aparat destylacyjny z kotłem i chłodnicą, często wykonany z miedzi?",
       "options": [
-        "Alembika",
-        "Kocioł",
+        "Alembik",
         "Fermentor",
-        "Kolumna rektyfikacyjna"
+        "Zaparzacz",
+        "Sitko"
       ],
-      "answer": "Alembika",
-      "explanation_correct": "Alembika to tradycyjne miedziane urządzenie do destylacji alkoholu.",
-      "explanation_incorrect": "Kocioł jest ogólnym pojęciem, fermentor służy do fermentacji, kolumna rektyfikacyjna jest nowoczesna, ale często stalowa.",
+      "answer": "Alembik",
+      "explanation_correct": "Alembik to tradycyjny aparat do destylacji, często wykonany z miedzi.",
+      "explanation_incorrect": "Fermentor służy fermentacji; zaparzacz i sitko pełnią inne funkcje.",
       "last_verified_at": "2026-06-12T15:28:32.582Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Mocne alkohole",
-      "question": "Jaki japoński napój alkoholowy produkowany jest z ryżu?",
+      "question": "Jak nazywa się tradycyjny japoński napój ze sfermentowanego ryżu, niesklasyfikowany jako destylat?",
       "options": [
         "Sake",
         "Soju",
-        "Shochu",
-        "Maccha"
+        "Maccha",
+        "Rooibos"
       ],
       "answer": "Sake",
       "explanation_correct": "Sake to tradycyjny japoński napój alkoholowy wytwarzany ze sfermentowanego ryżu.",
-      "explanation_incorrect": "Soju jest koreańskie, shochu japońskie ale często z batatów lub jęczmienia, maccha to herbata.",
+      "explanation_incorrect": "Soju to koreański napój spirytusowy; matcha jest herbatą, a rooibos naparem z czerwonokrzewu. Japońskie shōchū też może być wytwarzane z ryżu, ale jest destylowane.",
       "last_verified_at": "2026-06-12T15:28:32.582Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -514,7 +510,7 @@
       ],
       "answer": "Kahlúa",
       "explanation_correct": "Kahlúa to meksykański likier kawowy na bazie rumu i kawy.",
-      "explanation_incorrect": "Tia Maria jest jamajski, Baileys irlandzki, Frangelico włoski.",
+      "explanation_incorrect": "Tia Maria to również likier kawowy, Baileys jest likierem śmietankowym, a Frangelico ma smak orzecha laskowego.",
       "last_verified_at": "2026-06-12T15:28:32.582Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -535,31 +531,31 @@
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Jaki niemiecki biały szczep winogron jest najbardziej znany?",
+      "question": "Jak nazywa się biały szczep winorośli szczególnie kojarzony z niemieckim regionem Mozeli?",
       "options": [
         "Riesling",
-        "Gewürztraminer",
-        "Müller-Thurgau",
-        "Silvaner"
+        "Malbec",
+        "Tempranillo",
+        "Sangiovese"
       ],
       "answer": "Riesling",
-      "explanation_correct": "Riesling to najsłynniejszy niemiecki szczep winogron do win białych.",
-      "explanation_incorrect": "Pozostałe szczepy również pochodzą z Niemiec, ale Riesling jest najbardziej rozpoznawalny.",
+      "explanation_correct": "Riesling jest ważnym białym szczepem w Niemczech, szczególnie znanym z win regionu Mozeli.",
+      "explanation_incorrect": "Malbec, Tempranillo i Sangiovese są odmianami ciemnych winogron.",
       "last_verified_at": "2026-06-12T15:28:32.583Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kawa",
-      "question": "Jaka metoda parzenia kawy polega na długotrwałej ekstrakcji w zimnej wodzie?",
+      "question": "Jak nazywa się metoda długiej ekstrakcji kawy w zimnej wodzie?",
       "options": [
-        "Cold Brew",
+        "Cold brew",
         "Espresso",
-        "French Press",
-        "Pour Over"
+        "Kawa po turecku",
+        "Kawa rozpuszczalna"
       ],
-      "answer": "Cold Brew",
-      "explanation_correct": "Cold Brew to kawa parzona na zimno przez 12-24 godzin.",
-      "explanation_incorrect": "Espresso, French Press i Pour Over używają gorącej wody.",
+      "answer": "Cold brew",
+      "explanation_correct": "Cold brew polega na długotrwałej ekstrakcji kawy zimną lub chłodną wodą; czas zależy od receptury.",
+      "explanation_incorrect": "Espresso i kawa po turecku wykorzystują gorącą wodę, a kawa rozpuszczalna jest gotowym ekstraktem.",
       "last_verified_at": "2026-06-12T15:28:32.583Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -573,14 +569,14 @@
         "Kalifornia"
       ],
       "answer": "Kentucky",
-      "explanation_correct": "Ponad 95% burbonu produkowane jest w Kentucky.",
+      "explanation_correct": "Kentucky jest historycznym centrum produkcji bourbonu, choć można go legalnie wytwarzać także w innych stanach USA.",
       "explanation_incorrect": "Tennessee słynie z whisky Tennessee, Teksas i Kalifornia mają mniejszy udział.",
       "last_verified_at": "2026-06-12T15:28:32.583Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Jakie musujące wino pochodzi z regionu Veneto we Włoszech?",
+      "question": "Jak nazywa się włoskie wino z apelacji obejmującej części regionów Veneto i Friuli-Wenecja Julijska?",
       "options": [
         "Prosecco",
         "Champagne",
@@ -588,14 +584,14 @@
         "Moscato d'Asti"
       ],
       "answer": "Prosecco",
-      "explanation_correct": "Prosecco to włoskie wino musujące z regionu Veneto.",
-      "explanation_incorrect": "Champagne jest z Francji, Cava z Hiszpanii, Moscato d'Asti z Włoch ale niekoniecznie z Veneto.",
+      "explanation_correct": "Prosecco DOC pochodzi z wyznaczonego obszaru Veneto i Friuli-Wenecji Julijskiej; występuje m.in. w wersjach musujących i spokojnych.",
+      "explanation_incorrect": "Champagne pochodzi z Francji, cava z Hiszpanii, a Moscato d’Asti z Piemontu.",
       "last_verified_at": "2026-06-12T15:28:32.583Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Barmaństwo",
-      "question": "Jaki metalowy kubek służy do mieszania drinków?",
+      "question": "Jak nazywa się naczynie barmańskie służące do wstrząsania składników koktajlu?",
       "options": [
         "Szejker",
         "Szklanka",
@@ -603,8 +599,8 @@
         "Kieliszek"
       ],
       "answer": "Szejker",
-      "explanation_correct": "Szejker (shaker) to metalowy kubek do mieszania składników drinków.",
-      "explanation_incorrect": "Szklanka, mieszadełko i kieliszek nie służą do mieszania w ten sposób.",
+      "explanation_correct": "Szejker służy do wstrząsania składników z lodem; może mieć różne konstrukcje i materiały.",
+      "explanation_incorrect": "Szklanka, mieszadełko i kieliszek nie pełnią tej samej funkcji co zamknięty szejker.",
       "last_verified_at": "2026-06-12T15:28:32.584Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -625,7 +621,7 @@
     },
     {
       "subcategory": "Whisky",
-      "question": "Jak określa się whisky powstałą przez zmieszanie różnych destylatów?",
+      "question": "Jak określa się szkocką whisky blended Scotch, będącą mieszanką whisky słodowej i zbożowej?",
       "options": [
         "Single Malt",
         "Blended",
@@ -633,23 +629,23 @@
         "Pot Still"
       ],
       "answer": "Blended",
-      "explanation_correct": "Whisky typu blended powstaje przez połączenie whisky słodowej i zbożowej z różnych destylarni.",
-      "explanation_incorrect": "Single Malt pochodzi z jednej destylarni i tylko ze słodu jęczmiennego, Single Grain to whisky zbożowa z jednej destylarni, a Pot Still to metoda destylacji.",
+      "explanation_correct": "Blended Scotch whisky powstaje z połączenia co najmniej jednej szkockiej whisky słodowej i jednej zbożowej; inne kategorie blendów mają odrębne definicje.",
+      "explanation_incorrect": "Single malt i single grain pochodzą z jednej destylarni, a pot still oznacza aparat lub styl produkcji zależnie od kontekstu.",
       "last_verified_at": "2026-06-12T15:28:32.584Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wody",
-      "question": "Jak nazywa się woda nasycona dwutlenkiem węgla?",
+      "question": "Jak nazywa się wodę zawierającą rozpuszczony dwutlenek węgla?",
       "options": [
-        "Woda źródlana",
         "Woda gazowana",
-        "Woda mineralna",
-        "Woda stołowa"
+        "Sok pomidorowy",
+        "Herbata",
+        "Kawa"
       ],
       "answer": "Woda gazowana",
-      "explanation_correct": "Woda gazowana to woda nasycona dwutlenkiem węgla, co nadaje jej bąbelki.",
-      "explanation_incorrect": "Woda źródlana i mineralna mogą być niegazowane, a woda stołowa to termin rzadziej używany.",
+      "explanation_correct": "Woda gazowana zawiera dwutlenek węgla; może nim być nasycona naturalnie lub w procesie produkcji.",
+      "explanation_incorrect": "Sok, herbata i kawa nie są nazwami wody gazowanej. Wody mineralne i źródlane mogą występować także w wersjach gazowanych.",
       "last_verified_at": "2026-06-12T15:28:32.584Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -670,7 +666,7 @@
     },
     {
       "subcategory": "Aperitif",
-      "question": "Który włoski gorzki likier ma charakterystyczną jaskrawopomarańczową barwę?",
+      "question": "Który włoski aperitif jest składnikiem koktajlu Aperol Spritz?",
       "options": [
         "Campari",
         "Aperol",
@@ -678,14 +674,12 @@
         "Cynar"
       ],
       "answer": "Aperol",
-      "explanation_correct": "Aperol to włoski aperitif o pomarańczowym kolorze, o niższej zawartości alkoholu niż Campari.",
-      "explanation_incorrect": "Campari jest głęboko czerwony, Fernet-Branca jest ciemny, a Cynar jest brązowy.",
-      "last_verified_at": "2026-06-12T15:28:32.584Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Aperol jest pomarańczowym aperitifem używanym w koktajlu Aperol Spritz.",
+      "explanation_incorrect": "Campari jest głęboko czerwony, Fernet-Branca jest ciemny, a Cynar jest brązowy."
     },
     {
       "subcategory": "Kawa",
-      "question": "Który kraj jest największym producentem kawy na świecie?",
+      "question": "Który kraj jest od wielu lat największym producentem kawy na świecie?",
       "options": [
         "Kolumbia",
         "Brazylia",
@@ -693,10 +687,8 @@
         "Etiopia"
       ],
       "answer": "Brazylia",
-      "explanation_correct": "Brazylia od lat utrzymuje pozycję lidera w produkcji kawy, zarówno arabiki, jak i robusty.",
-      "explanation_incorrect": "Kolumbia, Wietnam i Etiopia są producentami, ale Brazylia ma największy udział w rynku.",
-      "last_verified_at": "2026-06-12T15:28:32.585Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brazylia jest od lat jednym z największych światowych producentów kawy i ważnym producentem zarówno arabiki, jak i robusty.",
+      "explanation_incorrect": "Kolumbia, Wietnam i Etiopia są producentami, ale Brazylia ma największy udział w rynku."
     },
     {
       "subcategory": "Piwowarstwo",
@@ -724,7 +716,7 @@
       ],
       "answer": "Tempranillo",
       "explanation_correct": "Tempranillo stanowi podstawę win z Rioja, nadając im strukturę i potencjał do starzenia.",
-      "explanation_incorrect": "Garnacha, Mazuelo i Graciano są używane, ale jako domieszki do Tempranillo.",
+      "explanation_incorrect": "Garnacha, Mazuelo i Graciano są również uprawiane w Rioja i mogą występować w różnych proporcjach, także w winach odmianowych.",
       "last_verified_at": "2026-06-12T15:28:32.585Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -739,13 +731,13 @@
       ],
       "answer": "Żubrówka",
       "explanation_correct": "Żubrówka to polska wódka aromatyzowana trawą żubrową, co nadaje jej charakterystyczny smak i zapach.",
-      "explanation_incorrect": "Wyborowa to czysta wódka, Soplica to wódka smakowa, ale bez trawy żubrowej, a Bols to marka holenderska.",
+      "explanation_incorrect": "Wyborowa, Soplica i Bols są innymi markami; Żubrówka jest szczególnie kojarzona z trawą żubrową.",
       "last_verified_at": "2026-06-12T15:28:32.585Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Napoje bezalkoholowe",
-      "question": "Jak nazywa się lemoniada sporządzana z imbiru, cukru i wody?",
+      "question": "Jak nazywa się popularny gazowany napój o smaku imbirowym?",
       "options": [
         "Lemonade",
         "Ginger Ale",
@@ -753,7 +745,7 @@
         "Tonic Water"
       ],
       "answer": "Ginger Ale",
-      "explanation_correct": "Ginger Ale to gazowany napój imbirowy, który może być ostry lub słodki.",
+      "explanation_correct": "Ginger ale to gazowany napój o smaku imbirowym, często używany także jako składnik koktajli.",
       "explanation_incorrect": "Lemonada to napój cytrynowy, kombucha to fermentowana herbata, a tonic water zawiera chininę.",
       "last_verified_at": "2026-06-12T15:28:32.585Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -813,8 +805,8 @@
         "Pu-erh"
       ],
       "answer": "Oolong",
-      "explanation_correct": "Oolong to herbata o średnim stopniu utlenienia, łącząca cechy zielonej i czarnej herbaty.",
-      "explanation_incorrect": "Biała herbata jest najmniej przetworzona, żółta jest rzadka, a Pu-erh jest fermentowana.",
+      "explanation_correct": "Oolong to herbata częściowo utleniana; zakres jej utlenienia może być szeroki.",
+      "explanation_incorrect": "Biała, żółta i pu-erh mają odmienne metody produkcji; biały susz także może ulegać pewnemu utlenianiu.",
       "last_verified_at": "2026-06-12T15:28:32.586Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -835,16 +827,16 @@
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Która dolina w USA jest najbardziej znana z produkcji wina?",
+      "question": "Która kalifornijska dolina słynie z produkcji wina, zwłaszcza Cabernet Sauvignon, i leży na północ od San Francisco?",
       "options": [
-        "Shenandoah Valley",
         "Napa Valley",
         "Willamette Valley",
-        "Sonoma Valley"
+        "Dolina Loary",
+        "Dolina Rodanu"
       ],
       "answer": "Napa Valley",
       "explanation_correct": "Napa Valley w Kalifornii to jeden z najsłynniejszych regionów winiarskich na świecie, szczególnie znany z win cabernet sauvignon.",
-      "explanation_incorrect": "Shenandoah Valley, Willamette Valley i Sonoma Valley też produkują wino, ale Napa Valley jest najbardziej rozpoznawalna.",
+      "explanation_incorrect": "Willamette leży w Oregonie, a Loara i Rodan są regionami francuskimi.",
       "last_verified_at": "2026-06-12T15:28:32.586Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -865,16 +857,16 @@
     },
     {
       "subcategory": "Mocne alkohole",
-      "question": "Jak nazywa się serbska i chorwacka wódka z owoców?",
+      "question": "Jak nazywa się ogólnie bałkański destylat z owoców, m.in. śliwek?",
       "options": [
-        "Slivovitz",
         "Rakija",
-        "Vodka",
-        "Palinka"
+        "Herbata",
+        "Piwo",
+        "Kawa"
       ],
       "answer": "Rakija",
-      "explanation_correct": "Rakija to popularny alkohol na Bałkanach, destylowany z różnych owoców, zwłaszcza śliwek.",
-      "explanation_incorrect": "Slivovitz to śliwkowa rakija, ale to tylko jeden rodzaj; Vodka to destylat zbożowy, a Palinka to węgierski odpowiednik.",
+      "explanation_correct": "Rakija to ogólna nazwa bałkańskich destylatów owocowych; śliwowica jest jedną z ich odmian.",
+      "explanation_incorrect": "Herbata, piwo i kawa nie są nazwami destylatu owocowego.",
       "last_verified_at": "2026-06-12T15:28:32.587Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -903,7 +895,7 @@
         "Clairet"
       ],
       "answer": "Rosé",
-      "explanation_correct": "Rosé to wino różowe produkowane z czerwonych winogron w procesie krótkiej maceracji skórek.",
+      "explanation_correct": "Rosé to francuska nazwa wina różowego. Często uzyskuje kolor dzięki krótkiemu kontaktowi soku ze skórkami ciemnych winogron.",
       "explanation_incorrect": "Blanc to wino białe, Rouge to czerwone, a Clairet to historyczne określenie jasnoczerwonego wina z Bordeaux.",
       "last_verified_at": "2026-06-12T15:28:32.587Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -940,16 +932,16 @@
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Jakie wino wzmacniane pochodzi z Portugalii?",
+      "question": "Jak nazywa się portugalskie wino wzmacniane z regionu Douro?",
       "options": [
         "Porto",
         "Sherry",
         "Marsala",
-        "Madera"
+        "Sauternes"
       ],
       "answer": "Porto",
-      "explanation_correct": "Porto to portugalskie wino wzmacniane z regionu Douro, znane ze swojej słodyczy i wysokiej zawartości alkoholu.",
-      "explanation_incorrect": "Sherry pochodzi z Hiszpanii, Marsala z Włoch, a Madera również z portugalskiej wyspy, ale to inny typ.",
+      "explanation_correct": "Porto to wino wzmacniane z doliny Douro. Portugalska Madera jest innym przykładem wina wzmacnianego.",
+      "explanation_incorrect": "Sherry pochodzi z Hiszpanii, Marsala z Sycylii, a Sauternes jest francuskim winem słodkim.",
       "last_verified_at": "2026-06-12T15:28:32.588Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -975,13 +967,11 @@
         "Crema",
         "Mousse",
         "Lather",
-        "Spruma"
+        "Sok"
       ],
       "answer": "Crema",
-      "explanation_correct": "Crema powstaje w wyniku emulgacji olejków zawartych w kawie z dwutlenkiem węgla pod wysokim ciśnieniem.",
-      "explanation_incorrect": "Mousse to lekkie danie deserowe, Lather to piana mydlana, a Spruma to błędny zapis włoskiego słowa spuma (piana).",
-      "last_verified_at": "2026-06-12T15:29:35.664Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Crema to drobna pianka powstająca podczas ekstrakcji espresso, zawierająca m.in. pęcherzyki gazu oraz związki i olejki kawowe.",
+      "explanation_incorrect": "Pozostałe nazwy nie są określeniem pianki espresso opisanej w pytaniu."
     },
     {
       "subcategory": "Likier",
@@ -1000,7 +990,7 @@
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Jak fachowo nazywa się najczęstsza wada wina objawiająca się zapachem stęchlizny i mokrego kartonu?",
+      "question": "Jak nazywa się wada wina kojarzona z zapachem stęchlizny lub mokrego kartonu?",
       "options": [
         "Choroba korkowa",
         "Maderyzacja",
@@ -1008,14 +998,14 @@
         "Dekantacja"
       ],
       "answer": "Choroba korkowa",
-      "explanation_correct": "Wada ta wynika z obecności związku TCA (trichloroanizol), który może zainfekować naturalny korek.",
+      "explanation_correct": "Tak zwana wada korkowa często wiąże się z obecnością TCA; zanieczyszczenie może pochodzić z korka lub innych materiałów w otoczeniu wina.",
       "explanation_incorrect": "Maderyzacja to proces utleniania, szaptalizacja to dosładzanie moszczu, a dekantacja to zlewanie wina znad osadu.",
       "last_verified_at": "2026-06-12T15:29:35.664Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Mocne alkohole",
-      "question": "Jaki francuski destylat z jabłek jest chroniony nazwą pochodzenia?",
+      "question": "Jak nazywa się francuski destylat z jabłek lub gruszek objęty nazwą pochodzenia?",
       "options": [
         "Calvados",
         "Cognac",
@@ -1023,7 +1013,7 @@
         "Poire Williams"
       ],
       "answer": "Calvados",
-      "explanation_correct": "Calvados to jabłkowy brandy z Normandii, produkowany z jabłek i poddany starzeniu w dębowych beczkach.",
+      "explanation_correct": "Calvados to normandzki destylat z cydru, który może być wytwarzany z jabłek i gruszek, zależnie od apelacji.",
       "explanation_incorrect": "Cognac i Armagnac to destylaty z winogron, a Poire Williams to gruszkówka.",
       "last_verified_at": "2026-06-12T15:28:32.588Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1045,7 +1035,7 @@
     },
     {
       "subcategory": "Kawa",
-      "question": "Jaka kawa jest pozyskiwana z odchodów cywety i uznawana za najdroższą?",
+      "question": "Jak nazywa się kawa otrzymywana z ziaren po przejściu przez układ pokarmowy łaskuna (cywety)?",
       "options": [
         "Kopi Luwak",
         "Blue Mountain",
@@ -1053,7 +1043,7 @@
         "Hawaiian Kona"
       ],
       "answer": "Kopi Luwak",
-      "explanation_correct": "Kopi Luwak to kawa z Indonezji, której ziarna są zjadane i fermentowane w układzie pokarmowym cywety, co nadaje jej unikalny smak.",
+      "explanation_correct": "Kopi luwak to kawa wytwarzana z ziaren wydalonych przez łaskuny; jest kojarzona m.in. z Indonezją.",
       "explanation_incorrect": "Blue Mountain, Geisha i Kona to inne drogie kawy, ale nie są przetwarzane przez cywety.",
       "last_verified_at": "2026-06-12T15:28:32.589Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1084,7 +1074,7 @@
       ],
       "answer": "Chmiel",
       "explanation_correct": "Chmiel dodawany do piwa podczas warzenia nadaje mu goryczkę, aromat i działa konserwująco.",
-      "explanation_incorrect": "Jęczmień i słód to źródło cukrów, drożdże odpowiadają za fermentację – żaden nie daje goryczki.",
+      "explanation_incorrect": "Słód i jęczmień dostarczają składników brzeczki, a drożdże przeprowadzają fermentację; charakterystyczna chmielowa gorycz pochodzi z chmielu.",
       "last_verified_at": "2026-06-12T15:28:32.589Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1099,22 +1089,20 @@
       ],
       "answer": "Śliwki",
       "explanation_correct": "Śliwowica to destylat ze śliwek, popularny w Polsce i krajach bałkańskich.",
-      "explanation_incorrect": "Jabłka służą do produkcji Calvadosu, gruszki do Poire Williams, wiśnie do Kirschu.",
-      "last_verified_at": "2026-06-12T15:28:32.589Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Calvados powstaje z jabłek lub gruszek; gruszek używa się też do gruszkówek, a wiśni do innych napojów."
     },
     {
       "subcategory": "Herbata",
-      "question": "Jak nazywa się naczynie do parzenia herbaty z sitkiem?",
+      "question": "Jak nazywa się sitko lub pojemnik na liście herbaty umieszczany w gorącej wodzie?",
       "options": [
         "Zaparzacz",
-        "Dzbanka",
-        "Filiżanka",
-        "Czajnik"
+        "Korkociąg",
+        "Tarka",
+        "Talerz"
       ],
       "answer": "Zaparzacz",
-      "explanation_correct": "Zaparzacz to szklane lub ceramiczne naczynie z sitkiem, umożliwiające zaparzanie herbaty i oddzielenie liści od naparu.",
-      "explanation_incorrect": "Dzbanka to naczynie do podawania, filiżanka do picia, a czajnik służy do gotowania wody.",
+      "explanation_correct": "Zaparzacz utrzymuje liście podczas parzenia, ułatwiając oddzielenie ich od naparu.",
+      "explanation_incorrect": "Korkociąg, tarka i talerz nie służą do oddzielania liści herbaty podczas parzenia.",
       "last_verified_at": "2026-06-12T15:28:32.589Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1135,16 +1123,16 @@
     },
     {
       "subcategory": "Likier",
-      "question": "Jaki niemiecki likier ziołowy ma korzenny smak?",
+      "question": "Która niemiecka marka produkuje likier ziołowy Jägermeister?",
       "options": [
         "Jägermeister",
-        "Bärenfang",
-        "Schierker Feuerstein",
-        "Ramazzotti"
+        "Limoncello",
+        "Amaretto",
+        "Sambuca"
       ],
       "answer": "Jägermeister",
-      "explanation_correct": "Jägermeister to niemiecki likier ziołowy z 56 składników, w tym anyżu, imbiru i cytrusów, o słodko-gorzkim smaku.",
-      "explanation_incorrect": "Bärenfang to miodówka, Schierker Feuerstein to ziołowo-korzenny, ale mniej znany, a Ramazzotti jest włoski.",
+      "explanation_correct": "Jägermeister to niemiecki likier ziołowy. Producent podaje, że receptura obejmuje 56 składników roślinnych.",
+      "explanation_incorrect": "Limoncello, amaretto i sambuca są nazwami innych likierów.",
       "last_verified_at": "2026-06-12T15:28:32.589Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1165,18 +1153,16 @@
     },
     {
       "subcategory": "Winiarstwo",
-      "question": "Jak nazywa się osoba opiekująca się piwnicą winną?",
+      "question": "Jak nazywa się osoba odpowiedzialna za pracę w piwnicy winiarskiej, w tym dojrzewanie wina?",
       "options": [
         "Piwniczy",
-        "Sommelier",
-        "Enolog",
-        "Winiarz"
+        "Krawiec",
+        "Kartograf",
+        "Kierowca"
       ],
       "answer": "Piwniczy",
-      "explanation_correct": "Piwniczy (maître de chai) to osoba odpowiedzialna za dojrzewanie, leżakowanie i kondycję wina w piwnicy.",
-      "explanation_incorrect": "Sommelier to kelner winny, enolog to naukowiec zajmujący się produkcją wina, a winiarz to ogólnie producent.",
-      "last_verified_at": "2026-06-12T15:28:32.590Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Piwniczy może odpowiadać za zabiegi i dojrzewanie wina w piwnicy. Zakres obowiązków zależy od producenta.",
+      "explanation_incorrect": "Krawiec, kartograf i kierowca nie są nazwą wskazanej funkcji w piwnicy winiarskiej."
     },
     {
       "subcategory": "Napoje owocowe",
@@ -1195,16 +1181,16 @@
     },
     {
       "subcategory": "Mocne alkohole",
-      "question": "Jaka wódka produkowana z ziemniaków lub zbóż jest często destylowana w domowych warunkach?",
+      "question": "Jak potocznie nazywa się alkohol wytwarzany przez domową destylację?",
       "options": [
-        "Gorzałka",
-        "Wódka czysta",
-        "Polska wódka",
-        "Spirytus"
+        "Bimber",
+        "Herbata",
+        "Cydr",
+        "Kompot"
       ],
-      "answer": "Gorzałka",
-      "explanation_correct": "Gorzałka to potoczna nazwa wódki (zwłaszcza domowej roboty, bimber) destylowanej z ziemniaków, zbóż lub innych surowców.",
-      "explanation_incorrect": "Wódka czysta i Polska wódka to ogólne kategorie, spirytus to czysty alkohol wysokoprocentowy – niekoniecznie domowy.",
+      "answer": "Bimber",
+      "explanation_correct": "Bimber to potoczna nazwa domowego destylatu alkoholowego.",
+      "explanation_incorrect": "Herbata i kompot są napojami niedestylowanymi, a cydr powstaje przez fermentację soku jabłkowego.",
       "last_verified_at": "2026-06-12T15:28:32.590Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1225,31 +1211,31 @@
     },
     {
       "subcategory": "Piwowarstwo",
-      "question": "Który styl piwa charakteryzuje się górną fermentacją i wyrazistym, chmielowym aromatem?",
+      "question": "Co oznacza skrót IPA w nazwie stylu piwa?",
       "options": [
         "India Pale Ale",
-        "Stout",
-        "Lager",
-        "Porter"
+        "Irish Porter Ale",
+        "International Pilsner Association",
+        "Iced Pineapple Ale"
       ],
       "answer": "India Pale Ale",
-      "explanation_correct": "India Pale Ale (IPA) to piwo górnej fermentacji znane z dużej ilości chmielu, nadającego mu intensywny aromat i goryczkę.",
-      "explanation_incorrect": "Stout i Porter to piwa ciemne, często o smaku palonym, a Lager to piwo dolnej fermentacji, łagodniejsze w smaku.",
+      "explanation_correct": "IPA oznacza India Pale Ale, rodzinę stylów piwa kojarzoną z wyrazistym profilem chmielowym.",
+      "explanation_incorrect": "Pozostałe rozwinięcia nie są znaczeniem skrótu IPA w tym kontekście.",
       "last_verified_at": "2026-06-12T15:28:32.591Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kawa",
-      "question": "Który gatunek kawy jest uważany za delikatniejszy i ma niższą zawartość kofeiny?",
+      "question": "Jak nazywa się gatunek kawowca określany naukowo jako Coffea arabica?",
       "options": [
-        "Arabica",
+        "Arabika",
         "Robusta",
-        "Liberica",
-        "Excelsa"
+        "Herbata",
+        "Kakao"
       ],
-      "answer": "Arabica",
-      "explanation_correct": "Arabica to gatunek kawy ceniony za łagodny, subtelny smak i niższą zawartość kofeiny w porównaniu do Robusty.",
-      "explanation_incorrect": "Robusta ma wyższą zawartość kofeiny i bardziej gorzki smak, a Liberica i Excelsa są mniej popularne i mają intensywniejszy, owocowy profil.",
+      "answer": "Arabika",
+      "explanation_correct": "Coffea arabica to kawowiec arabski, czyli arabika. Jego ziarna zwykle zawierają mniej kofeiny niż ziarna robusty.",
+      "explanation_incorrect": "Robusta jest odmianą kawowca Coffea canephora; herbata i kakao pochodzą z innych roślin.",
       "last_verified_at": "2026-06-12T15:28:32.591Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1270,7 +1256,7 @@
     },
     {
       "subcategory": "Wermuty",
-      "question": "Które włoskie miasto uznawane jest za miejsce narodzin wermutu?",
+      "question": "Które włoskie miasto jest szczególnie związane z rozwojem nowoczesnego wermutu w końcu XVIII wieku?",
       "options": [
         "Turyn",
         "Mediolan",
@@ -1278,7 +1264,7 @@
         "Wenecja"
       ],
       "answer": "Turyn",
-      "explanation_correct": "Wermut powstał w Turynie pod koniec XVIII wieku, a miasto do dziś słynie z produkcji aromatyzowanych win.",
+      "explanation_correct": "Turyn jest ważnym historycznym ośrodkiem wermutu; w 1786 roku Antonio Benedetto Carpano rozpoczął tam jego produkcję.",
       "explanation_incorrect": "Mediolan, Rzym i Wenecja nie mają tak silnych historycznych związków z wynalezieniem wermutu jak Turyn.",
       "last_verified_at": "2026-06-12T15:28:32.591Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1294,22 +1280,22 @@
       ],
       "answer": "Chinowiec",
       "explanation_correct": "Chinina jest uzyskiwana z kory drzewa chinowego i pierwotnie służyła jako lek na malarię.",
-      "explanation_incorrect": "Chmiel nadaje goryczkę piwu, piołun absyntowi, a goryczka (gentiana) jest bazą wielu bittereów i nalewek.",
+      "explanation_incorrect": "Chmiel, piołun i goryczka są używane jako składniki różnych napojów, ale chinina pochodzi z chinowca.",
       "last_verified_at": "2026-06-12T15:29:35.665Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Likier",
-      "question": "Który likier wytwarzany jest na bazie gorzkich pomarańczy z wyspy Curaçao?",
+      "question": "Jak nazywa się likier pomarańczowy związany nazwą z karaibską wyspą Curaçao?",
       "options": [
-        "Triple Sec",
-        "Cointreau",
-        "Grand Marnier",
-        "Amaretto"
+        "Curaçao",
+        "Amaretto",
+        "Kahlúa",
+        "Limoncello"
       ],
-      "answer": "Triple Sec",
-      "explanation_correct": "Triple Sec to likier pomarańczowy, często produkowany z gorzkich pomarańczy z Curaçao – podobnie jak Cointreau, który jest jego rodzajem.",
-      "explanation_incorrect": "Cointreau i Grand Marnier to także likiery pomarańczowe, ale Grand Marnier na bazie koniaku, a Amaretto jest migdałowy.",
+      "answer": "Curaçao",
+      "explanation_correct": "Curaçao to likier pomarańczowy kojarzony ze skórką gorzkich pomarańczy i wyspą Curaçao. Istnieją także inne likiery pomarańczowe, m.in. triple sec.",
+      "explanation_incorrect": "Amaretto jest migdałowe, Kahlúa kawowa, a limoncello cytrynowe.",
       "last_verified_at": "2026-06-12T15:28:32.591Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1324,7 +1310,7 @@
       ],
       "answer": "Islay",
       "explanation_correct": "Islay to szkocka wyspa, której whisky są znane z intensywnego torfowego dymu, dzięki lokalnym zasobom torfu.",
-      "explanation_incorrect": "Speyside produkuje whisky łagodniejsze, Highlands – zróżnicowane, a Lowlands – lekkie, bez dominującej torfowości.",
+      "explanation_incorrect": "Whisky ze Speyside, Highlands i Lowlands mają zróżnicowane profile; torfowe wersje nie są wyłączne dla Islay.",
       "last_verified_at": "2026-06-12T15:28:32.591Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1368,7 +1354,7 @@
         "Rehoboam"
       ],
       "answer": "Magnum",
-      "explanation_correct": "Magnum to butelka o pojemności 1,5 litra, czyli dwie standardowe butelki wina; jest ceniona za lepsze procesy starzenia.",
+      "explanation_correct": "Magnum ma pojemność 1,5 litra, czyli dwukrotność standardowej butelki wina o pojemności 0,75 litra.",
       "explanation_incorrect": "Jeroboam w Szampanii ma 3 litry, Double Magnum 3 litry w Bordeaux, a Rehoboam – kilka litrów, żaden nie odpowiada szukanej pojemności.",
       "last_verified_at": "2026-06-12T15:28:32.592Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1383,14 +1369,14 @@
         "Marc de Bourgogne"
       ],
       "answer": "Armaniak",
-      "explanation_correct": "Armaniak to brandy produkowana w Gaskonii, starsza od koniaku i zazwyczaj destylowana jednokrotnie, co daje bogatszy smak.",
+      "explanation_correct": "Armaniak to francuski destylat winny związany z Gaskonią, produkowany w różnych stylach i tradycyjnie destylowany w aparacie kolumnowym.",
       "explanation_incorrect": "Koniak pochodzi z regionu Cognac, Calvados z Normandii (jabłka), a Marc de Bourgogne z Burgundii (wytłoki).",
       "last_verified_at": "2026-06-12T15:28:32.592Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gin",
-      "question": "Który owoc jest głównym aromatem i składnikiem ginu?",
+      "question": "Która roślina nadaje ginowi dominujący aromat?",
       "options": [
         "Jałowiec",
         "Malina",
@@ -1398,7 +1384,7 @@
         "Anyż"
       ],
       "answer": "Jałowiec",
-      "explanation_correct": "Gin to spirytus aromatyzowany głównie jagodami jałowca, które nadają mu charakterystyczny smak.",
+      "explanation_correct": "Gin aromatyzuje się przede wszystkim szyszkojagodami jałowca; jego smak może wzbogacać wiele innych składników roślinnych.",
       "explanation_incorrect": "Malina, cytryna i anyż mogą być dodatkami w niektórych ginach, ale nie są podstawowym składnikiem aromatyzującym.",
       "last_verified_at": "2026-06-12T15:28:32.592Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1409,18 +1395,16 @@
       "options": [
         "Karafka",
         "Kieliszek",
-        "Dzbarek",
-        "Butelka"
+        "Talerz",
+        "Kapsel"
       ],
       "answer": "Karafka",
       "explanation_correct": "Karafka to naczynie przeznaczone do dekantacji, które pozwala oddzielić wino od osadu i napowietrzyć je przed podaniem.",
-      "explanation_incorrect": "Kieliszek służy do degustacji, dzbanek jest raczej do wody, a butelka to oryginalny pojemnik, nie do dekantacji.",
-      "last_verified_at": "2026-06-12T15:28:32.592Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kieliszek, talerz i kapsel nie są nazwą naczynia do dekantacji; odpowiedni dzbanek także może służyć temu celowi."
     },
     {
       "subcategory": "Woda mineralna",
-      "question": "Która francuska marka wody mineralnej jest znana z zielonych szklanych butelek i naturalnego nasycenia?",
+      "question": "Która francuska marka wody gazowanej jest kojarzona z charakterystyczną zieloną butelką?",
       "options": [
         "Perrier",
         "Evian",
@@ -1429,9 +1413,7 @@
       ],
       "answer": "Perrier",
       "explanation_correct": "Perrier to francuska woda gazowana, pochodząca z Vergèze, znana z charakterystycznej zielonej butelki i musowania.",
-      "explanation_incorrect": "Evian i Vittel to wody niegazowane, a San Pellegrino to woda włoska, choć też gazowana, ale w innej butelce.",
-      "last_verified_at": "2026-06-12T15:28:32.593Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Evian i Vittel są francuskimi markami wody; S.Pellegrino jest włoską wodą gazowaną. Opis dotyczy marki Perrier."
     },
     {
       "subcategory": "Cydr",
@@ -1458,7 +1440,7 @@
         "Pour-over"
       ],
       "answer": "Moka",
-      "explanation_correct": "Kawiarka typu Moka to ciśnieniowy czajniczek, który przepuszcza parę wodną przez zmieloną kawę, dając mocny napar.",
+      "explanation_correct": "W kawiarce moka para w dolnym zbiorniku wytwarza ciśnienie, które wypycha gorącą wodę przez zmieloną kawę do górnego zbiornika.",
       "explanation_incorrect": "Espresso wymaga ekspresu, French Press polega na zaparzaniu i tłoczeniu, a Pour-over to zalewanie kawy ręcznie.",
       "last_verified_at": "2026-06-12T15:28:32.593Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1480,7 +1462,7 @@
     },
     {
       "subcategory": "Rum",
-      "question": "Z którego kraju pochodzi marka rumu Havana Club?",
+      "question": "Z którym krajem związana jest historia marki rumu Havana Club?",
       "options": [
         "Kuba",
         "Portoryko",
@@ -1488,8 +1470,8 @@
         "Jamajka"
       ],
       "answer": "Kuba",
-      "explanation_correct": "Havana Club to kubańska marka rumu, założona w 1878 roku, ściśle związana z kulturą Kuby.",
-      "explanation_incorrect": "Portoryko, Dominikana i Jamajka produkują własne rumy, ale Havana Club jest wyłącznie kubański.",
+      "explanation_correct": "Historia marki Havana Club jest związana z Kubą. Marka została wprowadzona w latach 30. XX wieku; na różnych rynkach występują różne produkty pod tą nazwą.",
+      "explanation_incorrect": "Portoryko, Dominikana i Jamajka mają własne tradycje produkcji rumu; historia marki Havana Club jest związana z Kubą.",
       "last_verified_at": "2026-06-12T15:28:32.593Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1504,7 +1486,7 @@
       ],
       "answer": "Botrytis cinerea",
       "explanation_correct": "Botrytis cinerea to 'szlachetna pleśń', która wysusza winogrona, koncentrując cukry i nadając winom charakterystyczny aromat.",
-      "explanation_incorrect": "Penicillium, Aspergillus i Mucor to pleśnie związane z psuciem się żywności, nieużywane w produkcji win botrytyzowanych.",
+      "explanation_incorrect": "Penicillium, Aspergillus i Mucor obejmują wiele gatunków o różnych zastosowaniach; za typową szlachetną pleśń winogron odpowiada Botrytis cinerea.",
       "last_verified_at": "2026-06-12T15:28:32.593Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }

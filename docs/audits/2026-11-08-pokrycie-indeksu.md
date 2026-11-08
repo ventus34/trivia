@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **174** pozycji ma raport deklarujący przegląd całości paczki.
+- **176** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **51** pozycji nie ma dedykowanego raportu merytorycznego.
+- **49** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -154,7 +154,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 131 | `muzyka_popularna_pl` | Muzyka Popularna | [2026-11-06-muzyka-popularna-pl.md](2026-11-06-muzyka-popularna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 200 pytań i odpowiedzi paczki `muzyka_popularna_pl`. Zmieniono 26 rekordów: 3, 13, 19, 25, 26, 39, 51, 55, 68, 81, 98, 109, 126, 143, 145, 149, 153, 156, 160, 187, 190, 193,… |
 | 132 | `muzyka_wspczesna_i_listy_przebojw_pl` | Muzyka Współczesna i Listy Przebojów | [2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md](2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 44 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 133 | `mythical_artifacts_in_pop_culture_en` | Mythical Artifacts in Pop Culture | [2026-11-07-mythical-artifacts-in-pop-culture-en.md](2026-11-07-mythical-artifacts-in-pop-culture-en.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-07. Przeczytano wszystkie 100 pytań, wariantów odpowiedzi i wyjaśnień oraz opis paczki. Opis odzwierciedla tematykę; liczba pytań pozostaje bez zmian. Numery oznaczają… |
-| 134 | `napoje_alkohole_i_koneserzy_pl` | Napoje, Alkohole i Koneserzy | — | BRAK dedykowanego raportu merytorycznego. |
+| 134 | `napoje_alkohole_i_koneserzy_pl` | Napoje, Alkohole i Koneserzy | [2026-11-08-napoje-alkohole-i-koneserzy-pl.md](2026-11-08-napoje-alkohole-i-koneserzy-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 66 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 135 | `nauka_pl` | Nauka | [2026-11-08-nauka-pl.md](2026-11-08-nauka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 51 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 136 | `nauka_stosowana_i_codzienna_technologia_pl` | Nauka Stosowana i Codzienna Technologia | — | BRAK dedykowanego raportu merytorycznego. |
 | 137 | `norse_celtic_mythology_en` | Norse & Celtic Mythology | [2026-11-06-norse-celtic-mythology-en.md](2026-11-06-norse-celtic-mythology-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań i wyjaśnień oraz opis paczki `norse_celtic_mythology_en`. Zmieniono 42 rekordy: 1, 3, 5, 9–11, 14, 17–18, 20, 23, 25–26, 29, 32–33, 38–39, 42, 45, 48, 50–51, 54–56,… |
@@ -162,7 +162,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 139 | `odkrycia_geograficzne_pl` | Odkrycia geograficzne | — | BRAK dedykowanego raportu merytorycznego. |
 | 140 | `ogrody_i_architektura_krajobrazu_pl` | Ogrody i Architektura Krajobrazu | [2026-11-06-ogrody-i-architektura-krajobrazu-pl.md](2026-11-06-ogrody-i-architektura-krajobrazu-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień paczki `ogrody_i_architektura_krajobrazu_pl` oraz opis. Zmieniono 65 rekordów: 2–4, 6, 8–10, 12–15, 17–18, 20–26, 28, 30–31, 33–34, 38–44,… |
 | 141 | `orchestral_gaming_soundtracks_en` | Orchestral Gaming Soundtracks | [2026-11-06-orchestral-gaming-soundtracks-en.md](2026-11-06-orchestral-gaming-soundtracks-en.md) | PEŁNY ODCZYT deklarowany. Sprawdzono treść 100 pytań; zmieniono 56 pozycji: 2–7, 12, 15, 19–20, 22–24, 27–28, 31–33, 35–38, 41, 43, 45–48, 51–54, 56–57, 59–60, 62, 66–67, 69–71, 74, 76, 78, 81–82, 86–87, 89, 91,… |
-| 142 | `otaku_culture_en` | Otaku Culture | — | BRAK dedykowanego raportu merytorycznego. |
+| 142 | `otaku_culture_en` | Otaku Culture | [2026-11-08-otaku-culture-en.md](2026-11-08-otaku-culture-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 49 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 143 | `paradoksy_i_teorie_naukowe_pl` | Paradoksy i Teorie Naukowe | — | BRAK dedykowanego raportu merytorycznego. |
 | 144 | `parki_narodowe_wiata_pl` | Parki Narodowe Świata | [2026-11-06-parki-narodowe-swiata-pl.md](2026-11-06-parki-narodowe-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `parki_narodowe_wiata_pl`. Zmieniono 68 rekordów: 3–7, 9, 11–14, 16, 18–20, 22–24, 27, 29–31, 32–35, 37–38, 40–41, 43–44,… |
 | 145 | `physics_and_cosmology_en` | Physics and Cosmology | [physics-and-cosmology-en-2026-11-05.md](physics-and-cosmology-en-2026-11-05.md) | PEŁNY ODCZYT deklarowany. Zakres: wszystkie 100 pytań i objaśnień w `databases/categories/physics_and_cosmology_en.json`, ocena spójności odpowiedzi i ogólnej poprawności merytorycznej. Opis paczki odpowiada jej… |
