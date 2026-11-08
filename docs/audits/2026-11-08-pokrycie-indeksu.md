@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **163** pozycji ma raport deklarujący przegląd całości paczki.
+- **165** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **61** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **59** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -130,8 +130,8 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 107 | `mathematics_and_logic_en` | Mathematics and Logic | [2026-11-05-mathematics-pl-en.md](2026-11-05-mathematics-pl-en.md) | PEŁNY ODCZYT deklarowany. Zakres: pozycje 106–107 `databases/list.json`: `matematyka_i_logika_pl` i `mathematics_and_logic_en`, po 99 pytań. Przejrzano treść wszystkich pytań, opcji, kluczy i wyjaśnień w obu… |
 | 108 | `meble_i_design_wntrz_pl` | Meble i Design Wnętrz | [2026-11-07-meble-i-design-wnetrz-pl.md](2026-11-07-meble-i-design-wnetrz-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 48 pozycji: 2–4, 8–9, 11–15, 18, 20, 22, 24, 28–29, 32–33, 36, 38, 41–43, 49, 51–61, 63–64, 69, 77, 79, 81, 84, 88–90,… |
 | 109 | `media_i_tv_pl` | Media i TV | [2026-11-08-media-i-tv-pl.md](2026-11-08-media-i-tv-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 42 rekordy, w tym 9 powtórzeń; opis zsynchronizowano z indeksem. |
-| 110 | `medicine_and_human_body_en` | Medicine and Human Body | [2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | BRAK dedykowanego raportu merytorycznego. Wzmianka o powtórzeniach nie rozstrzyga poprawności treści. |
-| 111 | `medicine_human_body_en` | Medicine and Human Body | [2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | BRAK dedykowanego raportu merytorycznego. Wzmianka o powtórzeniach nie rozstrzyga poprawności treści. |
+| 110 | `medicine_and_human_body_en` | Medicine and Human Body | [2026-11-08-medicine-human-body-en.md](2026-11-08-medicine-human-body-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 105 pytań; wybrane kwestie sprawdzono medycznie. Dwie paczki powielają treść. |
+| 111 | `medicine_human_body_en` | Medicine and Human Body | [2026-11-08-medicine-human-body-en.md](2026-11-08-medicine-human-body-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 105 pytań; wybrane kwestie sprawdzono medycznie. Dwie paczki powielają treść. |
 | 112 | `medycyna_i_ludzkie_ciao_pl` | Medycyna i Ludzkie Ciało | [2026-11-08-medycyna-i-ludzkie-cialo-pl.md](2026-11-08-medycyna-i-ludzkie-cialo-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 105 pytań i opis, przenosząc sprawdzone poprawki z niemal identycznej osobnej paczki; obie nadal mają powtórzenia. |
 | 113 | `medycyna_i_psychologia_pl` | Medycyna i Psychologia | [2026-11-08-medycyna-i-psychologia-pl.md](2026-11-08-medycyna-i-psychologia-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, wszystkie opcje, oba wyjaśnienia i opis. Liczba pytań i opis pozostały bez zmian. W pierwszym przeglądzie zmieniono 62 pozycje: 1–5, 7–11, 16–17, 19, 21–26, 28–30,… |
 | 114 | `medycyna_ludzkie_cialo_pl` | Medycyna i Ludzkie Ciało | [2026-11-08-medycyna-ludzkie-cialo-pl.md](2026-11-08-medycyna-ludzkie-cialo-pl.md)<br>[2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | PEŁNY ODCZYT deklarowany. Przeczytano 105 pytań, warianty, klucze, oba wyjaśnienia i opis. W pierwszym przeglądzie poprawiono 80 rekordów: 2, 6, 8–25, 27–32, 34–37, 39–46, 48–49, 51, 53, 55–60, 62–63, 65–76, 78–80,… |

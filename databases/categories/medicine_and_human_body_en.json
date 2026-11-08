@@ -10,7 +10,7 @@
   "questions": [
     {
       "subcategory": "Anatomy and physiology",
-      "question": "Which organ in the human body is the largest internal organ and is responsible for detoxifying the organism?",
+      "question": "Which organ is the largest internal organ in the human body and helps metabolize nutrients and medicines and produce bile?",
       "options": [
         "Liver",
         "Skin",
@@ -18,8 +18,8 @@
         "Large intestine"
       ],
       "answer": "Liver",
-      "explanation_correct": "The liver is the largest internal organ in humans, performing metabolic, filtration, and storage functions.",
-      "explanation_incorrect": "The skin is the largest organ overall (but external), the lungs are responsible for gas exchange, and the large intestine absorbs water.",
+      "explanation_correct": "The liver is the largest internal organ. It processes nutrients and many medicines, produces bile, and performs many other metabolic functions.",
+      "explanation_incorrect": "The skin is the largest organ overall; the lungs exchange gases, and the large intestine absorbs water and electrolytes.",
       "last_verified_at": "2026-06-12T14:40:57.646Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -93,7 +93,7 @@
         "Radial nerve"
       ],
       "answer": "Sciatic nerve",
-      "explanation_correct": "The sciatic nerve provides motor and sensory supply to the entire lower limb, and its compression causes painful sciatica.",
+      "explanation_correct": "The sciatic nerve is the largest nerve in the body. It supplies the posterior thigh and, through its branches, much of the leg and foot; it does not supply the entire lower limb.",
       "explanation_incorrect": "The vagus nerve is the main nerve of the parasympathetic system, the trigeminal nerve is responsible for the face, and the radial nerve for the arm.",
       "last_verified_at": "2026-06-12T14:40:57.647Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -123,14 +123,14 @@
         "Saliva"
       ],
       "answer": "Bile",
-      "explanation_correct": "Bile emulsifies fats in the duodenum, breaking them down into small droplets that are more easily processed by enzymes.",
+      "explanation_correct": "Bile salts emulsify dietary fats into smaller droplets, increasing the surface area available to digestive enzymes such as pancreatic lipase. Bile itself is not a digestive enzyme.",
       "explanation_incorrect": "Pancreatic juice contains digestive enzymes, gastric juice contains hydrochloric acid, and saliva contains amylase.",
       "last_verified_at": "2026-06-12T14:40:57.647Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which ancient Greek physician from the island of Kos is called the 'father of medicine' and formulated a famous ethical oath for doctors?",
+      "question": "Which ancient Greek physician from the island of Kos is traditionally associated with the ethical oath for doctors known as the Hippocratic Oath?",
       "options": [
         "Hippocrates",
         "Galen",
@@ -138,7 +138,7 @@
         "Aristotle"
       ],
       "answer": "Hippocrates",
-      "explanation_correct": "Hippocrates rejected beliefs about the divine origin of diseases, looking for their causes in the patient's environment and diet.",
+      "explanation_correct": "Hippocrates is traditionally called the father of medicine, and the oath bearing his name is associated with the Hippocratic tradition; its exact authorship is uncertain.",
       "explanation_incorrect": "Galen created the Roman medical system that lasted for centuries, Aesculapius is a mythical god, and Aristotle was a philosopher of nature.",
       "last_verified_at": "2026-06-12T14:40:57.647Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -175,7 +175,7 @@
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which French chemist proved that diseases are caused by microorganisms and developed the rabies vaccine?",
+      "question": "Which French chemist and microbiologist helped establish germ theory and developed a vaccine against rabies?",
       "options": [
         "Louis Pasteur",
         "Robert Koch",
@@ -183,7 +183,7 @@
         "Claude Bernard"
       ],
       "answer": "Louis Pasteur",
-      "explanation_correct": "Pasteur disproved the theory of spontaneous generation and revolutionized medicine and the food industry through the process of pasteurization.",
+      "explanation_correct": "Louis Pasteur helped establish germ theory and developed the rabies vaccine. His work also led to pasteurization, a process that reduces harmful microbes in food and drink.",
       "explanation_incorrect": "Koch studied tuberculosis and anthrax bacteria, Ehrlich created salvarsan for syphilis, and Bernard described homeostasis.",
       "last_verified_at": "2026-06-12T14:40:57.648Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -198,14 +198,14 @@
         "Ignaz Semmelweis"
       ],
       "answer": "Joseph Lister",
-      "explanation_correct": "Lister's work drastically reduced the number of post-operative infections and gangrene, saving millions of patients.",
+      "explanation_correct": "Lister promoted antiseptic surgery using carbolic acid, helping reduce surgical wound infections.",
       "explanation_incorrect": "Morton demonstrated ether anesthesia, Hunter was a pioneer of anatomy, and Semmelweis ordered doctors to wash hands before deliveries.",
       "last_verified_at": "2026-06-12T14:40:57.648Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Hungarian physician in the mid-19th century was the first to show that washing hands with a chlorine solution prevents deadly puerperal fever in women?",
+      "question": "Which Hungarian physician introduced hand disinfection with chlorinated lime at a Vienna maternity clinic in 1847, reducing deaths from puerperal fever?",
       "options": [
         "Ignaz Semmelweis",
         "Joseph Lister",
@@ -213,14 +213,14 @@
         "Rudolf Virchow"
       ],
       "answer": "Ignaz Semmelweis",
-      "explanation_correct": "Semmelweis was rejected by the medical community of his time, and his contributions were recognized only after his death.",
+      "explanation_correct": "Semmelweis required clinicians to disinfect their hands with chlorinated lime before examining patients; mortality from puerperal fever fell substantially in the clinic.",
       "explanation_incorrect": "Lister developed surgical antisepsis, Koch studied bacteria under a microscope, and Virchow was the creator of cellular pathology.",
       "last_verified_at": "2026-06-12T14:40:57.648Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Diseases and immunology",
-      "question": "What is the name of the proteins produced by B lymphocytes that recognize and neutralize pathogen antigens?",
+      "question": "Which proteins, secreted by plasma cells derived from B lymphocytes, bind specific antigens and can help neutralize pathogens?",
       "options": [
         "Antibodies",
         "Antigens",
@@ -228,7 +228,7 @@
         "Histamines"
       ],
       "answer": "Antibodies",
-      "explanation_correct": "Antibodies (immunoglobulins) fit antigens like a key to a lock, marking them for phagocytes.",
+      "explanation_correct": "Plasma cells, which develop from activated B lymphocytes, secrete antibodies that bind specific antigens. Depending on the antibody, binding can neutralize a pathogen or help other immune mechanisms remove it.",
       "explanation_incorrect": "Antigens are foreign molecules that trigger a reaction, interferons are antiviral proteins, and histamines trigger allergic reactions.",
       "last_verified_at": "2026-06-12T14:40:57.648Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -244,13 +244,13 @@
       ],
       "answer": "Smallpox",
       "explanation_correct": "Smallpox is the only human disease completely eradicated thanks to a global immunization program.",
-      "explanation_incorrect": "Plague still occurs rarely in rodents, polio exists only residually, and tuberculosis remains a dangerous bacterial disease.",
+      "explanation_incorrect": "Plague and tuberculosis still occur, and polio has not been eradicated worldwide.",
       "last_verified_at": "2026-06-12T14:40:57.648Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Diseases and immunology",
-      "question": "Which virus destroys the human immune system by attacking T CD4 helper lymphocytes, leading to AIDS?",
+      "question": "Which virus attacks CD4 helper T cells and can lead to AIDS if the infection is untreated?",
       "options": [
         "HIV",
         "HPV",
@@ -258,7 +258,7 @@
         "HSV"
       ],
       "answer": "HIV",
-      "explanation_correct": "HIV is the human immunodeficiency virus, which leads to the disease AIDS after years of infection.",
+      "explanation_correct": "HIV is the human immunodeficiency virus. Without effective treatment, progressive immune damage can lead to AIDS; treatment can prevent or delay that progression.",
       "explanation_incorrect": "HPV causes cervical cancer, HCV is the hepatitis C virus, and HSV is the herpes simplex virus.",
       "last_verified_at": "2026-06-12T14:40:57.648Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -288,7 +288,7 @@
         "Morphine"
       ],
       "answer": "Aspirin",
-      "explanation_correct": "Aspirin was synthesized by Felix Hoffmann of the Bayer company, becoming one of the most widely used drugs in the world.",
+      "explanation_correct": "Aspirin is the Bayer trade name introduced in 1899 for acetylsalicylic acid. Its development is often credited to Felix Hoffmann, although Arthur Eichengrün’s role is also supported in historical research.",
       "explanation_incorrect": "Paracetamol and ibuprofen were developed later and do not contain a salicylate group, and morphine is a strong opiate drug.",
       "last_verified_at": "2026-06-12T14:40:57.649Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -310,22 +310,22 @@
     },
     {
       "subcategory": "Genetics",
-      "question": "Which three scientists discovered the double helix structure of deoxyribonucleic acid (DNA) in 1953?",
+      "question": "Which two scientists published the famous double-helix model of DNA in 1953?",
       "options": [
-        "Watson, Crick, and Wilkins",
+        "James Watson and Francis Crick",
+        "Rosalind Franklin and Maurice Wilkins",
         "Fleming, Florey, and Chain",
-        "Darwin, Wallace, and Mendel",
         "Avery, MacLeod, and McCarty"
       ],
-      "answer": "Watson, Crick, and Wilkins",
-      "explanation_correct": "James Watson and Francis Crick published the double helix model, relying on X-ray diffraction images taken by Rosalind Franklin.",
-      "explanation_incorrect": "Fleming's team implemented penicillin, Darwin and Wallace described evolution, and Avery's team proved that DNA carries genetic information.",
+      "answer": "James Watson and Francis Crick",
+      "explanation_correct": "Watson and Crick published the double-helix model. Rosalind Franklin and Raymond Gosling produced crucial X-ray diffraction data, and Franklin and Gosling published a related paper alongside the model.",
+      "explanation_incorrect": "Franklin and Gosling’s X-ray work was crucial to understanding DNA’s structure, but Watson and Crick published the model. The other groups are associated with different discoveries.",
       "last_verified_at": "2026-06-12T14:40:57.649Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Genetics",
-      "question": "How many pairs of homologous chromosomes does a healthy human have in most of their somatic cells?",
+      "question": "How many pairs of chromosomes are typically present in a human diploid somatic cell?",
       "options": [
         "23 pairs",
         "46 pairs",
@@ -333,7 +333,7 @@
         "24 pairs"
       ],
       "answer": "23 pairs",
-      "explanation_correct": "The human genome contains a total of 46 chromosomes divided into 23 pairs, one pair of which are the sex chromosomes (XX or XY).",
+      "explanation_correct": "A typical human diploid somatic cell has 46 chromosomes: 22 pairs of autosomes and one pair of sex chromosomes, usually XX or XY.",
       "explanation_incorrect": "46 is the total number of single chromosomes, 22 pairs are autosomes, and chimpanzees have 24 pairs.",
       "last_verified_at": "2026-06-12T14:40:57.649Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -423,7 +423,7 @@
         "Gabriele Falloppio"
       ],
       "answer": "Andreas Vesalius",
-      "explanation_correct": "Vesalius demonstrated over 200 errors in Galen's writings, which became the foundation of modern scientific anatomy.",
+      "explanation_correct": "Vesalius used human dissections to correct important errors in earlier anatomical accounts, including those based on animal dissections.",
       "explanation_incorrect": "Harvey described blood circulation in the 17th century, Paré was an outstanding field surgeon, and Falloppio described the fallopian tubes.",
       "last_verified_at": "2026-06-12T14:40:57.650Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -460,7 +460,7 @@
     },
     {
       "subcategory": "Diseases and immunology",
-      "question": "Which organ of the lymphatic system is responsible for the selection and maturation of T lymphocytes in childhood and shrinks after puberty?",
+      "question": "Which lymphatic organ supports the selection and maturation of T lymphocytes and begins to shrink after puberty?",
       "options": [
         "Thymus",
         "Spleen",
@@ -468,8 +468,8 @@
         "Thyroid"
       ],
       "answer": "Thymus",
-      "explanation_correct": "The thymus produces hormones stimulating immune development and undergoes involution (fat replacement) in adults.",
-      "explanation_incorrect": "The spleen destroys old erythrocytes, the tonsils protect the throat, and the thyroid regulates iodine metabolism.",
+      "explanation_correct": "The thymus is important for T-cell development. It undergoes age-related involution, especially after puberty, but it does not simply stop functioning.",
+      "explanation_incorrect": "The spleen filters blood and helps remove aged red blood cells; the tonsils contribute to immune defense; the thyroid produces thyroid hormones that regulate metabolism.",
       "last_verified_at": "2026-06-12T14:40:57.650Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -550,7 +550,7 @@
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "Which long extension of a neuron conducting impulses away from the cell body to other cells is covered with a myelin sheath?",
+      "question": "Which long extension of a neuron carries signals away from its cell body and may be wrapped in a myelin sheath?",
       "options": [
         "Axon",
         "Dendrite",
@@ -558,7 +558,7 @@
         "Neurotransmitter"
       ],
       "answer": "Axon",
-      "explanation_correct": "Axons in humans can reach lengths of over a meter (e.g., in the sciatic nerve) and transmit signals over long distances.",
+      "explanation_correct": "An axon carries signals away from a neuron’s cell body. Many, but not all, axons are wrapped in myelin, which helps signals travel quickly.",
       "explanation_incorrect": "A dendrite receives signals, glia are supporting cells of the brain, and a neurotransmitter is a chemical messenger.",
       "last_verified_at": "2026-06-12T14:40:57.651Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -580,7 +580,7 @@
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish surgeon was the first in the world to successfully resect a stomach due to cancer in 1881, laying the foundations of modern gastroenterology?",
+      "question": "Which Polish surgeon attempted an early resection of a cancerous pyloric tumor in 1880, before the first successful operation of this kind?",
       "options": [
         "Ludwik Rydygier",
         "Jan Mikulicz-Radecki",
@@ -588,7 +588,7 @@
         "Tytus Chałubiński"
       ],
       "answer": "Ludwik Rydygier",
-      "explanation_correct": "Ludwik Rydygier performed this breakthrough surgery in Chełmno. A year earlier, he performed the world's first stomach resection due to a peptic ulcer.",
+      "explanation_correct": "Rydygier attempted the operation in 1880, but the patient died soon afterward. Theodor Billroth’s operation in 1881 is generally credited as the first successful resection for gastric cancer.",
       "explanation_incorrect": "Mikulicz was his student and introduced surgical masks, Czerwiakowski was a surgical pioneer from the 18th century, and Chałubiński treated tuberculosis in Zakopane.",
       "last_verified_at": "2026-06-12T14:40:57.651Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -603,14 +603,14 @@
         "Ludwik Bierkowski"
       ],
       "answer": "Tadeusz Krwawicz",
-      "explanation_correct": "Krwawicz's cryosurgical method involved freezing the lens to make it easier to extract, revolutionizing global ophthalmology.",
+      "explanation_correct": "Krwawicz developed a cryoapplicator that could freeze the lens and make cataract extraction easier; ophthalmic cryotherapy also became useful in treating retinal disease.",
       "explanation_incorrect": "Wicherkiewicz studied glaucoma in the 19th century, Korczak was a pediatrician and educator, and Bierkowski was an ether pioneer in Poland.",
       "last_verified_at": "2026-06-12T14:40:57.652Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish immunologist and microbiologist discovered blood groups in 1926 and described the mechanism of serological conflict?",
+      "question": "Which Polish immunologist, together with Emil von Dungern, helped establish the ABO blood-group nomenclature adopted internationally in 1928?",
       "options": [
         "Ludwik Hirszfeld",
         "Rudolf Weigl",
@@ -618,14 +618,14 @@
         "Napoleon Cybulski"
       ],
       "answer": "Ludwik Hirszfeld",
-      "explanation_correct": "Hirszfeld introduced the A, B, O, and AB blood group designations adopted worldwide in 1928.",
+      "explanation_correct": "Ludwik Hirszfeld and Emil von Dungern proposed the A, B, and O designations; the international nomenclature was adopted in 1928. Karl Landsteiner had earlier discovered the ABO blood groups.",
       "explanation_incorrect": "Weigl created the first vaccine for epidemic typhus, Bujwid established rabies vaccination stations, and Cybulski discovered adrenaline.",
       "last_verified_at": "2026-06-12T14:40:57.652Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish biologist and zoologist developed the first effective vaccine against epidemic typhus by breeding lice in his institute in Lviv?",
+      "question": "Which Polish biologist developed an early effective vaccine against epidemic typhus by cultivating the bacterium in lice?",
       "options": [
         "Rudolf Weigl",
         "Ludwik Hirszfeld",
@@ -633,14 +633,14 @@
         "Stefan Banach"
       ],
       "answer": "Rudolf Weigl",
-      "explanation_correct": "Weigl's vaccine saved hundreds of thousands of lives during World War II, and its production provided shelter to Polish intellectuals acting as lice feeders.",
+      "explanation_correct": "Weigl developed a typhus vaccine using infected lice. During the German occupation, his institute’s lice-feeding program also provided work and some protection to many people.",
       "explanation_incorrect": "Hirszfeld studied blood groups, Cybulski studied adrenaline, and Banach was an outstanding Lviv mathematician.",
       "last_verified_at": "2026-06-12T14:40:57.652Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish physiologist was the first to isolate adrenaline—the hormone of the adrenal medulla—in 1895?",
+      "question": "Which Polish physiologist, together with Władysław Szymonowicz, identified a blood-pressure-raising substance in blood leaving the adrenal glands in 1895?",
       "options": [
         "Napoleon Cybulski",
         "Odo Bujwid",
@@ -648,7 +648,7 @@
         "Władysław Biegański"
       ],
       "answer": "Napoleon Cybulski",
-      "explanation_correct": "Cybulski, together with Adolf Beck, also described EEG waves in the brain and studied the physiology of the circulatory system.",
+      "explanation_correct": "Cybulski and Szymonowicz described an active adrenal secretion they called “nadnerczyna.” Later research identified adrenaline and other catecholamines among the active substances in adrenal extracts.",
       "explanation_incorrect": "Bujwid was a microbiology pioneer, Hirszfeld an immunology pioneer, and Biegański was a prominent internist and medical philosopher.",
       "last_verified_at": "2026-06-12T14:40:57.652Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -663,7 +663,7 @@
         "Macrophages"
       ],
       "answer": "T lymphocytes",
-      "explanation_correct": "T lymphocytes recognize infected host cells and assist other immune cells in destroying pathogens.",
+      "explanation_correct": "T lymphocytes include different subsets: some coordinate immune responses, while others can kill infected or abnormal cells.",
       "explanation_incorrect": "B lymphocytes produce antibodies, granulocytes fight bacteria and parasites, and macrophages engulf cell debris.",
       "last_verified_at": "2026-06-12T14:40:57.652Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -693,7 +693,7 @@
         "Anemia"
       ],
       "answer": "Allergy",
-      "explanation_correct": "An allergy is caused by excessive activation of IgE class immunoglobulins and mast cells releasing histamine.",
+      "explanation_correct": "Many immediate allergic reactions involve IgE antibodies and mast cells releasing histamine, but not all allergic reactions use this mechanism.",
       "explanation_incorrect": "Autoimmunization is an attack on one's own tissues, immunotolerance is the lack of reaction to an antigen, and anemia is red blood cell deficiency.",
       "last_verified_at": "2026-06-12T14:40:57.653Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -708,14 +708,14 @@
         "Aminoglycosides"
       ],
       "answer": "Beta-lactam antibiotics",
-      "explanation_correct": "These antibiotics possess a characteristic beta-lactam ring that is targeted by bacterial enzymes (beta-lactamases).",
+      "explanation_correct": "Beta-lactams bind penicillin-binding proteins and inhibit the final steps of bacterial cell-wall synthesis. Some bacteria resist them by producing beta-lactamase enzymes that inactivate the drugs.",
       "explanation_incorrect": "Macrolides and tetracyclines block protein synthesis on ribosomes, and aminoglycosides disrupt translation.",
       "last_verified_at": "2026-06-12T14:40:57.653Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Pharmacology and drugs",
-      "question": "Which popular drug with pain-relieving and fever-reducing actions does not exhibit anti-inflammatory effects, and its overdose carries a risk of liver necrosis?",
+      "question": "Which popular pain-relieving and fever-reducing drug has little anti-inflammatory activity at usual doses, while overdose can cause severe liver damage?",
       "options": [
         "Paracetamol",
         "Ibuprofen",
@@ -723,8 +723,8 @@
         "Naproxen"
       ],
       "answer": "Paracetamol",
-      "explanation_correct": "Paracetamol (acetaminophen) acts mainly in the central nervous system and is safe for the stomach, but toxic to the liver in large doses.",
-      "explanation_incorrect": "Ibuprofen, acetylsalicylic acid (aspirin), and naproxen are NSAIDs with strong anti-inflammatory actions.",
+      "explanation_correct": "Paracetamol (acetaminophen) relieves pain and fever but has little anti-inflammatory activity compared with NSAIDs. An overdose can cause serious liver damage.",
+      "explanation_incorrect": "Ibuprofen, acetylsalicylic acid (aspirin), and naproxen are NSAIDs with more substantial anti-inflammatory activity.",
       "last_verified_at": "2026-06-12T14:40:57.653Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -784,7 +784,7 @@
       ],
       "answer": "Rods",
       "explanation_correct": "Rods are extremely sensitive to light but do not distinguish colors; there are about 120 million of them in the human eye.",
-      "explanation_incorrect": "Cones are responsible for color vision and acuity in good light, ganglion cells send signals to the optic nerve, and the macula is a cluster of cones.",
+      "explanation_incorrect": "Cones support color vision and high acuity in brighter light; the fovea within the macula has a particularly high density of cones. Ganglion cells send retinal signals toward the optic nerve.",
       "last_verified_at": "2026-06-12T14:40:57.653Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -798,29 +798,29 @@
         "Sclera"
       ],
       "answer": "Cones",
-      "explanation_correct": "Cones in the human eye are divided into three types, each responding to a different wavelength of light: blue, green, and red.",
+      "explanation_correct": "Humans typically have three cone types, most sensitive to short, medium, or long wavelengths of light; their combined signals support color vision and fine detail in brighter conditions.",
       "explanation_incorrect": "Rods are responsible for vision in the dark, amacrine cells process signals, and the sclera is the outer protective coat of the eye.",
       "last_verified_at": "2026-06-12T14:40:57.653Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "Which thyroid hormone contains four iodine atoms and regulates the metabolic rate throughout the body?",
+      "question": "Which thyroid hormone contains four iodine atoms and is the major hormone secreted by the thyroid gland?",
       "options": [
         "Thyroxine",
         "Triiodothyronine",
         "Calcitonin",
-        "Reverse triiodothyronine"
+        "Thyroid-stimulating hormone (TSH)"
       ],
       "answer": "Thyroxine",
-      "explanation_correct": "Thyroxine (T4) is the main hormone secreted by the thyroid gland, containing four iodine atoms, and is converted in tissues to the more active T3.",
-      "explanation_incorrect": "Triiodothyronine (T3) has three iodine atoms; calcitonin regulates calcium levels; reverse T3 is an inactive metabolite.",
+      "explanation_correct": "Thyroxine (T4) contains four iodine atoms and is the major hormone secreted by the thyroid. Many tissues convert T4 to the more active triiodothyronine (T3).",
+      "explanation_incorrect": "Triiodothyronine (T3) contains three iodine atoms; calcitonin is another hormone made by the thyroid; TSH is made by the pituitary and stimulates the thyroid.",
       "last_verified_at": "2026-06-12T14:42:22.215Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "What is the name of the four small glands lying on the posterior surface of the thyroid gland, which regulate calcium-phosphate balance?",
+      "question": "What are the usually four small glands on the back of the thyroid that help regulate calcium levels?",
       "options": [
         "Parathyroid glands",
         "Adrenal glands",
@@ -828,14 +828,14 @@
         "Thymus"
       ],
       "answer": "Parathyroid glands",
-      "explanation_correct": "The parathyroid glands secrete parathyroid hormone (PTH), which raises calcium levels in the blood by releasing it from bones.",
+      "explanation_correct": "The parathyroid glands secrete parathyroid hormone (PTH), which raises blood calcium partly by increasing calcium release from bone and reabsorption by the kidneys; it also stimulates vitamin D activation, increasing intestinal absorption.",
       "explanation_incorrect": "Adrenal glands lie above the kidneys, salivary glands are in the oral cavity, and the thymus is in the mediastinum.",
       "last_verified_at": "2026-06-12T14:41:01.304Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "Which part of the brainstem controls the body's basic vital functions, such as breathing, heart rate, and blood pressure?",
+      "question": "Which lower part of the brainstem contains key autonomic centers for breathing, heart rate, and blood pressure?",
       "options": [
         "Medulla oblongata",
         "Cerebellum",
@@ -843,8 +843,8 @@
         "Pons"
       ],
       "answer": "Medulla oblongata",
-      "explanation_correct": "The medulla oblongata contains autonomic centers, and its damage results in immediate death due to respiratory arrest.",
-      "explanation_incorrect": "The cerebellum is responsible for movements, the midbrain for visual and auditory reflexes, and the pons connects the cerebellum to the brain.",
+      "explanation_correct": "The medulla oblongata contains important autonomic centers involved in breathing and cardiovascular regulation.",
+      "explanation_incorrect": "The cerebellum coordinates movement and balance; the midbrain and pons also have important functions, but the medulla contains key centers for these autonomic functions.",
       "last_verified_at": "2026-06-12T14:41:01.304Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -865,7 +865,7 @@
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "Which structure of the limbic system, shaped like a seahorse, is responsible for the consolidation of short-term memory into long-term memory?",
+      "question": "Which seahorse-shaped structure in the limbic system is important for forming and consolidating new declarative memories?",
       "options": [
         "Hippocampus",
         "Amygdala",
@@ -873,7 +873,7 @@
         "Hypothalamus"
       ],
       "answer": "Hippocampus",
-      "explanation_correct": "Damage to the hippocampus prevents the memorization of new facts (anterograde amnesia), while preserving older memories.",
+      "explanation_correct": "Damage to both hippocampi can severely impair the formation of new declarative memories, although memory depends on broader brain networks.",
       "explanation_incorrect": "The amygdala controls emotions (especially fear), the cingulate gyrus controls motivation, and the hypothalamus controls homeostasis.",
       "last_verified_at": "2026-06-12T14:41:01.305Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -948,7 +948,7 @@
         "Leon Manteuffel"
       ],
       "answer": "Zbigniew Religa",
-      "explanation_correct": "Professor Zbigniew Religa performed the operation on a patient in extreme heart failure, breaking ethical barriers in Polish medicine.",
+      "explanation_correct": "Religa led the first successful heart transplant in Poland, performed in Zabrze in 1985.",
       "explanation_incorrect": "Zembala and Bochenek were Religa's assistants during this procedure, and Manteuffel was a pioneer of Polish thoracic surgery.",
       "last_verified_at": "2026-06-12T14:41:01.306Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -970,7 +970,7 @@
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish physician and biochemist in 1911 isolated a substance from rice bran that prevented beri-beri and coined the term 'vitamin'?",
+      "question": "Which Polish-born biochemist proposed the vitamin hypothesis and coined the term “vitamine” in 1912 after studying beri-beri?",
       "options": [
         "Casimir Funk",
         "Napoleon Cybulski",
@@ -978,14 +978,14 @@
         "Ludwik Rydygier"
       ],
       "answer": "Casimir Funk",
-      "explanation_correct": "Funk demonstrated the existence of amines essential for life (vita-amine), starting the science of vitamins.",
-      "explanation_incorrect": "Cybulski studied hormones, Dietl reformed the Krynica health resort, and Rydygier was a surgeon.",
+      "explanation_correct": "Casimir Funk introduced the term “vitamine” for hypothesized substances needed to prevent deficiency diseases. The final “e” was later dropped because not all vitamins are amines.",
+      "explanation_incorrect": "Cybulski studied adrenal physiology, Dietl was known for internal medicine and balneology, and Rydygier was a surgeon.",
       "last_verified_at": "2026-06-12T14:41:01.306Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish physician and professor in the 19th century eradicated the plica polonica plague and popularized balneology in Krynica?",
+      "question": "Which Polish physician challenged the belief that plica polonica (kołtun) was a disease and campaigned against harmful treatments for it?",
       "options": [
         "Jozef Dietl",
         "Tytus Chalubinski",
@@ -993,7 +993,7 @@
         "Wojciech Oczko"
       ],
       "answer": "Jozef Dietl",
-      "explanation_correct": "Dietl was the rector of the Jagiellonian University, proved the harmfulness of bloodletting, and created Polish balneoclimatology.",
+      "explanation_correct": "Józef Dietl argued that plica polonica was matted hair rather than a disease and that cutting it did not cause illness, helping to dispel a harmful superstition.",
       "explanation_incorrect": "Chalubinski discovered the Zakopane climate, Strus was a Renaissance court physician, and Oczko described mineral waters in the 16th century.",
       "last_verified_at": "2026-06-12T14:41:01.306Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1015,7 +1015,7 @@
     },
     {
       "subcategory": "Diseases and immunology",
-      "question": "What is the name of the immune reaction in which antibodies and lymphocytes attack the body's own healthy cells?",
+      "question": "What is the name of the immune process in which the body loses tolerance to its own tissues and mounts an attack against them?",
       "options": [
         "Autoimmunity",
         "Immunosuppression",
@@ -1023,14 +1023,14 @@
         "Allergy"
       ],
       "answer": "Autoimmunity",
-      "explanation_correct": "Autoimmune diseases (e.g., Hashimoto's, multiple sclerosis, lupus) result from a failure of tolerance to self-antigens.",
+      "explanation_correct": "Autoimmunity is a loss of immune tolerance to self. Autoimmune diseases can involve different immune mechanisms, including autoreactive lymphocytes and, in some conditions, autoantibodies.",
       "explanation_incorrect": "Immunosuppression is the suppression of immunity with drugs, intolerance is a non-allergic enzyme deficiency (e.g., lactose), and allergy is hyperactivity to foreign pollen.",
       "last_verified_at": "2026-06-12T14:41:01.307Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Diseases and immunology",
-      "question": "Which organ is destroyed by the immune system in Hashimoto's disease, the most common cause of hypothyroidism?",
+      "question": "Which gland is targeted by Hashimoto thyroiditis, a common cause of hypothyroidism?",
       "options": [
         "Thyroid",
         "Pancreas",
@@ -1038,7 +1038,7 @@
         "Liver"
       ],
       "answer": "Thyroid",
-      "explanation_correct": "Hashimoto's disease (chronic lymphocytic thyroiditis) leads to the slow destruction of this gland's parenchyma.",
+      "explanation_correct": "Hashimoto thyroiditis is an autoimmune disease that causes chronic inflammation and can gradually impair the thyroid’s ability to make hormones.",
       "explanation_incorrect": "Destruction of the pancreas leads to diabetes, the adrenal glands to Addison's disease, and the liver is targeted in autoimmune hepatitis.",
       "last_verified_at": "2026-06-12T14:41:01.307Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1054,7 +1054,7 @@
       ],
       "answer": "Atherosclerosis",
       "explanation_correct": "Atherosclerosis is the main cause of ischemic heart disease and strokes.",
-      "explanation_incorrect": "An aneurysm is a dilation of an arterial wall, varicose veins are a failure of venous valves, and thrombosis is the blockage of a vessel by a clot.",
+      "explanation_incorrect": "An aneurysm is an abnormal widening of an artery, varicose veins involve enlarged superficial veins, and thrombosis is formation of a blood clot in a vessel. Atherosclerosis is a major cause of coronary artery disease and some ischemic strokes.",
       "last_verified_at": "2026-06-12T14:41:01.307Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -1075,7 +1075,7 @@
     },
     {
       "subcategory": "Pharmacology and drugs",
-      "question": "Which strong pain reliever from the opioid group, derived from opium, is the standard in managing cancer pain?",
+      "question": "Which opioid pain reliever derived from opium is commonly used to treat moderate-to-severe cancer pain?",
       "options": [
         "Morphine",
         "Codeine",
@@ -1084,13 +1084,13 @@
       ],
       "answer": "Morphine",
       "explanation_correct": "Morphine acts by strongly stimulating opioid receptors in the spinal cord and brain, suppressing pain transmission.",
-      "explanation_incorrect": "Codeine is a weaker opiate with cough-suppressant actions, tramadol is a synthetic opioid of medium potency, and fentanyl is a strong, short-acting synthetic.",
+      "explanation_incorrect": "Codeine is generally less potent than morphine; tramadol is a synthetic opioid; fentanyl is a potent synthetic opioid available in both short-acting and long-acting forms.",
       "last_verified_at": "2026-06-12T14:41:01.307Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Pharmacology and drugs",
-      "question": "Which synthetic opioid is about 100 times stronger than morphine and is used in anesthesiology and as pain patches?",
+      "question": "Which potent synthetic opioid, often estimated at about 50–100 times the potency of morphine, is used in anesthesia and in transdermal patches for selected patients?",
       "options": [
         "Fentanyl",
         "Methadone",
@@ -1098,7 +1098,7 @@
         "Oxycodone"
       ],
       "answer": "Fentanyl",
-      "explanation_correct": "Fentanyl exhibits strong lipophilic action, allowing it to quickly penetrate the brain and work in minimal doses.",
+      "explanation_correct": "Fentanyl is a potent opioid used in monitored anesthesia and, as a patch, for selected patients with persistent severe pain. Its use requires careful clinical oversight.",
       "explanation_incorrect": "Methadone treats heroin addiction, buprenorphine is a partial agonist, and oxycodone is an oral drug.",
       "last_verified_at": "2026-06-12T14:41:01.307Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1135,7 +1135,7 @@
     },
     {
       "subcategory": "Genetics",
-      "question": "What is the name of the process of synthesizing an RNA molecule on a DNA template, occurring in the cell nucleus?",
+      "question": "In a eukaryotic cell, what is the name of the process that synthesizes an RNA molecule on a DNA template in the nucleus?",
       "options": [
         "Transcription",
         "Translation",
@@ -1143,7 +1143,7 @@
         "Reverse transcription"
       ],
       "answer": "Transcription",
-      "explanation_correct": "Transcription is carried out by RNA polymerase, copying the gene sequence onto an mRNA strand.",
+      "explanation_correct": "During transcription in eukaryotic cells, RNA polymerase uses a DNA strand as a template to synthesize RNA, including mRNA.",
       "explanation_incorrect": "Translation is protein synthesis on a ribosome, replication is DNA duplication, and reverse transcription is DNA synthesis on an RNA template.",
       "last_verified_at": "2026-06-12T14:41:01.308Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1188,7 +1188,7 @@
         "Aneurysm"
       ],
       "answer": "Hemophilia",
-      "explanation_correct": "Hemophilia affects almost exclusively males because the genes encoding clotting factors lie on the X chromosome.",
+      "explanation_correct": "Hemophilia A and B are usually X-linked and therefore much more common in males, although females can also have hemophilia.",
       "explanation_incorrect": "Color blindness is the inability to distinguish colors, cystic fibrosis is autosomal recessive, and an aneurysm is a vascular disorder.",
       "last_verified_at": "2026-06-12T14:41:01.308Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1234,7 +1234,7 @@
       ],
       "answer": "Sternum",
       "explanation_correct": "The sternum (breastbone) closes the rib cage in front and consists of the manubrium, body, and xiphoid process.",
-      "explanation_incorrect": "The clavicle connects the sternum to the scapula, the scapula lies in the back, and false ribs connect to the sternum indirectly.",
+      "explanation_incorrect": "The clavicle connects the sternum to the scapula, and the scapula lies on the back. Ribs 8–10 attach to the sternum indirectly through cartilage; ribs 11–12 do not attach to it.",
       "last_verified_at": "2026-06-12T14:41:01.309Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
@@ -1375,7 +1375,7 @@
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "Which tooth in the permanent human dentition has the longest root and is used for tearing food?",
+      "question": "Which type of permanent tooth is adapted for tearing food and typically has the longest root, especially in the upper jaw?",
       "options": [
         "Canine",
         "Incisor",
@@ -1383,14 +1383,14 @@
         "Molar"
       ],
       "answer": "Canine",
-      "explanation_correct": "Canines have a cone-shaped crown and a single, very long and thick root firmly embedded in the alveolus.",
+      "explanation_correct": "Canines have pointed crowns suited to tearing; the upper canines typically have the longest roots among the teeth.",
       "explanation_incorrect": "Incisors are used for biting off, and premolars and molars are for crushing and grinding food.",
       "last_verified_at": "2026-06-12T14:41:01.310Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "How many permanent teeth does an adult human have, including the four wisdom teeth (third molars)?",
+      "question": "How many teeth are in a complete adult permanent dentition when all four wisdom teeth (third molars) are present?",
       "options": [
         "32 teeth",
         "28 teeth",
@@ -1398,7 +1398,7 @@
         "36 teeth"
       ],
       "answer": "32 teeth",
-      "explanation_correct": "The complete permanent dentition consists of 8 incisors, 4 canines, 8 premolars, and 12 molars.",
+      "explanation_correct": "A complete permanent dentition with all third molars has 32 teeth: 8 incisors, 4 canines, 8 premolars, and 12 molars.",
       "explanation_incorrect": "Deciduous dentition has 20 teeth, and an adult has 28 teeth after removing all wisdom teeth.",
       "last_verified_at": "2026-06-12T14:41:01.310Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1413,7 +1413,7 @@
         "Pulp"
       ],
       "answer": "Enamel",
-      "explanation_correct": "Enamel consists of 96% inorganic compounds, mainly hydroxyapatite crystals.",
+      "explanation_correct": "By weight, enamel is about 96% mineral, mainly hydroxyapatite crystals, making it the hardest tissue in the human body.",
       "explanation_incorrect": "Dentin lies under the enamel, cementum covers the tooth root, and pulp is the vascularized living tissue inside.",
       "last_verified_at": "2026-06-12T14:41:01.311Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1435,7 +1435,7 @@
     },
     {
       "subcategory": "Anatomy and physiology",
-      "question": "What is the name of the only living, highly vascularized and innervated tissue of the tooth, filling its chamber and canals?",
+      "question": "What is the vascularized, innervated soft tissue that fills the tooth’s chamber and root canals?",
       "options": [
         "Dental pulp",
         "Dentin",
@@ -1443,7 +1443,7 @@
         "Periosteum"
       ],
       "answer": "Dental pulp",
-      "explanation_correct": "Pulp nourishes the tooth from within; its inflammation requires root canal (endodontic) treatment.",
+      "explanation_correct": "The dental pulp contains nerves, blood vessels, and connective tissue. Depending on the condition, inflamed pulp may require endodontic treatment.",
       "explanation_incorrect": "Dentin and enamel are hard tissues, and periosteum covers jaw bones.",
       "last_verified_at": "2026-06-12T14:41:01.311Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1465,7 +1465,7 @@
     },
     {
       "subcategory": "History of medicine",
-      "question": "Which Polish neurologist described the neck reflex (Flatau's sign) in 1912 and wrote the first Polish monograph on migraine?",
+      "question": "Which Polish neurologist is associated with a meningeal sign in which the pupils dilate during passive neck flexion, and published a monograph on migraine in 1912?",
       "options": [
         "Edward Flatau",
         "Jozef Babinski",
@@ -1473,7 +1473,7 @@
         "Samuel Goldflam"
       ],
       "answer": "Edward Flatau",
-      "explanation_correct": "Flatau was a co-founder of Polish neurology and the author of a brain atlas recognized throughout Europe.",
+      "explanation_correct": "Edward Flatau described the neck-mydriasis sign, in which the pupils dilate during passive forward neck flexion; his monograph “Migrena” was published in 1912.",
       "explanation_incorrect": "Babinski described the famous plantar reflex in Paris, Orzechowski studied muscle tone, and Goldflam studied myasthenia.",
       "last_verified_at": "2026-06-12T14:41:01.311Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1518,7 +1518,7 @@
         "Chickenpox"
       ],
       "answer": "Plague",
-      "explanation_correct": "Plague is transmitted to humans by fleas parasitizing rats; it occurs in bubonic or pneumonic forms.",
+      "explanation_correct": "Plague can be bubonic or pneumonic. Bubonic plague is commonly transmitted by infected flea bites; pneumonic plague can also spread through respiratory droplets.",
       "explanation_incorrect": "Cholera spreads through contaminated water, typhus through body lice, and chickenpox is a viral disease.",
       "last_verified_at": "2026-06-12T14:41:01.312Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
@@ -1548,14 +1548,14 @@
         "Tricyclic antidepressants"
       ],
       "answer": "Benzodiazepines",
-      "explanation_correct": "Benzodiazepines exhibit strong sedative, anxiolytic, and sleep-inducing actions, but their long-term use leads to addiction.",
+      "explanation_correct": "Benzodiazepines can reduce anxiety and cause sedation by enhancing GABA-A receptor activity. They can cause tolerance, physical dependence, and misuse or addiction, especially with continued use.",
       "explanation_incorrect": "Barbiturates are older, more toxic sleep aids, neuroleptics treat psychoses, and TCAs are antidepressants.",
       "last_verified_at": "2026-06-12T14:41:01.312Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
     },
     {
       "subcategory": "Pharmacology and drugs",
-      "question": "Which inhibitory neurotransmitter is the primary target of action for benzodiazepines and sleep aids in the brain?",
+      "question": "Benzodiazepines enhance the action of which major inhibitory neurotransmitter by acting at GABA-A receptors?",
       "options": [
         "GABA",
         "Glutamate",
@@ -1563,7 +1563,7 @@
         "Acetylcholine"
       ],
       "answer": "GABA",
-      "explanation_correct": "Gamma-aminobutyric acid (GABA) inhibits neuronal excitability, producing a calming and muscle-relaxing effect.",
+      "explanation_correct": "Gamma-aminobutyric acid (GABA) is a major inhibitory neurotransmitter. Benzodiazepines bind to GABA-A receptors and enhance the effect of GABA; they do not replace GABA itself.",
       "explanation_incorrect": "Glutamate is the main excitatory transmitter, noradrenaline excites attention, and acetylcholine regulates muscle contractions.",
       "last_verified_at": "2026-06-12T14:41:01.312Z",
       "verifying_model": "google/gemini-3.1-flash-lite"
