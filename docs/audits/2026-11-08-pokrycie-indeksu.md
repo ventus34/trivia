@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **193** pozycji ma raport deklarujący przegląd całości paczki.
+- **194** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **32** pozycji nie ma dedykowanego raportu merytorycznego.
+- **31** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -172,7 +172,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 149 | `pionierzy_lotnictwa_pl` | Pionierzy Lotnictwa | [2026-11-07-pionierzy-lotnictwa-pl.md](2026-11-07-pionierzy-lotnictwa-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i komplet 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 65 pozycji: 2–6, 8–11, 13, 15–16, 18, 20, 22, 24–27, 29–30, 32–34, 36, 38–40, 44–45, 48–49, 51, 53–56, 59, 61–63,… |
 | 150 | `pitkowy_miks_pl` | Piątkowy Miks | — | BRAK dedykowanego raportu merytorycznego. |
 | 151 | `podre_i_turystyka_pl` | Podróże i Turystyka | [2026-11-08-podroze-i-turystyka-pl.md](2026-11-08-podroze-i-turystyka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 51 rekordów; wybrane fakty sprawdzono źródłowo. |
-| 152 | `polska_wspczesna_pl` | Polska Współczesna | — | BRAK dedykowanego raportu merytorycznego. |
+| 152 | `polska_wspczesna_pl` | Polska Współczesna | [2026-11-08-polska-wspczesna-pl.md](2026-11-08-polska-wspczesna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 60 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 153 | `polskie_lady_na_mapie_europy_pl` | Polskie Ślady na Mapie Europy | [2026-11-08-polskie-slady-na-mapie-europy-pl.md](2026-11-08-polskie-slady-na-mapie-europy-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 68 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 154 | `ponad_horyzont_pl` | Ponad horyzont | — | BRAK dedykowanego raportu merytorycznego. |
 | 155 | `popkultura_pl` | Popkultura i Gry (PL) | [2026-11-08-popkultura-pl.md](2026-11-08-popkultura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 160 pytań, poprawiono 63 rekordy; wybrane fakty sprawdzono źródłowo. |

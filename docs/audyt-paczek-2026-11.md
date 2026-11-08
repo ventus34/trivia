@@ -226,6 +226,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Sci-Fi Predictions That Came True (EN):** przegląd 100 pytań i korekty 75 rekordów; ograniczenia zgodności tematu opisano w [raporcie](audits/2026-11-08-sci-fi-predictions-that-came-true-en.md).
 
+- **Polska Współczesna (PL):** przegląd 100 pytań i korekty 60 rekordów; [raport](audits/2026-11-08-polska-wspczesna-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
