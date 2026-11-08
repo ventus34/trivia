@@ -2,7 +2,7 @@
   "id": "nauka_pl",
   "name": "Nauka",
   "language": "pl",
-  "description": "Pytania z zakresu: Genetyka, Astronomia, Chemia organiczna, Fizyka cząstek, Geologia, Botanika...",
+  "description": "Pytania z nauk przyrodniczych, fizycznych i matematycznych: od biologii, chemii i genetyki po astronomię, geologię, ekologię i oceanografię.",
   "created_at": "2026-06-12T15:29:36.536Z",
   "last_verified_at": "2026-06-12T15:29:35.666Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -10,16 +10,16 @@
   "questions": [
     {
       "subcategory": "Genetyka",
-      "question": "Jak nazywa się charakterystyczna przestrzenna struktura cząsteczki kwasu deoksyrybonukleinowego?",
+      "question": "Jaką podstawową strukturę przestrzenną ma typowa dwuniciowa cząsteczka DNA?",
       "options": [
         "Podwójna helisa",
-        "Potrójna korda",
-        "Nici nukleidowe",
-        "Superzwoje"
+        "Alfa-helisa",
+        "Harmonijka beta",
+        "Potrójna helisa"
       ],
       "answer": "Podwójna helisa",
-      "explanation_correct": "Struktura ta została odkryta przez Watsona i Cricka; przypomina skręconą drabinę sznurową.",
-      "explanation_incorrect": "Potrójna helisa to rzadka anomalia, a pozostałe terminy nie określają podstawowej struktury przestrzennej DNA opisanej w 1953 roku.",
+      "explanation_correct": "Model podwójnej helisy Watsona i Cricka opublikowano w 1953 roku; jego opracowanie opierało się m.in. na danych dyfrakcyjnych Rosalind Franklin i Raymonda Goslinga oraz pracach innych badaczy.",
+      "explanation_incorrect": "Alfa-helisa i harmonijka beta to struktury białek. Struktury potrójnoniciowe DNA mogą występować w szczególnych warunkach, ale typowe dwuniciowe DNA ma strukturę podwójnej helisy.",
       "last_verified_at": "2026-06-12T15:29:35.665Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -55,18 +55,16 @@
     },
     {
       "subcategory": "Fizyka cząstek",
-      "question": "Która z cząstek elementarnych atomu posiada ujemny ładunek elektryczny?",
+      "question": "Która z wymienionych cząstek związanych z atomem ma ujemny ładunek elektryczny?",
       "options": [
         "proton",
         "elektron",
         "neutron",
-        "kwark"
+        "neutrino"
       ],
       "answer": "elektron",
-      "explanation_correct": "Elektron jest cząstką o ujemnym ładunku elementarnym krążącą wokół jądra atomowego.",
-      "explanation_incorrect": "Protony posiadają ładunek dodatni, a neutrony są elektrycznie obojętne.",
-      "last_verified_at": "2026-06-12T15:28:32.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elektron ma ujemny ładunek elementarny i występuje w atomie w stanie opisanym przez funkcję falową.",
+      "explanation_incorrect": "Proton ma ładunek dodatni, neutron jest obojętny, a neutrino nie ma ładunku elektrycznego."
     },
     {
       "subcategory": "Geologia",
@@ -79,9 +77,7 @@
       ],
       "answer": "Pangea",
       "explanation_correct": "Pangea zaczęła pękać około 200 milionów lat temu, dając początek dzisiejszym kontynentom. Teorię jej istnienia sformułował Alfred Wegener.",
-      "explanation_incorrect": "Gondwana i Laurazja to części składowe powstałe po rozpadzie Pangei, natomiast Rodinia istniała znacznie wcześniej.",
-      "last_verified_at": "2026-06-12T15:28:32.594Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Gondwana istniała także przed powstaniem Pangei; Laurazja była jej północną częścią, a Rodinia to wcześniejszy superkontynent."
     },
     {
       "subcategory": "Botanika",
@@ -93,7 +89,7 @@
         "fermentacja"
       ],
       "answer": "fotosynteza",
-      "explanation_correct": "Podczas fotosyntezy z dwutlenku węgla i wody, przy udziale chlorofilu, powstają cukry proste i tlen jako produkt uboczny. Jest to podstawa łańcuchów pokarmowych na Ziemi.",
+      "explanation_correct": "W całym procesie fotosyntezy energia świetlna jest przekształcana w energię chemiczną. Reakcje świetlne wytwarzają ATP i NADPH, a cykl Calvina wykorzystuje je do wiązania dwutlenku węgla w związki węglowe; tlen powstaje przy rozkładzie wody.",
       "explanation_incorrect": "Oddychanie to proces odwrotny służący uwalnianiu energii, a transpiracja to parowanie wody z rośliny.",
       "last_verified_at": "2026-06-12T15:28:32.594Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -108,7 +104,7 @@
         "kortyzol"
       ],
       "answer": "insulina",
-      "explanation_correct": "Insulina jest wytwarzana przez komórki beta wysp trzustkowych i ułatwia transport glukozy z krwi do tkanek. Jej niedobór prowadzi do rozwoju cukrzycy.",
+      "explanation_correct": "Insulina jest wytwarzana przez komórki beta wysp trzustkowych i pomaga regulować stężenie glukozy we krwi. W cukrzycy typu 1 autoimmunologiczne zniszczenie tych komórek prowadzi do znacznego niedoboru insuliny.",
       "explanation_incorrect": "Glukagon działa przeciwstawnie do insuliny, podnosząc poziom cukru, natomiast adrenalina i kortyzol to hormony stresu.",
       "last_verified_at": "2026-06-12T15:28:43.992Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -119,14 +115,12 @@
       "options": [
         "przyprostokątna",
         "cięciwa",
-        "podstawa",
+        "promień",
         "przeciwprostokątna"
       ],
       "answer": "przeciwprostokątna",
       "explanation_correct": "Przeciwprostokątna jest zawsze najdłuższym bokiem trójkąta prostokątnego. Relację między nią a przyprostokątnymi opisuje twierdzenie Pitagorasa.",
-      "explanation_incorrect": "Przyprostokątne to boki tworzące kąt prosty, a cięciwa jest odcinkiem łączącym dwa punkty na okręgu.",
-      "last_verified_at": "2026-06-12T15:29:35.665Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Przyprostokątne tworzą kąt prosty; cięciwa i promień są pojęciami związanymi z okręgiem."
     },
     {
       "subcategory": "Optyka",
@@ -138,7 +132,7 @@
         "halo"
       ],
       "answer": "tęcza",
-      "explanation_correct": "Tęcza powstaje dzięki załamaniu i odbiciu światła wewnątrz kropel wody, co powoduje rozdzialenie światła białego na barwy spektralne. Widoczna jest, gdy słońce świeci zza pleców obserwatora na deszcz.",
+      "explanation_correct": "Tęcza powstaje wskutek załamania, rozszczepienia i wewnętrznego odbicia światła w kroplach wody. Jest widoczna, gdy Słońce znajduje się za plecami obserwatora, a krople deszczu przed nim.",
       "explanation_incorrect": "Fata morgana to miraż, a zorza polarna wynika z oddziaływania wiatru słonecznego z atmosferą.",
       "last_verified_at": "2026-06-12T15:28:43.993Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -160,7 +154,7 @@
     },
     {
       "subcategory": "Mikrobiologia",
-      "question": "Który szkocki biolog odkrył w 1928 roku pierwszy antybiotyk – penicylinę?",
+      "question": "Który szkocki badacz odkrył penicylinę w 1928 roku?",
       "options": [
         "Louis Pasteur",
         "Robert Koch",
@@ -168,10 +162,8 @@
         "Joseph Lister"
       ],
       "answer": "Alexander Fleming",
-      "explanation_correct": "Fleming zauważył, że pleśń Penicillium notatum przypadkowo zanieczyszczająca szalkę z bakteriami hamuje ich wzrost. Za to odkrycie otrzymał Nagrodę Nobla w 1945 roku.",
-      "explanation_incorrect": "Pasteur i Koch zajmowali się szczepionkami i etiologią chorób, a Lister opracował zasady antyseptyki.",
-      "last_verified_at": "2026-06-12T15:28:43.993Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Alexander Fleming zaobserwował, że pleśń z rodzaju Penicillium hamuje wzrost bakterii. Nagrodę Nobla w 1945 roku otrzymał wspólnie z Howardem Floreyem i Ernstem Chainem.",
+      "explanation_incorrect": "Pasteur i Koch zajmowali się szczepionkami i etiologią chorób, a Lister opracował zasady antyseptyki."
     },
     {
       "subcategory": "Kosmologia",
@@ -183,8 +175,8 @@
         "Wielki Kolaps"
       ],
       "answer": "Wielki Wybuch",
-      "explanation_correct": "Teoria Wielkiego Wybuchu zakłada, że wszechświat powstał z niezwykle gęstego i gorącego punktu około 13,8 miliarda lat temu. Dowodem na to jest m.in. istnienie mikrofalowego promieniowania tła.",
-      "explanation_incorrect": "Teoria Stanu Stacjonarnego została odrzucona przez naukę, a Wielki Kolaps to hipoteza dotycząca końca, a nie początku wszechświata.",
+      "explanation_correct": "Model Wielkiego Wybuchu opisuje ewolucję wszechświata od bardzo gorącego i gęstego stanu około 13,8 miliarda lat temu. Ważnym dowodem jest mikrofalowe promieniowanie tła, pozostałość po wczesnym wszechświecie.",
+      "explanation_incorrect": "Model stanu stacjonarnego nie wyjaśnia dobrze obserwowanych danych, m.in. mikrofalowego promieniowania tła. Wielki Kolaps to hipoteza dotycząca możliwego końca ekspansji, a nie model wczesnego wszechświata.",
       "last_verified_at": "2026-06-12T15:28:43.993Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -198,10 +190,8 @@
         "paprotniki"
       ],
       "answer": "porosty",
-      "explanation_correct": "W porostach grzyby dostarczają wodę i sole mineralne, natomiast glony wytwarzają substancje organiczne w procesie fotosyntezy. Są one organizmami pionierskimi zdolnymi do zasiedlania skrajnych środowisk.",
-      "explanation_incorrect": "Mchy i widłaki to samodzielne rośliny zarodnikowe, które nie bazują na symbiozie międzykrólestwowej.",
-      "last_verified_at": "2026-06-12T15:28:43.993Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Porost to związek grzyba z fotosyntetyzującym partnerem: glonem lub sinicą. Partner fotosyntetyczny wytwarza związki organiczne.",
+      "explanation_incorrect": "Mchy i widłaki to samodzielne rośliny zarodnikowe, które nie bazują na symbiozie międzykrólestwowej."
     },
     {
       "subcategory": "Meteorologia",
@@ -213,7 +203,7 @@
         "termometr"
       ],
       "answer": "barometr",
-      "explanation_correct": "Pierwszy barometr rtęciowy skonstruował Evangelista Torricelli w XVII wieku. Obecnie najczęściej stosuje się wygodniejsze barometry metalowe (aneroidy).",
+      "explanation_correct": "Pierwszy barometr rtęciowy skonstruował Evangelista Torricelli w XVII wieku. Barometry aneroidowe mierzą ciśnienie bez użycia rtęci; współcześnie powszechne są także czujniki elektroniczne.",
       "explanation_incorrect": "Higrometr mierzy wilgotność, anemometr prędkość wiatru, a termometr temperaturę.",
       "last_verified_at": "2026-06-12T15:28:43.994Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -228,7 +218,7 @@
         "ssaki"
       ],
       "answer": "płazy",
-      "explanation_correct": "Salamandra to płaz ogoniasty, który mimo wyglądu przypominającego jaszczurkę, posiada cienką, wilgotną skórę bez łusek. Przechodzi cykl życiowy ściśle związany ze środowiskiem wodnym.",
+      "explanation_correct": "Salamandra plamista jest płazem ogoniastym. Ma wilgotną skórę bez łusek; jej larwy zwykle rozwijają się w wodzie, choć dorosłe osobniki żyją głównie na lądzie.",
       "explanation_incorrect": "Gady posiadają suchą skórę pokrytą łuskami, co odróżnia je od salamander i innych płazów.",
       "last_verified_at": "2026-06-12T15:28:43.994Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -243,7 +233,7 @@
         "Barbara McClintock"
       ],
       "answer": "Rosalind Franklin",
-      "explanation_correct": "Franklin była ekspertką w dziedzinie rentgenografii strukturalnej, a jej zdjęcia dyfrakcyjne dostarczyły dowodów na helikalną budowę DNA. Zmarła z powodu choroby nowotworowej przed przyznaniem Nagrody Nobla.",
+      "explanation_correct": "Rosalind Franklin i Raymond Gosling wykonali Zdjęcie 51 w 1952 roku. Obraz dyfrakcyjny dostarczył ważnych danych o helikalnej strukturze DNA; ich badania ukazały się obok pracy Watsona i Cricka przedstawiającej model podwójnej helisy.",
       "explanation_incorrect": "Marie Curie badała promieniotwórczość, Ada Lovelace była pionierką informatyki, a McClintock odkryła transpozony.",
       "last_verified_at": "2026-06-12T15:28:43.994Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -253,15 +243,13 @@
       "question": "Który z księżyców Jowisza jest największym naturalnym satelitą w całym Układzie Słonecznym?",
       "options": [
         "Tytan",
-        "Europ",
+        "Europa",
         "Ganimedes",
         "Io"
       ],
       "answer": "Ganimedes",
       "explanation_correct": "Ganimedes jest większy nawet od planety Merkury, choć ma mniejszą od niej masę. Posiada on własne pole magnetyczne oraz prawdopodobnie podpowierzchniowy ocean słonej wody.",
-      "explanation_incorrect": "Tytan jest drugim co do wielkości księżycem (należy do Saturna), a Europa i Io to mniejsze księżyce galileuszowe Jowisza.",
-      "last_verified_at": "2026-06-12T15:28:43.994Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tytan jest drugim co do wielkości księżycem (należy do Saturna), a Europa i Io to mniejsze księżyce galileuszowe Jowisza."
     },
     {
       "subcategory": "Mechanika płynów",
@@ -303,7 +291,7 @@
         "HMS Bounty"
       ],
       "answer": "HMS Beagle",
-      "explanation_correct": "Podróż na HMS Beagle trwała pięć lat (1831–1836) i pozwoliła Darwinowi zebrać dowody, które stały się podstawą teorii doboru naturalnego. Szczególnie istotne okazały się obserwacje z archipelagu Galápagos.",
+      "explanation_correct": "Podróż HMS Beagle trwała pięć lat (1831–1836). Zebrane przez Darwina obserwacje z całej wyprawy, w tym z Galápagos, pomogły mu rozwijać późniejszą teorię doboru naturalnego.",
       "explanation_incorrect": "HMS Endeavour był statkiem Jamesa Cooka, a HMS Bounty słynie z buntu załogi.",
       "last_verified_at": "2026-06-12T15:28:43.995Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -318,7 +306,7 @@
         "Butan"
       ],
       "answer": "Metan",
-      "explanation_correct": "Metan to najprostszy alkan, którego zawartość w gazie ziemnym wynosi zazwyczaj ponad 90%.",
+      "explanation_correct": "Metan jest zwykle głównym składnikiem gazu ziemnego, choć jego udział zależy od złoża i stopnia oczyszczenia gazu.",
       "explanation_incorrect": "Etan, propan i butan również występują w gazie ziemnym, ale w znacznie mniejszych ilościach.",
       "last_verified_at": "2026-06-12T15:28:43.995Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -340,7 +328,7 @@
     },
     {
       "subcategory": "Fizyka cząstek elementarnych",
-      "question": "Który bozon w fizyce cząstek elementarnych odpowiada za nadawanie masy innym cząstkom?",
+      "question": "Który bozon jest kwantowym wzbudzeniem pola Higgsa, powiązanego z mechanizmem nadawania masy cząstkom elementarnym?",
       "options": [
         "Bozon Higgsa",
         "Foton",
@@ -348,8 +336,8 @@
         "Bozon W"
       ],
       "answer": "Bozon Higgsa",
-      "explanation_correct": "Bozon Higgsa jest cząstką powiązaną z polem Higgsa, które nadaje masę cząstkom elementarnym.",
-      "explanation_incorrect": "Foton przenosi oddziaływania elektromagnetyczne, gluon silne, a bozon W słabe.",
+      "explanation_correct": "Bozon Higgsa jest wzbudzeniem pola Higgsa. Oddziaływanie z tym polem przyczynia się do masy m.in. bozonów W i Z oraz fermionów; nie wszystkie cząstki, np. fotony, uzyskują w ten sposób masę.",
+      "explanation_incorrect": "Foton przenosi oddziaływanie elektromagnetyczne, gluon — silne, a bozon W — słabe. Pole Higgsa wiąże się z masą wielu cząstek, a jego wzbudzeniem jest bozon Higgsa.",
       "last_verified_at": "2026-06-12T15:28:43.995Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -370,7 +358,7 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Która część oka odpowiada za precyzyjne załamywanie światła i jego skupienie na siatkówce?",
+      "question": "Która część oka zmienia swój kształt podczas akomodacji, dostosowując ostrość widzenia do odległości obiektu?",
       "options": [
         "Rogówka",
         "Tęczówka",
@@ -378,8 +366,8 @@
         "Ciało szkliste"
       ],
       "answer": "Soczewka",
-      "explanation_correct": "Soczewka to elastyczna struktura, która zmienia swój kształt w procesie akomodacji.",
-      "explanation_incorrect": "Rogówka również załamuje światło, ale to soczewka zapewnia dynamiczne dostrojenie ostrości.",
+      "explanation_correct": "Soczewka zmienia krzywiznę pod wpływem mięśnia rzęskowego, dzięki czemu oko może ustawiać ostrość na przedmiotach znajdujących się w różnych odległościach.",
+      "explanation_incorrect": "Rogówka zapewnia dużą część załamania światła, tęczówka reguluje ilość światła wpadającego przez źrenicę, a ciało szkliste wypełnia wnętrze gałki ocznej.",
       "last_verified_at": "2026-06-12T15:28:43.996Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -469,7 +457,7 @@
       ],
       "answer": "Skala Mercallego",
       "explanation_correct": "Skala Mercallego jest skalą makrosejsmiczną opisującą skutki trzęsienia ziemi na powierzchni.",
-      "explanation_incorrect": "Skala Richtera mierzy energię (magnitudę), Mohsa twardość minerałów, a Beauforta prędkość wiatru.",
+      "explanation_incorrect": "Skala Richtera jest historyczną skalą magnitudy opartą na pomiarach fal sejsmicznych; nie opisuje bezpośrednio zniszczeń. Mohs mierzy twardość minerałów, a Beaufort — siłę wiatru.",
       "last_verified_at": "2026-06-12T15:28:43.997Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -490,7 +478,7 @@
     },
     {
       "subcategory": "Astronomia",
-      "question": "Która galaktyka spiralna znajduje się najbliżej Drogi Mlecznej?",
+      "question": "Która z wymienionych galaktyk spiralnych jest najbliższa Drodze Mlecznej?",
       "options": [
         "Galaktyka Sombrero",
         "Galaktyka Trójkąta",
@@ -499,9 +487,7 @@
       ],
       "answer": "Galaktyka Andromedy",
       "explanation_correct": "Galaktyka Andromedy (M31) jest największą galaktyką w Grupie Lokalnej i zbliża się do Drogi Mlecznej.",
-      "explanation_incorrect": "Obłoki Magellana są galaktykami karłowatymi, a Galaktyka Trójkąta jest trzecią co do wielkości w grupie.",
-      "last_verified_at": "2026-06-12T15:28:43.997Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Obłoki Magellana są galaktykami karłowatymi, a Galaktyka Trójkąta jest trzecią co do wielkości w grupie."
     },
     {
       "subcategory": "Botanika",
@@ -514,7 +500,7 @@
       ],
       "answer": "ATP i NADPH",
       "explanation_correct": "ATP i NADPH stanowią tzw. siłę asymilacyjną, która jest wykorzystywana w cyklu Calvina do redukcji dwutlenku węgla.",
-      "explanation_incorrect": "Glukoza i tlen to produkty końcowe całego procesu fotosyntezy, a woda i CO2 to jej substraty.",
+      "explanation_incorrect": "ATP i NADPH powstają w reakcjach świetlnych i są zużywane w cyklu Calvina. Glukoza nie jest bezpośrednim produktem fazy jasnej; woda i CO₂ są substratami fotosyntezy.",
       "last_verified_at": "2026-06-12T15:29:35.666Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -535,7 +521,7 @@
     },
     {
       "subcategory": "Mikrobiologia",
-      "question": "Która organella komórkowa jest głównym miejscem produkcji energii w procesie oddychania komórkowego?",
+      "question": "Która organella eukariotycznej komórki jest głównym miejscem oddychania tlenowego i wytwarzania większości ATP?",
       "options": [
         "Rybosom",
         "Lizosom",
@@ -543,7 +529,7 @@
         "Aparat Golgiego"
       ],
       "answer": "Mitochondrium",
-      "explanation_correct": "Mitochondria są centrami energetycznymi komórki, gdzie wytwarzana jest większość ATP.",
+      "explanation_correct": "W mitochondriach zachodzą cykl kwasu cytrynowego i fosforylacja oksydacyjna, które w komórkach eukariotycznych wytwarzają większość ATP w warunkach tlenowych. Glikoliza zachodzi w cytozolu.",
       "explanation_incorrect": "Rybosomy budują białka, lizosomy trawią substancje, a Aparat Golgiego modyfikuje białka.",
       "last_verified_at": "2026-06-12T15:28:43.997Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -618,10 +604,8 @@
         "Uracyl"
       ],
       "answer": "Guanina",
-      "explanation_correct": "Guanina i cytozyna to komplementarne zasady azotowe w strukturze podwójnej helisy DNA. Łączą się one ze sobą za pomocą potrójnego wiązania wodorowego.",
-      "explanation_incorrect": "Adenina paruje się z tyminą w DNA lub uracylem w RNA. Pozostałe związki nie tworzą par z cytozyną.",
-      "last_verified_at": "2026-06-12T15:28:43.998Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Guanina i cytozyna w typowej parze zasad DNA tworzą trzy wiązania wodorowe.",
+      "explanation_incorrect": "Adenina paruje się z tyminą w DNA lub uracylem w RNA. Pozostałe związki nie tworzą par z cytozyną."
     },
     {
       "subcategory": "Chemia nieorganiczna",
@@ -655,7 +639,7 @@
     },
     {
       "subcategory": "Termodynamika",
-      "question": "Jak w termodynamice definiuje się funkcję stanu określającą miarę stopnia nieuporządkowania układu?",
+      "question": "Jak nazywa się funkcja stanu, która w ujęciu statystycznym wiąże się z liczbą mikrostadów dostępnych układowi?",
       "options": [
         "Entalpia",
         "Energia wewnętrzna",
@@ -663,14 +647,14 @@
         "Egzotermia"
       ],
       "answer": "Entropia",
-      "explanation_correct": "Entropia jest miarą statystycznego prawdopodobieństwa stanu układu i jego chaosu. Zgodnie z drugą zasadą termodynamiki, w układzie izolowanym entropia dąży do maksimum.",
-      "explanation_incorrect": "Entalpia określa zawartość ciepła w układzie, a energia wewnętrzna to suma energii cząsteczek. Egzotermia to typ reakcji wydzielającej ciepło.",
+      "explanation_correct": "Entropia jest funkcją stanu; w mechanice statystycznej wiąże się z liczbą możliwych mikrostad układu. W układzie izolowanym całkowita entropia nie maleje i osiąga maksimum w równowadze.",
+      "explanation_incorrect": "Entalpia jest funkcją stanu H = U + pV, a energia wewnętrzna opisuje energię mikroskopową układu. Egzotermiczny to proces, w którym układ oddaje ciepło.",
       "last_verified_at": "2026-06-12T15:28:43.999Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Wulkanologia",
-      "question": "Jak nazywa się roztopiona skała i gaz, które po wydostaniu się na powierzchnię Ziemi tracą część składników lotnych?",
+      "question": "Jak nazywa się magma, która wydostała się na powierzchnię Ziemi?",
       "options": [
         "Magma",
         "Lawa",
@@ -678,10 +662,8 @@
         "Tefra"
       ],
       "answer": "Lawa",
-      "explanation_correct": "Lawa jest produktem aktywności wulkanicznej powstałym z magmy po jej odgazowaniu podczas erupcji. Może przybierać formę potoków lub kopuł wulkanicznych.",
-      "explanation_incorrect": "Magma znajduje się pod powierzchnią ziemi, a piroklast i tefra to materiały stałe wyrzucane w powietrze podczas wybuchu.",
-      "last_verified_at": "2026-06-12T15:28:43.999Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lawa to magma na powierzchni Ziemi; w czasie erupcji może utracić część składników lotnych.",
+      "explanation_incorrect": "Magma znajduje się pod powierzchnią ziemi, a piroklast i tefra to materiały stałe wyrzucane w powietrze podczas wybuchu."
     },
     {
       "subcategory": "Astronomia",
@@ -693,10 +675,8 @@
         "Miraż"
       ],
       "answer": "Zorza polarna",
-      "explanation_correct": "Zorza polarna powstaje w wyniku zderzeń cząstek wiatru słonecznego z atomami gazów w ziemskiej termosferze. Często przybiera formę barwnych smug na nocnym niebie.",
-      "explanation_incorrect": "Halo to krąg wokół Słońca lub Księżyca, a miraż to zjawisko załamania światła w warstwach powietrza o różnej temperaturze.",
-      "last_verified_at": "2026-06-12T15:28:43.999Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zorza powstaje, gdy naładowane cząstki docierają do atmosfery i wzbudzają jej składniki, które emitują światło.",
+      "explanation_incorrect": "Halo to krąg wokół Słońca lub Księżyca, a miraż to zjawisko załamania światła w warstwach powietrza o różnej temperaturze."
     },
     {
       "subcategory": "Biochemia",
@@ -708,7 +688,7 @@
         "Hemoglobina"
       ],
       "answer": "Adenozynotrifosforan",
-      "explanation_correct": "Adenozynotrifosforan (ATP) magazynuje energię w wiązaniach wysokoenergetycznych, która jest uwalniana podczas hydrolizy. Jest on niezbędny do metabolizmu komórkowego.",
+      "explanation_correct": "ATP jest głównym nośnikiem energii użytecznej w komórce. Jego hydroliza do ADP i fosforanu nieorganicznego może być sprzęgana z reakcjami wymagającymi energii; nie oznacza to, że energia jest po prostu „uwięziona” w pojedynczym wiązaniu.",
       "explanation_incorrect": "Kwas rybonukleinowy przenosi informację genetyczną, glukoza jest paliwem, a hemoglobina transportuje tlen.",
       "last_verified_at": "2026-06-12T15:28:43.999Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -738,8 +718,8 @@
         "Bozon Higgsa"
       ],
       "answer": "Gluon",
-      "explanation_correct": "Gluony są bezmasowymi bozonami pośredniczącymi w oddziaływaniach silnych. Nazwa pochodzi od angielskiego słowa 'glue', co odnosi się do spajania składników jądra atomowego.",
-      "explanation_incorrect": "Fotony przenoszą oddziaływania elektromagnetyczne, a bozony Higgsa odpowiadają za mechanizm nadawania masy.",
+      "explanation_correct": "Gluony przenoszą oddziaływanie silne między kwarkami, wiążąc je w hadrony. Nazwa nawiązuje do angielskiego słowa „glue”, ale jądra atomowe są wiązane przez resztkowe oddziaływanie silne między protonami i neutronami.",
+      "explanation_incorrect": "Fotony przenoszą oddziaływanie elektromagnetyczne, a gluony — silne. Bozon Higgsa jest wzbudzeniem pola Higgsa, nie nośnikiem oddziaływania silnego.",
       "last_verified_at": "2026-06-12T15:29:35.666Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -798,8 +778,8 @@
         "Prąd Kanaryjski"
       ],
       "answer": "Golfsztrom",
-      "explanation_correct": "Golfsztrom (Prąd Zatokowy) przenosi ogromne masy ciepłej wody z rejonu Zatoki Meksykańskiej w kierunku arktycznym. Dzięki niemu porty w Norwegii nie zamarzają zimą.",
-      "explanation_incorrect": "Prąd Labradorski jest prądem zimnym, Kuro-siwo płynie na Pacyfiku, a Prąd Kanaryjski wywiera wpływ chłodzący.",
+      "explanation_correct": "Prąd Zatokowy i jego przedłużenie jako Prąd Północnoatlantycki transportują ciepło z tropikalnego Atlantyku w stronę północno-wschodniego Atlantyku. Współtworzy to łagodniejszy klimat Europy Zachodniej i Północnej, wraz z innymi prądami i cyrkulacją atmosferyczną.",
+      "explanation_incorrect": "Prąd Labradorski jest zimny, Kuro-siwo płynie na Pacyfiku, a Prąd Kanaryjski jest zimnym prądem wschodniej części Atlantyku.",
       "last_verified_at": "2026-06-12T15:28:44.000Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -838,27 +818,25 @@
       "question": "Jak nazywa się linia na mapie klimatycznej łącząca punkty o tej samej sumie opadów atmosferycznych?",
       "options": [
         "Izobara",
-        "Izotermia",
+        "Izoterma",
         "Izohieta",
         "Izohipsa"
       ],
       "answer": "Izohieta",
       "explanation_correct": "Izohiety są stosowane do graficznego przedstawienia rozkładu opadów w danym regionie w określonym czasie. Są kluczowym elementem map opadowych.",
-      "explanation_incorrect": "Izobary łączą punkty o tym samym ciśnieniu, izotermy o tej samej temperaturze, a izohipsy o tej samej wysokości n.p.m.",
-      "last_verified_at": "2026-06-12T15:28:44.001Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Izobary łączą punkty o tym samym ciśnieniu, izotermy o tej samej temperaturze, a izohipsy o tej samej wysokości n.p.m."
     },
     {
       "subcategory": "Botanika",
       "question": "Jak nazywa się mikroskopijny otwór w skórce roślinnej służący do wymiany gazowej i transpiracji wody?",
       "options": [
         "Ksylem",
-        "Stoma",
+        "Szparka",
         "Floem",
         "Kutykula"
       ],
-      "answer": "Stoma",
-      "explanation_correct": "Stomy (aparaty szparkowe) składają się z dwóch komórek szparkowych, które regulują wielkość otworu. Znajdują się głównie na spodniej stronie liści.",
+      "answer": "Szparka",
+      "explanation_correct": "Szparka to otwór regulowany przez dwie komórki szparkowe. Aparaty szparkowe występują głównie w skórce liści i umożliwiają wymianę gazową oraz regulują utratę wody.",
       "explanation_incorrect": "Ksylem i floem to tkanki przewodzące, a kutykula to warstwa ochronna na powierzchni liścia.",
       "last_verified_at": "2026-06-12T15:28:44.001Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -873,14 +851,14 @@
         "Zachowanie"
       ],
       "answer": "Nieoznaczoność",
-      "explanation_correct": "Zasada nieoznaczoności Heisenberga stanowi fundamentalne ograniczenie pomiarów w mechanice kwantowej. Wynika ona z falowej natury materii.",
+      "explanation_correct": "Zasada Heisenberga określa niezerową dolną granicę iloczynu niepewności położenia i pędu. Nie jest to wyłącznie ograniczenie dokładności przyrządów pomiarowych.",
       "explanation_incorrect": "Zasada wykluczenia Pauliego dotyczy obsadzania stanów przez elektrony. Pozostałe nazwy nie opisują tej konkretnej relacji matematycznej.",
       "last_verified_at": "2026-06-12T15:28:44.001Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paleontologia",
-      "question": "Która ryba trzonopłetwa, odkryta u wybrzeży Afryki w 1938 roku, jest uważana za najsłynniejszą 'żywą skamielinę'?",
+      "question": "Którą rybę trzonopłetwą odkryto żywą u wybrzeży Afryki w 1938 roku i potocznie nazywa się „żywą skamieniałością”?",
       "options": [
         "Jesiotr",
         "Latimeria",
@@ -889,13 +867,13 @@
       ],
       "answer": "Latimeria",
       "explanation_correct": "Latimeria należy do grupy ryb, które uważano za wymarłe ponad 60 milionów lat temu. Posiada ona charakterystyczne płetwy o budowie przypominającej kończyny kręgowców lądowych.",
-      "explanation_incorrect": "Choć jesiotry i prapłetwce są ewolucyjnie stare, to latimeria stała się symbolem gatunku, który przetrwał niemal bez zmian miliony lat.",
+      "explanation_incorrect": "Jesiotry i prapłetwce są również ewolucyjnie stare. Określenie „żywa skamieniałość” jest potoczne: współczesne latimerie nadal ewoluowały i nie są niezmienione od milionów lat.",
       "last_verified_at": "2026-06-12T15:28:44.001Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zoologia",
-      "question": "Do którego rzędu saków zaliczamy największe zwierzęta żyjące na Ziemi, takie jak płetwal błękitny czy humbak?",
+      "question": "Do jakiej grupy ssaków zalicza się płetwala błękitnego i humbaka?",
       "options": [
         "Syreny",
         "Pinnipedia",
@@ -903,14 +881,14 @@
         "Drapieżne"
       ],
       "answer": "Walenie",
-      "explanation_correct": "Walenie to rząd ssaków wtórnie przystosowanych do życia w wodzie, dzielący się na fiszbinowce i zębowce. Ich kończyny przednie zostały przekształcone w płetwy.",
+      "explanation_correct": "Walenie obejmują fiszbinowce, takie jak płetwal błękitny i humbak, oraz zębowce. Ich przednie kończyny przekształciły się w płetwy.",
       "explanation_incorrect": "Syreny to np. manaty, a Pinnipedia (płetwonogie) to foki i morsy. Choć żyją w wodzie, należą do innych grup systematycznych.",
       "last_verified_at": "2026-06-12T15:28:44.002Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Astronomia",
-      "question": "Jak nazywa się granica matematyczna w pobliżu czarnej dziury, po której przekroczeniu prędkość ucieczki przewyższa prędkość światła?",
+      "question": "Jak nazywa się granica czarnej dziury, po której przekroczeniu światło nie może uciec do odległego obserwatora?",
       "options": [
         "Osobliwość",
         "Horyzont zdarzeń",
@@ -918,25 +896,21 @@
         "Ergosfera"
       ],
       "answer": "Horyzont zdarzeń",
-      "explanation_correct": "Horyzont zdarzeń to granica w czasoprzestrzeni, z której żadna informacja ani materia nie może uciec przed przyciąganiem grawitacyjnym.",
-      "explanation_incorrect": "Osobliwość to punkt o nieskończonej gęstości w centrum, a ergosfera leży na zewnątrz horyzontu zdarzeń w czarnych dziurach Kerra.",
-      "last_verified_at": "2026-06-12T15:28:44.002Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Horyzont zdarzeń jest granicą czasoprzestrzeni; po jej przekroczeniu żadna materia ani informacja nie może dotrzeć do odległego obserwatora.",
+      "explanation_incorrect": "Ergosfera występuje na zewnątrz horyzontu rotującej czarnej dziury; osobliwość pojawia się w klasycznych modelach opisujących wnętrze."
     },
     {
       "subcategory": "Biologia molekularna",
       "question": "Który enzym katalizuje syntezę DNA na matrycy RNA, co jest kluczowe m.in. w cyklu replikacyjnym retrowirusów?",
       "options": [
-        "Polimeraza DNA",
+        "Polimeraza DNA zależna od DNA",
         "Helikaza",
         "Odwrotna transkryptaza",
         "Ligaza"
       ],
       "answer": "Odwrotna transkryptaza",
-      "explanation_correct": "Odwrotna transkryptaza umożliwia przepisanie informacji genetycznej z RNA na DNA, co odwraca standardowy kierunek transkrypcji.",
-      "explanation_incorrect": "Polimeraza DNA tworzy DNA na matrycy DNA, a helikaza odpowiada za rozrywanie wiązań wodorowych między niciami.",
-      "last_verified_at": "2026-06-12T15:28:44.002Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Odwrotna transkryptaza syntetyzuje DNA na matrycy RNA, jak w cyklu replikacyjnym retrowirusów. Powstałe DNA może następnie służyć jako matryca do syntezy RNA.",
+      "explanation_incorrect": "Polimeraza DNA zależna od DNA kopiuje matrycę DNA; helikaza rozdziela nici, a ligaza łączy fragmenty kwasów nukleinowych."
     },
     {
       "subcategory": "Chemia",
@@ -985,7 +959,7 @@
     },
     {
       "subcategory": "Matematyka",
-      "question": "Która kategoria liczb obejmuje zbiór wszystkich liczb rzeczywistych oraz liczb, których kwadrat może być ujemny?",
+      "question": "Który zbiór liczb obejmuje liczby rzeczywiste oraz rozwiązania równania x² = −1?",
       "options": [
         "Liczby wymierne",
         "Liczby zespolone",
@@ -993,7 +967,7 @@
         "Liczby całkowite"
       ],
       "answer": "Liczby zespolone",
-      "explanation_correct": "Liczby zespolone posiadają postać a + bi, gdzie 'i' jest jednostką urojoną.",
+      "explanation_correct": "Liczby zespolone mają postać a + bi, gdzie a i b są rzeczywiste, a i² = −1.",
       "explanation_incorrect": "Liczby wymierne i niewymierne stanowią jedynie podzbiory osi liczb rzeczywistych.",
       "last_verified_at": "2026-06-12T15:28:44.002Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1030,7 +1004,7 @@
     },
     {
       "subcategory": "Genetyka",
-      "question": "Jak nazywa się organizm posiadający identyczną strukturę genetyczną jak inne osobniki, powstały w wyniku rozmnażania bezpłciowego lub technologii laboratoryjnych?",
+      "question": "Jak nazywa się osobnik uzyskany przez klonowanie, mający zwykle niemal identyczny genom jądrowy jak organizm źródłowy?",
       "options": [
         "Hybryda",
         "Mutant",
@@ -1038,8 +1012,8 @@
         "Chimera"
       ],
       "answer": "Klon",
-      "explanation_correct": "Klonowanie to proces tworzenia genetycznych kopii DNA lub całych wielokomórkowych organizmów.",
-      "explanation_incorrect": "Hybryda to potomek genetycznie różnych rodziców, a chimera składa się z komórek o różnych genotypach.",
+      "explanation_correct": "Klonowanie tworzy kopię DNA lub organizm o niemal takim samym genomie jądrowym jak źródło. Mutacje, DNA mitochondrialne i różnice epigenetyczne mogą jednak powodować różnice między klonami.",
+      "explanation_incorrect": "Hybryda powstaje z materiału genetycznego różnych rodziców, a chimera składa się z komórek o różnych genotypach.",
       "last_verified_at": "2026-06-12T15:28:44.003Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1060,7 +1034,7 @@
     },
     {
       "subcategory": "Ekologia",
-      "question": "Jak nazywa się typ symbiozy, w której oba współpracujące ze sobą gatunki odnoszą wyraźne i niezbędne korzyści?",
+      "question": "Jak nazywa się typ interakcji międzygatunkowej, w której oba współpracujące gatunki odnoszą korzyści?",
       "options": [
         "Komensalizm",
         "Mutualizm",
@@ -1068,7 +1042,7 @@
         "Amensalizm"
       ],
       "answer": "Mutualizm",
-      "explanation_correct": "Mutualizm to relacja, w której interakcja jest korzystna dla obu stron, jak np. w przypadku pszczół i zapylanych kwiatów.",
+      "explanation_correct": "Mutualizm to relacja korzystna dla obu stron; nie musi być obowiązkowa ani niezbędna do przeżycia każdego z gatunków.",
       "explanation_incorrect": "Komensalizm przynosi korzyść tylko jednej stronie (druga jest obojętna), a pasożytnictwo szkodzi jednemu z gatunków.",
       "last_verified_at": "2026-06-12T15:28:44.003Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1128,7 +1102,7 @@
         "Fibryna"
       ],
       "answer": "Mioglobina",
-      "explanation_correct": "Mioglobina ma większe powinowactwo do tlenu niż hemoglobina, co pozwala jej przejmować tlen z krwi do mięśni.",
+      "explanation_correct": "Mioglobina wiąże tlen w komórkach mięśniowych i może służyć jako jego rezerwuar. Jej powinowactwo do tlenu jest większe niż hemoglobiny, co sprzyja pobieraniu tlenu w mięśniach.",
       "explanation_incorrect": "Hemoglobina transportuje tlen w obrębie układu krwionośnego, a kolagen pełni funkcje strukturalne.",
       "last_verified_at": "2026-06-12T15:28:44.004Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1210,7 +1184,7 @@
     },
     {
       "subcategory": "Fizyka jądrowa",
-      "question": "Jak nazywa się proces fizyczny polegający na łączeniu się dwóch lekkich jąder atomowych w jedno cięższe?",
+      "question": "Jak nazywa się proces łączenia lekkich jąder atomowych w cięższe, zachodzący między innymi we wnętrzu gwiazd?",
       "options": [
         "Rozszczepienie jądrowe",
         "Fuzja termojądrowa",
@@ -1218,10 +1192,8 @@
         "Anihilacja"
       ],
       "answer": "Fuzja termojądrowa",
-      "explanation_correct": "Fuzja termojądrowa to proces syntezy jąder lekkich pierwiastków, który uwalnia ogromne ilości energii i zachodzi m.in. we wnętrzu gwiazd.",
-      "explanation_incorrect": "Rozszczepienie polega na podziale ciężkiego jądra, a anihilacja to zamiana masy cząstki i antycząstki w energię.",
-      "last_verified_at": "2026-06-12T15:28:44.005Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Fuzja jądrowa łączy jądra atomowe. Reakcje lekkich jąder zasilające gwiazdy uwalniają energię.",
+      "explanation_incorrect": "Rozszczepienie polega na podziale ciężkiego jądra, a anihilacja to zamiana masy cząstki i antycząstki w energię."
     },
     {
       "subcategory": "Genetyka",
@@ -1240,7 +1212,7 @@
     },
     {
       "subcategory": "Botanika",
-      "question": "Który związek chemiczny odpowiada za wychwytywanie kwantów światła w procesie fotosyntezy u roślin wyższych?",
+      "question": "Który barwnik jest podstawowym pigmentem fotosyntetycznym w chloroplastach roślin wyższych?",
       "options": [
         "Antocyjan",
         "Karoten",
@@ -1248,8 +1220,8 @@
         "Chlorofil"
       ],
       "answer": "Chlorofil",
-      "explanation_correct": "Chlorofil to magnezoporfirynowy barwnik, który absorbuje energię świetlną niezbędną do przeprowadzenia fotosyntezy.",
-      "explanation_incorrect": "Karoten i ksantofil to barwniki pomocnicze, a antocyjany odpowiadają głównie za barwy kwiatów i owoców.",
+      "explanation_correct": "Chlorofil a jest podstawowym pigmentem centrów reakcji fotosystemów, a chlorofil b oraz karotenoidy pomagają pochłaniać światło i przekazywać energię.",
+      "explanation_incorrect": "Karoten i ksantofile są barwnikami pomocniczymi, które również pochłaniają światło. Antocyjany odpowiadają m.in. za barwy kwiatów i owoców, ale nie są głównymi pigmentami fotosystemów.",
       "last_verified_at": "2026-06-12T15:28:44.006Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1278,8 +1250,8 @@
         "Mississippi"
       ],
       "answer": "Amazonka",
-      "explanation_correct": "Dorzecze Amazonki zajmuje niemal połowę powierzchni Ameryki Południowej, co czyni je bezkonkurencyjnie największym na Ziemi.",
-      "explanation_incorrect": "Nil jest najdłuższą rzeką (według niektórych źródeł), ale jego dorzecze jest znacznie mniejsze od dorzecza Amazonki.",
+      "explanation_correct": "Dorzecze Amazonki obejmuje około 7 milionów kilometrów kwadratowych i ponad 40% powierzchni Ameryki Południowej, co czyni je największym systemem rzecznym pod względem powierzchni zlewiska.",
+      "explanation_incorrect": "Nil bywa uznawany za najdłuższą rzekę, choć porównania zależą od metody pomiaru. Jego dorzecze jest jednak znacznie mniejsze od dorzecza Amazonki.",
       "last_verified_at": "2026-06-12T15:28:44.006Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1293,7 +1265,7 @@
         "Siła odśrodkowa"
       ],
       "answer": "Siła Coriolisa",
-      "explanation_correct": "Siła Coriolisa powoduje odchylenie wiatru w prawo na półkuli północnej i w lewo na południowej względem kierunku gradientu ciśnienia.",
+      "explanation_correct": "Względem kierunku ruchu siła Coriolisa odchyla poruszające się masy powietrza w prawo na półkuli północnej i w lewo na południowej. Efekt jest istotny w ruchach na dużą skalę.",
       "explanation_incorrect": "Siła Lorentza dotyczy ładunków w polu magnetycznym, a siły van der Waalsa to oddziaływania międzycząsteczkowe.",
       "last_verified_at": "2026-06-12T15:28:44.006Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1315,7 +1287,7 @@
     },
     {
       "subcategory": "Matematyka",
-      "question": "Który uczony, żyjący na przełomie XVII i XVIII wieku, opracował zasady logiki formalnej oraz zaprojektował udoskonaloną maszynę liczącą?",
+      "question": "Który uczony z przełomu XVII i XVIII wieku zaprojektował kalkulator mechaniczny z kołem schodkowym i rozwijał system binarny?",
       "options": [
         "Isaac Newton",
         "Gottfried Leibniz",
@@ -1323,14 +1295,14 @@
         "Leonhard Euler"
       ],
       "answer": "Gottfried Leibniz",
-      "explanation_correct": "Leibniz wynalazł łopatkowe koło schodkowe, które stało się podstawą mechanicznych kalkulatorów, oraz promuje system binarny.",
+      "explanation_correct": "Leibniz zaprojektował kalkulator znany jako Stepped Reckoner, wykorzystujący koło schodkowe, i rozwijał arytmetykę binarną.",
       "explanation_incorrect": "Pascal zbudował wcześniejszą maszynę (Pascalinę), ale to Leibniz wprowadził kluczowe innowacje w logice i rachunku różniczkowym.",
       "last_verified_at": "2026-06-12T15:28:44.006Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Paleontologia",
-      "question": "Który wymarły organizm z okresu jury jest uznawany za formę przejściową łączącą cechy dinozaurów i ptaków?",
+      "question": "Który wymarły organizm z późnej jury jest znany z połączenia cech nieptasich dinozaurów i wczesnych ptaków?",
       "options": [
         "Pterodaktyl",
         "Archeopteryks",
@@ -1338,7 +1310,7 @@
         "Diplodok"
       ],
       "answer": "Archeopteryks",
-      "explanation_correct": "Archeopteryks posiadał zarówno cechy gadzie (zęby, pazury, długi ogon), jak i ptasie (pióra, skrzydła).",
+      "explanation_correct": "Archeopteryks miał zarówno cechy dinozaurów, takie jak zęby, pazury i długi kostny ogon, jak i cechy ptaków, w tym pióra i skrzydła.",
       "explanation_incorrect": "Pterodaktyl był gadem latającym, ale nie należał do linii prowadzącej bezpośrednio do ptaków.",
       "last_verified_at": "2026-06-12T15:28:44.007Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1375,7 +1347,7 @@
     },
     {
       "subcategory": "Biologia komórki",
-      "question": "Które organella komórkowe, otoczone pojedynczą błoną białkowo-lipidową, odpowiadają za wewnątrzkomórkowy rozkład makrocząsteczek?",
+      "question": "Które organella zawierają kwaśne hydrolazy i trawią materiał pobrany przez komórkę lub jej zużyte elementy?",
       "options": [
         "Rybosomy",
         "Mitochondria",
@@ -1383,14 +1355,14 @@
         "Peroksysomy"
       ],
       "answer": "Lizosomy",
-      "explanation_correct": "Lizosomy zawierają enzymy hydrolityczne, które trawią białka, kwasy nukleinowe i lipidy dostarczane do komórki lub jej zużyte elementy.",
-      "explanation_incorrect": "Rybosomy służą do syntezy białek, a mitochondria są centrami energetycznymi komórki.",
+      "explanation_correct": "Lizosomy zawierają kwaśne hydrolazy uczestniczące w trawieniu wewnątrzkomórkowym i autofagii.",
+      "explanation_incorrect": "Rybosomy syntetyzują białka, mitochondria wytwarzają większość ATP w oddychaniu tlenowym, a peroksysomy uczestniczą m.in. w utlenianiu kwasów tłuszczowych i rozkładzie nadtlenku wodoru.",
       "last_verified_at": "2026-06-12T15:28:44.007Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemia organiczna",
-      "question": "Jak brzmi nazwa systematyczna lub zwyczajowa najprostszego alkinu o wzorze sumarycznym C2H2?",
+      "question": "Jaka jest nazwa zwyczajowa najprostszego alkinu o wzorze sumarycznym C₂H₂?",
       "options": [
         "Etan",
         "Eten",
@@ -1398,7 +1370,7 @@
         "Acetylen"
       ],
       "answer": "Acetylen",
-      "explanation_correct": "Acetylen (systematycznie etyn) to najprostszy węglowodór z wiązaniem potrójnym między atomami węgla.",
+      "explanation_correct": "Acetylen to nazwa zwyczajowa etynu, najprostszego węglowodoru zawierającego wiązanie potrójne między atomami węgla.",
       "explanation_incorrect": "Etan posiada wiązanie pojedyncze, a eten podwójne; metan posiada tylko jeden atom węgla.",
       "last_verified_at": "2026-06-12T15:28:44.007Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1420,7 +1392,7 @@
     },
     {
       "subcategory": "Genetyka populacyjna",
-      "question": "Które zjawisko ewolucyjne opisuje drastyczny spadek liczebności populacji, prowadzący do utraty jej różnorodności genetycznej?",
+      "question": "Jak nazywa się efekt genetyczny, który może wystąpić po drastycznym spadku liczebności populacji?",
       "options": [
         "Dobór naturalny",
         "Efekt wąskiego gardła",
@@ -1428,10 +1400,8 @@
         "Mutacja punktowa"
       ],
       "answer": "Efekt wąskiego gardła",
-      "explanation_correct": "Efekt wąskiego gardła występuje, gdy populacja zostaje niemal wyniszczona, a nowa generacja wywodzi się z nielicznych ocalałych osobników.",
-      "explanation_incorrect": "Dobór naturalny to proces selekcji cech, a specjacja to proces powstawania nowych gatunków.",
-      "last_verified_at": "2026-06-12T15:28:44.008Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Efekt wąskiego gardła występuje, gdy liczebność populacji gwałtownie spada. Nowa populacja wywodzi się z niewielu ocalałych osobników, co może zmniejszyć jej różnorodność genetyczną.",
+      "explanation_incorrect": "Dobór naturalny to proces selekcji cech, a specjacja to proces powstawania nowych gatunków."
     },
     {
       "subcategory": "Geologia strukturalna",
@@ -1458,10 +1428,8 @@
         "Neutrino"
       ],
       "answer": "Tachion",
-      "explanation_correct": "Tachiony to obiekty matematycznie dopuszczalne w teorii względności, pod warunkiem, że nigdy nie zwalniają poniżej prędkości światła.",
-      "explanation_incorrect": "Fotony poruszają się dokładnie z prędkością światła, a bozon Higgsa jest cząstką skalarną nadającą masę.",
-      "last_verified_at": "2026-06-12T15:29:35.666Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tachion to hipotetyczny obiekt, który z definicji poruszałby się szybciej niż światło. Nie zaobserwowano cząstki tego rodzaju; nazwa pojawia się w rozważaniach teoretycznych.",
+      "explanation_incorrect": "Fotony poruszają się w próżni z prędkością światła; bozon Higgsa jest masywną cząstką związaną z polem Higgsa."
     },
     {
       "subcategory": "Ewolucjonizm",
@@ -1474,9 +1442,7 @@
       ],
       "answer": "Organy homologiczne",
       "explanation_correct": "Przykładem homologii jest ręka człowieka i skrzydło nietoperza – mają wspólny plan budowy odziedziczony po przodku.",
-      "explanation_incorrect": "Organy analogiczne pełnią podobne funkcje, ale mają inne pochodzenie ewolucyjne (np. skrzydło owada i ptaka).",
-      "last_verified_at": "2026-06-12T15:28:44.008Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Organy analogiczne pełnią podobne funkcje, ale powstały niezależnie, np. skrzydło owada i ptaka."
     },
     {
       "subcategory": "Termodynamika",

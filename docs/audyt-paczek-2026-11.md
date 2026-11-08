@@ -186,6 +186,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Muzyka Współczesna i Listy Przebojów (PL):** przegląd 100 pytań i korekty 44 rekordów; [raport](audits/2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md).
 
+- **Nauka (PL):** przegląd 100 pytań i korekty 51 rekordów; [raport](audits/2026-11-08-nauka-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

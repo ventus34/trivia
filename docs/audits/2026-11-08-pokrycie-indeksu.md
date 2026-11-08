@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **172** pozycji ma raport deklarujący przegląd całości paczki.
+- **173** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **53** pozycji nie ma dedykowanego raportu merytorycznego.
+- **52** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -155,7 +155,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 132 | `muzyka_wspczesna_i_listy_przebojw_pl` | Muzyka Współczesna i Listy Przebojów | [2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md](2026-11-08-muzyka-wspolczesna-i-listy-przebojow-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 44 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 133 | `mythical_artifacts_in_pop_culture_en` | Mythical Artifacts in Pop Culture | [2026-11-07-mythical-artifacts-in-pop-culture-en.md](2026-11-07-mythical-artifacts-in-pop-culture-en.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-07. Przeczytano wszystkie 100 pytań, wariantów odpowiedzi i wyjaśnień oraz opis paczki. Opis odzwierciedla tematykę; liczba pytań pozostaje bez zmian. Numery oznaczają… |
 | 134 | `napoje_alkohole_i_koneserzy_pl` | Napoje, Alkohole i Koneserzy | — | BRAK dedykowanego raportu merytorycznego. |
-| 135 | `nauka_pl` | Nauka | — | BRAK dedykowanego raportu merytorycznego. |
+| 135 | `nauka_pl` | Nauka | [2026-11-08-nauka-pl.md](2026-11-08-nauka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 51 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 136 | `nauka_stosowana_i_codzienna_technologia_pl` | Nauka Stosowana i Codzienna Technologia | — | BRAK dedykowanego raportu merytorycznego. |
 | 137 | `norse_celtic_mythology_en` | Norse & Celtic Mythology | [2026-11-06-norse-celtic-mythology-en.md](2026-11-06-norse-celtic-mythology-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań i wyjaśnień oraz opis paczki `norse_celtic_mythology_en`. Zmieniono 42 rekordy: 1, 3, 5, 9–11, 14, 17–18, 20, 23, 25–26, 29, 32–33, 38–39, 42, 45, 48, 50–51, 54–56,… |
 | 138 | `od_gumki_recepturki_do_wd_40_pl` | Od Gumki Recepturki do WD-40 | — | BRAK dedykowanego raportu merytorycznego. |
