@@ -2,26 +2,22 @@
   "id": "the_evolution_of_music_en",
   "name": "The Evolution of Music",
   "language": "en",
-  "description": "Questions covering: Ancient Instruments, Medieval Music, Renaissance Music, Baroque Era...",
+  "description": "Questions about instruments, music history, genres, musicians and recording technology.",
   "created_at": "2026-06-12T16:42:49.039Z",
-  "last_verified_at": "2026-06-12T16:21:34.833Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Ancient Instruments",
-      "question": "What primary material was used to construct the oldest known musical flute discovered by archaeologists?",
+      "question": "What material was used for the prehistoric flute found at Hohle Fels cave in Germany in 2008?",
       "options": [
-        "Vulture bone",
+        "Griffon vulture bone",
         "Hollowed wood",
-        "Ivory tusks",
-        "Mammoth ivory"
+        "Mammoth ivory",
+        "Clay"
       ],
-      "answer": "Vulture bone",
-      "explanation_correct": "The earliest flutes, found in the Swabian Jura of Germany, were fashioned from the radius bones of griffon vultures.",
-      "explanation_incorrect": "While wood, ivory, and clay were later used for instruments, they were not the material of the earliest confirmed bone flutes.",
-      "last_verified_at": "2026-06-12T16:21:34.833Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Griffon vulture bone",
+      "explanation_correct": "The Hohle Fels flute was made from a griffon vulture’s wing bone. Other early flutes in the region were made from mammoth ivory.",
+      "explanation_incorrect": "Mammoth ivory was also used for prehistoric flutes, but the specified Hohle Fels bird-bone flute used vulture bone."
     },
     {
       "subcategory": "Medieval Music",
@@ -33,10 +29,8 @@
         "Johannes de Garlandia"
       ],
       "answer": "Guido of Arezzo",
-      "explanation_correct": "Guido of Arezzo developed the hexachord system, which laid the foundation for modern musical notation and solfége.",
-      "explanation_incorrect": "Boethius, Hildegard, and Johannes de Garlandia were prominent musical figures of the era but did not formalize this specific pedagogical system.",
-      "last_verified_at": "2026-06-12T16:21:05.106Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Guido of Arezzo associated syllables with pitches to aid chant teaching and contributed to the development of staff notation. Later solmization systems expanded on this tradition.",
+      "explanation_incorrect": "Boethius, Hildegard, and Johannes de Garlandia were prominent musical figures of the era but did not formalize this specific pedagogical system."
     },
     {
       "subcategory": "Renaissance Music",
@@ -49,9 +43,7 @@
       ],
       "answer": "Madrigal",
       "explanation_correct": "The madrigal was a secular vocal music composition popular throughout the Renaissance period, often polyphonic and setting vernacular poetry.",
-      "explanation_incorrect": "Chant, motets, and masses belong to sacred liturgical music contexts rather than secular vocal forms.",
-      "last_verified_at": "2026-06-12T16:21:05.106Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Masses and many chants are sacred genres; motets are usually sacred but have a more varied history."
     },
     {
       "subcategory": "Baroque Era",
@@ -70,7 +62,7 @@
     },
     {
       "subcategory": "Classical Period",
-      "question": "Which composer is historically recognized as the definitive architect and father of the classical symphony?",
+      "question": "Which composer, often called the “father of the symphony,” wrote the London Symphonies?",
       "options": [
         "Joseph Haydn",
         "Ludwig van Beethoven",
@@ -78,10 +70,8 @@
         "Carl Philipp Emanuel Bach"
       ],
       "answer": "Joseph Haydn",
-      "explanation_correct": "Joseph Haydn established the structural norms for the symphony that defined the Classical era style.",
-      "explanation_incorrect": "Beethoven expanded the form, while others were successors or contemporaries who inherited Haydn's established structural models.",
-      "last_verified_at": "2026-06-12T16:21:05.106Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Joseph Haydn contributed greatly to the Classical symphony, although other composers developed the genre before and alongside him.",
+      "explanation_incorrect": "Beethoven, Schubert and C.P.E. Bach also wrote symphonies, but Haydn wrote the London Symphonies."
     },
     {
       "subcategory": "Romantic Era",
@@ -115,7 +105,7 @@
     },
     {
       "subcategory": "Music Theory",
-      "question": "Which specific vocal range represents the lowest standard classification for female voices?",
+      "question": "Which of these is conventionally the lowest of the three common female classical voice categories?",
       "options": [
         "Contralto",
         "Mezzo-soprano",
@@ -123,10 +113,8 @@
         "Coloratura"
       ],
       "answer": "Contralto",
-      "explanation_correct": "The contralto is the lowest female vocal range, typically occupying a tessitura similar to a male tenor.",
-      "explanation_incorrect": "Mezzo-soprano and soprano comprise higher vocal registers than the contralto.",
-      "last_verified_at": "2026-06-12T16:21:05.106Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Contralto is conventionally below mezzo-soprano and soprano; individual ranges overlap.",
+      "explanation_incorrect": "Mezzo-soprano and soprano are the other voice categories; coloratura describes vocal agility rather than a separate basic range."
     },
     {
       "subcategory": "Instrument Evolution",
@@ -154,9 +142,7 @@
       ],
       "answer": "Leon Theremin",
       "explanation_correct": "Leon Theremin invented the theremin, an electronic instrument controlled by the position of the player's hands relative to two antennas.",
-      "explanation_incorrect": "Moog and Martenot created other iconic electronic synthesizers, but they did not invent the contactless theremin.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Moog created synthesizers and Martenot the ondes Martenot; Theremin invented the instrument named after him."
     },
     {
       "subcategory": "Rock and Roll",
@@ -168,10 +154,8 @@
         "Little Richard"
       ],
       "answer": "Elvis Presley",
-      "explanation_correct": "Elvis Presley became the definitive cultural icon of the mid-20th century, earning the title King of Rock and Roll.",
-      "explanation_incorrect": "Though influential pioneers, Berry, Holly, and Little Richard were not crowned with that specific moniker.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elvis Presley became known as the King of Rock and Roll. Many other musicians, including Black artists, made foundational contributions to the genre.",
+      "explanation_incorrect": "Though influential pioneers, Berry, Holly, and Little Richard were not crowned with that specific moniker."
     },
     {
       "subcategory": "Modernism",
@@ -183,10 +167,8 @@
         "Maurice Ravel"
       ],
       "answer": "Igor Stravinsky",
-      "explanation_correct": "Igor Stravinsky's avant-garde Rite of Spring, with its dissonant rhythms, famously provoked a riot at the Théâtre des Champs-Élysées.",
-      "explanation_incorrect": "Debussy, Schoenberg, and Ravel were early modernists but did not compose this specific riot-inducing ballet score.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stravinsky’s ballet score premiered in Paris in 1913 amid a famously disruptive audience response; descriptions of the disturbance vary.",
+      "explanation_incorrect": "The other composers did not write The Rite of Spring."
     },
     {
       "subcategory": "The Blues",
@@ -213,10 +195,8 @@
         "Nikola Tesla"
       ],
       "answer": "Thomas Edison",
-      "explanation_correct": "Thomas Edison invented the first working phonograph in 1877, allowing for the mechanical recording and playback of sound.",
-      "explanation_incorrect": "Berliner improved recording technology with the gramophone, while Bell and Tesla focused on communications and electricity respectively.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Thomas Edison introduced a practical phonograph capable of recording and playing back sound in 1877. Earlier devices had recorded sound without comparable playback.",
+      "explanation_incorrect": "Berliner developed the disc gramophone; Bell and collaborators also contributed to later recording technology."
     },
     {
       "subcategory": "Baroque Era",
@@ -258,10 +238,8 @@
         "DJ Premier"
       ],
       "answer": "DJ Kool Herc",
-      "explanation_correct": "DJ Kool Herc observed that dancers preferred the percussive 'break' of records, leading him to extend this section using two turntables.",
-      "explanation_incorrect": "Flash and Bambaataa were legendary innovators who adapted and built upon these foundational techniques.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "At Bronx parties, DJ Kool Herc used two copies of records to extend percussion breaks, an important contribution to hip-hop DJing.",
+      "explanation_incorrect": "Flash and Bambaataa were legendary innovators who adapted and built upon these foundational techniques."
     },
     {
       "subcategory": "Motown",
@@ -273,10 +251,8 @@
         "George Martin"
       ],
       "answer": "Berry Gordy",
-      "explanation_correct": "Berry Gordy, Jr. founded Tamla Records, later known as Motown, in 1959, shaping the sound of American popular music.",
-      "explanation_incorrect": "Jones, Spector, and Martin were legendary producers but did not establish the Motown brand.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Berry Gordy founded Tamla Records in 1959; the Motown Record Corporation followed as part of his record business.",
+      "explanation_incorrect": "Jones, Spector and Martin were influential producers but did not found Gordy’s Motown enterprise."
     },
     {
       "subcategory": "Country Music",
@@ -310,7 +286,7 @@
     },
     {
       "subcategory": "Reggae",
-      "question": "Which artist is globally recognized as the primary ambassador for the development and internationalization of Reggae music?",
+      "question": "Which Jamaican artist helped popularize reggae internationally with the Wailers and the album Exodus?",
       "options": [
         "Bob Marley",
         "Peter Tosh",
@@ -318,10 +294,8 @@
         "Desmond Dekker"
       ],
       "answer": "Bob Marley",
-      "explanation_correct": "Bob Marley remains the most iconic figure in popularizing Reggae music globally during the 1970s.",
-      "explanation_incorrect": "While Tosh, Cliff, and Dekker were significant contributors to Reggae, they did not reach the same global cultural status as Marley.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bob Marley brought reggae to an international audience, alongside many other influential Jamaican musicians.",
+      "explanation_incorrect": "Tosh, Cliff and Dekker also helped popularize reggae; Exodus is associated with Bob Marley and the Wailers."
     },
     {
       "subcategory": "Classical Era",
@@ -333,10 +307,8 @@
         "London"
       ],
       "answer": "Vienna",
-      "explanation_correct": "The First Viennese School refers to the group of composers who defined the Classical style in 18th-century Vienna.",
-      "explanation_incorrect": "Paris, Berlin, and London were musical centers, but they did not house the specific grouping known as the First Viennese School.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The term First Viennese School commonly refers to Haydn, Mozart and Beethoven, among composers associated with Vienna.",
+      "explanation_incorrect": "The other cities were also important musical centers, but the term refers to Vienna."
     },
     {
       "subcategory": "Music Printing",
@@ -348,10 +320,8 @@
         "Thomas Tallis"
       ],
       "answer": "Ottaviano Petrucci",
-      "explanation_correct": "Ottaviano Petrucci's 'Harmonice Musices Odhecaton' is recognized as the first significant collection of music printed with movable type.",
-      "explanation_incorrect": "Attaingnant, Byrd, and Tallis were involved in the music industry, but they postdate or did not originate the movable type process for polyphony.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Petrucci published Harmonice Musices Odhecaton in 1501, an early major collection of polyphonic music printed using movable type.",
+      "explanation_incorrect": "Attaingnant was a later music printer; Byrd and Tallis were composers."
     },
     {
       "subcategory": "The Beatles",
@@ -363,10 +333,8 @@
         "Billy Preston"
       ],
       "answer": "George Martin",
-      "explanation_correct": "George Martin was the producer and mentor who shaped the sonic evolution of the band throughout their career.",
-      "explanation_incorrect": "Epstein was their manager, Preston was a musician, and Spector worked with them late in their career, but Martin is standardly defined as the fifth Beatle.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "George Martin produced many Beatles recordings and is one of several people who have been called “the fifth Beatle.”",
+      "explanation_incorrect": "Brian Epstein, Billy Preston and others have also received the informal nickname; Martin was the group’s producer."
     },
     {
       "subcategory": "Music Technology",
@@ -385,7 +353,7 @@
     },
     {
       "subcategory": "Punk Rock",
-      "question": "Located in Lower Manhattan, which venue is famous for being the cradle of American Punk Rock in the 1970s?",
+      "question": "Which New York venue at 315 Bowery hosted the Ramones and became closely associated with 1970s punk?",
       "options": [
         "CBGB",
         "The Fillmore East",
@@ -393,10 +361,8 @@
         "The Bottom Line"
       ],
       "answer": "CBGB",
-      "explanation_correct": "CBGB was the epicenter for early American punk artists to perform and develop their unique sound.",
-      "explanation_incorrect": "These other venues hosted musicians, but none define the specific birth of the punk movement like CBGB.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "CBGB was an influential New York venue for early punk and new wave, including performances by the Ramones.",
+      "explanation_incorrect": "Max’s Kansas City also hosted important punk acts; 315 Bowery identifies CBGB."
     },
     {
       "subcategory": "Disco",
@@ -438,14 +404,12 @@
         "San Francisco"
       ],
       "answer": "Seattle",
-      "explanation_correct": "The Seattle sound, or Grunge, rose to global prominence at the beginning of the 1990s from this city's local scene.",
-      "explanation_incorrect": "While other cities had musical scenes, Seattle remains the definitive home of the Grunge genre.",
-      "last_verified_at": "2026-06-12T16:21:05.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Grunge became strongly associated with Seattle and the wider Pacific Northwest in the late 1980s and early 1990s.",
+      "explanation_incorrect": "Olympia and other nearby cities also contributed to the regional scene; Seattle became its best-known center."
     },
     {
       "subcategory": "Heavy Metal",
-      "question": "Which band is widely cited by music historians for pioneering the foundations of Heavy Metal in the late 1960s?",
+      "question": "Which pioneering heavy-metal band released the 1970 album Paranoid?",
       "options": [
         "Black Sabbath",
         "Led Zeppelin",
@@ -453,10 +417,8 @@
         "Iron Maiden"
       ],
       "answer": "Black Sabbath",
-      "explanation_correct": "Black Sabbath's heavy, blues-influenced riffs and dark themes are credited with creating the template for Heavy Metal.",
-      "explanation_incorrect": "While the others were pivotal to the hard rock genre, Black Sabbath is distinctively cited as the genre's creator.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Black Sabbath released Paranoid, whose heavy riffs and dark themes influenced heavy metal.",
+      "explanation_incorrect": "Led Zeppelin and Deep Purple also helped shape heavy rock and metal, but Paranoid is a Black Sabbath album."
     },
     {
       "subcategory": "Baroque Era",
@@ -483,10 +445,8 @@
         "BET"
       ],
       "answer": "MTV",
-      "explanation_correct": "MTV (Music Television) started its broadcast in 1981, marking the birth of widespread music video consumption.",
-      "explanation_incorrect": "VH1 followed later, and CMT/BET were niche channels launched for specific genres.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "MTV launched in 1981 as a cable channel centered on music videos, helping expand their visibility.",
+      "explanation_incorrect": "VH1, CMT and BET are other cable channels; MTV launched in 1981."
     },
     {
       "subcategory": "Vocal Music",
@@ -498,14 +458,12 @@
         "Cantata"
       ],
       "answer": "A cappella",
-      "explanation_correct": "A cappella is a musical style derived from Italian meaning 'in the manner of the chapel', implying no instrumental support.",
-      "explanation_incorrect": "Monophonic refers to texture, melismatic refers to singing multiple notes per syllable, and a cantata is a vocal composition with accompaniment.",
-      "last_verified_at": "2026-06-12T16:21:34.833Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A cappella commonly describes vocal music performed without instrumental accompaniment.",
+      "explanation_incorrect": "Monophonic describes texture, melismatic describes multiple notes per syllable, and a cantata is a type of vocal composition that may have accompaniment."
     },
     {
       "subcategory": "Techno",
-      "question": "Which American city is universally recognized as the origin point of the Techno genre?",
+      "question": "Which US city is strongly associated with the emergence of techno in the 1980s?",
       "options": [
         "Detroit",
         "Chicago",
@@ -513,10 +471,8 @@
         "Los Angeles"
       ],
       "answer": "Detroit",
-      "explanation_correct": "Techno originated in the 1980s in Detroit, heavily influenced by industrial aesthetic and electronic experimentation.",
-      "explanation_incorrect": "Chicago is the home of House music, not Techno, and the other cities were not the primary origin points.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Detroit was a major birthplace of techno, shaped by local musicians and influences from electronic music elsewhere.",
+      "explanation_incorrect": "Chicago is especially associated with the development of house, though musical scenes and influences overlap."
     },
     {
       "subcategory": "Folk Music",
@@ -559,13 +515,11 @@
       ],
       "answer": "Andrew Lloyd Webber",
       "explanation_correct": "Andrew Lloyd Webber is the composer of these globally successful stage musicals.",
-      "explanation_incorrect": "Sondheim and Schönberg are theatrical composers, but not of these titles; Rice is an lyricist.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sondheim and Schönberg are composers; Tim Rice is a lyricist who collaborated with Lloyd Webber on Evita."
     },
     {
       "subcategory": "Classical Instruments",
-      "question": "Who was the renowned Italian luthier from Cremona whose stringed instruments are considered the pinnacle of craftsmanship?",
+      "question": "Which Cremona instrument maker gave his name to the violins known as Stradivarius?",
       "options": [
         "Antonio Stradivari",
         "Andrea Amati",
@@ -573,10 +527,8 @@
         "Bartolomeo Cristofori"
       ],
       "answer": "Antonio Stradivari",
-      "explanation_correct": "Stradivari is the most famous luthier, and his violins remain the most prized instruments in the world.",
-      "explanation_incorrect": "While Amati and Guarneri were legendary, Stradivari is the singular name definitively linked to the peak of the craft.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Antonio Stradivari made violins and other stringed instruments in Cremona; his surviving instruments are highly valued.",
+      "explanation_incorrect": "Amati and Guarneri were also prominent Cremonese makers; Cristofori is associated with the piano."
     },
     {
       "subcategory": "Jazz Era",
@@ -603,14 +555,12 @@
         "Freddie Mercury"
       ],
       "answer": "Michael Jackson",
-      "explanation_correct": "Michael Jackson assumed the 'King of Pop' title permanently after the monumental success of the 'Thriller' album.",
-      "explanation_incorrect": "While the others were significant musical icons, Michael Jackson is the only artist universally recognized by this specific title.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Michael Jackson became widely known as the King of Pop, particularly during his solo career.",
+      "explanation_incorrect": "Prince, Bowie and Mercury had other distinctive careers; the question asks about the nickname associated with Jackson."
     },
     {
       "subcategory": "Early Notation",
-      "question": "Which system of early musical notation served as the functional precursor to the modern staff?",
+      "question": "What are the early signs used to notate Western plainchant before modern staff notation?",
       "options": [
         "Neumes",
         "Tablature",
@@ -618,10 +568,8 @@
         "Mensural"
       ],
       "answer": "Neumes",
-      "explanation_correct": "Neumes were the foundational symbols used in Western chant notation starting in the 9th century.",
-      "explanation_incorrect": "Tablature, solfege, and mensural notation systems emerged later in the history of music theory.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Neumes were early signs for notating chant; over time they were placed on lines to indicate pitch more precisely.",
+      "explanation_incorrect": "Tablature describes instrumental fingering, solfège uses syllables, and mensural notation developed later for measured rhythm."
     },
     {
       "subcategory": "British Invasion",
@@ -649,13 +597,11 @@
       ],
       "answer": "Bartolomeo Cristofori",
       "explanation_correct": "Cristofori developed the 'gravicembalo col piano e forte' to allow for dynamic expression via a keyboard mechanism.",
-      "explanation_incorrect": "Stradivari and Amati are famous for string instruments, while Silbermann was a pupil who later replicated Cristofori's design.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Stradivari and Amati were string-instrument makers; Silbermann later built pianos influenced by Cristofori’s design."
     },
     {
       "subcategory": "Music Distribution",
-      "question": "What company launched the pioneering peer-to-peer file sharing service that transformed music consumption in 1999?",
+      "question": "Which peer-to-peer music-sharing service launched in 1999 and became associated with MP3 file sharing?",
       "options": [
         "Napster",
         "LimeWire",
@@ -663,10 +609,8 @@
         "Soulseek"
       ],
       "answer": "Napster",
-      "explanation_correct": "Napster revolutionized digital music distribution through its centralized peer-to-peer file sharing network.",
-      "explanation_incorrect": "LimeWire, Kazaa, and Soulseek are alternative file-sharing networks that gained popularity after the success of the initial service.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Napster launched in 1999 with centralized indexing and peer-to-peer file transfers.",
+      "explanation_incorrect": "The other services were different file-sharing networks."
     },
     {
       "subcategory": "Soul Music",
@@ -685,7 +629,7 @@
     },
     {
       "subcategory": "Synthesizers",
-      "question": "Which American sound engineer and inventor is famous for developing the early voltage-controlled synthesizer?",
+      "question": "Which inventor gave his name to the Moog modular synthesizer?",
       "options": [
         "Robert Moog",
         "Don Buchla",
@@ -693,10 +637,8 @@
         "Alan R. Pearlman"
       ],
       "answer": "Robert Moog",
-      "explanation_correct": "Robert Moog popularized the modular synthesizer by incorporating a standard keyboard interface.",
-      "explanation_incorrect": "Buchla, Scott, and Pearlman were pioneers of electronic music hardware, but the specific standard synthesizer bears Moog's name.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Robert Moog developed voltage-controlled modular synthesizers; other innovators, including Don Buchla, worked independently in the same period.",
+      "explanation_incorrect": "Buchla, Scott and Pearlman also made electronic instruments, but the Moog bears Robert Moog’s name."
     },
     {
       "subcategory": "Bebop",
@@ -715,18 +657,16 @@
     },
     {
       "subcategory": "Surrealism in Music",
-      "question": "Who was the primary director behind the 1988 musical film 'Moonwalker'?",
+      "question": "Which singer starred in the 1988 musical film Moonwalker?",
       "options": [
-        "Jerry Kramer",
-        "John Landis",
-        "Martin Scorsese",
-        "Spike Lee"
+        "Michael Jackson",
+        "Prince",
+        "David Bowie",
+        "Freddie Mercury"
       ],
-      "answer": "Jerry Kramer",
-      "explanation_correct": "Jerry Kramer directed the main segments of the compilation film 'Moonwalker'.",
-      "explanation_incorrect": "Landis, Scorsese, and Lee have directed other notable music films or videos, but not this specific feature.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Michael Jackson",
+      "explanation_correct": "Michael Jackson starred in Moonwalker, a film made of several segments; Jerry Kramer and Colin Chilvers were among its directors.",
+      "explanation_incorrect": "The other performers did not star in Moonwalker."
     },
     {
       "subcategory": "Progresive Rock",
@@ -768,10 +708,8 @@
         "Orlando di Lasso"
       ],
       "answer": "Giovanni Palestrina",
-      "explanation_correct": "Palestrina composed the 'Missa Papae Marcelli' to conform to Counter-Reformation requirements.",
-      "explanation_incorrect": "Des Prez, Tallis, and Lasso were major polyphonic composers, but did not pen this specific mass.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Palestrina composed Missa Papae Marcelli. The popular story that it single-handedly saved polyphony from a church ban is disputed.",
+      "explanation_incorrect": "Des Prez, Tallis, and Lasso were major polyphonic composers, but did not pen this specific mass."
     },
     {
       "subcategory": "Jazz Fusion",
@@ -784,9 +722,7 @@
       ],
       "answer": "Miles Davis",
       "explanation_correct": "Miles Davis led the experimental sessions that combined jazz with electrified rock rhythms on this album.",
-      "explanation_incorrect": "Hancock, Corea, and Shorter were prominent contributors to the album but were performing as sidemen under Davis.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Corea and Shorter played on the album; Hancock was another important collaborator of Davis but is not the bandleader identified here."
     },
     {
       "subcategory": "Glam Rock",
@@ -805,7 +741,7 @@
     },
     {
       "subcategory": "Music Software",
-      "question": "Which digital audio workstation (DAW) is widely considered the industry standard in professional recording studios?",
+      "question": "Which digital audio workstation is developed by Avid and widely used in professional recording?",
       "options": [
         "Pro Tools",
         "Logic Pro",
@@ -813,10 +749,8 @@
         "FL Studio"
       ],
       "answer": "Pro Tools",
-      "explanation_correct": "Pro Tools has been the standard software for professional studio tracking and mixing for decades.",
-      "explanation_incorrect": "Logic, Ableton, and FL Studio are popular music production programs but are not the standard in professional tracking studios.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pro Tools is an Avid digital audio workstation used in many studios; other DAWs are also used professionally.",
+      "explanation_incorrect": "Logic Pro, Ableton Live and FL Studio are other professional music-production applications."
     },
     {
       "subcategory": "Funk",
@@ -835,7 +769,7 @@
     },
     {
       "subcategory": "Choral Music",
-      "question": "What is the technical term for the highest singing voice range in an adult male?",
+      "question": "What is the term for an adult male singer who typically performs in the alto range using falsetto or head voice?",
       "options": [
         "Countertenor",
         "Tenor",
@@ -843,10 +777,8 @@
         "Bass"
       ],
       "answer": "Countertenor",
-      "explanation_correct": "A countertenor uses falsetto or a high chest-voice to achieve a range that matches female vocal heights.",
-      "explanation_incorrect": "Tenor, baritone, and bass represent the lower male vocal ranges in traditional classification.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A countertenor typically sings in a high range using falsetto or head voice; individual ranges and techniques vary.",
+      "explanation_incorrect": "Tenor, baritone and bass are other voice categories, generally placed lower than a countertenor."
     },
     {
       "subcategory": "Psychedelic Rock",
@@ -895,7 +827,7 @@
     },
     {
       "subcategory": "Music Archeology",
-      "question": "What is the name of the oldest known complete musical composition, inscribed on a tombstone column in Greece?",
+      "question": "Which ancient Greek song survives with complete musical notation on a stone found near modern Aydın, Turkey?",
       "options": [
         "Seikilos Epitaph",
         "Delphic Hymn",
@@ -903,10 +835,8 @@
         "Oxyrhynchus Hymn"
       ],
       "answer": "Seikilos Epitaph",
-      "explanation_correct": "The Seikilos Epitaph is the earliest surviving complete musical notation inscribed circa the 1st century AD.",
-      "explanation_incorrect": "The other hymns are significantly later or less complete than the Seikilos discovery.",
-      "last_verified_at": "2026-06-12T16:21:05.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Seikilos Epitaph survives as a complete short song inscribed on a funerary monument; scholars date it to the Roman period.",
+      "explanation_incorrect": "The Delphic hymns are earlier but survive incompletely; the other titles do not identify this inscription."
     },
     {
       "subcategory": "Baroque Music",
@@ -927,16 +857,14 @@
       "subcategory": "Hip Hop",
       "question": "Which influential hip-hop act became the first hip-hop group inducted into the Rock and Roll Hall of Fame?",
       "options": [
-        "Grandmaster Flash",
+        "Grandmaster Flash and the Furious Five",
         "Run-D.M.C.",
         "Public Enemy",
         "N.W.A."
       ],
-      "answer": "Grandmaster Flash",
-      "explanation_correct": "Grandmaster Flash and the Furious Five were honored as the inaugural hip-hop group inducted into the Hall of Fame in 2007.",
-      "explanation_incorrect": "Although Run-D.M.C., Public Enemy, and N.W.A. were all influential, they were inducted in subsequent years.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Grandmaster Flash and the Furious Five",
+      "explanation_correct": "Grandmaster Flash and the Furious Five became the first hip-hop act inducted into the Rock & Roll Hall of Fame, in 2007.",
+      "explanation_incorrect": "Although Run-D.M.C., Public Enemy, and N.W.A. were all influential, they were inducted in subsequent years."
     },
     {
       "subcategory": "New Wave",
@@ -955,18 +883,16 @@
     },
     {
       "subcategory": "Electronic Music",
-      "question": "What is the name of the standard digital communication protocol that allows musical instruments to exchange information?",
+      "question": "What does MIDI stand for in electronic music?",
       "options": [
-        "MIDI",
-        "USB",
-        "OSC",
-        "AES/EBU"
+        "Musical Instrument Digital Interface",
+        "Musical Interchange Digital Input",
+        "Multi-Instrument Direct Interface",
+        "Music Information Disc Index"
       ],
-      "answer": "MIDI",
-      "explanation_correct": "MIDI (Musical Instrument Digital Interface) is the universal protocol for connecting electronic instruments and computers.",
-      "explanation_incorrect": "USB, OSC, and AES/EBU are other standards or connection types, but they are not the primary communication protocol defined for musical instruments.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Musical Instrument Digital Interface",
+      "explanation_correct": "MIDI is a standard for exchanging musical performance and control data between devices and software.",
+      "explanation_incorrect": "The other expansions do not spell out MIDI’s established name."
     },
     {
       "subcategory": "Ragtime",
@@ -1009,13 +935,11 @@
       ],
       "answer": "Richard Wagner",
       "explanation_correct": "Richard Wagner composed the 'Der Ring des Nibelungen', an operatic epic consisting of four separate works.",
-      "explanation_incorrect": "Verdi, Puccini, and Strauss composed other famous operas, but none designed a narrative cycle comparable to Wagner's Ring.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Verdi, Puccini and Strauss composed other operas; Wagner composed the four works of the Ring cycle."
     },
     {
       "subcategory": "Cool Jazz",
-      "question": "Which jazz pianist is best remembered for his work on the quintet's recording of 'Take Five'?",
+      "question": "Which jazz pianist led the quartet that recorded Take Five in 1959?",
       "options": [
         "Dave Brubeck",
         "Bill Evans",
@@ -1023,10 +947,8 @@
         "Horace Silver"
       ],
       "answer": "Dave Brubeck",
-      "explanation_correct": "Dave Brubeck's quartet recorded 'Take Five' in 1959, becoming one of the most famous jazz tracks in history.",
-      "explanation_incorrect": "These other jazz pianists were pioneers in their own right, but they were not the leaders of the group that recorded this signature piece.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dave Brubeck led the quartet; its saxophonist Paul Desmond composed Take Five.",
+      "explanation_incorrect": "Evans, Monk and Silver were jazz pianists, but they did not lead this recording by the Dave Brubeck Quartet."
     },
     {
       "subcategory": "Music Awards",
@@ -1045,18 +967,16 @@
     },
     {
       "subcategory": "Medieval Music",
-      "question": "What common term refers to a style of monophonic, unaccompanied sacred song used in Western liturgical rites?",
+      "question": "What is the name of the Western plainchant tradition associated with the Roman Catholic liturgy?",
       "options": [
-        "Gregorian Chant",
-        "Plainchant",
+        "Gregorian chant",
         "Organum",
-        "Motet"
+        "Motet",
+        "Symphony"
       ],
-      "answer": "Gregorian Chant",
-      "explanation_correct": "Gregorian Chant represents the rhythmic, monophonic sacred song tradition codified during the Medieval period.",
-      "explanation_incorrect": "While related to early vocal music terminology, these other terms represent either distinct categories or specific types of polyphonic composition.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Gregorian chant",
+      "explanation_correct": "Gregorian chant is a tradition of unaccompanied monophonic liturgical song and is a form of plainchant.",
+      "explanation_incorrect": "Organum and motet are distinct forms with varied histories; a symphony is an instrumental work."
     },
     {
       "subcategory": "House Music",
@@ -1098,10 +1018,8 @@
         "Robert Schumann"
       ],
       "answer": "Frédéric Chopin",
-      "explanation_correct": "Frédéric Chopin composed 21 Nocturnes that remain central to the standard piano repertoire.",
-      "explanation_incorrect": "Liszt, Brahms, and Schumann were piano masters, but formal sets of nocturnes are primarily associated with Chopin's style.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chopin’s nocturnes are central to the piano repertoire; published counts vary depending on the inclusion of posthumous works.",
+      "explanation_incorrect": "Liszt, Brahms, and Schumann were piano masters, but formal sets of nocturnes are primarily associated with Chopin's style."
     },
     {
       "subcategory": "Pop Music",
@@ -1128,14 +1046,12 @@
         "John Deacon"
       ],
       "answer": "Freddie Mercury",
-      "explanation_correct": "Freddie Mercury served as the lead vocalist and primary songwriter for the rock band Queen.",
-      "explanation_incorrect": "The others mentioned were instrumental members of the same band, but they did not serve as lead vocalists.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Freddie Mercury was Queen’s principal lead singer and one of its songwriters. Other members also sang lead on some tracks and wrote songs.",
+      "explanation_incorrect": "May, Taylor and Deacon were Queen members; Mercury was the group’s principal lead vocalist."
     },
     {
       "subcategory": "Classical Period",
-      "question": "Which composer famously dedicated his third symphony, 'Eroica', to the hero of the people?",
+      "question": "Which composer wrote Symphony No. 3, commonly known as Eroica?",
       "options": [
         "Ludwig van Beethoven",
         "Wolfgang Amadeus Mozart",
@@ -1143,10 +1059,8 @@
         "Franz Schubert"
       ],
       "answer": "Ludwig van Beethoven",
-      "explanation_correct": "Ludwig van Beethoven's Symphony No. 3, known as 'Eroica', marked a shift in the transition from Classical to Romantic music.",
-      "explanation_incorrect": "Mozart, Haydn, and Schubert did not compose a symphony titled 'Eroica'.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Beethoven initially associated the symphony with Napoleon, but revised the dedication; it became known as Eroica.",
+      "explanation_incorrect": "The other composers did not write Beethoven’s Symphony No. 3."
     },
     {
       "subcategory": "Vocal Technique",
@@ -1159,9 +1073,7 @@
       ],
       "answer": "Vibrato",
       "explanation_correct": "Vibrato creates a warm, expressive tone through the rapid oscillation of pitch in a sustained sound.",
-      "explanation_incorrect": "Tremolo involves fluctuations in volume, while glissando and portamento refer to sliding between notes.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tremolo can refer to rapid repetition or changes in amplitude; glissando and portamento involve transitions between pitches."
     },
     {
       "subcategory": "Orchestra",
@@ -1219,9 +1131,7 @@
       ],
       "answer": "Vinyl record",
       "explanation_correct": "Vinyl records store sound via a physical groove that vibrates a stylus.",
-      "explanation_incorrect": "Compact discs use lasers, magnetic tape uses iron oxide, and wax cylinders were an earlier, cylindrical form of storage.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Compact discs are optically read, magnetic tape uses a magnetic coating, and wax cylinders have grooves on a cylinder rather than a disc."
     },
     {
       "subcategory": "Synth-pop",
@@ -1278,10 +1188,8 @@
         "Edgard Varèse"
       ],
       "answer": "John Cage",
-      "explanation_correct": "John Cage composed this work to challenge musical definitions by requiring total silence from instruments.",
-      "explanation_incorrect": "These other composers were experimentalists but did not compose this specific piece of performance art.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "John Cage’s 4′33″ asks performers not to play their instruments during its movements, drawing attention to ambient sound.",
+      "explanation_incorrect": "The other composers did not create this specific work."
     },
     {
       "subcategory": "Indie Rock",
@@ -1309,9 +1217,7 @@
       ],
       "answer": "Rests",
       "explanation_correct": "Rests dictate the length of silence equivalent to a specific note duration.",
-      "explanation_incorrect": "Clefs denote pitch, while ties and slurs represent articulation and connection between notes.",
-      "last_verified_at": "2026-06-12T16:21:05.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Clefs establish pitch reference, ties connect notes, and slurs indicate phrasing or articulation."
     },
     {
       "subcategory": "Salsa Music",
@@ -1360,18 +1266,16 @@
     },
     {
       "subcategory": "Music Festivals",
-      "question": "In 1969, which farm in New York became the namesake for a legendary three-day music festival?",
+      "question": "Whose farm in Bethel, New York, hosted the 1969 Woodstock festival?",
       "options": [
-        "Woodstock",
-        "Altamont",
-        "Monterey",
-        "Newport"
+        "Max Yasgur",
+        "Bill Graham",
+        "Berry Gordy",
+        "George Martin"
       ],
-      "answer": "Woodstock",
-      "explanation_correct": "The Woodstock Music & Art Fair defined the counterculture era of 1969.",
-      "explanation_incorrect": "Altamont, Monterey, and Newport were other prominent festivals but not the site of the legendary event renamed after the town.",
-      "last_verified_at": "2026-06-12T16:21:05.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Max Yasgur",
+      "explanation_correct": "Woodstock took place on Max Yasgur’s dairy farm in Bethel, not in the town of Woodstock.",
+      "explanation_incorrect": "The other people were involved in music or entertainment but did not own the festival site."
     },
     {
       "subcategory": "Musical Instruments",
@@ -1383,10 +1287,8 @@
         "Euphonium"
       ],
       "answer": "Tuba",
-      "explanation_correct": "The tuba is the largest and lowest-pitch brass instrument in the standard orchestra.",
-      "explanation_incorrect": "Trombones and horns are higher in pitch, and the euphonium is a smaller, higher-register member of the tuba family.",
-      "last_verified_at": "2026-06-12T16:21:05.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The tuba generally plays the lowest brass parts in the standard orchestra; size and range vary between instruments.",
+      "explanation_incorrect": "Trombones and horns are higher in pitch, and the euphonium is a smaller, higher-register member of the tuba family."
     },
     {
       "subcategory": "Modern Pop",
@@ -1458,14 +1360,12 @@
         "Sonata"
       ],
       "answer": "Minuet",
-      "explanation_correct": "The minuet is the standard triple-meter dance movement found in the third movement of the traditional four-movement symphony structure.",
-      "explanation_incorrect": "Rondo and sonata are formal structures rather than dance types, and overtures are introductory pieces.",
-      "last_verified_at": "2026-06-12T16:21:34.833Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "A minuet and trio often forms a triple-meter movement in Classical symphonies; some works use a scherzo or another form instead.",
+      "explanation_incorrect": "Rondo and sonata are formal structures rather than dance types, and overtures are introductory pieces."
     },
     {
       "subcategory": "Punk Rock",
-      "question": "Which group is frequently cited as a pioneering band of the London punk rock explosion of the 1970s?",
+      "question": "Which London punk band released the 1976 single Anarchy in the U.K.?",
       "options": [
         "The Sex Pistols",
         "The Clash",
@@ -1473,14 +1373,12 @@
         "Buzzcocks"
       ],
       "answer": "The Sex Pistols",
-      "explanation_correct": "The Sex Pistols are considered the quintessential London punk band that catalyzed the 1970s scene.",
-      "explanation_incorrect": "While the others were significant punk bands, the Sex Pistols are most synonymous with the specific London movement's initial spark.",
-      "last_verified_at": "2026-06-12T16:21:05.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The Sex Pistols released Anarchy in the U.K. in 1976, an important record in British punk.",
+      "explanation_incorrect": "The Clash and The Damned were also important London punk bands; this single was by the Sex Pistols."
     },
     {
       "subcategory": "Early Classical",
-      "question": "Which visionary composer wrote 'Orfeo', one of the earliest examples of a successful opera?",
+      "question": "Which composer wrote the 1607 opera L’Orfeo?",
       "options": [
         "Claudio Monteverdi",
         "Jacopo Peri",
@@ -1488,14 +1386,12 @@
         "Jean-Baptiste Lully"
       ],
       "answer": "Claudio Monteverdi",
-      "explanation_correct": "Monteverdi's 'L'Orfeo' is regarded as the first great opera in the history of Western music.",
-      "explanation_incorrect": "Peri wrote earlier attempts, but Monteverdi is credited with the first mature and enduring operatic masterpiece.",
-      "last_verified_at": "2026-06-12T16:21:05.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Claudio Monteverdi composed L’Orfeo, an influential early opera first performed in 1607.",
+      "explanation_incorrect": "Jacopo Peri wrote earlier operas, including Euridice; the specified 1607 L’Orfeo is by Monteverdi."
     },
     {
       "subcategory": "Music Streaming",
-      "question": "Which Swedish company currently dominates the market as the leading global digital music streaming service?",
+      "question": "Which Swedish music-streaming service launched in 2008 after being founded by Daniel Ek and Martin Lorentzon?",
       "options": [
         "Spotify",
         "Tidal",
@@ -1503,10 +1399,8 @@
         "Deezer"
       ],
       "answer": "Spotify",
-      "explanation_correct": "Spotify is a Swedish media services provider that is the largest music streaming subscription service in the world.",
-      "explanation_incorrect": "Tidal, Pandora, and Deezer offer streaming services but do not hold the same global market share as the Swedish leader.",
-      "last_verified_at": "2026-06-12T16:21:05.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Spotify was founded in 2006 and launched its streaming service in 2008.",
+      "explanation_incorrect": "Tidal, Pandora and Deezer are other services; the specified Swedish service is Spotify."
     }
   ]
 }

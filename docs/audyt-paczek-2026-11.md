@@ -236,6 +236,11 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Sporty Świata (PL):** przegląd 100 pytań i korekty 69 rekordów; [raport](audits/2026-11-08-sporty-wiata-pl.md).
 
+- **The Atlas of Flavors (EN):** przegląd 100 pytań, 67 korekt; [raport](audits/2026-11-08-the-atlas-of-flavors-en.md).
+- **The Evolution of Game Engines (EN):** przegląd 99 pytań, 47 korekt; [raport](audits/2026-11-08-the-evolution-of-game-engines-en.md).
+- **The Evolution of Music (EN):** przegląd 100 pytań, 52 korekty; [raport](audits/2026-11-08-the-evolution-of-music-en.md).
+- **Turning Points in History (EN):** przegląd 100 pytań, 56 korekt; [raport](audits/2026-11-08-turning-points-in-history-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
