@@ -137,6 +137,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i odróżnia deklarowany pełny odczyt od zakresów niepełnych oraz braku raportu: [pokrycie indeksu](audits/2026-11-08-pokrycie-indeksu.md). Jest migawką raportów, nie niezależnym potwierdzeniem każdego pytania.
 
+- **Traditional Cuisine (EN):** przegląd 100 pytań, korekty 70 pozycji i niezależna kontrola wybranych potraw; [raport](audits/2026-11-08-traditional-cuisine-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

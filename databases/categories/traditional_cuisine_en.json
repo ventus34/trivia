@@ -4,8 +4,6 @@
   "language": "en",
   "description": "Questions covering: Italian Cuisine, Japanese Cuisine, Mexican Cuisine, French Cuisine...",
   "created_at": "2026-06-12T14:50:08.881Z",
-  "last_verified_at": "2026-06-12T14:48:54.144Z",
-  "verifying_model": "google/gemini-3.1-flash-lite",
   "question_count": 100,
   "questions": [
     {
@@ -33,10 +31,8 @@
         "tempeh"
       ],
       "answer": "miso",
-      "explanation_correct": "Miso is produced by fermenting soybeans with salt and koji (the fungus Aspergillus oryzae).",
-      "explanation_incorrect": "Natto is fermented whole beans, soy sauce is a liquid, and tempeh is a firm cake originating from Indonesia.",
-      "last_verified_at": "2026-06-12T14:48:00.909Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Miso is a fermented paste commonly made from soybeans, salt and kōji; recipes can also contain rice or barley.",
+      "explanation_incorrect": "Natto is fermented whole beans, soy sauce is a liquid, and tempeh is a firm cake originating from Indonesia."
     },
     {
       "subcategory": "Mexican Cuisine",
@@ -48,10 +44,8 @@
         "pico de gallo"
       ],
       "answer": "nogada",
-      "explanation_correct": "Nogada is derived from the Spanish word 'nogal' (walnut tree) and is made with walnuts and goat cheese.",
-      "explanation_incorrect": "Mole is chocolate-based, salsa verde is made with tomatillos, and pico de gallo is a fresh chunky salsa.",
-      "last_verified_at": "2026-06-12T14:48:00.909Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Nogada is a walnut-based sauce associated with chiles en nogada. Recipes vary and may include dairy.",
+      "explanation_incorrect": "Mole is a broad family of sauces, some containing chocolate; salsa verde and pico de gallo are other preparations."
     },
     {
       "subcategory": "French Cuisine",
@@ -63,10 +57,8 @@
         "choux"
       ],
       "answer": "shortcrust",
-      "explanation_correct": "Quiche Lorraine is typically baked in a shortcrust pastry shell. This sturdy crust supports the egg-based filling.",
-      "explanation_incorrect": "The other options are types of pastry, but they are not the classic shell used for quiche Lorraine.",
-      "last_verified_at": "2026-06-12T14:48:00.910Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Quiche Lorraine is commonly made in a shortcrust pastry shell with an egg-based filling; recipes vary.",
+      "explanation_incorrect": "The other options are types of pastry, but they are not the classic shell used for quiche Lorraine."
     },
     {
       "subcategory": "Indian Cuisine",
@@ -78,10 +70,8 @@
         "kadai"
       ],
       "answer": "tandoor",
-      "explanation_correct": "Temperatures in a tandoor can reach up to 480 degrees Celsius, allowing for rapid high-heat cooking.",
-      "explanation_incorrect": "A tagine is a North African conical pot, a wok is Chinese, and a kadai is an Indian cooking pot similar to a wok.",
-      "last_verified_at": "2026-06-12T14:48:00.910Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A tandoor is a clay or masonry oven used for breads and other foods; temperatures vary with the oven and firing.",
+      "explanation_incorrect": "A tagine is a North African cooking vessel, a wok a pan, and a kadai a deep cooking vessel used in South Asia."
     },
     {
       "subcategory": "Middle Eastern Cuisine",
@@ -115,33 +105,29 @@
     },
     {
       "subcategory": "Greek Cuisine",
-      "question": "What layered eggplant casserole is topped with béchamel?",
+      "question": "Which Greek-style casserole is commonly layered with eggplant and topped with béchamel?",
       "options": [
         "moussaka",
-        "lasagna",
-        "parmigiana",
-        "ratatouille"
+        "sushi",
+        "borscht",
+        "baklava"
       ],
       "answer": "moussaka",
-      "explanation_correct": "Moussaka is a layered dish commonly made with eggplant and topped with béchamel sauce. It is one of Greece’s most famous dishes.",
-      "explanation_incorrect": "The other options are layered or vegetable dishes, but they are not the Greek casserole topped with béchamel.",
-      "last_verified_at": "2026-06-12T14:48:00.910Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Greek-style moussaka often layers eggplant, meat or other fillings, and béchamel. Other regional moussaka recipes differ.",
+      "explanation_incorrect": "Sushi, borscht and baklava are different dishes; some lasagna recipes also use eggplant and béchamel."
     },
     {
       "subcategory": "Korean Cuisine",
-      "question": "What fermented cabbage side dish is common in Korean cuisine?",
+      "question": "What is the Korean name for the broad family of seasoned fermented vegetable dishes that includes napa cabbage preparations?",
       "options": [
         "kimchi",
-        "pickled radish",
+        "sauerkraut",
         "tsukemono",
-        "sauerkraut"
+        "miso"
       ],
       "answer": "kimchi",
-      "explanation_correct": "Kimchi is a staple Korean side dish made from fermented vegetables, especially cabbage. It is deeply associated with Korean meals.",
-      "explanation_incorrect": "The other options are pickled or fermented vegetables, but they are not the Korean cabbage side dish.",
-      "last_verified_at": "2026-06-12T14:48:00.911Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Kimchi is a family of Korean vegetable preparations, many fermented; napa cabbage kimchi is one well-known example.",
+      "explanation_incorrect": "Sauerkraut, tsukemono and miso are other preparations or categories."
     },
     {
       "subcategory": "Moroccan Cuisine",
@@ -150,17 +136,15 @@
         "tagine",
         "couscoussier",
         "kadai",
-        "tajine pot"
+        "wok"
       ],
       "answer": "tagine",
-      "explanation_correct": "A tagine is both a Moroccan stew and the conical earthenware vessel used to cook it. The shape helps trap steam during slow cooking.",
-      "explanation_incorrect": "The other options are related cooking terms or near variants, but they are not the standard vessel name used here.",
-      "last_verified_at": "2026-06-12T14:48:00.911Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tagine and tajine are alternate spellings for a North African cooking vessel and a dish cooked in it.",
+      "explanation_incorrect": "A couscoussier is a steamer, a kadai is a deep pan, and a wok is another type of pan."
     },
     {
       "subcategory": "Thai Cuisine",
-      "question": "Which Thai soup is known for balancing lemongrass, lime, and galangal?",
+      "question": "Which Thai hot-and-sour soup is commonly flavored with lemongrass, lime and galangal?",
       "options": [
         "tom yum",
         "pad thai",
@@ -169,9 +153,7 @@
       ],
       "answer": "tom yum",
       "explanation_correct": "Tom yum is a Thai soup famous for its hot, sour profile built on lemongrass, lime, and galangal. It is one of Thailand’s best-known soups.",
-      "explanation_incorrect": "The other options are Thai dishes or foods from different categories, not this soup. They do not match the ingredient profile described.",
-      "last_verified_at": "2026-06-12T14:48:00.911Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Pad thai, green curry and satay are different Thai dishes; other Thai soups can use similar aromatics."
     },
     {
       "subcategory": "Ethiopian Cuisine",
@@ -183,14 +165,12 @@
         "paratha"
       ],
       "answer": "injera",
-      "explanation_correct": "Injera is the spongy sourdough flatbread central to Ethiopian meals, especially with wats. It is traditionally used as both bread and utensil.",
-      "explanation_incorrect": "The other options are flatbreads from other cuisines and are not the Ethiopian sourdough staple. They are not typically served with wats.",
-      "last_verified_at": "2026-06-12T14:48:00.911Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Injera is a fermented flatbread used with many Ethiopian and Eritrean dishes. Teff is traditional, though flour mixtures vary.",
+      "explanation_incorrect": "The other options are flatbreads from other cuisines and are not the Ethiopian sourdough staple. They are not typically served with wats."
     },
     {
       "subcategory": "Chinese Cuisine",
-      "question": "Which Chinese specialty from Sichuan is tea-smoked?",
+      "question": "Which poultry is traditionally used in the Sichuan tea-smoked specialty known as zhangcha ya?",
       "options": [
         "duck",
         "pork belly",
@@ -198,10 +178,8 @@
         "chicken"
       ],
       "answer": "duck",
-      "explanation_correct": "Tea-smoked duck is a well-known Sichuan specialty that uses smoke from tea and other aromatics. The dish is especially associated with duck.",
-      "explanation_incorrect": "The other options are meats or tofu that could be prepared in many ways, but they are not the classic tea-smoked Sichuan specialty. They do not match the named dish.",
-      "last_verified_at": "2026-06-12T14:48:00.912Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tea-smoked duck is a Sichuan specialty using duck and aromatic smoke.",
+      "explanation_incorrect": "Pork, tofu and chicken can be smoked too, but the named dish uses duck."
     },
     {
       "subcategory": "Turkish Cuisine",
@@ -220,18 +198,16 @@
     },
     {
       "subcategory": "German Cuisine",
-      "question": "Which German accompaniment is made from fermented cabbage?",
+      "question": "What is the German name for a fermented shredded cabbage accompaniment?",
       "options": [
         "sauerkraut",
-        "red cabbage",
         "potato salad",
-        "mustard"
+        "mustard",
+        "bread dumpling"
       ],
       "answer": "sauerkraut",
       "explanation_correct": "Sauerkraut is fermented shredded cabbage and a classic German accompaniment. Its tangy flavor comes from lactic acid fermentation.",
-      "explanation_incorrect": "The other options are common German side dishes or condiments, but they are not fermented cabbage. They do not match the description.",
-      "last_verified_at": "2026-06-12T14:48:00.912Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Potato salad, mustard and bread dumplings are other foods; red cabbage can also be fermented."
     },
     {
       "subcategory": "Japanese Noodles",
@@ -239,14 +215,12 @@
       "options": [
         "shoyu",
         "shio",
-        "tonkotsu",
+        "udon",
         "miso"
       ],
       "answer": "shoyu",
-      "explanation_correct": "Shoyu ramen is defined by its soy sauce-based seasoning, which colors the broth brown.",
-      "explanation_incorrect": "Shio is salt-based, Miso is paste-based, and Tonkotsu refers to a pork-bone broth, not a seasoning style.",
-      "last_verified_at": "2026-06-12T14:48:54.142Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Shoyu ramen uses a soy-sauce-based seasoning. Broth color and other ingredients depend on the recipe.",
+      "explanation_incorrect": "Shio is salt-based, miso uses fermented soybean paste, and udon is a type of noodle."
     },
     {
       "subcategory": "Italian Pasta",
@@ -273,10 +247,8 @@
         "fines herbes"
       ],
       "answer": "herbes de Provence",
-      "explanation_correct": "This mixture is named for the region in southeastern France where these plants grow wild.",
-      "explanation_incorrect": "Za'atar is Middle Eastern, garam masala is Indian, and fines herbes consists of fresh chives, chervil, parsley, and tarragon.",
-      "last_verified_at": "2026-06-12T14:48:00.912Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Herbes de Provence is a variable blend of dried herbs associated with southeastern France. Ingredients and use of lavender differ.",
+      "explanation_incorrect": "Za’atar and garam masala are other regional blends; fines herbes generally refers to a different herb mixture."
     },
     {
       "subcategory": "Middle Eastern Street Food",
@@ -288,55 +260,47 @@
         "sambousek"
       ],
       "answer": "falafel",
-      "explanation_correct": "Falafel is a fried chickpea or fava bean fritter often served in pita with vegetables and sauce. It is a classic Middle Eastern street food.",
-      "explanation_incorrect": "The other options are Middle Eastern foods, but they are not chickpea fritters. They differ in main ingredients and preparation.",
-      "last_verified_at": "2026-06-12T14:48:00.913Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Falafel consists of fried patties or balls made with chickpeas, fava beans, or a mixture, depending on the regional recipe.",
+      "explanation_incorrect": "The other options are Middle Eastern foods, but they are not chickpea fritters. They differ in main ingredients and preparation."
     },
     {
       "subcategory": "Mexican Sauces",
       "question": "Which Mexican sauce variety is linked to Oaxaca and dark chocolate notes?",
       "options": [
         "mole negro",
-        "salsa verde",
-        "pico de gallo",
-        "enchilada sauce"
+        "plain yogurt",
+        "cucumber salad",
+        "rice pudding"
       ],
       "answer": "mole negro",
-      "explanation_correct": "Mole negro is an Oaxacan mole known for its deep color and complex flavor, often including dark chocolate notes. It is one of the most famous mole varieties.",
-      "explanation_incorrect": "The other options are Mexican sauces or condiments, but they are not the dark Oaxacan mole described. They lack the same regional and flavor profile.",
-      "last_verified_at": "2026-06-12T14:48:00.913Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Mole negro is an Oaxacan sauce with a dark color and a complex blend of chilies and other ingredients; recipes can include chocolate.",
+      "explanation_incorrect": "Plain yogurt, cucumber salad and rice pudding are not the Oaxacan dark mole described."
     },
     {
       "subcategory": "Indian Flatbreads",
-      "question": "Which Indian flatbread is a layered flaky bread cooked on a griddle?",
+      "question": "Which South Asian flatbread is commonly cooked on a griddle and may have flaky layers?",
       "options": [
         "paratha",
-        "naan",
-        "roti",
-        "kulcha"
+        "croissant",
+        "pretzel",
+        "tortilla chip"
       ],
       "answer": "paratha",
       "explanation_correct": "Paratha is a layered flatbread that is typically cooked on a griddle and can be flaky. It is a common staple in Indian cuisine.",
-      "explanation_incorrect": "The other options are also breads, but they are different types of Indian flatbread with distinct textures or preparation methods. They do not specifically match the layered flaky griddle-cooked bread.",
-      "last_verified_at": "2026-06-12T14:48:00.913Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Croissants, pretzels and tortilla chips are different baked or fried foods."
     },
     {
       "subcategory": "Spanish Charcuterie",
       "question": "Which Spanish cured sausage is seasoned with paprika?",
       "options": [
         "chorizo",
-        "salami",
-        "sobrassada",
-        "morcilla"
+        "gazpacho",
+        "jamón serrano",
+        "manchego"
       ],
       "answer": "chorizo",
-      "explanation_correct": "Chorizo is a Spanish cured sausage known for its paprika seasoning. It is a hallmark of Spanish charcuterie.",
-      "explanation_incorrect": "The other options are cured meat products, but they are not the paprika-seasoned Spanish sausage described here. They differ in ingredients, texture, or regional tradition.",
-      "last_verified_at": "2026-06-12T14:48:00.914Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Spanish chorizo is a pork sausage commonly seasoned with paprika; recipes and curing vary.",
+      "explanation_incorrect": "Gazpacho is a cold soup, jamón serrano is cured ham, and manchego is cheese. Sobrasada is another paprika-seasoned Spanish sausage."
     },
     {
       "subcategory": "Chinese Dim Sum",
@@ -393,10 +357,8 @@
         "strudel"
       ],
       "answer": "knödel",
-      "explanation_correct": "Knödel are dumplings found in German and broader Central European cuisine, often made from bread or potatoes. Bread dumplings are a classic variety.",
-      "explanation_incorrect": "The other options are Central European foods, but they are not bread dumplings. They refer to noodles, pretzels, or pastries instead.",
-      "last_verified_at": "2026-06-12T14:48:00.915Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Knödel are dumplings found across Central Europe; Semmelknödel is a bread-based variety, while other versions use potatoes.",
+      "explanation_incorrect": "The other options are Central European foods, but they are not bread dumplings. They refer to noodles, pretzels, or pastries instead."
     },
     {
       "subcategory": "Korean Side Dishes",
@@ -408,10 +370,8 @@
         "japchae"
       ],
       "answer": "banchan",
-      "explanation_correct": "Banchan is the general term for the small side dishes served with Korean meals, often including seasoned vegetables. It refers to the category rather than one specific dish.",
-      "explanation_incorrect": "The other options are Korean foods, but they are main dishes, noodles, or rice cakes rather than side-dish accompaniments. They do not name the side-dish category.",
-      "last_verified_at": "2026-06-12T14:48:00.915Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Banchan are small side dishes served with Korean meals. They include vegetable, fish, meat and other preparations.",
+      "explanation_incorrect": "The other options are Korean foods, but they are main dishes, noodles, or rice cakes rather than side-dish accompaniments. They do not name the side-dish category."
     },
     {
       "subcategory": "Turkish Grills",
@@ -433,19 +393,17 @@
       "question": "Which Peruvian seafood dish is raw fish marinated and cured with citrus?",
       "options": [
         "ceviche",
-        "tiradito",
-        "escabeche",
-        "arroz con mariscos"
+        "arroz con mariscos",
+        "ají de gallina",
+        "lomo saltado"
       ],
       "answer": "ceviche",
-      "explanation_correct": "Ceviche is made from raw fish or seafood cured in citrus juice, often with onions and chilies. It is strongly associated with Peruvian cuisine.",
-      "explanation_incorrect": "The other options are also seafood or fish dishes, but they are prepared differently. They are not the citrus-cured raw fish dish described.",
-      "last_verified_at": "2026-06-12T14:48:00.915Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ceviche is associated with raw fish or seafood marinated in citrus and seasonings, with regional variations. Citrus does not reliably eliminate all parasites or bacteria.",
+      "explanation_incorrect": "Arroz con mariscos, ají de gallina and lomo saltado are different Peruvian dishes. Tiradito can also feature raw fish and citrus."
     },
     {
       "subcategory": "Russian Soups",
-      "question": "Which Russian soup is a beet-based Eastern European dish?",
+      "question": "What is the name of the beet soup found in Ukrainian and other Eastern European cuisines?",
       "options": [
         "borscht",
         "okroshka",
@@ -453,29 +411,25 @@
         "shchi"
       ],
       "answer": "borscht",
-      "explanation_correct": "Borscht is a beet-based soup common in Russian and broader Eastern European cuisine. Its deep red color comes from beets.",
-      "explanation_incorrect": "The other options are Russian or Eastern European soups, but they are not beet-based. They use different broths and ingredients.",
-      "last_verified_at": "2026-06-12T14:48:00.916Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Borscht is a soup associated with several Eastern European food traditions; Ukrainian borscht is commonly made with beetroot.",
+      "explanation_incorrect": "Okroshka, solyanka and shchi are other Eastern European soup traditions with varying recipes."
     },
     {
       "subcategory": "Japanese Cuisine",
-      "question": "Which Japanese noodle dish is made from wheat noodles served in broth?",
+      "question": "Which Japanese dish is known for Chinese-style wheat noodles served in broth and often flavored with shoyu, shio or miso?",
       "options": [
         "ramen",
-        "soba",
-        "udon",
-        "yakisoba"
+        "soba salad",
+        "onigiri",
+        "mochi"
       ],
       "answer": "ramen",
-      "explanation_correct": "Ramen is a Japanese noodle dish typically made with wheat noodles served in a broth. It is one of the best-known noodle dishes in Japanese cuisine.",
-      "explanation_incorrect": "The other options are also noodle dishes, but they are different from ramen in noodle type or preparation. They are not the same dish.",
-      "last_verified_at": "2026-06-12T14:48:00.916Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ramen generally combines wheat noodles and broth with a seasoning such as soy sauce, salt or miso. Udon can also be served in broth.",
+      "explanation_incorrect": "Onigiri is a rice preparation, mochi is pounded rice, and soba salad is a different noodle dish."
     },
     {
       "subcategory": "Mexican Cuisine",
-      "question": "What is the finely ground dough used to make tortillas and tamales called in Mexican cuisine?",
+      "question": "What is the nixtamalized corn dough commonly used for tortillas and tamales called?",
       "options": [
         "masa",
         "mole",
@@ -483,25 +437,21 @@
         "frijoles"
       ],
       "answer": "masa",
-      "explanation_correct": "Masa is the corn dough used in many Mexican foods, including tortillas and tamales. It is made from treated ground corn.",
-      "explanation_incorrect": "The other options are Mexican food terms, but they are not the corn dough itself. They refer to sauce, beans, or another preparation.",
-      "last_verified_at": "2026-06-12T14:48:00.916Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Masa is a dough made from treated and ground corn, used in tortillas, tamales and other foods.",
+      "explanation_incorrect": "The other options are Mexican food terms, but they are not the corn dough itself. They refer to sauce, beans, or another preparation."
     },
     {
       "subcategory": "Indian Cuisine",
-      "question": "Which Indian yogurt drink is often flavored with fruit, spices, or salt?",
+      "question": "Which South Asian yogurt drink may be sweet or savory, with fruit, spices or salt?",
       "options": [
         "lassi",
-        "chaas",
         "kheer",
-        "shikanji"
+        "shikanji",
+        "jalebi"
       ],
       "answer": "lassi",
-      "explanation_correct": "Lassi is a traditional Indian yogurt-based drink that can be sweet or savory. It is commonly flavored with fruit, spices, or salt.",
-      "explanation_incorrect": "The other choices are drinks or desserts from Indian cuisine, but they are not the yogurt drink named in the question. They differ in ingredients and preparation.",
-      "last_verified_at": "2026-06-12T14:48:00.916Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Lassi is a yogurt-based drink with sweet or savory variations. Chaas is another yogurt-based drink.",
+      "explanation_incorrect": "Kheer and jalebi are sweets, while shikanji is a lemon-based drink."
     },
     {
       "subcategory": "French Cuisine",
@@ -539,14 +489,12 @@
       "options": [
         "galangal",
         "lemongrass",
-        "kaffir lime",
-        "turmeric"
+        "makrut lime leaf",
+        "coconut milk"
       ],
       "answer": "galangal",
       "explanation_correct": "Galangal is a rhizome used in Thai cooking, especially in curry pastes and soups. It has a distinct sharp, pine-like flavor and aroma.",
-      "explanation_incorrect": "The other ingredients are common in Thai cuisine, but they are not the rhizome described here. They contribute different flavors and roles in cooking.",
-      "last_verified_at": "2026-06-12T14:48:00.917Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Lemongrass is a grass, makrut lime leaves are citrus leaves, and coconut milk is extracted from coconut. Turmeric is also a rhizome used in Thai cooking."
     },
     {
       "subcategory": "Middle Eastern Cuisine",
@@ -573,10 +521,8 @@
         "cheung fun"
       ],
       "answer": "siu mai",
-      "explanation_correct": "Siu mai is a classic dim sum dumpling usually filled with pork and shrimp. It is often open-topped and garnished with roe.",
-      "explanation_incorrect": "The other options are also dim sum items, but they are different types of dumplings or buns. They do not match the open-topped dumpling described.",
-      "last_verified_at": "2026-06-12T14:48:00.918Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Cantonese siu mai is often an open-topped dumpling filled with pork and shrimp; fillings and garnishes vary.",
+      "explanation_incorrect": "The other options are also dim sum items, but they are different types of dumplings or buns. They do not match the open-topped dumpling described."
     },
     {
       "subcategory": "Greek Cuisine",
@@ -595,37 +541,33 @@
     },
     {
       "subcategory": "Ethiopian Cuisine",
-      "question": "Which Ethiopian spice blend is known for its hot, complex seasoning base used in many dishes?",
+      "question": "Which Ethiopian spice blend often combines chilies with aromatic spices and is used to season wats?",
       "options": [
         "berbere",
-        "mitmita",
-        "niter kibbeh",
-        "shiro"
+        "clarified butter",
+        "injera",
+        "coffee"
       ],
       "answer": "berbere",
-      "explanation_correct": "Berbere is a widely used Ethiopian spice blend known for its hot, complex flavor. It forms the seasoning base for many Ethiopian dishes.",
-      "explanation_incorrect": "The other options are related Ethiopian culinary terms, but they are not the spice blend named in the question. They refer to a different seasoning, clarified butter, or a flour-based dish.",
-      "last_verified_at": "2026-06-12T14:48:05.966Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Berbere is a blend of chilies and other spices used in Ethiopian and Eritrean cooking; proportions vary.",
+      "explanation_incorrect": "Mitmita is another Ethiopian spice blend; the remaining options are different foods or drinks."
     },
     {
       "subcategory": "Spanish Cuisine",
-      "question": "Which Spanish dish is a cold soup?",
+      "question": "Which Andalusian chilled soup commonly includes tomatoes, cucumber, peppers, garlic and olive oil?",
       "options": [
         "gazpacho",
-        "salmorejo",
-        "ajo blanco",
-        "sopa de ajo"
+        "paella",
+        "tortilla española",
+        "croquetas"
       ],
       "answer": "gazpacho",
-      "explanation_correct": "Gazpacho is a chilled Spanish soup made primarily from blended raw vegetables, especially tomatoes. It is one of the best-known cold soups in Spanish cuisine.",
-      "explanation_incorrect": "The other options are also Spanish soups or soup-like dishes, but they are not the standard cold vegetable soup identified by this clue. They differ in ingredients, texture, or serving style.",
-      "last_verified_at": "2026-06-12T14:48:05.966Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Andalusian gazpacho is a cold blended vegetable soup; recipes vary. Salmorejo and ajo blanco are also Spanish cold soups.",
+      "explanation_incorrect": "Paella, tortilla española and croquetas are different dishes."
     },
     {
       "subcategory": "Turkish Cuisine",
-      "question": "Which Turkish dish is a stuffed flatbread?",
+      "question": "Which Turkish folded flatbread is commonly filled and cooked on a griddle?",
       "options": [
         "gözleme",
         "pide",
@@ -633,40 +575,34 @@
         "simit"
       ],
       "answer": "gözleme",
-      "explanation_correct": "Gözleme is a Turkish flatbread typically filled with ingredients such as cheese, spinach, potato, or meat. It is cooked on a griddle after being folded over the filling.",
-      "explanation_incorrect": "The other options are Turkish baked or bread items, but they are not the folded stuffed flatbread named in the clue. They may resemble it in cuisine, yet differ in form and preparation.",
-      "last_verified_at": "2026-06-12T14:48:05.967Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Gözleme is commonly made by folding thin dough around a filling and cooking it on a griddle; fillings vary.",
+      "explanation_incorrect": "Pide, lahmacun and simit are other Turkish breads or baked foods with different typical preparations."
     },
     {
       "subcategory": "Korean Cuisine",
-      "question": "Which Korean condiment is a fermented paste?",
+      "question": "What is the Korean name for the fermented red chili paste made with ingredients including chili and fermented soybean powder?",
       "options": [
         "gochujang",
-        "doenjang",
-        "ssamjang",
-        "japchae"
+        "sesame oil",
+        "rice vinegar",
+        "glass noodles"
       ],
       "answer": "gochujang",
-      "explanation_correct": "Gochujang is a fermented Korean chili paste made from red chili powder, glutinous rice, and fermented soybeans. It is widely used for seasoning and sauces.",
-      "explanation_incorrect": "The other options include another fermented paste, a mixed dipping paste, and a noodle dish. They are related to Korean cooking but do not match the specific target answer.",
-      "last_verified_at": "2026-06-12T14:48:05.967Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Gochujang is a fermented chili paste; recipes commonly include chili powder, fermented soybeans, grains and salt.",
+      "explanation_incorrect": "Doenjang is another Korean fermented paste; the listed alternatives are oil, vinegar and noodles."
     },
     {
       "subcategory": "Vietnamese Cuisine",
-      "question": "Which Vietnamese dish is a noodle soup?",
+      "question": "Which Vietnamese soup commonly combines rice noodles, broth, herbs and meat?",
       "options": [
         "pho",
-        "bun bo Hue",
-        "mi quang",
-        "goi cuon"
+        "goi cuon",
+        "banh mi",
+        "che"
       ],
       "answer": "pho",
-      "explanation_correct": "Pho is a Vietnamese noodle soup typically served with broth, rice noodles, herbs, and meat. It is one of Vietnam's most famous dishes.",
-      "explanation_incorrect": "The other options are Vietnamese noodle dishes or rolls, but they are not the specific noodle soup named in the clue. Some are regional soups or fresh rolls rather than pho.",
-      "last_verified_at": "2026-06-12T14:48:05.967Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Phở is a Vietnamese rice-noodle soup with broth and various garnishes. Vietnam has other noodle soups, including bún bò Huế.",
+      "explanation_incorrect": "Gỏi cuốn are rolls, bánh mì is bread or a sandwich, and chè refers to sweet dishes or drinks."
     },
     {
       "subcategory": "German Cuisine",
@@ -685,22 +621,20 @@
     },
     {
       "subcategory": "Japanese Cuisine",
-      "question": "Which Japanese ingredient is a fermented soybean paste?",
+      "question": "Which Japanese food consists of fermented whole soybeans and is known for its sticky texture?",
       "options": [
-        "mirin",
+        "natto",
         "miso",
         "sake",
         "ponzu"
       ],
-      "answer": "miso",
-      "explanation_correct": "Miso is a traditional Japanese seasoning produced by fermenting soybeans with salt and kōji, which gives it a rich umami flavor.",
-      "explanation_incorrect": "Mirin is a rice wine, sake is an alcoholic beverage, and ponzu is a citrus-based sauce; none of these are fermented soybean pastes.",
-      "last_verified_at": "2026-06-12T14:48:54.143Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "natto",
+      "explanation_correct": "Natto is made by fermenting whole soybeans, typically with Bacillus subtilis, giving it a sticky texture.",
+      "explanation_incorrect": "Miso is a fermented paste, sake is an alcoholic drink, and ponzu is a citrus-based sauce."
     },
     {
       "subcategory": "Mexican Cuisine",
-      "question": "Which Mexican dish is made with a corn dough wrapper?",
+      "question": "Which Mexican preparation uses corn masa, often filled and cooked in a corn husk or banana leaf?",
       "options": [
         "tamale",
         "enchilada",
@@ -708,10 +642,8 @@
         "quesadilla"
       ],
       "answer": "tamale",
-      "explanation_correct": "A tamale is made from masa, or corn dough, wrapped around a filling and typically steamed. It is a classic Mexican dish with many regional variations.",
-      "explanation_incorrect": "The other options are Mexican dishes, but they are not the corn dough-wrapped preparation described. They use tortillas or other forms rather than a masa wrapper.",
-      "last_verified_at": "2026-06-12T14:48:05.968Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "A tamale is a preparation of masa, often enclosing a filling and cooked in a leaf or husk; ingredients and methods vary.",
+      "explanation_incorrect": "The other options are Mexican dishes, but they are not the corn dough-wrapped preparation described. They use tortillas or other forms rather than a masa wrapper."
     },
     {
       "subcategory": "Indian Cuisine",
@@ -723,25 +655,21 @@
         "chutney"
       ],
       "answer": "ghee",
-      "explanation_correct": "Ghee is clarified butter commonly used in Indian cooking for frying, flavoring, and finishing dishes. It has a rich aroma and a high smoke point.",
-      "explanation_incorrect": "The other options are dairy products or condiments, but they are not clarified butter. They serve different roles in Indian cuisine.",
-      "last_verified_at": "2026-06-12T14:48:05.968Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ghee is a form of clarified butter used in Indian and other South Asian cooking.",
+      "explanation_incorrect": "The other options are dairy products or condiments, but they are not clarified butter. They serve different roles in Indian cuisine."
     },
     {
       "subcategory": "Italian Cuisine",
-      "question": "Which Italian dish is a Neapolitan folded pizza?",
+      "question": "Which Italian baked turnover encloses pizza-like fillings in folded dough?",
       "options": [
         "calzone",
         "focaccia",
-        "pizza fritta",
-        "stromboli"
+        "grissini",
+        "polenta"
       ],
       "answer": "calzone",
-      "explanation_correct": "A calzone is a folded Italian pizza, traditionally associated with Naples. It encloses fillings inside the dough before baking.",
-      "explanation_incorrect": "The other options are Italian breads or pizza-like dishes, but they are not the classic folded pizza named in the clue. Some are similar in ingredients yet differ in shape or regional tradition.",
-      "last_verified_at": "2026-06-12T14:48:05.968Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Calzone is a folded filled pizza-like preparation; some regional pizza fritta can also be folded but is fried.",
+      "explanation_incorrect": "Focaccia and grissini are breads, while polenta is a cornmeal preparation."
     },
     {
       "subcategory": "French Cuisine",
@@ -753,10 +681,8 @@
         "niçoise"
       ],
       "answer": "ratatouille",
-      "explanation_correct": "Ratatouille is a French vegetable stew from Provence, traditionally made by slowly cooking vegetables such as tomatoes, zucchini, eggplant, and peppers. It is a hallmark of rustic French cooking.",
-      "explanation_incorrect": "The other options are French dishes, but they are not the vegetable stew described here. They are seafood, bean, or salad-style dishes rather than ratatouille.",
-      "last_verified_at": "2026-06-12T14:48:05.969Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ratatouille is a Provençal vegetable preparation commonly made with eggplant, zucchini, tomatoes and peppers; methods vary.",
+      "explanation_incorrect": "The other options are French dishes, but they are not the vegetable stew described here. They are seafood, bean, or salad-style dishes rather than ratatouille."
     },
     {
       "subcategory": "Turkish Cuisine",
@@ -798,10 +724,8 @@
         "briouat"
       ],
       "answer": "couscous",
-      "explanation_correct": "Couscous is made from steamed granules of semolina. It is a foundational dish in Moroccan cooking.",
-      "explanation_incorrect": "The other options are Moroccan foods, but they are soup, stew, or pastries rather than steamed semolina.",
-      "last_verified_at": "2026-06-12T14:48:05.969Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Couscous consists of small granules traditionally made from durum wheat semolina and steamed. It is eaten throughout the Maghreb.",
+      "explanation_incorrect": "The other options are Moroccan foods, but they are soup, stew, or pastries rather than steamed semolina."
     },
     {
       "subcategory": "Chinese Cuisine",
@@ -814,9 +738,7 @@
       ],
       "answer": "Peking duck",
       "explanation_correct": "Peking duck is a famous roasted duck dish from Beijing. It is known for its crisp skin and traditional serving style.",
-      "explanation_incorrect": "The other options are Chinese poultry dishes or preparations, but they are not the classic Beijing roast duck.",
-      "last_verified_at": "2026-06-12T14:48:05.970Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_incorrect": "Char siu is commonly pork, kung pao chicken is stir-fried, and beggar’s chicken is another poultry preparation."
     },
     {
       "subcategory": "Korean Cuisine",
@@ -828,10 +750,8 @@
         "galbi"
       ],
       "answer": "bibimbap",
-      "explanation_correct": "Bibimbap is a Korean rice dish topped with assorted vegetables, meat, and seasoning. It is mixed together before eating.",
-      "explanation_incorrect": "The other options are Korean foods, but they are noodles, rice cakes, or grilled meat rather than a mixed rice dish.",
-      "last_verified_at": "2026-06-12T14:48:05.970Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Bibimbap is a Korean mixed rice dish with vegetables and other toppings; meat and egg are common but not mandatory.",
+      "explanation_incorrect": "The other options are Korean foods, but they are noodles, rice cakes, or grilled meat rather than a mixed rice dish."
     },
     {
       "subcategory": "Spanish Cuisine",
@@ -843,14 +763,12 @@
         "sopa de ajo"
       ],
       "answer": "ajo blanco",
-      "explanation_correct": "Ajo blanco is a chilled Spanish soup made with almonds, garlic, bread, and olive oil. It is especially associated with Andalusia.",
-      "explanation_incorrect": "The other options are Spanish soups, but they are tomato-based, bread-thickened, or served hot rather than this almond-garlic version.",
-      "last_verified_at": "2026-06-12T14:48:05.970Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Ajo blanco is a chilled Spanish soup commonly made with almonds, garlic, bread and olive oil; recipes vary.",
+      "explanation_incorrect": "Gazpacho and salmorejo are other cold soups, while sopa de ajo is usually served hot."
     },
     {
       "subcategory": "Ethiopian Cuisine",
-      "question": "Which Ethiopian food is a chickpea flour flatbread?",
+      "question": "Which Ethiopian preparation is made from ground chickpeas or broad beans, commonly cooked as a thick stew?",
       "options": [
         "shiro",
         "injera",
@@ -858,10 +776,8 @@
         "kitfo"
       ],
       "answer": "shiro",
-      "explanation_correct": "Shiro is a dish made from ground chickpeas or broad beans, often cooked into a thick stew or paste. In some contexts, the term refers to a chickpea-based preparation served with bread or flatbread.",
-      "explanation_incorrect": "The other options are Ethiopian staples, but they are sour flatbread, chicken stew, or minced beef rather than this chickpea-based item.",
-      "last_verified_at": "2026-06-12T14:48:05.971Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Shiro is a preparation of ground legumes, commonly cooked into a thick stew and served with injera.",
+      "explanation_incorrect": "Injera is a flatbread, doro wat is a chicken stew, and kitfo is a minced-beef dish."
     },
     {
       "subcategory": "German Cuisine",
@@ -873,10 +789,8 @@
         "spätzle"
       ],
       "answer": "rouladen",
-      "explanation_correct": "The word comes from the French 'rouler', meaning to roll, reflecting the preparation of the meat.",
-      "explanation_incorrect": "Schnitzel is breaded and fried meat, bratwurst is a sausage, and spätzle is a type of soft egg noodle.",
-      "last_verified_at": "2026-06-12T14:48:05.971Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Rouladen are rolled slices of beef often filled with mustard, onion, bacon and sometimes pickle; recipes vary.",
+      "explanation_incorrect": "Schnitzel is breaded and fried meat, bratwurst is a sausage, and spätzle is a type of soft egg noodle."
     },
     {
       "subcategory": "Thai Cuisine",
@@ -895,7 +809,7 @@
     },
     {
       "subcategory": "Middle Eastern Cuisine",
-      "question": "Which Middle Eastern dish is a fried chickpea ball?",
+      "question": "What is the Egyptian name for falafel commonly made with fava beans?",
       "options": [
         "taameya",
         "hummus",
@@ -903,10 +817,8 @@
         "tabbouleh"
       ],
       "answer": "taameya",
-      "explanation_correct": "Taameya is the Egyptian name for falafel made primarily from fava beans or sometimes chickpeas, shaped and fried into patties or balls. It is a common street food in the Middle East.",
-      "explanation_incorrect": "The other options are Middle Eastern foods, but they are a dip, a meat preparation, or a salad rather than fried chickpea balls.",
-      "last_verified_at": "2026-06-12T14:48:05.971Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Taameya is an Egyptian style of falafel commonly made with fava beans. Falafel recipes elsewhere may use chickpeas or mixtures.",
+      "explanation_incorrect": "Hummus is a dip, shawarma a meat preparation and tabbouleh a salad."
     },
     {
       "subcategory": "Japanese Cuisine",
@@ -940,52 +852,46 @@
     },
     {
       "subcategory": "French Cuisine",
-      "question": "Which French dish is a slow-cooked vegetable stew from Provence?",
+      "question": "Which French dessert is an upside-down tart traditionally made with caramelized apples?",
       "options": [
-        "tian",
+        "tarte Tatin",
         "ratatouille",
         "cassoulet",
         "bouillabaisse"
       ],
-      "answer": "ratatouille",
-      "explanation_correct": "Ratatouille is the classic Provençal stew made with eggplant, zucchini, peppers, and tomatoes.",
-      "explanation_incorrect": "Cassoulet is a meat and bean stew, bouillabaisse is a fish soup, and a tian is a specific method of baking layered vegetables.",
-      "last_verified_at": "2026-06-12T14:48:54.143Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "tarte Tatin",
+      "explanation_correct": "Tarte Tatin is baked with apples and caramel beneath the pastry and turned out for serving.",
+      "explanation_incorrect": "Ratatouille is a vegetable dish, cassoulet a bean preparation, and bouillabaisse a fish soup or stew."
     },
     {
       "subcategory": "Indian Cuisine",
-      "question": "What is the name of the clarified butter used in many traditional Indian dishes?",
+      "question": "What fresh South Asian cheese is made by curdling heated milk with an acid?",
       "options": [
-        "ghee",
         "paneer",
+        "ghee",
         "lassi",
         "kheer"
       ],
-      "answer": "ghee",
-      "explanation_correct": "Ghee is clarified butter made by simmering butter and removing the milk solids, commonly used in Indian cuisine.",
-      "explanation_incorrect": "Paneer is a cheese, lassi is a yogurt drink, and kheer is a rice pudding.",
-      "last_verified_at": "2026-06-12T14:48:54.143Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "paneer",
+      "explanation_correct": "Paneer is a fresh cheese made from milk curdled with an acid and pressed; it is widely used in South Asian cooking.",
+      "explanation_incorrect": "Ghee is clarified butter, lassi a yogurt drink and kheer a dessert."
     },
     {
       "subcategory": "Mexican Cuisine",
-      "question": "What is the name of the thick corn-based drink often served hot in Mexican cuisine?",
+      "question": "What is the general Mexican name for a warm thick drink made with corn dough?",
       "options": [
         "atole",
         "pozole",
-        "horchata",
-        "champurrado"
+        "salsa",
+        "guacamole"
       ],
       "answer": "atole",
-      "explanation_correct": "Atole is a traditional Mexican beverage made from corn masa and served warm. It has a thick, porridge-like consistency.",
-      "explanation_incorrect": "Pozole, horchata, and champurrado are all Mexican drinks or dishes, but they are not the plain corn-based drink identified here.",
-      "last_verified_at": "2026-06-12T14:48:05.972Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Atole is a warm corn-based drink with many versions. Champurrado is a chocolate-flavored type of atole.",
+      "explanation_incorrect": "Pozole is a soup, salsa a sauce and guacamole an avocado-based preparation."
     },
     {
       "subcategory": "Turkish Cuisine",
-      "question": "What is the name of the stuffed grape leaves dish in Turkish cuisine?",
+      "question": "What Turkish term is used for preparations of stuffed vegetables such as peppers?",
       "options": [
         "dolma",
         "kebab",
@@ -993,14 +899,12 @@
         "pilaf"
       ],
       "answer": "dolma",
-      "explanation_correct": "Dolma refers to stuffed vegetables or leaves, including grape leaves filled with rice or meat. It is a classic dish in Turkish cuisine.",
-      "explanation_incorrect": "Kebab, börek, and pilaf are all Turkish foods, but they are not the stuffed grape leaves dish.",
-      "last_verified_at": "2026-06-12T14:48:05.972Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Dolma refers to stuffed preparations, including vegetables such as peppers. Filled and rolled grape leaves are often called sarma.",
+      "explanation_incorrect": "Kebab, börek and pilaf are other Turkish foods, not the general name for stuffed vegetables."
     },
     {
       "subcategory": "Greek Cuisine",
-      "question": "What is the name of the layered eggplant and potato dish with béchamel in Greek cuisine?",
+      "question": "Which Greek baked dish commonly layers pasta and minced meat under a béchamel topping?",
       "options": [
         "pastitsio",
         "moussaka",
@@ -1008,10 +912,8 @@
         "spanakopita"
       ],
       "answer": "pastitsio",
-      "explanation_correct": "Pastitsio is a Greek baked dish with layered ingredients and a béchamel topping. It is a staple of Greek home cooking.",
-      "explanation_incorrect": "Moussaka, souvlaki, and spanakopita are all Greek dishes, but they are not the specific layered dish named in the prompt.",
-      "last_verified_at": "2026-06-12T14:48:05.973Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Pastitsio is a baked Greek pasta dish commonly layered with minced meat and béchamel. Eggplant and potato layers are associated with Greek moussaka.",
+      "explanation_incorrect": "Moussaka commonly features eggplant; souvlaki is skewered meat and spanakopita a spinach pie."
     },
     {
       "subcategory": "Chinese Cuisine",
@@ -1075,33 +977,29 @@
     },
     {
       "subcategory": "Thai Cuisine",
-      "question": "What is the name of the coconut dessert made with sticky rice and fruit in Thai cuisine?",
+      "question": "Which Thai dessert combines sweet sticky rice, coconut milk and mango?",
       "options": [
-        "khao niao",
+        "khao niao mamuang",
         "tom yum",
         "pad thai",
         "som tam"
       ],
-      "answer": "khao niao",
-      "explanation_correct": "Khao niao refers to sticky rice, which is used in Thai desserts such as mango sticky rice with coconut milk. It matches the described dessert base.",
-      "explanation_incorrect": "The other choices are a soup, a noodle dish, and a papaya salad. They are not the sticky rice dessert component asked for.",
-      "last_verified_at": "2026-06-12T14:48:05.974Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "khao niao mamuang",
+      "explanation_correct": "Khao niao mamuang is mango sticky rice served with coconut milk; khao niao on its own means sticky rice.",
+      "explanation_incorrect": "Tom yum is a soup, pad thai a noodle dish and som tam a salad."
     },
     {
       "subcategory": "Ethiopian Cuisine",
-      "question": "Which Ethiopian staple is a spongy, sour flatbread made from teff flour?",
+      "question": "Which Ethiopian dish is made from seasoned minced beef and may be served raw or lightly cooked?",
       "options": [
-        "kita",
+        "kitfo",
         "injera",
-        "dulet",
-        "shiro"
+        "shiro",
+        "berbere"
       ],
-      "answer": "injera",
-      "explanation_correct": "Injera is the foundational Ethiopian flatbread, made from teff flour and fermented to have a sour flavor and spongy texture.",
-      "explanation_incorrect": "Kita is an unleavened bread, dulet is a tripe dish, and shiro is a legume stew.",
-      "last_verified_at": "2026-06-12T14:48:54.143Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "kitfo",
+      "explanation_correct": "Kitfo is seasoned minced beef; its preparation varies, including raw and cooked versions. Raw meat can carry foodborne pathogens.",
+      "explanation_incorrect": "Injera is a flatbread, shiro a legume preparation and berbere a spice blend."
     },
     {
       "subcategory": "Spanish Cuisine",
@@ -1113,10 +1011,8 @@
         "croqueta"
       ],
       "answer": "tortilla española",
-      "explanation_correct": "Tortilla española is the classic Spanish omelet made with potatoes and eggs, often served in slices as a tapa. It is one of Spain's best-known dishes.",
-      "explanation_incorrect": "Gazpacho is a cold soup, paella is a rice dish, and croqueta is a breaded fritter. None is the potato omelet described.",
-      "last_verified_at": "2026-06-12T14:48:05.974Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tortilla española is an omelet made with eggs and potatoes; onion is common but optional.",
+      "explanation_incorrect": "Gazpacho is a cold soup, paella is a rice dish, and croqueta is a breaded fritter. None is the potato omelet described."
     },
     {
       "subcategory": "Middle Eastern Cuisine",
@@ -1135,33 +1031,29 @@
     },
     {
       "subcategory": "Japanese Cuisine",
-      "question": "What is the Japanese soup base ingredient known for adding umami?",
+      "question": "What is the Japanese stock commonly made with kombu and dried bonito called?",
       "options": [
         "dashi",
-        "miso",
-        "sake",
-        "mirin"
+        "sesame paste",
+        "olive oil",
+        "wheat flour"
       ],
       "answer": "dashi",
-      "explanation_correct": "Dashi is the traditional Japanese broth or soup base made from ingredients such as kombu and bonito flakes. It provides the foundational umami flavor in many Japanese soups.",
-      "explanation_incorrect": "Miso is a fermented soybean paste, while sake and mirin are cooking liquids. They are not the soup base ingredient asked for.",
-      "last_verified_at": "2026-06-12T14:48:05.975Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Dashi is a Japanese stock with different variants; kombu and dried bonito flakes are a common combination. Miso can also season soup.",
+      "explanation_incorrect": "Sesame paste, olive oil and wheat flour are not the named stock."
     },
     {
       "subcategory": "Indian Cuisine",
-      "question": "What is the name of the Indian flatbread?",
+      "question": "Which leavened South Asian flatbread is commonly baked on the wall of a tandoor?",
       "options": [
         "naan",
-        "roti",
-        "paratha",
-        "bhatura"
+        "pasta",
+        "risotto",
+        "sushi"
       ],
       "answer": "naan",
-      "explanation_correct": "Naan is a leavened Indian flatbread commonly baked in a tandoor. It is a standard accompaniment to many Indian dishes.",
-      "explanation_incorrect": "Roti, paratha, and bhatura are also Indian breads, but they are distinct preparations. They are not the specific flatbread named in the blueprint.",
-      "last_verified_at": "2026-06-12T14:48:05.975Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Naan is a leavened flatbread commonly cooked in a tandoor. Other South Asian breads use varied ingredients and cooking methods.",
+      "explanation_incorrect": "Pasta, risotto and sushi are not the named flatbread."
     },
     {
       "subcategory": "Mexican Cuisine",
@@ -1173,14 +1065,12 @@
         "adobo"
       ],
       "answer": "salsa verde",
-      "explanation_correct": "Salsa verde is a green sauce characterized by the tart flavor of tomatillos.",
-      "explanation_incorrect": "Mole is a complex sauce based on chilies and spices; pico de gallo is a fresh raw relish; adobo is a marinade or seasoning paste.",
-      "last_verified_at": "2026-06-12T14:48:54.144Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Mexican salsa verde is often made with tomatillos and green chilies; recipes may use raw or cooked ingredients.",
+      "explanation_incorrect": "Mole is a complex sauce based on chilies and spices; pico de gallo is a fresh raw relish; adobo is a marinade or seasoning paste."
     },
     {
       "subcategory": "French Cuisine",
-      "question": "What is the name of the French stew?",
+      "question": "Which Provençal fish soup or stew is traditionally associated with Marseille?",
       "options": [
         "bouillabaisse",
         "ratatouille",
@@ -1188,10 +1078,8 @@
         "coq au vin"
       ],
       "answer": "bouillabaisse",
-      "explanation_correct": "Bouillabaisse is a traditional French fish stew from Marseille. It is a well-known Provençal dish.",
-      "explanation_incorrect": "Ratatouille is a vegetable dish, cassoulet is a bean and meat casserole, and coq au vin is chicken braised in wine. They are not the stew named in the question.",
-      "last_verified_at": "2026-06-12T14:48:05.975Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Bouillabaisse is a fish soup or stew associated with Marseille and the surrounding region.",
+      "explanation_incorrect": "Ratatouille, cassoulet and coq au vin are also French dishes, but have different main ingredients and regional associations."
     },
     {
       "subcategory": "Turkish Cuisine",
@@ -1218,25 +1106,21 @@
         "melitzanosalata"
       ],
       "answer": "taramasalata",
-      "explanation_correct": "Taramasalata is a Greek dip traditionally made from fish roe blended with a starch base such as bread, potatoes, or almonds. It is commonly served with bread or vegetables.",
-      "explanation_incorrect": "The other options are Greek dips, but they are made with yogurt, garlic, or eggplant rather than fish roe. They do not match the specific dip described.",
-      "last_verified_at": "2026-06-12T14:48:05.976Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Taramasalata is a dip made with salted fish roe blended with ingredients such as bread or potatoes; recipes vary.",
+      "explanation_incorrect": "The other options are Greek dips, but they are made with yogurt, garlic, or eggplant rather than fish roe. They do not match the specific dip described."
     },
     {
       "subcategory": "Chinese Cuisine",
-      "question": "Which steamed dough disk is used to wrap crispy skin and meat in a famous specialty from the capital of China?",
+      "question": "Which thin wheat pancake often accompanies Peking duck, wrapping the meat and skin?",
       "options": [
         "mandarin pancake",
         "rice noodle roll",
-        "scallion crepe",
-        "wheat wrap"
+        "sesame seed",
+        "roasted chestnut"
       ],
       "answer": "mandarin pancake",
-      "explanation_correct": "These thin, translucent pancakes are often brushed with hoisin sauce before being filled with duck.",
-      "explanation_incorrect": "Rice noodle rolls are used for dim sum, and scallion crepes are savory pancakes containing green onions.",
-      "last_verified_at": "2026-06-12T14:48:05.976Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Thin wheat pancakes often accompany Peking duck, though serving styles and preparation vary.",
+      "explanation_incorrect": "Rice noodle rolls are another preparation, while sesame seeds and chestnuts are not wheat pancakes."
     },
     {
       "subcategory": "Italian Cuisine",
@@ -1258,15 +1142,13 @@
       "question": "Which Korean dish features thinly sliced marinated beef grilled or pan-cooked?",
       "options": [
         "bulgogi",
-        "galbi",
+        "kimchi",
         "japchae",
         "samgyeopsal"
       ],
       "answer": "bulgogi",
-      "explanation_correct": "Bulgogi is a Korean dish of thinly sliced beef marinated in a sweet-savory sauce and grilled or cooked on a pan. It is one of the best-known Korean meat dishes.",
-      "explanation_incorrect": "The other options are Korean dishes, but they involve ribs, noodles, or pork belly rather than marinated sliced beef. They do not match the dish in the question.",
-      "last_verified_at": "2026-06-12T14:48:05.977Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Bulgogi commonly uses thin slices of marinated beef, grilled or pan-cooked; marinades and proteins vary.",
+      "explanation_incorrect": "Kimchi is a fermented vegetable preparation; japchae is a noodle dish and samgyeopsal is pork belly. Galbi can also be marinated and sliced, so it is not used as a competing option."
     },
     {
       "subcategory": "Moroccan Cuisine",
@@ -1285,93 +1167,81 @@
     },
     {
       "subcategory": "German Cuisine",
-      "question": "What is the German name for a potato pancake?",
+      "question": "What German name is commonly used for a sausage intended for frying or grilling?",
       "options": [
-        "Kartoffelpuffer",
-        "Reibekuchen",
+        "Bratwurst",
         "Knödel",
-        "Schupfnudeln"
+        "Schupfnudeln",
+        "Sauerkraut"
       ],
-      "answer": "Kartoffelpuffer",
-      "explanation_correct": "Kartoffelpuffer is a German term for a potato pancake made from grated potatoes and fried until crisp. It is a familiar dish in German cuisine.",
-      "explanation_incorrect": "The other options are German dishes, but they are dumplings or noodles rather than potato pancakes. They are not the name asked for here.",
-      "last_verified_at": "2026-06-12T14:48:05.977Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "Bratwurst",
+      "explanation_correct": "Bratwurst is a German sausage category with many regional varieties.",
+      "explanation_incorrect": "Knödel are dumplings, Schupfnudeln are shaped noodles or dumplings, and sauerkraut is fermented cabbage."
     },
     {
       "subcategory": "Thai Cuisine",
       "question": "What is the Thai coconut milk soup made with galangal and lemongrass called?",
       "options": [
         "tom kha",
-        "tom yum",
-        "khao soi",
-        "gaeng daeng"
+        "pad thai",
+        "satay",
+        "som tam"
       ],
       "answer": "tom kha",
-      "explanation_correct": "Tom kha is a Thai coconut milk soup flavored with galangal, lemongrass, and often chicken or seafood. The best-known version is tom kha gai.",
-      "explanation_incorrect": "The other options are Thai soups or curries, but they differ in broth style or ingredient profile. They are not the coconut soup named in the question.",
-      "last_verified_at": "2026-06-12T14:48:05.978Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Tom kha is a Thai coconut-based soup often flavored with galangal and lemongrass; tom kha gai is a chicken version.",
+      "explanation_incorrect": "Pad thai is a noodle dish, satay consists of grilled skewers, and som tam is a salad. Other Thai soups can also contain coconut milk."
     },
     {
       "subcategory": "Middle Eastern Cuisine",
-      "question": "Which Middle Eastern spice blend commonly includes cinnamon, cardamom, cloves, and black pepper?",
+      "question": "What is the Arabic name for a Middle Eastern spice mixture whose recipes may include black pepper, cinnamon and cloves?",
       "options": [
         "baharat",
-        "za'atar",
-        "dukkah",
-        "ras el hanout"
+        "yogurt",
+        "sesame oil",
+        "wheat flour"
       ],
       "answer": "baharat",
-      "explanation_correct": "Baharat is a Middle Eastern spice blend that often includes cinnamon, cardamom, cloves, cumin, coriander, and black pepper. Its exact mix varies by region.",
-      "explanation_incorrect": "The other options are spice blends too, but they are associated with different ingredient profiles and culinary uses. They are not the blend described here.",
-      "last_verified_at": "2026-06-12T14:48:05.978Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Baharat refers to spices or a spice blend; ingredients vary by region. Other blends can contain similar spices.",
+      "explanation_incorrect": "The other choices are dairy, oil and flour rather than the spice blend named here."
     },
     {
       "subcategory": "Spanish Cuisine",
       "question": "What is the Spanish cold tomato soup, thickened with bread and often topped with ham or egg, called?",
       "options": [
         "salmorejo",
-        "gazpacho",
-        "ajo blanco",
+        "paella",
+        "tortilla española",
         "escalivada"
       ],
       "answer": "salmorejo",
-      "explanation_correct": "Salmorejo is a Spanish cold soup from Andalusia made with tomatoes, bread, olive oil, and garlic. It is thicker than gazpacho and is often garnished with jamón and egg.",
-      "explanation_incorrect": "The other options are Spanish dishes, but gazpacho is a thinner cold soup, ajo blanco is a white almond soup, and escalivada is roasted vegetables. They do not match the soup described.",
-      "last_verified_at": "2026-06-12T14:48:05.978Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Salmorejo is a cold Andalusian tomato and bread preparation commonly garnished with egg or ham; consistency varies by recipe.",
+      "explanation_incorrect": "Paella is a rice dish, tortilla española an omelet, and escalivada a roasted vegetable dish. Gazpacho is another cold soup that can include tomatoes and bread."
     },
     {
       "subcategory": "Ethiopian Cuisine",
-      "question": "Which Ethiopian chickpea stew is made with berbere and often served with injera?",
+      "question": "Which Ethiopian and Eritrean stew is commonly made with lentils and berbere?",
       "options": [
-        "shiro wat",
         "misir wat",
-        "atkilt wat",
-        "doro wat"
+        "shiro wat",
+        "doro wat",
+        "kitfo"
       ],
-      "answer": "shiro wat",
-      "explanation_correct": "Shiro wat is an Ethiopian stew made from ground chickpeas or broad beans seasoned with spices such as berbere. It is commonly served with injera.",
-      "explanation_incorrect": "The other options are Ethiopian stews, but they are made with lentils, vegetables, or chicken instead of chickpea flour. They are not the chickpea stew asked for.",
-      "last_verified_at": "2026-06-12T14:48:05.978Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "misir wat",
+      "explanation_correct": "Misir wat is a lentil stew, often seasoned with berbere and served with injera.",
+      "explanation_incorrect": "Shiro is made from ground legumes, doro wat is a chicken stew, and kitfo is a seasoned minced-beef dish."
     },
     {
       "subcategory": "Japanese Cuisine",
-      "question": "Along with 'dashi' stock, what is the primary component needed to create the base for a standard 'wakame' or 'tofu' soup?",
+      "question": "What edible kelp is commonly used with dried bonito to make Japanese dashi?",
       "options": [
-        "miso paste",
-        "soy sauce",
-        "dashi powder",
-        "tofu"
+        "kombu",
+        "cocoa",
+        "rosemary",
+        "coffee"
       ],
-      "answer": "miso paste",
-      "explanation_correct": "Miso paste provides the savory, umami flavor that characterizes the soup's profile.",
-      "explanation_incorrect": "Soy sauce adds salt but not body, and tofu is a common solid ingredient added after the base is made.",
-      "last_verified_at": "2026-06-12T14:48:05.979Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "answer": "kombu",
+      "explanation_correct": "Kombu is edible kelp used in some types of dashi; other types of dashi use different ingredients.",
+      "explanation_incorrect": "Cocoa, rosemary and coffee are not the kelp used in this stock."
     },
     {
       "subcategory": "Italian Cuisine",
@@ -1398,10 +1268,8 @@
         "pita"
       ],
       "answer": "corn tortilla",
-      "explanation_correct": "Corn tortillas have been a staple in Mesoamerican diets for thousands of years.",
-      "explanation_incorrect": "Flour tortillas are common in Northern Mexico, while arepas are from Colombia/Venezuela and pita is Mediterranean.",
-      "last_verified_at": "2026-06-12T14:48:05.979Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Corn tortillas are made from nixtamalized maize and are used in tacos and enchiladas. Such dishes can also have regional variations.",
+      "explanation_incorrect": "Flour tortillas are common in Northern Mexico, while arepas are from Colombia/Venezuela and pita is Mediterranean."
     },
     {
       "subcategory": "Indian Cuisine",
@@ -1413,10 +1281,8 @@
         "pickle"
       ],
       "answer": "raita",
-      "explanation_correct": "Raita is a yogurt-based condiment often mixed with vegetables, herbs, or spices. It is commonly served to cool and complement spicy dishes.",
-      "explanation_incorrect": "The other options are related Indian accompaniments, but they are not the yogurt-based condiment asked for. Chutney, lassi, and pickle serve different culinary purposes.",
-      "last_verified_at": "2026-06-12T14:48:05.979Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Raita is a yogurt-based accompaniment that may contain vegetables, herbs or spices.",
+      "explanation_incorrect": "The other options are related Indian accompaniments, but they are not the yogurt-based condiment asked for. Chutney, lassi, and pickle serve different culinary purposes."
     },
     {
       "subcategory": "French Cuisine",
@@ -1450,48 +1316,42 @@
     },
     {
       "subcategory": "Korean Cuisine",
-      "question": "In Korean cuisine, which fermented soybean paste is used to flavor soups, stews, and side dishes?",
+      "question": "What is the Korean name for a fermented soybean paste commonly used in doenjang-jjigae?",
       "options": [
         "doenjang",
-        "gochujang",
-        "ssamjang",
-        "ganjang"
+        "rice vinegar",
+        "sesame oil",
+        "glass noodles"
       ],
       "answer": "doenjang",
-      "explanation_correct": "Doenjang is a traditional Korean fermented soybean paste with a deep savory flavor. It is widely used in stews, soups, and seasonings.",
-      "explanation_incorrect": "The other options are Korean condiments or sauces, but they are not the fermented soybean paste asked for. Gochujang is chili paste, ssamjang is a dipping paste, and ganjang is soy sauce.",
-      "last_verified_at": "2026-06-12T14:48:05.980Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Doenjang is a Korean fermented soybean paste used in stews and seasonings. Other Korean pastes, including gochujang and ssamjang, can also contain fermented soybeans.",
+      "explanation_incorrect": "Rice vinegar, sesame oil and glass noodles are different ingredients."
     },
     {
       "subcategory": "Turkish Cuisine",
       "question": "In Turkish cuisine, which thin layered pastry dough is used for dishes such as börek?",
       "options": [
         "yufka",
-        "phyllo",
-        "lavash",
-        "kataifi"
+        "sesame oil",
+        "yogurt",
+        "lentils"
       ],
       "answer": "yufka",
-      "explanation_correct": "Yufka is a very thin unleavened Turkish dough used in layered pastries and breads such as börek. It is an important staple in Turkish baking.",
-      "explanation_incorrect": "The other options are similar doughs or pastries, but they are not the Turkish term asked for. Phyllo and lavash are different breads or doughs, and kataifi is a shredded pastry.",
-      "last_verified_at": "2026-06-12T14:48:05.981Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Yufka is thin dough used in Turkish pastries such as börek. Phyllo is a closely related term for thin pastry sheets.",
+      "explanation_incorrect": "Sesame oil, yogurt and lentils are ingredients, not the dough named in the question."
     },
     {
       "subcategory": "Thai Cuisine",
-      "question": "In Thai cuisine, which fragrant herb is commonly used to flavor curries and soups?",
+      "question": "Which tall fragrant grass lends a citrus-like aroma to many Thai soups and curry pastes?",
       "options": [
         "lemongrass",
-        "cilantro",
-        "Thai basil",
-        "kaffir lime leaf"
+        "coconut milk",
+        "fish sauce",
+        "rice flour"
       ],
       "answer": "lemongrass",
-      "explanation_correct": "Lemongrass is a fragrant herb widely used in Thai curries, soups, and pastes. It adds a bright citrus-like aroma.",
-      "explanation_incorrect": "The other options are also common Thai ingredients, but they are not the herb specifically asked for. Cilantro, Thai basil, and kaffir lime leaf contribute different flavors and roles.",
-      "last_verified_at": "2026-06-12T14:48:05.981Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Lemongrass is an aromatic grass used in many Thai dishes. Thai basil, cilantro and makrut lime leaf are also used in Thai cooking.",
+      "explanation_incorrect": "The other choices are coconut milk, a sauce and flour rather than the aromatic grass."
     },
     {
       "subcategory": "Ethiopian Cuisine",
@@ -1503,10 +1363,8 @@
         "ayib"
       ],
       "answer": "niter kibbeh",
-      "explanation_correct": "Niter kibbeh is a clarified butter infused with spices and herbs, commonly used in Ethiopian cooking. It adds richness and aromatic depth to many dishes.",
-      "explanation_incorrect": "The other options are related to Ethiopian cuisine, but they are not the spiced clarified butter asked for. Ghee is plain clarified butter, berbere is a spice blend, and ayib is a fresh cheese.",
-      "last_verified_at": "2026-06-12T14:48:05.981Z",
-      "verifying_model": "google/gemini-3.1-flash-lite"
+      "explanation_correct": "Niter kibbeh is Ethiopian clarified butter infused with spices; ingredients vary by preparation.",
+      "explanation_incorrect": "Ghee is clarified butter often used in South Asia; berbere is a spice blend and ayib a fresh cheese."
     }
   ]
 }
