@@ -148,6 +148,9 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Medycyna i Ludzkie Ciało (`medycyna_i_ludzkie_ciao_pl`):** przegląd 105 pytań i przeniesienie zweryfikowanych korekt do 79 pozycji w drugim osobnym pliku; [raport](audits/2026-11-08-medycyna-i-ludzkie-cialo-pl.md).
 - **Języki i Dialekty Świata (PL):** przegląd 100 pytań, korekty 82 pozycji i niezależna kontrola wybranych faktów; [raport](audits/2026-11-08-jezyki-i-dialekty-swiata-pl.md).
 
+- **Roman Mythology & Legends (EN):** przegląd 100 pytań, korekty 41 pozycji i synchronizacja opisu z indeksem; [raport](audits/2026-11-08-roman-mythology-legends-en.md).
+- **Sztuka i Kultura Wysoka (PL):** przegląd 100 pytań, korekty 80 pozycji; [raport](audits/2026-11-08-sztuka-i-kultura-wysoka-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
