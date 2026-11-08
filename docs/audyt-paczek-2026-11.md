@@ -145,6 +145,9 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Literatura (PL):** przegląd 100 pytań, korekty 87 pozycji i niezależna kontrola wybranych twierdzeń; [raport](audits/2026-11-08-literatura-pl.md).
 - **The History of Beverages (EN):** przegląd 100 pytań, korekty 99 pozycji i niezależna kontrola wybranych tez; [raport](audits/2026-11-08-the-history-of-beverages-en.md).
 
+- **Medycyna i Ludzkie Ciało (`medycyna_i_ludzkie_ciao_pl`):** przegląd 105 pytań i przeniesienie zweryfikowanych korekt do 79 pozycji w drugim osobnym pliku; [raport](audits/2026-11-08-medycyna-i-ludzkie-cialo-pl.md).
+- **Języki i Dialekty Świata (PL):** przegląd 100 pytań, korekty 82 pozycji i niezależna kontrola wybranych faktów; [raport](audits/2026-11-08-jezyki-i-dialekty-swiata-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
