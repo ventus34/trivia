@@ -2,15 +2,13 @@
   "id": "kultura_otaku_pl",
   "name": "Kultura Otaku",
   "language": "pl",
-  "description": "Pytania z zakresu: Wydarzenia masowe, Terminologia mangi, Gatunki literackie, Kultura idoli...",
+  "description": "Pytania o anime, mangę, fandom, gry, wydarzenia i kulturę otaku.",
   "created_at": "2026-06-12T15:20:12.154Z",
-  "last_verified_at": "2026-06-12T15:20:11.345Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Wydarzenia masowe",
-      "question": "Jak nazywa się największy na świecie konwent fanzinów odbywający się cyklicznie w Tokio?",
+      "question": "Jak nazywa się tokijskie wydarzenie poświęcone niezależnym publikacjom dōjinshi?",
       "options": [
         "Anime Expo",
         "Comiket",
@@ -18,10 +16,8 @@
         "Wonfes"
       ],
       "answer": "Comiket",
-      "explanation_correct": "Comiket to skrót od Comic Market, największych na świecie targów publikacji niezależnych (doujinshi).",
-      "explanation_incorrect": "Pozostałe opcje to duże wydarzenia branżowe, ale nie skupiają się one priorytetowo na oddolnej twórczości fanowskiej.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Comiket to skrót od Comic Market, dużego wydarzenia poświęconego publikacjom dōjinshi.",
+      "explanation_incorrect": "Pozostałe opcje to duże wydarzenia branżowe, ale nie skupiają się one priorytetowo na oddolnej twórczości fanowskiej."
     },
     {
       "subcategory": "Terminologia mangi",
@@ -34,9 +30,7 @@
       ],
       "answer": "Doujinshi",
       "explanation_correct": "Doujinshi są amatorskimi lub niezależnymi publikacjami, często bazującymi na istniejących franczyzach.",
-      "explanation_incorrect": "Tankobon to tomik mangi, Gekiga to gatunek dramatyczny, a Yonkoma to komiks cztero-panelowy.",
-      "last_verified_at": "2026-06-12T15:16:21.808Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tankōbon to wydanie książkowe, gekiga to nurt komiksu o poważniejszej tematyce, a yonkoma to komiks czterokadrowy."
     },
     {
       "subcategory": "Gatunki literackie",
@@ -49,13 +43,11 @@
       ],
       "answer": "Isekai",
       "explanation_correct": "Isekai oznacza dosłownie 'inny świat' i koncentruje się na losach bohatera w nowej rzeczywistości.",
-      "explanation_incorrect": "Mecha dotyczy wielkich robotów, a Slice of Life skupia się na codziennym życiu w realistycznym świecie.",
-      "last_verified_at": "2026-06-12T15:16:21.809Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mecha wiąże się z robotami, a slice of life przedstawia codzienność, także w światach fikcyjnych."
     },
     {
       "subcategory": "Kultura idoli",
-      "question": "Jakim terminem określa się syntezator śpiewu oraz wirtualną piosenkarkę wykorzystującą tę technologię?",
+      "question": "Jak nazywa się opracowana przez Yamahę technologia syntezy śpiewu wykorzystywana m.in. w niektórych wersjach głosu Hatsune Miku?",
       "options": [
         "Vocaloid",
         "Utado",
@@ -63,10 +55,8 @@
         "Idol-bot"
       ],
       "answer": "Vocaloid",
-      "explanation_correct": "Vocaloid to oprogramowanie firmy Yamaha, które stało się symbolem wirtualnych idoli takich jak Hatsune Miku.",
-      "explanation_incorrect": "Utaite to osoby publikujące covery w internecie, a pozostałe nazwy nie są oficjalnymi terminami technologicznymi.",
-      "last_verified_at": "2026-06-12T15:16:21.809Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "VOCALOID to technologia syntezy śpiewu firmy Yamaha; Hatsune Miku jest wirtualną piosenkarką i biblioteką głosu firmy Crypton Future Media.",
+      "explanation_incorrect": "Utaite to osoby publikujące covery w internecie, a pozostałe nazwy nie są oficjalnymi terminami technologicznymi."
     },
     {
       "subcategory": "Dzielnice Tokio",
@@ -124,9 +114,7 @@
       ],
       "answer": "Visual Novel",
       "explanation_correct": "Visual Novel to interaktywne opowieści, w których gracz często podejmuje decyzje wpływające na fabułę.",
-      "explanation_incorrect": "JRPG to gry fabularne z walką turową, a Musou polega na walce z setkami przeciwników jednocześnie.",
-      "last_verified_at": "2026-06-12T15:16:21.809Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "JRPG to japońskie gry fabularne, które mogą mieć różne systemy walki; musou skupia się na walce z licznymi przeciwnikami."
     },
     {
       "subcategory": "Kolekcjonerstwo",
@@ -168,10 +156,8 @@
         "Sensei"
       ],
       "answer": "Seiyuu",
-      "explanation_correct": "Seiyuu cieszą się w Japonii statusem gwiazd i często zajmują się także śpiewaniem.",
-      "explanation_incorrect": "Mangaka to autor komiksów, a Sensei to tytuł grzecznościowy dla nauczyciela lub mistrza.",
-      "last_verified_at": "2026-06-12T15:16:21.809Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Seiyū to japońskie określenie aktora głosowego; niektórzy seiyū występują również jako piosenkarze.",
+      "explanation_incorrect": "Mangaka to autor komiksów, a Sensei to tytuł grzecznościowy dla nauczyciela lub mistrza."
     },
     {
       "subcategory": "Muzyka anime",
@@ -205,7 +191,7 @@
     },
     {
       "subcategory": "Format publikacji",
-      "question": "Który japoński magazyn jest uznawany za najpopularniejszy tygodnik publikujący mangi typu shounen?",
+      "question": "Który japoński tygodnik publikował mangi Dragon Ball, Naruto i One Piece?",
       "options": [
         "Weekly Young Magazine",
         "Weekly Shonen Jump",
@@ -214,9 +200,7 @@
       ],
       "answer": "Weekly Shonen Jump",
       "explanation_correct": "Weekly Shonen Jump to dom takich hitów jak Dragon Ball, Naruto czy One Piece.",
-      "explanation_incorrect": "Hana to Yume publikuje mangi dla dziewcząt, a Young Magazine jest skierowany do starszych czytelników.",
-      "last_verified_at": "2026-06-12T15:16:21.810Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hana to Yume publikuje mangi dla dziewcząt, a Young Magazine jest skierowany do starszych czytelników."
     },
     {
       "subcategory": "Kultura fanklubowa",
@@ -243,14 +227,12 @@
         "Oujidere"
       ],
       "answer": "Yandere",
-      "explanation_correct": "Yandere łączy w sobie cechy osoby zakochanej (yanderu - być chorym) i agresywnej.",
-      "explanation_incorrect": "Deredere to postać całkowicie miła i pogodna, pozbawiona mrocznych aspektów.",
-      "last_verified_at": "2026-06-12T15:16:21.810Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Yandere łączy określenia yanderu (chorować, być chorym) i deredere (okazywać uczucie); opisuje skrajnie obsesyjną postawę w miłości.",
+      "explanation_incorrect": "Deredere to postać całkowicie miła i pogodna, pozbawiona mrocznych aspektów."
     },
     {
       "subcategory": "Manga i Anime",
-      "question": "Jakim terminem określa się mangi i anime skierowane do demografii młodych kobiet i nastolatek?",
+      "question": "Jak nazywa się kategoria mangi i anime kierowana przede wszystkim do dziewcząt i nastolatek?",
       "options": [
         "Shonen",
         "Shojo",
@@ -258,10 +240,8 @@
         "Josei"
       ],
       "answer": "Shojo",
-      "explanation_correct": "Gatunek ten często skupia się na relacjach międzyludzkich i emocjach bohaterów.",
-      "explanation_incorrect": "Josei kierowane jest do dorosłych kobiet, a Seinen do dorosłych mężczyzn.",
-      "last_verified_at": "2026-06-12T15:16:21.810Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Shōjo to kategoria docelowej publiczności, obejmująca różne gatunki i tematy, w tym relacje między bohaterami.",
+      "explanation_incorrect": "Josei kierowane jest do dorosłych kobiet, a Seinen do dorosłych mężczyzn."
     },
     {
       "subcategory": "Gry Wideo",
@@ -280,7 +260,7 @@
     },
     {
       "subcategory": "Demografia odbiorców",
-      "question": "Który gatunek mangi jest skierowany głównie do chłopców i młodych mężczyzn?",
+      "question": "Jak nazywa się kategoria mangi kierowana przede wszystkim do chłopców i nastolatków?",
       "options": [
         "Shonen",
         "Shojo",
@@ -288,14 +268,12 @@
         "Yuri"
       ],
       "answer": "Shonen",
-      "explanation_correct": "Mangi shonen kładą nacisk na akcję, przyjaźń oraz rywalizację.",
-      "explanation_incorrect": "Yaoi i Yuri to gatunki skupiające się na romansach osób tej samej płci.",
-      "last_verified_at": "2026-06-12T15:16:21.810Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Shōnen określa odbiorców, a nie jeden gatunek; może obejmować opowieści o akcji, sporcie czy życiu codziennym.",
+      "explanation_incorrect": "Yaoi i Yuri to gatunki skupiające się na romansach osób tej samej płci."
     },
     {
       "subcategory": "Muzyka",
-      "question": "Jakim mianem określa się utwór muzyczny odtwarzany podczas prezentacji listy płac po zakończeniu odcinka?",
+      "question": "Jak nazywa się piosenka lub czołówka odtwarzana na końcu odcinka anime, zwykle wraz z napisami końcowymi?",
       "options": [
         "Insert Song",
         "OST",
@@ -303,14 +281,12 @@
         "BGM"
       ],
       "answer": "Ending",
-      "explanation_correct": "Ending (ED) to utwór końcowy, zazwyczaj o spokojniejszym tempie niż utwór otwierający.",
-      "explanation_incorrect": "OST to cała ścieżka dźwiękowa, a BGM to muzyka tła odtwarzana w trakcie scen.",
-      "last_verified_at": "2026-06-12T15:16:21.811Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ending (ED) to czołówka lub utwór końcowy odcinka.",
+      "explanation_incorrect": "OST to cała ścieżka dźwiękowa, a BGM to muzyka tła odtwarzana w trakcie scen."
     },
     {
       "subcategory": "Wydarzenia",
-      "question": "Jak nazywa się hobby polegające na własnoręcznym tworzeniu strojów i przebieraniu się za postacie z popkultury?",
+      "question": "Jak nazywa się hobby polegające na przebieraniu się za postacie z popkultury i odgrywaniu ich?",
       "options": [
         "Crossplay",
         "Cosplay",
@@ -318,10 +294,8 @@
         "Fursuit"
       ],
       "answer": "Cosplay",
-      "explanation_correct": "Termin powstał z połączenia słów 'costume' oraz 'play' i odnosi się do wcielania w fikcyjne postacie.",
-      "explanation_incorrect": "Pozostałe terminy odnoszą się do przebierania za płeć przeciwną, odgrywania ról lub noszenia kostiumów zwierzęcych.",
-      "last_verified_at": "2026-06-12T15:16:21.811Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Cosplay łączy słowa costume i play; strój można wykonać samodzielnie albo kupić.",
+      "explanation_incorrect": "Crossplay to rodzaj cosplayu polegający na odtwarzaniu postaci innej płci; roleplay jest szerszym odgrywaniem ról, a fursuit to kostium postaci zwierzęcej."
     },
     {
       "subcategory": "Produkcja Anime",
@@ -348,10 +322,8 @@
         "OVA"
       ],
       "answer": "OVA",
-      "explanation_correct": "OVA (Original Video Animation) to format pozwalający na wyższą jakość animacji niż w seriach telewizyjnych.",
-      "explanation_incorrect": "ONA dotyczy internetu, AMV to teledyski fanowskie, a OST to ścieżka dźwiękowa.",
-      "last_verified_at": "2026-06-12T15:16:21.811Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "OVA (Original Video Animation) to animacja wydana pierwotnie na rynek domowy, bez premiery w kinie lub telewizji.",
+      "explanation_incorrect": "ONA dotyczy internetu, AMV to teledyski fanowskie, a OST to ścieżka dźwiękowa."
     },
     {
       "subcategory": "Kolekcjonerstwo",
@@ -379,9 +351,7 @@
       ],
       "answer": "Light Novel",
       "explanation_correct": "Light Novel to popularna forma literatury młodzieżowej w Japonii, często adaptowana na serie anime.",
-      "explanation_incorrect": "Visual Novel to gry komputerowe, Tankobon to tom mangi, a Doujinshi to twórczość fanowska.",
-      "last_verified_at": "2026-06-12T15:16:21.811Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Visual novel to interaktywna opowieść; tankōbon to wydanie książkowe, a dōjinshi to niezależna publikacja, niekoniecznie fanowska."
     },
     {
       "subcategory": "Historia Anime",
@@ -400,7 +370,7 @@
     },
     {
       "subcategory": "Typy postaci",
-      "question": "Który termin opisuje postać anime, która zachowuje się w sposób chłodny, cyniczny i niemal całkowicie pozbawiony emocji?",
+      "question": "Który termin opisuje postać pozornie chłodną i opanowaną, ujawniającą ciepłe uczucia wobec innych?",
       "options": [
         "Tsundere",
         "Yandere",
@@ -409,9 +379,7 @@
       ],
       "answer": "Kuudere",
       "explanation_correct": "Nazwa Kuudere pochodzi od angielskiego słowa 'cool' i japońskiego 'dere' oznaczającego czułość.",
-      "explanation_incorrect": "Tsundere zmienia się z agresywnej w czułą, a Yandere jest patologicznie zazdrosna i agresywna.",
-      "last_verified_at": "2026-06-12T15:16:21.812Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Tsundere bywa początkowo szorstka, natomiast yandere łączy uczucie ze skrajną obsesją."
     },
     {
       "subcategory": "Techniki animacji",
@@ -445,7 +413,7 @@
     },
     {
       "subcategory": "Gry Wideo",
-      "question": "Jak nazywa się system monetyzacji w grach, polegający na losowaniu wirtualnych postaci lub przedmiotów za walutę w grze?",
+      "question": "Jak nazywa się mechanika gier, której nazwa wywodzi się od japońskich automatów z zabawkami w kapsułach i która polega na losowaniu postaci lub przedmiotów?",
       "options": [
         "Loot box",
         "Gacha",
@@ -454,9 +422,7 @@
       ],
       "answer": "Gacha",
       "explanation_correct": "Mechanika Gacha wywodzi się z japońskich automatów z zabawkami w kapsułach.",
-      "explanation_incorrect": "Loot box to ogólny termin zachodni, RNG to losowość, a Pity system to zabezpieczenie przed brakiem szczęścia.",
-      "last_verified_at": "2026-06-12T15:16:21.812Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Loot box to pokrewny termin na losowe nagrody; RNG oznacza generator liczb losowych, a pity system ogranicza skutki długiej serii nieudanych losowań."
     },
     {
       "subcategory": "Typy postaci",
@@ -505,7 +471,7 @@
     },
     {
       "subcategory": "Gatunki mangi",
-      "question": "Jak nazywa się kategoria mangi i anime skierowana głównie do młodych dorosłych mężczyzn (powyżej 18 roku życia)?",
+      "question": "Jak nazywa się kategoria mangi kierowana przede wszystkim do starszych nastolatków i dorosłych mężczyzn?",
       "options": [
         "Shonen",
         "Shojo",
@@ -513,10 +479,8 @@
         "Josei"
       ],
       "answer": "Seinen",
-      "explanation_correct": "Seinen charakteryzuje się bardziej dojrzałą fabułą, przemocą lub skomplikowaną problematyką społeczną.",
-      "explanation_incorrect": "Shonen jest dla nastolatków, Shojo dla nastolatek, a Josei dla dorosłych kobiet.",
-      "last_verified_at": "2026-06-12T15:16:21.812Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Seinen to kategoria odbiorców, obejmująca bardzo różne gatunki i tematy; nie jest ograniczona do przemocy ani do określonej granicy wieku.",
+      "explanation_incorrect": "Shonen jest dla nastolatków, Shojo dla nastolatek, a Josei dla dorosłych kobiet."
     },
     {
       "subcategory": "Gatunki mangi",
@@ -528,10 +492,8 @@
         "Yuri"
       ],
       "answer": "Josei",
-      "explanation_correct": "Josei skupia się na realistycznych relacjach, pracy i codziennym życiu dorosłych kobiet w Japonii.",
-      "explanation_incorrect": "Shojo to literatura dla dziewcząt, a Yuri i Bara to gatunki skupione na relacjach tej samej płci.",
-      "last_verified_at": "2026-06-12T15:16:21.813Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Josei to kategoria adresowana głównie do dorosłych kobiet, obejmująca różne gatunki i tematy.",
+      "explanation_incorrect": "Shojo to literatura dla dziewcząt, a Yuri i Bara to gatunki skupione na relacjach tej samej płci."
     },
     {
       "subcategory": "Przemysł anime",
@@ -588,10 +550,8 @@
         "Kintsugi"
       ],
       "answer": "Latte art",
-      "explanation_correct": "W Japonii Latte art często przybiera formy trójwymiarowe lub fotorealistyczne wizerunki postaci z anime.",
-      "explanation_incorrect": "Origami to składanie papieru, Ikebana to układanie kwiatów, a Kintsugi to naprawa ceramiki złotem.",
-      "last_verified_at": "2026-06-12T15:16:32.683Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Latte art polega na tworzeniu wzorów na powierzchni napoju; niektóre kawiarnie wykonują także wzory inspirowane postaciami z anime.",
+      "explanation_incorrect": "Origami to składanie papieru, Ikebana to układanie kwiatów, a Kintsugi to naprawa ceramiki złotem."
     },
     {
       "subcategory": "Dzielnice Tokyo",
@@ -618,10 +578,8 @@
         "Prize figure"
       ],
       "answer": "Scale figure",
-      "explanation_correct": "Scale figure to statuetki wykonane w konkretnej skali, oddające wiernie detale oryginału bez ruchomych stawów.",
-      "explanation_incorrect": "Nendoroidy to figurki chibi, Figma to figurki ruchome, a prize figure to tańsze figurki z automatów.",
-      "last_verified_at": "2026-06-12T15:20:11.345Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Scale figure to figurka wykonana w podanej skali względem przedstawianej postaci; część takich figurek ma ruchome elementy.",
+      "explanation_incorrect": "Nendoroidy to figurki chibi, Figma to figurki ruchome, a prize figure to tańsze figurki z automatów."
     },
     {
       "subcategory": "Gatunki fabularne",
@@ -634,9 +592,7 @@
       ],
       "answer": "Yuri",
       "explanation_correct": "Yuri, znane również jako 'Girls' Love', to gatunek literacki i filmowy opisujący intymne więzi między kobietami. Nazwa pochodzi od japońskiego słowa oznaczającego lilię.",
-      "explanation_incorrect": "Yaoi dotyczy relacji męskich, Josei to demografia dla dorosłych kobiet, a Harem to gatunek, gdzie jedna postać jest otoczona wieloma osobami płci przeciwnej.",
-      "last_verified_at": "2026-06-12T15:16:32.684Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Yaoi dotyczy relacji męskich, josei to kategoria odbiorców, a harem skupia się na licznych potencjalnych partnerach jednej postaci."
     },
     {
       "subcategory": "Gatunki fabularne",
@@ -655,7 +611,7 @@
     },
     {
       "subcategory": "Zjawiska społeczne",
-      "question": "Jakim terminem określa się osobę, która całkowicie wycofuje się z życia społecznego, izolując się w domu przez okres co najmniej sześciu miesięcy?",
+      "question": "Jak nazywa się zjawisko długotrwałego wycofania z większości kontaktów społecznych, zwykle przez co najmniej sześć miesięcy?",
       "options": [
         "Otaku",
         "Hikikomori",
@@ -663,10 +619,8 @@
         "Idol"
       ],
       "answer": "Hikikomori",
-      "explanation_correct": "Hikikomori to zjawisko społeczne polegające na ekstremalnym wycofaniu się z kontaktów międzyludzkich i pozostawaniu w izolacji domowej. Termin ten został ukuty przez psychologa Tamaki Saitō.",
-      "explanation_incorrect": "Otaku to entuzjasta popkultury, Salaryman to pracownik korporacyjny, a Idol to medialna osobowość sceniczna.",
-      "last_verified_at": "2026-06-12T15:16:32.684Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hikikomori oznacza długotrwałe wycofanie społeczne i pozostawanie głównie w domu; nie musi oznaczać braku wszelkich kontaktów.",
+      "explanation_incorrect": "Otaku to entuzjasta popkultury, Salaryman to pracownik korporacyjny, a Idol to medialna osobowość sceniczna."
     },
     {
       "subcategory": "Twórczość literacka",
@@ -679,13 +633,11 @@
       ],
       "answer": "Fanfiction",
       "explanation_correct": "Fanfiction to teksty pisane przez fanów wykorzystujące znane światy; termin jest używany globalnie również w Japonii.",
-      "explanation_incorrect": "Doujinshi to szerszy termin na publikacje własne (głównie komiksy), a Light Novel to profesjonalne powieści.",
-      "last_verified_at": "2026-06-12T15:20:11.345Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Dōjinshi to szerszy termin na niezależne publikacje, a light novel to forma powieści często ilustrowanych w stylu mangowym."
     },
     {
       "subcategory": "Nośniki treści",
-      "question": "Które słowo jest ogólnym określeniem na japoński komiks lub technikę graficzną charakterystyczną dla tego medium?",
+      "question": "Którym słowem poza Japonią często określa się japoński komiks?",
       "options": [
         "Anime",
         "Manga",
@@ -694,9 +646,7 @@
       ],
       "answer": "Manga",
       "explanation_correct": "Manga to japońskie słowo oznaczające komiks, rysunki lub karykatury, które poza Japonią stało się synonimem japońskiej estetyki komiksowej. Cechuje się zazwyczaj czarno-białym drukiem i specyficznym układem paneli.",
-      "explanation_incorrect": "Anime to animacja, Manhua pochodzi z Chin, a Manhwa z Korei Południowej.",
-      "last_verified_at": "2026-06-12T15:16:32.684Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Anime to animacja, Manhua pochodzi z Chin, a Manhwa z Korei Południowej."
     },
     {
       "subcategory": "Marketing medialny",
@@ -708,10 +658,8 @@
         "Franchising"
       ],
       "answer": "Media Mix",
-      "explanation_correct": "Media Mix to japońska strategia polegająca na budowaniu franczyzy wokół jednego tytułu poprzez rozproszenie treści na wiele różnych platform medialnych. Pozwala to na maksymalizację zysków i dotarcie do zróżnicowanych grup odbiorców.",
-      "explanation_incorrect": "Merchandising to sprzedaż gadżetów, Crossover to połączenie dwóch różnych światów, a Franchising to model biznesowy oparty na licencjach.",
-      "last_verified_at": "2026-06-12T15:16:32.684Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Media mix to strategia rozwijania i promowania powiązanych treści w różnych mediach, np. mandze, anime i grach.",
+      "explanation_incorrect": "Merchandising to sprzedaż gadżetów, Crossover to połączenie dwóch różnych światów, a Franchising to model biznesowy oparty na licencjach."
     },
     {
       "subcategory": "Kultura fanowska",
@@ -723,10 +671,8 @@
         "Line"
       ],
       "answer": "Niconico",
-      "explanation_correct": "Niconico (dawniej Nico Nico Douga) to popularny w Japonii serwis wideo, którego znakiem rozpoznawczym są napisy 'pływające' po obrazie w momencie, w którym zostały dodane. Jest on kluczowym miejscem dla rozwoju kultury Vocaloidów i amatorskich twórców.",
-      "explanation_incorrect": "Bilibili to chiński odpowiednik, Pixiv służy do udostępniania grafik, a Line to komunikator mobilny.",
-      "last_verified_at": "2026-06-12T15:16:32.684Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Niconico to japoński serwis wideo znany z komentarzy nakładanych na obraz i powiązanych z czasem filmu; użytkownicy mogą je oglądać później.",
+      "explanation_incorrect": "Bilibili to chiński odpowiednik, Pixiv służy do udostępniania grafik, a Line to komunikator mobilny."
     },
     {
       "subcategory": "Modelarstwo",
@@ -738,14 +684,12 @@
         "Garage kit"
       ],
       "answer": "Gunpla",
-      "explanation_correct": "Gunpla to połączenie słów 'Gundam' oraz 'Plastic Model', produkowanych przez firmę Bandai. Modele te różnią się skomplikowaniem i skalą, a większość nie wymaga użycia kleju.",
-      "explanation_incorrect": "Gashapon to zabawki z automatów, Mecha to ogólny termin na roboty, a Garage kit to trudne do złożenia modele z żywicy.",
-      "last_verified_at": "2026-06-12T15:16:32.685Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gunpla to skrót od Gundam plastic model: plastikowe modele z uniwersum Gundam, wytwarzane przez Bandai. Współczesne zestawy często łączą się bez kleju.",
+      "explanation_incorrect": "Gashapon to zabawki z automatów, Mecha to ogólny termin na roboty, a Garage kit to trudne do złożenia modele z żywicy."
     },
     {
       "subcategory": "Struktura narracyjna",
-      "question": "Jak nazywa się japoński format komiksu prasowego, który składa się z czterech pionowych paneli o równej wielkości?",
+      "question": "Jak nazywa się japoński format komiksu złożonego z czterech kadrów?",
       "options": [
         "Omake",
         "Yonkoma",
@@ -753,14 +697,12 @@
         "Bunko"
       ],
       "answer": "Yonkoma",
-      "explanation_correct": "Yonkoma stosuje schemat strukturalny Kishōtenketsu: wprowadzenie, rozwinięcie, zwrot akcji i zakończenie. Jest to format popularny w gazetach oraz mangach komediowych typu 'slice of life'.",
-      "explanation_incorrect": "Omake to dodatek do mangi, Tankōbon to wydanie tomikowe, a Bunko to format kieszonkowy książek.",
-      "last_verified_at": "2026-06-12T15:16:32.685Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Yonkoma to komiks czterokadrowy, często publikowany w pionowym układzie; niektóre historie wykorzystują strukturę kishōtenketsu.",
+      "explanation_incorrect": "Omake to dodatek do mangi, Tankōbon to wydanie tomikowe, a Bunko to format kieszonkowy książek."
     },
     {
       "subcategory": "Gry karciane",
-      "question": "Która kolekcjonerska gra karciana, znana z pojedynków potworów, została stworzona przez mangakę Kazukiego Takahashiego?",
+      "question": "Która gra karciana powstała na podstawie mangi stworzonej przez Kazukiego Takahashiego?",
       "options": [
         "Pokémon TCG",
         "Magic: The Gathering",
@@ -769,9 +711,7 @@
       ],
       "answer": "Yu-Gi-Oh!",
       "explanation_correct": "Yu-Gi-Oh! zadebiutowało jako manga w Shonen Jump, w której gra nazywała się 'Magic & Wizards'. Sukces serii doprowadził do stworzenia jednej z najpopularniejszych gier karcianych na świecie.",
-      "explanation_incorrect": "Pokémon TCG opiera się na grach wideo, Magic: The Gathering to produkt amerykański, a Vanguard to gra studia Bushiroad.",
-      "last_verified_at": "2026-06-12T15:16:32.685Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pokémon TCG opiera się na grach wideo, Magic: The Gathering to produkt amerykański, a Vanguard to gra studia Bushiroad."
     },
     {
       "subcategory": "Kolekcjonerstwo",
@@ -820,7 +760,7 @@
     },
     {
       "subcategory": "Gry wideo",
-      "question": "Który gatunek gier wideo skupia się głównie na budowaniu romantycznych relacji z wirtualnymi partnerami poprzez wybory dialogowe?",
+      "question": "Który gatunek gier symuluje randkowanie, często poprzez zarządzanie czasem lub statystykami i wybór działań?",
       "options": [
         "RPG",
         "Dating sim",
@@ -828,10 +768,8 @@
         "Hack and slash"
       ],
       "answer": "Dating sim",
-      "explanation_correct": "Dating sim (symulator randkowania) wymaga od gracza zarządzania statystykami i czasem, aby zdobyć przychylność wybranej postaci. Często mylony z Visual Novel, który kładzie mniejszy nacisk na mechaniki gry, a większy na tekst.",
-      "explanation_incorrect": "RPG skupia się na rozwoju postaci w walce, a Visual Novel to interaktywna powieść bez konieczności symulowania parametrów.",
-      "last_verified_at": "2026-06-12T15:16:32.685Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dating sim skupia się na symulowaniu relacji; może używać statystyk, harmonogramu i wyborów dialogowych.",
+      "explanation_incorrect": "Visual novel to format interaktywnej opowieści, który może zawierać romans i łączyć się z symulatorem randkowania; RPG i hack and slash opisują inne konwencje gier."
     },
     {
       "subcategory": "Kultura idolek",
@@ -850,22 +788,20 @@
     },
     {
       "subcategory": "Artykuły piśmiennicze",
-      "question": "Która marka profesjonalnych markerów alkoholowych jest najbardziej ceniona przez twórców mangi za możliwość łatwego blendowania kolorów?",
+      "question": "Która marka produkuje uzupełniane markery alkoholowe używane przez ilustratorów, w tym twórców mangi?",
       "options": [
-        "Posca",
         "Copic",
-        "Winsor & Newton",
-        "Faber-Castell"
+        "Posca",
+        "Gunpla",
+        "Gashapon"
       ],
       "answer": "Copic",
-      "explanation_correct": "Markery Copic są standardem w branży mangowej dzięki wymiennym końcówkom i możliwości uzupełniania tuszu. Ich alkoholowa baza pozwala na nakładanie warstw bez niszczenia papieru.",
-      "explanation_incorrect": "Posca to markery plakatowe, Winsor & Newton słynie z akwareli, a Faber-Castell z kredek i cienkopisów.",
-      "last_verified_at": "2026-06-12T15:16:32.686Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Copic to marka markerów na bazie alkoholu, znanych m.in. z wymiennych końcówek i możliwości uzupełniania tuszu.",
+      "explanation_incorrect": "Posca oferuje markery farbowe; Gunpla i Gashapon to nazwy związane z modelami i zabawkami."
     },
     {
       "subcategory": "Struktura mangi",
-      "question": "Jak nazywają się małe znaki kany umieszczone obok lub nad znakami kanji, ułatwiające czytelnikowi poprawną wymianę wyrazu?",
+      "question": "Jak nazywają się małe znaki kany umieszczane obok lub nad kanji, aby wskazać ich wymowę?",
       "options": [
         "Katakana",
         "Hiragana",
@@ -874,9 +810,7 @@
       ],
       "answer": "Furigana",
       "explanation_correct": "Furigana jest szeroko stosowana w mangach dla dzieci i młodzieży (np. Shōnen), aby pomóc w odczytaniu trudnych znaków chińskich. Pozwala ona na czytanie tekstów osobom, które nie opanowały jeszcze pełnego zestawu ideogramów.",
-      "explanation_incorrect": "Katakana i Hiragana to podstawowe sylabariusze, a Okurigana to końcówki gramatyczne zapisywane po znaku kanji.",
-      "last_verified_at": "2026-06-12T15:16:32.686Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Katakana i Hiragana to podstawowe sylabariusze, a Okurigana to końcówki gramatyczne zapisywane po znaku kanji."
     },
     {
       "subcategory": "Rodzaj postaci",
@@ -903,10 +837,8 @@
         "Sentai"
       ],
       "answer": "Mahō Shōjo",
-      "explanation_correct": "Mahō Shōjo (Magical Girl) to gatunek, którego fundamentami są transformacje bohaterki i walka ze złem (np. 'Sailor Moon'). Kluczowym motywem jest często dojrzewanie i siła przyjaźni.",
-      "explanation_incorrect": "Mecha dotyczy wielkich robotów, Isekai to podróż do innego świata, a Sentai to historie o drużynach superbohaterów.",
-      "last_verified_at": "2026-06-12T15:16:32.686Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mahō shōjo (magical girl) to opowieści o dziewczynkach lub dziewczynach posiadających magiczne moce. W niektórych, jak 'Sailor Moon', pojawiają się transformacje i walka.",
+      "explanation_incorrect": "Mecha dotyczy wielkich robotów, Isekai to podróż do innego świata, a Sentai to historie o drużynach superbohaterów."
     },
     {
       "subcategory": "Historia mediów",
@@ -940,7 +872,7 @@
     },
     {
       "subcategory": "Manga i wydawnictwa",
-      "question": "Na łamach którego magazynu komiksowego publikowane są kolejne rozdziały mrocznej mangi fantasy 'Berserk'?",
+      "question": "W którym magazynie publikowano mangę 'Berserk' Kentarō Miury po przeniesieniu jej tam w 1992 roku?",
       "options": [
         "Weekly Shonen Jump",
         "Young Animal",
@@ -948,10 +880,8 @@
         "Weekly Young Magazine"
       ],
       "answer": "Young Animal",
-      "explanation_correct": "Berserk autorstwa Kentaro Miury jest flagowym tytułem magazynu Young Animal wydawanego przez Hakusensha.",
-      "explanation_incorrect": "Pozostałe magazyny celują w inne grupy demograficzne lub należą do konkurencyjnych wydawnictw takich jak Shueisha czy Kodansha.",
-      "last_verified_at": "2026-06-12T15:16:32.686Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "'Berserk' ukazuje się w magazynie Young Animal wydawnictwa Hakusensha; serię rozpoczęto wcześniej w Monthly Animal House.",
+      "explanation_incorrect": "Pozostałe magazyny celują w inne grupy demograficzne lub należą do konkurencyjnych wydawnictw takich jak Shueisha czy Kodansha."
     },
     {
       "subcategory": "Gry wideo i anime",
@@ -970,7 +900,7 @@
     },
     {
       "subcategory": "Słownictwo fanowskie",
-      "question": "Jakim terminem określa się postać w anime, która posiada boskie moce i oczekuje od innych traktowania jej jak bóstwo?",
+      "question": "Którym terminem określa się archetyp aroganckiej postaci z kompleksem boga?",
       "options": [
         "Kuudere",
         "Yandere",
@@ -978,10 +908,8 @@
         "Bakadere"
       ],
       "answer": "Kami-dere",
-      "explanation_correct": "Słowo pochodzi od japońskiego 'kami' (bóg) i odnosi się do postaci o aroganckim, boskim kompleksie.",
-      "explanation_incorrect": "Inne wymienione terminy opisują postacie chłodne (kuu), obsesyjne (yan) lub głupiutkie (baka).",
-      "last_verified_at": "2026-06-12T15:16:32.687Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kami-dere pochodzi od japońskiego kami (bóg) i odnosi się do postaci zachowującej się jak ktoś boski; nie musi mieć boskich mocy.",
+      "explanation_incorrect": "Inne wymienione terminy opisują postacie chłodne (kuu), obsesyjne (yan) lub głupiutkie (baka)."
     },
     {
       "subcategory": "Kolekcjonerstwo",
@@ -1000,7 +928,7 @@
     },
     {
       "subcategory": "Konwenty i wydarzenia",
-      "question": "Które wydarzenie odbywające się cyklicznie w Paryżu uznawane jest za największy festiwal kultury japońskiej w Europie?",
+      "question": "Jak nazywa się odbywający się w rejonie Paryża festiwal poświęcony kulturze japońskiej?",
       "options": [
         "Lucca Comics & Games",
         "Japan Expo",
@@ -1008,10 +936,8 @@
         "Anime Expo"
       ],
       "answer": "Japan Expo",
-      "explanation_correct": "Japan Expo przyciąga co roku setki tysięcy odwiedzających do centrum wystawowego Paris-Nord Villepinte.",
-      "explanation_incorrect": "Lucca odbywa się we Włoszech, Connichi w Niemczech, a Anime Expo to największy konwent w USA.",
-      "last_verified_at": "2026-06-12T15:16:32.687Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Japan Expo odbywa się w centrum wystawowym Paris-Nord Villepinte i prezentuje m.in. mangę, anime oraz kulturę Japonii.",
+      "explanation_incorrect": "Lucca odbywa się we Włoszech, Connichi w Niemczech, a Anime Expo w Stanach Zjednoczonych."
     },
     {
       "subcategory": "Studia animacji",
@@ -1038,10 +964,8 @@
         "Gyaru"
       ],
       "answer": "Lolita Fashion",
-      "explanation_correct": "Lolita Fashion dzieli się na nurty Sweet, Gothic i Classic, zawsze jednak skupiając się na skromnej, eleganckiej estetyce historycznej.",
-      "explanation_incorrect": "Visual Kei to styl rockowy, Decora skupia się na nadmiarze kolorowych akcesoriów, a Gyaru na nowoczesnym, zachodnim wyglądzie.",
-      "last_verified_at": "2026-06-12T15:16:32.687Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lolita fashion obejmuje m.in. nurty sweet, gothic i classic; często nawiązuje do historycznych fasonów i lalkowej estetyki.",
+      "explanation_incorrect": "Visual Kei to styl rockowy, Decora skupia się na nadmiarze kolorowych akcesoriów, a Gyaru na nowoczesnym, zachodnim wyglądzie."
     },
     {
       "subcategory": "Sztuka i technika",
@@ -1054,9 +978,7 @@
       ],
       "answer": "Gitaigo",
       "explanation_correct": "Gitaigo to wyrazy imitujące stany i ruchy (np. 'świecenie'), w odróżnieniu od Giseigo naśladujących dźwięki słyszalne.",
-      "explanation_incorrect": "Kanji to znaki ideograficzne, a Furigana to małe znaki kany pomagające w odczycie trudnych wyrazów.",
-      "last_verified_at": "2026-06-12T15:16:32.687Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kanji to znaki pisma pochodzące z Chin, a furigana to małe znaki kany wskazujące wymowę."
     },
     {
       "subcategory": "Gatunki narracyjne",
@@ -1075,7 +997,7 @@
     },
     {
       "subcategory": "Platformy strumieniowe",
-      "question": "Która platforma streamingowa jest obecnie największym globalnym serwisem specjalizującym się niemal wyłącznie w anime?",
+      "question": "Który serwis po zamknięciu aplikacji i strony Funimation w 2024 roku przejął znaczną część jej katalogu anime?",
       "options": [
         "Crunchyroll",
         "Funimation",
@@ -1083,10 +1005,8 @@
         "RetroCrush"
       ],
       "answer": "Crunchyroll",
-      "explanation_correct": "Crunchyroll po fuzji z Funimation stał się bezdyskusyjnym liderem rynku VOD w branży japońskiej animacji poza granicami Japonii.",
-      "explanation_incorrect": "Funimation zostało wchłonięte przez Crunchyroll, a HIDIVE i RetroCrush to platformy o znacznie mniejszym zasięgu.",
-      "last_verified_at": "2026-06-12T15:16:32.688Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Crunchyroll połączył ofertę z Funimation; strona i aplikacja Funimation zostały zamknięte 2 kwietnia 2024 roku.",
+      "explanation_incorrect": "Funimation zamknięto w 2024 roku, a HIDIVE i RetroCrush to inne serwisy."
     },
     {
       "subcategory": "Gry karciane",
@@ -1113,10 +1033,8 @@
         "Merchandising Deal"
       ],
       "answer": "Production Committee",
-      "explanation_correct": "Liczba firm w 'limicie komitetowym' pozwala na zabezpieczenie budżetu poprzez współpracę wydawców, stacji TV i producentów zabawek.",
-      "explanation_incorrect": "Crowdfunding to zbieranie funduszy od fanów, a pozostałe terminy to formy dystrybucji lub umów handlowych.",
-      "last_verified_at": "2026-06-12T15:16:32.688Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Komitet produkcyjny łączy firmy inwestujące w produkcję, takie jak wydawcy, nadawcy i producenci zabawek; firmy dzielą koszty i ryzyko oraz uczestniczą w przychodach.",
+      "explanation_incorrect": "Crowdfunding to zbieranie funduszy od fanów, a pozostałe terminy to formy dystrybucji lub umów handlowych."
     },
     {
       "subcategory": "Kultura kulinarna w anime",
@@ -1173,10 +1091,8 @@
         "Deus Ex Machina"
       ],
       "answer": "Kishōtenketsu",
-      "explanation_correct": "Kishōtenketsu wywodzi się z chińskiej poezji i jest fundamentem konstrukcji wielu mang, zwłaszcza gatunku yonkoma.",
-      "explanation_incorrect": "Jo-ha-kyū odnosi się do tempa akcji, a monomit to uniwersalna struktura podróży bohatera według Josepha Campbella.",
-      "last_verified_at": "2026-06-12T15:16:32.688Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kishōtenketsu wywodzi się z chińskiej poezji; bywa stosowane także w japońskich komiksach czterokadrowych.",
+      "explanation_incorrect": "Jo-ha-kyū odnosi się do tempa akcji, a monomit to uniwersalna struktura podróży bohatera według Josepha Campbella."
     },
     {
       "subcategory": "Muzyka w anime",
@@ -1218,10 +1134,8 @@
         "Weekly Young Jump"
       ],
       "answer": "Weekly Shōnen Jump",
-      "explanation_correct": "Weekly Shōnen Jump to najpopularniejszy magazyn z mangami typu shōnen, wydawany przez Shūeisha.",
-      "explanation_incorrect": "Sunday i Magazine to konkurencyjne pisma innych wydawców, a Young Jump targetsuje starszą widownię (seinen).",
-      "last_verified_at": "2026-06-12T15:16:32.689Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Manga 'One Piece' Eiichirō Ody ukazuje się w Weekly Shōnen Jump wydawnictwa Shūeisha od 1997 roku.",
+      "explanation_incorrect": "Sunday i Magazine to konkurencyjne pisma innych wydawców, a Young Jump jest kierowany do starszej grupy czytelników."
     },
     {
       "subcategory": "Konwencje wizualne",
@@ -1240,7 +1154,7 @@
     },
     {
       "subcategory": "Gry stołowe",
-      "question": "Która gra karciana typu trading card game została stworzona przez firmę Bushiroad i adaptuje liczne serie anime?",
+      "question": "Która gra karciana Bushiroad skupia się na zestawach kart z licznych licencjonowanych anime i gier?",
       "options": [
         "Cardfight!! Vanguard",
         "Weiss Schwarz",
@@ -1249,9 +1163,7 @@
       ],
       "answer": "Weiss Schwarz",
       "explanation_correct": "Weiss Schwarz pozwala graczom na starcia talii pochodzących z różnych licencji anime i gier wideo.",
-      "explanation_incorrect": "Vanguard to autorskie uniwersum Bushiroad, a Shadowverse i Wixoss to osobne systemy innych producentów.",
-      "last_verified_at": "2026-06-12T15:16:32.689Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cardfight!! Vanguard to również marka Bushiroad, lecz ma własne uniwersum i historię, choć zdarzają się w niej współprace z innymi seriami."
     },
     {
       "subcategory": "Dystrybucja",
@@ -1263,10 +1175,8 @@
         "Bootleg"
       ],
       "answer": "Scanlation",
-      "explanation_correct": "Scanlation to zbitka słów 'scan' oraz 'translation', oznaczająca cyfrowe udostępnianie przetłumaczonej mangi.",
-      "explanation_incorrect": "Fansubbing dotyczy wideo, doujinshi to radosna twórczość własna, a bootleg to nielegalne kopie fizycznych produktów.",
-      "last_verified_at": "2026-06-12T15:16:32.689Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Scanlation to fanowskie skanowanie, tłumaczenie i edycja komiksów, zwykle udostępnianych cyfrowo.",
+      "explanation_incorrect": "Fansubbing dotyczy napisów do wideo; dōjinshi to niezależne publikacje, a bootleg to nieautoryzowana kopia lub produkt."
     },
     {
       "subcategory": "Produkcja anime",
@@ -1285,7 +1195,7 @@
     },
     {
       "subcategory": "Artykuły piśmiennicze",
-      "question": "Którego rodzaju stalówki i obsadki najczęściej używają profesjonalni mangacy do kreślenia głównych linii postaci?",
+      "question": "Która stalówka do tuszu, ceniona przez rysowników mangi za zmienną grubość kreski, nosi nazwę od litery G?",
       "options": [
         "Maru-pen",
         "Saji-pen",
@@ -1294,9 +1204,7 @@
       ],
       "answer": "G-pen",
       "explanation_correct": "G-pen jest ceniony za swoją elastyczność, pozwalającą na płynną zmianę grubości kreślonej linii.",
-      "explanation_incorrect": "Maru-pen służy do bardzo cienkich detali, a Saji-pen oferuje stałą grubość kreski.",
-      "last_verified_at": "2026-06-12T15:16:32.689Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Maru-pen służy do bardzo cienkich detali, a Saji-pen oferuje stałą grubość kreski."
     },
     {
       "subcategory": "Subkultury fanowskie",
@@ -1345,7 +1253,7 @@
     },
     {
       "subcategory": "Marketing",
-      "question": "Którego terminu używa się w Japonii na określenie darmowych prezentów dołączanych do numerów czasopism o anime i mandze?",
+      "question": "Jakim terminem określa się dodatki dołączane do japońskich czasopism o anime i mandze?",
       "options": [
         "Furoku",
         "Omake",
@@ -1353,10 +1261,8 @@
         "Lottery"
       ],
       "answer": "Furoku",
-      "explanation_correct": "Furoku to oficjalne dodatki takie jak plakaty, breloki czy figurki wliczone w cenę magazynu.",
-      "explanation_incorrect": "Omake to bonusy na końcu komiksu, a Gashapon to zabawki z automatów kulkowych.",
-      "last_verified_at": "2026-06-12T15:16:32.690Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Furoku to dodatki, takie jak plakaty czy breloki, dołączane do magazynu i zwykle wliczone w jego cenę.",
+      "explanation_incorrect": "Omake oznacza bonus lub dodatek szerzej; nazwą dodatku do czasopisma jest furoku."
     },
     {
       "subcategory": "Muzyka z anime",
@@ -1368,25 +1274,21 @@
         "Enka"
       ],
       "answer": "Anisong",
-      "explanation_correct": "Anisong (Anime Song) to pełnoprawny gatunek muzyczny w Japonii, z własnymi listami przebojów i festiwalami.",
-      "explanation_incorrect": "Vocaloid to oprogramowanie do syntezy śpiewu, a Enka to tradycyjna ballada japońska.",
-      "last_verified_at": "2026-06-12T15:16:32.690Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Anisong (anime song) to określenie piosenek związanych z anime, w tym utworów otwierających i kończących; mogą one należeć do różnych gatunków muzycznych.",
+      "explanation_incorrect": "Vocaloid to oprogramowanie do syntezy śpiewu, a Enka to tradycyjna ballada japońska."
     },
     {
       "subcategory": "Marketing medialny",
-      "question": "Która antropomorficzna maskotka w formie baterii stała się symbolem marketingu firmy produkującej sprzęt elektroniczny w nurcie moe?",
+      "question": "Która wirtualna piosenkarka firmy Crypton Future Media występowała jako biblioteka głosu wykorzystująca technologię VOCALOID?",
       "options": [
         "Binbin-chan",
         "Hatsune Miku",
         "Super Sonico",
         "Tawa-chan"
       ],
-      "answer": "Binbin-chan",
-      "explanation_correct": "Binbin-chan to klasyczny przykład 'moe anthropomorphism' wykorzystanego w celach reklamowych.",
-      "explanation_incorrect": "Hatsune Miku to wirtualna wokalistka, a Super Sonico to maskotka firmy Nitroplus.",
-      "last_verified_at": "2026-06-12T15:16:32.690Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Hatsune Miku",
+      "explanation_correct": "Hatsune Miku jest wirtualną piosenkarką Crypton Future Media; jej biblioteki głosu obejmują produkty wykorzystujące VOCALOID Yamahy.",
+      "explanation_incorrect": "Super Sonico to postać Nitroplus; pozostałe nazwy nie są wirtualną piosenkarką Hatsune Miku."
     },
     {
       "subcategory": "Gry karciane",
@@ -1458,10 +1360,8 @@
         "Statues"
       ],
       "answer": "Figma",
-      "explanation_correct": "Figma to seria figurek akcji pozwalająca na ustawianie postaci w dowolnych pozach dzięki systemowi stawów.",
-      "explanation_incorrect": "Nendoroidy to figurki typu 'chibi' o dużych głowach, a Gunpla to modele do sklejania z serii Gundam.",
-      "last_verified_at": "2026-06-12T15:16:32.691Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Figma to seria ruchomych figurek akcji z wymiennymi częściami; zakres pozycji zależy od konstrukcji danego modelu.",
+      "explanation_incorrect": "Nendoroidy to figurki typu 'chibi' o dużych głowach, a Gunpla to modele do sklejania z serii Gundam."
     },
     {
       "subcategory": "Typy postaci",
@@ -1503,10 +1403,8 @@
         "Harajuku"
       ],
       "answer": "Ikebukuro",
-      "explanation_correct": "Ikebukuro, a konkretnie Otome Road, to miejsce koncentracji sklepów z mangami i gadżetami dla fanek (fujoshi).",
-      "explanation_incorrect": "Akihabara jest kojarzona z ogólnym ruchem otaku, a Harajuku z modą uliczną.",
-      "last_verified_at": "2026-06-12T15:16:32.691Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ikebukuro, zwłaszcza Otome Road, słynie ze sklepów z mangą i gadżetami kierowanych także do fanek; nie wszystkie są fankami boys’ love.",
+      "explanation_incorrect": "Akihabara jest kojarzona z ogólnym ruchem otaku, a Harajuku z modą uliczną."
     }
   ]
 }

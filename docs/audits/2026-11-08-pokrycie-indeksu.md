@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **155** pozycji ma raport deklarujący przegląd całości paczki.
+- **157** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **69** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **67** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -77,7 +77,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 54 | `gaming_lore_and_worlds_en` | Gaming Lore and Worlds | [gaming_lore_and_worlds_en.md](gaming_lore_and_worlds_en.md) | PEŁNY ODCZYT deklarowany. Date: 2026-11-06. Reviewed the description and all 100 questions, answer choices, keys, and explanations. Selected disputed claims were checked against the sources below. Question numbers… |
 | 55 | `gatunki_muzyczne_wiata_pl` | Gatunki Muzyczne Świata | [2026-11-06-gatunki-muzyczne-swiata-pl.md](2026-11-06-gatunki-muzyczne-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano treść wszystkich 100 pytań, odpowiedzi i objaśnień oraz opis paczki. Poprawiono pozycje 1, 2, 3, 4, 13, 17, 18, 24, 29, 30, 32, 34, 35, 37, 41, 53, 54, 57, 60, 66, 69, 76, 78,… |
 | 56 | `general_en` | General Knowledge | [2026-11-05-duplicate-packs.md](2026-11-05-duplicate-packs.md) (analiza powtórzeń, nie audyt treści) | BRAK dedykowanego raportu merytorycznego. Wzmianka o powtórzeniach nie rozstrzyga poprawności treści. |
-| 57 | `general_pl` | Wiedza Ogólna | — | BRAK dedykowanego raportu merytorycznego. |
+| 57 | `general_pl` | Wiedza Ogólna | [2026-11-08-general-pl.md](2026-11-08-general-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 578 pytań, poprawiono 150 rekordów; nadal występują bliskie powtórzenia. |
 | 58 | `geografia_pl` | Geografia | [2026-11-05-geografia-pl.md](2026-11-05-geografia-pl.md) | PEŁNY ODCZYT deklarowany. Zakres: `geografia_pl`, pozycja 58 w indeksie; 100 pytań. Przejrzano pytania, warianty odpowiedzi, klucze, wyjaśnienia i opis; wybrane sporne fakty sprawdzono w źródłach poniżej. Nie… |
 | 59 | `geographical_discoveries_en` | Geographical Discoveries | [2026-11-05-geographical-discoveries-en.md](2026-11-05-geographical-discoveries-en.md) | PEŁNY ODCZYT deklarowany. Paczka `databases/categories/geographical_discoveries_en.json`, pozycja 59 w indeksie, 119 pytań. Przeczytano pytania, wszystkie odpowiedzi i oba wyjaśnienia. Poprawiono 29 pozycji (numery… |
 | 60 | `great_discoveries_en` | Great Discoveries | [2026-11-06-great-discoveries-en.md](2026-11-06-great-discoveries-en.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-06. Przejrzano opis oraz wszystkie 98 pytań, warianty, klucze i oba wyjaśnienia. Numeracja dotyczy kolejności w tablicy `questions`, od 1. Zmieniono 41 pozycji: 1, 2, 5–7, 9,… |
@@ -119,7 +119,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 96 | `kultowe_zabawki_i_gry_pl` | Kultowe Zabawki i Gry | [2026-11-06-kultowe-zabawki-i-gry-pl.md](2026-11-06-kultowe-zabawki-i-gry-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `kultowe_zabawki_i_gry_pl`. Zmieniono 71 rekordów: 1–12, 14–15, 17–18, 20, 22, 25, 27–28, 30–36, 39–43, 45–48, 50–51, 53,… |
 | 97 | `kultura_gier_i_ciekawostki_pl` | Kultura Gier i Ciekawostki | [2026-11-05-kultura-gier-opis.md](2026-11-05-kultura-gier-opis.md) (opis/terminologia, bez audytu pytań) | BRAK audytu merytorycznego; raport dotyczy opisu i ujednolicenia terminu w podkategoriach. |
 | 98 | `kultura_i_folklor_lokalny_pl` | Kultura i Folklor Lokalny | [2026-11-06-kultura-i-folklor-lokalny-pl.md](2026-11-06-kultura-i-folklor-lokalny-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz komplet 100 pytań, odpowiedzi i wyjaśnień. Numery poniżej oznaczają kolejność pytań w pliku. Zmieniono opis i 81 pozycji: 1–15, 17–28, 31–40, 42–43, 45–55, 57, 59–61,… |
-| 99 | `kultura_otaku_pl` | Kultura Otaku | — | BRAK dedykowanego raportu merytorycznego. |
+| 99 | `kultura_otaku_pl` | Kultura Otaku | [2026-11-08-kultura-otaku-pl.md](2026-11-08-kultura-otaku-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 50 rekordów, wybrane tezy sprawdzono źródłowo. |
 | 100 | `ladami_historii_pl` | Śladami historii | — | BRAK dedykowanego raportu merytorycznego. |
 | 101 | `literatura_dla_dzieci_i_modziey_pl` | Literatura dla Dzieci i Młodzieży | [2026-11-06-literatura-dzieci-i-mlodziezy-pl.md](2026-11-06-literatura-dzieci-i-mlodziezy-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `literatura_dla_dzieci_i_modziey_pl`. Zmieniono 41 rekordów: 1, 2, 3, 7, 9, 11, 13, 14, 17, 20, 21, 22, 28, 29, 34, 35, 38,… |
 | 102 | `literatura_pl` | Literatura | [2026-11-08-literatura-pl.md](2026-11-08-literatura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, warianty, wyjaśnienia i opis; raport dotyczy tej paczki, nie literatury dziecięcej. |

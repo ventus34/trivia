@@ -159,6 +159,9 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Kino i Film (PL):** przegląd 100 pytań, korekty 30 rekordów i synchronizacja opisu; [raport](audits/2026-11-08-kino-i-film-pl.md).
 
+- **Wiedza Ogólna (PL):** przegląd 578 pytań, korekty 150 rekordów; pozostają bliskie powtórzenia. [Raport](audits/2026-11-08-general-pl.md).
+- **Kultura Otaku (PL):** przegląd 100 pytań, korekty 50 rekordów i synchronizacja opisu; [raport](audits/2026-11-08-kultura-otaku-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
