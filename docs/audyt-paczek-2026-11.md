@@ -178,6 +178,9 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Magia i miecz (PL):** przegląd 100 pytań, korekty 43 rekordów; [raport](audits/2026-11-08-magia-i-miecz-pl.md).
 
+- **Moda i Styl (PL):** przegląd 100 pytań i korekty 59 rekordów; [raport](audits/2026-11-08-moda-i-styl-pl.md).
+- **Muzyka Klasyczna (PL):** przegląd 100 pytań i korekty 44 rekordów, w tym powtórzenia; [raport](audits/2026-11-08-muzyka-klasyczna-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

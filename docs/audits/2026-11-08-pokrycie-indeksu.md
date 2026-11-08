@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **167** pozycji ma raport deklarujący przegląd całości paczki.
+- **169** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **58** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **56** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -145,12 +145,12 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 122 | `mitologia_nordycka_pl` | Mitologia nordycka | [2026-11-07-mitologia-nordycka-pl.md](2026-11-07-mitologia-nordycka-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 59 rekordów: 1, 3, 7–8, 11–12, 14, 16–18, 20–23, 25, 27–31, 33, 35–36, 38–39, 44–45, 47, 50–51, 53–57, 60, 63–65, 70–72,… |
 | 123 | `mitologia_sowiaska_pl` | Mitologia słowiańska | [2026-11-07-mitologia-slowianska-pl.md](2026-11-07-mitologia-slowianska-pl.md) | PEŁNY ODCZYT deklarowany. Paczka zawiera 100 pytań; liczby nie zmieniono. Numery oznaczają kolejność w pliku, liczoną od 1. Opis paczki pozostawiono bez zmian. Usunięto metadane wcześniejszej weryfikacji całej… |
 | 124 | `mitologie_wiata_pl` | Mitologie świata | [2026-11-08-mitologie-swiata-pl.md](2026-11-08-mitologie-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, opcje, klucze, oba wyjaśnienia oraz opis. Liczbę pytań i opis zachowano. Zmieniono 82 pozycje: 1, 3–4, 6–21, 23, 26–32, 34–40, 43–50, 52–55, 57–62, 64–67,… |
-| 125 | `moda_i_styl_pl` | Moda i Styl | — | BRAK dedykowanego raportu merytorycznego. |
+| 125 | `moda_i_styl_pl` | Moda i Styl | [2026-11-08-moda-i-styl-pl.md](2026-11-08-moda-i-styl-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 59 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 126 | `money_markets_crises_en` | Money, Markets & Crises | [2026-11-08-money-markets-crises-en.md](2026-11-08-money-markets-crises-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano wszystkie 100 pytań, odpowiedzi, klucze, wyjaśnienia i opis. Opis paczki oraz liczba pytań pozostały bez zmian. W pierwszym przeglądzie poprawiono 65 pozycji: 3–5, 7–10, 12–15,… |
 | 127 | `motoryzacja_i_transport_pl` | Motoryzacja i Transport | [2026-11-07-motoryzacja-i-transport-pl.md](2026-11-07-motoryzacja-i-transport-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań i opis paczki; zmieniono 48 pytań (2, 3, 5–10, 13–14, 16, 21, 27–31, 35, 39, 43–44, 46–47, 52, 57–58, 60, 62, 64, 67, 69, 71, 73–78, 82–83, 87–91, 94, 99–100). Liczba… |
 | 128 | `music_mixtape_en` | Music Mixtape | — | BRAK dedykowanego raportu merytorycznego. |
 | 129 | `muzyka_klasyczna_i_opera_pl` | Muzyka Klasyczna i Opera | [2026-11-06-muzyka-klasyczna-i-opera-pl.md](2026-11-06-muzyka-klasyczna-i-opera-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, odpowiedzi i wyjaśnień w paczce `muzyka_klasyczna_i_opera_pl` oraz jej opis. Zmieniono 47 rekordów: 2, 4, 6, 11–12, 15–21, 23–24, 26–28, 30, 32, 34–35, 40,… |
-| 130 | `muzyka_klasyczna_pl` | Muzyka Klasyczna | — | BRAK dedykowanego raportu merytorycznego. |
+| 130 | `muzyka_klasyczna_pl` | Muzyka Klasyczna | [2026-11-08-muzyka-klasyczna-pl.md](2026-11-08-muzyka-klasyczna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 44 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 131 | `muzyka_popularna_pl` | Muzyka Popularna | [2026-11-06-muzyka-popularna-pl.md](2026-11-06-muzyka-popularna-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 200 pytań i odpowiedzi paczki `muzyka_popularna_pl`. Zmieniono 26 rekordów: 3, 13, 19, 25, 26, 39, 51, 55, 68, 81, 98, 109, 126, 143, 145, 149, 153, 156, 160, 187, 190, 193,… |
 | 132 | `muzyka_wspczesna_i_listy_przebojw_pl` | Muzyka Współczesna i Listy Przebojów | — | BRAK dedykowanego raportu merytorycznego. |
 | 133 | `mythical_artifacts_in_pop_culture_en` | Mythical Artifacts in Pop Culture | [2026-11-07-mythical-artifacts-in-pop-culture-en.md](2026-11-07-mythical-artifacts-in-pop-culture-en.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-07. Przeczytano wszystkie 100 pytań, wariantów odpowiedzi i wyjaśnień oraz opis paczki. Opis odzwierciedla tematykę; liczba pytań pozostaje bez zmian. Numery oznaczają… |
