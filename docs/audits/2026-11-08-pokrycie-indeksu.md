@@ -5,15 +5,15 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **165** pozycji ma raport deklarujący przegląd całości paczki.
-- **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **59** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **167** pozycji ma raport deklarujący przegląd całości paczki.
+- **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
+- **58** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
 Dla każdego ID sprawdzono zakres początkowy raportów: jawny identyfikator lub ścieżkę paczki, nazwę pliku zgodną z ID albo dokładny pełny tytuł kategorii w nagłówku raportu. Przy identycznych nazwach użyto wyłącznie ID/ścieżki/nazwy pliku do rozróżnienia; dopasowanie fragmentu nazwy lub podobieństwo tematu nie wystarcza. Różnice slugów uzupełniono ręcznie tylko tam, gdzie nagłówek raportu i liczba pytań identyfikowały tę samą pozycję (Fizyka w Garażu, Historia Współczesna po 1945, Wielka Inżynieria PRL-u, Historia Polskich Elektronarzędzi).
 
-Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Pięć pozycji z zakresem jawnie częściowym lub nieudokumentowanym jest osobno oznaczonych poniżej.
+Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Cztery pozycje z zakresem jawnie częściowym lub nieudokumentowanym jest osobno oznaczonych poniżej.
 
 Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (porównuje duplikaty), `2026-11-05-przerwane-przeglady.md` (historyczna migawka, zastąpiona późniejszymi raportami) i zakres strukturalny w [`2026-11-05-smart-materials.md`](../question-audits/2026-11-05-smart-materials.md). Ten ostatni wyraźnie mówi, że sprawdzenie pozycji indeksu 172–229 było strukturalne, nie merytoryczne. `2026-11-05-first-indexed-packs.md` jest podany tylko jako historyczny częściowy przegląd dwóch pierwszych paczek; nowsze osobne raporty są podstawą ich bieżącego statusu.
 
@@ -67,7 +67,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 44 | `fantasy_pl` | Fantasy | [fantasy_pl.md](fantasy_pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-06. Przejrzano opis i wszystkie 100 pytań, warianty odpowiedzi, klucze oraz wyjaśnienia. Sporne kwestie wyrywkowo porównano ze wskazanymi źródłami. Numery oznaczają pozycje w… |
 | 45 | `filmowy_maraton_pl` | Filmowy Maraton | [filmowy_maraton_pl_2026-11-06.md](filmowy_maraton_pl_2026-11-06.md) | PEŁNY ODCZYT deklarowany. Data: 6 listopada 2026 r. Przejrzano 100 pytań, opcje, klucze, oba wyjaśnienia i opis `databases/categories/filmowy_maraton_pl.json`. Opis odpowiada tematyce pytań. Weryfikacja źródłowa… |
 | 46 | `filmy_animowane_i_anime_pl` | Filmy Animowane i Anime | [2026-11-06-filmy-animowane-i-anime-pl.md](2026-11-06-filmy-animowane-i-anime-pl.md) | PEŁNY ODCZYT deklarowany. Przegląd 6 listopada 2026 r. Przeczytano opis oraz wszystkie 100 pytań, cztery opcje, klucze i oba wyjaśnienia. Źródłowo sprawdzono wybrane fakty i niejasności, nie każdą informację… |
-| 47 | `filozofia_i_idee_pl` | Filozofia i Idee | [2026-11-06-filozofia-i-idee-pl.md](2026-11-06-filozofia-i-idee-pl.md) | NIEPEŁNY / NIEPEWNY: Przeczytano 100 pytań, opcje, klucze i wyjaśnienia poprawnych odpowiedzi paczki `filozofia_i_idee_pl`; wyjaśnienia błędnych odpowiedzi oraz sporne tezy sprawdzono wybiórczo. Opis odpowiada… |
+| 47 | `filozofia_i_idee_pl` | Filozofia i Idee | [2026-11-08-filozofia-i-idee-uzupelnienie-pl.md](2026-11-08-filozofia-i-idee-uzupelnienie-pl.md) | PEŁNY ODCZYT deklarowany. Uzupełniono częściowy przegląd; odczytano opis, 100 pytań i oba wyjaśnienia, zmieniono 34 rekordy. |
 | 48 | `fizyka_i_kosmologia_pl` | Fizyka i Kosmologia | [fizyka-i-kosmologia-pl-2026-11-05.md](fizyka-i-kosmologia-pl-2026-11-05.md) | PEŁNY ODCZYT deklarowany. Zakres: wszystkie 100 pytań, odpowiedzi i objaśnień w `databases/categories/fizyka_i_kosmologia_pl.json`, ogólna kontrola merytoryczna i redakcyjna, w tym błędów wykrytych w pokrewnej… |
 | 49 | `fizyka_w_garau_pl` | Fizyka w Garażu | [2026-11-06-fizyka-w-garazu-pl.md](2026-11-06-fizyka-w-garazu-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-06. Przejrzano opis oraz wszystkie 99 pytań, warianty, klucze i wyjaśnienia. Numery oznaczają pozycje w tablicy `questions`, liczone od 1. Zmieniono 47 pozycji: 1, 2, 5, 10,… |
 | 50 | `forces_of_nature_en` | Forces of Nature | [2026-11-06-forces-of-nature-en.md](2026-11-06-forces-of-nature-en.md) | PEŁNY ODCZYT deklarowany. Data: 6 listopada 2026 r. Przejrzano opis oraz wszystkie 100 pytań z opcjami, kluczami i wyjaśnieniami. Skorygowano 47 pozycji: 1, 4, 7–9, 12–13, 17, 22, 30, 32–35, 37–38, 43–44, 46,… |
@@ -123,7 +123,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 100 | `ladami_historii_pl` | Śladami historii | [2026-11-08-ladami-historii-pl.md](2026-11-08-ladami-historii-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 45 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 101 | `literatura_dla_dzieci_i_modziey_pl` | Literatura dla Dzieci i Młodzieży | [2026-11-06-literatura-dzieci-i-mlodziezy-pl.md](2026-11-06-literatura-dzieci-i-mlodziezy-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień oraz opis paczki `literatura_dla_dzieci_i_modziey_pl`. Zmieniono 41 rekordów: 1, 2, 3, 7, 9, 11, 13, 14, 17, 20, 21, 22, 28, 29, 34, 35, 38,… |
 | 102 | `literatura_pl` | Literatura | [2026-11-08-literatura-pl.md](2026-11-08-literatura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, warianty, wyjaśnienia i opis; raport dotyczy tej paczki, nie literatury dziecięcej. |
-| 103 | `magia_i_miecz_pl` | Magia i miecz | — | BRAK dedykowanego raportu merytorycznego. |
+| 103 | `magia_i_miecz_pl` | Magia i miecz | [2026-11-08-magia-i-miecz-pl.md](2026-11-08-magia-i-miecz-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, zmieniono 43 rekordy; wybrane tezy sprawdzono źródłowo. |
 | 104 | `malarstwo_i_wielcy_mistrzowie_pl` | Malarstwo i Wielcy Mistrzowie | [2026-11-07-malarstwo-i-wielcy-mistrzowie-pl.md](2026-11-07-malarstwo-i-wielcy-mistrzowie-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 29 pozycji: 2, 6, 8, 10–11, 17, 19, 25, 28, 30, 33, 36, 38, 42, 49–51, 58, 67–68, 72, 74, 79, 81, 83, 87, 92, 94 i 97.… |
 | 105 | `mass_production_food_factories_en` | Mass Production & Food Factories | [2026-11-07-mass-production-food-factories-en.md](2026-11-07-mass-production-food-factories-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz komplet 100 pytań, opcji, odpowiedzi i wyjaśnień. Zmieniono 70 pozycji: 1–2, 4–6, 8–10, 12–14, 16, 18–21, 23–28, 31, 33, 37–42, 44, 46–47, 49–54, 56–59, 61–63, 65–67,… |
 | 106 | `matematyka_i_logika_pl` | Matematyka i Logika | [2026-11-05-mathematics-pl-en.md](2026-11-05-mathematics-pl-en.md) | PEŁNY ODCZYT deklarowany. Zakres: pozycje 106–107 `databases/list.json`: `matematyka_i_logika_pl` i `mathematics_and_logic_en`, po 99 pytań. Przejrzano treść wszystkich pytań, opcji, kluczy i wyjaśnień w obu… |
@@ -255,7 +255,6 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 
 - `automation_simulation_games_en` — raport oznaczony jako częściowy; odczytano wszystkie pytania i odpowiedzi, ale kontrola faktów/wersji gier była wybiórcza.
 - `cyfrowy_przeom_pl` — raport częściowy; pozostałe twierdzenia, zwłaszcza historyczne pierwszeństwa i dane zależne od czasu, wymagają niezależnej kontroli.
-- `filozofia_i_idee_pl` — odczytano pytania, opcje, klucze i poprawne wyjaśnienia; błędne wyjaśnienia oraz sporne tezy sprawdzono wybiórczo.
 - `teatr_telewizji_i_kultowe_spektakle_pl` — odczytano wszystkie rekordy, ale raport nadal wskazuje otwarte sprawy źródłowe, różnorodność i zgodność części pytań z zakresem.
 - `game_of_the_year_winners_en` — poprzedni przegląd i jego źródła nie są zachowane w szczegółach; bieżący raport obejmuje zmienione pozycje i próbkę, nie potwierdza pełnej niezależnej weryfikacji 98 pytań.
 

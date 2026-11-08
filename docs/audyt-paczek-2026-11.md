@@ -174,6 +174,10 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Medicine and Human Body (EN), dwa wpisy:** przegląd dwóch paczek po 105 pytań i korekty odpowiednio 50 i 51 rekordów. Paczki nadal powielają treść; [wspólny raport](audits/2026-11-08-medicine-human-body-en.md).
 
+- **Filozofia i Idee (PL), uzupełnienie:** pełny odczyt 100 pytań i obu wyjaśnień, korekty 34 rekordów; [raport](audits/2026-11-08-filozofia-i-idee-uzupelnienie-pl.md).
+
+- **Magia i miecz (PL):** przegląd 100 pytań, korekty 43 rekordów; [raport](audits/2026-11-08-magia-i-miecz-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
