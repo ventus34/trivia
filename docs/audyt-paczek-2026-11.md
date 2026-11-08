@@ -130,6 +130,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Medycyna i Ludzkie Ciało (`medycyna_ludzkie_cialo_pl`):** przegląd 105 pytań, korekty 81 pozycji oraz niezależna kontrola wybranych treści medycznych; [raport](audits/2026-11-08-medycyna-ludzkie-cialo-pl.md).
 
+- **Streaming Algorithms & Digital Audio (EN):** przegląd 100 pytań, korekty 82 pozycji oraz niezależna kontrola wybranych tez technicznych; [raport](audits/2026-11-08-streaming-algorithms-digital-audio-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
