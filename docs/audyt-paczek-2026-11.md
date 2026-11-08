@@ -114,6 +114,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Komunikacja i Savoir-Vivre (PL):** przegląd 100 pytań, korekty 94 pozycji; źródła i ograniczenia w [raporcie](audits/2026-11-08-komunikacja-i-savoir-vivre-pl.md).
 
+- **Mitologie świata (PL):** przegląd 100 pytań, korekty 82 pozycji i niezależna kontrola wybranych tez; [raport](audits/2026-11-08-mitologie-swiata-pl.md). Doprecyzowano też przekład kroniki w trzech pytaniach wcześniej przejrzanej mitologii słowiańskiej.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
