@@ -188,6 +188,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Nauka (PL):** przegląd 100 pytań i korekty 51 rekordów; [raport](audits/2026-11-08-nauka-pl.md).
 
+- **Od Gumki Recepturki do WD-40 (PL):** przegląd 100 pytań i korekty 64 rekordów; [raport](audits/2026-11-08-od-gumki-do-wd40-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

@@ -1,0 +1,5 @@
+# Od Gumki Recepturki do WD-40 — przegląd 2026-11-08
+
+Paczka `od_gumki_recepturki_do_wd_40_pl`: przejrzano opis oraz 100 pytań, opcje, klucze i oba wyjaśnienia. Pracę rozpoczął współpracownik; po jej przerwaniu dokończono odczyt i poprawki. Zmieniono 64 rekordy: 1, 3–4, 6–9, 11, 14, 16–17, 20–23, 25–28, 32–34, 36–37, 39, 43–44, 46–48, 50–53, 56–61, 63–64, 66–70, 72–76, 79, 81, 83–85, 87, 89, 92, 96–99. Numery oznaczają kolejność w pliku. Uaktualniono opis paczki i odpowiedni wpis indeksu.
+
+Poprawiono pytania, w których kilka produktów lub narzędzi mogło spełnić opis, m.in. przy zmywaczach, materiałach rysunkowych, alkoholu w płynach do spryskiwaczy i kluczach nastawnych. Doprecyzowano zasady doboru pochłaniaczy, działanie termosu i skład produktów; przy wybielaczu oraz udrażniaczach ograniczono niebezpieczne uogólnienia. Źródłowo sprawdzono wybrane kwestie, m.in. [CDC — wybielacz i niemieszenie środków](https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html). Weryfikacja całego zestawu jest przeglądem redakcyjnym, a nie osobnym źródłowym potwierdzeniem każdego twierdzenia. Automatyczna kontrola struktury wszystkich paczek przeszła.

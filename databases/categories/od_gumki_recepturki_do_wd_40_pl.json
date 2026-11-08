@@ -2,15 +2,13 @@
   "id": "od_gumki_recepturki_do_wd_40_pl",
   "name": "Od Gumki Recepturki do WD-40",
   "language": "pl",
-  "description": "Pytania z zakresu: Produkty chemiczne, Artykuły biurowe, Narzędzia warsztatowe, Materiały klejące...",
+  "description": "Pytania o materiały, przedmioty codzienne, narzędzia i produkty chemiczne.",
   "created_at": "2026-06-12T17:19:09.431Z",
-  "last_verified_at": "2026-06-12T17:10:31.715Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Produkty chemiczne",
-      "question": "Jaka jest popularna skrócona nazwa wielofunkcyjnego preparatu wypierającego wodę?",
+      "question": "Który preparat opracowany w 1953 roku zawdzięcza nazwę angielskim słowom Water Displacement i numerowi udanej formuły?",
       "options": [
         "WD-40",
         "GT-85",
@@ -19,9 +17,7 @@
       ],
       "answer": "WD-40",
       "explanation_correct": "WD-40 to skrót od Water Displacement, 40th formula, opracowany w 1953 roku.",
-      "explanation_incorrect": "Pozostałe wymienione preparaty to również środki smarujące i penetrujące, lecz posiadają odmienne nazwy handlowe.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe nazwy również oznaczają produkty techniczne, ale nie rozwijają się jako Water Displacement, formuła 40."
     },
     {
       "subcategory": "Artykuły biurowe",
@@ -40,7 +36,7 @@
     },
     {
       "subcategory": "Narzędzia warsztatowe",
-      "question": "Które narzędzie warsztatowe wyposażone jest w charakterystyczne ruchome ząbki i służy do chwytania rur?",
+      "question": "Jak potocznie nazywa się nastawne szczypce z uzębionymi szczękami używane m.in. do chwytania rur?",
       "options": [
         "Klucz płaski",
         "Klucz żabka",
@@ -48,10 +44,8 @@
         "Klucz dynamometryczny"
       ],
       "answer": "Klucz żabka",
-      "explanation_correct": "Klucz typu żabka pozwala na pewne chwycenie elementów cylindrycznych dzięki uzębionym szczękom.",
-      "explanation_incorrect": "Klucze płaskie i francuskie posiadają gładkie powierzchnie robocze przeznaczone do elementów sześciokątnych.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Żabka to potoczna nazwa nastawnych szczypiec o ząbkowanych szczękach; można nimi chwytać także rury.",
+      "explanation_incorrect": "Klucze płaskie i francuskie posiadają gładkie powierzchnie robocze przeznaczone do elementów sześciokątnych."
     },
     {
       "subcategory": "Materiały klejące",
@@ -63,10 +57,8 @@
         "Taśma izolacyjna"
       ],
       "answer": "Duct tape",
-      "explanation_correct": "Duct tape posiada warstwę tekstylną, która nadaje jej dużą wytrzymałość na rozrywanie.",
-      "explanation_incorrect": "Taśmy malarskie, pakowe i izolacyjne produkowane są z papieru lub cienkiego tworzywa bez wzmocnienia tkaniną.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Duct tape jest zwykle wzmacniana tkaniną lub siatką, co zwiększa jej wytrzymałość.",
+      "explanation_incorrect": "Pozostałe nazwy opisują taśmy o innych typowych zastosowaniach; ich budowa zależy od produktu."
     },
     {
       "subcategory": "Elektronika",
@@ -93,14 +85,12 @@
         "Ksenon"
       ],
       "answer": "Argon",
-      "explanation_correct": "Argon jest gazem mało reaktywnym, który zapobiega utlenianiu się żarnika wolframowego.",
-      "explanation_incorrect": "Hel, neon i ksenon mają inne właściwości fizyczne i optyczne, które rzadziej wykorzystuje się w standardowym oświetleniu domowym.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klasyczne żarówki często wypełnia mieszanina argonu i azotu, co ogranicza parowanie wolframu i chroni żarnik przed utlenianiem.",
+      "explanation_incorrect": "Hel, neon i ksenon mają inne właściwości fizyczne i optyczne, które rzadziej wykorzystuje się w standardowym oświetleniu domowym."
     },
     {
       "subcategory": "Zapięcia",
-      "question": "Jaka jest techniczna nazwa handlowa powszechnie stosowanego zapięcia na rzep?",
+      "question": "Która nazwa handlowa jest kojarzona z zapięciem na haczyki i pętelki?",
       "options": [
         "Velcro",
         "Zip-lock",
@@ -108,14 +98,12 @@
         "Zatrzask"
       ],
       "answer": "Velcro",
-      "explanation_correct": "Velcro to zarejestrowana nazwa handlowa systemu zapięć haczykowych opracowanego przez szwajcarskiego inżyniera.",
-      "explanation_incorrect": "Zip-lock to rodzaj zapięcia strunowego, a klips i zatrzask to ogólne nazwy mechanizmów zamykających.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "VELCRO to marka zapięć haczykowo-pętelkowych; wynalazcą systemu był szwajcarski inżynier George de Mestral.",
+      "explanation_incorrect": "Zip-lock to rodzaj zapięcia strunowego, a klips i zatrzask to ogólne nazwy mechanizmów zamykających."
     },
     {
       "subcategory": "Chemia gospodarcza",
-      "question": "Jaki związek chemiczny jest główną substancją czynną w większości domowych wybielaczy?",
+      "question": "Jaki związek jest substancją czynną typowego domowego wybielacza chlorowego?",
       "options": [
         "Wodorotlenek sodu",
         "Podchloryn sodu",
@@ -123,25 +111,21 @@
         "Chlorek sodu"
       ],
       "answer": "Podchloryn sodu",
-      "explanation_correct": "Podchloryn sodu silnie utlenia barwniki, co pozwala na skuteczne wybielanie tkanin.",
-      "explanation_incorrect": "Pozostałe związki sodu posiadają właściwości czyszczące, żrące lub odczyn obojętny, ale nie posiadają skutecznych właściwości wybielających.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Podchloryn sodu utlenia barwniki. Wybielacza nie należy mieszać z innymi środkami czyszczącymi: mogą powstać niebezpieczne gazy.",
+      "explanation_incorrect": "Pozostałe związki nie są substancją czynną typowego wybielacza chlorowego; istnieją też wybielacze tlenowe o innym składzie."
     },
     {
       "subcategory": "Narzędzia tnące",
-      "question": "Jak potocznie nazywamy nożyk z łamanym, wymiennym ostrzem segmentowym?",
+      "question": "Jak nazywa się nóż do papieru z wysuwanym, łamanym ostrzem segmentowym?",
       "options": [
-        "Skalpel",
-        "Nóż monterski",
-        "Nożyk introligatorski",
-        "Nóż snycerski"
+        "Nożyk z łamanym ostrzem",
+        "Skalpel chirurgiczny",
+        "Nóż do masła",
+        "Nóż tokarski"
       ],
-      "answer": "Nożyk introligatorski",
-      "explanation_correct": "Termin 'nożyk introligatorski' stał się w Polsce powszechną nazwą potoczną dla noży z łamanymi ostrzami.",
-      "explanation_incorrect": "Nóż monterski posiada zazwyczaj stałe ostrze, a skalpel służy do precyzyjnych cięć chirurgicznych lub modelarskich.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Nożyk z łamanym ostrzem",
+      "explanation_correct": "Nożyk z łamanym ostrzem pozwala odłamać zużyty segment i odsłonić kolejny; bywa nazywany introligatorskim lub monterskim.",
+      "explanation_incorrect": "Pozostałe narzędzia mają inne ostrza i przeznaczenie."
     },
     {
       "subcategory": "Materiały izolacyjne",
@@ -160,7 +144,7 @@
     },
     {
       "subcategory": "Mechanika",
-      "question": "Jaki element metalowy, potocznie nazywany 'sprężynką', zapobiega samoczynnemu odkręcaniu się śrub?",
+      "question": "Jak nazywa się rozcięta metalowa podkładka stosowana jako jeden ze sposobów ograniczania luzowania śruby?",
       "options": [
         "Podkładka płaska",
         "Nakrętka koronowa",
@@ -168,10 +152,8 @@
         "Wpust"
       ],
       "answer": "Podkładka sprężynująca",
-      "explanation_correct": "Podkładka sprężynująca zwiększa nacisk w złączu śrubowym, co zwiększa tarcie i przeciwdziała luzowaniu.",
-      "explanation_incorrect": "Podkładki płaskie służą jedynie do ochrony powierzchni, a nakrętki koronowe wymagają zawleczki.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Podkładka sprężynująca jest jednym z rozwiązań stosowanych w połączeniach śrubowych; nie gwarantuje zabezpieczenia w każdych warunkach.",
+      "explanation_incorrect": "Podkładka płaska rozkłada nacisk, nakrętkę koronową można zabezpieczyć zawleczką, a wpust łączy elementy obrotowe."
     },
     {
       "subcategory": "Tekstylia",
@@ -205,18 +187,16 @@
     },
     {
       "subcategory": "Instalacje",
-      "question": "Jaki materiał roślinny jest tradycyjnie wykorzystywany w formie pakuł do uszczelniania połączeń gwintowanych?",
+      "question": "Które włókna roślinne, obok konopnych, mogą być stosowane jako pakuły do uszczelniania gwintów?",
       "options": [
         "Len",
-        "Konopie",
-        "Bawełna",
-        "Juta"
+        "Nylon",
+        "Poliester",
+        "Włókno szklane"
       ],
-      "answer": "Konopie",
-      "explanation_correct": "Włókna konopne po nawinięciu na gwint pęcznieją pod wpływem wody, zapewniając szczelność instalacji.",
-      "explanation_incorrect": "Choć len jest podobny w użyciu, to historycznie materiał ten określa się mianem pakuł konopnych.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Len",
+      "explanation_correct": "Pakuły lniane i konopne są stosowane do uszczelniania niektórych połączeń gwintowanych, zwykle z odpowiednią pastą.",
+      "explanation_incorrect": "Pozostałe materiały nie są włóknami lnu ani konopi."
     },
     {
       "subcategory": "Opakowania",
@@ -243,25 +223,21 @@
         "Klej montażowy"
       ],
       "answer": "Pianka poliuretanowa",
-      "explanation_correct": "Pianka poliuretanowa (PU) utwardza się pod wpływem wilgoci, trwale wypełniając ubytki.",
-      "explanation_incorrect": "Akryl i silikon sprzedawane są w formie pasty, a nie rozprężającej się piany.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Jednoskładnikowa pianka poliuretanowa rozpręża się i utwardza pod wpływem wilgoci; dostępne są też pianki dwuskładnikowe.",
+      "explanation_incorrect": "Akryl i silikon sprzedawane są w formie pasty, a nie rozprężającej się piany."
     },
     {
       "subcategory": "Pisanie",
-      "question": "Jaki minerał jest głównym składnikiem ciemnego wkładu stosowanego w tradycyjnych ołówkach?",
+      "question": "Jaka odmiana węgla jest składnikiem ciemnego wkładu tradycyjnego ołówka?",
       "options": [
-        "Węgiel",
+        "Kwarc",
         "Grafit",
-        "Antracyt",
-        "Mika"
+        "Mika",
+        "Sól kamienna"
       ],
       "answer": "Grafit",
-      "explanation_correct": "Grafit to odmiana węgla, która dzięki miękkiej strukturze pozostawia ślad na papierze.",
-      "explanation_incorrect": "Węgiel i antracyt są zbyt twarde lub brudzące w formie naturalnej, a mika jest minerałem o innych właściwościach.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Grafit miesza się zwykle z glinką; miękka struktura grafitu pozwala zostawiać ślad na papierze.",
+      "explanation_incorrect": "Pozostałe minerały nie są grafitem używanym w typowych wkładach ołówkowych."
     },
     {
       "subcategory": "Warsztat",
@@ -295,22 +271,20 @@
     },
     {
       "subcategory": "Płyny",
-      "question": "Jaka substancja stanowi główny składnik zimowych płynów do spryskiwaczy, zapobiegając ich zamarzaniu?",
+      "question": "Który alkohol stosuje się w wielu zimowych płynach do spryskiwaczy, aby obniżyć temperaturę zamarzania?",
       "options": [
-        "Glikol etylenowy",
+        "Sól kamienna",
         "Alkohol etylowy",
-        "Gliceryna",
-        "Metanol"
+        "Piasek",
+        "Kreda"
       ],
       "answer": "Alkohol etylowy",
-      "explanation_correct": "Alkohol etylowy obniża temperaturę zamarzania cieczy, co pozwala jej pozostać w stanie ciekłym zimą.",
-      "explanation_incorrect": "Glikol stosuje się w chłodnicach, glicerynę jako plastyfikator, a metanol jest silnie toksyczny i ograniczany w produktach konsumenckich.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Etanol może obniżać temperaturę zamarzania wodnego roztworu. Skład produktów bywa różny; wykorzystuje się również inne alkohole.",
+      "explanation_incorrect": "Sól, piasek i kreda nie są alkoholami. Etanol jest jednym z alkoholi stosowanych w płynach zimowych."
     },
     {
       "subcategory": "Kuchnia",
-      "question": "Jak nazywa się polimer fluorowy używany jako powłoka nieprzywierająca w naczyniach kuchennych?",
+      "question": "Jak brzmi nazwa handlowa polimeru PTFE, stosowanego m.in. jako powłoka nieprzywierająca?",
       "options": [
         "Teflon",
         "PVC",
@@ -318,29 +292,25 @@
         "Mika"
       ],
       "answer": "Teflon",
-      "explanation_correct": "Teflon (PTFE) wykazuje wyjątkową nieprzywieralność dzięki niskiej energii powierzchniowej.",
-      "explanation_incorrect": "Pozostałe substancje to tworzywa sztuczne lub minerały o innych właściwościach fizykochemicznych.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Teflon to marka kojarzona z PTFE, polimerem fluorowym o małej energii powierzchniowej.",
+      "explanation_incorrect": "Pozostałe substancje to tworzywa sztuczne lub minerały o innych właściwościach fizykochemicznych."
     },
     {
       "subcategory": "Medycyna domowa",
       "question": "Jakim terminem technicznym określa się pasek materiału z warstwą klejącą służący do przymocowania opatrunku?",
       "options": [
-        "Tasma",
+        "Taśma",
         "Przylepiec",
-        "Bandaz",
+        "Bandaż",
         "Klej"
       ],
       "answer": "Przylepiec",
       "explanation_correct": "Przylepiec to specjalistyczny pasek samoprzylepny stosowany w opatrunkach.",
-      "explanation_incorrect": "Bandaz to materiał opatrunkowy bez substancji klejącej, a taśma to pojęcie zbyt ogólne.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Bandaż to materiał opatrunkowy, a taśma i klej są nazwami szerszych grup produktów."
     },
     {
       "subcategory": "Smarowanie",
-      "question": "Jaka substancja będąca mieszaniną węglowodorów parafinowych jest najstarszym stałym smarem mineralnym?",
+      "question": "Jak nazywa się półstała mieszanina węglowodorów ropopochodnych używana m.in. w kosmetyce i jako środek smarny?",
       "options": [
         "Wazelina",
         "Smalec",
@@ -348,10 +318,8 @@
         "Wosk"
       ],
       "answer": "Wazelina",
-      "explanation_correct": "Wazelina otrzymywana z ropy naftowej pełni rolę klasycznego smaru technicznego i kosmetycznego.",
-      "explanation_incorrect": "Gliceryna jest alkoholem, a smalec i wosk mają pochodzenie organiczne/zwierzęce.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wazelina to półstała mieszanina węglowodorów pochodzenia naftowego, używana w różnych zastosowaniach technicznych i kosmetycznych.",
+      "explanation_incorrect": "Gliceryna jest alkoholem, a smalec i woski mają inny skład niż wazelina."
     },
     {
       "subcategory": "Biuro",
@@ -378,40 +346,34 @@
         "Klucz płaski"
       ],
       "answer": "Klucz imbusowy",
-      "explanation_correct": "Klucz imbusowy to pręt wygięty w kształt litery L, przeznaczony do gniazd sześciokątnych.",
-      "explanation_incorrect": "Pozostałe klucze służą do obsługi śrub z łbem zewnętrznym lub mają inną konstrukcję głowicy.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klucz imbusowy pasuje do wewnętrznego gniazda sześciokątnego; często ma kształt litery L, choć występuje też w innych formach.",
+      "explanation_incorrect": "Klucz dynamometryczny mierzy lub ogranicza moment i może współpracować z końcówką imbusową; pozostałe opisują inne klucze."
     },
     {
       "subcategory": "Ochrona",
-      "question": "Który syntetyczny polimer jest najczęściej wykorzystywany do produkcji medycznych rękawiczek dla alergików?",
+      "question": "Który syntetyczny materiał jest jedną z alternatyw dla rękawic z kauczuku naturalnego?",
       "options": [
-        "Lateks",
         "Nitryl",
-        "Neopren",
-        "Winyl"
+        "Kauczuk naturalny",
+        "Bawełna",
+        "Wełna"
       ],
       "answer": "Nitryl",
-      "explanation_correct": "Nitryl nie zawiera białek kauczuku naturalnego, przez co nie wywołuje alergii lateksowych.",
-      "explanation_incorrect": "Lateks silnie uczula, a pozostałe materiały mają inne właściwości ochronne.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Rękawice nitrylowe nie zawierają białek naturalnego lateksu. Możliwe są jednak uczulenia na inne składniki rękawic.",
+      "explanation_incorrect": "Neopren i winyl również są alternatywami dla naturalnego lateksu; wśród odpowiedzi nitryl jest przykładem syntetycznego kauczuku."
     },
     {
       "subcategory": "Sprzątanie",
-      "question": "Jaka porowata skała pochodzenia wulkanicznego jest używana do produkcji kosmetycznych i gospodarczych środków ściernych?",
+      "question": "Jak nazywa się porowata skała wulkaniczna stosowana m.in. jako środek ścierny?",
       "options": [
+        "Pumeks",
         "Granit",
-        "Szkliwo wulkaniczne",
         "Baryt",
         "Bazalt"
       ],
-      "answer": "Szkliwo wulkaniczne",
-      "explanation_correct": "Pumeks to pienista forma szkliwa wulkanicznego o właściwościach ściernych.",
-      "explanation_incorrect": "Granit i bazalt są skałami litymi, a baryt jest minerałem o dużej gęstości.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Pumeks",
+      "explanation_correct": "Pumeks jest silnie porowatą skałą wulkaniczną, wykorzystywaną m.in. do ścierania.",
+      "explanation_incorrect": "Granit i bazalt to inne skały, a baryt jest minerałem."
     },
     {
       "subcategory": "Materiały",
@@ -423,10 +385,8 @@
         "Poliester"
       ],
       "answer": "Wiskoza",
-      "explanation_correct": "Wiskoza to włókno półsyntetyczne produkowane z naturalnej celulozy.",
-      "explanation_incorrect": "Nylon, akryl i poliester to włókna w pełni syntetyczne produkowane na bazie ropy naftowej.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiskoza to włókno z regenerowanej celulozy, otrzymywane w procesie chemicznym.",
+      "explanation_incorrect": "Nylon, akryl i poliester to włókna syntetyczne, a nie regenerowana celuloza."
     },
     {
       "subcategory": "Elektronika",
@@ -475,22 +435,20 @@
     },
     {
       "subcategory": "Optyka",
-      "question": "Z jakiego typu polimeru wykonuje się nowoczesne, miękkie soczewki kontaktowe?",
+      "question": "Jaki uwodniony materiał polimerowy jest stosowany w miękkich soczewkach kontaktowych?",
       "options": [
         "Hydrożel",
-        "Polimetakrylan",
-        "Silikon",
-        "Polistyren"
+        "Drewno",
+        "Szkło okienne",
+        "Stal"
       ],
       "answer": "Hydrożel",
-      "explanation_correct": "Hydrożele potrafią absorbować dużą ilość wody, co zapewnia komfort noszenia soczewek.",
-      "explanation_incorrect": "Pozostałe materiały są albo zbyt twarde, albo nieprzepuszczalne w wymaganym stopniu.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Miękkie soczewki powstają z hydrożeli, w tym silikonowo-hydrożelowych; przepuszczalność tlenu zależy od materiału.",
+      "explanation_incorrect": "Pozostałe materiały nie są hydrożelem stosowanym w miękkich soczewkach."
     },
     {
       "subcategory": "Budownictwo",
-      "question": "Jaki jest podstawowy składnik mineralny pełniący funkcję spoiwa w zaczynach betonowych i zaprawach?",
+      "question": "Jakie spoiwo w połączeniu z wodą wiąże kruszywo w typowym betonie?",
       "options": [
         "Cement",
         "Wapno",
@@ -499,9 +457,7 @@
       ],
       "answer": "Cement",
       "explanation_correct": "Cement po nawodnieniu wiąże kruszywo w trwałą strukturę betonową.",
-      "explanation_incorrect": "Wapno i gips wiążą znacznie słabiej niż cement stosowany w budownictwie nośnym.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wapno i gips również mogą być spoiwami w innych zaprawach, lecz typowy beton cementowy wykorzystuje cement."
     },
     {
       "subcategory": "Przechowywanie",
@@ -514,9 +470,7 @@
       ],
       "answer": "Polietylen",
       "explanation_correct": "Polietylen (PE) jest tani, elastyczny i odporny na przebicia, idealny do folii.",
-      "explanation_incorrect": "Pozostałe polimery są zbyt sztywne lub zbyt kosztowne dla jednorazowych opakowań foliowych.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe tworzywa również mogą służyć do wyrobu opakowań, ale standardowe worki często wykonuje się z polietylenu."
     },
     {
       "subcategory": "Obuwie",
@@ -535,18 +489,16 @@
     },
     {
       "subcategory": "Dom",
-      "question": "Jaki silnie żrący związek chemiczny jest głównym składnikiem popularnych środków do udrażniania rur?",
+      "question": "Jaki żrący związek występuje w wielu alkalicznych środkach do udrażniania rur?",
       "options": [
         "Wodorotlenek sodu",
-        "Kwas siarkowy",
-        "Woda utleniona",
-        "Chlorek sodu"
+        "Wodorowęglan sodu",
+        "Chlorek sodu",
+        "Cukier"
       ],
       "answer": "Wodorotlenek sodu",
-      "explanation_correct": "Wodorotlenek sodu (ług sodowy) skutecznie rozpuszcza zatory tłuszczowe i organiczne.",
-      "explanation_incorrect": "Kwas siarkowy jest zbyt niebezpieczny, a chlorek sodu to zwykła sól kuchenna.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wodorotlenek sodu występuje w wielu zasadowych udrażniaczach. Produkty należy stosować zgodnie z etykietą i nie mieszać z innymi środkami.",
+      "explanation_incorrect": "Istnieją również udrażniacze o innych składach, w tym kwasowe; podane pozostałe związki nie są wodorotlenkiem sodu."
     },
     {
       "subcategory": "Polimery",
@@ -558,10 +510,8 @@
         "Polichlorek"
       ],
       "answer": "Politereftalan etylenu",
-      "explanation_correct": "Politereftalan etylenu (PET) to transparentny i wytrzymały tworzywo typu termoplastycznego.",
-      "explanation_incorrect": "Pozostałe skróty odnoszą się do różnych polimerów, jednak PET jest standardem w produkcji butelek.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Politereftalan etylenu (PET) to przezroczyste, wytrzymałe tworzywo termoplastyczne.",
+      "explanation_incorrect": "Pozostałe skróty odnoszą się do różnych polimerów, jednak PET jest standardem w produkcji butelek."
     },
     {
       "subcategory": "Odzież",
@@ -589,9 +539,7 @@
       ],
       "answer": "Nitroceluloza",
       "explanation_correct": "Nitroceluloza po odparowaniu rozpuszczalników tworzy trwałą i elastyczną warstwę na płytce paznokcia.",
-      "explanation_incorrect": "Pozostałe substancje nie tworzą tak trwałej, elastycznej powłoki filmotwórczej w tym zastosowaniu.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nitroceluloza jest typowym składnikiem błonotwórczym klasycznych lakierów; formuły mogą zawierać także inne polimery."
     },
     {
       "subcategory": "Paliwa",
@@ -648,10 +596,8 @@
         "Klej montażowy"
       ],
       "answer": "Masa mocująca",
-      "explanation_correct": "Masa mocująca to specjalistyczny wyrób o właściwościach adhezyjnych, który nie niszczy podłoża.",
-      "explanation_incorrect": "Silikon i kleje montażowe są trwałymi spoiwami, w przeciwieństwie do czasowej masy mocującej.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Masa mocująca służy do tymczasowego przytwierdzania lekkich przedmiotów; zależnie od podłoża może zostawić ślad lub uszkodzić powierzchnię.",
+      "explanation_incorrect": "Silikon i kleje montażowe są trwałymi spoiwami, w przeciwieństwie do czasowej masy mocującej."
     },
     {
       "subcategory": "Chemia",
@@ -659,14 +605,12 @@
       "options": [
         "Sole kwasów tłuszczowych",
         "Estry kwasów",
-        "Gliceryny",
+        "Gliceryna",
         "Alkohole wielowodorotlenowe"
       ],
       "answer": "Sole kwasów tłuszczowych",
       "explanation_correct": "Mydło jest solą sodową lub potasową wyższych kwasów tłuszczowych.",
-      "explanation_incorrect": "Pozostałe związki są produktami ubocznymi lub surowcami, ale nie stanowią istoty cząsteczki mydła.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe związki są produktami ubocznymi lub surowcami, ale nie stanowią istoty cząsteczki mydła."
     },
     {
       "subcategory": "Odzież",
@@ -685,37 +629,33 @@
     },
     {
       "subcategory": "Smarowanie",
-      "question": "Jaki typ smaru jest najczęściej zalecany do łańcuchów rowerowych ze względu na swoje właściwości redukujące tarcie?",
+      "question": "Który preparat z wymienionych jest przeznaczony do smarowania łańcucha rowerowego?",
       "options": [
-        "Smar teflonowy",
-        "Smar miedziowy",
-        "Wazelina",
-        "Olej lniany"
+        "Olej do łańcuchów rowerowych",
+        "Pasta miedziowa do śrub",
+        "Olej lniany do drewna",
+        "Klej cyjanoakrylowy"
       ],
-      "answer": "Smar teflonowy",
-      "explanation_correct": "Teflon (PTFE) tworzy powłokę zmniejszającą tarcie i ograniczającą przywieranie brudu.",
-      "explanation_incorrect": "Smar miedziowy służy do połączeń śrubowych, a wazelina i olej lniany mają niewystarczającą trwałość.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Olej do łańcuchów rowerowych",
+      "explanation_correct": "Oleje i woski do łańcuchów dobiera się do warunków jazdy; środki PTFE są tylko jedną z możliwych formuł.",
+      "explanation_incorrect": "Pozostałe produkty nie są przeznaczone jako standardowe smary do łańcuchów rowerowych."
     },
     {
       "subcategory": "Kosmetyka",
-      "question": "Jaka substancja chemiczna występuje jako główny składnik zmywaczy do paznokci nazywanych bezacetonowymi?",
+      "question": "Który rozpuszczalnik może występować w zmywaczu do paznokci bez acetonu?",
       "options": [
         "Octan etylu",
-        "Etanol",
-        "Gliceryna",
-        "Ftalany"
+        "Piasek kwarcowy",
+        "Sól kuchenna",
+        "Kreda"
       ],
       "answer": "Octan etylu",
-      "explanation_correct": "Octan etylu jest skutecznym rozpuszczalnikiem lakieru, który jest łagodniejszy od acetonu.",
-      "explanation_incorrect": "Etanol zbyt słabo rozpuszcza lakiery, a gliceryna i ftalany pełnią inne funkcje chemiczne.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Octan etylu jest jednym z rozpuszczalników stosowanych w zmywaczach bez acetonu; skład produktów bywa różny.",
+      "explanation_incorrect": "Pozostałe wymienione materiały nie są wymienionym ciekłym rozpuszczalnikiem organicznym."
     },
     {
       "subcategory": "Złącza",
-      "question": "Standardowe złącze śrubowe stosowane w większości żarówek określana jest mianem:",
+      "question": "Jak nazywa się gwintowane złącze spotykane w wielu żarówkach, np. E27?",
       "options": [
         "Gwint Edisona",
         "Złącze bagnetowe",
@@ -724,9 +664,7 @@
       ],
       "answer": "Gwint Edisona",
       "explanation_correct": "Gwint Edisona (E) jest międzynarodowym standardem połączeń gwintowanych w oświetleniu.",
-      "explanation_incorrect": "Złącza bagnetowe i metryczne nie są standardem dla typowych żarówek oświetleniowych.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Istnieją też żarówki ze złączem bagnetowym; E27 jest przykładem gwintu Edisona."
     },
     {
       "subcategory": "Budowa",
@@ -745,22 +683,20 @@
     },
     {
       "subcategory": "Przechowywanie",
-      "question": "Z jakiego najpowszechniejszego materiału wykonuje się klasyczne palety transportowe typu EURO?",
+      "question": "Z jakiego materiału wykonuje się klasyczne palety transportowe EPAL?",
       "options": [
-        "Drewno sosnowe",
-        "Płyta MDF",
-        "Dębina",
-        "Sklejka brzozowa"
+        "Drewno",
+        "Papier",
+        "Guma",
+        "Szkło"
       ],
-      "answer": "Drewno sosnowe",
-      "explanation_correct": "Drewno sosnowe jest standardowym, ekonomicznym i wytrzymałym materiałem na palety.",
-      "explanation_incorrect": "MDF czy sklejka nie posiadają odpowiedniej nośności, a dębina byłaby zbyt kosztowna.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Drewno",
+      "explanation_correct": "Standardowe palety EPAL są wykonywane z drewna różnych dopuszczonych gatunków.",
+      "explanation_incorrect": "Pozostałe materiały nie stanowią typowego materiału konstrukcyjnego klasycznej drewnianej palety EPAL."
     },
     {
       "subcategory": "Majsterkowanie",
-      "question": "W jaki sposób nazywa się narzędzie warsztatowe służące do unieruchomienia przedmiotu podczas obróbki?",
+      "question": "Jak nazywa się przyrząd ze szczękami, zwykle mocowany do stołu warsztatowego, który unieruchamia obrabiany przedmiot?",
       "options": [
         "Imadło",
         "Ścisk stolarski",
@@ -768,10 +704,8 @@
         "Szczypce"
       ],
       "answer": "Imadło",
-      "explanation_correct": "Imadło to przyrząd montowany na stałe do stołu, wyposażony w szczęki.",
-      "explanation_incorrect": "Ściski są mobilne, a klucze i szczypce służą do skręcania, nie do unieruchamiania.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Imadło ze szczękami może być zamocowane do stołu i służy do przytrzymywania przedmiotów.",
+      "explanation_incorrect": "Ścisk stolarski również unieruchamia elementy, lecz nie jest typowym imadłem stołowym."
     },
     {
       "subcategory": "Akcesoria ścierne",
@@ -784,13 +718,11 @@
       ],
       "answer": "Wata stalowa",
       "explanation_correct": "Wata stalowa tworzona jest z luźnych, cienkich włókien o różnej gradacji.",
-      "explanation_incorrect": "Pozostałe narzędzia posiadają sztywną strukturę, która mogłaby porysować polerowaną powierzchnię.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe materiały i narzędzia mają inną budowę. Również wata stalowa może zarysować delikatną powierzchnię."
     },
     {
       "subcategory": "Podróże",
-      "question": "Jaki materiał jest najczęściej wykorzystywany do produkcji wytrzymałych i lekkich walizek typu hard-shell?",
+      "question": "Które tworzywo stosuje się do produkcji wielu lekkich, sztywnych walizek?",
       "options": [
         "Poliwęglan",
         "Polietylen",
@@ -798,10 +730,8 @@
         "Poliestry"
       ],
       "answer": "Poliwęglan",
-      "explanation_correct": "Poliwęglan jest odporny na uderzenia i pęknięcia, co czyni go idealnym na obudowy walizek.",
-      "explanation_incorrect": "Inne polimery są zbyt miękkie lub zbyt kruche w porównaniu do właściwości poliwęglanu.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Poliwęglan jest jednym z tworzyw stosowanych na obudowy walizek ze względu na odporność na uderzenia.",
+      "explanation_incorrect": "Walizki wykonuje się także z innych tworzyw; poliwęglan jest jedną z popularnych opcji."
     },
     {
       "subcategory": "Biuro",
@@ -844,24 +774,20 @@
       ],
       "answer": "Glinka polerska",
       "explanation_correct": "Glinka polerska usuwa osady, których nie pozbędzie się podczas zwykłego mycia.",
-      "explanation_incorrect": "Pasty i woski służą do wykańczania i zabezpieczania, a nie do mechanicznego usuwania zanieczyszczeń.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pasta ścierna także działa mechanicznie, ale glinka służy do zbierania zanieczyszczeń osadzonych na powierzchni lakieru."
     },
     {
       "subcategory": "Ochrona",
-      "question": "Jaka substancja porowata jest filtrem stosowanym w maskach przeciwgazowych do adsorpcji toksycznych gazów?",
+      "question": "Jaki porowaty materiał stosuje się w niektórych pochłaniaczach do adsorpcji określonych gazów i par?",
       "options": [
         "Węgiel aktywny",
-        "Żel krzemionkowy",
-        "Wata szklana",
-        "Zeolity"
+        "Papier biurowy",
+        "Bawełniana nitka",
+        "Folia aluminiowa"
       ],
       "answer": "Węgiel aktywny",
-      "explanation_correct": "Węgiel aktywny posiada niezwykle dużą powierzchnię właściwą, co pozwala na wiązanie oparów chemicznych.",
-      "explanation_incorrect": "Żel krzemionkowy chłonie głównie wilgoć, a pozostałe materiały nie posiadają właściwości adsorpcyjnych dla gazów.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Węgiel aktywny adsorbuje wiele substancji, ale pochłaniacz musi być dobrany do zagrożenia; maska filtrująca nie dostarcza tlenu.",
+      "explanation_incorrect": "Również inne sorbenty, np. zeolity, adsorbują niektóre gazy; ochrona zależy od rodzaju i oznaczenia pochłaniacza."
     },
     {
       "subcategory": "Krawiectwo",
@@ -869,18 +795,16 @@
       "options": [
         "Lamus",
         "Lamówka",
-        "Taśma rypsowa",
+        "Papier ścierny",
         "Fizelina"
       ],
       "answer": "Lamówka",
       "explanation_correct": "Lamówka to wąski pasek materiału służący do obszywania krawędzi odzieży lub tekstyliów domowych.",
-      "explanation_incorrect": "Lamus to potoczne określenie miejsca na niepotrzebne rzeczy, a fizelina to włóknina do usztywniania.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Lamus to potoczne określenie miejsca na niepotrzebne rzeczy, a fizelina to włóknina do usztywniania."
     },
     {
       "subcategory": "Technika",
-      "question": "Jaką substancję chemiczną wykorzystuje się najczęściej jako główny składnik płynów hamulcowych?",
+      "question": "Jaka grupa związków jest bazą wielu płynów hamulcowych DOT 3 i DOT 4?",
       "options": [
         "Glikol",
         "Olej mineralny",
@@ -888,10 +812,8 @@
         "Glicerol"
       ],
       "answer": "Glikol",
-      "explanation_correct": "Glikole polietylenowe stanowią bazę dla płynów hamulcowych klasy DOT ze względu na wysoką temperaturę wrzenia.",
-      "explanation_incorrect": "Olej mineralny jest stosowany rzadko w specyficznych układach, a metanol jest zbyt lotny.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "DOT 3 i DOT 4 mają zazwyczaj bazę eterów glikoli; DOT 5 jest na bazie silikonu, a nie glikolu.",
+      "explanation_incorrect": "Niektóre układy wykorzystują olej mineralny, a płyny różnych typów należy dobierać zgodnie z zaleceniem producenta."
     },
     {
       "subcategory": "Szklarstwo",
@@ -903,10 +825,8 @@
         "Kit szklarski"
       ],
       "answer": "Silikon",
-      "explanation_correct": "Silikon akwarystyczny jest elastyczny i odporny na wodę, co pozwala wytrzymać napór cieczy.",
-      "explanation_incorrect": "Klej cyjanoakrylowy jest sztywny i kruchy, a kit nie zapewnia wymaganej wodoszczelności.",
-      "last_verified_at": "2026-06-12T17:09:29.980Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Silikon przeznaczony do akwariów tworzy elastyczne, wodoodporne połączenie szyb; należy stosować produkt odpowiedni do akwarium.",
+      "explanation_incorrect": "W przypadku szyb akwariowych stosuje się odpowiednio dobrany silikon akwarystyczny."
     },
     {
       "subcategory": "Uszczelnienia",
@@ -919,9 +839,7 @@
       ],
       "answer": "Teflon",
       "explanation_correct": "Taśma teflonowa (PTFE) służy do uszczelniania połączeń gwintowych w instalacjach hydraulicznych.",
-      "explanation_incorrect": "Pozostałe polimery nie wykazują odpowiedniej odporności termicznej i właściwości plastycznych wymaganych do uszczelniania gwintów.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Biała taśma uszczelniająca jest zwykle wykonana z PTFE; inne tworzywa mogą mieć inne zastosowania."
     },
     {
       "subcategory": "Wspinaczka",
@@ -940,22 +858,20 @@
     },
     {
       "subcategory": "Spawalnictwo",
-      "question": "Jaki pierwiastek chemiczny z grupy gazów szlachetnych jest najczęściej stosowany jako gaz osłonowy przy spawaniu metodą MIG/MAG?",
+      "question": "Który gaz szlachetny stosuje się jako osłonę przy spawaniu MIG oraz jako składnik wielu mieszanek MAG?",
       "options": [
         "Argon",
-        "Hel",
         "Neon",
-        "Ksenon"
+        "Ksenon",
+        "Radon"
       ],
       "answer": "Argon",
-      "explanation_correct": "Argon tworzy osłonę gazową chroniącą rozgrzany metal przed negatywnym wpływem atmosfery.",
-      "explanation_incorrect": "Pozostałe gazy szlachetne są znacznie droższe lub nie posiadają właściwości fizycznych niezbędnych do stabilizacji łuku spawalniczego.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Argon osłania spoinę przed atmosferą. W metodzie MAG stosuje się gaz aktywny, np. CO₂, lub mieszankę argonu z gazem aktywnym.",
+      "explanation_incorrect": "Hel również może być gazem osłonowym w spawaniu; w tym pytaniu chodzi o argon jako składnik wielu mieszanek MAG."
     },
     {
       "subcategory": "Rysunek",
-      "question": "Pod jaką nazwą występuje najpopularniejszy przyrząd artystyczny używany do wykonywania rysunków o głębokiej czerni?",
+      "question": "Jak nazywa się materiał rysunkowy otrzymywany przez zwęglanie drewna?",
       "options": [
         "Węgiel drzewny",
         "Grafit",
@@ -964,9 +880,7 @@
       ],
       "answer": "Węgiel drzewny",
       "explanation_correct": "Węgiel drzewny produkowany jest przez zwęglanie drewna i służy artystom do uzyskiwania miękkich, głębokich kresek.",
-      "explanation_incorrect": "Grafit daje odcień szary, natomiast sepia i sanguina to barwniki o brązowym zabarwieniu.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Grafit również służy do rysowania; sepia i sanguina to inne materiały lub barwy rysunkowe."
     },
     {
       "subcategory": "Zabezpieczenia",
@@ -993,10 +907,8 @@
         "Cynk"
       ],
       "answer": "Stal nierdzewna",
-      "explanation_correct": "Stal nierdzewna nie reaguje z kwasami zawartymi w herbacie i jest trwała w kontakcie z wrzątkiem.",
-      "explanation_incorrect": "Aluminium może wchodzić w reakcje, miedź koroduje, a cynk jest stosowany głównie jako warstwa ochronna innych metali.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stal nierdzewna jest ceniona za odporność na korozję i łatwe czyszczenie; nie jest całkowicie obojętna chemicznie w każdych warunkach.",
+      "explanation_incorrect": "Aluminium może wchodzić w reakcje, miedź koroduje, a cynk jest stosowany głównie jako warstwa ochronna innych metali."
     },
     {
       "subcategory": "Prace ogrodowe",
@@ -1009,39 +921,33 @@
       ],
       "answer": "Sekator",
       "explanation_correct": "Sekator to wyspecjalizowane narzędzie ręczne przeznaczone do precyzyjnego przycinania pędów i gałązek.",
-      "explanation_incorrect": "Nożyce do żywopłotu są przeznaczone do powierzchni, piła służy do grubych konarów, a obcęgi do prac z drutem.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Nożyce do żywopłotu również tną cienkie pędy, ale sekator jest typowym ręcznym narzędziem do pojedynczych gałązek."
     },
     {
       "subcategory": "Biuro",
       "question": "Jak nazywa się popularny przybór biurowy służący do maskowania błędów w zapisie na papierze?",
       "options": [
         "Korektor",
-        "Gumka do mazania",
-        "Tusz biały",
-        "Zmywacz"
+        "Zszywacz",
+        "Dziurkacz",
+        "Linijka"
       ],
       "answer": "Korektor",
       "explanation_correct": "Korektor nanosi warstwę kryjącą, która pozwala na ponowne zapisanie treści w miejscu błędu.",
-      "explanation_incorrect": "Gumka usuwa ślady ołówka, tusz biały to środek techniczny, a zmywacz służy do rozpuszczania lakierów.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Zszywacz, dziurkacz i linijka nie służą do nanoszenia warstwy kryjącej."
     },
     {
       "subcategory": "Naprawy",
-      "question": "Jak potocznie nazywa się dwuskładnikową masę epoksydową używaną do wypełniania ubytków w przedmiotach metalowych?",
+      "question": "Jak nazywa się handlowo dwuskładnikowy klej epoksydowy z metalicznym wypełniaczem?",
       "options": [
         "Płynny metal",
-        "Spaw zimny",
-        "Kit utwardzalny",
-        "Żywica konstrukcyjna"
+        "Guma arabska",
+        "Kreda",
+        "Klej skrobiowy"
       ],
       "answer": "Płynny metal",
-      "explanation_correct": "Płynny metal to nazwa marketingowa klejów epoksydowych z wypełniaczymi metalicznymi, które twardnieją jak odlew.",
-      "explanation_incorrect": "Pozostałe nazwy są terminami pomocniczymi, ale nie są uznawane za standardowe nazewnictwo produktowe w handlu.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Płynny metal to jedna z nazw handlowych mas epoksydowych z metalicznym wypełniaczem; takie produkty bywają też nazywane zimnym spawem.",
+      "explanation_incorrect": "Pozostałe nazwy dotyczą innych substancji i nie oznaczają takiej masy epoksydowej."
     },
     {
       "subcategory": "Izolacja termiczna",
@@ -1053,10 +959,8 @@
         "Aerożel"
       ],
       "answer": "Próżnia",
-      "explanation_correct": "Próżnia pomiędzy dwiema ściankami termosu eliminuje przewodzenie i konwekcję ciepła.",
-      "explanation_incorrect": "Pozostałe materiały są izolatorami stałymi, które nie zapewniają tak wysokiej skuteczności jak brak ośrodka w próżni.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Przestrzeń o silnie obniżonym ciśnieniu między ściankami ogranicza przewodzenie przez gaz i konwekcję. Ciepło nadal może przenikać przez podpory, korek i promieniowanie.",
+      "explanation_incorrect": "Pozostałe materiały są izolatorami stałymi, które nie zapewniają tak wysokiej skuteczności jak brak ośrodka w próżni."
     },
     {
       "subcategory": "Obuwie",
@@ -1075,22 +979,20 @@
     },
     {
       "subcategory": "Medycyna",
-      "question": "Z czego wykonuje się nici chirurgiczne rozpuszczalny, które ulegają stopniowej degradacji wewnątrz organizmu?",
+      "question": "Z jakiego syntetycznego materiału mogą być wykonane wchłanialne nici chirurgiczne?",
       "options": [
-        "Polimer syntetyczny",
-        "Jedwab naturalny",
-        "Włókno stalowe",
+        "Kwas poliglikolowy",
+        "Stal nierdzewna",
+        "Jedwab",
         "Włókno węglowe"
       ],
-      "answer": "Polimer syntetyczny",
-      "explanation_correct": "Polimery syntetyczne (np. kwas poliglikolowy) są zaprojektowane tak, aby organizm mógł je wchłonąć w bezpieczny sposób.",
-      "explanation_incorrect": "Jedwab jest materiałem biologicznym niebędącym w pełni rozpuszczalnym, a stal i węgiel to materiały żrące lub trwałe.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kwas poliglikolowy",
+      "explanation_correct": "Kwas poliglikolowy jest jednym z polimerów używanych do nici wchłanialnych; istnieją też inne materiały, w tym niektóre naturalne.",
+      "explanation_incorrect": "Jedwab i stal stosuje się w szwach niewchłanialnych; włókno węglowe nie jest podanym materiałem wchłanialnym."
     },
     {
       "subcategory": "Piśmiennictwo",
-      "question": "Jaka część pióra wiecznego odpowiada bezpośrednio za dozowanie atramentu na papier?",
+      "question": "Jak nazywa się metalowa końcówka pióra wiecznego, która styka się z papierem?",
       "options": [
         "Stalówka",
         "Spływak",
@@ -1098,10 +1000,8 @@
         "Skuwka"
       ],
       "answer": "Stalówka",
-      "explanation_correct": "Stalówka to metalowa końcówka posiadająca szczelinę, która dzięki zjawisku kapilarnemu podaje atrament.",
-      "explanation_incorrect": "Spływak steruje przepływem, konwerter przechowuje atrament, a skuwka jest elementem ochronnym.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stalówka ma szczelinę doprowadzającą atrament do papieru; spływak reguluje dopływ atramentu i powietrza.",
+      "explanation_incorrect": "Spływak steruje przepływem, konwerter przechowuje atrament, a skuwka osłania stalówkę."
     },
     {
       "subcategory": "Gospodarstwo domowe",
@@ -1114,9 +1014,7 @@
       ],
       "answer": "Pianka poliuretanowa",
       "explanation_correct": "Pianka poliuretanowa jest lekka, chłonna i odporna na detergenty, co czyni ją idealną do zmywania naczyń.",
-      "explanation_incorrect": "Lateks, wiskoza i silikon nie posiadają struktury komórkowej wymaganej do tworzenia skutecznej piany myjącej.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Myjki mogą powstawać także z innych materiałów, w tym z celulozy; w wielu żółtych gąbkach stosuje się piankę poliuretanową."
     },
     {
       "subcategory": "Automobilklub",
@@ -1128,10 +1026,8 @@
         "Higrometr"
       ],
       "answer": "Manometr",
-      "explanation_correct": "Manometr służy do mierzenia ciśnienia względnego w różnych układach mechanicznych.",
-      "explanation_incorrect": "Barometr mierzy ciśnienie atmosferyczne, wakuometr podciśnienie, a higrometr wilgotność powietrza.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Manometr mierzy ciśnienie w układzie; w zależności od konstrukcji może wskazywać ciśnienie względem atmosfery lub inną jego miarę.",
+      "explanation_incorrect": "Barometr mierzy ciśnienie atmosferyczne, wakuometr podciśnienie, a higrometr wilgotność powietrza."
     },
     {
       "subcategory": "Elektronika",
@@ -1144,9 +1040,7 @@
       ],
       "answer": "Krzem",
       "explanation_correct": "Krzem jest najszerzej stosowanym półprzewodnikiem ze względu na swoje właściwości elektryczne i szeroką dostępność.",
-      "explanation_incorrect": "Pozostałe pierwiastki również mają właściwości półprzewodnikowe, ale są znacznie trudniejsze lub kosztowniejsze w przetwórstwie.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "German jest półprzewodnikiem; gal i arsen wykorzystuje się m.in. w półprzewodnikowych związkach, takich jak arsenek galu."
     },
     {
       "subcategory": "Sztuka",
@@ -1188,10 +1082,8 @@
         "Zamek"
       ],
       "answer": "Klamra",
-      "explanation_correct": "Klamra używa ramki i bolca do stabilnego połączenia końców paska.",
-      "explanation_incorrect": "Zatrzask, szpila i typowy zamek to zapięcia działające na innych zasadach mechanicznych.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klamra pozwala zapiąć pasek; wiele modeli ma bolec i ramkę, ale istnieją również inne konstrukcje.",
+      "explanation_incorrect": "Zatrzask, szpila i typowy zamek to zapięcia działające na innych zasadach mechanicznych."
     },
     {
       "subcategory": "Kuchnia",
@@ -1210,18 +1102,16 @@
     },
     {
       "subcategory": "Klucze",
-      "question": "Jak potocznie nazywamy klucz nastawny, którego jedna szczęka jest przesuwana za pomocą śruby (przekładni ślimakowej), przypominający kształtem literę L?",
+      "question": "Jak potocznie nazywa się klucz nastawny o gładkich szczękach, z których jedna przesuwa się za pomocą ślimaka?",
       "options": [
-        "klucz szwedzki",
+        "klucz oczkowy",
         "klucz angielski",
         "klucz płaski",
         "klucz imbusowy"
       ],
       "answer": "klucz angielski",
-      "explanation_correct": "Klucz angielski posiada charakterystyczne szczęki poprzeczne i mechanizm ślimakowy w rękojeści.",
-      "explanation_incorrect": "Klucz szwedzki to zazwyczaj duży klucz nastawny do rur, a klucz płaski ma stały rozmiar.",
-      "last_verified_at": "2026-06-12T17:10:31.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klucz angielski ma szczękę przesuwaną śrubą ślimakową. Nazewnictwo potoczne kluczy nastawnych bywa niejednolite.",
+      "explanation_incorrect": "Klucze oczkowy i płaski mają zwykle stały rozmiar, a imbusowy pasuje do gniazda sześciokątnego."
     },
     {
       "subcategory": "Galanteria",
@@ -1248,10 +1138,8 @@
         "Nakrętka mosiężna"
       ],
       "answer": "Kulka stalowa",
-      "explanation_correct": "Kulka stalowa po potrząśnięciu puszką rozbija pigment farby.",
-      "explanation_incorrect": "Inne elementy nie są stosowane ze względu na ryzyko korozji lub brak efektywności w mieszaniu.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kulka pomaga mieszać zawartość puszki i rozbijać osad pigmentu podczas potrząsania.",
+      "explanation_incorrect": "Kulka mieszająca jest charakterystycznym elementem wielu puszek farby w sprayu."
     },
     {
       "subcategory": "Biżuteria",
@@ -1264,9 +1152,7 @@
       ],
       "answer": "Różowe złoto",
       "explanation_correct": "Różowe złoto zawiera domieszkę miedzi, która odpowiada za jego odcień.",
-      "explanation_incorrect": "Pozostałe materiały mają inny skład chemiczny lub nie są stopami złota.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Białe złoto jest również stopem złota, ale zawiera dodatki nadające mu jaśniejszą barwę; różowe złoto zawdzięcza odcień miedzi."
     },
     {
       "subcategory": "Higiena",
@@ -1279,9 +1165,7 @@
       ],
       "answer": "Bawełna",
       "explanation_correct": "Bawełna jest wybierana ze względu na wysoką chłonność i miękkość.",
-      "explanation_incorrect": "Pozostałe materiały albo nie mają wystarczających właściwości chłonnych, albo są zbytnio podrażniające.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Patyczki mogą zawierać również inne chłonne włókna; klasycznym materiałem końcówki jest bawełna."
     },
     {
       "subcategory": "Baterie",
@@ -1300,18 +1184,16 @@
     },
     {
       "subcategory": "Meble",
-      "question": "Jak nazywamy półprzezroczysty środek ochronny do drewna, często na bazie wosku, który podkreśla rysunek słojów?",
+      "question": "Jak nazywa się półprzezroczysty środek dekoracyjno-ochronny do drewna, podkreślający jego usłojenie?",
       "options": [
         "Lazura",
-        "Lakier",
-        "Emalia",
-        "Bejca"
+        "Kreda",
+        "Farba tablicowa",
+        "Zaprawa murarska"
       ],
       "answer": "Lazura",
-      "explanation_correct": "Lazura tworzy warstwę ochronną, która pozwala drewnu oddychać i uwydatnia jego fakturę.",
-      "explanation_incorrect": "Pozostałe produkty tworzą nieprzezroczystą powłokę lub wnikają głębiej bez tworzenia warstwy ochronnej.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Lazura może chronić drewno i jednocześnie pozostawiać widoczny rysunek słojów; dostępne są różne formuły.",
+      "explanation_incorrect": "Pozostałe materiały nie są lazurą przeznaczoną do dekoracyjnej ochrony drewna."
     },
     {
       "subcategory": "Sport",
@@ -1330,18 +1212,16 @@
     },
     {
       "subcategory": "Ochrona drewna",
-      "question": "Która naturalna żywica pochodzenia drzewnego jest głównym składnikiem produkcji tradycyjnego pokostu?",
+      "question": "Z jakiego oleju tradycyjnie wytwarza się pokost lniany?",
       "options": [
-        "Kalafonia",
-        "Bursztyn",
-        "Kopal",
-        "Damara"
+        "Olej lniany",
+        "Olej mineralny",
+        "Olej kokosowy",
+        "Olej silikonowy"
       ],
-      "answer": "Kalafonia",
-      "explanation_correct": "Kalafonia jest produktem destylacji żywicy drzew iglastych i utwardza powierzchnie.",
-      "explanation_incorrect": "Inne żywice są zbyt twarde lub słabo rozpuszczalne w procesie produkcji pokostu.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Olej lniany",
+      "explanation_correct": "Pokost lniany wytwarza się z oleju lnianego, który tworzy na powierzchni drewna wysychającą powłokę.",
+      "explanation_incorrect": "Pozostałe oleje nie są olejem lnianym, od którego pochodzi nazwa pokostu."
     },
     {
       "subcategory": "Papiery",
@@ -1375,18 +1255,16 @@
     },
     {
       "subcategory": "Oznakowanie",
-      "question": "Jak nazywamy farbę zawierającą pigmenty emitujące światło własne po uprzednim naświetleniu?",
+      "question": "Jak nazywa się farba zawierająca pigment, który świeci jeszcze przez pewien czas po zakończeniu naświetlania?",
       "options": [
-        "Farba luminescencyjna",
+        "Farba fosforyzująca",
         "Farba metaliczna",
-        "Farba emulsyjna",
-        "Farba lateksowa"
+        "Farba tablicowa",
+        "Farba kredowa"
       ],
-      "answer": "Farba luminescencyjna",
-      "explanation_correct": "Farba luminescencyjna (fosforyzująca) magazynuje energię świetlną i oddaje ją w ciemności.",
-      "explanation_incorrect": "Pozostałe farby mają inne właściwości użytkowe, jak odporność na zmywanie czy połysk metaliczny.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Farba fosforyzująca",
+      "explanation_correct": "Pigment fosforyzujący pochłania energię światła i emituje ją jeszcze po ustaniu naświetlania; to rodzaj luminescencji.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają same z siebie utrzymującego się świecenia po naświetleniu."
     },
     {
       "subcategory": "Krawiectwo",
@@ -1435,7 +1313,7 @@
     },
     {
       "subcategory": "Ścierniwa",
-      "question": "Jaki materiał ścierny, będący tlenkiem glinu, najczęściej pokrywa profesjonalne papiery ścierne?",
+      "question": "Jak nazywa się materiał ścierny będący syntetycznym tlenkiem glinu i stosowany na papierach ściernych?",
       "options": [
         "Elektrokorund",
         "Kwarc",
@@ -1444,13 +1322,11 @@
       ],
       "answer": "Elektrokorund",
       "explanation_correct": "Elektrokorund jest powszechnie stosowany w obróbce drewna i metalu.",
-      "explanation_incorrect": "Kwarc jest zbyt miękki/kruchy, a inne materiały są dedykowane do specjalistycznych, twardszych zadań.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Węglik krzemu i diament również są materiałami ściernymi, ale nie są tlenkiem glinu."
     },
     {
       "subcategory": "Pojemniki",
-      "question": "Z jakiego naturalnego surowca najczęściej wyplata się klasyczne, plecione kosze?",
+      "question": "Jakiego surowca używa się w polskim plecionkarstwie do wyrobu koszy wiklinowych?",
       "options": [
         "Wierzba",
         "Bambus",
@@ -1459,9 +1335,7 @@
       ],
       "answer": "Wierzba",
       "explanation_correct": "Wiklina, czyli pędy wierzby, jest standardem w polskim plecionkarstwie.",
-      "explanation_incorrect": "Inne opcje to materiały zagraniczne lub o innej strukturze włókien.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kosze można wyplatać również z bambusa, rattanu czy słomy; wiklinę stanowią pędy wierzby."
     },
     {
       "subcategory": "Narzędzia miernicze",
@@ -1474,9 +1348,7 @@
       ],
       "answer": "Pion sznurowy",
       "explanation_correct": "Pion sznurowy wykorzystuje siłę grawitacji do wyznaczania linii pionowej.",
-      "explanation_incorrect": "Poziomica mierzy płaszczyznę poziomą, a kątownik służy do wyznaczania kątów prostych.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Poziomica może służyć do sprawdzania zarówno poziomu, jak i pionu; pion sznurowy wykorzystuje zawieszony obciążnik."
     },
     {
       "subcategory": "Hydraulika",
@@ -1488,10 +1360,8 @@
         "Podkładka"
       ],
       "answer": "O-ring",
-      "explanation_correct": "O-ring swoją nazwę zawdzięcza okrągłemu profilowi 'O'.",
-      "explanation_incorrect": "Pozostałe uszczelki mają inny przekrój lub konstrukcję przeznaczoną do innych zastosowań.",
-      "last_verified_at": "2026-06-12T17:09:42.931Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "O-ring to uszczelka w kształcie pierścienia, zwykle o okrągłym przekroju; wykonywana jest z różnych elastomerów.",
+      "explanation_incorrect": "Pozostałe uszczelki mają inny przekrój lub konstrukcję przeznaczoną do innych zastosowań."
     },
     {
       "subcategory": "Oświetlenie",
