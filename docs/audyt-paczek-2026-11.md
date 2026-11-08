@@ -122,6 +122,8 @@ Kolejna partia 2026-11-06: przejrzano paczki o zabawkach i muzyce klasycznej, zm
 
 - **Teatr i Sceny Świata (PL):** przegląd 68 pytań, korekty 55 pozycji; [raport](audits/2026-11-08-teatr-i-sceny-swiata-pl.md).
 
+- **Zegar i Czasoprzestrzeń (PL):** przegląd 100 pytań, korekty 80 pozycji i niezależna kontrola wybranych tez fizycznych; [raport](audits/2026-11-08-zegar-i-czasoprzestrzen-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
