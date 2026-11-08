@@ -170,6 +170,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **General Knowledge (EN):** przegląd 577 pytań i korekty 102 rekordów; [raport](audits/2026-11-08-general-en.md). Pozostają podobne tematycznie pytania.
 
+- **Might and Magic (EN):** przegląd 100 pytań i korekty 70 rekordów; [raport](audits/2026-11-08-might-and-magic-en.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
