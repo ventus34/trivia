@@ -151,6 +151,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 - **Roman Mythology & Legends (EN):** przegląd 100 pytań, korekty 41 pozycji i synchronizacja opisu z indeksem; [raport](audits/2026-11-08-roman-mythology-legends-en.md).
 - **Sztuka i Kultura Wysoka (PL):** przegląd 100 pytań, korekty 80 pozycji; [raport](audits/2026-11-08-sztuka-i-kultura-wysoka-pl.md).
 
+- **Mitologia słowiańska (PL), uzupełnienie:** zastąpiono 18 powtarzających się pytań; zakres, źródła i ograniczenia w [raporcie](audits/2026-11-07-mitologia-slowianska-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
