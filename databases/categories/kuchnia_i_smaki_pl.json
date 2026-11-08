@@ -4,13 +4,11 @@
   "language": "pl",
   "description": "Pytania z zakresu: Kulinaria włoskie, Enoteka, Mikrobiologia żywności, Owoce morza...",
   "created_at": "2026-06-12T15:15:29.148Z",
-  "last_verified_at": "2026-06-12T15:15:28.510Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Kulinaria włoskie",
-      "question": "Jak nazywa się tradycyjny włoski sos przyrządzany z liści bazylii, orzeszków pinii, czosnku, sera oraz oliwy?",
+      "question": "Jak nazywa się tradycyjny liguryjski sos przygotowywany z bazylii, orzeszków pinii, czosnku, sera i oliwy?",
       "options": [
         "Pesto",
         "Marinara",
@@ -19,9 +17,7 @@
       ],
       "answer": "Pesto",
       "explanation_correct": "Pesto alla genovese wywodzi się z Ligurii i tradycyjnie ucierane jest w marmurowym moździerzu.",
-      "explanation_incorrect": "Pozostałe opcje to sosy na bazie pomidorów lub mięsa.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Marinara i arrabbiata to inne sosy, a ragù alla bolognese jest sosem mięsnym."
     },
     {
       "subcategory": "Enoteka",
@@ -33,10 +29,8 @@
         "Montepulciano"
       ],
       "answer": "Sangiovese",
-      "explanation_correct": "Zgodnie z apelacją DOCG, Chianti musi zawierać od 70% do 100% winogron odmiany Sangiovese.",
-      "explanation_incorrect": "Nebbiolo i Barbera są charakterystyczne dla Piemontu, a Montepulciano to odrębny szczep z Abruzji.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sangiovese jest podstawowym szczepem Chianti; szczegółowe proporcje wynikają ze specyfikacji danej apelacji.",
+      "explanation_incorrect": "Nebbiolo i Barbera są charakterystyczne dla Piemontu, a Montepulciano to odrębny szczep z Abruzji."
     },
     {
       "subcategory": "Mikrobiologia żywności",
@@ -49,9 +43,7 @@
       ],
       "answer": "Lactobacillus bulgaricus",
       "explanation_correct": "Lactobacillus bulgaricus przekształca laktozę w kwas mlekowy, co powoduje koagulację białek mleka.",
-      "explanation_incorrect": "Pozostałe wymienione gatunki to głównie bakterie chorobotwórcze lub zanieczyszczające żywność.",
-      "last_verified_at": "2026-06-12T15:12:26.715Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pozostałe gatunki mogą obejmować szczepy chorobotwórcze lub zanieczyszczające; cechy E. coli zależą od szczepu."
     },
     {
       "subcategory": "Owoce morza",
@@ -78,25 +70,21 @@
         "Trzcina cukrowa"
       ],
       "answer": "Błękitna agawa",
-      "explanation_correct": "Tequila powstaje z sfermentowanego soku Agave tequilana Weber, głównie w stanie Jalisco.",
-      "explanation_incorrect": "Z trzciny powstaje rum, a aloes i jukka nie są wykorzystywane do produkcji tego trunku.",
-      "last_verified_at": "2026-06-12T15:12:26.716Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tequila jest wytwarzana z agawy tequilana Weber odmiany niebieskiej w określonym obszarze Meksyku; specyfikacja dopuszcza różne kategorie trunku.",
+      "explanation_incorrect": "Z trzciny powstaje rum, a aloes i jukka nie są wykorzystywane do produkcji tego trunku."
     },
     {
       "subcategory": "Wypieki",
-      "question": "Związkiem chemicznym o jakiej nazwie jest popularny w cukiernictwie 'amoniak do ciast'?",
+      "question": "Jaką grupę substancji spulchniających potocznie nazywa się „amoniakiem do ciast”?",
       "options": [
-        "Węglan amonu",
+        "Węglany amonu",
         "Wodorowęglan sodu",
         "Chlorek potasu",
         "Siarczan magnezu"
       ],
-      "answer": "Węglan amonu",
-      "explanation_correct": "Węglan amonu ulega całkowitemu rozkładowi pod wpływem temperatury, co spulchnia ciasto i nadaje mu chrupkość.",
-      "explanation_incorrect": "Wodorowęglan sodu to soda oczyszczona, a pozostałe związki nie są używane jako spulchniacze spożywcze.",
-      "last_verified_at": "2026-06-12T15:12:26.716Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Węglany amonu",
+      "explanation_correct": "Amoniak do ciast to potoczna nazwa spulchniaczy z grupy węglanów amonu, obejmującej m.in. wodorowęglan amonu; skład zależy od produktu.",
+      "explanation_incorrect": "Wodorowęglan sodu to soda oczyszczona; pozostałe wymienione sole nie są nazwą grupy węglanów amonu."
     },
     {
       "subcategory": "Sztuka serowarska",
@@ -115,7 +103,7 @@
     },
     {
       "subcategory": "Przyprawy",
-      "question": "Która przyprawa, pozyskiwana ze słupków kwiatowych krokusa uprawnego, jest uznawana za najdroższą na świecie?",
+      "question": "Która przyprawa jest pozyskiwana z suszonych znamion kwiatów krokusa uprawnego?",
       "options": [
         "Wanilia",
         "Szafran",
@@ -124,28 +112,24 @@
       ],
       "answer": "Szafran",
       "explanation_correct": "Wysoka cena wynika z konieczności ręcznego zbioru tysięcy znamion kwiatów dla uzyskania niewielkiej ilości przyprawy.",
-      "explanation_incorrect": "Wanilia jest druga w rankingu cen, natomiast kardamon i kurkuma są znacznie tańsze.",
-      "last_verified_at": "2026-06-12T15:12:26.716Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Wanilia, kardamon i kurkuma pochodzą z innych roślin; ceny przypraw różnią się zależnie od jakości i rynku."
     },
     {
       "subcategory": "Botanika kulinarna",
-      "question": "Do jakiej rodziny roślin należą pnącza, z których pozyskuje się laski wanilii?",
+      "question": "Do której rodziny roślin należy wanilia, z której owoców powstaje przyprawa?",
       "options": [
         "Bobowate",
-        "Storczyk",
+        "Storczykowate",
         "Psiankowate",
         "Różowate"
       ],
-      "answer": "Storczyk",
-      "explanation_correct": "Vanilla planifolia to gatunek storczyka pochodzący z Meksyku, którego owoce poddaje się fermentacji.",
-      "explanation_incorrect": "Bobowate obejmują fasolę, a psiankowate np. pomidory i paprykę.",
-      "last_verified_at": "2026-06-12T15:12:26.716Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Storczykowate",
+      "explanation_correct": "Vanilla planifolia jest gatunkiem z rodziny storczykowatych. Po zbiorze jej owoce poddaje się wieloetapowej obróbce rozwijającej aromat.",
+      "explanation_incorrect": "Bobowate obejmują fasolę, a psiankowate np. pomidory i paprykę."
     },
     {
       "subcategory": "Metody konserwacji",
-      "question": "Jak nazywa się proces sterylizacji żywności płynnej polegający na ekspozycji na temperaturę ponad 100 stopni Celsjusza przez kilka sekund?",
+      "question": "Jak nazywa się metoda krótkotrwałego ogrzewania żywności płynnej do bardzo wysokiej temperatury, stosowana np. do mleka trwałego?",
       "options": [
         "Konfitowanie",
         "Liofilizacja",
@@ -153,10 +137,8 @@
         "Peklowanie"
       ],
       "answer": "Metoda UHT",
-      "explanation_correct": "System Ultra-High Temperature niszczy drobnoustroje, pozwalając na długie przechowywanie produktów bez lodówki.",
-      "explanation_incorrect": "Liofilizacja to suszenie mrozem, a konfitowanie i peklowanie to zupełnie inne techniki utrwalania.",
-      "last_verified_at": "2026-06-12T15:12:26.716Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "UHT to obróbka w bardzo wysokiej temperaturze przez krótki czas. Trwałość przed otwarciem zależy także od aseptycznego pakowania; po otwarciu produkt wymaga właściwego przechowywania.",
+      "explanation_incorrect": "Liofilizacja to suszenie mrozem, a konfitowanie i peklowanie to zupełnie inne techniki utrwalania."
     },
     {
       "subcategory": "Kuchnia japońska",
@@ -183,10 +165,8 @@
         "Cierpki"
       ],
       "answer": "Umami",
-      "explanation_correct": "Smak umami jest związany z wykrywaniem kwasu glutaminowego i nukleotydów przez receptory na języku.",
-      "explanation_incorrect": "Gorzka jest jedną z czterech klasycznych nut, a metaliczny i cierpki nie są uznawane za smaki podstawowe.",
-      "last_verified_at": "2026-06-12T15:12:26.716Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Umami jest związane m.in. z wykrywaniem glutaminianu; niektóre nukleotydy mogą wzmacniać to odczucie.",
+      "explanation_incorrect": "Gorzka jest jedną z czterech klasycznych nut, a metaliczny i cierpki nie są uznawane za smaki podstawowe."
     },
     {
       "subcategory": "Egzotyczne owoce",
@@ -198,10 +178,8 @@
         "Jackfruit"
       ],
       "answer": "Durian",
-      "explanation_correct": "Ze względu na odrażający zapach durian jest często objęty zakazem wnoszenia do hoteli i środków transportu publicznego.",
-      "explanation_incorrect": "Rambutan i mangostan mają łagodny aromat, a jackfruit pachnie intensywnie słodko, lecz nie gnilnie.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Durian jest znany z bardzo intensywnego zapachu, który bywa odbierany różnie przez różne osoby.",
+      "explanation_incorrect": "Rambutan, mangostan i jackfruit są innymi owocami; ich aromaty także różnią się zależnie od odmiany i dojrzałości."
     },
     {
       "subcategory": "Techniki kucharskie",
@@ -213,14 +191,12 @@
         "Deglasowanie"
       ],
       "answer": "Sous-vide",
-      "explanation_correct": "Termin ten oznacza po francusku 'w próżni' i zapobiega utracie wilgoci oraz aromatu przez produkt.",
-      "explanation_incorrect": "Flambirowanie to podpalanie alkoholu, a blanszowanie to krótkie zanurzenie we wrzątku.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sous-vide oznacza „w próżni”; żywność gotuje się w szczelnych opakowaniach przy kontrolowanej temperaturze. Bezpieczeństwo zależy od właściwego czasu, temperatury i przechowywania.",
+      "explanation_incorrect": "Flambirowanie to podpalanie alkoholu, a blanszowanie to krótkie zanurzenie we wrzątku."
     },
     {
       "subcategory": "Substancje słodzące",
-      "question": "Która roślina, pochodząca z Ameryki Południowej, jest powszechnie stosowana jako naturalny, bezkaloryczny zamiennik cukru?",
+      "question": "Z której rośliny pozyskuje się glikozydy stewiolowe stosowane jako intensywne substancje słodzące?",
       "options": [
         "Lukrecja",
         "Stewia",
@@ -228,10 +204,8 @@
         "Agawa"
       ],
       "answer": "Stewia",
-      "explanation_correct": "Glikozydy stewiolowe zawarte w liściach stewii są wielokrotnie słodsze od sacharozy.",
-      "explanation_incorrect": "Ksylitol to alkohol cukrowy pozyskiwany z brzozy, a lukrecja i agawa zawierają kalorie szklane.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Liście stewii zawierają glikozydy stewiolowe, które są wielokrotnie słodsze od sacharozy; właściwości produktu zależą od jego składu.",
+      "explanation_incorrect": "Ksylitol jest alkoholem cukrowym, a lukrecja i agawa pochodzą z innych roślin."
     },
     {
       "subcategory": "Enologia",
@@ -243,10 +217,8 @@
         "Aspergillus niger"
       ],
       "answer": "Botrytis cinerea",
-      "explanation_correct": "Botrytis cinerea atakuje dojrzałe owoce w specyficznych warunkach pogodowych, tworząc np. wina typu Tokaj.",
-      "explanation_incorrect": "Penicillium to pleśń serowa, a Saccharomyces to drożdże winiarskie i piekarskie.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Botrytis cinerea może w określonych warunkach wywołać szlachetną pleśń i koncentrację składników winogron; w innych warunkach może powodować niepożądaną zgniliznę.",
+      "explanation_incorrect": "Penicillium to pleśń serowa, a Saccharomyces to drożdże winiarskie i piekarskie."
     },
     {
       "subcategory": "Kuchnia perska",
@@ -258,10 +230,8 @@
         "Biryani"
       ],
       "answer": "Tahdig",
-      "explanation_correct": "Tahdig to najbardziej pożądana część potrawy, powstająca na dnie garnka podczas powolnego duszenia ryżu.",
-      "explanation_incorrect": "Pilaw i Biryani to całe dania ryżowe, a hummus to pasta z ciecierzycy.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tahdig to przyrumieniona warstwa powstająca na dnie garnka; można ją przygotować m.in. z ryżu, chleba lub ziemniaków.",
+      "explanation_incorrect": "Pilaw i Biryani to całe dania ryżowe, a hummus to pasta z ciecierzycy."
     },
     {
       "subcategory": "Bromatologia",
@@ -273,10 +243,8 @@
         "Allicyna"
       ],
       "answer": "Kapsaicyna",
-      "explanation_correct": "Moc kapsaicyny w produktach spożywczych mierzy się za pomocą skali Scoville'a (SHU).",
-      "explanation_incorrect": "Piperyna odpowiada za ostrość pieprzu, a allicyna znajduje się w czosnku.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ostrość papryki wyraża się m.in. w jednostkach Scoville’a; wrażenia mogą zależeć także od składu potrawy.",
+      "explanation_incorrect": "Piperyna odpowiada za ostrość pieprzu, a allicyna znajduje się w czosnku."
     },
     {
       "subcategory": "Techniki barmańskie",
@@ -295,7 +263,7 @@
     },
     {
       "subcategory": "Kuchnia japońska",
-      "question": "Jak nazywa się gęsta, słona pasta z fermentowanej soi i ryżu, stanowiąca fundament wielu japońskich zup i marynat?",
+      "question": "Jak nazywa się japońska pasta fermentowana, przygotowywana m.in. z soi, soli i kōji?",
       "options": [
         "Tofu",
         "Miso",
@@ -303,10 +271,8 @@
         "Tempeh"
       ],
       "answer": "Miso",
-      "explanation_correct": "Pasta miso powstaje przy użyciu pleśni kōji i jest bogatym źródłem białka oraz probiotyków.",
-      "explanation_incorrect": "Tofu to twarożek sojowy, tempeh to produkt fermentowany z całych ziaren, a wasabi to ostry chrzan.",
-      "last_verified_at": "2026-06-12T15:12:26.717Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Miso występuje w wielu odmianach; może powstawać m.in. z soi oraz ryżu lub jęczmienia. Zawartość żywych drobnoustrojów zależy od obróbki produktu.",
+      "explanation_incorrect": "Tofu jest produktem z mleka sojowego, tempeh często powstaje z fermentowanych ziaren soi, a wasabi jest przyprawą z innej rośliny."
     },
     {
       "subcategory": "Cukiernictwo",
@@ -319,9 +285,7 @@
       ],
       "answer": "Beza",
       "explanation_correct": "Beza powstaje poprzez napowietrzenie białek i stabilizację struktury cukrem. Może być suszona lub pieczona.",
-      "explanation_incorrect": "Pudding to deser na bazie mleka, mus ma kremową konsystencję, a suflet wymaga pieczenia z dodatkiem żółtek podawany na ciepło.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mus i suflet mogą mieć różny skład; beza jest oparta na ubitych białkach i cukrze."
     },
     {
       "subcategory": "Serowarstwo",
@@ -334,13 +298,11 @@
       ],
       "answer": "Afinacja",
       "explanation_correct": "Afinacja to sztuka nadzorowania dojrzewania serów w celu wydobycia z nich głębi smaku i aromatu.",
-      "explanation_incorrect": "Pasteryzacja to obróbka cieplna, koagulacja to ścinanie białek, a homogenizacja to rozbijanie cząsteczek tłuszczu.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Pasteryzacja jest obróbką cieplną, koagulacja ścinaniem białek, a homogenizacja rozdrabnia krople tłuszczu."
     },
     {
       "subcategory": "Kuchnia meksykańska",
-      "question": "Który meksykański sos charakteryzuje się unikalnym dodatkiem gorzkiej czekolady lub kakao oraz chili?",
+      "question": "Który sos z Puebla przygotowuje się m.in. z papryczek chili i często czekolady?",
       "options": [
         "Salsa verde",
         "Mole poblano",
@@ -348,10 +310,8 @@
         "Pico de gallo"
       ],
       "answer": "Mole poblano",
-      "explanation_correct": "Mole poblano to tradycyjny, gęsty sos z meksykańskiego stanu Puebla, zawierający kilkanaście składników, w tym kakao.",
-      "explanation_incorrect": "Salsa verde opiera się na tomatillo, guacamole na awokado, a pico de gallo to świeża sałatka z pomidorów i cebuli.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mole poblano to sos kojarzony z Pueblą; receptury mogą zawierać chili, przyprawy, orzechy i czekoladę, a inne rodzaje mole także mogą zawierać kakao.",
+      "explanation_incorrect": "Salsa verde opiera się na tomatillo, guacamole na awokado, a pico de gallo to świeża sałatka z pomidorów i cebuli."
     },
     {
       "subcategory": "Gastronomia molekularna",
@@ -364,13 +324,11 @@
       ],
       "answer": "Sferyfikacja",
       "explanation_correct": "Sferyfikacja wykorzystuje reakcję alginianu sodu z solami wapnia do tworzenia kuleczek przypominających kawior.",
-      "explanation_incorrect": "Liofilizacja to suszenie mrozem, emulsyfikacja to łączenie tłuszczu z wodą, a wędzenie to metoda konserwacji dymem.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Liofilizacja polega na suszeniu zamrożonego produktu przez sublimację, a emulsyfikacja na rozproszeniu jednej niemieszającej się cieczy w drugiej."
     },
     {
       "subcategory": "Mykologia kulinarna",
-      "question": "Który gatunek trufli, występujący głównie w regionie Piemontu we Włoszech, uznawany jest za najdroższy na świecie?",
+      "question": "Która trufla o nazwie naukowej Tuber magnatum jest kojarzona m.in. z Piemontem?",
       "options": [
         "Trufla czarnozarodnikowa",
         "Trufla biała",
@@ -378,10 +336,8 @@
         "Trufla zimowa"
       ],
       "answer": "Trufla biała",
-      "explanation_correct": "Trufla biała (Tuber magnatum) jest niezwykle rzadka i nie poddaje się uprawie, co czyni ją najdroższym grzybem jadalnym.",
-      "explanation_incorrect": "Trufla czarnozarodnikowa jest ceniona, ale tańsza; trufla letnia i zimowa mają znacznie niższe ceny rynkowe.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tuber magnatum to ceniona biała trufla. Jest zbierana w naturze, a badacze uzyskali także owocniki na plantacji poza jej naturalnym zasięgiem.",
+      "explanation_incorrect": "Trufle czarna, letnia i zimowa należą do innych gatunków; ich ceny zmieniają się zależnie od sezonu i jakości."
     },
     {
       "subcategory": "Napoje roślinne",
@@ -408,10 +364,8 @@
         "Żelatyna"
       ],
       "answer": "Gluten",
-      "explanation_correct": "Gluten powstaje z połączenia gliadyny i gluteniny zawartych w ziarnach zbóż pod wpływem wody.",
-      "explanation_incorrect": "Albumina to białko jaja, kazeina jest białkiem mleka, a żelatyna to białko zwierzęce pochodzenia kolagenowego.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Gluten to sieć białek, głównie gliadyn i glutenin pszenicy, rozwijająca się po uwodnieniu i mieszaniu ciasta.",
+      "explanation_incorrect": "Albumina to białko jaja, kazeina jest białkiem mleka, a żelatyna to białko zwierzęce pochodzenia kolagenowego."
     },
     {
       "subcategory": "Kuchnia indyjska",
@@ -423,10 +377,8 @@
         "Smalec"
       ],
       "answer": "Ghee",
-      "explanation_correct": "Ghee to forma klarowanego masła, która dzięki usunięciu cząstek stałych mleka może być przechowywana bez chłodzenia i ma wysoki punkt dymienia.",
-      "explanation_incorrect": "Smalec jest tłuszczem pochodzenia wieprzowego, a margaryna to utwardzony tłuszcz roślinny.",
-      "last_verified_at": "2026-06-12T15:13:55.001Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Ghee jest formą klarowanego masła, z którego usunięto większość wody i oddzielono część składników mlecznych. Warunki przechowywania zależą od produktu.",
+      "explanation_incorrect": "Smalec jest tłuszczem zwierzęcym, a margaryna emulsją tłuszczów i wody o składzie zależnym od wyrobu."
     },
     {
       "subcategory": "Wędliniarstwo",
@@ -445,22 +397,20 @@
     },
     {
       "subcategory": "Ziołolecznictwo kulinarne",
-      "question": "Jaką potoczną nazwę z uwagi na swój specyficzny zapach nosi w zielarstwie kolendra siewna?",
+      "question": "Jak nazywa się zioło o nazwie naukowej Coriandrum sativum?",
       "options": [
         "Lubczyk",
-        "Pluskwica",
+        "Kolendra siewna",
         "Bazylia",
         "Estragon"
       ],
-      "answer": "Pluskwica",
-      "explanation_correct": "Nazwa kolendra pochodzi od greckiego słowa 'koris', oznaczającego pluskwę, co nawiązuje do aromatu jej niedojrzałych owoców.",
-      "explanation_incorrect": "Lubczyk to zioło o smaku maggi, bazylia ma aromat anyżowo-cytrusowy, a estragon przypomina w smaku lukrecję.",
-      "last_verified_at": "2026-06-12T15:12:26.718Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Kolendra siewna",
+      "explanation_correct": "Kolendra siewna jest używana zarówno jako świeże liście, jak i suszone owoce przyprawowe.",
+      "explanation_incorrect": "Lubczyk, bazylia i estragon są innymi roślinami przyprawowymi."
     },
     {
       "subcategory": "Kuchnia koreańska",
-      "question": "W jakim kamiennym naczyniu tradycyjnie przygotowuje się i podaje koreańską potrawę bibimbap?",
+      "question": "Jak nazywa się kamienna misa używana do podawania gorącej odmiany koreańskiego bibimbapu?",
       "options": [
         "Wok",
         "Dolsot",
@@ -468,10 +418,8 @@
         "Kociołek"
       ],
       "answer": "Dolsot",
-      "explanation_correct": "Dolsot to ciężka kamienna miska, która długo utrzymuje ciepło, pozwalając na wytworzenie chrupiącej warstwy ryżu na dnie.",
-      "explanation_incorrect": "Wok to chińska patelnia, tagine to stożkowate naczynie marokańskie, a kociołek służy do gulaszów nad ogniskiem.",
-      "last_verified_at": "2026-06-12T15:12:26.719Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dolsot utrzymuje ciepło i bywa używany do podawania dolsot bibimbap; inne odmiany bibimbapu nie wymagają kamiennej misy.",
+      "explanation_incorrect": "Wok to chińska patelnia, tagine to stożkowate naczynie marokańskie, a kociołek służy do gulaszów nad ogniskiem."
     },
     {
       "subcategory": "Enologia",
@@ -498,10 +446,8 @@
         "Macedoine"
       ],
       "answer": "Julienne",
-      "explanation_correct": "Słupki julienne mają zazwyczaj około 1-2 mm grubości i 4-5 cm długości, co przyspiesza ich obróbkę termiczną.",
-      "explanation_incorrect": "Brunoise to bardzo drobna kostka, chiffonade to cienkie paski liści, a macedoine to kostka o boku ok. 5 mm.",
-      "last_verified_at": "2026-06-12T15:12:26.719Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Julienne oznacza cięcie warzyw w cienkie słupki; dokładne wymiary zależą od przyjętego standardu.",
+      "explanation_incorrect": "Brunoise to bardzo drobna kostka, chiffonade to cienkie paski liści, a macedoine to kostka o boku ok. 5 mm."
     },
     {
       "subcategory": "Mykologia kulinarna",
@@ -520,7 +466,7 @@
     },
     {
       "subcategory": "Serowarstwo",
-      "question": "Który tradycyjny grecki ser jest wytwarzany z mieszanki mleka owczego i koziego, a następnie przechowywany w solance?",
+      "question": "Który grecki ser o chronionej nazwie pochodzenia produkuje się z mleka owczego lub jego mieszanki z mlekiem kozim?",
       "options": [
         "Halloumi",
         "Feta",
@@ -528,10 +474,8 @@
         "Mozzarella"
       ],
       "answer": "Feta",
-      "explanation_correct": "Feta posiada chronioną nazwę pochodzenia i musi zawierać co najmniej 70% mleka owczego.",
-      "explanation_incorrect": "Halloumi to strukturalny ser cypryjski, ricotta powstaje z serwatki, a mozzarella to włoski ser z masy parzonej.",
-      "last_verified_at": "2026-06-12T15:12:26.719Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Feta ChNP powstaje z mleka owczego albo z mieszanki owczego i koziego zgodnie ze specyfikacją; udział mleka koziego jest ograniczony.",
+      "explanation_incorrect": "Halloumi jest serem związanym z Cyprem, ricotta produktem serwatkowym, a mozzarella włoskim serem typu pasta filata."
     },
     {
       "subcategory": "Cukiernictwo",
@@ -543,10 +487,8 @@
         "Ganache"
       ],
       "answer": "Zabaione",
-      "explanation_correct": "Zabaione (zabaglione) ubija się na parze do uzyskania gęstej, puszystej konsystencji i podaje zazwyczaj na ciepło.",
-      "explanation_incorrect": "Panna cotta to śmietankowa galaretka, tiramisu to deser warstwowy, a ganache to masa z czekolady i śmietanki.",
-      "last_verified_at": "2026-06-12T15:12:26.719Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zabaglione ubija się z żółtek i cukru, często z winem, zwykle nad kąpielą wodną; przepisy różnią się składnikami i sposobem podania.",
+      "explanation_incorrect": "Panna cotta to śmietankowa galaretka, tiramisu to deser warstwowy, a ganache to masa z czekolady i śmietanki."
     },
     {
       "subcategory": "Kuchnia indyjska",
@@ -558,10 +500,8 @@
         "Brazier"
       ],
       "answer": "Tandoor",
-      "explanation_correct": "Piec tandoor osiąga temperatury bliskie 480 stopni Celsjusza, co umożliwia szybkie pieczenie chlebków naan i mięs.",
-      "explanation_incorrect": "Kama to japoński kocioł do ryżu, irori to tradycyjne palenisko, a brazier to rodzaj przenośnego grilla.",
-      "last_verified_at": "2026-06-12T15:12:26.719Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tandoor to piec wykorzystywany m.in. do pieczenia pieczywa i mięs; jego temperatura zależy od konstrukcji i sposobu opalania.",
+      "explanation_incorrect": "Kama to japoński kocioł do ryżu, irori to tradycyjne palenisko, a brazier to rodzaj przenośnego grilla."
     },
     {
       "subcategory": "Etnobotanika",
@@ -573,14 +513,12 @@
         "Pasternak"
       ],
       "answer": "Maniok jadalny",
-      "explanation_correct": "Tapioka powstaje poprzez mielenie bulw manioku i oddzielenie skrobi od soku, który w surowej postaci jest toksyczny.",
-      "explanation_incorrect": "Batat to słodki ziemniak, taro to bulwiasta roślina o fioletowym zabarwieniu, a pasternak to warzywo korzeniowe z rodziny selerowatych.",
-      "last_verified_at": "2026-06-12T15:12:26.719Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tapioka jest skrobią otrzymywaną z korzeni manioku. Nieprawidłowo przetworzony maniok może zawierać szkodliwe związki cyjanogenne.",
+      "explanation_incorrect": "Batat to słodki ziemniak, taro to bulwiasta roślina o fioletowym zabarwieniu, a pasternak to warzywo korzeniowe z rodziny selerowatych."
     },
     {
       "subcategory": "Baristyka",
-      "question": "Jakim terminem określa się gęstą, orzechowo-brązową piankę pojawiającą się na powierzchni prawidłowo zaparzonego espresso?",
+      "question": "Jak nazywa się pianka widoczna na powierzchni espresso?",
       "options": [
         "Lungo",
         "Crema",
@@ -588,14 +526,12 @@
         "Bloom"
       ],
       "answer": "Crema",
-      "explanation_correct": "Crema składa się z zemulgowanych olejków kawowych i jest wskaźnikiem świeżości ziaren oraz poprawnej ekstrakcji kofeiny.",
-      "explanation_incorrect": "Lungo to przedłużone espresso, mousse to ogólne określenie musu, a bloom to zjawisko uwalniania gazu podczas parzenia metodami przelewowymi.",
-      "last_verified_at": "2026-06-12T15:14:16.628Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Crema jest pianką zawierającą pęcherzyki gazu i składniki kawy; sama jej obecność nie potwierdza jakości ekstrakcji ani zawartości kofeiny.",
+      "explanation_incorrect": "Lungo to przedłużone espresso, mousse to ogólne określenie musu, a bloom to zjawisko uwalniania gazu podczas parzenia metodami przelewowymi."
     },
     {
       "subcategory": "Kuchnia japońska",
-      "question": "Jak nazywa się korzeń rośliny Eutrema japonicum, znany z bardzo ostrego smaku i intensywnego zielonego koloru?",
+      "question": "Jak nazywa się przyprawa z tartego kłącza rośliny Eutrema japonicum?",
       "options": [
         "Imbir",
         "Wasabi",
@@ -603,10 +539,8 @@
         "Kurkuma"
       ],
       "answer": "Wasabi",
-      "explanation_correct": "Prawdziwe wasabi jest trudne w uprawie i ściera się je na tarce z rekiniej skóry tuż przed podaniem do sushi.",
-      "explanation_incorrect": "Imbir to kłącze o cytrynowej nucie, chrzan pospolity jest biały, a kurkuma to intensywnie żółty barwnik i przyprawa.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wasabi otrzymuje się z kłącza Eutrema japonicum. Niektóre produkty sprzedawane jako wasabi zawierają również inne składniki, np. chrzan.",
+      "explanation_incorrect": "Imbir to kłącze o cytrynowej nucie, chrzan pospolity jest biały, a kurkuma to intensywnie żółty barwnik i przyprawa."
     },
     {
       "subcategory": "Przetwórstwo rybne",
@@ -618,10 +552,8 @@
         "Sardynka"
       ],
       "answer": "Anchovis",
-      "explanation_correct": "Anchovis to przetwory z sardeli europejskiej poddane dojrzewaniu w solance, co nadaje im intensywny smak. Są kluczowym składnikiem wielu dań śródziemnomorskich.",
-      "explanation_incorrect": "Surimi to masa rybna, matjas to młody śledź, a sardynka to gatunek ryby często mylony z sardelą, ale o innym profilu smakowym.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Anchovies to przetwory z sardeli, często solone i dojrzewające; sposób ich przygotowania i podania różni się zależnie od produktu.",
+      "explanation_incorrect": "Surimi to masa rybna, matjas to młody śledź, a sardynka to gatunek ryby często mylony z sardelą, ale o innym profilu smakowym."
     },
     {
       "subcategory": "Gastronomia molekularna",
@@ -633,14 +565,12 @@
         "Guma ksantanowa"
       ],
       "answer": "Agar-agar",
-      "explanation_correct": "Agar-agar jest roślinnym zamiennikiem żelatyny, który rozpuszcza się w wysokich temperaturach i tężeje szybciej niż produkty zwierzęce.",
-      "explanation_incorrect": "Pektyna pochodzi z owoców, żelatyna jest pochodzenia zwierzęcego, a guma ksantanowa to produkt fermentacji bakteryjnej.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Agar jest środkiem żelującym otrzymywanym z krasnorostów. Jego właściwości zależą m.in. od stężenia i składu potrawy.",
+      "explanation_incorrect": "Pektyna pochodzi z owoców, żelatyna jest pochodzenia zwierzęcego, a guma ksantanowa to produkt fermentacji bakteryjnej."
     },
     {
       "subcategory": "Kuchnia wietnamska",
-      "question": "Która tradycyjna zupa z szerokimi kluskami ryżowymi oraz ziołami uznawana jest za narodowe danie Wietnamu?",
+      "question": "Jak nazywa się wietnamska zupa z makaronem ryżowym i aromatycznym bulionem?",
       "options": [
         "Ramen",
         "Tom Yum",
@@ -648,29 +578,25 @@
         "Laksa"
       ],
       "answer": "Pho",
-      "explanation_correct": "Zupa Pho składa się z aromatycznego bulionu, makaronu ryżowego oraz mięsa (zazwyczaj wołowiny lub kurczaka).",
-      "explanation_incorrect": "Ramen pochodzi z Japonii, Tom Yum z Tajlandii, a Laksa jest popularna w regionie Malezji i Indonezji.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Phở to wietnamska zupa z makaronem ryżowym i bulionem, często z wołowiną lub kurczakiem; istnieją różne warianty.",
+      "explanation_incorrect": "Ramen pochodzi z Japonii, Tom Yum z Tajlandii, a Laksa jest popularna w regionie Malezji i Indonezji."
     },
     {
       "subcategory": "Mikrobiologia spożywcza",
-      "question": "Który organizm jednokomórkowy z królestwa grzybów jest odpowiedzialny za proces fermentacji alkoholowej w cieście chlebowym?",
+      "question": "Jak nazywa się gatunek drożdży powszechnie używany do fermentacji ciasta chlebowego?",
       "options": [
-        "Drożdże piekarskie",
-        "Pleśń szlachetna",
-        "Bakterie kwasu mlekowego",
-        "Drożdże piwowarskie"
+        "Saccharomyces cerevisiae",
+        "Penicillium roqueforti",
+        "Lactobacillus delbrueckii",
+        "Botrytis cinerea"
       ],
-      "answer": "Drożdże piekarskie",
-      "explanation_correct": "Drożdże piekarskie (Saccharomyces cerevisiae) produkują dwutlenek węgla, który powoduje wyrastanie ciasta.",
-      "explanation_incorrect": "Pleśń służy do produkcji serów, bakterie mlekowe zakwaszają produkty, a drożdże piwowarskie są selekcjonowane pod kątem produkcji napojów.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Saccharomyces cerevisiae",
+      "explanation_correct": "Saccharomyces cerevisiae wytwarza dwutlenek węgla podczas fermentacji ciasta. Różne szczepy tego gatunku stosuje się również w piwowarstwie.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne mikroorganizmy; nie są nazwą wskazanego gatunku drożdży."
     },
     {
       "subcategory": "Kultura picia herbaty",
-      "question": "Jak nazywa się tradycyjne metalowe naczynie używane w Rosji i Iranie do parzenia herbaty oraz gotowania wody?",
+      "question": "Jak nazywa się metalowe urządzenie do podgrzewania wody, tradycyjnie związane z podawaniem herbaty w Rosji i Iranie?",
       "options": [
         "Cajnik",
         "Samowar",
@@ -679,9 +605,7 @@
       ],
       "answer": "Samowar",
       "explanation_correct": "Samowar posiada wewnętrzny komin na paliwo stałe lub grzałkę elektryczną, co pozwala na stałe utrzymywanie wysokiej temperatury wody.",
-      "explanation_incorrect": "Cajnik to po prostu imbryk, kociołek służy do gotowania potraw nad ogniem, a tygiel używany jest głównie do parzenia kawy.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Cajnik to po prostu imbryk, kociołek służy do gotowania potraw nad ogniem, a tygiel używany jest głównie do parzenia kawy."
     },
     {
       "subcategory": "Kuchnia koreańska",
@@ -693,10 +617,8 @@
         "Bibimbap"
       ],
       "answer": "Kimchi",
-      "explanation_correct": "Kimchi to superfood i kluczowy element diety koreańskiej, znany ze swoich właściwości probiotycznych.",
-      "explanation_incorrect": "Bulgogi to danie mięsne, kimbap przypomina sushi, a bibimbap to ryż z dodatkami serwowany w misce.",
-      "last_verified_at": "2026-06-12T15:14:16.629Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kimchi obejmuje różne koreańskie przetwory warzywne, często fermentowane; skład, ostrość i obecność żywych mikroorganizmów zależą od rodzaju i obróbki.",
+      "explanation_incorrect": "Bulgogi to danie mięsne, kimbap przypomina sushi, a bibimbap to ryż z dodatkami serwowany w misce."
     },
     {
       "subcategory": "Enologia",
@@ -708,10 +630,8 @@
         "Tanina"
       ],
       "answer": "Kamień winny",
-      "explanation_correct": "Kamień winny jest całkowicie bezpieczny i nie wpływa negatywnie na smak wina, świadcząc często o naturalnym charakterze trunku.",
-      "explanation_incorrect": "Korek to zamknięcie, mętność to wada klarowności, a taniny to związki polifenolowe wpływające na cierpkość wina.",
-      "last_verified_at": "2026-06-12T15:14:16.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kamień winny to kryształki winianów, które mogą wytrącać się w winie. Ich obecność nie jest dowodem jakości czy określonej metody produkcji.",
+      "explanation_incorrect": "Korek to zamknięcie, mętność to wada klarowności, a taniny to związki polifenolowe wpływające na cierpkość wina."
     },
     {
       "subcategory": "Kuchnia indyjska",
@@ -723,10 +643,8 @@
         "Dziki ryż"
       ],
       "answer": "Basmati",
-      "explanation_correct": "Ziarna ryżu basmati podczas gotowania wydłużają się, zamiast stawać się pęczatymi, co jest cechą charakterystyczną tej szlachetnej odmiany.",
-      "explanation_incorrect": "Arborio służy do risotto, jaśminowy ma kwiatowy aromat i kleistą strukturę, a dziki ryż to botanicznie inna roślina - zizania.",
-      "last_verified_at": "2026-06-12T15:14:16.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Basmati to grupa aromatycznych odmian ryżu długoziarnistego, których ziarna zwykle wydłużają się podczas gotowania.",
+      "explanation_incorrect": "Arborio służy do risotto, jaśminowy ma kwiatowy aromat i kleistą strukturę, a dziki ryż to botanicznie inna roślina - zizania."
     },
     {
       "subcategory": "Serowarstwo",
@@ -735,17 +653,15 @@
         "Penicillium roqueforti",
         "Penicillium camemberti",
         "Mucor miehei",
-        "Saccharomyces bulgaricus"
+        "Saccharomyces cerevisiae"
       ],
       "answer": "Penicillium camemberti",
       "explanation_correct": "Ten gatunek pleśni tworzy miękką, jadalną skórkę i wpływa na dojrzewanie wnętrza sera.",
-      "explanation_incorrect": "P. roqueforti odpowiada za sery z niebieską pleśnią, a Saccharomyces to drożdże.",
-      "last_verified_at": "2026-06-12T15:14:16.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "P. roqueforti jest stosowany m.in. w serach z niebieską pleśnią, a S. cerevisiae jest drożdżem."
     },
     {
       "subcategory": "Baristyka",
-      "question": "Który gatunek krzewu kawowego dostarcza ziaren o wyższej kwasowości, bardziej złożonym profilu smaku i niższej zawartości kofeiny?",
+      "question": "Który gatunek kawy, często porównywany z robustą, nosi nazwę naukową Coffea arabica?",
       "options": [
         "Robusta",
         "Liberica",
@@ -753,14 +669,12 @@
         "Excelsa"
       ],
       "answer": "Arabica",
-      "explanation_correct": "Arabica stanowi około 60-70% światowej produkcji kawy i jest uznawana za odmianę szlachetniejszą od Robusty.",
-      "explanation_incorrect": "Robusta jest odporniejsza i bardziej gorzka, Liberica ma specyficzny smak, a Excelsa jest rzadko spotykaną odmianą azjatycką.",
-      "last_verified_at": "2026-06-12T15:14:16.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Arabika to Coffea arabica; robusta jest jedną z handlowych grup kawy Coffea canephora. Smak i zawartość kofeiny zależą m.in. od odmiany i obróbki.",
+      "explanation_incorrect": "Robusta jest odporniejsza i bardziej gorzka, Liberica ma specyficzny smak, a Excelsa jest rzadko spotykaną odmianą azjatycką."
     },
     {
       "subcategory": "Kuchnia japońska",
-      "question": "Jak nazywa się bazowy bulion w kuchni japońskiej, sporządzany z wodorostów kombu oraz suszonych płatków tuńczyka bonito?",
+      "question": "Jak nazywa się japoński bulion, którego popularną wersję przygotowuje się z kombu i płatków suszonej ryby?",
       "options": [
         "Miso",
         "Dashi",
@@ -768,14 +682,12 @@
         "Shoyu"
       ],
       "answer": "Dashi",
-      "explanation_correct": "Dashi stanowi fundament smaku umami w zupach, sosach i innych potrawach kuchni japońskiej.",
-      "explanation_incorrect": "Miso to pasta ze sfermentowanej soi, mirin to słodkie wino ryżowe, a shoyu to sos sojowy.",
-      "last_verified_at": "2026-06-12T15:14:16.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Dashi ma wiele odmian; jedna z nich wykorzystuje kombu i katsuobushi, czyli suszoną i obrabianą rybę.",
+      "explanation_incorrect": "Miso to pasta ze sfermentowanej soi, mirin to słodkie wino ryżowe, a shoyu to sos sojowy."
     },
     {
       "subcategory": "Botanika kulinarna",
-      "question": "Która część rośliny gatunku Cynara scolymus jest uważana za najbardziej szlachetną i jadalną po usunięciu twardych łusek?",
+      "question": "Jak nazywa się delikatne dno kwiatowe pąka karczocha, jadane po usunięciu twardych części?",
       "options": [
         "Łodyga",
         "Korzeń",
@@ -784,9 +696,7 @@
       ],
       "answer": "Serce karczocha",
       "explanation_correct": "Serce karczocha to dno kwiatowe pąka rośliny, które po ugotowaniu ma delikatny, maślany smak.",
-      "explanation_incorrect": "Karczoch jest kwiatostanem, więc łodyga i korzeń nie są głównymi częściami jadalnymi, a liście zewnętrzne są zbyt włókniste.",
-      "last_verified_at": "2026-06-12T15:14:16.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "W kuchni wykorzystuje się też m.in. mięsiste nasady niektórych łusek i odpowiednio przygotowane fragmenty łodygi."
     },
     {
       "subcategory": "Kuchnia arabska",
@@ -799,13 +709,11 @@
       ],
       "answer": "Falafel",
       "explanation_correct": "Falafel to popularne danie Bliskiego Wschodu, często podawane w chlebie pita z warzywami i sosem tahini.",
-      "explanation_incorrect": "Hummus to pasta z ciecierzycy, kofta to danie mięsne, a tabbouleh to sałatka z kaszy bulgur.",
-      "last_verified_at": "2026-06-12T15:14:16.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hummus to pasta z ciecierzycy, tabbouleh sałatka, a kofta obejmuje różne rodzaje dań, również bezmięsne."
     },
     {
       "subcategory": "Chemia żywności",
-      "question": "Jak nazywa się proces nieenzymatycznego brązowienia żywności, kluczowy dla smaku pieczonego mięsa lub chleba?",
+      "question": "Jak nazywa się reakcja aminokwasów i cukrów redukujących, która przyczynia się do brązowienia i aromatu pieczonej żywności?",
       "options": [
         "Karmelizacja",
         "Reakcja Maillarda",
@@ -814,9 +722,7 @@
       ],
       "answer": "Reakcja Maillarda",
       "explanation_correct": "Jest to złożona interakcja między aminokwasami a cukrami redukującymi, zachodząca podczas obróbki cieplnej.",
-      "explanation_incorrect": "Karmelizacja dotyczy tylko cukrów, a fermentacja to proces mikrobiologiczny.",
-      "last_verified_at": "2026-06-12T15:14:16.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Karmelizacja dotyczy przemian cukrów pod wpływem ciepła, a fermentacja octowa to proces mikrobiologiczny."
     },
     {
       "subcategory": "Kuchnia peruwiańska",
@@ -828,10 +734,8 @@
         "Poke"
       ],
       "answer": "Ceviche",
-      "explanation_correct": "Kwas cytrynowy powoduje denaturację białek w rybie, co daje efekt podobny do obróbki cieplnej bez użycia wysokiej temperatury.",
-      "explanation_incorrect": "Carpaccio to cienkie plastry surowego mięsa, tartar jest siekany, a poke to hawajska sałatka z ryżem.",
-      "last_verified_at": "2026-06-12T15:14:16.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sok cytrusowy zmienia białka ryby i jej wygląd, ale marynowanie nie jest równoważne gotowaniu i nie gwarantuje usunięcia pasożytów ani bakterii.",
+      "explanation_incorrect": "Carpaccio, tatar i poke występują w wielu wersjach, także rybnych; ceviche jest kojarzone z marynowaniem w cytrusach."
     },
     {
       "subcategory": "Przetwórstwo mięsne",
@@ -850,7 +754,7 @@
     },
     {
       "subcategory": "Techniki piekarnicze",
-      "question": "Jak nazywa się naturalna kultura bakterii i drożdży żyjąca w mące i wodzie, używana do spulchniania chleba zamiast drożdży komercyjnych?",
+      "question": "Jak nazywa się fermentująca mieszanina mąki żytniej i wody wykorzystywana do wypieku chleba?",
       "options": [
         "Zakwas żytni",
         "Słód winny",
@@ -858,10 +762,8 @@
         "Proszek do pieczenia"
       ],
       "answer": "Zakwas żytni",
-      "explanation_correct": "Zakwas powstaje w procesie spontanicznej fermentacji, zapewniając pieczywu charakterystyczny kwaśny profil smakowy i lepszą trwałość.",
-      "explanation_incorrect": "Słód to ziarno, podpuszczka służy do produkcji sera, a proszek do pieczenia to środek chemiczny, nie biologiczny.",
-      "last_verified_at": "2026-06-12T15:14:16.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zakwas żytni zawiera drożdże oraz bakterie kwasu mlekowego i może nadawać pieczywu kwaśny smak.",
+      "explanation_incorrect": "Słód to ziarno, podpuszczka służy do produkcji sera, a proszek do pieczenia to środek chemiczny, nie biologiczny."
     },
     {
       "subcategory": "Kuchnia grecka",
@@ -874,9 +776,7 @@
       ],
       "answer": "Tzatziki",
       "explanation_correct": "Tzatziki jest nieodłącznym elementem kuchni greckiej, często serwowanym z grillowanym mięsem typu souvlaki.",
-      "explanation_incorrect": "Aioli to sos majonezowy z czosnkiem, guacamole robione jest z awokado, a baba ghanoush z bakłażana.",
-      "last_verified_at": "2026-06-12T15:14:16.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Aioli tradycyjnie może być emulsją czosnku i oliwy, a współczesne przepisy miewają różny skład; guacamole powstaje z awokado."
     },
     {
       "subcategory": "Cukiernictwo",
@@ -898,15 +798,13 @@
       "question": "Jak nazywa się popularna nazwa kultury bakterii i drożdży (SCOBY) używanej do fermentacji herbaty w celu uzyskania napoju o nazwie kombucha?",
       "options": [
         "Grzybek herbaciany",
-        "Grzybek tybetański",
         "Ziarna kefirowe",
-        "Zakwas herbaciany"
+        "Drożdże piekarskie",
+        "Proszek do pieczenia"
       ],
       "answer": "Grzybek herbaciany",
-      "explanation_correct": "Grzybek herbaciany (SCOBY) to symbiotyczna kultura drożdży i bakterii kwasu octowego.",
-      "explanation_incorrect": "Grzybek tybetański i ziarna kefirowe służą do produkcji napojów mlecznych lub wodnych o innym składzie mikrobiologicznym.",
-      "last_verified_at": "2026-06-12T15:15:28.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Grzybek herbaciany to potoczna nazwa kultury mikroorganizmów związanej z kombuchą. Żywe bakterie i drożdże obecne są także w płynie fermentacyjnym.",
+      "explanation_incorrect": "Ziarna kefirowe, drożdże piekarskie i proszek do pieczenia nie oznaczają kultury kombuchy."
     },
     {
       "subcategory": "Kuchnia koreańska",
@@ -918,10 +816,8 @@
         "Dolsot"
       ],
       "answer": "Onggi",
-      "explanation_correct": "Onggi to mikroporowata ceramika, która umożliwia fermentację kimchi i past sojowych. Specyficzne właściwości gliny pozwalają na cyrkulację powietrza, co sprzyja rozwojowi pożytecznych bakterii.",
-      "explanation_incorrect": "Ttukbaegi to ceramiczne garnki do zup, a Yugi to naczynia z brązu, które nie mają właściwości porowatych niezbędnych do długotrwałej fermentacji.",
-      "last_verified_at": "2026-06-12T15:14:16.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Onggi to tradycyjne koreańskie naczynia ceramiczne używane m.in. do przechowywania i fermentacji past czy warzyw.",
+      "explanation_incorrect": "Ttukbaegi to ceramiczne garnki do gotowania, a yugi naczynia z metalu; fermentacja nie jest możliwa wyłącznie w onggi."
     },
     {
       "subcategory": "Enologia",
@@ -933,10 +829,8 @@
         "Assemblage"
       ],
       "answer": "Terroir",
-      "explanation_correct": "Terroir to zespół warunków geologicznych i klimatycznych, które nadają winu z konkretnej winnicy niepowtarzalny charakter.",
-      "explanation_incorrect": "Cuvée odnosi się do konkretnej partii wina, a Assemblage to proces mieszania różnych odmian winogron.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Terroir obejmuje zespół czynników miejsca, takich jak gleba, klimat i praktyki związane z produkcją, które mogą wpływać na charakter produktu.",
+      "explanation_incorrect": "Cuvée odnosi się do konkretnej partii wina, a Assemblage to proces mieszania różnych odmian winogron."
     },
     {
       "subcategory": "Kuchnia japońska",
@@ -948,10 +842,8 @@
         "Sasanishiki"
       ],
       "answer": "Mochigome",
-      "explanation_correct": "Mochigome to podgatunek ryżu kleistego o wysokiej zawartości amylopektyny, która nadaje ciastu charakterystyczną ciągliwość.",
-      "explanation_incorrect": "Koshihikari to ryż stołowy o innej strukturze skrobi, który po ugotowaniu nie uzyskuje konsystencji wymaganej dla mochi.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Mochigome to japoński ryż kleisty bogaty w amylopektynę, używany do przygotowania mochi.",
+      "explanation_incorrect": "Koshihikari to ryż stołowy o innej strukturze skrobi, który po ugotowaniu nie uzyskuje konsystencji wymaganej dla mochi."
     },
     {
       "subcategory": "Techniki barmańskie",
@@ -979,9 +871,7 @@
       ],
       "answer": "Marcypan",
       "explanation_correct": "Marcypan to masa powstająca z mielonych migdałów i cukru pudru, ceniona za wysoką plastyczność i szlachetny smak.",
-      "explanation_incorrect": "Ganache to emulsja czekolady i śmietanki, która ma zbyt miękką konsystencję, by służyć jako trwała masa modelarska.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Ganache ma zmienną konsystencję w zależności od proporcji i temperatury; nie jest nazwą masy z migdałów i cukru."
     },
     {
       "subcategory": "Kuchnia arabska",
@@ -993,14 +883,12 @@
         "Harissa"
       ],
       "answer": "Zaatar",
-      "explanation_correct": "Zaatar to kultowa przyprawa Lewantu, w której sumak nadaje cytrusową nutę, a sezam orzechowy aromat.",
-      "explanation_incorrect": "Ras el hanout to bogata mieszanka korzenna zawierająca nawet kilkadziesiąt składników, nieoparta na bazie sezamu i sumaku.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Za’atar oznacza zarówno określone zioła, jak i mieszanki przypraw; ich skład różni się regionalnie i może obejmować sezam oraz sumak.",
+      "explanation_incorrect": "Ras el hanout to bogata mieszanka korzenna zawierająca nawet kilkadziesiąt składników, nieoparta na bazie sezamu i sumaku."
     },
     {
       "subcategory": "Serowarstwo",
-      "question": "Który enzym jest kluczowy w produkcji serów do ścinania mleka w zwartą masę?",
+      "question": "Jak nazywa się preparat enzymatyczny używany do ścinania mleka podczas produkcji wielu serów?",
       "options": [
         "Amylaza",
         "Podpuszczka",
@@ -1008,10 +896,8 @@
         "Laktoza"
       ],
       "answer": "Podpuszczka",
-      "explanation_correct": "Podpuszczka powoduje koagulację kazeiny, co jest pierwszym etapem powstawania większości serów dojrzewających.",
-      "explanation_incorrect": "Amylaza rozkłada skrobię, lipaza tłuszcze, a laktoza to cukier mleczny.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Podpuszczka to preparat zawierający enzymy ścinające mleko, m.in. chymozynę w tradycyjnej podpuszczce zwierzęcej.",
+      "explanation_incorrect": "Amylaza i lipaza są enzymami o innych głównych funkcjach, a laktoza jest cukrem mlecznym."
     },
     {
       "subcategory": "Kuchnia indyjska",
@@ -1023,10 +909,8 @@
         "Beurre Bosc"
       ],
       "answer": "Smen",
-      "explanation_correct": "Smen to tradycyjny tłuszcz północnoafrykański, który fermentuje pod ziemią lub w glinianych naczyniach, zyskując unikalny profil smakowy.",
-      "explanation_incorrect": "Ghee to indyjskie masło klarowane, które jest poddawane obróbce cieplnej, ale zazwyczaj nie przechodzi długiego procesu fermentacji charakteryzującego smen.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Smen to północnoafrykańskie masło poddawane dojrzewaniu; receptury i sposób przechowywania różnią się między regionami.",
+      "explanation_incorrect": "Ghee to indyjskie masło klarowane, które jest poddawane obróbce cieplnej, ale zazwyczaj nie przechodzi długiego procesu fermentacji charakteryzującego smen."
     },
     {
       "subcategory": "Botanika kulinarna",
@@ -1038,14 +922,12 @@
         "Hoja Santa"
       ],
       "answer": "Culantro",
-      "explanation_correct": "Culantro (mikołajek cuchnący) ma znacznie silniejszy aromat niż kolendra i zachowuje go nawet po wysuszeniu lub ugotowaniu.",
-      "explanation_incorrect": "Cilantro to hiszpańska nazwa kolendry siewnej, a Epazote i Hoja Santa to zioła o zupełnie innym profilu aromatycznym.",
-      "last_verified_at": "2026-06-12T15:15:28.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Culantro to nazwa Eryngium foetidum, aromatycznej rośliny wykorzystywanej m.in. w kuchniach Ameryki Łacińskiej i Karaibów.",
+      "explanation_incorrect": "Cilantro to hiszpańska nazwa kolendry siewnej, a Epazote i Hoja Santa to zioła o zupełnie innym profilu aromatycznym."
     },
     {
       "subcategory": "Kuchnia peruwiańska",
-      "question": "Jak nazywa się płyn pozostały po marynowaniu ryby w ceviche, uznawany w Peru za energetyzujący afrodyzjak?",
+      "question": "Jak w kuchni Peru nazywa się cytrusowa marynata lub sok podawany z ceviche?",
       "options": [
         "Chicha",
         "Pisco",
@@ -1053,10 +935,8 @@
         "Aguapanela"
       ],
       "answer": "Leche de tigre",
-      "explanation_correct": "Leche de tigre (mleko tygrysa) zawiera sok z limonki, cebulę, paprykę chili oraz soki z surowych ryb uwolnione podczas marynowania.",
-      "explanation_incorrect": "Chicha to sfermentowany napój z kukurydzy, natomiast Pisco to peruwiański mocny alkohol destylowany z winogron.",
-      "last_verified_at": "2026-06-12T15:14:16.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Leche de tigre to nazwa płynu związanego z ceviche. Sok z surowej ryby może zawierać patogeny; kwas cytrusowy nie gwarantuje ich usunięcia.",
+      "explanation_incorrect": "Chicha to sfermentowany napój z kukurydzy, natomiast Pisco to peruwiański mocny alkohol destylowany z winogron."
     },
     {
       "subcategory": "Techniki krojenia",
@@ -1068,10 +948,8 @@
         "Batonnet"
       ],
       "answer": "Brunoise",
-      "explanation_correct": "Brunoise to najdrobniejsza technika krojenia w kostkę, najczęściej stosowana przy przygotowaniu baz do sosów oraz wykwintnych garni.",
-      "explanation_incorrect": "Julienne to cięcie w cienkie słupki (zapałkę), natomiast Macedoine to kostka o znacznie większych wymiarach (ok. 5 mm).",
-      "last_verified_at": "2026-06-12T15:14:16.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Brunoise to drobna kostka warzywna; jej dokładne wymiary różnią się zależnie od źródła i standardu.",
+      "explanation_incorrect": "Julienne to cięcie w cienkie słupki (zapałkę), natomiast Macedoine to kostka o znacznie większych wymiarach (ok. 5 mm)."
     },
     {
       "subcategory": "Kuchnia francuska",
@@ -1083,10 +961,8 @@
         "Sos hiszpański"
       ],
       "answer": "Sos holenderski",
-      "explanation_correct": "Sos holenderski to trwała emulsja tłuszczu i jajek, stanowiąca nieodzowny element jajek po benedyktyńsku.",
-      "explanation_incorrect": "Beszamel bazuje na mące i mleku (zasmażce), a velouté na jasnym wywarze mięsnym lub rybnym.",
-      "last_verified_at": "2026-06-12T15:14:16.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sos holenderski jest emulsją żółtek i masła, zwykle doprawianą cytryną. Temperatura i sposób przygotowania wpływają na jej stabilność.",
+      "explanation_incorrect": "Beszamel bazuje na mące i mleku (zasmażce), a velouté na jasnym wywarze mięsnym lub rybnym."
     },
     {
       "subcategory": "Napoje kakaowe",
@@ -1105,22 +981,20 @@
     },
     {
       "subcategory": "Mięsoznawstwo",
-      "question": "Jak nazywamy proces starzenia tusz wołowych w kontrolowanej temperaturze i wilgotności, prowadzący do odparowania wody i zmiękczenia mięsa?",
+      "question": "Jak nazywa się dojrzewanie wołowiny bez opakowania w kontrolowanych warunkach chłodniczych?",
       "options": [
         "Peklowanie",
-        "Kruszenie na sucho",
+        "Dojrzewanie na sucho",
         "Konfitowanie",
         "Bejcowanie"
       ],
-      "answer": "Kruszenie na sucho",
-      "explanation_correct": "Kruszenie na sucho (dry-aging) pozwala enzymom naturalnie rozbić tkankę łączną, co koncentruje smak i poprawia teksturę steków.",
-      "explanation_incorrect": "Konfitowanie to technika wolnego gotowania w tłuszczu, która nie ma nic wspólnego z procesem starzenia surowego mięsa przed obróbką.",
-      "last_verified_at": "2026-06-12T15:14:16.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Dojrzewanie na sucho",
+      "explanation_correct": "Dojrzewanie na sucho wiąże się ze zmianami enzymatycznymi i utratą części wody. Wymaga odpowiedniej kontroli warunków i higieny.",
+      "explanation_incorrect": "Konfitowanie to technika wolnego gotowania w tłuszczu, która nie ma nic wspólnego z procesem starzenia surowego mięsa przed obróbką."
     },
     {
       "subcategory": "Grzyboznawstwo",
-      "question": "Pod jaką nazwą znany jest w Japonii twardnik japoński, ceniony za walory prozdrowotne i głęboki aromat umami?",
+      "question": "Jaką japońską nazwę nosi grzyb znany po polsku jako twardnik japoński?",
       "options": [
         "Matsutake",
         "Nameko",
@@ -1129,9 +1003,7 @@
       ],
       "answer": "Shiitake",
       "explanation_correct": "Shiitake to jedne z najpopularniejszych grzybów hodowlanych na świecie, stosowane w kuchni azjatyckiej zarówno w formie świeżej, jak i suszonej.",
-      "explanation_incorrect": "Matsutake to bardzo rzadkie i drogie grzyby zbierane wyłącznie w naturze, zupełnie odmienne od popularnych twardników.",
-      "last_verified_at": "2026-06-12T15:14:16.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Matsutake, nameko i enoki są nazwami innych grzybów wykorzystywanych kulinarnie."
     },
     {
       "subcategory": "Napary i zioła",
@@ -1150,7 +1022,7 @@
     },
     {
       "subcategory": "Enoturystyka i Gleba",
-      "question": "Która wulkaniczna skała o ciemnej barwie, powszechnie spotykana np. na Sycylii czy Wyspach Kanaryjskich, nadaje winom charakterystyczną mineralność?",
+      "question": "Która z wymienionych skał ma pochodzenie wulkaniczne?",
       "options": [
         "Wapień",
         "Kreda",
@@ -1158,10 +1030,8 @@
         "Łupek"
       ],
       "answer": "Bazalt",
-      "explanation_correct": "Gleby bazaltowe są bogate w żelazo i magnez, co przekłada się na specyficzny, słony i dymny profil smakowy win z terenów powulkanicznych.",
-      "explanation_incorrect": "Wapień i kreda to skały osadowe, które również wpływają na smak wina, ale nie są pochodzenia wulkanicznego jak bazalt.",
-      "last_verified_at": "2026-06-12T15:14:16.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bazalt jest skałą wulkaniczną. Określenie „mineralność” wina jest opisem sensorycznym i nie dowodzi bezpośredniego przechodzenia smaku minerałów ze skały do kieliszka.",
+      "explanation_incorrect": "Wapień i kreda są skałami osadowymi, a łupek może oznaczać różne skały, zwykle osadowe lub metamorficzne."
     },
     {
       "subcategory": "Kultura herbaty",
@@ -1173,10 +1043,8 @@
         "Tetsubin"
       ],
       "answer": "Kyusu",
-      "explanation_correct": "Kyusu jest zoptymalizowane do parzenia zielonych herbat liściastych, a boczny uchwyt ułatwia precyzyjne nalewanie naparu przy użyciu kciuka.",
-      "explanation_incorrect": "Chawan to czarka służąca do picia herbaty sproszkowanej (Matcha), natomiast Gaiwan to chińskie naczynie z pokrywką.",
-      "last_verified_at": "2026-06-12T15:14:16.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kyūsu to japoński czajniczek do herbaty. Istnieją różne typy uchwytów, w tym boczny.",
+      "explanation_incorrect": "Chawan to czarka służąca do picia herbaty sproszkowanej (Matcha), natomiast Gaiwan to chińskie naczynie z pokrywką."
     },
     {
       "subcategory": "Wędliniarstwo tradycyjne",
@@ -1188,10 +1056,8 @@
         "Błona otrzewnowa"
       ],
       "answer": "Żołądek owczy",
-      "explanation_correct": "Haggis to podroby owcze wymieszane z owsem i przyprawami, zaszyte i gotowane właśnie w wyczyszczonym żołądku owcy.",
-      "explanation_incorrect": "Jelitka wieprzowe są używane do mniejszych kiełbas, ale nie miałyby wystarczającej objętości, by pomieścić wsad typowy dla haggis.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Haggis tradycyjnie przyrządzano w oczyszczonym owczym żołądku; współcześnie stosuje się także inne osłonki.",
+      "explanation_incorrect": "Jelitka wieprzowe są używane do mniejszych kiełbas, ale nie miałyby wystarczającej objętości, by pomieścić wsad typowy dla haggis."
     },
     {
       "subcategory": "Cukiernictwo",
@@ -1200,32 +1066,28 @@
         "Pastillage",
         "Marcepan",
         "Ganache",
-        "Lukier królewski"
+        "Bita śmietana"
       ],
       "answer": "Pastillage",
       "explanation_correct": "Pastillage schnie bardzo szybko i staje się twardy jak kamień, co czyni go idealnym do budowania jadalnych konstrukcji.",
-      "explanation_incorrect": "Marcepan jest zbyt miękki, ganache to krem czekoladowy, a lukier królewski służy głównie do dekoracji powierzchniowych.",
-      "last_verified_at": "2026-06-12T15:15:28.510Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Marcepan jest masą migdałową, ganache mieszanką czekolady i śmietanki, a bita śmietana ma miękką konsystencję."
     },
     {
       "subcategory": "Fermentacja octowa",
       "question": "Jak nazywa się galaretowata struktura złożona z celulozy i bakterii kwasu octowego, inicjująca produkcję octu?",
       "options": [
-        "Grzybek tybetański",
         "Matka octowa",
-        "Kożuch fermentacyjny",
-        "Zaczyn octowy"
+        "Grzybek tybetański",
+        "Podpuszczka",
+        "Drożdże piekarskie"
       ],
       "answer": "Matka octowa",
-      "explanation_correct": "Matka octowa to biofilm bakteryjny (Acetobacter), który przekształca alkohol w kwas octowy.",
-      "explanation_incorrect": "Grzybek tybetański służy do produkcji kefiru, a pozostałe terminy nie określają tej konkretnej struktury biologicznej.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Matka octowa jest biofilmem związanym z bakteriami kwasu octowego, które w odpowiednich warunkach utleniają alkohol do kwasu octowego.",
+      "explanation_incorrect": "Grzybek tybetański wiąże się z fermentacją kefiru, podpuszczka ze ścinaniem mleka, a drożdże piekarskie z innymi fermentacjami."
     },
     {
       "subcategory": "Botanika kulinarna",
-      "question": "Z którego gatunku drzewa pozyskuje się tradycyjnie sok do produkcji syropu klonowego?",
+      "question": "Jak nazywa się gatunek klonu Acer saccharum, którego sok wykorzystuje się do produkcji syropu?",
       "options": [
         "Klon pospolity",
         "Klon cukrowy",
@@ -1233,25 +1095,21 @@
         "Klon srebrzysty"
       ],
       "answer": "Klon cukrowy",
-      "explanation_correct": "Acer saccharum, czyli klon cukrowy, charakteryzuje się najwyższą zawartością cukru w soku.",
-      "explanation_incorrect": "Pozostałe gatunki klonów mają zbyt niskie stężenie cukru, by produkcja syropu była opłacalna.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klon cukrowy jest ważnym źródłem soku do produkcji syropu, lecz można wykorzystywać także inne gatunki klonów.",
+      "explanation_incorrect": "Sok klonu srebrzystego czy pospolitego również może być używany; pytanie dotyczy nazwy Acer saccharum."
     },
     {
       "subcategory": "Sprzęt barmański",
       "question": "Jak fachowo nazywa się długa, spiralnie skręcona łyżeczka używana do precyzyjnego przygotowywania koktajli warstwowych?",
       "options": [
         "Łyżka barmańska",
-        "Mieszadełko",
-        "Łyżka koktajlowa",
-        "Jigger"
+        "Jigger",
+        "Shaker",
+        "Wyciskacz do cytrusów"
       ],
       "answer": "Łyżka barmańska",
-      "explanation_correct": "Łyżka barmańska ma długi trzonek i często stopkę, co ułatwia mętowanie napojów i warstwowanie płynów.",
-      "explanation_incorrect": "Jigger to miarka barmańska, a mieszadełko i łyżka koktajlowa to terminy potoczne lub odnoszące się do sztućców deserowych.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Łyżka barmańska ma długi trzonek, często spiralny, i służy m.in. do mieszania napojów.",
+      "explanation_incorrect": "Jigger odmierza płyny, shaker służy do wstrząsania, a wyciskacz do pozyskiwania soku."
     },
     {
       "subcategory": "Rybołówstwo",
@@ -1263,10 +1121,8 @@
         "Tobiko"
       ],
       "answer": "Kawior",
-      "explanation_correct": "Zgodnie z tradycyjną definicją, prawdziwy kawior pochodzi wyłącznie od ryb z rzędu jesiotrokształtnych.",
-      "explanation_incorrect": "Ikura (łosoś) i tobiko (latająca ryba) to ikra innych gatunków, a bottarga to suszona ikra maruny lub mugila.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W tradycyjnym znaczeniu kawior to solona ikra jesiotrowatych. Nazwy handlowe innych produktów z ikry zależą od rynku i przepisów.",
+      "explanation_incorrect": "Ikura (łosoś) i tobiko (latająca ryba) to ikra innych gatunków, a bottarga to suszona ikra maruny lub mugila."
     },
     {
       "subcategory": "Melastyka",
@@ -1278,10 +1134,8 @@
         "Słód"
       ],
       "answer": "Melasa",
-      "explanation_correct": "Melasa powstaje w procesie krystalizacji cukru i zawiera cenne minerały usunięte z białego cukru.",
-      "explanation_incorrect": "Karmel to cukier poddany pirolizie, a słód to skiełkowane i wysuszone ziarna zbóż.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Melasa pozostaje po krystalizacji cukru z syropu trzcinowego lub buraczanego i zawiera m.in. część składników mineralnych.",
+      "explanation_incorrect": "Karmel to cukier poddany pirolizie, a słód to skiełkowane i wysuszone ziarna zbóż."
     },
     {
       "subcategory": "Mielenie i przemiał",
@@ -1300,7 +1154,7 @@
     },
     {
       "subcategory": "Biologia zbóż",
-      "question": "Jak nazywa się zewnętrzna, twarda warstwa ziarna zbóż, która jest usuwana w procesie przemiału na białą mąkę?",
+      "question": "Jak nazywa się produkt przemiału złożony głównie z zewnętrznych warstw ziarna zbóż?",
       "options": [
         "Łuska",
         "Kiełek",
@@ -1308,10 +1162,8 @@
         "Bielmo"
       ],
       "answer": "Otręby",
-      "explanation_correct": "Otręby składają się głównie z warstwy owocowo-nasiennej ziarna i są bogatym źródłem błonnika.",
-      "explanation_incorrect": "Bielmo to wnętrze ziarna, z którego powstaje mąka, a kiełek to zarodek rośliny.",
-      "last_verified_at": "2026-06-12T15:14:16.634Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Otręby to produkt przemiału zawierający głównie zewnętrzne warstwy ziarna; skład zależy od zboża i sposobu mielenia.",
+      "explanation_incorrect": "Bielmo to wnętrze ziarna, z którego powstaje mąka, a kiełek to zarodek rośliny."
     },
     {
       "subcategory": "Egzotyczne owoce",
@@ -1323,10 +1175,8 @@
         "Rambutan"
       ],
       "answer": "Pitaja",
-      "explanation_correct": "Pitaja to polska nazwa owocu pochodzącego z Ameryki Środkowej i Azji Południowo-Wschodniej.",
-      "explanation_incorrect": "Opuncja to inny rodzaj kaktusa, natomiast karambola i rambutan pochodzą z zupełnie innych rodzin roślin.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pitaja to nazwa owoców niektórych kaktusów pochodzących z obu Ameryk, dziś uprawianych także w Azji Południowo-Wschodniej.",
+      "explanation_incorrect": "Opuncja to inny rodzaj kaktusa, natomiast karambola i rambutan pochodzą z zupełnie innych rodzin roślin."
     },
     {
       "subcategory": "Destylacja",
@@ -1339,9 +1189,7 @@
       ],
       "answer": "Alambik",
       "explanation_correct": "Alambik to tradycyjne urządzenie wykorzystywane m.in. przy produkcji koniaku i whisky single malt.",
-      "explanation_incorrect": "Kolumna rektyfikacyjna służy do destylacji ciągłej, a gąsior to naczynie do przechowywania lub fermentacji nastawu.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kolumny rektyfikacyjne i alambiki są różnymi konstrukcjami destylacyjnymi; gąsior służy do przechowywania lub fermentacji."
     },
     {
       "subcategory": "Pszczelarstwo",
@@ -1353,10 +1201,8 @@
         "Obnóża"
       ],
       "answer": "Propolis",
-      "explanation_correct": "Propolis, zwany kitem pszczelim, ma silne właściwości bakteriobójcze i służy do dezynfekcji ula.",
-      "explanation_incorrect": "Pierzga i obnóża to zmagazynowany pyłek kwiatowy, natomiast mleczko pszczele to wydzielina służąca do karmienia larw.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Propolis, czyli kit pszczeli, jest materiałem żywicznym wykorzystywanym przez pszczoły m.in. do uszczelniania ula.",
+      "explanation_incorrect": "Pierzga to przetworzony i magazynowany pyłek; obnóża są zebranym pyłkiem przenoszonym przez pszczoły."
     },
     {
       "subcategory": "Kultura herbaty",
@@ -1368,10 +1214,8 @@
         "Haiku"
       ],
       "answer": "Chanoyu",
-      "explanation_correct": "Chanoyu (dosłownie 'wrzątek na herbatę') to rytuał oparty na zasadach zen.",
-      "explanation_incorrect": "Gongfu Cha to chińska metoda parzenia herbaty liściastej, a Haiku to forma poetycka.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Chanoyu to japońska praktyka przygotowywania i podawania herbaty, najczęściej matchy, rozwijana w różnych szkołach i tradycjach.",
+      "explanation_incorrect": "Gongfu Cha to chińska metoda parzenia herbaty liściastej, a Haiku to forma poetycka."
     },
     {
       "subcategory": "Wędliniarstwo",
@@ -1383,10 +1227,8 @@
         "Pęcherz barani"
       ],
       "answer": "Jelito wieprzowe",
-      "explanation_correct": "Naturalne jelita wieprzowe są standardową osłonką dla większości tradycyjnych polskich wędlin, w tym kaszanki.",
-      "explanation_incorrect": "Osłonki białkowe są sztuczne, a pęcherz barani ma zbyt dużą średnicę i inną strukturę.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kaszanka bywa tradycyjnie napełniana do oczyszczonych jelit wieprzowych; na rynku spotyka się również inne osłonki.",
+      "explanation_incorrect": "Osłonki białkowe są sztuczne, a pęcherz barani ma zbyt dużą średnicę i inną strukturę."
     },
     {
       "subcategory": "Enologia",
@@ -1398,10 +1240,8 @@
         "Flambowanie"
       ],
       "answer": "Sabrage",
-      "explanation_correct": "Zwyczaj sabrage wywodzi się z czasów wojen napoleońskich, kiedy oficerowie otwierali szampana bronią białą.",
-      "explanation_incorrect": "Dekantacja to przelewanie wina nad osadem, a flambowanie to podpalanie potraw nasączonych alkoholem.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sabrage polega na otwarciu butelki wina musującego przez uderzenie narzędziem w szyjkę. Opowieści o jego historycznych początkach różnią się.",
+      "explanation_incorrect": "Dekantacja to przelewanie wina nad osadem, a flambowanie to podpalanie potraw nasączonych alkoholem."
     },
     {
       "subcategory": "Techniki barmańskie",
@@ -1413,10 +1253,8 @@
         "Chinois"
       ],
       "answer": "Hawthorne",
-      "explanation_correct": "Sito typu Hawthorne dzięki sprężynie idealnie dopasowuje się do krawędzi kubka shakera.",
-      "explanation_incorrect": "Julep to sito bez sprężyny do szklanic, a Fine Strainer (siatkowe) służy do tzw. podwójnego odcedzania.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sitko Hawthorne ma sprężynę i jest używane do odcedzania koktajli; rozmiary i dopasowanie zależą od sprzętu.",
+      "explanation_incorrect": "Julep to sito bez sprężyny do szklanic, a Fine Strainer (siatkowe) służy do tzw. podwójnego odcedzania."
     },
     {
       "subcategory": "Serowarstwo",
@@ -1428,10 +1266,8 @@
         "Roquefort"
       ],
       "answer": "Casu martzu",
-      "explanation_correct": "Larwy rozkładają tłuszcze w serze Casu martzu, nadając mu wyjątkowo miękką i kremową konsystencję.",
-      "explanation_incorrect": "Gorgonzola i Roquefort to sery z niebieską pleśnią, a Pecorino to twardy ser owczy bez larw.",
-      "last_verified_at": "2026-06-12T15:14:16.635Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Casu martzu to tradycyjny sardyński ser, w którego dojrzewaniu uczestniczą larwy muchy serowej; spożycie może wiązać się z zagrożeniami zdrowotnymi.",
+      "explanation_incorrect": "Gorgonzola i Roquefort to sery z niebieską pleśnią, a Pecorino to twardy ser owczy bez larw."
     },
     {
       "subcategory": "Sztuka kulinarna",
@@ -1444,9 +1280,7 @@
       ],
       "answer": "Mise en place",
       "explanation_correct": "Mise en place oznacza dosłownie 'wszystko na swoim miejscu' i jest kluczowe dla organizacji pracy w profesjonalnej kuchni.",
-      "explanation_incorrect": "Sous-vide to gotowanie próżniowe, a Sauté to szybkie smażenie na małej ilości tłuszczu.",
-      "last_verified_at": "2026-06-12T15:14:16.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Sous-vide oznacza gotowanie zapakowanej żywności w kontrolowanych warunkach, a sauté szybkie smażenie z niewielką ilością tłuszczu."
     },
     {
       "subcategory": "Napoje fermentowane",
@@ -1458,10 +1292,8 @@
         "Kora brzozy"
       ],
       "answer": "Fermentowany chleb",
-      "explanation_correct": "Kwas chlebowy powstaje w wyniku fermentacji alkoholowej i kwasu mlekowego chleba (najczęściej razowego).",
-      "explanation_incorrect": "Z jęczmienia produkuje się piwo, a z ziemniaków zazwyczaj wódkę.",
-      "last_verified_at": "2026-06-12T15:14:16.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kwas chlebowy często przygotowuje się przez fermentację z udziałem chleba żytniego lub razowego; istnieją także inne receptury.",
+      "explanation_incorrect": "Z jęczmienia produkuje się piwo, a z ziemniaków zazwyczaj wódkę."
     },
     {
       "subcategory": "Cukiernictwo",
@@ -1488,10 +1320,8 @@
         "Gravlax"
       ],
       "answer": "Hákarl",
-      "explanation_correct": "Fermentacja rekina jest konieczna, aby usunąć z jego mięsa toksyczny kwas moczowy.",
-      "explanation_incorrect": "Surströmming to kiszony śledź szwedzki, a Lutefisk to suszona ryba moczona w ługu sodowym.",
-      "last_verified_at": "2026-06-12T15:14:16.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hákarl przygotowuje się z mięsa rekina poddanego tradycyjnemu przetwarzaniu i suszeniu. Surowe mięso zawiera m.in. mocznik i tlenek trimetyloaminy; nie należy utożsamiać ich z kwasem moczowym.",
+      "explanation_incorrect": "Surströmming to kiszony śledź szwedzki, a Lutefisk to suszona ryba moczona w ługu sodowym."
     },
     {
       "subcategory": "Botanika spożywcza",
@@ -1504,9 +1334,7 @@
       ],
       "answer": "Indygowiec barwierski",
       "explanation_correct": "Indygowiec barwierski to roślina z rodziny bobowatych, główny naturalny surowiec do produkcji indygo.",
-      "explanation_incorrect": "Urzet również daje niebieski barwnik, ale słabszy, natomiast marzanna barwi na czerwono, a krokosz na żółto-pomarańczowo.",
-      "last_verified_at": "2026-06-12T15:14:16.636Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Urzet także jest źródłem indygo, marzanna barwników czerwonych, a krokosz żółtych i pomarańczowych; wydajność zależy od procesu."
     }
   ]
 }

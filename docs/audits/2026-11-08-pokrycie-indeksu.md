@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **157** pozycji ma raport deklarujący przegląd całości paczki.
+- **159** pozycji ma raport deklarujący przegląd całości paczki.
 - **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **67** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
+- **65** pozycji nie ma dedykowanego raportu merytorycznego (w tym jedna pozycja ma wyłącznie korektę opisu).
 
 ### Metoda i ograniczenia
 
@@ -105,14 +105,14 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 82 | `kartografia_i_mapy_pl` | Kartografia i Mapy | [2026-11-07-kartografia-i-mapy-pl.md](2026-11-07-kartografia-i-mapy-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań wraz z odpowiedziami i wyjaśnieniami. Zmieniono 34 pozycje: 6, 9–11, 13, 16–18, 25, 27, 29–30, 35, 39–40, 46, 48, 52, 55, 57, 61, 63, 66–67, 71, 76, 81, 83, 85,… |
 | 83 | `kino_europejskie_pl` | Kino Europejskie | [2026-11-07-kino-europejskie-pl.md](2026-11-07-kino-europejskie-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnień oraz opis paczki. Zmieniono 26 pozycji: 4, 14, 16–17, 26, 31, 34, 43–44, 46, 56–59, 61, 63, 69–70, 78–80, 83, 92, 95–97. Liczba pytań i opis… |
 | 84 | `kino_i_film_pl` | Kino i Film | [2026-11-08-kino-i-film-pl.md](2026-11-08-kino-i-film-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 30 rekordów; wybrane fakty sprawdzono źródłowo. |
-| 85 | `klasyka_komedii_i_sitcomw_pl` | Klasyka Komedii i Sitcomów | — | BRAK dedykowanego raportu merytorycznego. |
+| 85 | `klasyka_komedii_i_sitcomw_pl` | Klasyka Komedii i Sitcomów | [2026-11-08-klasyka-komedii-i-sitcomow-pl.md](2026-11-08-klasyka-komedii-i-sitcomow-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 45 rekordów; opis zsynchronizowano z indeksem. |
 | 86 | `klasyka_literatury_pl` | Klasyka Literatury | [2026-11-05-klasyka-literatury-pl.md](2026-11-05-klasyka-literatury-pl.md) | PEŁNY ODCZYT deklarowany. Zakres: ręcznie sprawdzono wszystkie 20 pytań paczki `klasyka_literatury_pl`: treść pytania, wskazaną odpowiedź, zgodność odpowiedzi z opcjami oraz oba wyjaśnienia. Przejrzano również… |
 | 87 | `klimat_i_zjawiska_pl` | Klimat i Zjawiska | [2026-11-08-klimat-i-zjawiska-pl.md](2026-11-08-klimat-i-zjawiska-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, warianty, wyjaśnienia i opis; wybrane tezy sprawdzono niezależnie. |
 | 88 | `komiksowy_wiat_pl` | Komiksowy Świat | [2026-11-06-komiksowy-swiat-pl.md](2026-11-06-komiksowy-swiat-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, zestawy odpowiedzi i wyjaśnienia paczki `komiksowy_wiat_pl` oraz jej ogólny opis. Zmieniono 43 rekordy: 1, 5, 7–9, 13–15, 17, 19, 21–22, 24, 29–30, 33–35, 38, 48, 50,… |
 | 89 | `komunikacja_i_savoir_vivre_pl` | Komunikacja i Savoir-Vivre | [2026-11-08-komunikacja-i-savoir-vivre-pl.md](2026-11-08-komunikacja-i-savoir-vivre-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-08. Przeczytano opis oraz wszystkie 100 pytań, odpowiedzi, kluczy i oba wyjaśnienia. Opis i liczba pytań nie zmieniły się. Usunięto nieaktualne znaczniki weryfikacji paczki i… |
 | 90 | `kosmos_i_futurologia_pl` | Kosmos i Futurologia | [2026-11-07-kosmos-i-futurologia-pl.md](2026-11-07-kosmos-i-futurologia-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis oraz 100 pytań, opcji, kluczy i wyjaśnień. Zmieniono 63 pozycje: 1–4, 7–10, 12, 14, 16–18, 20–22, 24–25, 27, 29, 31–34, 36–39, 41–42, 44–46, 48, 54, 56–57, 59, 63, 65–66,… |
 | 91 | `krlowie_i_krlowe_polski_pl` | Królowie i Królowe Polski | [2026-11-07-krolowie-i-krolowe-polski-pl.md](2026-11-07-krolowie-i-krolowe-polski-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis oraz wszystkie 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 51 pozycji: 1–5, 9–11, 15–16, 20–21, 23–24, 27, 29–33, 35–37, 40, 42–43, 46, 48, 51, 53–54, 56, 61, 63–64, 66–67,… |
-| 92 | `kuchnia_i_smaki_pl` | Kuchnia i Smaki | — | BRAK dedykowanego raportu merytorycznego. |
+| 92 | `kuchnia_i_smaki_pl` | Kuchnia i Smaki | [2026-11-08-kuchnia-i-smaki-pl.md](2026-11-08-kuchnia-i-smaki-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 85 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 93 | `kulinarne_wynalazki_europy_pl` | Kulinarne Wynalazki Europy | [2026-11-07-kulinarne-wynalazki-europy-pl.md](2026-11-07-kulinarne-wynalazki-europy-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-07. Przejrzano opis oraz wszystkie 100 pytań, warianty odpowiedzi, klucze i oba wyjaśnienia. Numery poniżej oznaczają pozycje w tablicy `questions`, liczone od 1. Liczba… |
 | 94 | `kulinarny_szlak_przypraw_pl` | Kulinarny Szlak Przypraw | [2026-11-06-kulinarny-szlak-przypraw-pl.md](2026-11-06-kulinarny-szlak-przypraw-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień paczki `kulinarny_szlak_przypraw_pl` oraz jej opis. Zmieniono 88 rekordów: 1–6, 8–19, 21–28, 30–34, 36–41, 43–58, 61, 63, 65–67, 69–89, 91–96… |
 | 95 | `kultowe_marki_i_reklama_pl` | Kultowe Marki i Reklama | [2026-11-08-kultowe-marki-i-reklama-pl.md](2026-11-08-kultowe-marki-i-reklama-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-08. Przeczytano opis oraz wszystkie 100 pytań, wariantów, kluczy i obu wyjaśnień. Zmieniono wszystkie 100 rekordów, w tym poprawki redakcyjne i metadane. Liczba pytań i opis… |
