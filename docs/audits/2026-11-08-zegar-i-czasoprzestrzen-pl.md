@@ -22,3 +22,5 @@ Przeczytano 100 pytań, warianty odpowiedzi, klucze, oba wyjaśnienia i opis. Op
 Przegląd obejmował wszystkie pozycje, ale wymienione źródła potwierdzają wybrane kwestie, nie każde twierdzenie ze stu pytań. Opisy fizyczne, filozoficzne i astronomiczne są skrótowe; część dystraktorów pozostaje prosta. Nie wykonano niezależnej weryfikacji źródłowej każdego historycznego przykładu, a niektóre modele kosmologiczne i kwantowe pozostają hipotezami.
 
 Niezależna kontrola doprecyzowała zredukowaną stałą Plancka (18), cel stosowania sekund przestępnych względem UT1 (15), hipotetyczny status chrononu i jego podkategorię (76), a także definicję roku świetlnego (85). Źródła: [Fermilab](https://holometer.fnal.gov/faq.html), [BIPM](https://www.bipm.org/en/time-department/utc), [PNAS: model chrononu](https://pmc.ncbi.nlm.nih.gov/articles/PMC50310/).
+
+Uzupełnienie: pytanie 15 osadzono w latach 1972–2016, uwzględniając decyzję o ciągłości UTC od 20 maja 2027 r. ([BIPM, rezolucja CGPM 5 z 2026 r.](https://www.bipm.org/en/cgpm-2026/resolution-5)).
