@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **204** pozycji ma raport deklarujący przegląd całości paczki.
+- **205** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **21** pozycji nie ma dedykowanego raportu merytorycznego.
+- **20** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -178,7 +178,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 155 | `popkultura_pl` | Popkultura i Gry (PL) | [2026-11-08-popkultura-pl.md](2026-11-08-popkultura-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 160 pytań, poprawiono 63 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 156 | `popkulturowy_kocio_pl` | Popkulturowy Kocioł | [2026-11-08-popkulturowy-kocio-pl.md](2026-11-08-popkulturowy-kocio-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 42 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 157 | `powiedzenia_przysowia_i_skrzydlate_sowa_pl` | Powiedzenia, Przysłowia i Skrzydlate Słowa | [2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md](2026-11-07-powiedzenia-przyslowia-skrzydlate-slowa-pl.md) | PEŁNY ODCZYT deklarowany. Odczytano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 42 pozycje: 1, 5–9, 13–15, 17, 19, 23, 26–28, 31, 33, 36–39, 43, 45, 52–53, 55, 57, 59, 62, 68–69, 74, 76, 78, 82, 84, 88,… |
-| 158 | `prawo_i_systemy_sprawiedliwoci_pl` | Prawo i Systemy Sprawiedliwości | — | BRAK dedykowanego raportu merytorycznego. |
+| 158 | `prawo_i_systemy_sprawiedliwoci_pl` | Prawo i Systemy Sprawiedliwości | [2026-11-08-prawo-i-systemy-sprawiedliwoci-pl.md](2026-11-08-prawo-i-systemy-sprawiedliwoci-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, skorygowano wybrane kwestie według tekstów urzędowych; prawo wymaga aktualizacji. |
 | 159 | `redniowiecze_i_rycerstwo_pl` | Średniowiecze i Rycerstwo | [2026-11-08-redniowiecze-i-rycerstwo-pl.md](2026-11-08-redniowiecze-i-rycerstwo-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 99 pytań, poprawiono 74 rekordy; wybrane fakty sprawdzono źródłowo. |
 | 160 | `religie_wiata_pl` | Religie Świata | [2026-11-07-religie-swiata-pl.md](2026-11-07-religie-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i wszystkie 100 pytań, odpowiedzi oraz wyjaśnień. Zmieniono 67 rekordów: 2–5, 7–8, 10, 12–15, 17–19, 21–23, 25–27, 29, 32–37, 40–41, 43, 45, 48, 50–51, 53–55, 58–59, 61–62,… |
 | 161 | `retro_tech_revival_en` | Retro-Tech Revival | [retro-tech-revival-en-2026-11-06.md](retro-tech-revival-en-2026-11-06.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań i objaśnień w `databases/categories/retro_tech_revival_en.json`, porównano opis z zakresem paczki i zmodyfikowano 49 rekordów: 3, 8–11, 13, 16–17, 19, 22, 25–27,… |

@@ -243,6 +243,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Sportowe Legendy Polski (PL):** przegląd 100 pytań i korekty 62 rekordów; [raport](audits/2026-11-08-sportowe-legendy-polski-pl.md).
 
+- **Prawo i Systemy Sprawiedliwości (PL):** przegląd 100 pytań i wybrane korekty według źródeł urzędowych; [raport](audits/2026-11-08-prawo-i-systemy-sprawiedliwoci-pl.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
