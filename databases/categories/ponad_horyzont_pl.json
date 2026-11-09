@@ -2,7 +2,7 @@
   "id": "ponad_horyzont_pl",
   "name": "Ponad horyzont",
   "language": "pl",
-  "description": "Pytania z zakresu: Astronomia podczerwona, Teoretyczna fizyka czarnych dziur, Eksploracja kosmosu...",
+  "description": "Pytania o astronomię, eksplorację kosmosu, Ziemię, nawigację oraz fantastykę, sztukę i idee naukowe.",
   "created_at": "2026-06-12T15:36:07.225Z",
   "last_verified_at": "2026-06-12T15:36:07.209Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -18,14 +18,14 @@
         "Herschel"
       ],
       "answer": "James Webb",
-      "explanation_correct": "Teleskop Jamesa Webba jest następcą Hubble'a i prowadzi obserwacje w zakresie podczerwieni z punktu L2.",
+      "explanation_correct": "Kosmiczny Teleskop Jamesa Webba obserwuje głównie w podczerwieni, poruszając się po orbicie wokół punktu L2 układu Słońce–Ziemia.",
       "explanation_incorrect": "Hubble działa głównie w świetle widzialnym, a Spitzer i Herschel to starsze misje podczerwone, które już zakończono.",
       "last_verified_at": "2026-06-12T15:33:15.572Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Teoretyczna fizyka czarnych dziur",
-      "question": "Którym terminem określa się sferyczną granicę w czarnej dziurze, po której przekroczeniu nic nie może uciec przed jej przyciąganiem grawitacyjnym?",
+      "question": "Jak nazywa się granica czarnej dziury, po której przekroczeniu żaden sygnał nie może dotrzeć do odległego obserwatora?",
       "options": [
         "Osobliwość",
         "Sfera fotonowa",
@@ -33,8 +33,8 @@
         "Horyzont zdarzeń"
       ],
       "answer": "Horyzont zdarzeń",
-      "explanation_correct": "Horyzont zdarzeń to matematyczna granica, zza której prędkość ucieczki przewyższa prędkość światła.",
-      "explanation_incorrect": "Osobliwość to centrum czarnej dziury, ergosfera to obszar rotujący wokół niej, a sfera fotonowa to orbita światła.",
+      "explanation_correct": "Horyzont zdarzeń wyznacza granicę obszaru czasoprzestrzeni, z którego sygnał świetlny nie może dotrzeć do odległego obserwatora.",
+      "explanation_incorrect": "Ergosfera występuje wokół rotującej czarnej dziury; osobliwość i sfera fotonowa są odrębnymi pojęciami.",
       "last_verified_at": "2026-06-12T15:33:15.572Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -48,7 +48,7 @@
         "New Horizons"
       ],
       "answer": "Voyager 1",
-      "explanation_correct": "Voyager 1 przekroczył granicę układu słonecznego w 2012 roku, stając się najbardziej oddalonym od Ziemi obiektem.",
+      "explanation_correct": "Voyager 1 przekroczył heliopauzę w 2012 roku i znalazł się w ośrodku międzygwiazdowym. Granica heliosfery nie jest granicą całego Układu Słonecznego.",
       "explanation_incorrect": "Voyager 2 wszedł w przestrzeń międzygwiezdną później, a Pioneer 10 oraz New Horizons znajdują się znacznie bliżej Słońca.",
       "last_verified_at": "2026-06-12T15:33:15.572Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -85,7 +85,7 @@
     },
     {
       "subcategory": "Kosmologia",
-      "question": "Jak określa się w kosmologii fazę ekstremalnie szybkiego rozszerzania się wszechświata, która miała miejsce tuż po Wielkim Wybuchu?",
+      "question": "Jak nazywa się hipotetyczna faza bardzo szybkiego rozszerzania przestrzeni we wczesnym Wszechświecie?",
       "options": [
         "Proces r",
         "Inflacja kosmologiczna",
@@ -93,8 +93,8 @@
         "Era hadronowa"
       ],
       "answer": "Inflacja kosmologiczna",
-      "explanation_correct": "Inflacja wyjaśnia jednorodność wszechświata i nastąpiła w ułamku sekundy po powstaniu kosmosu.",
-      "explanation_incorrect": "Nukleosynteza to proces powstawania jąder atomowych, a era hadronowa dotyczyła formowania się cząstek elementarnych.",
+      "explanation_correct": "Inflacja kosmologiczna jest hipotezą opisującą wczesną fazę gwałtownej ekspansji; pomaga wyjaśnić m.in. obserwowaną jednorodność Wszechświata.",
+      "explanation_incorrect": "Nukleosynteza to powstawanie jąder atomowych, a era hadronowa odnosi się do okresu z udziałem hadronów.",
       "last_verified_at": "2026-06-12T15:33:15.572Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -123,7 +123,7 @@
         "Konrad Fiałkowski"
       ],
       "answer": "Stanisław Lem",
-      "explanation_correct": "Stanisław Lem jest najbardziej utytułowanym polskim pisarzem SF, autorem 'Solaris' i 'Cyberiady'.",
+      "explanation_correct": "Stanisław Lem napisał m.in. powieść „Solaris” oraz zbiór „Cyberiada”.",
       "explanation_incorrect": "Janusz Zajdel to prekursor nurtu socjologicznego, a Jacek Dukaj to współczesny twórca twardej fantastyki.",
       "last_verified_at": "2026-06-12T15:35:44.547Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -153,7 +153,7 @@
         "Imre Lakatos"
       ],
       "answer": "Thomas Kuhn",
-      "explanation_correct": "Thomas Kuhn wprowadził pojęcie zmiany paradygmatu jako opisu gwałtownych przesunięć w wiedzy naukowej.",
+      "explanation_correct": "Thomas Kuhn spopularyzował pojęcie paradygmatu i opisał zmiany między paradygmatami w książce „Struktura rewolucji naukowych”.",
       "explanation_incorrect": "Popper skupiał się na falsyfikacji, a Feyerabend na metodologicznym anarchizmie.",
       "last_verified_at": "2026-06-12T15:33:15.573Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -168,7 +168,7 @@
         "Catenaria"
       ],
       "answer": "Ortodroma",
-      "explanation_correct": "Ortodroma jest wykorzystywana w lotnictwie i żegludze jako najbardziej efektywna trasa między dwoma punktami.",
+      "explanation_correct": "Ortodroma prowadzi krótszym łukiem koła wielkiego na modelu kulistej Ziemi. Rzeczywista trasa może zależeć także od pogody i innych ograniczeń.",
       "explanation_incorrect": "Loksodroma to linia przecinająca południki pod tym samym kątem, a helisa to linia śrubowa.",
       "last_verified_at": "2026-06-12T15:33:15.573Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -220,7 +220,7 @@
     },
     {
       "subcategory": "Astrobiologia",
-      "question": "Jak nazywa się strefa wokół gwiazdy, w której panują warunki umożliwiające istnienie ciekłej wody na powierzchni planety?",
+      "question": "Jak nazywa się obszar wokół gwiazdy, w którym planeta o odpowiedniej atmosferze może mieć ciekłą wodę na powierzchni?",
       "options": [
         "Atmosfera",
         "Kriosfera",
@@ -228,7 +228,7 @@
         "Gajosfera"
       ],
       "answer": "Ekosfera",
-      "explanation_correct": "Ekosfera (strefa zamieszkiwalna) to kluczowy obszar poszukiwań życia poza Układem Słonecznym.",
+      "explanation_correct": "Ekosfera, czyli strefa zamieszkiwalna, określa zakres odległości sprzyjających ciekłej wodzie przy odpowiednich właściwościach planety; samo położenie nie dowodzi istnienia życia.",
       "explanation_incorrect": "Kriosfera odnosi się do zamarzniętej wody na planecie, a Gajosfera to koncepcja Ziemi jako żywego organizmu.",
       "last_verified_at": "2026-06-12T15:33:15.574Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -258,14 +258,14 @@
         "Boeing"
       ],
       "answer": "SpaceX",
-      "explanation_correct": "Misja Demo-2 firmy SpaceX przy użyciu kapsuły Dragon zakończyła monopol agencji rządowych na loty załogowe.",
+      "explanation_correct": "W misji Demo-2 statek Crew Dragon firmy SpaceX dostarczył dwóch astronautów NASA na orbitę i na ISS w 2020 roku.",
       "explanation_incorrect": "Blue Origin i Virgin Galactic skupiały się głównie na lotach suborbitalnych, a załogowy program Boeinga zanotował liczne opóźnienia.",
       "last_verified_at": "2026-06-12T15:33:15.574Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Mechanika nieba",
-      "question": "Jak określa się minimalną prędkość, jaką musi osiągnąć obiekt, aby pokonać przyciąganie grawitacyjne ciała niebieskiego i nie spaść na jego powierzchnię?",
+      "question": "Jak nazywa się minimalna prędkość potrzebna obiektowi do oddalenia się na dowolnie dużą odległość od ciała niebieskiego bez dalszego napędu, w uproszczonym modelu?",
       "options": [
         "Prędkość orbitalna",
         "Prędkość ucieczki",
@@ -273,7 +273,7 @@
         "Prędkość dźwięku"
       ],
       "answer": "Prędkość ucieczki",
-      "explanation_correct": "Dla Ziemi prędkość ucieczki wynosi około 11,2 km/s i jest nazywana drugą prędkością kosmiczną.",
+      "explanation_correct": "Prędkość ucieczki zależy od masy ciała i odległości od jego środka. Na powierzchni Ziemi wynosi około 11,2 km/s, pomijając atmosferę i obrót Ziemi.",
       "explanation_incorrect": "Prędkość orbitalna pozwala krążyć wokół ciała, a prędkość graniczna dotyczy oporu powietrza przy spadaniu.",
       "last_verified_at": "2026-06-12T15:33:15.574Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -312,14 +312,14 @@
       "subcategory": "Nawigacja morska",
       "question": "Jak nazywa się przyrząd nawigacyjny służący do mierzenia wysokości ciał niebieskich nad horyzontem?",
       "options": [
-        "Oktant",
+        "Barometr",
         "Sekstant",
         "Kompas",
         "Log"
       ],
       "answer": "Sekstant",
       "explanation_correct": "Sekstant wykorzystuje zjawisko podwójnego odbicia światła, co pozwala na precyzyjne wyznaczenie pozycji statku.",
-      "explanation_incorrect": "Pozostałe opcje służą do wyznaczania kierunku świata, prędkości lub są starszymi wersjami kątomierzy o mniejszym zakresie.",
+      "explanation_incorrect": "Kompas wskazuje kierunek, log mierzy prędkość statku, a barometr mierzy ciśnienie atmosferyczne. Oktant, niewymieniony w odpowiedziach, także służy do pomiaru kątów nawigacyjnych.",
       "last_verified_at": "2026-06-12T15:33:15.575Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -423,14 +423,14 @@
         "Sfera Schwarzschilda"
       ],
       "answer": "Most Einsteina-Rosena",
-      "explanation_correct": "Most Einsteina-Rosena to teoretyczne rozwiązanie równań pola grawitacyjnego, znane potocznie jako tunel czasoprzestrzenny.",
-      "explanation_incorrect": "Osobliwość to punkt o nieskończonej gęstości, a horyzont zdarzeń to granica czarnej dziury, z której nie ma powrotu.",
+      "explanation_correct": "Most Einsteina–Rosena to szczególne rozwiązanie równań ogólnej teorii względności, związane z ideą tunelu czasoprzestrzennego; klasyczny most nie jest przechodni.",
+      "explanation_incorrect": "Horyzont zdarzeń jest granicą czarnej dziury. Osobliwość to obszar, w którym klasyczny opis czasoprzestrzeni przestaje być wystarczający.",
       "last_verified_at": "2026-06-12T15:33:15.576Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przestrzeń kosmiczna",
-      "question": "Jak nazywa się daleka strefa otaczająca Układ Słoneczny, uważana za źródło komet jednopojawieniowych?",
+      "question": "Jaki odległy, hipotetyczny obłok lodowych ciał otaczających Układ Słoneczny uznaje się za źródło wielu komet długookresowych?",
       "options": [
         "Pas Kuipera",
         "Obłok Oorta",
@@ -573,14 +573,14 @@
         "Chelyabinsk"
       ],
       "answer": "Hoba",
-      "explanation_correct": "Hoba to meteoryt żelazny o masie ponad 60 ton, który nigdy nie został przeniesiony z miejsca swojego upadku.",
+      "explanation_correct": "Hoba to meteoryt żelazny o masie szacowanej na około 60 ton; pozostaje w miejscu znalezienia w Namibii.",
       "explanation_incorrect": "Willamette i Ahnighito to duże meteoryty przechowywane w muzeach, ale mają mniejszą masę niż Hoba.",
       "last_verified_at": "2026-06-12T15:33:15.578Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuka futurologiczna",
-      "question": "Który artysta, czołowy przedstawiciel realizmu magicznego, jest autorem słynnego dzieła 'Przejście'?",
+      "question": "Który polski artysta mieszkający we Francji tworzył fantastyczne ilustracje do cyklu „Diuna” Franka Herberta?",
       "options": [
         "Wojtek Siudmak",
         "Rafał Olbiński",
@@ -588,8 +588,8 @@
         "Tomasz Sętowski"
       ],
       "answer": "Wojtek Siudmak",
-      "explanation_correct": "Wojtek Siudmak jest polskim artystą mieszkającym we Francji, znanym m.in. z ilustracji do cyklu 'Diuna'.",
-      "explanation_incorrect": "Olbiński i Sętowski również tworzą w nurcie realizmu magicznego, jednak 'Przejście' jest ikonicznym motywem Siudmaka.",
+      "explanation_correct": "Wojtek Siudmak jest malarzem i rzeźbiarzem, którego fantastyczne obrazy pojawiały się m.in. w wydaniach „Diuny”.",
+      "explanation_incorrect": "Olbiński, Beksiński i Sętowski również są polskimi artystami, lecz pytanie dotyczy Siudmaka i jego ilustracji do „Diuny”.",
       "last_verified_at": "2026-06-12T15:33:15.578Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -614,18 +614,18 @@
       "options": [
         "Ciemna materia",
         "Ciemna energia",
-        "Energia próżni",
-        "Kwintesencja"
+        "Wiatr słoneczny",
+        "Promieniowanie kosmiczne"
       ],
       "answer": "Ciemna energia",
-      "explanation_correct": "Ciemna energia stanowi około 68% gęstości energii wszechświata i działa jak siła odpychająca.",
-      "explanation_incorrect": "Ciemna materia odpowiada za grawitacyjne wiązanie galaktyk, a nie za przyspieszoną ekspansję.",
+      "explanation_correct": "Ciemna energia jest nazwą nadawaną hipotetycznej przyczynie przyspieszonej ekspansji; jej natura pozostaje nieznana.",
+      "explanation_incorrect": "Ciemna materia jest rozpoznawana przez skutki grawitacyjne; wiatr słoneczny i promieniowanie kosmiczne nie są nazwami tej hipotetycznej przyczyny.",
       "last_verified_at": "2026-06-12T15:33:15.579Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Astrobiologia",
-      "question": "Który księżyc Jowisza jest uważany za jedno z najbardziej obiecujących miejsc do poszukiwania życia ze względu na podpowierzchniowy ocean?",
+      "question": "Który lodowy księżyc Jowisza bada misja Europa Clipper, wysłana m.in. w celu poznania jego potencjalnej zdatności do życia?",
       "options": [
         "Ganimedes",
         "Io",
@@ -670,7 +670,7 @@
     },
     {
       "subcategory": "Radioastronomia",
-      "question": "Jak określa się niezwykle jasne radiowe źródło energii, zasilane przez supermasywną czarną dziurę w centrum odległej galaktyki?",
+      "question": "Jak nazywa się niezwykle jasne aktywne jądro galaktyki, zasilane przez materię opadającą na supermasywną czarną dziurę?",
       "options": [
         "Pulsar",
         "Magnetar",
@@ -754,7 +754,7 @@
       ],
       "answer": "51 Pegasi b",
       "explanation_correct": "Odkryta w 1995 roku planeta jest typem gorącego jowisza o bardzo krótkim okresie orbitalnym.",
-      "explanation_incorrect": "Kepler-186f była pierwszą planetą wielkości Ziemi w ekosferze, ale odkryto ją znacznie później.",
+      "explanation_incorrect": "Kepler-186f jest planetą wielkości zbliżonej do Ziemi w strefie zamieszkiwalnej czerwonego karła; odkryto ją znacznie później.",
       "last_verified_at": "2026-06-12T15:33:15.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -790,7 +790,7 @@
     },
     {
       "subcategory": "Optyka atmosferyczna",
-      "question": "Jak nazywa się zjawisko optyczne polegające na pojawieniu się barwnej glorii wokół powiększonego cienia obserwatora widzianego w chmurach lub mgle?",
+      "question": "Jak nazywa się cień obserwatora widoczny na chmurze lub mgle, któremu może towarzyszyć barwna gloria?",
       "options": [
         "Zjawisko Tyndalla",
         "Widmo Brockenu",
@@ -798,7 +798,7 @@
         "Iryzacja"
       ],
       "answer": "Widmo Brockenu",
-      "explanation_correct": "Zjawisko to często obserwowane jest w wysokich górach, gdy słońce znajduje się nisko za plecami obserwatora.",
+      "explanation_correct": "Widmo Brockenu to cień obserwatora na chmurze lub mgle, często otoczony barwną glorią; można je obserwować m.in. w górach.",
       "explanation_incorrect": "Iryzacja polega na powstawaniu tęczowych barw na chmurach, ale nie wiąże się z rzucaniem cienia przez obserwatora.",
       "last_verified_at": "2026-06-12T15:33:15.581Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -824,12 +824,12 @@
       "options": [
         "Kopernik",
         "Heweliusz",
-        "Lema",
-        "Łukasiewicz"
+        "Łukasiewicz",
+        "Skłodowska"
       ],
       "answer": "Heweliusz",
       "explanation_correct": "Heweliusz został wyniesiony na orbitę w 2014 roku i służy do precyzyjnych pomiarów jasności najjaśniejszych gwiazd.",
-      "explanation_incorrect": "Choć Lem to również nazwa polskiego satelity z misji BRITE, to Heweliusz jest poprawną odpowiedzią z listy.",
+      "explanation_incorrect": "BRITE-PL Lem był innym polskim satelitą konstelacji BRITE, lecz nie występuje wśród odpowiedzi.",
       "last_verified_at": "2026-06-12T15:33:15.582Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -910,7 +910,7 @@
     },
     {
       "subcategory": "Astrobiologia",
-      "question": "Który księżyc Saturna charakteryzuje się obecnością aktywnego podlodowego oceanu?",
+      "question": "Który księżyc Saturna wyrzuca w przestrzeń pióropusze lodu i pary wodnej z okolic bieguna południowego?",
       "options": [
         "Europa",
         "Tytan",
@@ -918,8 +918,8 @@
         "Ganimedes"
       ],
       "answer": "Enceladus",
-      "explanation_correct": "Enceladus posiada globalny ocean pod lodową skorupą, co czyni go jednym z najbardziej obiecujących miejsc do poszukiwania życia pozaziemskiego.",
-      "explanation_incorrect": "Europa to księżyc Jowisza, a Tytan posiada atmosferę i jeziora węglowodorów, lecz nie lodowy ocean tego typu.",
+      "explanation_correct": "Enceladus wyrzuca pióropusze z pęknięć lodowej skorupy. Dane sondy Cassini wskazują na ocean ciekłej wody pod powierzchnią.",
+      "explanation_incorrect": "Europa i Ganimedes krążą wokół Jowisza. Tytan jest księżycem Saturna i również ma dowody na podpowierzchniowy ocean, lecz opisane pióropusze dotyczą Enceladusa.",
       "last_verified_at": "2026-06-12T15:33:15.583Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -985,7 +985,7 @@
     },
     {
       "subcategory": "Astronomia",
-      "question": "Jak nazywa się rodzaj niezwykle gęstej gwiazdy powstałej po wybuchu supernowej, złożonej niemal wyłącznie z cząstek subatomowych bez ładunku?",
+      "question": "Jak nazywa się bardzo gęsta pozostałość po zapadnięciu jądra niektórych masywnych gwiazd, złożona w znacznej mierze z neutronów?",
       "options": [
         "Biały Karzeł",
         "Czerwony Karzeł",
@@ -993,7 +993,7 @@
         "Błękitny Olbrzym"
       ],
       "answer": "Gwiazda Neutronowa",
-      "explanation_correct": "Gwiazdy neutronowe powstają z zapadniętych jąder masywnych gwiazd i mają gęstość rzędu miliardów ton na centymetr sześcienny.",
+      "explanation_correct": "Gwiazdy neutronowe powstają w wyniku zapadnięcia jąder niektórych masywnych gwiazd. Ich wnętrze ma ekstremalną gęstość i nie składa się wyłącznie z neutronów.",
       "explanation_incorrect": "Białe karły są etapem końcowym gwiazd o mniejszej masie, a czerwone karły to aktywne, długowieczne gwiazdy ciągu głównego.",
       "last_verified_at": "2026-06-12T15:33:15.584Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1045,7 +1045,7 @@
     },
     {
       "subcategory": "Filozofia nauki",
-      "question": "Który średniowieczny filozof sformułował zasadę metodologiczną nakazującą nie mnożyć bytów ponad potrzebę?",
+      "question": "Z którym średniowiecznym filozofem najczęściej wiąże się zasadę metodologiczną, by nie mnożyć bytów ponad potrzebę?",
       "options": [
         "Tomasz z Akwinu",
         "Wilhelm Ockham",
@@ -1053,7 +1053,7 @@
         "Anzelm z Canterbury"
       ],
       "answer": "Wilhelm Ockham",
-      "explanation_correct": "Brzytwa Ockhama to zasada ekonomii myślenia, według której w wyjaśnianiu zjawisk należy wybierać rozwiązania najprostsze.",
+      "explanation_correct": "Brzytwa Ockhama zaleca unikanie zbędnych założeń w wyjaśnieniach. Podobne idee występowały także przed Wilhelmem Ockhamem.",
       "explanation_incorrect": "Tomasz z Akwinu skupiał się na syntezie wiary i rozumu, a nie na radykalnym nominalizmie.",
       "last_verified_at": "2026-06-12T15:33:15.585Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1084,7 +1084,7 @@
       ],
       "answer": "Columbia",
       "explanation_correct": "Wahadłowiec Columbia jako pierwszy z floty NASA poleciał w kosmos 12 kwietnia 1981 roku w ramach misji STS-1.",
-      "explanation_incorrect": "Enterprise był tylko modelem do testów atmosferycznych, a Discovery i Challenger dołączyły do floty później.",
+      "explanation_incorrect": "Enterprise był pełnowymiarowym orbiterem testowym do lotów atmosferycznych, lecz nie latał w kosmos; Discovery i Challenger odbyły loty orbitalne później.",
       "last_verified_at": "2026-06-12T15:33:15.585Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1098,7 +1098,7 @@
         "Foton"
       ],
       "answer": "Tachion",
-      "explanation_correct": "Tachiony to cząstki teoretyczne, których masa spoczynkowa byłaby liczbą urojoną, co pozwalałoby im na przekraczanie prędkości światła.",
+      "explanation_correct": "Tachion to hipotetyczna cząstka opisywana jako poruszająca się nadświetlnie. Nie ma potwierdzenia istnienia takich cząstek; pojęcie nie oznacza możliwości rozpędzenia zwykłej materii ponad prędkość światła.",
       "explanation_incorrect": "Fotony poruszają się dokładnie z prędkością światła, a neutrina mają masę i poruszają się nieco wolniej od światła.",
       "last_verified_at": "2026-06-12T15:33:15.585Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1120,7 +1120,7 @@
     },
     {
       "subcategory": "Grawitacja",
-      "question": "Jak nazywa się promień sfery wokół masy, po którego przekroczeniu prędkość ucieczki staje się większa od prędkości światła?",
+      "question": "Jak nazywa się promień horyzontu zdarzeń w idealnym modelu nierotującej, nienaładowanej czarnej dziury?",
       "options": [
         "Promień Plancka",
         "Promień Hubble'a",
@@ -1128,7 +1128,7 @@
         "Promień Bohra"
       ],
       "answer": "Promień Schwarzschilda",
-      "explanation_correct": "Promień Schwarzschilda definiuje wielkość horyzontu zdarzeń nierotującej czarnej dziury.",
+      "explanation_correct": "Promień Schwarzschilda zależy od masy i w idealnym modelu wyznacza położenie horyzontu zdarzeń nierotującej, nienaładowanej czarnej dziury.",
       "explanation_incorrect": "Promień Plancka odnosi się do skali kwantowej, a promień Bohra do modelu budowy atomu.",
       "last_verified_at": "2026-06-12T15:33:15.586Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1158,7 +1158,7 @@
         "Wielki Wybuch"
       ],
       "answer": "Wielki Kolaps",
-      "explanation_correct": "Wielki Kolaps (Big Crunch) to teoretyczny stan, w którym grawitacja przezwycięża ekspansję, prowadząc do kolapsu do osobliwości.",
+      "explanation_correct": "Wielki Kolaps (Big Crunch) to hipotetyczny scenariusz, w którym ekspansja Wszechświata ustępuje globalnemu kurczeniu.",
       "explanation_incorrect": "Wielki Chłód zakłada wieczne rozszerzanie i zamarzanie Wszechświata, a Wielkie Rozdarcie jego rozerwanie przez ciemną energię.",
       "last_verified_at": "2026-06-12T15:33:15.586Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1174,7 +1174,7 @@
       ],
       "answer": "Wir pyłowy",
       "explanation_correct": "Wiry pyłowe powstają lokalnie i nie są związane z chmurami burzowymi, w przeciwieństwie do tornad.",
-      "explanation_incorrect": "Tornada powstają z mezocyklonów chmur burzowych, a cyklony to układy niskiego ciśnienia o dużej skali.",
+      "explanation_incorrect": "Wir pyłowy nie wymaga chmury burzowej. Tornada wiążą się z chmurami konwekcyjnymi, ale nie wszystkie powstają z mezocyklonów.",
       "last_verified_at": "2026-06-12T15:33:15.586Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1195,7 +1195,7 @@
     },
     {
       "subcategory": "Mechanika orbitalna",
-      "question": "Jak nazywa się punkt orbity satelity okołoziemskiego położony najbliżej powierzchni Ziemi?",
+      "question": "Jak nazywa się punkt orbity satelity okołoziemskiego położony najbliżej środka Ziemi?",
       "options": [
         "Perygeum",
         "Apogeum",
@@ -1203,7 +1203,7 @@
         "Zenit"
       ],
       "answer": "Perygeum",
-      "explanation_correct": "Perygeum to moment, w którym satelita osiąga największą prędkość orbitalną ze względu na bliskość grawitacyjną Ziemi.",
+      "explanation_correct": "W perygeum satelita na orbicie eliptycznej znajduje się najbliżej środka Ziemi i ma największą prędkość orbitalną w uproszczonym modelu dwuciałowym.",
       "explanation_incorrect": "Peryhelium odnosi się do odległości od Słońca, a Zenit to punkt bezpośrednio nad obserwatorem.",
       "last_verified_at": "2026-06-12T15:33:15.587Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1255,7 +1255,7 @@
     },
     {
       "subcategory": "Kosmologia",
-      "question": "Jak nazywa się izotropowe promieniowanie elektromagnetyczne wypełniające wszechświat, pochodzące z czasów rekombinacji?",
+      "question": "Jak nazywa się prawie izotropowe promieniowanie elektromagnetyczne wypełniające Wszechświat, pochodzące z epoki rekombinacji?",
       "options": [
         "Promieniowanie tła",
         "Promieniowanie Hawkinga",
@@ -1270,7 +1270,7 @@
     },
     {
       "subcategory": "Aeronautyka",
-      "question": "Który amerykański samolot rakietowy ustanowił niepobite dotąd rekordy prędkości i wysokości dla załogowych maszyn latających?",
+      "question": "Który amerykański samolot rakietowy osiągnął w programie badawczym NASA około Mach 6,7 i przekroczył wysokość 100 km?",
       "options": [
         "North American X-15",
         "Lockheed SR-71 Blackbird",
@@ -1278,8 +1278,8 @@
         "Douglas X-3 Stiletto"
       ],
       "answer": "North American X-15",
-      "explanation_correct": "X-15 osiągnął prędkość 6,72 Macha oraz wysokość przekraczającą 100 kilometrów, czyniąc swoich pilotów astronautami.",
-      "explanation_incorrect": "SR-71 to najszybszy samolot odrzutowy, a Bell X-1 był pierwszym, który przekroczył barierę dźwięku, ale nie dorównywał X-15 osiągami.",
+      "explanation_correct": "W programie X-15 uzyskano około Mach 6,7 w 1967 roku, a w innym locie ponad 100 km wysokości w 1963 roku.",
+      "explanation_incorrect": "SR-71 był samolotem odrzutowym, a Bell X-1 przekroczył barierę dźwięku; nie były to opisane loty programu X-15.",
       "last_verified_at": "2026-06-12T15:33:15.588Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1293,14 +1293,14 @@
         "Prawa Keplera"
       ],
       "answer": "Zasada parsymonii",
-      "explanation_correct": "Zasada parsymonii, tożsama z Brzytwą Ockhama, nakazuje prostotę w tworzeniu modeli naukowych.",
+      "explanation_correct": "Zasada parsymonii zaleca unikanie zbędnych założeń, ale sama prostota modelu nie dowodzi, że jest on poprawny.",
       "explanation_incorrect": "Prawa Keplera opisują ruch planet, a zasada wzajemności dotyczy oddziaływań fizycznych lub społecznych.",
       "last_verified_at": "2026-06-12T15:35:44.547Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Eksploracja kosmosu",
-      "question": "Jak nazywa się bezzałogowa kapsuła firmy SpaceX, która w 2012 roku jako pierwszy prywatny pojazd w historii zacumowała do ISS?",
+      "question": "Jak nazywa się kapsuła cargo SpaceX, która w 2012 roku jako pierwszy komercyjny statek dostarczyła ładunek na ISS?",
       "options": [
         "Dragon",
         "Cygnus",
@@ -1308,8 +1308,8 @@
         "Orion"
       ],
       "answer": "Dragon",
-      "explanation_correct": "Kapsuła Dragon 1 podczas misji C2+ wykazała zdolność do dostarczania ładunków na Międzynarodową Stację Kosmiczną.",
-      "explanation_incorrect": "Cygnus to pojazd firmy Northrop Grumman, a Starliner i Orion to konstrukcje, które debiutowały znacznie później.",
+      "explanation_correct": "Podczas misji C2+ statek Dragon został przechwycony ramieniem Canadarm2 i przyłączony do stacji przez astronautów.",
+      "explanation_incorrect": "Cygnus to inny statek towarowy, a Starliner i Orion są odrębnymi konstrukcjami.",
       "last_verified_at": "2026-06-12T15:33:15.588Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1398,7 +1398,7 @@
         "Prąd Benguelski"
       ],
       "answer": "Prąd Humboldta",
-      "explanation_correct": "Prąd Humboldta (Peruwiański) transportuje zimne wody z Antarktydy, co powoduje ochłodzenie powietrza i brak opadów na wybrzeżu.",
+      "explanation_correct": "Chłodny Prąd Humboldta sprzyja stabilizacji i ochłodzeniu powietrza nad wybrzeżem; suchość Atakamy wynika także z innych czynników, w tym cienia opadowego Andów.",
       "explanation_incorrect": "Prąd Brazylijski jest ciepły, a prądy Agulhas i Benguelski znajdują się w rejonie Afryki.",
       "last_verified_at": "2026-06-12T15:36:07.207Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1435,7 +1435,7 @@
     },
     {
       "subcategory": "Astronomia gwiazdowa",
-      "question": "Który wielokrotny układ gwiezdny znajduje się najbliżej Układu Słonecznego, w odległości około 4,37 lat świetlnych?",
+      "question": "Który układ gwiezdny, którego najbliższy składnik Proxima znajduje się około 4,24 roku świetlnego od Słońca, leży najbliżej Układu Słonecznego?",
       "options": [
         "Alfa Centauri",
         "Syriusz",
@@ -1494,17 +1494,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Fizyka teoretyczna",
-      "question": "Jak brzmi nazwa teoretycznego rozwiązania równań pola Einsteina, pozwalającego na skrót między oddalonymi punktami wszechświata?",
+      "subcategory": "Eksploracja kosmosu",
+      "question": "Jak nazywa się sonda ESA, która w 2005 roku wylądowała na Tytanie po oddzieleniu od orbitera Cassini?",
       "options": [
-        "Most Einsteina-Rosena",
-        "Horyzont zdarzeń",
-        "Osobliwość",
-        "Sfera Dysona"
+        "Philae",
+        "Huygens",
+        "Rosetta",
+        "Viking 1"
       ],
-      "answer": "Most Einsteina-Rosena",
-      "explanation_correct": "Jest to naukowe określenie na tunel czasoprzestrzenny łączący dwa płaty przestrzeni.",
-      "explanation_incorrect": "Osobliwość to punkt w czarnej dziurze, gdzie gęstość i krzywizna stają się nieskończone.",
+      "answer": "Huygens",
+      "explanation_correct": "Huygens opadł przez atmosferę Tytana i wylądował na jego powierzchni 14 stycznia 2005 roku.",
+      "explanation_incorrect": "Philae wylądował na komecie, Rosetta była orbiterem kometarnym, a Viking 1 lądownikiem marsjańskim.",
       "last_verified_at": "2026-06-12T15:36:07.209Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }

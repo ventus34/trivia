@@ -2,7 +2,7 @@
   "id": "strategiczny_umys_pl",
   "name": "Strategiczny Umysł",
   "language": "pl",
-  "description": "Pytania z zakresu: Teoria gier, Szachy, Zarządzanie, Wojskowość, Informatyka, Logika, Psychologia...",
+  "description": "Pytania o strategie, gry, szachy, podejmowanie decyzji, historię wojskowości, informatykę i psychologię.",
   "created_at": "2026-06-12T15:43:03.503Z",
   "last_verified_at": "2026-06-12T15:43:02.536Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -19,7 +19,7 @@
       ],
       "answer": "Równowaga Nasha",
       "explanation_correct": "Równowaga Nasha to pojęcie wprowadzone przez Johna Nasha, oznaczające profil strategii, w którym wybór każdego gracza jest optymalny względem wyborów pozostałych.",
-      "explanation_incorrect": "Optimum Pareto dotyczy alokacji zasobów, a punkt siodłowy odnosi się do gier o sumie zerowej lub funkcji matematycznych.",
+      "explanation_incorrect": "Optimum Pareto opisuje sytuację, w której nie da się poprawić wyniku jednego uczestnika bez pogorszenia wyniku innego; równowaga Nasha nie musi być optymalna w tym sensie.",
       "last_verified_at": "2026-06-12T15:41:47.450Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -75,7 +75,7 @@
         "Algorytm Dijkstry",
         "Algorytm Kruskala",
         "Algorytm Prima",
-        "Algorytm A*"
+        "Sortowanie topologiczne"
       ],
       "answer": "Algorytm Dijkstry",
       "explanation_correct": "Opracowany przez Edsgera Dijkstrę algorytm jest jednym z najpopularniejszych rozwiązań problemu najkrótszej drogi.",
@@ -93,7 +93,7 @@
         "Tragedia wspólnego pastwiska"
       ],
       "answer": "Dylemat więźnia",
-      "explanation_correct": "Dylemat więźnia ilustruje konflikt między racjonalnością indywidualną a grupową w warunkach braku komunikacji.",
+      "explanation_correct": "W klasycznej jednorazowej grze zdrada jest strategią dominującą obu więźniów, chociaż obaj osiągnęliby lepszy wynik przy wzajemnej współpracy.",
       "explanation_incorrect": "Dylemat wagonika to problem etyczny, a paradoks Monty'ego Halla dotyczy rachunku prawdopodobieństwa.",
       "last_verified_at": "2026-06-12T15:41:58.189Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -115,7 +115,7 @@
     },
     {
       "subcategory": "Psychologia",
-      "question": "Który efekt psychologiczny opisuje zjawisko, w którym osoby z niskimi kompetencjami przeceniają swoje umiejętności, podczas gdy eksperci mają skłonność do ich zaniżania?",
+      "question": "Który efekt opisuje obserwowaną w badaniach skłonność osób uzyskujących niskie wyniki w danym zadaniu do zawyżania oceny swoich umiejętności?",
       "options": [
         "Efekt aureoli",
         "Efekt Krugera-Dunninga",
@@ -123,7 +123,7 @@
         "Błąd zakotwiczenia"
       ],
       "answer": "Efekt Krugera-Dunninga",
-      "explanation_correct": "Jest to błąd poznawczy polegający na tym, że osoby niewykwalifikowane nie potrafią obiektywnie ocenić własnej niewiedzy.",
+      "explanation_correct": "Efekt Dunninga–Krugera opisuje wzorzec błędnej samooceny względem wyników zadania. Jego wielkość i mechanizmy są przedmiotem dyskusji; nie pozwala diagnozować konkretnej osoby.",
       "explanation_incorrect": "Efekt aureoli dotyczy przypisywania cech osobowości na podstawie wyglądu, a błąd zakotwiczenia nadmiernego polegania na pierwszej informacji.",
       "last_verified_at": "2026-06-12T15:41:58.189Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -183,8 +183,8 @@
         "Ada Lovelace"
       ],
       "answer": "Alan Turing",
-      "explanation_correct": "Turing zaprojektował 'bombę kryptologiczną', która zautomatyzowała proces odczytywania niemieckich meldunków.",
-      "explanation_incorrect": "Charles Babbage zaprojektował maszynę różnicową, a Ada Lovelace stworzyła pierwszy algorytm.",
+      "explanation_correct": "Turing zaprojektował brytyjską maszynę Bombe, rozwijając wcześniejsze prace polskich kryptologów; maszyna pomagała ustalać możliwe ustawienia Enigmy.",
+      "explanation_incorrect": "Babbage projektował maszyny obliczeniowe, a Lovelace opublikowała uwagi o maszynie analitycznej i opis obliczeń dla tej maszyny.",
       "last_verified_at": "2026-06-12T15:41:58.190Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -198,7 +198,7 @@
         "Steganografia"
       ],
       "answer": "Socjotechnika",
-      "explanation_correct": "Socjotechnika (social engineering) wykorzystuje błędy ludzkie i emocje, a nie luki w oprogramowaniu.",
+      "explanation_correct": "Socjotechnika wykorzystuje manipulację ludźmi, na przykład podszywanie się pod zaufaną osobę; może towarzyszyć innym technikom ataku.",
       "explanation_incorrect": "Kryptografia to nauka o szyfrowaniu, a inżynieria odwrotna to analiza gotowego produktu w celu poznania jego budowy.",
       "last_verified_at": "2026-06-12T15:41:58.191Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -220,7 +220,7 @@
     },
     {
       "subcategory": "Zarządzanie czasem",
-      "question": "Narzędzie do priorytetyzacji zadań dzielące je na cztery kwadranty nosi nazwisko którego prezydenta USA?",
+      "question": "Jak nazywa się macierz priorytetów dzieląca zadania według ich pilności i ważności?",
       "options": [
         "Technika Pomodoro",
         "Macierz Eisenhowera",
@@ -228,7 +228,7 @@
         "Zasada ALPEN"
       ],
       "answer": "Macierz Eisenhowera",
-      "explanation_correct": "Dwight Eisenhower przypisywał popularność zasadzie odróżniania rzeczy ważnych od pilnych.",
+      "explanation_correct": "Macierz Eisenhowera porządkuje zadania w czterech polach według pilności i ważności; jej nazwa nawiązuje do Dwighta Eisenhowera.",
       "explanation_incorrect": "Pomodoro opiera się na interwałach czasowych, a GTD (Getting Things Done) na systematycznym listowaniu spraw.",
       "last_verified_at": "2026-06-12T15:41:58.191Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -273,7 +273,7 @@
         "Zasada Murphy'ego"
       ],
       "answer": "Zasada Pareto",
-      "explanation_correct": "Vilfredo Pareto sformułował tę obserwację początkowo w kontekście rozkładu bogactwa we Włoszech, obecnie stosuje się ją w biznesie i zarządzaniu.",
+      "explanation_correct": "Zasada Pareto jest heurystyką ilustrującą nierówny rozkład przyczyn i skutków; proporcja 80/20 nie jest uniwersalnym prawem.",
       "explanation_incorrect": "Prawo Parkinsona mówi, że praca rozszerza się tak, by wypełnić czas na nią przeznaczony.",
       "last_verified_at": "2026-06-12T15:41:58.192Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -400,7 +400,7 @@
     },
     {
       "subcategory": "Sztuczna Inteligencja",
-      "question": "Który program komputerowy stworzony przez Google DeepMind jako pierwszy pokonał mistrza świata w grze Go, Lee Sedola?",
+      "question": "Który program Google DeepMind wygrał w 2016 roku mecz w Go z Lee Sedolem?",
       "options": [
         "Deep Blue",
         "AlphaGo",
@@ -408,7 +408,7 @@
         "Stockfish"
       ],
       "answer": "AlphaGo",
-      "explanation_correct": "AlphaGo wykorzystywało sieci neuronowe i uczenie przez wzmacnianie do opanowania skomplikowanej gry Go.",
+      "explanation_correct": "AlphaGo pokonał Lee Sedola 4:1 w meczu w 2016 roku; program wykorzystywał sieci neuronowe i przeszukiwanie drzewa.",
       "explanation_incorrect": "Deep Blue wsławił się pokonaniem Garriego Kasparowa w szachy w 1997 roku.",
       "last_verified_at": "2026-06-12T15:41:58.194Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -505,7 +505,7 @@
     },
     {
       "subcategory": "Inwestowanie",
-      "question": "Jak profesjonalnie nazywa się rozpraszanie kapitału na różne rodzaje inwestycji w celu minimalizacji strat?",
+      "question": "Jak nazywa się rozłożenie kapitału na różne inwestycje w celu ograniczenia części ryzyka portfela?",
       "options": [
         "Spekulacja",
         "Dywersyfikacja portfela",
@@ -513,7 +513,7 @@
         "Hedging"
       ],
       "answer": "Dywersyfikacja portfela",
-      "explanation_correct": "Działanie to opiera się na zasadzie „nie wkładaj wszystkich jajek do jednego koszyka”.",
+      "explanation_correct": "Dywersyfikacja zmniejsza zależność portfela od pojedynczej inwestycji, ale nie usuwa ryzyka rynkowego ani nie gwarantuje uniknięcia strat.",
       "explanation_incorrect": "Hedging służy do zabezpieczania pozycji, a arbitraż wykorzystuje różnice cen na giełdach.",
       "last_verified_at": "2026-06-12T15:41:58.195Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -528,7 +528,7 @@
         "Mózg w naczyniu"
       ],
       "answer": "Chiński pokój",
-      "explanation_correct": "Eksperyment pokazuje, że czyste operowanie symbolami według instrukcji nie jest tożsame z rozumieniem semantyki.",
+      "explanation_correct": "Searle argumentował, że samo przetwarzanie symboli według reguł nie wystarcza do rozumienia znaczeń; jego wniosek jest przedmiotem dyskusji.",
       "explanation_incorrect": "Statek Tezeusza dotyczy tożsamości obiektów w czasie, a Kot Schrödingera to koncepcja z mechaniki kwantowej.",
       "last_verified_at": "2026-06-12T15:41:58.196Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -540,7 +540,7 @@
         "Wojna błyskawiczna",
         "Ruch kleszczowy",
         "Strategia spalonej ziemi",
-        "Szyzyk żółwiowy"
+        "Szyk żółwiowy"
       ],
       "answer": "Ruch kleszczowy",
       "explanation_correct": "To klasyczny manewr, którego spektakularnym przykładem była bitwa pod Kannami.",
@@ -558,7 +558,7 @@
         "Złudzenie planowania"
       ],
       "answer": "Koszty utopione",
-      "explanation_correct": "Błąd ten zmusza ludzi do irracjonalnego trzymania się stratnych projektów, bo szkoda im dotychczasowego wkładu.",
+      "explanation_correct": "Błąd kosztów utopionych polega na uwzględnianiu nieodzyskiwalnych nakładów jako samodzielnego powodu kontynuowania działania, zamiast oceny przyszłych kosztów i korzyści.",
       "explanation_incorrect": "Efekt potwierdzenia to wyszukiwanie informacji zgodnych z własnymi uprzedzeniami.",
       "last_verified_at": "2026-06-12T15:41:58.196Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -574,7 +574,7 @@
       ],
       "answer": "Próżniactwo społeczne",
       "explanation_correct": "Osoby w grupie często czują się mniej monitorowane, co prowadzi do spadku ich indywidualnej wydajności.",
-      "explanation_incorrect": "Efekt widza dotyczy bierności w sytuacjach zagrożenia, a facylitacja to poprawa wyników w obecności innych.",
+      "explanation_incorrect": "Efekt widza dotyczy wpływu obecności świadków na udzielanie pomocy; facylitacja społeczna opisuje wpływ obecności innych na wykonanie zadania.",
       "last_verified_at": "2026-06-12T15:41:58.196Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -595,7 +595,7 @@
     },
     {
       "subcategory": "Teoria systemów",
-      "question": "Którym terminem zapożyczonym z termodynamiki określa się w teorii systemów miarę nieuporządkowania i degradacji energii w układzie?",
+      "question": "Które pojęcie termodynamiki opisuje m.in. rozkład energii i liczbę dostępnych stanów mikroskopowych układu?",
       "options": [
         "Homeostaza",
         "Entropia",
@@ -603,8 +603,8 @@
         "Sygnał"
       ],
       "answer": "Entropia",
-      "explanation_correct": "Zgodnie z drugą zasadą termodynamiki entropia systemów izolowanych ma tendencję do wzrostu.",
-      "explanation_incorrect": "Homeostaza to dążenie systemu do równowagi, co jest przeciwieństwem wzrostu nieuporządkowania.",
+      "explanation_correct": "Entropia jest wielkością termodynamiczną; w izolowanym układzie całkowita entropia nie maleje w procesie zgodnym z drugą zasadą termodynamiki.",
+      "explanation_incorrect": "Homeostaza oznacza utrzymywanie względnej stabilności wybranych parametrów układu, a nie odwrotność entropii.",
       "last_verified_at": "2026-06-12T15:41:58.197Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -618,7 +618,7 @@
         "Wykres Gantta"
       ],
       "answer": "Ścieżka krytyczna",
-      "explanation_correct": "Ścieżka krytyczna (CPM) to ciąg zadań o zerowym rezerwie czasowym, determinujący czas trwania całego projektu.",
+      "explanation_correct": "Ścieżka krytyczna to najdłuższy ciąg zależnych zadań wyznaczający najwcześniejszy termin ukończenia projektu; zadania na niej nie mają zapasu czasu przy danym harmonogramie.",
       "explanation_incorrect": "Pozostałe terminy to techniki priorytetyzacji zadań (MoSCoW), optymalizacji zasobów (Pareto) lub wizualizacji harmonogramu (Gantt).",
       "last_verified_at": "2026-06-12T15:41:58.197Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -648,7 +648,7 @@
         "Xiangqi"
       ],
       "answer": "Shogi",
-      "explanation_correct": "Shogi to gra znana jako 'szachy generałów', charakteryzująca się unikalną mechaniką zrzutów przejętych figur.",
+      "explanation_correct": "Shogi to japońska odmiana szachów, w której przejęte bierki można, z pewnymi ograniczeniami, wprowadzać z powrotem jako własne.",
       "explanation_incorrect": "Xiangqi to szachy chińskie, Go skupia się na otaczaniu terytorium, a Majong to chińska gra hazardowa z użyciem płytek.",
       "last_verified_at": "2026-06-12T15:41:58.197Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -685,7 +685,7 @@
     },
     {
       "subcategory": "Teoria gier",
-      "question": "Jak w teorii gier nazywa się strategia dążąca do wyboru ruchu, który zapewni najlepszy możliwy wynik przy założeniu najgorszego scenariusza?",
+      "question": "Jak nazywa się zasada wyboru decyzji minimalizującej największą możliwą stratę?",
       "options": [
         "Nash",
         "Minimax",
@@ -693,7 +693,7 @@
         "Zero-sum"
       ],
       "answer": "Minimax",
-      "explanation_correct": "Strategia Minimax polega na minimalizacji maksymalnej możliwej straty w sytuacjach konfliktowych.",
+      "explanation_correct": "Minimax straty wybiera decyzję o najmniejszej maksymalnej stracie; pokrewna zasada maximin maksymalizuje minimalny możliwy wynik.",
       "explanation_incorrect": "Równowaga Nasha to punkt stabilny strategii graczy, a Pareto dotyczy efektywności alokacji zasobów.",
       "last_verified_at": "2026-06-12T15:41:58.198Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -753,7 +753,7 @@
         "Six Sigma"
       ],
       "answer": "Agile",
-      "explanation_correct": "Agile to podejście iteracyjne, które zastępuje tradycyjne, liniowe planowanie na rzecz ciągłego doskonalenia.",
+      "explanation_correct": "Agile to zbiór wartości i zasad wspierających iteracyjne dostarczanie, współpracę i reagowanie na zmiany; obejmuje różne metody pracy.",
       "explanation_incorrect": "Waterfall jest modelem kaskadowym, a PRINCE2 to sformalizowane podejście kładące nacisk na kontrolę etapową.",
       "last_verified_at": "2026-06-12T15:41:58.199Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -768,7 +768,7 @@
         "Pion wolny"
       ],
       "answer": "Zugzwang",
-      "explanation_correct": "Zugzwang to po niemiecku 'przymus ruchu'; jest to stan, w którym samo bycie przy ruchu jest przyczyną porażki.",
+      "explanation_correct": "Zugzwang oznacza sytuację, w której obowiązek wykonania ruchu pogarsza pozycję gracza; nie każda taka sytuacja musi prowadzić do porażki.",
       "explanation_incorrect": "Gambit to poświęcenie bierki dla przewagi pozycyjnej, a roszada to specjalny ruch królem i wieżą.",
       "last_verified_at": "2026-06-12T15:41:58.199Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -790,7 +790,7 @@
     },
     {
       "subcategory": "Strategia wojskowa",
-      "question": "Jak nazywała się rzymska formacja obronna, w której legioniści osłaniali się tarcza mi ze wszystkich stron, tworząc zwartą strukturę?",
+      "question": "Jak nazywała się rzymska formacja obronna, w której legioniści osłaniali się tarczami z przodu, po bokach i nad głowami?",
       "options": [
         "Falanża",
         "Klin",
@@ -813,7 +813,7 @@
         "Efekt dochodowy"
       ],
       "answer": "Efekt biczowania",
-      "explanation_correct": "Efekt biczowania (bullwhip effect) wynika z braku przejrzystości i opóźnień w przepływie informacji między ogniwami sieci.",
+      "explanation_correct": "Efekt biczowania to narastanie zmienności zamówień w kolejnych ogniwach łańcucha dostaw; przyczyniają się do niego m.in. opóźnienia informacji i sposób składania zamówień.",
       "explanation_incorrect": "Efekt skali dotyczy obniżania kosztów jednostkowych, a efekt substytucji wiąże się ze zmianą wyboru towaru przy zmianie ceny.",
       "last_verified_at": "2026-06-12T15:41:58.199Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -910,7 +910,7 @@
     },
     {
       "subcategory": "Gry planszowe",
-      "question": "Jak w teorii gier określa się sytuację, w której optymalny wybór jednego gracza zależy od tego, co wybierze drugi, a ich interesy są częściowo wspólne?",
+      "question": "Jak nazywa się gra, w której suma wypłat uczestników nie musi być taka sama dla wszystkich wyników?",
       "options": [
         "Kooperacja",
         "Gra o sumie niezerowej",
@@ -918,7 +918,7 @@
         "Konflikt czysty"
       ],
       "answer": "Gra o sumie niezerowej",
-      "explanation_correct": "W grach o sumie niezerowej możliwa jest sytuacja win-win, gdzie suma zysków i strat uczestników nie musi wynosić zero.",
+      "explanation_correct": "W grze o sumie niezerowej suma wypłat może różnić się między wynikami; możliwe są sytuacje korzystne dla obu stron, ale nie jest to gwarantowane.",
       "explanation_incorrect": "Gra o sumie zerowej oznacza, że zysk jednego gracza jest zawsze stratą drugiego, co wyklucza obopólne korzyści.",
       "last_verified_at": "2026-06-12T15:43:02.536Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -978,7 +978,7 @@
         "Wojna podjazdowa"
       ],
       "answer": "Pozorowany odwrót",
-      "explanation_correct": "Pozorowany odwrót to trudny technicznie manewr kawalerii, mający na celu rozbicie szyku nacierającego wroga.",
+      "explanation_correct": "Pozorowany odwrót to manewr mający skłonić przeciwnika do pościgu i opuszczenia korzystnej pozycji; stosowały go różne rodzaje wojsk.",
       "explanation_incorrect": "Okolenie to zamknięcie wroga w pierścieniu, a tyraliera to rozproszony szyk piechoty.",
       "last_verified_at": "2026-06-12T15:41:58.202Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -993,7 +993,7 @@
         "Inwestowanie indeksowe"
       ],
       "answer": "Inwestowanie w wartość",
-      "explanation_correct": "Inwestowanie w wartość (Value Investing) szuka akcji, których cena rynkowa jest niższa niż ich realna wartość wewnętrzna.",
+      "explanation_correct": "Inwestowanie w wartość polega na szukaniu aktywów, których cena wydaje się niższa od oszacowanej wartości wewnętrznej; taka wycena jest obarczona niepewnością.",
       "explanation_incorrect": "Analiza techniczna bada wykresy cenowe, a arbitraż wykorzystuje różnice cen na różnych giełdach.",
       "last_verified_at": "2026-06-12T15:41:58.202Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1038,7 +1038,7 @@
         "Opozycja"
       ],
       "answer": "Lufcik",
-      "explanation_correct": "Lufcik to ruch pionem h lub g, który tworzy ucieczkę dla króla przed groźbą matową na 1. lub 8. linii długu rzędu.",
+      "explanation_correct": "Lufcik to pole ucieczki dla króla, zwykle utworzone ruchem pionka przed królem, które może zapobiec matowi na ostatniej linii.",
       "explanation_incorrect": "Widełki to atak jedną figurą na dwie naraz, a związanie to uniemożliwienie ruchu bierki bez straty innej.",
       "last_verified_at": "2026-06-12T15:41:58.203Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1090,15 +1090,15 @@
     },
     {
       "subcategory": "Filozofia nauki",
-      "question": "Który fizyk zaproponował eksperyment myślowy z istotą posiadającą zdolność sortowania cząsteczek gazu, co pozornie łamało II zasadę termodynamiki?",
+      "question": "Jak nazywa się eksperyment myślowy, w którym hipotetyczna istota sortuje szybkie i wolne cząsteczki gazu?",
       "options": [
         "Demon Maxwella",
         "Kot Schrödingera",
-        "Paradoks Laplace'a",
-        "Wielka Wybuch"
+        "Demon Laplace’a",
+        "Wielki Wybuch"
       ],
       "answer": "Demon Maxwella",
-      "explanation_correct": "Demon Maxwella miałby zmniejszać entropię układu poprzez oddzielanie cząstek szybkich od wolnych bez wykonywania pracy.",
+      "explanation_correct": "James Clerk Maxwell zaproponował hipotetycznego demona sortującego cząsteczki, aby zbadać konsekwencje drugiej zasady termodynamiki.",
       "explanation_incorrect": "Kot Schrödingera dotyczy mechaniki kwantowej, a demon Laplace'a odnosi się do determinizmu wszechświata.",
       "last_verified_at": "2026-06-12T15:41:58.203Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1120,7 +1120,7 @@
     },
     {
       "subcategory": "Teoria negocjacji",
-      "question": "Który termin w teorii negocjacji określa zakres wspólnych korzyści, znajdujący się między punktami oporu obu negocjujących stron?",
+      "question": "Który termin w negocjacjach określa zakres możliwych porozumień między punktami oporu obu stron?",
       "options": [
         "BATNA",
         "ZOPA",
@@ -1143,14 +1143,14 @@
         "Konrad Lorenz"
       ],
       "answer": "John Maynard Smith",
-      "explanation_correct": "John Maynard Smith zastosował teorię gier (np. model Jastrząb-Gołąb) do analizy strategii przetrwania w świecie natury.",
+      "explanation_correct": "John Maynard Smith wraz z George’em Price’em wprowadził pojęcie strategii ewolucyjnie stabilnej w analizie zachowań zwierząt.",
       "explanation_incorrect": "Richard Dawkins spopularyzował te idee w 'Samolubnym genie', ale nie jest autorem matematycznego modelu ESS.",
       "last_verified_at": "2026-06-12T15:41:58.204Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Szachy",
-      "question": "Jak profesjonalnie określa się w szachach podniesienie aktywnej figury na drugą lub trzecią linię z pozycji startowej?",
+      "question": "Jak nazywa się manewr szachowy polegający na przeniesieniu wieży na wyższą linię, a następnie w bok, by włączyć ją do gry?",
       "options": [
         "Roszada długa",
         "Winda wieżowa",
@@ -1158,7 +1158,7 @@
         "Młyn szachowy"
       ],
       "answer": "Winda wieżowa",
-      "explanation_correct": "Manewr ten pozwala na włączenie ciężkiej figury do ataku w centrum lub na skrzydle nad pionkami.",
+      "explanation_correct": "Winda wieżowa polega na przesunięciu wieży w górę szachownicy, często przez drugą lub trzecią linię, aby mogła dotrzeć do innej części planszy.",
       "explanation_incorrect": "Młyn szachowy to kombinacja z naprzemiennymi szachami, a roszada to ruch obronny króla.",
       "last_verified_at": "2026-06-12T15:41:58.204Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1228,13 +1228,13 @@
       "question": "Który słynny eksperyment psychologiczny badał proces ulegania autorytetowi poprzez nakazywanie uczestnikom wymierzania wstrząsów elektrycznych innym osobom?",
       "options": [
         "Eksperyment więzienny",
-        "Eksperyment Asha",
+        "Eksperyment Ascha",
         "Eksperyment Milgrama",
         "Eksperyment Robbers Cave"
       ],
       "answer": "Eksperyment Milgrama",
-      "explanation_correct": "Badanie Stanleya Milgrama z 1961 roku wykazało, że wysoki odsetek ludzi jest zdolny do zadawania bólu innym pod wpływem polecenia przełożonego.",
-      "explanation_incorrect": "Eksperyment więzienny dotyczył ról społecznych, badanie Asha konformizmu normatywnego, a Robbers Cave konfliktów międzygrupowych.",
+      "explanation_correct": "W badaniach Milgrama uczestnicy sądzili, że wymierzają drugiej osobie coraz silniejsze wstrząsy; w rzeczywistości osoba odgrywająca ucznia nie otrzymywała wstrząsów.",
+      "explanation_incorrect": "Eksperyment więzienny dotyczył ról społecznych, badanie Ascha konformizmu, a Robbers Cave konfliktów międzygrupowych.",
       "last_verified_at": "2026-06-12T15:41:58.205Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1245,11 +1245,11 @@
         "Kaizen",
         "Six Sigma",
         "Just in Time",
-        "Kankan"
+        "Poka-yoke"
       ],
       "answer": "Just in Time",
       "explanation_correct": "Metoda Just in Time (JIT) została spopularyzowana przez Toyotę i pozwala na minimalizację kosztów magazynowania.",
-      "explanation_incorrect": "Kaizen to filozofia ciągłego doskonalenia, Six Sigma to metoda redukcji błędów, a Kanban to system sterowania przepływem produkcji.",
+      "explanation_incorrect": "Kaizen oznacza ciągłe doskonalenie, Six Sigma jest podejściem do poprawy procesów, a poka-yoke pomaga zapobiegać pomyłkom.",
       "last_verified_at": "2026-06-12T15:41:58.206Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1270,7 +1270,7 @@
     },
     {
       "subcategory": "Relacje międzynarodowe",
-      "question": "Jaką nazwą określa się w relacjach międzynarodowych sytuację, w której rosnąca potęga budzi lęk dominującego mocarstwa, co nieuchronnie prowadzi do wojny?",
+      "question": "Jak nazywa się koncepcja opisująca ryzyko konfliktu, gdy rosnąca potęga wywołuje obawy istniejącego mocarstwa?",
       "options": [
         "Dylemat bezpieczeństwa",
         "Pułapka Tukidydesa",
@@ -1278,7 +1278,7 @@
         "Wielka gra"
       ],
       "answer": "Pułapka Tukidydesa",
-      "explanation_correct": "Termin ten nawiązuje do analizy wojny peloponeskiej przeprowadzonej przez greckiego historyka Tukidydesa.",
+      "explanation_correct": "Pułapka Tukidydesa nawiązuje do interpretacji przyczyn wojny peloponeskiej; wskazuje na ryzyko wojny, a nie jej nieuchronność.",
       "explanation_incorrect": "Dylemat bezpieczeństwa to ogólna niepewność intencji, a Wielka gra dotyczy rywalizacji brytyjsko-rosyjskiej w XIX wieku.",
       "last_verified_at": "2026-06-12T15:41:58.206Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1308,8 +1308,8 @@
         "Ryka"
       ],
       "answer": "AlphaZero",
-      "explanation_correct": "AlphaZero zamiast korzystać z baz danych ludzkich partii, wykorzystał uczenie wzmocnione do osiągnięcia nadludzkiego poziomu w zaledwie kilka godzin.",
-      "explanation_incorrect": "Deep Blue pokonał Kasparowa w 1997 roku metodami klasycznymi, a Stockfish to najsilniejszy silnik typu open-source przed erą sieci neuronowych.",
+      "explanation_correct": "AlphaZero uczył się przez grę z samym sobą, znając zasady gry; badacze testowali go w szachach, shogi i Go.",
+      "explanation_incorrect": "Deep Blue grał w szachy, a Stockfish jest silnikiem szachowym rozwijanym jako oprogramowanie o otwartym kodzie.",
       "last_verified_at": "2026-06-12T15:41:58.207Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1458,7 +1458,7 @@
         "Social Engineering"
       ],
       "answer": "Brute force",
-      "explanation_correct": "Atak typu Brute force (brutalna siła) jest teoretycznie zawsze skuteczny, jeśli tylko napastnik dysponuje odpowiednią mocą obliczeniową i czasem.",
+      "explanation_correct": "Atak brute force polega na próbowaniu kolejnych kandydatów. Jego wykonalność zależy m.in. od rozmiaru przestrzeni haseł, szybkości prób i ograniczeń systemu.",
       "explanation_incorrect": "Phishing to wyłudzanie danych, a SQL Injection to wstrzykiwanie wrogich poleceń do bazy danych.",
       "last_verified_at": "2026-06-12T15:41:58.209Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1495,7 +1495,7 @@
     },
     {
       "subcategory": "Teoria decyzji",
-      "question": "Które klasyczne kryterium w teorii decyzji nakazuje wybór tej strategii, która oferuje najwyższą wartość oczekiwaną wyniku po uwzględnieniu preferencji decydenta?",
+      "question": "Które kryterium teorii decyzji wybiera działanie o największej oczekiwanej użyteczności, uwzględniając subiektywne prawdopodobieństwa i preferencje?",
       "options": [
         "Zasada minimax",
         "Kryterium Hurwicza",
@@ -1503,7 +1503,7 @@
         "Zasada Laplace'a"
       ],
       "answer": "Maksymalizacja subiektywnej użyteczności",
-      "explanation_correct": "Model ten zakłada, że racjonalny decydent dąży do uzyskania wyniku, który jest dla niego najbardziej wartościowy w skali użyteczności.",
+      "explanation_correct": "W modelu subiektywnej oczekiwanej użyteczności ocenia się możliwe wyniki według ich użyteczności oraz przypisanych im prawdopodobieństw.",
       "explanation_incorrect": "Zasada minimax dąży do minimalizacji maksymalnych strat, a kryterium Hurwicza waży optymizm z pesymizmem.",
       "last_verified_at": "2026-06-12T15:41:58.209Z",
       "verifying_model": "google/gemini-3-flash-preview"

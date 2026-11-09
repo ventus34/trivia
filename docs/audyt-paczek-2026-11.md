@@ -253,6 +253,10 @@ Częściowo przejrzano zmiany w paczkach `trylogia_wadcy_piercieni_pl` i `wynala
 
 Uzupełniono pełny odczyt paczek `trylogia_wadcy_piercieni_pl`, `wielkie_budowle_i_inynieria_pl` i `wynalazki_codziennoci_pl` oraz przejrzano `video_game_history_en`, `virtual_reality_biology_en` i `vocaloids_virtual_idols_en`. Szczegóły i wybrane źródła znajdują się w raportach wskazanych w mapie pokrycia.
 
+Przejrzano paczki `ponad_horyzont_pl`, `strategiczny_umys_pl`, `staroytny_rzym_pl` i `starozytny_rzym_pl`; zakres i źródła podano w raportach wskazanych w mapie pokrycia.
+
+Przejrzano `teorie_spiskowe_i_zagadki_historii_pl`, rozróżniając hipotezy i legendy od ustaleń; [raport](audits/2026-11-09-teorie-spiskowe-i-zagadki-historii.md) podaje źródła.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
