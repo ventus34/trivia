@@ -50,3 +50,7 @@ W pozycjach 38, 41, 89 i 96 uściślono okres nadzoru ZMP, usunięto nieudokumen
 ## Zgodność z tematyką pisma
 
 Zastąpiono sześć pytań z ogólnej wiedzy (46 i 50–54) pytaniami o historię „Świata Młodych”: podtytuł i tematykę wydań z lat 70., redaktora z 1957 roku oraz wcześniejszy komiks Chmielewskiego. Źródła: [opracowanie o prasie dziecięcej, podtytule i wydaniach](https://sbc.org.pl/Content/395905/literatura_dla_dzieci_i_mlodziezy_tom_3.pdf), [PAP — Domagalik i pierwszy odcinek Romka i A'Tomka](https://dzieje.pl/kultura-i-sztuka/65-lat-temu-czytelnicy-swiata-mlodych-poznali-romka-i-atomka-w-dalszym-ciagu), [„Polityka” — „Witek sprytek”](https://www.polityka.pl/tygodnikpolityka/kultura/232557%2C1%2Ctytus-ma-50-lat.read). To częściowe ograniczenie problemu; inne pytania ogólne i pozostałe niepotwierdzone fakty wymagają dalszej kontroli.
+
+## Kolejne pytania związane z pismem i jego komiksami
+
+Zastąpiono pytania 55–60 z ogólnej wiedzy pytaniami o księgi V, VII, XIV, XVII i XXI serii Papcia Chmiela oraz miejsce akcji „Kubusia Piekielnego” Szarloty Pawel. Źródła: [oficjalny spis ksiąg V i XXI](https://www.tytusromekiatomek.pl/tytus-bohaterowie-3-62-1.html), [oficjalny spis ksiąg VII i XVII](https://tytusromekiatomek.pl/tytus-romek-i-atomek-56-2.html), [oficjalna informacja o księdze XIV](https://tytusromekiatomek.pl/?aktualnosc=518), [DESA o „Kubusiu Piekielnym”](https://www.desa.pl/pl/historie/komiksy-fantastyczne/). Nadal pozostają inne pytania o ogólnej tematyce i niepotwierdzone twierdzenia; audyt paczki jest częściowy.
