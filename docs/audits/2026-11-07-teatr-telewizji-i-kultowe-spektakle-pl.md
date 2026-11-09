@@ -69,3 +69,13 @@ Zastąpiono pytania 13, 54, 70, 90, 96, 99 i 100, które ponownie dotyczyły tyc
 Dane nowych pytań pochodzą z archiwum TVP: [„W imię Jakuba S.”](https://teatrtv.vod.tvp.pl/85734856/w-imie-jakuba-s), [„Ezi”](https://teatrtv.vod.tvp.pl/90557122/ezi), [„Królowa miłości”](https://teatrtv.vod.tvp.pl/89187400/krolowa-milosci), [„Kruk z Tower”](https://teatrtv.vod.tvp.pl/90556928/kruk-z-tower), [„Bezimienne dzieło”](https://teatrtv.vod.tvp.pl/91252947/bezimienne-dzielo), [„Stan podgorączkowy”](https://teatrtv.vod.tvp.pl/91329218/stan-podgoraczkowy) i [„Pewność”](https://teatrtv.vod.tvp.pl/90661178/pewnosc). Dodatkowo muzykę do „Nocy listopadowej” z pytania 36 potwierdza [archiwum Andrzeja Wajdy](https://wajda.pl/postaci/zygmunt-konieczny/).
 
 Wszystkie 100 pozycji ma cztery różne odpowiedzi, a klucz występuje w zestawie. To uzupełnienie nie jest kompletną kwerendą wszystkich dawnych twierdzeń; status raportu pozostaje częściowy. Pozostają pytania o różne inscenizacje lub adaptacje tych samych sztuk, np. „Makbeta” i „Zemsty”; nie są identyczne, ale zmniejszają różnorodność tematyczną.
+
+## Kolejna kontrola różnorodności
+
+W pytaniu 16 doprecyzowano, że autorem cyklu „Teatrzyk Zielona Gęś” był Gałczyński, a Olga Lipińska adaptowała jego teksty; wcześniejsze sformułowanie mogło sugerować, że była autorką pierwowzoru. Potwierdzenia: [TVP o inspiracjach Lipińskiej](https://teatrtv.vod.tvp.pl/94822642/olga-lipinska) i [prasa teatralna z 1972 r.](https://www.hypatia.pl/web/pageFiles/attachments/3077/teatr-nr-11-1-15-czerwca-1972.pdf).
+
+Pytanie 47 z niepotwierdzonym powiązaniem „Beniowskiego”, Kazimierza Brauna i muzyki Czesława Niemena zastąpiono pytaniem o „Spartakusa. Miłość w czasach zarazy” w reżyserii Jakuba Skrzywanka, transmitowanego w 2024 r. [TVP](https://centruminformacji.tvp.pl/84070186/spartakus-milosc-w-czasach-zarazy-dzis-na-zywo-w-tvp-kultura), [Teatr Współczesny w Szczecinie](https://wspolczesny.szczecin.pl/en/aktualnosci/spartakus-na-platformie-tvp-vod). Brak potwierdzenia nie jest dowodem, że pierwotna teza była fałszywa.
+
+Pytanie 94, ponownie dotyczące obsady „Makbeta” Wajdy z 1969 r. (por. 55), zastąpiono pytaniem o reżyserię spektaklu „1989” przez Katarzynę Szyngierę. Transmisję z maja 2024 roku potwierdza [kalendarium TVP](https://teatrtv.vod.tvp.pl/83442356/historia). Sprawdzono również obsady [„Kordiana” Englerta](https://e-teatr.pl/kordian-czesc-ii-r56565), [„Makbeta” w Starym Teatrze](https://stary.pl/pl/repertuar/makbet/) i [„Zemsty” Lipińskiej](https://teatrtv.vod.tvp.pl/86593710/zemsta); ich pytania pozostały bez zmian.
+
+Paczka nadal wymaga dalszej kontroli dawnych twierdzeń i różnorodności: sam odczyt wszystkich pytań nie potwierdza źródłowo wszystkich faktów. Raport pozostaje częściowy.

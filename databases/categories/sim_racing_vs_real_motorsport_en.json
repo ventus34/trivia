@@ -879,17 +879,17 @@
       "explanation_incorrect": "Slip angle and contact patch are related tire concepts, not the simplified force diagram described."
     },
     {
-      "subcategory": "Tire Dynamics",
-      "question": "What is the industry term for the localized damage or vibration caused by locking a tire during emergency braking?",
+      "subcategory": "Track Signals",
+      "question": "In FIA circuit-racing flag signals, what does a yellow flag with red stripes warn drivers about?",
       "options": [
-        "flat spotting",
-        "thermal glazing",
-        "pad judder",
-        "tire degradation"
+        "A slippery track surface ahead",
+        "The end of the race",
+        "A car approaching to lap them",
+        "A session has been stopped"
       ],
-      "answer": "flat spotting",
-      "explanation_correct": "Flat spotting occurs when a tire skids against the track surface, removing rubber from one distinct section of the tread.",
-      "explanation_incorrect": "Judder is a vibration that can have several causes; tire wear is a broader category that includes localized flat spots."
+      "answer": "A slippery track surface ahead",
+      "explanation_correct": "The yellow flag with red stripes warns that the track surface ahead has become slippery, for example because of oil or water.",
+      "explanation_incorrect": "A chequered flag marks the race finish, a blue flag signals a faster car, and a red flag stops the session."
     },
     {
       "subcategory": "Race Engineering",
@@ -1089,7 +1089,7 @@
     },
     {
       "subcategory": "Race Strategy",
-      "question": "What is the term for the braking technique where the driver applies maximum pressure just before the point of wheel lockup?",
+      "question": "What is the braking technique called when a driver aims to brake close to the tires’ peak available grip without sustained wheel lockup?",
       "options": [
         "Threshold braking",
         "Cadence braking",
@@ -1098,7 +1098,7 @@
       ],
       "answer": "Threshold braking",
       "explanation_correct": "Threshold braking aims to brake close to the tire’s peak available grip without sustained lockup; the best slip level depends on tire and surface.",
-      "explanation_incorrect": "ABS activation can vary by system and is not a universal definition of threshold braking."
+      "explanation_incorrect": "Cadence or pump braking involves repeated pedal releases and applications; engine braking uses powertrain resistance."
     },
     {
       "subcategory": "Braking Physics",
@@ -1332,19 +1332,17 @@
       "explanation_incorrect": "The requirement is an operating temperature range, not a claim about chemical bonds switching on at one fixed temperature."
     },
     {
-      "subcategory": "Braking Technique",
-      "question": "What is the process of applying force just short of locking the tires to shorten stopping distance?",
+      "subcategory": "Race Strategy",
+      "question": "What does “lift and coast” mean when a race engineer asks a driver to save fuel approaching a braking zone?",
       "options": [
-        "threshold braking",
-        "trail braking",
-        "pump braking",
-        "engine braking"
+        "Release the throttle early and let the car coast before braking",
+        "Apply the brakes repeatedly while keeping the throttle fully open",
+        "Accelerate harder and brake later",
+        "Hold the clutch down throughout the corner"
       ],
-      "answer": "threshold braking",
-      "explanation_correct": "Threshold braking maintains maximum friction by operating at the limit of tire adhesion.",
-      "explanation_incorrect": "Trail braking, pumping, and engine braking describe different methods of shedding speed or controlling the car.",
-      "last_verified_at": "2026-06-12T16:39:01.723Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Release the throttle early and let the car coast before braking",
+      "explanation_correct": "Lift and coast means easing off the throttle before the usual braking point and allowing the car to roll into the braking zone; it can reduce fuel use.",
+      "explanation_incorrect": "The technique starts with an early throttle lift, not repeated braking, later braking, or holding the clutch through the turn."
     },
     {
       "subcategory": "Tire Interaction",

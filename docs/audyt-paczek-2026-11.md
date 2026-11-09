@@ -267,6 +267,8 @@ Uzupełniono korekty w paczkach astronomicznej, ogólnej, mitologii nordyckiej, 
 
 Zgodnie z doprecyzowaniem użytkownika przebudowano `wiat_modych_pl` na 100 pytań o kulturze młodzieżowej od 2000 roku; starszy raport o czasopiśmie dokumentuje wyłącznie poprzedni zakres. Nową zawartość opisują [raport](audits/2026-11-09-swiat-mlodych-2000-plus.md) i [kontrola](audits/2026-11-09-swiat-mlodych-2000-plus-kontrola.md).
 
+Kontynuacja audytu: poprawiono powtórzenia w paczkach ogólnej, RPG i wyścigowej oraz kolejne pozycje science fiction i teatralne. Porównanie paczek astronomicznych wykazało 86 identycznych pytań po normalizacji i dalsze parafrazy; rozróżnienie ich zawartości pozostaje otwarte. Szczegóły i źródła podano w odpowiednich raportach.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
