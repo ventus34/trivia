@@ -245,7 +245,7 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Prawo i Systemy Sprawiedliwości (PL):** przegląd 100 pytań i wybrane korekty według źródeł urzędowych; [raport](audits/2026-11-08-prawo-i-systemy-sprawiedliwoci-pl.md).
 
-Przegląd częściowy `tradycyjna_kuchnia_pl`: poprawiono 40 rekordów; pełny przegląd paczki i opisu pozostaje do wykonania. Szczegóły: [raport](audits/2026-11-09-tradycyjna-kuchnia-czesciowy.md).
+Przegląd `tradycyjna_kuchnia_pl`: przeczytano 100 pytań oraz opis; poprawiono niejednoznaczne odpowiedzi i wyjaśnienia, a wybrane kwestie sprawdzono w źródłach. Szczegóły: [raport](audits/2026-11-09-tradycyjna-kuchnia-czesciowy.md).
 
 ## Zmiany redakcyjne
 

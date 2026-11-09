@@ -5,15 +5,15 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **205** pozycji ma raport deklarujący przegląd całości paczki.
-- **5** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
+- **206** pozycji ma raport deklarujący przegląd całości paczki.
+- **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
 - **19** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
 Dla każdego ID sprawdzono zakres początkowy raportów: jawny identyfikator lub ścieżkę paczki, nazwę pliku zgodną z ID albo dokładny pełny tytuł kategorii w nagłówku raportu. Przy identycznych nazwach użyto wyłącznie ID/ścieżki/nazwy pliku do rozróżnienia; dopasowanie fragmentu nazwy lub podobieństwo tematu nie wystarcza. Różnice slugów uzupełniono ręcznie tylko tam, gdzie nagłówek raportu i liczba pytań identyfikowały tę samą pozycję (Fizyka w Garażu, Historia Współczesna po 1945, Wielka Inżynieria PRL-u, Historia Polskich Elektronarzędzi).
 
-Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Pięć pozycji z zakresem jawnie częściowym lub nieudokumentowanym jest osobno oznaczonych poniżej.
+Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Cztery pozycje z zakresem jawnie częściowym lub nieudokumentowanym jest osobno oznaczonych poniżej.
 
 Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (porównuje duplikaty), `2026-11-05-przerwane-przeglady.md` (historyczna migawka, zastąpiona późniejszymi raportami) i zakres strukturalny w [`2026-11-05-smart-materials.md`](../question-audits/2026-11-05-smart-materials.md). Ten ostatni wyraźnie mówi, że sprawdzenie pozycji indeksu 172–229 było strukturalne, nie merytoryczne. `2026-11-05-first-indexed-packs.md` jest podany tylko jako historyczny częściowy przegląd dwóch pierwszych paczek; nowsze osobne raporty są podstawą ich bieżącego statusu.
 
@@ -224,7 +224,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 201 | `the_science_of_coffee_en` | The Science of Coffee | [2026-11-06-science-of-coffee-en.md](2026-11-06-science-of-coffee-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, odpowiedzi i wyjaśnień paczki `the_science_of_coffee_en`; opis w indeksie odpowiada szerokiemu zakresowi zagadnień. Zmieniono 63 rekordy: 1, 2, 4–8, 10–11, 13–16,… |
 | 202 | `the_science_of_food_preservation_en` | The Science of Food Preservation | [2026-11-07-the-science-of-food-preservation-en.md](2026-11-07-the-science-of-food-preservation-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz wszystkie 100 pytań, wariantów, kluczy i wyjaśnień. Zmieniono 79 pozycji: 1–5, 8–9, 12–13, 16–19, 21–23, 25–39, 41–42, 44, 46–51, 53–58, 61–64, 66–69, 71–73, 75–77,… |
 | 203 | `traditional_cuisine_en` | Traditional Cuisine | [2026-11-08-traditional-cuisine-en.md](2026-11-08-traditional-cuisine-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, warianty, wyjaśnienia i opis; wcześniej wspólny raport obejmował wyłącznie strukturę. |
-| 204 | `tradycyjna_kuchnia_pl` | Tradycyjna kuchnia | [2026-11-09-tradycyjna-kuchnia-czesciowy.md](2026-11-09-tradycyjna-kuchnia-czesciowy.md) | CZĘŚCIOWY przegląd zmian w 40 pytaniach; pełny przegląd paczki pozostaje do wykonania. |
+| 204 | `tradycyjna_kuchnia_pl` | Tradycyjna kuchnia | [2026-11-09-tradycyjna-kuchnia-czesciowy.md](2026-11-09-tradycyjna-kuchnia-czesciowy.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane kwestie sprawdzono w źródłach. |
 | 205 | `trylogia_wadcy_piercieni_pl` | Trylogia Władcy Pierścieni | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
 | 206 | `turning_points_in_history_en` | Turning Points in History | [2026-11-08-turning-points-in-history-en.md](2026-11-08-turning-points-in-history-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 56 rekordów; wybrane fakty sprawdzono źródłowo. |
 | 207 | `uniwersum_wiedmina_pl` | Uniwersum Wiedźmina | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
