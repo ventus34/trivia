@@ -5,15 +5,15 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **225** pozycji ma raport deklarujący przegląd całości paczki.
-- **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
+- **227** pozycji ma raport deklarujący przegląd całości paczki.
+- **2** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
 - **0** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
 Dla każdego ID sprawdzono zakres początkowy raportów: jawny identyfikator lub ścieżkę paczki, nazwę pliku zgodną z ID albo dokładny pełny tytuł kategorii w nagłówku raportu. Przy identycznych nazwach użyto wyłącznie ID/ścieżki/nazwy pliku do rozróżnienia; dopasowanie fragmentu nazwy lub podobieństwo tematu nie wystarcza. Różnice slugów uzupełniono ręcznie tylko tam, gdzie nagłówek raportu i liczba pytań identyfikowały tę samą pozycję (Fizyka w Garażu, Historia Współczesna po 1945, Wielka Inżynieria PRL-u, Historia Polskich Elektronarzędzi).
 
-Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Cztery pozycje z zakresem jawnie częściowym lub nieudokumentowanym jest osobno oznaczonych poniżej.
+Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Dwie pozycje z zakresem jawnie częściowym lub nieudokumentowanym są osobno oznaczonych poniżej.
 
 Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (porównuje duplikaty), `2026-11-05-przerwane-przeglady.md` (historyczna migawka, zastąpiona późniejszymi raportami) i zakres strukturalny w [`2026-11-05-smart-materials.md`](../question-audits/2026-11-05-smart-materials.md). Ten ostatni wyraźnie mówi, że sprawdzenie pozycji indeksu 172–229 było strukturalne, nie merytoryczne. `2026-11-05-first-indexed-packs.md` jest podany tylko jako historyczny częściowy przegląd dwóch pierwszych paczek; nowsze osobne raporty są podstawą ich bieżącego statusu.
 
@@ -37,7 +37,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 14 | `astronomy_solar_system_en` | Astronomy & the Solar System | [2026-11-05-astronomy-solar-system-en.md](2026-11-05-astronomy-solar-system-en.md)<br>[2026-11-05-astronomy-the-solar-system-en.md](2026-11-05-astronomy-the-solar-system-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano 195 pytań, opcji, kluczy i wyjaśnień oraz opis. Wybrane sporne twierdzenia zweryfikowano źródłowo; nie jest to niezależne potwierdzenie wszystkich faktów. Opis pasuje do… |
 | 15 | `astronomy_the_solar_system_en` | Astronomy & the Solar System | [2026-11-05-astronomy-the-solar-system-en.md](2026-11-05-astronomy-the-solar-system-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano 195 pytań, opcji, kluczy i wyjaśnień oraz opis. Wybrane sporne twierdzenia zweryfikowano źródłowo; nie jest to niezależne potwierdzenie wszystkich faktów. Opis pasuje do… |
 | 16 | `atrakcje_turystyczne_pl` | Atrakcje Turystyczne | [2026-11-05-atrakcje-turystyczne-pl.md](2026-11-05-atrakcje-turystyczne-pl.md) | PEŁNY ODCZYT deklarowany. Zakres: `databases/categories/atrakcje_turystyczne_pl.json`, 100 pytań. Przeczytano pytania, odpowiedzi, klucze i oba objaśnienia oraz oceniono opis paczki jako ogólny skrót tematyki. W… |
-| 17 | `automation_simulation_games_en` | Automation & Simulation Games | [2026-11-05-automation-simulation-games-en.md](2026-11-05-automation-simulation-games-en.md) | NIEPEŁNY / NIEPEWNY: W paczce `automation_simulation_games_en` przeczytano 100 pytań, kluczy i wyjaśnień poprawnych odpowiedzi; przeczytano też wszystkie opcje i wyjaśnienia błędnych odpowiedzi; niezależną… |
+| 17 | `automation_simulation_games_en` | Automation & Simulation Games | [2026-11-05-automation-simulation-games-en.md](2026-11-05-automation-simulation-games-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 18 | `aviation_space_pioneers_en` | Aviation & Space Pioneers | [2026-11-05-aviation-space-pioneers-en.md](2026-11-05-aviation-space-pioneers-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, wariantów odpowiedzi, kluczy i wyjaśnień. Opis paczki prawidłowo wskazuje główne obszary i pozostał bez zmian. Wybrane wątpliwe fakty sprawdzono w… |
 | 19 | `azja_i_pacyfik_pl` | Azja i Pacyfik | [2026-11-05-azja-i-pacyfik-pl.md](2026-11-05-azja-i-pacyfik-pl.md) | PEŁNY ODCZYT deklarowany. Paczka `azja_i_pacyfik_pl`: przeczytano wszystkie 100 pytań, opcji, kluczy i objaśnień oraz opis. Opis wymienia występujące w paczce zagadnienia i nie wymagał zmiany. Wybrane wątpliwe… |
 | 20 | `bad_movie_nights_so_bad_its_good_en` | Bad Movie Nights (So Bad It's Good) | [2026-11-05-bad-movie-nights-en.md](2026-11-05-bad-movie-nights-en.md) | PEŁNY ODCZYT deklarowany. Zakres: `databases/categories/bad_movie_nights_so_bad_its_good_en.json`, 100 pytań. Przeczytano pytania, odpowiedzi, klucze, oba objaśnienia oraz opis; poprawiono 40 rekordów. Opis… |
@@ -72,7 +72,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 49 | `fizyka_w_garau_pl` | Fizyka w Garażu | [2026-11-06-fizyka-w-garazu-pl.md](2026-11-06-fizyka-w-garazu-pl.md) | PEŁNY ODCZYT deklarowany. Data: 2026-11-06. Przejrzano opis oraz wszystkie 99 pytań, warianty, klucze i wyjaśnienia. Numery oznaczają pozycje w tablicy `questions`, liczone od 1. Zmieniono 47 pozycji: 1, 2, 5, 10,… |
 | 50 | `forces_of_nature_en` | Forces of Nature | [2026-11-06-forces-of-nature-en.md](2026-11-06-forces-of-nature-en.md) | PEŁNY ODCZYT deklarowany. Data: 6 listopada 2026 r. Przejrzano opis oraz wszystkie 100 pytań z opcjami, kluczami i wyjaśnieniami. Skorygowano 47 pozycji: 1, 4, 7–9, 12–13, 17, 22, 30, 32–35, 37–38, 43–44, 46,… |
 | 51 | `fotografia_i_obraz_pl` | Fotografia i Obraz | [fotografia_i_obraz_pl_2026-11-06.md](fotografia_i_obraz_pl_2026-11-06.md) | PEŁNY ODCZYT deklarowany. Data: 6 listopada 2026 r. Przejrzano wszystkie 100 pytań, ich opcje, klucze, wyjaśnienia oraz opis w `databases/categories/fotografia_i_obraz_pl.json`. Opis odpowiada zawartości.… |
-| 52 | `game_of_the_year_winners_en` | Game of the Year Winners | [2026-11-06-game-of-the-year-winners-en.md](2026-11-06-game-of-the-year-winners-en.md) | NIEPEŁNY / NIEPEWNY: Data: 6 listopada 2026 r. Poprzedni agent przejrzał paczkę i rozpoczął korekty, ale nie ukończył raportu. Przekazał, że sprawdzał lata ceremonii i kategorie w oficjalnych archiwach BAFTA,… |
+| 52 | `game_of_the_year_winners_en` | Game of the Year Winners | [2026-11-06-game-of-the-year-winners-en.md](2026-11-06-game-of-the-year-winners-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 53 | `gaming_culture_and_trivia_en` | Gaming Culture and Trivia | [2026-11-06-gaming-culture-and-trivia-en.md](2026-11-06-gaming-culture-and-trivia-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i wszystkie 100 rekordów pytań: treść, cztery opcje, odpowiedź, oba wyjaśnienia oraz metadane weryfikacji. Skontrolowano spójność i oczywiste błędy we wszystkich rekordach;… |
 | 54 | `gaming_lore_and_worlds_en` | Gaming Lore and Worlds | [gaming_lore_and_worlds_en.md](gaming_lore_and_worlds_en.md) | PEŁNY ODCZYT deklarowany. Date: 2026-11-06. Reviewed the description and all 100 questions, answer choices, keys, and explanations. Selected disputed claims were checked against the sources below. Question numbers… |
 | 55 | `gatunki_muzyczne_wiata_pl` | Gatunki Muzyczne Świata | [2026-11-06-gatunki-muzyczne-swiata-pl.md](2026-11-06-gatunki-muzyczne-swiata-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano treść wszystkich 100 pytań, odpowiedzi i objaśnień oraz opis paczki. Poprawiono pozycje 1, 2, 3, 4, 13, 17, 18, 24, 29, 30, 32, 34, 35, 37, 41, 53, 54, 57, 60, 66, 69, 76, 78,… |
@@ -253,10 +253,8 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 
 ## Pozycje z niepełnym lub niepewnym zakresem
 
-- `automation_simulation_games_en` — raport oznaczony jako częściowy; odczytano wszystkie pytania i odpowiedzi, ale kontrola faktów/wersji gier była wybiórcza.
 - `wiat_modych_pl` — odczytano wszystkie pytania, ale wiele twierdzeń i powtórzeń wymaga dalszej kontroli źródłowej.
 - `teatr_telewizji_i_kultowe_spektakle_pl` — odczytano wszystkie rekordy, ale raport nadal wskazuje otwarte sprawy źródłowe, różnorodność i zgodność części pytań z zakresem.
-- `game_of_the_year_winners_en` — poprzedni przegląd i jego źródła nie są zachowane w szczegółach; bieżący raport obejmuje zmienione pozycje i próbkę, nie potwierdza pełnej niezależnej weryfikacji 98 pytań.
 
 ## Ważne przypadki aliasów i duplikatów
 

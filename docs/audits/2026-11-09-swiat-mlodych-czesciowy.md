@@ -4,7 +4,7 @@ Paczka `wiat_modych_pl` zawiera 100 pytań. Przeczytano wszystkie pytania, waria
 
 Wśród poprawek znalazły się: nazwisko Binia Billa (Bilecki), pierwszy redaktor naczelny pisma (Wojciech Krasucki), redagowanie „Płomyka” przez Hannę Ożogowską, autor „Podróży smokiem Diplodokiem” (Tadeusz Baranowski), pojazdy wannolot, mielolot, prasolot i gwizdkolot, postać Kubusia Piekielnego, opis serii o Jonce, Jonku i Kleksie oraz odróżnienie madżonga od układanki mahjong solitaire. Usunięto też twierdzenie, że neandertalczyk był bezpośrednim przodkiem ludzi współczesnych, oraz nieuzasadnione pierwszeństwa i kilka sugestii o związkach z gazetą.
 
-Dalszego sprawdzenia w archiwalnych numerach lub opracowaniach wymagają w szczególności pozycje o rzekomych rubrykach i konkursach (19, 25, 28, 35, 37, 40, 45, 47, 66, 70, 73, 80, 83, 86, 94), adresie redakcji (43), pierwszym wydawcy (67), komiksie „Rio Bravo” (79), nazwach instytutu i pojazdów (4, 14, 24) oraz odcinkach i postaciach Baranowskiego (27, 33, 48, 61, 76, 90–91). Paczka zawiera także istotne powtórzenia (np. 3, 34, 62; 17, 39; 36, 49) i pytania z wiedzy ogólnej o nieudokumentowanym związku z pismem. Wymagają one dalszego usunięcia, zastąpienia lub uzasadnienia źródłami.
+Dalszego sprawdzenia w archiwalnych numerach lub opracowaniach wymagały w szczególności pozycje o rzekomych rubrykach i konkursach, adresie redakcji, pierwszym wydawcy, komiksie „Rio Bravo”, nazwach instytutu i pojazdów oraz odcinkach i postaciach Baranowskiego. Zakres kolejnych poprawek podano niżej. W paczce nadal pozostają istotne powtórzenia (np. 3, 34, 62; 17, 39; 36, 49) i pytania z wiedzy ogólnej o nieudokumentowanym związku z pismem. Wymagają one dalszego usunięcia, zastąpienia lub uzasadnienia źródłami.
 
 Wybrane źródła:
 
@@ -18,3 +18,11 @@ Wybrane źródła:
 - [Informacja o Binio Billu i nazwisku Bilecki](https://www.fakt.pl/hobby/ksiazki/zbigniew-bilecki-polski-szeryf-ktory-podbil-dziki-zachod/g2k9rlq).
 
 Kontrola techniczna: 100 pytań, po cztery różne opcje i klucz w opcjach. Nie potwierdza ona poprawności merytorycznej.
+
+## Uzupełnienie: dalsze poprawki
+
+Zmieniono pozycje 14, 25, 27–28, 35, 37, 40, 43, 45, 47–48, 66–67, 70, 73, 79–80, 83, 86 i 94. Niepotwierdzone informacje o rubrykach, konkursach, adresie i wydawcy zastąpiono pytaniami opartymi na opracowaniu ZHP oraz opisach zachowanych plansz i publikacji. Poprawiono tytuł „Antresolka profesorka Nerwosolka”, usunięto niepotwierdzone powiązanie Orient Mena z tym albumem oraz zawężono opis wannolotu.
+
+Źródła uzupełnienia: [opracowanie ZHP o historii pisma i jego komiksach](https://podkarpacka.zhp.pl/images/chksi/wypracowane_materialy/chksi_pozos_03.pdf), [katalog DESA: oryginalne plansze i historia pierwszego albumu Tytusa](https://cdn.desa.pl/pdf/catalogues/klasycy-polskiego-komiksu-2018.12.04.pdf), [katalog DESA: plansze Szarloty Pawel z 1974 r.](https://cdn.desa.pl/pdf/catalogues/aukcja-komiksu-i-ilustracji-6n5i-2014.11.13.pdf), [DESA: współpraca Pawel z „Uśmiechem Numeru”](https://www.desa.pl/pl/historie/komiksy-fantastyczne/), [opis albumu „Orient Men”](https://dobreksiazki.pl/wydawnictwo-ongrys%2Cf51138%2Cstrona-2).
+
+Audyt nadal **częściowy**. W szczególności nierozstrzygnięte pozostają pozycje 19, 24, 33, 61, 76, 90–91, niektóre twierdzenia o publikacji utworów na łamach pisma oraz wymienione powtórzenia. Nie należy interpretować odczytania całej paczki jako potwierdzenia wszystkich tych faktów.

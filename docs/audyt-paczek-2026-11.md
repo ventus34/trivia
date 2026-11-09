@@ -261,6 +261,8 @@ Przejrzano `uniwersum_wiedmina_pl`, `ycie_codzienne_pl` i `ycie_codzienne_w_prl_
 
 Przejrzano obie paczki „Światy i Lore w Grach”, `wiedza_oglna_2_pl`, `zota_era_rocka_pl` i uzupełniono przegląd `cyfrowy_przeom_pl`. W `wiat_modych_pl` poprawiono 23 rekordy, lecz raport pozostaje częściowy z powodu nierozstrzygniętych kwestii. Źródła i zakres zawierają raporty w mapie pokrycia.
 
+Uzupełniono odczyt `automation_simulation_games_en` i `game_of_the_year_winners_en`, usuwając także powtórzenia. W `wiat_modych_pl` i `teatr_telewizji_i_kultowe_spektakle_pl` poprawiono kolejne pytania; raporty nadal wskazują kwestie wymagające sprawdzenia.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
