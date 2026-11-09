@@ -245,6 +245,8 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 - **Prawo i Systemy Sprawiedliwości (PL):** przegląd 100 pytań i wybrane korekty według źródeł urzędowych; [raport](audits/2026-11-08-prawo-i-systemy-sprawiedliwoci-pl.md).
 
+Przegląd częściowy `tradycyjna_kuchnia_pl`: poprawiono 40 rekordów; pełny przegląd paczki i opisu pozostaje do wykonania. Szczegóły: [raport](audits/2026-11-09-tradycyjna-kuchnia-czesciowy.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
