@@ -33,3 +33,11 @@ Z wytypowanych grup pozostawiono po jednym pytaniu o ten sam zasadniczy fakt: 60
 Wybrane źródła dla nowej redakcji: [NASA: Uran](https://science.nasa.gov/Uranus/facts/) (495), [NASA: Ceres](https://science.nasa.gov/dwarf-planets/ceres/facts/) (499), [ITF: punktacja tenisowa](https://www.itftennis.com/en/about-us/organisation/tennis-glossary/) (351, 463), [IFAB: rzut rożny](https://www.theifab.com/laws/latest/the-corner-kick/) (467).
 
 Ograniczenia: źródła potwierdzają wybrane fakty, nie wszystkie nowe pytania; redakcja obejmuje tylko wskazane grupy. Pozostałe bliskie powtórzenia w paczce wymagają odrębnego przeglądu, a wspólna odpowiedź nie musi oznaczać powtórzenia pytanego faktu.
+
+## Kolejna redakcja powtórzeń
+
+W dalszym przeglądzie zastąpiono powtórzone pytania w rekordach **313–315, 318–319, 325, 327, 389, 399–400, 402, 418, 468, 488, 513, 518, 538, 542–543 i 548** (numery od 1). Nowe pytania obejmują m.in. symbole pierwiastków, jednostki SI, Wenus, Marsa, geografię, zasady sztafety, koszykówki 3 × 3 i punktacji futbolu amerykańskiego. Zachowano 578 pytań i opis paczki, sprawdzono unikalność czterech opcji i obecność odpowiedzi we wszystkich rekordach. Usunięto stare znaczniki weryfikacji ze zmienionych pozycji.
+
+Wybrane źródła: [NASA — najgorętsza planeta](https://science.nasa.gov/venus/venus-facts/), [NASA — Olympus Mons na Marsie](https://science.nasa.gov/wp-content/uploads/2023/09/mars_insight_launch_presskit.pdf), [NASA — ozon w stratosferze](https://science.nasa.gov/earth/explore/nasa-knows-the-ozone-hole/), [BIPM — amper](https://www.bipm.org/en/si-base-units/ampere), [World Athletics — sztafeta 4 × 100 m](https://worldathletics.org/disciplines/relays/4x100-metres-relay), [MKOl — zasady koszykówki 3 × 3](https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=1997788&parentDocumentId=1567767&skipCopyright=true&skipWatermark=true), [NFL — wartości punktowe](https://operations.nfl.com/media/ntif5hxb/2025-nfl-rulebook-final.pdf).
+
+To redakcja wybranych powtórzeń, a nie całościowa deduplikacja: w paczce nadal są inne pytania o te same fakty, szczególnie w działach kultury i rozrywki, sportu oraz geografii. Nie wszystkie nowe twierdzenia sprawdzono niezależnie w źródłach.

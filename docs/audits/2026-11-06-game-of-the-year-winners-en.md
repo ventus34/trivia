@@ -35,7 +35,7 @@ Przy przejęciu przejrzano zmienione pytania, opcje i wyjaśnienia oraz poniższ
 
 ## Ograniczenia i walidacja
 
-Próbka nie obejmuje niezależnej ponownej weryfikacji każdego z 98 pytań ani każdego komentarza o nominacjach. Pozostają semantyczne powtórzenia tego samego wyniku mimo różnic w brzmieniu i opcjach, m.in. 6/96, 7/39/94, 9/77, 11/46, 16/62/83, 18/84, 21/73, 22/86, 32/92, 34/97, 52/71 oraz 58/66. Nie usuwano ich w ramach ograniczonego przejęcia poza trzema wskazanymi pozycjami 70, 81, 91. Przy pytaniach o różne nagrody zdobyte przez tę samą grę odrębność kategorii lub organizatora ma znaczenie i nie jest sama w sobie powtórzeniem.
+W pierwotnym ograniczonym przejęciu pozostały semantyczne powtórzenia. Późniejsze uzupełnienie opisane poniżej zastąpiło 25 powtórzeń innymi wynikami; wcześniejsza lista par nie opisuje już aktualnej zawartości. Nie przeprowadzono niezależnej weryfikacji każdego z 98 pytań ani każdego komentarza o nominacjach. Przy pytaniach o różne nagrody zdobyte przez tę samą grę odrębność kategorii lub organizatora ma znaczenie i nie jest sama w sobie powtórzeniem.
 
 `python3 scripts/audit_questions.py` nie wykrył problemów strukturalnych; `git diff --check` jest czysty. Weryfikacja struktury nie potwierdza prawdziwości każdego wyniku.
 

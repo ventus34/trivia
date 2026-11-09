@@ -263,6 +263,8 @@ Przejrzano obie paczki „Światy i Lore w Grach”, `wiedza_oglna_2_pl`, `zota_
 
 Uzupełniono odczyt `automation_simulation_games_en` i `game_of_the_year_winners_en`, usuwając także powtórzenia. W `wiat_modych_pl` i `teatr_telewizji_i_kultowe_spektakle_pl` poprawiono kolejne pytania; raporty nadal wskazują kwestie wymagające sprawdzenia.
 
+Uzupełniono korekty w paczkach astronomicznej, ogólnej, mitologii nordyckiej, science fiction, teatralnej i „Świat Młodych”; zakres i źródła podano w raportach. Pozostają m.in. powtórzenia między dwiema paczkami medycznymi i astronomicznymi, powtórzenia w paczce ogólnej oraz kwestie zgodności tematycznej science fiction. Raporty teatralny i „Świata Młodych” nadal wskazują niewyjaśnione sprawy.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
