@@ -2,15 +2,13 @@
   "id": "wielkie_budowle_i_inynieria_pl",
   "name": "Wielkie Budowle i Inżynieria",
   "language": "pl",
-  "description": "Pytania z zakresu: Zabytki starożytnego Egiptu, Inżynieria mostowa, Drapacze chmur, Hydrotechnika...",
+  "description": "Quiz o słynnych budowlach, zabytkach i konstrukcjach inżynieryjnych z różnych epok i regionów. Obejmuje m.in. piramidy, świątynie i pałace, mosty, tunele, zapory, kanały, wieżowce oraz infrastrukturę transportową i energetyczną.",
   "created_at": "2026-06-12T15:48:19.434Z",
-  "last_verified_at": "2026-06-12T15:48:18.633Z",
-  "verifying_model": "google/gemini-3-flash-preview",
   "question_count": 100,
   "questions": [
     {
       "subcategory": "Zabytki starożytnego Egiptu",
-      "question": "Który architekt zaprojektował piramidę Dżosera?",
+      "question": "Któremu egipskiemu dostojnikowi tradycyjnie przypisuje się projekt piramidy schodkowej Dżosera?",
       "options": [
         "Imhotep",
         "Cheops",
@@ -18,10 +16,8 @@
         "Senuseret"
       ],
       "answer": "Imhotep",
-      "explanation_correct": "Imhotep był wezyrem i architektem faraona Dżosera, który wzniósł pierwszą piramidę schodkową w Sakkarze.",
-      "explanation_incorrect": "Pozostałe osoby to faraonowie lub dostojnicy, ale żaden z nich nie jest uznawany za architekta tej piramidy.",
-      "last_verified_at": "2026-06-12T15:47:20.820Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Imhotep był wysokim urzędnikiem za panowania Dżosera i jest tradycyjnie łączony z zespołem piramidy w Sakkarze.",
+      "explanation_incorrect": "Pozostałe osoby to faraonowie lub dostojnicy, ale żaden z nich nie jest uznawany za architekta tej piramidy."
     },
     {
       "subcategory": "Inżynieria mostowa",
@@ -33,14 +29,12 @@
         "Gustave Eiffel"
       ],
       "answer": "Joseph Strauss",
-      "explanation_correct": "Joseph Strauss był głównym inżynierem projektu i nadzorował budowę Golden Gate Bridge w San Francisco.",
-      "explanation_incorrect": "Roebling zaprojektował Most Brookliński, Ammann był inżynierem mostu Verrazzano, a Eiffel słynie z wieży w Paryżu.",
-      "last_verified_at": "2026-06-12T15:47:20.821Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Joseph Strauss był głównym inżynierem budowy. Ważny wkład w projekt mostu wnieśli także Charles Ellis, Leon Moisseiff i architekt Irving Morrow.",
+      "explanation_incorrect": "Roebling zaprojektował Most Brookliński, Ammann był inżynierem mostu Verrazzano, a Eiffel słynie z wieży w Paryżu."
     },
     {
       "subcategory": "Drapacze chmur",
-      "question": "Jaki jest najwyższy budynek na świecie?",
+      "question": "Który z wymienionych budynków ma największą wysokość architektoniczną?",
       "options": [
         "Burj Khalifa",
         "Shanghai Tower",
@@ -48,14 +42,12 @@
         "One World Trade Center"
       ],
       "answer": "Burj Khalifa",
-      "explanation_correct": "Burj Khalifa w Dubaju ma 828 metrów wysokości i jest najwyższym budynkiem świata od 2010 roku.",
-      "explanation_incorrect": "Pozostałe są wysokimi drapaczami chmur, ale niższymi od Burj Khalifa.",
-      "last_verified_at": "2026-06-12T15:47:20.821Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Burj Khalifa w Dubaju ma 828 m wysokości i jest wyższy od pozostałych budynków wymienionych w odpowiedziach.",
+      "explanation_incorrect": "Pozostałe są wysokimi drapaczami chmur, ale niższymi od Burj Khalifa."
     },
     {
       "subcategory": "Hydrotechnika",
-      "question": "Która zapora na rzece Jangcy jest największą elektrownią wodną na świecie?",
+      "question": "Która zapora na Jangcy ma elektrownię wodną o mocy zainstalowanej około 22,5 GW?",
       "options": [
         "Zapora Trzech Przełomów",
         "Zapora Itaipu",
@@ -63,29 +55,25 @@
         "Zapora Tucurui"
       ],
       "answer": "Zapora Trzech Przełomów",
-      "explanation_correct": "Zapora Trzech Przełomów w Chinach ma największą na świecie moc zainstalowaną wynoszącą 22,5 GW.",
-      "explanation_incorrect": "Itaipu jest duża, ale ma mniejszą moc; Guri i Tucurui są również potężne, ale nie biją rekordu.",
-      "last_verified_at": "2026-06-12T15:47:20.821Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Elektrownia przy Zaporze Trzech Przełomów w Chinach ma moc zainstalowaną około 22,5 GW.",
+      "explanation_incorrect": "Itaipu jest duża, ale ma mniejszą moc; Guri i Tucurui są również potężne, ale nie biją rekordu."
     },
     {
       "subcategory": "Inżynieria antyczna",
-      "question": "Jak nazywa się starożytny system doprowadzający wodę do Rzymu?",
+      "question": "Jak nazywa się budowla lub system kanałów służących do doprowadzania wody, stosowany m.in. w starożytnym Rzymie?",
       "options": [
         "Akwedukt",
-        "Wodociąg",
-        "Kanał",
-        "Rurociąg"
+        "Amfiteatr",
+        "Hipodrom",
+        "Obelisk"
       ],
       "answer": "Akwedukt",
-      "explanation_correct": "Akwedukty były budowlami hydraulicznymi starożytnego Rzymu, transportującymi wodę z górskich źródeł do miasta.",
-      "explanation_incorrect": "Pozostałe terminy są ogólne, ale 'akwedukt' jest specyficzną konstrukcją rzymską.",
-      "last_verified_at": "2026-06-12T15:47:20.821Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Akwedukt służy do doprowadzania wody. Rzymskie akwedukty obejmowały zarówno kanały podziemne, jak i odcinki na mostach.",
+      "explanation_incorrect": "Amfiteatr i hipodrom służyły widowiskom, a obelisk jest wolnostojącym monumentem."
     },
     {
       "subcategory": "Sztuczne wyspy",
-      "question": "Który archipelag w kształcie palmy powstał w Dubaju?",
+      "question": "Jak nazywa się sztuczna wyspa w Dubaju, znana z kształtu palmy i hoteli Atlantis?",
       "options": [
         "Palm Jumeirah",
         "Palm Jebel Ali",
@@ -93,25 +81,21 @@
         "The World"
       ],
       "answer": "Palm Jumeirah",
-      "explanation_correct": "Palm Jumeirah to pierwsza i najmniejsza z trzech sztucznych wysp w kształcie palmy w Dubaju, ukończona w 2006 roku.",
-      "explanation_incorrect": "Palm Jebel Ali i Palm Deira są większe, ale nie zostały ukończone; 'The World' ma układ kontynentów.",
-      "last_verified_at": "2026-06-12T15:47:20.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Palm Jumeirah to sztuczny archipelag o kształcie palmy u wybrzeży Dubaju. Palm Jebel Ali jest innym projektem w kształcie palmy.",
+      "explanation_incorrect": "Palm Jebel Ali i Palm Deira to inne projekty, a The World ma nawiązywać układem do mapy świata."
     },
     {
       "subcategory": "Tunele kolejowe",
-      "question": "Jak brzmi nazwa systemowa tunelu kolejowego łączącego Francję z Wielką Brytanią?",
+      "question": "Jak nazywa się tunel kolejowy pod kanałem La Manche, łączący Francję z Wielką Brytanią?",
       "options": [
-        "Eurotunnel",
-        "Trans-Channel",
-        "Oceanic Link",
-        "Great West Tunnel"
+        "Tunel pod kanałem La Manche",
+        "Tunel Seikan",
+        "Tunel Gotthard",
+        "Tunel Marmaray"
       ],
-      "answer": "Eurotunnel",
-      "explanation_correct": "Eurotunnel to oficjalna nazwa infrastruktury łączącej brzegi obu państw.",
-      "explanation_incorrect": "Pozostałe nazwy nie są oficjalnymi terminami technicznymi dla tego obiektu.",
-      "last_verified_at": "2026-06-12T15:48:18.630Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Tunel pod kanałem La Manche",
+      "explanation_correct": "Channel Tunnel, czyli tunel pod kanałem La Manche, łączy okolice Calais i Folkestone. Eurotunnel to nazwa związana z operatorem i usługą.",
+      "explanation_incorrect": "Seikan leży w Japonii, Gotthard w Szwajcarii, a Marmaray w Turcji."
     },
     {
       "subcategory": "Architektura gotycka",
@@ -123,10 +107,8 @@
         "Rzygacz"
       ],
       "answer": "Łuk przyporowy",
-      "explanation_correct": "Łuk przyporowy to zewnętrzna podpora przenosząca ciężar sklepień na przypory, charakterystyczny dla gotyku.",
-      "explanation_incorrect": "Sklepienie krzyżowe to sufity, filary to podpory wewnętrzne, a rzygacze to rynny.",
-      "last_verified_at": "2026-06-12T15:47:20.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Łuk przyporowy przekazuje siły ze sklepienia i ścian na zewnętrzną przyporę, umożliwiając m.in. budowę wysokich ścian z dużymi oknami.",
+      "explanation_incorrect": "Sklepienie przekrywa wnętrze, filar podpiera konstrukcję, a rzygacz odprowadza wodę z dachu."
     },
     {
       "subcategory": "Kanały żeglugowe",
@@ -145,7 +127,7 @@
     },
     {
       "subcategory": "Inżynieria średniowieczna",
-      "question": "Jaki jest najstarszy kamienny most w Pradze?",
+      "question": "Który z wymienionych kamiennych mostów w Pradze powstał najwcześniej?",
       "options": [
         "Most Karola",
         "Most Legii",
@@ -153,10 +135,8 @@
         "Most Jiraseka"
       ],
       "answer": "Most Karola",
-      "explanation_correct": "Most Karola w Pradze został zbudowany w XIV wieku za panowania Karola IV i jest najstarszym kamiennym mostem w mieście.",
-      "explanation_incorrect": "Pozostałe mosty są nowsze, pochodzące z XIX-XX wieku.",
-      "last_verified_at": "2026-06-12T15:47:20.822Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Most Karola, wznoszony od XIV wieku, jest najstarszym zachowanym kamiennym mostem w Pradze. Poprzedzający go most Judyty nie zachował się w całości.",
+      "explanation_incorrect": "Pozostałe mosty są nowsze, pochodzące z XIX-XX wieku."
     },
     {
       "subcategory": "Architektura nowoczesna",
@@ -213,14 +193,12 @@
         "Eugène Viollet-le-Duc"
       ],
       "answer": "Gustave Eiffel",
-      "explanation_correct": "Firma Gustave'a Eiffla zaprojektowała i zbudowała wieżę, która stała się symbolem Paryża, mimo początkowych protestów artystów.",
-      "explanation_incorrect": "Haussmann zajmował się urbanistyką Paryża, Garnier zaprojektował operę, a Viollet-le-Duc był konserwatorem zabytków.",
-      "last_verified_at": "2026-06-12T15:48:18.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Firmą budującą wieżę kierował Gustave Eiffel. Jej inżynierowie Maurice Koechlin i Émile Nouguier opracowali koncepcję, a architekt Stephen Sauvestre pracował nad wyglądem.",
+      "explanation_incorrect": "Haussmann zajmował się urbanistyką Paryża, Garnier zaprojektował operę, a Viollet-le-Duc był konserwatorem zabytków."
     },
     {
       "subcategory": "Architektura obronna",
-      "question": "Jaki jest najdłuższysystem fortyfikacji na świecie, znajdujący się w północnych Chinach?",
+      "question": "Jak nazywa się rozległy system fortyfikacji w północnych Chinach?",
       "options": [
         "Wielki Mur Chiński",
         "Mur Hadriana",
@@ -229,13 +207,11 @@
       ],
       "answer": "Wielki Mur Chiński",
       "explanation_correct": "Wielki Mur Chiński to system obronny składający się z murów, baszt i fortów, mający chronić Chiny przed najazdami ludów koczowniczych.",
-      "explanation_incorrect": "Mur Hadriana znajduje się w Wielkiej Brytanii, Linia Maginota we Francji, a Wał Atlantycki wzdłuż wybrzeży Europy Zachodniej.",
-      "last_verified_at": "2026-06-12T15:48:18.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Mur Hadriana znajduje się w Wielkiej Brytanii, Linia Maginota we Francji, a Wał Atlantycki wzdłuż wybrzeży Europy Zachodniej."
     },
     {
       "subcategory": "Inżynieria morska",
-      "question": "Jaka jest największa platforma wiertnicza typu SPAR na świecie?",
+      "question": "Jak nazywa się platforma typu spar, eksploatowana na głębokich wodach Zatoki Meksykańskiej?",
       "options": [
         "Perdido",
         "Petronius",
@@ -243,10 +219,8 @@
         "Ursa"
       ],
       "answer": "Perdido",
-      "explanation_correct": "Perdido to najgłębsza platforma wiertnicza typu SPAR, zlokalizowana w Zatoce Meksykańskiej, operująca na głębokości 2450 metrów.",
-      "explanation_incorrect": "Petronius i Ursa to inne platformy, ale nie są typu SPAR, a Troll A to platforma gazowa na Morzu Północnym.",
-      "last_verified_at": "2026-06-12T15:47:36.099Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Perdido jest pływającą platformą typu spar w Zatoce Meksykańskiej, pracującą na wodach o głębokości około 2450 m.",
+      "explanation_incorrect": "Petronius i Ursa to inne platformy, ale nie są typu SPAR, a Troll A to platforma gazowa na Morzu Północnym."
     },
     {
       "subcategory": "Kościoły barokowe",
@@ -280,7 +254,7 @@
     },
     {
       "subcategory": "Inżynieria kosmiczna",
-      "question": "Jaka jest największa międzynarodowa stacja kosmiczna krążąca wokół Ziemi?",
+      "question": "Która stacja kosmiczna powstała we współpracy agencji m.in. USA, Rosji, Europy, Japonii i Kanady?",
       "options": [
         "ISS",
         "Mir",
@@ -288,10 +262,8 @@
         "Skylab"
       ],
       "answer": "ISS",
-      "explanation_correct": "Międzynarodowa Stacja Kosmiczna (ISS) jest największym sztucznym obiektem na orbicie Ziemi, zbudowanym we współpracy wielu krajów.",
-      "explanation_incorrect": "Mir i Skylab to stacje z przeszłości, a Tiangong to chińska stacja, wszystkie mniejsze od ISS.",
-      "last_verified_at": "2026-06-12T15:47:36.100Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Międzynarodowa Stacja Kosmiczna powstała we współpracy NASA, Roskosmosu, ESA, JAXA i CSA.",
+      "explanation_incorrect": "Mir i Skylab zakończyły działalność, a Tiangong to chińska stacja kosmiczna."
     },
     {
       "subcategory": "Architektura renesansu",
@@ -310,7 +282,7 @@
     },
     {
       "subcategory": "Teatry antyczne",
-      "question": "Który starożytny teatr grecki jest uznawany za najlepiej zachowany?",
+      "question": "Który starożytny teatr w Grecji, w sanktuarium Asklepiosa, słynie z zachowanej widowni i akustyki?",
       "options": [
         "Epidauros",
         "Dionizosa",
@@ -318,14 +290,12 @@
         "Segesta"
       ],
       "answer": "Epidauros",
-      "explanation_correct": "Teatr w Epidauros, zbudowany w IV w. p.n.e., zachował się w niemal idealnym stanie, słynie z doskonałej akustyki.",
-      "explanation_incorrect": "Pozostałe opcje to również starożytne teatry, ale są gorzej zachowane lub nie mają statusu 'najlepiej zachowanego'.",
-      "last_verified_at": "2026-06-12T15:47:36.101Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Teatr w Epidauros znajduje się w sanktuarium Asklepiosa i jest znany z dobrze zachowanej widowni oraz akustyki.",
+      "explanation_incorrect": "Pozostałe opcje to również starożytne teatry, ale są gorzej zachowane lub nie mają statusu 'najlepiej zachowanego'."
     },
     {
       "subcategory": "Mosty wiszące",
-      "question": "Który nowojorski most, otwarty w 1883 roku, był pierwszym stalowym mostem wiszącym łączącym Manhattan z Brooklynem?",
+      "question": "Który nowojorski most wiszący, otwarty w 1883 roku, łączy Manhattan z Brooklynem?",
       "options": [
         "Most Brookliński",
         "Most Manhattański",
@@ -334,13 +304,11 @@
       ],
       "answer": "Most Brookliński",
       "explanation_correct": "Most Brookliński to jedna z najstarszych konstrukcji tego typu w USA, uznawana za arcydzieło inżynierii XIX wieku.",
-      "explanation_incorrect": "Mosty Manhattański i Williamsburg również łączą te dzielnice, ale powstały później (1903 i 1909), a Most Washingtona łączy Manhattan z New Jersey.",
-      "last_verified_at": "2026-06-12T15:48:18.631Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Most Williamsburg otwarto w 1903 roku, a Manhattański w 1909; Most George’a Washingtona łączy Manhattan z New Jersey."
     },
     {
       "subcategory": "Inżynieria kolejowa",
-      "question": "Która linia kolejowa jest najdłuższa na świecie?",
+      "question": "Która linia kolejowa łączy Moskwę z Władywostokiem na trasie liczącej ponad 9000 km?",
       "options": [
         "Kolej Transsyberyjska",
         "Kolej Transamazońska",
@@ -348,10 +316,8 @@
         "Kolej Transkontynentalna (USA)"
       ],
       "answer": "Kolej Transsyberyjska",
-      "explanation_correct": "Kolej Transsyberyjska w Rosji ma długość około 9289 km, łącząc Moskwę z Władywostokiem – to najdłuższa linia kolejowa na świecie.",
-      "explanation_incorrect": "Pozostałe opcje to również długie trasy, ale żadna nie dorównuje długością Kolei Transsyberyjskiej.",
-      "last_verified_at": "2026-06-12T15:47:36.101Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Główna trasa Kolei Transsyberyjskiej prowadzi z Moskwy do Władywostoku i liczy około 9289 km.",
+      "explanation_incorrect": "Pozostałe opcje to również długie trasy, ale żadna nie dorównuje długością Kolei Transsyberyjskiej."
     },
     {
       "subcategory": "Pałace",
@@ -363,14 +329,12 @@
         "Chambord"
       ],
       "answer": "Wersal",
-      "explanation_correct": "Wersal, zbudowany przez Ludwika XIV, był główną rezydencją królów Francji od 1682 do rewolucji francuskiej.",
-      "explanation_incorrect": "Luksemburski to pałac w Paryżu, Fontevraud to opactwo, a Chambord to zamek nad Loarą – żaden nie był królewską rezydencją w tym samym znaczeniu.",
-      "last_verified_at": "2026-06-12T15:47:36.101Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wersal rozbudowano za Ludwika XIV na miejscu wcześniejszej rezydencji Ludwika XIII. Od 1682 roku był główną siedzibą dworu francuskiego.",
+      "explanation_incorrect": "Luksemburski to pałac w Paryżu, Fontevraud to opactwo, a Chambord to zamek nad Loarą – żaden nie był królewską rezydencją w tym samym znaczeniu."
     },
     {
       "subcategory": "Architektura sakralna",
-      "question": "Która niedokończona bazylika w Barcelonie jest dziełem Antoniego Gaudiego?",
+      "question": "Którą bazylikę w Barcelonie od 1883 roku projektował Antoni Gaudí?",
       "options": [
         "Sagrada Família",
         "Santa Maria del Mar",
@@ -378,14 +342,12 @@
         "Montjuïc Castle"
       ],
       "answer": "Sagrada Família",
-      "explanation_correct": "Sagrada Família to bazylika zaprojektowana przez Gaudiego, budowana od 1882 roku i wciąż nieukończona, jest symbolem Barcelony.",
-      "explanation_incorrect": "Pozostałe opcje to kościoły w Barcelonie, ale tylko Sagrada Família jest dziełem Gaudiego i pozostaje niedokończona.",
-      "last_verified_at": "2026-06-12T15:47:36.101Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Budowę Sagrady Famílii rozpoczęto w 1882 roku według projektu Francisca de Paula del Villara. Gaudí przejął projekt w 1883 roku.",
+      "explanation_incorrect": "Pozostałe opcje to kościoły w Barcelonie, ale tylko Sagrada Família jest dziełem Gaudiego i pozostaje niedokończona."
     },
     {
       "subcategory": "Konstrukcje betonowe",
-      "question": "Która zapora na rzece Kolorado jest znaną amerykańską konstrukcją betonową?",
+      "question": "Którą zaporę na rzece Kolorado zbudowano w latach 1931–1936 na granicy Arizony i Nevady?",
       "options": [
         "Zapora Hoovera",
         "Zapora Glen Canyon",
@@ -393,10 +355,8 @@
         "Zapora Parker"
       ],
       "answer": "Zapora Hoovera",
-      "explanation_correct": "Zapora Hoovera, zbudowana w latach 1931–1936, to ogromna zapora betonowa na rzece Kolorado, dostarczająca wodę i energię.",
-      "explanation_incorrect": "Pozostałe zapory również znajdują się na Kolorado, ale Hoovera jest najbardziej znana i często określana jako 'amerykańska' w kontekście inżynierii.",
-      "last_verified_at": "2026-06-12T15:47:36.102Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zapora Hoovera jest betonową zaporą na granicy stanów Arizona i Nevada; jej budowa trwała w latach 1931–1936.",
+      "explanation_incorrect": "Glen Canyon, Davis i Parker również leżą na Kolorado, lecz odpowiadają innym budowlom."
     },
     {
       "subcategory": "Ogrody wiszące",
@@ -408,10 +368,8 @@
         "Mauzoleum w Halikarnasie"
       ],
       "answer": "Wiszące ogrody",
-      "explanation_correct": "Wiszące ogrody Semiramidy w Babilonie miały formę tarasów porośniętych roślinnością, zasilanych systemem irygacyjnym.",
-      "explanation_incorrect": "Pozostałe obiekty również należą do siedmiu cudów świata, ale znajdowały się odpowiednio na Rodos, w Efezie i Halikarnasie.",
-      "last_verified_at": "2026-06-12T15:48:18.632Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiszące ogrody były opisywane przez starożytnych autorów jako cud Babilonu. Ich rzeczywiste istnienie, położenie i szczegóły są przedmiotem dyskusji.",
+      "explanation_incorrect": "Pozostałe obiekty również należą do siedmiu cudów świata, ale znajdowały się odpowiednio na Rodos, w Efezie i Halikarnasie."
     },
     {
       "subcategory": "Latarnie morskie",
@@ -424,9 +382,7 @@
       ],
       "answer": "Latarnia w Aleksandrii",
       "explanation_correct": "Latarnia w Aleksandrii, zbudowana na wyspie Faros około 280 p.n.e., była jednym z siedmiu cudów świata i służyła jako wzór dla latarni morskich.",
-      "explanation_incorrect": "Pozostałe opcje to znane latarnie, ale tylko aleksandryjska znajdowała się na Faros i była starożytnym cudem.",
-      "last_verified_at": "2026-06-12T15:47:36.102Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Latarnia na Faros znajdowała się przy Aleksandrii; pozostałe wymienione miejsca leżą gdzie indziej."
     },
     {
       "subcategory": "Architektura bizantyjska",
@@ -438,10 +394,8 @@
         "Cerkiew św. Zofii (Kijów)"
       ],
       "answer": "Hagia Sophia",
-      "explanation_correct": "Hagia Sophia, zbudowana w VI wieku w Konstantynopolu (Stambule), była katedrą patriarchalną, później meczetem, a obecnie muzeum; nazwa znaczy 'Święta Mądrość'.",
-      "explanation_incorrect": "Pozostałe opcje to świątynie w Stambule, ale Błękitny Meczet jest osmański, Meczet Süleymana też, a cerkiew w Kijowie to inna świątynia.",
-      "last_verified_at": "2026-06-12T15:47:36.102Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hagia Sophia powstała w VI wieku jako kościół cesarski; później była meczetem i muzeum, a od 2020 roku ponownie pełni funkcję meczetu.",
+      "explanation_incorrect": "Błękitny Meczet i Meczet Süleymana są budowlami osmańskimi w Stambule, a sobór św. Zofii znajduje się w Kijowie."
     },
     {
       "subcategory": "Inżynieria transportowa",
@@ -454,9 +408,7 @@
       ],
       "answer": "Maglev",
       "explanation_correct": "Maglev (kolej magnetyczna) wykorzystuje lewitację magnetyczną do unoszenia pojazdu nad torami, co pozwala na bardzo duże prędkości.",
-      "explanation_incorrect": "Pozostałe opcje to systemy transportu, ale nie opierają się na lewitacji magnetycznej – Hyperloop to koncepcja, tramwaj i metro korzystają z kół.",
-      "last_verified_at": "2026-06-12T15:47:36.103Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Hyperloop jest koncepcją transportu rurowego, a tramwaje i większość systemów metra wykorzystują koła. Nie jest to jednak podział obejmujący wszystkie możliwe projekty."
     },
     {
       "subcategory": "Podziemne miasta",
@@ -468,14 +420,12 @@
         "Çatalhöyük"
       ],
       "answer": "Petra",
-      "explanation_correct": "Petra w Jordanii to starożytne miasto wykute w różowych skałach, znane m.in. z budowli takich jak Skarbiec, było stolicą Nabatejczyków.",
-      "explanation_incorrect": "Pozostałe opcje to inne historyczne miejsca, ale nie są one wykute w skałach (Masada to twierdza, Machu Picchu to miasto Inków, Çatalhöyük to neolityczne osiedle).",
-      "last_verified_at": "2026-06-12T15:47:36.103Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Petra w Jordanii była stolicą Nabatejczyków. Część jej budowli, w tym fasadę Al-Chazna, wykuto w skale; inne wzniesiono osobno.",
+      "explanation_incorrect": "Pozostałe opcje to inne historyczne miejsca, ale nie są one wykute w skałach (Masada to twierdza, Machu Picchu to miasto Inków, Çatalhöyük to neolityczne osiedle)."
     },
     {
       "subcategory": "Mauzolea",
-      "question": "Który indyjski grobowiec z białego marmuru jest mauzoleum?",
+      "question": "Jak nazywa się mauzoleum z białego marmuru w Agrze, wzniesione dla Mumtaz Mahal?",
       "options": [
         "Taj Mahal",
         "Mauzoleum Humajuna",
@@ -483,10 +433,8 @@
         "Czerwony Fort"
       ],
       "answer": "Taj Mahal",
-      "explanation_correct": "Taj Mahal w Agrze to mauzoleum z białego marmuru, zbudowane przez cesarza Szahdżahana dla jego żony Mumtaz Mahal, uznawane za arcydzieło architektury.",
-      "explanation_incorrect": "Pozostałe opcje to również zabytki Indii, ale nie są to grobowce z białego marmuru (Humajuna – cegła i piaskowiec, Akbara – piaskowiec, Czerwony Fort – fort).",
-      "last_verified_at": "2026-06-12T15:47:36.103Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Taj Mahal w Agrze zbudowano z polecenia Szahdżahana jako mauzoleum Mumtaz Mahal.",
+      "explanation_incorrect": "Pozostałe opcje to również zabytki Indii, ale nie są to grobowce z białego marmuru (Humajuna – cegła i piaskowiec, Akbara – piaskowiec, Czerwony Fort – fort)."
     },
     {
       "subcategory": "Mosty wspornikowe",
@@ -520,7 +468,7 @@
     },
     {
       "subcategory": "Inżynieria lotnicza",
-      "question": "Które japońskie lotnisko zbudowano na sztucznej wyspie?",
+      "question": "Które japońskie lotnisko na sztucznej wyspie w Zatoce Osaka otwarto w 1994 roku?",
       "options": [
         "Kansai",
         "Narita",
@@ -528,10 +476,8 @@
         "Chubu"
       ],
       "answer": "Kansai",
-      "explanation_correct": "Port lotniczy Kansai w Osace został zbudowany na sztucznej wyspie na wodach zatoki, otwarty w 1994 roku, znany z zaawansowanej inżynierii.",
-      "explanation_incorrect": "Pozostałe lotniska w Japonii są zlokalizowane na lądzie (choć Chubu również ma sztuczną wyspę, ale to Kansai jest najbardziej znane jako pierwsze takie lotnisko).",
-      "last_verified_at": "2026-06-12T15:47:36.104Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kansai otwarto w 1994 roku na sztucznej wyspie w Zatoce Osaka. Port Chūbu także zbudowano na sztucznej wyspie, ale leży w Zatoce Ise.",
+      "explanation_incorrect": "Chūbu leży na wyspie w Zatoce Ise, a Narita i Haneda obsługują region Tokio."
     },
     {
       "subcategory": "Budownictwo ekologiczne",
@@ -540,13 +486,11 @@
         "Bosco Verticale",
         "Wieżowiec Pirelli",
         "Duomo",
-        "Stajnie Velasca"
+        "Wieża Velasca"
       ],
       "answer": "Bosco Verticale",
-      "explanation_correct": "Bosco Verticale (Pionowy Las) w Mediolanie to para wieżowców pokrytych drzewami i roślinnością, projektujących bioróżnorodność w mieście.",
-      "explanation_incorrect": "Pozostałe opcje to inne znane budynki w Mediolanie, ale nie są to 'pionowe lasy' – Duomo to katedra, pozostałe to wieżowce.",
-      "last_verified_at": "2026-06-12T15:47:36.104Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bosco Verticale to para budynków mieszkalnych w Mediolanie z drzewami i inną roślinnością na tarasach.",
+      "explanation_incorrect": "Pozostałe opcje to inne znane budynki w Mediolanie, ale nie są to 'pionowe lasy' – Duomo to katedra, pozostałe to wieżowce."
     },
     {
       "subcategory": "Zamki",
@@ -558,10 +502,8 @@
         "Olsztyn"
       ],
       "answer": "Malbork",
-      "explanation_correct": "Zamek w Malborku to największy gotycki zamek krzyżacki na świecie, zbudowany w XIII–XV wieku, wpisany na listę UNESCO.",
-      "explanation_incorrect": "Pozostałe zamki również są krzyżackie, ale nie dorównują rozmiarami Malborkowi.",
-      "last_verified_at": "2026-06-12T15:47:36.104Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Zamek w Malborku to rozległy gotycki zespół zamkowy zbudowany przez zakon krzyżacki, wpisany na listę UNESCO.",
+      "explanation_incorrect": "Pozostałe zamki również są krzyżackie, ale nie dorównują rozmiarami Malborkowi."
     },
     {
       "subcategory": "Infrastruktura miejska",
@@ -588,14 +530,12 @@
         "Wieża Eiffla"
       ],
       "answer": "CN Tower",
-      "explanation_correct": "CN Tower w Toronto, wysoka na 553 metry, ma obrotową restaurację na 360 metrach i taras widokowy; jest symbolem miasta.",
-      "explanation_incorrect": "Pozostałe wieże to również wysokie budowle, ale tylko CN Tower ma obrotową restaurację w Toronto.",
-      "last_verified_at": "2026-06-12T15:47:36.105Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "CN Tower w Toronto ma około 553 m wysokości i obrotową restaurację 360 na poziomie około 351 m.",
+      "explanation_incorrect": "Pozostałe wieże to również wysokie budowle, ale tylko CN Tower ma obrotową restaurację w Toronto."
     },
     {
       "subcategory": "Architektura tybetańska",
-      "question": "Który pałac w Lhasie był rezydencją Dalajlamy?",
+      "question": "Który pałac w Lhasie służył jako zimowa rezydencja Dalajlamów?",
       "options": [
         "Potala",
         "Zimowy Pałac (Lhasa)",
@@ -603,14 +543,12 @@
         "Pałac Ganden"
       ],
       "answer": "Potala",
-      "explanation_correct": "Pałac Potala w Lhasie był główną rezydencją Dalajlamów od XVII wieku, jest imponującym kompleksem na wzgórzu.",
-      "explanation_incorrect": "Pozostałe opcje to inne pałace w Tybecie, ale tylko Potala jest główną rezydencją Dalajlamy.",
-      "last_verified_at": "2026-06-12T15:47:36.105Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Potala była zimową rezydencją Dalajlamów, a Norbulingka pełniła funkcję rezydencji letniej.",
+      "explanation_incorrect": "Norbulingka była rezydencją letnią. Potala to pałac na Czerwonym Wzgórzu, pełniący funkcję rezydencji zimowej."
     },
     {
       "subcategory": "Inżynieria lądowa",
-      "question": "Która konstrukcja jest najdłuższym mostem morskim na świecie?",
+      "question": "Jak nazywa się otwarta w 2018 roku przeprawa mostowo-tunelowa łącząca Hongkong, Zhuhai i Makau?",
       "options": [
         "Hong Kong-Zhuhai-Macao",
         "Ponte Vasco da Gama",
@@ -618,10 +556,8 @@
         "Most Øresund"
       ],
       "answer": "Hong Kong-Zhuhai-Macao",
-      "explanation_correct": "Most Hongkong-Zhuhai-Makau o długości około 55 km jest najdłuższym mostem morskim na świecie, oddanym do użytku w 2018 roku.",
-      "explanation_incorrect": "Ponte Vasco da Gama w Portugalii ma 12,3 km, a Most Øresund łączy Danię ze Szwecją, ale nie jest najdłuższym mostem morskim.",
-      "last_verified_at": "2026-06-12T15:47:36.105Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hong Kong–Zhuhai–Macao Bridge to system mostów, sztucznych wysp i tunelu, liczący łącznie około 55 km.",
+      "explanation_incorrect": "Ponte Vasco da Gama w Portugalii ma 12,3 km, a Most Øresund łączy Danię ze Szwecją, ale nie jest najdłuższym mostem morskim."
     },
     {
       "subcategory": "Mechanika budowli",
@@ -640,7 +576,7 @@
     },
     {
       "subcategory": "Architektura inkaska",
-      "question": "Które zaginione miasto w peruwiańskich Andach jest najbardziej znanym przykładem architektury inkaskiej?",
+      "question": "Które stanowisko inkaskie w peruwiańskich Andach odwiedziła w 1911 roku wyprawa Hirama Binghama?",
       "options": [
         "Machu Picchu",
         "Cuzco",
@@ -648,10 +584,8 @@
         "Sacsayhuamán"
       ],
       "answer": "Machu Picchu",
-      "explanation_correct": "Machu Picchu to dobrze zachowane miasto Inków położone w peruwiańskich Andach, odkryte w 1911 roku.",
-      "explanation_incorrect": "Cuzco było stolicą Inków, Ollantaytambo to twierdza, a Sacsayhuamán to kompleks ceremonialny, ale to Machu Picchu jest najbardziej znanym zaginionym miastem.",
-      "last_verified_at": "2026-06-12T15:47:36.106Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Hiram Bingham dotarł do Machu Picchu z pomocą miejscowych mieszkańców. Stanowisko było im znane już wcześniej.",
+      "explanation_incorrect": "Cusco, Ollantaytambo i Sacsayhuamán to inne ważne miejsca związane z Inkami."
     },
     {
       "subcategory": "Katedry",
@@ -670,7 +604,7 @@
     },
     {
       "subcategory": "Inżynieria rzeczna",
-      "question": "Który system śluz na Kanale Panamskim znajduje się po stronie Pacyfiku?",
+      "question": "Który dwustopniowy zespół śluz Kanału Panamskiego znajduje się najbliżej jego wejścia od strony Pacyfiku?",
       "options": [
         "Śluzy Miraflores",
         "Śluzy Gatún",
@@ -678,10 +612,8 @@
         "Śluzy Culebra"
       ],
       "answer": "Śluzy Miraflores",
-      "explanation_correct": "Śluzy Miraflores to dwukomorowy system śluz na Kanale Panamskim, położony po stronie Pacyfiku.",
-      "explanation_incorrect": "Śluzy Gatún znajdują się po stronie Atlantyku, Pedro Miguel są pojedynczą śluzą na wschodnim odcinku, a Culebra to nazwa przekopu.",
-      "last_verified_at": "2026-06-12T15:47:36.106Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Miraflores ma dwa stopnie i leży po stronie Pacyfiku. Pedro Miguel również leży po stronie Pacyfiku, dalej w głąb kanału.",
+      "explanation_incorrect": "Gatún leży po stronie Atlantyku; Pedro Miguel jest po stronie Pacyfiku, ale dalej od oceanu. Culebra to przekop."
     },
     {
       "subcategory": "Modernizm",
@@ -723,10 +655,8 @@
         "Via Cassia"
       ],
       "answer": "Via Appia",
-      "explanation_correct": "Via Appia, zbudowana w 312 p.n.e., była najważniejszą drogą starożytnego Rzymu, łączącą Rzym z Kapuą.",
-      "explanation_incorrect": "Via Aurelia biegła wzdłuż wybrzeża tyrreńskiego, Via Flaminia prowadziła na północ, a Via Cassia do Etrurii.",
-      "last_verified_at": "2026-06-12T15:47:36.107Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Budowę Via Appia rozpoczęto w 312 roku p.n.e.; początkowo prowadziła z Rzymu do Kapui, a później przedłużono ją na południe.",
+      "explanation_incorrect": "Via Aurelia biegła wzdłuż wybrzeża tyrreńskiego, Via Flaminia prowadziła na północ, a Via Cassia do Etrurii."
     },
     {
       "subcategory": "Architektura brutalistyczna",
@@ -760,7 +690,7 @@
     },
     {
       "subcategory": "Konstrukcje pneumatyczne",
-      "question": "Który kompleks szklarni w Kornwalii w Wielkiej Brytanii ma największe na świecie kopuły z pojedynczą powłoką?",
+      "question": "Który kompleks w Kornwalii jest znany z dużych szklarni zwanych biomami, pokrytych poduszkami z tworzywa ETFE?",
       "options": [
         "Eden Project",
         "Kew Gardens",
@@ -768,14 +698,12 @@
         "Biosphere 2"
       ],
       "answer": "Eden Project",
-      "explanation_correct": "Eden Project w Kornwalii składa się z ogromnych kopuł geodezyjnych, które są największymi na świecie kopułami z pojedynczą powłoką.",
-      "explanation_incorrect": "Kew Gardens ma wiele szklarni, ale nie są tak duże, Temperate House to pojedyncza szklarnia, a Biosphere 2 znajduje się w USA.",
-      "last_verified_at": "2026-06-12T15:47:36.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Biomy Eden Project mają stalowe konstrukcje z poduszkami wykonanymi z warstw folii ETFE.",
+      "explanation_incorrect": "Kew Gardens i Temperate House znajdują się w Londynie, a Biosphere 2 w Stanach Zjednoczonych."
     },
     {
       "subcategory": "Inżynieria tunelowa",
-      "question": "Który tunel drogowy w Norwegii jest najdłuższym tunelem drogowym na świecie?",
+      "question": "Jak nazywa się norweski tunel drogowy o długości około 24,5 km, otwarty w 2000 roku?",
       "options": [
         "Lærdal",
         "Gotthard Base Tunnel",
@@ -783,14 +711,12 @@
         "Tunel Świętego Gotarda"
       ],
       "answer": "Lærdal",
-      "explanation_correct": "Tunel Lærdal w Norwegii o długości 24,5 km jest najdłuższym tunelem drogowym na świecie, otwartym w 2000 roku.",
-      "explanation_incorrect": "Gotthard Base Tunnel to tunel kolejowy, Channel Tunnel to tunel pod kanałem La Manche, a Tunel Świętego Gotarda również jest tunelem kolejowym.",
-      "last_verified_at": "2026-06-12T15:47:36.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tunel Lærdal łączy Lærdal i Aurland w Norwegii i ma około 24,5 km długości.",
+      "explanation_incorrect": "Gotthard Base Tunnel i tunel pod kanałem La Manche są kolejowe; istnieje także drogowy tunel św. Gotarda w Szwajcarii."
     },
     {
       "subcategory": "Urbanistyka",
-      "question": "Który wenecki plac, otoczony przez Bazylikę św. Marka i Pałac Dożów, Napoleon nazwał 'najpiękniejszym salonem Europy'?",
+      "question": "Jak nazywa się wenecki plac przy bazylice św. Marka i Pałacu Dożów?",
       "options": [
         "Plac św. Marka",
         "Piazza del Popolo",
@@ -799,9 +725,7 @@
       ],
       "answer": "Plac św. Marka",
       "explanation_correct": "Plac św. Marka jest centralnym punktem Wenecji i jednym z najbardziej rozpoznawalnych placów na świecie.",
-      "explanation_incorrect": "Piazza del Popolo znajduje się w Rzymie, Plac św. Piotra w Watykanie, a Piazza della Signoria we Florencji.",
-      "last_verified_at": "2026-06-12T15:48:18.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Piazza del Popolo znajduje się w Rzymie, Plac św. Piotra w Watykanie, a Piazza della Signoria we Florencji."
     },
     {
       "subcategory": "Mosty łukowe",
@@ -820,7 +744,7 @@
     },
     {
       "subcategory": "Architektura bizantyjska",
-      "question": "Która bazylika w Rawennie we Włoszech słynie z mozaik bizantyjskich z VI wieku?",
+      "question": "Która bazylika w Rawennie słynie z VI-wiecznych mozaik przedstawiających cesarza Justyniana i cesarzową Teodorę?",
       "options": [
         "San Vitale",
         "Sant'Apollinare Nuovo",
@@ -828,14 +752,12 @@
         "Bazylika św. Jana"
       ],
       "answer": "San Vitale",
-      "explanation_correct": "Bazylika San Vitale w Rawennie, konsekrowana w 547 roku, posiada jedne z najpiękniejszych mozaik bizantyjskich, w tym portret cesarza Justyniana.",
-      "explanation_incorrect": "Sant'Apollinare Nuovo i Sant'Apollinare in Classe również mają mozaiki, ale to San Vitale jest najbardziej znana z doskonałego stanu zachowania i bogactwa dekoracji.",
-      "last_verified_at": "2026-06-12T15:47:36.108Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Bazylika San Vitale posiada mozaiki z przedstawieniami Justyniana i Teodory. Inne kościoły Rawenny również zachowały mozaiki z VI wieku.",
+      "explanation_incorrect": "Sant'Apollinare Nuovo i Sant'Apollinare in Classe również mają mozaiki, ale to San Vitale jest najbardziej znana z doskonałego stanu zachowania i bogactwa dekoracji."
     },
     {
       "subcategory": "Wiadukty",
-      "question": "Który wiadukt we Francji jest najwyższym mostem na świecie?",
+      "question": "Który wiadukt nad doliną rzeki Tarn we Francji ma pylon o wysokości około 343 m?",
       "options": [
         "Wiadukt Millau",
         "Wiadukt Garabit",
@@ -843,10 +765,8 @@
         "Wiadukt Chazelet"
       ],
       "answer": "Wiadukt Millau",
-      "explanation_correct": "Wiadukt Millau w południowej Francji ma najwyższy pylon na świecie (343 m) i jest najwyższym mostem drogowym.",
-      "explanation_incorrect": "Wiadukt Garabit to most kolejowy, Viaur jest niższy, a Chazelet to mniejszy wiadukt.",
-      "last_verified_at": "2026-06-12T15:47:36.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wiadukt Millau nad doliną Tarn ma konstrukcję osiągającą około 343 m wysokości. Wysokość pylonu i wysokość jezdni nad terenem są różnymi miarami.",
+      "explanation_incorrect": "Wiadukt Garabit to most kolejowy, Viaur jest niższy, a Chazelet to mniejszy wiadukt."
     },
     {
       "subcategory": "Konstrukcje drewniane",
@@ -858,10 +778,8 @@
         "Kondo"
       ],
       "answer": "Pagoda",
-      "explanation_correct": "Pagoda to wielopoziomowa, drewniana wieża buddyjska, często spotykana przy świątyniach w Japonii.",
-      "explanation_incorrect": "Honden to główna hala świątyni sintoistycznej, Torii to brama, a Kondo to złota sala w buddyjskiej świątyni.",
-      "last_verified_at": "2026-06-12T15:47:36.109Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pagoda to wielokondygnacyjna budowla sakralna, w Japonii często drewniana; pagody w innych regionach mogą mieć odmienną konstrukcję.",
+      "explanation_incorrect": "Honden to główna hala świątyni sintoistycznej, Torii to brama, a Kondo to złota sala w buddyjskiej świątyni."
     },
     {
       "subcategory": "Sztuka inżynierska",
@@ -895,18 +813,16 @@
     },
     {
       "subcategory": "Inżynieria wodna",
-      "question": "Która wielka tama na Nilu w Egipcie została zbudowana w latach 60. XX wieku?",
+      "question": "Jak nazywa się wysoka zapora na Nilu w Egipcie, ukończona w 1970 roku?",
       "options": [
-        "Tama Asuańska",
-        "Tama Wysoka",
-        "Tama Merowe",
-        "Tama Roseires"
+        "Wielka Tama Asuańska",
+        "Zapora Hoovera",
+        "Zapora Trzech Przełomów",
+        "Zapora Merowe"
       ],
-      "answer": "Tama Asuańska",
-      "explanation_correct": "Wielka Tama Asuańska na Nilu w Egipcie, ukończona w 1970 roku, jest jedną z największych zapór na świecie.",
-      "explanation_incorrect": "Tama Merowe znajduje się w Sudanie, a Roseires również w Sudanie, wszystkie na Nilu, ale to Tama Asuańska jest najbardziej znana.",
-      "last_verified_at": "2026-06-12T15:47:36.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Wielka Tama Asuańska",
+      "explanation_correct": "Wielka Tama Asuańska, zwana również Tamą Wysoką, została ukończona w 1970 roku na Nilu w Egipcie.",
+      "explanation_incorrect": "Hoovera leży na Kolorado, Trzech Przełomów na Jangcy, a Merowe na Nilu w Sudanie."
     },
     {
       "subcategory": "Mauzolea",
@@ -925,18 +841,16 @@
     },
     {
       "subcategory": "Mosty stalowe",
-      "question": "Jaki słynny most nad cieśniną Bosfor znajduje się w Stambule?",
+      "question": "Jak nazywa się pierwszy most drogowy nad Bosforem, otwarty w 1973 roku i przemianowany w 2016 roku?",
       "options": [
-        "Most Męczenników",
+        "Most Męczenników 15 Lipca",
         "Most Sułtana Mehmeda Zdobywcy",
-        "Most Bosforski",
-        "Most Birżebbuġa"
+        "Most Yavuza Selima",
+        "Most Galata"
       ],
-      "answer": "Most Męczenników",
-      "explanation_correct": "Most Męczenników (wcześniej Most Bosforski) to pierwszy stały most łączący Europę i Azję przez cieśninę Bosfor. Został otwarty w 1973 roku.",
-      "explanation_incorrect": "Most Sułtana Mehmeda Zdobywcy to inny most w Stambule, ale nie jest to najsłynniejszy; Most Birżebbuġa to most na Malcie, a nie nad Bosforem.",
-      "last_verified_at": "2026-06-12T15:47:36.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Most Męczenników 15 Lipca",
+      "explanation_correct": "Otwarty w 1973 roku most znany wcześniej jako Most Bosforski nosi nazwę Mostu Męczenników 15 Lipca.",
+      "explanation_incorrect": "Mosty Mehmeda Zdobywcy i Yavuza Selima są późniejszymi przeprawami przez Bosfor, a Most Galata przecina Złoty Róg."
     },
     {
       "subcategory": "Architektura modernistyczna",
@@ -948,10 +862,8 @@
         "Walter Gropius"
       ],
       "answer": "Le Corbusier",
-      "explanation_correct": "Willa Savoye została zaprojektowana przez Le Corbusiera i stanowi jedno z najważniejszych dzieł modernizmu.",
-      "explanation_incorrect": "Wright, Mies van der Rohe i Gropius to inni wielcy moderniści, ale żaden z nich nie projektował willi w Poissy.",
-      "last_verified_at": "2026-06-12T15:48:18.633Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Willa Savoye została zaprojektowana przez Le Corbusiera we współpracy z Pierre’em Jeanneretem i jest przykładem modernizmu.",
+      "explanation_incorrect": "Wright, Mies van der Rohe i Gropius to inni wielcy moderniści, ale żaden z nich nie projektował willi w Poissy."
     },
     {
       "subcategory": "Tunele morskie",
@@ -963,10 +875,8 @@
         "Tunel Marmaray"
       ],
       "answer": "Tunel Seikan",
-      "explanation_correct": "Tunel Seikan to najdłuższy na świecie tunel kolejowy pod dnem morskim, łączący wyspy Honsiu i Hokkaido w Japonii. Jego budowa trwała ponad 17 lat.",
-      "explanation_incorrect": "Tunel Kanału La Manche łączy Francję i Wielką Brytanię, Tunel Gotthard znajduje się w Szwajcarii, a Tunel Marmaray przechodzi pod Bosforem; żaden nie łączy Honsiu i Hokkaido.",
-      "last_verified_at": "2026-06-12T15:47:36.110Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Tunel Seikan łączy Honsiu i Hokkaido. Jest bardzo długim tunelem kolejowym, którego część przebiega pod dnem cieśniny Tsugaru.",
+      "explanation_incorrect": "Tunel Kanału La Manche łączy Francję i Wielką Brytanię, Tunel Gotthard znajduje się w Szwajcarii, a Tunel Marmaray przechodzi pod Bosforem; żaden nie łączy Honsiu i Hokkaido."
     },
     {
       "subcategory": "Latarnie",
@@ -993,14 +903,12 @@
         "Lina napowietrzna"
       ],
       "answer": "Kolej zębata",
-      "explanation_correct": "Kolej zębata to system, w którym dodatkowa zębatka napędza pociąg na stromych zboczach. Jest powszechnie stosowana w górach, np. w Alpach.",
-      "explanation_incorrect": "Kolej linowa wykorzystuje liny i kabiny, kolej magnetyczna (maglev) unosi się nad torem, a lina napowietrzna to inna forma transportu linowego; żadna z nich nie opiera się na zębatkach.",
-      "last_verified_at": "2026-06-12T15:47:36.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "W kolei zębatej koło zębate pojazdu współpracuje z zębatą szyną między szynami jezdnymi, zapewniając napęd na stromym odcinku.",
+      "explanation_incorrect": "Kolej linowa wykorzystuje liny i kabiny, kolej magnetyczna (maglev) unosi się nad torem, a lina napowietrzna to inna forma transportu linowego; żadna z nich nie opiera się na zębatkach."
     },
     {
       "subcategory": "Drapacze chmur",
-      "question": "Kształtem którego przedmiotu codziennego użytku inspirowany jest Flatiron Building w Nowym Jorku?",
+      "question": "Do jakiego przedmiotu porównano klinowy kształt nowojorskiego Flatiron Building, nadając mu popularną nazwę?",
       "options": [
         "Żelazko",
         "Ołówek",
@@ -1008,10 +916,8 @@
         "Kostka do gry"
       ],
       "answer": "Żelazko",
-      "explanation_correct": "Flatiron Building swoim klinowym kształtem przypomina żelazko do prasowania, co dało nazwę budynkowi. Został ukończony w 1902 roku i jest jednym z pierwszych drapaczy chmur.",
-      "explanation_incorrect": "Ołówek, nożyczki i kostka do gry mają inny kształt – Flatiron jest trójkątny, a nie cylindryczny, ostry lub sześcienny.",
-      "last_verified_at": "2026-06-12T15:47:36.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Klinowy kształt budynku przypominał dawne żelazko do prasowania, od którego pochodzi jego popularna nazwa.",
+      "explanation_incorrect": "Ołówek, nożyczki i kostka do gry mają inny kształt – Flatiron jest trójkątny, a nie cylindryczny, ostry lub sześcienny."
     },
     {
       "subcategory": "Fortyfikacje",
@@ -1023,10 +929,8 @@
         "Pisac"
       ],
       "answer": "Sacsayhuamán",
-      "explanation_correct": "Sacsayhuamán to monumentalny kompleks fortyfikacyjny Inków, położony na wzgórzu nad Cusco. Jego budowa trwała około 50 lat i wymagała ogromnej precyzji w dopasowaniu kamieni.",
-      "explanation_incorrect": "Machu Picchu to słynne miasto Inków, ale znajduje się daleko od Cusco; Ollantaytambo i Pisac to inne stanowiska archeologiczne, ale nie są one bezpośrednio nad miastem.",
-      "last_verified_at": "2026-06-12T15:47:36.111Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Sacsayhuamán to monumentalny kompleks inkaski na wzgórzu nad Cusco, znany z dużych, precyzyjnie dopasowanych bloków kamiennych.",
+      "explanation_incorrect": "Machu Picchu to słynne miasto Inków, ale znajduje się daleko od Cusco; Ollantaytambo i Pisac to inne stanowiska archeologiczne, ale nie są one bezpośrednio nad miastem."
     },
     {
       "subcategory": "Architektura dekonstruktywistyczna",
@@ -1038,10 +942,8 @@
         "Santiago Calatrava"
       ],
       "answer": "Frank Gehry",
-      "explanation_correct": "Frank Gehry jest twórcą projektu Muzeum Guggenheima w Bilbao, które jest jednym z najważniejszych przykładów architektury dekonstruktywistycznej. Jego płynne, organiczne formy zrewolucjonizowały architekturę.",
-      "explanation_incorrect": "Zaha Hadid projektowała budynki o podobnej stylistyce, ale nie jest autorką Guggenheim Bilbao; Norman Foster i Santiago Calatrava również tworzą nowoczesne budowle, ale nie te.",
-      "last_verified_at": "2026-06-12T15:47:36.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Frank Gehry zaprojektował Muzeum Guggenheima w Bilbao, otwarte w 1997 roku i znane z rzeźbiarskich form.",
+      "explanation_incorrect": "Zaha Hadid projektowała budynki o podobnej stylistyce, ale nie jest autorką Guggenheim Bilbao; Norman Foster i Santiago Calatrava również tworzą nowoczesne budowle, ale nie te."
     },
     {
       "subcategory": "Inżynieria hydrauliczna",
@@ -1053,14 +955,12 @@
         "Śluza w Panamie"
       ],
       "answer": "Falkirk Wheel",
-      "explanation_correct": "Falkirk Wheel to obrotowa winda dla statków w Szkocji, łącząca kanały Forth and Clyde i Union. Jest jedyną tego typu konstrukcją na świecie.",
-      "explanation_incorrect": "Windawa Anderton znajduje się w Anglii, Winda Kanału Gota w Szwecji, a Śluza w Panamie w Panamie; żadna z nich nie znajduje się w Szkocji i nie jest obrotową windą.",
-      "last_verified_at": "2026-06-12T15:47:36.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Falkirk Wheel to obrotowa winda dla statków w Szkocji, łącząca kanały Forth and Clyde oraz Union.",
+      "explanation_incorrect": "Winda Anderton leży w Anglii, a śluzy są innym sposobem pokonywania różnicy poziomów."
     },
     {
       "subcategory": "Pomniki",
-      "question": "Jaką nazwę nosi posąg na stałym lądzie w pobliżu Manhattanu, zawierający w swojej nazwie słowo 'Wolność'?",
+      "question": "Jak nazywa się posąg na Liberty Island w Nowym Jorku, podarowany Stanom Zjednoczonym przez Francję?",
       "options": [
         "Statuła Wolności",
         "Pomnik Waszyngtona",
@@ -1068,10 +968,8 @@
         "Pomnik Jeffersona"
       ],
       "answer": "Statuła Wolności",
-      "explanation_correct": "Statuła Wolności to monumentalny posąg na Liberty Island w Nowym Jorku, podarowany przez Francję Stanom Zjednoczonym. Oficjalnie nazywa się 'Wolność oświecająca świat'.",
-      "explanation_incorrect": "Pomnik Waszyngtona to obelisk, Pomnik Lincolna to świątynia, a Pomnik Jeffersona to rotunda; żaden z nich nie kojarzy się bezpośrednio ze słowem 'Wolność' w nazwie.",
-      "last_verified_at": "2026-06-12T15:47:36.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Statua Wolności stoi na Liberty Island. Jej oficjalna nazwa oznacza „Wolność opromieniająca świat”.",
+      "explanation_incorrect": "Pomnik Waszyngtona to obelisk, Pomnik Lincolna to świątynia, a Pomnik Jeffersona to rotunda; żaden z nich nie kojarzy się bezpośrednio ze słowem 'Wolność' w nazwie."
     },
     {
       "subcategory": "Architektura khmerska",
@@ -1083,14 +981,12 @@
         "Preah Ko"
       ],
       "answer": "Angkor Wat",
-      "explanation_correct": "Angkor Wat to największy i najsłynniejszy kompleks świątynny w Kambodży, zbudowany w XII wieku przez króla Surjawarmana II. Jest symbolem kraju i wpisany na listę UNESCO.",
-      "explanation_incorrect": "Bayon, Ta Prohm i Preah Ko to inne świątynie w Angkorze, ale są mniejsze i nie dorównują Angkor Wat rozmiarem ani znaczeniem.",
-      "last_verified_at": "2026-06-12T15:47:36.112Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Angkor Wat to XII-wieczny kompleks świątynny w Kambodży, budowany za Surjawarmana II i wpisany jako część zespołu Angkor na listę UNESCO.",
+      "explanation_incorrect": "Bayon, Ta Prohm i Preah Ko to inne świątynie w Angkorze, ale są mniejsze i nie dorównują Angkor Wat rozmiarem ani znaczeniem."
     },
     {
       "subcategory": "Mosty wieloprzęsłowe",
-      "question": "Jaki jest najdłuższy most w Europie, znajdujący się w Lizbonie?",
+      "question": "Który most w Lizbonie, otwarty w 1998 roku, nosi imię portugalskiego żeglarza?",
       "options": [
         "Most Vasco da Gama",
         "Most 25 Kwietnia",
@@ -1098,25 +994,21 @@
         "Most Królowej Marii"
       ],
       "answer": "Most Vasco da Gama",
-      "explanation_correct": "Most Vasco da Gama w Lizbonie ma 17,2 km długości i jest najdłuższym mostem w Europie. Został otwarty w 1998 roku z okazji Expo.",
-      "explanation_incorrect": "Most 25 Kwietnia jest drugim mostem w Lizbonie, ale krótszym; Most na Rusi znajduje się w Dubrowniku, a Most Królowej Marii w Szwecji.",
-      "last_verified_at": "2026-06-12T15:47:36.113Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Most Vasco da Gamy przecina estuarium Tagu. Został otwarty w 1998 roku.",
+      "explanation_incorrect": "Most 25 Kwietnia jest inną przeprawą przez Tag; pozostałe odpowiedzi nie wskazują tego mostu."
     },
     {
       "subcategory": "Infrastruktura energetyczna",
-      "question": "Jaka jest największa farma wiatrowa na morzu w Wielkiej Brytanii?",
+      "question": "Jak nazywa się morska farma wiatrowa u wybrzeży Yorkshire, której pierwszy projekt nosi nazwę Hornsea One?",
       "options": [
-        "Hornsea One",
+        "Hornsea",
         "London Array",
         "Walney Extension",
         "Dogger Bank"
       ],
-      "answer": "Hornsea One",
-      "explanation_correct": "Hornsea One to największa morska farma wiatrowa na świecie pod względem mocy zainstalowanej (1,2 GW), znajdująca się u wybrzeży Yorkshire w Wielkiej Brytanii.",
-      "explanation_incorrect": "London Array, Walney Extension i Dogger Bank to również duże farmy wiatrowe w UK, ale Hornsea One jest obecnie największa.",
-      "last_verified_at": "2026-06-12T15:47:36.113Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Hornsea",
+      "explanation_correct": "Hornsea One jest częścią zespołu projektów morskich farm wiatrowych Hornsea na Morzu Północnym.",
+      "explanation_incorrect": "London Array, Walney Extension i Dogger Bank to inne projekty morskich farm wiatrowych."
     },
     {
       "subcategory": "Skarbce",
@@ -1128,10 +1020,8 @@
         "Fort Ticonderoga"
       ],
       "answer": "Fort Knox",
-      "explanation_correct": "Fort Knox w stanie Kentucky to miejsce, w którym przechowywana jest większość rezerw złota USA (około 147 mln uncji). Jest to jeden z najlepiej strzeżonych obiektów na świecie.",
-      "explanation_incorrect": "Fort McHenry bronił Baltimore, Fort Sumter w Charleston, a Fort Ticonderoga w czasie wojny o niepodległość; żaden z nich nie jest skarbcem złota.",
-      "last_verified_at": "2026-06-12T15:47:36.113Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Depozyt złota Stanów Zjednoczonych w Fort Knox w Kentucky przechowuje znaczną część amerykańskich rezerw złota.",
+      "explanation_incorrect": "Fort McHenry bronił Baltimore, Fort Sumter w Charleston, a Fort Ticonderoga w czasie wojny o niepodległość; żaden z nich nie jest skarbcem złota."
     },
     {
       "subcategory": "Inżynieria miejska",
@@ -1150,7 +1040,7 @@
     },
     {
       "subcategory": "Łuki triumfalne",
-      "question": "Jaki łuk triumfalny w Paryżu upamiętnia zwycięstwa Napoleona?",
+      "question": "Który paryski łuk triumfalny stoi pośrodku placu Charles’a de Gaulle’a, dawniej Place de l’Étoile?",
       "options": [
         "Łuk Triumfalny",
         "Łuk Karuzeli",
@@ -1158,10 +1048,8 @@
         "Łuk Saint-Denis"
       ],
       "answer": "Łuk Triumfalny",
-      "explanation_correct": "Łuk Triumfalny w Paryżu został zbudowany na rozkaz Napoleona po bitwie pod Austerlitz. Stoi w centrum placu Charles’a de Gaulle’a i jest jednym z symboli Francji.",
-      "explanation_incorrect": "Łuk Karuzeli znajduje się obok Luwru i jest mniejszy, Łuk La Défense to nowoczesna konstrukcja, a Łuk Saint-Denis znajduje się w Paryżu, ale nie upamiętnia Napoleona.",
-      "last_verified_at": "2026-06-12T15:47:36.114Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Łuk Triumfalny na placu Charles’a de Gaulle’a zlecił Napoleon. Inny paryski łuk, Arc de Triomphe du Carrousel, również upamiętnia jego zwycięstwa.",
+      "explanation_incorrect": "Łuk Karuzeli stoi przy Luwrze; La Défense i Saint-Denis znajdują się w innych miejscach."
     },
     {
       "subcategory": "Architektura rzymska",
@@ -1174,9 +1062,7 @@
       ],
       "answer": "Forum Romanum",
       "explanation_correct": "Forum Romanum było centrum życia publicznego starożytnego Rzymu – miejscem targów, zgromadzeń i procesów. Znajdowały się tam świątynie, bazyliki i łuki triumfalne.",
-      "explanation_incorrect": "Forum Boarium było targiem bydła, Forum Cezara i Trajana to późniejsze forów cesarskie; żadne z nich nie było głównym placem republikańskiego Rzymu.",
-      "last_verified_at": "2026-06-12T15:47:36.114Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Forum Boarium było targiem bydła, a fora Cezara i Trajana powstały później jako fora cesarskie."
     },
     {
       "subcategory": "Konstrukcje drewniane",
@@ -1188,25 +1074,21 @@
         "Szkieletowa"
       ],
       "answer": "Stavkirke",
-      "explanation_correct": "Stavkirke to norweskie kościoły słupowe z XI-XIV wieku, budowane z drewna bez użycia gwoździ. Najbardziej znany to kościół w Borgund.",
-      "explanation_incorrect": "Bazylika to typ budowli murowanej, rotunda jest okrągłym budynkiem, a szkieletowa oznacza konstrukcję stalową; żaden z nich nie jest typowo norweskim kościołem drewnianym.",
-      "last_verified_at": "2026-06-12T15:47:36.114Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stavkirke to norweskie kościoły o drewnianej konstrukcji słupowej, zachowane głównie ze średniowiecza. Jednym z przykładów jest Borgund.",
+      "explanation_incorrect": "Bazylika i rotunda określają inne typy budowli; konstrukcja szkieletowa może być wykonana z różnych materiałów."
     },
     {
       "subcategory": "Innowacje budowlane",
-      "question": "Która część ludzkiego ciała była inspiracją dla konstrukcji wieży Eiffla?",
+      "question": "Którzy inżynierowie firmy Gustave’a Eiffla opracowali wstępną koncepcję wieży na wystawę w Paryżu?",
       "options": [
-        "Kość udowa",
-        "Kręgosłup",
-        "Żebra",
-        "Czaszka"
+        "Maurice Koechlin i Émile Nouguier",
+        "John Roebling i Joseph Strauss",
+        "Lúcio Costa i Oscar Niemeyer",
+        "Filippo Brunelleschi i Donatello"
       ],
-      "answer": "Kość udowa",
-      "explanation_correct": "Wieża Eiffla została zaprojektowana przez Gustava Eiffla, który inspirował się kształtem ludzkiej kości udowej – jej wytrzymałością i optymalnym rozkładem sił.",
-      "explanation_incorrect": "Kręgosłup, żebra i czaszka mają inne kształty i nie były bezpośrednią inspiracją dla konstrukcji wieży Eiffla.",
-      "last_verified_at": "2026-06-12T15:47:36.115Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Maurice Koechlin i Émile Nouguier",
+      "explanation_correct": "Maurice Koechlin i Émile Nouguier opracowali koncepcję wieży w 1884 roku. Nad jej wyglądem pracował też architekt Stephen Sauvestre.",
+      "explanation_incorrect": "Pozostałe pary są związane z innymi dziedzinami lub projektami, nie z pierwotną koncepcją wieży Eiffla."
     },
     {
       "subcategory": "Zigguraty",
@@ -1218,10 +1100,8 @@
         "Ziggurat w Nippur"
       ],
       "answer": "Wielki Ziggurat",
-      "explanation_correct": "Wielki Ziggurat w Ur jest najlepiej zachowanym sumeryjskim zigguratem, zbudowanym około 2100 p.n.e. przez króla Ur-Nammu.",
-      "explanation_incorrect": "Etemenanki to ziggurat w Babilonie, Ziggurat w Uruk i Ziggurat w Nippur to inne budowle mezopotamskie, ale nie w Ur.",
-      "last_verified_at": "2026-06-12T15:47:36.115Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Wielki Ziggurat w Ur powstał za panowania Ur-Nammu około końca III tysiąclecia p.n.e. Zachowana konstrukcja była też przedmiotem rekonstrukcji.",
+      "explanation_incorrect": "Etemenanki to ziggurat w Babilonie, Ziggurat w Uruk i Ziggurat w Nippur to inne budowle mezopotamskie, ale nie w Ur."
     },
     {
       "subcategory": "Drapacze chmur",
@@ -1240,7 +1120,7 @@
     },
     {
       "subcategory": "Architektura prehistoryczna",
-      "question": "Który prehistoryczny kamienny krąg, znajdujący się w Anglii, jest najbardziej znanym na świecie?",
+      "question": "Który prehistoryczny kamienny monument znajduje się na równinie Salisbury w Anglii?",
       "options": [
         "Stonehenge",
         "Krąg Brodgar",
@@ -1248,10 +1128,8 @@
         "Carnac"
       ],
       "answer": "Stonehenge",
-      "explanation_correct": "Stonehenge to prehistoryczny krąg kamienny w Anglii, datowany na około 2500 p.n.e., jeden z najbardziej znanych na świecie.",
-      "explanation_incorrect": "Krąg Brodgar, Callanish i Carnac to również starożytne kręgi, ale znajdują się odpowiednio w Szkocji, Szkocji i Francji, nie w Anglii.",
-      "last_verified_at": "2026-06-12T15:47:36.115Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Stonehenge budowano etapami przez wiele stuleci; jego znany kamienny układ powstawał około 2500 roku p.n.e.",
+      "explanation_incorrect": "Krąg Brodgar, Callanish i Carnac to również starożytne kręgi, ale znajdują się odpowiednio w Szkocji, Szkocji i Francji, nie w Anglii."
     },
     {
       "subcategory": "Mosty stalowe",
@@ -1285,7 +1163,7 @@
     },
     {
       "subcategory": "Inżynieria kolejowa",
-      "question": "Która linia kolejowa jest uważana za najwyżej położoną na świecie?",
+      "question": "Która linia kolejowa łączy Xining z Lhasą i przebiega na wysokości ponad 5000 m n.p.m.?",
       "options": [
         "Kolej tybetańska",
         "Kolej transsyberyjska",
@@ -1293,14 +1171,12 @@
         "Kolej himalajska"
       ],
       "answer": "Kolej tybetańska",
-      "explanation_correct": "Kolej tybetańska (Qinghai-Tibet Railway) jest najwyżej położoną linią kolejową na świecie, sięgającą ponad 5000 m n.p.m.",
-      "explanation_incorrect": "Kolej transsyberyjska jest długa, ale niższa; kolej peruwiańska i himalajska również nie osiągają takiej wysokości.",
-      "last_verified_at": "2026-06-12T15:47:36.116Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Kolej Qinghai–Tibet łączy Xining z Lhasą i na najwyższym odcinku przekracza 5000 m n.p.m.",
+      "explanation_incorrect": "Kolej transsyberyjska jest długa, ale niższa; kolej peruwiańska i himalajska również nie osiągają takiej wysokości."
     },
     {
       "subcategory": "Konstrukcje podziemne",
-      "question": "Który budynek w Waszyngtonie jest siedzibą Departamentu Obrony Stanów Zjednoczonych?",
+      "question": "Który budynek w hrabstwie Arlington w Wirginii jest siedzibą Departamentu Obrony Stanów Zjednoczonych?",
       "options": [
         "The Pentagon",
         "Biały Dom",
@@ -1308,14 +1184,12 @@
         "Budynek FBI"
       ],
       "answer": "The Pentagon",
-      "explanation_correct": "The Pentagon jest siedzibą Departamentu Obrony USA, jednym z największych biurowców na świecie.",
-      "explanation_incorrect": "Biały Dom to rezydencja prezydenta, Kapitol to siedziba Kongresu, a Budynek FBI to siedziba Biura Federalnego Śledczego.",
-      "last_verified_at": "2026-06-12T15:47:36.116Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Pentagon znajduje się w Arlington w stanie Wirginia, w sąsiedztwie Waszyngtonu, i mieści siedzibę Departamentu Obrony USA.",
+      "explanation_incorrect": "Biały Dom to rezydencja prezydenta, Kapitol to siedziba Kongresu, a Budynek FBI to siedziba Biura Federalnego Śledczego."
     },
     {
       "subcategory": "Architektura grecka",
-      "question": "Która świątynia na ateńskim Akropolu była poświęcona bogini Atenie i jest uważana za główną?",
+      "question": "W której świątyni na Akropolu stał monumentalny posąg Ateny Partenos autorstwa Fidiasza?",
       "options": [
         "Partenon",
         "Erechtejon",
@@ -1323,10 +1197,8 @@
         "Propyleje"
       ],
       "answer": "Partenon",
-      "explanation_correct": "Partenon na Akropolu w Atenach był świątynią poświęconą Atenie i jest symbolem starożytnej Grecji.",
-      "explanation_incorrect": "Erechtejon też jest na Akropolu, ale poświęcony innym bogom; Świątynia Ateny Nike jest mniejsza; Propyleje to brama.",
-      "last_verified_at": "2026-06-12T15:47:36.117Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Partenon był poświęcony Atenie Partenos i mieścił jej posąg. Atenie poświęcone były też inne miejsca na Akropolu.",
+      "explanation_incorrect": "Erechtejon obejmował również kult Ateny, a świątynia Ateny Nike miała inne poświęcenie; Propyleje były bramą."
     },
     {
       "subcategory": "Geodezja",
@@ -1339,9 +1211,7 @@
       ],
       "answer": "Teodolit",
       "explanation_correct": "Teodolit to precyzyjny instrument geodezyjny do pomiaru kątów poziomych i pionowych.",
-      "explanation_incorrect": "Niwelator służy do pomiaru różnic wysokości, dalmierz do odległości, a łata geodezyjna do odczytu na łatach.",
-      "last_verified_at": "2026-06-12T15:47:36.117Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Niwelator służy do wyznaczania różnic wysokości, dalmierz do pomiaru odległości, a łata jest pomocniczą skalą pomiarową."
     },
     {
       "subcategory": "Kanały żeglugowe",
@@ -1354,9 +1224,7 @@
       ],
       "answer": "Kanał Sueski",
       "explanation_correct": "Kanał Sueski łączy Morze Śródziemne z Morzem Czerwonym, umożliwiając żeglugę między Europą a Azją.",
-      "explanation_incorrect": "Kanał Panamski łączy Atlantyk z Pacyfikiem, Kanał Koryncki łączy Zatokę Koryncką z Morzem Egejskim, Kanał Kiloński łączy Morze Północne z Bałtykiem.",
-      "last_verified_at": "2026-06-12T15:47:36.117Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_incorrect": "Kanał Panamski łączy Atlantyk i Pacyfik, Koryncki łączy Zatokę Koryncką z Sarońską, a Kiloński Morze Północne z Bałtykiem."
     },
     {
       "subcategory": "Architektura islamu",
@@ -1375,7 +1243,7 @@
     },
     {
       "subcategory": "Inżynieria sejsmiczna",
-      "question": "Który wieżowiec w Tajpej posiada ogromny kulisty tłumik drgań, aby chronić go przed trzęsieniami ziemi?",
+      "question": "Który wieżowiec w Tajpej ma widoczny kulisty tłumik drgań o masie około 660 ton?",
       "options": [
         "Taipei 101",
         "Burj Khalifa",
@@ -1383,10 +1251,8 @@
         "Petronas Towers"
       ],
       "answer": "Taipei 101",
-      "explanation_correct": "Taipei 101 posiada ogromny kulisty tłumik drgań o wadze 660 ton, który stabilizuje budynek podczas trzęsień ziemi i wiatrów.",
-      "explanation_incorrect": "Burj Khalifa, Shanghai Tower i Petronas Towers nie mają takiego tłumika lub mają inny rodzaj amortyzacji.",
-      "last_verified_at": "2026-06-12T15:47:36.118Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Taipei 101 ma wahadłowy tłumik masowy zmniejszający kołysanie budynku pod wpływem wiatru i wstrząsów.",
+      "explanation_incorrect": "Wymienione pozostałe wieżowce nie są Taipei 101; stosowane w nich rozwiązania ograniczania drgań mogą się różnić."
     },
     {
       "subcategory": "Mosty pontonowe",
@@ -1465,7 +1331,7 @@
     },
     {
       "subcategory": "Kopuły",
-      "question": "Która starożytna rzymska budowla posiada największą betonową kopułę?",
+      "question": "Który rzymski budynek z II wieku n.e. ma betonową kopułę bez zbrojenia o średnicy około 43 m?",
       "options": [
         "Panteon",
         "Koloseum",
@@ -1473,10 +1339,8 @@
         "Domus Aurea"
       ],
       "answer": "Panteon",
-      "explanation_correct": "Panteon w Rzymie, zbudowany w II wieku n.e., ma największą na świecie betonową kopułę bez zbrojenia, o średnicy 43,3 metra.",
-      "explanation_incorrect": "Koloseum nie ma kopuły, Bazylika Maksencjusza ma sklepienie kolebkowe, a Domus Aurea miała sklepienia, ale nie kopułę betonową.",
-      "last_verified_at": "2026-06-12T15:47:36.119Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "Panteon ma betonową kopułę bez zbrojenia o średnicy około 43,3 m, z otworem pośrodku zwanym okulusem.",
+      "explanation_incorrect": "Koloseum jest amfiteatrem, a Bazylika Maksencjusza i Domus Aurea mają inne układy sklepień i kopuł."
     },
     {
       "subcategory": "Architektura organiczna",

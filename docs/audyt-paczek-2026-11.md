@@ -247,6 +247,10 @@ Mapa stanu dokumentacji z 8 listopada obejmuje wszystkie 229 identyfikatorów i 
 
 Przegląd `tradycyjna_kuchnia_pl`: przeczytano 100 pytań oraz opis; poprawiono niejednoznaczne odpowiedzi i wyjaśnienia, a wybrane kwestie sprawdzono w źródłach. Szczegóły: [raport](audits/2026-11-09-tradycyjna-kuchnia-czesciowy.md).
 
+Przegląd częściowy `wielkie_budowle_i_inynieria_pl`: sprawdzono 67 rekordów z niedokończonych zmian, skorygowano opis paczki i wskazano zakres, który wymaga pełnej kontroli. Szczegóły: [raport](audits/2026-11-09-wielkie-budowle-czesciowy.md).
+
+Częściowo przejrzano zmiany w paczkach `trylogia_wadcy_piercieni_pl` i `wynalazki_codziennoci_pl`; szczegóły i ograniczenia opisują [raport Tolkiena](audits/2026-11-09-trylogia-wladcy-pierscieni-czesciowy.md) oraz [raport wynalazków](audits/2026-11-09-wynalazki-codziennosci-czesciowy.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

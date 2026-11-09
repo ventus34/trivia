@@ -2,7 +2,7 @@
   "id": "wynalazki_codziennoci_pl",
   "name": "Wynalazki Codzienności",
   "language": "pl",
-  "description": "Pytania z zakresu: Przechowywanie żywności, Pisanie, Higiena jamy ustnej, Zapięcia, Kawa...",
+  "description": "Pytania o pochodzenie, działanie i historię codziennych przedmiotów oraz wynalazków: od sprzętów domowych i kuchennych po narzędzia, materiały i technologie.",
   "created_at": "2026-06-12T15:48:19.435Z",
   "last_verified_at": "2026-06-12T15:48:18.638Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -10,16 +10,16 @@
   "questions": [
     {
       "subcategory": "Przechowywanie żywności",
-      "question": "Kto opatentował puszkę konserwową?",
+      "question": "Kto otrzymał w 1810 roku brytyjski patent na konserwowanie żywności w metalowych pojemnikach?",
       "options": [
         "Peter Durand",
         "Nicolas Appert",
-        "John Mason",
-        "John Landis Mason"
+        "John Landis Mason",
+        "Louis Pasteur"
       ],
       "answer": "Peter Durand",
       "explanation_correct": "Peter Durand otrzymał brytyjski patent na puszkę konserwową w 1810 roku.",
-      "explanation_incorrect": "Nicolas Appert wynalazł metodę konserwowania w słoikach, a Mason opracował słoik z gwintem. Landis to pomyłka.",
+      "explanation_incorrect": "Appert opracował metodę konserwowania w szczelnych naczyniach, Mason opatentował słoik z gwintem, a Pasteur badał mikroorganizmy.",
       "last_verified_at": "2026-06-12T15:47:55.553Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -40,7 +40,7 @@
     },
     {
       "subcategory": "Higiena jamy ustnej",
-      "question": "Która firma jako pierwsza wprowadziła nylonową szczoteczkę do zębów?",
+      "question": "Która firma opracowała nylon, wykorzystany we włosiu szczoteczek do zębów wprowadzonych w 1938 roku?",
       "options": [
         "DuPont",
         "Colgate",
@@ -48,8 +48,8 @@
         "Johnson & Johnson"
       ],
       "answer": "DuPont",
-      "explanation_correct": "DuPont wyprodukował pierwszą nylonową szczoteczkę do zębów w 1938 roku pod nazwą 'Dr. West's Miracle Tuft'.",
-      "explanation_incorrect": "Colgate, P&G i J&J były producentami, ale to DuPont wynalazł nylonową szczoteczkę.",
+      "explanation_correct": "Nylon opracowano w laboratoriach DuPont; w 1938 roku pojawiła się szczoteczka Dr. West’s Miracle-Tuft z nylonowym włosiem.",
+      "explanation_incorrect": "Colgate, Procter & Gamble i Johnson & Johnson działają na rynku produktów higienicznych, ale nylon opracowano w DuPont.",
       "last_verified_at": "2026-06-12T15:47:55.554Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -63,7 +63,7 @@
         "Button"
       ],
       "answer": "Velcro",
-      "explanation_correct": "Velcro to marka zapięć rzepowych, wynalezionych przez George'a de Mestrala w 1941 roku po obserwacji łopianu.",
+      "explanation_correct": "Velcro to marka zapięć rzepowych rozwijanych przez George’a de Mestrala po obserwacji przyczepiających się do ubrań owoców łopianu.",
       "explanation_incorrect": "Zipper to suwak, Snap to zatrzask, Button to guzik – wszystkie to inne zapięcia.",
       "last_verified_at": "2026-06-12T15:47:55.554Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -85,7 +85,7 @@
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Z jakiego materiału wykonany był żarnik w pierwszej żarówce Thomasa Edisona?",
+      "question": "Jakiego materiału używano na żarniki w komercyjnych lampach Edisona od 1880 roku?",
       "options": [
         "zwęglony bambus",
         "wolfram",
@@ -93,14 +93,14 @@
         "węgiel drzewny"
       ],
       "answer": "zwęglony bambus",
-      "explanation_correct": "Edison w 1879 roku użył zwęglonego włókna bambusowego, które świeciło przez wiele godzin.",
-      "explanation_incorrect": "Wolfram pojawił się później, platyna była zbyt droga, a węgiel drzewny nie był używany w żarnikach.",
+      "explanation_correct": "W lampach Edisona od 1880 roku stosowano zwęglone włókna bambusa; wcześniejsze próby obejmowały między innymi bawełnę i papier.",
+      "explanation_incorrect": "Wolfram upowszechnił się później; zespół Edisona eksperymentował także z platyną i różnymi formami węgla.",
       "last_verified_at": "2026-06-12T15:47:55.554Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Naczynia kuchenne",
-      "question": "Jak nazywa się powłoka zapobiegająca przywieraniu potraw do patelni?",
+      "question": "Jak nazywa się marka powłoki z PTFE stosowanej na patelniach nieprzywierających?",
       "options": [
         "Teflon",
         "Ceramika",
@@ -109,7 +109,7 @@
       ],
       "answer": "Teflon",
       "explanation_correct": "Teflon (politetrafluoroetylen) został wynaleziony przez Roya Plunketta i zastosowany jako powłoka nieprzywierająca.",
-      "explanation_incorrect": "Ceramika, emalia i stal nierdzewna to materiały, ale nie są to powłoki nieprzywierające w rozumieniu Teflonu.",
+      "explanation_incorrect": "Ceramika również bywa używana w powłokach ograniczających przywieranie, ale Teflon jest marką PTFE.",
       "last_verified_at": "2026-06-12T15:47:55.555Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -124,13 +124,13 @@
       ],
       "answer": "Bill Bowerman",
       "explanation_correct": "Bill Bowerman, współzałożyciel Nike, w 1971 roku stworzył podeszwę waflową, używając gofrownicy swojej żony.",
-      "explanation_incorrect": "Phil Knight to biznesmen, Adi Dassler założył Adidas, Converse to marka butów bez waflowej podeszwy.",
+      "explanation_incorrect": "Phil Knight współtworzył Nike, Adi Dassler założył Adidas, a Converse jest marką obuwia.",
       "last_verified_at": "2026-06-12T15:47:55.555Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Golenie",
-      "question": "Kto wynalazł maszynkę do golenia z wymiennym ostrzem?",
+      "question": "Który wynalazca współpracował nad maszynką do golenia z cienkim, wymiennym ostrzem, opatentowaną w USA w 1904 roku?",
       "options": [
         "King Camp Gillette",
         "Jacob Schick",
@@ -138,8 +138,8 @@
         "Bic"
       ],
       "answer": "King Camp Gillette",
-      "explanation_correct": "King Camp Gillette w 1901 roku opatentował maszynkę z cienkim, wymiennym ostrzem.",
-      "explanation_incorrect": "Jacob Schick wynalazł golarkę elektryczną, Wilkinson i Bic to późniejsi producenci.",
+      "explanation_correct": "King Camp Gillette opracował maszynkę z wymiennym ostrzem; patent przyznano w 1904 roku.",
+      "explanation_incorrect": "Jacob Schick działał w branży golenia, a Wilkinson Sword i Bic to marki produktów do golenia.",
       "last_verified_at": "2026-06-12T15:47:55.555Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -160,7 +160,7 @@
     },
     {
       "subcategory": "Pranie",
-      "question": "Jaki był pierwszy syntetyczny detergent do prania?",
+      "question": "Który syntetyczny detergent firmy Procter & Gamble pojawił się na rynku w 1933 roku?",
       "options": [
         "Dreft",
         "Tide",
@@ -168,8 +168,8 @@
         "Ariel"
       ],
       "answer": "Dreft",
-      "explanation_correct": "Dreft, wprowadzony przez Procter & Gamble w 1933 roku, był pierwszym detergentem syntetycznym do prania.",
-      "explanation_incorrect": "Tide (1946), Persil (1907) i Ariel (1967) pojawiły się później lub były półsyntetyczne.",
+      "explanation_correct": "Dreft został wprowadzony przez Procter & Gamble w 1933 roku jako syntetyczny detergent do prania.",
+      "explanation_incorrect": "Tide i Ariel to inne marki detergentów P&G, a Persil jest inną marką środków piorących.",
       "last_verified_at": "2026-06-12T15:48:05.071Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -190,7 +190,7 @@
     },
     {
       "subcategory": "Biuro",
-      "question": "Jakie urządzenie łączy kartki za pomocą metalowej nity lub zszywki, opatentowane w obecnej formie przez firmę McGill w XIX wieku?",
+      "question": "Jakie urządzenie biurowe łączy kartki metalową zszywką?",
       "options": [
         "zszywacz",
         "nitownica",
@@ -205,7 +205,7 @@
     },
     {
       "subcategory": "Zabawki",
-      "question": "Kto wynalazł klocki Lego?",
+      "question": "Kto założył firmę LEGO, która w 1949 roku wprowadziła poprzednika klocków LEGO?",
       "options": [
         "Ole Kirk Christiansen",
         "Frank Hornby",
@@ -213,14 +213,14 @@
         "Hilary Page"
       ],
       "answer": "Ole Kirk Christiansen",
-      "explanation_correct": "Ole Kirk Christiansen, duński stolarz, stworzył pierwsze plastikowe klocki Lego w 1949 roku.",
-      "explanation_incorrect": "Frank Hornby wynalazł Meccano, John Lloyd Wright – Lincoln Logs, Hilary Page – interlocking bricks wcześniej, ale Lego to marka Christiansena.",
+      "explanation_correct": "Ole Kirk Christiansen założył LEGO; w 1949 roku firma wprowadziła Automatic Binding Bricks, rozwinięte na podstawie wcześniejszych klocków Kiddicraft Hilary’ego Page’a.",
+      "explanation_incorrect": "Hilary Page stworzył wcześniejsze klocki Kiddicraft; Hornby i Wright stworzyli inne zabawki konstrukcyjne.",
       "last_verified_at": "2026-06-12T15:48:05.072Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Medycyna domowa",
-      "question": "Pod jaką nazwą handlową znany jest plaster opatrunkowy?",
+      "question": "Która z tych marek plastrów opatrunkowych powstała w Johnson & Johnson?",
       "options": [
         "Band-Aid",
         "Curitas",
@@ -229,28 +229,28 @@
       ],
       "answer": "Band-Aid",
       "explanation_correct": "Band-Aid to marka plastrów opatrunkowych wynalezionych przez Earle'a Dicksona w 1920 roku dla Johnson & Johnson.",
-      "explanation_incorrect": "Curitas, Elastoplast i Nexcare to również marki plastrów, ale to Band-Aid stał się synonimem.",
+      "explanation_incorrect": "Curitas, Elastoplast i Nexcare również są markami plastrów, ale Band-Aid powstał w Johnson & Johnson.",
       "last_verified_at": "2026-06-12T15:48:05.072Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chłodnictwo",
-      "question": "Jaki czynnik chłodniczy został wycofany ze względu na niszczenie warstwy ozonowej?",
+      "question": "Jaką grupę czynników chłodniczych ograniczono na mocy Protokołu montrealskiego ze względu na niszczenie warstwy ozonowej?",
       "options": [
-        "freon",
+        "chlorofluorowęglowodory (CFC)",
         "amoniak",
         "dwutlenek węgla",
         "propan"
       ],
-      "answer": "freon",
-      "explanation_correct": "Freon (freony) to grupa chlorofluorowęglowodorów (CFC), wycofanych na mocy Protokołu Montrealskiego z 1987 roku.",
-      "explanation_incorrect": "Amoniak, CO2 i propan są stosowane jako czynniki chłodnicze, ale nie są wycofane za niszczenie ozonu.",
+      "answer": "chlorofluorowęglowodory (CFC)",
+      "explanation_correct": "CFC, w tym niektóre substancje sprzedawane pod marką Freon, niszczą ozon stratosferyczny i objęto je Protokołem montrealskim.",
+      "explanation_incorrect": "Amoniak, dwutlenek węgla i propan nie należą do CFC.",
       "last_verified_at": "2026-06-12T15:48:05.072Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pisanie",
-      "question": "Kto wynalazł ołówek grafitowy w drewnianej oprawce?",
+      "question": "Kto opatentował w 1795 roku metodę wytwarzania grafitowo-glinianych wkładów do ołówków?",
       "options": [
         "Nicolas-Jacques Conte",
         "John Logie Baird",
@@ -258,7 +258,7 @@
         "Alfred Nobel"
       ],
       "answer": "Nicolas-Jacques Conte",
-      "explanation_correct": "Nicolas-Jacques Conté w 1795 roku opatentował mieszankę grafitu i gliny w drewnianym ołówku.",
+      "explanation_correct": "Nicolas-Jacques Conté opatentował w 1795 roku metodę wykorzystującą mieszaninę grafitu i gliny; drewniane ołówki istniały wcześniej.",
       "explanation_incorrect": "John Logie Baird to wynalazca telewizji, Gutenberg – druku, Nobel – dynamitu.",
       "last_verified_at": "2026-06-12T15:48:05.073Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -288,8 +288,8 @@
         "Charles K. Kao"
       ],
       "answer": "Percy Spencer",
-      "explanation_correct": "Percy Spencer w 1945 roku przypadkowo odkrył, że fale mikrofalowe topią batonik – opatentował kuchenkę w 1947 roku.",
-      "explanation_incorrect": "Raytheon to firma Spencera, Anderson wynalazł pierwszy toster, Kao – światłowody.",
+      "explanation_correct": "Percy Spencer w Raytheon badał nagrzewanie jedzenia mikrofalami; wniosek patentowy złożono w 1945 roku, a pierwsze komercyjne urządzenie pojawiło się w 1947 roku.",
+      "explanation_incorrect": "Raytheon było firmą, w której pracował Spencer; pozostali nie są twórcami tej kuchenki.",
       "last_verified_at": "2026-06-12T15:48:05.073Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -334,22 +334,22 @@
       ],
       "answer": "Joseph Shivers",
       "explanation_correct": "Joseph Shivers, chemik pracujący dla DuPont, wynalazł Lycrę w 1958 roku.",
-      "explanation_incorrect": "Wallace Carothers wynalazł nylon, Charles Goodyear wulkanizację gumy, a John Dunlop oponę pneumatyczną.",
+      "explanation_incorrect": "Wallace Carothers kierował pracami nad nylonem, Goodyear opracował proces wulkanizacji, a Dunlop opatentował w 1888 roku własną oponę pneumatyczną.",
       "last_verified_at": "2026-06-12T15:48:05.074Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Podróże",
-      "question": "Jak nazywa się torba podróżna wyposażona w kółka i wysuwany uchwyt?",
+      "question": "Jak zwykle nazywa się bagaż podróżny z kółkami i wysuwanym uchwytem?",
       "options": [
-        "walizka",
-        "plecak",
-        "torba",
-        "kufer"
+        "walizka na kółkach",
+        "plecak bez kółek",
+        "pokrowiec na ubrania",
+        "kosmetyczka"
       ],
-      "answer": "walizka",
-      "explanation_correct": "Walizka na kółkach została spopularyzowana w latach 70. XX wieku.",
-      "explanation_incorrect": "Plecak jest noszony na plecach, torba jest miękka, a kufer jest sztywny i często bez kółek.",
+      "answer": "walizka na kółkach",
+      "explanation_correct": "Walizki na kółkach występują w wielu konstrukcjach; wysuwany uchwyt ułatwia ich prowadzenie.",
+      "explanation_incorrect": "Pozostałe przedmioty pełnią inne funkcje bagażowe.",
       "last_verified_at": "2026-06-12T15:48:05.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -364,13 +364,13 @@
       ],
       "answer": "Alexandre Godefroy",
       "explanation_correct": "Alexandre Godefroy skonstruował pierwszą suszarkę do włosów w 1890 roku we Francji.",
-      "explanation_incorrect": "Pozostali to wynalazcy, ale nie suszarki do włosów.",
+      "explanation_incorrect": "Godefroy był fryzjerem i konstruktorem; Chaplin był aktorem, Edison i Bell wynalazcami w innych dziedzinach.",
       "last_verified_at": "2026-06-12T15:48:05.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Meble",
-      "question": "Kto opracował technologię gięcia drewna do produkcji krzeseł?",
+      "question": "Który producent mebli udoskonalił przemysłową produkcję krzeseł z drewna giętego, w tym modelu nr 14?",
       "options": [
         "Michael Thonet",
         "Charles Eames",
@@ -378,7 +378,7 @@
         "Alvar Aalto"
       ],
       "answer": "Michael Thonet",
-      "explanation_correct": "Michael Thonet wynalazł krzesło gięte z buka, słynny model nr 14.",
+      "explanation_correct": "Michael Thonet opatentował w 1856 roku metodę gięcia litego drewna. Wprowadzony w 1859 roku model nr 14 przystosowano do seryjnej produkcji i transportu w częściach.",
       "explanation_incorrect": "Eames zasłynął z foteli sklejkowych, Breuer z rur stalowych, Aalto z drewna giętego w Finlandii.",
       "last_verified_at": "2026-06-12T15:48:05.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -393,7 +393,7 @@
         "pistolet lutowniczy"
       ],
       "answer": "pistolet do kleju",
-      "explanation_correct": "Pistolet do kleju na gorąco został wynaleziony przez George'a Shulta w latach 50.",
+      "explanation_correct": "Pistolet do kleju podgrzewa wkład klejowy i pozwala nakładać roztopiony klej na powierzchnię.",
       "explanation_incorrect": "Pozostałe to pistolety, ale służą do innych celów.",
       "last_verified_at": "2026-06-12T15:48:05.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -408,8 +408,8 @@
         "robot kuchenny"
       ],
       "answer": "trzepaczka",
-      "explanation_correct": "Trzepaczka mechaniczna wynaleziona w XIX wieku umożliwia szybkie ubijanie.",
-      "explanation_incorrect": "Mikser, blender i robot kuchenny są elektryczne.",
+      "explanation_correct": "Ręczna trzepaczka pozwala napowietrzać i mieszać składniki dzięki ruchowi dłoni.",
+      "explanation_incorrect": "Mikser, blender i robot kuchenny to inne narzędzia do mieszania lub rozdrabniania składników.",
       "last_verified_at": "2026-06-12T15:48:05.076Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -420,7 +420,7 @@
         "otwór wrzutowy",
         "wizjer",
         "kołatka",
-        "progiem"
+        "próg"
       ],
       "answer": "otwór wrzutowy",
       "explanation_correct": "Otwory wrzutowe na listy stały się popularne w XIX wieku wraz z rozwojem publicznych usług pocztowych.",
@@ -438,14 +438,14 @@
         "skaner"
       ],
       "answer": "niszczarka",
-      "explanation_correct": "Niszczarka dokumentów została wynaleziona w 1936 roku przez Adolfa Ehninga.",
+      "explanation_correct": "Niszczarka dokumentów rozdrabnia papier, utrudniając odczytanie zapisanych informacji.",
       "explanation_incorrect": "Kserokopiarka, drukarka i skaner służą do kopiowania, drukowania i skanowania.",
       "last_verified_at": "2026-06-12T15:48:05.076Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pisanie",
-      "question": "Kto wynalazł wypukły system pisma dla osób niewidomych?",
+      "question": "Kto opracował punktowy system pisma dla osób niewidomych, nazwany jego nazwiskiem?",
       "options": [
         "Louis Braille",
         "Samuel Morse",
@@ -454,13 +454,13 @@
       ],
       "answer": "Louis Braille",
       "explanation_correct": "Louis Braille opracował alfabet Braille'a w 1824 roku, inspirowany systemem Charlesa Barbiera.",
-      "explanation_incorrect": "Samuel Morse wynalazł alfabet Morse'a, John Braille nie istnieje (to pomyłka), Helen Keller była działaczką.",
+      "explanation_incorrect": "Samuel Morse współtworzył kod telegraficzny, a Helen Keller była pisarką i działaczką; John Braille nie jest twórcą tego systemu.",
       "last_verified_at": "2026-06-12T15:48:05.076Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fotografia",
-      "question": "Kto wynalazł przenośny film fotograficzny na rolce?",
+      "question": "Który przedsiębiorca związany z Kodakiem spopularyzował fotografię z wykorzystaniem filmu zwojowego?",
       "options": [
         "George Eastman",
         "Louis Daguerre",
@@ -468,7 +468,7 @@
         "Nicéphore Niépce"
       ],
       "answer": "George Eastman",
-      "explanation_correct": "George Eastman założył firmę Kodak i wprowadził film zwojowy w 1888 roku.",
+      "explanation_correct": "George Eastman wprowadził aparat Kodak w 1888 roku, upowszechniając fotografię na materiale zwojowym.",
       "explanation_incorrect": "Daguerre wynalazł dagerotyp, Edison pracował nad kinematografem, Niépce wykonał pierwszą fotografię.",
       "last_verified_at": "2026-06-12T15:48:05.077Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -490,7 +490,7 @@
     },
     {
       "subcategory": "Zasilanie",
-      "question": "Jak nazywa się przenośne źródło prądu stałego wykorzystujące reakcję chemiczną?",
+      "question": "Jak potocznie nazywamy jednorazowe ogniwo lub zestaw ogniw zasilający przenośne urządzenie?",
       "options": [
         "bateria",
         "akumulator",
@@ -498,8 +498,8 @@
         "generator"
       ],
       "answer": "bateria",
-      "explanation_correct": "Bateria, wynaleziona przez Alessandra Voltę, przekształca energię chemiczną w elektryczną.",
-      "explanation_incorrect": "Akumulator wymaga ładowania, ogniwo paliwowe potrzebuje paliwa, generator jest mechaniczny.",
+      "explanation_correct": "Bateria wytwarza energię elektryczną dzięki reakcjom chemicznym; określenia tego używa się potocznie także dla pojedynczego ogniwa.",
+      "explanation_incorrect": "Akumulator również wykorzystuje reakcje chemiczne, lecz jest przeznaczony do ponownego ładowania; ogniwo paliwowe wymaga dopływu paliwa.",
       "last_verified_at": "2026-06-12T15:48:05.077Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -513,14 +513,14 @@
         "agrafka"
       ],
       "answer": "pinezka",
-      "explanation_correct": "Pinezka (pineska) wynaleziona pod koniec XIX wieku służy do mocowania kartek do tablicy.",
+      "explanation_correct": "Pinezka to krótki metalowy bolec z łebkiem, używany np. do przypinania kartek do tablicy.",
       "explanation_incorrect": "Spinacz łączy kartki bez przebijania, zszywka używa metalowego drutu, agrafka zapina tkaniny.",
       "last_verified_at": "2026-06-12T15:48:05.077Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Ochrona",
-      "question": "Jak nazywa się akcesorium optyczne chroniące oczy przed promieniowaniem UV?",
+      "question": "Jakie okulary nosi się w słońcu, wybierając model z filtrem UV dla ochrony oczu?",
       "options": [
         "okulary przeciwsłoneczne",
         "okulary korekcyjne",
@@ -528,8 +528,8 @@
         "monokl"
       ],
       "answer": "okulary przeciwsłoneczne",
-      "explanation_correct": "Okulary przeciwsłoneczne wynaleziono w XVIII wieku, ale masowo spopularyzowały się w XX wieku.",
-      "explanation_incorrect": "Okulary korekcyjne poprawiają widzenie, gogle chronią przed pyłem, monokl to jedno szkło.",
+      "explanation_correct": "Okulary przeciwsłoneczne z odpowiednim filtrem UV chronią oczy przed promieniowaniem; samo przyciemnienie szkieł nie gwarantuje takiej ochrony.",
+      "explanation_incorrect": "Okulary korekcyjne i gogle również mogą mieć filtr UV, ale nazwa opisująca okulary noszone w słońcu to okulary przeciwsłoneczne.",
       "last_verified_at": "2026-06-12T15:48:05.078Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -543,23 +543,23 @@
         "węgielnica"
       ],
       "answer": "miara zwijana",
-      "explanation_correct": "Miara zwijana, opatentowana w 1868 roku przez Alvina Fellowsa, zrewolucjonizowała pracę budowlaną.",
+      "explanation_correct": "Miara zwijana ma elastyczną taśmę z podziałką, którą można schować w obudowie.",
       "explanation_incorrect": "Suwmiarka i mikrometr służą do pomiarów precyzyjnych, a węgielnica do wyznaczania kątów.",
       "last_verified_at": "2026-06-12T15:48:18.638Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Higiena",
-      "question": "Jak nazywa się produkt do dezodoryzacji toalet w formie kostki zawieszanej?",
+      "question": "Jak nazywa się kostka zapachowa zawieszana na krawędzi muszli toaletowej?",
       "options": [
-        "zawieszka",
-        "spray",
-        "świeca",
-        "odświeżacz"
+        "zawieszka toaletowa",
+        "świeca zapachowa",
+        "perfumy",
+        "mydło w płynie"
       ],
-      "answer": "zawieszka",
+      "answer": "zawieszka toaletowa",
       "explanation_correct": "Zawieszka toaletowa, często w formie kostki, uwalnia zapach przy każdym spłukaniu.",
-      "explanation_incorrect": "Spray jest w płynie, świeca wymaga ognia, odświeżacz ogólny nie jest konkretną formą.",
+      "explanation_incorrect": "Świeca, perfumy i mydło w płynie nie są kostką zawieszaną na muszli.",
       "last_verified_at": "2026-06-12T15:48:05.078Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -580,7 +580,7 @@
     },
     {
       "subcategory": "Jedzenie",
-      "question": "Kto wynalazł nowoczesną gumę do żucia?",
+      "question": "Który przedsiębiorca w XIX wieku produkował gumę do żucia z chicle?",
       "options": [
         "Thomas Adams",
         "William Wrigley",
@@ -588,8 +588,8 @@
         "John Smith"
       ],
       "answer": "Thomas Adams",
-      "explanation_correct": "Thomas Adams opatentował gumę do żucia w 1871 roku, początkowo jako substytut kauczuku.",
-      "explanation_incorrect": "William Wrigley spopularyzował gumę, ale nie był wynalazcą; pozostali nie są związani.",
+      "explanation_correct": "Thomas Adams produkował gumę do żucia z chicle i w 1871 roku opatentował maszynę do jej wytwarzania; ludzie żuli podobne substancje wcześniej.",
+      "explanation_incorrect": "William Wrigley później spopularyzował własne marki gumy.",
       "last_verified_at": "2026-06-12T15:48:05.078Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -603,8 +603,8 @@
         "peryskop"
       ],
       "answer": "teleskop",
-      "explanation_correct": "Teleskop wynaleziony w 1608 roku przez Hansa Lippersheya, udoskonalony przez Galileusza.",
-      "explanation_incorrect": "Mikroskop służy do małych obiektów, lornetka do obserwacji z bliska, peryskop do obserwacji z ukrycia.",
+      "explanation_correct": "Teleskop optyczny zbiera światło od odległych obiektów; o patent na lunetę wystąpił Hans Lippershey w 1608 roku.",
+      "explanation_incorrect": "Mikroskop służy do oglądania małych obiektów; lornetka także pozwala obserwować obiekty dalekie, ale jest najczęściej używana do obserwacji terenowych.",
       "last_verified_at": "2026-06-12T15:48:05.079Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -633,8 +633,8 @@
         "Lord Kelvin"
       ],
       "answer": "Daniel Fahrenheit",
-      "explanation_correct": "Daniel Fahrenheit wynalazł termometr rtęciowy w 1714 roku, który jest prekursorem dzisiejszych termometrów cieczowych.",
-      "explanation_incorrect": "Pozostali opracowali skale temperatur, ale nie skonstruowali termometru rtęciowego.",
+      "explanation_correct": "Daniel Fahrenheit skonstruował termometr rtęciowy na początku XVIII wieku; wcześniejsze termometry wykorzystywały inne substancje.",
+      "explanation_incorrect": "Celsius i Kelvin są znani ze skal temperatur, Galileusz zaś z wczesnego termoskopu.",
       "last_verified_at": "2026-06-12T15:48:05.079Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -648,14 +648,14 @@
         "gofrownica"
       ],
       "answer": "toster",
-      "explanation_correct": "Toster to urządzenie zaprojektowane do opiekania chleba na złocisty kolor, pierwszy elektryczny model powstał w 1905 roku.",
+      "explanation_correct": "Toster to urządzenie zaprojektowane do opiekania kromek chleba.",
       "explanation_incorrect": "Pozostałe urządzenia służą do innych celów – mieszania, blendowania czy wypieku gofrów.",
       "last_verified_at": "2026-06-12T15:48:05.079Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Transport",
-      "question": "Kto jest wynalazcą opony pneumatycznej?",
+      "question": "Kto opatentował w 1888 roku oponę pneumatyczną do roweru?",
       "options": [
         "John Boyd Dunlop",
         "Charles Goodyear",
@@ -664,13 +664,13 @@
       ],
       "answer": "John Boyd Dunlop",
       "explanation_correct": "John Boyd Dunlop opatentował oponę pneumatyczną w 1888 roku, początkowo dla roweru swojego syna.",
-      "explanation_incorrect": "Pozostali są związani z oponami, ale nie są ich pierwszymi wynalazcami.",
+      "explanation_incorrect": "Robert William Thomson opatentował wcześniejszą oponę pneumatyczną; Dunlop opracował swoją niezależnie i opatentował ją w 1888 roku.",
       "last_verified_at": "2026-06-12T15:48:05.080Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zasilanie",
-      "question": "Który fizyk jest twórcą pierwszego ogniwa galwanicznego?",
+      "question": "Który fizyk zbudował stos będący pierwszą baterią galwaniczną?",
       "options": [
         "Alessandro Volta",
         "Luigi Galvani",
@@ -678,7 +678,7 @@
         "Michael Faraday"
       ],
       "answer": "Alessandro Volta",
-      "explanation_correct": "Alessandro Volta zbudował stos Volty w 1800 roku, pierwsze źródło stałego prądu elektrycznego.",
+      "explanation_correct": "Alessandro Volta zbudował około 1800 roku stos Volty, składający się z wielu ogniw galwanicznych.",
       "explanation_incorrect": "Pozostali badali elektryczność, ale to Volta skonstruował ogniwo.",
       "last_verified_at": "2026-06-12T15:48:05.080Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -693,8 +693,8 @@
         "Alexander Graham Bell"
       ],
       "answer": "Elisha Otis",
-      "explanation_correct": "Elisha Otis zaprezentował windę z hamulcem bezpieczeństwa w 1853 roku, co umożliwiło budowę wieżowców.",
-      "explanation_incorrect": "Pozostali to wynalazcy z innych dziedzin, niezwiązani z windami.",
+      "explanation_correct": "Elisha Otis publicznie zademonstrował w 1854 roku zabezpieczenie windy przed upadkiem w razie zerwania liny.",
+      "explanation_incorrect": "Pozostali wymienieni wynalazcy nie są związani z tym zabezpieczeniem Otisa.",
       "last_verified_at": "2026-06-12T15:48:05.080Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -715,7 +715,7 @@
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Kto skonstruował pierwszą nowoczesną lampę naftową?",
+      "question": "Który polski farmaceuta wraz z Janem Zehem pracował nad zastosowaniem nafty do oświetlenia w 1853 roku?",
       "options": [
         "Ignacy Łukasiewicz",
         "Thomas Edison",
@@ -723,8 +723,8 @@
         "Robert Bunsen"
       ],
       "answer": "Ignacy Łukasiewicz",
-      "explanation_correct": "Ignacy Łukasiewicz wynalazł lampę naftową w 1853 roku, rewolucjonizując oświetlenie domowe.",
-      "explanation_incorrect": "Pozostali są związani z oświetleniem lub przemysłem naftowym, ale nie z lampą naftową.",
+      "explanation_correct": "Ignacy Łukasiewicz wraz z Janem Zehem pracował nad destylacją ropy i zastosowaniem nafty; we Lwowie współpracował nad lampą z blacharzem Adamem Bratkowskim.",
+      "explanation_incorrect": "Pozostali nie byli współpracownikami Jana Zeha przy tych pracach we Lwowie.",
       "last_verified_at": "2026-06-12T15:48:05.081Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -783,14 +783,14 @@
         "Nikola Tesla"
       ],
       "answer": "Emile Berliner",
-      "explanation_correct": "Emile Berliner opatentował gramofon w 1887 roku, który odtwarzał dźwięk z płyt winylowych.",
+      "explanation_correct": "Emile Berliner opatentował gramofon wykorzystujący płaskie płyty w 1887 roku; wczesne płyty nie były jeszcze winylowe.",
       "explanation_incorrect": "Pozostali są związani z rejestracją dźwięku, ale to Berliner stworzył gramofon.",
       "last_verified_at": "2026-06-12T15:48:05.082Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Optyka",
-      "question": "Kto jest uznawany za twórcę pierwszego mikroskopu optycznego?",
+      "question": "Któremu holenderskiemu konstruktorowi często przypisuje się udział w powstaniu wczesnego mikroskopu złożonego?",
       "options": [
         "Zacharias Janssen",
         "Antoine van Leeuwenhoek",
@@ -798,8 +798,8 @@
         "Robert Hooke"
       ],
       "answer": "Zacharias Janssen",
-      "explanation_correct": "Zacharias Janssen skonstruował pierwszy mikroskop optyczny w 1590 roku w Holandii.",
-      "explanation_incorrect": "Pozostali udoskonalili mikroskop lub opisywali obserwacje, ale nie byli jego wynalazcami.",
+      "explanation_correct": "Wczesny mikroskop złożony bywa przypisywany Zachariasowi Janssenowi lub jego otoczeniu; dokładne autorstwo i data pozostają niepewne.",
+      "explanation_incorrect": "Leeuwenhoek i Hooke są znani z późniejszych obserwacji mikroskopowych; dokładne pochodzenie mikroskopu złożonego jest sporne.",
       "last_verified_at": "2026-06-12T15:48:05.082Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -828,14 +828,14 @@
         "Memo Board"
       ],
       "answer": "Post-it",
-      "explanation_correct": "Post-it to marka karteczek samoprzylepnych wynalezionych przez 3M w 1980 roku.",
+      "explanation_correct": "Post-it to marka karteczek 3M wykorzystujących klej pozwalający na odklejanie i ponowne przyklejanie; w USA wprowadzono je szerzej w 1980 roku.",
       "explanation_incorrect": "Pozostałe to nazwy ogólne lub inne produkty, a nie konkretna marka 3M.",
       "last_verified_at": "2026-06-12T15:48:05.083Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kuchnia",
-      "question": "Kto opatentował korbowy otwieracz do puszek?",
+      "question": "Kto opatentował w 1870 roku otwieracz do puszek wykorzystujący obracające się kółko tnące?",
       "options": [
         "William Lyman",
         "Robert Bartley",
@@ -843,8 +843,8 @@
         "Samuel Durant"
       ],
       "answer": "William Lyman",
-      "explanation_correct": "William Lyman opatentował otwieracz do puszek z korbką w 1870 roku.",
-      "explanation_incorrect": "Pozostali są autorami innych typów otwieraczy, ale nie modelu korbowego.",
+      "explanation_correct": "William Lyman opatentował otwieracz z obracającym się kółkiem tnącym w 1870 roku; późniejsze modele rozwijały tę konstrukcję.",
+      "explanation_incorrect": "Lyman jest związany ze wskazanym patentem na otwieracz z kółkiem tnącym.",
       "last_verified_at": "2026-06-12T15:48:05.083Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -858,14 +858,14 @@
         "kozaki"
       ],
       "answer": "kalosze",
-      "explanation_correct": "Kalosze to gumowe obuwie ochronne wynalezione w XIX wieku przez Charlesa Goodyeara.",
-      "explanation_incorrect": "Pozostałe buty nie są wykonane z gumy ani przeznaczone do ochrony przed wodą.",
+      "explanation_correct": "Kalosze to nieprzemakalne obuwie, często wykonane z gumy lub tworzywa sztucznego.",
+      "explanation_incorrect": "Trampki, klapki i kozaki oznaczają inne rodzaje obuwia; niektóre z nich również mogą być wodoodporne.",
       "last_verified_at": "2026-06-12T15:48:05.083Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Elektronika",
-      "question": "Na jaki typ wyświetlacza składają się ciekłe kryształy?",
+      "question": "Jak nazywa się technologia wyświetlania wykorzystująca ciekłe kryształy?",
       "options": [
         "LCD",
         "LED",
@@ -873,7 +873,7 @@
         "PDP"
       ],
       "answer": "LCD",
-      "explanation_correct": "LCD (Liquid Crystal Display) to wyświetlacz ciekłokrystaliczny wynaleziony w 1972 roku.",
+      "explanation_correct": "LCD (Liquid Crystal Display) oznacza wyświetlacz ciekłokrystaliczny; technologia rozwijała się przez wiele lat.",
       "explanation_incorrect": "Pozostałe to inne technologie wyświetlaczy (OLED – organiczne diody, PDP – plazma).",
       "last_verified_at": "2026-06-12T15:48:05.083Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -895,7 +895,7 @@
     },
     {
       "subcategory": "Przechowywanie",
-      "question": "Jak nazywa się hermetyczne plastikowe pojemniki na żywność sprzedawane w domowej sprzedaży?",
+      "question": "Która marka pojemników na żywność była znana ze sprzedaży podczas spotkań domowych?",
       "options": [
         "Tupperware",
         "Rubbermaid",
@@ -903,14 +903,14 @@
         "Ziploc"
       ],
       "answer": "Tupperware",
-      "explanation_correct": "Tupperware to marka hermetycznych pojemników wynalezionych przez Earla Tuppera w 1946 roku.",
-      "explanation_incorrect": "Pozostałe to inne marki pojemników, ale nie specyficzny system sprzedaży domowej Tupperware.",
+      "explanation_correct": "Tupperware to marka pojemników związana z Earlem Tupperem i sprzedażą podczas spotkań domowych.",
+      "explanation_incorrect": "Pozostałe to inne marki pojemników lub produktów do przechowywania.",
       "last_verified_at": "2026-06-12T15:48:05.084Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Komunikacja",
-      "question": "Które urządzenie jako pierwsze umożliwiło regularną transmisję obrazu na odległość do domów?",
+      "question": "Jakie urządzenie domowe odbiera i wyświetla obraz nadawany na odległość?",
       "options": [
         "radio",
         "telewizor",
@@ -919,13 +919,13 @@
       ],
       "answer": "telewizor",
       "explanation_correct": "Telewizor został stworzony jako urządzenie do odbioru i wyświetlania ruchomego obrazu transmitowanego na odległość.",
-      "explanation_incorrect": "Radio przesyła tylko dźwięk, komputer jest wielofunkcyjny, a projektor wymaga sygnału z innego źródła.",
+      "explanation_incorrect": "Odbiornik radiowy służy przede wszystkim do odbioru dźwięku; komputer i projektor mają inne zastosowania, choć również mogą wyświetlać obraz.",
       "last_verified_at": "2026-06-12T15:48:05.084Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pakowanie",
-      "question": "Kto opatentował pierwszą torebkę papierową z płaskim, kwadratowym dnem?",
+      "question": "Kto opatentował w XIX wieku maszynę do produkcji papierowych torebek z płaskim dnem?",
       "options": [
         "Margaret Knight",
         "Josephine Cochrane",
@@ -948,14 +948,14 @@
         "zegar słoneczny"
       ],
       "answer": "zegar wahadłowy",
-      "explanation_correct": "Zegar wahadłowy opiera się na izochroniczności wahań wahadła, co zapewnia stały rytm odmierzania czasu.",
+      "explanation_correct": "W zegarze wahadłowym regularne wahania wahadła pomagają regulować tempo pracy mechanizmu.",
       "explanation_incorrect": "Zegar kwarcowy wykorzystuje drgania kryształu, atomowy – częstotliwość atomów, słoneczny – ruch Słońca.",
       "last_verified_at": "2026-06-12T15:48:05.085Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Naczynia",
-      "question": "Która marka jako pierwsza wprowadziła na rynek szklane naczynie żaroodporne przeznaczone do gotowania?",
+      "question": "Która marka należy do znanych marek żaroodpornych szklanych naczyń do pieczenia, wprowadzonej przez Corning w 1915 roku?",
       "options": [
         "Pyrex",
         "Duralex",
@@ -964,7 +964,7 @@
       ],
       "answer": "Pyrex",
       "explanation_correct": "Pyrex został opracowany przez firmę Corning Glass Works w 1915 roku jako żaroodporne szkło borokrzemianowe do pieczenia i gotowania.",
-      "explanation_incorrect": "Duralex to szkło hartowane, CorningWare to ceramika szklano-krystaliczna, Arcopal to szkło stołowe – nie są to pierwsze naczynia żaroodporne.",
+      "explanation_incorrect": "Duralex, CorningWare i Arcopal to inne marki naczyń, a nie wprowadzona przez Corning w 1915 roku marka Pyrex.",
       "last_verified_at": "2026-06-12T15:48:05.085Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -978,8 +978,8 @@
         "Nikon"
       ],
       "answer": "Polaroid",
-      "explanation_correct": "Aparat Polaroid, wynaleziony przez Edwina Landa, wywoływał i utrwalał zdjęcie wewnątrz urządzenia natychmiast po wykonaniu.",
-      "explanation_incorrect": "Leica, Canon i Nikon to aparaty wymagające tradycyjnego wywoływania filmu w laboratorium.",
+      "explanation_correct": "Aparaty Polaroid wykorzystują fotografię natychmiastową: zdjęcie wywołuje się wkrótce po wykonaniu.",
+      "explanation_incorrect": "Leica, Canon i Nikon to marki aparatów, ale pytanie odnosi się do charakterystycznych aparatów Polaroid.",
       "last_verified_at": "2026-06-12T15:48:05.085Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -993,7 +993,7 @@
         "iPod"
       ],
       "answer": "Walkman",
-      "explanation_correct": "Sony Walkman, wprowadzony w 1979 roku, był pierwszym przenośnym odtwarzaczem kaset audio umożliwiającym słuchanie w ruchu.",
+      "explanation_correct": "Sony Walkman wprowadzony w 1979 roku spopularyzował osobiste słuchanie kaset w ruchu; przenośne odtwarzacze kaset istniały wcześniej.",
       "explanation_incorrect": "Discman odtwarzał płyty CD, MiniDisc używał miniaturowych dysków, iPod to odtwarzacz plików cyfrowych.",
       "last_verified_at": "2026-06-12T15:48:05.085Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1030,7 +1030,7 @@
     },
     {
       "subcategory": "Sport",
-      "question": "Który pedagog i lekarz wynalazł koszykówkę, tworząc nową dyscyplinę sportu?",
+      "question": "Który nauczyciel wychowania fizycznego opracował zasady koszykówki w 1891 roku?",
       "options": [
         "James Naismith",
         "Luther Gulick",
@@ -1054,13 +1054,13 @@
       ],
       "answer": "zamek bębenkowy Yale",
       "explanation_correct": "Linus Yale Jr. udoskonalił w 1861 roku konstrukcję zamka bębenkowego opartego na mechanizmie pinowym.",
-      "explanation_incorrect": "Zamek ryglowy to prostsza konstrukcja, a zamki magnetyczne i szyfrowe to technologie późniejsze.",
+      "explanation_incorrect": "Wymienione zamki różnią się zasadą działania; zamek bębenkowy Yale wykorzystuje mechanizm kołeczkowy.",
       "last_verified_at": "2026-06-12T15:48:18.638Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Odzież",
-      "question": "Który przedsiębiorca stworzył pierwsze masowo produkowane dżinsy na potrzeby górników i robotników?",
+      "question": "Który przedsiębiorca współpracował z krawcem Jacobem Davisem przy opatentowaniu spodni wzmacnianych nitami w 1873 roku?",
       "options": [
         "Levi Strauss",
         "Jacob Davis",
@@ -1069,13 +1069,13 @@
       ],
       "answer": "Levi Strauss",
       "explanation_correct": "Levi Strauss w 1873 roku wraz z Jacobem Davisem opatentował spodnie wzmocnione nitami, które stały się prototypem dżinsów.",
-      "explanation_incorrect": "Jacob Davis był krawcem, który wpadł na pomysł nitów; Lee i Wrangler to marki powstałe później.",
+      "explanation_incorrect": "Jacob Davis był współtwórcą patentu i zaproponował zastosowanie nitów; Lee i Wrangler to inne marki odzieży.",
       "last_verified_at": "2026-06-12T15:48:05.087Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przechowywanie",
-      "question": "Który szklany słoik z gumową uszczelką służy do domowego przechowywania i konserwowania żywności?",
+      "question": "Jak nazywa się popularny słoik do domowych przetworów ze szklaną pokrywą i gumową uszczelką?",
       "options": [
         "weck",
         "słojak",
@@ -1083,14 +1083,14 @@
         "puszka"
       ],
       "answer": "weck",
-      "explanation_correct": "Słoik Weck, wynaleziony w Niemczech w 1900 roku, posiada szklaną pokrywę i gumową uszczelkę, umożliwiając hermetyczne zamknięcie.",
-      "explanation_incorrect": "Słojak to nazwa potoczna, konserwa to metalowe puszki, a puszka jest metalowa.",
+      "explanation_correct": "Słoik typu Weck ma szklaną pokrywę i gumową uszczelkę; zamknięcie zabezpieczają klamry, a podczas konserwowania może wytworzyć się podciśnienie.",
+      "explanation_incorrect": "Puszka i konserwa nie oznaczają tego typu słoika; „słojak” nie jest nazwą tego systemu zamykania.",
       "last_verified_at": "2026-06-12T15:48:05.087Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sprzątanie",
-      "question": "Który inżynier skonstruował pierwszy elektryczny odkurzacz z wirującym silnikiem?",
+      "question": "Który brytyjski inżynier skonstruował na początku XX wieku duży odkurzacz zasysający kurz przez wąż?",
       "options": [
         "Hubert Cecil Booth",
         "John Thurman",
@@ -1098,8 +1098,8 @@
         "William Kent"
       ],
       "answer": "Hubert Cecil Booth",
-      "explanation_correct": "Hubert Cecil Booth wynalazł w 1901 roku odkurzacz elektryczny, który zasysał kurz przez wąż i filtr.",
-      "explanation_incorrect": "Thurman i Spangler pracowali nad maszynami czyszczącymi, ale Booth jest uznawany za pioniera odkurzacza.",
+      "explanation_correct": "Hubert Cecil Booth opracował około 1901 roku duży odkurzacz zasysający kurz przez filtr; pierwsze urządzenia były przewoźne.",
+      "explanation_incorrect": "Spangler opracował później przenośny odkurzacz elektryczny; Thurman także pracował nad urządzeniami czyszczącymi.",
       "last_verified_at": "2026-06-12T15:48:05.087Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1120,7 +1120,7 @@
     },
     {
       "subcategory": "Obliczenia",
-      "question": "Które urządzenie elektroniczne służy do wykonywania podstawowych operacji arytmetycznych?",
+      "question": "Jak nazywa się urządzenie zaprojektowane przede wszystkim do wykonywania działań arytmetycznych?",
       "options": [
         "kalkulator",
         "komputer",
@@ -1129,7 +1129,7 @@
       ],
       "answer": "kalkulator",
       "explanation_correct": "Kalkulator jest urządzeniem zaprojektowanym specjalnie do szybkiego wykonywania działań matematycznych, często przenośnym.",
-      "explanation_incorrect": "Komputer jest uniwersalny, abakus mechaniczny, suwak analogowy – to wcześniejsze narzędzia.",
+      "explanation_incorrect": "Komputer również wykonuje obliczenia, ale jest urządzeniem bardziej uniwersalnym; abakus i suwak logarytmiczny są innymi narzędziami obliczeniowymi.",
       "last_verified_at": "2026-06-12T15:48:05.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1143,14 +1143,14 @@
         "czajnik"
       ],
       "answer": "termos",
-      "explanation_correct": "Termos, wynaleziony przez Jamesa Dewara, to podwójne naczynie z próżnią między ściankami, minimalizującą wymianę ciepła.",
-      "explanation_incorrect": "Dzbanek, kubek i czajnik nie mają izolacji próżniowej i szybko tracą temperaturę.",
+      "explanation_correct": "Termos wykorzystuje naczynie o podwójnych ściankach z próżnią ograniczającą przenoszenie ciepła; laboratoryjne naczynie próżniowe opracował James Dewar.",
+      "explanation_incorrect": "Zwykły dzbanek, kubek i czajnik nie są z definicji naczyniami próżniowymi, choć istnieją ich izolowane odmiany.",
       "last_verified_at": "2026-06-12T15:48:05.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Komunikacja",
-      "question": "Który naukowiec opatentował pierwszy telefon umożliwiający przesyłanie mowy na odległość?",
+      "question": "Który wynalazca otrzymał w USA patent na telefon w 1876 roku?",
       "options": [
         "Alexander Graham Bell",
         "Elisha Gray",
@@ -1158,14 +1158,14 @@
         "Guglielmo Marconi"
       ],
       "answer": "Alexander Graham Bell",
-      "explanation_correct": "Alexander Graham Bell otrzymał patent na telefon w 1876 roku jako pierwszy, który skutecznie przesłał zrozumiałą mowę.",
+      "explanation_correct": "Alexander Graham Bell otrzymał amerykański patent telefoniczny w 1876 roku; historia rozwoju telefonu obejmuje także prace innych wynalazców.",
       "explanation_incorrect": "Elisha Gray złożył podobny wniosek tego samego dnia, ale to Bell uzyskał patent; Edison ulepszył telegraf, Marconi – radio.",
       "last_verified_at": "2026-06-12T15:48:05.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Higiena",
-      "question": "Który wynalazca opracował recepturę mydła w płynie do użycia w publicznych toaletach?",
+      "question": "Kto opatentował w USA ulepszenie mydła w płynie w 1865 roku?",
       "options": [
         "William Shepphard",
         "Robert Chesebrough",
@@ -1173,14 +1173,14 @@
         "John Walker"
       ],
       "answer": "William Shepphard",
-      "explanation_correct": "William Shepphard opatentował mydło w płynie w 1865 roku, rozwiązując problem brudnego kostkowego mydła w miejscach publicznych.",
+      "explanation_correct": "William Shepphard otrzymał w 1865 roku amerykański patent dotyczący mydła w płynie.",
       "explanation_incorrect": "Chesebrough wynalazł wazelinę, Huntsman – stal tyglową, Walker – zapałki.",
       "last_verified_at": "2026-06-12T15:48:05.088Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Logistyka",
-      "question": "Kto opracował pierwszy praktyczny system kodów kreskowych do automatycznego odczytu produktów?",
+      "question": "Który wynalazca wraz z Bernardem Silverem otrzymał w 1952 roku patent na system kodowania i automatycznego odczytu informacji?",
       "options": [
         "Norman Woodland",
         "Bernard Silver",
@@ -1188,8 +1188,8 @@
         "Raymond Kurzweil"
       ],
       "answer": "Norman Woodland",
-      "explanation_correct": "Norman Woodland w 1952 roku opatentował kod kreskowy oparty na wzorze linii, inspirowany alfabetem Morse'a.",
-      "explanation_incorrect": "Bernard Silver pomagał, ale to Woodland był głównym wynalazcą; Kurzweil pracował nad innymi technologiami.",
+      "explanation_correct": "Norman Joseph Woodland i Bernard Silver wspólnie otrzymali patent w 1952 roku; Woodland inspirował się między innymi alfabetem Morse’a.",
+      "explanation_incorrect": "Silver był współwynalazcą tego patentu; pytanie dotyczy jego partnera Woodlanda.",
       "last_verified_at": "2026-06-12T15:48:05.089Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1225,7 +1225,7 @@
     },
     {
       "subcategory": "Sport",
-      "question": "Kto wynalazł wrotki?",
+      "question": "Który wynalazca zademonstrował w XVIII wieku wczesne wrotki na kółkach?",
       "options": [
         "John Joseph Merlin",
         "Christopher Sholes",
@@ -1233,8 +1233,8 @@
         "Charles Darrow"
       ],
       "answer": "John Joseph Merlin",
-      "explanation_correct": "John Joseph Merlin, belgijski wynalazca i konstruktor instrumentów, jest uznawany za wynalazcę wrotek w 1760 roku.",
-      "explanation_incorrect": "Christopher Sholes wynalazł maszynę do pisania, Elias Howe maszynę do szycia, a Charles Darrow grę Monopoly.",
+      "explanation_correct": "John Joseph Merlin jest znany z demonstracji wczesnych wrotek w XVIII wieku; konstrukcje wrotek rozwijały się później.",
+      "explanation_incorrect": "Pozostałe osoby są związane z innymi wynalazkami lub produktami.",
       "last_verified_at": "2026-06-12T15:48:05.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1279,7 +1279,7 @@
       ],
       "answer": "Christopher Sholes",
       "explanation_correct": "Christopher Sholes wraz z innymi współpracownikami opatentował pierwszą komercyjnie udaną maszynę do pisania w 1868 roku.",
-      "explanation_incorrect": "John Joseph Merlin wynalazł wrotki, Elias Howe maszynę do szycia, a Charles Darrow grę Monopoly.",
+      "explanation_incorrect": "Merlin demonstrował wczesne wrotki, Howe opatentował maszynę do szycia, a Darrow spopularyzował Monopoly, oparte na wcześniejszej grze Elizabeth Magie.",
       "last_verified_at": "2026-06-12T15:48:05.090Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1300,7 +1300,7 @@
     },
     {
       "subcategory": "Zdrowie",
-      "question": "Jak nazywał się pierwszy tranzystorowy aparat słuchowy?",
+      "question": "Która marka wprowadziła w 1952 roku aparat słuchowy model 1010, wykorzystujący tranzystor?",
       "options": [
         "Sonotone",
         "Siemens",
@@ -1308,8 +1308,8 @@
         "Widex"
       ],
       "answer": "Sonotone",
-      "explanation_correct": "Sonotone to marka pierwszego tranzystorowego aparatu słuchowego, wprowadzonego na rynek w latach 50. XX wieku.",
-      "explanation_incorrect": "Siemens, Phonak i Widex to inni producenci aparatów słuchowych, ale nie byli pierwszymi z tranzystorowym modelem.",
+      "explanation_correct": "Sonotone 1010 był wczesnym aparatem słuchowym wykorzystującym tranzystor; oprócz niego zawierał także lampy elektronowe.",
+      "explanation_incorrect": "Siemens, Phonak i Widex to inne marki aparatów słuchowych; model 1010 należał do Sonotone.",
       "last_verified_at": "2026-06-12T15:48:05.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1330,7 +1330,7 @@
     },
     {
       "subcategory": "Dźwięk",
-      "question": "Jaki format plików muzycznych stał się popularny jako przenośny i skompresowany?",
+      "question": "Który stratny format kompresji dźwięku szczególnie spopularyzował przenośne pliki muzyczne w latach 90. i 2000.?",
       "options": [
         "MP3",
         "WAV",
@@ -1339,13 +1339,13 @@
       ],
       "answer": "MP3",
       "explanation_correct": "MP3 to standard kompresji dźwięku, który umożliwił przechowywanie dużej ilości muzyki w małych plikach przy akceptowalnej jakości.",
-      "explanation_incorrect": "WAV to nieskompresowany format, FLAC oferuje bezstratną kompresję, a AAC to inny stratny format, ale to MP3 zrewolucjonizował przenośne odtwarzacze.",
+      "explanation_incorrect": "FLAC jest formatem bezstratnym, AAC także jest stratny, a WAV to kontener często używany dla nieskompresowanego dźwięku.",
       "last_verified_at": "2026-06-12T15:48:05.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Jak nazywa się lampa wypełniona gazem szlachetnym, która emituje światło pod wpływem wyładowania elektrycznego?",
+      "question": "Jak potocznie nazywa się lampa reklamowa, której rurka świeci wskutek wyładowania elektrycznego w gazie?",
       "options": [
         "neon",
         "żarówka",
@@ -1353,7 +1353,7 @@
         "lampa LED"
       ],
       "answer": "neon",
-      "explanation_correct": "Neon to lampa z gazem szlachetnym (neonem lub innym), która świeci w wyniku wyładowania elektrycznego, często stosowana w reklamie.",
+      "explanation_correct": "Neon to potoczna nazwa takich lamp; czysty neon daje czerwono-pomarańczową barwę, a inne gazy lub powłoki pozwalają uzyskać inne kolory.",
       "explanation_incorrect": "Żarówka opiera się na rozżarzonym włóknie, halogenowa to rodzaj żarówki z halogenem, a LED to diody elektroluminescencyjne.",
       "last_verified_at": "2026-06-12T15:48:05.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1375,7 +1375,7 @@
     },
     {
       "subcategory": "Jedzenie",
-      "question": "Kto jest twórcą płatków kukurydzianych?",
+      "question": "Który z braci Kellogg prowadził sanatorium, w którym rozwijano płatki śniadaniowe?",
       "options": [
         "John Harvey Kellogg",
         "Christopher Sholes",
@@ -1383,14 +1383,14 @@
         "Charles Darrow"
       ],
       "answer": "John Harvey Kellogg",
-      "explanation_correct": "John Harvey Kellogg, lekarz i zdrowotny reformator, wynalazł płatki kukurydziane jako zdrowe śniadanie dla pacjentów swojego sanatorium.",
-      "explanation_incorrect": "Christopher Sholes wynalazł maszynę do pisania, John Joseph Merlin wrotki, a Charles Darrow grę Monopoly.",
+      "explanation_correct": "John Harvey Kellogg wraz z bratem Willem Keithem pracował nad płatkami w Battle Creek; Will rozwinął ich produkcję komercyjną.",
+      "explanation_incorrect": "Pozostali nie byli braćmi Kellogg i nie prowadzili tego sanatorium.",
       "last_verified_at": "2026-06-12T15:48:05.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Krawiectwo",
-      "question": "Kto wynalazł maszynę do szycia?",
+      "question": "Kto otrzymał w 1846 roku amerykański patent na maszynę do szycia ściegiem stębnowym?",
       "options": [
         "Elias Howe",
         "Christopher Sholes",
@@ -1398,14 +1398,14 @@
         "Charles Darrow"
       ],
       "answer": "Elias Howe",
-      "explanation_correct": "Elias Howe opatentował pierwszą praktyczną maszynę do szycia z igłą z uchem w czubku w 1846 roku.",
-      "explanation_incorrect": "Christopher Sholes wynalazł maszynę do pisania, John Joseph Merlin wrotki, a Charles Darrow grę Monopoly.",
+      "explanation_correct": "Elias Howe opatentował maszynę wykorzystującą igłę z uchem blisko czubka i ścieg stębnowy; wcześniejsze maszyny do szycia także istniały.",
+      "explanation_incorrect": "Pozostali nie są autorami wskazanego patentu Howe’a.",
       "last_verified_at": "2026-06-12T15:48:05.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pogoda",
-      "question": "Jak nazywa się składane schronienie przeznaczone do ochrony przed deszczem?",
+      "question": "Jak nazywa się przenośna osłona przeciw deszczowi z tkaniną rozpiętą na składanym stelażu?",
       "options": [
         "parasol",
         "namiot",
@@ -1414,7 +1414,7 @@
       ],
       "answer": "parasol",
       "explanation_correct": "Parasol to przenośne urządzenie z tkaniną rozpiętą na stelażu, służące do ochrony przed deszczem.",
-      "explanation_incorrect": "Namiot to większa konstrukcja do spania, daszek to stały element budynku, a baldachim to ozdobna osłona nad łóżkiem.",
+      "explanation_incorrect": "Namiot też może chronić przed deszczem, ale parasol jest przenośną osłoną na składanym stelażu trzymaną nad głową.",
       "last_verified_at": "2026-06-12T15:48:05.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1443,14 +1443,14 @@
         "pulsoksymetr"
       ],
       "answer": "stetoskop",
-      "explanation_correct": "Stetoskop to urządzenie składające się z głowicy i rurek, które wzmacnia dźwięki wewnętrzne ciała, takie jak bicie serca i oddech.",
+      "explanation_correct": "Stetoskop akustyczny przekazuje dźwięki z ciała przez głowicę i przewody do uszu; wersje elektroniczne mogą je wzmacniać.",
       "explanation_incorrect": "Ciśnieniomierz mierzy ciśnienie krwi, termometr temperaturę, a pulsoksymetr saturację tlenu.",
       "last_verified_at": "2026-06-12T15:48:05.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gry",
-      "question": "Kto jest wynalazcą gry Monopoly?",
+      "question": "Który przedsiębiorca opatentował wersję gry Monopoly sprzedaną Parker Brothers w 1935 roku?",
       "options": [
         "Charles Darrow",
         "Christopher Sholes",
@@ -1458,8 +1458,8 @@
         "John Joseph Merlin"
       ],
       "answer": "Charles Darrow",
-      "explanation_correct": "Charles Darrow opracował i opatentował grę Monopoly, która stała się jedną z najpopularniejszych gier planszowych na świecie.",
-      "explanation_incorrect": "Christopher Sholes wynalazł maszynę do pisania, Elias Howe maszynę do szycia, a John Joseph Merlin wrotki.",
+      "explanation_correct": "Charles Darrow opatentował i sprzedał swoją wersję Monopoly; gra rozwijała się z wcześniejszej The Landlord’s Game autorstwa Elizabeth Magie.",
+      "explanation_incorrect": "Pozostali nie sprzedali Parker Brothers tej wersji Monopoly; wcześniejszą grę stworzyła Elizabeth Magie.",
       "last_verified_at": "2026-06-12T15:48:05.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1495,7 +1495,7 @@
     },
     {
       "subcategory": "Budownictwo",
-      "question": "Kto wynalazł beton zbrojony?",
+      "question": "Który francuski ogrodnik opatentował w XIX wieku pojemniki z betonu wzmacnianego żelazem?",
       "options": [
         "Joseph Monier",
         "Charles Darrow",
@@ -1503,8 +1503,8 @@
         "Christopher Sholes"
       ],
       "answer": "Joseph Monier",
-      "explanation_correct": "Joseph Monier, francuski ogrodnik, opatentował beton zbrojony żelaznymi prętami, co dało początek nowoczesnemu budownictwu żelbetowemu.",
-      "explanation_incorrect": "Charles Darrow wynalazł Monopoly, Elias Howe maszynę do szycia, a Christopher Sholes maszynę do pisania.",
+      "explanation_correct": "Joseph Monier opatentował w 1867 roku pojemniki z betonu zbrojonego żelazem; nad podobnymi materiałami pracowali także wcześniejsi konstruktorzy.",
+      "explanation_incorrect": "Pozostali nie byli autorami wskazanego patentu Moniera.",
       "last_verified_at": "2026-06-12T15:48:05.094Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }
