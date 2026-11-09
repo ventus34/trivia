@@ -259,6 +259,8 @@ Przejrzano `teorie_spiskowe_i_zagadki_historii_pl`, rozróżniając hipotezy i l
 
 Przejrzano `uniwersum_wiedmina_pl`, `ycie_codzienne_pl` i `ycie_codzienne_w_prl_pl`; zakres oraz źródła są w raportach wskazanych w mapie pokrycia.
 
+Przejrzano obie paczki „Światy i Lore w Grach”, `wiedza_oglna_2_pl`, `zota_era_rocka_pl` i uzupełniono przegląd `cyfrowy_przeom_pl`. W `wiat_modych_pl` poprawiono 23 rekordy, lecz raport pozostaje częściowy z powodu nierozstrzygniętych kwestii. Źródła i zakres zawierają raporty w mapie pokrycia.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

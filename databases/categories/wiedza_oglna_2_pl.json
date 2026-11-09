@@ -2,7 +2,7 @@
   "id": "wiedza_oglna_2_pl",
   "name": "Wiedza Ogólna 2",
   "language": "pl",
-  "description": "Pytania z zakresu: Muzyka klasyczna, Astronomia, Kulinaria, Geografia Fizyczna, Malarstwo, Fizyka...",
+  "description": "Pytania z różnych dziedzin: przyrody, historii, sztuki, literatury, geografii, nauki i technologii.",
   "created_at": "2026-06-12T15:46:51.730Z",
   "last_verified_at": "2026-06-12T15:46:51.096Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -55,7 +55,7 @@
     },
     {
       "subcategory": "Geografia Fizyczna",
-      "question": "Która rzeka na świecie jest uznawana za najdłuższą?",
+      "question": "Która rzeka tradycyjnie jest podawana jako najdłuższa na świecie, choć pomiary długości Nilu i Amazonki bywają sporne?",
       "options": [
         "Amazonka",
         "Jangcy",
@@ -63,8 +63,8 @@
         "Missisipi"
       ],
       "answer": "Nil",
-      "explanation_correct": "Nil tradycyjnie uchodzi za najdłuższą rzekę świata, liczącą około 6650 kilometrów.",
-      "explanation_incorrect": "Amazonka jest rzeką o największym przepływie, natomiast Jangcy i Missisipi zajmują kolejne miejsca w rankingu długości.",
+      "explanation_correct": "Nil bywa podawany jako najdłuższa rzeka świata, choć wynik porównania z Amazonką zależy od wyznaczenia źródeł i sposobu pomiaru.",
+      "explanation_incorrect": "Amazonka ma największy przepływ; porównania jej długości z Nilem nie są jednoznaczne.",
       "last_verified_at": "2026-06-12T15:46:18.049Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -139,7 +139,7 @@
       ],
       "answer": "Anglia",
       "explanation_correct": "William Szekspir urodził się w Stratford-upon-Avon, które leży w Anglii.",
-      "explanation_incorrect": "Choć pozostałe jednostki wchodzą w skład Wysp Brytyjskich, Szekspir był Anglikiem.",
+      "explanation_incorrect": "Szekspir urodził się w angielskim Stratford-upon-Avon; pozostałe odpowiedzi wskazują inne kraje lub części Wysp Brytyjskich.",
       "last_verified_at": "2026-06-12T15:46:18.050Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -160,7 +160,7 @@
     },
     {
       "subcategory": "Informatyka",
-      "question": "Który system operacyjny wykorzystuje wizerunek pingwina (Tuksa) jako swoje oficjalne logo?",
+      "question": "Jakie jądro systemu operacyjnego ma pingwina Tuksa jako maskotkę?",
       "options": [
         "Windows",
         "macOS",
@@ -228,7 +228,7 @@
         "Zielony"
       ],
       "answer": "Żółty",
-      "explanation_correct": "Żółta koszulka lidera została wprowadzona w 1919 roku ze względu na żółty kolor papieru gazety 'L'Auto'.",
+      "explanation_correct": "Żółta koszulka oznacza lidera klasyfikacji generalnej Tour de France; została wprowadzona w 1919 roku.",
       "explanation_incorrect": "Koszulka różowa (maglia rosa) cechuje lidera Giro d'Italia, a zielona lidera klasyfikacji punktowej.",
       "last_verified_at": "2026-06-12T15:46:28.033Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -283,19 +283,19 @@
       "question": "Jak nazywa się najlżejszy pierwiastek chemiczny, występujący w temperaturze pokojowej w formie gazu?",
       "options": [
         "Hel",
-        "Nitrogen",
+        "Azot",
         "Tlen",
         "Wodór"
       ],
       "answer": "Wodór",
       "explanation_correct": "Wodór posiada liczbę atomową 1 i jest najpowszechniejszym pierwiastkiem we Wszechświecie.",
-      "explanation_incorrect": "Hel jest drugim najlżejszym gazem, a tlen i azot (nitrogen) mają znacznie wyższe masy atomowe.",
+      "explanation_incorrect": "Hel jest drugim najlżejszym pierwiastkiem, a tlen i azot mają znacznie wyższe masy atomowe.",
       "last_verified_at": "2026-06-12T15:46:28.034Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sztuka",
-      "question": "Który renesansowy artysta wykonał monumentalną rzeźbę biblijnego Dawida w marmurze?",
+      "question": "Który renesansowy artysta wyrzeźbił marmurowego Dawida ustawionego pierwotnie przed florenckim Palazzo Vecchio?",
       "options": [
         "Donatello",
         "Leonardo da Vinci",
@@ -304,13 +304,13 @@
       ],
       "answer": "Michał Anioł",
       "explanation_correct": "Rzeźba ta powstała w latach 1501–1504 i jest perłą florenckiego renesansu.",
-      "explanation_incorrect": "Donatello również rzeźbił Dawida, ale w brązie, a Bernini jest przedstawicielem baroku.",
+      "explanation_incorrect": "Donatello także tworzył przedstawienia Dawida, zarówno z marmuru, jak i z brązu; Bernini działał w epoce baroku.",
       "last_verified_at": "2026-06-12T15:46:28.035Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Biologia Molekularna",
-      "question": "Który kwas nukleinowy stanowi główny nośnik informacji genetycznej u większości organizmów?",
+      "question": "Który kwas nukleinowy przechowuje informację genetyczną organizmów komórkowych?",
       "options": [
         "DNA",
         "RNA",
@@ -319,7 +319,7 @@
       ],
       "answer": "DNA",
       "explanation_correct": "Kwas deoksyrybonukleinowy (DNA) przechowuje instrukcje genetyczne niezbędne do rozwoju i funkcjonowania organizmów.",
-      "explanation_incorrect": "RNA służy głównie do syntezy białek, natomiast ATP i ADP to cząsteczki energetyczne.",
+      "explanation_incorrect": "RNA uczestniczy m.in. w ekspresji genów; u niektórych wirusów jest materiałem genetycznym. ATP i ADP są nukleotydami.",
       "last_verified_at": "2026-06-12T15:46:28.035Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -333,14 +333,14 @@
         "Tyr"
       ],
       "answer": "Thor",
-      "explanation_correct": "Thor jest bogiem piorunów, a jego atrybut Mjolnir zawsze powraca do jego dłoni po rzucie.",
+      "explanation_correct": "Thor jest bogiem związanym z piorunami; Mjöllnir to jego młot, który według mitów wraca do właściciela po rzucie.",
       "explanation_incorrect": "Odyn włada włócznią Gungnir, Loki jest bogiem oszustwa, a Tyr bogiem wojny i sprawiedliwości.",
       "last_verified_at": "2026-06-12T15:46:28.035Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geopolityka",
-      "question": "Które państwo zajmuje obecnie pierwsze miejsce na świecie pod względem liczby ludności?",
+      "question": "Które państwo według szacunków ONZ wyprzedziło Chiny pod względem liczby ludności w 2023 roku?",
       "options": [
         "Chiny",
         "Indie",
@@ -393,7 +393,7 @@
         "Tętnica szyjna"
       ],
       "answer": "Aorta",
-      "explanation_correct": "Aorta, zwana też tętnicą główną, rozprowadza krew utlenowaną do wszystkich tkanek organizmu.",
+      "explanation_correct": "Aorta, zwana tętnicą główną, odprowadza krew z lewej komory serca do krążenia ogólnoustrojowego.",
       "explanation_incorrect": "Tętnica płucna prowadzi krew do płuc, a żyła główna odprowadza krew odtlenowaną do serca.",
       "last_verified_at": "2026-06-12T15:46:28.036Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -513,14 +513,14 @@
         "NADH"
       ],
       "answer": "ATP",
-      "explanation_correct": "Adenozyno-5'-trifosforan (ATP) magazynuje energię w wiązaniach wysokoenergetycznych, uwalnianą podczas hydrolizy.",
+      "explanation_correct": "ATP jest powszechnym nośnikiem energii chemicznej; hydroliza ATP może napędzać procesy komórkowe dzięki sprzężeniu reakcji.",
       "explanation_incorrect": "DNA przechowuje informację, a FAD i NADH są koenzymami biorącymi udział w transporcie elektronów.",
       "last_verified_at": "2026-06-12T15:46:28.038Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemia organiczna",
-      "question": "Jaki alkaloid odpowiada za piekący, ostry smak owoców roślin z rodzaju papryka?",
+      "question": "Który związek z grupy kapsaicynoidów odpowiada za piekący smak ostrych papryk?",
       "options": [
         "Kofeina",
         "Kapsaicyna",
@@ -558,7 +558,7 @@
         "Słowo"
       ],
       "answer": "Bajt",
-      "explanation_correct": "Bajt jest najmniejszą adresowalną jednostką pamięci komputerowej, wystarczającą do zapisania jednego znaku ASCII.",
+      "explanation_correct": "Bajt liczy zwykle osiem bitów; tyle wystarcza na zapis jednego siedmiobitowego znaku ASCII. Historycznie istniały też inne rozmiary bajtu.",
       "explanation_incorrect": "Nibble to cztery bity, kilobit to tysiąc bitów, a słowo ma zmienną długość zależną od architektury procesora.",
       "last_verified_at": "2026-06-12T15:46:28.039Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -589,7 +589,7 @@
       ],
       "answer": "Hieroglify",
       "explanation_correct": "Hieroglify egipskie łączą elementy logograficzne, sylabiczne i alfabetyczne.",
-      "explanation_incorrect": "Pismo klinowe wywodzi się z Mezopotamii, a pismo linearne B ze starożytnej Grecji (Krecie).",
+      "explanation_incorrect": "Pismo klinowe wywodzi się z Mezopotamii; linearnego B używano do zapisu języka mykeńskiego na Krecie i w Grecji kontynentalnej.",
       "last_verified_at": "2026-06-12T15:46:28.039Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -709,7 +709,7 @@
       ],
       "answer": "Jan Kochanowski",
       "explanation_correct": "Jan Kochanowski napisał „Treny” po śmierci swojej córki Urszulki, tworząc jedno z najważniejszych dzieł polskiego humanizmu.",
-      "explanation_incorrect": "Mikołaj Rej to „ojciec literatury polskiej”, ale nie pisał trenów; pozostali autorzy zajmowali się głównie publicystyką i religią.",
+      "explanation_incorrect": "Mikołaj Rej i pozostali wymienieni autorzy nie napisali cyklu „Treny” Jana Kochanowskiego.",
       "last_verified_at": "2026-06-12T15:46:28.041Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -745,7 +745,7 @@
     },
     {
       "subcategory": "Muzyka klasyczna",
-      "question": "Który instrument dęty blaszany charakteryzuje się najniższym zakresem dźwięku w orkiestrze symfonicznej?",
+      "question": "Który z wymienionych instrumentów dętych blaszanych zwykle pełni funkcję basową w orkiestrze symfonicznej?",
       "options": [
         "Tuba",
         "Puzon",
@@ -754,7 +754,7 @@
       ],
       "answer": "Tuba",
       "explanation_correct": "Tuba jest największym instrumentem z grupy blaszanych i stanowi podstawę basową tej sekcji w orkiestrze.",
-      "explanation_incorrect": "Trąbka i waltornia grają w rejestrach wyższych, a puzon, choć niski, nie osiąga tak głębokich dźwięków jak tuba.",
+      "explanation_incorrect": "Trąbka i waltornia zwykle grają wyżej; puzon również występuje w niskim rejestrze.",
       "last_verified_at": "2026-06-12T15:46:28.042Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -813,8 +813,8 @@
         "Ruby"
       ],
       "answer": "Swift",
-      "explanation_correct": "Swift został stworzony jako następca Objective-C i jest obecnie głównym językiem tworzenia aplikacji na systemy iOS i macOS.",
-      "explanation_incorrect": "Objective-C to starszy język Apple, Kotlin jest rozwijany głównie przez JetBrains, a Ruby powstał w Japonii.",
+      "explanation_correct": "Swift został przedstawiony w 2014 roku jako nowoczesny język do tworzenia aplikacji na platformy Apple.",
+      "explanation_incorrect": "Objective-C był wcześniej szeroko używany na platformach Apple; Kotlin rozwija JetBrains, a Ruby powstał w Japonii.",
       "last_verified_at": "2026-06-12T15:46:28.043Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -873,7 +873,7 @@
         "Łódkonogi"
       ],
       "answer": "Głowonogi",
-      "explanation_correct": "Głowonogi to najbardziej zaawansowane ewolucyjnie mięczaki, posiadające silnie rozwinięty układ nerwowy i oczy.",
+      "explanation_correct": "Głowonogi obejmują m.in. ośmiornice i kałamarnice; wiele z nich ma dobrze rozwinięty układ nerwowy i oczy.",
       "explanation_incorrect": "Małże mają dwuczęściową muszlę, ślimaki mają zazwyczaj jedną spiralną skorupę, a łódkonogi to inna, drobniejsza gromada morskich mięczaków.",
       "last_verified_at": "2026-06-12T15:46:28.044Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -910,7 +910,7 @@
     },
     {
       "subcategory": "Astronomia",
-      "question": "Która gwiazda jest najjaśniejszym obiektem na nocnym niebie poza Układem Słonecznym?",
+      "question": "Która gwiazda jest najjaśniejsza na nocnym niebie Ziemi pod względem jasności obserwowanej?",
       "options": [
         "Canopus",
         "Arktur",
@@ -978,7 +978,7 @@
         "Michał Anioł"
       ],
       "answer": "Sandro Botticelli",
-      "explanation_correct": "Sandro Botticelli namalował to dzieło około 1485 roku na zlecenie rodziny Medyceuszy.",
+      "explanation_correct": "Sandro Botticelli namalował to dzieło około 1485 roku; obecnie znajduje się ono we florenckiej Galerii Uffizi.",
       "explanation_incorrect": "Inni wymienieni artyści to również mistrzowie włoskiego renesansu, ale nie są autorami tego konkretnego płótna.",
       "last_verified_at": "2026-06-12T15:46:28.045Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1008,23 +1008,23 @@
         "Set"
       ],
       "answer": "Ra",
-      "explanation_correct": "Ra był najważniejszym bóstwem w panteonie egipskim, czczonym jako stwórca świata i pan światła.",
+      "explanation_correct": "Ra był jednym z najważniejszych bóstw egipskich i uosabiał słońce; jego znaczenie i formy kultu zmieniały się w czasie.",
       "explanation_incorrect": "Ozyrys był bogiem śmierci, Anubis bogiem balsamowania, a Set bogiem burz i pustynnego chaosu.",
       "last_verified_at": "2026-06-12T15:46:28.046Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Informatyka",
-      "question": "Który język programowania został opracowany przez firmę Apple jako następca Objective-C?",
+      "question": "Który język programowania stworzył James Gosling w firmie Sun Microsystems?",
       "options": [
         "Kotlin",
-        "Swift",
+        "Java",
         "Rust",
         "Go"
       ],
-      "answer": "Swift",
-      "explanation_correct": "Swift został zaprezentowany w 2014 roku i służy do tworzenia aplikacji na systemy iOS oraz macOS.",
-      "explanation_incorrect": "Kotlin jest popularny w ekosystemie Androida, Rust powstał w Mozilli, a Go został stworzony przez Google.",
+      "answer": "Java",
+      "explanation_correct": "James Gosling kierował pracami nad językiem Java w Sun Microsystems.",
+      "explanation_incorrect": "Kotlin rozwija JetBrains, Rust powstał w środowisku Mozilli, a Go opracowano w Google.",
       "last_verified_at": "2026-06-12T15:46:28.046Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1033,13 +1033,13 @@
       "question": "Jaki minerał, będący krystaliczną formą węglanu wapnia, jest głównym składnikiem skał wapiennych?",
       "options": [
         "Kalcyt",
-        "Kiwarc",
+        "Kwarc",
         "Skaleń",
         "Gips"
       ],
       "answer": "Kalcyt",
       "explanation_correct": "Kalcyt jest jednym z najpospolitszych minerałów skałotwórczych i reaguje z kwasem solnym.",
-      "explanation_incorrect": "Kwarc buduje głównie piaskowce i granity, a fosforany czy gipsy tworzą inne typy skał osadowych.",
+      "explanation_incorrect": "Kwarc, skalenie i gips to inne minerały; nie są głównym składnikiem wapienia.",
       "last_verified_at": "2026-06-12T15:46:28.047Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1053,14 +1053,14 @@
         "Tomaso Albinoni"
       ],
       "answer": "Antonio Vivaldi",
-      "explanation_correct": "Vivaldi skomponował ten cykl w 1723 roku jako część zbioru „Il cimento dell'armonia e dell'inventione”.",
+      "explanation_correct": "„Cztery pory roku” otwierają zbiór „Il cimento dell’armonia e dell’inventione”, opublikowany w 1725 roku.",
       "explanation_incorrect": "Pozostali kompozytorzy to również wybitni twórcy baroku włoskiego, lecz nie skomponowali tego dzieła.",
       "last_verified_at": "2026-06-12T15:46:28.047Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Anatomia człowieka",
-      "question": "Który mięsień człowieka posiada największą masę i objętość w całym organizmie?",
+      "question": "Który z wymienionych mięśni pośladków prostuje staw biodrowy i pomaga utrzymać wyprostowaną postawę?",
       "options": [
         "Mięsień czworogłowy uda",
         "Mięsień najszerszy grzbietu",
@@ -1069,7 +1069,7 @@
       ],
       "answer": "Mięsień pośladkowy wielki",
       "explanation_correct": "Mięsień pośladkowy wielki odpowiada za prostowanie stawu biodrowego i utrzymanie pionowej postawy ciała.",
-      "explanation_incorrect": "Mięsień czworogłowy jest bardzo silny, jednak pośladkowy wielki dominuje pod względem łącznej objętości.",
+      "explanation_incorrect": "Pozostałe mięśnie leżą w innych okolicach ciała i pełnią odmienne funkcje.",
       "last_verified_at": "2026-06-12T15:46:28.047Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1090,7 +1090,7 @@
     },
     {
       "subcategory": "Fizyka cząstek",
-      "question": "Która cząstka elementarna jest odpowiedzialna za mechanizm nadawania masy innym cząstkom w Modelu Standardowym?",
+      "question": "Jak nazywa się cząstka odkryta w CERN w 2012 roku, związana z polem nadającym masę niektórym cząstkom elementarnym?",
       "options": [
         "Foton",
         "Gluon",
@@ -1098,8 +1098,8 @@
         "Neutrino"
       ],
       "answer": "Bozon Higgsa",
-      "explanation_correct": "Istnienie tej cząstki potwierdzono eksperymentalnie w 2012 roku w laboratorium CERN.",
-      "explanation_incorrect": "Foton przenosi oddziaływania elektromagnetyczne, gluon silne, a neutrino posiada znikomą masę i nie wyjaśnia jej pochodzenia.",
+      "explanation_correct": "Bozon Higgsa jest wzbudzeniem pola Higgsa; oddziaływanie z tym polem wyjaśnia masę niektórych cząstek elementarnych.",
+      "explanation_incorrect": "Foton przenosi oddziaływanie elektromagnetyczne, gluon silne, a neutrino jest inną cząstką elementarną.",
       "last_verified_at": "2026-06-12T15:46:28.048Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1144,13 +1144,13 @@
       ],
       "answer": "Tytan",
       "explanation_correct": "Tytan jest większy od planety Merkury i charakteryzuje się obecnością jezior z ciekłego metanu.",
-      "explanation_incorrect": "Pozostałe obiekty to również księżyce Saturna, ale są one znacznie mniejsze i pozbawione atmosfery.",
+      "explanation_incorrect": "Enceladus, Rea i Mimas są mniejszymi księżycami Saturna; nie mają gęstej atmosfery porównywalnej z atmosferą Tytana.",
       "last_verified_at": "2026-06-12T15:46:28.048Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geografia fizyczna",
-      "question": "Który z wymienionych obszarów geograficznych stanowi największy archipelag na świecie pod względem liczby wysp i powierzchni?",
+      "question": "Który archipelag rozciąga się między południowo-wschodnią Azją a Australią i obejmuje Borneo oraz Sumatrę?",
       "options": [
         "Archipelag Japoński",
         "Archipelag Malajski",
@@ -1159,7 +1159,7 @@
       ],
       "answer": "Archipelag Malajski",
       "explanation_correct": "Archipelag Malajski leży między Azją a Australią i obejmuje ponad 25 tysięcy wysp.",
-      "explanation_incorrect": "Archipelag Japoński czy Polinezja to znacznie mniejsze skupiska wysp w porównaniu z obszarem Azji Południowo-Wschodniej.",
+      "explanation_incorrect": "Archipelag Japoński, Karaiby i Polinezja leżą w innych częściach świata.",
       "last_verified_at": "2026-06-12T15:46:28.049Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1188,7 +1188,7 @@
         "Miazga"
       ],
       "answer": "Ksylem",
-      "explanation_correct": "Ksylem (drewno) składa się z martwych komórek, takich jak cewki lub naczynia, ułatwiających transport pionowy.",
+      "explanation_correct": "Ksylem (drewno) przewodzi wodę i sole mineralne m.in. przez dojrzałe, martwe elementy przewodzące: cewki i człony naczyń; zawiera też żywe komórki.",
       "explanation_incorrect": "Floem (łyko) transportuje produkty fotosyntezy, a miękisz pełni funkcje asymilacyjne i spichrzowe.",
       "last_verified_at": "2026-06-12T15:46:28.049Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1203,7 +1203,7 @@
         "Asgard"
       ],
       "answer": "Helheim",
-      "explanation_correct": "Helheim to mroczne i zimne miejsce przeznaczone dla osób, które zmarły śmiercią naturalną lub z powodu choroby.",
+      "explanation_correct": "Hel lub Helheim oznacza w mitologii nordyckiej krainę zmarłych związaną z postacią Hel; przekazy o losie zmarłych są zróżnicowane.",
       "explanation_incorrect": "Walhalla to kraina poległych wojowników, Midgard to świat ludzi, a Asgard to siedziba bogów.",
       "last_verified_at": "2026-06-12T15:46:28.049Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1263,7 +1263,7 @@
         "Gari"
       ],
       "answer": "Wasabi",
-      "explanation_correct": "Wasabi, znane jako Eutrema japonicum, jest kluczowym dodatkiem do sushi i sashimi.",
+      "explanation_correct": "Wasabi to Eutrema japonica. Pasta sprzedawana jako wasabi bywa przygotowana z chrzanu i innych dodatków.",
       "explanation_incorrect": "Daikon to rzodkiew, Shiso to zioło, a Gari to marynowany imbir.",
       "last_verified_at": "2026-06-12T15:46:28.050Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1294,7 +1294,7 @@
       ],
       "answer": "Leonardo da Vinci",
       "explanation_correct": "Leonardo da Vinci namalował to dzieło na ścianie refektarza klasztoru Santa Maria delle Grazie pod koniec XV wieku.",
-      "explanation_incorrect": "Pozostali artyści to wielcy mistrzowie włoskiego renesansu, ale nie są autorami tego konkretnego fresku.",
+      "explanation_incorrect": "Pozostali artyści nie są autorami tego konkretnego malowidła; technika Leonarda nie była tradycyjnym freskiem.",
       "last_verified_at": "2026-06-12T15:46:28.051Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1323,14 +1323,14 @@
         "Keratyna"
       ],
       "answer": "Chityna",
-      "explanation_correct": "Chityna to polimer glukozy o wysokiej wytrzymałości mechanicznej, nadający sztywność komórkom grzybów.",
+      "explanation_correct": "Chityna składa się głównie z jednostek N-acetyloglukozaminy, pochodnej glukozy; jest składnikiem ścian komórkowych grzybów i oskórka stawonogów.",
       "explanation_incorrect": "Celuloza buduje rośliny, glikogen jest materiałem zapasowym zwierząt, a keratyna to białko budujące włosy i paznokcie.",
       "last_verified_at": "2026-06-12T15:46:28.051Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Geopolityka",
-      "question": "Które państwo świata de jure leży na największej liczbie stref czasowych, uwzględniając terytoria zależne?",
+      "question": "Które państwo dzięki swoim terytoriom zamorskim obejmuje około 12 stref czasowych?",
       "options": [
         "Rosja",
         "Stany Zjednoczone",
@@ -1338,7 +1338,7 @@
         "Chiny"
       ],
       "answer": "Francja",
-      "explanation_correct": "Dzięki licznym terytoriom zamorskim rozrzuconym po całym świecie, Francja obejmuje 12 różnych stref czasowych.",
+      "explanation_correct": "Francja obejmuje wiele stref czasowych dzięki swoim terytoriom zamorskim; liczba zależy od sposobu liczenia.",
       "explanation_incorrect": "Rosja posiada 11 stref czasowych na jednym zwartym obszarze, a Chiny mimo dużej rozpiętości używają tylko jednej strefy.",
       "last_verified_at": "2026-06-12T15:46:28.052Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1368,7 +1368,7 @@
         "Pismo etruskie"
       ],
       "answer": "Pismo fenickie",
-      "explanation_correct": "Pismo fenickie było pierwszym pismem alfabetopodobnym o charakterze abdżadu, powstałym około XII wieku p.n.e.",
+      "explanation_correct": "Pismo fenickie to starożytny abdżad, w którym zapisywano głównie spółgłoski; wpłynęło na alfabet grecki.",
       "explanation_incorrect": "Pismo klinowe i hieroglify to systemy ideograficzno-sylabiczne, a nie alfabetyczne.",
       "last_verified_at": "2026-06-12T15:46:28.052Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1413,14 +1413,14 @@
         "Kokytos"
       ],
       "answer": "Lethe",
-      "explanation_correct": "Wypicie wody z rzeki Lethe było konieczne dla dusz zmarłych, aby zapomniały o swoim ziemskim życiu.",
+      "explanation_correct": "W mitologii greckiej Lethe wiązano z zapomnieniem; w niektórych przekazach dusze piją jej wodę przed ponownym narodzeniem.",
       "explanation_incorrect": "Styks była rzeką nienawiści i przysiąg, a Acheron rzeką boleści.",
       "last_verified_at": "2026-06-12T15:46:28.053Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Technologia",
-      "question": "Który protokół sieciowy służy do dwukierunkowego przesyłania plików w architekturze klient-serwer?",
+      "question": "Który protokół klient-serwer został opracowany specjalnie do przesyłania plików między komputerami?",
       "options": [
         "Protokół HTTP",
         "Protokół SMTP",
@@ -1429,7 +1429,7 @@
       ],
       "answer": "Protokół FTP",
       "explanation_correct": "File Transfer Protocol (FTP) to standardowy protokół komunikacyjny umożliwiający przesyłanie plików między komputerami.",
-      "explanation_incorrect": "HTTP służy do przesyłania stron WWW, a SMTP do poczty elektronicznej.",
+      "explanation_incorrect": "HTTP również może służyć do pobierania i przesyłania plików, ale FTP jest protokołem wyspecjalizowanym w transferze plików; SMTP służy do przesyłania poczty.",
       "last_verified_at": "2026-06-12T15:46:28.053Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1458,14 +1458,14 @@
         "Fasada"
       ],
       "answer": "Nadproże",
-      "explanation_correct": "Nadproże to poziomy element konstrukcyjny w formie belki lub łuku, który pozwala na wykonanie otworów w ścianach nośnych.",
+      "explanation_correct": "Nadproże to element nad otworem, który przenosi obciążenia na podpory po jego bokach; może mieć różną konstrukcję.",
       "explanation_incorrect": "Gzyms to wysunięty pas dekoracyjny, natomiast attyka to ozdobne przedłużenie ściany frontowej ponad dach.",
       "last_verified_at": "2026-06-12T15:46:51.096Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Astronomia",
-      "question": "Która duża galaktyka spiralna znajduje się najbliżej naszej Drogi Mlecznej i zmierza do kolizji z nią za kilka miliardów lat?",
+      "question": "Która duża galaktyka spiralna Grupy Lokalnej jest oznaczana symbolem M31?",
       "options": [
         "Galaktyka Sombrero",
         "Galaktyka Trójkąta",
@@ -1473,8 +1473,8 @@
         "Wielki Obłok Magellana"
       ],
       "answer": "Galaktyka Andromedy",
-      "explanation_correct": "Galaktyka Andromedy (M31) jest największą galaktyką w Grupie Lokalnej i oddalona jest od nas o ok. 2,5 mln lat świetlnych.",
-      "explanation_incorrect": "Wielki Obłok Magellana jest galaktyką karłowatą, a nie dużą spiralną.",
+      "explanation_correct": "Galaktyka Andromedy (M31) leży około 2,5 mln lat świetlnych od nas. Jej przyszłe spotkanie z Drogą Mleczną jest możliwe, lecz niepewne.",
+      "explanation_incorrect": "Galaktyka Trójkąta ma oznaczenie M33; Wielki Obłok Magellana jest galaktyką karłowatą.",
       "last_verified_at": "2026-06-12T15:46:28.054Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },

@@ -2,7 +2,7 @@
   "id": "wiaty_i_lore_w_grach_pl",
   "name": "Światy i Lore w Grach",
   "language": "pl",
-  "description": "Pytania z zakresu: Frakcje i organizacje, Postacie i protagoniści, Fikcyjna geografia...",
+  "description": "Pytania o postacie, miejsca, organizacje i artefakty z gier takich jak Warcraft, Mass Effect, Wiedźmin, Fallout oraz Dark Souls.",
   "created_at": "2026-06-12T15:43:03.504Z",
   "last_verified_at": "2026-06-12T15:43:02.539Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -19,7 +19,7 @@
       ],
       "answer": "Draenor",
       "explanation_correct": "Draenor to ojczysty świat orków, który uległ zniszczeniu i stał się znany jako Rubież (Outland).",
-      "explanation_incorrect": "Azeroth to główny świat gry, Argus to planeta Eredarów (płonącego legionu), a Kesh nie występuje w Warcraft.",
+      "explanation_incorrect": "Azeroth to główny świat serii, a Argus to ojczysty świat eredarów. Kesh nie jest ojczyzną orków.",
       "last_verified_at": "2026-06-12T15:42:22.288Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -49,7 +49,7 @@
       ],
       "answer": "Emhyr var Emreis",
       "explanation_correct": "Cesarz Nilfgaardu Emhyr var Emreis to biologiczny ojciec Ciri, znany wcześniej pod klątwą jako Jeż z Erlenwaldu (Duny).",
-      "explanation_incorrect": "Geralt jest jej ojcem adopcyjnym na mocy Prawa Niespodzianki, Foltest był królem Temerii, a Radowid królem Redanii.",
+      "explanation_incorrect": "Geralt jest dla Ciri postacią ojcowską; Foltest był królem Temerii, a Radowid V królem Redanii.",
       "last_verified_at": "2026-06-12T15:42:22.288Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -93,7 +93,7 @@
         "Fuzja Kordycepsa"
       ],
       "answer": "Genofagium (Genophage)",
-      "explanation_correct": "Genofagium drastycznie ograniczyło płodność Krogan, powodując wymieranie ich rasy, dopóki Mordin Solus nie próbował go wyleczyć.",
+      "explanation_correct": "Genofagium zmniejsza odsetek zdolnych do przeżycia narodzin u krogan. Próbę jego wyleczenia przedstawiono w Mass Effect 3, a jej wynik zależy od wyborów gracza.",
       "explanation_incorrect": "Wirus T pochodzi z Resident Evil, Plaga Lewiatana nie istnieje w tej formie, a Kordyceps pochodzi z The Last of Us.",
       "last_verified_at": "2026-06-12T15:42:22.289Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -153,14 +153,14 @@
         "Majora's Mask"
       ],
       "answer": "Triforce",
-      "explanation_correct": "Triforce został stworzony przez trzy boginie i spełnia życzenia każdego, kto dotknie go posiadając zrównoważone cechy.",
+      "explanation_correct": "Triforce składa się z trzech części związanych z Mocą, Mądrością i Odwagą; w opowieściach serii jest relikwią spełniającą życzenia.",
       "explanation_incorrect": "Master Sword to legendarny miecz pogromcy zła, Okaryna pozwala kontrolować czas, a Maska Majory to przeklęty artefakt.",
       "last_verified_at": "2026-06-12T15:42:22.290Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fikcyjna geografia",
-      "question": "Jak nazywa się najwyższa góra w Skyrim, na której szczycie rezydują Siwobrodzi (Greybeards)?",
+      "question": "Jak nazywa się najwyższa góra Skyrim, na której zboczach znajduje się siedziba Siwobrodych (Greybeards)?",
       "options": [
         "Gardło Świata (Throat of the World)",
         "Czerwona Góra (Red Mountain)",
@@ -168,8 +168,8 @@
         "Szczyt Solstheim"
       ],
       "answer": "Gardło Świata (Throat of the World)",
-      "explanation_correct": "Gardło Świata wznosi się na wysokość 7000 stopni, które gracz musi pokonać, by dotrzeć do klasztoru Wysoki Hrothgar.",
-      "explanation_incorrect": "Czerwona Góra leży w prowincji Morrowind, Solstheim to wyspa na północ od niej, a Góra Karb nie istnieje w Elder Scrolls.",
+      "explanation_correct": "Na zboczu Gardła Świata stoi klasztor Wysoki Hrothgar; według tradycji prowadzi do niego siedem tysięcy stopni.",
+      "explanation_incorrect": "Czerwona Góra leży w Morrowind, Solstheim to wyspa, a pozostała nazwa nie oznacza siedziby Siwobrodych.",
       "last_verified_at": "2026-06-12T15:42:22.290Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -184,7 +184,7 @@
       ],
       "answer": "Pip-Boy",
       "explanation_correct": "Pip-Boy (np. model 3000) służy do zarządzania ekwipunkiem, statystykami postaci, mapą oraz radiem.",
-      "explanation_incorrect": "G.E.C.K. to urządzenie do rekultywacji terenu, Stealth Boy daje niewidzialność, a Stalker Pad pochodzi z gry S.T.A.L.K.E.R.",
+      "explanation_incorrect": "G.E.C.K. służy do tworzenia osad na pustkowiach, a Stealth Boy zapewnia czasową niewidzialność; pozostała nazwa nie oznacza Pip-Boya.",
       "last_verified_at": "2026-06-12T15:42:22.290Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -198,8 +198,8 @@
         "Soma"
       ],
       "answer": "Rapture",
-      "explanation_correct": "Rapture powstało pod Atlantykiem jako azyl dla artystów i naukowców wolny od kontroli rządowej, który popadł w ruinę z powodu substancji ADAM.",
-      "explanation_incorrect": "Columbia to latające miasto z BioShock Infinite, Dunwall to miasto z Dishonored, a Soma to stacja podwodna z gry SOMA.",
+      "explanation_correct": "Rapture założył pod Atlantykiem Andrew Ryan jako miasto wolne od kontroli rządowej. Jego upadek wiąże się m.in. z konfliktami społecznymi i nadużywaniem ADAM.",
+      "explanation_incorrect": "Columbia to latające miasto z BioShock Infinite, Dunwall występuje w Dishonored, a SOMA to tytuł osobnej gry.",
       "last_verified_at": "2026-06-12T15:42:22.290Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -214,7 +214,7 @@
       ],
       "answer": "Lilith",
       "explanation_correct": "Lilith, córka Mefista, stworzyła Sanktuarium wraz z aniołem Inariusem jako schronienie przed Wiecznym Konfliktem.",
-      "explanation_incorrect": "Andariel to Pani Umarłych z aktu I Diablo II, Cydaea to kochanica Grzechu z Diablo III, a Auriel to anielica nadziei.",
+      "explanation_incorrect": "Andariel to demonica Anguish z Diablo II, Cydaea pojawia się w Diablo III, a Auriel jest archanielicą Nadziei.",
       "last_verified_at": "2026-06-12T15:42:22.291Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -273,7 +273,7 @@
         "Locust"
       ],
       "answer": "Przymierze (Covenant)",
-      "explanation_correct": "Przymierze czci starożytną rasę Prekursorów (Forerunners) i dąży do aktywacji instalacji pierścieniowych Halo.",
+      "explanation_correct": "Przymierze czci dawną rasę Forerunners, budowniczych instalacji Halo, i dąży do aktywacji pierścieni.",
       "explanation_incorrect": "Kombinat pochodzi z Half-Life, Borg ze Star Treka, a Locust z Gears of War.",
       "last_verified_at": "2026-06-12T15:42:22.292Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -304,7 +304,7 @@
       ],
       "answer": "Pustka (The Fade)",
       "explanation_correct": "Pustka to świat snów i duchów, z którego magowie czerpią manę i w którym rezydują demony.",
-      "explanation_incorrect": "Otchłań to ogólne pojęcie w grach fantasy, Rubież pochodzi z Warcrafta, a Kraina Cieni z WoW lub innych uniwersów.",
+      "explanation_incorrect": "Rubież jest nazwą lokacji w Warcraft; pozostałe nazwy nie oznaczają wymiaru duchów z pytania.",
       "last_verified_at": "2026-06-12T15:42:22.292Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -327,12 +327,12 @@
       "subcategory": "Postacie i protagoniści",
       "question": "Jak nazywa się elfia łowczyni, która stała się Królową Banshee, a później Wodzem Hordy w uniwersum Warcraft?",
       "options": [
-        "Sylvanas Windrunner (Bieży wiatr)",
+        "Sylvanas Windrunner",
         "Jaina Proudmoore",
         "Tyrande Whisperwind",
         "Alleria Windrunner"
       ],
-      "answer": "Sylvanas Windrunner (Bieży wiatr)",
+      "answer": "Sylvanas Windrunner",
       "explanation_correct": "Sylvanas została zabita i wskrzeszona przez Arthasa jako banshee, stając się przywódczynią Porzuconych (Forsaken).",
       "explanation_incorrect": "Jaina to ludzka czarodziejka z Kul Tiras, Tyrande to kapłanka nocnych elfów, a Alleria to starsza siostra Sylvanas.",
       "last_verified_at": "2026-06-12T15:42:22.292Z",
@@ -364,7 +364,7 @@
       ],
       "answer": "Turianie (Turians)",
       "explanation_correct": "Garrus to były oficer SOC (C-Sec) należący do militarnej rasy Turian.",
-      "explanation_incorrect": "Asari to niebieskoskóre biotyczki (np. Liara), Salarianie to płazy o szybkim metabolizmie (np. Mordin), a Kroganie to potężni gadzi wojownicy (np. Wrex).",
+      "explanation_incorrect": "Liara jest asari, Mordin salarianinem, a Wrex kroganinem; Garrus należy do turian.",
       "last_verified_at": "2026-06-12T15:42:22.293Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -378,14 +378,14 @@
         "Mirmulnir"
       ],
       "answer": "Alduin",
-      "explanation_correct": "Alduin to pierworodny Akatosha, który powraca do Skyrim, aby pożreć dusze zmarłych w Sovngardzie i zniszczyć świat.",
-      "explanation_incorrect": "Paarthurnax to przyjazny smok pomagający graczowi, Odahviing zostaje oswojony przez Dovahkiina, a Mirmulnir to pierwszy smok zabity w grze.",
+      "explanation_correct": "Alduin, nazywany Pożeraczem Światów, powraca do Skyrim i jest głównym przeciwnikiem wątku smoczego.",
+      "explanation_incorrect": "Paarthurnax pomaga graczowi, Odahviing jest innym smokiem, a Mirmulnir pojawia się w początkowej części gry.",
       "last_verified_at": "2026-06-12T15:42:22.293Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fikcyjna geografia",
-      "question": "Jak nazywa się wyspa na której toczy się akcja gry Gothic II, stanowiąca królestwo handlowe i strategiczny punkt wydobycia rudy?",
+      "question": "Jak nazywa się wyspa, na której rozgrywa się większa część Gothic II, znana z portu oraz Górniczej Doliny?",
       "options": [
         "Khorinis",
         "Myrtana",
@@ -394,7 +394,7 @@
       ],
       "answer": "Khorinis",
       "explanation_correct": "Khorinis to wyspa u wybrzeży kontynentu Myrtana, znana z portu o tej samej nazwie oraz Górniczej Doliny.",
-      "explanation_incorrect": "Myrtana to kontynent (królestwo Rhobara), Irdorath to wyspa-dwór zła, a Jharkendar to zapomniana dolina piratów i budowniczych.",
+      "explanation_incorrect": "Myrtana jest królestwem na kontynencie, Irdorath to osobna wyspa, a Jharkendar to ukryty region na Khorinis.",
       "last_verified_at": "2026-06-12T15:42:22.293Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -475,7 +475,7 @@
     },
     {
       "subcategory": "Frakcje i organizacje",
-      "question": "Jak nazywa się megakorporacja lotniczo-kosmiczna, która w grach z serii Doom prowadzi badania naukowe na Marsie i nieumyślnie otwiera portal do Piekła?",
+      "question": "Jak nazywa się korporacja prowadząca badania związane z portalami do Piekła w grach z serii Doom?",
       "options": [
         "UAC (Union Aerospace Corporation)",
         "Aperture Science",
@@ -483,7 +483,7 @@
         "Vault-Tec"
       ],
       "answer": "UAC (Union Aerospace Corporation)",
-      "explanation_correct": "UAC eksploatuje surowce Marsa i energię Argentu z Piekła, co prowadzi do demonicznej inwazji, którą musi powstrzymać Doom Slayer.",
+      "explanation_correct": "Union Aerospace Corporation, czyli UAC, prowadzi eksperymenty związane z Piekłem; ich okoliczności różnią się między częściami serii.",
       "explanation_incorrect": "Aperture to Portal, Weyland-Yutani pochodzi z filmowego Obcego, a Vault-Tec z Fallouta.",
       "last_verified_at": "2026-06-12T15:42:22.295Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -499,7 +499,7 @@
       ],
       "answer": "Trevor Philips",
       "explanation_correct": "Trevor mieszka na pustyni w Sandy Shores, prowadzi firmę 'Trevor Philips Enterprises' i jest byłym wspólnikiem Michaela.",
-      "explanation_incorrect": "Michael to bogaty gangster objęty ochroną świadków, Franklin to młody złodziej samochodów, a Lamar to przyjaciel Franklina.",
+      "explanation_incorrect": "Michael jest byłym wspólnikiem Trevora, Franklin zajmuje się przestępczością w Los Santos, a Lamar jest przyjacielem Franklina.",
       "last_verified_at": "2026-06-12T15:42:22.295Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -588,7 +588,7 @@
         "Głębia (The Deep)"
       ],
       "answer": "Nether",
-      "explanation_correct": "Nether to podziemny świat bogaty w surowce takie jak kwarc czy netherite, zamieszkany przez Pigliny i Ghasty.",
+      "explanation_correct": "Nether to osobny wymiar z lawą i surowcami, w którym można spotkać m.in. pigliny i ghasty.",
       "explanation_incorrect": "Kres (The End) to dom Smoka Kresu, Aether to popularny mod dodający podniebny wymiar, a Głębia (Deep Dark) to biom jaskiń ze strażnikiem Wardenem.",
       "last_verified_at": "2026-06-12T15:42:22.296Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -604,7 +604,7 @@
       ],
       "answer": "Master Chief (John-117)",
       "explanation_correct": "Master Chief Petty Officer John-117 to ikona serii, ratująca galaktykę u boku sztucznej inteligencji o imieniu Cortana.",
-      "explanation_incorrect": "Sierżant Johnson to popularny dowódca piechoty piechoty morskiej, Noble Six to protagonista Halo: Reach, a Carter to dowódca drużyny Noble.",
+      "explanation_incorrect": "Johnson to żołnierz piechoty morskiej, Noble Six jest bohaterem Halo: Reach, a Carter dowodzi drużyną Noble.",
       "last_verified_at": "2026-06-12T15:42:22.296Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -633,7 +633,7 @@
         "Lux"
       ],
       "answer": "Jinx (Powder)",
-      "explanation_correct": "Jinx (Powder) to niestabilna emocjonalnie siostra Vi, która popada w szaleństwo w wyniku zażycia substancji Shimmer.",
+      "explanation_correct": "Jinx, wcześniej znana jako Powder, jest siostrą Vi i pochodzi z Zaun. Jej historia obejmuje traumatyczne wydarzenia z dzieciństwa i skomplikowane relacje z bliskimi.",
       "explanation_incorrect": "Vi to jej starsza siostra walcząca rękawicami hextech, Caitlyn to szeryf Piltover, a Lux to czarodziejka z Demacii.",
       "last_verified_at": "2026-06-12T15:42:22.297Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -648,14 +648,14 @@
         "Philippa Eilhart"
       ],
       "answer": "Yennefer",
-      "explanation_correct": "Yennefer z Vengerbergu słynie z zapachu bzu i agrestu oraz noszenia wyłącznie czarno-białych strojów.",
+      "explanation_correct": "Yennefer z Vengerbergu kojarzona jest z zapachem bzu i agrestu oraz strojami w czerni i bieli.",
       "explanation_incorrect": "Triss to rudowłosa czarodziejka z Mariboru, Keira to czarodziejka z Temerii, a Philippa to przywódczyni Loży Czarodziejek.",
       "last_verified_at": "2026-06-12T15:42:22.297Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Frakcje i organizacje",
-      "question": "Jak nazywa się starożytna instalacja megastrukturalna Protean, która po dołączeniu do Cytadeli staje się kluczem do pokonania Żniwiarzy?",
+      "question": "Jak nazywa się urządzenie budowane w Mass Effect 3 według przekazywanych przez poprzednie cykle planów, aby przeciwstawić się Żniwiarzom?",
       "options": [
         "Tygiel (The Crucible)",
         "Przekaźnik Masy (Mass Relay)",
@@ -663,7 +663,7 @@
         "Kanał (Conduit)"
       ],
       "answer": "Tygiel (The Crucible)",
-      "explanation_correct": "Tygiel to potężna konstrukcja zasilana energią ciemnej materii, której plany były przekazywane przez wymierające cykle galaktyczne.",
+      "explanation_correct": "Tygiel powstaje na podstawie planów udoskonalanych przez kolejne cykle cywilizacji; Cytadela pełni w projekcie ważną rolę.",
       "explanation_incorrect": "Przekaźniki Masy umożliwiają natychmiastowe podróże międzygwiezdne, Ilos to planeta z archiwum Protean, a Kanał to prototyp przekaźnika z ME1.",
       "last_verified_at": "2026-06-12T15:42:22.297Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -694,7 +694,7 @@
       ],
       "answer": "Kostka Obciążeniowa Towarzysza (Weighted Companion Cube)",
       "explanation_correct": "Kostka Towarzysza posiada namalowane serduszka i pomaga graczowi rozwiązywać zagadki, stając się symbolem gry.",
-      "explanation_incorrect": "Wieżyczki strzelają do gracza, ciasto okazuje się kłamstwem ('the cake is a lie'), a rdzenie występują na końcu gry.",
+      "explanation_incorrect": "Wieżyczki strzelają do gracza, ciasto jest obiecywaną nagrodą, a rdzenie osobowości pojawiają się w finale.",
       "last_verified_at": "2026-06-12T15:42:22.298Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -709,7 +709,7 @@
       ],
       "answer": "Pandora",
       "explanation_correct": "Pandora to niebezpieczna planeta opanowana przez bandytów i faunę (np. skagi), na którą przybywają Łowcy Krypt.",
-      "explanation_incorrect": "Elpis to księżyc Pandory (Pre-Sequel), Promethea to futurystyczna metropolia Atlasu, a Athenas to klasztorna planeta z Borderlands 3.",
+      "explanation_incorrect": "Elpis to księżyc Pandory, Promethea jest inną planetą, a Athenas to planeta z Borderlands 3.",
       "last_verified_at": "2026-06-12T15:42:22.298Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -745,7 +745,7 @@
     },
     {
       "subcategory": "Zwroty akcji i fabuła",
-      "question": "Jak nazywa się incydent badawczy w kompleksie Black Mesa w 1998 roku, który wywołał rezonans kaskadowy i otworzył portale dla obcych z wymiaru Xen?",
+      "question": "Jak nazywa się katastrofa badawcza w kompleksie Black Mesa, podczas której rezonans kaskadowy otworzył przejścia dla istot z Xen?",
       "options": [
         "Incydent w Black Mesa (Black Mesa Incident)",
         "Katastrofa w Aperture",
@@ -753,7 +753,7 @@
         "Dzień Przebudzenia"
       ],
       "answer": "Incydent w Black Mesa (Black Mesa Incident)",
-      "explanation_correct": "Incydent w Black Mesa rozpoczął się od testu kryształu GG-3883 w komorze testowej C33, co doprowadziło do inwazji obcych i interwencji wojska.",
+      "explanation_correct": "Podczas eksperymentu na próbce z Xen dochodzi do rezonansu kaskadowego, po którym w Black Mesa pojawiają się obce istoty.",
       "explanation_incorrect": "Aperture nie ucierpiało w tym incydencie, projekt Lazarus ożywił Sheparda, a Dzień Przebudzenia to termin nieoficjalny.",
       "last_verified_at": "2026-06-12T15:42:22.298Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -798,14 +798,14 @@
         "Cefeusz"
       ],
       "answer": "Wędrowiec (The Traveler)",
-      "explanation_correct": "Wędrowiec to starożytne bóstwo światła, które stworzyło Duchy (Ghosts) potrafiące wskrzeszać poległych Strażników (Guardians).",
-      "explanation_incorrect": "Ciemność to kosmiczny wróg Światła, Świadek to główny antagonista sterujący Flotą Piramid, a Cefeusz to gwiazdozbiór.",
+      "explanation_correct": "Wędrowiec to tajemnicza istota związana ze Światłem, która stworzyła Duchy zdolne wskrzeszać Strażników.",
+      "explanation_incorrect": "Ciemność to kosmiczna siła, Świadek jest istotnym antagonistą, a Cefeusz jest nazwą gwiazdozbioru.",
       "last_verified_at": "2026-06-12T15:42:22.299Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Fikcyjna geografia",
-      "question": "Jak nazywa się bogata, bajkowa i wolna od wojen prowincja Nilfgaardu, słynąca z wina i błędnych rycerzy, będąca miejscem akcji dodatku Krew i Wino?",
+      "question": "Jak nazywa się słynące z wina i rycerskich tradycji księstwo związane z Nilfgaardem, w którym toczy się akcja dodatku Krew i Wino?",
       "options": [
         "Toussaint",
         "Cintra",
@@ -858,7 +858,7 @@
         "Blade'owie (Blades)"
       ],
       "answer": "Thalmor",
-      "explanation_correct": "Thalmor to rządzący organ Dominium, kontrolujący Skyrim na mocy Białego Złota (White-Gold Concordat) i ścigający czcicieli boga Talosa.",
+      "explanation_correct": "Thalmor jest rządzącą siłą Dominium Aldmerskiego. Konkordat Białego Złota narzucił cesarstwu m.in. zakaz kultu Talosa.",
       "explanation_incorrect": "Gwardia to żołnierze cesarstwa, Gromowładni to rebelianci Ulfrica czczący Talosa, a Blade'owie to dawna straż cesarza polująca na smoki.",
       "last_verified_at": "2026-06-12T15:42:22.300Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -868,13 +868,13 @@
       "question": "Jak nazywa się potężny Żniwiarz, który w pierwszej części Mass Effect podawał się za flagowy okręt Widma Sarena?",
       "options": [
         "Suweren",
-        "Zwiastun",
+        "Zwiastun (Harbinger)",
         "Widmo",
-        " Harbinger"
+        "Normandia"
       ],
       "answer": "Suweren",
       "explanation_correct": "Suweren (Sovereign) był strażnikiem pozostawionym w galaktyce, aby nadzorować postępy cywilizacji i aktywować Cytadelę.",
-      "explanation_incorrect": "Zwiastun (Harbinger) to główny antagonista w Mass Effect 2, a 'Widmo' to ranga agentów Rady Cytadeli.",
+      "explanation_incorrect": "Zwiastun to inny Żniwiarz, Widmo jest rangą agenta Rady, a Normandia jest statkiem Sheparda.",
       "last_verified_at": "2026-06-12T15:43:02.539Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -895,7 +895,7 @@
     },
     {
       "subcategory": "Postacie i protagoniści",
-      "question": "Jak nazywa się orczy szaman, uczeń Ner'zhula i założyciel klanu Cienia (Shadow Council), odpowiedzialny za namówienie orków do wypicia krwi demonicznego władcy Mannorotha?",
+      "question": "Jak nazywa się orczy czarnoksiężnik, uczeń Ner'zhula i założyciel Rady Cienia, który zachęcał orków do wypicia krwi Mannorotha?",
       "options": [
         "Gul'dan",
         "Thrall",
@@ -903,7 +903,7 @@
         "Kil'jaeden"
       ],
       "answer": "Gul'dan",
-      "explanation_correct": "Gul'dan był pierwszym czarnoksiężnikiem orków, sługą Płonącego Legionu, który zdradził swoją rasę dla obietnic potęgi i grobowca Sargerasa.",
+      "explanation_correct": "Gul'dan przewodził Radzie Cienia i służył Płonącemu Legionowi, dążąc do zdobycia potęgi.",
       "explanation_incorrect": "Thrall to zbawca orków i syn Durotana, Durotan to wódz klanu Mroźnego Wilka który odmówił wypicia krwi, a Kil'jaeden to demoniczny władca legionu.",
       "last_verified_at": "2026-06-12T15:42:22.300Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -918,7 +918,7 @@
         "Motorized Patriot"
       ],
       "answer": "Songbird",
-      "explanation_correct": "Songbird został stworzony przez korporację Finka i jest związany z Elizabeth więzią psychiczną, ścigając ją po ucieczce z Bookerem.",
+      "explanation_correct": "Songbird pilnuje Elizabeth w Columbii i ściga ją po ucieczce z wieży wraz z Bookerem.",
       "explanation_incorrect": "Big Daddy to strażnik z podwodnego Rapture, Handyman to pół-człowiek pół-maszyna z Columbii, a Patriot to mechaniczny przeciwnik z bronią maszynową.",
       "last_verified_at": "2026-06-12T15:42:22.301Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -963,7 +963,7 @@
         "Wallace Breen"
       ],
       "answer": "Cave Johnson",
-      "explanation_correct": "Cave Johnson kierował Aperture, dopóki nie zatruł się pyłem z kamieni księżycowych. Jego asystentka Caroline została później przekształcona w osobowość GLaDOS.",
+      "explanation_correct": "Cave Johnson kierował Aperture Science; jego nagrania oprowadzają gracza po dawnych ośrodkach badawczych, a z historią GLaDOS związana jest jego asystentka Caroline.",
       "explanation_incorrect": "Caroline to jego asystentka, Rattmann (Ratman) to schizofreniczny naukowiec piszący po ścianach, a Breen to administrator Black Mesa i kolaborant Kombinatu.",
       "last_verified_at": "2026-06-12T15:42:22.301Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1008,7 +1008,7 @@
         "Cortana"
       ],
       "answer": "EDI (System EDI)",
-      "explanation_correct": "EDI (Enhanced Defense Intelligence) została stworzona przez Cerberusa, a w ME3 przejmuje kontrolę nad cieleśnie zniszczonym robotem infiltracyjnym doktora Eva Core.",
+      "explanation_correct": "EDI jest sztuczną inteligencją Normandii SR-2. W trzeciej części przejmuje ciało syntetycznej jednostki infiltracyjnej związanej z Cerberusem.",
       "explanation_incorrect": "SAM to sztuczna inteligencja z Mass Effect: Andromeda, Geth Prime to jednostka gethów, a Cortana pochodzi z serii Halo.",
       "last_verified_at": "2026-06-12T15:42:22.302Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1045,7 +1045,7 @@
     },
     {
       "subcategory": "Postacie i protagoniści",
-      "question": "Jak nazywa się tajemnicza jednooka dziewczyna, która w Elden Ring oferuje graczowi układ, stając się jego 'Palcową Pielęgniarką' i dając mu wierzchowca Strugę (Torrent)?",
+      "question": "Jak nazywa się tajemnicza dziewczyna, która w Elden Ring proponuje Zmatowieńcowi układ i przekazuje mu możliwość przywołania wierzchowca Torrent?",
       "options": [
         "Melina",
         "Ranni",
@@ -1053,14 +1053,14 @@
         "Marika"
       ],
       "answer": "Melina",
-      "explanation_correct": "Melina pomaga Zmatowieńcowi (Tarnished) w podróży do Złotego Drzewa (Erdtree), oferując zamianę runów na siłę, a ostatecznie poświęca się w Kuźni Olbrzymów.",
-      "explanation_incorrect": "Ranni to wiedźma-półbóg spiskująca przeciw Złotemu Porządkowi, Malenia to najtrudniejszy boss gry (Ostrze Miquelli), a Marika to królowa-bóstwo.",
+      "explanation_correct": "Melina proponuje pomoc w zamianie run na siłę i towarzyszy graczowi w drodze do Złotego Drzewa. Dalszy przebieg jej historii zależy od wyborów gracza.",
+      "explanation_incorrect": "Ranni jest wiedźmą, Malenia nosi tytuł Ostrza Miquelli, a Marika jest królową.",
       "last_verified_at": "2026-06-12T15:42:22.303Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zwroty akcji i fabuła",
-      "question": "Który elficki wiedzący (Aen Saevherne) jest mentorem Ciri w książkach i grach, potrafiący podróżować między wymiarami bez pomocy Starszej Krwi?",
+      "question": "Jak nazywa się elficki mędrzec Aen Saevherne, który pomaga Ciri w grze Wiedźmin 3: Dziki Gon?",
       "options": [
         "Avallac'h (Crevan Espane aep Caomhan)",
         "Ge'els",
@@ -1090,7 +1090,7 @@
     },
     {
       "subcategory": "Postacie i protagoniści",
-      "question": "Jak nazywa się ostatni żyjący krasnolud (Dwemer) w uniwersum Elder Scrolls, zmagający się z chorobą wypaczenia, którego gracz spotyka w prowincji Morrowind?",
+      "question": "Jak nazywa się żyjący Dwemer, którego gracz może spotkać w Corprusarium w grze The Elder Scrolls III: Morrowind?",
       "options": [
         "Yagrum Bagarn",
         "Dumac",
@@ -1098,7 +1098,7 @@
         "Vivec"
       ],
       "answer": "Yagrum Bagarn",
-      "explanation_correct": "Yagrum Bagarn przetrwał nagłe zniknięcie całej swojej rasy, ponieważ w tym momencie przebywał w innym wymiarze. Mieszka w klinice dla chorych na Boską Chorobę (Corprusarium) u Divaytha Fyra.",
+      "explanation_correct": "Yagrum Bagarn przetrwał zniknięcie Dwemerów i przebywa w Corprusarium Divaytha Fyra.",
       "explanation_incorrect": "Dumac to dawny król dwemerów sprzymierzony z Nerevarem, Kagrenac to arcykapłan który stworzył Narzędzia Kagrenaca, a Vivec to bóg-półbóg Trójcy.",
       "last_verified_at": "2026-06-12T15:42:22.303Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1120,7 +1120,7 @@
     },
     {
       "subcategory": "Zwroty akcji i fabuła",
-      "question": "Jak nazywa się planeta-forteca Krogan, z której pochodzi klan Urdnot, zniszczona przez bombardowania orbitalne, będąca symbolem upadku tej rasy?",
+      "question": "Jak nazywa się spustoszony wojnami ojczysty świat krogan z serii Mass Effect, z którego pochodzi klan Urdnot?",
       "options": [
         "Tuchanka",
         "Thessia",
@@ -1189,7 +1189,7 @@
       ],
       "answer": "Unitologia (Unitology)",
       "explanation_correct": "Unitologia wierzy, że Obeliski reprezentują boski plan zjednoczenia ludzkich umysłów i ciał, co w rzeczywistości oznacza przeobrażenie ich w Nekromorfy i narodziny Księżyca.",
-      "explanation_incorrect": "Pozostałe opcje to fikcyjne sekty niezwiązane z uniwersum Dead Space.",
+      "explanation_incorrect": "Pozostałe nazwy nie są nazwą kultu czczącego Markery w Dead Space.",
       "last_verified_at": "2026-06-12T15:42:33.977Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1270,7 +1270,7 @@
     },
     {
       "subcategory": "Kluczowe artefakty",
-      "question": "Który fragment Pierścienia Eldena, reprezentujący naturalny cykl życia i śmierci, został skradziony przez Ranni podczas Nocy Czarnych Noży?",
+      "question": "Jak nazywa się run, którego fragment Ranni wykradła przed Nocą Czarnych Noży w Elden Ring?",
       "options": [
         "Run Śmierci (Rune of Death)",
         "Run Płomienia",
@@ -1315,7 +1315,7 @@
     },
     {
       "subcategory": "Zwroty akcji i fabuła",
-      "question": "Jak nazywa się przedwojenne przedsiębiorstwo rządowe, które wybudowało sieć schronów podziemnych i potajemnie wykorzystywało je do eksperymentów społecznych na ludziach?",
+      "question": "Jak nazywa się przedwojenna korporacja, która budowała schrony i potajemnie prowadziła w wielu z nich eksperymenty społeczne?",
       "options": [
         "Vault-Tec",
         "RobCo Industries",
@@ -1339,7 +1339,7 @@
       ],
       "answer": "ADAM",
       "explanation_correct": "ADAM modyfikuje ludzki genom i pozwala na stosowanie Plazmidów, jednak uzależnia i wywołuje mutacje fizyczne u mieszkańców (splicerów).",
-      "explanation_incorrect": "EVE (Ewa) to substancja zasilająca plazmidy (mana), Plazmid to modyfikator zachowania, a Soma to fikcyjny narkotyk lub stacja z gry SOMA.",
+      "explanation_incorrect": "EVE zasila korzystanie z plazmidów, plazmidy zapewniają zdolności, a SOMA to tytuł osobnej gry.",
       "last_verified_at": "2026-06-12T15:42:33.980Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1368,7 +1368,7 @@
         "Zwoje Magnusa"
       ],
       "answer": "Starsze Zwoje (Elder Scrolls)",
-      "explanation_correct": "Starsze Zwoje (Aeneid) to potężne artefakty stojące poza czasem, studiowane przez Mnichów Ćmy (Moth Priests) w celu odczytania proroctw.",
+      "explanation_correct": "Starsze Zwoje są tajemniczymi artefaktami związanymi z czasem i przepowiedniami; ich odczytywaniem zajmują się m.in. Mnisi Ćmy.",
       "explanation_incorrect": "Oghma Infinium to księga daedrycznego księcia Hermaeusa Mory, Czarne Księgi również należą do niego, a Zwoje Magnusa nie istnieją w tej formie.",
       "last_verified_at": "2026-06-12T15:42:33.981Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1414,13 +1414,13 @@
       ],
       "answer": "Jest jej klonem (Clone)",
       "explanation_correct": "Aloy została sklonowana przez system GAIA w kołysce ELEUTHIA-9, aby jej kod genetyczny pozwolił na ponowne uruchomienie systemu terraformacji i powstrzymanie HADESa.",
-      "explanation_incorrect": "Aloy nie narodziła się z ciąży i nie jest córką ani prawnuczką Sobeck, dzieli z nią jednak 100% materiału genetycznego.",
+      "explanation_incorrect": "Aloy jest genetycznym klonem Elisabeth Sobeck; pozostałe odpowiedzi nie opisują tej relacji.",
       "last_verified_at": "2026-06-12T15:42:33.981Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Postacie i protagoniści",
-      "question": "Jak brzmi prawdziwe imię elfa Solasa, kompana Inkwizytora, który okazuje się być starożytnym bogiem buntu, znanym jako Straszny Wilk?",
+      "question": "Pod jakim mianem Strasznego Wilka znany jest Solas z serii Dragon Age?",
       "options": [
         "Fen'Harel",
         "Mythal",
@@ -1459,7 +1459,7 @@
       ],
       "answer": "Hallownest",
       "explanation_correct": "Hallownest zostało założone przez Bladego Króla (Pale King) i upadło z powodu zarazy wywołanej przez bóstwo światła, Radiance.",
-      "explanation_incorrect": "Dirtmouth to mała osada na powierzchni nad ruinami, Pharloom to królestwo z nadchodzącej gry Silksong, a Deepnest to niebezpieczny pajęczy biom wewnątrz Hallownest.",
+      "explanation_incorrect": "Dirtmouth to osada nad ruinami, Pharloom jest królestwem z Hollow Knight: Silksong, a Deepnest jest częścią Hallownest.",
       "last_verified_at": "2026-06-12T15:42:33.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
