@@ -251,6 +251,8 @@ Przegląd częściowy `wielkie_budowle_i_inynieria_pl`: sprawdzono 67 rekordów 
 
 Częściowo przejrzano zmiany w paczkach `trylogia_wadcy_piercieni_pl` i `wynalazki_codziennoci_pl`; szczegóły i ograniczenia opisują [raport Tolkiena](audits/2026-11-09-trylogia-wladcy-pierscieni-czesciowy.md) oraz [raport wynalazków](audits/2026-11-09-wynalazki-codziennosci-czesciowy.md).
 
+Uzupełniono pełny odczyt paczek `trylogia_wadcy_piercieni_pl`, `wielkie_budowle_i_inynieria_pl` i `wynalazki_codziennoci_pl` oraz przejrzano `video_game_history_en`, `virtual_reality_biology_en` i `vocaloids_virtual_idols_en`. Szczegóły i wybrane źródła znajdują się w raportach wskazanych w mapie pokrycia.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

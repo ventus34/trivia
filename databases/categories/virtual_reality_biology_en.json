@@ -2,7 +2,7 @@
   "id": "virtual_reality_biology_en",
   "name": "Virtual Reality & Biology",
   "language": "en",
-  "description": "Questions covering: Neural Interfaces, Biotechnology, Sensory Science, Haptics...",
+  "description": "Explore how virtual environments connect with neuroscience, human perception, rehabilitation, molecular visualization and biological research.",
   "created_at": "2026-06-12T16:42:50.812Z",
   "last_verified_at": "2026-06-12T16:39:22.985Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -19,13 +19,13 @@
       ],
       "answer": "EEG electrode",
       "explanation_correct": "EEG electrodes measure the electrical activity of the brain from the surface of the scalp.",
-      "explanation_incorrect": "MRI, PET, and CT are medical imaging technologies and are not types of direct interface sensors for wave measurement.",
+      "explanation_incorrect": "MRI and PET are imaging modalities; CT uses X-rays and does not measure scalp electrical activity.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Biotechnology",
-      "question": "In digital data storage research using virtual molecular modeling, what is the fundamental component used to encode information?",
+      "question": "In DNA data storage research, what encodes digital information in a DNA molecule?",
       "options": [
         "Nucleotide sequence",
         "Amino acid chain",
@@ -33,8 +33,8 @@
         "Cellular membrane"
       ],
       "answer": "Nucleotide sequence",
-      "explanation_correct": "A nucleotide sequence represents the digital code analogous to binary format within DNA storage.",
-      "explanation_incorrect": "Amino acids, ribosomes, and membranes are biological structures not used as the primary coding unit for information storage.",
+      "explanation_correct": "Digital information can be encoded in the order of the four nucleotide bases in DNA.",
+      "explanation_incorrect": "Amino acid sequences encode proteins; ribosomes and membranes are not the DNA sequence used in this storage approach.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -49,7 +49,7 @@
       ],
       "answer": "Vestibular system",
       "explanation_correct": "The vestibular system, located in the inner ear, detects head movement and orientation to maintain balance.",
-      "explanation_incorrect": "The other listed systems regulate breath, limb position, or hormones, which are not the primary controllers of equilibrium.",
+      "explanation_incorrect": "Balance also relies on visual and proprioceptive cues. Respiratory and endocrine systems do not directly detect head motion.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -64,7 +64,7 @@
       ],
       "answer": "Pacinian corpuscles",
       "explanation_correct": "Pacinian corpuscles are specialized receptors sensitive to rapid vibrations and deep pressure.",
-      "explanation_incorrect": "The other nerve endings are sensitive to touch, light pressure, or skin stretch, but not high-frequency vibration.",
+      "explanation_incorrect": "Meissner, Merkel and Ruffini afferents have different response properties; Pacinian afferents are particularly sensitive to high-frequency vibration.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -79,13 +79,13 @@
       ],
       "answer": "Sensory conflict",
       "explanation_correct": "Sensory conflict occurs when the inputs from the visual and vestibular systems strongly disagree.",
-      "explanation_incorrect": "The other options refer to mental or biological strains that are secondary to the primary sensory cause.",
+      "explanation_incorrect": "Other factors can affect symptoms; sensory conflict is a prominent proposed explanation rather than a proven sole cause.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Eye Tracking",
-      "question": "What is the term for the rapid, involuntary, and jerky movements that the eyes make when shifting focus between different points in a visual display?",
+      "question": "What are the rapid eye movements that shift gaze between points in a visual display?",
       "options": [
         "Saccades",
         "Nystagmus",
@@ -94,13 +94,13 @@
       ],
       "answer": "Saccades",
       "explanation_correct": "Saccades are the quick, simultaneous jumps of the eyes during visual exploration.",
-      "explanation_incorrect": "Nystagmus is an pathological condition, fixations occur when the eye is still, and smooth pursuit involves tracking moving targets.",
+      "explanation_incorrect": "Nystagmus involves repeated oscillatory eye movements and is not always pathological; fixation stabilizes gaze and smooth pursuit follows moving targets.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Biofeedback",
-      "question": "Which physiological metric is most frequently measured to quantify acute stress responses in biofeedback-enhanced virtual reality?",
+      "question": "Which measure of sympathetic arousal can be recorded continuously using skin electrodes during VR biofeedback?",
       "options": [
         "Galvanic skin response",
         "Blood glucose level",
@@ -108,14 +108,14 @@
         "Salivary amylase"
       ],
       "answer": "Galvanic skin response",
-      "explanation_correct": "Galvanic skin response measures electrical skin conductance, which fluctuates with sympathetic nervous system arousal.",
+      "explanation_correct": "Galvanic skin response, or electrodermal activity, tracks changes in skin conductance associated with sympathetic arousal; it is not a specific measure of stress.",
       "explanation_incorrect": "Blood glucose, bone density, and salivary amylase are chemical or structural markers not typically used in real-time VR feedback.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neuroplasticity",
-      "question": "Which neural structures are the primary focus of rehabilitation through observation and virtual movement imitation to encourage neuroplasticity?",
+      "question": "Which neurons are studied for their responses during both an action and observation of a similar action?",
       "options": [
         "Mirror neurons",
         "Cranial nerves",
@@ -124,7 +124,7 @@
       ],
       "answer": "Mirror neurons",
       "explanation_correct": "Mirror neurons activate both when an individual performs an action and when they observe another performing the same action.",
-      "explanation_incorrect": "Cranial nerves, glial cells, and synaptic vesicles are structural components of the nervous system that do not perform movement imitation functions.",
+      "explanation_incorrect": "Cranial nerves, glial cells and synaptic vesicles are not the class of neurons described. Their roles in the nervous system are diverse.",
       "last_verified_at": "2026-06-12T16:38:41.982Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -175,7 +175,7 @@
     },
     {
       "subcategory": "Biochemistry",
-      "question": "Which neurotransmitter is significantly associated with the feelings of reward and engagement often sought in immersive virtual environments?",
+      "question": "Which neurotransmitter is associated with reward learning and motivation?",
       "options": [
         "Dopamine",
         "Serotonin",
@@ -183,8 +183,8 @@
         "Endorphins"
       ],
       "answer": "Dopamine",
-      "explanation_correct": "Dopamine is the primary neurotransmitter in the brain's reward system, reinforcing behaviors like gaming or exploration.",
-      "explanation_incorrect": "While serotonin and endorphins affect mood and pain, dopamine is specifically the chemical driver of reward-seeking and motivation.",
+      "explanation_correct": "Dopamine contributes to reward learning and motivation, among many other functions; rewarding experiences involve several interacting neural systems.",
+      "explanation_incorrect": "Serotonin and glutamate also have broad functions, while endorphins are peptides; dopamine is particularly associated with reward learning.",
       "last_verified_at": "2026-06-12T16:39:22.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -235,16 +235,16 @@
     },
     {
       "subcategory": "Proprioception",
-      "question": "What term describes the brain's sense of the relative position of body parts that is challenged by virtual environments?",
+      "question": "What term describes awareness of the position and movement of one’s body parts?",
       "options": [
-        "Kinesthesia",
+        "Proprioception",
         "Nociception",
-        "Thermception",
+        "Thermoception",
         "Chemoreception"
       ],
-      "answer": "Kinesthesia",
-      "explanation_correct": "Kinesthesia is the awareness of the position and movement of parts of the body using sensory organs in the joints and muscles.",
-      "explanation_incorrect": "Nociception relates to pain, thermception to heat, and chemoreception to chemical stimuli, none of which represent body mapping.",
+      "answer": "Proprioception",
+      "explanation_correct": "Proprioception includes position sense and kinesthesia, the sense of body movement, using signals from muscles, joints and other tissues.",
+      "explanation_incorrect": "Nociception detects potentially damaging stimuli, thermoception detects temperature and chemoreception detects chemical stimuli.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -265,7 +265,7 @@
     },
     {
       "subcategory": "Ophthalmology",
-      "question": "Which phenomenon occurs when the visual system detects a discrepancy between the distance a screen displays an image and where the eyes are physically converging?",
+      "question": "What is the name for a mismatch between the distance indicated by binocular convergence and the optical focus distance in some stereoscopic displays?",
       "options": [
         "Vergence-accommodation conflict",
         "Retinal disparity syndrome",
@@ -273,7 +273,7 @@
         "Stereoscopic convergence error"
       ],
       "answer": "Vergence-accommodation conflict",
-      "explanation_correct": "This conflict arises because the eyes focus on a fixed screen distance but attempt to converge on a virtual 3D point.",
+      "explanation_correct": "In a fixed-focus stereoscopic display, the eyes may converge toward a simulated point while accommodating to a different fixed optical distance.",
       "explanation_incorrect": "The other choices are descriptive but incorrect clinical terms that do not properly name the standard ophthalmologic conflict.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -285,11 +285,11 @@
         "Exposure therapy",
         "Cognitive reinforcement",
         "Assertiveness training",
-        "Systemic desensitization"
+        "Sleep hygiene"
       ],
       "answer": "Exposure therapy",
       "explanation_correct": "Exposure therapy uses virtual simulations to gradually introduce patients to feared stimuli to reduce their anxiety response.",
-      "explanation_incorrect": "While related, the terms like cognitive reinforcement or systematic desensitization are distinct or broader therapeutic frameworks.",
+      "explanation_incorrect": "Exposure therapy deliberately presents feared situations; the other options do not name that procedure. Systematic desensitization is a related exposure-based method.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -319,7 +319,7 @@
       ],
       "answer": "Spherical treadmill",
       "explanation_correct": "The spherical treadmill allows rodents to run in place while head-fixed, providing optical flow feedback consistent with their movement.",
-      "explanation_incorrect": "These options refer to standard behavioral arenas that do not permit the simultaneous head-fixation necessary for high-resolution VR imaging.",
+      "explanation_incorrect": "Linear mazes and open-field enclosures are often used for freely moving animals; head-fixed VR setups may use different treadmill geometries, including spherical ones.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -355,16 +355,16 @@
     },
     {
       "subcategory": "Neurology",
-      "question": "Which technique utilizes a reflective screen to help patients with limb loss perceive movement in the affected area, often replicated in virtual reality?",
+      "question": "What is the name of the traditional reflective device used in mirror therapy to create visual feedback of a missing limb?",
       "options": [
-        "Virtual mirror box",
+        "Mirror box",
         "Sensory substitution",
         "Haptic stimulation",
         "Proprioceptive mapping"
       ],
-      "answer": "Virtual mirror box",
-      "explanation_correct": "A virtual mirror box allows users to manipulate a virtual limb to provide visual feedback that can alleviate neuropathic pain.",
-      "explanation_incorrect": "These are broader techniques of sensory rehabilitation that do not specifically refer to the mirror-based visual feedback tool.",
+      "answer": "Mirror box",
+      "explanation_correct": "A mirror box reflects the intact limb to create an apparent image of the missing limb. VR can provide related virtual visual feedback.",
+      "explanation_incorrect": "Sensory substitution, haptic stimulation and proprioceptive mapping are broader concepts, not the name of this device.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -378,8 +378,8 @@
         "Synthetic specimen"
       ],
       "answer": "Digital twin",
-      "explanation_correct": "A digital twin is a dynamic virtual model that updates with real-world data to map biological systems accurately.",
-      "explanation_incorrect": "These terms refer to static data storage or general models that lack the real-time data integration characterizing a digital twin.",
+      "explanation_correct": "A digital twin is a virtual representation linked to data about a real system; its level of detail, updating frequency and predictive accuracy depend on the implementation.",
+      "explanation_incorrect": "A digital archive or general simulation need not maintain the data connection associated with a digital twin.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -453,7 +453,7 @@
         "Cognition"
       ],
       "answer": "Presence",
-      "explanation_correct": "Presence is the subjective feeling of being in a virtual environment while knowing intellectually that it is an artificial projection.",
+      "explanation_correct": "Presence is the subjective feeling of being in the virtual environment; its strength varies across people and experiences.",
       "explanation_incorrect": "These refer to external properties of the environment or general brain functions that are not defined by the feeling of situative immersion.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -468,8 +468,8 @@
         "Granule cells"
       ],
       "answer": "Place cells",
-      "explanation_correct": "Place cells are found in the hippocampus and fire specifically when an animal occupies a particular location in space.",
-      "explanation_incorrect": "These are structural or alternative cell types that do not function as the primary mapping sensors for spatial navigation.",
+      "explanation_correct": "Place cells, found in the hippocampal formation, tend to increase their firing when an animal occupies particular regions of an environment.",
+      "explanation_incorrect": "Glial cells, mirror cells and granule cells have varied roles; place cells are named for their location-associated firing.",
       "last_verified_at": "2026-06-12T16:38:41.983Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -490,16 +490,16 @@
     },
     {
       "subcategory": "Cytology",
-      "question": "What name is commonly given to 3D virtual simulation tools that visualize the interior anatomy of a complex cell?",
+      "question": "What is the name of a three-dimensional model showing the arrangement of atoms in a protein?",
       "options": [
-        "Nanoscape",
-        "Microcube",
-        "Cellular mesh",
-        "Intra-view"
+        "Molecular structure",
+        "Flowchart",
+        "Family tree",
+        "Food web"
       ],
-      "answer": "Nanoscape",
-      "explanation_correct": "The term Nanoscape refers to immersive visual representations of the crowded, complex molecular interior of biological cells.",
-      "explanation_incorrect": "These are descriptive or non-standard terms that do not represent specific software or visualization frameworks for cellular interiors.",
+      "answer": "Molecular structure",
+      "explanation_correct": "A molecular structure represents the spatial arrangement of atoms and can be explored with scientific visualization software, including VR tools.",
+      "explanation_incorrect": "A flowchart, family tree and food web represent processes or relationships rather than atomic geometry.",
       "last_verified_at": "2026-06-12T16:38:41.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -520,16 +520,16 @@
     },
     {
       "subcategory": "Evolution",
-      "question": "What is the term for a virtual reality simulation designed to reconstruct the environmental conditions of an extinct era?",
+      "question": "What is a reconstruction of the landscape and climate of an ancient period called?",
       "options": [
-        "Paleoscene",
-        "Archeo-view",
-        "Neo-era",
-        "Chrono-sim"
+        "Paleoenvironmental reconstruction",
+        "Genome sequencing",
+        "Electromyography",
+        "Present-day census"
       ],
-      "answer": "Paleoscene",
-      "explanation_correct": "A Paleoscene is a digital reconstruction intended to model the ecological and environmental dynamics of prehistoric periods.",
-      "explanation_incorrect": "Though they sound scholarly, these are not the recognized technical term for historical environmental reconstructions in VR.",
+      "answer": "Paleoenvironmental reconstruction",
+      "explanation_correct": "Paleoenvironmental reconstruction uses evidence such as fossils and sediments to infer past environments; the result can be visualized digitally.",
+      "explanation_incorrect": "Genome sequencing reads genetic material; electromyography measures muscle electrical activity; a present-day census describes a current population.",
       "last_verified_at": "2026-06-12T16:38:41.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -558,14 +558,14 @@
         "Apoptosis"
       ],
       "answer": "Phagocytosis",
-      "explanation_correct": "Phagocytosis refers to the process where a cell engulfs and destroys microorganisms, a common simulation for active immune defense.",
-      "explanation_incorrect": "These involve cell division, entry via vesicles, or programmed death, none of which reflect the active 'attack' response being modeled.",
+      "explanation_correct": "Phagocytosis is the engulfment of large particles, including pathogens, by a cell; engulfed material may then be broken down.",
+      "explanation_incorrect": "Phagocytosis is a form of endocytosis involving engulfment of large particles. Mitosis and apoptosis describe cell division and programmed cell death.",
       "last_verified_at": "2026-06-12T16:38:41.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Brain-Computer Interface",
-      "question": "Which area of the brain serves as the primary target for invasive implants in BCI systems used in neural-controlled VR?",
+      "question": "Which brain region is a common target for implanted BCIs that decode intended voluntary movement?",
       "options": [
         "Motor cortex",
         "Visual cortex",
@@ -573,29 +573,29 @@
         "Temporal lobe"
       ],
       "answer": "Motor cortex",
-      "explanation_correct": "The motor cortex is the brain region responsible for voluntary movement and is the primary site for neural output extraction in brain-computer interfaces.",
-      "explanation_incorrect": "These regions handle input sensation, emotional regulation, or information processing, rather than executive motor output.",
+      "explanation_correct": "Some implanted BCIs record from motor cortex to decode intended movement. Other systems record from different brain regions.",
+      "explanation_incorrect": "Other brain regions can be targets for different BCI applications, but motor cortex is commonly used to decode intended movement.",
       "last_verified_at": "2026-06-12T16:38:41.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Somatosensory",
-      "question": "Which theory forms the foundation for using VR distraction, such as sensory gaming, to mitigate the perception of physical pain?",
+      "question": "What approach diverts attention from a painful procedure by engaging the patient in a VR activity?",
       "options": [
-        "Gate control theory",
-        "Pain threshold model",
-        "Signal detection theory",
-        "Sensory integration law"
+        "Distraction",
+        "Sensory deprivation",
+        "Sleep restriction",
+        "Auditory isolation"
       ],
-      "answer": "Gate control theory",
-      "explanation_correct": "Gate control theory posits that non-painful input closes the 'gate' to painful input, preventing pain sensations from reaching the brain.",
-      "explanation_incorrect": "While related to sensation, these models explain detection probability or neurological combination rather than the 'gating' mechanism of pain.",
+      "answer": "Distraction",
+      "explanation_correct": "VR distraction can reduce perceived procedural pain for some patients by engaging attention; results vary and the mechanisms are still being studied.",
+      "explanation_incorrect": "Sensory deprivation, sleep restriction and auditory isolation do not describe engaging attention in a VR activity.",
       "last_verified_at": "2026-06-12T16:38:41.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Endocrinology",
-      "question": "Which hormone is commonly released as a stress response and measured in VR users to evaluate the psychological impact of an immersive environment?",
+      "question": "Which hormone can be measured in saliva as one indicator of the body’s stress response?",
       "options": [
         "Cortisol",
         "Adrenaline",
@@ -604,7 +604,7 @@
       ],
       "answer": "Cortisol",
       "explanation_correct": "Cortisol is the primary glucocorticoid measured in saliva or blood to quantify the stress reaction elicited by immersive VR scenarios.",
-      "explanation_incorrect": "Adrenaline is a short-term neurotransmitter, insulin regulates blood sugar, and thyroxine regulates metabolism, none being ideal markers for long-term psychological stress.",
+      "explanation_incorrect": "Adrenaline is also involved in acute stress responses; insulin and thyroxine serve different endocrine functions. No single measure fully describes psychological stress.",
       "last_verified_at": "2026-06-12T16:38:41.984Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -649,7 +649,7 @@
       ],
       "answer": "Agent-based modeling",
       "explanation_correct": "Agent-based modeling (ABM) simulates the actions and interactions of autonomous agents to assess their effects on the system as a whole.",
-      "explanation_incorrect": "Rasterization, ray tracing, and volumetric rendering are graphical techniques for lighting and drawing pixels, not for logic simulation.",
+      "explanation_incorrect": "Rasterization, ray tracing and volume rendering primarily generate images rather than specify the individual-agent behavioral model.",
       "last_verified_at": "2026-06-12T16:39:22.985Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -723,14 +723,14 @@
         "Social projection"
       ],
       "answer": "Embodiment",
-      "explanation_correct": "Embodiment in VR causes the brain to integrate the virtual body as if it were the user's own physical body.",
+      "explanation_correct": "Virtual embodiment describes a sense that a virtual body is one’s own, often supported by synchronous sensory and movement cues; its effects vary among people.",
       "explanation_incorrect": "The other options refer to higher-level psychological theories unrelated to avatar identification and virtual presence.",
       "last_verified_at": "2026-06-12T16:38:52.800Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sleep Science",
-      "question": "Which state of consciousness is frequently explored through VR training, characterized by the user becoming aware that they are within a generated simulation?",
+      "question": "What is the term for being aware that one is dreaming while the dream is occurring?",
       "options": [
         "Lucid dreaming",
         "Hypnagogia",
@@ -738,8 +738,8 @@
         "Somnambulism"
       ],
       "answer": "Lucid dreaming",
-      "explanation_correct": "Lucid dreaming involves attaining self-awareness within a dream state, a scenario often replicated in VR meditation apps.",
-      "explanation_incorrect": "Hypnagogia, REM latency, and somnambulism refer to natural sleep transitions or disorders, not intentional user awareness.",
+      "explanation_correct": "In a lucid dream, the dreamer becomes aware that they are dreaming. Awareness of a VR simulation while awake is not itself lucid dreaming.",
+      "explanation_incorrect": "Hypnagogia is the transition into sleep; REM latency is the time to first REM sleep; somnambulism is sleepwalking.",
       "last_verified_at": "2026-06-12T16:38:52.800Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -754,7 +754,7 @@
       ],
       "answer": "Optic flow",
       "explanation_correct": "Optic flow is the pattern of apparent motion of objects in a visual scene caused by the relative motion between an observer and the scene.",
-      "explanation_incorrect": "Parallax shift, foveal tracking, and motion blur are distinct visual processing concepts not fundamental to insect navigation.",
+      "explanation_incorrect": "Parallax is related to relative visual motion and can provide useful depth cues; optic flow names the pattern of apparent motion across a scene.",
       "last_verified_at": "2026-06-12T16:38:52.800Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -768,14 +768,14 @@
         "Carbohydrates"
       ],
       "answer": "Amino acids",
-      "explanation_correct": "Proteins are linear polymers built from 20 different amino acids connected by peptide bonds.",
+      "explanation_correct": "Proteins are chains of amino acids connected by peptide bonds. Most organisms use 20 standard amino acids, with some exceptions.",
       "explanation_incorrect": "Nucleotides are for DNA/RNA, fatty acids are for lipids, and carbohydrates are for sugars.",
       "last_verified_at": "2026-06-12T16:38:52.800Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Physical Therapy",
-      "question": "Which specialized device allows users to perform infinite walking in any direction while remaining in a single location within a VR simulation?",
+      "question": "Which device aims to let a user walk in multiple directions while staying within a limited physical area?",
       "options": [
         "Omnidirectional treadmill",
         "Haptic suit",
@@ -783,7 +783,7 @@
         "Isometric trainer"
       ],
       "answer": "Omnidirectional treadmill",
-      "explanation_correct": "Omnidirectional treadmills enable multi-directional gait training, allowing rehabilitation patients to traverse virtual environments.",
+      "explanation_correct": "An omnidirectional treadmill or walking platform supports locomotion in multiple directions within a limited area; different designs have different movement constraints.",
       "explanation_incorrect": "Haptic suits, motion platforms, and isometric trainers provide feedback or resistance but do not facilitate walking distance.",
       "last_verified_at": "2026-06-12T16:38:52.800Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -798,8 +798,8 @@
         "Vergence"
       ],
       "answer": "Stereopsis",
-      "explanation_correct": "Stereopsis is the primary cue for depth perception provided by the slight parallax between the left and right eyes.",
-      "explanation_incorrect": "Accommodation and convergence are ocular movements, whereas vergence is the simultaneous turning of the eyes.",
+      "explanation_correct": "Stereopsis is the perception of depth from differences between the views of the two eyes. Many other cues also support depth perception.",
+      "explanation_incorrect": "Accommodation changes lens focus; convergence is inward eye rotation and is a type of vergence.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -820,7 +820,7 @@
     },
     {
       "subcategory": "Bio-informatics",
-      "question": "Which software, widely used in structural biology, includes a dedicated VR mode for the visualization of complex atomic structures and genomic density maps?",
+      "question": "Which molecular visualization program offers VR tools for exploring atomic structures and microscopy data?",
       "options": [
         "UCSF ChimeraX",
         "AutoCAD",
@@ -843,7 +843,7 @@
         "Pulse oximetry"
       ],
       "answer": "Spirometry",
-      "explanation_correct": "Spirometry is the standard method for measuring lung capacity, effectively gamified in virtual reality lung health apps.",
+      "explanation_correct": "Spirometry measures the volume and flow of air inhaled and exhaled. It does not directly measure total lung capacity.",
       "explanation_incorrect": "Bronchoscopy is invasive, ventilation imaging maps gas flow, and oximetry measures oxygen saturation.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -858,8 +858,8 @@
         "Incubation"
       ],
       "answer": "Spillover",
-      "explanation_correct": "Spillover refers to the moment a pathogen crosses the species barrier to infect human hosts.",
-      "explanation_incorrect": "Transmission, vectoring, and incubation refer to the subsequent spread, transport, and clinical development phases.",
+      "explanation_correct": "Spillover is cross-species transmission of a pathogen, including but not limited to transmission from animals to humans.",
+      "explanation_incorrect": "Transmission is a broader term for pathogen spread; incubation is the interval between infection and symptoms.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -873,7 +873,7 @@
         "Virtualization"
       ],
       "answer": "Telepresence",
-      "explanation_correct": "Telepresence combines robotics and sensory feedback to give the user a sense of being in a remote location.",
+      "explanation_correct": "Telepresence creates a sense of being in a remote location through mediated sensory information; some systems also include robotic interaction.",
       "explanation_incorrect": "Extended Reality, augmentation, and virtualization are general categories that do not specifically imply remote presence.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -903,14 +903,14 @@
         "Digital Body Atlas"
       ],
       "answer": "Visible Human Project",
-      "explanation_correct": "The Visible Human Project provided the first set of cross-sectional photographic and CT data for precise anatomical modeling.",
-      "explanation_incorrect": "The other options refer to different scientific initiatives not focused on high-resolution visible anatomy.",
+      "explanation_correct": "The Visible Human Project produced detailed photographic cross-sections and radiological scans of human cadavers for anatomical visualization.",
+      "explanation_incorrect": "The Human Genome Project mapped and sequenced human DNA; connectome projects study neural connections.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Sports Science",
-      "question": "In sports performance VR simulations, what factor is primarily manipulated to evaluate the limit of an athlete's reaction time?",
+      "question": "Which term describes the amount of mental processing demanded by a task, such as responding to cues in a VR sports simulation?",
       "options": [
         "Cognitive load",
         "Physical endurance",
@@ -918,8 +918,8 @@
         "Motor coordination"
       ],
       "answer": "Cognitive load",
-      "explanation_correct": "Cognitive load refers to the amount of mental processing resources required to perform a task within an environment.",
-      "explanation_incorrect": "Physical endurance, auditory acuity, and motor coordination represent sensory or physical capabilities rather than the measured mental demand.",
+      "explanation_correct": "Cognitive load is the mental processing demand imposed by a task. Reaction time can be affected by multiple factors, not cognitive load alone.",
+      "explanation_incorrect": "Physical endurance, auditory acuity and motor coordination describe different physical or sensory capabilities.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -933,7 +933,7 @@
         "Hypnotic suggestion"
       ],
       "answer": "Distraction analgesia",
-      "explanation_correct": "Distraction analgesia uses technology to divert attention away from a noxious stimulus, thereby raising the pain threshold.",
+      "explanation_correct": "VR distraction diverts attention from a painful procedure and may reduce perceived discomfort; it does not necessarily change a person’s pain threshold.",
       "explanation_incorrect": "Sensory deprivation, anesthetic infusion, and hypnotic suggestion are either medical interventions or environmental states that do not describe the specific psychological diversion effect.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -948,14 +948,14 @@
         "Excretion ratio"
       ],
       "answer": "Bioavailability",
-      "explanation_correct": "Bioavailability is the proportion of an administered substance that is capable of having an active effect.",
+      "explanation_correct": "Bioavailability is the fraction of an administered dose that reaches systemic circulation unchanged.",
       "explanation_incorrect": "Absorption rate, metabolic pathway, and excretion ratio describe the kinetics of the movement or processing of the substance rather than the systemic dosage reach.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Neurology",
-      "question": "To minimize the risk of induced seizures when developing VR environments, developers must account for a user's what?",
+      "question": "Which sensitivity to flashing light and certain visual patterns can cause seizures in susceptible people?",
       "options": [
         "Photosensitivity",
         "Vestibular sensitivity",
@@ -963,8 +963,8 @@
         "Tactile defensiveness"
       ],
       "answer": "Photosensitivity",
-      "explanation_correct": "Photosensitivity refers to an abnormal physiological reaction to visual stimuli, such as flickering lights or patterns that can trigger seizures.",
-      "explanation_incorrect": "Vestibular sensitivity, auditory hyperacusis, and tactile defensiveness pertain to spatial balance, sound, or touch, not seizure triggers related to light.",
+      "explanation_correct": "Photosensitivity in epilepsy means that particular flashing lights or visual patterns can trigger seizures in susceptible people.",
+      "explanation_incorrect": "Vestibular, auditory and tactile sensitivities concern different sensory triggers or responses.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1000,7 +1000,7 @@
     },
     {
       "subcategory": "Evolutionary Biology",
-      "question": "In evolutionary biology VR simulations, which mathematical framework is most often used to calculate how allele frequencies change in a population over time under the influence of natural selection?",
+      "question": "Which principle predicts allele and genotype frequencies in an idealized population without selection, mutation, migration or genetic drift?",
       "options": [
         "Hardy-Weinberg principle",
         "Moore's Law",
@@ -1008,7 +1008,7 @@
         "Bernoulli's principle"
       ],
       "answer": "Hardy-Weinberg principle",
-      "explanation_correct": "The Hardy-Weinberg principle provides the baseline mathematical model for describing expectations of genetic equilibrium.",
+      "explanation_correct": "Hardy–Weinberg equilibrium provides a baseline for a population under idealized assumptions, including no natural selection; selection can change frequencies away from that baseline.",
       "explanation_incorrect": "Moore's Law relates to transistors, Doppler to wave frequency, and Bernoulli to fluid dynamics.",
       "last_verified_at": "2026-06-12T16:39:22.985Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1030,16 +1030,16 @@
     },
     {
       "subcategory": "Myology",
-      "question": "Which physiological term, often simulated in musculoskeletal VR, describes the inherent response of muscle fibers to stretch or neural stimulation?",
+      "question": "What is the name of the intrinsic contraction of certain muscle tissue in response to stretch?",
       "options": [
         "Myogenic response",
         "Neurogenic shock",
-        "Reflex arc",
-        "Synaptic plasticitity"
+        "Synaptic pruning",
+        "Axonal transport"
       ],
       "answer": "Myogenic response",
-      "explanation_correct": "The myogenic response is the intrinsic contraction of a muscle in response to a stimulus or stretch.",
-      "explanation_incorrect": "Neurogenic shock, reflex arc, and synaptic plasticity describe nervous system-mediated functions rather than direct muscular responses.",
+      "explanation_correct": "A myogenic response is an intrinsic response of muscle to stretch; for example, vascular smooth muscle can constrict as pressure rises.",
+      "explanation_incorrect": "The other terms describe distinct nervous-system processes, not the intrinsic muscle response to stretch.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1098,8 +1098,8 @@
         "Forensic rendering"
       ],
       "answer": "Virtual autopsy",
-      "explanation_correct": "A virtual autopsy uses digital imaging and VR to examine a body thoroughly without traditional cutting or invasive methods.",
-      "explanation_incorrect": "Digital necropsy is a descriptive term but not the standard terminology, while biometric reconstruction and forensic rendering are broader or unrelated technical tasks.",
+      "explanation_correct": "A virtual autopsy uses imaging such as CT or MRI to examine a body without conventional dissection. VR may be used for visualization but is not required.",
+      "explanation_incorrect": "The other options do not name this imaging-based examination in the question.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1120,7 +1120,7 @@
     },
     {
       "subcategory": "Microscopy",
-      "question": "Which high-throughput imaging technique is now being paired with VR to allow scientists to explore 3D protein structures?",
+      "question": "Which microscopy technique can determine 3D structures of proteins from images of rapidly frozen specimens?",
       "options": [
         "Cryo-electron microscopy",
         "Confocal laser microscopy",
@@ -1128,8 +1128,8 @@
         "Phase contrast microscopy"
       ],
       "answer": "Cryo-electron microscopy",
-      "explanation_correct": "Cryo-electron microscopy allows for high-resolution imaging of frozen biological specimens, often analyzed via VR in 3D.",
-      "explanation_incorrect": "Confocal laser, atomic force, and phase contrast are other imaging modalities that do not typically produce the 3D data volumes optimized for VR macromolecular visualization.",
+      "explanation_correct": "Cryo-electron microscopy can reconstruct 3D macromolecular structures from images of rapidly frozen samples; the resulting data can be explored in visualization software.",
+      "explanation_incorrect": "Confocal microscopy and atomic force microscopy can also produce 3D data, but the described frozen-specimen method is cryo-electron microscopy.",
       "last_verified_at": "2026-06-12T16:38:52.801Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1173,7 +1173,7 @@
         "Sensory rehabilitation"
       ],
       "answer": "Simulation training",
-      "explanation_correct": "Simulation training in VR allows caregivers to experience a 'day in the life' from the perspective of someone living with dementia.",
+      "explanation_correct": "Some VR simulations aim to help caregivers reflect on challenges associated with dementia. They cannot reproduce another person’s lived experience in full.",
       "explanation_incorrect": "Diagnostic screening, therapeutic play, and sensory rehab are intended for assessment or treatment, not specifically for the empathy-building of the caregiver.",
       "last_verified_at": "2026-06-12T16:38:52.802Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1195,16 +1195,16 @@
     },
     {
       "subcategory": "Ornithology",
-      "question": "When simulating avian flight for vision research, which evolutionary visual trait allows some birds to perceive ultraviolet light?",
+      "question": "Which cone-cell property allows some birds to detect ultraviolet wavelengths?",
       "options": [
-        "Tetrachromacy",
+        "Ultraviolet-sensitive visual pigment",
         "Binocular vision",
         "Tapetum lucidum",
-        "Color convergence"
+        "Auditory localization"
       ],
-      "answer": "Tetrachromacy",
-      "explanation_correct": "Tetrachromacy is the condition of possessing four independent channels for conveying color information, specifically the UV light sensitive cone.",
-      "explanation_incorrect": "Binocular vision, tapetum lucidum, and color convergence are navigational or light-reflecting adaptations, but they do not define the spectral range of receptors.",
+      "answer": "Ultraviolet-sensitive visual pigment",
+      "explanation_correct": "Some bird species have cone photopigments sensitive to ultraviolet wavelengths; many birds have four cone types supporting tetrachromatic color vision.",
+      "explanation_incorrect": "Binocular vision concerns overlapping visual fields, a tapetum reflects light within the eye, and auditory localization concerns sound.",
       "last_verified_at": "2026-06-12T16:38:52.802Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1225,7 +1225,7 @@
     },
     {
       "subcategory": "Dentistry",
-      "question": "What type of haptic technology is essential in dental VR simulations to replicate the resistance encountered when a drill engages with tooth enamel?",
+      "question": "Which type of haptic feedback can reproduce mechanical resistance when interacting with a virtual tooth in dental training?",
       "options": [
         "Force feedback",
         "Acoustic signal",
@@ -1270,7 +1270,7 @@
     },
     {
       "subcategory": "Biomechanics",
-      "question": "Virtual reality is often used to assess a patient’s balance. Which clinical metric refers to the ability to maintain the body's center of mass within a base of support?",
+      "question": "What term describes control of the body’s position and balance relative to its base of support?",
       "options": [
         "Postural stability",
         "Gait analysis",
@@ -1278,7 +1278,7 @@
         "Joint kinetics"
       ],
       "answer": "Postural stability",
-      "explanation_correct": "Postural stability is the ability to control the center of mass in relation to the base of support to prevent falls.",
+      "explanation_correct": "Postural stability involves controlling the body’s position and balance in relation to the support surface, both while still and during movement.",
       "explanation_incorrect": "Gait analysis, range of motion, and joint kinetics refer to movement, mobility, and force physics, respectively, rather than static or steady-state balance.",
       "last_verified_at": "2026-06-12T16:38:52.803Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1300,7 +1300,7 @@
     },
     {
       "subcategory": "Herpetology",
-      "question": "When simulating a snake strike against a virtual target, what primary ecological interaction is the experiment most likely investigating?",
+      "question": "A snake strikes at a virtual mouse presented as prey. Which ecological interaction is being modeled?",
       "options": [
         "Predation",
         "Symbiosis",
@@ -1308,14 +1308,14 @@
         "Mutualism"
       ],
       "answer": "Predation",
-      "explanation_correct": "Predation is the act of one organism killing and eating another, which is modeled when investigating a snake's strike behavior.",
-      "explanation_incorrect": "Symbiosis, commensalism, and mutualism describe long-term interactions between different species that do not involve immediate hunting or striking behavior.",
+      "explanation_correct": "Predation involves a predator capturing and consuming prey; researchers can use simulated prey cues to study parts of this behavior.",
+      "explanation_incorrect": "Mutualism and commensalism describe other relationships, not a predator attempting to capture prey.",
       "last_verified_at": "2026-06-12T16:38:52.803Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Vascular Biology",
-      "question": "VR training for medical students often displays the narrowing or hardening of blood vessels. What is the clinical term for this condition?",
+      "question": "What condition involves the buildup of plaque in artery walls, potentially narrowing them?",
       "options": [
         "Atherosclerosis",
         "Hyperplasia",
@@ -1324,7 +1324,7 @@
       ],
       "answer": "Atherosclerosis",
       "explanation_correct": "Atherosclerosis is the buildup of fats, cholesterol, and other substances in and on the artery walls.",
-      "explanation_incorrect": "Hyperplasia refers to cell growth, vasodilation to vessel widening, and endothelitis refers to inflammation of the endothelium.",
+      "explanation_incorrect": "Hyperplasia is an increase in cell number, vasodilation is vessel widening, and endothelitis is inflammation of the endothelium.",
       "last_verified_at": "2026-06-12T16:38:52.803Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1354,22 +1354,22 @@
       ],
       "answer": "Photogrammetry",
       "explanation_correct": "Photogrammetry is the practice of determining the geometric properties of objects from photographic images to create 3D models.",
-      "explanation_incorrect": "Tomography, radiography, and fluoroscopy are imaging techniques that use X-rays or sensors to look inside solid objects.",
+      "explanation_incorrect": "Radiography and fluoroscopy commonly use X-rays. Tomography reconstructs cross-sectional or volumetric data and can use several physical methods.",
       "last_verified_at": "2026-06-12T16:38:52.804Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Obstetrics",
-      "question": "Which diagnostic technique, frequently visualized in VR through detailed 3D abdominal simulation, provides real-time monitoring of a developing embryo?",
+      "question": "Which imaging method uses sound waves to observe a developing fetus in real time?",
       "options": [
-        "Fetal imaging",
+        "Ultrasound",
         "Laparoscopy",
         "Hysteroscopy",
         "Cystoscopy"
       ],
-      "answer": "Fetal imaging",
-      "explanation_correct": "Fetal imaging refers to the use of ultrasound or MRI to visualize the physical development of the fetus in utero.",
-      "explanation_incorrect": "Laparoscopy, hysteroscopy, and cystoscopy are invasive surgical inspection techniques for abdominal cavities, the uterus, and the bladder.",
+      "answer": "Ultrasound",
+      "explanation_correct": "Obstetric ultrasound uses sound waves to create real-time images of a developing embryo or fetus.",
+      "explanation_incorrect": "Laparoscopy, hysteroscopy and cystoscopy use instruments to inspect the abdomen, uterus or bladder rather than sound waves to image a fetus.",
       "last_verified_at": "2026-06-12T16:38:52.804Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1399,7 +1399,7 @@
       ],
       "answer": "Lithotripsy",
       "explanation_correct": "Lithotripsy is a medical procedure that uses shock waves or laser energy to break up stones in the kidney, bladder, or ureter.",
-      "explanation_incorrect": "Nephrectomy, ureteroscopy, and cystotomy involve removing kidneys, visually inspecting the ureter, or cutting into the bladder, respectively.",
+      "explanation_incorrect": "Nephrectomy removes a kidney; ureteroscopy uses a scope to inspect or treat the urinary tract and can be combined with laser lithotripsy; cystotomy is an incision into the bladder.",
       "last_verified_at": "2026-06-12T16:38:52.804Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1429,7 +1429,7 @@
       ],
       "answer": "Conspecific interaction",
       "explanation_correct": "Conspecific interaction refers specifically to social behavior occurring between members of the same species.",
-      "explanation_incorrect": "Interspecific, aggressive, and altruistic behavior categories are descriptions of behavior types rather than the formal term for same-species interactions.",
+      "explanation_incorrect": "Interspecific interactions occur between different species. Aggression or altruism can occur among conspecifics, but describe types of behavior rather than species membership.",
       "last_verified_at": "2026-06-12T16:38:52.804Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1465,16 +1465,16 @@
     },
     {
       "subcategory": "Psychophysiology",
-      "question": "Psychophysiologists using eye-tracking VR sensors to measure blink rates are primarily assessing what aspect of a user's state?",
+      "question": "Which measurable behavior is often investigated as a possible indicator of cognitive workload or fatigue in eye-tracking studies?",
       "options": [
-        "Cognitive fatigue",
-        "Visual acuity",
-        "Sensory processing",
-        "Ocular motor reflex"
+        "Blink rate",
+        "Iris color",
+        "Blood type",
+        "Foot length"
       ],
-      "answer": "Cognitive fatigue",
-      "explanation_correct": "Research indicates that blink frequency and duration are reliable indicators of cognitive load and fatigue levels.",
-      "explanation_incorrect": "Visual acuity, sensory processing, and ocular motor reflexes describe a user's vision capabilities rather than their state of fatigue.",
+      "answer": "Blink rate",
+      "explanation_correct": "Blink rate and duration can change with workload, fatigue and other factors; they are not reliable stand-alone diagnoses of either state.",
+      "explanation_incorrect": "Iris color, blood type and foot length do not measure the rate of eyelid closure.",
       "last_verified_at": "2026-06-12T16:38:52.804Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1495,7 +1495,7 @@
     },
     {
       "subcategory": "Aero-biology",
-      "question": "Which term describes the ecological dispersal of particles like pollen through wind, often modeled in atmospheric biology simulations?",
+      "question": "Which term describes the dispersal of seeds by wind?",
       "options": [
         "Anemochory",
         "Hydrochory",
@@ -1503,8 +1503,8 @@
         "Anthropochory"
       ],
       "answer": "Anemochory",
-      "explanation_correct": "Anemochory is the dispersal of seeds, spores, or pollen by wind.",
-      "explanation_incorrect": "Hydrochory, zoochory, and anthropochory refer to dispersal via water, animals, and humans, respectively.",
+      "explanation_correct": "Anemochory is the dispersal of seeds or other plant propagules by wind. Wind pollination is called anemophily.",
+      "explanation_incorrect": "Hydrochory, zoochory and anthropochory refer to dispersal by water, animals and humans, respectively.",
       "last_verified_at": "2026-06-12T16:38:52.804Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }
