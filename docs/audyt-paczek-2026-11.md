@@ -269,6 +269,8 @@ Zgodnie z doprecyzowaniem użytkownika przebudowano `wiat_modych_pl` na 100 pyta
 
 Kontynuacja audytu: poprawiono powtórzenia w paczkach ogólnej, RPG i wyścigowej oraz kolejne pozycje science fiction i teatralne. Porównanie paczek astronomicznych wykazało 86 identycznych pytań po normalizacji i dalsze parafrazy; rozróżnienie ich zawartości pozostaje otwarte. Szczegóły i źródła podano w odpowiednich raportach.
 
+Zastąpiono 25 pytań w `astronomia_uklad_sloneczny_pl` oraz poprawiono powtórzenia i zakres w paczkach ogólnej, science fiction, teatralnej i symulatorów lotu. Źródła i pozostałe ograniczenia znajdują się w raportach; między paczkami astronomicznymi nadal znaleziono 70 identycznych pytań po normalizacji.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
