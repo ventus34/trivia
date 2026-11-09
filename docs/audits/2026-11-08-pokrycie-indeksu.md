@@ -5,15 +5,15 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **227** pozycji ma raport deklarujący przegląd całości paczki.
-- **2** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
+- **228** pozycji ma raport deklarujący przegląd całości paczki.
+- **1** pozycja ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
 - **0** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
 Dla każdego ID sprawdzono zakres początkowy raportów: jawny identyfikator lub ścieżkę paczki, nazwę pliku zgodną z ID albo dokładny pełny tytuł kategorii w nagłówku raportu. Przy identycznych nazwach użyto wyłącznie ID/ścieżki/nazwy pliku do rozróżnienia; dopasowanie fragmentu nazwy lub podobieństwo tematu nie wystarcza. Różnice slugów uzupełniono ręcznie tylko tam, gdzie nagłówek raportu i liczba pytań identyfikowały tę samą pozycję (Fizyka w Garażu, Historia Współczesna po 1945, Wielka Inżynieria PRL-u, Historia Polskich Elektronarzędzi).
 
-Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Dwie pozycje z zakresem jawnie częściowym lub nieudokumentowanym są osobno oznaczonych poniżej.
+Status „pełny odczyt deklarowany” oznacza, że raport mówi o przeczytaniu/przejrzeniu wszystkich pytań paczki (zakres szczegółowy podaję w tabeli). Nie oznacza niezależnego potwierdzenia źródłami każdego faktu: większość raportów źródłowo sprawdza wybrane kwestie. Jedna pozycja z zakresem jawnie częściowym lub nieudokumentowanym jest osobno oznaczonych poniżej.
 
 Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (porównuje duplikaty), `2026-11-05-przerwane-przeglady.md` (historyczna migawka, zastąpiona późniejszymi raportami) i zakres strukturalny w [`2026-11-05-smart-materials.md`](../question-audits/2026-11-05-smart-materials.md). Ten ostatni wyraźnie mówi, że sprawdzenie pozycji indeksu 172–229 było strukturalne, nie merytoryczne. `2026-11-05-first-indexed-packs.md` jest podany tylko jako historyczny częściowy przegląd dwóch pierwszych paczek; nowsze osobne raporty są podstawą ich bieżącego statusu.
 
@@ -232,7 +232,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 209 | `video_game_history_en` | Video Game History | [2026-11-09-video-game-history-en.md](2026-11-09-video-game-history-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 210 | `virtual_reality_biology_en` | Virtual Reality & Biology | [2026-11-09-virtual-reality-biology-en.md](2026-11-09-virtual-reality-biology-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 211 | `vocaloids_virtual_idols_en` | Vocaloids & Virtual Idols | [2026-11-09-vocaloids-virtual-idols-en.md](2026-11-09-vocaloids-virtual-idols-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
-| 212 | `wiat_modych_pl` | Świat Młodych | [2026-11-09-swiat-mlodych-czesciowy.md](2026-11-09-swiat-mlodych-czesciowy.md) | CZĘŚCIOWY: odczytano 100 pytań, ale liczne szczegóły i powtórzenia wymagają dalszej kontroli. |
+| 212 | `wiat_modych_pl` | Świat Młodych | [Nowy zakres 2000+](2026-11-09-swiat-mlodych-2000-plus.md)<br>[Kontrola](2026-11-09-swiat-mlodych-2000-plus-kontrola.md)<br>[Historyczny raport o czasopiśmie](2026-11-09-swiat-mlodych-czesciowy.md) | PEŁNY ODCZYT deklarowany. Po wyjaśnieniu użytkownika zastąpiono paczkę zestawem o współczesnej kulturze młodzieżowej; przeczytano 100 nowych pytań, wybrane fakty sprawdzono źródłowo. |
 | 213 | `wiaty_i_lore_w_grach_pl` | Światy i Lore w Grach | [2026-11-09-wiaty-i-lore-w-grach-pl.md](2026-11-09-wiaty-i-lore-w-grach-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 214 | `wiedza_oglna_2_pl` | Wiedza Ogólna 2 | [2026-11-09-wiedza-ogolna-2-pl.md](2026-11-09-wiedza-ogolna-2-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 215 | `wielka_inynieria_prl_u_pl` | Wielka Inżynieria PRL-u | [2026-11-07-wielka-inzynieria-prl-pl.md](2026-11-07-wielka-inzynieria-prl-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, wszystkie opcje, oba wyjaśnienia oraz opis. Zmieniono 86 pozycji: 1–2, 4–8, 10–17, 19–33, 35–50, 52–53, 55–58, 60, 62–67, 69–74, 76–82, 84–92, 95–97, 99–100. Liczbę… |
@@ -253,7 +253,6 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 
 ## Pozycje z niepełnym lub niepewnym zakresem
 
-- `wiat_modych_pl` — odczytano wszystkie pytania, ale wiele twierdzeń i powtórzeń wymaga dalszej kontroli źródłowej.
 - `teatr_telewizji_i_kultowe_spektakle_pl` — odczytano wszystkie rekordy, ale raport nadal wskazuje otwarte sprawy źródłowe, różnorodność i zgodność części pytań z zakresem.
 
 ## Ważne przypadki aliasów i duplikatów
