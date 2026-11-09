@@ -2,7 +2,7 @@
   "id": "ycie_codzienne_w_prl_pl",
   "name": "Życie codzienne w PRL",
   "language": "pl",
-  "description": "Pytania z zakresu: Wzornictwo przemysłowe, Higiena i kosmetyki, Meble i wystrój, Gastronomia...",
+  "description": "Pytania o przedmioty, kulturę, handel, transport i codzienne zwyczaje w Polsce Ludowej.",
   "created_at": "2026-06-12T15:49:44.443Z",
   "last_verified_at": "2026-06-12T15:49:43.810Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -10,22 +10,22 @@
   "questions": [
     {
       "subcategory": "Wzornictwo przemysłowe",
-      "question": "Jak nazywał się kultowy polski aparat fotograficzny produkowany w Warszawskich Zakładach Fotooptycznych?",
+      "question": "Jak nazywał się małoobrazkowy aparat produkowany przez Warszawskie Zakłady Fotooptyczne od początku lat 60.?",
       "options": [
         "Alfa",
-        "Druh",
+        "Zenit",
         "Zorka",
-        "Zenit"
+        "Kodak Brownie"
       ],
       "answer": "Alfa",
-      "explanation_correct": "Aparat Alfa był produkowany w latach 60. i wyróżniał się nowoczesnym jak na tamte czasy designem.",
-      "explanation_incorrect": "Zorka i Zenit to konstrukcje radzieckie, natomiast Druh był prostym aparatem skrzynkowym z Bydgoszczy.",
+      "explanation_correct": "Aparat Alfa produkowano w Warszawskich Zakładach Fotooptycznych; projekt wyróżniał się nowoczesną, kolorową obudową.",
+      "explanation_incorrect": "Zenit i Zorka to konstrukcje radzieckie, a Brownie to rodzina aparatów marki Kodak.",
       "last_verified_at": "2026-06-12T15:48:53.428Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Higiena i kosmetyki",
-      "question": "Która woda kolońska o charakterystycznym korzennym zapachu była popularna wśród mężczyzn w okresie PRL?",
+      "question": "Która z poniższych wód kolońskich nosiła nazwę nawiązującą do imienia Przemysław?",
       "options": [
         "Przemysławka",
         "Brutal",
@@ -33,8 +33,8 @@
         "Consul"
       ],
       "answer": "Przemysławka",
-      "explanation_correct": "Przemysławka to jedna z najstarszych polskich marek kosmetycznych, której receptura sięga okresu międzywojennego.",
-      "explanation_incorrect": "Brutal i Wars to późniejsze marki, a Consul był produktem pozycjonowanym jako bardziej luksusowy.",
+      "explanation_correct": "Przemysławka to polska woda kolońska znana także w okresie PRL.",
+      "explanation_incorrect": "Brutal, Wars i Consul to inne nazwy kosmetyków zapachowych.",
       "last_verified_at": "2026-06-12T15:48:53.428Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -70,7 +70,7 @@
     },
     {
       "subcategory": "Kultura popularna",
-      "question": "Który ilustrowany magazyn dla młodzieży, słynący m.in. z publikacji komiksów, zaczął ukazywać się w 1957 roku?",
+      "question": "W którym czasopiśmie dla młodzieży w 1957 roku zaczęły ukazywać się przygody Romka i A’TOMKA, później kojarzone z Tytusem?",
       "options": [
         "Świat Młodych",
         "Płomyk",
@@ -78,8 +78,8 @@
         "Razem"
       ],
       "answer": "Świat Młodych",
-      "explanation_correct": "Świat Młodych był niezwykle popularny dzięki ostatniej stronie, na której publikowano przygody Tytusa, Romka i A'Tomka.",
-      "explanation_incorrect": "Płomyk był pismem literackim, a Na Przełaj i Razem były skierowane do nieco starszej młodzieży.",
+      "explanation_correct": "Pierwsze odcinki przygód Romka i A’TOMKA ukazały się w „Świecie Młodych” w 1957 roku; samo czasopismo powstało wcześniej.",
+      "explanation_incorrect": "„Płomyk”, „Na Przełaj” i „Razem” były innymi pismami dla młodych czytelników.",
       "last_verified_at": "2026-06-12T15:48:53.429Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -93,14 +93,14 @@
         "Syrena Sport"
       ],
       "answer": "Mikrus",
-      "explanation_correct": "Był to mały samochód produkowany w Szczecinie, wzorowany na niemieckim Goggomobilu.",
+      "explanation_correct": "Mikrus MR-300 powstawał we współpracy zakładów w Mielcu i Rzeszowie: w Mielcu wykonywano nadwozie, w Rzeszowie silnik.",
       "explanation_incorrect": "Smyk i Meduza pozostały jedynie w fazie prototypów.",
       "last_verified_at": "2026-06-12T15:48:53.429Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Moda",
-      "question": "Które buty sportowe, będące symbolem zimowej mody PRL, produkowano w zakładach w Wałczu?",
+      "question": "Które buty zimowe kojarzone z PRL produkowano w Nowym Targu?",
       "options": [
         "Relaksy",
         "Sofixy",
@@ -108,23 +108,23 @@
         "Trampki"
       ],
       "answer": "Relaksy",
-      "explanation_correct": "Relaksy charakteryzowały się grubą podeszwą i jaskrawymi kolorami, stając się obiektem pożądania w latach 70. i 80.",
-      "explanation_incorrect": "Sofixy to pierwsze polskie buty na rzepy, a pionierki to obuwie typowo turystyczne.",
+      "explanation_correct": "Relaksy, produkowane w Nowym Targu, stały się rozpoznawalną marką obuwia zimowego.",
+      "explanation_incorrect": "Sofix to inna marka obuwia, a pionierki i trampki to inne rodzaje butów.",
       "last_verified_at": "2026-06-12T15:48:53.429Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gospodarstwo domowe",
-      "question": "Jak nazywał się popularny w PRL proszek do szorowania naczyń i urządzeń sanitarnych?",
+      "question": "Która marka proszku do prania była znana w Polsce w czasach PRL?",
       "options": [
         "Ixi",
-        "Pollena",
-        "Cypisek",
-        "E"
+        "Wikol",
+        "Pasta BHP",
+        "Atrament"
       ],
       "answer": "Ixi",
-      "explanation_correct": "Ixi był uniwersalnym środkiem czystości obecnym w niemal każdym polskim domu.",
-      "explanation_incorrect": "Pollena to nazwa zjednoczenia przemysłu chemicznego, a E i Cypisek to marki proszków do prania tkanin.",
+      "explanation_correct": "Ixi był proszkiem do prania, a nie proszkiem do szorowania naczyń.",
+      "explanation_incorrect": "Wikol jest klejem, pasta BHP służy do mycia rąk, a atrament do pisania.",
       "last_verified_at": "2026-06-12T15:48:53.430Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -160,37 +160,37 @@
     },
     {
       "subcategory": "Handel",
-      "question": "Jak nazywała się sieć sklepów, w których za towary importowane płacono walutami wymienialnymi lub bonami PeKaO?",
+      "question": "Jak nazywała się sieć sklepów Przedsiębiorstwa Eksportu Wewnętrznego, w których płacono walutami wymienialnymi lub bonami?",
       "options": [
         "Pewex",
-        "Baltona",
         "Moda Polska",
-        "Społem"
+        "Społem",
+        "Ruch"
       ],
       "answer": "Pewex",
       "explanation_correct": "Przedsiębiorstwo Eksportu Wewnętrznego (Pewex) oferowało towary niedostępne w zwykłych sklepach państwowych.",
-      "explanation_incorrect": "Baltona działała głównie w portach i na przejściach granicznych, a Społem to sieć zwykłych sklepów spółdzielczych.",
+      "explanation_incorrect": "Moda Polska zajmowała się odzieżą, Społem handlem spółdzielczym, a Ruch przede wszystkim dystrybucją prasy.",
       "last_verified_at": "2026-06-12T15:49:03.054Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Czas wolny",
-      "question": "Jaką nazwę nosiły najpopularniejsze tanie papierosy bez filtra produkowane w Polsce Ludowej?",
+      "question": "Jaką nazwę nosiła jedna ze znanych w PRL marek papierosów bez filtra?",
       "options": [
         "Popularne",
-        "Sporty",
-        "Extra Mocne",
-        "Klubowe"
+        "Wigry 3",
+        "Frania",
+        "Ptyś"
       ],
       "answer": "Popularne",
-      "explanation_correct": "Papierosy Popularne (wcześniej produkowane jako Sport) były najczęściej kupowanymi papierosami bez filtra w PRL.",
-      "explanation_incorrect": "Extra Mocne i Klubowe to inne znane marki, przy czym Klubowe występowały w wersji z filtrem i bez, ale to Popularne były synonimem taniego palenia.",
+      "explanation_correct": "Popularne były marką papierosów bez filtra sprzedawaną w PRL.",
+      "explanation_incorrect": "Wigry 3 to rower, Frania to pralka, a Ptyś to nazwa napoju.",
       "last_verified_at": "2026-06-12T15:49:43.810Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Technika domowa",
-      "question": "Jak nazywała się pierwsza polska elektryczna pralka wirnikowa, produkowana m.in. w Myszkowie i Kielcach?",
+      "question": "Jak nazywała się popularna w PRL pralka wirnikowa?",
       "options": [
         "Frania",
         "Luna",
@@ -199,13 +199,13 @@
       ],
       "answer": "Frania",
       "explanation_correct": "Pralka Frania była jednym z najważniejszych udogodnień w gospodarstwach domowych przed erą pralek automatycznych.",
-      "explanation_incorrect": "Luna i Diana to późniejsze modele pralek automatycznych, a Wiatka była importowana z ZSRR.",
+      "explanation_incorrect": "Luna i Diana to inne nazwy pralek, a Wiatka była marką radziecką.",
       "last_verified_at": "2026-06-12T15:49:03.054Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Turystyka",
-      "question": "Jak określano potocznie dofinansowanie do wypoczynku zorganizowanego przez zakład pracy, realizowanego często w prywatnych kwaterach?",
+      "question": "Jak potocznie nazywano dofinansowanie wypoczynku pracownika organizowanego we własnym zakresie?",
       "options": [
         "Wczasy pod gruszą",
         "Zielona szkoła",
@@ -220,7 +220,7 @@
     },
     {
       "subcategory": "Komunikacja miejska",
-      "question": "Pojazdy której węgierskiej marki zdominowały komunikację miejską w większości polskich miast w latach 80.?",
+      "question": "Która węgierska marka autobusów, m.in. modelu przegubowego 280, była obecna w komunikacji polskich miast?",
       "options": [
         "Ikarus",
         "Jelcz",
@@ -265,16 +265,16 @@
     },
     {
       "subcategory": "Handel i deficyt",
-      "question": "Jak oficjalnie nazywał się dokument reglamentacyjny uprawniający obywateli do zakupu mięsa, cukru czy masła?",
+      "question": "Jak potocznie nazywano dokument uprawniający do zakupu przydziału reglamentowanej żywności?",
       "options": [
         "Kartka żywnościowa",
-        "Bilet towarowy",
-        "Asygnata",
-        "Bon towarowy"
+        "Legitymacja szkolna",
+        "Bilet tramwajowy",
+        "Karta biblioteczna"
       ],
       "answer": "Kartka żywnościowa",
-      "explanation_correct": "System kartkowy wprowadzono w celu sprawiedliwego podziału deficytowych towarów na rynku.",
-      "explanation_incorrect": "Bony towarowe kojarzone są z Pewexem, a asygnaty stosowano głównie w przemyśle i rolnictwie.",
+      "explanation_correct": "Kartki żywnościowe służyły do reglamentowania wybranych towarów; szczegóły systemu zmieniały się w czasie.",
+      "explanation_incorrect": "Pozostałe dokumenty miały inne przeznaczenie.",
       "last_verified_at": "2026-06-12T15:49:03.056Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -460,7 +460,7 @@
     },
     {
       "subcategory": "Kosmetyki i higiena",
-      "question": "Który krem nawilżający w charakterystycznym niebieskim, metalowym pudełku był najczęściej spotykany w polskich łazienkach?",
+      "question": "Który krem pielęgnacyjny był znany z okrągłego niebieskiego metalowego pudełka?",
       "options": [
         "Pani Walewska",
         "Krem Nivea",
@@ -468,8 +468,8 @@
         "Krem Uroda"
       ],
       "answer": "Krem Nivea",
-      "explanation_correct": "Krem Nivea produkowany był w Polsce na licencji i stanowił podstawę pielęgnacji większości rodzin.",
-      "explanation_incorrect": "Pani Walewska to linia perfum i kosmetyków luksusowych, a Bambino dedykowano dzieciom.",
+      "explanation_correct": "Krem Nivea jest kojarzony z charakterystycznym niebieskim pudełkiem i był dostępny również w Polsce.",
+      "explanation_incorrect": "Pozostałe nazwy odnoszą się do innych kosmetyków lub marek.",
       "last_verified_at": "2026-06-12T15:49:03.060Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -498,38 +498,38 @@
         "Jonka, Jonek i Kleks"
       ],
       "answer": "Tytus, Romek i A’Tomek",
-      "explanation_correct": "Seria ta, licząca 31 ksiąg, opowiada o uczłowieczaniu szympansa Tytusa De Zoo przez harcerzy.",
+      "explanation_correct": "Seria opowiada m.in. o próbach uczłowieczenia szympansa Tytusa de Zoo przez harcerzy Romka i A’TOMKA.",
       "explanation_incorrect": "Kajko i Kokosz to komiks Janusza Christy, a Koziołek Matołek to postać Kornela Makuszyńskiego.",
       "last_verified_at": "2026-06-12T15:49:03.060Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Elektronika użytkowa",
-      "question": "Który z wymienionych magnetofonów szpulowych był jednym z najbardziej zaawansowanych urządzeń audio produkcji ZRK w PRL?",
+      "question": "Który z tych modeli był magnetofonem szpulowym produkowanym przez Zakłady Radiowe im. Kasprzaka?",
       "options": [
-        "Grundig",
-        "Kasprzak",
-        "ZRK Meluzyna",
-        "Unitra ZK-140"
+        "ZK-140",
+        "Meluzyna",
+        "Bambino",
+        "Frania"
       ],
-      "answer": "ZRK Meluzyna",
-      "explanation_correct": "ZRK Meluzyna (później Meluzyna-M) to kultowy zestaw radiowo-magnetofonowy wysokiej klasy.",
-      "explanation_incorrect": "Grundig był marką zagraniczną, a ZK-140 to magnetofon budżetowy produkowany masowo.",
+      "answer": "ZK-140",
+      "explanation_correct": "ZK-140 należał do rodziny magnetofonów szpulowych produkowanych w warszawskich Zakładach Radiowych im. Kasprzaka.",
+      "explanation_incorrect": "Meluzyna to nazwa sprzętu radiowego Diory, Bambino kojarzy się z gramofonem, a Frania z pralką.",
       "last_verified_at": "2026-06-12T15:49:03.060Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gastronomia",
-      "question": "Jak nazywa się deser w pucharku, który w PRL-owskich kawiarniach stanowił połączenie galaretki, owoców i bitej śmietany?",
+      "question": "Jak nazywał się deser z bitej śmietany, kakao i rodzynek, podawany w kawiarniach?",
       "options": [
         "Wuzetka",
-        "Ambrozja",
+        "Szarlotka",
         "Krem sułtański",
-        "Szarlotka"
+        "Sernik"
       ],
-      "answer": "Ambrozja",
-      "explanation_correct": "Ambrozja była obok kremu sułtańskiego jednym z najbardziej rozpoznawalnych deserów tamtej epoki.",
-      "explanation_incorrect": "Wuzetka to ciasto biszkoptowo-czekoladowe, nie deser w formie owocowej kompozycji.",
+      "answer": "Krem sułtański",
+      "explanation_correct": "Krem sułtański to deser przygotowywany z bitej śmietany, kakao i rodzynek, często podawany w pucharku.",
+      "explanation_incorrect": "Wuzetka, szarlotka i sernik to inne desery.",
       "last_verified_at": "2026-06-12T15:49:03.061Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -595,16 +595,16 @@
     },
     {
       "subcategory": "Prasa",
-      "question": "Który z wymienionych magazynów był najpopularniejszym tygodnikiem poradnikowym dla kobiet w epoce Polski Ludowej?",
+      "question": "Który tygodnik poradnikowy dla kobiet wydawano w Polsce już w okresie PRL?",
       "options": [
         "Kobieta i Życie",
-        "Zwierciadło",
         "Twój Styl",
-        "Przyjaciółka"
+        "Kropka TV",
+        "Świat Młodych"
       ],
       "answer": "Kobieta i Życie",
-      "explanation_correct": "Pismo to ukazywało się od 1946 roku i poruszało tematykę mody, zdrowia oraz prowadzenia domu.",
-      "explanation_incorrect": "Twój Styl to pismo wydawane dopiero po upadku PRL, od 1990 roku.",
+      "explanation_correct": "„Kobieta i Życie” poruszała m.in. tematykę życia społecznego, mody i prowadzenia domu.",
+      "explanation_incorrect": "Pozostałe tytuły różnią się tematyką lub okresem powstania.",
       "last_verified_at": "2026-06-12T15:49:03.062Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -670,16 +670,16 @@
     },
     {
       "subcategory": "Muzyka",
-      "question": "Który popularny radioodbiornik stołowy produkowany przez zakłady Unitra posiadał charakterystyczną drewnianą obudowę?",
+      "question": "Jak nazywał się produkowany przez Diorę odbiornik radiowy o nazwie oznaczającej także biały zimowy opad?",
       "options": [
-        "Unitra Śnieżka",
-        "Unitra Kasprzak",
-        "Unitra Radmor",
-        "Unitra Zodiak"
+        "Śnieżka",
+        "Kasprzak",
+        "Radmor",
+        "Zodiak"
       ],
-      "answer": "Unitra Śnieżka",
-      "explanation_correct": "Unitra Śnieżka była jednym z najpopularniejszych domowych odbiorników klasy popularnej w drewnopodobnej okleinie.",
-      "explanation_incorrect": "Kasprzak kojarzony jest głównie z magnetofonami, Radmor z Hi-Fi, a Zodiak to tuner wyższej klasy.",
+      "answer": "Śnieżka",
+      "explanation_correct": "Śnieżka to nazwa jednej z serii odbiorników radiowych produkowanych przez Diorę.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają białego zimowego opadu.",
       "last_verified_at": "2026-06-12T15:49:03.063Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -700,7 +700,7 @@
     },
     {
       "subcategory": "Kosmetyki",
-      "question": "Jakim mianem określano popularny w PRL kosmetyk do pielęgnacji włosów na bazie soku z drzewa?",
+      "question": "Jak nazywano znaną w PRL wodę kosmetyczną do włosów o nazwie nawiązującej do brzozy?",
       "options": [
         "Woda Brzozowa",
         "Woda Różana",
@@ -708,8 +708,8 @@
         "Woda Lawendowa"
       ],
       "answer": "Woda Brzozowa",
-      "explanation_correct": "Woda Brzozowa miała wzmacniać cebulki włosów, choć bywała też wykorzystywana jako zamiennik alkoholu konsumpcyjnego.",
-      "explanation_incorrect": "Woda różana i lawendowa to głównie zapachy, a pokrzywowa występowała częściej jako szampon.",
+      "explanation_correct": "Woda brzozowa to nazwa kosmetyku stosowanego do pielęgnacji skóry głowy i włosów.",
+      "explanation_incorrect": "Pozostałe nazwy nawiązują do innych roślin.",
       "last_verified_at": "2026-06-12T15:49:03.064Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -730,7 +730,7 @@
     },
     {
       "subcategory": "Artykuły spożywcze",
-      "question": "Jak potocznie nazywano gazowany napój sprzedawany bezpośrednio z saturatorów lub w charakterystycznych woreczkach foliowych?",
+      "question": "Jak nazywano gazowaną wodę sprzedawaną m.in. z ulicznych saturatorów?",
       "options": [
         "Woda syfonowa",
         "Woda sodowa",
@@ -738,14 +738,14 @@
         "Lemoniada"
       ],
       "answer": "Woda sodowa",
-      "explanation_correct": "Woda sodowa, nazywana 'gruźliczanką' w przypadku saturatorów, była podstawowym napojem chłodzącym w miastach.",
-      "explanation_incorrect": "Oranżada była napojem smakowym w butelkach, a syfony to urządzenia domowe.",
+      "explanation_correct": "W saturatorach podawano wodę gazowaną, samą albo z dodatkiem syropu.",
+      "explanation_incorrect": "Oranżada i lemoniada to napoje smakowe, a syfon jest urządzeniem do przygotowania wody gazowanej.",
       "last_verified_at": "2026-06-12T15:49:03.064Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Transport i motoryzacja",
-      "question": "Która marka motorowerów produkowanych w Bydgoszczy była najbardziej rozpoznawalnym jednośladem polskiej produkcji?",
+      "question": "Który polski motorower, produkowany w Bydgoszczy od lat 60., nosił nazwę owada?",
       "options": [
         "Romet Komar",
         "Romet Ogar",
@@ -754,7 +754,7 @@
       ],
       "answer": "Romet Komar",
       "explanation_correct": "Komar był produkowany od lat 60. i stał się ikoną polskiej motoryzacji dla młodzieży i dorosłych.",
-      "explanation_incorrect": "Simson i Jawa to marki odpowiednio z NRD i Czechosłowacji, a Ogar był nowszym modelem Rometa.",
+      "explanation_incorrect": "Ogar to inny model Rometa, a Simson i Jawa to marki zagraniczne.",
       "last_verified_at": "2026-06-12T15:49:03.065Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -775,7 +775,7 @@
     },
     {
       "subcategory": "Rozrywka domowa",
-      "question": "Jak nazywał się najpopularniejszy polski rzutnik do wyświetlania bajek na kliszach, produkowany przez Łódzkie Zakłady Kinotechniczne?",
+      "question": "Jak nazywał się polski rzutnik do wyświetlania bajek na taśmie filmowej?",
       "options": [
         "Ania",
         "Jacek",
@@ -783,8 +783,8 @@
         "Profil"
       ],
       "answer": "Ania",
-      "explanation_correct": "Rzutnik Ania był najpowszechniejszym urządzeniem tego typu, obecnym w niemal każdym domu z dziećmi w latach 70. i 80.",
-      "explanation_incorrect": "Jacek i Profil to inne modele projektorów, a Kajtek kojarzy się z mydłem dla dzieci, nie z optyką.",
+      "explanation_correct": "Ania to popularny rzutnik przeznaczony do oglądania bajek zapisanych na taśmie filmowej.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają tego modelu rzutnika.",
       "last_verified_at": "2026-06-12T15:49:43.810Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -805,7 +805,7 @@
     },
     {
       "subcategory": "Higiena",
-      "question": "Który produkt higieniczny o specyficznym zapachu, pozbawiony sztucznych barwników, był powszechnie stosowany do prania i mycia?",
+      "question": "Jak nazywano tradycyjne mydło używane zarówno do prania, jak i mycia?",
       "options": [
         "Mydło toaletowe",
         "Szare mydło",
@@ -813,14 +813,14 @@
         "Mydło Kajtek"
       ],
       "answer": "Szare mydło",
-      "explanation_correct": "Szare mydło (często marki Biały Jeleń) było hipoalergiczne i wielofunkcyjne, używane nawet do odkażania ran.",
-      "explanation_incorrect": "Mydło Fa było towarem luksusowym z Pewexu, a Kajtek było mydłem zapachowym dla dzieci.",
+      "explanation_correct": "Szare mydło stosowano m.in. do prania i mycia; jego skład może się różnić w zależności od produktu.",
+      "explanation_incorrect": "Pozostałe odpowiedzi odnoszą się do innych rodzajów lub marek mydła.",
       "last_verified_at": "2026-06-12T15:49:03.065Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zabawki",
-      "question": "Która niewielka, jednokolorowa figurka przedstawiająca żołnierza w różnych pozach bojowych była klasyczną zabawką dla chłopców?",
+      "question": "Jak nazywano figurki żołnierzy wykonane z tworzywa sztucznego, służące dzieciom do zabawy?",
       "options": [
         "Ołowiany żołnierzyk",
         "Plastikowy żołnierzyk",
@@ -829,7 +829,7 @@
       ],
       "answer": "Plastikowy żołnierzyk",
       "explanation_correct": "Plastikowe figurki sprzedawane w paczkach pozwalały na aranżowanie wielkich bitew na podłogach mieszkań.",
-      "explanation_incorrect": "Ołowiane żołnierzyki to zabawki sprzed II wojny światowej, a klockowe to domena późniejszych zestawów LEGO.",
+      "explanation_incorrect": "Żołnierzyki wykonywano również z innych materiałów; w pytaniu chodzi o tworzywo sztuczne.",
       "last_verified_at": "2026-06-12T15:49:03.066Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -880,22 +880,22 @@
     },
     {
       "subcategory": "Gospodarstwo domowe",
-      "question": "Jak nazywało się naczynie do gotowania mleka z podwójnymi ściankami wypełnionymi wodą i charakterystycznym gwizdkiem?",
+      "question": "Jak nazywa się garnek do gotowania mleka z podwójnymi ściankami wypełnianymi wodą i gwizdkiem?",
       "options": [
-        "Mlecznik",
         "Garnek z płaszczem wodnym",
         "Szybkowar",
-        "Kociołek"
+        "Patelnia",
+        "Durszlak"
       ],
       "answer": "Garnek z płaszczem wodnym",
-      "explanation_correct": "Garnek ten zapobiegał przypalaniu mleka i był powszechnym elementem wyposażenia kuchni w czasach przed mlekiem UHT.",
-      "explanation_incorrect": "Mlecznik to naczynie do serwowania, a szybkowar służy do gotowania pod wysokim ciśnieniem.",
+      "explanation_correct": "Woda w przestrzeni między ściankami ogrzewa mleko pośrednio, ograniczając ryzyko przypalenia.",
+      "explanation_incorrect": "Szybkowar gotuje pod zwiększonym ciśnieniem, patelnia służy m.in. do smażenia, a durszlak do odcedzania.",
       "last_verified_at": "2026-06-12T15:49:43.810Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Prasa dziecięca",
-      "question": "W jakim harcerskim czasopiśmie publikowane były przygody duetu Jonek, Kleks i Jonatan?",
+      "question": "W jakim czasopiśmie dla młodzieży ukazywały się przygody Jonki, Jonka i Kleksa?",
       "options": [
         "Miś",
         "Płomyczek",
@@ -904,22 +904,22 @@
       ],
       "answer": "Świat Młodych",
       "explanation_correct": "Świat Młodych był gazetą harcerską, na której ostatniej stronie regularnie drukowano polskie komiksy.",
-      "explanation_incorrect": "Miś był dla przedszkolaków, Płomyczek dla dzieci młodszych, a Relaks to antologia stripów komiksowych.",
+      "explanation_incorrect": "„Miś”, „Płomyczek” i „Relax” były innymi publikacjami dla młodych czytelników.",
       "last_verified_at": "2026-06-12T15:49:03.067Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kulinaria i napoje",
-      "question": "Jak nazywała się popularna w czasach PRL oranżada w proszku, którą dzieci często wyjadały palcem prosto z torebki?",
+      "question": "Jak nazywano musujący słodki proszek, sprzedawany w małych saszetkach i kojarzony z dzieciństwem w PRL?",
       "options": [
-        "Puchatek",
-        "Ptyś",
-        "Kaskada",
-        "Donald"
+        "Oranżada w proszku",
+        "Pasta do zębów",
+        "Proszek do prania",
+        "Mąka ziemniaczana"
       ],
-      "answer": "Puchatek",
-      "explanation_correct": "Puchatek był kultową oranżadą w proszku, produkowaną od lat 70., dostępną w charakterystycznych małych saszetkach.",
-      "explanation_incorrect": "Ptyś i Kaskada to napoje gazowane w butelkach, a Donald to marka gumy do żucia z historyjkami.",
+      "answer": "Oranżada w proszku",
+      "explanation_correct": "Oranżada w proszku była słodką mieszanką do przygotowania napoju, sprzedawaną w małych torebkach.",
+      "explanation_incorrect": "Pozostałe produkty miały inne przeznaczenie.",
       "last_verified_at": "2026-06-12T15:49:03.067Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -940,7 +940,7 @@
     },
     {
       "subcategory": "Ubiór i moda",
-      "question": "Jaką nazwę nosiły produkowane w Radomiu legendarne sportowe buty, które często posiadały charakterystyczne podeszwy i rzepy?",
+      "question": "Jak nazywała się marka obuwia sportowego i zimowego produkowanego przez firmę z Radomia?",
       "options": [
         "Relax",
         "Sofixy",
@@ -948,8 +948,8 @@
         "Trampki"
       ],
       "answer": "Sofixy",
-      "explanation_correct": "Sofixy były pierwszymi polskimi butami sportowymi zapinanymi na rzepy, produkowanymi przez zakłady w Radomiu.",
-      "explanation_incorrect": "Relax to słynne buty zimowe, Junak kojarzy się z motocyklami, a trampki to kategoria obuwia tekstylnego.",
+      "explanation_correct": "Firma Sofix powstała w Radomiu w 1983 roku; produkowała m.in. obuwie sportowe i kozaczki zapinane na rzepy.",
+      "explanation_incorrect": "Relaks to inna marka obuwia, Junak kojarzy się z motocyklami, a trampki to rodzaj butów.",
       "last_verified_at": "2026-06-12T15:49:03.067Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1030,16 +1030,16 @@
     },
     {
       "subcategory": "Kulinaria i napoje",
-      "question": "Jaki produkt tłuszczowy, sprzedawany w charakterystycznych kostkach owiniętych w papier, był roślinną alternatywą dla masła w kuchni PRL?",
+      "question": "Która z podanych nazw oznacza margarynę stosowaną jako zamiennik masła?",
       "options": [
         "Margaryna Mleczna",
-        "Masło Roślinne",
-        "Kama",
-        "Palma"
+        "Musztarda",
+        "Ocet",
+        "Kakao"
       ],
       "answer": "Margaryna Mleczna",
-      "explanation_correct": "Margaryna Mleczna była powszechnym zamiennikiem masła, używanym zarówno do smarowania pieczywa, jak i do pieczenia ciast.",
-      "explanation_incorrect": "Masło Roślinne w plastikowym kubku pojawiło się później, Palma była margaryną twardą, a Kama to produkt z lat 90.",
+      "explanation_correct": "Margaryna była używana do smarowania pieczywa i przygotowywania potraw.",
+      "explanation_incorrect": "Musztarda, ocet i kakao nie są margarynami.",
       "last_verified_at": "2026-06-12T15:49:03.069Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1105,31 +1105,31 @@
     },
     {
       "subcategory": "Ubiór i moda",
-      "question": "Jak nazywała się popularna w latach 70. tkanina poliestrowa, używana masowo do szycia garniturów, spodni i garsonek?",
+      "question": "Jak nazywano poliestrowy materiał odzieżowy popularny w Polsce w latach 70.?",
       "options": [
         "Bandaż",
-        "Bistora",
+        "Bistor",
         "Welur",
         "Flanela"
       ],
-      "answer": "Bistora",
-      "explanation_correct": "Bistora była dzianiną z poliestru teksturynowego, cenioną za to, że się nie gniotła, mimo że nie przepuszczała powietrza.",
-      "explanation_incorrect": "Flanela to tkanina bawełniana, a welur to materiał z okrywą włosową; bandaż to określenie medyczne.",
+      "answer": "Bistor",
+      "explanation_correct": "Bistor to polska nazwa handlowa tkaniny lub dzianiny z przędzy poliestrowej.",
+      "explanation_incorrect": "Welur i flanela oznaczają inne rodzaje materiału, a bandaż to wyrób opatrunkowy.",
       "last_verified_at": "2026-06-12T15:49:03.071Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przemysł spożywczy",
-      "question": "Jak nazywał się gazowany napój o smaku korzennym, produkowany w charakterystycznych butelkach z krachlą (zamknięciem na drut)?",
+      "question": "Która marka napoju gazowanego popularnego w PRL nosiła nazwę oznaczającą też spływ wody po progach?",
       "options": [
         "Kaskada",
-        "Ptyś",
-        "Cytrynada",
-        "Mazowszanka"
+        "Mazowszanka",
+        "Kawa Inka",
+        "Mleko"
       ],
       "answer": "Kaskada",
-      "explanation_correct": "Kaskada była jednym z najpopularniejszych napojów gazowanych, dostępnym w oszklonych butelkach o poj. 0,33 l.",
-      "explanation_incorrect": "Mazowszanka to woda mineralna, a Ptyś to napój pomarańczowy w dużych butelkach.",
+      "explanation_correct": "Kaskada była marką napoju gazowanego obecną na polskim rynku w czasach PRL.",
+      "explanation_incorrect": "Mazowszanka to woda mineralna, Inka jest napojem zbożowym, a mleko nie jest napojem gazowanym.",
       "last_verified_at": "2026-06-12T15:49:03.071Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1210,22 +1210,22 @@
     },
     {
       "subcategory": "Wzornictwo i moda",
-      "question": "Jak nazywało się popularne obuwie sportowe produkowane przez Wałbrzyskie Zakłady Przemysłu Lekkiego?",
+      "question": "Z jakim miastem kojarzona jest produkcja popularnych butów zimowych Relaks w PRL?",
       "options": [
-        "Tenisówki",
-        "Juniory",
-        "Relaksy",
-        "Pionierki"
+        "Nowy Targ",
+        "Gdańsk",
+        "Toruń",
+        "Szczecin"
       ],
-      "answer": "Juniory",
-      "explanation_correct": "Juniory były ikonicznym obuwiem sportowym z Wałbrzycha, charakteryzującym się gumową podeszwą.",
-      "explanation_incorrect": "Relaksy to buty zimowe z Nowego Targu, a pionierki to obuwie turystyczne.",
+      "answer": "Nowy Targ",
+      "explanation_correct": "Buty Relaks produkowano w Nowym Targu, w Nowotarskich Zakładach Przemysłu Skórzanego.",
+      "explanation_incorrect": "Pozostałe miasta nie są wskazanym ośrodkiem produkcji Relaksów.",
       "last_verified_at": "2026-06-12T15:49:03.072Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gastronomia",
-      "question": "Które państwowe przedsiębiorstwo zajmowało się prowadzeniem szerokiej sieci placówek gastronomicznych w PRL?",
+      "question": "Która spółdzielcza organizacja handlowa prowadziła również placówki gastronomiczne w PRL?",
       "options": [
         "Społem",
         "Pewex",
@@ -1233,14 +1233,14 @@
         "Ruch"
       ],
       "answer": "Społem",
-      "explanation_correct": "Powszechna Spółdzielnia Spożywców 'Społem' zarządzała barami mlecznymi, restauracjami oraz sklepami spożywczymi.",
-      "explanation_incorrect": "Pewex i Baltona zajmowały się handlem dewizowym, a Ruch dystrybucją prasy.",
+      "explanation_correct": "Spółdzielnie spożywców zrzeszone pod nazwą „Społem” prowadziły sklepy i placówki gastronomiczne.",
+      "explanation_incorrect": "Pewex i Baltona kojarzą się z handlem dewizowym, a Ruch z dystrybucją prasy.",
       "last_verified_at": "2026-06-12T15:49:03.073Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Literatura i prasa",
-      "question": "Jaki tytuł nosił popularny warszawski tygodnik satyryczny wydawany od 1935 do 1994 roku?",
+      "question": "Jaki tytuł nosił ilustrowany tygodnik satyryczny założony w Warszawie w 1935 roku?",
       "options": [
         "Przekrój",
         "Szpilki",
@@ -1248,38 +1248,38 @@
         "itd"
       ],
       "answer": "Szpilki",
-      "explanation_correct": "Szpilki były czołowym pismem satyrycznym, w którym publikowali najlepsi polscy rysownicy i humoryści.",
+      "explanation_correct": "„Szpilki” powstały w 1935 roku, po wojnie wznowiono je w Łodzi, a później ponownie wydawano w Warszawie.",
       "explanation_incorrect": "Przekrój był pismem społeczno-kulturalnym, a Kobieta i Życie poradnikiem dla kobiet.",
       "last_verified_at": "2026-06-12T15:49:03.073Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Szkolnictwo",
-      "question": "Jaki kolor tarczy szkolnej był przypisany uczniom szkół podstawowych?",
+      "question": "Co zwykle umieszczano na noszonej przez ucznia tarczy szkolnej?",
       "options": [
-        "Czerwona",
-        "Zielona",
-        "Niebieska",
-        "Żółta"
+        "Numer lub nazwę szkoły",
+        "Numer rejestracyjny samochodu",
+        "Wynik meczu",
+        "Cenę biletu"
       ],
-      "answer": "Niebieska",
-      "explanation_correct": "Uczniowie szkół podstawowych nosili niebieskie tarcze, zazwyczaj z numerem szkoły.",
-      "explanation_incorrect": "Czerwona tarcza była znakiem rozpoznawczym uczniów szkół średnich (liceów i techników).",
+      "answer": "Numer lub nazwę szkoły",
+      "explanation_correct": "Tarcze szkolne identyfikowały szkołę; ich wygląd i kolory mogły różnić się między szkołami.",
+      "explanation_incorrect": "Pozostałe dane nie były typową funkcją tarczy szkolnej.",
       "last_verified_at": "2026-06-12T15:49:03.073Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Elektronika",
-      "question": "Która marka gramofonu produkowanego przez łódzką Fonikę zdobyła miano kultowego sprzętu grającego?",
+      "question": "Który gramofon produkowany przez łódzką Fonikę nosił nazwę nawiązującą do włoskiego słowa oznaczającego dziecko?",
       "options": [
-        "Unitra",
         "Bambino",
-        "Artur",
-        "Daniel"
+        "Frania",
+        "Wigry 3",
+        "Relaks"
       ],
       "answer": "Bambino",
-      "explanation_correct": "Gramofon Bambino był najpopularniejszym odtwarzaczem płyt winylowych w polskich domach lat 60. i 70.",
-      "explanation_incorrect": "Unitra to nazwa całego zjednoczenia przemysłu, a Artur i Daniel to późniejsze modele gramofonów.",
+      "explanation_correct": "Bambino było nazwą popularnej serii przenośnych gramofonów Foniki.",
+      "explanation_incorrect": "Frania to pralka, Wigry 3 to rower, a Relaks to nazwa obuwia.",
       "last_verified_at": "2026-06-12T15:49:03.073Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1300,37 +1300,37 @@
     },
     {
       "subcategory": "Wyposażenie wnętrz",
-      "question": "Z jakiego syntetycznego materiału najczęściej wykonywano połyskujące zasłony i firany w epoce PRL?",
+      "question": "Które włókno syntetyczne znane pod polską nazwą Stilon wykorzystywano do wyrobu odzieży i tekstyliów?",
       "options": [
         "Barchan",
-        "Stylon",
+        "Stilon",
         "Flanela",
         "Sztruks"
       ],
-      "answer": "Stylon",
-      "explanation_correct": "Stylon (polska odmiana nylonu) był masowo wykorzystywany do produkcji tekstyliów domowych i odzieży.",
-      "explanation_incorrect": "Barchan i flanela to tkaniny bawełniane, a sztruks służył głównie do wyrobu spodni i marynarek.",
+      "answer": "Stilon",
+      "explanation_correct": "Stilon to polska nazwa handlowa włókna poliamidowego stosowanego m.in. w wyrobach tekstylnych.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają rodzaje tkanin.",
       "last_verified_at": "2026-06-12T15:49:03.074Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przemysł spożywczy",
-      "question": "Jaki gazowany napój sprzedawany w charakterystycznych butelkach z korkiem na drucie był symbolem festynów?",
+      "question": "Jak nazywano słodzony napój gazowany o smaku owocowym, sprzedawany m.in. w butelkach z zamknięciem pałąkowym?",
       "options": [
-        "Polo Cockta",
-        "Kaskada",
         "Oranżada",
-        "Ptysie"
+        "Kawa",
+        "Mleko",
+        "Herbata"
       ],
       "answer": "Oranżada",
-      "explanation_correct": "Oranżada była powszechnie dostępnym napojem, cenionym zwłaszcza w wersji 'z krachlą' (zamknięciem pałąkowym).",
-      "explanation_incorrect": "Polo Cockta pojawiła się później jako odpowiedź na colę, a Kaskada była marką lokalną.",
+      "explanation_correct": "Oranżada występowała w różnych smakach i opakowaniach, także w butelkach z zamknięciem pałąkowym.",
+      "explanation_incorrect": "Kawa, mleko i herbata nie są oranżadą.",
       "last_verified_at": "2026-06-12T15:49:03.074Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Rytuały społeczne",
-      "question": "Jaki gatunek kwiatów był obowiązkowym upominkiem wręczanym kobietom z okazji ich święta 8 marca?",
+      "question": "Który kwiat często kojarzy się z obchodami Dnia Kobiet w PRL?",
       "options": [
         "Tulipan",
         "Goździk",
@@ -1339,13 +1339,13 @@
       ],
       "answer": "Goździk",
       "explanation_correct": "Czerwony goździk, często wręczany w komplecie z paczką rajstop, stał się symbolem Dnia Kobiet w PRL.",
-      "explanation_incorrect": "Tulipany również bywały popularne, ale to goździk był kwiatem o najwyższym statusie 'urzędowym'.",
+      "explanation_incorrect": "Tulipany, róże i gerbery również wręczano jako kwiaty; goździk szczególnie utrwalił się w pamięci o obchodach w PRL.",
       "last_verified_at": "2026-06-12T15:49:03.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kosmetyki",
-      "question": "Pod jaką nazwą produkowane było słynne, hipoalergiczne mydło szare przez zakłady Pollena?",
+      "question": "Która marka szarego mydła nosi nazwę białego zwierzęcia z porożem?",
       "options": [
         "Biały Jeleń",
         "Luksja",
@@ -1353,8 +1353,8 @@
         "Jacek i Agatka"
       ],
       "answer": "Biały Jeleń",
-      "explanation_correct": "Biały Jeleń to kultowe mydło potasowe, cenione za brak sztucznych barwników i zapachów.",
-      "explanation_incorrect": "Luksja to marka późniejsza, a Fa pochodziła z importu (lub Pewexu).",
+      "explanation_correct": "Biały Jeleń jest marką mydła kojarzoną z tradycyjnym mydłem szarym; skład zależy od konkretnego produktu.",
+      "explanation_incorrect": "Pozostałe odpowiedzi są innymi nazwami kosmetyków.",
       "last_verified_at": "2026-06-12T15:49:03.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1375,22 +1375,22 @@
     },
     {
       "subcategory": "Elektronika domowa",
-      "question": "Który z wymienionych magnetofonów szpulowych był uznawany za najbardziej luksusowy i profesjonalny model Unitry?",
+      "question": "Jak nazywał się jeden z magnetofonów szpulowych produkowanych w Polsce pod marką Unitra?",
       "options": [
-        "ZK-140",
         "Koncert",
-        "Uwertura",
-        "Aria"
+        "Frania",
+        "Syrena",
+        "Kaskada"
       ],
       "answer": "Koncert",
-      "explanation_correct": "Magnetofon Koncert (M-551 S) był wysokiej klasy urządzeniem stereofonicznym, rzadko spotykanym w domach.",
-      "explanation_incorrect": "Seria ZK-140 była sprzętem popularnym i powszechnym, przeznaczonym dla masowego odbiorcy.",
+      "explanation_correct": "Koncert to nazwa jednego z polskich magnetofonów szpulowych.",
+      "explanation_incorrect": "Frania to pralka, Syrena to samochód, a Kaskada to nazwa napoju.",
       "last_verified_at": "2026-06-12T15:49:03.075Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przemysł motoryzacyjny",
-      "question": "Jak nazywał się najpopularniejszy polski samochód dostawczy produkowany w Lublinie?",
+      "question": "Jak nazywał się samochód dostawczy produkowany w Lublinie?",
       "options": [
         "Nysa",
         "Tarpan",
@@ -1405,7 +1405,7 @@
     },
     {
       "subcategory": "Artykuły spożywcze",
-      "question": "Pod jaką marką sprzedawano najpopularniejszy w Polsce rozpuszczalny substytut kawy z cykorii i zbóż?",
+      "question": "Która marka kawy zbożowej w rozpuszczalnej postaci była znana w Polsce od czasów PRL?",
       "options": [
         "Inka",
         "Anatol",
@@ -1414,13 +1414,13 @@
       ],
       "answer": "Inka",
       "explanation_correct": "Kawa zbożowa Inka, produkowana w Skawinie, zyskała miano flagowego napoju śniadaniowego.",
-      "explanation_incorrect": "Anatol to również kawa zbożowa, ale wprowadzona na rynek znacznie później w torebkach do parzenia.",
+      "explanation_incorrect": "Anatol to również marka kawy zbożowej, lecz pytanie dotyczy Inki w postaci rozpuszczalnej.",
       "last_verified_at": "2026-06-12T15:49:03.076Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Rozrywka dziecięca",
-      "question": "Który sympatyczny pies rasy mieszanej był bohaterem słynnej dobranocki ze studia w Bielsku-Białej?",
+      "question": "Który pies był bohaterem dobranocki realizowanej w Studiu Filmów Rysunkowych w Bielsku-Białej?",
       "options": [
         "Pikuś",
         "Reksio",
@@ -1434,17 +1434,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Moda i ubiór",
-      "question": "Jak nazywał się lekki materiał syntetyczny powszechnie stosowany do produkcji męskich koszul w latach 70.?",
+      "subcategory": "Komiksy",
+      "question": "Kto stworzył komiks „Jonka, Jonek i Kleks”, publikowany także w „Świecie Młodych”?",
       "options": [
-        "Welur",
-        "Bilon",
-        "Atłas",
-        "Gabardyna"
+        "Szarlota Pawel",
+        "Janusz Christa",
+        "Henryk Jerzy Chmielewski",
+        "Kornel Makuszyński"
       ],
-      "answer": "Bilon",
-      "explanation_correct": "Bilon był nazwą handlową tkaniny poliestrowej, z której szyto charakterystyczne, śliskie koszule.",
-      "explanation_incorrect": "Welur to materiał puszysty, a gabardyna to gęsta tkanina o ukośnym splocie, głównie na płaszcze.",
+      "answer": "Szarlota Pawel",
+      "explanation_correct": "Szarlota Pawel stworzyła serię o Jonce, Jonku i Kleksie, drukowaną m.in. w „Świecie Młodych”.",
+      "explanation_incorrect": "Christa stworzył m.in. Kajka i Kokosza, Chmielewski Tytusa, a Makuszyński współtworzył Koziołka Matołka.",
       "last_verified_at": "2026-06-12T15:49:03.076Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1465,16 +1465,16 @@
     },
     {
       "subcategory": "Wyposażenie wnętrz",
-      "question": "Wyroby której polskiej fabryki porcelany i kryształów były pożądaną ozdobą meblościanek?",
+      "question": "Która z tych miejscowości jest znana z produkcji porcelany?",
       "options": [
-        "Tułowice",
         "Ćmielów",
-        "Bolesławiec",
-        "Chodzież"
+        "Zakopane",
+        "Hel",
+        "Suwałki"
       ],
-      "answer": "Tułowice",
-      "explanation_correct": "Zakłady w Tułowicach słynęły z produkcji serwisów kawowych i naczyń dekoracyjnych o nowoczesnym designie.",
-      "explanation_incorrect": "Bolesławiec to kamionka, a Ćmielów słynął z porcelany figuralnej i luksusowej.",
+      "answer": "Ćmielów",
+      "explanation_correct": "Ćmielów jest znanym ośrodkiem produkcji polskiej porcelany, także dekoracyjnej.",
+      "explanation_incorrect": "Pozostałe miejscowości nie są ośrodkiem porcelanowym wskazanym w pytaniu.",
       "last_verified_at": "2026-06-12T15:49:03.077Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1495,16 +1495,16 @@
     },
     {
       "subcategory": "Handel i usługi",
-      "question": "Jak brzmiał skrót państwowego podmiotu zarządzającego Wojewódzkimi Przedsiębiorstwami Handlu Wewnętrznego?",
+      "question": "Co oznaczał skrót WPHW w handlu w okresie PRL?",
       "options": [
-        "WPHW",
-        "MHD",
-        "GS",
-        "PSS"
+        "Wojewódzkie Przedsiębiorstwo Handlu Wewnętrznego",
+        "Warszawski Punkt Handlu Wodą",
+        "Wojskowa Przychodnia Higieny Wsi",
+        "Wydział Prasowy Harcerzy Warszawy"
       ],
-      "answer": "WPHW",
-      "explanation_correct": "WPHW zarządzało dużymi domami towarowymi i sklepami meblowymi w poszczególnych województwach.",
-      "explanation_incorrect": "MHD to Miejski Handel Detaliczny, a GS to Gminna Spółdzielnia 'Samopomoc Chłopska'.",
+      "answer": "Wojewódzkie Przedsiębiorstwo Handlu Wewnętrznego",
+      "explanation_correct": "WPHW oznaczało Wojewódzkie Przedsiębiorstwo Handlu Wewnętrznego, prowadzące placówki handlowe na danym obszarze.",
+      "explanation_incorrect": "Pozostałe rozwinięcia nie odpowiadają temu skrótowi.",
       "last_verified_at": "2026-06-12T15:49:03.078Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }

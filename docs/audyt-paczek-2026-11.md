@@ -257,6 +257,8 @@ Przejrzano paczki `ponad_horyzont_pl`, `strategiczny_umys_pl`, `staroytny_rzym_p
 
 Przejrzano `teorie_spiskowe_i_zagadki_historii_pl`, rozróżniając hipotezy i legendy od ustaleń; [raport](audits/2026-11-09-teorie-spiskowe-i-zagadki-historii.md) podaje źródła.
 
+Przejrzano `uniwersum_wiedmina_pl`, `ycie_codzienne_pl` i `ycie_codzienne_w_prl_pl`; zakres oraz źródła są w raportach wskazanych w mapie pokrycia.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

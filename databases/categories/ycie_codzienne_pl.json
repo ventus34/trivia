@@ -2,7 +2,7 @@
   "id": "ycie_codzienne_pl",
   "name": "Życie codzienne",
   "language": "pl",
-  "description": "Pytania z zakresu: Kulinaria, Wzornictwo przemysłowe, Gospodarstwo domowe, Moda, Higiena, Napoje...",
+  "description": "Pytania o przedmioty codziennego użytku, gotowanie, ubrania, pielęgnację, rośliny i organizację czasu.",
   "created_at": "2026-06-12T15:49:44.442Z",
   "last_verified_at": "2026-06-12T15:49:43.807Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -40,7 +40,7 @@
     },
     {
       "subcategory": "Gospodarstwo domowe",
-      "question": "W którym roku Hubert Cecil Booth opatentował pierwszy skuteczny odkurzacz elektryczny?",
+      "question": "W którym roku Hubert Cecil Booth przedstawił duże urządzenie zasysające kurz przez wąż?",
       "options": [
         "1901",
         "1850",
@@ -48,8 +48,8 @@
         "1950"
       ],
       "answer": "1901",
-      "explanation_correct": "Booth stworzył potężną maszynę ssącą w 1901 roku, która zapoczątkowała erę mechanicznego sprzątania.",
-      "explanation_incorrect": "W 1850 nie było silników elektrycznych tego typu, a lata 1925 i 1950 to okresy popularyzacji, a nie wynalezienia.",
+      "explanation_correct": "W 1901 roku Booth zaprezentował duży odkurzacz ssący; pierwsze wersje nie były domowymi odkurzaczami elektrycznymi.",
+      "explanation_incorrect": "Pozostałe daty nie odpowiadają prezentacji urządzenia Bootha.",
       "last_verified_at": "2026-06-12T15:48:18.638Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -213,7 +213,7 @@
         "Lampa naftowa"
       ],
       "answer": "Świeca",
-      "explanation_correct": "Świeca działa poprzez spalanie oparów wosku, który pod wpływem ciepła knota przechodzi w stan ciekły.",
+      "explanation_correct": "Ciepło płomienia topi paliwo świecy. Ciekły materiał wędruje knotem, a jego pary spalają się w płomieniu.",
       "explanation_incorrect": "Lampa naftowa wykorzystuje paliwo płynne, a kaganek to otwarte naczynie z tłuszczem i knotem.",
       "last_verified_at": "2026-06-12T15:48:39.554Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -229,7 +229,7 @@
       ],
       "answer": "Konewka",
       "explanation_correct": "Konewka umożliwia precyzyjne dostarczenie wody bezpośrednio pod system korzeniowy rośliny.",
-      "explanation_incorrect": "Zraszacz dystrybuuje wodę automatycznie na dużej powierzchni, a opryskiwacz służy do ochrony roślin chemią.",
+      "explanation_incorrect": "Zraszacze rozprowadzają wodę w postaci kropli; opryskiwacze służą do rozpylania cieczy, także wody.",
       "last_verified_at": "2026-06-12T15:48:39.554Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -295,7 +295,7 @@
     },
     {
       "subcategory": "Przechowywanie żywności",
-      "question": "Która metoda konserwacji żywności polega na krótkotrwałym podgrzaniu produktu poniżej 100°C w celu zniszczenia drobnoustrojów chorobotwórczych?",
+      "question": "Która metoda konserwacji żywności polega na kontrolowanym ogrzewaniu, by ograniczyć liczbę chorobotwórczych i psujących ją drobnoustrojów?",
       "options": [
         "Liofilizacja",
         "Pasteryzacja",
@@ -303,7 +303,7 @@
         "Wędzenie"
       ],
       "answer": "Pasteryzacja",
-      "explanation_correct": "Pasteryzacja pozwala przedłużyć trwałość produktów takich jak mleko czy przetwory bez utraty większości wartości odżywczych.",
+      "explanation_correct": "Pasteryzacja stosuje określoną kombinację temperatury i czasu; zmniejsza liczbę drobnoustrojów, ale nie musi usuwać wszystkich form przetrwalnikowych.",
       "explanation_incorrect": "Liofilizacja to proces suszenia mrozem, a wędzenie wykorzystuje działanie dymu drzewnego.",
       "last_verified_at": "2026-06-12T15:48:39.556Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -378,7 +378,7 @@
         "Krypton"
       ],
       "answer": "Argon",
-      "explanation_correct": "Argon zapobiega utlenianiu się gorącego żarnika, co znacznie wydłuża żywotność żarówki.",
+      "explanation_correct": "W wielu żarówkach stosowano argon, często z dodatkiem azotu, aby ograniczyć parowanie rozgrzanego żarnika; gazowa mieszanina nie zawiera tlenu sprzyjającego utlenianiu.",
       "explanation_incorrect": "Neon stosuje się w lampach wyładowczych, a hel nie ma zastosowania jako gaz wypełniający żarówki powszechnego użytku.",
       "last_verified_at": "2026-06-12T15:48:39.557Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -408,7 +408,7 @@
         "Piaskowiec"
       ],
       "answer": "Szkliwo wulkaniczne",
-      "explanation_correct": "Pumeks to silnie porowate szkliwo wulkaniczne powstałe z pienistej lawy.",
+      "explanation_correct": "Pumeks to bardzo porowata skała wulkaniczna zawierająca szkliwo, powstała w wyniku gwałtownego odgazowania lawy.",
       "explanation_incorrect": "Wapień i piaskowiec to skały osadowe, które nie posiadają charakterystycznej pęcherzykowatej struktury pumeksu.",
       "last_verified_at": "2026-06-12T15:48:39.557Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -434,12 +434,12 @@
       "options": [
         "Szezlong",
         "Podnóżek",
-        "Pufa",
+        "Stół",
         "Ryczka"
       ],
       "answer": "Podnóżek",
-      "explanation_correct": "Podnóżek poprawia krążenie i komfort siedzenia poprzez odciażenie nóg użytkownika.",
-      "explanation_incorrect": "Szezlong to rodzaj leżanki, a pufa może służyć jako samodzielne siedzisko, niekoniecznie wspierające stopy.",
+      "explanation_correct": "Podnóżek to podpora przeznaczona do oparcia stóp podczas siedzenia.",
+      "explanation_incorrect": "Szezlong jest leżanką, stół służy jako powierzchnia robocza, a ryczka to niewielki stołek.",
       "last_verified_at": "2026-06-12T15:48:39.558Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -469,7 +469,7 @@
       ],
       "answer": "Rękawica Kessa",
       "explanation_correct": "Kessa wykonana jest z ziarnistej tkaniny, która skutecznie usuwa martwy naskórek.",
-      "explanation_incorrect": "Loofah to naturalna gąbka z owocu trufli egipskiej, niebędąca formą rękawicy tkanej.",
+      "explanation_incorrect": "Luffa to włóknista część wysuszonego owocu trukwy; kessa jest natomiast rękawicą służącą do złuszczania.",
       "last_verified_at": "2026-06-12T15:48:39.558Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -589,7 +589,7 @@
       ],
       "answer": "Żarnik wolframowy",
       "explanation_correct": "Wolfram ze względu na bardzo wysoką temperaturę topnienia jest idealnym materiałem na żarnik żarówki.",
-      "explanation_incorrect": "Grafit stosowano w pierwszych modelach żarówek Edisona, ale został wyparty przez trwalszy wolfram.",
+      "explanation_incorrect": "W pierwszych lampach Edisona używano zwęglonych włókien, a później upowszechniły się żarniki wolframowe.",
       "last_verified_at": "2026-06-12T15:48:39.560Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -610,22 +610,22 @@
     },
     {
       "subcategory": "Przechowywanie ubrań",
-      "question": "Która substancja organiczna jest tradycyjnie stosowana do odstraszania moli odzieżowych?",
+      "question": "Który aromatyczny węglowodór był używany w kulkach przeciw molom?",
       "options": [
-        "Kamfora",
+        "Kreda",
         "Naftalina",
         "Kalafonia",
         "Antracyt"
       ],
       "answer": "Naftalina",
-      "explanation_correct": "Naftalina to węglowodór aromatyczny o charakterystycznym zapachu, który działa toksycznie na mole i ich larwy.",
-      "explanation_incorrect": "Kamfora ma właściwości odstraszające, ale naftalina jest klasycznym środkiem przeciwmolowym; kalafonia służy do zwiększania tarcia, a antracyt to surowiec energetyczny.",
+      "explanation_correct": "Naftalen, zwany naftaliną, stosowano w środkach przeciwmolowych; jego pary są szkodliwe dla ludzi.",
+      "explanation_incorrect": "Kreda, kalafonia i antracyt nie są naftalenem.",
       "last_verified_at": "2026-06-12T15:48:39.561Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Przybory kuchenne",
-      "question": "Jak nazywa się moździerz o idealnie gładkiej powierzchni, najczęściej wykorzystywany do ucierania ziół i substancji w farmacji?",
+      "question": "Z jakiego materiału często wykonuje się laboratoryjny moździerz do rozcierania substancji?",
       "options": [
         "Moździerz mosiężny",
         "Moździerz granitowy",
@@ -633,8 +633,8 @@
         "Moździerz żeliwny"
       ],
       "answer": "Moździerz porcelanowy",
-      "explanation_correct": "Moździerz porcelanowy charakteryzuje się gładkością, co zapobiega wchłanianiu aromatów i ułatwia precyzyjne rozcieranie.",
-      "explanation_incorrect": "Moździerze granitowe i żeliwne mają porowatą strukturę, która utrudnia dokładne czyszczenie przy bardzo drobnym ucieraniu.",
+      "explanation_correct": "Moździerze porcelanowe służą do rozcierania substancji; ich wnętrze może być nieszkliwione i chropowate.",
+      "explanation_incorrect": "Moździerze wykonuje się również z innych materiałów, jednak porcelana jest często używana w laboratoriach.",
       "last_verified_at": "2026-06-12T15:48:39.561Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -760,7 +760,7 @@
     },
     {
       "subcategory": "Higiena jamy ustnej",
-      "question": "Jak nazywa się przyrząd do higieny jamy ustej, który czyści przestrzenie międzyzębowe za pomocą strumienia wody pod ciśnieniem?",
+      "question": "Jak nazywa się przyrząd do higieny jamy ustnej, który czyści przestrzenie międzyzębowe za pomocą strumienia wody pod ciśnieniem?",
       "options": [
         "Skaler",
         "Irygator",
@@ -777,7 +777,7 @@
       "subcategory": "Organizacja czasu",
       "question": "Który system planowania i organizacji czasu opiera się na ręcznym prowadzeniu notatek w punktowanym notesie?",
       "options": [
-        "Eishenhower Matrix",
+        "Eisenhower Matrix",
         "Kanban",
         "Bullet Journal",
         "Pomodoro"
@@ -829,7 +829,7 @@
       ],
       "answer": "Torf",
       "explanation_correct": "Jest to skała osadowa powszechnie stosowana w ogrodnictwie do poprawy struktury gleby.",
-      "explanation_incorrect": "Perlit i wermikulit są minerałami pochodzenia wulkanicznego, a nie roślinnego.",
+      "explanation_incorrect": "Perlit to spieniane szkliwo wulkaniczne, a wermikulit jest minerałem z grupy krzemianów; nie powstają z martwych roślin.",
       "last_verified_at": "2026-06-12T15:48:39.564Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -850,22 +850,22 @@
     },
     {
       "subcategory": "Oświetlenie",
-      "question": "Jak nazywa się osłona na lampę, która ogranicza jaskrawość źródła światła i kieruje jego strumień?",
+      "question": "Jak nazywa się dekoracyjna osłona lampy, często wykonana z tkaniny lub papieru, która rozprasza światło?",
       "options": [
         "Podbitka",
-        "Klosz",
+        "Włącznik",
         "Abażur",
         "Reflektor"
       ],
       "answer": "Abażur",
       "explanation_correct": "Abażur wykonuje się zazwyczaj z tkaniny lub papieru, aby zmiękczyć światło i nadać wnętrzu dekoracyjny charakter.",
-      "explanation_incorrect": "Klosz jest zazwyczaj szklany, a reflektor służy do skupiania i silnego odbijania światła w jednym kierunku.",
+      "explanation_incorrect": "Podbitka jest elementem wykończenia dachu, włącznik steruje obwodem, a reflektor kieruje światło.",
       "last_verified_at": "2026-06-12T15:48:39.565Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Chemia domowa",
-      "question": "Który naturalny minerał solny jest stosowany jako ekologiczna alternatywa dla tradycyjnych antyperspirantów?",
+      "question": "Która substancja mineralna bywa stosowana jako dezodorant w postaci kryształu?",
       "options": [
         "Kalcyt",
         "Ałun",
@@ -873,8 +873,8 @@
         "Gips"
       ],
       "answer": "Ałun",
-      "explanation_correct": "Ałun potasowy posiada właściwości ściągające i antybakteryjne, co pomaga w hamowaniu zapachu potu.",
-      "explanation_incorrect": "Talk absorbuje wilgoć, ale nie hamuje rozwoju bakterii tak skutecznie jak ałun; kalcyt i gips nie mają takich właściwości kosmetycznych.",
+      "explanation_correct": "Ałun potasowy bywa używany jako dezodorant; ograniczenie zapachu nie oznacza, że działa identycznie jak każdy antyperspirant.",
+      "explanation_incorrect": "Talk, kalcyt i gips są innymi minerałami i nie są ałunem potasowym.",
       "last_verified_at": "2026-06-12T15:48:39.565Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -949,7 +949,7 @@
       ],
       "answer": "Poliuretan",
       "explanation_correct": "Pianka poliuretanowa charakteryzuje się wysoką chłonnością i porowatością idealną do spieniania detergentów.",
-      "explanation_incorrect": "Polipropylen i polietylen są zazwyczaj twardsze, a polistyren to materiał sztywny kojarzony ze styropianem.",
+      "explanation_incorrect": "Polipropylen, polietylen i polistyren to inne tworzywa; ich właściwości zależą od postaci i sposobu wytworzenia.",
       "last_verified_at": "2026-06-12T15:48:39.566Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -978,14 +978,14 @@
         "Dezodorant do obuwia"
       ],
       "answer": "Impregnat hydrofobowy",
-      "explanation_correct": "Impregnaty hydrofobowe opierają się na technologii, która nie pozwala wodzie wsiąkać w głąb materiału.",
+      "explanation_correct": "Impregnat hydrofobowy zmniejsza zwilżanie i wsiąkanie wody, ale nie musi zapewniać całkowitej wodoodporności.",
       "explanation_incorrect": "Pozostałe preparaty służą do poprawy wyglądu estetycznego lub higieny wnętrza buta.",
       "last_verified_at": "2026-06-12T15:48:39.567Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Utrzymanie czystości",
-      "question": "Co stanowi bazowy składnik chemiczny tradycyjnego mydła szarego, odróżniający je od twardszych mydeł sodowych?",
+      "question": "Który rodzaj mydła tradycyjnie kojarzy się z miękkim mydłem szarym?",
       "options": [
         "Mydło litowe",
         "Mydło wapniowe",
@@ -993,7 +993,7 @@
         "Mydło potasowe"
       ],
       "answer": "Mydło potasowe",
-      "explanation_correct": "Mydło szare to w rzeczywistości mydło potasowe, które ma mazistą konsystencję i dobrze rozpuszcza się w wodzie.",
+      "explanation_correct": "Tradycyjne miękkie mydła szare wytwarzano jako mydła potasowe. Produkty sprzedawane dziś pod nazwą „szare mydło” mogą mieć różny skład.",
       "explanation_incorrect": "Mydła litowe i wapniowe są stosowane głównie jako smary techniczne, a nie środki higieniczne.",
       "last_verified_at": "2026-06-12T15:48:39.567Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1030,16 +1030,16 @@
     },
     {
       "subcategory": "Akcesoria piśmiennicze",
-      "question": "Co znajduje się na samym czubku stalówki wysokiej klasy pióra wiecznego, aby zapewnić gładkość pisania i odporność na ścieranie?",
+      "question": "Jaki odporny na ścieranie materiał spotyka się na końcówce stalówki pióra wiecznego?",
       "options": [
-        "Stal hartowana",
-        "Powłoka teflonowa",
-        "Irydowa kulka",
-        "Grafitowy rdzeń"
+        "Miękki grafit",
+        "Powłoka woskowa",
+        "Twardy stop metali",
+        "Karton"
       ],
-      "answer": "Irydowa kulka",
-      "explanation_correct": "Ziarenko irydu (lub stopu metali platynowych) chroni stalówkę przed zbyt szybkim zużyciem podczas tarcia o papier.",
-      "explanation_incorrect": "Sama stal jest zbyt miękka, by wytrzymać lata pisania, a teflon czy grafit nie nadają się do tego zastosowania.",
+      "answer": "Twardy stop metali",
+      "explanation_correct": "Końcówka stalówki bywa wykonana z twardego stopu metali; potoczna nazwa „irydowa” nie gwarantuje obecności irydu.",
+      "explanation_incorrect": "Grafit, wosk i karton nie są typowym trwałym materiałem końcówki stalówki.",
       "last_verified_at": "2026-06-12T15:48:39.568Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1060,7 +1060,7 @@
     },
     {
       "subcategory": "Pielęgnacja ciała",
-      "question": "Jak nazywa się produkt do oczyszczania twarzy wykonany z korzenia azjatyckiej rośliny, który staje się miękki po namoczeniu?",
+      "question": "Jak nazywa się produkt do oczyszczania twarzy wykonany z bulwy azjatyckiej rośliny, mięknący po namoczeniu?",
       "options": [
         "Gąbka Luffa",
         "Gąbka Konjac",
@@ -1068,8 +1068,8 @@
         "Gąbka celulozowa"
       ],
       "answer": "Gąbka Konjac",
-      "explanation_correct": "Gąbka Konjac pochodzi z bulwy byliny Amorphophallus konjac i posiada naturalne pH przyjazne dla skóry.",
-      "explanation_incorrect": "Luffa to wysuszony miąższ dyni egipskiej (szorstki), gąbka morska jest pochodzenia zwierzęcego, a celulozowa to produkt syntetyczny.",
+      "explanation_correct": "Gąbkę konjac wytwarza się z materiału pochodzącego z bulwy Amorphophallus konjac.",
+      "explanation_incorrect": "Luffa pochodzi z włóknistego owocu trukwy, gąbka morska jest pochodzenia zwierzęcego, a celulozową wytwarza się z celulozy.",
       "last_verified_at": "2026-06-12T15:48:39.569Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1128,7 +1128,7 @@
         "Len czesany"
       ],
       "answer": "Poliester techniczny",
-      "explanation_correct": "Poliester techniczny nie chłonie wilgoci, lecz odprowadza ją na zewnątrz dzięki specjalnej strukturze włókien.",
+      "explanation_correct": "Tkaniny poliestrowe mogą ułatwiać transport wilgoci na zewnętrzną powierzchnię; efekt zależy także od budowy materiału.",
       "explanation_incorrect": "Bawełna i len są włóknami naturalnymi, które nasiąkają potem, stając się ciężkimi i zimnymi podczas treningu.",
       "last_verified_at": "2026-06-12T15:48:39.570Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -1165,7 +1165,7 @@
     },
     {
       "subcategory": "Techniki kulinarne",
-      "question": "Jak nazywa się proces biologiczny i fizyczny polegający na wchłanianiu wody przez suche nasiona roślin strączkowych przed gotowaniem?",
+      "question": "Jak nazywa się fizyczny proces wchłaniania wody przez suche nasiona roślin strączkowych podczas moczenia?",
       "options": [
         "Fermentacja",
         "Pasteryzacja",
@@ -1210,7 +1210,7 @@
     },
     {
       "subcategory": "Zalegające odpadki",
-      "question": "Jak nazywa się proces tlenowego rozkładu materii organicznej przez mikroorganizmy?",
+      "question": "Jak nazywa się kontrolowany proces tlenowego rozkładu odpadów organicznych prowadzący do powstania kompostu?",
       "options": [
         "Kompostowanie",
         "Fermentacja",
@@ -1255,7 +1255,7 @@
     },
     {
       "subcategory": "Pielęgnacja roślin",
-      "question": "Jak określa się warstwę żwiru lub keramzytu na dnie doniczki ułatwiającą odpływ wody?",
+      "question": "Jak nazywa się odprowadzanie nadmiaru wody z podłoża lub pojemnika?",
       "options": [
         "Drenaż",
         "Substrat",
@@ -1263,8 +1263,8 @@
         "Podściółka"
       ],
       "answer": "Drenaż",
-      "explanation_correct": "Drenaż zapobiega gniciu korzeni poprzez umożliwienie swobodnego odpływu nadmiaru wody z rośliny.",
-      "explanation_incorrect": "Substrat to podłoże, mulcz chroni powierzchnię ziemi, a podściółka to warstwa izolacyjna.",
+      "explanation_correct": "Drenaż oznacza odprowadzanie nadmiaru wody; w doniczce ważne są przede wszystkim drożne otwory i odpowiednie podłoże.",
+      "explanation_incorrect": "Substrat to podłoże, a mulcz okrywa jego powierzchnię.",
       "last_verified_at": "2026-06-12T15:48:39.572Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1315,7 +1315,7 @@
     },
     {
       "subcategory": "Przechowywanie żywności",
-      "question": "Z jakiego typu szkła, charakteryzującego się niskim współczynnikiem rozszerzalności cieplnej, wykonuje się naczynia żaroodporne?",
+      "question": "Który rodzaj szkła znany jest z niskiej rozszerzalności cieplnej i bywa stosowany w naczyniach laboratoryjnych oraz żaroodpornych?",
       "options": [
         "Szkło borokrzemowe",
         "Szkło sodowe",
@@ -1323,8 +1323,8 @@
         "Szkło hartowane"
       ],
       "answer": "Szkło borokrzemowe",
-      "explanation_correct": "Szkło borokrzemowe zawiera trójtlenek boru, co czyni je odpornym na gwałtowne zmiany temperatury (szok termiczny).",
-      "explanation_incorrect": "Szkło sodowe pęka przy nagłych zmianach temperatur, a ołowiowe (kryształowe) jest stosowane głównie dekoracyjnie.",
+      "explanation_correct": "Szkło borokrzemowe ma małą rozszerzalność cieplną, dzięki czemu zwykle lepiej znosi zmiany temperatury; nie jest niezniszczalne.",
+      "explanation_incorrect": "Szkło ołowiowe ma inny skład, a hartowanie to metoda obróbki, nie skład chemiczny szkła.",
       "last_verified_at": "2026-06-12T15:48:39.573Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1360,7 +1360,7 @@
     },
     {
       "subcategory": "Kultura parzenia herbaty",
-      "question": "Pod jaką nazwą znany jest tradycyjny japoński imbryk wykonany z żeliwa?",
+      "question": "Jak nazywa się tradycyjny japoński żeliwny czajnik do podgrzewania wody?",
       "options": [
         "Tetsubin",
         "Gaiwan",
@@ -1390,16 +1390,16 @@
     },
     {
       "subcategory": "Krawiectwo domowe",
-      "question": "Jak określa się pas materiału naszywany na brzegi tkaniny w celu ochrony przed strzępieniem lub wzmocnienia szwu?",
+      "question": "Jak nazywa się taśma wszywana w newralgiczne miejsca odzieży, aby ustabilizować szew i ograniczyć jego rozciąganie?",
       "options": [
         "Tasiemka wzmacniająca",
-        "Lamówka",
+        "Koronka",
         "Kryza",
-        "Frezka"
+        "Falbana"
       ],
       "answer": "Tasiemka wzmacniająca",
       "explanation_correct": "Tasiemka wzmacniająca usztywnia brzegi i zapobiega rozciąganiu się materiału w newralgicznych miejscach.",
-      "explanation_incorrect": "Lamówka służy głównie wykończeniu ozdobnemu brzegów, a kryza to ozdobny kołnierz.",
+      "explanation_incorrect": "Koronka i falbana są elementami ozdobnymi, a kryza to rodzaj kołnierza.",
       "last_verified_at": "2026-06-12T15:48:39.574Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1450,16 +1450,16 @@
     },
     {
       "subcategory": "Serwowanie potraw",
-      "question": "Jak nazywa się specjalistyczna łyżka z półkolistym wgłębieniem służąca do formowania kulek z owoców lub warzyw?",
+      "question": "Jak nazywa się przyrząd służący do usuwania pestek z wiśni lub czereśni?",
       "options": [
         "Paryżanka",
         "Melonówka",
         "Gałkownica",
         "Drylownica"
       ],
-      "answer": "Paryżanka",
-      "explanation_correct": "Paryżanka, zwana też łyżką balijską, pozwala na tworzenie dekoracyjnych kulek z melonów, arbuzów czy ziemniaków.",
-      "explanation_incorrect": "Gałkownica służy do lodów, a drylownica usuwa pestki z owoców.",
+      "answer": "Drylownica",
+      "explanation_correct": "Drylownica wypycha pestkę z owocu, zachowując większość miąższu.",
+      "explanation_incorrect": "Paryżanka i melonówka służą do formowania kulek, a gałkownica często do porcjowania lodów.",
       "last_verified_at": "2026-06-12T15:48:39.575Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1488,8 +1488,8 @@
         "Serweta woskowa"
       ],
       "answer": "Woskowijka",
-      "explanation_correct": "Woskowijka wykorzystuje antybakteryjne właściwości wosku i pozwala żywności 'oddychać', przedłużając jej świeżość.",
-      "explanation_incorrect": "Pozostałe terminy są nazwami opisowymi, ale nie stanowią powszechnej nazwy handlowej tego produktu.",
+      "explanation_correct": "Woskowijka to materiał nasączony woskiem, używany wielokrotnie do przykrywania lub pakowania części żywności; należy stosować się do zaleceń producenta dotyczących czyszczenia i zastosowania.",
+      "explanation_incorrect": "Pozostałe propozycje nie są typową nazwą tego produktu.",
       "last_verified_at": "2026-06-12T15:48:39.576Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1499,11 +1499,11 @@
       "options": [
         "Fiszbina do kołnierzyka",
         "Stójka",
-        "Usztywniacz",
+        "Mankiet",
         "Wykładka"
       ],
       "answer": "Fiszbina do kołnierzyka",
-      "explanation_correct": "Dawniej wykonywane z kości wieloryba, obecnie najczęściej są to paski z tworzywa lub metalu.",
+      "explanation_correct": "Fiszbiny do kołnierzyka to wyjmowane lub wszywane usztywnienia; mogą być wykonane z tworzywa albo metalu.",
       "explanation_incorrect": "Stójka to pionowa część kołnierza, nie jest wyjmowanym elementem.",
       "last_verified_at": "2026-06-12T15:48:39.576Z",
       "verifying_model": "google/gemini-3-flash-preview"

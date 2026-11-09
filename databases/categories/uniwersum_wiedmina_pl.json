@@ -2,7 +2,7 @@
   "id": "uniwersum_wiedmina_pl",
   "name": "Uniwersum Wiedźmina",
   "language": "pl",
-  "description": "Pytania z zakresu: Geografia świata, Bestiariusz, Magia i Alchemia, Polityka, Postacie...",
+  "description": "Pytania o postacie, potwory, krainy i wydarzenia z książek Andrzeja Sapkowskiego oraz gier Wiedźmin; pytania dotyczące gier wskazują ich wersję.",
   "created_at": "2026-06-12T15:46:51.729Z",
   "last_verified_at": "2026-06-12T15:46:51.093Z",
   "verifying_model": "google/gemini-3-flash-preview",
@@ -18,8 +18,8 @@
         "Archipelag Cidaris"
       ],
       "answer": "Wyspy Skellige",
-      "explanation_correct": "Skellige to archipelag sześciu wysp rządzonych przez jarlów, znany z kultury morskiej inspirowanej wikingami.",
-      "explanation_incorrect": "Pozostałe opcje to inne lokacje morskie lub wyspy, które nie posiadają tak dominującej floty wojennej.",
+      "explanation_correct": "Skellige to archipelag wysp znany z żeglarstwa, wojowników i rządzących klanami jarlów.",
+      "explanation_incorrect": "Pozostałe nazwy nie określają tego archipelagu.",
       "last_verified_at": "2026-06-12T15:45:46.476Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -34,22 +34,22 @@
       ],
       "answer": "Emiel Regis",
       "explanation_correct": "Emiel Regis Rohellec Terzieff-Godefroy to wampir wyższy (cyrulik), który traktuje krew jak alkohol i całkowicie z niej zrezygnował.",
-      "explanation_incorrect": "Pozostałe postacie to inne wampiry występujące w sadze lub grach, które nie zachowują trwałej abstynencji.",
+      "explanation_incorrect": "Regis jest przyjacielem Geralta i deklaruje abstynencję; pozostałe postacie nie odpowiadają temu opisowi.",
       "last_verified_at": "2026-06-12T15:45:46.476Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Magia i Alchemia",
-      "question": "Jaka substancja jest kluczowym elementem niezbędnym do mutacji organizmu podczas Próby Traw?",
+      "question": "Jak nazywa się etap mutacji, podczas którego kandydatom na wiedźminów podaje się specjalne mieszanki?",
       "options": [
-        "Jaskółcze ziele",
-        "Mutageny",
-        "Biała Mewa",
-        "Dwimeryt"
+        "Próba Traw",
+        "Uczta Mewy",
+        "Noc Kupały",
+        "Zjazd na Thanedd"
       ],
-      "answer": "Mutageny",
-      "explanation_correct": "Mutageny to specyficzne składniki organiczne, które w połączeniu z eliksirami wprowadzają trwałe zmiany w genomie kandydata na wiedźmina.",
-      "explanation_incorrect": "Dwimeryt tłumi magię, Biała Mewa to baza do eliksirów, a Jaskółcze ziele to popularny składnik leczniczy.",
+      "answer": "Próba Traw",
+      "explanation_correct": "Próba Traw to niebezpieczny proces mutacji kandydatów na wiedźminów, z użyciem specjalnych mieszanek.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają wiedźmińskiej próby mutacyjnej.",
       "last_verified_at": "2026-06-12T15:45:46.476Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -100,7 +100,7 @@
     },
     {
       "subcategory": "Wiedźmińskie cechy",
-      "question": "Do której szkoły wiedźmińskiej należał Letho, główny antagonista w grze Wiedźmin 2: Zabójcy Królów?",
+      "question": "Do której szkoły wiedźmińskiej należy Letho w grze „Wiedźmin 2: Zabójcy Królów”?",
       "options": [
         "Szkoła Kota",
         "Szkoła Gryfa",
@@ -108,14 +108,14 @@
         "Szkoła Niedźwiedzia"
       ],
       "answer": "Szkoła Żmii",
-      "explanation_correct": "Letho z Gulety pochodził ze Szkoły Żmii, której siedzibą była warownia Gorthur Gvaed w Nilfgaardzie.",
-      "explanation_incorrect": "Geralt należy do Szkoły Wilka, Szkoła Kota słynie z zabójców, a Szkoła Gryfa z biegłości w magii znaków.",
+      "explanation_correct": "Letho z Gulety jest wiedźminem Szkoły Żmii.",
+      "explanation_incorrect": "Pozostałe odpowiedzi oznaczają inne szkoły wiedźmińskie.",
       "last_verified_at": "2026-06-12T15:45:46.477Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Zjawiska nadprzyrodzone",
-      "question": "Jaką nazwą określa się orszak upiornych jeźdźców, uważany przez elfy za grupę porywaczy zwanych Dearg Ruadhri?",
+      "question": "Jak nazywa się orszak upiornych jeźdźców określany w Starszej Mowie jako Dearg Ruadhri?",
       "options": [
         "Dziki Gon",
         "Czarne Zjawy",
@@ -123,14 +123,14 @@
         "Jeźdźcy Cienia"
       ],
       "answer": "Dziki Gon",
-      "explanation_correct": "Dziki Gon to elfy Aen Elle, którzy podróżują między światami w poszukiwaniu niewolników.",
-      "explanation_incorrect": "Pozostałe nazwy nie są kanonicznymi określeniami na grupę dowodzoną przez Eredina.",
+      "explanation_correct": "Dziki Gon, zwany też Czerwonymi Jeźdźcami, pojawia się zarówno w książkach, jak i grach; jego natura jest różnie przedstawiana w adaptacjach.",
+      "explanation_incorrect": "Pozostałe nazwy nie są tym określeniem Dzikiego Gonu.",
       "last_verified_at": "2026-06-12T15:45:46.477Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Roślinność",
-      "question": "Jaki unikalny kwiat o białych płatkach rośnie wyłącznie w miejscach, gdzie została przelana krew elfów?",
+      "question": "Który kwiat według legendy rośnie w Dol Blathanna i tam, gdzie przelano Starszą Krew?",
       "options": [
         "Feainnewedd",
         "Arenaria",
@@ -138,14 +138,14 @@
         "Tojad"
       ],
       "answer": "Feainnewedd",
-      "explanation_correct": "Feainnewedd (Słońce Dziecka) to rzadki kwiat rosnący m.in. w Dol Blathanna, miejscu związanym z krwią Starszego Ludu.",
-      "explanation_incorrect": "Arenaria i Han to zioła alchemiczne, a Tojad to roślina trująca występująca powszechnie.",
+      "explanation_correct": "Feainnewedd to rzadki kwiat związany w legendzie z Dol Blathanna oraz miejscami, gdzie przelano Starszą Krew.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają tego kwiatu.",
       "last_verified_at": "2026-06-12T15:45:46.477Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Historia świata",
-      "question": "Jak nazywa się kataklizmu sprzed 1500 lat, który doprowadził do przenikania się wymiarów i pojawienia się potworów oraz ludzi?",
+      "question": "Jak nazywa się kataklizm, który spowodował przenikanie się światów i pojawienie się na Kontynencie istot z innych sfer?",
       "options": [
         "Czas Pogardy",
         "Koniunkcja Sfer",
@@ -153,7 +153,7 @@
         "Dzień Białego Zimna"
       ],
       "answer": "Koniunkcja Sfer",
-      "explanation_correct": "Koniunkcja Sfer była kosmicznym zdarzeniem, które uwięziło na Kontynencie rasy i bestie z innych światów.",
+      "explanation_correct": "Koniunkcja Sfer była dawnym zdarzeniem, które połączyło światy i pozwoliło istotom z innych sfer trafić na Kontynent.",
       "explanation_incorrect": "Czas Pogardy to tytuł jednej z książek i okres wojenny, a pozostałe terminy nie opisują tego historycznego zjawiska.",
       "last_verified_at": "2026-06-12T15:45:46.477Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -174,23 +174,23 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Rycerstwo",
-      "question": "Z jakiej krainy geograficznej wywodził się rycerz Reinmar z Bielawy, postać epizodyczna wymieniona w Sadze?",
+      "subcategory": "Twórczość autora",
+      "question": "Jak nazywa się główny bohater „Trylogii husyckiej” Andrzeja Sapkowskiego?",
       "options": [
-        "Śląsk",
-        "Temeria",
-        "Redania",
-        "Kovir"
+        "Reinmar z Bielawy",
+        "Geralt z Rivii",
+        "Jaskier",
+        "Vilgefortz"
       ],
-      "answer": "Śląsk",
-      "explanation_correct": "To żartobliwe odniesienie Sapkowskiego do jego własnej twórczości (Trylogii Husyckiej), gdzie głównym bohaterem jest Reinmar z Bielawy.",
-      "explanation_incorrect": "Pozostałe odpowiedzi to królestwa Kontynentu, ale postać ta jest znana z osadzenia w historycznym Śląsku.",
+      "answer": "Reinmar z Bielawy",
+      "explanation_correct": "Reinmar z Bielawy, zwany Reynevanem, jest bohaterem odrębnej od wiedźmińskiej Trylogii husyckiej.",
+      "explanation_incorrect": "Pozostałe postacie występują w świecie wiedźmińskim.",
       "last_verified_at": "2026-06-12T15:46:01.682Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Gry i rozrywka",
-      "question": "Jak nazywa się popularna gra karciana, w którą z pasją grają krasnoludy, żołnierze oraz wiedźmini?",
+      "question": "Jak nazywa się gra karciana, w którą Geralt może grać w „Wiedźminie 3: Dziki Gon”?",
       "options": [
         "Gwint",
         "Wint",
@@ -198,8 +198,8 @@
         "Vrihedd"
       ],
       "answer": "Gwint",
-      "explanation_correct": "Gwint to strategiczna gra karciana, której krasnoludzki prototyp był znany jako bardzo skomplikowany system hazardowy.",
-      "explanation_incorrect": "Wint to istniejąca gra karciana, pozostałe nazwy są fikcyjne lub odnoszą się do innych elementów uniwersum.",
+      "explanation_correct": "Gwint to gra karciana obecna w „Wiedźminie 3”, później rozwinięta również jako samodzielna gra.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają tej gry karcianej.",
       "last_verified_at": "2026-06-12T15:46:01.682Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -220,7 +220,7 @@
     },
     {
       "subcategory": "Inspiracje literackie",
-      "question": "Która ze znanych baśni Hansa Christiana Andersena stanowiła główny fundament opowiadania 'Ziarno prawdy'?",
+      "question": "Do której baśni nawiązuje historia Nivellena z opowiadania „Ziarno prawdy”?",
       "options": [
         "Dziewczynka z zapałkami",
         "Piękna i Bestia",
@@ -228,8 +228,8 @@
         "Królowa Śniegu"
       ],
       "answer": "Piękna i Bestia",
-      "explanation_correct": "Opowiadanie o Nivellenie jest dekonstrukcją 'Pięknej i Bestii', gdzie klątwa zostaje przełamana w tragiczny sposób.",
-      "explanation_incorrect": "Andersen napisał wiele baśni, ale to motyw człowieka-bestii i miłości (lub jej braku) dominuje w tym tekście.",
+      "explanation_correct": "Historia Nivellena nawiązuje do motywów baśni „Piękna i Bestia”.",
+      "explanation_incorrect": "Pozostałe baśnie nie są wskazanym tu źródłem motywu człowieka przemienionego w bestię.",
       "last_verified_at": "2026-06-12T15:46:01.683Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -250,7 +250,7 @@
     },
     {
       "subcategory": "Alchemia",
-      "question": "Jak nazywa się najmocniejszy i najczystszy alkohol alchemiczny, stosowany jako doskonała baza do mikstur?",
+      "question": "Jak w grze „Wiedźmin 3: Dziki Gon” nazywa się mocny alkohol wykorzystywany do uzupełniania zapasów alchemicznych podczas medytacji?",
       "options": [
         "Alkahest",
         "Nilfgaardzka cytrynówka",
@@ -258,8 +258,8 @@
         "Mahakamski spirytus"
       ],
       "answer": "Alkahest",
-      "explanation_correct": "Alkahest to uniwersalny rozpuszczalnik alchemiczny, uznawany za bazę najwyższej jakości w rzemiośle wiedźmińskim.",
-      "explanation_incorrect": "Pozostałe alkohole to napoje konsumpcyjne lub bazy o niższej jakości alchemicznej.",
+      "explanation_correct": "Alkahest jest jednym z mocnych alkoholi wykorzystywanych w grze do uzupełniania przygotowanych przedmiotów alchemicznych.",
+      "explanation_incorrect": "Wskazanym w pytaniu alkoholem jest alkahest.",
       "last_verified_at": "2026-06-12T15:46:01.683Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -273,7 +273,7 @@
         "Oxenfurt"
       ],
       "answer": "Tretogor",
-      "explanation_correct": "Tretogor to siedziba dworu redańskiego, wybudowana na fundamentach dawnego elfiego miasta.",
+      "explanation_correct": "Tretogor jest stolicą Redanii i siedzibą jej władców.",
       "explanation_incorrect": "Wyzima to stolica Temerii, Novigrad jest wolnym miastem, a Oxenfurt to siedziba uniwersytetu.",
       "last_verified_at": "2026-06-12T15:46:01.683Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -289,7 +289,7 @@
       ],
       "answer": "Bruxa",
       "explanation_correct": "Bruxy to groźne wampiry, które w przeciwieństwie do wielu innych gatunków nie obawiają się światła dziennego i używają sonicznych ataków.",
-      "explanation_incorrect": "Alpy są blisko spokrewnione, ale słabsze, natomiast Ekimmy i Fledery to bezmyślne monstra wizualnie przypominające nietoperze.",
+      "explanation_incorrect": "Pozostałe nazwy oznaczają inne rodzaje wampirów, a wskazany opis odnosi się do bruxy.",
       "last_verified_at": "2026-06-12T15:46:51.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -340,7 +340,7 @@
     },
     {
       "subcategory": "Relikwie",
-      "question": "Który legendarny miecz srebrny został podarowany Geraltowi przez Panią Jeziora?",
+      "question": "Jak nazywa się miecz, który Geralt może otrzymać od Pani Jeziora w grach z serii „Wiedźmin”?",
       "options": [
         "Sihill",
         "Aerondight",
@@ -348,14 +348,14 @@
         "D’yaebl"
       ],
       "answer": "Aerondight",
-      "explanation_correct": "Aerondight to unikalny miecz, który Geralt otrzymuje od Pani Jeziora jako dowód rycerskich cnót (w I oraz III części gry).",
-      "explanation_incorrect": "Sihill i Gwyhyr to miecze krasnoludzkiej roboty, wykonane z doskonałej stali, a nie ze srebra.",
+      "explanation_correct": "Aerondight to srebrny miecz związany z Panią Jeziora; pojawia się w pierwszej grze oraz w dodatku „Krew i wino” do trzeciej.",
+      "explanation_incorrect": "Pozostałe nazwy nie są tym mieczem podarowanym przez Panią Jeziora.",
       "last_verified_at": "2026-06-12T15:46:51.091Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Pojęcia polityczne",
-      "question": "Jak nazywa się traktat kończący wielką wojnę Nilfgaardu z królestwami Północy?",
+      "question": "Jak nazywa się porozumienie pokojowe zawarte w Cintrze po drugiej wojnie Nilfgaardu z Północą?",
       "options": [
         "Pokój cintryjski",
         "Konwencja z Loc Muinne",
@@ -363,14 +363,14 @@
         "Traktat z Vergen"
       ],
       "answer": "Pokój cintryjski",
-      "explanation_correct": "Pokój cintryjski został podpisany w 1268 roku i przywracał granice sprzed wybuchu wielkiego konfliktu.",
-      "explanation_incorrect": "Loc Muinne było miejscem zjazdów czarodziejów, a nie głównym traktatem kończącym wojnę kontynentalną.",
+      "explanation_correct": "Pokój cintryjski zawarto po wojnie i bitwie pod Brenną; ustalał warunki pokoju między stronami.",
+      "explanation_incorrect": "Pozostałe nazwy nie określają wskazanego pokoju.",
       "last_verified_at": "2026-06-12T15:46:01.684Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Kulinaria i Roślinność",
-      "question": "Jaka roślina stanowi kluczowy składnik eliksiru Jaskółka, regenerującego żywotność wiedźmina?",
+      "question": "Jakie ziele jest składnikiem eliksiru Jaskółka w grze „Wiedźmin 3: Dziki Gon”?",
       "options": [
         "Psia pietruszka",
         "Wilczy aloes",
@@ -378,8 +378,8 @@
         "Tojad"
       ],
       "answer": "Jaskółcze ziele",
-      "explanation_correct": "Jaskółcze ziele jest podstawowym komponentem alchemicznym używanym do warzenia jaskółki.",
-      "explanation_incorrect": "Tojad i psia pietruszka to rośliny o właściwościach toksycznych, niewykorzystywane jako baza regeneracyjna.",
+      "explanation_correct": "W recepturze Jaskółki w grze „Wiedźmin 3” używa się m.in. jaskółczego ziela.",
+      "explanation_incorrect": "Pozostałe rośliny nie są wskazanym w tej recepturze zielem.",
       "last_verified_at": "2026-06-12T15:46:01.685Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -408,38 +408,38 @@
         "Gorthur Gvaed"
       ],
       "answer": "Kaer Morhen",
-      "explanation_correct": "Kaer Morhen, czyli Siedliszcze Starych Morza, to miejsce szkolenia i poddawania Próbie Traw wiedźminów szkoły wilka.",
-      "explanation_incorrect": "Kaer Seren to zniszczony zamek szkoły gryfa, a Gorthur Gvaed należał do szkoły żmii.",
+      "explanation_correct": "Kaer Morhen to stara warownia wiedźminów szkoły wilka, w której szkolono młodych adeptów.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają warowni szkoły wilka.",
       "last_verified_at": "2026-06-12T15:46:01.685Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Literatura wewnątrzświata",
-      "question": "Kto jest uznawany za autora wielotomowego dzieła naukowego pod tytułem 'Historia świata'?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się uczelnia, na której wykładał bard Jaskier?",
       "options": [
-        "Istredd z Aedd Gynvael",
-        "Linus Pitt",
-        "Roderick de Novembre",
-        "Ciccely de Winter"
+        "Uniwersytet w Oxenfurcie",
+        "Aretuza",
+        "Kaer Morhen",
+        "Zamek Stygga"
       ],
-      "answer": "Roderick de Novembre",
-      "explanation_correct": "Roderick de Novembre był wybitnym historykiem, cytowanym często w materiałach źródłowych sagi.",
-      "explanation_incorrect": "Istredd jest czarodziejem i archeologiem, natomiast Linus Pitt to biolog z Uniwersytetu Oxenfurckiego.",
+      "answer": "Uniwersytet w Oxenfurcie",
+      "explanation_correct": "Jaskier studiował i wykładał w Oxenfurcie.",
+      "explanation_incorrect": "Aretuza jest szkołą czarodziejek, a Kaer Morhen i Stygga są warowniami.",
       "last_verified_at": "2026-06-12T15:46:01.685Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Rasy Nie-ludzkie",
-      "question": "Jak brzmi nazwa partyzanckich oddziałów nieludzi walczących przeciwko dominacji ludzi na Północy?",
+      "question": "Jak po polsku nazywa się partyzanckie oddziały nieludzi określane jako Scoia’tael?",
       "options": [
         "Wiewiórki",
-        "Scoia'tael",
+        "Bractwo Czarodziejów",
         "Hanza",
         "Białe Róże"
       ],
-      "answer": "Scoia'tael",
-      "explanation_correct": "Scoia'tael oznacza w Starszej Mowie 'Wiewiórki' i odnosi się do elfich i krasnoludzkich bojowników.",
-      "explanation_incorrect": "Hanza to luźna grupa zbójców lub towarzyszy, a Biała Róża to nazwa zakonu rycerskiego.",
+      "answer": "Wiewiórki",
+      "explanation_correct": "Scoia’tael to w Starszej Mowie „Wiewiórki”: oddziały walczące m.in. przeciw dyskryminacji nieludzi.",
+      "explanation_incorrect": "Pozostałe nazwy nie są polskim tłumaczeniem Scoia’tael.",
       "last_verified_at": "2026-06-12T15:46:01.686Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -468,7 +468,7 @@
         "Kuroliszek"
       ],
       "answer": "Ghul",
-      "explanation_correct": "Ghule to potwory powstałe z martwych ciał lub pod wpływem magii, żywiące się ludzkim ścierwem.",
+      "explanation_correct": "Ghule to nekrofagi żerujące na zwłokach, często spotykane na cmentarzach i pobojowiskach.",
       "explanation_incorrect": "Zeugl to potwór żyjący w ściekach, a kuroliszek jest ornitodrakońskim drapieżnikiem, nie nekrofagiem.",
       "last_verified_at": "2026-06-12T15:46:01.686Z",
       "verifying_model": "google/gemini-3-flash-preview"
@@ -489,32 +489,32 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Relikwie i miecze",
-      "question": "Jak nazywa się uniwersalny znak ochronny oraz symbol bogini płodności i opieki?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się kapłanka Melitele, która prowadzi świątynię w Ellander?",
       "options": [
-        "Znak Melitele",
-        "Znak Axii",
-        "Amulet Bogini",
-        "Symbol Freyi"
+        "Nenneke",
+        "Calanthe",
+        "Ciri",
+        "Vesemir"
       ],
-      "answer": "Znak Melitele",
-      "explanation_correct": "Znak Melitele jest rozpoznawalnym symbolem kultu bogini-matki, otaczanej czcią w całym świecie wiedźmińskim.",
-      "explanation_incorrect": "Axii to wiedźmiński Znak wpływający na umysł, a Freya to bóstwo czczone wyłącznie na Skellige.",
+      "answer": "Nenneke",
+      "explanation_correct": "Nenneke jest przełożoną świątyni Melitele w Ellander i zna Geralta od dawna.",
+      "explanation_incorrect": "Pozostałe postacie nie kierują tą świątynią.",
       "last_verified_at": "2026-06-12T15:46:01.687Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Botanika i eliksiry",
-      "question": "Która roślina jest wymieniana jako unikalna baza lub istotny element przy sporządzaniu wiedźmińskich odwarów i mutagenów?",
+      "subcategory": "Alchemia",
+      "question": "Jak nazywa się czarodziejka, która wychowuje Ciri i jest ukochaną Geralta?",
       "options": [
-        "Han",
-        "Sewerotka",
-        "Rannogust",
-        "Biały mirt"
+        "Yennefer",
+        "Calanthe",
+        "Nenneke",
+        "Milva"
       ],
-      "answer": "Sewerotka",
-      "explanation_correct": "Sewerotka to rzadka roślina wykorzystywana w procesach alchemicznych specyficznych dla wiedźmińskiego cechu.",
-      "explanation_incorrect": "Han i biały mirt to popularne zioła, ale to sewerotka jest ściśle związana z procesami mutacji.",
+      "answer": "Yennefer",
+      "explanation_correct": "Yennefer z Vengerbergu jest czarodziejką i przybraną matką Ciri.",
+      "explanation_incorrect": "Pozostałe postacie nie są Yennefer.",
       "last_verified_at": "2026-06-12T15:46:01.687Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -535,7 +535,7 @@
     },
     {
       "subcategory": "Postacie poboczne",
-      "question": "Jak nazywa się charyzmatyczny krasnolud, jeden z najbliższych przyjaciół Geralta, znany ze swojej gadatliwości i topora?",
+      "question": "Który krasnolud spotyka Geralta i Jaskra podczas wojennej wędrówki i opiekuje się papugą Feldą?",
       "options": [
         "Yarpen Zigrin",
         "Barclay Els",
@@ -543,8 +543,8 @@
         "Dennis Cranmer"
       ],
       "answer": "Zoltan Chivay",
-      "explanation_correct": "Zoltan Chivay to krasnoludzki najemnik, który wielokrotnie towarzyszył Geraltowi w jego wędrówkach.",
-      "explanation_incorrect": "Yarpen Zigrin to również przyjaciel Geralta, jednak to Zoltan jest postacią częściej występującą u boku wiedźmina.",
+      "explanation_correct": "Zoltan Chivay to krasnolud, który zaprzyjaźnia się z Geraltem i podróżuje z papugą Feldą.",
+      "explanation_incorrect": "Pozostali są innymi krasnoludami z wiedźmińskich opowieści.",
       "last_verified_at": "2026-06-12T15:46:01.687Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -580,7 +580,7 @@
     },
     {
       "subcategory": "System monetarny",
-      "question": "Jaką nazwę noszą monety będące oficjalną walutą w Królestwie Temerii, którym rządził król Foltest?",
+      "question": "Jak w grach z serii „Wiedźmin” nazywa się temerska moneta?",
       "options": [
         "Korona",
         "Oren",
@@ -588,8 +588,8 @@
         "Linardy"
       ],
       "answer": "Oren",
-      "explanation_correct": "Oren temerski jest jedną z głównych jednostek płatniczych obok redańskiej korony i nilfgaardzkiego florena.",
-      "explanation_incorrect": "Korona obowiązuje głównie w Redanii, natomiast floren to waluta Cesarstwa Nilfgaardu.",
+      "explanation_correct": "Oren jest temerską monetą występującą w grach wiedźmińskich.",
+      "explanation_incorrect": "Pozostałe nazwy nie są nazwą tej monety.",
       "last_verified_at": "2026-06-12T15:46:01.688Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -609,17 +609,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Alchemia",
-      "question": "Jaką nazwę nosi w alchemii substancja określana mianem smoczej krwi?",
+      "subcategory": "Postacie",
+      "question": "Jak ma na imię przybrana córka Geralta, księżniczka Cintry?",
       "options": [
-        "Biały ocet",
-        "Czerwona siarka",
-        "Niebieski witriol",
-        "Czarny proszek"
+        "Ciri",
+        "Triss",
+        "Shani",
+        "Milva"
       ],
-      "answer": "Czerwona siarka",
-      "explanation_correct": "Czerwona siarka to rzadki składnik alchemiczny, który w uniwersum Sapkowskiego jest poetycko nazywany smoczą krwią.",
-      "explanation_incorrect": "Biały ocet czy niebieski witriol to powszechne odczynniki, które nie posiadają tak unikalnego przydomka w traktatach alchemicznych.",
+      "answer": "Ciri",
+      "explanation_correct": "Cirilla Fiona Elen Riannon, zwana Ciri, jest złączona z Geraltem przeznaczeniem.",
+      "explanation_incorrect": "Triss, Shani i Milva to inne postacie.",
       "last_verified_at": "2026-06-12T15:46:01.689Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -634,7 +634,7 @@
       ],
       "answer": "Próba Traw",
       "explanation_correct": "Próba Traw to najbardziej morderczy etap szkolenia, polegający na zmianie metabolizmu za pomocą eliksirów ziołowych.",
-      "explanation_incorrect": "Próba Marzeń jest etapem rzadziej wspominanym i mniej inwazyjnym biologicznie niż Próba Traw.",
+      "explanation_incorrect": "Próba Traw jest wskazanym w pytaniu etapem mutacji; pozostałe nazwy go nie określają.",
       "last_verified_at": "2026-06-12T15:46:01.689Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -655,7 +655,7 @@
     },
     {
       "subcategory": "Kryptozoologia",
-      "question": "Który gatunek smoków posiada unikalną zdolność polimorfii, pozwalającą na przybranie dowolnej postaci?",
+      "question": "Jakiego koloru jest smok Villentretenmerth w opowiadaniu „Granica możliwości”?",
       "options": [
         "Zielony smok",
         "Złoty smok",
@@ -663,8 +663,8 @@
         "Czerwony smok"
       ],
       "answer": "Złoty smok",
-      "explanation_correct": "Złote smoki to legendarne istoty potrafiące imitować wygląd ludzi oraz innych zwierząt.",
-      "explanation_incorrect": "Pozostałe kolory smoków to gatunki klasyczne, które nie wykazują zdolności do zmiany kształtu w istoty humanoidalne.",
+      "explanation_correct": "Villentretenmerth, znany także jako Borch Trzy Kawki, jest złotym smokiem umiejącym przyjąć ludzką postać.",
+      "explanation_incorrect": "Pozostałe kolory nie opisują Villentretenmertha.",
       "last_verified_at": "2026-06-12T15:46:01.689Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -700,7 +700,7 @@
     },
     {
       "subcategory": "Geografia",
-      "question": "Która czarodziejka pełniła funkcję doradczyni króla Vizimira II i była faktyczną przywódczynią Rady i Kapituły?",
+      "question": "Która czarodziejka doradzała królowi Redanii Vizimirowi II i współtworzyła Lożę Czarodziejek?",
       "options": [
         "Yennefer z Vengerbergu",
         "Philippa Eilhart",
@@ -715,7 +715,7 @@
     },
     {
       "subcategory": "Magia i Alchemia",
-      "question": "Jak nazywa się urządzenie magiczne wykorzystywane przez czarodziejów do projekcji obrazu i komunikacji?",
+      "question": "Jak nazywa się magiczny aparat służący czarodziejom do kontaktu na odległość i wyświetlania obrazu?",
       "options": [
         "Amulet",
         "Megaskop",
@@ -724,7 +724,7 @@
       ],
       "answer": "Megaskop",
       "explanation_correct": "Megaskop to skomplikowana aparatura służąca do dalekowidzenia i teleportacji obrazu za pomocą kryształów.",
-      "explanation_incorrect": "Filakteria służą do przechowywania dusz lub energii, a kryształowe kule to prostsze rekwizyty wróżbiarskie.",
+      "explanation_incorrect": "Megaskop to nazwa wskazanego aparatu; pozostałe przedmioty nie są tym urządzeniem.",
       "last_verified_at": "2026-06-12T15:46:01.690Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -744,23 +744,23 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Historia świata",
-      "question": "Jaka nazwa została nadana największemu okrętowi wojennemu w cesarskiej flocie Nilfgaardu?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się ukochany koń Geralta, a właściwie wiele kolejnych klaczy noszących to samo imię?",
       "options": [
-        "Czarna Gwiazda",
-        "Złota najeźdźczyni",
-        "Cesarski Płomień",
-        "Duma Alby"
+        "Płotka",
+        "Kelpie",
+        "Pegaz",
+        "Wicher"
       ],
-      "answer": "Złota najeźdźczyni",
-      "explanation_correct": "Złota najeźdźczyni to flagowiec Nilfgaardu, biorący udział w kluczowych operacjach morskich podczas wojen z Północą.",
-      "explanation_incorrect": "Nazwy takie jak Cesarski Płomień są wymyślone i nie występują w kronikach opisujących flotę z południa.",
+      "answer": "Płotka",
+      "explanation_correct": "Geralt nazywa kolejne swoje klacze Płotką.",
+      "explanation_incorrect": "Kelpie jest klaczą Ciri; pozostałe nazwy nie są stałym imieniem koni Geralta.",
       "last_verified_at": "2026-06-12T15:46:01.691Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Rzemiosło wiedźmińskie",
-      "question": "Którego znaku używa wiedźmin, aby wytworzyć wokół siebie aktywną tarczę chroniącą przed ciosami?",
+      "question": "Którego Znaku używa Geralt w grach, aby wytworzyć ochronną tarczę?",
       "options": [
         "Heliotrop",
         "Yrden",
@@ -768,8 +768,8 @@
         "Somne"
       ],
       "answer": "Quen",
-      "explanation_correct": "Znak Quen tworzy barierę ochronną, która absorbuje obrażenia fizyczne i magiczne skierowane w wiedźmina.",
-      "explanation_incorrect": "Heliotrop służy do tłumienia nagłych uderzeń magii, podczas gdy Quen jest statyczną osłoną.",
+      "explanation_correct": "Quen tworzy w grach wiedźmińskich barierę ochronną.",
+      "explanation_incorrect": "Yrden tworzy magiczną pułapkę; pozostałe nazwy nie oznaczają tej tarczy.",
       "last_verified_at": "2026-06-12T15:46:01.691Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -784,7 +784,7 @@
       ],
       "answer": "Tojad",
       "explanation_correct": "Tojad (Aconitum) to silnie trująca roślina, z której wiedźmini pozyskują substancje do walki z potworami.",
-      "explanation_incorrect": "Jaskółcze ziele posiada właściwości lecznicze, co stoi w sprzeczności z toksyczną naturą tojadu.",
+      "explanation_incorrect": "Tojad jest silnie trujący. Jaskółcze ziele również jest rośliną zawierającą związki toksyczne; pozostałe nazwy nie określają tojadu.",
       "last_verified_at": "2026-06-12T15:46:01.691Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -799,7 +799,7 @@
       ],
       "answer": "Srebrne lilie",
       "explanation_correct": "Herb Temerii to czarna tarcza usiana srebrnymi liliami, co nawiązuje do rzeczywistej symboliki francuskiej.",
-      "explanation_incorrect": "Złoty lew to symbol Cintry, a czarny orzeł kojarzony jest z herbem Redanii.",
+      "explanation_incorrect": "Złoty lew kojarzony jest z Cintrą; orzeł Redanii jest biały na czerwonym tle.",
       "last_verified_at": "2026-06-12T15:46:01.691Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -834,32 +834,32 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Legendy",
-      "question": "Jaki tytuł nosi najsłynniejsza ballada Jaskra opowiadająca o skomplikowanej relacji Geralta i Yennefer?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się bard i bliski przyjaciel Geralta, autor licznych ballad?",
       "options": [
-        "Koniec świata",
-        "Gwiazdy nad traktem",
-        "Czas pogardy",
-        "Wieczny ogień"
+        "Jaskier",
+        "Cahir",
+        "Vesemir",
+        "Milva"
       ],
-      "answer": "Gwiazdy nad traktem",
-      "explanation_correct": "To właśnie ta ballada stała się symbolem tragicznej i pięknej miłości wiedźmina i czarodziejki w oczach słuchaczy.",
-      "explanation_incorrect": "Czas pogardy to tytuł powieści opisującej dzieje polityczne, a nie utwór liryczny Jaskra.",
+      "answer": "Jaskier",
+      "explanation_correct": "Jaskier, czyli Julian Alfred Pankratz, jest poetą i przyjacielem Geralta.",
+      "explanation_incorrect": "Cahir, Vesemir i Milva nie są bardem Jaskrem.",
       "last_verified_at": "2026-06-12T15:46:01.692Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Bestiariusz",
-      "question": "Który z wymienionych potworów charakteryzuje się owadzią budową ciała i poluje przy pomocy lepkich sieci?",
+      "question": "Jak nazywa się potwór, którego Geralt odczarowuje w opowiadaniu „Wiedźmin”?",
       "options": [
-        "Krabopająk",
-        "Kikimora",
-        "Skolopendromorf",
-        "Endriaga"
+        "Strzyga",
+        "Doppler",
+        "Smok",
+        "Dżin"
       ],
-      "answer": "Krabopająk",
-      "explanation_correct": "Krabopająki to potężne stawonogi, które mimo swej nazwy budową przypominają hybrydę kraba i pajęczaka.",
-      "explanation_incorrect": "Kikimory żyją głównie na bagnach, a endriagi to leśne insektoidy żyjące w koloniach.",
+      "answer": "Strzyga",
+      "explanation_correct": "Strzygą okazuje się królewna Adda, córka Foltesta.",
+      "explanation_incorrect": "Pozostałe stworzenia nie są zaklętą królewną w tym opowiadaniu.",
       "last_verified_at": "2026-06-12T15:46:01.693Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -880,7 +880,7 @@
     },
     {
       "subcategory": "Magia",
-      "question": "Który materiał ma zdolność całkowitego tłumienia zdolności magicznych u osób z nim skontaktowanych?",
+      "question": "Jak nazywa się metal używany do wyrobu kajdan utrudniających czarodziejom korzystanie z magii?",
       "options": [
         "Meteorytowa stal",
         "Dwimeryt",
@@ -888,14 +888,14 @@
         "Ciemne żelazo"
       ],
       "answer": "Dwimeryt",
-      "explanation_correct": "Dwimeryt to metal rzadki, z którego wyrabia się kajdany dla czarodziejów, uniemożliwiające rzucanie zaklęć.",
-      "explanation_incorrect": "Srebro jest zabójcze dla potworów, ale nie wpływa na przepływ mocy magicznej u ludzi.",
+      "explanation_correct": "Dwimeryt tłumi magię i służy m.in. do wyrobu kajdan dla czarodziejów.",
+      "explanation_incorrect": "Pozostałe materiały nie są wskazanym metalem tłumiącym magię.",
       "last_verified_at": "2026-06-12T15:46:01.693Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Postacie historyczne",
-      "question": "Z którą historyczną postacią, znaną z krwawego buntu, często mylona lub utożsamiana jest Ciri przez podobieństwo imion i przeznaczenie?",
+      "question": "Jakie imię przyjmuje Ciri podczas pobytu w bandzie Szczurów?",
       "options": [
         "Lara Dorren",
         "Falka",
@@ -903,38 +903,38 @@
         "Adela"
       ],
       "answer": "Falka",
-      "explanation_correct": "Falka była wyklętą księżniczką redańską, a Ciri podczas pobytu u Szczurów przyjęła jej imię jako swój pseudonim.",
-      "explanation_incorrect": "Lara Dorren to przodkini Ciri, ale nie była ona wiedźminką ani buntowniczką w takim sensie jak Falka.",
+      "explanation_correct": "Ciri przyjmuje imię Falka, nawiązujące do legendarnej buntowniczki.",
+      "explanation_incorrect": "Pozostałe imiona nie są tym pseudonimem Ciri.",
       "last_verified_at": "2026-06-12T15:46:01.693Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Zakony i religie",
-      "question": "Jak nazywa się najważniejsza bogini czczona przez mieszkańców Wysp Skellige?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się władczyni driad z Brokilonu?",
       "options": [
-        "Melitele",
-        "Modron Freya",
-        "Lilvani",
-        "Coram Agh Tera"
+        "Eithné",
+        "Calanthe",
+        "Margarita",
+        "Pavetta"
       ],
-      "answer": "Modron Freya",
-      "explanation_correct": "Modron Freya, nazywana Wielką Matką, jest głównym bóstwem w panteonie Skellige, patronką miłości i płodności.",
-      "explanation_incorrect": "Melitele jest czczona głównie na kontynencie, a Lilvani i Coram Agh Tera to bóstwa niszowe lub zapomniane.",
+      "answer": "Eithné",
+      "explanation_correct": "Eithné jest panią Brokilonu i przewodzi driadom.",
+      "explanation_incorrect": "Pozostałe postacie nie są władczynią Brokilonu.",
       "last_verified_at": "2026-06-12T15:46:01.694Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Magia i nauka",
-      "question": "Jak w terminologii magicznej określa się zjawisko braku odporności na magię przy jednoczesnym braku zdolności rzucania zaklęć?",
+      "subcategory": "Historia",
+      "question": "Jaką nazwę nosi Prawo, z którego Geralt korzysta, prosząc o to, czego Duny się nie spodziewa?",
       "options": [
-        "Amuzykalność",
-        "Atrofia",
-        "Latencja",
-        "Inercja"
+        "Prawo Niespodzianki",
+        "Prawo Starszej Krwi",
+        "Prawo Thana",
+        "Prawo Pierwszej Nocy"
       ],
-      "answer": "Latencja",
-      "explanation_correct": "Latencja to stan, w którym organizm nie posiada naturalnych barier ochronnych przed magią, będąc na nią całkowicie podatnym.",
-      "explanation_incorrect": "Pozostałe terminy nie odnoszą się w uniwersum do specyficznej podatności na energię magiczną.",
+      "answer": "Prawo Niespodzianki",
+      "explanation_correct": "Prawo Niespodzianki wiąże Geralta z nienarodzoną jeszcze Ciri.",
+      "explanation_incorrect": "Pozostałe nazwy nie opisują tego zwyczaju.",
       "last_verified_at": "2026-06-12T15:46:01.694Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -954,23 +954,23 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Geografia świata",
-      "question": "Które miasto pełni funkcję stolicy hrabstwa Bremervoord?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się południowe cesarstwo, którego władcą jest Emhyr var Emreis?",
       "options": [
-        "Creyden",
-        "Cidaris",
-        "Fano",
-        "Gors Velen"
+        "Nilfgaard",
+        "Redania",
+        "Temeria",
+        "Kaedwen"
       ],
-      "answer": "Cidaris",
-      "explanation_correct": "Cidaris jest głównym portem i stolicą hrabstwa rządzonego przez księcia Aglovala.",
-      "explanation_incorrect": "Creyden leży na północy, Fano to mniejsza osada, a Gors Velen jest ośrodkiem Temerii.",
+      "answer": "Nilfgaard",
+      "explanation_correct": "Emhyr var Emreis jest cesarzem Nilfgaardu.",
+      "explanation_incorrect": "Pozostałe nazwy oznaczają królestwa Północy.",
       "last_verified_at": "2026-06-12T15:46:01.694Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Bestiariusz",
-      "question": "Który wampir wyższy przyjął tożsamość medyka sądowego w Novigradzie i wykazywał specyficzne zamiłowanie do zapachów?",
+      "question": "Który pracownik kostnicy z gry „Wiedźmin 3: Dziki Gon” okazuje się wampirem i seryjnym mordercą?",
       "options": [
         "Emiel Regis",
         "Dettlaff",
@@ -978,29 +978,29 @@
         "Oriana"
       ],
       "answer": "Hubert Rejk",
-      "explanation_correct": "Hubert Rejk pracował w kostnicy i był odpowiedzialny za serię morderstw rytualnych w Novigradzie.",
-      "explanation_incorrect": "Regis i Dettlaff działali głównie w innych regionach, a Oriana ukrywała się w Beauclair.",
+      "explanation_correct": "Hubert Rejk pracuje w novigradzkiej kostnicy; śledztwo Geralta ujawnia jego prawdziwą naturę.",
+      "explanation_incorrect": "Pozostałe postacie nie są wskazanym pracownikiem kostnicy.",
       "last_verified_at": "2026-06-12T15:46:01.695Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Alchemia",
-      "question": "Jaką nazwę nosi roślina alchemiczna, którą w ludowym nazewnictwie określa się mianem psiego języka?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się wierzchowiec Ciri, czarna klacz znana z książkowej sagi?",
       "options": [
-        "Jaskółcze ziele",
-        "Tojad",
-        "Myszopłoch",
-        "Biały mirt"
+        "Kelpie",
+        "Płotka",
+        "Wicher",
+        "Roach"
       ],
-      "answer": "Myszopłoch",
-      "explanation_correct": "Myszopłoch jest popularnym składnikiem alchemicznym w świecie Wiedźmina, występującym pod nazwą 'psi język'.",
-      "explanation_incorrect": "Jaskółcze ziele i tojad to realne rośliny, a biały mirt jest powszechnym krzewnetrznym składnikiem leczniczym.",
+      "answer": "Kelpie",
+      "explanation_correct": "Kelpie to czarna klacz Ciri.",
+      "explanation_incorrect": "Płotka i Roach to polskie i angielskie imię koni Geralta; Wicher nie jest imieniem tej klaczy.",
       "last_verified_at": "2026-06-12T15:46:01.695Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Relacje i polityka",
-      "question": "Jak nazywa się elfia czarodziejka, która została namiestniczką autonomicznego państwa Dol Blathanna?",
+      "question": "Która elfia czarodziejka została królową Dol Blathanna?",
       "options": [
         "Ida Emean",
         "Enid an Gleanna",
@@ -1014,17 +1014,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Literatura i folklor",
-      "question": "Pod jakim pseudonimem znany jest autor słynnego traktatu 'O naturze potworów'?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się druid związany ze Skellige, znany także jako Ermion?",
       "options": [
-        "Physicus",
-        "Ervyll",
-        "Istredd",
-        "Myszowór"
+        "Myszowór",
+        "Vilgefortz",
+        "Rience",
+        "Stregobor"
       ],
-      "answer": "Physicus",
-      "explanation_correct": "Physicus to anonimowy autor lub tytuł uczonego, który spisał charakterystykę wielu potworów po Koniunkcji Sfer.",
-      "explanation_incorrect": "Ervyll to król Verden, Istredd jest czarodziejem, a Myszowór to druid.",
+      "answer": "Myszowór",
+      "explanation_correct": "Myszowór, zwany również Ermionem, jest druidem związanym ze Skellige i sojusznikiem Geralta.",
+      "explanation_incorrect": "Vilgefortz, Rience i Stregobor to inni czarodzieje.",
       "last_verified_at": "2026-06-12T15:46:01.695Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1074,17 +1074,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Fauna magiczna",
-      "question": "Który z potworów potrafi kamuflować się w jaskiniach, udając element skalnego otoczenia?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się wiedźmin, opiekun młodych adeptów w Kaer Morhen, najstarszy z tamtejszych wiedźminów?",
       "options": [
-        "Gorgona",
-        "Trol jaskiniowy",
-        "Archespor",
-        "Skalny potwór"
+        "Vesemir",
+        "Dijkstra",
+        "Cahir",
+        "Jaskier"
       ],
-      "answer": "Trol jaskiniowy",
-      "explanation_correct": "Trole jaskiniowe posiadają twardą, skalistą skórę, która pozwala im na niemal idealny kamuflaż w ciemnych grotach.",
-      "explanation_incorrect": "Gorgony nie posiadają takich zdolności, a archespory to agresywne rośliny.",
+      "answer": "Vesemir",
+      "explanation_correct": "Vesemir opiekuje się wiedźminami w Kaer Morhen i uczestniczy w szkoleniu Ciri.",
+      "explanation_incorrect": "Pozostali nie są wiedźminami z Kaer Morhen.",
       "last_verified_at": "2026-06-12T15:46:01.696Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1104,32 +1104,32 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Szkoły wiedźmińskie",
-      "question": "Która szkoła wiedźmińska posiadała swoją główną siedzibę w zamku Stygga?",
+      "subcategory": "Miejsca",
+      "question": "Kto zajął zamek Stygga jako swoją siedzibę w książkowej sadze?",
       "options": [
-        "Szkoła Gryfa",
-        "Szkoła Niedźwiedzia",
-        "Szkoła Kota",
-        "Szkoła Żmii"
+        "Vilgefortz",
+        "Foltest",
+        "Jaskier",
+        "Nenneke"
       ],
-      "answer": "Szkoła Kota",
-      "explanation_correct": "Zamek Stygga w Ebbing był historyczną bazą wiedźminów ze Szkoły Kota.",
-      "explanation_incorrect": "Szkoła Gryfa mieściła się w Kaer Seren, a Kaer Morhen należy do Szkoły Wilka.",
+      "answer": "Vilgefortz",
+      "explanation_correct": "Vilgefortz wykorzystał zamek Stygga jako kryjówkę.",
+      "explanation_incorrect": "Pozostałe postacie nie były gospodarzem tej kryjówki.",
       "last_verified_at": "2026-06-12T15:46:01.697Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Postacie historyczne",
-      "question": "Jak nazywała się młoda czarodziejka, pomocnica Triss Merigold, która została stracona na stosie w Novigradzie?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się czarodziejka znana z kasztanowych włosów, przyjaciółka Geralta i Yennefer?",
       "options": [
-        "Felicia Cori",
-        "Kira Metz",
-        "Sabrina Glevissig",
-        "Philippa Eilhart"
+        "Triss Merigold",
+        "Calanthe",
+        "Milva",
+        "Pavetta"
       ],
-      "answer": "Felicia Cori",
-      "explanation_correct": "Felicia Cori była uczennicą Filippy Eilhart i została publicznie spalona podczas polowań na czarownice.",
-      "explanation_incorrect": "Keira i Philippa uniknęły stosu w tamtym okresie, a Sabrina zginęła w Kaedwen.",
+      "answer": "Triss Merigold",
+      "explanation_correct": "Triss Merigold jest czarodziejką i przyjaciółką Geralta oraz Yennefer.",
+      "explanation_incorrect": "Pozostałe postacie nie są Triss.",
       "last_verified_at": "2026-06-12T15:46:01.697Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1158,29 +1158,29 @@
         "Gvendeith"
       ],
       "answer": "Pontar",
-      "explanation_correct": "Pontar jest jedną z najważniejszych dróg wodnych kontynentu, oddzielającą północną Redanię od południowej Temerii.",
-      "explanation_incorrect": "Jaruga oddziela kraje północne od Nilfgaardu, a Buina leży w Kaedwen.",
+      "explanation_correct": "Pontar jest ważną rzeką i na części biegu stanowi granicę między Redanią a Temerią.",
+      "explanation_incorrect": "Pozostałe rzeki nie odpowiadają temu opisowi.",
       "last_verified_at": "2026-06-12T15:46:01.698Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Postacie historyczne",
-      "question": "Jak miała na imię elfia czarodziejka (Aen Saevherne), która była matką Lary Dorren?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się elfka, przodkini Ciri, która pokochała czarodzieja Cregennana z Lod?",
       "options": [
-        "Shiadhal",
-        "Enid an Gleanna",
-        "Ida Emean",
-        "Eithné"
+        "Lara Dorren",
+        "Eithné",
+        "Toruviel",
+        "Milva"
       ],
-      "answer": "Shiadhal",
-      "explanation_correct": "Shiadhal była matką Lary Dorren; obie zmarły tragicznie wskutek prześladowań i komplikacji losowych.",
-      "explanation_incorrect": "Enid an Gleanna to Francesca Findabair, a Eithné to władczyni driad z Brokilonu.",
+      "answer": "Lara Dorren",
+      "explanation_correct": "Lara Dorren i Cregennan z Lod są związani z historią Starszej Krwi.",
+      "explanation_incorrect": "Pozostałe postacie nie są Larą Dorren.",
       "last_verified_at": "2026-06-12T15:46:51.092Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Magia i alchemia",
-      "question": "Który wiedźmiński eliksir przyspiesza regenerację energii potrzebnej do rzucania Znaków?",
+      "question": "Który eliksir w grze „Wiedźmin 3: Dziki Gon” przyspiesza regenerację wytrzymałości potrzebnej do używania Znaków?",
       "options": [
         "Grom",
         "Puszczyk",
@@ -1188,14 +1188,14 @@
         "Las Mariborski"
       ],
       "answer": "Puszczyk",
-      "explanation_correct": "Puszczyk to podstawowy eliksir regenerujący wytrzymałość i energię magiczną wiedźmina.",
-      "explanation_incorrect": "Grom zwiększa siłę ataku, Wilga neutralizuje trucizny, a Las Mariborski zwiększa poziom adrenaliny.",
+      "explanation_correct": "Puszczyk przyspiesza w grze regenerację wytrzymałości Geralta.",
+      "explanation_incorrect": "Pozostałe eliksiry mają inne zastosowania.",
       "last_verified_at": "2026-06-12T15:46:01.698Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Organizacje i frakcje",
-      "question": "Jak brzmi nazwa organizacji szpiegowskiej kierowanej przez Sigismunda Dijkstrę?",
+      "question": "Jak nazywa się służba wywiadowcza kierowana przez Sigismunda Dijkstrę?",
       "options": [
         "Vrihedd",
         "Redański Wywiad",
@@ -1203,14 +1203,14 @@
         "Korpus Informacyjny"
       ],
       "answer": "Redański Wywiad",
-      "explanation_correct": "Redański Wywiad za czasów Dijkstry był najlepiej zorganizowaną siecią szpiegowską na Północy.",
-      "explanation_incorrect": "Vrihedd to brygada elfów, a Niebieskie Pasy to oddziały specjalne Temerii.",
+      "explanation_correct": "Dijkstra kieruje redańskim wywiadem i rozbudowuje sieć informatorów.",
+      "explanation_incorrect": "Vrihedd to formacja elfów, a Niebieskie Pasy są związane z Temerią.",
       "last_verified_at": "2026-06-12T15:46:01.698Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Postacie",
-      "question": "Jak nazywa się krasnoludzki dowódca, który dowodził oddziałem najemników wspierających wojska Aedirn?",
+      "question": "Który krasnolud prowadził drużynę uczestniczącą w polowaniu na smoka w opowiadaniu „Granica możliwości”?",
       "options": [
         "Zoltan Chivay",
         "Yarpen Zigrin",
@@ -1219,22 +1219,22 @@
       ],
       "answer": "Yarpen Zigrin",
       "explanation_correct": "Yarpen Zigrin to bliski przyjaciel Geralta i dowódca grupy krasnoludów, który brał udział m.in. w polowaniu na smoka.",
-      "explanation_incorrect": "Zoltan Chivay to inny przyjaciel wiedźmina, natomiast Barclay Els i Dennis Cranmer to postaci drugoplanowe z innych formacji zbrojnych.",
+      "explanation_incorrect": "Pozostali krasnoludowie nie prowadzili tej drużyny w opowiadaniu.",
       "last_verified_at": "2026-06-12T15:46:01.698Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Flora",
-      "question": "Która roślina jest powszechnie stosowana przez medyków do odkażania ran oraz przemywania zakażeń?",
+      "subcategory": "Postacie",
+      "question": "Jak ma na imię lekarka z Oxenfurtu znana Geraltowi z książek i gier?",
       "options": [
-        "Glistnik",
-        "Jaskółcze ziele",
-        "Arenaria",
-        "Mandragora"
+        "Shani",
+        "Ciri",
+        "Eithné",
+        "Calanthe"
       ],
-      "answer": "Glistnik",
-      "explanation_correct": "Glistnik jest cenionym surowcem zielarskim w świecie Wiedźmina, używanym do celów medycznych i alchemicznych.",
-      "explanation_incorrect": "Mandragora służy do produkcji silnych eliksirów, a Jaskółcze ziele i Arenaria mają inne zastosowania w recepturach wiedźmińskich.",
+      "answer": "Shani",
+      "explanation_correct": "Shani jest medyczką poznaną przez Geralta i występuje również w grach.",
+      "explanation_incorrect": "Pozostałe postacie nie są tą lekarką.",
       "last_verified_at": "2026-06-12T15:46:01.699Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "subcategory": "Znaki wiedźmińskie",
-      "question": "Który znak wiedźmiński służy do nakładania na podłoże bariery unieruchamiającej przeciwników i spowalniającej ich ruchy?",
+      "question": "Który Znak tworzy na ziemi magiczną pułapkę w grach z serii „Wiedźmin”?",
       "options": [
         "Quen",
         "Yrden",
@@ -1279,7 +1279,7 @@
       ],
       "answer": "Srebro",
       "explanation_correct": "Wiedźmińskie medaliony są wykonane ze srebra, metalu reagującego na obecność magii i groźnego dla potworów.",
-      "explanation_incorrect": "Wiedźmińskie miecze bywają stalowe lub srebrne, ale medaliony zawsze wykonuje się z tego drugiego kruszcu.",
+      "explanation_incorrect": "W opisie wiedźmińskiego medalionu podkreślana jest jego srebrna postać; pozostałe materiały nie są tu wskazanym metalem.",
       "last_verified_at": "2026-06-12T15:46:01.699Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1319,18 +1319,18 @@
       "options": [
         "Nereidy",
         "Driady",
-        "Hamadriady",
+        "Wampiry",
         "Rusałki"
       ],
       "answer": "Driady",
       "explanation_correct": "Driady to mieszkanki Brokilonu, świetne łuczniczki pod wodzą pani Eithné, które chronią swój las przed ludźmi.",
-      "explanation_incorrect": "Nereidy i rusałki to istoty wodne, a pojęcie hamadriad odnosi się do konkretnego rodzaju driad przywiązanych do drzew.",
+      "explanation_incorrect": "Nereidy i rusałki kojarzone są z wodą, a wampiry są innym rodzajem istot.",
       "last_verified_at": "2026-06-12T15:46:01.700Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Postacie",
-      "question": "Która potężna czarodziejka podjęła się nauki magii oraz etykiety u młodej Ciri w świątyni Melitele?",
+      "question": "Która czarodziejka uczyła młodą Ciri magii i etykiety w świątyni Melitele?",
       "options": [
         "Triss Merigold",
         "Philippa Eilhart",
@@ -1360,7 +1360,7 @@
     },
     {
       "subcategory": "Kryptozoologia",
-      "question": "Jak nazywa się powszechnie występujące w pobliżu zbiorników wodnych i w kanałach monstrum, powstające z ciał utopionych ludzi?",
+      "question": "Jak nazywa się potwór często spotykany w pobliżu wody i kanałów w grach z serii „Wiedźmin”?",
       "options": [
         "Żagnica",
         "Topielec",
@@ -1375,16 +1375,16 @@
     },
     {
       "subcategory": "Heraldyka Państwowa",
-      "question": "Co widnieje na czarnych sztandarach oraz elementach pancerza wojsk Cesarstwa Nilfgaardu?",
+      "question": "Jakie godło widnieje na czarnych sztandarach Cesarstwa Nilfgaardu w grach wiedźmińskich?",
       "options": [
         "Złoty lew",
-        "Srebrne słońce",
+        "Złote słońce",
         "Biała róża",
-        "Gryf"
+        "Srebrna lilia"
       ],
-      "answer": "Srebrne słońce",
-      "explanation_correct": "Słońce z promieniami jest godłem Nilfgaardu, symbolizującym potęgę cesarstwa.",
-      "explanation_incorrect": "Złoty lew to symbol Cintry, a biała róża kojarzona jest z Zakonem Płonącej Róży.",
+      "answer": "Złote słońce",
+      "explanation_correct": "Złote słońce na czarnym tle jest symbolem Nilfgaardu.",
+      "explanation_incorrect": "Lew kojarzony jest z Cintrą, róża z zakonem, a lilie z Temerią.",
       "last_verified_at": "2026-06-12T15:46:01.701Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1404,47 +1404,47 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Wykucie i Rzemiosło",
-      "question": "Jak nazywa się unikalny minerał, który posiada właściwości tłumiące zdolności magiczne czarodziejów?",
+      "subcategory": "Miejsca",
+      "question": "Jak nazywa się miejsce, w którym szkolono wiedźminów szkoły wilka?",
       "options": [
-        "Meteoryt",
-        "Dwimeryt",
-        "Gwyhyr",
-        "Ruda darkonu"
+        "Kaer Morhen",
+        "Aretuza",
+        "Oxenfurt",
+        "Brokilon"
       ],
-      "answer": "Dwimeryt",
-      "explanation_correct": "Dwimeryt jest metalem, z którego wykonuje się kajdany dla magów, ponieważ blokuje ich dostęp do Mocy.",
-      "explanation_incorrect": "Gwyhyr to nazwa typu miecza, a meteoryt służy do wykuwania wysokiej jakości ostrzy.",
+      "answer": "Kaer Morhen",
+      "explanation_correct": "Kaer Morhen to stara wiedźmińska warownia.",
+      "explanation_incorrect": "Aretuza to szkoła czarodziejek, Oxenfurt jest miastem uniwersyteckim, a Brokilon lasem driad.",
       "last_verified_at": "2026-06-12T15:46:01.701Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Geografia Kontynentu",
-      "question": "Kraina zamieszkana głównie przez krasnoludy, znana jako potężny ośrodek przemysłowy i wydobywczy, to:",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się znakomita łuczniczka, która dołączyła do drużyny Geralta w książkowej sadze?",
       "options": [
-        "Mahakam",
-        "Poviss",
-        "Kovir",
-        "Aedirn"
+        "Milva",
+        "Nenneke",
+        "Pavetta",
+        "Keira"
       ],
-      "answer": "Mahakam",
-      "explanation_correct": "Mahakam to autonomiczny masyw górski rządzony przez krasnoludzkich starościów, kluczowy dla gospodarki Północy.",
-      "explanation_incorrect": "Kovir i Poviss słyną z bogactwa i handlu morskiego, a Aedirn jest królestwem rolniczo-przemysłowym rządzonym przez ludzi.",
+      "answer": "Milva",
+      "explanation_correct": "Milva, czyli Maria Barring, jest znakomitą łuczniczką i członkinią drużyny Geralta.",
+      "explanation_incorrect": "Pozostałe postacie nie są łuczniczką z drużyny Geralta.",
       "last_verified_at": "2026-06-12T15:46:01.701Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Alchemia",
-      "question": "Jaki składnik mineralny jest niezbędny wiedźminom do wytwarzania wybuchowych mieszanek, takich jak Samum czy Maribor?",
+      "subcategory": "Postacie",
+      "question": "Kto napisał książkową sagę o Geralcie z Rivii?",
       "options": [
-        "Fosfor",
-        "Siarka",
-        "Saletra",
-        "Węgiel"
+        "Andrzej Sapkowski",
+        "Stanisław Lem",
+        "Jacek Dukaj",
+        "Adam Mickiewicz"
       ],
-      "answer": "Saletra",
-      "explanation_correct": "Saletra to kluczowy utleniacz używany w recepturach na petardy i bomby wiedźmińskie.",
-      "explanation_incorrect": "Siarka i węgiel również bywają składnikami mieszanek, ale to saletra stanowi o wybuchowym charakterze petard.",
+      "answer": "Andrzej Sapkowski",
+      "explanation_correct": "Andrzej Sapkowski jest autorem opowiadań i powieści o wiedźminie Geralcie.",
+      "explanation_incorrect": "Pozostali autorzy nie napisali sagi o Geralcie.",
       "last_verified_at": "2026-06-12T15:46:01.702Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
@@ -1465,37 +1465,37 @@
     },
     {
       "subcategory": "Bestiariusz",
-      "question": "Która szkoła wiedźmińska specjalizowała się w walce przy użyciu zatrutych ostrzy i skrytobójstwie, a jej siedzibą było Gorthur Gvaed?",
+      "question": "Jak nazywa się dodatek do „Wiedźmina 3”, którego akcja rozgrywa się w Toussaint?",
       "options": [
-        "Szkoła Wilka",
-        "Szkoła Żmii",
-        "Szkoła Niedźwiedzia",
-        "Szkoła Gryfa"
+        "Krew i wino",
+        "Serca z kamienia",
+        "Zabójcy królów",
+        "Dziki Gon"
       ],
-      "answer": "Szkoła Żmii",
-      "explanation_correct": "Szkoła Żmii (Letho i jego towarzysze) słynęła z nietypowego dla wiedźminów zainteresowania polityką i królobójstwami.",
-      "explanation_incorrect": "Szkoła Gryfa kładła nacisk na magię (Znaki), a Szkoła Niedźwiedzia na ciężki pancerz i wytrzymałość.",
+      "answer": "Krew i wino",
+      "explanation_correct": "„Krew i wino” to dodatek zabierający Geralta do Toussaint.",
+      "explanation_incorrect": "„Serca z kamienia” to drugi dodatek, a pozostałe nazwy odnoszą się do części serii.",
       "last_verified_at": "2026-06-12T15:46:51.093Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Literatura wewnątrzświata",
-      "question": "Jak zatytułowana jest słynna ballada ułożona przez trubadura Jaskra, opisująca trudną relację Geralta i Yennefer?",
+      "subcategory": "Postacie",
+      "question": "Jak nazywa się wiedźmin ze Szkoły Wilka, który wraz z Geraltem i Eskelem przebywa w Kaer Morhen?",
       "options": [
-        "Czas pogardy",
-        "Gwiazdy nad traktem",
-        "Kwiaty i krew",
-        "Miecz przeznaczenia"
+        "Lambert",
+        "Cahir",
+        "Jaskier",
+        "Dijkstra"
       ],
-      "answer": "Gwiazdy nad traktem",
-      "explanation_correct": "Jaskier napisał wiele pieśni o kochankach, ale 'Gwiazdy nad traktem' to jedna z jego najbardziej znanych kompozycji o tej parze.",
-      "explanation_incorrect": "Pozostałe opcje nawiązują do tytułów tomów sagi, ale nie są nazwami ballad wymienionymi w tekście dzieł.",
+      "answer": "Lambert",
+      "explanation_correct": "Lambert jest wiedźminem Szkoły Wilka znanym z książek i gier.",
+      "explanation_incorrect": "Pozostali nie są wiedźminami ze Szkoły Wilka.",
       "last_verified_at": "2026-06-12T15:46:01.702Z",
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
       "subcategory": "Medycyna Polowa",
-      "question": "Jak nazywa się śmiercionośna plaga, która spustoszyła Kontynent, przyniesiona przez kupiecki statek z wysp Nilfgaardu?",
+      "question": "Jak nazywa się epidemia dżumy opisana w książkowej sadze o Wiedźminie?",
       "options": [
         "Czerwona gorączka",
         "Toczyperka",
@@ -1503,8 +1503,8 @@
         "Lues"
       ],
       "answer": "Catriona",
-      "explanation_correct": "Catriona to choroba zakaźna przypominająca dżumę, którą nieświadomie sprowadziła Ciri podróżując między światami.",
-      "explanation_incorrect": "Pozostałe nazwy to mniej groźne przypadłości lub choroby weneryczne występujące w świecie wiedźmina.",
+      "explanation_correct": "Catriona to epidemia dżumy przedstawiona w sadze; jej nazwa wiąże się ze statkiem.",
+      "explanation_incorrect": "Pozostałe nazwy nie oznaczają tej epidemii.",
       "last_verified_at": "2026-06-12T15:46:01.702Z",
       "verifying_model": "google/gemini-3-flash-preview"
     }

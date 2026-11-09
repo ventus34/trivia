@@ -5,9 +5,9 @@ Zestawienie stanu 229 wpisów w [`databases/list.json`](../../databases/list.jso
 ## Wynik
 
 - **229** pozycji w indeksie.
-- **217** pozycji ma raport deklarujący przegląd całości paczki.
+- **220** pozycji ma raport deklarujący przegląd całości paczki.
 - **4** pozycji ma raport, ale raport jawnie wskazuje zakres częściowy albo nie dokumentuje, że cała paczka została sprawdzona.
-- **8** pozycji nie ma dedykowanego raportu merytorycznego.
+- **5** pozycji nie ma dedykowanego raportu merytorycznego.
 
 ### Metoda i ograniczenia
 
@@ -227,7 +227,7 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 204 | `tradycyjna_kuchnia_pl` | Tradycyjna kuchnia | [2026-11-09-tradycyjna-kuchnia-czesciowy.md](2026-11-09-tradycyjna-kuchnia-czesciowy.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane kwestie sprawdzono w źródłach. |
 | 205 | `trylogia_wadcy_piercieni_pl` | Trylogia Władcy Pierścieni | [2026-11-09-trylogia-wladcy-pierscieni-czesciowy.md](2026-11-09-trylogia-wladcy-pierscieni-czesciowy.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 206 | `turning_points_in_history_en` | Turning Points in History | [2026-11-08-turning-points-in-history-en.md](2026-11-08-turning-points-in-history-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań, poprawiono 56 rekordów; wybrane fakty sprawdzono źródłowo. |
-| 207 | `uniwersum_wiedmina_pl` | Uniwersum Wiedźmina | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
+| 207 | `uniwersum_wiedmina_pl` | Uniwersum Wiedźmina | [2026-11-09-uniwersum-wiedzmina-pl.md](2026-11-09-uniwersum-wiedzmina-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 208 | `urban_tales_en` | Urban Tales | [2026-11-06-urban-tales-en.md](2026-11-06-urban-tales-en.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, odpowiedzi i wyjaśnień paczki `urban_tales_en` oraz jej opis. Zmieniono 54 rekordy: 2, 5, 8, 14, 15, 16, 17, 18, 20, 21, 25, 27, 28, 29, 30, 31, 32, 33,… |
 | 209 | `video_game_history_en` | Video Game History | [2026-11-09-video-game-history-en.md](2026-11-09-video-game-history-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 210 | `virtual_reality_biology_en` | Virtual Reality & Biology | [2026-11-09-virtual-reality-biology-en.md](2026-11-09-virtual-reality-biology-en.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
@@ -241,8 +241,8 @@ Wykluczono z pokrycia treści raporty ogólne `2026-11-05-duplicate-packs.md` (p
 | 218 | `woda_w_kulturze_i_yciu_pl` | Woda w Kulturze i Życiu | [2026-11-08-woda-w-kulturze-i-zyciu-pl.md](2026-11-08-woda-w-kulturze-i-zyciu-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano opis i 100 pytań, zmieniono 66 rekordów; wybrane zagadnienia sprawdzono źródłowo. |
 | 219 | `wulkany_i_geologia_pl` | Wulkany i Geologia | [2026-11-07-wulkany-i-geologia-pl.md](2026-11-07-wulkany-i-geologia-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis oraz 100 pytań, odpowiedzi i wyjaśnień. Zmieniono 56 pozycji: 1, 3, 5, 8, 10–14, 18–19, 27–28, 31, 33–39, 41–44, 47–49, 51, 53–55, 57–58, 62–63, 65, 67, 69, 71–72, 74–75,… |
 | 220 | `wynalazki_codziennoci_pl` | Wynalazki Codzienności | [2026-11-09-wynalazki-codziennosci-czesciowy.md](2026-11-09-wynalazki-codziennosci-czesciowy.md) | PEŁNY ODCZYT deklarowany. Przejrzano pytania, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
-| 221 | `ycie_codzienne_pl` | Życie codzienne | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
-| 222 | `ycie_codzienne_w_prl_pl` | Życie codzienne w PRL | [2026-11-05-smart-materials.md](../question-audits/2026-11-05-smart-materials.md) (tylko kontrola struktury indeksu) | BRAK dedykowanego raportu merytorycznego. Wspólny audyt sprawdzał tu tylko strukturę. |
+| 221 | `ycie_codzienne_pl` | Życie codzienne | [2026-11-09-zycie-codzienne-pl.md](2026-11-09-zycie-codzienne-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
+| 222 | `ycie_codzienne_w_prl_pl` | Życie codzienne w PRL | [2026-11-09-zycie-codzienne-w-prl-pl.md](2026-11-09-zycie-codzienne-w-prl-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano 100 pytań, odpowiedzi, wyjaśnienia i opis; wybrane fakty sprawdzono w źródłach. |
 | 223 | `zabytki_techniki_pl` | Zabytki Techniki | [2026-11-07-zabytki-techniki-pl.md](2026-11-07-zabytki-techniki-pl.md) | PEŁNY ODCZYT deklarowany. Przejrzano opis i 100 pytań wraz z opcjami, kluczami i wyjaśnieniami. Zmieniono 72 pozycje (kolejność w pliku): 1–3, 5–7, 10–13, 15–18, 20–22, 26, 28–31, 33, 35–36, 38–41, 43, 45–48,… |
 | 224 | `zagadki_i_amigwki_pl` | Zagadki i łamigłówki | [2026-11-08-zagadki-i-lamiglowki-pl.md](2026-11-08-zagadki-i-lamiglowki-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano wszystkie 100 pytań, odpowiedzi, klucze, oba wyjaśnienia i opis paczki. Liczbę pytań i opis zachowano. Zmieniono 85 pozycji: 1, 2, 3, 5, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18,… |
 | 225 | `zegar_i_czasoprzestrze_pl` | Zegar i Czasoprzestrzeń | [2026-11-08-zegar-i-czasoprzestrzen-pl.md](2026-11-08-zegar-i-czasoprzestrzen-pl.md) | PEŁNY ODCZYT deklarowany. Przeczytano 100 pytań, warianty odpowiedzi, klucze, oba wyjaśnienia i opis. Opis i liczba pytań pozostały bez zmian. Zmieniono 80 rekordów: 1, 3–12, 15–21, 24–25, 28–29, 31, 33, 36, 38–39,… |
