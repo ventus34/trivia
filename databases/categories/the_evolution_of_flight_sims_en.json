@@ -9,32 +9,30 @@
   "question_count": 100,
   "questions": [
     {
-      "subcategory": "Physics Model",
-      "question": "What is the term for the asymmetric thrust produced when a propeller aircraft is at a high angle of attack?",
+      "subcategory": "Open-source flight simulation",
+      "question": "Under which licence does the FlightGear project make its source code available?",
       "options": [
-        "P-factor",
-        "Torque spiral",
-        "Gyroscopic precession",
-        "Asymmetric drag"
+        "GNU General Public License",
+        "Apache License 2.0",
+        "MIT License",
+        "Mozilla Public License 2.0"
       ],
-      "answer": "P-factor",
-      "explanation_correct": "P-factor is asymmetric propeller thrust associated with different angles of attack on ascending and descending blades, particularly noticeable during powered climbs.",
-      "explanation_incorrect": "Spiraling slipstream, torque and gyroscopic effects are distinct propeller-related phenomena that can also affect aircraft handling."
+      "answer": "GNU General Public License",
+      "explanation_correct": "FlightGear states that its source code is distributed under the GNU General Public License.",
+      "explanation_incorrect": "Apache 2.0, MIT and Mozilla Public License are different open-source licences; FlightGear identifies GNU GPL."
     },
     {
-      "subcategory": "Avionics",
-      "question": "Which avionics system projects essential flight data directly onto a transparent pane in front of the pilot?",
+      "subcategory": "Simulator weather",
+      "question": "Which information does X-Plane 12 use alongside regional forecasts in its Real Weather mode?",
       "options": [
-        "Head-up display",
-        "Multi-function display",
-        "Primary flight display",
-        "Flight management system"
+        "Airport METAR reports",
+        "Only a static annual climate average",
+        "Aircraft paint schemes",
+        "Satellite television listings"
       ],
-      "answer": "Head-up display",
-      "explanation_correct": "A Head-up display (HUD) allows pilots to maintain focus on the external environment while viewing vital flight information.",
-      "explanation_incorrect": "MFDs, PFDs, and FMS units are typically located within the cockpit instrument panel rather than being projected onto a transparent forward pane.",
-      "last_verified_at": "2026-06-12T16:35:07.681Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Airport METAR reports",
+      "explanation_correct": "Laminar Research says Real Weather blends airport METAR snapshots with regional forecasts and simulated variation.",
+      "explanation_incorrect": "A static climate average alone and aircraft paint schemes do not describe the airport-weather reports named by X-Plane."
     },
     {
       "subcategory": "Combat Sims",
@@ -130,19 +128,17 @@
       "explanation_incorrect": "Artwick is associated with subLOGIC, Meyer with X-Plane, and Meier with MicroProse flight games."
     },
     {
-      "subcategory": "Flight Tech",
-      "question": "What is the name for the system that replaces manual, mechanical flight control links with electronic interfaces?",
+      "subcategory": "Combat simulation",
+      "question": "What distinction did Eagle Dynamics give the free TF-51D added to DCS World in the 2014 open beta?",
       "options": [
-        "Fly-by-wire",
-        "Auto-trim",
-        "Direct link",
-        "Servo-assist"
+        "It was an unarmed training version of the P-51D",
+        "It was a jet-powered conversion of the P-51D",
+        "It was a helicopter version of the P-51D",
+        "It was an unmanned spacecraft"
       ],
-      "answer": "Fly-by-wire",
-      "explanation_correct": "Fly-by-wire systems translate pilot inputs into electronic signals processed by flight control computers.",
-      "explanation_incorrect": "The other options incorrectly identify aviation technologies or generic mechanical terms.",
-      "last_verified_at": "2026-06-12T16:35:07.682Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "It was an unarmed training version of the P-51D",
+      "explanation_correct": "The 2014 changelog describes a P-51D with weapons, radios and rear tank removed and a rear jump seat added.",
+      "explanation_incorrect": "The TF-51D was based on the P-51D aeroplane, not a jet conversion, helicopter or spacecraft."
     },
     {
       "subcategory": "Historical",
@@ -171,32 +167,30 @@
       "explanation_incorrect": "Aces Over Europe covers the European theater; the other titles use different settings."
     },
     {
-      "subcategory": "Software Development",
-      "question": "What is the acronym for the set of tools provided by developers to enable community modifications in sims?",
+      "subcategory": "Simulator activities",
+      "question": "Which Microsoft Flight Simulator 2024 mode asks players to photograph landmarks and wildlife?",
       "options": [
-        "SDK",
-        "API",
-        "GUI",
-        "IDE"
+        "World Photographer",
+        "Career",
+        "Free Flight",
+        "Landing Challenge"
       ],
-      "answer": "SDK",
-      "explanation_correct": "A Software Development Kit (SDK) provides the necessary files for creators to modify or build plugins for a simulator.",
-      "explanation_incorrect": "API, GUI, and IDE are distinct programming or interface concepts not synonymous with the development kit itself.",
-      "last_verified_at": "2026-06-12T16:35:07.682Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "World Photographer",
+      "explanation_correct": "World Photographer missions invite players to visit locations and capture specified landmarks or wildlife.",
+      "explanation_incorrect": "Career centres on aviation activities, while the photography assignments are named World Photographer."
     },
     {
-      "subcategory": "Aviation Terms",
-      "question": "What is the dimensionless ratio of an aircraft’s speed to the local speed of sound called?",
+      "subcategory": "Simulator physics",
+      "question": "In X-Plane 12, what can the simulated 3D water interact with according to its developers?",
       "options": [
-        "Mach",
-        "Knot",
-        "IAS",
-        "TAS"
+        "The flight model of a seaplane",
+        "Only the aircraft paint scheme",
+        "Only the virtual pilot avatar",
+        "Only the airport terminal menu"
       ],
-      "answer": "Mach",
-      "explanation_correct": "Mach number is a dimensionless quantity representing the speed of an aircraft relative to the ambient speed of sound.",
-      "explanation_incorrect": "A knot is a speed unit; IAS and TAS are airspeed measures, not the ratio to the local speed of sound."
+      "answer": "The flight model of a seaplane",
+      "explanation_correct": "Laminar Research says the 3D water interacts with the flight model, including seaplane behaviour.",
+      "explanation_incorrect": "The announced interaction concerns aircraft physics rather than merely changing paint, avatars or menus."
     },
     {
       "subcategory": "Gliding",
@@ -212,19 +206,17 @@
       "explanation_incorrect": "The other titles are different flight or space simulators; this does not assert an exclusive industry standard."
     },
     {
-      "subcategory": "Scenery",
-      "question": "What mapping technique creates 3D models and textures from multiple photographs of a real-world location?",
+      "subcategory": "Simulator activities",
+      "question": "Which activity is available in the career mode of Microsoft Flight Simulator 2024?",
       "options": [
-        "Photogrammetry",
-        "Ray-tracing",
-        "Rastering",
-        "Shading"
+        "Aerial firefighting",
+        "Driving a Formula One race car",
+        "Managing a football club",
+        "Operating a deep-sea submarine"
       ],
-      "answer": "Photogrammetry",
-      "explanation_correct": "Photogrammetry is the process of using overlapping photographs to determine geometric properties and build accurate 3D game environments.",
-      "explanation_incorrect": "Ray-tracing, rastering, and shading are rendering or graphic techniques, not map-building processes.",
-      "last_verified_at": "2026-06-12T16:35:07.682Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Aerial firefighting",
+      "explanation_correct": "Microsoft lists aerial firefighting among the aviation activities available in the 2024 career mode.",
+      "explanation_incorrect": "The other activities are not among the aviation career examples identified in Microsoft’s guide."
     },
     {
       "subcategory": "Network",

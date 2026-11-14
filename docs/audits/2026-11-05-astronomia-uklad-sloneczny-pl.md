@@ -49,3 +49,23 @@ W `astronomia_uklad_sloneczny_pl` zastąpiono 25 pytań identycznych po normaliz
 Porównano zmienione pytania z odpowiednimi materiałami NASA i ESA, w tym [DART](https://science.nasa.gov/mission/dart/), [InSight](https://science.nasa.gov/mission/insight/science-instruments/), [Golden Record](https://science.nasa.gov/mission/voyager/making-of-the-golden-record/), [sondą Huygens](https://science.nasa.gov/mission/cassini-huygens/), [Parker Solar Probe](https://science.nasa.gov/mission/parker-solar-probe/) i [instrumentami Euclid](https://www.esa.int/et/articles/about-us/directorates/science/euclid/euclid-s-instruments). Kontrola dotyczyła nowych rekordów, nie wszystkich 131 pytań.
 
 Wykryto, że w 130 z 131 rekordów poprawna odpowiedź była na pierwszym miejscu. Przetasowano opcje wszystkich pytań bez zmiany kluczy i treści odpowiedzi; po zmianie ich rozkład na pozycjach 1–4 wynosi odpowiednio 36, 30, 39 i 26. Ponownie porównano pytania obu paczek po normalizacji: pozostaje 45 identycznych treści; nie oznacza to usunięcia parafraz.
+
+## Kolejne zastąpienie 25 powtórzeń
+
+Zastąpiono pozycje 63–66, 68, 73, 76, 79–86, 89, 91, 95–96, 99–101, 103 i 105–106. Pytania dotyczą szczegółów obserwacji i misji: Arrokoth i Plutona, Tytana, Ceres, DART, łazika Curiosity oraz sond Juno i Rosetta i obserwatorium Euclid. Przy zmianie zachowano pozycję poprawnej odpowiedzi w danym rekordzie; rozkład poprawnych odpowiedzi w całej paczce pozostaje 36/30/39/26. Liczba rekordów i ID nie uległy zmianie.
+
+Źródła sprawdzonych zagadnień:
+
+- 63–65: [NASA — Arrokoth](https://science.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/) i [Sputnik Planitia](https://science.nasa.gov/earth/frozen-ice-on-earth-and-well-beyond/).
+- 66 i 68: [NASA — Pluton](https://science.nasa.gov/dwarf-planets/pluto/facts/); 73 i 76: [NASA — Tytan](https://science.nasa.gov/saturn/moons/titan/facts/).
+- 79–82: [NASA — Ceres](https://science.nasa.gov/dwarf-planets/ceres/facts/) i [Dawn o kraterze Occator](https://science.nasa.gov/mission/dawn/science/ceres/).
+- 83–84: [NASA — DART i LICIACube](https://science.nasa.gov/solar-system/asteroids/didymos/).
+- 85–86, 89, 91 i 95: [NASA — instrumenty Curiosity](https://science.nasa.gov/mission/msl-curiosity/science-instruments/).
+- 96, 99 i 100: [NASA — misja Juno](https://science.nasa.gov/mission/juno/).
+- 101, 103 i 105: [ESA — instrumenty orbitera Rosetta](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Science_from_the_Orbiter); 106: [ESA — instrumenty Euclid](https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-s-instruments).
+
+Po porównaniu pytań obu paczek z pominięciem wielkości liter, znaków diakrytycznych i interpunkcji pozostało **20** identycznych treści (pozycje 107–114, 116–118, 122–123 i 125–131). Wynik nie obejmuje parafraz ani innych zbliżonych tematów. Kontrola `scripts/audit_questions.py` nie wykryła problemów strukturalnych, a `git diff --check` nie wykazał błędów. To nie jest ponowny merytoryczny audyt pozostałych 106 rekordów.
+
+### Niezależna kontrola kolejnej partii
+
+Przeczytano ponownie wszystkie 25 zastąpionych pytań, odpowiedzi i wyjaśnień oraz porównano wybrane fakty z materiałami NASA i ESA. Doprecyzowano pytanie 76, aby pytało bezpośrednio o skład jezior i mórz na Tytanie, a wszystkie odpowiedzi były tego samego rodzaju. Przykładowe kontrole: [NASA o Arrokoth](https://science.nasa.gov/solar-system/kuiper-belt/arrokoth-2014-mu69/facts/), [NASA o DART i LICIACube](https://science.nasa.gov/planetary-defense-dart/), [NASA o instrumentach Curiosity](https://science.nasa.gov/mission/msl-curiosity/science-instruments/), [NASA o instrumentach Juno](https://science.nasa.gov/mission/juno/) i [ESA o instrumentach Rosetty](https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Science_from_the_Orbiter). Kontrola dotyczyła tej partii, a nie całej paczki; parafrazy pomiędzy paczkami pozostają poza automatycznym porównaniem.

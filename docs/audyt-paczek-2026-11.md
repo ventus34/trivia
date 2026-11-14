@@ -273,6 +273,8 @@ Zastąpiono 25 pytań w `astronomia_uklad_sloneczny_pl` oraz poprawiono powtórz
 
 Uzupełniono audyty sześciu paczek. W astronomii po kolejnych zastępstwach pozostaje 45 identycznych pytań między paczkami po normalizacji, a w dwóch paczkach medycznych 80 identycznych pytań; parafraz nie przeliczono. Zakres prac, źródła i ograniczenia podano w raportach.
 
+W kolejnej partii uzupełniono audyty sześciu paczek. Po zastąpieniu kolejnych pytań między paczkami astronomicznymi pozostaje 20 identycznych treści po normalizacji, a między medycznymi 55; parafraz nie liczono. Obie nowe partie sprawdzono niezależnie, a zakres i źródła zapisano w raportach.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
