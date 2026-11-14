@@ -29,3 +29,23 @@ W `astronomia_uklad_sloneczny_pl` zastąpiono pozycje 1–25 nowymi pytaniami o 
 - 21–25: [NASA — przegląd misji planetarnych i kometarnych](https://science.nasa.gov/deep-space-exploration/).
 
 Kontrola struktury wykazała cztery unikalne opcje i klucz w każdej z 131 pozycji. Po normalizacji wielkości liter, znaków diakrytycznych i interpunkcji pozostało 70 identycznych treści pytań między tą paczką a `astronomia_i_ukad_soneczny_pl`. Ta metoda nie wykrywa wszystkich parafraz: nakładanie się tematyczne i merytoryczne wymaga dalszej pracy. Przy wymienionych źródłach sprawdzono nowe pytania; pozostałych 106 rekordów nie weryfikowano ponownie w tej rundzie.
+
+## Kolejna redukcja powtórzeń między paczkami
+
+W `astronomia_uklad_sloneczny_pl` zastąpiono 25 pytań identycznych po normalizacji z pytaniami w `astronomia_i_ukad_soneczny_pl`: pozycje 30, 32–34, 36, 39–41, 43, 45–47, 49–58 oraz 59, 61 i 62. Nowe pytania obejmują obserwacje Słońca, astrometrię, obserwatoria, misje marsjańskie i sondy planetarne. Zachowano ID oraz 131 pytań. Po porównaniu tekstów bez uwzględniania wielkości liter, polskich znaków i interpunkcji pozostaje **45** identycznych pytań między paczkami. Wynik nie obejmuje podobnych znaczeniowo parafraz, które wymagają dalszej redakcji.
+
+Źródła nowej partii:
+
+- [NASA: DART i Didymos/Dimorphos](https://science.nasa.gov/mission/dart/); [NASA: instrumenty InSight](https://science.nasa.gov/mission/insight/science-instruments/); [NASA JPL: Curiosity i lądowanie w kraterze Gale](https://www.jpl.nasa.gov/missions/mars-science-laboratory-curiosity-rover-msl/).
+- [NASA: radar Cassini](https://science.nasa.gov/mission/cassini/spacecraft/cassini-orbiter/radio-detection-and-ranging/radar-technical-write-up/); [NASA: instrumenty Huygensa](https://science.nasa.gov/mission/cassini-huygens/); [NASA: Golden Record](https://science.nasa.gov/mission/voyager/golden-record-contents/) i [budowa płyty](https://science.nasa.gov/mission/voyager/making-of-the-golden-record/); [NASA: burze Neptuna na zdjęciach Voyagera 2](https://science.nasa.gov/missions/hubble/hubble-tracks-the-lifecycle-of-giant-storms-on-neptune/).
+- [NASA: misje i metody badań egzoplanet](https://science.nasa.gov/exoplanets/missions/); [NASA: spektroskopia tranzytowa](https://science.nasa.gov/exoplanets/how-we-find-and-characterize/); [NASA: obserwatoria i zakresy promieniowania](https://science.nasa.gov/astrophysics/).
+- [ESA: pomiary Gaia](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_factsheet), [ruch własny](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Proper_motion) i [paralaksa](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_s_first_year_of_scientific_observations).
+- [NASA: Parker Solar Probe](https://science.nasa.gov/mission/parker-solar-probe/), [budowa Słońca](https://science.nasa.gov/reference/the-heliopedia/) i [zaćmienia](https://science.nasa.gov/helio-and-you-studying-eclipses-near-and-far/); [ESA: instrumenty Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_s_instruments) i [BepiColombo](https://bepicolombo.esac.esa.int/bscs-qla/home).
+
+`python3 scripts/audit_questions.py` i `git diff --check` przeszły. Są to kontrole struktury, nie niezależne potwierdzenie wszystkich pytań w paczce. Nie badano ponownie całości wcześniejszych rekordów ani wszystkich semantycznych powtórzeń.
+
+### Dodatkowa kontrola i kolejność odpowiedzi
+
+Porównano zmienione pytania z odpowiednimi materiałami NASA i ESA, w tym [DART](https://science.nasa.gov/mission/dart/), [InSight](https://science.nasa.gov/mission/insight/science-instruments/), [Golden Record](https://science.nasa.gov/mission/voyager/making-of-the-golden-record/), [sondą Huygens](https://science.nasa.gov/mission/cassini-huygens/), [Parker Solar Probe](https://science.nasa.gov/mission/parker-solar-probe/) i [instrumentami Euclid](https://www.esa.int/et/articles/about-us/directorates/science/euclid/euclid-s-instruments). Kontrola dotyczyła nowych rekordów, nie wszystkich 131 pytań.
+
+Wykryto, że w 130 z 131 rekordów poprawna odpowiedź była na pierwszym miejscu. Przetasowano opcje wszystkich pytań bez zmiany kluczy i treści odpowiedzi; po zmianie ich rozkład na pozycjach 1–4 wynosi odpowiednio 36, 30, 39 i 26. Ponownie porównano pytania obu paczek po normalizacji: pozostaje 45 identycznych treści; nie oznacza to usunięcia parafraz.

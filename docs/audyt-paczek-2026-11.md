@@ -271,6 +271,8 @@ Kontynuacja audytu: poprawiono powtórzenia w paczkach ogólnej, RPG i wyścigow
 
 Zastąpiono 25 pytań w `astronomia_uklad_sloneczny_pl` oraz poprawiono powtórzenia i zakres w paczkach ogólnej, science fiction, teatralnej i symulatorów lotu. Źródła i pozostałe ograniczenia znajdują się w raportach; między paczkami astronomicznymi nadal znaleziono 70 identycznych pytań po normalizacji.
 
+Uzupełniono audyty sześciu paczek. W astronomii po kolejnych zastępstwach pozostaje 45 identycznych pytań między paczkami po normalizacji, a w dwóch paczkach medycznych 80 identycznych pytań; parafraz nie przeliczono. Zakres prac, źródła i ograniczenia podano w raportach.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

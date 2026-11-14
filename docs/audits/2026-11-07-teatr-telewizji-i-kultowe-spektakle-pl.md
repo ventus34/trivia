@@ -87,3 +87,15 @@ Poprawiono rekordy 9, 29, 53, 78, 82 i 85. W 9 wskazano adaptację „Pamiętnik
 Źródła: [TVP — „Pamiętnik z powstania warszawskiego”](https://teatrtv.vod.tvp.pl/92891938/pamietnik-z-powstania-warszawskiego), [Instytut Teatralny — „Opowieści Hollywoodu”](https://www.instytut-teatralny.pl/2015/10/25/25-250-spektakle-teatru-telewizji_2015-10-25/), [TVP — „Praski Reytan”](https://teatrtv.vod.tvp.pl/85002782/praski-reytan), [TVP — „Panna Julia”](https://teatrtv.vod.tvp.pl/84832843/panna-julia). Dodatkowo zweryfikowano wybrane wcześniejsze odpowiedzi: [archiwum Andrzeja Wajdy — „Bigda idzie!”](https://wajda.pl/teatr/bigda-idzie/), [TVP — „Zemsta” Świderskiego](https://teatrtv.vod.tvp.pl/18985334/zemsta-rez-j-swiderski-wojciech-pokora-udawanie-to-nasz-zawod) i [Zintegrowana Platforma Edukacyjna — „Moralność pani Dulskiej” 1992](https://zpe.gov.pl/a/przeczytaj/DQZ1XdSgu).
 
 Ta kontrola dotyczy wybranych zagadnień, a nie pełnej źródłowej weryfikacji każdego twierdzenia. Pozostają powtarzające się nazwiska i różne adaptacje tych samych autorów; raport pozostaje częściowy.
+
+## Kolejna kontrola źródeł i atrybucji
+
+Sprawdzono wybrane wcześniejsze pozycje w archiwach teatru i TVP; poprawiono rekordy 15, 43, 62, 87 i 90:
+
+- W 15 ograniczono wyjaśnienie błędnej odpowiedzi do realizacji „Ja, Feuerbach” z 1990 roku i wskazano oddzielnie reżysera przedstawienia oraz realizatora telewizyjnego. [Archiwum TVP](https://teatrtv.vod.tvp.pl/86057656/ja-feuerbach).
+- W 43 zmieniono podkategorię „Dramat absurdu” na „Dramat polski” i rozróżniono rejestrację „Wyzwolenia” z 1979 roku od jego telewizyjnej emisji w 1980 roku. [Biografia Konrada Swinarskiego w IPSB](https://www.ipsb.nina.gov.pl/a/biografia/konrad-ksawery-swinarski-1929-1975-rezyser-scenograf), [opis emisji](https://www.teleman.pl/tv/Teatr-Telewizji-Wyzwolenie-1815936).
+- W 62 usunięto sporne przypisanie „Norymbergi” do cyklu Scena Faktu. Jedno z opracowań TVP określa ją jako spektakl poprzedzający formalne produkcje cyklu, choć bywa tak klasyfikowana w katalogach; data i reżyseria pozostają w pytaniu. [TVP — historia Teatru Telewizji](https://teatrtv.vod.tvp.pl/94029150/na-zakrecie-25-lat-festiwalu-dwa-teatry-i-historia-teatru-telewizji), [kalendarium TVP](https://teatrtv.vod.tvp.pl/83442356/historia).
+- W 87 nie potwierdzono wskazanej wcześniej telewizyjnej realizacji „Sześciu postaci” z 1996 roku, dlatego zastąpiono tę przesłankę udokumentowaną inscenizacją Jerzego Krasowskiego z 1990 roku. [AICT Polska — premiery 1989/1990](https://www.aict.art.pl/2010/12/05/premiery-w-sezonie-19891990/).
+- W 90 odróżniono Andrieja Iwanowa jako autora „Kruka z Tower” od Aldony Figury jako reżyserki. [Archiwum TVP](https://teatrtv.vod.tvp.pl/90556928/kruk-z-tower).
+
+Ponadto potwierdzono w TVP odpowiedzi dotyczące „W imię Jakuba S.” (13), „Ezi” (54) oraz księdza Piotra w rejestracji „Dziadów” Swinarskiego (97): [„W imię Jakuba S.”](https://teatrtv.vod.tvp.pl/85734856/w-imie-jakuba-s), [„Ezi”](https://teatrtv.vod.tvp.pl/90557122/ezi), [„Dziady”](https://teatrtv.vod.tvp.pl/86058243/dziady-cz-i). Nie sprawdzono niezależnie wszystkich niezmienionych twierdzeń; raport nadal ma zakres częściowy.

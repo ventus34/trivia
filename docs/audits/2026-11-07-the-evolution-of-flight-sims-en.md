@@ -29,3 +29,11 @@ Zastąpiono pozycje 9, 21, 26, 31, 39, 51, 59, 62, 67, 71, 82 i 86, w tym pytani
 Pozostałe pytania nadal obejmują fizykę, sprzęt i lotnictwo oraz wybrane symulacje kosmiczne; nie wszystkie są pytaniami o historyczny rozwój symulatorów. Nie wykonano ponownej niezależnej kontroli źródłowej wszystkich 100 rekordów; mogą pozostać powtórzenia tematyczne.
 
 Dodatkowo w pozycjach 70, 91 i 94 uściślono opis wielokątów tworzących powierzchnie modeli 3D oraz usunięto nieweryfikowalne rankingi dokładności i „niemal profesjonalnej” jakości symulacji.
+
+## Kolejna korekta zakresu i powtórzeń
+
+Zastąpiono pozycje 7, 19, 27, 35–36, 76, 81 i 98 pytaniami ściślej związanymi z historią lub funkcjami symulatorów lotu. Usunięto m.in. ogólne pytania o lotniskowce, uzbrojenie i dawny samolot oraz nieprecyzyjne pytanie o technikę renderowania. Nowe pozycje dotyczą wydań FlightGear i X-Plane, aktualizacji scenerii Microsoft Flight Simulator, mapy DCS World, historii Flight Simulator 4.0 oraz samolotu dodanego w wydaniu rocznicowym. Liczba 100 pytań została zachowana.
+
+Źródła: [historia FlightGear](https://wiki.flightgear.org/FlightGear_history), [platformy FlightGear](https://www.flightgear.org/about/features/), [Laminar Research — X-Plane 12.00](https://www.x-plane.com/kb/x-plane-12-00-release-notes/), [Microsoft — World Update V](https://www.flightsimulator.com/release-notes-1-17-3-0-world-update-v-nordics-now-available/), [Microsoft — World Update IX](https://www.flightsimulator.com/release-notes-1-25-9-0-world-update-ix-italy-now-available/), [Eagle Dynamics — DCS World 2.9](https://www.digitalcombatsimulator.com/en/downloads/world/), [Smithsonian — historia Flight Simulator](https://airandspace.si.edu/air-and-space-quarterly/spring-2023/pilot-program) i [Microsoft — edycja 40-lecia](https://www.flightsimulator.com/microsoft-flight-simulators-40th-anniversary-edition/).
+
+W paczce nadal są pytania o podstawy lotnictwa, sprzęt oraz wybrane symulacje kosmiczne zgodnie z szerokim opisem, a także możliwe powtórzenia tematyczne. W tej rundzie nie przeprowadzono niezależnej weryfikacji wszystkich pozostałych faktów.

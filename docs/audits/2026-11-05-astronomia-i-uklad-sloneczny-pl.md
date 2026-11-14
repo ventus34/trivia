@@ -33,3 +33,5 @@ Porównano bieżące `astronomia_i_ukad_soneczny_pl` (159 pytań) i `astronomia_
 Pytania o księżyce Saturna powołują się na różne, jawnie określone daty zestawień z lat 2025 i 2026. Różne liczby w tych historycznych zestawieniach nie są same w sobie sprzecznością; przy dalszych zmianach należy zachować daty i sprawdzić pierwotne źródła.
 
 **Aktualizacja:** po zastąpieniu 25 rekordów w `astronomia_uklad_sloneczny_pl` ponowne porównanie wykazało 70 identycznych pytań po normalizacji; parafraz nie przeliczono ponownie. Poprzednie 86 dotyczyło stanu przed tą zmianą. Szczegóły i źródła nowej partii zawiera [raport drugiej paczki](2026-11-05-astronomia-uklad-sloneczny-pl.md).
+
+**Kolejna aktualizacja:** w `astronomia_uklad_sloneczny_pl` zastąpiono następnych 25 pytań i ponownie porównano obie paczki. Pozostaje 45 identycznych treści po normalizacji; parafraz nie policzono. W drugiej paczce wyrównano także kolejność opcji (wcześniej odpowiedź na pierwszej pozycji w 130 ze 131 pytań). Zakres kontroli i źródła znajdują się w [raporcie drugiej paczki](2026-11-05-astronomia-uklad-sloneczny-pl.md).
