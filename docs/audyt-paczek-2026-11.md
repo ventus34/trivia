@@ -277,6 +277,8 @@ W kolejnej partii uzupełniono audyty sześciu paczek. Po zastąpieniu kolejnych
 
 W kolejnej partii sprawdzono nowe pytania w sześciu paczkach. Po normalizacji nie ma identycznych pytań między dwiema paczkami astronomicznymi; między medycznymi pozostało 30. Porównanie nie wyklucza parafraz. Szczegóły, źródła i pozostałe uwagi podają raporty poszczególnych paczek.
 
+Uzupełniono audyty pięciu paczek. Ostatnie 30 identycznych pytań między paczkami medycznymi zastąpiono i poddano dodatkowej kontroli; nadal należy osobno sprawdzać parafrazy. W astronomii porównanie redakcyjne wskazało około 34 silne pary semantyczne, zapisane z numerami w raporcie.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

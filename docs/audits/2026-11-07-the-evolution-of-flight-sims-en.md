@@ -49,3 +49,7 @@ W paczce pozostają inne pytania o ogólne lotnictwo, hardware i symulacje kosmi
 ## Dalsze ograniczenie pytań ogólnolotniczych
 
 Pozycje 22–24 i 50 zastąpiono pytaniami o konkretne wydania symulatorów: World Update II dla USA, wydanie FlightGear 2020.3 LTS i jego mapę oraz ruchome rękawy w X-Plane 12. Zachowano 100 pytań. Źródła: [Microsoft — World Update II](https://www.flightsimulator.com/release-notes-1-11-5-0/), [FlightGear — 2020.3 LTS i mapa](https://www.flightgear.org/download/releases/2020-3/), [Laminar Research — X-Plane 12.00](https://www.x-plane.com/kb/x-plane-12-00-release-notes/). Ta partia nie usuwa wszystkich ogólnych pytań i możliwych powtórzeń wskazanych wyżej.
+
+## Dalsze dopasowanie do symulatorów
+
+Zastąpiono pozycje 83–85, 97, 99 i 100 pytaniami o historię wczesnego FS1, modele dynamiki FlightGear i aktualizację scenerii Microsoft Flight Simulator. Dawne pytania dotyczyły przede wszystkim ogólnych zasad lotnictwa lub walki powietrznej, a nie samych symulatorów. Zachowano 100 rekordów. Źródła: [Smithsonian — FS1, grafika i rozgrywka](https://airandspace.si.edu/air-and-space-quarterly/spring-2023/pilot-program), [FlightGear — modele dynamiki i wersje](https://wiki.flightgear.org/Flight_Dynamics_Models), [Microsoft — World Update XII](https://www.flightsimulator.com/world-update-xii-new-zealand-now-available/). Nie dokonano w tej rundzie ponownej niezależnej kontroli pozostałych 94 pytań; niektóre wcześniejsze pozycje nadal dotyczą podstaw lotnictwa oraz sprzętu.

@@ -39,3 +39,7 @@ Pytania o księżyce Saturna powołują się na różne, jawnie określone daty 
 **Następna aktualizacja:** po kolejnej wymianie 25 pytań w drugiej paczce pozostało 20 identycznych treści po normalizacji; nie przeliczono parafraz. Zakres niezależnej kontroli i źródła opisano w [raporcie drugiej paczki](2026-11-05-astronomia-uklad-sloneczny-pl.md).
 
 **Następna aktualizacja:** w drugiej paczce zastąpiono ostatnie 20 pytań o identycznej treści. Ponowne porównanie po normalizacji nie wykazało identycznych pytań między paczkami; parafrazy i bliskie tematy nie zostały w tym porównaniu wykluczone. Zakres niezależnej kontroli opisuje [raport drugiej paczki](2026-11-05-astronomia-uklad-sloneczny-pl.md).
+
+## Kontrola parafraz między paczkami
+
+Dodatkowy przegląd wykazał około 34 silne pary dotyczące tego samego faktu, mimo że nie mają identycznego brzmienia. Numery A/B (A = `astronomia_i_ukad_soneczny_pl`, B = `astronomia_uklad_sloneczny_pl`): 27/27, 28/28, 29/29, 26/30, 31/31, 134/32, 35/35, 37/37, 38/38, 42/42, 44/44, 48/48, 60/60, 67/67, 70/70, 71/71, 72/72, 74/74, 75/75, 77/77, 78/78, 87/87, 88/88, 90/90, 92/92, 94/94, 97/97, 98/98, 104/104, 56/108, 115/115, 119/119, 121/121 i 124/124. To ocena redakcyjna, nie automatycznie potwierdzona liczba; para 70/70 odwraca kierunek identyfikacji. Pary wymagają dalszego rozstrzygnięcia, gdyż samo porównanie tekstu nie wykrywa parafraz.
