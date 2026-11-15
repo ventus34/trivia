@@ -485,19 +485,17 @@
       "explanation_incorrect": "The other locations are not the free mission area identified in the cited DCS World 2.9 description."
     },
     {
-      "subcategory": "Airliner Systems",
-      "question": "What crucial computer system, often accessible via a dedicated keypad, acts as the primary navigation and flight management computer in a modern airliner?",
+      "subcategory": "FlightGear history",
+      "question": "Which airport became the default airport in FlightGear 2020.3?",
       "options": [
-        "FMS",
-        "HUD",
-        "PFD",
-        "EICAS"
+        "Keflavík International Airport, Iceland",
+        "Chicago Meigs Field, United States",
+        "London Heathrow Airport, United Kingdom",
+        "Sydney Kingsford Smith Airport, Australia"
       ],
-      "answer": "FMS",
-      "explanation_correct": "The Flight Management System (FMS) serves as the computer brain for route and performance planning.",
-      "explanation_incorrect": "The HUD, PFD, and EICAS are display systems, not the flight management logic center.",
-      "last_verified_at": "2026-06-12T16:35:07.682Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Keflavík International Airport, Iceland",
+      "explanation_correct": "FlightGear 2020.3 introduced Keflavík as its default airport and surrounding region.",
+      "explanation_incorrect": "The other airports were not the default airport introduced with FlightGear 2020.3."
     },
     {
       "subcategory": "Early 3D",
@@ -930,17 +928,17 @@
       "verifying_model": "google/gemini-3-flash-preview"
     },
     {
-      "subcategory": "Visuals",
-      "question": "What geometric primitives, often triangles, are used to represent the surfaces of aircraft in 3D simulator models?",
+      "subcategory": "Combat simulation",
+      "question": "Which DCS World module did Eagle Dynamics release in Early Access in June 2018?",
       "options": [
-        "Polygons",
-        "Voxels",
-        "Sprites",
-        "Bitmaps"
+        "DCS: F/A-18C Hornet",
+        "DCS: F-16C Viper",
+        "DCS: AH-64D",
+        "DCS: F-4E Phantom II"
       ],
-      "answer": "Polygons",
-      "explanation_correct": "A polygonal model approximates surfaces using polygons, commonly triangles, whose vertices define their shape.",
-      "explanation_incorrect": "Voxels represent volume elements; sprites and bitmaps are two-dimensional images."
+      "answer": "DCS: F/A-18C Hornet",
+      "explanation_correct": "Eagle Dynamics announced the Early Access release of the F/A-18C Hornet module on 1 June 2018.",
+      "explanation_incorrect": "The question identifies the 2018 Hornet release; the other aircraft correspond to different modules."
     },
     {
       "subcategory": "History",
@@ -1157,17 +1155,17 @@
       "explanation_incorrect": "The other products were separate projects, not the 1997 FlightGear release."
     },
     {
-      "subcategory": "Input",
-      "question": "Which type of sensor uses a magnetic field to measure position in some flight-simulator joysticks?",
+      "subcategory": "FlightGear features",
+      "question": "Which aircraft-carrier starting option was added to the FlightGear 2020.3 launcher?",
       "options": [
-        "Hall Effect",
-        "Potentiometer",
-        "Optical Encoder",
-        "Capacitive Array"
+        "Carrier approach",
+        "Submarine patrol",
+        "Rocket stage separation",
+        "Airline baggage loading"
       ],
-      "answer": "Hall Effect",
-      "explanation_correct": "A Hall-effect sensor can measure a changing magnetic field without the sliding electrical contact of a traditional potentiometer.",
-      "explanation_incorrect": "Optical and capacitive sensors can also be contactless; the question asks specifically about magnetic sensing."
+      "answer": "Carrier approach",
+      "explanation_correct": "FlightGear 2020.3 added carrier approach and carrier takeoff as launcher starting options.",
+      "explanation_incorrect": "The other choices do not describe one of the carrier starting options listed in the release notes."
     },
     {
       "subcategory": "History",
@@ -1196,17 +1194,17 @@
       "explanation_incorrect": "Elite predates Wing Commander; the remaining titles are other space-combat projects."
     },
     {
-      "subcategory": "Terrain Rendering",
-      "question": "In modern flight simulator engines, what geometrical method is used to dynamically increase terrain detail as the camera approaches a surface?",
+      "subcategory": "Flight simulator scenery",
+      "question": "Which country did Microsoft Flight Simulator World Update VII enhance in 2022?",
       "options": [
-        "Tessellation",
-        "Ray marching",
-        "Bloom pass",
-        "Mipmapping"
+        "Australia",
+        "Japan",
+        "Italy",
+        "New Zealand"
       ],
-      "answer": "Tessellation",
-      "explanation_correct": "Tessellation subdivides geometry into smaller pieces; it can support terrain detail depending on the rendering engine and hardware.",
-      "explanation_incorrect": "Ray marching, bloom and mipmapping serve different rendering tasks; terrain detail can also be managed by other level-of-detail methods."
+      "answer": "Australia",
+      "explanation_correct": "Microsoft released World Update VII: Australia in January 2022, adding enhanced scenery and activities.",
+      "explanation_incorrect": "Japan, Italy and New Zealand were covered by other World Updates, not World Update VII."
     },
     {
       "subcategory": "Modding",
