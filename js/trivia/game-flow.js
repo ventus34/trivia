@@ -25,6 +25,7 @@ import {
 import { saveGameState, loadGameState, restoreGameState } from './persistence.js';
 import { notify } from './error-bus.js';
 import { getApiAdapter } from './services/api-service.js';
+import { shuffleAnswerOptions } from './answer-options.js';
 
 function generateGameId() {
   return 'game-' + Date.now() + '-' + Math.random().toString(36).substring(2, 9);
@@ -303,7 +304,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
       }
       UI.answerSection.classList.add('hidden');
       UI.mcqOptionsContainer.classList.remove('hidden');
-      data.options.forEach((option, index) => {
+      shuffleAnswerOptions(data.options).forEach((option, index) => {
         const button = document.createElement('button');
         button.className =
           'w-full p-3 text-center bg-gray-100 hover:bg-indigo-100 rounded-lg transition-colors flex justify-center items-center';

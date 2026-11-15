@@ -283,6 +283,8 @@ Zastąpiono 34 wskazane podobieństwa w drugiej paczce astronomicznej i niezale�
 
 W kolejnej kontroli zmniejszono wskazane podobieństwa w medycynie i astronomii, sprawdzono wybrane pytania teatralne oraz poprawiono paczki science fiction i symulatorów lotu. W `general_pl` wyrównano kolejność odpowiedzi, zachowując treść i klucze; raporty podają źródła oraz pozostałe ograniczenia.
 
+Kontrola kolejności odpowiedzi wykazała częste umieszczanie klucza na pierwszej pozycji; w grze dodano tasowanie wyświetlanych wariantów. Metodę i ograniczenia opisuje [raport](audits/2026-11-16-kolejnosc-odpowiedzi.md).
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
