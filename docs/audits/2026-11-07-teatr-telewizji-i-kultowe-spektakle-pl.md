@@ -170,3 +170,11 @@ Sprawdzono wybrane twierdzenia w pozycjach 12, 22, 23, 35, 49, 54, 57, 67 i 71. 
 - **60**: rok scenicznej premiery i rolę Mariusza Benoit w „Iwonie, księżniczce Burgunda” potwierdza [archiwum Hübnera](https://www.zygmunthubner.pl/70_Witold_GOMBROWICZ_-_Iwona_ksiezniczka_Burgunda_1983) oraz [TVP](https://teatrtv.vod.tvp.pl/85911584/iwona-ksiezniczka-burgunda).
 
 Sprawdzenie dotyczy wskazanych faktów; nie potwierdza każdego szczegółu pozostałych rekordów. Status audytu pozostaje częściowy.
+
+## Weryfikacja wybranych realizacji i obsady
+
+Sprawdzono pozycje 4, 53, 68, 70, 77, 80, 85, 92, 94 i 97 w katalogach i archiwach. W 4 zmieniono podkategorię monodramu „Msza za miasto Arras” z kryminału na dramat historyczny. W 70 dopisano datę telewizyjnej premiery „Królowej miłości”, w 77 podano wykonawcę tytułowej roli Piotra Oheya, a w 92 odróżniono role Treli i Radziwiłowicza. Pozostałe sprawdzone odpowiedzi zachowano.
+
+Źródła: [TVP — „Msza za miasto Arras”](https://teatrtv.vod.tvp.pl/84102188/msza-za-miasto-arras), [TVP — „Praski Reytan”](https://teatrtv.vod.tvp.pl/85002782/praski-reytan), [archiwum Andrzeja Wajdy — „Rozmowy z katem”](https://wajda.pl/teatr/rozmowy-z-katem/), [TVP — „Królowa miłości”](https://teatrtv.vod.tvp.pl/89187400/krolowa-milosci), [TVP — „Męczeństwo Piotra Oheya”](https://teatrtv.vod.tvp.pl/87701673/meczenstwo-piotra-oheya), [TVP — „Upiór w kuchni”](https://www.tvp.pl/program-tv/teatr-telewizji-upior-w-kuchni/5e76d83ad0341034fc704a83), [TVP — „Panna Julia”](https://teatrtv.vod.tvp.pl/84832843/panna-julia), [TVP — „Ślub”](https://teatrtv.vod.tvp.pl/90424829/slub), [TVP — „1989”](https://www.tvp.info/77216502/-nowa-odslona-teatru-telewizji-nowe-logo-czolowka-i-godzina-emisji), [Instytut Teatralny — telewizyjne „Dziady”](https://e-teatr.pl/dziady-r57526).
+
+Sprawdzono wskazane fakty i zmiany; pozostałe informacje nie są objęte tą kontrolą. Audyt pozostaje częściowy.

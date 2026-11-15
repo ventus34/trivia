@@ -193,17 +193,17 @@
       "explanation_incorrect": "The announced interaction concerns aircraft physics rather than merely changing paint, avatars or menus."
     },
     {
-      "subcategory": "Gliding",
-      "question": "Which PC simulator is titled Condor: The Competition Soaring Simulator?",
+      "subcategory": "Soaring simulation",
+      "question": "Which source of rising air does Condor 3 model for pilots soaring in gliders?",
       "options": [
-        "Condor",
-        "FlightGear",
-        "DCS World",
-        "Orbiter"
+        "Thermals",
+        "Airport jetways",
+        "Radar transponders",
+        "Runway lighting"
       ],
-      "answer": "Condor",
-      "explanation_correct": "Condor is a soaring simulator with an emphasis on gliding and competition.",
-      "explanation_incorrect": "The other titles are different flight or space simulators; this does not assert an exclusive industry standard."
+      "answer": "Thermals",
+      "explanation_correct": "Condor 3 models thermals, including their formation and dissipation; soaring pilots can use rising air to gain altitude.",
+      "explanation_incorrect": "Jetways, transponders and runway lights have other aviation functions; none is a rising air current."
     },
     {
       "subcategory": "Simulator activities",
@@ -416,19 +416,17 @@
       "explanation_incorrect": "The other computers also hosted simulation software, but were not the initial platform described by the Smithsonian."
     },
     {
-      "subcategory": "Simulation Modes",
-      "question": "In flight simulation settings, what is the term typically used to describe a difficulty mode that removes complex flight dynamics for a more accessible experience?",
+      "subcategory": "Early simulation",
+      "question": "What kind of flying did the mechanical Link Trainer, introduced in 1929, help pilots practise?",
       "options": [
-        "Arcade",
-        "Realistic",
-        "Hardcore",
-        "Simulation"
+        "Instrument flying",
+        "Lunar rover driving",
+        "Operating a ship sonar",
+        "Racing automobiles"
       ],
-      "answer": "Arcade",
-      "explanation_correct": "Arcade mode simplifies physics and handling to make the simulation easier for casual players.",
-      "explanation_incorrect": "The other terms refer to modes that increase the complexity of flight physics and system management.",
-      "last_verified_at": "2026-06-12T16:35:07.682Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "Instrument flying",
+      "explanation_correct": "The Link Trainer was a mechanical device designed for instrument-flying instruction, decades before home-computer flight simulators.",
+      "explanation_incorrect": "The trainer was intended for aviation instrument practice, rather than driving, naval sonar or motor racing."
     },
     {
       "subcategory": "Controllers",
@@ -1270,19 +1268,17 @@
       "explanation_incorrect": "The other options imply different levels or types of accessibility rather than that informal term."
     },
     {
-      "subcategory": "Airliners",
-      "question": "Which European-based aerospace corporation produces the A320 and A350 series, frequently modeled in consumer and professional flight simulators?",
+      "subcategory": "Soaring simulation",
+      "question": "Which format does Condor 3 list for exporting recorded glider flight tracks for external viewing?",
       "options": [
-        "Airbus",
-        "Embraer",
-        "Bombardier",
-        "Dassault"
+        "IGC",
+        "JPEG",
+        "MP3",
+        "ZIP"
       ],
-      "answer": "Airbus",
-      "explanation_correct": "Airbus is the major European manufacturer of airliners competing with Boeing.",
-      "explanation_incorrect": "Embraer and Bombardier are regional jet manufacturers, and Dassault specializes in military and business jets.",
-      "last_verified_at": "2026-06-12T16:35:14.840Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "answer": "IGC",
+      "explanation_correct": "Condor 3 documents export of flight tracks in IGC format for use with external IGC viewers.",
+      "explanation_incorrect": "JPEG is an image format, MP3 is an audio format and ZIP is an archive format, not the flight-track format named by Condor."
     },
     {
       "subcategory": "Flight dynamics models",

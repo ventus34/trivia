@@ -287,6 +287,8 @@ Kontrola kolejności odpowiedzi wykazała częste umieszczanie klucza na pierwsz
 
 Sprawdzono kolejne pozycje teatralne oraz poprawiono pytania o science fiction i symulatorach lotu; źródła i ograniczenia znajdują się w raportach tych paczek.
 
+Sprawdzono kolejne pozycje teatralne i poprawiono pytania w paczkach science fiction oraz symulatorów lotu; dokładny zakres, źródła i pozostałe ograniczenia zawierają raporty tych paczek.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
