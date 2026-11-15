@@ -281,6 +281,8 @@ Uzupełniono audyty pięciu paczek. Ostatnie 30 identycznych pytań między pacz
 
 Zastąpiono 34 wskazane podobieństwa w drugiej paczce astronomicznej i niezależnie przeczytano nowe pytania. Porównanie dwóch paczek medycznych wskazało trzy mocne grupy powiązanych faktów i dwa słabsze podobieństwa; ich zakres zapisano w raporcie. Poprawiono także paczki ogólną, teatralną, science fiction i symulatorów lotu.
 
+W kolejnej kontroli zmniejszono wskazane podobieństwa w medycynie i astronomii, sprawdzono wybrane pytania teatralne oraz poprawiono paczki science fiction i symulatorów lotu. W `general_pl` wyrównano kolejność odpowiedzi, zachowując treść i klucze; raporty podają źródła oraz pozostałe ograniczenia.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.
