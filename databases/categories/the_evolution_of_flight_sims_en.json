@@ -258,19 +258,17 @@
       "explanation_incorrect": "The release notes describe seasonal changes as part of X-Plane 12, not the unrelated activities listed."
     },
     {
-      "subcategory": "Input",
-      "question": "Which peripheral brand is most famously associated with the high-end 'Warthog' HOTAS flight system?",
+      "subcategory": "Sim Hardware",
+      "question": "Which manufacturer markets the HOTAS Warthog flight-control system?",
       "options": [
         "Thrustmaster",
         "Logitech",
-        "Saitek",
-        "Virpil"
+        "Virpil",
+        "CH Products"
       ],
       "answer": "Thrustmaster",
-      "explanation_correct": "The Thrustmaster HOTAS Warthog is a replica controller modeled after the A-10C flight controls.",
-      "explanation_incorrect": "While Logitech, Saitek, and Virpil make advanced flight hardware, they do not produce the specific 'Warthog' branded HOTAS.",
-      "last_verified_at": "2026-06-12T16:35:07.682Z",
-      "verifying_model": "google/gemini-3-flash-preview"
+      "explanation_correct": "The HOTAS Warthog range is sold by Thrustmaster; its dual throttle replicates the controls of the A-10C.",
+      "explanation_incorrect": "The other companies also produce flight-simulation peripherals, but HOTAS Warthog is a Thrustmaster product."
     },
     {
       "subcategory": "Scenery tools",
@@ -286,17 +284,17 @@
       "explanation_incorrect": "Plane Maker is the aircraft design tool; the other options describe different tasks."
     },
     {
-      "subcategory": "Simulator scenery",
-      "question": "Which country was the focus of Microsoft Flight Simulator’s World Update II in 2020?",
+      "subcategory": "Mission design",
+      "question": "Which DCS World tool lets players create their own flight missions?",
       "options": [
-        "United States",
-        "Japan",
-        "Italy",
-        "New Zealand"
+        "Mission Editor",
+        "Plane Maker",
+        "TerraSync",
+        "WorldEditor"
       ],
-      "answer": "United States",
-      "explanation_correct": "Microsoft titled World Update II “U.S.” and released it in 2020.",
-      "explanation_incorrect": "Japan was the focus of World Update I; World Update II focused on the United States."
+      "answer": "Mission Editor",
+      "explanation_correct": "DCS World includes a Mission Editor for creating scenarios and missions.",
+      "explanation_incorrect": "Plane Maker and WorldEditor are X-Plane tools, while TerraSync is associated with FlightGear scenery."
     },
     {
       "subcategory": "Flight simulator history",
@@ -351,17 +349,17 @@
       "explanation_incorrect": "WorldEditor is for scenery; TerraSync downloads FlightGear scenery and VATSIM is an online network."
     },
     {
-      "subcategory": "Flight simulator scenery",
-      "question": "Which region did Microsoft Flight Simulator’s World Update V focus on in 2021?",
+      "subcategory": "Flight dynamics history",
+      "question": "Which NASA-developed flight dynamics model was used in early FlightGear releases before JSBSim became the default?",
       "options": [
-        "The Nordic countries",
-        "The Caribbean",
-        "Southern Africa",
-        "Southeast Asia"
+        "LaRCsim",
+        "JSBSim",
+        "YASim",
+        "Voxel Space"
       ],
-      "answer": "The Nordic countries",
-      "explanation_correct": "World Update V improved scenery across Denmark, Finland, Iceland, Norway and Sweden.",
-      "explanation_incorrect": "The update was titled The Nordics and focused on five northern European countries."
+      "answer": "LaRCsim",
+      "explanation_correct": "Early FlightGear used NASA’s LaRCsim flight dynamics model; JSBSim later became the default.",
+      "explanation_incorrect": "JSBSim and YASim are flight dynamics models associated with FlightGear; Voxel Space is a terrain-rendering technology."
     },
     {
       "subcategory": "Modern Software",
@@ -446,17 +444,17 @@
       "explanation_incorrect": "Some sticks also have analog slew mini-sticks for sensors or targeting; these are distinct from pedals and throttles."
     },
     {
-      "subcategory": "Hardware Tech",
-      "question": "Which display technology is frequently touted for VR headsets in flight sims because it offers individual pixel luminance control for deep blacks?",
+      "subcategory": "Simulator weather",
+      "question": "Which weather-data provider did Microsoft identify as a partner for live weather in Microsoft Flight Simulator (2020)?",
       "options": [
-        "OLED",
-        "LCD",
-        "TN Panel",
-        "LED Backlit"
+        "meteoblue",
+        "FlightAware",
+        "Bing Maps",
+        "OpenStreetMap"
       ],
-      "answer": "OLED",
-      "explanation_correct": "OLED panels can switch individual pixels off for deep blacks; perceived contrast also depends on the device and environment.",
-      "explanation_incorrect": "LCD panels use backlighting, often with local dimming; the question asks about self-emissive pixels."
+      "answer": "meteoblue",
+      "explanation_correct": "Microsoft identified meteoblue as its weather-data partner for live weather in the 2020 simulator.",
+      "explanation_incorrect": "FlightAware provided live air-traffic information, while Bing Maps and OpenStreetMap are associated with geographic data."
     },
     {
       "subcategory": "Virtual reality",
@@ -1049,17 +1047,17 @@
       "explanation_incorrect": "Kerbal Space Program also models orbital mechanics, while the other titles offer different spaceflight experiences."
     },
     {
-      "subcategory": "VR",
-      "question": "What technology has recently allowed flight simulation enthusiasts to achieve immersion through 360-degree cockpit visibility?",
+      "subcategory": "Virtual reality",
+      "question": "In which year did Microsoft release a free PC virtual-reality update for Microsoft Flight Simulator (2020)?",
       "options": [
-        "Virtual Reality",
-        "Ultra-wide monitors",
-        "Triple-screen setups",
-        "Tactile feedback"
+        "2020",
+        "2017",
+        "2018",
+        "2019"
       ],
-      "answer": "Virtual Reality",
-      "explanation_correct": "VR can provide stereoscopic visuals and head-tracked cockpit views; monitors and head-tracking systems are other ways to look around a virtual cockpit.",
-      "explanation_incorrect": "Triple screens and head tracking can also broaden cockpit views, but VR headsets provide a head-worn stereoscopic display."
+      "answer": "2020",
+      "explanation_correct": "Microsoft announced that the free PC virtual-reality update was available in December 2020.",
+      "explanation_incorrect": "The other dates precede the December 2020 VR update for this edition."
     },
     {
       "subcategory": "Terrain",

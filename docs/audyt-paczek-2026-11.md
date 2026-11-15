@@ -285,6 +285,8 @@ W kolejnej kontroli zmniejszono wskazane podobieństwa w medycynie i astronomii,
 
 Kontrola kolejności odpowiedzi wykazała częste umieszczanie klucza na pierwszej pozycji; w grze dodano tasowanie wyświetlanych wariantów. Metodę i ograniczenia opisuje [raport](audits/2026-11-16-kolejnosc-odpowiedzi.md).
 
+Sprawdzono kolejne pozycje teatralne oraz poprawiono pytania o science fiction i symulatorach lotu; źródła i ograniczenia znajdują się w raportach tych paczek.
+
 ## Zmiany redakcyjne
 
 - `atrakcje_turystyczne_pl`: poprawiono pisownię dystraktora „Kościoły Artykularne” oraz przetłumaczono nazwę podkategorii „Wonders of the World” na „Cuda świata”; opis w indeksie zsynchronizowano z opisem paczki.

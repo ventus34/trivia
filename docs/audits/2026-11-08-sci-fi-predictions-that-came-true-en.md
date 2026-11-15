@@ -91,3 +91,11 @@ Zastąpiono pięć ogólnych pytań (33, 46, 87, 99, 100) pytaniami o konkretne 
 Pozostałe pytania ogólne nadal wymagają przeglądu zgodności z tytułem paczki; nie jest to pełna przebudowa ani weryfikacja każdej pozycji.
 
 Kolejność opcji poprawiono w całej paczce: wcześniej poprawna odpowiedź była pierwsza w 88 ze 100 pytań, teraz przypada po 25 razy na każdą pozycję. Teksty kluczy pozostawiono bez zmian.
+
+## Kolejne pytania z udokumentowanym kontekstem
+
+Zastąpiono pozycje 26, 55, 57, 59, 65, 69 i 89 pytaniami o konkretne wizje oraz sprawdzalne rzeczywiste technologie lub wydarzenia: projekt windy kosmicznej Clarke’a i wspinający się po linie prototyp LaserMotive; publicystyczny opis lokalizującego komunikatora Clarke’a; wpływ Wellsa na zainteresowanie Szilarda reakcją łańcuchową; gesty w „Minority Report” i g-speak; inspirację „Seveneves” oraz poruszające się po ubraniach roboty Rovables; fikcyjną podróż do Japeta i przelot sondy Cassini; wykład na odległość u Forstera i współczesne wykłady online. Opisy zaznaczają ograniczenia porównań: prototyp windy nie docierał na orbitę, Cassini była bezzałogowa, a badania nad gestami rozpoczęły się przed filmem. Prognoza Clarke’a pochodzi z eseju, a nie z utworu fabularnego.
+
+Źródła: [NASA o wyzwaniu LaserMotive](https://spinoff.nasa.gov/Spinoff2016/ip_4.html), [NASA o eseju Clarke’a z 1959 r.](https://ntrs.nasa.gov/api/citations/20180006504/downloads/20180006504.pdf?attachment=true), [Smithsonian o Wellsie i Szilardzie](https://www.smithsonianmag.com/science-nature/ten-inventions-inspired-by-science-fiction-128080674/), [MIT o „Minority Report” i g-speak](https://news.mit.edu/2014/startup-oblong-industries-gesture-control-interface-0905), [MIT — rozmowa z Ariel Ekblaw o „Seveneves” i Rovables](https://solve.mit.edu/articles/an-aerospace-architect-dr-ariel-ekblaw-on-extraterrestrial-solutions-to-earthly-issues), [publikacja MIT o Rovables](https://dspace.mit.edu/entities/publication/4d9dd3c2-4483-4988-af14-be4d0eab8dc7), [NASA o Cassini i Japecie](https://science.nasa.gov/solar-system/planets/saturn/saturn-moons/enceladus/10-things-dec-18-space-technology-magic-and-arthur-c-clarke/) oraz [tekst opowiadania Forstera](https://hci.stanford.edu/courses/cs047n/readings/forster.pdf).
+
+To nadal częściowa przebudowa: pozostałe ogólne pozycje wymagają osobnej oceny i źródeł.
