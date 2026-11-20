@@ -252,6 +252,7 @@ export function createReadingCardDeck({
   nextButton,
   status,
   language = () => 'pl',
+  focusOnOpen = true,
 }) {
   if (
     !dialog ||
@@ -579,7 +580,7 @@ export function createReadingCardDeck({
       return record;
     });
     activePage = 0;
-    pendingInitialFocus = isInitialContent;
+    pendingInitialFocus = focusOnOpen && isInitialContent;
     scheduleRefresh();
   };
 
@@ -664,6 +665,7 @@ export function setupReadingCards({ language = () => 'pl', document: doc = docum
       nextButton,
       status,
       language,
+      focusOnOpen: prefix === 'question',
     });
   };
 

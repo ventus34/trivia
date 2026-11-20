@@ -611,11 +611,6 @@ export function setupEventListeners() {
   UI.regenerateQuestionBtn.addEventListener('click', () =>
     askQuestion(gameState.currentForcedCategoryIndex)
   );
-  UI.popupRegenerateBtn.addEventListener('click', () => {
-    UI.answerPopup.classList.add('opacity-0', 'scale-90');
-    setTimeout(() => UI.answerPopup.classList.add('hidden'), 500);
-    askQuestion(gameState.currentForcedCategoryIndex);
-  });
 
   UI.playerCountInput.addEventListener('input', () => {
     updatePlayerNameInputs();

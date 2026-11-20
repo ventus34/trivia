@@ -283,6 +283,13 @@ export async function askQuestion(forcedCategoryIndex = null) {
     if (typeof data.answer !== 'string' || !data.answer.trim()) {
       throw new Error(translations.question_generation_error[gameState.currentLanguage]);
     }
+    const options = data.options ?? [];
+    const multipleChoiceMode = gameState.gameMode === 'mcq';
+    if (multipleChoiceMode && (!Array.isArray(options) || options.length === 1)) {
+      throw new Error(translations.question_generation_error[gameState.currentLanguage]);
+    }
+    const useMultipleChoice = multipleChoiceMode && options.length > 0;
+
     setState({ currentQuestionData: data }, 'state:question');
     recordQuestionHistory(data, category);
     UI.questionTextP.textContent = data.question;
@@ -298,13 +305,10 @@ export async function askQuestion(forcedCategoryIndex = null) {
       },
     ];
 
-    if (gameState.gameMode === 'mcq') {
-      if (!Array.isArray(data.options) || data.options.length < 2) {
-        throw new Error(translations.question_generation_error[gameState.currentLanguage]);
-      }
+    if (useMultipleChoice) {
       UI.answerSection.classList.add('hidden');
       UI.mcqOptionsContainer.classList.remove('hidden');
-      shuffleAnswerOptions(data.options).forEach((option, index) => {
+      shuffleAnswerOptions(options).forEach((option, index) => {
         const button = document.createElement('button');
         button.className =
           'w-full p-3 text-center bg-gray-100 hover:bg-indigo-100 rounded-lg transition-colors flex justify-center items-center';
@@ -337,7 +341,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
     UI.questionContent.classList.remove('hidden');
     UI.llmLoader.classList.add('hidden');
     await refreshQuestionReadingCards();
-    if (gameState.gameMode !== 'mcq') {
+    if (!useMultipleChoice) {
       UI.answerInput.focus?.({ preventScroll: true });
     }
 
@@ -601,6 +605,7 @@ export async function handleManualVerification(isCorrect) {
 
   UI.verificationButtons.classList.add('hidden');
   UI.postVerificationButtons.classList.remove('hidden');
+  UI.closePopupBtn.focus({ preventScroll: true });
 
   if (isCorrect) {
     UI.closePopupBtn.classList.remove('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-800');

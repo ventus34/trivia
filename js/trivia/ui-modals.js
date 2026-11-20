@@ -91,6 +91,7 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
 
 export function showAnswerPopup() {
   UI.answerPopup.classList.remove('hidden');
+  UI.answerPopupTitle.focus({ preventScroll: true });
   // The deck is hidden until this point, so measure only after the popup is
   // visible and its responsive dimensions have settled.
   refreshAnswerReadingCards();
@@ -209,6 +210,7 @@ export function closePopupAndContinue() {
  * @param {boolean} show - True to show, false to hide.
  */
 export function showModal(show) {
+  UI.modalContent.inert = !show;
   if (show) {
     UI.questionModal.classList.add('visible');
     setTimeout(() => UI.modalContent.classList.remove('scale-95', 'opacity-0'), 10);

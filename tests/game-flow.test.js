@@ -24,6 +24,7 @@ globalThis.document = {
             value: 'mock-value',
             checked: false,
             disabled: false,
+            focus: vi.fn(),
             addEventListener: vi.fn(),
             setAttribute: vi.fn(),
             toggleAttribute: vi.fn(),
@@ -97,6 +98,7 @@ globalThis.document = {
             classList: { add: vi.fn(), remove: vi.fn(), contains: vi.fn().mockReturnValue(false) },
             appendChild: vi.fn(),
             append: vi.fn(),
+            dataset: {},
             addEventListener: vi.fn(),
             setAttribute: vi.fn(),
             toggleAttribute: vi.fn(),
@@ -214,5 +216,33 @@ describe('Game Flow - initializeGame', () => {
         expect(gameState.currentQuestionData).toBeNull();
         expect(UI.diceElement.disabled).toBe(false);
         expect(UI.answerInput.value).toBe('');
+    });
+
+    it.each([
+        { options: undefined, open: true },
+        { options: [], open: true },
+        { options: ['4', '5'], open: false },
+    ])('renders database questions with options $options', async ({ options, open }) => {
+        const { askQuestion } = await import('../js/trivia/game-flow.js');
+        const { gameState, setState } = await import('../js/trivia/state.js');
+        const { setApiAdapter } = await import('../js/trivia/services/api-service.js');
+        const { UI } = await import('../js/trivia/dom.js');
+        const question = { question: 'What is 2 + 2?', answer: '4', options };
+        setState({
+            players: [{ name: 'Alice', position: 0, wedges: [] }],
+            currentPlayerIndex: 0,
+            categories: ['Math', 'History', 'Geography', 'Art', 'Sports', 'Media'],
+            board: [{ id: 0, categoryIndex: 0 }],
+            gameMode: 'mcq',
+        });
+        setApiAdapter({ generateQuestion: vi.fn().mockResolvedValue(question) });
+        UI.answerInput.focus.mockClear();
+        UI.mcqOptionsContainer.appendChild.mockClear();
+
+        await askQuestion(0);
+
+        expect(gameState.currentQuestionData).toEqual(question);
+        expect(UI.answerInput.focus).toHaveBeenCalledTimes(open ? 1 : 0);
+        expect(UI.mcqOptionsContainer.appendChild).toHaveBeenCalledTimes(open ? 0 : options.length);
     });
 });

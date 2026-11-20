@@ -40,6 +40,14 @@ function makeElement(tagName) {
       }
       return [];
     },
+    querySelector(selector) {
+      if (selector === '.player-name-input') return element.children[0];
+      if (selector === '.emoji-button') return element.children[1].children[0];
+      return null;
+    },
+    set innerHTML(value) {
+      if (value === '') element.children.length = 0;
+    },
     focus: vi.fn(),
     click(event = { preventDefault: vi.fn() }) {
       listeners.get('click')?.(event);
@@ -65,9 +73,8 @@ describe('player setup controls', () => {
     const { UI } = await import('../js/trivia/dom.js');
     const { CONFIG, translations } = await import('../js/trivia/config.js');
     const { updatePlayerNameInputs } = await import('../js/trivia/ui-setup.js');
-    const entries = [];
+    const entries = UI.playerNamesContainer.children;
     UI.playerCountInput.value = '1';
-    UI.playerNamesContainer.appendChild = (entry) => entries.push(entry);
 
     updatePlayerNameInputs();
 
@@ -94,5 +101,14 @@ describe('player setup controls', () => {
     expect(avatarButton.getAttribute('aria-expanded')).toBe('false');
     expect(emojiPanel.classList.contains('active')).toBe(false);
     expect(avatarButton.focus).toHaveBeenCalledOnce();
+
+    nameInput.value = 'Alicja';
+    UI.playerCountInput.value = '2';
+    updatePlayerNameInputs();
+
+    expect(entries).toHaveLength(2);
+    expect(entries[0].querySelector('.player-name-input').value).toBe('Alicja');
+    expect(entries[0].querySelector('.emoji-button').textContent).toBe(CONFIG.EMOJI_OPTIONS[1]);
+    expect(entries[1].querySelector('.player-name-input').value).toBe('');
   });
 });

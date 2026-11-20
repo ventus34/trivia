@@ -223,6 +223,10 @@ export function updateCategoryInputs(cats) {
  */
 export function updatePlayerNameInputs() {
   const count = parseInt(UI.playerCountInput.value);
+  const existingPlayers = Array.from(UI.playerNamesContainer.children, (entry) => ({
+    name: entry.querySelector('.player-name-input').value,
+    emoji: entry.querySelector('.emoji-button').textContent,
+  }));
   UI.playerNamesContainer.innerHTML = '';
   for (let i = 0; i < count; i++) {
     const div = document.createElement('div');
@@ -230,6 +234,7 @@ export function updatePlayerNameInputs() {
 
     const nameInput = document.createElement('input');
     nameInput.type = 'text';
+    nameInput.value = existingPlayers[i]?.name ?? '';
     nameInput.className =
       'player-name-input flex-grow block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm';
     nameInput.placeholder = translations.player_name_placeholder[gameState.currentLanguage].replace(
@@ -246,7 +251,8 @@ export function updatePlayerNameInputs() {
     const emojiButton = document.createElement('button');
     emojiButton.type = 'button';
     emojiButton.className = 'emoji-button';
-    emojiButton.textContent = CONFIG.EMOJI_OPTIONS[i % CONFIG.EMOJI_OPTIONS.length];
+    emojiButton.textContent =
+      existingPlayers[i]?.emoji ?? CONFIG.EMOJI_OPTIONS[i % CONFIG.EMOJI_OPTIONS.length];
     const emojiPanel = document.createElement('div');
     emojiPanel.className = 'emoji-panel';
     emojiPanel.id = `player-${i + 1}-emoji-options`;

@@ -34,7 +34,7 @@ const { UI, gameState } = vi.hoisted(() => {
       verificationButtons: element(['hidden']),
       postVerificationButtons: element(),
       closePopupBtn: element(['bg-green-600', 'hover:bg-green-700', 'active:bg-green-800']),
-      answerPopupTitle: element(),
+      answerPopupTitle: { ...element(), focus: vi.fn() },
       answerPopup: element(['hidden']),
     },
   };
@@ -66,5 +66,6 @@ describe('answer verification colors', () => {
     expect(UI.playerAnswerText.classList.contains('bg-gray-100')).toBe(true);
     expect(UI.correctAnswerText.classList.contains('bg-green-100')).toBe(true);
     expect(UI.correctAnswerText.classList.contains('bg-red-100')).toBe(false);
+    expect(UI.answerPopupTitle.focus).toHaveBeenCalledWith({ preventScroll: true });
   });
 });

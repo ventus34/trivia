@@ -242,6 +242,33 @@ describe('input controls', () => {
     expect(document.activeElement).toBe(third);
   });
 
+  it('requires explicit navigation from the answer heading before a gamepad can grade', () => {
+    const document = makeDocument();
+    const scope = makeElement(document, { id: 'answer-popup' });
+    const heading = makeElement(document, {
+      tagName: 'h3',
+      attributes: { tabindex: '-1' },
+      parent: scope,
+    });
+    const reject = makeElement(document, { parent: scope });
+    scope.querySelectorAll.mockReturnValue([reject]);
+    document.scopes = [scope];
+    document.activeElement = heading;
+    const gamepad = { index: 0, axes: [0, 0], buttons: [{ pressed: true }] };
+    const window = makeWindow([gamepad]);
+    cleanups.push(setupInputControls({ document, window }));
+
+    window.runInterval();
+    expect(reject.click).not.toHaveBeenCalled();
+    expect(document.activeElement).toBe(heading);
+
+    document.dispatch('keydown', { key: 'Tab', preventDefault: vi.fn() });
+    expect(document.activeElement).toBe(reject);
+    const repeat = { key: 'Enter', repeat: true, preventDefault: vi.fn() };
+    document.dispatch('keydown', repeat);
+    expect(repeat.preventDefault).toHaveBeenCalled();
+  });
+
   it('keeps D-pad navigation on legal board moves and wraps between them', () => {
     const document = makeDocument();
     const leftMove = makeElement(document, {

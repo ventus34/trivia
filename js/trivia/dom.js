@@ -85,7 +85,6 @@ export const UI = {
   postVerificationButtons: document.getElementById('post-verification-buttons'),
   acceptAnswerBtn: document.getElementById('accept-answer-btn'),
   rejectAnswerBtn: document.getElementById('reject-answer-btn'),
-  popupRegenerateBtn: document.getElementById('popup-regenerate-btn'),
   closePopupBtn: document.getElementById('close-popup-btn'),
   winnerNameSpan: document.getElementById('winner-name'),
   playAgainBtn: document.getElementById('play-again-btn'),

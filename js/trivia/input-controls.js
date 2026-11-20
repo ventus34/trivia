@@ -492,10 +492,13 @@ export function setupInputControls({
 
   const activateFocused = () => {
     syncScope();
-    const { candidates } = getCandidates();
+    const { scope, candidates } = getCandidates();
+    if (scope?.contains(doc.activeElement) && doc.activeElement?.getAttribute('tabindex') === '-1') {
+      return false;
+    }
     const target = candidates.includes(doc.activeElement)
       ? doc.activeElement
-      : getInitialFocusTarget(getActiveScope(doc), candidates);
+      : getInitialFocusTarget(scope, candidates);
     if (!target || !isAvailable(target)) return false;
     focusTarget(target, true);
     target.click?.();
@@ -521,6 +524,11 @@ export function setupInputControls({
   const onKeyDown = (event) => {
     if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) return;
     syncScope();
+
+    if (event.key === 'Enter' && event.repeat && activeScope?.id === 'answer-popup') {
+      event.preventDefault();
+      return;
+    }
 
     if (event.key === 'Tab' && activeScope) {
       const candidates = getFocusableElements(activeScope);
