@@ -46,7 +46,7 @@ vi.mock('../js/trivia/config.js', () => ({
 }));
 vi.mock('../js/trivia/state.js', () => ({ gameState, setState: vi.fn() }));
 vi.mock('../js/trivia/dom.js', () => ({ UI }));
-vi.mock('../js/trivia/explanations.js', () => ({ renderExplanation: vi.fn(), resetExplanationView: vi.fn() }));
+vi.mock('../js/trivia/explanations.js', () => ({ renderExplanation: vi.fn() }));
 vi.mock('../js/trivia/reading-cards.js', () => ({
   clearAnswerReadingCards: vi.fn(),
   refreshAnswerReadingCards: vi.fn(),

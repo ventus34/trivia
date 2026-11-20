@@ -6,7 +6,7 @@
 import { CONFIG, translations } from './config.js';
 import { gameState, setState } from './state.js';
 import { UI } from './dom.js';
-import { renderExplanation, resetExplanationView } from './explanations.js';
+import { renderExplanation } from './explanations.js';
 import { clearAnswerReadingCards, refreshAnswerReadingCards } from './reading-cards.js';
 import { uiHandlers } from './ui-handlers.js';
 import { saveGameState } from './persistence.js';
@@ -43,7 +43,6 @@ export function promptCategoryChoice() {
  */
 export function showVerificationPopup(playerAnswer, correctAnswer) {
   clearAnswerReadingCards();
-  resetExplanationView();
   UI.playerAnswerText.textContent = playerAnswer;
   UI.correctAnswerText.textContent = correctAnswer;
   setState({ currentPlayerAnswer: playerAnswer }, 'state:verification');

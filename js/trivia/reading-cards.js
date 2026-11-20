@@ -93,19 +93,20 @@ function segmentText(value, granularity) {
  * it is still returned as a page and CSS may wrap it anywhere.
  *
  * @param {string} text
- * @param {(candidate: string) => boolean} fits
+ * @param {(candidate: string, pageIndex: number) => boolean} fits
  * @returns {string[]}
  */
 export function splitTextToPages(text, fits) {
   const source = String(text ?? '');
   if (typeof fits !== 'function') throw new TypeError('fits must be a function');
   if (!source) return [''];
-  if (fits(source)) return [source];
+  if (fits(source, 0)) return [source];
 
   const pages = [];
+  const fitsCurrentPage = (candidate) => fits(candidate, pages.length);
   let current = '';
   const append = (part) => {
-    if (fits(current + part)) {
+    if (fitsCurrentPage(current + part)) {
       current += part;
       return;
     }
@@ -113,7 +114,7 @@ export function splitTextToPages(text, fits) {
       pages.push(current);
       current = '';
     }
-    if (fits(part)) {
+    if (fitsCurrentPage(part)) {
       current = part;
       return;
     }
@@ -123,12 +124,12 @@ export function splitTextToPages(text, fits) {
     const graphemes = segmentText(part, 'grapheme');
     let fragment = '';
     graphemes.forEach((grapheme) => {
-      if (fits(fragment + grapheme)) {
+      if (fitsCurrentPage(fragment + grapheme)) {
         fragment += grapheme;
       } else {
         if (fragment) pages.push(fragment);
         fragment = grapheme;
-        if (!fits(fragment)) {
+        if (!fitsCurrentPage(fragment)) {
           pages.push(fragment);
           fragment = '';
         }
@@ -145,7 +146,8 @@ export function splitTextToPages(text, fits) {
 /**
  * Pack reading items into measured pages. `fitsPage(slots)` tests the exact
  * ordered slots as one rendered page; each slot carries its original item,
- * source index, and display text. Long items are split before items are packed.
+ * source index, and display text. Items can opt into using the space left
+ * on the current page before continuing on the next.
  *
  * @param {Array<{text?: string, kind?: string}>} items
  * @param {(slots: Array<object>) => boolean} fitsPage
@@ -158,35 +160,43 @@ export function paginateReadingItems(items, fitsPage) {
 
   items.forEach((item, itemIndex) => {
     const source = String(item.text ?? '');
-    const wholeItemFits = fitsPage([
-      { item, itemIndex, text: source, chunkIndex: 0, chunkCount: 1 },
-    ]);
+    const wholeSlot = { item, itemIndex, text: source, chunkIndex: 0, chunkCount: 1 };
+    const fitsOnCurrentPage = fitsPage([...page, wholeSlot]);
+    // Reserve room for the longest continuation label when measuring fragments.
+    const fitsFragment = (text, previousSlots = []) =>
+      fitsPage([...previousSlots, { item, itemIndex, text, chunkIndex: 998, chunkCount: 999 }]);
+    const firstWord = source.match(/^\s*\S+/u)?.[0];
+    const startsOnCurrentPage =
+      item.fillRemainingSpace &&
+      page.length > 0 &&
+      !fitsOnCurrentPage &&
+      firstWord &&
+      fitsFragment(firstWord, page);
+    const fitsWhole =
+      fitsOnCurrentPage || (page.length > 0 && !startsOnCurrentPage && fitsPage([wholeSlot]));
+    // On very short viewports, scroll the whole item if its label and one line
+    // cannot fit together. Splitting further would produce one page per glyph.
     const chunks =
-      item.split === false || wholeItemFits
+      item.split === false || fitsWhole || !fitsFragment('…')
         ? [source]
-        : splitTextToPages(source, (text) =>
-            // Reserve room for a localized continuation label when an action
-            // needs fragments. The final label can only be shorter than this.
-            fitsPage([{ item, itemIndex, text, chunkIndex: 998, chunkCount: 999 }])
+        : splitTextToPages(source, (text, pageIndex) =>
+            fitsFragment(text, startsOnCurrentPage && pageIndex === 0 ? page : [])
           );
 
     chunks.forEach((text, chunkIndex) => {
       const slot = { item, itemIndex, text, chunkIndex, chunkCount: chunks.length };
       if (chunks.length > 1) {
-        if (page.length) {
-          pages.push(page);
-          page = [];
-        }
-        pages.push([slot]);
+        const sharesPage = startsOnCurrentPage && chunkIndex === 0;
+        if (page.length && !sharesPage) pages.push(page);
+        pages.push(sharesPage ? [...page, slot] : [slot]);
+        page = [];
         return;
       }
-      const candidate = [...page, slot];
-      if (page.length && !fitsPage(candidate)) {
+      if (page.length && !fitsOnCurrentPage) {
         pages.push(page);
-        page = [slot];
-      } else {
-        page = candidate;
+        page = [];
       }
+      page.push(slot);
     });
   });
 
@@ -351,11 +361,9 @@ export function createReadingCardDeck({
       'left:-100000px',
       'top:0',
       `width:${body.clientWidth}px`,
-      `height:${body.clientHeight}px`,
       'visibility:hidden',
       'pointer-events:none',
-      'display:flex',
-      'flex-direction:column',
+      'display:block',
       'box-sizing:border-box',
     ].join(';');
     const measurement = doc.createElement('div');
@@ -390,7 +398,9 @@ export function createReadingCardDeck({
     });
     measurementRoot.appendChild(measurement);
     doc.body.appendChild(measurementRoot);
-    const fits = measurement.scrollHeight <= measurement.clientHeight;
+    // Measure intrinsic content height. Comparing scrollHeight with
+    // clientHeight on a fixed flex box is sensitive to fractional rounding.
+    const fits = measurement.getBoundingClientRect().height <= body.clientHeight + 1;
     measurementRoot.remove();
     return fits;
   };
@@ -483,7 +493,24 @@ export function createReadingCardDeck({
     const bounds = getFontBounds();
     minFontSize = bounds.min;
     const fitsAtFloor = (slots) => buildMeasurementPage(slots, minFontSize);
-    pageData = paginateReadingItems(sourceItems, fitsAtFloor);
+    const allSlots = sourceItems.map((item, itemIndex) => ({
+      item,
+      itemIndex,
+      text: item.text,
+      chunkIndex: 0,
+      chunkCount: 1,
+    }));
+    // Test the full content before reserving space for navigation. Keep the
+    // pager visible during measurement when it has focus.
+    if (focused !== previousButton && focused !== nextButton) {
+      pagination.classList.add('hidden');
+    }
+    if (fitsAtFloor(allSlots)) {
+      pageData = [allSlots];
+    } else {
+      pagination.classList.remove('hidden');
+      pageData = paginateReadingItems(sourceItems, fitsAtFloor);
+    }
     pageFontSizes = pageData.map((slots) =>
       maximizeFittingFontSize(
         minFontSize,

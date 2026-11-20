@@ -140,6 +140,27 @@ describe('reading-card pagination', () => {
     expect(pages).toEqual(['A', '👩🏽‍🚀', 'B']);
   });
 
+  it('keeps oversized sections whole when the available height cannot fit one line', () => {
+    const items = [{ text: 'Odpowiedź gracza' }, { text: 'Wyjaśnienie odpowiedzi' }];
+    const pages = paginateReadingItems(items, () => false);
+
+    expect(pages.map((page) => page[0].text)).toEqual(items.map((item) => item.text));
+  });
+
+  it('starts a long explanation beneath the answers when there is room', () => {
+    const items = [
+      { text: 'Odpowiedź gracza' },
+      { text: 'Poprawna odpowiedź' },
+      { text: 'Pierwsze zdanie. Drugie zdanie. Trzecie zdanie.', fillRemainingSpace: true },
+    ];
+    const fits = (slots) => slots.reduce((length, slot) => length + slot.text.length, 0) <= 55;
+    const pages = paginateReadingItems(items, fits);
+
+    expect(pages[0].map((slot) => slot.itemIndex)).toEqual([0, 1, 2]);
+    expect(pages.every(fits)).toBe(true);
+    expect(reconstructItems(pages, items)).toEqual(items.map((item) => item.text));
+  });
+
   it('finds the largest fitting font size to within one pixel', () => {
     const limit = 37.25;
     const fits = (size) => size <= limit;

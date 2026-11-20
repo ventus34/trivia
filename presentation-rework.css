@@ -102,7 +102,14 @@ body:not(.live-quiz-app) #setup-screen :is(#wizard-back-btn, #btn-random-select-
 body:not(.live-quiz-app) #info-box { background: var(--trivia-panel); border-color: var(--trivia-border); max-width: 45rem; padding: 1.4rem; line-height: 1.55; }
 body:not(.live-quiz-app) #info-box div { color: var(--trivia-text); }
 body:not(.live-quiz-app) #info-box :is(li, strong, p, span) { color: var(--trivia-text); }
-html[data-display-mode="tv"] body:not(.live-quiz-app) #selected-categories-preview { font-size: calc(20 * var(--tv-unit)); }
+html[data-display-mode="tv"] body:not(.live-quiz-app) #selected-categories-preview {
+    font-size: calc(20 * var(--tv-unit));
+    line-height: 1.3;
+}
+body:not(.live-quiz-app) #selected-categories-preview > div > span:last-child {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
 body:not(.live-quiz-app) #info-box li + li { margin-top: .75rem; }
 
 /* Category selection: layered panels make search, content and actions distinct. */

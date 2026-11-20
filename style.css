@@ -111,7 +111,7 @@ button:disabled { cursor: not-allowed; }
     transform: scale(var(--token-scale, 1));
     transition: left .45s ease, top .45s ease;
 }
-.player-token.is-current { z-index: 8; border-radius: 50%; outline: 3px solid #fff; background: #16263c; }
+.player-token.is-current { z-index: 8; }
 .category-wedge { display: inline-block; width: clamp(.7rem, 1.3vw, 1.25rem); height: clamp(.7rem, 1.3vw, 1.25rem); flex: none; border: 1px solid #738198; border-radius: 50%; }
 .category-legend-item.dimmed { opacity: .38; }
 .category-legend-item.active-highlight { border-color: var(--legend-highlight-color); background: var(--legend-highlight-bg); font-weight: 700; }
@@ -168,6 +168,7 @@ button:disabled { cursor: not-allowed; }
 #standard-popup-content:not(.hidden) { display: flex; flex: 1 1 auto; flex-direction: column; gap: .75rem; min-height: 0; }
 .reading-body:not(.hidden), .reading-pages { display: flex; flex: 1 1 auto; flex-direction: column; min-width: 0; min-height: 0; }
 .reading-page { display: flex; flex: 1 1 auto; flex-direction: column; min-width: 0; min-height: 0; max-width: 100%; overflow-wrap: anywhere; font-size: var(--reading-content-font-size, 1rem); line-height: 1.2; }
+.reading-pages > .reading-page:not([hidden]) { overflow: auto; }
 .reading-page p { overflow-wrap: anywhere; white-space: pre-line; }
 .reading-page button { overflow-wrap: anywhere; white-space: normal; }
 .reading-pagination:not(.hidden) { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; gap: .75rem; }

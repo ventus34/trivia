@@ -11,16 +11,6 @@ function makeReadingLabel(sourceNode, key) {
   return label;
 }
 
-let showDetails = false;
-let latestQuestionData = null;
-let latestLanguage = 'pl';
-let verificationStatus = null;
-
-export function resetExplanationView() {
-  showDetails = false;
-  verificationStatus = null;
-}
-
 function readingLabel(sourceNode, key, text) {
   const label = makeReadingLabel(sourceNode, key);
   if (!label) return undefined;
@@ -41,15 +31,15 @@ function explanationSections(questionData, lang) {
   return sections;
 }
 
-function setAnswerReadingContent() {
-  const en = latestLanguage === 'en';
+function setAnswerReadingContent(questionData, lang, verificationStatus) {
+  const en = lang === 'en';
   const playerStatus = verificationStatus === null
     ? (en ? '◌ Awaiting review · Your answer' : '◌ Do oceny · Odpowiedź gracza')
     : verificationStatus
       ? (en ? '✓ Accepted · Your answer' : '✓ Poprawna · Odpowiedź gracza')
       : (en ? '✕ Incorrect · Your answer' : '✕ Niepoprawna · Odpowiedź gracza');
   const correctStatus = en ? '✓ Correct answer' : '✓ Poprawna odpowiedź';
-  const items = showDetails ? [] : [
+  const items = [
     {
       kind: 'text',
       node: UI.playerAnswerText,
@@ -68,18 +58,17 @@ function setAnswerReadingContent() {
     },
   ];
 
-  if (showDetails && !UI.explanationContainer.classList.contains('hidden')) {
-    explanationSections(latestQuestionData, latestLanguage).forEach(({ label, text }) => {
-      items.push({
-        kind: 'text',
-        node: UI.explanationText,
-        template: UI.explanationText,
-        text,
-        labelNode: label ? readingLabel(UI.explanationText, 'explanation', label) : undefined,
-        sectionKey: 'explanation',
-      });
+  explanationSections(questionData, lang).forEach(({ label, text }) => {
+    items.push({
+      kind: 'text',
+      node: UI.explanationText,
+      template: UI.explanationText,
+      text,
+      labelNode: label ? readingLabel(UI.explanationText, 'explanation', label) : undefined,
+      sectionKey: 'explanation',
+      fillRemainingSpace: true,
     });
-  }
+  });
   setAnswerReadingItems(items);
 }
 
@@ -90,28 +79,9 @@ function setAnswerReadingContent() {
  * @returns {string}
  */
 export function buildExplanationContent(questionData, lang) {
-  const explanationParts = [];
-
-  const correctLabel = translations.explanation_correct_label[lang];
-
-  if (questionData?.explanation_correct) {
-    explanationParts.push(`${correctLabel}\n${questionData.explanation_correct}`);
-  } else if (questionData?.explanation) {
-    explanationParts.push(`${correctLabel}\n${questionData.explanation}`);
-  }
-
-  const incorrectExplanation =
-    questionData?.explanation_distractors || questionData?.explanation_incorrect;
-  if (incorrectExplanation) {
-    const incorrectLabel = translations.explanation_incorrect_label[lang];
-    explanationParts.push(`${incorrectLabel}\n${incorrectExplanation}`);
-  }
-
-  if (explanationParts.length > 0) {
-    return explanationParts.join('\n\n');
-  }
-
-  return translations.explanation_none[lang];
+  return explanationSections(questionData, lang)
+    .map(({ label, text }) => (label ? `${label}\n${text}` : text))
+    .join('\n\n');
 }
 
 /**
@@ -124,9 +94,7 @@ export function buildExplanationContent(questionData, lang) {
  * @param {boolean} options.isCorrect
  */
 export function renderExplanation({ questionData, lang, containerEl, textEl, isCorrect }) {
-  latestQuestionData = questionData;
-  latestLanguage = lang === 'en' ? 'en' : 'pl';
-  verificationStatus = typeof isCorrect === 'boolean' ? isCorrect : null;
+  const verificationStatus = typeof isCorrect === 'boolean' ? isCorrect : null;
   const explanationContent = buildExplanationContent(questionData, lang);
 
   containerEl.classList.remove('hidden');
@@ -140,33 +108,8 @@ export function renderExplanation({ questionData, lang, containerEl, textEl, isC
 
   // Snapshot the canonical values again so manual verification can replace an
   // explanation after the answer deck is already open without showing stale text.
-  const popup = UI.answerPopup;
-  if (popup?.ownerDocument) {
-    let toggle = popup.querySelector('[data-explanation-toggle]');
-    if (!toggle) {
-      toggle = popup.ownerDocument.createElement('button');
-      toggle.type = 'button';
-      toggle.dataset.explanationToggle = '';
-      toggle.className = 'explanation-toggle';
-      popup.querySelector('#standard-popup-content').appendChild(toggle);
-      toggle.addEventListener('click', () => {
-        showDetails = !showDetails;
-        updateToggle(toggle);
-        setAnswerReadingContent();
-        refreshAnswerReadingCards();
-        toggle.focus();
-      });
-    }
-    updateToggle(toggle);
-  }
-  setAnswerReadingContent();
+  setAnswerReadingContent(questionData, lang, verificationStatus);
   refreshAnswerReadingCards()?.catch((error) => {
     console.warn('Could not refresh answer reading cards after explanation update.', error);
   });
-}
-
-function updateToggle(toggle) {
-  const english = toggle.ownerDocument.documentElement.lang === 'en';
-  toggle.textContent = showDetails ? (english ? 'Back to result' : 'Wróć do wyniku') : (english ? 'Explanation' : 'Wyjaśnienie');
-  toggle.setAttribute('aria-expanded', String(showDetails));
 }
