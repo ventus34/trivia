@@ -12,10 +12,8 @@ import {
   renderBoard,
   animateDiceRoll,
   animatePawnMovement,
-  highlightAvailableCategories,
-  resetCategoryLegendHighlights,
+  renderAvailableMoves,
 } from './ui-board.js';
-import { renderExplanation } from './explanations.js';
 import { recordQuestionHistory } from './ui-history.js';
 import {
   clearQuestionReadingCards,
@@ -25,7 +23,10 @@ import {
 import { saveGameState, loadGameState, restoreGameState } from './persistence.js';
 import { notify } from './error-bus.js';
 import { getApiAdapter } from './services/api-service.js';
-import { shuffleAnswerOptions } from './answer-options.js';
+import { getChoiceVerdict, shuffleAnswerOptions } from './answer-options.js';
+
+let questionRequest = 0;
+let answerSubmitted = false;
 
 function generateGameId() {
   return 'game-' + Date.now() + '-' + Math.random().toString(36).substring(2, 9);
@@ -216,7 +217,8 @@ export function initializeGame() {
   // createBoardLayout emits while the board DOM is still empty. Notify again
   // after rendering so subscribers create tokens on their initial positions.
   notifyState('state:init-complete');
-  UI.diceResultDiv.classList.add('hint-pulsate');
+  UI.rollDiceLabel.textContent = translations.roll_dice_title[gameState.currentLanguage];
+  UI.diceElement.disabled = false;
   UI.setupScreen.classList.add('hidden');
   UI.gameScreen.classList.remove('hidden');
   if (UI.generatorLinkBtn) UI.generatorLinkBtn.classList.add('hidden');
@@ -231,6 +233,9 @@ export function initializeGame() {
  * @param {number|null} [forcedCategoryIndex=null] - The index of a category to use.
  */
 export async function askQuestion(forcedCategoryIndex = null) {
+  const request = ++questionRequest;
+  const board = gameState.board;
+  answerSubmitted = false;
   setState(
     { currentForcedCategoryIndex: forcedCategoryIndex, currentQuestionData: null },
     'state:question'
@@ -254,16 +259,12 @@ export async function askQuestion(forcedCategoryIndex = null) {
   const category = gameState.categories[categoryIndex];
   const categoryColor = CONFIG.CATEGORY_COLORS[categoryIndex];
 
-  UI.questionCategoryH3.textContent = translations.category_title[
-    gameState.currentLanguage
-  ].replace('{category}', category);
-  UI.questionCategoryH3.style.color = categoryColor;
+  UI.questionCategoryH3.textContent = category;
   UI.modalContent.style.borderTopColor = categoryColor;
-  const questionPlayer = UI.modalContent.querySelector?.('#question-player');
+  const questionPlayer = UI.modalContent.querySelector('#question-player');
   if (questionPlayer) {
-    const turn = gameState.currentLanguage === 'en' ? 'Playing now' : 'Teraz odpowiada';
-    questionPlayer.textContent = `${turn} · ${player.emoji} ${player.name}`;
-    questionPlayer.style.setProperty('--question-player-color', player.color);
+    questionPlayer.textContent = translations.answering_player[gameState.currentLanguage]
+      .replace('{player}', `${player.emoji} ${player.name}`);
   }
 
   showModal(true);
@@ -277,6 +278,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
   try {
     const api = getApiAdapter();
     const data = await api.generateQuestion(category);
+    if (request !== questionRequest || board !== gameState.board) return;
     if (!data || typeof data.question !== 'string' || !data.question.trim()) {
       throw new Error(translations.question_generation_error[gameState.currentLanguage]);
     }
@@ -341,6 +343,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
     UI.questionContent.classList.remove('hidden');
     UI.llmLoader.classList.add('hidden');
     await refreshQuestionReadingCards();
+    if (request !== questionRequest || board !== gameState.board) return;
     if (!useMultipleChoice) {
       UI.answerInput.focus?.({ preventScroll: true });
     }
@@ -350,6 +353,7 @@ export async function askQuestion(forcedCategoryIndex = null) {
       api.preloadQuestions();
     }
   } catch (error) {
+    if (request !== questionRequest || board !== gameState.board) return;
     console.error('Question generation error:', error);
     const errorMessage =
       error.message || translations.question_generation_error[gameState.currentLanguage];
@@ -363,77 +367,39 @@ export async function askQuestion(forcedCategoryIndex = null) {
     UI.questionContent.classList.add('hidden');
     hideModal();
     UI.diceElement.disabled = false;
+    UI.rollDiceLabel.textContent = translations.roll_again[gameState.currentLanguage];
     UI.gameMessageDiv.textContent = translations.roll_error_message[gameState.currentLanguage];
   }
 }
 
-function hexToRgba(hex, alpha) {
-  const r = parseInt(hex.slice(1, 3), 16);
-  const g = parseInt(hex.slice(3, 5), 16);
-  const b = parseInt(hex.slice(5, 7), 16);
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-}
-
 /**
- * Handles the dice roll action, calculates possible moves, and highlights them.
+ * Rolls once and exposes the same destinations on the board and in the turn panel.
  */
 export async function rollDice() {
-  UI.diceResultDiv.classList.remove('hint-pulsate');
   if (UI.diceElement.disabled || gameState.isAwaitingMove) return;
-  if (!gameState.players?.length || !gameState.board?.length) return;
+  const board = gameState.board;
+  if (!gameState.players?.length || !board?.length) return;
 
   UI.diceElement.disabled = true;
   UI.gameMessageDiv.textContent = '';
   const roll = Math.floor(Math.random() * 6) + 1;
-
   await animateDiceRoll(roll);
+  if (board !== gameState.board) return;
 
-  UI.diceResultDiv.querySelector('span').textContent = translations.dice_roll_result[
-    gameState.currentLanguage
-  ].replace('{roll}', roll);
-
+  const lang = gameState.currentLanguage;
+  const result = translations.dice_roll_result[lang].replace('{roll}', roll);
   const player = gameState.players[gameState.currentPlayerIndex];
   const possiblePaths = findPossibleMoves(player.position, roll);
-  setState({ possiblePaths }, 'state:move');
-
   const destinationIds = Object.keys(possiblePaths);
-
-  if (destinationIds.length > 0) {
-    setState({ isAwaitingMove: true }, 'state:move');
-    UI.gameMessageDiv.textContent = translations.choose_move[gameState.currentLanguage];
-
-    // Clear any orphaned labels first
-    document.querySelectorAll('.move-category-label').forEach((label) => label.remove());
-
-    destinationIds.forEach((id) => {
-      const el = document.getElementById(`square-${id}`);
-      if (el) {
-        el.classList.add('highlighted-move');
-
-        // Set category color CSS variables for board glow
-        const square = gameState.board.find((s) => s.id === parseInt(id));
-        if (square) {
-          let color = '#10b981'; // default emerald for roll again
-          if (square.type === CONFIG.SQUARE_TYPES.HUB) {
-            color = '#ffffff'; // white for hub
-          } else if (square.categoryIndex !== null && square.categoryIndex !== undefined) {
-            color = CONFIG.CATEGORY_COLORS[square.categoryIndex];
-          }
-
-          el.style.setProperty('--highlight-color', color);
-          el.style.setProperty('--highlight-glow-outer', hexToRgba(color, 0.45));
-          el.style.setProperty('--highlight-glow-inner', hexToRgba(color, 0.4));
-          el.style.setProperty('--highlight-glow-outer-pulse', hexToRgba(color, 0.6));
-          el.style.setProperty('--highlight-glow-inner-pulse', hexToRgba(color, 0.8));
-        }
-      }
-    });
-
-    // Highlight available categories in the legend below the board
-    highlightAvailableCategories(destinationIds);
-  } else {
+  if (!destinationIds.length) {
     nextTurn();
+    return;
   }
+
+  UI.rollDiceLabel.textContent = result;
+  UI.gameMessageDiv.textContent = translations.choose_move[lang];
+  setState({ possiblePaths, isAwaitingMove: true }, 'state:move');
+  renderAvailableMoves(destinationIds);
 }
 
 /**
@@ -446,20 +412,13 @@ export async function handleSquareClick(squareId) {
   const path = gameState.possiblePaths[squareId];
   if (!path) return;
 
-  document.querySelectorAll('.highlighted-move').forEach((el) => {
-    el.classList.remove('highlighted-move');
-    el.style.removeProperty('--highlight-color');
-    el.style.removeProperty('--highlight-glow-outer');
-    el.style.removeProperty('--highlight-glow-inner');
-    el.style.removeProperty('--highlight-glow-outer-pulse');
-    el.style.removeProperty('--highlight-glow-inner-pulse');
-  });
-  document.querySelectorAll('.move-category-label').forEach((label) => label.remove());
-  resetCategoryLegendHighlights();
-  setState({ isAwaitingMove: false }, 'state:move');
+  const board = gameState.board;
+  setState({ isAwaitingMove: false, possiblePaths: {} }, 'state:move');
+  renderAvailableMoves();
   UI.gameMessageDiv.textContent = '';
 
   await animatePawnMovement(path.slice(1));
+  if (board !== gameState.board) return;
 
   const players = [...gameState.players];
   const currentPlayer = players[gameState.currentPlayerIndex];
@@ -471,9 +430,10 @@ export async function handleSquareClick(squareId) {
 
   const landedSquare = gameState.board.find((s) => s.id === squareId);
   if (landedSquare.type === CONFIG.SQUARE_TYPES.ROLL_AGAIN) {
-    UI.diceResultDiv.querySelector('span').textContent =
+    UI.rollDiceLabel.textContent =
       translations.roll_again[gameState.currentLanguage];
     UI.diceElement.disabled = false;
+    UI.diceElement.focus({ preventScroll: true });
   } else if (landedSquare.type === CONFIG.SQUARE_TYPES.HUB) {
     promptCategoryChoice();
   } else {
@@ -489,11 +449,9 @@ export function nextTurn() {
   const nextIndex = (gameState.currentPlayerIndex + 1) % gameState.players.length;
   setState({ currentPlayerIndex: nextIndex });
 
-  UI.diceResultDiv.querySelector('span').textContent =
-    translations.roll_to_start[gameState.currentLanguage];
+  UI.rollDiceLabel.textContent = translations.roll_dice_title[gameState.currentLanguage];
   UI.diceElement.disabled = false;
   saveGameState();
-  UI.diceResultDiv.classList.add('hint-pulsate');
 }
 
 /**
@@ -503,23 +461,45 @@ export function checkWinCondition() {
   const winner = gameState.players.find(
     (p) => new Set(p.wedges).size === gameState.categories.length
   );
-  if (winner) {
-    UI.gameScreen.classList.add('hidden');
-    UI.winnerScreen.classList.remove('hidden');
-    UI.winnerNameSpan.textContent = winner.name;
+  if (!winner) return;
+  UI.gameScreen.classList.add('hidden');
+  UI.winnerScreen.classList.remove('hidden');
+  UI.winnerNameSpan.textContent = winner.name;
+  UI.winnerScores.textContent = '';
+  const lang = gameState.currentLanguage;
+  for (const player of gameState.players) {
+    const row = document.createElement('li');
+    const name = document.createElement('span');
+    name.textContent = `${player.emoji} ${player.name}`;
+    const progress = document.createElement('strong');
+    const count = new Set(player.wedges).size;
+    progress.textContent = `${count}/${gameState.categories.length}`;
+    progress.setAttribute('aria-label', translations.wedge_progress[lang]
+      .replace('{count}', count).replace('{total}', gameState.categories.length));
+    row.append(name, progress);
+    UI.winnerScores.appendChild(row);
   }
+  UI.playAgainBtn.focus({ preventScroll: true });
+}
+
+function reviewSubmittedAnswer(playerAnswer, initialVerdict = null) {
+  const question = gameState.currentQuestionData;
+  if (!question || answerSubmitted) return;
+  answerSubmitted = true;
+  hideModal();
+  setTimeout(() => {
+    if (gameState.currentQuestionData === question) {
+      showVerificationPopup(playerAnswer, question.answer, initialVerdict);
+    }
+  }, 300);
 }
 
 /**
  * Handles an answer submission in Multiple Choice Question (MCQ) mode.
- * @param {string} selectedOption - The text of the selected answer option.
  */
 export function handleMcqAnswer(selectedOption) {
-  hideModal();
-  setTimeout(
-    () => showVerificationPopup(selectedOption, gameState.currentQuestionData.answer),
-    300
-  );
+  const question = gameState.currentQuestionData;
+  if (question) reviewSubmittedAnswer(selectedOption, getChoiceVerdict(question, selectedOption));
 }
 
 /**
@@ -537,17 +517,10 @@ export function handleOpenAnswer() {
     );
     return;
   }
-  hideModal();
-  setTimeout(() => showVerificationPopup(userAnswer, gameState.currentQuestionData.answer), 300);
+  reviewSubmittedAnswer(userAnswer);
 }
 
-/**
- * Processes the result of a manual answer verification (correct/incorrect).
- * @param {boolean} isCorrect - Whether the player's answer was deemed correct.
- */
-export async function handleManualVerification(isCorrect) {
-  setState({ lastAnswerWasCorrect: isCorrect }, 'state:verification');
-
+function getAnswerContext() {
   const player = gameState.players[gameState.currentPlayerIndex];
   const square = gameState.board.find((s) => s.id === player.position);
   const categoryIndex =
@@ -555,13 +528,33 @@ export async function handleManualVerification(isCorrect) {
       ? gameState.currentForcedCategoryIndex
       : square.categoryIndex;
   const isHqSquare = square.type === CONFIG.SQUARE_TYPES.HQ;
+  const availableWedge = isHqSquare && !player.wedges.includes(categoryIndex) ? categoryIndex : null;
+  return { player, categoryIndex, isHqSquare, availableWedge };
+}
 
-  if (isCorrect && isHqSquare && !player.wedges.includes(categoryIndex)) {
-    const players = [...gameState.players];
-    const updatedPlayer = { ...player, wedges: [...player.wedges, categoryIndex] };
-    players[gameState.currentPlayerIndex] = updatedPlayer;
-    setState({ players }, 'state:verification');
+export function previewAnswerOutcome(isCorrect) {
+  const { player, availableWedge } = getAnswerContext();
+  const nextIndex = (gameState.currentPlayerIndex + 1) % gameState.players.length;
+  const earnedWedge = isCorrect && availableWedge !== null;
+  return {
+    player: isCorrect ? player.name : gameState.players[nextIndex].name,
+    category: earnedWedge ? gameState.categories[availableWedge] : null,
+    wins: earnedWedge && new Set(player.wedges).size + 1 === gameState.categories.length,
+  };
+}
+
+/** Commits the final verdict after the player confirms it. */
+export function commitAnswerVerdict(isCorrect) {
+  const { player, categoryIndex, isHqSquare, availableWedge } = getAnswerContext();
+  const players = [...gameState.players];
+  if (isCorrect && availableWedge !== null) {
+    players[gameState.currentPlayerIndex] = { ...player, wedges: [...player.wedges, availableWedge] };
   }
+  setState({
+    players,
+    lastAnswerWasCorrect: isCorrect,
+    isMutationPending: isCorrect && isHqSquare && gameState.mutateCategories,
+  }, 'state:verification');
 
   if (categoryIndex !== null && gameState.currentQuestionData.subcategory) {
     const oldCategory = gameState.categories[categoryIndex];
@@ -597,29 +590,4 @@ export async function handleManualVerification(isCorrect) {
       console.warn('Could not save topic history.', error);
     }
   }
-
-  setState(
-    { isMutationPending: isCorrect && isHqSquare && gameState.mutateCategories },
-    'state:verification'
-  );
-
-  UI.verificationButtons.classList.add('hidden');
-  UI.postVerificationButtons.classList.remove('hidden');
-  UI.closePopupBtn.focus({ preventScroll: true });
-
-  if (isCorrect) {
-    UI.closePopupBtn.classList.remove('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-800');
-    UI.closePopupBtn.classList.add('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
-  } else {
-    UI.closePopupBtn.classList.remove('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
-    UI.closePopupBtn.classList.add('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-800');
-  }
-
-  renderExplanation({
-    questionData: gameState.currentQuestionData,
-    lang: gameState.currentLanguage,
-    containerEl: UI.explanationContainer,
-    textEl: UI.explanationText,
-    isCorrect,
-  });
 }

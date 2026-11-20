@@ -246,88 +246,93 @@
 </main>
 
 <!-- ================= GAME SCREEN ================= -->
-<main id="game-screen" class="hidden w-full max-w-[1440px] mx-auto min-h-screen p-4 lg:p-6 flex flex-col gap-6">
-    <!-- Top Bar -->
-        <div id="game-top-bar" class="w-full bg-white rounded-2xl shadow-md p-4 flex flex-col md:flex-row items-center justify-between gap-4">
-        <!-- Left Side: Current Player -->
-        <div class="flex items-center gap-3" aria-live="polite" aria-atomic="true">
-            <span class="text-gray-500 font-medium" data-lang-key="player_turn">Tura Gracza</span>:
-            <span id="current-player-emoji" class="text-2xl" aria-hidden="true"></span>
-            <span id="current-player-name" class="text-xl font-bold"></span>
+<main id="game-screen" class="hidden">
+    <header id="game-top-bar">
+        <div class="current-player" aria-live="polite" aria-atomic="true">
+            <span class="sr-only" data-lang-key="player_turn">Tura gracza</span>
+            <span id="current-player-emoji" aria-hidden="true"></span>
+            <span id="current-player-name"></span>
+            <span id="current-player-progress"></span>
         </div>
+        <button type="button" id="open-game-menu-btn" title="Menu gry" data-title-lang-key="game_menu_title" aria-labelledby="game-menu-button-label" aria-haspopup="dialog" aria-expanded="false" aria-controls="game-menu-panel">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <span id="game-menu-button-label" class="sr-only" data-lang-key="game_menu_title">Menu gry</span>
+        </button>
+    </header>
 
-        <!-- Middle: Player Scores / Wedges -->
-        <div id="player-scores" class="flex flex-wrap items-center justify-center gap-4">
-            <!-- Populated dynamically -->
-        </div>
-
-        <!-- Right Side: Options Menu & Message -->
-        <div class="flex items-center gap-4">
-            <div id="game-message" class="text-sm font-medium text-red-600 h-6 flex items-center" role="status" aria-live="polite"></div>
-            <button type="button" id="open-game-menu-btn" title="Menu Gry" data-title-lang-key="game_menu_title" aria-labelledby="game-menu-button-label" aria-haspopup="dialog" aria-expanded="false" aria-controls="game-menu-panel" class="p-2 rounded-full hover:bg-gray-200 transition-colors">
-                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-                <span id="game-menu-button-label" class="sr-only" data-lang-key="game_menu_title">Menu Gry</span>
-            </button>
-        </div>
-    </div>
-
-    <!-- Main Board Area -->
-    <div id="game-stage" class="flex-grow flex items-center justify-center relative pb-12 w-full">
-        <div class="board-wrapper">
-            <div id="board" class="board-container" role="group" aria-label="Plansza do gry"></div>
-        </div>
-        <!-- Kept beside the board so it can reflow below it on narrow screens. -->
-        <div id="dice-result" class="bg-white rounded-xl shadow-lg p-3 flex flex-col items-center gap-2 border border-gray-200">
-            <span id="roll-dice-label" data-lang-key="roll_dice_title" role="status" aria-live="polite" aria-atomic="true" class="text-xs font-semibold text-gray-500 text-center">Rzuć kostką</span>
-            <div class="dice-container">
-                <button type="button" id="dice" class="dice" aria-labelledby="roll-dice-label" style="appearance: none; border: 0; padding: 0; background: transparent; color: inherit;">
-                    <span class="dice-cube" aria-hidden="true" style="display: block; position: relative; width: 100%; height: 100%; transform-style: preserve-3d;">
-                        <span class="face front" data-value="1">
-                            <span class="pip center"></span>
-                        </span>
-                        <span class="face back" data-value="6">
-                            <span class="pip top-left"></span><span class="pip top-right"></span>
-                            <span class="pip mid-left"></span><span class="pip mid-right"></span>
-                            <span class="pip bot-left"></span><span class="pip bot-right"></span>
-                        </span>
-                        <span class="face right" data-value="4">
-                            <span class="pip top-left"></span><span class="pip top-right"></span>
-                            <span class="pip bot-left"></span><span class="pip bot-right"></span>
-                        </span>
-                        <span class="face left" data-value="3">
-                            <span class="pip top-right"></span>
-                            <span class="pip center"></span>
-                            <span class="pip bot-left"></span>
-                        </span>
-                        <span class="face top" data-value="2">
-                            <span class="pip top-right"></span>
-                            <span class="pip bot-left"></span>
-                        </span>
-                        <span class="face bottom" data-value="5">
-                            <span class="pip top-left"></span><span class="pip top-right"></span>
-                            <span class="pip center"></span>
-                            <span class="pip bot-left"></span><span class="pip bot-right"></span>
-                        </span>
-                    </span>
-                </button>
+    <div id="game-stage">
+        <div class="board-area">
+            <div class="board-wrapper">
+                <div id="board" class="board-container" role="group" aria-label="Plansza do gry"></div>
             </div>
         </div>
+        <aside id="game-sidebar">
+            <div id="dice-result">
+                <button type="button" id="dice" aria-labelledby="roll-dice-label">
+                    <span class="dice-container" aria-hidden="true">
+                        <span class="dice">
+                            <span class="dice-cube">
+                                <span class="face front" data-value="1">
+                                    <span class="pip center"></span>
+                                </span>
+                                <span class="face back" data-value="6">
+                                    <span class="pip top-left"></span><span class="pip top-right"></span>
+                                    <span class="pip mid-left"></span><span class="pip mid-right"></span>
+                                    <span class="pip bot-left"></span><span class="pip bot-right"></span>
+                                </span>
+                                <span class="face right" data-value="4">
+                                    <span class="pip top-left"></span><span class="pip top-right"></span>
+                                    <span class="pip bot-left"></span><span class="pip bot-right"></span>
+                                </span>
+                                <span class="face left" data-value="3">
+                                    <span class="pip top-right"></span>
+                                    <span class="pip center"></span>
+                                    <span class="pip bot-left"></span>
+                                </span>
+                                <span class="face top" data-value="2">
+                                    <span class="pip top-right"></span>
+                                    <span class="pip bot-left"></span>
+                                </span>
+                                <span class="face bottom" data-value="5">
+                                    <span class="pip top-left"></span><span class="pip top-right"></span>
+                                    <span class="pip center"></span>
+                                    <span class="pip bot-left"></span><span class="pip bot-right"></span>
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+                    <span id="roll-dice-label" data-lang-key="roll_dice_title">Rzuć kostką</span>
+                </button>
+            </div>
+            <p id="game-message" role="status" aria-live="polite" aria-atomic="true"></p>
+            <div id="move-options" aria-labelledby="roll-dice-label game-message" role="group" hidden></div>
+            <div id="game-board-info">
+                <button type="button" id="board-info-toggle" aria-expanded="false" aria-controls="board-info-content" data-lang-key="board_info">Wyniki i kategorie</button>
+                <div class="board-info-content" id="board-info-content" hidden>
+                    <section class="board-scores-section" aria-labelledby="board-scores-title">
+                        <h2 id="board-scores-title" data-lang-key="step_players">Gracze</h2>
+                        <div id="player-scores"></div>
+                        <nav id="score-pagination" hidden></nav>
+                    </section>
+                    <section aria-labelledby="board-categories-title">
+                        <h2 id="board-categories-title" data-lang-key="step_categories">Kategorie</h2>
+                        <div id="category-legend"></div>
+                    </section>
+                </div>
+            </div>
+        </aside>
     </div>
-
-    <!-- Hidden element to satisfy JS references for categoryLegend -->
-    <div id="category-legend" class="hidden"></div>
 </main>
 
 <!-- ================= MODALS & POPUPS ================= -->
 <!-- Question Modal -->
 <div id="question-modal" class="hidden fixed inset-0 bg-gray-900 z-50 p-4" role="dialog" aria-modal="true" aria-labelledby="question-category">
-    <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-2xl space-y-6 transform transition-all scale-95 opacity-0 reading-dialog" id="modal-content">
+    <div class="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-2xl transform transition-all scale-95 opacity-0 reading-dialog" id="modal-content">
         <div class="question-scene-header flex justify-between items-center">
             <div class="question-scene-meta">
-                <span class="question-scene-kicker" data-lang-key="question_scene_kicker">RUNDA PYTAŃ</span>
                 <h3 id="question-category" class="font-bold"></h3>
+                <div id="question-player" class="question-player" aria-live="polite"></div>
             </div>
-            <div id="question-player" class="question-player" aria-live="polite"></div>
             <button type="button" id="regenerate-question-btn" class="p-2 rounded-full hover:bg-gray-200 transition-colors" title="Nowe pytanie" data-title-lang-key="regenerate_question_btn" aria-labelledby="regenerate-question-label">
                 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-9 9c-4.97 0-9-4.03-9-9s4.03-9 9-9"/><path d="M21 3v5h-5"/><path d="M3 12a9 9 0 0 1 9-9c1.61 0 3.11.42 4.47 1.17L21 3"/></svg>
                 <span id="regenerate-question-label" class="sr-only" data-lang-key="regenerate_question_btn">Nowe pytanie</span>
@@ -369,72 +374,37 @@
 </div>
 
 <!-- Category Selection Modal (Setup screen) -->
-<div id="category-selection-modal" class="hidden fixed inset-0 bg-gray-900/80 backdrop-blur-md z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="category-selection-title" aria-describedby="category-selection-description">
-    <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col transform transition-all border border-gray-200" id="cat-selection-modal-content">
-        <!-- Modal Header -->
-        <div class="flex-shrink-0 p-5 flex justify-between items-center border-b border-gray-200">
-            <div>
-                <h3 id="category-selection-title" class="text-2xl font-bold text-gray-900 flex items-center gap-2" data-lang-key="modal_choose_categories_title">
-                    Wybierz 6 kategorii do gry
-                </h3>
-                <p id="category-selection-description" class="text-sm text-gray-500 mt-1" data-lang-key="modal_choose_categories_desc">
-                    Wybierz dokładnie 6 kategorii, z których będą losowane pytania w trakcie rozgrywki.
-                </p>
-            </div>
-            <button type="button" id="close-category-selection-btn" class="p-2 rounded-full hover:bg-gray-100 text-gray-500 transition-colors" aria-labelledby="close-category-selection-label">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+<div id="category-selection-modal" class="hidden fixed inset-0 z-[100]" role="dialog" aria-modal="true" aria-labelledby="category-selection-title">
+    <div id="cat-selection-modal-content">
+        <header class="category-picker-header">
+            <h3 id="category-selection-title" data-lang-key="modal_choose_categories_title">Wybierz 6 kategorii</h3>
+            <button type="button" id="close-category-selection-btn" aria-labelledby="close-category-selection-label">
+                <span aria-hidden="true">×</span>
                 <span id="close-category-selection-label" class="sr-only" data-lang-key="btn_cancel">Anuluj</span>
             </button>
-        </div>
-
-        <!-- Filter bar -->
-        <div class="flex-shrink-0 p-4 bg-gray-50 border-b border-gray-200 flex flex-col md:flex-row gap-4 items-center justify-between">
-            <!-- Search & Language Filter -->
-            <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto flex-grow">
+        </header>
+        <div class="category-picker-tools">
+            <div class="category-picker-filters">
                 <span id="category-search-label" class="sr-only" data-lang-key="category_search_placeholder">Szukaj kategorii...</span>
-                <input type="search" id="category-search" placeholder="Szukaj kategorii..." data-lang-key="category_search_placeholder" aria-labelledby="category-search-label" data-controller-initial-focus class="px-4 py-2 border border-gray-300 bg-white text-gray-900 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 flex-grow max-w-md">
-                <div class="flex rounded-lg shadow-sm border border-gray-300 overflow-hidden bg-white">
-                    <button id="cat-filter-all" class="px-3 py-1.5 text-xs font-semibold bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors active" data-lang-key="filter_all">Wszystkie</button>
-                    <button id="cat-filter-pl" class="px-3 py-1.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition-colors border-l border-r border-gray-200">🇵🇱 PL</button>
-                    <button id="cat-filter-en" class="px-3 py-1.5 text-xs font-semibold text-gray-700 hover:bg-gray-100 transition-colors">🇬🇧 EN</button>
+                <input type="search" id="category-search" placeholder="Szukaj kategorii..." data-lang-key="category_search_placeholder" aria-labelledby="category-search-label">
+                <div class="category-language-filter" role="group" data-lang-key-aria-label="step_lang" aria-label="Język">
+                    <button type="button" id="cat-filter-all" data-lang-key="filter_all" aria-pressed="false">Wszystkie</button>
+                    <button type="button" id="cat-filter-pl" aria-pressed="true">PL</button>
+                    <button type="button" id="cat-filter-en" aria-pressed="false">EN</button>
                 </div>
             </div>
-
-            <!-- Selection Status & Quick Presets -->
-            <div class="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto justify-between md:justify-end">
-                <span id="category-selection-counter" class="text-sm font-bold text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-100 whitespace-nowrap">
-                    Wybrano: 0 / 6
-                </span>
-
+            <div class="category-picker-actions">
+                <button type="button" id="btn-random-select-6" data-lang-key="category_random_short">Losuj 6</button>
+                <button type="button" id="btn-clear-categories" data-lang-key="category_clear_short">Wyczyść</button>
             </div>
         </div>
-
-        <!-- Scrollable Category Grid -->
-        <div class="flex-grow overflow-y-auto p-6 bg-gray-50" id="category-grid-container">
-            <div id="category-selection-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Dynamically populated category cards -->
-            </div>
+        <div id="category-grid-container">
+            <div id="category-selection-grid"></div>
         </div>
-
-        <!-- Footer -->
-        <div class="flex-shrink-0 p-4 border-t border-gray-200 flex justify-between items-center bg-white">
-            <div class="flex gap-2">
-                <button id="btn-random-select-6" class="px-3 py-2 border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-sm font-medium transition-colors text-gray-700 dark:text-gray-200 flex items-center gap-1.5">
-                    <span>🎲</span> <span data-lang-key="btn_random_select_6">Losuj 6 kategorii</span>
-                </button>
-                <button id="btn-clear-categories" class="px-3 py-2 border border-red-200 dark:border-red-900/40 bg-red-50 dark:bg-red-950/40 hover:bg-red-100 dark:hover:bg-red-900/50 text-red-650 dark:text-red-400 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5">
-                    <span>🧹</span> <span data-lang-key="btn_clear_categories">Odznacz wszystkie</span>
-                </button>
-            </div>
-            <div class="flex gap-3">
-                <button id="btn-cancel-category-selection" class="px-4 py-2 border border-gray-300 hover:bg-gray-50 rounded-lg text-sm font-medium transition-colors text-gray-700" data-lang-key="btn_cancel">
-                    Anuluj
-                </button>
-                <button id="btn-apply-category-selection" class="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-850 text-white rounded-lg text-sm font-bold transition-all shadow-md disabled:opacity-50 disabled:cursor-not-allowed" disabled data-lang-key="btn_apply">
-                    Zatwierdź Wybór (0/6)
-                </button>
-            </div>
-        </div>
+        <footer class="category-picker-footer">
+            <span id="category-selection-counter" role="status" aria-atomic="true">Wybrano 0 z 6</span>
+            <button type="button" id="btn-apply-category-selection" data-lang-key="btn_apply" disabled>Zatwierdź</button>
+        </footer>
     </div>
 </div>
 
@@ -442,6 +412,7 @@
 <div id="answer-popup" class="hidden fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-8 bg-white rounded-xl shadow-2xl z-50 max-w-md w-full text-center opacity-0 scale-90 reading-dialog" role="dialog" aria-modal="true" aria-labelledby="answer-popup-title">
     <div id="standard-popup-content" class="reading-dialog-content">
         <h3 id="answer-popup-title" tabindex="-1" data-lang-key="answer_evaluation" class="text-2xl font-bold mb-4 text-gray-800"></h3>
+        <p id="answer-outcome" class="hidden" role="status" aria-live="polite" aria-atomic="true"></p>
         <div id="answer-reading-body" class="reading-body">
             <div id="answer-reading-pages" class="reading-pages"></div>
             <div id="answer-reading-source" hidden inert>
@@ -485,6 +456,7 @@
         <button id="accept-answer-btn" data-lang-key="accept_answer" class="w-full py-2 px-4 rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 active:bg-green-800 transition-colors themed-button">Poprawna</button>
     </div>
     <div id="post-verification-buttons" class="hidden mt-4 flex gap-4">
+        <button type="button" id="change-verdict-btn" data-lang-key="change_verdict" class="hidden">Zmień ocenę</button>
         <button id="close-popup-btn" data-lang-key="continue_btn" class="w-full py-2 px-4 rounded-md shadow-sm text-white bg-gray-600 hover:bg-gray-700 active:bg-gray-800 transition-colors themed-button">Kontynuuj</button>
     </div>
 </div>
@@ -493,6 +465,7 @@
 <main id="winner-screen" class="hidden flex flex-col items-center justify-center space-y-6 p-8 bg-white rounded-2xl shadow-xl" aria-live="assertive" aria-labelledby="winner-screen-title">
     <h1 id="winner-screen-title" data-lang-key="congratulations" class="text-4xl font-bold text-yellow-500">Gratulacje!</h1>
     <p class="text-2xl"><span data-lang-key="winner_is">Zwycięzcą jest</span> <span id="winner-name" class="font-bold"></span>!</p>
+    <ul id="winner-scores" data-lang-key-aria-label="final_scores" aria-label="Wyniki końcowe"></ul>
     <button id="play-again-btn" data-lang-key="play_again_btn" class="py-3 px-6 rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 transition-colors themed-button">Zagraj Ponownie</button>
 </main>
 

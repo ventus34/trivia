@@ -403,17 +403,6 @@ export function renderCategorySelectionGrid(searchText = '', langFilter = 'all')
   UI.categorySelectionGrid.innerHTML = '';
 
   const lang = gameState.currentLanguage || 'pl';
-  const questionsText = translations.category_questions
-    ? translations.category_questions[lang]
-    : lang === 'pl'
-      ? 'Pytania'
-      : 'Questions';
-  const selectedText = translations.category_selected
-    ? translations.category_selected[lang]
-    : lang === 'pl'
-      ? 'Wybrana'
-      : 'Selected';
-
   const query = searchText.toLowerCase().trim();
   const filtered = gameState.allCategories.filter((cat) => {
     const matchQuery =
@@ -425,43 +414,71 @@ export function renderCategorySelectionGrid(searchText = '', langFilter = 'all')
 
   if (filtered.length === 0) {
     const noResults = document.createElement('div');
-    noResults.className = 'col-span-full text-center text-gray-500 py-8';
+    noResults.className = 'category-empty';
     noResults.textContent =
       gameState.currentLanguage === 'pl'
         ? 'Brak kategorii pasujących do kryteriów.'
         : 'No categories match the criteria.';
     UI.categorySelectionGrid.appendChild(noResults);
+    updateSelectionCounter();
     return;
   }
 
-  filtered.forEach((cat) => {
-    const isSelected = gameState.tempSelectedCategoryIds.includes(cat.id);
+  filtered.forEach((cat, index) => {
     const card = document.createElement('div');
-    card.className = `category-card ${isSelected ? 'selected' : ''}`;
-    card.setAttribute('data-id', cat.id);
+    card.className = 'category-card';
+    card.dataset.id = cat.id;
 
-    const langFlag = cat.language === 'pl' ? '🇵🇱 PL' : '🇬🇧 EN';
-    const dateFormatted = cat.updated_at ? new Date(cat.updated_at).toLocaleDateString() : '';
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'category-toggle';
+    const check = document.createElement('span');
+    check.className = 'category-check';
+    check.setAttribute('aria-hidden', 'true');
+    const label = document.createElement('span');
+    label.className = 'category-row-text';
+    const name = document.createElement('strong');
+    name.textContent = langFilter === 'all' ? `${cat.name} · ${cat.language.toUpperCase()}` : cat.name;
+    const count = document.createElement('small');
+    count.textContent = cat.question_count;
+    count.setAttribute('aria-label', `${translations.category_questions[lang]}: ${cat.question_count}`);
+    label.append(name, count);
+    toggle.append(check, label);
+    toggle.addEventListener('click', () => toggleCategorySelection(cat.id));
+    card.appendChild(toggle);
 
-    card.innerHTML = `
-            <div class="check-badge">✓</div>
-            <div>
-                <div class="flex items-center justify-between mb-1">
-                    <span class="text-xs font-semibold px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">${langFlag}</span>
-                    <span class="text-[10px] text-gray-400">${dateFormatted}</span>
-                </div>
-                <h4 class="text-sm font-bold text-gray-900 dark:text-white mb-1">${cat.name}</h4>
-                <p class="text-xs text-gray-500 dark:text-gray-400 line-clamp-3">${cat.description || ''}</p>
-            </div>
-            <div class="text-[10px] text-indigo-600 dark:text-indigo-400 font-semibold mt-3 flex items-center justify-between">
-                <span>${questionsText}: ${cat.question_count}</span>
-                ${isSelected ? `<span>${selectedText}</span>` : ''}
-            </div>
-        `;
-
-    card.addEventListener('click', () => {
-      toggleCategorySelection(cat.id);
-    });
+    if (cat.description || cat.updated_at) {
+      const detailsButton = document.createElement('button');
+      detailsButton.type = 'button';
+      detailsButton.className = 'category-details-toggle';
+      detailsButton.setAttribute('aria-label', translations.category_details[lang].replace('{name}', cat.name));
+      detailsButton.setAttribute('aria-expanded', 'false');
+      const chevron = document.createElement('span');
+      chevron.textContent = '⌄';
+      chevron.setAttribute('aria-hidden', 'true');
+      detailsButton.appendChild(chevron);
+      const details = document.createElement('div');
+      details.className = 'category-details';
+      details.id = `category-details-${index}`;
+      details.hidden = true;
+      detailsButton.setAttribute('aria-controls', details.id);
+      if (cat.description) {
+        const description = document.createElement('p');
+        description.textContent = cat.description;
+        details.appendChild(description);
+      }
+      if (cat.updated_at) {
+        const updated = document.createElement('p');
+        const date = new Date(cat.updated_at).toLocaleDateString(lang);
+        updated.textContent = `${translations.category_updated[lang]}: ${date}`;
+        details.appendChild(updated);
+      }
+      detailsButton.addEventListener('click', () => {
+        details.hidden = !details.hidden;
+        detailsButton.setAttribute('aria-expanded', String(!details.hidden));
+      });
+      card.append(detailsButton, details);
+    }
 
     UI.categorySelectionGrid.appendChild(card);
   });
@@ -497,15 +514,7 @@ export function toggleCategorySelection(catId) {
     gameState.tempSelectedCategoryIds.push(catId);
   }
 
-  const query = UI.categorySearch.value;
-  const activeTab = document.querySelector('#category-selection-modal button.active');
-  const lang =
-    activeTab && activeTab.id === 'cat-filter-pl'
-      ? 'pl'
-      : activeTab && activeTab.id === 'cat-filter-en'
-        ? 'en'
-        : 'all';
-  renderCategorySelectionGrid(query, lang);
+  updateSelectionCounter();
 }
 
 /**
@@ -516,36 +525,15 @@ export function updateSelectionCounter() {
     gameState.tempSelectedCategoryIds = [];
   }
   const count = gameState.tempSelectedCategoryIds.length;
-  if (UI.categorySelectionCounter) {
-    UI.categorySelectionCounter.textContent =
-      gameState.currentLanguage === 'pl' ? `Wybrano: ${count} / 6` : `Selected: ${count} / 6`;
+  for (const row of UI.categorySelectionGrid.querySelectorAll('.category-card')) {
+    const selected = gameState.tempSelectedCategoryIds.includes(row.dataset.id);
+    row.querySelector('.category-toggle').setAttribute('aria-pressed', String(selected));
+    row.querySelector('.category-check').textContent = selected ? '✓' : '';
   }
-  if (UI.btnApplyCategorySelection) {
-    UI.btnApplyCategorySelection.disabled = count !== 6;
-    if (count === 6) {
-      UI.btnApplyCategorySelection.classList.remove(
-        'bg-indigo-600',
-        'hover:bg-indigo-700',
-        'active:bg-indigo-850'
-      );
-      UI.btnApplyCategorySelection.classList.add(
-        'bg-green-600',
-        'hover:bg-green-700',
-        'active:bg-green-800'
-      );
-    } else {
-      UI.btnApplyCategorySelection.classList.remove(
-        'bg-green-600',
-        'hover:bg-green-700',
-        'active:bg-green-800'
-      );
-      UI.btnApplyCategorySelection.classList.add(
-        'bg-indigo-600',
-        'hover:bg-indigo-700',
-        'active:bg-indigo-850'
-      );
-    }
-  }
+  UI.categorySelectionCounter.textContent =
+    gameState.currentLanguage === 'pl' ? `Wybrano ${count} z 6` : `${count} of 6 selected`;
+  UI.btnApplyCategorySelection.disabled = count !== 6;
+  UI.btnClearCategories.disabled = count === 0;
 }
 
 /**
@@ -643,8 +631,7 @@ export function applyRandomCategorySelection() {
 
   if (UI.categorySelectionModal && !UI.categorySelectionModal.classList.contains('hidden')) {
     gameState.tempSelectedCategoryIds = selectedIds;
-    const query = UI.categorySearch.value;
-    renderCategorySelectionGrid(query, lang);
+    updateSelectionCounter();
   } else {
     gameState.selectedCategoryIds = selectedIds;
     localStorage.setItem(
@@ -785,15 +772,7 @@ export function validateStep3NextButton() {
  */
 export function clearCategorySelection() {
   gameState.tempSelectedCategoryIds = [];
-  const query = UI.categorySearch ? UI.categorySearch.value : '';
-  const activeTab = document.querySelector('#category-selection-modal button.active');
-  const lang =
-    activeTab && activeTab.id === 'cat-filter-pl'
-      ? 'pl'
-      : activeTab && activeTab.id === 'cat-filter-en'
-        ? 'en'
-        : 'all';
-  renderCategorySelectionGrid(query, lang);
+  updateSelectionCounter();
 }
 
 /**

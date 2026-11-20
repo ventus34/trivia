@@ -8,6 +8,8 @@ export const uiHandlers = {
   askQuestion: null,
   nextTurn: null,
   checkWinCondition: null,
+  previewAnswerOutcome: null,
+  commitAnswerVerdict: null,
   handleSuggestAlternatives: null,
 };
 

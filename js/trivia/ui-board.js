@@ -3,30 +3,14 @@
  * Board rendering and board-related UI updates.
  */
 
-import { CONFIG } from './config.js';
+import { CONFIG, translations } from './config.js';
 import { gameState } from './state.js';
 import { UI } from './dom.js';
 import { uiHandlers } from './ui-handlers.js';
 
-let boardInteractionObserver;
 let diceOrientation = { x: 0, y: 0 };
 let scorePage = 0;
 let lastTurnIndex = null;
-
-function setupBoardSidebar() {
-  const stage = document.getElementById('game-stage');
-  if (!stage || document.getElementById('game-sidebar')) return;
-  const sidebar = document.createElement('aside');
-  sidebar.id = 'game-sidebar';
-  const scores = document.createElement('section');
-  scores.className = 'board-scores-section';
-  const nav = document.createElement('nav');
-  nav.id = 'score-pagination';
-  scores.append(UI.playerScoresContainer, nav);
-  UI.categoryLegend.classList.remove('hidden');
-  sidebar.append(UI.diceResultDiv, scores, UI.categoryLegend);
-  stage.appendChild(sidebar);
-}
 
 function renderScorePagination() {
   const nav = document.getElementById('score-pagination');
@@ -63,44 +47,65 @@ function renderScorePagination() {
 }
 
 
-function squareLabel(square) {
-  const isEnglish = gameState.currentLanguage === 'en';
-  const category =
-    square.categoryIndex !== null && square.categoryIndex !== undefined
-      ? gameState.categories[square.categoryIndex]
-      : '';
-  const typeLabels = isEnglish
-    ? {
-        [CONFIG.SQUARE_TYPES.HQ]: 'headquarters',
-        [CONFIG.SQUARE_TYPES.HUB]: 'central hub',
-        [CONFIG.SQUARE_TYPES.ROLL_AGAIN]: 'roll again square',
-      }
-    : {
-        [CONFIG.SQUARE_TYPES.HQ]: 'pole główne',
-        [CONFIG.SQUARE_TYPES.HUB]: 'centrum planszy',
-        [CONFIG.SQUARE_TYPES.ROLL_AGAIN]: 'pole rzuć ponownie',
-      };
-  const squareType = typeLabels[square.type] || '';
-  const details = [category, squareType].filter(Boolean).join(', ');
-  const selected = gameState.isAwaitingMove && document.getElementById(`square-${square.id}`)?.classList.contains('highlighted-move');
-
-  if (isEnglish) {
-    return `Square ${square.id}${details ? `, ${details}` : ''}. ${selected ? 'Available move.' : 'Roll the die to show available moves.'}`;
-  }
-  return `Pole ${square.id}${details ? `, ${details}` : ''}. ${selected ? 'Możliwy ruch.' : 'Rzuć kostką, aby zobaczyć możliwe ruchy.'}`;
+function moveDescription(square, player) {
+  const lang = gameState.currentLanguage;
+  const { HQ, HUB, ROLL_AGAIN } = CONFIG.SQUARE_TYPES;
+  if (square.type === HUB) return [translations.choose_category_title[lang]];
+  if (square.type === ROLL_AGAIN) return [translations.roll_again[lang]];
+  const category = gameState.categories[square.categoryIndex];
+  if (square.type !== HQ) return [category];
+  const detail = player.wedges.includes(square.categoryIndex) ? 'headquarters' : 'play_for_wedge';
+  return [category, translations[detail][lang]];
 }
 
-function syncBoardSquareControls() {
-  gameState.board?.forEach((square) => {
-    const squareEl = document.getElementById(`square-${square.id}`);
-    if (!squareEl) return;
+export function renderAvailableMoves(destinationIds = []) {
+  document.querySelectorAll('#board .highlighted-move').forEach((cell) => {
+    cell.classList.remove('highlighted-move', 'move-preview');
+    cell.disabled = true;
+    cell.setAttribute('aria-hidden', 'true');
+  });
+  UI.moveOptions.textContent = '';
+  UI.moveOptions.hidden = !destinationIds.length;
+  if (!destinationIds.length) return;
 
-    const isAvailable =
-      gameState.isAwaitingMove && squareEl.classList.contains('highlighted-move');
-    squareEl.tabIndex = isAvailable ? 0 : -1;
-    squareEl.setAttribute('aria-disabled', String(!isAvailable));
-    squareEl.setAttribute('aria-label', squareLabel(square));
-    squareEl.toggleAttribute('data-controller-focus', isAvailable);
+  const player = gameState.players[gameState.currentPlayerIndex];
+  destinationIds.forEach((id, index) => {
+    const square = gameState.board.find((entry) => entry.id === Number(id));
+    const cell = document.getElementById(`square-${id}`);
+    const number = String(index + 1);
+    const [name, detail] = moveDescription(square, player);
+
+    cell.classList.add('highlighted-move');
+    cell.disabled = false;
+    cell.removeAttribute('aria-hidden');
+    cell.setAttribute('aria-label', [number, name, detail].filter(Boolean).join('. '));
+    cell.querySelector('.move-number').textContent = number;
+
+    const option = document.createElement('button');
+    option.type = 'button';
+    option.className = 'move-option';
+    option.dataset.destination = id;
+    option.setAttribute('data-controller-focus', '');
+    const badge = document.createElement('span');
+    badge.className = 'move-number';
+    badge.textContent = number;
+    const color = CONFIG.CATEGORY_COLORS[square.categoryIndex];
+    if (color) badge.style.setProperty('--move-color', color);
+
+    const label = document.createElement('span');
+    const title = document.createElement('strong');
+    title.textContent = name;
+    label.appendChild(title);
+    if (detail) {
+      const description = document.createElement('small');
+      description.textContent = detail;
+      label.appendChild(description);
+    }
+    option.append(badge, label);
+    option.addEventListener('focus', () => cell.classList.add('move-preview'));
+    option.addEventListener('blur', () => cell.classList.remove('move-preview'));
+    option.addEventListener('click', () => uiHandlers.handleSquareClick?.(square.id));
+    UI.moveOptions.appendChild(option);
   });
 }
 
@@ -108,7 +113,7 @@ function syncBoardSquareControls() {
  * Renders the game board squares and their connections as an SVG overlay.
  */
 export function renderBoard() {
-  boardInteractionObserver?.disconnect();
+  renderAvailableMoves();
   UI.boardElement.innerHTML = '';
   const svgNS = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(svgNS, 'svg');
@@ -123,9 +128,8 @@ export function renderBoard() {
     squareEl.className = 'board-square';
     squareEl.id = `square-${square.id}`;
     squareEl.tabIndex = -1;
-    squareEl.setAttribute('aria-disabled', 'true');
-    squareEl.setAttribute('aria-label', squareLabel(square));
-    squareEl.setAttribute('data-board-square', '');
+    squareEl.disabled = true;
+    squareEl.setAttribute('aria-hidden', 'true');
     squareEl.style.left = `calc(${square.pos.x}% - 3%)`;
     squareEl.style.top = `calc(${square.pos.y}% - 3%)`;
 
@@ -144,6 +148,11 @@ export function renderBoard() {
       squareEl.style.transform = 'scale(1.2)';
       squareEl.style.background = 'radial-gradient(circle, #fff, #d1d5db)';
     }
+
+    const moveNumber = document.createElement('span');
+    moveNumber.className = 'move-number';
+    moveNumber.setAttribute('aria-hidden', 'true');
+    squareEl.appendChild(moveNumber);
 
     squareEl.addEventListener('click', () => {
       if (typeof uiHandlers.handleSquareClick === 'function') {
@@ -167,17 +176,6 @@ export function renderBoard() {
       }
     });
   });
-
-  syncBoardSquareControls();
-  const MutationObserverConstructor = window.MutationObserver;
-  if (MutationObserverConstructor) {
-    boardInteractionObserver = new MutationObserverConstructor(syncBoardSquareControls);
-    boardInteractionObserver.observe(UI.boardElement, {
-      subtree: true,
-      attributes: true,
-      attributeFilter: ['class'],
-    });
-  }
 }
 
 /**
@@ -197,79 +195,6 @@ export function renderCategoryLegend() {
     label.textContent = cat;
     legendItem.append(swatch, label);
     UI.categoryLegend.appendChild(legendItem);
-  });
-}
-
-function hexToRgba(hex, alpha) {
-  const r = parseInt(hex.slice(1, 3), 16);
-  const g = parseInt(hex.slice(3, 5), 16);
-  const b = parseInt(hex.slice(5, 7), 16);
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-}
-
-/**
- * Highlights categories in the legend that correspond to the destination squares,
- * and dims the rest.
- * @param {string[]} destinationIds - Array of square IDs the player can move to.
- */
-export function highlightAvailableCategories(destinationIds) {
-  const availableIndices = new Set();
-  let hasHub = false;
-
-  destinationIds.forEach((id) => {
-    const square = gameState.board.find((s) => s.id === parseInt(id));
-    if (square) {
-      if (square.type === CONFIG.SQUARE_TYPES.HUB) {
-        hasHub = true;
-      } else if (square.categoryIndex !== null && square.categoryIndex !== undefined) {
-        availableIndices.add(square.categoryIndex);
-      }
-    }
-  });
-
-  const allIndices = [0, 1, 2, 3, 4, 5];
-  const activeSet = hasHub ? new Set(allIndices) : availableIndices;
-
-  if (activeSet.size === 0) {
-    resetCategoryLegendHighlights();
-    return;
-  }
-
-  allIndices.forEach((i) => {
-    const el = document.getElementById(`legend-cat-${i}`);
-    if (el) {
-      if (activeSet.has(i)) {
-        el.classList.remove('dimmed');
-        el.classList.add('active-highlight');
-
-        const color = CONFIG.CATEGORY_COLORS[i];
-        el.style.setProperty('--legend-highlight-color', color);
-        el.style.setProperty('--legend-highlight-glow', hexToRgba(color, 0.35));
-        el.style.setProperty('--legend-highlight-bg', hexToRgba(color, 0.12));
-      } else {
-        el.classList.remove('active-highlight');
-        el.classList.add('dimmed');
-        el.style.removeProperty('--legend-highlight-color');
-        el.style.removeProperty('--legend-highlight-glow');
-        el.style.removeProperty('--legend-highlight-bg');
-      }
-    }
-  });
-}
-
-/**
- * Resets the category legend items to their normal state (no highlights, no dimming).
- */
-export function resetCategoryLegendHighlights() {
-  const allIndices = [0, 1, 2, 3, 4, 5];
-  allIndices.forEach((i) => {
-    const el = document.getElementById(`legend-cat-${i}`);
-    if (el) {
-      el.classList.remove('dimmed', 'active-highlight');
-      el.style.removeProperty('--legend-highlight-color');
-      el.style.removeProperty('--legend-highlight-glow');
-      el.style.removeProperty('--legend-highlight-bg');
-    }
   });
 }
 
@@ -361,7 +286,6 @@ export function updateUI() {
     return;
   }
 
-  setupBoardSidebar();
   renderCategoryLegend();
 
   const currentPlayer = gameState.players[gameState.currentPlayerIndex];
@@ -373,14 +297,17 @@ export function updateUI() {
     'aria-label',
     isEnglish ? 'Trivia board. Choose a highlighted square after rolling.' : 'Plansza Trivia. Po rzucie wybierz podświetlone pole.'
   );
-  UI.diceElement.setAttribute(
-    'aria-label',
-    isEnglish ? 'Roll the die to move your token' : 'Rzuć kostką, aby przesunąć pionek'
-  );
+  const progress = new Set(currentPlayer.wedges).size;
   UI.currentPlayerEmojiSpan.textContent = currentPlayer.emoji;
   UI.currentPlayerNameDiv.textContent = currentPlayer.name;
-  UI.currentPlayerNameDiv.style.color = '';
-  syncBoardSquareControls();
+  UI.currentPlayerNameDiv.title = currentPlayer.name;
+  UI.currentPlayerProgress.textContent = `${progress}/${gameState.categories.length}`;
+  UI.currentPlayerProgress.setAttribute(
+    'aria-label',
+    translations.wedge_progress[gameState.currentLanguage]
+      .replace('{count}', progress)
+      .replace('{total}', gameState.categories.length)
+  );
   if (lastTurnIndex !== gameState.currentPlayerIndex) {
     scorePage = Math.floor(gameState.currentPlayerIndex / 4);
     lastTurnIndex = gameState.currentPlayerIndex;

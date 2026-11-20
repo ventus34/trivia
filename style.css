@@ -38,7 +38,7 @@ button:disabled { cursor: not-allowed; }
     outline-offset: 3px;
 }
 
-/* Layout of the fixed-height game stage; small screens scroll as a page. */
+/* Shared layout primitives for the board. */
 #game-screen:not(.hidden) {
     width: 100%;
     max-width: none;
@@ -60,7 +60,6 @@ button:disabled { cursor: not-allowed; }
 #game-top-bar > :first-child { min-width: 0; }
 #game-top-bar > :last-child { min-width: 0; justify-content: flex-end; }
 #current-player-name { overflow-wrap: anywhere; }
-#game-message { max-width: 18rem; height: auto; line-height: 1.3; color: #fda4af; }
 #open-game-menu-btn { width: 3rem; height: 3rem; display: grid; place-items: center; }
 #game-stage { position: relative; flex: 1 1 0; min-width: 0; min-height: 0; padding-bottom: 0; }
 .board-wrapper { position: relative; overflow: visible; container-type: inline-size; }
@@ -90,7 +89,7 @@ button:disabled { cursor: not-allowed; }
     transition: outline-color .15s, filter .15s;
 }
 .board-square svg { width: 55%; height: 55%; color: #26384e; }
-.board-square[aria-disabled="true"] { cursor: default; }
+.board-square:disabled { cursor: default; }
 .board-square.highlighted-move {
     outline: max(3px, .55cqi) solid #fff;
     outline-offset: max(2px, .25cqi);
@@ -113,8 +112,6 @@ button:disabled { cursor: not-allowed; }
 }
 .player-token.is-current { z-index: 8; }
 .category-wedge { display: inline-block; width: clamp(.7rem, 1.3vw, 1.25rem); height: clamp(.7rem, 1.3vw, 1.25rem); flex: none; border: 1px solid #738198; border-radius: 50%; }
-.category-legend-item.dimmed { opacity: .38; }
-.category-legend-item.active-highlight { border-color: var(--legend-highlight-color); background: var(--legend-highlight-bg); font-weight: 700; }
 
 /* The cube still uses the game's rotations; flat faces avoid glossy decoration. */
 #game-stage { --responsive-dice-size: clamp(3rem, 6vh, 4.5rem); --responsive-dice-depth: calc(var(--responsive-dice-size) / 2); }
@@ -183,14 +180,3 @@ button:disabled { cursor: not-allowed; }
 #theme-switcher label:has(input:checked) { background: var(--trivia-accent); color: #fff; }
 .theme-radio { position: absolute; opacity: 0; }
 #theme-switcher label:focus-within { outline: 3px solid #fbbf24; outline-offset: 2px; }
-
-@media (max-width: 800px), (max-height: 500px) {
-    #game-screen:not(.hidden) { height: auto; min-height: 100dvh; overflow: visible; }
-    #game-stage { flex: none; }
-    #game-top-bar { gap: .5rem; }
-    #current-player-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    #category-grid-container { padding: 1rem; }
-    #cat-selection-modal-content > div:last-child { display: grid; grid-template-columns: 1fr; gap: .5rem; }
-    #cat-selection-modal-content > div:last-child > div { display: flex; width: 100%; }
-    #cat-selection-modal-content > div:last-child button { flex: 1; min-width: 0; }
-}

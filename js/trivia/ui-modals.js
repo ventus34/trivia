@@ -14,6 +14,9 @@ import { notify } from './error-bus.js';
 import { getApiAdapter } from './services/api-service.js';
 import { emit } from './store.js';
 
+// undefined means the review is closed; null means an open review needs a ruling.
+let pendingVerdict;
+
 /**
  * Displays the modal for choosing a category (used when on the HUB square).
  */
@@ -41,7 +44,7 @@ export function promptCategoryChoice() {
  * @param {string} playerAnswer - The player's submitted answer.
  * @param {string} correctAnswer - The correct answer from the question data.
  */
-export function showVerificationPopup(playerAnswer, correctAnswer) {
+export function showVerificationPopup(playerAnswer, correctAnswer, initialVerdict = null) {
   clearAnswerReadingCards();
   UI.playerAnswerText.textContent = playerAnswer;
   UI.correctAnswerText.textContent = correctAnswer;
@@ -57,11 +60,6 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
   }
 
   UI.explanationText.innerHTML = '';
-  UI.verificationButtons.classList.remove('hidden');
-  UI.postVerificationButtons.classList.add('hidden');
-  UI.closePopupBtn.classList.remove('bg-green-600', 'hover:bg-green-700', 'active:bg-green-800');
-  UI.closePopupBtn.classList.add('bg-gray-600', 'hover:bg-gray-700', 'active:bg-gray-800');
-  UI.answerPopupTitle.textContent = translations.answer_evaluation[gameState.currentLanguage];
 
   const answersMatch = playerAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
 
@@ -77,20 +75,53 @@ export function showVerificationPopup(playerAnswer, correctAnswer) {
     UI.verifyAnswerBtn.classList.toggle('hidden', !canVerify);
   }
 
-  renderExplanation({
-    questionData: gameState.currentQuestionData,
-    lang: gameState.currentLanguage,
-    containerEl: UI.explanationContainer,
-    textEl: UI.explanationText,
-    isCorrect: null,
-  });
-
+  pendingVerdict = initialVerdict;
+  updateAnswerReview();
   showAnswerPopup();
 }
 
-export function showAnswerPopup() {
+function updateAnswerReview() {
+  const lang = gameState.currentLanguage;
+  const hasVerdict = typeof pendingVerdict === 'boolean';
+  const title = hasVerdict
+    ? (pendingVerdict ? 'answer_correct_result' : 'answer_incorrect_result')
+    : 'answer_evaluation';
+  UI.answerPopupTitle.textContent = translations[title][lang];
+  UI.verificationButtons.classList.toggle('hidden', hasVerdict);
+  UI.postVerificationButtons.classList.toggle('hidden', !hasVerdict);
+  UI.changeVerdictBtn.classList.toggle('hidden', !hasVerdict);
+
+  const outcome = hasVerdict ? uiHandlers.previewAnswerOutcome(pendingVerdict) : null;
+  const messages = [];
+  if (outcome) {
+    if (outcome.category) messages.push(translations.wedge_awarded[lang].replace('{category}', outcome.category));
+    const nextAction = outcome.wins ? 'wins_game' : 'rolls_next';
+    messages.push(translations[nextAction][lang].replace('{player}', outcome.player));
+  }
+  UI.answerOutcome.textContent = messages.join(' • ');
+  UI.answerOutcome.classList.toggle('hidden', !outcome);
+
+  renderExplanation({
+    questionData: gameState.currentQuestionData,
+    lang,
+    containerEl: UI.explanationContainer,
+    textEl: UI.explanationText,
+    isCorrect: pendingVerdict,
+  });
+}
+
+export function setAnswerVerdict(verdict) {
+  if (pendingVerdict === undefined) return;
+  pendingVerdict = verdict;
+  updateAnswerReview();
+  const focusTarget = verdict === null ? UI.answerPopupTitle : UI.closePopupBtn;
+  focusTarget.focus({ preventScroll: true });
+}
+
+function showAnswerPopup() {
   UI.answerPopup.classList.remove('hidden');
-  UI.answerPopupTitle.focus({ preventScroll: true });
+  const focusTarget = typeof pendingVerdict === 'boolean' ? UI.closePopupBtn : UI.answerPopupTitle;
+  focusTarget.focus({ preventScroll: true });
   // The deck is hidden until this point, so measure only after the popup is
   // visible and its responsive dimensions have settled.
   refreshAnswerReadingCards();
@@ -102,7 +133,7 @@ export function showAnswerPopup() {
 /**
  * A helper function to handle the UI transition to the mutation screen.
  */
-export async function showMutationScreen() {
+async function showMutationScreen() {
   UI.standardPopupContent.classList.add('hidden');
   UI.mutationContent.classList.remove('hidden');
   UI.mutationLoader.classList.remove('hidden');
@@ -123,6 +154,10 @@ export async function showMutationScreen() {
     const otherCategories = gameState.categories.filter((c, i) => i !== categoryIndex);
     const api = getApiAdapter();
     const choices = await api.getCategoryMutationChoices(oldCategory, otherCategories);
+    if (!choices.length) {
+      finishAnswerReview();
+      return;
+    }
 
     UI.mutationLoader.classList.add('hidden');
     UI.mutationButtons.classList.remove('hidden');
@@ -136,6 +171,7 @@ export async function showMutationScreen() {
       button.innerHTML = `<span class="block font-bold text-lg">${choice.name || ''}</span><p class="text-sm font-normal opacity-90 mt-1">${choice.description || ''}</p>`;
 
       button.onclick = () => {
+        if (UI.mutationContent.classList.contains('hidden')) return;
         const newCategoryName = choice.name;
         gameState.categories[categoryIndex] = newCategoryName;
 
@@ -153,7 +189,7 @@ export async function showMutationScreen() {
           'info'
         );
 
-        closePopupAndContinue();
+        finishAnswerReview();
       };
       UI.mutationButtons.appendChild(button);
     });
@@ -166,7 +202,7 @@ export async function showMutationScreen() {
       },
       'error'
     );
-    closePopupAndContinue();
+    finishAnswerReview();
   }
 }
 
@@ -174,34 +210,34 @@ export async function showMutationScreen() {
  * Closes the answer verification popup and continues the game.
  */
 export function closePopupAndContinue() {
+  if (typeof pendingVerdict !== 'boolean') return;
+  const verdict = pendingVerdict;
+  pendingVerdict = undefined;
+  uiHandlers.commitAnswerVerdict(verdict);
   if (gameState.isMutationPending) {
     setState({ isMutationPending: false }, 'state:verification');
     showMutationScreen();
     return;
   }
+  finishAnswerReview();
+}
 
-  UI.answerPopup.classList.add('opacity-0', 'scale-90');
-  setTimeout(() => {
-    UI.answerPopup.classList.add('hidden');
-    UI.standardPopupContent.classList.remove('hidden');
-    UI.mutationContent.classList.add('hidden');
-    UI.postVerificationButtons.classList.remove('hidden');
-  }, 500);
+function finishAnswerReview() {
+  UI.answerPopup.classList.add('hidden', 'opacity-0');
+  UI.standardPopupContent.classList.remove('hidden');
+  UI.mutationContent.classList.add('hidden');
+  UI.postVerificationButtons.classList.add('hidden');
 
   if (gameState.lastAnswerWasCorrect) {
-    UI.diceResultDiv.querySelector('span').textContent =
-      translations.roll_to_start[gameState.currentLanguage];
+    UI.rollDiceLabel.textContent = translations.roll_again[gameState.currentLanguage];
     UI.diceElement.disabled = false;
   } else {
-    if (typeof uiHandlers.nextTurn === 'function') {
-      uiHandlers.nextTurn();
-    }
+    uiHandlers.nextTurn();
   }
   emit('state:update');
-  if (typeof uiHandlers.checkWinCondition === 'function') {
-    uiHandlers.checkWinCondition();
-  }
+  uiHandlers.checkWinCondition();
   saveGameState();
+  if (!UI.gameScreen.classList.contains('hidden')) UI.diceElement.focus({ preventScroll: true });
 }
 
 /**

@@ -6,6 +6,7 @@ import {
   updateDescriptions,
   updatePlayerNameInputs,
   closePopupAndContinue,
+  setAnswerVerdict,
   setupGameMenu,
   updateCategoryInputs,
 } from './ui.js';
@@ -16,10 +17,9 @@ import {
   askQuestion,
   rollDice,
   handleOpenAnswer,
-  handleManualVerification,
 } from './game-flow.js';
 import { verifyIncorrectAnswer } from './game-api.js';
-import { CATEGORY_PRESETS, translations } from './config.js';
+import { translations } from './config.js';
 import { notify } from './error-bus.js';
 import { healAndParseJSON } from './utils.js';
 
@@ -620,13 +620,28 @@ export function setupEventListeners() {
     }
   });
 
+  const infoToggle = document.getElementById('board-info-toggle');
+  const boardInfo = document.getElementById('board-info-content');
+  const setBoardInfoOpen = (open) => {
+    boardInfo.hidden = !open;
+    infoToggle.setAttribute('aria-expanded', String(open));
+  };
+  const wideBoard = window.matchMedia('(min-width: 900px) and (min-height: 560px)');
+  setBoardInfoOpen(wideBoard.matches);
+  wideBoard.addEventListener('change', (event) => setBoardInfoOpen(event.matches));
+  infoToggle.addEventListener('click', () => setBoardInfoOpen(boardInfo.hidden));
+
   const setFilterActive = (activeBtn) => {
     [UI.catFilterAll, UI.catFilterPl, UI.catFilterEn].forEach((btn) => {
-      if (btn) btn.classList.remove('active', 'bg-gray-200', 'dark:bg-gray-800');
+      if (!btn) return;
+      btn.classList.toggle('active', btn === activeBtn);
+      btn.setAttribute('aria-pressed', String(btn === activeBtn));
     });
-    if (activeBtn) {
-      activeBtn.classList.add('active', 'bg-gray-200', 'dark:bg-gray-800');
-    }
+  };
+
+  const closeCategoryPicker = () => {
+    UI.categorySelectionModal.classList.add('hidden');
+    UI.openCategorySelectorBtn.focus({ preventScroll: true });
   };
 
   // --- Category Selection Modal Events ---
@@ -642,21 +657,12 @@ export function setupEventListeners() {
       import('./ui.js').then((ui) => {
         ui.renderCategorySelectionGrid('', currentLang);
         UI.categorySelectionModal.classList.remove('hidden');
+        document.getElementById('category-grid-container').scrollTop = 0;
       });
     });
   }
 
-  if (UI.closeCategorySelectionBtn) {
-    UI.closeCategorySelectionBtn.addEventListener('click', () => {
-      UI.categorySelectionModal.classList.add('hidden');
-    });
-  }
-
-  if (UI.btnCancelCategorySelection) {
-    UI.btnCancelCategorySelection.addEventListener('click', () => {
-      UI.categorySelectionModal.classList.add('hidden');
-    });
-  }
+  UI.closeCategorySelectionBtn?.addEventListener('click', closeCategoryPicker);
 
   if (UI.categorySearch) {
     UI.categorySearch.addEventListener('input', (e) => {
@@ -723,7 +729,7 @@ export function setupEventListeners() {
         'trivia_selected_category_ids',
         JSON.stringify(gameState.selectedCategoryIds)
       );
-      UI.categorySelectionModal.classList.add('hidden');
+      closeCategoryPicker();
 
       import('./ui.js').then((ui) => {
         ui.renderSelectedCategoriesPreview();
@@ -742,9 +748,10 @@ export function setupEventListeners() {
   UI.answerInput.addEventListener('keyup', (e) => {
     if (e.key === 'Enter') handleOpenAnswer();
   });
-  UI.acceptAnswerBtn.addEventListener('click', () => handleManualVerification(true));
-  UI.rejectAnswerBtn.addEventListener('click', () => handleManualVerification(false));
+  UI.acceptAnswerBtn.addEventListener('click', () => setAnswerVerdict(true));
+  UI.rejectAnswerBtn.addEventListener('click', () => setAnswerVerdict(false));
   UI.verifyAnswerBtn.addEventListener('click', verifyIncorrectAnswer);
+  UI.changeVerdictBtn.addEventListener('click', () => setAnswerVerdict(null));
   UI.closePopupBtn.addEventListener('click', closePopupAndContinue);
   UI.closeHistoryBtn.addEventListener('click', hideHistoryModal);
   UI.restartGameBtn.addEventListener('click', restartGame);

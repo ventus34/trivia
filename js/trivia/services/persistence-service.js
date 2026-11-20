@@ -9,6 +9,7 @@ import { UI } from '../dom.js';
 import { createBoardLayout } from '../board.js';
 import { setLanguage } from '../ui.js';
 import { renderBoard } from '../ui-board.js';
+import { uiHandlers } from '../ui-handlers.js';
 import { emit } from '../store.js';
 import { notify } from '../error-bus.js';
 
@@ -240,7 +241,13 @@ export function restoreGameState(stateToRestore) {
       );
     }
 
-    setState({ isAwaitingMove: false, lastAnswerWasCorrect: false }, 'state:restore');
+    setState({
+      isAwaitingMove: false,
+      possiblePaths: {},
+      currentQuestionData: null,
+      lastAnswerWasCorrect: false,
+      isMutationPending: false,
+    }, 'state:restore');
 
     if (UI.modelSelect && gameState.selectedQuestionModel) {
       UI.modelSelect.value = gameState.selectedQuestionModel;
@@ -269,8 +276,9 @@ export function restoreGameState(stateToRestore) {
     emit('state:update');
 
     UI.diceElement.disabled = false;
-    UI.diceResultDiv.querySelector('span').textContent = translations.roll_to_start[lang];
+    UI.rollDiceLabel.textContent = translations.roll_dice_title[lang];
     UI.gameMessageDiv.textContent = '';
+    uiHandlers.checkWinCondition?.();
     console.log('Game state successfully restored.');
     return true;
   } catch (error) {

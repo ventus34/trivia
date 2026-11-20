@@ -3,14 +3,13 @@
  * Facade for trivia UI modules.
  */
 
-import { gameState, setState } from './state.js';
+import { setState } from './state.js';
 import { registerUIHandlers } from './ui-handlers.js';
 export { setupGameMenu } from './ui-menu.js';
 export {
   promptCategoryChoice,
   showVerificationPopup,
-  showAnswerPopup,
-  showMutationScreen,
+  setAnswerVerdict,
   closePopupAndContinue,
   showModal,
   hideModal,

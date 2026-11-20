@@ -10,7 +10,9 @@ import { gameState } from './state.js';
 import { notify } from './error-bus.js';
 import { setLanguage, registerUIHandlers, goToWizardStep } from './ui.js';
 import { loadGameState, restoreGameState } from './persistence.js';
-import { askQuestion, handleSquareClick, checkWinCondition, nextTurn } from './game-flow.js';
+import {
+  askQuestion, handleSquareClick, checkWinCondition, nextTurn, previewAnswerOutcome, commitAnswerVerdict,
+} from './game-flow.js';
 import { handleSuggestAlternatives } from './game-api.js';
 import { setupEventListeners } from './ui-events.js';
 import { setupStateSubscriptions } from './ui-state.js';
@@ -59,6 +61,8 @@ export async function initializeApp(apiAdapter) {
     askQuestion,
     nextTurn,
     checkWinCondition,
+    previewAnswerOutcome,
+    commitAnswerVerdict,
     handleSuggestAlternatives,
   });
 
@@ -91,14 +95,14 @@ export async function initializeApp(apiAdapter) {
     api.loadSettings();
   }
 
+  setupStateSubscriptions();
+
   if (shouldLoadGame && savedGame) {
     restoreGameState(savedGame);
   } else {
     setLanguage(localStorage.getItem('trivia_lang') || 'pl');
     goToWizardStep(1);
   }
-
-  setupStateSubscriptions();
 
   setupEventListeners();
   setupInputControls();

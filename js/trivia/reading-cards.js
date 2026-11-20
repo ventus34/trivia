@@ -450,7 +450,7 @@ export function createReadingCardDeck({
       'aria-label',
       `${section ? `${section}, ` : ''}${t.page(index + 1, pageData.length)}`
     );
-    status.textContent = `${section ? `${section} · ` : ''}${t.page(index + 1, pageData.length)}`;
+    status.textContent = `${t.page(index + 1, pageData.length)}${section ? ` · ${section}` : ''}`;
     pagination.setAttribute('aria-label', t.pagination);
     previousButton.disabled = index === 0;
     nextButton.disabled = index >= pageData.length - 1;
