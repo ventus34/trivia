@@ -379,11 +379,13 @@ export function renderSelectedCategoriesPreview() {
       badge.style.backgroundColor = 'rgba(31, 41, 55, 0.9)';
     }
 
-    const langFlag = cat.language === 'pl' ? '🇵🇱' : '🇬🇧';
-    badge.innerHTML = `
-            <span class="text-[10px]">${langFlag}</span>
-            <span class="text-gray-800 dark:text-gray-200">${cat.name}</span>
-        `;
+    const flag = document.createElement('span');
+    flag.className = 'text-[10px]';
+    flag.textContent = cat.language === 'pl' ? '🇵🇱' : '🇬🇧';
+    const name = document.createElement('span');
+    name.className = 'text-gray-800 dark:text-gray-200';
+    name.textContent = cat.name;
+    badge.append(flag, name);
     UI.selectedCategoriesPreview.appendChild(badge);
   });
 

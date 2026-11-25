@@ -616,6 +616,10 @@ export const translations = {
   },
   confirm_choice_btn: { pl: 'Zatwierdź wybór', en: 'Confirm Choice' },
   download_state_btn: { pl: 'Pobierz zapis', en: 'Download State' },
+  save_export_error: {
+    pl: 'Nie udało się zapisać pliku gry.',
+    en: 'Could not save the game file.',
+  },
   upload_state_btn: { pl: 'Wczytaj grę', en: 'Load Game' },
   theme_title: { pl: 'Motyw', en: 'Theme' },
   theme_light_label: { pl: 'Jasny', en: 'Light' },

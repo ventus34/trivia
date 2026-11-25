@@ -36,7 +36,13 @@ export function showNotification(message, type = 'info', duration = 5000) {
   iconContainer.innerHTML = iconSvg;
 
   const textContainer = document.createElement('div');
-  textContainer.innerHTML = `<p class="text-sm font-medium text-gray-900">${message.title}</p><p class="text-sm text-gray-500">${message.body}</p>`;
+  const title = document.createElement('p');
+  title.className = 'text-sm font-medium text-gray-900';
+  title.textContent = message.title;
+  const body = document.createElement('p');
+  body.className = 'text-sm text-gray-500';
+  body.textContent = message.body;
+  textContainer.append(title, body);
 
   notif.appendChild(iconContainer);
   notif.appendChild(textContainer);

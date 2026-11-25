@@ -42,23 +42,36 @@ function initializeDisplayControls() {
     try { localStorage.setItem('trivia_display_mode', mode); } catch { /* Keep the current session usable. */ }
     applyMode(mode);
   }));
-  const syncFullscreen = () => fullscreenButtons.forEach((button) => {
-    button.setAttribute('aria-pressed', String(Boolean(document.fullscreenElement)));
-  });
-  fullscreenButtons.forEach((button) => {
-    button.hidden = !document.fullscreenEnabled;
-    button.addEventListener('click', async () => {
+  if (fullscreenButtons.length) {
+    const desktopWindow = window.__TAURI__?.window.getCurrentWindow();
+    const isFullscreen = () =>
+      desktopWindow ? desktopWindow.isFullscreen() : Boolean(document.fullscreenElement);
+    const syncFullscreen = async () => {
       try {
-        if (document.fullscreenElement) await document.exitFullscreen();
-        else await root.requestFullscreen();
+        const active = await isFullscreen();
+        fullscreenButtons.forEach((button) => button.setAttribute('aria-pressed', String(active)));
       } catch (error) {
-        console.warn('Fullscreen unavailable:', error);
+        console.warn('Could not read fullscreen state:', error);
       }
-      syncFullscreen();
+    };
+    fullscreenButtons.forEach((button) => {
+      button.hidden = !(desktopWindow || document.fullscreenEnabled);
+      button.addEventListener('click', async () => {
+        try {
+          const active = await isFullscreen();
+          if (desktopWindow) await desktopWindow.setFullscreen(!active);
+          else if (active) await document.exitFullscreen();
+          else await root.requestFullscreen();
+        } catch (error) {
+          console.warn('Fullscreen unavailable:', error);
+        }
+        await syncFullscreen();
+      });
     });
-  });
-  document.addEventListener('fullscreenchange', syncFullscreen);
-  syncFullscreen();
+    if (desktopWindow) window.addEventListener('resize', syncFullscreen);
+    else document.addEventListener('fullscreenchange', syncFullscreen);
+    syncFullscreen();
+  }
   window.addEventListener('storage', (event) => {
     if (event.key === 'trivia_display_mode') applyMode(event.newValue);
   });

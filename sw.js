@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trivia-board-game-v24';
+const CACHE_NAME = 'trivia-board-game-v25';
 
 // Assets to precache on service worker install
 const PRECACHE_ASSETS = [
@@ -13,6 +13,7 @@ const PRECACHE_ASSETS = [
   './tv-rework.css',
   './manifest.json',
   './js/theme.js',
+  './js/theme-preload.js',
   './js/generator.js',
   './js/trivia/answer-options.js',
   './js/trivia/board.js',

@@ -124,6 +124,7 @@ export const UI = {
   dbTextPaste: document.getElementById('db-text-paste'),
   dbTextPasteBtn: document.getElementById('db-text-paste-btn'),
   generatorLinkBtn: document.getElementById('generator-link-btn'),
+  uploadStateBtn: document.getElementById('upload-state-btn'),
   openCategorySelectorBtn: document.getElementById('open-category-selector-btn'),
   selectedCategoriesPreview: document.getElementById('selected-categories-preview'),
   categorySelectionModal: document.getElementById('category-selection-modal'),

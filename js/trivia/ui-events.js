@@ -279,6 +279,13 @@ Return ONLY a valid JSON document. Do not wrap it in markdown code blocks like \
 }
 
 export function setupEventListeners() {
+  const customDatabaseToggle = document.querySelector('.advanced-accordion-trigger');
+  customDatabaseToggle?.addEventListener('click', () => {
+    const expanded = !UI.customDbUploadContainer.classList.toggle('hidden');
+    customDatabaseToggle.setAttribute('aria-expanded', String(expanded));
+    customDatabaseToggle.querySelector('.chevron').classList.toggle('rotate-180', expanded);
+  });
+
   // --- Database selectors ---
   if (UI.dbPresetSelect) {
     UI.dbPresetSelect.addEventListener('change', (e) => {
@@ -756,6 +763,7 @@ export function setupEventListeners() {
   UI.closeHistoryBtn.addEventListener('click', hideHistoryModal);
   UI.restartGameBtn.addEventListener('click', restartGame);
   UI.downloadStateBtn.addEventListener('click', downloadGameState);
+  UI.uploadStateBtn.addEventListener('click', () => UI.uploadStateInput.click());
   UI.uploadStateInput.addEventListener('change', handleStateUpload);
   UI.closeSuggestionModalBtn.addEventListener('click', () => {
     UI.suggestionModal.classList.remove('visible');

@@ -1,0 +1,16 @@
+[package]
+name = "trivia"
+version = "0.1.0"
+description = "Offline trivia board game"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = { version = "2", default-features = false, features = ["gtk3"] }
+tempfile = "3"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

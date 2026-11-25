@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
+    <!-- desktop:omit:start -->
     <!-- PWA configuration -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#4f46e5">
@@ -34,21 +35,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- desktop:omit:end -->
+    <!-- desktop:styles -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="presentation-rework.css">
     <link rel="stylesheet" href="board-rework.css">
     <link rel="stylesheet" href="reading-rework.css">
     <link rel="stylesheet" href="tv-rework.css">
     <title>Trivia Board Game</title>
-    <script>
-        (function() {
-            const theme = localStorage.getItem('trivia_theme') || 'oled';
-            document.documentElement.dataset.displayMode = localStorage.getItem('trivia_display_mode') === 'tv' ? 'tv' : 'standard';
-            if (theme !== 'light') {
-                document.documentElement.className = theme;
-            }
-        })();
-    </script>
+    <script src="js/theme-preload.js"></script>
 </head>
 <body class="bg-gray-100 text-gray-800 flex items-center justify-center min-h-screen">
 
@@ -180,7 +175,7 @@
 
                 <!-- Advanced Options Accordion -->
                 <div class="border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden mt-4">
-                    <button type="button" class="w-full flex justify-between items-center px-4 py-3 bg-gray-50 dark:bg-gray-800/50 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider advanced-accordion-trigger" aria-expanded="false" aria-controls="custom-db-upload-container" onclick="const p = this.nextElementSibling; const expanded = p.classList.toggle('hidden') === false; this.setAttribute('aria-expanded', String(expanded)); this.querySelector('.chevron').classList.toggle('rotate-180');">
+                    <button type="button" class="w-full flex justify-between items-center px-4 py-3 bg-gray-50 dark:bg-gray-800/50 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider advanced-accordion-trigger" aria-expanded="false" aria-controls="custom-db-upload-container">
                         <span data-lang-key="advanced_title">Zaawansowane (własna baza)</span>
                         <span class="chevron transition-transform duration-200">▼</span>
                     </button>
@@ -523,7 +518,7 @@
 
 
 
-    <button type="button" id="upload-state-btn" class="w-full text-left p-2 rounded-md hover:bg-gray-100 transition-colors cursor-pointer flex items-center gap-2" aria-controls="upload-state-input" onclick="document.getElementById('upload-state-input').click()">
+    <button type="button" id="upload-state-btn" class="w-full text-left p-2 rounded-md hover:bg-gray-100 transition-colors cursor-pointer flex items-center gap-2" aria-controls="upload-state-input">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
         <span data-lang-key="upload_state_btn">Wczytaj grę</span>
     </button>
@@ -554,10 +549,13 @@
     </div>
 </aside>
 
+<!-- desktop:omit:start -->
 <!-- Link to Generator page -->
 <a id="generator-link-btn" href="generator.html" class="fixed bottom-4 left-4 z-30 bg-slate-800 hover:bg-slate-700 text-white text-xs px-3 py-2 rounded-lg shadow-lg border border-slate-700 flex items-center gap-1.5 transition-all">
     <span>⚙️</span> <span data-lang-key="generator_link_btn">Generator baz pytań</span>
 </a>
+
+<!-- desktop:omit:end -->
 
 <!-- Hidden elements to keep backend compatibility with original JS files -->
 <div class="hidden" style="display: none;">
@@ -621,6 +619,7 @@
     </div>
 </div>
 
+<!-- desktop:omit:start -->
 <!-- Detect file:// protocol and show helpful instruction modal if scripts are blocked by CORS -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -652,20 +651,19 @@
                         <p class="underline text-indigo-400">http://127.0.0.1:8220</p>
                     </div>
                     <p class="text-xs text-slate-400">${footer}</p>
-                    <button onclick="this.parentElement.parentElement.remove()" class="mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-sm font-semibold rounded-lg transition-colors">
+                    <button type="button" class="mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-sm font-semibold rounded-lg transition-colors">
                         ${btn}
                     </button>
                 </div>
             `;
+            warningDiv.querySelector('button').addEventListener('click', () => warningDiv.remove());
             document.body.appendChild(warningDiv);
         }
     });
 </script>
 
-<script type="module">
-    import { initializeApp } from './js/trivia/main.js';
-    import './js/trivia/client-adapter.js';
-</script>
+<!-- desktop:omit:end -->
+<script type="module" src="js/trivia/client-adapter.js"></script>
 <script src="js/theme.js"></script>
 </body>
 </html>

@@ -158,11 +158,24 @@ export function restartGame() {
 /**
  * Triggers a download of the current game state as a JSON file.
  */
-export function downloadGameState() {
-  const stateToSave = getCleanedState();
-  const jsonString = JSON.stringify(stateToSave, null, 2);
-  const blob = new Blob([jsonString], { type: 'application/json;charset=utf-8' });
+export async function downloadGameState() {
+  const jsonString = JSON.stringify(getCleanedState(), null, 2);
+  const desktopApi = globalThis.__TAURI__?.core;
+  if (desktopApi) {
+    try {
+      await desktopApi.invoke('export_game_save', { contents: jsonString });
+    } catch (error) {
+      console.error('Failed to export the game save:', error);
+      const language = gameState.currentLanguage || 'pl';
+      notify({
+        title: translations.error_title[language],
+        body: translations.save_export_error[language],
+      }, 'error');
+    }
+    return;
+  }
 
+  const blob = new Blob([jsonString], { type: 'application/json;charset=utf-8' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
   const timestamp = new Date().toISOString().slice(0, 19).replace(/[:]/g, '-');

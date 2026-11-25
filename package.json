@@ -6,12 +6,17 @@
     "lint": "eslint \"js/**/*.js\"",
     "format": "prettier --write \"js/**/*.js\" \"*.html\" \"*.css\"",
     "test": "vitest run",
-    "scan-db": "node scan-databases.js"
+    "scan-db": "node scan-databases.js",
+    "build:desktop": "node scripts/build-desktop.mjs",
+    "tauri": "tauri"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
+    "@fontsource-variable/inter": "5.3.0",
+    "@tauri-apps/cli": "2.12.6",
     "eslint": "^9.0.0",
     "prettier": "^3.2.5",
+    "tailwindcss": "3.4.19",
     "vitest": "^1.5.0"
   }
 }

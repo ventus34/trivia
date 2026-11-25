@@ -4,7 +4,7 @@ import { runInNewContext } from 'node:vm';
 
 const source = readFileSync(new URL('../js/theme.js', import.meta.url), 'utf8');
 
-function setup(saved = null) {
+function setup(saved = null, desktopWindow = null) {
   const listeners = {};
   const storage = new Map(saved ? [['trivia_display_mode', saved]] : []);
   const toggles = Array.from({ length: 2 }, () => ({
@@ -21,6 +21,10 @@ function setup(saved = null) {
     addEventListener(type, handler) { (listeners[type] ||= []).push(handler); },
   };
   const window = { dispatchEvent: vi.fn(), addEventListener: vi.fn() };
+  if (desktopWindow) {
+    window.__TAURI__ = { window: { getCurrentWindow: () => desktopWindow } };
+    document.fullscreenEnabled = false;
+  }
   const localStorage = { getItem: (key) => storage.get(key), setItem: (key, value) => storage.set(key, value) };
   runInNewContext(source, { document, window, localStorage, Event: class { constructor(type) { this.type = type; } }, console });
   listeners.DOMContentLoaded.forEach((handler) => handler());
@@ -37,6 +41,25 @@ describe('display controls', () => {
     expect(app.toggles[1].checked).toBe(true);
     expect(app.document.documentElement.dataset.displayMode).toBe('tv');
     expect(app.window.dispatchEvent).toHaveBeenCalled();
+  });
+
+  it('toggles the native window when DOM fullscreen is unavailable', async () => {
+    let fullscreen = false;
+    const native = {
+      isFullscreen: async () => fullscreen,
+      setFullscreen: vi.fn(async (enabled) => { fullscreen = enabled; }),
+    };
+    const app = setup('tv', native);
+
+    expect(app.button.hidden).toBe(false);
+    await app.button.click();
+    expect(native.setFullscreen).toHaveBeenLastCalledWith(true);
+    expect(app.button.setAttribute).toHaveBeenLastCalledWith('aria-pressed', 'true');
+
+    await app.button.click();
+    expect(native.setFullscreen).toHaveBeenLastCalledWith(false);
+    expect(app.button.setAttribute).toHaveBeenLastCalledWith('aria-pressed', 'false');
+    expect(app.document.documentElement.requestFullscreen).not.toHaveBeenCalled();
   });
 
   it('restores TV independently and toggles fullscreen separately', async () => {

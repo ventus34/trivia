@@ -81,6 +81,28 @@ python3 -m http.server 8220
 
 The game will be available at: `http://127.0.0.1:8220`.
 
+### Portable desktop builds
+
+The Tauri 2 desktop game bundles every indexed question pack, styles, and fonts for offline play from the first launch. The AI generator is available in the web version.
+
+Download the file for your platform from a [Trivia Desktop workflow run](https://github.com/ventus34/trivia/actions/workflows/trivia-desktop.yml):
+
+- **macOS 13+**. Extract `Trivia-macos-universal.zip` and open `Trivia.app` on Apple Silicon or Intel. macOS may ask you to approve the ad-hoc signed test app in Privacy & Security.
+- **Windows x64**. Extract `Trivia-windows-x64.zip` and run `trivia.exe`. The game uses the system Microsoft Edge WebView2 Runtime.
+- **Linux x64**. Give `Trivia-linux-x64.AppImage` execute permission and run it. The build targets Ubuntu 24.04. On systems without FUSE, run it with `--appimage-extract-and-run`.
+
+Autosave is stored in the app's local profile. To move a game between computers or between desktop and PWA, export the save from the game menu and import the JSON from the welcome screen or game menu.
+
+To develop or build locally, install stable Rust and the [Tauri prerequisites for your OS](https://v2.tauri.app/start/prerequisites/), then run:
+
+```bash
+npm ci --ignore-scripts
+npm run tauri -- dev
+npm run tauri -- build -- --locked
+```
+
+Build outputs are under `src-tauri/target/release`. Native builds prepare `dist-desktop` from the same game files as the static web version. Run `npm run build:desktop` to refresh those assets after editing the frontend during `tauri dev`.
+
 ### Automatic Database Scanning
 
 After committing a new `.json` database file to the `/databases` folder, run the scan script to automatically update the `list.json` index:
@@ -191,6 +213,28 @@ python3 -m http.server 8220
 ```
 
 Gra będzie dostępna pod adresem: `http://127.0.0.1:8220`.
+
+### Przenośna aplikacja na komputer
+
+Gra w Tauri 2 zawiera wszystkie paczki z katalogu, style i fonty. Działa offline od pierwszego uruchomienia. Generator AI jest dostępny w wersji webowej.
+
+Pobierz plik dla swojego systemu z [uruchomienia workflow Trivia Desktop](https://github.com/ventus34/trivia/actions/workflows/trivia-desktop.yml):
+
+- **macOS 13+**. Rozpakuj `Trivia-macos-universal.zip` i otwórz `Trivia.app` na Apple Silicon lub Intelu. System może poprosić o zatwierdzenie aplikacji testowej z podpisem ad hoc w ustawieniach Prywatność i ochrona.
+- **Windows x64**. Rozpakuj `Trivia-windows-x64.zip` i uruchom `trivia.exe`. Gra używa systemowego środowiska Microsoft Edge WebView2 Runtime.
+- **Linux x64**. Nadaj plikowi `Trivia-linux-x64.AppImage` prawo do uruchamiania i otwórz go. Build jest przeznaczony dla Ubuntu 24.04. W systemie bez FUSE uruchom plik z opcją `--appimage-extract-and-run`.
+
+Autozapis jest w lokalnym profilu aplikacji. Do przeniesienia rozgrywki między komputerami lub między PWA a desktopem użyj eksportu zapisu w menu gry i wczytaj plik JSON na ekranie powitalnym albo w menu gry.
+
+Do pracy lokalnej zainstaluj stabilny Rust oraz [zależności Tauri dla swojego systemu](https://v2.tauri.app/start/prerequisites/), a następnie wykonaj:
+
+```bash
+npm ci --ignore-scripts
+npm run tauri -- dev
+npm run tauri -- build -- --locked
+```
+
+Build zapisuje pliki w `src-tauri/target/release`. Zasoby `dist-desktop` powstają automatycznie z tych samych plików gry co wersja webowa. Aby odświeżyć je po zmianie frontendu w trakcie pracy z `tauri dev`, uruchom `npm run build:desktop`.
 
 ### Automatyczne skanowanie baz pytań
 

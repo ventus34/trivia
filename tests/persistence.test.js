@@ -41,7 +41,7 @@ global.window = {
 };
 
 describe('Persistence Service', () => {
-    let saveGameState, loadGameState, gameState, setState, createBoardLayout;
+    let saveGameState, loadGameState, downloadGameState, gameState, setState, createBoardLayout;
 
     beforeEach(async () => {
         vi.clearAllMocks();
@@ -50,6 +50,7 @@ describe('Persistence Service', () => {
         const persistence = await import('../js/trivia/services/persistence-service.js');
         saveGameState = persistence.saveGameState;
         loadGameState = persistence.loadGameState;
+        downloadGameState = persistence.downloadGameState;
         
         const state = await import('../js/trivia/state.js');
         gameState = state.gameState;
@@ -103,6 +104,23 @@ describe('Persistence Service', () => {
         expect(savedData.players.length).toBe(1);
         expect(savedData.api).toBeUndefined(); // Excluded key
         expect(savedData.board).toBeUndefined(); // Excluded key
+    });
+
+    it('exports the same JSON through the native dialog and autosave', async () => {
+        const invoke = vi.fn().mockResolvedValue(undefined);
+        vi.stubGlobal('__TAURI__', { core: { invoke } });
+
+        try {
+            saveGameState();
+            await downloadGameState();
+            const [, savedJSON] = global.localStorage.setItem.mock.lastCall;
+            const [command, { contents }] = invoke.mock.lastCall;
+
+            expect(command).toBe('export_game_save');
+            expect(JSON.parse(contents)).toEqual(JSON.parse(savedJSON));
+        } finally {
+            vi.unstubAllGlobals();
+        }
     });
 
     it('should load game state', () => {
