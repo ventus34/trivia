@@ -66,7 +66,10 @@ jobs:
         run: |
           npm run tauri -- build --ci --target universal-apple-darwin -- --locked
           app=src-tauri/target/universal-apple-darwin/release/bundle/macos/Trivia.app
-          lipo -verify_arch arm64 x86_64 "$app/Contents/MacOS/trivia"
+          archs=$(lipo "$app/Contents/MacOS/trivia" -archs)
+          echo "Trivia binary architectures are $archs"
+          grep -qw arm64 <<< "$archs"
+          grep -qw x86_64 <<< "$archs"
           codesign --verify --deep --strict "$app"
           ditto -c -k --sequesterRsrc --keepParent "$app" Trivia-macos-universal.zip
       - name: Build the portable Windows app
