@@ -7,6 +7,7 @@ import { CONFIG, translations } from './config.js';
 import { gameState, setState } from './state.js';
 import { UI } from './dom.js';
 import { notify } from './error-bus.js';
+import { resolveCategoryIds } from './category-selection.js';
 
 /**
  * Automatically adjusts the height of a textarea to fit its content.
@@ -320,20 +321,8 @@ export async function loadAllCategories() {
 
       // Try to load saved selection
       const saved = localStorage.getItem('trivia_selected_category_ids');
-      if (saved) {
-        gameState.selectedCategoryIds = JSON.parse(saved);
-      }
-
-      // Filter out any IDs that no longer exist
-      if (gameState.selectedCategoryIds) {
-        gameState.selectedCategoryIds = gameState.selectedCategoryIds.filter((id) =>
-          gameState.allCategories.some((c) => c.id === id)
-        );
-      }
-
-      if (!gameState.selectedCategoryIds) {
-        gameState.selectedCategoryIds = [];
-      }
+      const previous = saved ? JSON.parse(saved) : gameState.selectedCategoryIds;
+      gameState.selectedCategoryIds = resolveCategoryIds(previous, data);
 
       renderSelectedCategoriesPreview();
     }
@@ -438,10 +427,14 @@ export function renderCategorySelectionGrid(searchText = '', langFilter = 'all')
     const label = document.createElement('span');
     label.className = 'category-row-text';
     const name = document.createElement('strong');
-    name.textContent = langFilter === 'all' ? `${cat.name} · ${cat.language.toUpperCase()}` : cat.name;
+    name.textContent =
+      langFilter === 'all' ? `${cat.name} · ${cat.language.toUpperCase()}` : cat.name;
     const count = document.createElement('small');
     count.textContent = cat.question_count;
-    count.setAttribute('aria-label', `${translations.category_questions[lang]}: ${cat.question_count}`);
+    count.setAttribute(
+      'aria-label',
+      `${translations.category_questions[lang]}: ${cat.question_count}`
+    );
     label.append(name, count);
     toggle.append(check, label);
     toggle.addEventListener('click', () => toggleCategorySelection(cat.id));
@@ -451,7 +444,10 @@ export function renderCategorySelectionGrid(searchText = '', langFilter = 'all')
       const detailsButton = document.createElement('button');
       detailsButton.type = 'button';
       detailsButton.className = 'category-details-toggle';
-      detailsButton.setAttribute('aria-label', translations.category_details[lang].replace('{name}', cat.name));
+      detailsButton.setAttribute(
+        'aria-label',
+        translations.category_details[lang].replace('{name}', cat.name)
+      );
       detailsButton.setAttribute('aria-expanded', 'false');
       const chevron = document.createElement('span');
       chevron.textContent = '⌄';
@@ -570,9 +566,7 @@ export function applyCategorySelectionPreset(presetName) {
     ];
   }
 
-  gameState.tempSelectedCategoryIds = ids.filter((id) =>
-    gameState.allCategories.some((c) => c.id === id)
-  );
+  gameState.tempSelectedCategoryIds = resolveCategoryIds(ids, gameState.allCategories);
 
   const query = UI.categorySearch.value;
   const activeTab = document.querySelector('#category-selection-modal button.active');

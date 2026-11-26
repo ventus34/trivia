@@ -2,12 +2,17 @@
 """Validate new Trivia packs; optionally add them, index entries and a cache bump."""
 
 import argparse
+from contextlib import nullcontext
 from datetime import datetime, timezone
 import json
 from pathlib import Path
 import re
 import sys
 import unicodedata
+
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[4]))
+from scripts.trivia_cli.source import new_id, replace_files, writer
 
 
 def normalized(value):
@@ -73,6 +78,7 @@ def prepare(repo, inputs, count, write=False, blueprints_dir=None):
     paths = {e["path"] for e in index}
     names = {(e.get("language", "pl"), normalized(e.get("name", ""))) for e in index}
     seen_questions = {}
+    published_question_ids = set()
     # Include legacy databases at the root, not only indexed category files.
     existing_paths = sorted((repo / "databases").rglob("*.json"))
     for path in existing_paths:
@@ -85,7 +91,12 @@ def prepare(repo, inputs, count, write=False, blueprints_dir=None):
         lang = data.get("language", "pl")
         names.add((lang, normalized(data.get("name", path.stem))))
         for q in data.get("questions", []):
-            if isinstance(q, dict) and nonempty(q.get("question")):
+            if not isinstance(q, dict):
+                continue
+            if nonempty(q.get("id")):
+                require(q["id"] not in published_question_ids, f"Duplicate published question ID {q['id']}")
+                published_question_ids.add(q["id"])
+            if nonempty(q.get("question")):
                 seen_questions[(lang, question_key(q["question"]))] = str(path.relative_to(repo))
 
     sw_text = sw_before.decode("utf-8")
@@ -137,6 +148,12 @@ def prepare(repo, inputs, count, write=False, blueprints_dir=None):
                         f"{label}: subcategory differs from blueprint {number}")
                 require(question["answer"] == topic["target_answer"],
                         f"{label}: answer differs from blueprint {number}")
+            if "id" not in question:
+                question["id"] = new_id()
+            ident = question["id"]
+            require(nonempty(ident) and ident not in published_question_ids,
+                    f"{label}: invalid or duplicate stable ID")
+            published_question_ids.add(ident)
             options = question.get("options")
             require(isinstance(options, list) and len(options) == 4 and all(map(nonempty, options)),
                     f"{label}: expected four nonempty options")
@@ -166,23 +183,11 @@ def prepare(repo, inputs, count, write=False, blueprints_dir=None):
         "cache_version": new_cache,
     }
     if write:
-        # Validate all inputs before any writes, and refuse stale index/cache snapshots.
-        require(index_path.read_bytes() == index_before and sw_path.read_bytes() == sw_before,
-                "Index/cache changed during validation; rerun on the current state")
-        created = []
-        try:
-            for target, payload in new_files:
-                with target.open("xb") as handle:
-                    created.append(target)
-                    handle.write(payload)
-            index_path.write_text(render(index + entries), encoding="utf-8")
-            sw_path.write_bytes(sw_after)
-        except BaseException:
-            for target in created:
-                target.unlink(missing_ok=True)
-            index_path.write_bytes(index_before)
-            sw_path.write_bytes(sw_before)
-            raise
+        replace_files([
+            *((target, None, payload) for target, payload in new_files),
+            (index_path, index_before, render(index + entries).encode("utf-8")),
+            (sw_path, sw_before, sw_after),
+        ])
     return plan
 
 
@@ -196,7 +201,9 @@ def main():
     parser.add_argument("packs", type=Path, nargs="+")
     args = parser.parse_args()
     try:
-        print(render(prepare(args.repo, args.packs, args.count, args.write, args.blueprints_dir)), end="")
+        with writer(args.repo) if args.write else nullcontext():
+            plan = prepare(args.repo, args.packs, args.count, args.write, args.blueprints_dir)
+        print(render(plan), end="")
     except (ValueError, OSError, TypeError) as error:
         print(f"ERROR: {error}", file=sys.stderr)
         return 1

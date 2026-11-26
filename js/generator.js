@@ -6,6 +6,16 @@
 
 import { healAndParseJSON } from './trivia/utils.js';
 import { translations } from './trivia/config.js';
+import {
+  currentVerification,
+  exportQuestion,
+  importQuestions,
+  newQuestionId,
+  questionFingerprint,
+  requireExistingIds,
+  storeVerification,
+  verificationResponse,
+} from './trivia/question-records.js';
 
 let promptsConfig = null;
 let generatedQuestions = []; // Główny stan aplikacji (baza pytań w pamięci)
@@ -14,8 +24,7 @@ let isGenerating = false;
 let currentEditId = null; // Przechowuje ID obecnie edytowanego pytania w Modalu
 let activeSpoilers = []; // Obecnie wykryte spoilery
 let activeVerifications = []; // Obecnie sugerowane poprawki weryfikacyjne
-let activeVerifyingModel = null; // Model, którym przeprowadzono ostatnią udaną weryfikację
-let verifiedInCurrentSession = new Set(); // ID pytań zweryfikowanych w bieżącej sesji modalu
+let incompleteVerificationCount = 0;
 let currentLanguage = localStorage.getItem('trivia_lang') || 'pl';
 
 function updateApiKeyUI(prov) {
@@ -288,20 +297,8 @@ async function loadAllFromDirectory() {
           if (!data.name || !data.questions || !Array.isArray(data.questions)) {
             continue;
           }
-          const imported = data.questions.map((q, index) => ({
-            id: `imp-${Date.now()}-${index}-${Math.random().toString(36).substring(2, 6)}`,
-            language: data.language || UI.dbLang.value || 'pl',
-            category: data.name,
-            subcategory: q.subcategory || '',
-            question: q.question,
-            options: q.options ? q.options.slice(0, 4) : [],
-            answer: q.answer,
-            explanation_correct: q.explanation_correct || '',
-            explanation_incorrect: q.explanation_incorrect || '',
-            last_verified_at: q.last_verified_at || data.last_verified_at || null,
-            verifying_model: q.verifying_model || data.verifying_model || null,
-          }));
-          generatedQuestions.push(...imported);
+          const { conflicts } = await importQuestions(data, name, generatedQuestions);
+          reportImportConflicts(conflicts);
           countLoaded++;
         } catch (e) {
           logConsole(
@@ -377,6 +374,16 @@ function getActiveCategories() {
   return list;
 }
 
+function reportImportConflicts(conflicts) {
+  if (!conflicts.length) return;
+  const message =
+    currentLanguage === 'pl'
+      ? 'Konflikty importu. Zachowano otwarte wersje: '
+      : 'Import conflicts. Kept the open versions: ';
+  logConsole(message + conflicts.join(', '));
+  showNotification(message + conflicts.slice(0, 5).join(', '), true);
+}
+
 // Workspace: Import DOŁĄCZA do obecnej puli, zamiast czyścić
 async function handleImportCategory(file) {
   if (!file) return;
@@ -391,27 +398,13 @@ async function handleImportCategory(file) {
             : 'Invalid JSON file format.'
         );
 
-      const imported = data.questions.map((q, index) => ({
-        id: `imp-${Date.now()}-${index}-${Math.random().toString(36).substring(2, 6)}`,
-        language: data.language || UI.dbLang.value || 'pl',
-        category: data.name,
-        subcategory: q.subcategory || '',
-        question: q.question,
-        options: q.options ? q.options.slice(0, 4) : [],
-        answer: q.answer,
-        explanation_correct: q.explanation_correct || '',
-        explanation_incorrect: q.explanation_incorrect || '',
-        last_verified_at: q.last_verified_at || data.last_verified_at || null,
-        verifying_model: q.verifying_model || data.verifying_model || null,
-      }));
-
-      // Dołączamy, nie nadpisujemy
-      generatedQuestions.push(...imported);
+      const { added, conflicts } = await importQuestions(data, file.name, generatedQuestions);
       showNotification(
         translations.gen_import_success[currentLanguage]
           .replace('{name}', data.name)
-          .replace('{count}', imported.length)
+          .replace('{count}', added)
       );
+      reportImportConflicts(conflicts);
       updateTable();
     } catch (err) {
       showNotification(
@@ -746,6 +739,11 @@ async function initialize() {
   setLanguage(currentLanguage);
 }
 
+function escapeHtml(value) {
+  const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  return String(value ?? '').replace(/[&<>"']/g, (character) => entities[character]);
+}
+
 function logConsole(msg) {
   const time = new Date().toLocaleTimeString();
   const div = document.createElement('div');
@@ -1034,7 +1032,7 @@ async function startGeneration() {
 
           if (lang === 'both') {
             generatedQuestions.push({
-              id: `pl-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+              id: newQuestionId(),
               language: 'pl',
               category: task.category.name,
               subcategory: task.blueprint.subcategory || '',
@@ -1045,7 +1043,7 @@ async function startGeneration() {
               explanation_incorrect: qData.explanation_incorrect_pl || '',
             });
             generatedQuestions.push({
-              id: `en-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+              id: newQuestionId(),
               language: 'en',
               category: task.category.name,
               subcategory: task.blueprint.subcategory || '',
@@ -1058,7 +1056,7 @@ async function startGeneration() {
             totalGeneratedCount += 2;
           } else {
             generatedQuestions.push({
-              id: Date.now() + '-' + Math.random().toString(36).substring(2, 6),
+              id: newQuestionId(),
               language: lang,
               category: task.category.name,
               subcategory: task.blueprint.subcategory || '',
@@ -1108,7 +1106,7 @@ async function startGeneration() {
                 continue;
               }
               generatedQuestions.push({
-                id: `pl-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+                id: newQuestionId(),
                 language: 'pl',
                 category: task.category.name,
                 subcategory: qData.subcategory_pl || blueprint?.subcategory || '',
@@ -1119,7 +1117,7 @@ async function startGeneration() {
                 explanation_incorrect: qData.explanation_incorrect_pl || '',
               });
               generatedQuestions.push({
-                id: `en-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+                id: newQuestionId(),
                 language: 'en',
                 category: task.category.name,
                 subcategory: qData.subcategory_en || blueprint?.subcategory || '',
@@ -1135,7 +1133,7 @@ async function startGeneration() {
                 continue;
               }
               generatedQuestions.push({
-                id: Date.now() + '-' + Math.random().toString(36).substring(2, 6),
+                id: newQuestionId(),
                 language: lang,
                 category: task.category.name,
                 subcategory: qData.subcategory || blueprint?.subcategory || '',
@@ -1251,8 +1249,8 @@ function updateTable() {
             </td>
             <td class="px-4 py-3 text-center whitespace-nowrap">
                 <div class="flex gap-1 justify-center">
-                    <button class="edit-btn bg-slate-700 hover:bg-slate-600 text-white px-2 py-1 rounded text-xs transition-colors" data-id="${q.id}">✏️ ${currentLanguage === 'pl' ? 'Edytuj' : 'Edit'}</button>
-                    <button class="del-btn bg-red-950 hover:bg-red-900 border border-red-800 text-red-400 px-2 py-1 rounded text-xs transition-colors" data-id="${q.id}">🗑️</button>
+                    <button class="edit-btn bg-slate-700 hover:bg-slate-600 text-white px-2 py-1 rounded text-xs transition-colors" data-id="${escapeHtml(q.id)}">✏️ ${currentLanguage === 'pl' ? 'Edytuj' : 'Edit'}</button>
+                    <button class="del-btn bg-red-950 hover:bg-red-900 border border-red-800 text-red-400 px-2 py-1 rounded text-xs transition-colors" data-id="${escapeHtml(q.id)}">🗑️</button>
                 </div>
             </td>
             <td class="px-2 py-3 text-center text-lg">${q.explanation_correct || q.explanation_incorrect ? '💡' : ''}</td>
@@ -1388,10 +1386,18 @@ function saveModal() {
 
   if (currentEditId) {
     const idx = generatedQuestions.findIndex((x) => x.id === currentEditId);
-    if (idx !== -1) generatedQuestions[idx] = { ...generatedQuestions[idx], ...newData };
+    if (idx !== -1) {
+      const previous = generatedQuestions[idx];
+      const moved = previous.category !== cat || previous.language !== newData.language;
+      generatedQuestions[idx] = {
+        ...previous,
+        ...(moved && { sourcePack: undefined, sourceCategory: undefined }),
+        ...newData,
+      };
+    }
     showNotification(translations.gen_question_updated[currentLanguage]);
   } else {
-    newData.id = `man-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`;
+    newData.id = newQuestionId();
     generatedQuestions.push(newData);
     showNotification(translations.gen_question_added[currentLanguage]);
   }
@@ -1401,46 +1407,36 @@ function saveModal() {
 }
 
 // --- CMS: Eksport & Zapis ---
-function buildCategoryObj(catName, lang = null) {
-  const activeLang = lang || (UI.filterLang ? UI.filterLang.value : 'ALL');
-  let catQs = generatedQuestions.filter((q) => q.category === catName);
-  if (activeLang !== 'ALL') {
-    catQs = catQs.filter((q) => (q.language || 'pl') === activeLang);
+function buildCategoryObjects(catName, lang) {
+  const groups = new Map();
+  for (const q of generatedQuestions) {
+    const language = q.language || 'pl';
+    if (q.category !== catName || (lang !== 'ALL' && lang !== language)) continue;
+    const source = q.sourcePack;
+    const key = JSON.stringify([source?.metadata.id, source?.filename, language]);
+    if (!groups.has(key)) {
+      const id = source?.metadata.id || slugify(catName) + '_' + language;
+      groups.set(key, {
+        filename: source?.filename || id + '.json',
+        data: {
+          ...(source?.metadata || {
+            id,
+            name: catName,
+            language,
+            description:
+              currentLanguage === 'pl'
+                ? 'Baza wyeksportowana z edytora'
+                : 'Database exported from editor',
+            created_at: new Date().toISOString(),
+          }),
+          questions: [],
+        },
+      });
+    }
+    groups.get(key).data.questions.push(exportQuestion(q));
   }
-  if (catQs.length === 0) return null;
-
-  const catLang = activeLang !== 'ALL' ? activeLang : catQs[0].language || UI.dbLang.value || 'pl';
-
-  const latestVerifiedAt = catQs.reduce((latest, q) => {
-    if (!q.last_verified_at) return latest;
-    if (!latest) return q.last_verified_at;
-    return q.last_verified_at > latest ? q.last_verified_at : latest;
-  }, null);
-
-  const latestQ = catQs.find((q) => q.last_verified_at === latestVerifiedAt);
-  const verifyingModel = latestQ ? latestQ.verifying_model : null;
-
-  return {
-    id: slugify(catName) + '_' + catLang,
-    name: catName,
-    language: catLang,
-    description:
-      currentLanguage === 'pl' ? 'Baza wyeksportowana z edytora' : 'Database exported from editor',
-    created_at: new Date().toISOString(),
-    last_verified_at: latestVerifiedAt,
-    verifying_model: verifyingModel,
-    question_count: catQs.length,
-    questions: catQs.map((q) => ({
-      subcategory: q.subcategory,
-      question: q.question,
-      options: q.options,
-      answer: q.answer,
-      explanation_correct: q.explanation_correct,
-      explanation_incorrect: q.explanation_incorrect,
-      last_verified_at: q.last_verified_at || null,
-      verifying_model: q.verifying_model || null,
-    })),
-  };
+  for (const { data } of groups.values()) data.question_count = data.questions.length;
+  return [...groups.values()];
 }
 
 function slugify(t) {
@@ -1450,33 +1446,43 @@ function slugify(t) {
     .replace(/[\s-]+/g, '_');
 }
 
-async function saveCategoryToDirectory(catName, dirHandle = null) {
-  const activeLang = UI.filterLang ? UI.filterLang.value : 'ALL';
-  const obj = buildCategoryObj(catName, activeLang);
-  if (!obj) return null;
-  const json = JSON.stringify(obj, null, 2);
-  const fname = `${obj.id}.json`;
+async function writeCategoryFile(handle, data) {
+  const existing = await handle.getFile();
+  if (existing.size) requireExistingIds(JSON.parse(await existing.text()), data);
+  const writer = await handle.createWritable();
+  try {
+    await writer.write(JSON.stringify(data, null, 2));
+    await writer.close();
+  } catch (error) {
+    await writer.abort().catch(() => {});
+    throw error;
+  }
+}
+
+async function saveCategoryToDirectory(catName, dirHandle = null, language = null) {
+  const activeLang = language || UI.filterLang?.value || 'ALL';
+  const objects = buildCategoryObjects(catName, activeLang);
+  if (!objects.length) return null;
   const dir = dirHandle || openedDirHandle;
   try {
-    if (dir) {
-      const file = await dir.getFileHandle(fname, { create: true });
-      const w = await file.createWritable();
-      await w.write(json);
-      await w.close();
-    } else if (window.showSaveFilePicker) {
-      const h = await window.showSaveFilePicker({
-        suggestedName: fname,
-        types: [{ accept: { 'application/json': ['.json'] } }],
-      });
-      const w = await h.createWritable();
-      await w.write(json);
-      await w.close();
-    } else exportCategory(catName);
-    showNotification(translations.gen_saved_file[currentLanguage].replace('{file}', fname));
+    for (const { filename, data } of objects) {
+      if (dir) {
+        const handle = await dir.getFileHandle(filename, { create: true });
+        await writeCategoryFile(handle, data);
+      } else if (window.showSaveFilePicker) {
+        const handle = await window.showSaveFilePicker({
+          suggestedName: filename,
+          types: [{ accept: { 'application/json': ['.json'] } }],
+        });
+        await writeCategoryFile(handle, data);
+      } else downloadCategory(filename, data);
+      showNotification(translations.gen_saved_file[currentLanguage].replace('{file}', filename));
+    }
     return true;
-  } catch (err) {
-    if (err.name !== 'AbortError')
-      showNotification(translations.gen_save_error[currentLanguage], true);
+  } catch (error) {
+    if (error.name !== 'AbortError') {
+      showNotification(translations.gen_save_error[currentLanguage] + ' ' + error.message, true);
+    }
     return false;
   }
 }
@@ -1499,17 +1505,21 @@ async function saveCategoriesToDirectory() {
   for (const c of cats) await saveCategoryToDirectory(c, dir);
 }
 
-function exportCategory(catName) {
-  const activeLang = UI.filterLang ? UI.filterLang.value : 'ALL';
-  const obj = buildCategoryObj(catName, activeLang);
-  if (!obj) return;
-  const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+function downloadCategory(filename, data) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = `${obj.id}.json`;
+  link.download = filename;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+  setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+
+function exportCategory(catName) {
+  for (const { filename, data } of buildCategoryObjects(catName, UI.filterLang?.value || 'ALL')) {
+    downloadCategory(filename, data);
+  }
 }
 
 async function exportAllCategories() {
@@ -1543,14 +1553,11 @@ async function exportAllCategories() {
 
   try {
     const zip = new JSZip();
-    cats.forEach((catName) => {
-      const obj = buildCategoryObj(catName, activeLang);
-      if (obj) {
-        const json = JSON.stringify(obj, null, 2);
-        const fname = `${obj.id}.json`;
-        zip.file(fname, json);
+    for (const catName of cats) {
+      for (const { filename, data } of buildCategoryObjects(catName, activeLang)) {
+        zip.file(filename, JSON.stringify(data, null, 2));
       }
-    });
+    }
 
     const content = await zip.generateAsync({ type: 'blob' });
     const link = document.createElement('a');
@@ -2240,7 +2247,7 @@ function saveAllSpoilersChanges() {
 // --- Kompleksowa Weryfikacja Pytań AI ---
 function openVerifyModal() {
   activeVerifications = [];
-  verifiedInCurrentSession = new Set();
+  incompleteVerificationCount = 0;
   UI.verifyList.innerHTML = '';
   UI.verifyList.classList.add('hidden');
   UI.verifyLoading.classList.add('hidden');
@@ -2306,25 +2313,6 @@ async function startFullVerification() {
   const unverifiedOnly = UI.verifyUnverifiedOnly ? UI.verifyUnverifiedOnly.checked : false;
   const forceReverify = UI.verifyForceReverify ? UI.verifyForceReverify.checked : false;
 
-  if (forceReverify) {
-    const affectedCats = new Set();
-    generatedQuestions.forEach((q) => {
-      const langMatch = selectedLang === 'ALL' || (q.language || 'pl') === selectedLang;
-      const catMatch = selectedCat === 'ALL' || q.category === selectedCat;
-      const alreadyProcessed = verifiedInCurrentSession.has(q.id);
-      if (langMatch && catMatch && q.last_verified_at && !alreadyProcessed) {
-        delete q.last_verified_at;
-        delete q.verifying_model;
-        affectedCats.add(q.category);
-      }
-    });
-    if (openedDirHandle) {
-      for (const cat of affectedCats) {
-        await saveCategoryToDirectory(cat, openedDirHandle);
-      }
-    }
-  }
-
   let questionsToVerify = generatedQuestions;
 
   // Filter by language
@@ -2336,8 +2324,8 @@ async function startFullVerification() {
     questionsToVerify = questionsToVerify.filter((q) => q.category === selectedCat);
   }
   // Filter by unverified status if in serial mode
-  if (unverifiedOnly) {
-    questionsToVerify = questionsToVerify.filter((q) => !q.last_verified_at);
+  if (unverifiedOnly && !forceReverify) {
+    questionsToVerify = questionsToVerify.filter((q) => !currentVerification(q));
   }
 
   if (questionsToVerify.length === 0) {
@@ -2358,7 +2346,7 @@ async function startFullVerification() {
   UI.verifyStatusMsg.textContent = '';
 
   activeVerifications = [];
-  activeVerifyingModel = model;
+  incompleteVerificationCount = 0;
 
   // Group questions by language to avoid language confusion
   const groupsByLang = {};
@@ -2370,8 +2358,7 @@ async function startFullVerification() {
     groupsByLang[lang].push(q);
   });
 
-  // Batch size: up to 100 questions (as approved by the user)
-  const batchSize = 100;
+  const batchSize = 50;
   const batches = [];
   for (const lang of Object.keys(groupsByLang)) {
     const list = groupsByLang[lang];
@@ -2385,7 +2372,7 @@ async function startFullVerification() {
       const batch = batches[b];
       const simpleBatch = batch.map((q) => ({
         id: q.id,
-        category: q.category,
+        category: q.sourceCategory || q.category,
         subcategory: q.subcategory || '',
         language: q.language || 'pl',
         question: q.question,
@@ -2412,48 +2399,38 @@ async function startFullVerification() {
 
       const res = await callLLM(provider, model, system, prompt);
 
-      // Map questions that passed verification as-is (no corrections requested)
-      const affectedCats = new Set();
-      batch.forEach((q) => {
-        const hasSug = res && res.suggestions && res.suggestions.some((sug) => sug.id === q.id);
-        if (!hasSug) {
-          const mainIdx = generatedQuestions.findIndex((x) => x.id === q.id);
-          if (mainIdx !== -1) {
-            generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
-            generatedQuestions[mainIdx].verifying_model = model;
-            verifiedInCurrentSession.add(q.id);
-            affectedCats.add(q.category);
-          }
+      const response = verificationResponse(simpleBatch, res);
+      incompleteVerificationCount += response.missing + response.invalid;
+      const affected = new Map();
+      for (const snapshot of simpleBatch) {
+        const result = response.results.get(snapshot.id);
+        if (!result) continue;
+        const q = generatedQuestions.find((question) => question.id === snapshot.id);
+        const fingerprint = questionFingerprint(snapshot);
+        if (!q || !(await storeVerification(q, fingerprint, result, model))) {
+          incompleteVerificationCount++;
+          continue;
         }
-      });
-
-      if (openedDirHandle) {
-        for (const cat of affectedCats) {
-          await saveCategoryToDirectory(cat, openedDirHandle);
+        affected.set(JSON.stringify([q.category, q.language]), q);
+        if (result.status === 'issues_found' && result.suggested) {
+          const suggestion = result.suggested;
+          activeVerifications.push({
+            questionObj: q,
+            fingerprint,
+            confidence: typeof result.confidence === 'string' ? result.confidence : 'medium',
+            issues: result.issues.filter((issue) => typeof issue === 'string'),
+            newQuestionText: suggestion.question || q.question,
+            newAnswerText: suggestion.answer || q.answer,
+            newOptions: Array.isArray(suggestion.options) ? suggestion.options : [...q.options],
+            explanationCorrect: suggestion.explanation_correct || q.explanation_correct || '',
+            explanationIncorrect: suggestion.explanation_incorrect || q.explanation_incorrect || '',
+          });
         }
       }
-
-      if (res && res.suggestions && Array.isArray(res.suggestions)) {
-        res.suggestions.forEach((sug) => {
-          const origQ = batch.find((q) => q.id === sug.id);
-          if (origQ && sug.suggested) {
-            activeVerifications.push({
-              questionObj: origQ,
-              confidence: sug.confidence || 'medium',
-              issues: sug.issues || ['Wymaga poprawy / Needs correction'],
-              newQuestionText: sug.suggested.question || origQ.question,
-              newAnswerText: sug.suggested.answer || origQ.answer,
-              newOptions:
-                sug.suggested.options && Array.isArray(sug.suggested.options)
-                  ? sug.suggested.options
-                  : [...origQ.options],
-              explanationCorrect:
-                sug.suggested.explanation_correct || origQ.explanation_correct || '',
-              explanationIncorrect:
-                sug.suggested.explanation_incorrect || origQ.explanation_incorrect || '',
-            });
-          }
-        });
+      if (openedDirHandle) {
+        for (const q of affected.values()) {
+          await saveCategoryToDirectory(q.category, openedDirHandle, q.language);
+        }
       }
     }
 
@@ -2467,6 +2444,15 @@ async function startFullVerification() {
   } finally {
     UI.verifyLoading.classList.add('hidden');
   }
+}
+
+function verificationStatus(count) {
+  const message = translations.gen_verify_status_msg[currentLanguage].replace('{count}', count);
+  const incomplete =
+    currentLanguage === 'pl' ? 'Brak lub błąd wyniku' : 'Missing or invalid results';
+  UI.verifyStatusMsg.textContent = incompleteVerificationCount
+    ? `${message} · ${incomplete}: ${incompleteVerificationCount}`
+    : message;
 }
 
 function renderVerificationList() {
@@ -2489,7 +2475,7 @@ function renderVerificationList() {
       remainingCount = generatedQuestions.filter((q) => {
         const langMatch = selectedLang === 'ALL' || (q.language || 'pl') === selectedLang;
         const catMatch = selectedCat === 'ALL' || q.category === selectedCat;
-        const isUnverified = !q.last_verified_at;
+        const isUnverified = !currentVerification(q);
         return langMatch && catMatch && isUnverified;
       }).length;
     }
@@ -2499,7 +2485,7 @@ function renderVerificationList() {
         <div class="flex flex-col items-center justify-center py-16 text-center">
           <span class="text-3xl mb-2">⏭️</span>
           <p class="text-gray-400 text-sm font-semibold mb-2">${translations.gen_verify_unverified_pool_status[currentLanguage].replace('{count}', remainingCount)}</p>
-          <p class="text-gray-500 text-xs">${currentLanguage === 'pl' ? 'Wszystkie pytania z poprzedniej partii zostały przetworzone. Kliknij przycisk poniżej, aby weryfikować kolejne 500 pytań.' : 'All questions from the previous batch have been processed. Click the button below to verify the next 500 questions.'}</p>
+          <p class="text-gray-500 text-xs">${currentLanguage === 'pl' ? 'Kliknij przycisk poniżej, aby weryfikować pozostałe pytania.' : 'Use the button below to review remaining questions.'}</p>
         </div>
       `;
       UI.nextBatchVerifyBtn.innerHTML = `⏭️ ${translations.gen_verify_next_batch_btn[currentLanguage].replace('{count}', remainingCount)}`;
@@ -2511,8 +2497,8 @@ function renderVerificationList() {
           <p class="text-gray-400 text-sm font-semibold">${
             unverifiedOnly
               ? currentLanguage === 'pl'
-                ? 'Wszystkie pytania zostały zweryfikowane! Pula wyczerpana.'
-                : 'All questions have been verified! Pool exhausted.'
+                ? 'Brak pytań bez aktualnego wyniku kontroli.'
+                : 'Every question has a current review outcome.'
               : translations.gen_verify_none[currentLanguage]
           }</p>
         </div>
@@ -2522,20 +2508,14 @@ function renderVerificationList() {
 
     UI.verifyList.classList.remove('hidden');
     UI.saveAllVerifyBtn.classList.add('hidden');
-    UI.verifyStatusMsg.textContent = translations.gen_verify_status_msg[currentLanguage].replace(
-      '{count}',
-      0
-    );
+    verificationStatus(0);
     return;
   }
 
   UI.nextBatchVerifyBtn.classList.add('hidden');
   UI.saveAllVerifyBtn.classList.remove('hidden');
   UI.verifyList.classList.remove('hidden');
-  UI.verifyStatusMsg.textContent = translations.gen_verify_status_msg[currentLanguage].replace(
-    '{count}',
-    displayed.length
-  );
+  verificationStatus(displayed.length);
 
   displayed.forEach((item) => {
     const index = activeVerifications.indexOf(item);
@@ -2563,13 +2543,13 @@ function renderVerificationList() {
 
     // Verification metadata HTML badge
     let verificationMetaHtml = '';
-    if (item.questionObj.last_verified_at) {
-      const dateStr = new Date(item.questionObj.last_verified_at).toLocaleString(
+    if (currentVerification(item.questionObj)) {
+      const dateStr = new Date(item.questionObj.verification.date).toLocaleString(
         currentLanguage === 'pl' ? 'pl-PL' : 'en-US'
       );
       verificationMetaHtml = `
         <span class="flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] bg-slate-800 text-gray-300 border border-slate-700">
-          <span>🛡️</span> <strong>${translations.gen_verify_last_verified[currentLanguage]}:</strong> ${dateStr} (${item.questionObj.verifying_model || 'AI'})
+          <span>🛡️</span> <strong>${translations.gen_verify_last_verified[currentLanguage]}:</strong> ${dateStr} (${escapeHtml(item.questionObj.verification.model || 'AI')})
         </span>
       `;
     } else {
@@ -2583,15 +2563,15 @@ function renderVerificationList() {
     card.innerHTML = `
       <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pb-3 border-b border-slate-800">
         <div class="flex items-center gap-2 flex-wrap text-white">
-          <span class="bg-indigo-950 bg-opacity-50 text-indigo-300 font-semibold px-2 py-0.5 rounded uppercase tracking-wider text-[10px]">${item.questionObj.category}</span>
+          <span class="bg-indigo-950 bg-opacity-50 text-indigo-300 font-semibold px-2 py-0.5 rounded uppercase tracking-wider text-[10px]">${escapeHtml(item.questionObj.category)}</span>
           ${
             item.questionObj.subcategory
-              ? `<span class="bg-slate-800 text-gray-400 px-2 py-0.5 rounded text-[10px]">${item.questionObj.subcategory}</span>`
+              ? `<span class="bg-slate-800 text-gray-400 px-2 py-0.5 rounded text-[10px]">${escapeHtml(item.questionObj.subcategory)}</span>`
               : ''
           }
-          <span class="bg-slate-800 text-indigo-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">${
+          <span class="bg-slate-800 text-indigo-400 font-bold px-2 py-0.5 rounded text-[10px] uppercase">${escapeHtml(
             item.questionObj.language || 'pl'
-          }</span>
+          )}</span>
           <span class="flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] ${badgeColor}">
             <span>🎯</span> <strong>${translations.gen_verify_confidence[currentLanguage]}:</strong> ${badgeText}
           </span>
@@ -2612,7 +2592,7 @@ function renderVerificationList() {
           translations.gen_verify_th_issues[currentLanguage]
         }:</span>
         <ul class="list-disc list-inside space-y-0.5 pl-1">
-          ${item.issues.map((issue) => `<li>${issue}</li>`).join('')}
+          ${item.issues.map((issue) => `<li>${escapeHtml(issue)}</li>`).join('')}
         </ul>
       </div>
 
@@ -2626,9 +2606,9 @@ function renderVerificationList() {
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_q_text[currentLanguage]
             }:</label>
-            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${
+            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${escapeHtml(
               item.questionObj.question
-            }</div>
+            )}</div>
           </div>
           <div>
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
@@ -2642,7 +2622,7 @@ function renderVerificationList() {
                     isCorrect
                       ? 'bg-emerald-950 bg-opacity-20 border-emerald-800 border-opacity-40 text-emerald-400 font-semibold'
                       : 'bg-slate-950 bg-opacity-45 border-slate-900 border-opacity-60 text-gray-400'
-                  } break-words">${opt}</div>`;
+                  } break-words">${escapeHtml(opt)}</div>`;
                 })
                 .join('')}
             </div>
@@ -2651,17 +2631,17 @@ function renderVerificationList() {
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_explanation_correct[currentLanguage]
             }:</label>
-            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${
-              item.questionObj.explanation_correct || ''
-            }</div>
+            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${escapeHtml(
+              item.questionObj.explanation_correct
+            )}</div>
           </div>
           <div>
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_explanation_incorrect[currentLanguage]
             }:</label>
-            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${
-              item.questionObj.explanation_incorrect || ''
-            }</div>
+            <div class="text-gray-300 bg-slate-950 bg-opacity-45 px-2.5 py-1.5 rounded border border-slate-900 border-opacity-60 break-words whitespace-pre-line">${escapeHtml(
+              item.questionObj.explanation_incorrect
+            )}</div>
           </div>
         </div>
 
@@ -2674,9 +2654,9 @@ function renderVerificationList() {
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_q_text[currentLanguage]
             }:</label>
-            <textarea class="verify-q-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
+            <textarea class="verify-q-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${escapeHtml(
               item.newQuestionText
-            }</textarea>
+            )}</textarea>
           </div>
           <div>
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
@@ -2686,7 +2666,7 @@ function renderVerificationList() {
               ${item.newOptions
                 .map(
                   (opt, optIdx) => `
-                <input type="text" class="verify-opt-input w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" data-index="${index}" data-opt-idx="${optIdx}" value="${opt}">
+                <input type="text" class="verify-opt-input w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" data-index="${index}" data-opt-idx="${optIdx}" value="${escapeHtml(opt)}">
               `
                 )
                 .join('')}
@@ -2700,7 +2680,7 @@ function renderVerificationList() {
               ${item.newOptions
                 .map(
                   (opt) => `
-                <option value="${opt}" ${opt === item.newAnswerText ? 'selected' : ''}>${opt}</option>
+                <option value="${escapeHtml(opt)}" ${opt === item.newAnswerText ? 'selected' : ''}>${escapeHtml(opt)}</option>
               `
                 )
                 .join('')}
@@ -2710,17 +2690,17 @@ function renderVerificationList() {
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_explanation_correct[currentLanguage]
             }:</label>
-            <textarea class="verify-exp-c-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
-              item.explanationCorrect || ''
-            }</textarea>
+            <textarea class="verify-exp-c-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${escapeHtml(
+              item.explanationCorrect
+            )}</textarea>
           </div>
           <div>
             <label class="block text-[9px] text-gray-500 font-semibold mb-0.5">${
               translations.gen_modal_explanation_incorrect[currentLanguage]
             }:</label>
-            <textarea class="verify-exp-i-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${
-              item.explanationIncorrect || ''
-            }</textarea>
+            <textarea class="verify-exp-i-textarea w-full px-2.5 py-1.5 bg-slate-850 border border-slate-700 rounded text-white focus:border-indigo-500 outline-none" rows="2" data-index="${index}">${escapeHtml(
+              item.explanationIncorrect
+            )}</textarea>
           </div>
         </div>
       </div>
@@ -2772,33 +2752,18 @@ function renderVerificationList() {
 
     // Accept/Reject buttons
     card.querySelector('.accept-verify-btn').addEventListener('click', async () => {
-      const mainIdx = generatedQuestions.findIndex((x) => x.id === item.questionObj.id);
-      if (mainIdx !== -1) {
-        generatedQuestions[mainIdx].question = item.newQuestionText;
-        generatedQuestions[mainIdx].answer = item.newAnswerText;
-        generatedQuestions[mainIdx].options = [...item.newOptions];
-        generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect;
-        generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect;
-        generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
-        generatedQuestions[mainIdx].verifying_model = activeVerifyingModel || 'AI';
-        verifiedInCurrentSession.add(item.questionObj.id);
-      }
+      const question = applyVerificationSuggestion(item);
+      if (!question) return;
       activeVerifications.splice(index, 1);
       showNotification(translations.gen_verify_saved_single[currentLanguage]);
       renderVerificationList();
       updateTable();
       if (openedDirHandle) {
-        await saveCategoryToDirectory(item.questionObj.category, openedDirHandle);
+        await saveCategoryToDirectory(question.category, openedDirHandle, question.language);
       }
     });
 
-    card.querySelector('.reject-verify-btn').addEventListener('click', async () => {
-      const mainIdx = generatedQuestions.findIndex((x) => x.id === item.questionObj.id);
-      if (mainIdx !== -1) {
-        generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
-        generatedQuestions[mainIdx].verifying_model = activeVerifyingModel || 'AI';
-        verifiedInCurrentSession.add(item.questionObj.id);
-      }
+    card.querySelector('.reject-verify-btn').addEventListener('click', () => {
       activeVerifications.splice(index, 1);
       showNotification(
         currentLanguage === 'pl'
@@ -2806,55 +2771,68 @@ function renderVerificationList() {
           : 'Rejected correction suggestion.'
       );
       renderVerificationList();
-      updateTable();
-      if (openedDirHandle) {
-        await saveCategoryToDirectory(item.questionObj.category, openedDirHandle);
-      }
     });
 
     UI.verifyList.appendChild(card);
   });
 }
 
-function saveAllVerifications() {
-  if (activeVerifications.length === 0) return;
-
-  const affectedCats = new Set();
-  let countSaved = 0;
-  activeVerifications.forEach((item) => {
-    const mainIdx = generatedQuestions.findIndex((x) => x.id === item.questionObj.id);
-    if (mainIdx !== -1) {
-      generatedQuestions[mainIdx].question = item.newQuestionText;
-      generatedQuestions[mainIdx].answer = item.newAnswerText;
-      generatedQuestions[mainIdx].options = [...item.newOptions];
-      generatedQuestions[mainIdx].explanation_correct = item.explanationCorrect;
-      generatedQuestions[mainIdx].explanation_incorrect = item.explanationIncorrect;
-      generatedQuestions[mainIdx].last_verified_at = new Date().toISOString();
-      generatedQuestions[mainIdx].verifying_model = activeVerifyingModel || 'AI';
-      verifiedInCurrentSession.add(item.questionObj.id);
-      affectedCats.add(item.questionObj.category);
-      countSaved++;
-    }
+function applyVerificationSuggestion(item) {
+  const q = generatedQuestions.find((question) => question.id === item.questionObj.id);
+  if (!q || questionFingerprint(q) !== item.fingerprint) {
+    showNotification(
+      currentLanguage === 'pl'
+        ? 'Pytanie zmieniło się od czasu kontroli.'
+        : 'The question changed since review.',
+      true
+    );
+    return null;
+  }
+  if (
+    typeof item.newQuestionText !== 'string' ||
+    !item.newQuestionText.trim() ||
+    item.newOptions.length !== 4 ||
+    item.newOptions.some((o) => typeof o !== 'string' || !o.trim()) ||
+    new Set(item.newOptions.map((o) => o.trim().toLowerCase())).size !== 4 ||
+    !item.newOptions.includes(item.newAnswerText)
+  ) {
+    showNotification(
+      currentLanguage === 'pl'
+        ? 'Sugestia ma niepoprawną strukturę.'
+        : 'The suggestion has an invalid structure.',
+      true
+    );
+    return null;
+  }
+  Object.assign(q, {
+    question: item.newQuestionText,
+    answer: item.newAnswerText,
+    options: [...item.newOptions],
+    explanation_correct: item.explanationCorrect,
+    explanation_incorrect: item.explanationIncorrect,
   });
+  return q;
+}
 
-  activeVerifications = [];
-  showNotification(
-    translations.gen_verify_saved_all[currentLanguage].replace('{count}', countSaved)
-  );
+async function saveAllVerifications() {
+  if (!activeVerifications.length) return;
+  const affected = new Map();
+  let count = 0;
+  activeVerifications = activeVerifications.filter((item) => {
+    const question = applyVerificationSuggestion(item);
+    if (!question) return true;
+    affected.set(JSON.stringify([question.category, question.language]), question);
+    count++;
+    return false;
+  });
+  showNotification(translations.gen_verify_saved_all[currentLanguage].replace('{count}', count));
   updateTable();
-
   if (openedDirHandle) {
-    affectedCats.forEach((cat) => {
-      saveCategoryToDirectory(cat, openedDirHandle);
-    });
+    for (const q of affected.values()) {
+      await saveCategoryToDirectory(q.category, openedDirHandle, q.language);
+    }
   }
-
-  const unverifiedOnly = UI.verifyUnverifiedOnly ? UI.verifyUnverifiedOnly.checked : false;
-  if (unverifiedOnly) {
-    renderVerificationList();
-  } else {
-    closeVerifyModal();
-  }
+  renderVerificationList();
 }
 
 window.addEventListener('DOMContentLoaded', initialize);

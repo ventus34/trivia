@@ -81,6 +81,10 @@ python3 -m http.server 8220
 
 The game will be available at: `http://127.0.0.1:8220`.
 
+### Question database CLI
+
+Use `./trivia index`, `./trivia search` and `./trivia lint` to inspect the local question database. See the [CLI guide](docs/trivia-cli.md) for review tasks, patches and pack publication.
+
 ### Automatic Database Scanning
 
 After committing a new `.json` database file to the `/databases` folder, run the scan script to automatically update the `list.json` index:

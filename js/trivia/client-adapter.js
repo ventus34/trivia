@@ -8,6 +8,7 @@ import { initializeApp } from './main.js';
 import { gameState, setState } from './state.js';
 import { translations } from './config.js';
 import { notify } from './error-bus.js';
+import { resolveCategoryIds } from './category-selection.js';
 
 function readJsonSetting(key, fallback, validate) {
   try {
@@ -98,7 +99,17 @@ const clientAdapter = {
         }
       }
 
-      const fetchPromises = gameState.selectedCategoryIds.map(async (id) => {
+      const selectedIds = resolveCategoryIds(
+        gameState.selectedCategoryIds,
+        gameState.allCategories
+      );
+      gameState.selectedCategoryIds = selectedIds;
+      if (selectedIds.length !== 6) {
+        console.warn('Need six distinct categories after resolving saved category IDs.');
+        return;
+      }
+
+      const fetchPromises = selectedIds.map(async (id) => {
         const cat = gameState.allCategories?.find((c) => c.id === id);
         if (!cat) {
           console.warn(`Category not found in index: ${id}`);

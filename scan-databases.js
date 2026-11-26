@@ -100,7 +100,8 @@ try {
         created_at: data.created_at || new Date().toISOString(),
         updated_at: data.updated_at || new Date().toISOString(),
         question_count: data.question_count || (data.questions ? data.questions.length : 0),
-        path: relPath
+        path: relPath,
+        ...(Array.isArray(data.aliases) && data.aliases.length ? { aliases: data.aliases } : {})
       });
     } catch (e) {
       console.error(`Failed to parse database file ${filePath}:`, e.message);

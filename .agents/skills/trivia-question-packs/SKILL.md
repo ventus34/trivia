@@ -1,6 +1,6 @@
 ---
 name: trivia-question-packs
-description: Projektowy skill gry Trivia (ventus34/trivia). Dla listy kategorii przygotuj blueprinty subkategoria + odpowiedź, deleguj generowanie pytań według kategorii i publikuj paczki przez commit oraz push. Domyślnie 100 nowych pytań na kategorię.
+description: Projektowy skill gry Trivia (ventus34/trivia). Dla listy kategorii przygotuj blueprinty, generuj i waliduj kandydatów z globalnym indeksem Trivia oraz publikuj nowe paczki zgodnie z zakresem zadania. Domyślnie 100 nowych pytań na kategorię.
 ---
 
 # Paczki pytań Trivia
@@ -28,7 +28,7 @@ Sprawdź aktualny format w `databases/categories/`, `databases/list.json` i `js/
 
 ### 1. Blueprinty wszystkich kategorii
 
-Zanim zaczniesz pisać pytania, przygotuj dla każdej kategorii pełną listę **par `subcategory` + `target_answer`**, po jednej na zamówione pytanie. Blueprint ustala konkretną odpowiedź i dziedzinę; nie wymaga jeszcze treści pytania ani dystraktorów. To osobny etap planowania, nie opis dopisany do gotowych pytań. Nazwa `target_answer` jest zgodna z istniejącymi promptami w `prompts.json`; przydatne są też `generate_blueprints` i `generate_question_from_blueprint`. Opcjonalny `modifier` może doprecyzować zamysł, ale nie jest wymagany dla każdej pary.
+Zanim zaczniesz pisać pytania, przygotuj dla każdej kategorii pełną listę **par `subcategory` + `target_answer`**, po jednej na zamówione pytanie. Blueprint ustala konkretną odpowiedź i dziedzinę; nie wymaga jeszcze treści pytania ani dystraktorów. To osobny etap planowania, nie opis dopisany do gotowych pytań. Nazwa `target_answer` jest zgodna z istniejącymi promptami w `prompts.json`; przydatne są też `generate_blueprints` i `generate_question_from_blueprint`. Opcjonalny `target_fact` opisuje konkretny fakt sprawdzany przez pytanie. Opcjonalny `modifier` może wskazać styl generowania.
 
 Przykład fragmentu blueprintów dla kategorii „Kuchnie świata”:
 
@@ -49,9 +49,9 @@ Przed delegowaniem przejrzyj i sprawdź programowo liczebność oraz unikalnoś�
 
 Sol koordynuje komplet blueprintów przed uruchomieniem drugiego etapu. Brakujące lub odrzucone pozycje uzupełnij na tym etapie; nie kompensuj ich przypadkowymi pytaniami dopisanymi później. Nie jest potrzebne osobne zatwierdzenie blueprintów przez użytkownika, chyba że o to poprosi.
 
-### 2. Pytania delegowane według kategorii
+### 2. Generowanie kandydatów
 
-Deleguj generowanie pełnych pytań do subagentów wykonawczych (Luna zgodnie z zasadami współpracy projektu): jeden przydział obejmuje jedną kategorię i jej ustalony komplet blueprintów. Kategorie mogą powstawać równolegle w granicach dostępnych slotów; nadmiar uruchamiaj kolejno. Jeśli delegowanie jest niedostępne albo użytkownik je wyłączył, wykonaj ten sam drugi etap samodzielnie, zachowując blueprinty.
+Domyślnie generuj samodzielnie. W razie wymiernej korzyści deleguj niezależne kategorie z gotowymi blueprintami. Zapisuj kandydatów partiami poza opublikowanymi bazami i wznawiaj od brakujących pozycji.
 
 Przekaż subagentowi plik blueprintów, nazwę i ID paczki, język, trudność, wymagany format pytań oraz wyłączną ścieżkę jego pliku wynikowego. Przekaż też istotne stare pytania lub wykluczenia dla tej kategorii. Subagent zapisuje kandydat poza bazami gry; nie edytuje indeksu, cache ani plików innych kategorii i nie wykonuje commita lub pushu. Sol odpowiada za wspólną integrację i publikację.
 
@@ -90,20 +90,12 @@ Przykład pokazuje strukturę jednego pytania; docelowa tablica ma zawierać pe�
 
 ## Integracja i sprawdzenie
 
-Użyj [scripts/prepare_packs.py](scripts/prepare_packs.py) z `--blueprints-dir` wskazującym ustalone blueprinty. Domyślnie wykonuje tylko kontrolę i pokazuje plan. `--write` dodaje nowe pliki, indeksuje je i zwiększa wersję cache w `sw.js`. Nie wykonuje żadnych operacji Git ani sieciowych.
+Użyj narzędzia z katalogu repozytorium i [dokumentacji CLI](../../../docs/trivia-cli.md).
 
-```bash
-python3 /ABSOLUTE/SKILL/DIR/scripts/prepare_packs.py --repo /PATH/TO/TRIVIA --blueprints-dir /TMP/blueprints --count 100 /TMP/pack-a.json /TMP/pack-b.json
-python3 /ABSOLUTE/SKILL/DIR/scripts/prepare_packs.py --repo /PATH/TO/TRIVIA --blueprints-dir /TMP/blueprints --count 100 --write /TMP/pack-a.json /TMP/pack-b.json
-```
-
-Podstaw rzeczywiste ścieżki. Dla różnych liczebności uruchom osobno grupy o tej samej liczbie. Skrypt uzupełnia rzeczywiste `question_count`, `created_at` i `updated_at`; sprawdza strukturę, kolizje ID i nazw, duplikaty tekstów pytań w tym samym języku, także względem istniejących baz. Z `--blueprints-dir` sprawdza też liczebność i unikalność celów oraz zgodność każdej pary podkategoria–odpowiedź z pytaniem na tej samej pozycji. Nie wykrywa automatycznie aliasów ani duplikatów znaczeniowych — to część przeglądu Sola. Napraw błędy przed zapisem. Nie omijaj kontroli tylko po to, by uzyskać oczekiwaną liczbę.
-
-Skrypt aktualizuje wyłącznie nowe wpisy indeksu, zachowując stare metadane. Repozytoryjne `npm run scan-db` może dodatkowo przepisać opisy i daty istniejących baz, więc do zwykłego dodawania paczek nie jest potrzebne. Jeśli format repozytorium zmienił się względem helpera, dostosuj integrację do aktualnego loadera i sprawdź cały diff.
-
-**Cache jest częścią publikacji:** `databases/list.json` jest obecnie serwowane jako Cache First. Zmiana samego JSON nie wystarczy u użytkownika z zainstalowaną PWA. Zwiększenie `CACHE_NAME` uruchamia ponowną instalację service workera i pobranie indeksu. Nie dodawaj osobno każdego pliku do `PRECACHE_ASSETS`: worker czyta indeks. Jeśli strategia cache została zmieniona, zweryfikuj aktualny mechanizm odświeżenia.
-
-Sprawdź diff, wczytanie każdego nowego wpisu indeksu i liczbę pytań oraz `node --check sw.js` i `npm test`. Sprawdź również, że pytania przechodzą przez aktualny adapter gry z czterema opcjami i poprawnym `answer`. Gra wymaga sześciu wybranych kategorii: mniej nowych kategorii uzupełnia się istniejącymi; nie generuj dodatkowych kategorii bez zamówienia.
+1. Odśwież indeks poleceniem `./trivia index`. Sprawdź `packs topics --theme`, `packs related` i `answer`, żeby wykorzystać istniejące pytania jako kontekst. Waliduj blueprinty przez `packs validate-blueprints`.
+2. Uruchom `packs validate` i `packs import --dry-run` z kompletnym kandydatem oraz `--blueprints`. Sprawdź ostrzeżenia i przeprowadź wymagane kontrole treści.
+3. Uruchom `packs import`, żeby przydzielić stabilne ID i zapisać paczkę w stagingu. Odczytaj ID i hashe przez `packs inspect-staged`. Zapisz wyniki przeglądu dla każdego pytania zgodnie z dokumentacją.
+4. Użyj `packs publish --dry-run --reviews PLIK`. Podgląd obejmuje paczkę, manifest i wersję cache. Następnie wykonaj publikację lokalną i testy zgodnie z zakresem zadania. CLI wywołuje istniejący walidator publikacji w `scripts/prepare_packs.py`.
 
 ## Commit, push i dostępność
 
